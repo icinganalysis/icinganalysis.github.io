@@ -1,2 +1,2 @@
 # icinganalysis.github.io
-Information about aircraft icing analysis 42
+Information about aircraft icing analysis
