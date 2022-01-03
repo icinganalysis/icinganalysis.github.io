@@ -1,0 +1,61 @@
+Title: Implementation of drop size distributions in Python   
+Category: python tools
+tags: cylinder
+status: draft
+
+> ###"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]
+
+##Summary  
+The effect of drop size distribution correlations for water drop impingement on a cylinder from 
+is implemented in the Python programming language. 
+
+##Discussion
+
+"Mathematical Investigation of Water Droplet Trajectories" [^1] provides definitions for assumed water drop size distributions. 
+Those distributions were used to calculated the water impingement efficiency on a cylinder. 
+
+The differences in impingement efficiencies (Em) were summarized in Table XI for the water drop size distributions (A, B, C, D, E).
+
+> Table XI data for Kφ=10000
+
+|1/K    |Em A   |Em B   |Em C   |Em D   |Em E  |
+|---    |---    |---    |---    |---    |---   |
+|4  	|0.009	|0.0125	|0.0193	|0.0296	|0.0426|
+|2	    |0.044	|0.0541	|0.0677	|0.083	|0.1036|
+|1	    |0.149	|0.155	|0.167	|0.185	|0.203 |
+|0.5	|0.314	|0.313	|0.318	|0.327	|0.336 |
+|0.2	|0.582	|0.556	|0.546	|0.536	|0.532 |
+|0.1	|0.736	|0.715	|0.7 	|0.684	|0.668 |
+|0.05	|0.848	|0.83	|0.816	|0.799	|0.781 |
+|0.02	|0.932	|0.921	|0.914	|0.898	|0.88  |
+|0.01	|0.965	|		|	    |       |      |
+
+The K value for the distributions is calculated at the "volume-mean" drop diameter.
+
+The ["Implementation of cylinder impingement correlations in Python"]({filename}Implementation of cylinder impingement correlations in Python.md) 
+was updated to include the drop size definitions from Table IX. 
+
+Values calculated with the updated Python tool compare well to the Table XI values: 
+
+![A graph of log(1/K) vs. Em for Kφ=10000 for the drop size distributions
+The E distribution tends to give the lowest Em value at low values of 1/K,
+and the highest Em values at high values of 1/K](/images/calculation_verification_table_XI_k_phi=10000.png)
+
+The choice of 1/K for the X axis was deliberate, as 1/K is proportional to cylinder diameter or radius C. 
+The Y axis Em is proportional to experimentally measured ice mass on a cylinder.
+ 
+> A curve was prepared in which Em was plotted against 1/K on double logarithmic paper for a constant value of Κφ which was taken to be 10000.
+
+>The experimental data are compared with the theoretical curve by superimposing one
+sheet on the other, sliding the upper sheet (with the axis of coordinates parallel
+for the two sheets) until the two curves coincide at the end where C is small.
+
+So here is the log-log version of the calculation:
+![A graph of log(1/K) vs. log(Em) for Kφ=10000 for the drop size distributions
+The E distribution tends to give the lowest Em value at low values of 1/K,
+and the highest Em values at high values of 1/K](/images/calculation_verification_table_XI_k_phi=10000_log.png)
+
+
+##Notes:
+[^1]:  
+[Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)

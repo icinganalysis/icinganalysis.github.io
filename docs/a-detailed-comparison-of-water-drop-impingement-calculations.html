@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>A Detailed Comparison of Water Drop Impingement Calculations</title>
+        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <meta name="description" content=""The discrepancies are of the magnitude to be expected from ... the step by step integration" Summary Water drop impingement calculations on a..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="https://icinganalysis.github.io/pages/diversions.html">Diversions</a></li>
+                    <li><a href="https://icinganalysis.github.io/pages/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
+           title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2021-12-31T12:16:34-08:00">
+                Published: Fri 31 December 2021
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2021-12-31T12:16:34-08:00">-->
+                <!--Updated: Fri 31 December 2021-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->      <blockquote>
+<h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
+</blockquote>
+<h2>Summary</h2>
+<p>Water drop impingement calculations on a cylinder from 
+"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
+and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are compared.</p>
+<h2>Key Points</h2>
+<ol>
+<li>There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.</li>
+<li>When the conditions are revised to match, the comparison with NACA-TN-779 data improves.</li>
+</ol>
+<h2>Discussion</h2>
+<h3>NACA-TN-779</h3>
+<p>In NACA-TN-779, the water drop impingement on a cylinder 12 inch in diameter, with an airspeed of 200 mph, was analyzed. 
+The altitude was not noted. Water drop diameters from 0.002 inch (about 8 micrometer) to 0.1 inch 
+(about 4000 micrometer) were considered, as shown below.
+<img alt="Swept Area" src="images/naca-tn-779/tn-779-area.png" title="Swept area cleared of drops"></p>
+<p>The “swept area of cleared drops” represents what fraction of the water drops in the 
+forward projected area of the cylinder impinge on the cylinder. 
+In more modern terms, this is the total water impingement efficiency, Em, of reference <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  </p>
+<h3>Comparison to NACA-TN-779</h3>
+<p>"Mathematical Investigation of Water Droplet Trajectories" includes a comparison to the NACA-TN-779 data 
+("Kantrovitz" [sic] in Table IV(a)). (see <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> for an explanation of terms such as φ)</p>
+<p><img alt="Table IV" src="images/Mathematical Investigation of Water Droplet Trajectories/table_iv.png"></p>
+<p>Note that Table IV(a) is in a section titled "φ = 0. Stokes' Law Applies", 
+so presumably the values in Table IV are also for φ = 0.</p>
+<p>In Table IV(a), it is stated that of the column (3) data "They correspond to the case φ = 16000". 
+As NACA-TN-779 did not state an altitude or pressure value it is not clear how the φ value was determined.<br>
+The pressure altitude for that case would be 2076 m. </p>
+<p>For the row with "Droplet diam. (mils)" = 2, the "Em D.A." value is 0.76. </p>
+<p>When Figure 2 is used to determine the Em value at K=5 as shown below, 
+the Em = 0.76 value is found at φ = 0. 
+So, it appears that the "Em D.A." column of Figure IV do indeed correspond to φ = 0.</p>
+<p>It is not clear what was intended by comparing results from one method with results from another method 
+at conditions that do not correspond.</p>
+<p>For φ = 16000 the Em value is 0.47.
+<img alt="Figure 2" src="/images/aaf-tr-5418/figure_2_lines.png"></p>
+<h3>Correlations Implementation</h3>
+<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup> has equations for correlations of the values in Figure 2. 
+Those were implemented in a computer program <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<h3>Conditions Corresponding to NACA-TN-779</h3>
+<p>When conditions corresponding to NACA-TN-779 conditions are used, the comparison improves. 
+To match conditions well, a value of φ = 6000 is used.</p>
+<p>If <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> was correct in that the value φ = 16000 for the NACA-TN-779 conditions, 
+then there appears to be some difference in the initial conditions for the integration, 
+or perhaps values of the air properties. Nonetheless, there is a fair match.</p>
+<p><img alt="Comparison to NACA-TN-779" src="images/Implementation of cylinder impingement correlations in Python/comparison_to_NACA-TN-779.png"></p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://icinganalysis.github.io/naca-tn-779.html">NACA-TN-779</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies.
+                </address><!-- /#about -->
+
+
+                <br /> copyright 2022 by Donald Cook
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
