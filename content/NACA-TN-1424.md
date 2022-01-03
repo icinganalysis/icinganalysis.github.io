@@ -13,7 +13,7 @@ The value of the mutlicylinder data for determining drop size distribution is qu
 ##Key points
 1. Two methods for determining drop size distributions are compared.
 2. The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.
-3. A temperature dependence of icing conditions is noted.
+3. A temperature effect of icing conditions is noted.
 
 ##Abstract
 
@@ -42,6 +42,8 @@ A comparison of two methods yielded rather different results.
 ![Distribution comparison part 1](/images/naca-tn-1424/drop%20size%20distributions.png)
 ![Distribution comparison part 2](/images/naca-tn-1424/drop%20size%20distributions2.png)
 
+###Effect of the aircraft body on drop concentrations
+
 A possible explanation for the differences was the positions of the instruments:
 
 ![possible explanation 1](/images/naca-tn-1424/possible%20explanation%201.png)
@@ -53,7 +55,9 @@ Even with the differences in drop size distributions, it was noted in the conclu
 
 >   In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable.
 
-###Summary of icing conditions
+###A temperature effect on icing conditions
+
+An effect of temperature was noted.
 
 ![conditions summary](/images/naca-tn-1424/conditions summary.png)
 The "maximum icing conditions proposed previously" are in [^4].
