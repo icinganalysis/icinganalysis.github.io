@@ -35,23 +35,25 @@ The calculated cylinder water catch efficiency Em values compare to Table XI val
 
 As noted in NACA-TR-1215 [^4], Langmuir and Blodgett used an approximation of using the k\*phi value for the MVD
 for every drop size bin when calculating the weighted Em value with a drop size distribution. 
-A more technically correct implementation is to have a unique k\*phi value for each bin. 
-Langmuir and Blodgett were not explicit about the details of their method, 
+This means essentially that for part of the calculation (the k\*phi value) the MVD drop size was used, 
+and for the other part (the k value) the drop size was unique for each bin.
+A more technically correct implementation is to have a unique k\*phi value for each bin (both the k and the k\*phi parts). 
+I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
 and it was an astute observations made in NACA-TR-1215 to notice this.
-A comparison to Table XI values verifies that the k\*phi value for the MVD method was used.
+A comparison to Table XI values verifies that the "k\*phi value for the MVD" method was used.
 
 <!--- note the the "*" in k*phi is escaped k\*phi to prevent unwanted formatting between "*"s --->
 
 Both methods were implemented herein. 
-There are only a small differences between values calculate with the two implementations. 
+There are only a small differences between values calculated with the two implementations. 
 
 ![comparison of two implementations](/images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
 
 I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.
 
-The unique k\*phi for each bin method is considered more technically correct, 
-and will be used hereafter.
+The "unique k\*phi for each bin" method is considered more technically correct, 
+and will be used hereafter (unless noted otherwise).
 
 ##Notes:
 [^1]:  
