@@ -5,52 +5,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
         <title>Implementation of cylinder impingement correlations in Python</title>
-        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <link rel="stylesheet" href="/theme/css/main.css" />
         <meta name="description" content=""The equations were found to fit the experimental data over a wider range of values..." 1 Summary The correlations for water drop impingement on a..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <h1><a href="/">Blast from the Past:  NACA Icing Publications</a></h1>
                 <nav><ul>
-                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
-                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
-                    <li><a href="https://icinganalysis.github.io/pages/diversions.html">Diversions</a></li>
-                    <li><a href="https://icinganalysis.github.io/pages/about.html">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="/pages/diversions.html">Diversions</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
+        <a href="/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
            title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-02T18:54:28.688705-08:00">
-                Published: Sun 02 January 2022
+        <abbr class="published" title="2022-01-03T07:23:07.690245-08:00">
+                Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-02T18:54:28.688705-08:00">-->
-                <!--Updated: Sun 02 January 2022-->
+        <!--<abbr class="modified" title="2022-01-03T07:23:07.690245-08:00">-->
+                <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+<!--<p>In <a href="/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->      <blockquote>
-<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 </blockquote>
 <h2>Summary</h2>
 <p>The correlations for water drop impingement on a cylinder from 
@@ -62,46 +62,55 @@ are implemented in the Python programming language. </p>
 <li>A subtlety about calculations with drop size distributions is noted.</li>
 </ol>
 <h2>Discussion</h2>
-<p>Alas, I do not have access to a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a>, 
-so I will have to use a modern, digital computer.</p>
+<p>Alas, I do not have access to a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> as was used in <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, 
+so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 
+we will be using the data in <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> to determine water drop impingement on a cylinder.</p>
 <p>The Anaconda distribution of Python version 3.7 was used <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
 as this includes the third party modules matplotlib, numpy, and scipy.</p>
-<p>The drag for a sphere and the drop range parameter values from Table I are implemented in the file langmuir_blodgett_table_i.py.
-The values for cylinder water catch efficiency Em Table II are implemented in the file langmuir_blodgett_table_ii.py.
-A 2D interpolation of Table II values was used. Other correlations were considered, as detailed in the file, but the
-interpolation was selected as the most accurate over the entire range of parameters (K, Phi) considered.</p>
-<p>In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi
-from dimensional values, such as airspeed, drop size, and cylinder diameter.
-The Langmuir-Blodgett drop size distributions are implemented.
+<p>The drag for a sphere and the drop range parameter values from Table I are implemented in the file langmuir_blodgett_table_i.py in the github repository <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.
+The values for cylinder water catch efficiency Em Table II are implemented in the file langmuir_blodgett_table_ii.py. 
+A 2D interpolation of Table II values was used. </p>
+<p>Other correlations were considered, as detailed in the file, but the
+interpolation was selected as the most accurate over the entire range of parameters (K, Phi) considered. 
+The range of values in Table II are rather broad, and should fit every combination of drop size and cylinder diameter 
+of interest in aviation.</p>
+<p>In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi 
+from dimensional values, such as airspeed, drop size, and cylinder diameter. 
+The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
-<p><img alt="comparison to Table XI values" src="images/Implementation_of_drop_size_distirubtions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
-<p>As noted in NACA-TR-1215 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, Langmuir and Blodgett used an approximation of using the k*phi value for the MVD
-for every drop size bin when calculating the weighted Em value with a drop size distribution. 
-A more technically correct implementation is to have a unique k*phi value for each bin. 
-Langmuir and Blodgett were not explicit about the details of their method, 
-and it was an astute observations made in NACA-TR-1215 to notice this.
-A comparison to Table XI values verifies that the k*phi value for the MVD method was used.</p>
+<p><img alt="comparison to Table XI values" src="images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
+<p>As noted in NACA-TR-1215 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
+using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
+This means essentially that for part of the calculation (the k*phi value) the MVD drop size was used for every bin, 
+and for the other part (the k value) the drop size was unique for each bin.
+A more technically correct implementation is to have a unique k*phi value for each bin (both the k and the k*phi parts). 
+I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
+and it was an astute observations made in NACA-TR-1215 to notice this. 
+A comparison to Table XI values verifies that the "k*phi value for the MVD" method was used.</p>
 <!--- note the the "*" in k*phi is escaped k\*phi to prevent unwanted formatting between "*"s --->
 
 <p>Both methods were implemented herein. 
-There are only a small differences between values calculate with the two implementations. </p>
-<p><img alt="comparison of two implementations" src="/images/Implementation_of_drop_size_distirubtions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
+There are only a small differences between values calculated with the two implementations. </p>
+<p><img alt="comparison of two implementations" src="/images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
 <p>I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.</p>
-<p>The unique k*phi for each bin method is considered more technically correct, 
-and will be used hereafter.</p>
+<p>The "unique k*phi for each bin" method is considered more technically correct, 
+and will be used hereafter (unless noted otherwise).</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
 <p>Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: https://www.anaconda.com/&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

@@ -26,13 +26,16 @@ and “Impingement of Cloud Droplets” (as cylinders were and still are used as
 as well as “Heat Transfer”. With a firm foundation in those concepts, 
 one may then move on to other topics, including ice protection.
 
-The cylinder is geometrically simple, but is aerodynamically complex in such areas as flow separation, and so it will present worthy challenges.
+The cylinder is geometrically simple, but is aerodynamically complex in such areas as flow separation, and so it will present worthy challenges. 
 
 ##The Cylinder Thread (_key points noted_)
 
 These reviews will focus on water drop impingement and icing on cylinders. 
-However, as cylinders were major instruments for meteorological measurements, some measurement results will be included. 
-(There may be a thread in the future devoted to the icing environment).
+However, as cylinders were important instruments for meteorological measurements, some measurement results will be included. 
+The accuracy of the cylinder when used as an instrument for determining icing conditions will be re-evalutated several times 
+in the publications. 
+While such instruments had limitations, the were often the best available technology at the time. 
+(There may be a thread in the future devoted to measurements of the icing environment). 
 
 ###[NACA-TN-779 “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"]({filename}/NACA-TN-779.md)  
 >   1. The effect of aerodynamic heating is predictable  

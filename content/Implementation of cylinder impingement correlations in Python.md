@@ -15,28 +15,31 @@ are implemented in the Python programming language.
 
 ##Discussion
 
-Alas, I do not have access to a [differential analyzer](https://en.wikipedia.org/wiki/Differential_analyser), 
-so I will have to use a modern, digital computer.
+Alas, I do not have access to a [differential analyzer](https://en.wikipedia.org/wiki/Differential_analyser) as was used in [^1], 
+so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 
+we will be using the data in [^1] to determine water drop impingement on a cylinder.
 
 The Anaconda distribution of Python version 3.7 was used [^2], 
 as this includes the third party modules matplotlib, numpy, and scipy.
 
 The drag for a sphere and the drop range parameter values from Table I are implemented in the file langmuir_blodgett_table_i.py in the github repository [^3].
-The values for cylinder water catch efficiency Em Table II are implemented in the file langmuir_blodgett_table_ii.py.
-A 2D interpolation of Table II values was used. Other correlations were considered, as detailed in the file, but the
+The values for cylinder water catch efficiency Em Table II are implemented in the file langmuir_blodgett_table_ii.py. 
+A 2D interpolation of Table II values was used. 
+
+Other correlations were considered, as detailed in the file, but the
 interpolation was selected as the most accurate over the entire range of parameters (K, Phi) considered. 
 The range of values in Table II are rather broad, and should fit every combination of drop size and cylinder diameter 
 of interest in aviation.
  
-In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi
-from dimensional values, such as airspeed, drop size, and cylinder diameter.
-The Langmuir-Blodgett drop size distributions are implemented.
+In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi 
+from dimensional values, such as airspeed, drop size, and cylinder diameter. 
+The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
 
 ![comparison to Table XI values](images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png)
 
-As noted in NACA-TR-1215 [^4], for drop size distributions Langmuir and Blodgett used an approximation of using the 
-k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
+As noted in NACA-TR-1215 [^4], for drop size distributions Langmuir and Blodgett used an approximation, 
+using the k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
 This means essentially that for part of the calculation (the k\*phi value) the MVD drop size was used for every bin, 
 and for the other part (the k value) the drop size was unique for each bin.
 A more technically correct implementation is to have a unique k\*phi value for each bin (both the k and the k\*phi parts). 

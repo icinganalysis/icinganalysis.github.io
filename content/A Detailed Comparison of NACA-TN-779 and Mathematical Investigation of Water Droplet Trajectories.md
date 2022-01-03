@@ -69,9 +69,12 @@ or perhaps values of the air properties. Nonetheless, there is a fair match.
 
 ![Comparison to NACA-TN-779](images/Implementation of cylinder impingement correlations in Python/comparison_to_NACA-TN-779.png)
 
+The python code used to produce the figure is available in the file "naca-tn-779.py". [^4]
+
 ##Notes:
 [^1]:
 [NACA-TN-779]({filename}/NACA-TN-779.md)
 [^2]:  
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)
 [^3]: [Implementation of cylinder impingement correlations in Python]({filename}/Implementation of cylinder impingement correlations in Python.md)
+[^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
