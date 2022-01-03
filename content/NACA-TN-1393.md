@@ -101,6 +101,8 @@ This indicates that the calculations from [^2] and [^3] yield similar results.
 
 ![Comparison of Figure 5 to results from the Python tool](/images/naca-tn-1393/compare.png)
 
+The code used to make the figure is available in the file "naca-tn-1393.py" [^6].
+
 ###Illustrating water drop size distributions
 
 Figure 10 below illustrates a challenge when comparing Langmuir drop size distributions to other, measured distributions. 
@@ -115,8 +117,6 @@ Percent of water in drops smaller than d.
 An "observed distribution" line from "reference 8" forms an increasing "S" curve.
 A Langmuir "B" distribution approximates the observed distribution,
 while a Langmuir "E" distriubtion is notable wider.](images/naca-tn-1393/distributions.png)
-
-The code used to make the figure is available in the file "naca-tn-1393.py" [^6].
 
 ###"Tentative" Design Values
 
