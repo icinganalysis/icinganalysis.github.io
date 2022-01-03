@@ -23,12 +23,12 @@
                 <article>
                     <h1 class="entry-title"><a href="/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T07:23:07.690245-08:00">
+        <abbr class="published" title="2022-01-03T08:05:13.538358-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T07:23:07.690245-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:05:13.538358-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -56,6 +56,7 @@ are implemented in the Python programming language. </p>
 <li>A subtlety about calculations with drop size distributions is noted.</li>
 </ol>
 <h2>Discussion</h2>
+<h3>Implementation of cylinder impingement correlations</h3>
 <p>Alas, I do not have access to a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> as was used in <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, 
 so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 
 we will be using the data in <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> to determine water drop impingement on a cylinder.</p>
@@ -73,6 +74,7 @@ from dimensional values, such as airspeed, drop size, and cylinder diameter.
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
 <p><img alt="comparison to Table XI values" src="images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
+<h3>A subtlety about implementing drop size distributions</h3>
 <p>As noted in NACA-TR-1215 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
 This means essentially that for part of the calculation (the k*phi value) the MVD drop size was used for every bin, 

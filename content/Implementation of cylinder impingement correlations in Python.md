@@ -15,6 +15,8 @@ are implemented in the Python programming language.
 
 ##Discussion
 
+###Implementation of cylinder impingement correlations
+
 Alas, I do not have access to a [differential analyzer](https://en.wikipedia.org/wiki/Differential_analyser) as was used in [^1], 
 so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 
 we will be using the data in [^1] to determine water drop impingement on a cylinder.
@@ -37,6 +39,8 @@ The Langmuir drop size distributions are implemented.
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
 
 ![comparison to Table XI values](images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png)
+
+###A subtlety about implementing drop size distributions
 
 As noted in NACA-TR-1215 [^4], for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
