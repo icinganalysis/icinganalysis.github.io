@@ -56,7 +56,7 @@ A comparison to Table XI values verifies that the "k\*phi value for the MVD" met
 Both methods were implemented herein. 
 There are only a small differences between values calculated with the two implementations. 
 
-![comparison of two implementations](/images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
+![comparison of two implementations](images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
 
 I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.
