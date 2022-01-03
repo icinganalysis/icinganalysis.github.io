@@ -116,6 +116,7 @@ An "observed distribution" line from "reference 8" forms an increasing "S" curve
 A Langmuir "B" distribution approximates the observed distribution,
 while a Langmuir "E" distriubtion is notable wider.](images/naca-tn-1393/distributions.png)
 
+The code used to make the figure is available in the file "naca-tn-1393.py" [^6].
 
 ###"Tentative" Design Values
 
@@ -188,13 +189,13 @@ NACA-TN-1393 is cited 13 times.
 
 ##Related Works
 
-NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 [^6].
+NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 [^7].
 
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.
 
-Also, see Jeck's comments [^7] on the distance curve in NACA-TN-1393.
+Also, see Jeck's comments [^8] on the distance curve in NACA-TN-1393.
 
 ##Notes:
 [^1]:
@@ -207,7 +208,8 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.
 [^5]:
 [Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)
-[^6]:
-Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.
+[^6]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^7]:
+Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.
+[^8]:
 Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.
