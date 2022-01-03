@@ -31,7 +31,7 @@ from dimensional values, such as airspeed, drop size, and cylinder diameter.
 The Langmuir-Blodgett drop size distributions are implemented.
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
 
-![comparison to Table XI values](images/Implementation_of_drop_size_distirubtions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png)
+![comparison to Table XI values](images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png)
 
 As noted in NACA-TR-1215 [^4], Langmuir and Blodgett used an approximation of using the k\*phi value for the MVD
 for every drop size bin when calculating the weighted Em value with a drop size distribution. 
@@ -45,7 +45,7 @@ A comparison to Table XI values verifies that the k\*phi value for the MVD metho
 Both methods were implemented herein. 
 There are only a small differences between values calculate with the two implementations. 
 
-![comparison of two implementations](/images/Implementation_of_drop_size_distirubtions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
+![comparison of two implementations](/images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
 
 I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.
