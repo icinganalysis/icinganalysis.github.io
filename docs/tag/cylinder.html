@@ -23,12 +23,12 @@
                 <article>
                     <h1 class="entry-title"><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T08:20:31.781369-08:00">
+        <abbr class="published" title="2022-01-03T08:31:12.048529-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T08:20:31.781369-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:31:12.048529-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -73,7 +73,7 @@ of interest in aviation.</p>
 from dimensional values, such as airspeed, drop size, and cylinder diameter. 
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
-<p><img alt="comparison to Table XI values" src="images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
+<p><img alt="comparison to Table XI values" src="images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
 <h3>A subtlety about implementing drop size distributions</h3>
 <p>As noted in NACA-TR-1215 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
@@ -87,7 +87,7 @@ A comparison to Table XI values verifies that the "k*phi value for the MVD" meth
 
 <p>Both methods were implemented herein. 
 There are only a small differences between values calculated with the two implementations. </p>
-<p><img alt="comparison of two implementations" src="images/Implementation_of_drop_size_distributions_in_Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
+<p><img alt="comparison of two implementations" src="images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
 <p>I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.</p>
 <p>The "unique k*phi for each bin" method is considered more technically correct, 
@@ -118,57 +118,18 @@ and will be used hereafter (unless noted otherwise).</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
-                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-01-03T07:34:43.055838-08:00">
-                Published: Mon 03 January 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T07:34:43.055838-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
-</blockquote>
-<p><img alt="Figure 1 of NACA-TR-1215, depicting a cyliner in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/naca-tr-1215/figure1a.png"></p>
-<p>The cylinder has a wide range of current uses in aviation:<br>
-- Meteorological instruments for flight and icing wind tunnel tests<br>
-- Aircraft in-flight …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
                            title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T07:34:43.039838-08:00">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T07:34:43.039838-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -199,18 +160,57 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
+                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
+                Published: Mon 03 January 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
+                <!--Updated: Mon 03 January 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
+</blockquote>
+<p><img alt="Figure 1 of NACA-TR-1215, depicting a cyliner in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/naca-tr-1215/figure1a.png"></p>
+<p>The cylinder has a wide range of current uses in aviation:<br>
+- Meteorological instruments for flight and icing wind tunnel tests<br>
+- Aircraft in-flight …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
                            title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T06:27:21.738451-08:00">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T06:27:21.738451-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -242,12 +242,12 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T06:27:21.738451-08:00">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T06:27:21.738451-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -281,12 +281,12 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T06:27:21.738451-08:00">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T06:27:21.738451-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -320,12 +320,12 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T06:27:21.738451-08:00">
+        <abbr class="published" title="2022-01-03T08:30:19.918473-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T06:27:21.738451-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T08:30:19.918473-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
