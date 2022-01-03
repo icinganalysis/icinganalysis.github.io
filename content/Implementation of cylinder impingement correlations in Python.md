@@ -38,7 +38,7 @@ from dimensional values, such as airspeed, drop size, and cylinder diameter.
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
 
-![comparison to Table XI values](images/Implementation_of_drop_size_distributions_in_Python/calculation_verification_table_XI_k_phi=1000_log.png)
+![comparison to Table XI values](images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png)
 
 ###A subtlety about implementing drop size distributions
 
