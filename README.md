@@ -1,4 +1,4 @@
 # icinganalysis.github.io
 Information about aircraft icing analysis
 
-[website](https://icinganalysis.github.io)
+website [https://icinganalysis.github.io/](https://icinganalysis.github.io)
