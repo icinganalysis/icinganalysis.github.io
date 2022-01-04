@@ -42,7 +42,7 @@ Nine instruments were assessed:
 - Sooted Slides  
 - Drop Photography  
 
-While there is much of interest here, we focus on the cylinders for now.
+While there is much of interest here, we focus on the cylinders.
 
 Accuracy targets were determined:
 
@@ -57,7 +57,8 @@ median effective drop diameters of 20 to 45 micrometers with the "A" set of cyli
 ![Accuracy of measurements with cylinders](/images/naca-rm-a9c09/cylinder%20accuracy.png)
 
 There were few details given on how these values will be determined. 
-Efforts to reproduce the values in Figure 2 will be the subject of a future post.
+Efforts to reproduce the values in Figure 2 will be the subject of a future post 
+(NACA-TR-1215 has a more complete description of a similar study).
 
 Several advantages and disadvantages are listed for rotating multicylinders:
 
@@ -77,7 +78,19 @@ Several advantages and disadvantages are listed for the fixed cylinder:
 
 In the conclusions, several actions are recommended:
 
-![Conclusions](/images/naca-rm-a9c09/conclusions.png)
+>  1. Development of the rotating disk should be continued. This
+device should prove very useful in both the formative and statistical 
+investigations just discussed, since it gives evidence of being 
+capable of producing a continuous record of liquid-water content,
+with small lag, practically independent of drop size.
+>  2. The visibility meter should be investigated as a possible
+statistical instrument for use with the rotating disk to provide
+average drop-size information.
+>  3. Development of the rainbow recorder as a potential single
+instrument for providing both liquid-water content and drop-size
+data should be continued.
+>  4. A reliable method for the measurement of drop-size distribution 
+should be developed.
 
 
 ##Citations
