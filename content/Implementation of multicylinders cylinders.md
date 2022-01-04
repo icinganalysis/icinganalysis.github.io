@@ -1,7 +1,6 @@
 Title: Implementation of multicylinder calculations in Python   
 Category: python tools
 tags: cylinder
-status: draft
 
 > ###"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]
 
