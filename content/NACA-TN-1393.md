@@ -72,8 +72,8 @@ gram per cubic meter and an average drop diameter of 10 microns.
 |Estimated resultant error (sum(E^2))^0.5| 5.7| 4.4|
 
 
-Running the file "" 
-
+Running the file "naca-tn-1393.py" [^4] yields different results, particularly for the 
+"Error due to using C distribution for unknown distribution" part:
 
 |Source of error|Estimated amount of error|Resultant percent error (E) Water content|Resultant percent error (E) Drop diameter|
 |---|---|---|---|
@@ -90,9 +90,12 @@ Running the file ""
 |Maximum total error (sum(E))|14.1|12.0|
 |Maximum resultant error (sum(E^2)^0.5)|7.0|7.3|
 
+
+<!-- fig showing langmuir D 3%, langmuir e 7%  -->
+
 ###Icing intensity index
 
-Icing intensity definitions from "reference 12" [^4] are included.
+Icing intensity definitions from "reference 12" [^5] are included.
 
 >  The definition of icing intensity- It is now generally recognized 
 that the principal factors determining the intensity of an
@@ -114,17 +117,17 @@ expressed as grams per hour per square centimeter of projected area.
 The icing intensity definitions and cylinder water catch calculations from [^2] were used to make Figure 5.
 ![Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight meaasurement values](/images/naca-tn-1393/Figure%205.png)
+as well as several flight meaasurement values](images/naca-tn-1393/Figure%205.png)
 
 ###Comparison to Tribus and Tesseman results
 
-When I overlaid calculations with the implementation of the cylinder impingement calculations [^5] 
+When I overlaid calculations with the implementation of the cylinder impingement calculations [^6] 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
 This indicates that the calculations from [^2] and [^3] yield similar results.
 
-![Comparison of Figure 5 to results from the Python tool](/images/naca-tn-1393/compare.png)
+![Comparison of Figure 5 to results from the Python tool](images/naca-tn-1393/compare.png)
 
-The code used to make the figure is available in the file "naca-tn-1393.py" [^6].
+The code used to make the figure is available in the file "naca-tn-1393.py" [^4].
 
 ###Illustrating water drop size distributions
 
@@ -175,7 +178,7 @@ There is an "estimated probable maximum conditions" line
 from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
 There are several "observed values" data points below the line.
 The airspeed in noted as 150 miles per hour.
-](/images/naca-tn-1393/Distance%20effect.png)
+](images/naca-tn-1393/Distance%20effect.png)
 
 
 ##Citations
@@ -227,11 +230,11 @@ Lewis, William: A Flight Investigation of the Meteorological Conditions Conduciv
 Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-[^4]:
-Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.
+[^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^5]:
+Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.
+[^6]:
 [Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)
-[^6]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^7]:
 Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.
 [^8]:
