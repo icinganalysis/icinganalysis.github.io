@@ -23,13 +23,13 @@
                 <article>
                     <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T16:57:01.091728-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:28:33.363111-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T16:57:01.091728-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:28:33.363111-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -172,7 +172,8 @@ gram per cubic meter and an average drop diameter of 10 microns.</p>
 </tr>
 </tbody>
 </table>
-<p>Running the file "" </p>
+<p>Running the file "naca-tn-1393.py" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> yields different results, particularly for the 
+'Error due to using "C" distribution curves for unknown distribution' part:</p>
 <table>
 <thead>
 <tr>
@@ -248,8 +249,20 @@ gram per cubic meter and an average drop diameter of 10 microns.</p>
 </tr>
 </tbody>
 </table>
+<p>Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
+For the 'Error due to using "C" distribution curves for unknown distribution' item, 
+I calculated the cylinder masses with each of Langmuir A, B, C, D, E distributions and then 
+calculated a best fit assuming a Langmuir C distribution. 
+This may or may not be what NACA-TN-1393 actually did. 
+The results are shown below:</p>
+<p><img alt="Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution" src="images/naca-tn-1393/naca_tn_1393_error_assuming_c.png"></p>
+<p>If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
+the difference in calculated mean effective drop diameter is 6.7%.</p>
+<p>Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
+As the drop size is different, the collection efficiency is different, 
+and to maintain the same mass the LWC must differ.</p>
 <h3>Icing intensity index</h3>
-<p>Icing intensity definitions from "reference 12" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> are included.</p>
+<p>Icing intensity definitions from "reference 12" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> are included.</p>
 <blockquote>
 <p>The definition of icing intensity- It is now generally recognized 
 that the principal factors determining the intensity of an
@@ -272,13 +285,13 @@ Heavy ice: 12.0 and over grams per square centimeter hour
 <p>The icing intensity definitions and cylinder water catch calculations from <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> were used to make Figure 5.
 <img alt="Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight meaasurement values" src="/images/naca-tn-1393/Figure%205.png"></p>
+as well as several flight meaasurement values" src="images/naca-tn-1393/Figure%205.png"></p>
 <h3>Comparison to Tribus and Tesseman results</h3>
-<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> 
+<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
 This indicates that the calculations from <sup id="fnref3:2"><a class="footnote-ref" href="#fn:2">2</a></sup> and <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> yield similar results.</p>
-<p><img alt="Comparison of Figure 5 to results from the Python tool" src="/images/naca-tn-1393/compare.png"></p>
-<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.</p>
+<p><img alt="Comparison of Figure 5 to results from the Python tool" src="images/naca-tn-1393/compare.png"></p>
+<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
 <h3>Illustrating water drop size distributions</h3>
 <p>Figure 10 below illustrates a challenge when comparing Langmuir drop size distributions to other, measured distributions. 
 There are 7 bins in a Langmuir distribution.
@@ -351,7 +364,7 @@ There is an &quot;estimated probable maximum conditions&quot; line
 from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
 There are several &quot;observed values&quot; data points below the line.
 The airspeed in noted as 150 miles per hour.
-" src="/images/naca-tn-1393/Distance%20effect.png"></p>
+" src="images/naca-tn-1393/Distance%20effect.png"></p>
 <h2>Citations</h2>
 <p>NACA-TN-1393 cites 11 references.</p>
 <ul>
@@ -405,13 +418,13 @@ The airspeed in noted as 150 miles per hour.
 <p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
 <p>Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
@@ -435,13 +448,13 @@ The airspeed in noted as 150 miles per hour.
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->

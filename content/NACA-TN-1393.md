@@ -73,7 +73,7 @@ gram per cubic meter and an average drop diameter of 10 microns.
 
 
 Running the file "naca-tn-1393.py" [^4] yields different results, particularly for the 
-"Error due to using C distribution for unknown distribution" part:
+'Error due to using "C" distribution curves for unknown distribution' part:
 
 |Source of error|Estimated amount of error|Resultant percent error (E) Water content|Resultant percent error (E) Drop diameter|
 |---|---|---|---|
@@ -90,8 +90,21 @@ Running the file "naca-tn-1393.py" [^4] yields different results, particularly f
 |Maximum total error (sum(E))|14.1|12.0|
 |Maximum resultant error (sum(E^2)^0.5)|7.0|7.3|
 
+Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
+For the 'Error due to using "C" distribution curves for unknown distribution' item, 
+I calculated the cylinder masses with each of Langmuir A, B, C, D, E distributions and then 
+calculated a best fit assuming a Langmuir C distribution. 
+This may or may not be what NACA-TN-1393 actually did. 
+The results are shown below:
 
-<!-- fig showing langmuir D 3%, langmuir e 7%  -->
+![Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution](images/naca-tn-1393/naca_tn_1393_error_assuming_c.png)
+
+If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
+the difference in calculated mean effective drop diameter is 6.7%.
+
+Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
+As the drop size is different, the collection efficiency is different, 
+and to maintain the same mass the LWC must differ.
 
 ###Icing intensity index
 

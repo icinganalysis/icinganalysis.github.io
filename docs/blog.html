@@ -21,200 +21,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">Implementation of multicylinder calculations in Python</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T18:26:33.346788-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:28:33.363111-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T18:26:33.346788-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info --><blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. </p>
-<h2>Key points</h2>
-<ol>
-<li>A manual method of multicylinder calculation is illustrated.</li>
-<li>The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"</li>
-</ol>
-<h2>Discussion</h2>
-<h3>Manual method of drop size analysis</h3>
-<p>By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.</p>
-<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> provides an example of the mutlicylinder calculations method in 
-the section "Example of the Application of the D.A. Data to Experimental Data".</p>
-<blockquote>
-<p>The method has been revised as a result of the work done with the D.A.
-We shall describe the revised method and illustrate its use by analyzing some
-recent data that were obtained by R. M . Cunningham in an airplane.</p>
-<p>Amounts of ice were collected on four cylinders of different diameters,
-each 10 cm in length. The liquid water content of the fog in g/m^3 was ω.
-The mean value of the initial diameter of a cylinder and the diameter coated
-with ice at the finish of an experiment was 2C . The true speed of the airplane
-was 207 mi/hr, the temperature measured by a thermometer —3°C .</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>TABLE X
-
-Em ω (g)  2 C (cm)
--------   ------
-0.118     0.43
-0.0808    2.60
-0.0603    5.09
-0.0250    15
-</code></pre></div>
-
-<p>Note: units on Em ω should be (g/m^3)</p>
-<blockquote>
-<p>By combining Eqs. (12) and (25) we obtain  </p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>Κφ = (2 ρa U a / η)**2  (50)
-</code></pre></div>
-
-<p>Note: there was already an equation (50), (70) was probably what was intended as it would be next in the sequence.</p>
-<blockquote>
-<p>Therefore Κφ is independent of the cylinder radius. The values of Κφ were
-found to be between 13,000 and 6000, for all of Cunningham's data.
-A curve was prepared in which Em was plotted against 1/K on double logarithmic 
-paper for a constant value of Κφ which was taken to be 10^6.</p>
-<p>The experimental data are compared with the theoretical curve by superimposing one
-sheet on the other, sliding the upper sheet (with the axis of coordinates parallel
-for the two sheets) until the two curves coincide at the end where C is small.</p>
-</blockquote>
-<p>I do not have log-log graph paper anymore, so I printed the data in log-log coordinates with maptplotlib. </p>
-<p><img alt="Cunningham data from Table X" src="/images/cunningham_data/Cunningham_data.png"></p>
-<p><img alt="Graph of 1/K vs. Em for K*Phi=10000" src="/images/cunningham_data/k_phi_10000.png"></p>
-<blockquote>
-<p>A convenient way to illuminate the sheets is to hold them against a window
-pane.</p>
-</blockquote>
-<p>I lined up the printed graphs on an artist's light box.</p>
-<p><img alt="Aligned graphs of experimental data and theoretical curves" src="images/cunningham_data/cunningham_cropped.png"></p>
-<p>It was tedious to keep the graphs sides parallel as I aligned them. 
-I imagine it was more difficult on a vertical window pane. 
-I admit that the photo is not of good quality, but the view was not much better on the light box.</p>
-<blockquote>
-<p>When the set of Cunningham's data that we
-have given as an example were compared with the curves B, C, D, Ε it was
-found that all four experimental points lay on curve C if the two sheets
-were superimposed in such a way that the values 2 C = 17.0 and Emw = 0.132
-on the experimental curve coincided respectively with 1/K = 1 and Em = 1
-on the theoretical curve.</p>
-</blockquote>
-<p>As close as I can read it for my graphs, a "C" curve was the best match, 
-and the 1/K=1 vertical line crosses the diameter line between 17 and 18 cm,
-so I have fair agreement with Langmuir and Blodgett.</p>
-<blockquote>
-<p>The value of the radius a of the fog particles was calculated by means of
-Eq. (12), as follows:</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code> Κ = 2 ρs a^2 U / (9 η C), (12)
-</code></pre></div>
-
-<p>Since K and C are now known (1/K=1, 2C=17 cm), airspeed U is known, the water density is known, 
-and the air viscosity can be calculated, the value of drop radius a can be calculated.</p>
-<blockquote>
-<p>From Eq. (12) we obtain a = 8.33μ.</p>
-</blockquote>
-<p>It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
-Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. </p>
-<h1>Code implementation of the multicylinder drop size analysis</h1>
-<p>Fortunately, this laborious process is implemented in the file "multicylinder.py" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. 
-The determination of the best fit Κφ value and distribution type is also automated. 
-When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
-so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation" src="/images/cunningham_data/Calculation_with_k_phi_constant_for_each_drop_size_bin.png"></p>
-<p>The above result used the original Langmuir-Blodgett approximate method "Κφ value for the MVD applied to each drop size bin", 
-as explained in <a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>. </p>
-<p>When the more technically correct "unique Κφ value for each drop size bin" method is used, the calculated MVD=17.1 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation alternative method" src="/images/cunningham_data/Calculation_with_k_phi_unique_for_each_drop_size_bin.png"></p>
-<p>I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.</p>
-<h2>Notes:</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
-                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-01-03T16:57:01.095731-08:00">
-                Published: Mon 03 January 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T16:57:01.095731-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
-</blockquote>
-<p><img alt="Figure 1 of NACA-TR-1215, depicting a cyliner in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/naca-tr-1215/figure1a.png"></p>
-<p>The cylinder has a wide range of current uses in aviation:<br>
-- Meteorological instruments for flight and icing wind tunnel tests<br>
-- Aircraft in-flight …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1393.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-01-03T16:57:01.091728-08:00">
-                Published: Mon 03 January 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T16:57:01.091728-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:28:33.363111-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -228,16 +43,402 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
 
-</footer><!-- /.post-info -->                <blockquote>
+</footer><!-- /.post-info --><blockquote>
 <h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
 </blockquote>
 <h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
 <p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h2>Summary</h2>
-<p>A …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1393.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
+<p>A multi-cylinder and other instruments measure natural icing conditions in flight.</p>
+<h2>Abstract</h2>
+<blockquote>
+<p>Data from flight measurements of the meteorological factors
+related to the intensity of icing conditions are presented. The
+physical factors that establish the distribution of liquid water in
+clouds of various types are discussed and the results of the analysis
+aro used to formulate certain rules for the forecasting of icing
+intensity. The problems of determining the range of values of the
+significant factors defining icing intensity for the purpose of the
+design of ice-protection equipment are discussed, and tentative values
+are given.  </p>
+</blockquote>
+<h2>Key points</h2>
+<ol>
+<li>The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.</li>
+<li>An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.</li>
+<li>Results from the methods of Tribus &amp; Tessman and Langmuir &amp; Blodgett agree well for cylinder analysis.</li>
+<li>"Tentative" values for icing design conditions were determined.</li>
+<li>An effect of distance on icing conditions is noted.</li>
+</ol>
+<h2>Discussion</h2>
+<h3>Multicylinder instruments</h3>
+<p>Multi-cylinder probes were used to determine water drop sizes, and, in some cases, drop size distributions.<br>
+A fixed cylinder was also used for an "area of catch" method of drop size determination.</p>
+<p>The multicylinder method for liquid water content measurement is regarded as accurate:</p>
+<blockquote>
+<p>The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate 
+ and dependable procedure thus far developed. (Reference 8) <sup id="fnref4:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+</blockquote>
+<p>For the multicylinder calculations, NACA-TN-1393 cites the methods Tribus and Tessman <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> 
+(which I have not found a copy of), rather that Langmuir and Blodgett <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, 
+although <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup> is referenced later as the source of the water drop size distributions.</p>
+<p>An assessment of the accuracy of the rotating cylinder method is included:</p>
+<blockquote>
+<p>The errors involved in calculating the liquid water content
+and mean-effective diameter from the two-cylinder-data have been
+estimated by considering the errors inherent in measuring the
+quantities-used in the calculations.. The results, which are shown
+in the following table, are based on a liquld water content of 0.5
+gram per cubic meter and an average drop diameter of 10 microns.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Resulting percent error (E)</th>
+<th>Resulting percent error (E)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source of error</td>
+<td>estimated amount of error</td>
+<td>Water content</td>
+<td>Drop diameter</td>
+</tr>
+<tr>
+<td>Weighing sample 1/8-in. cylinder</td>
+<td>0.02 gram</td>
+<td>2.6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Weighing sample 1-in. cylinder</td>
+<td>0.03 gram</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Assumed density of ice</td>
+<td>0.08 g/cm^3</td>
+<td>2.5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Timing exposure</td>
+<td>1.5 sec</td>
+<td>2.4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>True airspeed</td>
+<td>2.5</td>
+<td>1.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Misculaneous errors</td>
+<td>----</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Error due to using "C" distribution for unknown distribution</td>
+<td>----</td>
+<td>up to 3</td>
+<td>up to 3</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Total error</th>
+<th>Water content (percent)</th>
+<th>Drop diameter (percent)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum total error sum(E)</td>
+<td>14</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Estimated resultant error (sum(E^2))^0.5</td>
+<td>5.7</td>
+<td>4.4</td>
+</tr>
+</tbody>
+</table>
+<p>Running the file "naca-tn-1393.py" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> yields different results, particularly for the 
+'Error due to using "C" distribution curves for unknown distribution' part:</p>
+<table>
+<thead>
+<tr>
+<th>Source of error</th>
+<th>Estimated amount of error</th>
+<th>Resultant percent error (E) Water content</th>
+<th>Resultant percent error (E) Drop diameter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weighing sample 1/8-in. cylinder</td>
+<td>+/-0.02 gram</td>
+<td>2.9</td>
+<td>2.4</td>
+</tr>
+<tr>
+<td>Weighing sample 1-in. cylinder</td>
+<td>+/-0.03 gram</td>
+<td>0.3</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Assumed density of ice</td>
+<td>-0.08 g/cm^3</td>
+<td>0.4</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Timing exposure</td>
+<td>+/-1.5 seconds</td>
+<td>2.6</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>True airspeed</td>
+<td>+/-2.5 mph</td>
+<td>1.5</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>Miscellaneous other errors</td>
+<td>----</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Error due to using "C" distribution curves for unknown distribution</td>
+<td>----</td>
+<td>5.5</td>
+<td>6.7</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Total error</th>
+<th>Water content (percent)</th>
+<th>Drop diameter (percent)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum total error (sum(E))</td>
+<td>14.1</td>
+<td>12.0</td>
+</tr>
+<tr>
+<td>Maximum resultant error (sum(E^2)^0.5)</td>
+<td>7.0</td>
+<td>7.3</td>
+</tr>
+</tbody>
+</table>
+<p>Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
+For the 'Error due to using "C" distribution curves for unknown distribution' item, 
+I calculated the cylinder masses with each of Langmuir A, B, C, D, E distributions and then 
+calculated a best fit assuming a Langmuir C distribution. 
+This may or may not be what NACA-TN-1393 actually did. 
+The results are shown below:</p>
+<p><img alt="Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution" src="images/naca-tn-1393/naca_tn_1393_error_assuming_c.png"></p>
+<p>If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
+the difference in calculated mean effective drop diameter is 6.7%.</p>
+<p>Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
+As the drop size is different, the collection efficiency is different, 
+and to maintain the same mass the LWC must differ.</p>
+<h3>Icing intensity index</h3>
+<p>Icing intensity definitions from "reference 12" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> are included.</p>
+<blockquote>
+<p>The definition of icing intensity- It is now generally recognized 
+that the principal factors determining the intensity of an
+icing condition are the concentration of super-cooled liquid water 
+and the diameter of the drops. In addition, when thermal methods 
+of de-icing are considered, the air temperature and the amount of
+snow in the air have an important effect upon the heat requirements.
+Icing intensities have been defined by the U.S. Weather Bureau for
+reports from mountain stations in terms of the rate of collection 
+at 200 miles per hour on a 3-inch-diameter circular cylinder,
+expressed as grams per hour per square centimeter of projected area.
+(See reference 12.) The definitions are as follows:</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Trace ice: 0 to 1.0 grams per square centimeter hour  
+Light ice: 1.0 to 6.0 grams per square centimeter hour  
+Moderate ice: 6.0 to 12.O grams per square centimeter hour  
+Heavy ice: 12.0 and over grams per square centimeter hour
+</code></pre></div>
+
+<p>The icing intensity definitions and cylinder water catch calculations from <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> were used to make Figure 5.
+<img alt="Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
+Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
+as well as several flight meaasurement values" src="images/naca-tn-1393/Figure%205.png"></p>
+<h3>Comparison to Tribus and Tesseman results</h3>
+<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> 
+the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
+This indicates that the calculations from <sup id="fnref3:2"><a class="footnote-ref" href="#fn:2">2</a></sup> and <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> yield similar results.</p>
+<p><img alt="Comparison of Figure 5 to results from the Python tool" src="images/naca-tn-1393/compare.png"></p>
+<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
+<h3>Illustrating water drop size distributions</h3>
+<p>Figure 10 below illustrates a challenge when comparing Langmuir drop size distributions to other, measured distributions. 
+There are 7 bins in a Langmuir distribution.
+The figure has "stair steps" plotted to illustrate the cumulative distribution.
+The "B" distribution appear to compare favorably with the "observed distribution", 
+but with limitations due to the discrete nature of the Langmuir distributions. 
+At the volume median drop diameter the vertical line jumps from 35 to 65 "percent of water in drop smaller than d".</p>
+<p><img alt="Figure 16: a graph of Mean effective drop diameter in microns vs. 
+Percent of water in drops smaller than d.
+An &quot;observed distribution&quot; line from &quot;reference 8&quot; forms an increasing &quot;S&quot; curve.
+A Langmuir &quot;B&quot; distribution approximates the observed distribution,
+while a Langmuir &quot;E&quot; distriubtion is notable wider." src="images/naca-tn-1393/distributions.png"></p>
+<h3>"Tentative" Design Values</h3>
+<blockquote>
+<p>Analysis of the available observational data, supplemented by
+considerations of the physical processes involved in the formation
+of icing conditions has led to the following tentative estimates of
+the most severe icing conditions likely to be encountered in the 
+course of all-weather transport operations in the United States:</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Cloud type</th>
+<th>Duration</th>
+<th>Liquid water content</th>
+<th>Average drop diameter</th>
+<th>Temperature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cumulus</td>
+<td>1 minute</td>
+<td>2.0 g/m^3</td>
+<td>20 microns</td>
+<td>0°F</td>
+</tr>
+<tr>
+<td>stratus or stratocumulus</td>
+<td>20 minutes or longer</td>
+<td>0.8 g/m^3</td>
+<td>15 microns</td>
+<td>20°F</td>
+</tr>
+<tr>
+<td>stratus or stratocumulus</td>
+<td>20 minutes or longer</td>
+<td>0.5 g/m^3</td>
+<td>25 microns</td>
+<td>20°F</td>
+</tr>
+</tbody>
+</table>
+<h3>Distance effect</h3>
+<p>It was noted:</p>
+<blockquote>
+<p>The duration of flight in 
+continuous icing was therefore used as a measure of the extent of
+the conditions although in several cases the airplane was flown back
+and forth in a single cloud formation thus giving rise to larger
+duration than would have been required for a straight flight.
+Figure 13 shows the relation between the duration of periods of flight
+in continuous icing conditions and the average liquid water content
+during the periods.</p>
+</blockquote>
+<p><img alt="Figure 13:
+A graph of log duration minutes vs. log liquid water content g/m^3.
+There is an &quot;estimated probable maximum conditions&quot; line 
+from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
+There are several &quot;observed values&quot; data points below the line.
+The airspeed in noted as 150 miles per hour.
+" src="images/naca-tn-1393/Distance%20effect.png"></p>
+<h2>Citations</h2>
+<p>NACA-TN-1393 cites 11 references.</p>
+<ul>
+<li>Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942.</li>
+<li>Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.</li>
+<li>Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.</li>
+<li>Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.</li>
+<li>Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.</li>
+<li>Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.</li>
+<li>Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.</li>
+<li>Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)</li>
+<li>Findeisen, W.: Meteorological-Physical Limitations of Icing in the Atmosphere. NACA-TM-885, 1939.</li>
+<li>Simpson, G. C.: On the Formation of Cloud and Rain. Quarterly Jour. of the Royal Meteorological Soc. Vol. 67, no. 290, Apr. 1941, pp.99-133.</li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)</li>
+</ul>
+<p>NACA-TN-1393 is cited 13 times.</p>
+<ul>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.</li>
+<li>Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.</li>
+<li>Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Teats in Natural—Icing Conditions. NACA-TN-1434, 1947.</li>
+<li>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.</li>
+<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
+<li>Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.</li>
+<li>Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.</li>
+<li>Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.</li>
+<li>Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.</li>
+<li>Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.</li>
+<li>Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.</li>
+<li>Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.</li>
+<li>Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.</li>
+</ul>
+<h2>Related Works</h2>
+<p>NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.</p>
+<ul>
+<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
+<li>Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.</li>
+<li>Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.</li>
+</ul>
+<p>Also, see Jeck's comments <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> on the distance curve in NACA-TN-1393.</p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
 
             <li><article class="hentry">
                 <header>
@@ -247,13 +448,13 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.854105-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.253870-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.854105-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.253870-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -283,13 +484,13 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.854105-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.253870-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.854105-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.253870-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -322,13 +523,13 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.854105-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.253870-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.854105-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.253870-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -360,13 +561,13 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.854105-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.253870-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.854105-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.253870-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -409,13 +610,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -451,13 +652,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -484,19 +685,58 @@ several areas of aircraft icing, including:</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
+                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
+</blockquote>
+<p><img alt="Figure 1 of NACA-TR-1215, depicting a cyliner in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/naca-tr-1215/figure1a.png"></p>
+<p>The cylinder has a wide range of current uses in aviation:<br>
+- Meteorological instruments for flight and icing wind tunnel tests<br>
+- Aircraft in-flight …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
                            title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -523,19 +763,56 @@ are implemented in the Python programming …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
                            title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -566,13 +843,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -605,13 +882,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -643,13 +920,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -683,13 +960,13 @@ and …</p></blockquote>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -720,13 +997,13 @@ and …</p></blockquote>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T13:22:41.770062-08:00">
-                Published: Mon 03 January 2022
+        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
+                Published: Tue 04 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T13:22:41.770062-08:00">-->
-                <!--Updated: Mon 03 January 2022-->
+        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
+                <!--Updated: Tue 04 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
