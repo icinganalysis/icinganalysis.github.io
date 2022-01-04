@@ -5,7 +5,7 @@ tags: cylinder
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
 
 
-![Figure 1 of NACA-TR-1215, depicting a cyliner in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/naca-tr-1215/figure1a.png)
+![Figure 1 of NACA-TR-1215, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/naca-tr-1215/figure1a.png)
 
 The cylinder has a wide range of current uses in aviation:  
 - Meteorological instruments for flight and icing wind tunnel tests  

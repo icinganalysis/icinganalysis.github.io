@@ -58,7 +58,7 @@ median effective drop diameters of 20 to 45 micrometers with the "A" set of cyli
 
 There were few details given on how these values will be determined. 
 Efforts to reproduce the values in Figure 2 will be the subject of a future post 
-(NACA-TR-1215 has a more complete description of a similar study).
+(NACA-TR-1215 [^2] has a more complete description of a similar study).
 
 Several advantages and disadvantages are listed for rotating multicylinders:
 
@@ -123,3 +123,5 @@ NACA-RM-A9C09 is cited 4 times:
 ##Notes:
 [^1]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.
+[^2]:
+Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
