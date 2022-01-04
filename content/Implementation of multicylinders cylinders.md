@@ -69,7 +69,7 @@ pane.
 
 I lined up the printed graphs on an artist's light box.
 
-![Aligned graphs of experimental data and theoretical curves](/content/images/cunningham_data/cunningham_cropped.png)
+![Aligned graphs of experimental data and theoretical curves](images/cunningham_data/cunningham_cropped.png)
 
 It was tedious to keep the graphs sides parallel as I aligned them. 
 I imagine it was more difficult on a vertical window pane. 
