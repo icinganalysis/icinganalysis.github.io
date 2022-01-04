@@ -14,6 +14,8 @@ The calculations to determine drop median volumetric diameter with a multicylind
 
 ##Discussion
 
+###Manual method of drop size analysis
+
 By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.
 
 "Mathematical Investigation of Water Droplet Trajectories" [^1] provides an example of the mutlicylinder calculations method in 
@@ -97,7 +99,9 @@ and the air viscosity can be calculated, the value of drop radius a can be calcu
 It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
 Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. 
 
-Fortunately, this laborious process is implemented in the file multicylinder.py. 
+#Code implementation of the multicylinder drop size analysis
+
+Fortunately, this laborious process is implemented in the file "multicylinder.py" [^2]. 
 The determination of the best fit Κφ value and distribution type is also automated. 
 When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
 so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.
@@ -116,3 +120,4 @@ I will consider this implementation to be "good enough", but we will look for mo
 ##Notes:
 [^1]:  
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)
+[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  

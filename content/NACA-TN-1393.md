@@ -25,7 +25,7 @@ are given.
 
 ##Key points
 
-1. Multicylinder instruments are used to determine liquid water content and median water drop size.
+1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.
 2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
 3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis.
 4. "Tentative" values for icing design conditions were determined.
@@ -71,6 +71,27 @@ gram per cubic meter and an average drop diameter of 10 microns.
 |Maximum total error sum(E)| 14| 9|
 |Estimated resultant error (sum(E^2))^0.5| 5.7| 4.4|
 
+
+Running the file "" 
+
+
+|Source of error|Estimated amount of error|Resultant percent error (E) Water content|Resultant percent error (E) Drop diameter|
+|---|---|---|---|
+|Weighing sample 1/8-in. cylinder|+/-0.02 gram|2.9|2.4|
+|Weighing sample 1-in. cylinder|+/-0.03 gram|0.3|1.0|
+|Assumed density of ice|-0.08 g/cm^3|0.4|0.3|
+|Timing exposure|+/-1.5 seconds|2.6|0.0|
+|True airspeed|+/-2.5 mph|1.5|0.6|
+|Miscellaneous other errors|----|1.0|1|
+|Error due to using "C" distribution curves for unknown distribution|----|5.5|6.7|
+
+|Total error|Water content (percent)|Drop diameter (percent)|
+|---|---|---|
+|Maximum total error (sum(E))|14.1|12.0|
+|Maximum resultant error (sum(E^2)^0.5)|7.0|7.3|
+
+###Icing intensity index
+
 Icing intensity definitions from "reference 12" [^4] are included.
 
 >  The definition of icing intensity- It is now generally recognized 
@@ -94,6 +115,8 @@ The icing intensity definitions and cylinder water catch calculations from [^2] 
 ![Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
 as well as several flight meaasurement values](/images/naca-tn-1393/Figure%205.png)
+
+###Comparison to Tribus and Tesseman results
 
 When I overlaid calculations with the implementation of the cylinder impingement calculations [^5] 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 

@@ -29,12 +29,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-03T10:20:28.657659-08:00">
+        <abbr class="published" title="2022-01-03T16:57:01.091728-08:00">
                 Published: Mon 03 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-03T10:20:28.657659-08:00">-->
+        <!--<abbr class="modified" title="2022-01-03T16:57:01.091728-08:00">-->
                 <!--Updated: Mon 03 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -70,7 +70,7 @@ are given.  </p>
 </blockquote>
 <h2>Key points</h2>
 <ol>
-<li>Multicylinder instruments are used to determine liquid water content and median water drop size.</li>
+<li>The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.</li>
 <li>An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.</li>
 <li>Results from the methods of Tribus &amp; Tessman and Langmuir &amp; Blodgett agree well for cylinder analysis.</li>
 <li>"Tentative" values for icing design conditions were determined.</li>
@@ -178,6 +178,83 @@ gram per cubic meter and an average drop diameter of 10 microns.</p>
 </tr>
 </tbody>
 </table>
+<p>Running the file "" </p>
+<table>
+<thead>
+<tr>
+<th>Source of error</th>
+<th>Estimated amount of error</th>
+<th>Resultant percent error (E) Water content</th>
+<th>Resultant percent error (E) Drop diameter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weighing sample 1/8-in. cylinder</td>
+<td>+/-0.02 gram</td>
+<td>2.9</td>
+<td>2.4</td>
+</tr>
+<tr>
+<td>Weighing sample 1-in. cylinder</td>
+<td>+/-0.03 gram</td>
+<td>0.3</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Assumed density of ice</td>
+<td>-0.08 g/cm^3</td>
+<td>0.4</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Timing exposure</td>
+<td>+/-1.5 seconds</td>
+<td>2.6</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>True airspeed</td>
+<td>+/-2.5 mph</td>
+<td>1.5</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>Miscellaneous other errors</td>
+<td>----</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Error due to using "C" distribution curves for unknown distribution</td>
+<td>----</td>
+<td>5.5</td>
+<td>6.7</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Total error</th>
+<th>Water content (percent)</th>
+<th>Drop diameter (percent)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum total error (sum(E))</td>
+<td>14.1</td>
+<td>12.0</td>
+</tr>
+<tr>
+<td>Maximum resultant error (sum(E^2)^0.5)</td>
+<td>7.0</td>
+<td>7.3</td>
+</tr>
+</tbody>
+</table>
+<h3>Icing intensity index</h3>
 <p>Icing intensity definitions from "reference 12" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> are included.</p>
 <blockquote>
 <p>The definition of icing intensity- It is now generally recognized 
@@ -202,6 +279,7 @@ Heavy ice: 12.0 and over grams per square centimeter hour
 <img alt="Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
 as well as several flight meaasurement values" src="/images/naca-tn-1393/Figure%205.png"></p>
+<h3>Comparison to Tribus and Tesseman results</h3>
 <p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
 This indicates that the calculations from <sup id="fnref3:2"><a class="footnote-ref" href="#fn:2">2</a></sup> and <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> yield similar results.</p>

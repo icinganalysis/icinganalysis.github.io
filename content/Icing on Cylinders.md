@@ -54,24 +54,21 @@ While such instruments had limitations, the were often the best available techno
 >   1. There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.
 >   2. When the conditions are revised to match, the comparison with NACA-TN-779 data improves.
 
+###[Implementation of multicylinder calculations in Python]({filename}/Implementation of multicylinders cylinders.md)
+>  1. A manual method of multicylinder calculation is illustrated.  
+>  2. The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"  
+
 ###[NACA-TN-1393 “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"]({filename}/NACA-TN-1393.md)  
->   1. Multicylinder instruments are used to determine liquid water content and median water drop size.
->   2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
->   3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis.
->   4. "Tentative" values for icing design conditions were determined.
->   5. An effect of distance on icing conditions is noted.
+>   1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed. 
+>   2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed. 
+>   3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis. 
+>   4. "Tentative" values for icing design conditions were determined. 
+>   5. An effect of distance on icing conditions is noted. 
 
 ###[NACA-TN-1424 "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"]({filename}/NACA-TN-1424.md)  
 >  1. Two methods for determining drop size distributions are compared.
 >  2. The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.
 >  3. A temperature dependence of icing conditions is noted.
-
-Implementation of multicylinder calculations in Python _(planned)_  
-
-<!--[Implementation of multicylinder calculations in Python]({filename}/Implementation of multicylinders cylinders.md)
->  1. A manual method of multicylinder calculation is illustrated.
->  2. The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"
--->
 
 <!--###[NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"]({filename}/NACA-RM-A9C09.md)  
 >  1. Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.
