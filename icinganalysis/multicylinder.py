@@ -13,7 +13,7 @@ altitude: pressure altitude, m
 """
 from math import log10, pi
 from scipy.optimize import minimize
-import langmuir_cylinder
+from icinganalysis import langmuir_cylinder
 
 
 original_calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution
