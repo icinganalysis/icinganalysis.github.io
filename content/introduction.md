@@ -25,8 +25,8 @@ road maps, and confirmations can be found in the work of the National Advisory C
 This treasure trove of data can help you today. 
 
 Why care about aircraft icing?  If ice forms on a plane during flight, it can hazardous. 
-Engineers research the weather conditions and situations planes will encounter and work to ensure that 
-the aircraft can navigate them safely. 
+Engineers research the weather conditions aircraft will encounter and work to ensure that 
+they can navigate them safely. 
 
 ##What you will find here
 
