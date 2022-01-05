@@ -37,6 +37,10 @@ in the publications.
 While such instruments had limitations, the were often the best available technology at the time. 
 (There may be a thread in the future devoted to measurements of the icing environment). 
 
+Some typical multicylinder meteorological instruments (from [^3]):
+![Multicyllnder cloud meters used in comparative study at
+Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+
 ###[NACA-TN-779 “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"]({filename}/NACA-TN-779.md)  
 >   1. The effect of aerodynamic heating is predictable  
 >   2. Water drop impingement on a cylinder is calculated  
@@ -114,3 +118,5 @@ Python cylinder analysis updated with ambient temperature effects _(planned)_
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^2]:
 Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486 .  
+[^3]: 
+Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
