@@ -271,8 +271,8 @@ In the NACA Icing Publication Database [^10], it is cited 43 times:
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.
 
-
-
+##Related works
+NACA-TN-2708 [^11] has comments on the origins of the Langmuir drop size distributions, and proposes revised values.
 
 ##Notes:
 [^1]:
@@ -294,5 +294,7 @@ Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstac
 [^9]:
 Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Icing Handbook. Vol. 1, DOT/FAA/CT-88/8-1. 1991.  
 [^10]:
-[NACA Icing Publications Database]({filename}/naca icing publications database.md)
+[NACA Icing Publications Database]({filename}/naca icing publications database.md)  
+[^11]: 
+Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 
