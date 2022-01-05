@@ -11,6 +11,11 @@ tags: cylinder
 
 Water drop impingement on a cylinder is calculated.
 
+##Key points
+
+1. The effect of aerodynamic heating is predictable
+2. Water drop impingement on a cylinder is calculated
+
 ##Abstract
 
 >Two topics of interest to persons attempting to apply 
@@ -24,11 +29,6 @@ materially reduce the heat required to prevent ice.
 in an air stream around a circular cylinder are given. 
 From these calculations, information is obtained on the 
 percentage of the swept area cleared by drops.  
-
-##Key points
-
-1. The effect of aerodynamic heating is predictable
-2. Water drop impingement on a cylinder is calculated
 
 ##Discussion
 
@@ -76,7 +76,7 @@ NACA-TN-779 cites 6 works, 3 of them are NACA publications.
 - Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
 - Glauert, H.: The Elements of Aerofoil and Airscrew Theory. The Univ. Press (Cambridge), 1926.
 
-NACA-TN-779 is cited 7 times. All of these are in the context of water drop trajectories (not aerodynamic heating). 
+NACA-TN-779 is cited 7 times in the NACA Icing Publications Database [^7]. All of these are in the context of water drop trajectories (not aerodynamic heating). 
 
 - Kimball, Leo B.: Icing Tests of Aircraft-Engine Induction Systems. NACA-WR-W-97, Jan. 1943.
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.) 
@@ -88,7 +88,7 @@ NACA-TN-779 is cited 7 times. All of these are in the context of water drop traj
 
 ##Related Works
 
-The aerodynamic heating specifically for a cylinder is addressed in [^7].
+The aerodynamic heating specifically for a cylinder is addressed in [^8].
 
 ##Notes:
 [^1]: Kantrowitz, Arthur, “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing”, NACA-TN-779, 1940.
@@ -101,5 +101,7 @@ Albrecht, F. "Theoretical investigation of accretion of aerosol particles in an 
 [^5]:
 Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
 [^6]: Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Icing Handbook. Vol. 1, DOT/FAA/CT-88/8-1. 1991.  [Volume 1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
-[^7]:
+[^7]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^8]:
 Eckert, E., and Weise, W., “The Temperature of Unheated Bodies in a High-Speed Gas Stream”, NACA-TM-1000, 1941.

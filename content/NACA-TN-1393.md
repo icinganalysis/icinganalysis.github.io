@@ -8,7 +8,15 @@ tags: cylinder, natural icing
 [^1]
 
 ##Summary 
-A multi-cylinder and other instruments measure natural icing conditions in flight.
+A multicylinder and other instruments measure natural icing conditions in flight.
+
+##Key points
+
+1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.
+2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
+3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis.
+4. "Tentative" values for icing design conditions were determined.
+5. An effect of distance on icing conditions is noted.
 
 ##Abstract
 
@@ -22,14 +30,6 @@ intensity. The problems of determining the range of values of the
 significant factors defining icing intensity for the purpose of the
 design of ice-protection equipment are discussed, and tentative values
 are given.  
-
-##Key points
-
-1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.
-2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
-3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis.
-4. "Tentative" values for icing design conditions were determined.
-5. An effect of distance on icing conditions is noted.
 
 ##Discussion
 
@@ -210,7 +210,7 @@ NACA-TN-1393 cites 11 references.
 - Simpson, G. C.: On the Formation of Cloud and Rain. Quarterly Jour. of the Royal Meteorological Soc. Vol. 67, no. 290, Apr. 1941, pp.99-133.
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
 
-NACA-TN-1393 is cited 13 times.
+NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
 
 - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.
 - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.
@@ -234,7 +234,7 @@ NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icin
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.
 
-Also, see Jeck's comments [^8] on the distance curve in NACA-TN-1393.
+Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.
 
 ##Notes:
 [^1]:
@@ -250,5 +250,7 @@ Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. C
 [Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)
 [^7]:
 Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.
-[^8]:
+[^8]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)
+[^9]:
 Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.

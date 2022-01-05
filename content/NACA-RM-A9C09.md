@@ -5,8 +5,17 @@ status: draft
 
 > ###"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."
 
-##"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
+#"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
 [^1]
+
+##Summary 
+The multicylinder is the "standard against which other instruments are calibrated"
+
+##Key points  
+1. Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.  
+2. "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
+3. The effect of mass measurements errors on multicylinder results were assessed.  
+4. "A reliable method for the measurement of drop-size distribution should be developed"  
 
 ##Abstract
 
@@ -22,12 +31,6 @@ the quantities they measure, principle of operation, range and accu-
 racy, duration of a single reading, and advantages and disadvantages 
 associated with their use.  Recommendations are presented for the 
 continued research and development of icing meteorological instruments. 
-
-##Key points  
-1. Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.  
-2. "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
-3. The effect of mass measurements errors on multicylinder results were assessed.  
-4. "A reliable method for the measurement of drop-size distribution should be developed"  
 
 ##Discussion
 
@@ -113,7 +116,7 @@ NACA-RM-A9C09 cites 15 publications:
 - Schaefer,Vincent J.: The Preparation and Use of Water Sensitive Coatings for Sampling Cloud Particles. General Electric Research Laboratory Report. Contract W-33-038-ac-9151. Apr. 1946.
 - Elliott, H. W.: Cloud Droplet Camera. National Research Laboratories Report No. M.I.-7O1. National Research Council of Canada, Ottawa, Canada. Dec. 1947.
 
-NACA-RM-A9C09 is cited 4 times:
+NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 
 - Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.
 - Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.
@@ -125,3 +128,5 @@ NACA-RM-A9C09 is cited 4 times:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.
 [^2]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
+[^3]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)

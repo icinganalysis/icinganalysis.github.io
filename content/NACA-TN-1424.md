@@ -4,7 +4,7 @@ tags: cylinder, natural icing
 
 > ###"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."
 
-##"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
+#"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
 [^1]
 
 ##Summary

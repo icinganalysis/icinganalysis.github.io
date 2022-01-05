@@ -17,7 +17,11 @@ The calculations to determine drop median volumetric diameter with a multicylind
 
 By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.
 
-"Mathematical Investigation of Water Droplet Trajectories" [^1] provides an example of the mutlicylinder calculations method in 
+Some typical multicylinder instruments (from [^1]):
+![Multicyllnder cloud meters used in comparative study at
+Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+
+"Mathematical Investigation of Water Droplet Trajectories" [^2] provides an example of the mutlicylinder calculations method in 
 the section "Example of the Application of the D.A. Data to Experimental Data".
 
 > The method has been revised as a result of the work done with the D.A.
@@ -100,7 +104,7 @@ Estimating the accuracy of the multicyinder method will be a recurring theme in 
 
 #Code implementation of the multicylinder drop size analysis
 
-Fortunately, this laborious process is implemented in the file "multicylinder.py" [^2]. 
+Fortunately, this laborious process is implemented in the file "multicylinder.py" [^3]. 
 The determination of the best fit Κφ value and distribution type is also automated. 
 When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
 so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.
@@ -117,6 +121,8 @@ When the more technically correct "unique Κφ value for each drop size bin" met
 I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.
 
 ##Notes:
-[^1]:  
+[^1]: 
+Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
+[^2]:  
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)
-[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  

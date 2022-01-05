@@ -6,7 +6,12 @@ tags: cylinder
 
 ##Summary
 Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as an icing instrument is described.
+    
+##Key points
 
+1. The Langmuir drop size distributions are defined
+2. The water drop impingement terms E, Beta, K, and Ko are defined
+3. The use of cylinders of different sizes and detailed calculations to determine water drop sizes
 
 ##Abstract
 
@@ -38,12 +43,6 @@ It is shown that when three or more cylinders are used it is possible to estimat
 of particle size by graphical methods. The experimental data used in the example were obtained
 by R. M . Cunningham in an airplane. The application of the method is given for the case of data
 taken under other conditions, such as those at the attitude of Mt. Washington [New Hampshire, USA].
-    
-##Key points
-
-1. The Langmuir drop size distributions are defined
-2. The water drop impingement terms E, Beta, K, and Ko are defined
-3. The use of cylinders of different sizes and detailed calculations to determine water drop sizes
 
 ##Discussion
 
@@ -271,6 +270,9 @@ In the NACA Icing Publication Database [^10], it is cited 43 times:
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.
+
+
+
 
 ##Notes:
 [^1]:

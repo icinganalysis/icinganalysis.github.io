@@ -5,8 +5,13 @@ status: Draft
 
 > ###"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"
 
-##NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948"  
+#"Observations of Icing Conditions Encountered in Flight During 1948"  
 [^1]
+
+##Key points
+
+1. The average liquid water content varies over distance traveled in icing.
+2. The value of the multicylinder method for determining drop size distributions is questioned.
 
 ##Abstract
 
@@ -30,11 +35,6 @@ average and maximum values of drop size are significantly greater
 and more variable near the Pacific coast than in the other parts of
 the United States included in this investigation.
     
-
-##Key points
-
-1. The average liquid water content varies over distance traveled in icing.
-2. The value of the multicylinder method for determining drop size distributions is questioned.
 
 ##Discussion
 
@@ -78,7 +78,7 @@ NACA-TN-1904 cites 9 publications:
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.
 - Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Fornation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)
 
-NACA-TN-1904 is cited by 10 publications:
+NACA-TN-1904 is cited by 10 publications in the NACA Icing Publications Database [^3]:
 
 - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.
@@ -94,17 +94,19 @@ NACA-TN-1904 is cited by 10 publications:
 
 ###Related publications
 
-Later publications that include the author William Lewis (such as NACA-TR-1215 [^2]) will have a more nuanced view of the value of the multicylinder method. 
+Later publications that include the author William Lewis (such as NACA-TR-1215 [^3]) will have a more nuanced view of the value of the multicylinder method. 
 NACA-TR-1215 "supersedes" NACA-TN-1904. We will examine that more when we get to the review of NACA-TR-1215.
 
-Also, see Jeck's comments [^3] on the distance curve in NACA-TN-1904.
+Also, see Jeck's comments [^4] on the distance curve in NACA-TN-1904.
 
 ##Notes:
 [^1]:
 Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.
-[^2]:
-Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
+[^2]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^3]:
+Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
+[^4]:
 Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.
 
 
