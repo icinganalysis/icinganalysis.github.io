@@ -11,6 +11,7 @@ The Langmuir drop size distribution are almost normal distributions.
 ##Key points
 1. The Langmuir drop size distribution are almost normal distributions.  
 2. Perhaps it was originally intended that they be exactly normal distributions.
+3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
 
 ##Discussion
 
@@ -26,8 +27,10 @@ drop size is a Gaussian [normal] distribution:
 following Howell (reference 6), that water-volume distribution with the
 drop size is a Gaussian distribution, the breadth of which may be characterized 
 by a modulus of distribution m that is defined by the relation:  
+
     m = (2)**0.5 * sigma / R_bar  
-where simga is the standard deviation and R_bar is the volume median radius.
+
+> where sigma is the standard deviation and R_bar is the volume median radius.
 The distributions postulated by Langmuir (reference 7) and used in the
 multicylinder method may be given numerical values as follows:
 
@@ -36,20 +39,50 @@ multicylinder method may be given numerical values as follows:
 |Modulus         |0.00|0.50|0.75|1.00|1.25|1.50|1.75|2.00|2.5|
 
 
-
 NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] Langmuir [^2] used did fit a normal distribution well. 
-The data were digitized, and the normal fit was confirmed, as shown below.
+The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.
 
 ![](/images/naca-tn-2708/NACA-TN-2708_overlay.png)
+
+
+However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
+Perhaps there is a different convention for sigma than the one used by scipy.
 
 Clark [^4] recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).  
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](/images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
+NACA-TN-2708 states:
+> Upon
+comparing this chart with Langmuir's tables (reference 7), it was found
+that his selections of the representative radii for the various sub-
+divisions of the volume were in error. The matter was not pursued fur-
+ther at the time, but as a part of the present study it was decided to
+investigate the effect this error might have on the collection-efficiency
+graphs, based on Langmuir's data, that have been used by virtually all
+workers with the multicylinder method.
 
-With normal distribution stdev=0.237 (fit to Houghton and Radford)
+We will pursue this further herein. 
 
-Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
----|---|---|---|---|---
+Langmuir never state what distribution he used, other than 
+
+> In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
+on size distribution it was concluded that their measurements were correct
+when the covering fraction a was less than 0.1. In their paper they give a "volume
+distribution curve" (Fig. 7), based on the microphotograph of the Fig. 4 for
+which a = 0.072. As ordinates they plot the relative volumes (liquid water
+content, Aw) of the droplets for equal increments of droplet radius.
+
+However, the Houghton and Radford data was shown above to be a good fit of a normal distribution. 
+So, a good fit the data should be a normal distribution.
+
+When the different distributions are compare to the normal fit of the Houghton and Radford data, 
+there are difference from the fit, but the values from Clark have the largest differences, 
+particularly for the "15-35" and "65-85" bins.
+
+With normal distribution stdev = 0.237 (fit to Houghton and Radford):
+
+Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)|Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
+---|---|---|---|---|---|---
 0-5|2.5|0.54|0.56|3.2|0.53|2.4
 5-15|10|0.7|0.72|11.9|0.69|9.5
 15-35|25|0.84|0.84|25.0|0.91|35.2
@@ -58,12 +91,11 @@ Percentile divisions of total liquid volume in clouds|Expected midpoint cumulati
 85-95|90|1.3|1.32|91.2|1.31|90.5
 95-100|97.5|1.46|1.49|98.1|1.47|97.6
 
+With normal fit distribution rounded to stdev = 0.25, the Langmuir B matches some of the bins exactly, 
+while the large differences for the Clark values remain.
 
-
-With normal distribution stdev=0.25
-
-Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
----|---|---|---|---|---
+Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)|Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
+---|---|---|---|---|---|---
 0-5|2.5|0.51|0.56|3.9|0.53|3.0
 5-15|10|0.68|0.72|13.1|0.69|10.7
 15-35|25|0.83|0.84|26.1|0.91|35.9
@@ -71,32 +103,17 @@ Percentile divisions of total liquid volume in clouds|Expected midpoint cumulati
 65-85|75|1.17|1.17|75.2|1.09|64.1
 85-95|90|1.32|1.32|90.0|1.31|89.3
 95-100|97.5|1.49|1.49|97.5|1.47|97.0
+ 
+I do not have a copy of Clark's paper to see if things were transcribe accurately in NACA-TN-2708. 
+Perhaps the values from Clark used different bin sizes, that were not noted in Table IV.
 
-
-
-![]()
-
-![](/images/naca-tn-2708/NACA-TN-2708_Figure_6.png)
-
-> In the course of earlier work on the physical origin of the drop-
-size distribution in clouds, the volume distribution diagram of Houghton
-and Radford (reference 13) for fog drops was redrawn in the form shown
-in figure 6 and the volume distribution found by Vonnegut, Cunningham,
-and Katz (reference 14) in clouds was plotted on the same chart. Upon
-comparing this chart with Langinuir's tables (reference 7), it was found
-that his selections of the representative radii for the various sub-
-divisions of the volume were in error. The matter was not pursued fur-
-ther at the time, but as a part of the present study it was decided to
-investigate the effect this error might have on the collection-efficiency
-graphs, based on Langmuir's data, that have been used by virtually all
-workers with the multicylinder method. The matter was not pursued further at the time, 
-but as a part of the present study it was decided to
-investigate the effect this error might have on the collection-efficiency
-graphs, based on Langmuir's data, that have been used by virtually all
-workers with the multicylinder method.
-
+Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.
 
 ¯\\_(ツ)_/¯
+
+Perhaps it is well that the alternative distributions from NACA-TN-2708 were not widely used.
+
+
 
 ##Notes:
 [^1]: 

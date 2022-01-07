@@ -29,12 +29,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-07T11:07:01.938638-08:00">
+        <abbr class="published" title="2022-01-07T14:08:41.805563-08:00">
                 Published: Fri 07 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-07T11:07:01.938638-08:00">-->
+        <!--<abbr class="modified" title="2022-01-07T14:08:41.805563-08:00">-->
                 <!--Updated: Fri 07 January 2022-->
         <!--</abbr>-->
         <!---->
@@ -58,6 +58,7 @@
 <ol>
 <li>The Langmuir drop size distribution are almost normal distributions.  </li>
 <li>Perhaps it was originally intended that they be exactly normal distributions.</li>
+<li>The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.</li>
 </ol>
 <h2>Discussion</h2>
 <h3>Normal drop size distributions</h3>
@@ -69,9 +70,13 @@ drop size is a Gaussian [normal] distribution:</p>
 <p>Drop-Size Distribution. - In the present report it is presumed,
 following Howell (reference 6), that water-volume distribution with the
 drop size is a Gaussian distribution, the breadth of which may be characterized 
-by a modulus of distribution m that is defined by the relation:<br>
-    m = (2)**0.5 * sigma / R_bar<br>
-where simga is the standard deviation and R_bar is the volume median radius.
+by a modulus of distribution m that is defined by the relation:  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>m = (2)**0.5 * sigma / R_bar
+</code></pre></div>
+
+<blockquote>
+<p>where sigma is the standard deviation and R_bar is the volume median radius.
 The distributions postulated by Langmuir (reference 7) and used in the
 multicylinder method may be given numerical values as follows:</p>
 </blockquote>
@@ -106,17 +111,46 @@ multicylinder method may be given numerical values as follows:</p>
 </tbody>
 </table>
 <p>NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> noted that the Houghton and Radford data <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> Langmuir <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> used did fit a normal distribution well. 
-The data were digitized, and the normal fit was confirmed, as shown below.</p>
+The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.</p>
 <p><img alt="" src="/images/naca-tn-2708/NACA-TN-2708_overlay.png"></p>
+<p>However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
+Perhaps there is a different convention for sigma than the one used by scipy.</p>
 <p>Clark <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).<br>
 <img alt="Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds" src="/images/naca-tn-2708/table_iv_corrected_distrbutions.png"> </p>
-<p>With normal distribution stdev=0.237 (fit to Houghton and Radford)</p>
+<p>NACA-TN-2708 states:</p>
+<blockquote>
+<p>Upon
+comparing this chart with Langmuir's tables (reference 7), it was found
+that his selections of the representative radii for the various sub-
+divisions of the volume were in error. The matter was not pursued fur-
+ther at the time, but as a part of the present study it was decided to
+investigate the effect this error might have on the collection-efficiency
+graphs, based on Langmuir's data, that have been used by virtually all
+workers with the multicylinder method.</p>
+</blockquote>
+<p>We will pursue this further herein. </p>
+<p>Langmuir never state what distribution he used, other than </p>
+<blockquote>
+<p>In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
+on size distribution it was concluded that their measurements were correct
+when the covering fraction a was less than 0.1. In their paper they give a "volume
+distribution curve" (Fig. 7), based on the microphotograph of the Fig. 4 for
+which a = 0.072. As ordinates they plot the relative volumes (liquid water
+content, Aw) of the droplets for equal increments of droplet radius.</p>
+</blockquote>
+<p>However, the Houghton and Radford data was shown above to be a good fit of a normal distribution. 
+So, a good fit the data should be a normal distribution.</p>
+<p>When the different distributions are compare to the normal fit of the Houghton and Radford data, 
+there are difference from the fit, but the values from Clark have the largest differences, 
+particularly for the "15-35" and "65-85" bins.</p>
+<p>With normal distribution stdev = 0.237 (fit to Houghton and Radford):</p>
 <table>
 <thead>
 <tr>
 <th>Percentile divisions of total liquid volume in clouds</th>
 <th>Expected midpoint cumulative %</th>
-<th>Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)</th>
+<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
+<th>Drop size ratios (Langmuir B)</th>
 <th>Calculate cumulative volume (Langmuir B), %</th>
 <th>Drop size ratios (Clark)</th>
 <th>Calculate cumulative volume (Clark), %</th>
@@ -130,6 +164,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.56</td>
 <td>3.2</td>
 <td>0.53</td>
+<td>2.4</td>
 </tr>
 <tr>
 <td>5-15</td>
@@ -138,6 +173,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.72</td>
 <td>11.9</td>
 <td>0.69</td>
+<td>9.5</td>
 </tr>
 <tr>
 <td>15-35</td>
@@ -146,6 +182,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.84</td>
 <td>25.0</td>
 <td>0.91</td>
+<td>35.2</td>
 </tr>
 <tr>
 <td>35-65</td>
@@ -154,6 +191,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.0</td>
 <td>50.0</td>
 <td>1.0</td>
+<td>50.0</td>
 </tr>
 <tr>
 <td>65-85</td>
@@ -162,6 +200,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.17</td>
 <td>76.3</td>
 <td>1.09</td>
+<td>64.8</td>
 </tr>
 <tr>
 <td>85-95</td>
@@ -170,6 +209,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.32</td>
 <td>91.2</td>
 <td>1.31</td>
+<td>90.5</td>
 </tr>
 <tr>
 <td>95-100</td>
@@ -178,16 +218,19 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.49</td>
 <td>98.1</td>
 <td>1.47</td>
+<td>97.6</td>
 </tr>
 </tbody>
 </table>
-<p>With normal distribution stdev=0.25</p>
+<p>With normal fit distribution rounded to stdev = 0.25, the Langmuir B matches some of the bins exactly, 
+while the large differences for the Clark values remain.</p>
 <table>
 <thead>
 <tr>
 <th>Percentile divisions of total liquid volume in clouds</th>
 <th>Expected midpoint cumulative %</th>
-<th>Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)</th>
+<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
+<th>Drop size ratios (Langmuir B)</th>
 <th>Calculate cumulative volume (Langmuir B), %</th>
 <th>Drop size ratios (Clark)</th>
 <th>Calculate cumulative volume (Clark), %</th>
@@ -201,6 +244,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.56</td>
 <td>3.9</td>
 <td>0.53</td>
+<td>3.0</td>
 </tr>
 <tr>
 <td>5-15</td>
@@ -209,6 +253,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.72</td>
 <td>13.1</td>
 <td>0.69</td>
+<td>10.7</td>
 </tr>
 <tr>
 <td>15-35</td>
@@ -217,6 +262,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>0.84</td>
 <td>26.1</td>
 <td>0.91</td>
+<td>35.9</td>
 </tr>
 <tr>
 <td>35-65</td>
@@ -225,6 +271,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.0</td>
 <td>50.0</td>
 <td>1.0</td>
+<td>50.0</td>
 </tr>
 <tr>
 <td>65-85</td>
@@ -233,6 +280,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.17</td>
 <td>75.2</td>
 <td>1.09</td>
+<td>64.1</td>
 </tr>
 <tr>
 <td>85-95</td>
@@ -241,6 +289,7 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.32</td>
 <td>90.0</td>
 <td>1.31</td>
+<td>89.3</td>
 </tr>
 <tr>
 <td>95-100</td>
@@ -249,30 +298,15 @@ The data were digitized, and the normal fit was confirmed, as shown below.</p>
 <td>1.49</td>
 <td>97.5</td>
 <td>1.47</td>
+<td>97.0</td>
 </tr>
 </tbody>
 </table>
-<p><img alt="" src=""></p>
-<p><img alt="" src="/images/naca-tn-2708/NACA-TN-2708_Figure_6.png"></p>
-<blockquote>
-<p>In the course of earlier work on the physical origin of the drop-
-size distribution in clouds, the volume distribution diagram of Houghton
-and Radford (reference 13) for fog drops was redrawn in the form shown
-in figure 6 and the volume distribution found by Vonnegut, Cunningham,
-and Katz (reference 14) in clouds was plotted on the same chart. Upon
-comparing this chart with Langinuir's tables (reference 7), it was found
-that his selections of the representative radii for the various sub-
-divisions of the volume were in error. The matter was not pursued fur-
-ther at the time, but as a part of the present study it was decided to
-investigate the effect this error might have on the collection-efficiency
-graphs, based on Langmuir's data, that have been used by virtually all
-workers with the multicylinder method. The matter was not pursued further at the time, 
-but as a part of the present study it was decided to
-investigate the effect this error might have on the collection-efficiency
-graphs, based on Langmuir's data, that have been used by virtually all
-workers with the multicylinder method.</p>
-</blockquote>
+<p>I do not have a copy of Clark's paper to see if things were transcribe accurately in NACA-TN-2708. 
+Perhaps the values from Clark used different bin sizes, that were not noted in Table IV.</p>
+<p>Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.</p>
 <p>¯\<em>(ツ)</em>/¯</p>
+<p>Perhaps it is well that the alternative distributions from NACA-TN-2708 were not widely used.</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
