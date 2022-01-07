@@ -1,22 +1,20 @@
-Title: Implementation of cylinder impingement correlations in Python   
+Title: A Langmuir distribution is (almost) a normal distribution   
 Category: python tools
 tags: cylinder
+status: draft
 
-
-> ###"The equations were found to fit the experimental data over a wider range of values..." [^1]
+> ###"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]
 
 ##Summary  
-The correlations for water drop impingement on a cylinder from 
-"Mathematical Investigation of Water Droplet Trajectories" [^1] 
-are implemented in the Python programming language. 
+The Langmuir drop size distribution are almost normal distributions.
 
 ##Key points
-1. The cylinder impingement correlations were implemented and reproduced values from "Mathematical Investigation of Water Droplet Trajectories"
-2. A subtlety about calculations with drop size distributions is noted.
+1. The Langmuir drop size distribution are almost normal distributions.  
+2. Perhaps it was originally intended that they be exactly normal distributions.
 
 ##Discussion
 
-###Implementation of cylinder impingement correlations
+###Normal drop size distributions
 
 Alas, I do not have access to a [differential analyzer](https://en.wikipedia.org/wiki/Differential_analyser) as was used in [^1], 
 so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 

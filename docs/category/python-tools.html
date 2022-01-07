@@ -21,15 +21,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">Implementation of multicylinder calculations in Python</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-01-05T08:13:10.885454-08:00">
-                Published: Wed 05 January 2022
+        <abbr class="published" title="2022-01-06T14:58:58.997908-08:00">
+                Published: Thu 06 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-05T08:13:10.885454-08:00">-->
-                <!--Updated: Wed 05 January 2022-->
+        <!--<abbr class="modified" title="2022-01-06T14:58:58.997908-08:00">-->
+                <!--Updated: Thu 06 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -44,120 +44,69 @@
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info --><blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 </blockquote>
 <h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. </p>
+<p>The correlations for water drop impingement on a cylinder from 
+"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
+are implemented in the Python programming language. </p>
 <h2>Key points</h2>
 <ol>
-<li>A manual method of multicylinder calculation is illustrated.</li>
-<li>The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"</li>
+<li>The cylinder impingement correlations were implemented and reproduced values from "Mathematical Investigation of Water Droplet Trajectories"</li>
+<li>A subtlety about calculations with drop size distributions is noted.</li>
 </ol>
 <h2>Discussion</h2>
-<h3>Manual method of drop size analysis</h3>
-<p>By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.</p>
-<p>Some typical multicylinder instruments (from <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>):
-<img alt="Multicyllnder cloud meters used in comparative study at
-Mount Washington Observatory" src="/images/naca-tn-2708/figure_1.png"></p>
-<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> provides an example of the mutlicylinder calculations method in 
-the section "Example of the Application of the D.A. Data to Experimental Data".</p>
-<blockquote>
-<p>The method has been revised as a result of the work done with the D.A.
-We shall describe the revised method and illustrate its use by analyzing some
-recent data that were obtained by R. M . Cunningham in an airplane.</p>
-<p>Amounts of ice were collected on four cylinders of different diameters,
-each 10 cm in length. The liquid water content of the fog in g/m^3 was ω.
-The mean value of the initial diameter of a cylinder and the diameter coated
-with ice at the finish of an experiment was 2C . The true speed of the airplane
-was 207 mi/hr, the temperature measured by a thermometer —3°C .</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>TABLE X
+<h3>Implementation of cylinder impingement correlations</h3>
+<p>Alas, I do not have access to a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> as was used in <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, 
+so I will have to use a modern, digital computer. Also, we will not be integrating the water drop equations of motion; 
+we will be using the data in <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup> to determine water drop impingement on a cylinder.</p>
+<p>The Anaconda distribution of Python version 3.7 was used <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
+as this includes the third party modules matplotlib, numpy, and scipy.</p>
+<p>The drag for a sphere and the drop range parameter values from Table I are implemented in the file langmuir_blodgett_table_i.py in the github repository <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.
+The values for cylinder water catch efficiency Em Table II are implemented in the file langmuir_blodgett_table_ii.py. 
+A 2D interpolation of Table II values was used. </p>
+<p>Other correlations were considered, as detailed in the file, but the
+interpolation was selected as the most accurate over the entire range of parameters (K, Phi) considered. 
+The range of values in Table II are rather broad, and should fit every combination of drop size and cylinder diameter 
+of interest in aviation.</p>
+<p>In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi 
+from dimensional values, such as airspeed, drop size, and cylinder diameter. 
+The Langmuir drop size distributions are implemented. 
+The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
+<p><img alt="comparison to Table XI values" src="images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
+<h3>A subtlety about implementing drop size distributions</h3>
+<p>As noted in NACA-TR-1215 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
+using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
+This means essentially that for part of the calculation (the k*phi value) the MVD drop size was used for every bin, 
+and for the other part (the k value) the drop size was unique for each bin.
+A more technically correct implementation is to have a unique k*phi value for each bin (both the k and the k*phi parts). 
+I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
+and it was an astute observations made in NACA-TR-1215 to notice this. 
+A comparison to Table XI values verifies that the "k*phi value for the MVD" method was used.</p>
+<!--- note the the "*" in k*phi is escaped k\*phi to prevent unwanted formatting between "*"s --->
 
-Em ω (g)  2 C (cm)
--------   ------
-0.118     0.43
-0.0808    2.60
-0.0603    5.09
-0.0250    15
-</code></pre></div>
-
-<p>Note: units on Em ω should be (g/m^3)</p>
-<blockquote>
-<p>By combining Eqs. (12) and (25) we obtain  </p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>Κφ = (2 ρa U a / η)**2  (50)
-</code></pre></div>
-
-<p>Note: there was already an equation (50), (70) was probably what was intended as it would be next in the sequence.</p>
-<blockquote>
-<p>Therefore Κφ is independent of the cylinder radius. The values of Κφ were
-found to be between 13,000 and 6000, for all of Cunningham's data.
-A curve was prepared in which Em was plotted against 1/K on double logarithmic 
-paper for a constant value of Κφ which was taken to be 10^6.</p>
-<p>The experimental data are compared with the theoretical curve by superimposing one
-sheet on the other, sliding the upper sheet (with the axis of coordinates parallel
-for the two sheets) until the two curves coincide at the end where C is small.</p>
-</blockquote>
-<p>I do not have log-log graph paper anymore, so I printed the data in log-log coordinates with maptplotlib. </p>
-<p><img alt="Cunningham data from Table X" src="/images/cunningham_data/Cunningham_data.png"></p>
-<p><img alt="Graph of 1/K vs. Em for K*Phi=10000" src="/images/cunningham_data/k_phi_10000.png"></p>
-<blockquote>
-<p>A convenient way to illuminate the sheets is to hold them against a window
-pane.</p>
-</blockquote>
-<p>I lined up the printed graphs on an artist's light box.</p>
-<p><img alt="Aligned graphs of experimental data and theoretical curves" src="images/cunningham_data/cunningham_cropped.png"></p>
-<p>It was tedious to keep the graphs sides parallel as I aligned them. 
-I imagine it was more difficult on a vertical window pane. 
-I admit that the photo is not of good quality, but the view was not much better on the light box.</p>
-<blockquote>
-<p>When the set of Cunningham's data that we
-have given as an example were compared with the curves B, C, D, Ε it was
-found that all four experimental points lay on curve C if the two sheets
-were superimposed in such a way that the values 2 C = 17.0 and Emw = 0.132
-on the experimental curve coincided respectively with 1/K = 1 and Em = 1
-on the theoretical curve.</p>
-</blockquote>
-<p>As close as I can read it for my graphs, a "C" curve was the best match, 
-and the 1/K=1 vertical line crosses the diameter line between 17 and 18 cm,
-so I have fair agreement with Langmuir and Blodgett.</p>
-<blockquote>
-<p>The value of the radius a of the fog particles was calculated by means of
-Eq. (12), as follows:</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code> Κ = 2 ρs a^2 U / (9 η C), (12)
-</code></pre></div>
-
-<p>Since K and C are now known (1/K=1, 2C=17 cm), airspeed U is known, the water density is known, 
-and the air viscosity can be calculated, the value of drop radius a can be calculated.</p>
-<blockquote>
-<p>From Eq. (12) we obtain a = 8.33μ.</p>
-</blockquote>
-<p>It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
-Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. </p>
-<h1>Code implementation of the multicylinder drop size analysis</h1>
-<p>Fortunately, this laborious process is implemented in the file "multicylinder.py" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. 
-The determination of the best fit Κφ value and distribution type is also automated. 
-When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
-so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation" src="/images/cunningham_data/Calculation_with_k_phi_constant_for_each_drop_size_bin.png"></p>
-<p>The above result used the original Langmuir-Blodgett approximate method "Κφ value for the MVD applied to each drop size bin", 
-as explained in <a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>. </p>
-<p>When the more technically correct "unique Κφ value for each drop size bin" method is used, the calculated MVD=17.1 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation alternative method" src="/images/cunningham_data/Calculation_with_k_phi_unique_for_each_drop_size_bin.png"></p>
-<p>I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.</p>
+<p>Both methods were implemented herein. 
+There are only a small differences between values calculated with the two implementations. </p>
+<p><img alt="comparison of two implementations" src="images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
+<p>I doubt that the approximation was a source of any significant errors in analysis using the 
+Langmuir-Blodgett methods.</p>
+<p>The "unique k*phi for each bin" method is considered more technically correct, 
+and will be used hereafter (unless noted otherwise).</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: https://www.anaconda.com/&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
 <p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -169,19 +118,19 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
-                           title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-04T06:13:03.173871-08:00">
-                Published: Tue 04 January 2022
+        <abbr class="published" title="2022-01-06T14:52:50.054075-08:00">
+                Published: Thu 06 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-04T06:13:03.173871-08:00">-->
-                <!--Updated: Tue 04 January 2022-->
+        <!--<abbr class="modified" title="2022-01-06T14:52:50.054075-08:00">-->
+                <!--Updated: Thu 06 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -196,13 +145,11 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
-<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 </blockquote>
 <h2>Summary</h2>
-<p>The correlations for water drop impingement on a cylinder from 
-"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
-are implemented in the Python programming …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">read more</a>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

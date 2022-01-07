@@ -102,7 +102,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 59. Coles, Willard D.: Laboratory Investigation of Ice Formation and Elimination in the Induction System of a Large Twin-Engine Cargo Aircraft. NACA-TN-1427, 1947.  
 60. Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
 61. Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
-62. Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Teats in Natural—Icing Conditions. NACA-TN-1434, 1947.  
+62. Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
 63. Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
 64. Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
 65. Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
