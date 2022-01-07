@@ -46,6 +46,33 @@ Clark [^4] recommended a different fit of the Houghton and Radford data in the c
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](/images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
 
+With normal distribution stdev=0.237 (fit to Houghton and Radford)
+
+Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
+---|---|---|---|---|---
+0-5|2.5|0.54|0.56|3.2|0.53|2.4
+5-15|10|0.7|0.72|11.9|0.69|9.5
+15-35|25|0.84|0.84|25.0|0.91|35.2
+35-65|50|1.0|1.0|50.0|1.0|50.0
+65-85|75|1.16|1.17|76.3|1.09|64.8
+85-95|90|1.3|1.32|91.2|1.31|90.5
+95-100|97.5|1.46|1.49|98.1|1.47|97.6
+
+
+
+With normal distribution stdev=0.25
+
+Percentile divisions of total liquid volume in clouds|Expected midpoint cumulative %|Drop size ratios to match midpoint cumulative % (normal distribution)Drop size ratios (Langmuir B)|Calculate cumulative volume (Langmuir B), %|Drop size ratios (Clark)|Calculate cumulative volume (Clark), %
+---|---|---|---|---|---
+0-5|2.5|0.51|0.56|3.9|0.53|3.0
+5-15|10|0.68|0.72|13.1|0.69|10.7
+15-35|25|0.83|0.84|26.1|0.91|35.9
+35-65|50|1.0|1.0|50.0|1.0|50.0
+65-85|75|1.17|1.17|75.2|1.09|64.1
+85-95|90|1.32|1.32|90.0|1.31|89.3
+95-100|97.5|1.49|1.49|97.5|1.47|97.0
+
+
 
 ![]()
 
