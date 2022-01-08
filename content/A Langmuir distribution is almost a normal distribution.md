@@ -112,7 +112,7 @@ Rather than correcting errors, including the values from Clark in NACA-TN-2708 a
 
 Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.
 
-The code producing the normal fit chart and the comparison tables is available in the file "naca-tn-2708.py" [^6]
+The code producing the normal fit chart and the comparison tables is available in the file "NACA-TN-2708.py" [^6]
 
 You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.md) 
 
