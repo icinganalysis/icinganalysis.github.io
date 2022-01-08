@@ -69,8 +69,10 @@ class NormProbScale(mscale.ScaleBase):
 mscale.register_scale(NormProbScale)
 
 
-def to_stairs(vs):
+def to_stairs_x(vs, insert_initial=True):
     ws = []
+    if insert_initial:
+        ws = [vs[0]]
     for v in vs[1:]:
         ws.append(v)
         ws.append(v)
@@ -79,24 +81,25 @@ def to_stairs(vs):
     return ws
 
 
-def to_risers(vs):
+def to_stairs_y(vs, insert_initial=True):
     ws = []
-    for v in vs[:]:
+    if insert_initial:
+        ws = [0]
+    for v in vs:
         ws.append(v)
         ws.append(v)
     return ws
 
 
 def make_markdown_table(header, rows):
-    text = '|'.join(header)+'\n'
-    text += '|'.join(['---']*len(header)) + '\n'
+    text = '|'.join(header) + '\n'
+    text += '|'.join(['---'] * len(header)) + '\n'
     for row in rows:
         text += '|'.join([str(_) for _ in row]) + '\n'
     return text
 
 
 if __name__ == '__main__':
-
     # Fit NACA-TN-2708 Figure 6 data
     p = 0.01, 0.0175, 0.0175, 0.085, 0.085, 0.16, 0.16, 0.30, 0.30, 0.475, 0.475, 1.00, 1.00, 1.85, 1.85, 3.30, 3.30, 5.80, 5.80, 9.40, 9.40, 15.10, 15.10, 22.55, 22.55, 32.00, 32.00, 41.50, 41.50, 51.50, 51.50, 61.40, 61.40, 72.40, 72.40, 80.00, 80.00, 86.90, 86.90, 91.40, 91.40, 94.20, 94.20, 96.40, 96.40, 97.40, 97.40, 99.25, 99.25, 99.75, 99.75, 99.99, 99.99, 99.99
     r = 2.5, 2.5, 3.7, 3.7, 4.8, 4.8, 6.3, 6.3, 7.2, 7.2, 8.2, 8.2, 9.7, 9.7, 10.6, 10.6, 11.8, 11.8, 13.1, 13.1, 14.1, 14.1, 15.5, 15.5, 16.8, 16.8, 18.0, 18.0, 18.8, 18.8, 20.3, 20.3, 21.7, 21.7, 22.6, 22.6, 24.1, 24.1, 25.0, 25.0, 26.8, 26.8, 27.5, 27.5, 28.7, 28.7, 30.0, 30.0, 31.2, 31.2, 32.7, 32.7, 32.7, 32.7
@@ -139,9 +142,9 @@ if __name__ == '__main__':
         (2.5, 10, 25, 50, 75, 90, 97.5),
         [round(_, 2) for _ in size_ratios_for_expected_midpoint_cumulative_volumes],
         langmuir_cylinder.langmuir_b_mids,
-        [round(_*100, 1) for _ in cumulative_volumes_for_langmuir_b],
+        [round(_ * 100, 1) for _ in cumulative_volumes_for_langmuir_b],
         (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47),
-        [round(_*100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
+        [round(_ * 100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
     ]
     print()
     print('With normal distribution stdev=0.237 (fit to Houghton and Radford)')
@@ -171,9 +174,9 @@ if __name__ == '__main__':
         (2.5, 10, 25, 50, 75, 90, 97.5),
         [round(_, 2) for _ in size_ratios_for_expected_midpoint_cumulative_volumes],
         langmuir_cylinder.langmuir_b_mids,
-        [round(_*100, 1) for _ in cumulative_volumes_for_langmuir_b],
+        [round(_ * 100, 1) for _ in cumulative_volumes_for_langmuir_b],
         (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47),
-        [round(_*100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
+        [round(_ * 100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
     ]
     print()
     print('With normal distribution stdev=0.25')
@@ -182,16 +185,55 @@ if __name__ == '__main__':
     print()
 
     plt.figure()
-    plt.plot(pp, r, 'o-', fillstyle='none', lw=0.5, ms=3,
-             label='Data from Houghton and Radford')
+    plt.plot(r, pp, 'o-', fillstyle='none', lw=0.5, ms=3,
+             label='Data from \nHoughton & Radford')
     ps = np.linspace(.0001, .9999, 1000)
     zs = q.ppf(ps)
-    plt.plot(zs, ps, label=f'Normal CDF best fit (scipy), MVR={mvr:.2f}, stdev={dev:.2f}')
-    plt.ylabel('Cumulative Probability, %')
+    plt.plot(zs, ps, label=f'Normal CDF best fit (scipy)\nMVR={mvr:.2f}, stdev={dev:.2f}')
+
+    # expected_midpoint_cumulative_volumes = 0.025, .1, .25, .5, .75, .9, .975
+    ds = [mvr * _ for _ in langmuir_cylinder.langmuir_b_mids]
+    line, = plt.plot(ds, expected_midpoint_cumulative_volumes, '+-', ms=10,
+                     mew=2,
+                     label='Langmuir B (as lines)')
+    cumulative_volumes_at_upper_ends = 0.05, .15, .35, .65, .85, .95, 1
+    plt.plot(to_stairs_x(ds), to_stairs_y(cumulative_volumes_at_upper_ends), ':', c=line.get_color(),
+             label='Langmuir B (as steps)')
+
+    plt.ylabel('Cumulative Fraction LWC')
     plt.xlabel("Drop Radius, micrometer")
-    plt.xlim(0, 45)
-    plt.legend(loc='upper left')
+    plt.xlim(0, 40)
+    plt.ylim(0, 1)
+    plt.legend(loc='lower right')
+    plt.savefig('Langmuir B and normal.png')
 
-
+    plt.figure()
+    normal_distribution = norm(1, 0.75)
+    ps = np.linspace(.0001, .9999, 1000)
+    zs = normal_distribution.ppf(ps)
+    plt.plot(zs, ps, label=f'Normal distribution stdev=0.75')
+    mvr, dev = curve_fit(norm.cdf, langmuir_cylinder.langmuir_e_mids, expected_midpoint_cumulative_volumes, p0=[1, 1])[0]
+    normal_distribution = norm(mvr, dev)
+    ps = np.linspace(.0001, .9999, 1000)
+    zs = normal_distribution.ppf(ps)
+    plt.plot(zs, ps, '--', label=f'Langmuir E normal best fit stdev={dev:.2f}')
+    # normal_distribution = norm(1, 1)
+    # ps = np.linspace(.0001, .9999, 1000)
+    # zs = normal_distribution.ppf(ps)
+    # plt.plot(zs, ps, label=f'Normal distribution stdev=1')
+    line, = plt.plot(langmuir_cylinder.langmuir_e_mids, expected_midpoint_cumulative_volumes, '+-',
+                     ms=8,
+                     mew=2,
+                     label='Langmuir E (as lines)')
+    plt.plot(to_stairs_x(langmuir_cylinder.langmuir_e_mids),
+             to_stairs_y(cumulative_volumes_at_upper_ends),
+             ':', c=line.get_color(), label='Langmuir E (as steps)')
+    plt.ylabel('Cumulative Fraction LWC')
+    plt.xlabel("Drop size ratio, r/MVD or d/MVD")
+    # plt.xlim(0, 40)
+    plt.ylim(0, 1)
+    plt.xlim(-1)
+    plt.legend(loc='lower right')
+    plt.savefig('Langmuir E and normal.png')
 
     plt.show()
