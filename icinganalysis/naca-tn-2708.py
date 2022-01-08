@@ -105,7 +105,7 @@ if __name__ == '__main__':
     print(mvr, dev, dev / mvr)
     q = norm(mvr, dev)
     plt.figure(figsize=(7, 5))
-    plt.plot(to_stairs(pp), to_risers(r), 'o-', fillstyle='none', lw=0.5, ms=3,
+    plt.plot(pp, r, 'o-', fillstyle='none', lw=0.5, ms=3,
              label='Data from Houghton and Radford')
     ps = np.linspace(.0001, .9999, 1000)
     zs = q.ppf(ps)
@@ -180,5 +180,18 @@ if __name__ == '__main__':
     print()
     print(make_markdown_table(header, zip(*columns)))
     print()
+
+    plt.figure()
+    plt.plot(pp, r, 'o-', fillstyle='none', lw=0.5, ms=3,
+             label='Data from Houghton and Radford')
+    ps = np.linspace(.0001, .9999, 1000)
+    zs = q.ppf(ps)
+    plt.plot(zs, ps, label=f'Normal CDF best fit (scipy), MVR={mvr:.2f}, stdev={dev:.2f}')
+    plt.ylabel('Cumulative Probability, %')
+    plt.xlabel("Drop Radius, micrometer")
+    plt.xlim(0, 45)
+    plt.legend(loc='upper left')
+
+
 
     plt.show()
