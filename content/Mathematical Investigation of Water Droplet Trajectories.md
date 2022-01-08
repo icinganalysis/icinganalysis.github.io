@@ -47,7 +47,7 @@ taken under other conditions, such as those at the attitude of Mt. Washington [N
 ##Discussion
 
 This is not a NACA publication, but it is an important link in the chain of NACA citations. 
-It is an example of import, contemporary work done outside of NACA.
+It is an example of important, contemporary work done outside of NACA.
 This is the most cited icing publication that I know of (700+ citations on scholar.google [^4]).
 This reference merits much study, 
 but a this time I will limit the discussion to the pertinent points in the NACA citation chain.
