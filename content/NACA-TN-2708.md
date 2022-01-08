@@ -102,7 +102,9 @@ as neither of the the NACA publications that cite NACA-TN-2708 use the revised d
 volume distributions were computed at KØ = 1000 and are shown in
 Table V and Figure 7.
 
-These are relatively small adjustments to the Langmuir and Blodgett values.
+These are relatively small adjustments to the Langmuir and Blodgett values. 
+
+Further comments on the revised distributions may be found at [A Langmuir drop size distribution is (almost) a normal distribution]({filename}A Langmuir distribution is almost a normal distribution.md).
 
 ##Citations
 

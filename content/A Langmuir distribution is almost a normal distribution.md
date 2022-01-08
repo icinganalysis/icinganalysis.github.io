@@ -6,7 +6,7 @@ status: draft
 > ###"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]
 
 ##Summary  
-The Langmuir drop size distribution are almost normal distributions.
+The Langmuir drop size distributions are almost normal distributions.
 
 ##Key points
 1. The Langmuir drop size distribution are almost normal distributions.  
@@ -38,12 +38,10 @@ multicylinder method may be given numerical values as follows:
 |----------------|----|----|----|----|----|----|----|----|---|
 |Modulus         |0.00|0.50|0.75|1.00|1.25|1.50|1.75|2.00|2.5|
 
-
-NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] Langmuir [^2] used did fit a normal distribution well. 
+NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] Langmuir [^3] used did fit a normal distribution well. 
 The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.
 
-![](/images/naca-tn-2708/NACA-TN-2708_overlay.png)
-
+![Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart](/images/naca-tn-2708/NACA-TN-2708_overlay.png)
 
 However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
 Perhaps there is a different convention for sigma than the one used by scipy.
@@ -55,29 +53,29 @@ NACA-TN-2708 states:
 > Upon
 comparing this chart with Langmuir's tables (reference 7), it was found
 that his selections of the representative radii for the various sub-
-divisions of the volume were in error. The matter was not pursued fur-
-ther at the time, but as a part of the present study it was decided to
+divisions of the volume were in error. The matter was not pursued further at the time, 
+but as a part of the present study it was decided to
 investigate the effect this error might have on the collection-efficiency
 graphs, based on Langmuir's data, that have been used by virtually all
 workers with the multicylinder method.
 
 We will pursue this further herein. 
 
-Langmuir never state what distribution he used, other than 
+Langmuir [^5] did not state what distribution he used, other than 
 
 > In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
 on size distribution it was concluded that their measurements were correct
 when the covering fraction a was less than 0.1. In their paper they give a "volume
 distribution curve" (Fig. 7), based on the microphotograph of the Fig. 4 for
 which a = 0.072. As ordinates they plot the relative volumes (liquid water
-content, Aw) of the droplets for equal increments of droplet radius.
+content, Δw) of the droplets for equal increments of droplet radius.
 
-However, the Houghton and Radford data was shown above to be a good fit of a normal distribution. 
-So, a good fit the data should be a normal distribution.
+However, a normal distribution was shown above to be a good fit of the Houghton and Radford data. 
+So, using the Houghton and Radford data is in effect using a normal distribution. 
 
 When the different distributions are compare to the normal fit of the Houghton and Radford data, 
-there are difference from the fit, but the values from Clark have the largest differences, 
-particularly for the "15-35" and "65-85" bins.
+there are difference from the ideal fit, but the values from Clark have the largest differences, 
+particularly for the "15-35" and "65-85" bins. 
 
 With normal distribution stdev = 0.237 (fit to Houghton and Radford):
 
@@ -104,16 +102,19 @@ Percentile divisions of total liquid volume in clouds|Expected midpoint cumulati
 85-95|90|1.32|1.32|90.0|1.31|89.3
 95-100|97.5|1.49|1.49|97.5|1.47|97.0
  
-I do not have a copy of Clark's paper to see if things were transcribe accurately in NACA-TN-2708. 
-Perhaps the values from Clark used different bin sizes, that were not noted in Table IV.
+I do not have a copy of Clark's paper to check if things were transcribed accurately in NACA-TN-2708. 
+Perhaps the values from Clark used different bin sizes, that were not noted in Table IV, 
+and they were more accurate to those.
 
 Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.
 
 ¯\\_(ツ)_/¯
 
-Perhaps it is well that the alternative distributions from NACA-TN-2708 were not widely used.
+Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.
 
+The code producing the normal fit chart and the comparison tables is available in the file "naca-tn-2708.py" [^6]
 
+You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.md) 
 
 ##Notes:
 [^1]: 
@@ -124,3 +125,6 @@ Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid 
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)  
 [^4]:
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.
+[^5]:
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+[^6]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
