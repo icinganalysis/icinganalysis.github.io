@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>A Langmuir drop size distribution is (almost) a normal distribution</title>
+        <title>A Langmuir B drop size distribution is (almost) a normal distribution</title>
         <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
         <meta name="description" content=""Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various..." />
 </head>
@@ -23,19 +23,19 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="https://icinganalysis.github.io/drafts/a-langmuir-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
-           title="Permalink to A Langmuir drop size distribution is (almost) a normal distribution">A Langmuir drop size distribution is (almost) a normal distribution</a></h1>
+        <a href="https://icinganalysis.github.io/drafts/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
+           title="Permalink to A Langmuir B drop size distribution is (almost) a normal distribution">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-07T16:17:49.237592-08:00">
-                Published: Fri 07 January 2022
+        <abbr class="published" title="2022-01-08T08:03:17.556451-08:00">
+                Published: Sat 08 January 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-07T16:17:49.237592-08:00">-->
-                <!--Updated: Fri 07 January 2022-->
+        <!--<abbr class="modified" title="2022-01-08T08:03:17.556451-08:00">-->
+                <!--Updated: Sat 08 January 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -53,12 +53,13 @@
 <h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 </blockquote>
 <h2>Summary</h2>
-<p>The Langmuir drop size distributions are almost normal distributions.</p>
+<p>The Langmuir B drop size distribution is almost a normal distribution.</p>
 <h2>Key points</h2>
 <ol>
-<li>The Langmuir drop size distribution are almost normal distributions.  </li>
+<li>The Langmuir B drop size distribution is almost a normal distributions.  </li>
 <li>Perhaps it was originally intended that they be exactly normal distributions.</li>
 <li>The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.</li>
+<li>The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.</li>
 </ol>
 <h2>Discussion</h2>
 <h3>Normal drop size distributions</h3>
@@ -308,7 +309,14 @@ and they were more accurate to those.</p>
 <p>Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.</p>
 <p>¯\<em>(ツ)</em>/¯</p>
 <p>Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.</p>
-<p>The code producing the normal fit chart and the comparison tables is available in the file "naca-tn-2708.py" <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup></p>
+<p>We can compare a Langmuir B distribution to the normal distribution fit of the data:
+Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>) 
+and a line representation are shown.
+<img alt="Langmuir B compared to a normal distribution" src="/images/naca-tn-2708/Langmuir B and normal.png"></p>
+<p>The other Langmuir distributions do not match a normal distribution well. 
+A significant portion of the LWC has negative drop sizes with the broader normal distributions. 
+<img alt="Langmuir E compared to a normal distribution" src="/images/naca-tn-2708/Langmuir E and normal.png"></p>
+<p>The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup></p>
 <p>You may find a more general discussion of <a href="https://icinganalysis.github.io/drafts/naca-tn-2708.html">NACA-TN-2708</a> </p>
 <h2>Notes:</h2>
 <div class="footnote">
@@ -330,7 +338,10 @@ and they were more accurate to those.</p>
 <p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

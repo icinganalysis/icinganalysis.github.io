@@ -1,4 +1,4 @@
-Title: A Langmuir drop size distribution is (almost) a normal distribution   
+Title: A Langmuir B drop size distribution is (almost) a normal distribution   
 Category: python tools
 tags: cylinder
 status: draft
@@ -6,12 +6,13 @@ status: draft
 > ###"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]
 
 ##Summary  
-The Langmuir drop size distributions are almost normal distributions.
+The Langmuir B drop size distribution is almost a normal distribution.
 
 ##Key points
-1. The Langmuir drop size distribution are almost normal distributions.  
+1. The Langmuir B drop size distribution is almost a normal distributions.  
 2. Perhaps it was originally intended that they be exactly normal distributions.
 3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
+4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.
 
 ##Discussion
 
@@ -112,7 +113,16 @@ Rather than correcting errors, including the values from Clark in NACA-TN-2708 a
 
 Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.
 
-The code producing the normal fit chart and the comparison tables is available in the file "NACA-TN-2708.py" [^6]
+We can compare a Langmuir B distribution to the normal distribution fit of the data:
+Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 [^6]) 
+and a line representation are shown.
+![Langmuir B compared to a normal distribution](/images/naca-tn-2708/Langmuir B and normal.png)
+
+The other Langmuir distributions do not match a normal distribution well. 
+A significant portion of the LWC has negative drop sizes with the broader normal distributions. 
+![Langmuir E compared to a normal distribution](/images/naca-tn-2708/Langmuir E and normal.png)
+
+The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" [^7]
 
 You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.md) 
 
@@ -127,4 +137,6 @@ Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid 
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.
 [^5]:
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
-[^6]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^6]:
+Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
+[^7]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  

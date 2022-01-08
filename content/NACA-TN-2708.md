@@ -90,11 +90,13 @@ Langmuir's paper was revised and expanded to include the broader distributions
 that had been added later by Clark, and is presented here as
 Table IV. 
 
-The revised distributions are a better approximation of a normal distribution.
+The revised distributions are purported to be a better approximation of a normal distribution. 
+However, the this does not appear to be reproducible, 
+see a detailed examination at [A Langmuir B drop size distribution is (almost) a normal distribution]({filename}A Langmuir B distribution is almost a normal distribution.md).
 
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](/images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
-However, the revised distributions did not see much use, 
+The revised distributions did not see much use for aviation, 
 as neither of the the NACA publications that cite NACA-TN-2708 use the revised distributions. 
 (They may have seen some use in meteorological publications [^4]).
 
@@ -103,8 +105,6 @@ volume distributions were computed at KØ = 1000 and are shown in
 Table V and Figure 7.
 
 These are relatively small adjustments to the Langmuir and Blodgett values. 
-
-Further comments on the revised distributions may be found at [A Langmuir drop size distribution is (almost) a normal distribution]({filename}A Langmuir distribution is almost a normal distribution.md).
 
 ##Citations
 

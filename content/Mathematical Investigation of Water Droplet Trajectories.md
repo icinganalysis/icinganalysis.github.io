@@ -66,7 +66,9 @@ The images in an online version of [^3] are of poor quality, so selected text an
 Table IX defines "assumed" water drop size distributions. 
 Reference [^5] clarifies that the "B" distribution comes from, apparently, 
 a single case of drop size measurement in [^6] (apparently by an oil slide method). 
-For an assumption, these distributions have taken hold for more than 70 years, 
+A future post will examine the data more thoroughly. 
+
+For an assumption, these distributions have taken hold for more than 75 years, 
 and are still cited in recent publications 
 (for example, AC 20-73A [^7] [2016] recommends the use of a Langmuir D distribution). 
 
