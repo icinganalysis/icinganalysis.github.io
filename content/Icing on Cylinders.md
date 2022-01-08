@@ -88,7 +88,8 @@ NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Mete
 
 NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948" _(planned)_  
 
-NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  
+<!--  defer to meteorology thread
+NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
 
 NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" _(planned)_  
 

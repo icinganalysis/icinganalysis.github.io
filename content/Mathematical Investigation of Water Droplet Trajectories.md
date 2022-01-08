@@ -51,7 +51,7 @@ It is an example of important, contemporary work done outside of NACA.
 This is the most cited icing publication that I know of (700+ citations on scholar.google [^4]).
 This reference merits much study, 
 but a this time I will limit the discussion to the pertinent points in the NACA citation chain.
-
+ 
 
 ###A note on publications
 This work was published three times, in [^1], [^2], and [^3] (with slightly different titles). 
