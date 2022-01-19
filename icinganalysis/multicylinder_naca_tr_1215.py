@@ -14,9 +14,10 @@ altitude: pressure altitude, m
 from math import log10, pi
 from scipy.optimize import minimize
 from icinganalysis import langmuir_cylinder
+from icinganalysis import NACA_TR_1215_impingement
 
-original_calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution
-calc_em_with_distribution_to_use = langmuir_cylinder.calc_em_with_distribution
+original_calc_em_with_distribution = NACA_TR_1215_impingement.calc_em_naca_tr_1215_with_distribution
+calc_em_with_distribution_to_use = NACA_TR_1215_impingement.calc_em_naca_tr_1215_with_distribution
 
 
 def calc_mass_average_em_diameter_with_distribution(

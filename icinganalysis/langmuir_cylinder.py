@@ -158,6 +158,27 @@ def calc_range_stokes(tk, u, drop_diameter_micrometer):
     return lambda_s
 
 
+def calc_phi(tk, p, u, d_cylinder):
+    c = d_cylinder / 2
+    phi = (
+        18 * calc_air_density(tk, p) ** 2 * u * c / (1000 * calc_air_viscosity(tk))
+    )  # equ. (25)
+    return phi
+
+
+def calc_k_phi(tk, p, u, drop_diameter_micrometer):  # equ. (50)
+    k_phi = (
+                2
+                * calc_air_density(tk, p)
+                * u
+                * drop_diameter_micrometer
+                / 1000000
+                / 2
+                / calc_air_viscosity(tk)
+            ) ** 2
+    return k_phi
+
+
 def calc_k(tk, u, drop_diameter_micrometer, d_cylinder):
     c = d_cylinder / 2
     k = (
@@ -187,14 +208,6 @@ def calc_d_drop_from_k(k, tk, u, d_cylinder):
         / d_cylinder
     ))**0.5  # equ. (12), re-arranged
     return drop_diameter_micrometer
-
-
-def calc_phi(tk, p, u, d_cylinder):
-    c = d_cylinder / 2
-    phi = (
-        18 * calc_air_density(tk, p) ** 2 * u * c / (1000 * calc_air_viscosity(tk))
-    )  # equ. (25)
-    return phi
 
 
 def calc_d_cylinder_from_phi(phi, tk, p, u):
