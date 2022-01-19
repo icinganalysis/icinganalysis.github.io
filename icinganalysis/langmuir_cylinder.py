@@ -23,10 +23,10 @@ langmuir_d_mids = 0.31, 0.52, 0.71, 1, 1.37, 1.74, 2.22
 langmuir_e_mids = 0.23, 0.44, 0.65, 1, 1.48, 2.00, 2.71
 langmuir_lwc_fractions = 0.05, 0.1, 0.2, 0.3, 0.2, 0.1, 0.05
 
-from langmuir_blodgett_table_ii import calc_em
+from icinganalysis.langmuir_blodgett_table_ii import calc_em
 
-from langmuir_blodgett_table_i import calc_cd_r_24_langmuir_blodgett as calc_cd_r_24
-from langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett as calc_lambda_lambda_s
+from icinganalysis.langmuir_blodgett_table_i import calc_cd_r_24_langmuir_blodgett as calc_cd_r_24
+from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett as calc_lambda_lambda_s
 em_interpolator_to_use = calc_em
 
 

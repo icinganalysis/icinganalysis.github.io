@@ -7,10 +7,8 @@ from icinganalysis import langmuir_blodgett_table_ii
 from icinganalysis import NACA_TR_1215_fig_24_conditions
 from scipy.interpolate import interp1d, interp2d
 
-from icinganalysis import langmuir_cylinder
-
 # fmt: off
-data_table_iii = {  # k*phi
+data_table_iv = {  # k*phi
     0: {
         'inv_ks': (4, 2, 1, 0.5, .2, .1, .05, .02, .01, .001),
         'ems_a': (.051, .205, .380, .566, .789, .885, .932, .963, .978, .999),
@@ -62,7 +60,7 @@ data_table_iii = {  # k*phi
     },
 }
 
-data_fig_4 = {  # phi
+data_fig_6 = {  # phi
     0: {
         'ks': (.125, .25, .5, 1, 4, 16, 40, 320, 500, 1000),
         'ems': (0, .051, .205, .38, .741, .92, .957, .995, .999, .9999),
@@ -85,7 +83,7 @@ data_fig_4 = {  # phi
     }
 }
 
-data_fig_4a = {  # phi
+data_fig_6a = {  # phi
     0: {
         'ks': (.125, .25, .5, 1, 4, 16, 40, 320),
         'ems': (0, .05, .21, .38, .74, .92, .96, .99),
@@ -111,25 +109,25 @@ data_fig_4a = {  # phi
 
 l10phi_for_phi_0 = 0
 
-log10_ks = [log10(k) for k in data_fig_4[0]['ks']]
-log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_fig_4]
-phis = [_ for _ in data_fig_4]
-zs = [data_fig_4[_]['ems'] for _ in data_fig_4]
+log10_ks = [log10(k) for k in data_fig_6[0]['ks']]
+log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_fig_6]
+phis = [_ for _ in data_fig_6]
+zs = [data_fig_6[_]['ems'] for _ in data_fig_6]
 
 _em_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind='cubic')
 
 
-def calc_em_naca_tr_1215_from(k, phi):
+def calc_em_naca_tn_2904_from(k, phi):
     return float(max(0, _em_interpolator_log10(log10(k),
                                                log10(phi) if phi > 0 else l10phi_for_phi_0,
                                                )))
 
 
-def calc_em_naca_tr_1215(tk, p, u, mvd, d_cylinder):
-    return calc_em_naca_tr_1215_from(calc_k(tk, u, mvd, d_cylinder), calc_phi(tk, p, u, d_cylinder))
+def calc_em_naca_tn_2904(tk, p, u, mvd, d_cylinder):
+    return calc_em_naca_tn_2904_from(calc_k(tk, u, mvd, d_cylinder), calc_phi(tk, p, u, d_cylinder))
 
 
-def calc_em_naca_tr_1215_with_distribution(tk, p, u, mvd, d_cylinder, distribution="Langmuir A"):
+def calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd, d_cylinder, distribution="Langmuir A"):
     mids = {
         "langmuir a": langmuir_a_mids,
         "langmuir b": langmuir_b_mids,
@@ -144,24 +142,24 @@ def calc_em_naca_tr_1215_with_distribution(tk, p, u, mvd, d_cylinder, distributi
     em = 0
     # print('    ', distribution, mids)
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
-        em += w * calc_em_naca_tr_1215(tk, p, u, mvd*d_drop_ratio, d_cylinder)
+        em += w * calc_em_naca_tn_2904(tk, p, u, mvd * d_drop_ratio, d_cylinder)
     return em
 
 
 l10phi_for_k_phi_0 = 1
 
-log10_ks = [log10(inv_k) for inv_k in data_table_iii[0]['inv_ks']]
-log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_iii]
-k_phis = [_ for _ in data_table_iii]
-zsa = [data_table_iii[_]['ems_a'] for _ in data_table_iii]
+log10_ks = [log10(inv_k) for inv_k in data_table_iv[0]['inv_ks']]
+log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_iv]
+k_phis = [_ for _ in data_table_iv]
+zsa = [data_table_iv[_]['ems_a'] for _ in data_table_iv]
 _em_interpolator_k_phi_a_log10 = interp2d(log10_ks, log10_phis, zsa, kind='cubic')
-zsb = [data_table_iii[_]['ems_b'] for _ in data_table_iii]
+zsb = [data_table_iv[_]['ems_b'] for _ in data_table_iv]
 _em_interpolator_k_phi_b_log10 = interp2d(log10_ks, log10_phis, zsb, kind='cubic')
-zsc = [data_table_iii[_]['ems_c'] for _ in data_table_iii]
+zsc = [data_table_iv[_]['ems_c'] for _ in data_table_iv]
 _em_interpolator_k_phi_c_log10 = interp2d(log10_ks, log10_phis, zsc, kind='cubic')
-zsd = [data_table_iii[_]['ems_d'] for _ in data_table_iii]
+zsd = [data_table_iv[_]['ems_d'] for _ in data_table_iv]
 _em_interpolator_k_phi_d_log10 = interp2d(log10_ks, log10_phis, zsd, kind='cubic')
-zse = [data_table_iii[_]['ems_e'] for _ in data_table_iii]
+zse = [data_table_iv[_]['ems_e'] for _ in data_table_iv]
 _em_interpolator_k_phi_e_log10 = interp2d(log10_ks, log10_phis, zse, kind='cubic')
 _k_phi_interpolators = {
     'Langmuir A': _em_interpolator_k_phi_a_log10,
@@ -175,44 +173,44 @@ kind='linear'
 kind='cubic'
 _k_interps = {
 'Langmuir A': (
-    interp1d(log10_ks, data_table_iii[0]['ems_a'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[200]['ems_a'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[1000]['ems_a'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[3000]['ems_a'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[10000]['ems_a'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[40000]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[0]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[200]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[1000]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[3000]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[10000]['ems_a'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[40000]['ems_a'], kind, fill_value='extrapolate'),
 ),
 'Langmuir B': (
-    interp1d(log10_ks, data_table_iii[0]['ems_b'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[200]['ems_b'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[1000]['ems_b'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[3000]['ems_b'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[10000]['ems_b'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[40000]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[0]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[200]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[1000]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[3000]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[10000]['ems_b'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[40000]['ems_b'], kind, fill_value='extrapolate'),
 ),
 'Langmuir C': (
-    interp1d(log10_ks, data_table_iii[0]['ems_c'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[200]['ems_c'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[1000]['ems_c'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[3000]['ems_c'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[10000]['ems_c'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[40000]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[0]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[200]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[1000]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[3000]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[10000]['ems_c'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[40000]['ems_c'], kind, fill_value='extrapolate'),
 ),
 'Langmuir D': (
-    interp1d(log10_ks, data_table_iii[0]['ems_d'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[200]['ems_d'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[1000]['ems_d'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[3000]['ems_d'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[10000]['ems_d'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[40000]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[0]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[200]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[1000]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[3000]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[10000]['ems_d'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[40000]['ems_d'], kind, fill_value='extrapolate'),
 ),
 'Langmuir E': (
-    interp1d(log10_ks, data_table_iii[0]['ems_e'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[200]['ems_e'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[1000]['ems_e'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[3000]['ems_e'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[10000]['ems_e'], kind, fill_value='extrapolate'),
-    interp1d(log10_ks, data_table_iii[40000]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[0]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[200]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[1000]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[3000]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[10000]['ems_e'], kind, fill_value='extrapolate'),
+    interp1d(log10_ks, data_table_iv[40000]['ems_e'], kind, fill_value='extrapolate'),
 ),
 }
 
@@ -272,7 +270,7 @@ def calc_delta_em(k, phi):
 
 interpolators = {
     phi: interp1d([log10(k) for k in d['ks']], d['ems'], 'cubic', fill_value='extrapolate')
-    for phi, d in data_fig_4.items()
+    for phi, d in data_fig_6.items()
 }
 
 
@@ -297,9 +295,9 @@ langs = {
 def make_table_iii():
     k_phi = 3000
     distribution = 'Langmuir C'
-    for i, inv_k in enumerate(data_table_iii[k_phi]['inv_ks']):
+    for i, inv_k in enumerate(data_table_iv[k_phi]['inv_ks']):
         phi = k_phi * inv_k
-        emc = calc_em_naca_tr_1215_from(1 / inv_k, phi)
+        emc = calc_em_naca_tn_2904_from(1 / inv_k, phi)
         emx = interp_table_iii_em_from_k_phi(1 / inv_k, phi, distribution)
         emy = ie(1 / inv_k, k_phi, distribution)
         k0 = 1 / inv_k
@@ -307,9 +305,9 @@ def make_table_iii():
         emz = 0
         for dr, w in zip(langs[distribution], langmuir_lwc_fractions):
             k = k0*dr**2
-            ems += w * calc_em_naca_tr_1215_from(k, k_phi/k0)
+            ems += w * calc_em_naca_tn_2904_from(k, k_phi / k0)
             # emz +=
-        print(k_phi, phi, inv_k, distribution, emx, ems, emy, data_table_iii[k_phi]['ems_c'][i])
+        print(k_phi, phi, inv_k, distribution, emx, ems, emy, data_table_iv[k_phi]['ems_c'][i])
     k_phi = 40000
     for distribution in (
             "Langmuir A",
@@ -319,14 +317,14 @@ def make_table_iii():
             "Langmuir E",
         ):
         ems = []
-        for i, inv_k in enumerate(data_table_iii[0]['inv_ks']):
+        for i, inv_k in enumerate(data_table_iv[0]['inv_ks']):
             k = 1/inv_k
             phi = k_phi / k
             k0 = k
             em = 0
             for dr, w in zip(langs[distribution], langmuir_lwc_fractions):
                 k = k0*dr**2
-                em += w * calc_em_naca_tr_1215_from(k, k_phi/k0)
+                em += w * calc_em_naca_tn_2904_from(k, k_phi / k0)
             ems.append(em)
         print(f'{distribution} ems 40000 ', ', '.join([f"{_:.3f}" for _ in ems]))
 
@@ -338,7 +336,7 @@ def make_table_i():
     print(phi)
     rows = []
     for i, k in enumerate((.25, .5, 1, 4, 16, 40, 320)):
-        em = calc_em_naca_tr_1215_from(k, phi)
+        em = calc_em_naca_tn_2904_from(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
         emx = ie(k, k*phi)
         print(k, em, em_langmuir_blodgett)
@@ -347,7 +345,7 @@ def make_table_i():
     print()
     phi = 100
     for i, k in enumerate((.5, 1, 4, 16)):
-        em = calc_em_naca_tr_1215_from(k, phi)
+        em = calc_em_naca_tn_2904_from(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
         emx = ie(k, k*phi)
         print(k, em, em_langmuir_blodgett)
@@ -355,7 +353,7 @@ def make_table_i():
         rows.append(row)
     phi = 1000
     for i, k in enumerate((.5, 1, 4, 16)):
-        em = calc_em_naca_tr_1215_from(k, phi)
+        em = calc_em_naca_tn_2904_from(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
         emx = ie(k, k*phi)
         print(k, em, em_langmuir_blodgett)
@@ -363,7 +361,7 @@ def make_table_i():
         rows.append(row)
     phi = 10000
     for i, k in enumerate((.5, 1, 4, 16)):
-        em = calc_em_naca_tr_1215_from(k, phi)
+        em = calc_em_naca_tn_2904_from(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
         emx = ie(k, k*phi)
         print(k, em, em_langmuir_blodgett)
@@ -371,7 +369,7 @@ def make_table_i():
         rows.append(row)
     phi = 50000
     for i, k in enumerate((.5, 1, 4, 16, 320)):
-        em = calc_em_naca_tr_1215_from(k, phi)
+        em = calc_em_naca_tn_2904_from(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
         emx = ie(k, k*phi)
         print(k, em, em_langmuir_blodgett)
@@ -394,18 +392,18 @@ if __name__ == '__main__':
     ks_typical = [calc_k(tk, u, mvd, _) for _ in d_cyls]
     k_phis_typical = [calc_k(tk, u, mvd, _) * calc_phi(tk, p, u, _) for _ in d_cyls]
     inv_ks_typical = [1 / calc_k(tk, u, mvd, _) for _ in d_cyls]
-    ems_typical = [calc_em_naca_tr_1215(tk, p, u, mvd, _) for _ in d_cyls]
+    ems_typical = [calc_em_naca_tn_2904(tk, p, u, mvd, _) for _ in d_cyls]
     print('phis_typical', phis_typical)
     print('k_phis_typical', k_phis_typical)
     print('ks_typical', ks_typical)
 
     plt.figure()
-    plt.suptitle('Fig 4')
+    plt.suptitle('Fig 6')
     plt.plot([], [], ' ', label='Phi')
-    for phi in data_fig_4:
-        line, = plt.plot(data_fig_4[phi]['ks'], data_fig_4[phi]['ems'], 'o', label=phi)
+    for phi in data_fig_6:
+        line, = plt.plot(data_fig_6[phi]['ks'], data_fig_6[phi]['ems'], 'o', label=phi)
         ks = plt.np.logspace(log10(.125), 3)
-        ems = [calc_em_naca_tr_1215_from(k, phi) for k in ks]
+        ems = [calc_em_naca_tn_2904_from(k, phi) for k in ks]
         emx = [ie(k, k*phi) for k in ks]
         plt.plot(ks, ems, '-', c=line.get_color())
         plt.plot(ks, emx, '--', lw=3, c=line.get_color())
@@ -420,16 +418,16 @@ if __name__ == '__main__':
     plt.figure()
     plt.suptitle('Fig 4')
     plt.plot([], [], ' ', label='Phi')
-    for phi in data_fig_4:
-        line, = plt.plot(data_fig_4[phi]['ks'], data_fig_4[phi]['ems'], 'o', label=phi)
+    for phi in data_fig_6:
+        line, = plt.plot(data_fig_6[phi]['ks'], data_fig_6[phi]['ems'], 'o', label=phi)
         ks = plt.np.logspace(log10(.125), 3)
-        ems = [calc_em_naca_tr_1215_from(k, phi) for k in ks]
+        ems = [calc_em_naca_tn_2904_from(k, phi) for k in ks]
         plt.plot(ks, ems, '--', c=line.get_color())
 
     for condition in NACA_TR_1215_fig_24_conditions.conditions_data.values():
         print(condition)
         ks_typical = [calc_k(tk, u, mvd, _) for _ in condition['d_cyls_m']]
-        ems_typical = [calc_em_naca_tr_1215(tk, p, u, mvd, _) for _ in condition['d_cyls_m']]
+        ems_typical = [calc_em_naca_tn_2904(tk, p, u, mvd, _) for _ in condition['d_cyls_m']]
         plt.plot(ks_typical, ems_typical, 's-', fillstyle='none')
 
     plt.plot([], [], '--', c='k', label="Interpolation")
@@ -438,26 +436,26 @@ if __name__ == '__main__':
     plt.xlabel('K')
     plt.ylabel('Em')
     plt.legend()
-    plt.savefig('naca-tr-1215_figure_4.png')
+    plt.savefig('naca-tn-2904_figure_6.png')
 
     plt.figure()
-    plt.suptitle('NACA-TR-1215 Table III Data')
+    plt.suptitle('NACA-TN-2904 Table IV Data')
     plt.plot([], [], ' ', label='K*Phi')
-    for k_phi in data_table_iii:
-        line, = plt.plot(data_table_iii[k_phi]["inv_ks"], data_table_iii[k_phi]["ems_a"], 'o',
+    for k_phi in data_table_iv:
+        line, = plt.plot(data_table_iv[k_phi]["inv_ks"], data_table_iv[k_phi]["ems_a"], 'o',
                          fillstyle='none', label=k_phi)
-        print([1 / _ for _ in data_table_iii[k_phi]["inv_ks"]])
-        print([k_phi * _ for _ in data_table_iii[k_phi]["inv_ks"]])
+        print([1 / _ for _ in data_table_iv[k_phi]["inv_ks"]])
+        print([k_phi * _ for _ in data_table_iv[k_phi]["inv_ks"]])
         print()
         inv_ks = plt.np.logspace(-3, log10(8))
-        ems = [calc_em_naca_tr_1215_from(1 / _, k_phi * _) for _ in inv_ks]
+        ems = [calc_em_naca_tn_2904_from(1 / _, k_phi * _) for _ in inv_ks]
         plt.plot(inv_ks, ems, '-', c=line.get_color())
     plt.plot([], [], '-', c='k', label="Calculated with\nNACA-TR-1215 Figure 4 correlations")
     plt.xscale('log')
     plt.xlabel('1/K')
     plt.ylabel('Em')
     plt.legend()
-    plt.savefig('naca-tr-1215_table_iii.png')
+    plt.savefig('naca-tn-2904_table_iv.png')
 
     d_cyls = [_ * 0.0254 for _ in (0.125, .5, 1, 3, 6)]
     p = 90000
@@ -468,22 +466,22 @@ if __name__ == '__main__':
     ks_typical = [calc_k(tk, u, mvd, _) for _ in d_cyls]
     k_phis_typical = [calc_k(tk, u, mvd, _) * calc_phi(tk, p, u, _) for _ in d_cyls]
     inv_ks_typical = [1 / calc_k(tk, u, mvd, _) for _ in d_cyls]
-    ems_typical = [calc_em_naca_tr_1215(tk, p, u, mvd, _) for _ in d_cyls]
+    ems_typical = [calc_em_naca_tn_2904(tk, p, u, mvd, _) for _ in d_cyls]
     print('phis_typical', phis_typical)
     print('k_phis_typical', k_phis_typical)
     print('ks_typical', ks_typical)
 
     plt.figure(figsize=(7, 7))
-    plt.suptitle('NACA-TR-1215 Table III Data')
+    plt.suptitle('NACA-TN-2904 Table IV Data')
     plt.plot([], [], ' ', label='K*Phi')
-    for k_phi in data_table_iii:
-        line, = plt.plot(data_table_iii[k_phi]["inv_ks"], data_table_iii[k_phi]["ems_a"], 'o',
+    for k_phi in data_table_iv:
+        line, = plt.plot(data_table_iv[k_phi]["inv_ks"], data_table_iv[k_phi]["ems_a"], 'o',
                          fillstyle='none', label=k_phi)
-        print([1 / _ for _ in data_table_iii[k_phi]["inv_ks"]])
-        print([k_phi * _ for _ in data_table_iii[k_phi]["inv_ks"]])
+        print([1 / _ for _ in data_table_iv[k_phi]["inv_ks"]])
+        print([k_phi * _ for _ in data_table_iv[k_phi]["inv_ks"]])
         print()
         inv_ks = plt.np.logspace(-3, log10(8))
-        ems = [calc_em_naca_tr_1215_from(1 / _, k_phi * _) for _ in inv_ks]
+        ems = [calc_em_naca_tn_2904_from(1 / _, k_phi * _) for _ in inv_ks]
         plt.plot(inv_ks, ems, '-', c=line.get_color())
         ems = [langmuir_blodgett_table_ii.calc_em(1 / _, k_phi * _) for _ in inv_ks]
         plt.plot(inv_ks, ems, ':', c=line.get_color())
@@ -493,7 +491,7 @@ if __name__ == '__main__':
     for condition in NACA_TR_1215_fig_24_conditions.conditions_data.values():
         print(condition)
         inv_ks_typical = [1 / calc_k(tk, u, mvd, _) for _ in condition['d_cyls_m']]
-        ems_typical = [calc_em_naca_tr_1215(tk, p, u, mvd, _) for _ in condition['d_cyls_m']]
+        ems_typical = [calc_em_naca_tn_2904(tk, p, u, mvd, _) for _ in condition['d_cyls_m']]
         plt.plot(inv_ks_typical, ems_typical, 's-', fillstyle='none')
 
     plt.xscale('log')
@@ -503,13 +501,13 @@ if __name__ == '__main__':
     plt.savefig('naca-tr-1215_table_iii_langmuir_comparison.png')
 
     plt.figure()
-    phis = list(data_fig_4.keys())
+    phis = list(data_fig_6.keys())
     phis[0] = 10 ** l10phi_for_phi_0
     phis_log10 = [log10(phi) if phi > 10 ** l10phi_for_phi_0 else l10phi_for_phi_0 for phi in
                   list(interpolators.keys())]
     plt.plot([],[],' ',label='k')
     vs = []
-    for k in data_fig_4[0]['ks']:
+    for k in data_fig_6[0]['ks']:
         ems = [interp(log10(k)) for interp in interpolators.values()]
         plt.plot(phis, ems, '-+', label=k)
     plt.xscale('log')
@@ -521,7 +519,6 @@ if __name__ == '__main__':
         plt.plot(data_fig_10[phi]['ks'], data_fig_10[phi]['delta_em'], label=phi)
     plt.xscale('log')
     plt.legend()
-
 
     print(calc_delta_em(20, 10))
     make_table_i()
