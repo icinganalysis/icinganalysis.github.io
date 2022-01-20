@@ -93,7 +93,7 @@ NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Alt
 NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" _(planned)_  
 
 <!--NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
-NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" _(planned)_  
+<!--NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" _(planned)_  omit, covered in NACA-TN-2904 -->
 
 NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" _(planned)_  
 
@@ -101,9 +101,11 @@ NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes i
 
 NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" _(planned)_  
 
+Python cylinder analysis updated with ambient temperature effects _(planned)_  
+
 NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" _(planned)_  
 
-Python cylinder analysis updated with ambient temperature effects _(planned)_  
+Cylinder Icing Data Use in the post-NACA Era _(planned)_
 
 ##Other
 
