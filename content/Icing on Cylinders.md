@@ -83,33 +83,33 @@ Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
 >  1. The average liquid water content varies over distance traveled in icing.
 >  2. The value of the multicylinder method for determining drop size distributions is questioned.  -->
 
-NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing" _(planned)_  
+_NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing" (planned)_  
 
-NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948" _(planned)_  
+_NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948" (planned)_  
 
 <!--  defer to meteorology thread
-NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
+_NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
 
-NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" _(planned)_  
+_NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" (planned)_  
 
 <!--NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
 <!--NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" _(planned)_  omit, covered in NACA-TN-2904 -->
 
 ![Calculating water drop trajectories with a differential analyzer analog, Figure 15 from NACA-TN-2904](/images/naca-tn-2904/Figure15.png)
 
-NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" _(planned)_  
+_NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)_  
 
 ![An airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](/images/naca-tn-2904/Figure1.png)
 
-NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" _(planned)_  
+_NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" (planned)_  
 
-NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" _(planned)_  
+_NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" (planned)_  
 
-Python cylinder analysis updated with ambient temperature effects _(planned)_  
+_Python cylinder analysis updated with ambient temperature effects (planned)_  
 
-NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" _(planned)_  
+_NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" (planned)_  
 
-Cylinder Icing Data Use in the post-NACA Era _(planned)_
+_Cylinder Icing Data Use in the post-NACA Era (planned)_
 
 ##Other
 
