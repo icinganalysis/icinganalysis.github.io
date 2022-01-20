@@ -1,9 +1,6 @@
-import numpy as np
-from numpy import ma
 from matplotlib import scale as mscale
 from matplotlib import transforms as mtransforms
 from matplotlib.ticker import FixedLocator, FuncFormatter
-from scipy.stats import norm
 
 
 class NormProbScale(mscale.ScaleBase):
@@ -25,9 +22,6 @@ class NormProbScale(mscale.ScaleBase):
             lambda x, pos=None: f"{x * 100}")
         axis.set(major_locator=FixedLocator(
             (.0001, .001, .01, .1, .25, .5, .75, .9, .99, .999, .9999),
-            # (.05, .15, .35, .65, .85, .95),
-            # (.025, .1, .25, .5, .75, .9, .975),
-            # (.025,.05, .1,.15, .25,.35, .5,.65, .75,.85, .9, .95, .975),
         ),
             major_formatter=fmt, minor_formatter=fmt)
 
@@ -101,7 +95,6 @@ if __name__ == '__main__':
 
     import numpy as np
     from icinganalysis import langmuir_cylinder
-
 
     # Fit NACA-TN-2708 Figure 6 data
     p = 0.01, 0.0175, 0.0175, 0.085, 0.085, 0.16, 0.16, 0.30, 0.30, 0.475, 0.475, 1.00, 1.00, 1.85, 1.85, 3.30, 3.30, 5.80, 5.80, 9.40, 9.40, 15.10, 15.10, 22.55, 22.55, 32.00, 32.00, 41.50, 41.50, 51.50, 51.50, 61.40, 61.40, 72.40, 72.40, 80.00, 80.00, 86.90, 86.90, 91.40, 91.40, 94.20, 94.20, 96.40, 96.40, 97.40, 97.40, 99.25, 99.25, 99.75, 99.75, 99.99, 99.99, 99.99
