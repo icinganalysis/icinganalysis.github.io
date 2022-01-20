@@ -4,7 +4,7 @@ Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-3
 """
 from scipy.interpolate import interp1d, interp2d
 from math import log10, pi
-from langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett, calc_cd_r_24_langmuir_blodgett
+from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett, calc_cd_r_24_langmuir_blodgett
 
 # fmt: off
 table_II_original_data = {  # phi values as keys

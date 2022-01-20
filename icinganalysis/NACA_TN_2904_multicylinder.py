@@ -607,8 +607,111 @@ if __name__ == "__main__":
     plt.savefig("naca_2904_fig_12e2b.png", transparent=True)
 
     lwc = 0.55  # back to nominal
+    # plt.figure()
+    # plt.suptitle('Using NACA-TN-2904 Em calculations, +/-5% mass variations')
+    # # sensitivities for a range of drop sizes
+    # for mph in (400, 300, 200, 100):
+    #     u = mph*0.44704
+    #     mrps = []
+    #     mvdps = []
+    #     mvdms = []
+    #     mvds = list(plt.np.arange(5, 30+2.5, 2.5))
+    #     for mvd in mvds:
+    #         phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
+    #         if phi > 50000:
+    #             mvdps.append(float('nan'))
+    #             mvdms.append(float('nan'))
+    #             continue
+    #         # construct a Langmuir B
+    #         ems = [
+    #             NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
+    #             for d in d_cyls]
+    #         ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
+    #         masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
+    #         # best fits for +/-5%
+    #         em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.05, 1.0167, 0.9833, 0.95), ems_lwc_u)]
+    #         em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.95, 0.9833, 1.0167, 1.05), ems_lwc_u)]
+    #         masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
+    #         masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
+    #         lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc2.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                masses_ramped_up)
+    #         lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc2.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                      masses_ramped_down)
+    #         mvdp = (mvd_ramped_down - mvd) / mvd
+    #         mvdm = (mvd_ramped_up - mvd) / mvd
+    #         mrps.append(mvd_ramped_up)
+    #         lwcp = (lwc_ramped_down - lwc) / lwc
+    #         lwcm = (lwc_ramped_up - lwc) / lwc
+    #         mvdps.append(-mvdp)
+    #         mvdms.append(mvdm)
+    #         plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
+    #         plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
+    #
+    #     print(mrps)
+    #     line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
+    #     plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
+    # plt.plot([], [], ' ', label='Best fit distribution noted')
+    # plt.xlabel("MVD, micrometer")
+    # plt.xlim(0, 35)
+    # plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
+    # plt.ylim(0, .8)
+    # plt.legend()
+    # plt.savefig("naca_tn_2904_fig_14a.png")
+    #
+    # lwc = 0.55  # back to nominal
+    # plt.figure()
+    # plt.suptitle('Using Langmuir-Blodgett Em calculations, +/-5% mass variations')
+    # # sensitivities for a range of drop sizes
+    # for mph in (400, 300, 200, 100):
+    #     u = mph*0.44704
+    #     mrps = []
+    #     mvdps = []
+    #     mvdms = []
+    #     mvds = list(plt.np.arange(5, 30+2.5, 2.5))
+    #     for mvd in mvds:
+    #         phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
+    #         if phi > 50000:
+    #             mvdps.append(float('nan'))
+    #             mvdms.append(float('nan'))
+    #             continue
+    #         # construct a Langmuir B
+    #         ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
+    #             for d in d_cyls]
+    #         ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
+    #         masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
+    #         # best fits for +/-5%
+    #         em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.05, 1.0167, 0.9833, 0.95), ems_lwc_u)]
+    #         em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.95, 0.9833, 1.0167, 1.05), ems_lwc_u)]
+    #         masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
+    #         masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
+    #         lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                masses_ramped_up)
+    #         lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                      masses_ramped_down)
+    #         mvdp = (mvd_ramped_down - mvd) / mvd
+    #         mvdm = (mvd_ramped_up - mvd) / mvd
+    #         mrps.append(mvd_ramped_up)
+    #         lwcp = (lwc_ramped_down - lwc) / lwc
+    #         lwcm = (lwc_ramped_up - lwc) / lwc
+    #         mvdps.append(-mvdp)
+    #         mvdms.append(mvdm)
+    #         plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
+    #         plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
+    #
+    #     print(mrps)
+    #     line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
+    #     plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
+    # plt.plot([], [], ' ', label='Best fit distribution noted')
+    # plt.xlabel("MVD, micrometer")
+    # plt.xlim(0, 35)
+    # plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
+    # plt.ylim(0, .8)
+    # plt.legend()
+    # plt.savefig("naca_tn_2904_fig_14a_langmuir.png")
+
+    lwc = 0.55  # back to nominal
     plt.figure()
-    plt.suptitle('Using NACA-TN-2904 Em calculations, +/-5% mass variations')
+    plt.suptitle('Using Langmuir-Blodgett Em calculations, +/-5% mass variations\nmass from NACA')
     # sensitivities for a range of drop sizes
     for mph in (400, 300, 200, 100):
         u = mph*0.44704
@@ -625,57 +728,6 @@ if __name__ == "__main__":
             # construct a Langmuir B
             ems = [
                 NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
-                for d in d_cyls]
-            ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
-            masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
-            # best fits for +/-5%
-            em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.05, 1.0167, 0.9833, 0.95), ems_lwc_u)]
-            em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.95, 0.9833, 1.0167, 1.05), ems_lwc_u)]
-            masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
-            masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
-            lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc2.find_lwc_mvd_dist(tk, u, p,
-                                                                                                   masses_ramped_up)
-            lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc2.find_lwc_mvd_dist(tk, u, p,
-                                                                                                         masses_ramped_down)
-            mvdp = (mvd_ramped_down - mvd) / mvd
-            mvdm = (mvd_ramped_up - mvd) / mvd
-            mrps.append(mvd_ramped_up)
-            lwcp = (lwc_ramped_down - lwc) / lwc
-            lwcm = (lwc_ramped_up - lwc) / lwc
-            mvdps.append(-mvdp)
-            mvdms.append(mvdm)
-            plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
-            plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
-
-        print(mrps)
-        line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
-        plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
-    plt.plot([], [], ' ', label='Best fit distribution noted')
-    plt.xlabel("MVD, micrometer")
-    plt.xlim(0, 35)
-    plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
-    plt.ylim(0, .8)
-    plt.legend()
-    plt.savefig("naca_tn_2904_fig_14a.png")
-
-    lwc = 0.55  # back to nominal
-    plt.figure()
-    plt.suptitle('Using Langmuir-Blodgett Em calculations, +/-5% mass variations')
-    # sensitivities for a range of drop sizes
-    for mph in (400, 300, 200, 100):
-        u = mph*0.44704
-        mrps = []
-        mvdps = []
-        mvdms = []
-        mvds = list(plt.np.arange(5, 30+2.5, 2.5))
-        for mvd in mvds:
-            phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
-            if phi > 50000:
-                mvdps.append(float('nan'))
-                mvdms.append(float('nan'))
-                continue
-            # construct a Langmuir B
-            ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
                 for d in d_cyls]
             ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
             masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
@@ -707,113 +759,113 @@ if __name__ == "__main__":
     plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
     plt.ylim(0, .8)
     plt.legend()
-    plt.savefig("naca_tn_2904_fig_14a_langmuir.png")
+    plt.savefig("naca_tn_2904_fig_14a_langmuir_naca_mass.png")
 
 
 
-    lwc = 0.55  # back to nominal
-    plt.figure()
-    plt.suptitle('Using NACA-TN-2904 Em calculations, +/-10% mass variations')
-    # sensitivities for a range of drop sizes
-    for mph in (400, 300, 200, 100):
-        u = mph*0.44704
-        mrps = []
-        mvdps = []
-        mvdms = []
-        mvds = list(plt.np.arange(5, 30+2.5, 2.5))
-        for mvd in mvds:
-            phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
-            if phi > 50000:
-                mvdps.append(float('nan'))
-                mvdms.append(float('nan'))
-                continue
-            # construct a Langmuir B
-            ems = [
-                NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
-                for d in d_cyls]
-            ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
-            masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
-            # best fits for +/-5%
-            em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.10, 1.033, 0.967, 0.90), ems_lwc_u)]
-            em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.90, 0.967, 1.033, 1.10), ems_lwc_u)]
-            masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
-            masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
-            lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc2.find_lwc_mvd_dist(tk, u, p,
-                                                                                                   masses_ramped_up)
-            lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc2.find_lwc_mvd_dist(tk, u, p,
-                                                                                                         masses_ramped_down)
-            mvdp = (mvd_ramped_down - mvd) / mvd
-            mvdm = (mvd_ramped_up - mvd) / mvd
-            mrps.append(mvd_ramped_up)
-            lwcp = (lwc_ramped_down - lwc) / lwc
-            lwcm = (lwc_ramped_up - lwc) / lwc
-            mvdps.append(-mvdp)
-            mvdms.append(mvdm)
-            plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
-            plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
-
-        print(mrps)
-        line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
-        plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
-    plt.plot([], [], ' ', label='Best fit distribution noted')
-    plt.xlabel("MVD, micrometer")
-    plt.xlim(0, 35)
-    plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
-    plt.ylim(0, .8)
-    plt.legend()
-    plt.savefig("naca_tn_2904_fig_14b.png")
-
-
-    lwc = 0.55  # back to nominal
-    plt.figure()
-    plt.suptitle('Using Langmuir-Blodgett Em calculations, +/-10% mass variations')
-    # sensitivities for a range of drop sizes
-    for mph in (400, 300, 200, 100):
-        u = mph*0.44704
-        mrps = []
-        mvdps = []
-        mvdms = []
-        mvds = list(plt.np.arange(5, 30+2.5, 2.5))
-        for mvd in mvds:
-            phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
-            if phi > 50000:
-                mvdps.append(float('nan'))
-                mvdms.append(float('nan'))
-                continue
-            # construct a Langmuir B
-            ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
-                for d in d_cyls]
-            ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
-            masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
-            # best fits for +/-5%
-            em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.10, 1.033, 0.967, 0.90), ems_lwc_u)]
-            em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.90, 0.967, 1.033, 1.10), ems_lwc_u)]
-            masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
-            masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
-            lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc.find_lwc_mvd_dist(tk, u, p,
-                                                                                                   masses_ramped_up)
-            lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc.find_lwc_mvd_dist(tk, u, p,
-                                                                                                         masses_ramped_down)
-            mvdp = (mvd_ramped_down - mvd) / mvd
-            mvdm = (mvd_ramped_up - mvd) / mvd
-            mrps.append(mvd_ramped_up)
-            lwcp = (lwc_ramped_down - lwc) / lwc
-            lwcm = (lwc_ramped_up - lwc) / lwc
-            mvdps.append(-mvdp)
-            mvdms.append(mvdm)
-            plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
-            plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
-
-        print(mrps)
-        line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
-        plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
-    plt.plot([], [], ' ', label='Best fit distribution noted')
-    plt.xlabel("MVD, micrometer")
-    plt.xlim(0, 35)
-    plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
-    plt.ylim(0, .8)
-    plt.legend()
-    plt.savefig("naca_tn_2904_fig_14b_langmuir.png")
+    # lwc = 0.55  # back to nominal
+    # plt.figure()
+    # plt.suptitle('Using NACA-TN-2904 Em calculations, +/-10% mass variations')
+    # # sensitivities for a range of drop sizes
+    # for mph in (400, 300, 200, 100):
+    #     u = mph*0.44704
+    #     mrps = []
+    #     mvdps = []
+    #     mvdms = []
+    #     mvds = list(plt.np.arange(5, 30+2.5, 2.5))
+    #     for mvd in mvds:
+    #         phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
+    #         if phi > 50000:
+    #             mvdps.append(float('nan'))
+    #             mvdms.append(float('nan'))
+    #             continue
+    #         # construct a Langmuir B
+    #         ems = [
+    #             NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
+    #             for d in d_cyls]
+    #         ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
+    #         masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
+    #         # best fits for +/-5%
+    #         em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.10, 1.033, 0.967, 0.90), ems_lwc_u)]
+    #         em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.90, 0.967, 1.033, 1.10), ems_lwc_u)]
+    #         masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
+    #         masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
+    #         lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc2.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                masses_ramped_up)
+    #         lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc2.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                      masses_ramped_down)
+    #         mvdp = (mvd_ramped_down - mvd) / mvd
+    #         mvdm = (mvd_ramped_up - mvd) / mvd
+    #         mrps.append(mvd_ramped_up)
+    #         lwcp = (lwc_ramped_down - lwc) / lwc
+    #         lwcm = (lwc_ramped_up - lwc) / lwc
+    #         mvdps.append(-mvdp)
+    #         mvdms.append(mvdm)
+    #         plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
+    #         plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
+    #
+    #     print(mrps)
+    #     line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
+    #     plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
+    # plt.plot([], [], ' ', label='Best fit distribution noted')
+    # plt.xlabel("MVD, micrometer")
+    # plt.xlim(0, 35)
+    # plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
+    # plt.ylim(0, .8)
+    # plt.legend()
+    # plt.savefig("naca_tn_2904_fig_14b.png")
+    #
+    #
+    # lwc = 0.55  # back to nominal
+    # plt.figure()
+    # plt.suptitle('Using Langmuir-Blodgett Em calculations, +/-10% mass variations')
+    # # sensitivities for a range of drop sizes
+    # for mph in (400, 300, 200, 100):
+    #     u = mph*0.44704
+    #     mrps = []
+    #     mvdps = []
+    #     mvdms = []
+    #     mvds = list(plt.np.arange(5, 30+2.5, 2.5))
+    #     for mvd in mvds:
+    #         phi = langmuir_cylinder.calc_phi(tk, p, u, min(d_cyls))
+    #         if phi > 50000:
+    #             mvdps.append(float('nan'))
+    #             mvdms.append(float('nan'))
+    #             continue
+    #         # construct a Langmuir B
+    #         ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, distribution="Langmuir B")
+    #             for d in d_cyls]
+    #         ems_lwc_u = [e * lwc * u * 0.0254 ** 2 for e in ems]
+    #         masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, ems_lwc_u)]
+    #         # best fits for +/-5%
+    #         em_lwcs_ramped_down = [m * em_lwc for m, em_lwc in zip((1.10, 1.033, 0.967, 0.90), ems_lwc_u)]
+    #         em_lwcs_ramped_up = [m * em_lwc for m, em_lwc in zip((0.90, 0.967, 1.033, 1.10), ems_lwc_u)]
+    #         masses_ramped_down = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_down)]
+    #         masses_ramped_up = [em_lwc * d / 1000 * 0.0254 ** -2 for d, em_lwc in zip(d_cyls, em_lwcs_ramped_up)]
+    #         lwc_ramped_up, mvd_ramped_up, best_distribution_ramped_up, rss = mc.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                masses_ramped_up)
+    #         lwc_ramped_down, mvd_ramped_down, best_distribution_ramped_down, rss = mc.find_lwc_mvd_dist(tk, u, p,
+    #                                                                                                      masses_ramped_down)
+    #         mvdp = (mvd_ramped_down - mvd) / mvd
+    #         mvdm = (mvd_ramped_up - mvd) / mvd
+    #         mrps.append(mvd_ramped_up)
+    #         lwcp = (lwc_ramped_down - lwc) / lwc
+    #         lwcm = (lwc_ramped_up - lwc) / lwc
+    #         mvdps.append(-mvdp)
+    #         mvdms.append(mvdm)
+    #         plt.text(mvd, mvdm, best_distribution_ramped_up[-1])
+    #         plt.text(mvd, -mvdp, best_distribution_ramped_down[-1])
+    #
+    #     print(mrps)
+    #     line, = plt.plot(mvds, mvdms, '--', label=f"Calculated MVD too large, {mph:.0f} mph")
+    #     plt.plot(mvds, mvdps, '-', c=line.get_color(), label=f"Calculated MVD too small, {mph:.0f} mph")
+    # plt.plot([], [], ' ', label='Best fit distribution noted')
+    # plt.xlabel("MVD, micrometer")
+    # plt.xlim(0, 35)
+    # plt.ylabel("Possible fraction difference, abs(calc_mvd-MVD)/MVD")
+    # plt.ylim(0, .8)
+    # plt.legend()
+    # plt.savefig("naca_tn_2904_fig_14b_langmuir.png")
 
 
 

@@ -9,6 +9,8 @@ r = 0.75
 
 
 def calc_lwc_em_from(tk, p, u, h, ts=273.15, r=0.75, u1=None):
+    if u1 is None:
+        u1 = u
     return (pi * h) * (
         (ts - tk - u ** 2 / 2 / cp_air * (1 - u1 ** 2 / u ** 2 * (1 - r))) +
         .622 / cp_air * L_EVAPORATION * (calc_vapor_p(ts) - calc_vapor_p(tk)) / p
@@ -174,9 +176,6 @@ print(qf/L_FREEZING)
 
 
 
-raise ValueError
-
-
 # tf = 10  # 34 1/29/47
 # mph = 215
 # alt_ft = 7400
@@ -276,7 +275,7 @@ wf = qf / L_FREEZING
 print(wf)
 lwc = wf / u * 1000
 print(lwc)
-print(em_lwc)
+# print(em_lwc)
 print('calc_lwc_em_from', calc_lwc_em_from(tk, p, u, h))
 
 """

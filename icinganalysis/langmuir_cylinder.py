@@ -16,6 +16,11 @@ from scipy.interpolate import interp1d
 from scipy.optimize import minimize_scalar
 import numpy as np
 
+from icinganalysis.langmuir_blodgett_table_ii import calc_em
+from icinganalysis.langmuir_blodgett_table_i import calc_cd_r_24_langmuir_blodgett as calc_cd_r_24
+from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett as calc_lambda_lambda_s
+from icinganalysis.air_properties import calc_air_viscosity, calc_pressure, calc_air_density
+
 langmuir_a_mids = 1, 1, 1, 1, 1, 1, 1
 langmuir_b_mids = 0.56, 0.72, 0.84, 1.0, 1.17, 1.32, 1.49
 langmuir_c_mids = 0.42, 0.61, 0.77, 1, 1.25, 1.51, 1.81
@@ -23,10 +28,6 @@ langmuir_d_mids = 0.31, 0.52, 0.71, 1, 1.37, 1.74, 2.22
 langmuir_e_mids = 0.23, 0.44, 0.65, 1, 1.48, 2.00, 2.71
 langmuir_lwc_fractions = 0.05, 0.1, 0.2, 0.3, 0.2, 0.1, 0.05
 
-from icinganalysis.langmuir_blodgett_table_ii import calc_em
-
-from icinganalysis.langmuir_blodgett_table_i import calc_cd_r_24_langmuir_blodgett as calc_cd_r_24
-from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett as calc_lambda_lambda_s
 em_interpolator_to_use = calc_em
 
 
@@ -94,43 +95,6 @@ def calc_em_with_distribution_k_phi_mvd(tk, p, u, mvd, diameter, distribution="L
         delta_em = em_interpolator_to_use(k, phi)
         em += w * delta_em
     return em
-
-
-def calc_air_viscosity_recent(tk):
-    """
-    Calculate the dynamic viscosity of air 
-    :param tk: temperature, K
-    :return: dynamic viscosity of air, Pa-s (N-s/m^2) 
-    """
-
-    return (1.458e-6 * tk ** (3 / 2)) / (tk + 110.4)
-
-
-def calc_air_viscosity(tk):
-    """
-    Calculate the dynamic viscosity of air
-    :param tk: temperature, K
-    :return: dynamic viscosity of air, Pa-s (N-s/m^2)
-    """
-
-    return 2.48e-7 * tk ** 0.7542  # equ. (13)
-
-
-def calc_air_density_recent(tk, p):
-    return p / (287.05 * tk)
-
-
-def calc_air_density(tk, p):
-    return 0.3484 / 100 * p / tk  # equ. (15)
-
-
-def calc_pressure(altitude):
-    p = 101325 * (1 - 2.25577e-5 * altitude) ** 5.25588
-    return p
-
-
-def calc_altitude(pressure):
-    return (1 - (pressure / 101325) ** (1 / 5.25588)) / 2.25577e-5
 
 
 def calc_re(tk, p, u, length):

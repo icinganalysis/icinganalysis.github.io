@@ -15,7 +15,8 @@ altitude: pressure altitude, m
 from math import log10
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize_scalar
-import langmuir_cylinder
+from icinganalysis import langmuir_cylinder
+from icinganalysis.air_properties import calc_altitude
 
 # NACA-TN-779
 d_cylinder = 12 * 0.0254
@@ -41,7 +42,7 @@ phi_target = 0.1  # use as an approximation for phi=0
 p = minimize_scalar(
     lambda _: abs(langmuir_cylinder.calc_phi(tk, _, u, d_cylinder) - phi_target)
 ).x
-altitude = langmuir_cylinder.calc_altitude(p)
+altitude = calc_altitude(p)
 phi = langmuir_cylinder.calc_phi(tk, p, u, d_cylinder)
 print(f"For φ={phi:.0f}, p={p:.0f}, altitude={altitude:.0f}")
 ems = [langmuir_cylinder.calc_em(tk, p, u, d_drop_m, d_cylinder) for d_drop_m in d_micrometer]
@@ -53,7 +54,7 @@ phi_target = 6000
 p = minimize_scalar(
     lambda _: abs(langmuir_cylinder.calc_phi(tk, _, u, d_cylinder) - phi_target)
 ).x
-altitude = langmuir_cylinder.calc_altitude(p)
+altitude = calc_altitude(p)
 phi = langmuir_cylinder.calc_phi(tk, p, u, d_cylinder)
 print(f"For φ={phi:.0f}, p={p:.0f}, altitude={altitude:.0f}")
 ems = [langmuir_cylinder.calc_em(tk, p, u, d_drop_m, d_cylinder) for d_drop_m in d_micrometer]
@@ -68,7 +69,7 @@ phi_target = 16000
 p = minimize_scalar(
     lambda _: abs(langmuir_cylinder.calc_phi(tk, _, u, d_cylinder) - phi_target)
 ).x
-altitude = langmuir_cylinder.calc_altitude(p)
+altitude = calc_altitude(p)
 phi = langmuir_cylinder.calc_phi(tk, p, u, d_cylinder)
 print(f"For φ={phi:.0f}, p={p:.0f}, altitude={altitude:.0f}")
 ems = [langmuir_cylinder.calc_em(tk, p, u, d_drop_m, d_cylinder) for d_drop_m in d_micrometer]

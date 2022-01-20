@@ -14,6 +14,7 @@ altitude: pressure altitude, m
 from math import log10, pi
 from scipy.optimize import minimize
 from icinganalysis import langmuir_cylinder
+from icinganalysis.air_properties import calc_altitude
 
 original_calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution
 calc_em_with_distribution_to_use = langmuir_cylinder.calc_em_with_distribution
@@ -221,7 +222,7 @@ if __name__ == "__main__":
     ]  # kg/s
     p = 1.101 / (0.3484 / 100 / tk)
 
-    alt = langmuir_cylinder.calc_altitude(p)
+    alt = calc_altitude(p)
     print("alt", alt, alt / 0.3048)
     mc = Multicylinder(ds, lengths)
 
