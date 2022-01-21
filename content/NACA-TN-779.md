@@ -14,7 +14,7 @@ Water drop impingement on a cylinder is calculated.
 ##Key points
 
 1. The effect of aerodynamic heating is predictable
-2. Water drop impingement on a cylinder is calculated
+2. The impingement of water drops on a cylinder is calculated
 
 ##Abstract
 
