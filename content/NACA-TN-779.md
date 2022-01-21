@@ -46,11 +46,11 @@ A cylinder was selected to provide "qualitative" information.
 None of the references cited in NACA-TN-779 were on this topic, so this perhaps represents original work. 
 However, there was a nearly contemporaneous publication by Glauert[^2] 
 (which I have not been able to get a copy of) that may have similar data.
-Langmuir[^3] credits Albrecht[^4] for an earlier cylinder impingement analysis (1931), 
+Langmuir [^3] credits Albrecht [^4] for an earlier cylinder impingement analysis (1931), 
 and it is noted that "Glauert did not know of Albrecht's earlier work", 
 so perhaps Kantrowitz did not know of it either.
 
-Langmuir[^3] credits Kantrowitz for including the non-Stokes' Law drag coefficients for spheres [^5] 
+Langmuir [^3] credits Kantrowitz for including the non-Stokes' Law drag coefficients for spheres [^5] 
 into the calculation of water drop impingement, perhaps for the first time.
 
 The cylinder analyzed was 12 inch in diameter, with an airspeed of 200 mph. 

@@ -27,7 +27,7 @@ one may then move on to other topics, including ice protection.
 
 The cylinder is geometrically simple, but is aerodynamically complex in such areas as flow separation, and so it will present worthy challenges. 
 
-##The Cylinder Thread (_key points noted_)
+##The Cylinder Thread
 
 These reviews will focus on water drop impingement and icing on cylinders. 
 However, as cylinders were important instruments for meteorological measurements, some measurement results will be included. 
@@ -39,6 +39,9 @@ While such instruments had limitations, the were often the best available techno
 Some typical multicylinder meteorological instruments (from [^3]):
 ![Multicyllnder cloud meters used in comparative study at
 Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+
+
+###Topic (_key points noted_)
 
 ###[NACA-TN-779 “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"]({filename}/NACA-TN-779.md)  
 >   1. The effect of aerodynamic heating is predictable  
