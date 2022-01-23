@@ -39,15 +39,15 @@ various temperatures.
 
 A comparison of two methods yielded rather different results.
 
-![Distribution comparison part 1](/images/naca-tn-1424/drop%20size%20distributions.png)
-![Distribution comparison part 2](/images/naca-tn-1424/drop%20size%20distributions2.png)
+![Distribution comparison part 1](images/naca-tn-1424/drop%20size%20distributions.png)
+![Distribution comparison part 2](images/naca-tn-1424/drop%20size%20distributions2.png)
 
 ###Effect of the aircraft body on drop concentrations
 
 A possible explanation for the differences was the positions of the instruments:
 
-![possible explanation 1](/images/naca-tn-1424/possible%20explanation%201.png)
-![possible explanation 1a](/images/naca-tn-1424/possible%20explanation%201a.png)
+![possible explanation 1](images/naca-tn-1424/possible%20explanation%201.png)
+![possible explanation 1a](images/naca-tn-1424/possible%20explanation%201a.png)
 
 For methods to assess the water drop concentration around a body, see [^2] and [^3].
 
@@ -59,7 +59,7 @@ Even with the differences in drop size distributions, it was noted in the conclu
 
 An effect of temperature was noted.
 
-![conditions summary](/images/naca-tn-1424/conditions summary.png)
+![conditions summary](images/naca-tn-1424/conditions summary.png)
 The "maximum icing conditions proposed previously" are in [^4].
 
 ##Citations

@@ -47,22 +47,22 @@ Three multicylinder instruments were compared over several icing conditions meas
 (a weather observatory situated at the top of a mountain). 
 
 ![Multicyllnder cloud meters used in comparative study at
-Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
 
 The LWC values from the three instruments (designate A, B, and O sets) agree well.
 
 ![Liquid water content determined by A and B sets correlated
-with simultaneous determinations by 0 set](/images/naca-tn-2708/figure_2_lwc_comparison.png)
+with simultaneous determinations by 0 set](images/naca-tn-2708/figure_2_lwc_comparison.png)
 
 The drop size values agree well.
 
 ![Drop diameters determined by A and B sets correlated
-with simultaneous determinations by 0 set](/images/naca-tn-2708/figure_3_mvd_comparison.png)
+with simultaneous determinations by 0 set](images/naca-tn-2708/figure_3_mvd_comparison.png)
 
 However, the distributions indicated do not agree well.
 
 ![Drop-size distributions determined by A and B sets
-correlated with simultaneous determinations by 0 set.](/images/naca-tn-2708/figure_4_distribution_comparison.png)
+correlated with simultaneous determinations by 0 set.](images/naca-tn-2708/figure_4_distribution_comparison.png)
 
 
 ###The Langmuir drop size distributions were revised
@@ -94,7 +94,7 @@ The revised distributions are purported to be a better approximation of a normal
 However, the this does not appear to be reproducible, 
 see a detailed examination at [A Langmuir B drop size distribution is (almost) a normal distribution]({filename}A Langmuir B distribution is almost a normal distribution.md).
 
-![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](/images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
+![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
 The revised distributions did not see much use for aviation, 
 as neither of the the NACA publications that cite NACA-TN-2708 use the revised distributions. 

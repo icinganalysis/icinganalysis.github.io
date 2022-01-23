@@ -19,7 +19,7 @@ By measuring the differential rates of ice collection on cylinders of different 
 
 Some typical multicylinder instruments (from [^1]):
 ![Multicyllnder cloud meters used in comparative study at
-Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
 
 "Mathematical Investigation of Water Droplet Trajectories" [^2] provides an example of the mutlicylinder calculations method in 
 the section "Example of the Application of the D.A. Data to Experimental Data".
@@ -63,9 +63,9 @@ for the two sheets) until the two curves coincide at the end where C is small.
 
 I do not have log-log graph paper anymore, so I printed the data in log-log coordinates with maptplotlib. 
 
-![Cunningham data from Table X](/images/cunningham_data/Cunningham_data.png)
+![Cunningham data from Table X](images/cunningham_data/Cunningham_data.png)
 
-![Graph of 1/K vs. Em for K*Phi=10000](/images/cunningham_data/k_phi_10000.png)
+![Graph of 1/K vs. Em for K*Phi=10000](images/cunningham_data/k_phi_10000.png)
 
 > A convenient way to illuminate the sheets is to hold them against a window
 pane.
@@ -109,14 +109,14 @@ The determination of the best fit Κφ value and distribution type is also autom
 When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
 so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.
 
-![Graph of Graph of 1/K vs. Em with automated calculation](/images/cunningham_data/Calculation_with_k_phi_constant_for_each_drop_size_bin.png)
+![Graph of Graph of 1/K vs. Em with automated calculation](images/cunningham_data/Calculation_with_k_phi_constant_for_each_drop_size_bin.png)
 
 The above result used the original Langmuir-Blodgett approximate method "Κφ value for the MVD applied to each drop size bin", 
 as explained in [Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md). 
 
 When the more technically correct "unique Κφ value for each drop size bin" method is used, the calculated MVD=17.1 micrometer.
 
-![Graph of Graph of 1/K vs. Em with automated calculation alternative method](/images/cunningham_data/Calculation_with_k_phi_unique_for_each_drop_size_bin.png)
+![Graph of Graph of 1/K vs. Em with automated calculation alternative method](images/cunningham_data/Calculation_with_k_phi_unique_for_each_drop_size_bin.png)
 
 I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.
 

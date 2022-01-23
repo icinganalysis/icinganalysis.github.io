@@ -42,13 +42,13 @@ the United States included in this investigation.
 
 Data was gathered in icing clouds in flight, with flight paths that were often not straight lines.
 
-![Duration discussion](/images/naca-tn-1904/duration1.png)
-![Duration discussion continued](/images/naca-tn-1904/duration1a.png)
+![Duration discussion](images/naca-tn-1904/duration1.png)
+![Duration discussion continued](images/naca-tn-1904/duration1a.png)
 
 The data were summarized in a table.
 
-![Conclusion 1](/images/naca-tn-1904/conclusion1.png)
-![Conclusion lwc-distance table](/images/naca-tn-1904/conclusion%20table.png)
+![Conclusion 1](images/naca-tn-1904/conclusion1.png)
+![Conclusion lwc-distance table](images/naca-tn-1904/conclusion%20table.png)
 
 ###Drop size distributions
 
@@ -59,7 +59,7 @@ The mean-effective drop diameter is noted as "The amount of water in all of the 
 
     γ = (maximum drop size from fixed) / (mean-effective drop diameter from rotating multicylinder)
     
-![Drop size ratios](/images/naca-tn-1904/drop%20size%20ratios.png)
+![Drop size ratios](images/naca-tn-1904/drop%20size%20ratios.png)
 
 Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.
 

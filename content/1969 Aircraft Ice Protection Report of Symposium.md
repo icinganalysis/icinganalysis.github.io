@@ -54,8 +54,8 @@ protection.
 ###Agenda
 
 There is a rather full agenda, and there is something for everyone:
-![Table of contents (text reproduced below)](/images/symposium1969/table of contents 1.png)
-![Table of contents 2 (text reproduced below)](/images/symposium1969/table of contents 2.png)
+![Table of contents (text reproduced below)](images/symposium1969/table of contents 1.png)
+![Table of contents 2 (text reproduced below)](images/symposium1969/table of contents 2.png)
 
 Here is the Table of Content text transcribed, to be legible and searchable:
 > TABLE OF CONTENTS  

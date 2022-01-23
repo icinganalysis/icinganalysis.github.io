@@ -42,13 +42,13 @@ multicylinder method may be given numerical values as follows:
 NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] Langmuir [^3] used did fit a normal distribution well. 
 The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.
 
-![Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart](/images/naca-tn-2708/NACA-TN-2708_overlay.png)
+![Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart](images/naca-tn-2708/NACA-TN-2708_overlay.png)
 
 However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
 Perhaps there is a different convention for sigma than the one used by scipy.
 
 Clark [^4] recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).  
-![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](/images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
+![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
 NACA-TN-2708 states:
 > Upon
@@ -116,11 +116,11 @@ Perhaps it is just as well that the alternative distributions from NACA-TN-2708 
 We can compare a Langmuir B distribution to the normal distribution fit of the data:
 Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 [^6]) 
 and a line representation are shown.
-![Langmuir B compared to a normal distribution](/images/naca-tn-2708/Langmuir B and normal.png)
+![Langmuir B compared to a normal distribution](images/naca-tn-2708/Langmuir B and normal.png)
 
 The other Langmuir distributions do not match a normal distribution well. 
 A significant portion of the LWC has negative drop sizes with the broader normal distributions. 
-![Langmuir E compared to a normal distribution](/images/naca-tn-2708/Langmuir E and normal.png)
+![Langmuir E compared to a normal distribution](images/naca-tn-2708/Langmuir E and normal.png)
 
 The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" [^7]
 
