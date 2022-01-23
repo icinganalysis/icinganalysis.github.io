@@ -6,6 +6,22 @@ tags: cylinder
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images/cylinder with flow lines.png)
 
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+<p class="aligncenter">
+ <img src="images/naca-tn-2904/Figure15.png" 
+ alt="Multicyllnder cloud meters used in comparative study at Mount Washington Observatory"
+ > 
+ <br>
+ <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>
+ <br>
+ <em>(from NACA-TN-2904) </em>
+</p>
+
 The cylinder has a wide range of current uses in aviation:  
 - Meteorological instruments for flight and icing wind tunnel tests  
 - Aircraft in-flight ice detectors and indicators  
@@ -37,8 +53,7 @@ While such instruments had limitations, the were often the best available techno
 (There may be a thread in the future devoted to measurements of the icing environment). 
 
 Some typical multicylinder meteorological instruments (from [^3]):
-![Multicyllnder cloud meters used in comparative study at
-Mount Washington Observatory](/images/naca-tn-2708/figure_1.png)
+![Multicylinder cloud meters used in comparable studies at Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
 
 
 ###Topic (_key points noted_)
@@ -98,15 +113,13 @@ _NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Mu
 <!--NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
 <!--NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" _(planned)_  omit, covered in NACA-TN-2904 -->
 
-![Calculating water drop trajectories with a differential analyzer analog, Figure 15 from NACA-TN-2904](/images/naca-tn-2904/Figure15.png)
-
 _NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)_  
 
 ![A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](/images/naca-tn-2904/Figure1.png)  
 
-![A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](/images/naca-rm-e53d23/Figure1.png)  
-
 _NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" (planned)_  
+
+![A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](/images/naca-rm-e53d23/Figure1.png)  
 
 _NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" (planned)_  
 
