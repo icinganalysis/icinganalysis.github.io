@@ -22,8 +22,11 @@ AUTHOR_FEED_RSS = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#           ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/icinganalysis/icinganalysis.github.io'),
+          ('twitter', 'https://twitter.com/icinganalysis'),
+          ('linkedin', 'https://www.linkedin.com/in/donald-cook-96204316a/'),
+          ('email', 'mailto:icinganalysis@gmail.com')
+          )
 
 DEFAULT_PAGINATION = False
 
