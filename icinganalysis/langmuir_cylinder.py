@@ -30,6 +30,30 @@ langmuir_lwc_fractions = 0.05, 0.1, 0.2, 0.3, 0.2, 0.1, 0.05
 
 em_interpolator_to_use = calc_em
 
+valid_distribution_ids = 'Langmuir A', 'Langmuir B', 'Langmuir C', 'Langmuir D', 'Langmuir E'
+
+_distribution_mids = {
+        "langmuir a": langmuir_a_mids,
+        "langmuir b": langmuir_b_mids,
+        "langmuir c": langmuir_c_mids,
+        "langmuir d": langmuir_d_mids,
+        "langmuir e": langmuir_e_mids,
+    }
+
+
+def get_valid_distribution_id(candidate_distribution_id):
+    if candidate_distribution_id.lower() in _distribution_mids:
+        return candidate_distribution_id
+    raise ValueError(
+            f"{candidate_distribution_id} is not recognized as a Langmuir distribution type"
+        "\nMust be one of 'Langmuir A', 'Langmuir B', 'Langmuir C', 'Langmuir D', 'Langmuir E'"
+        )
+
+
+def get_mids(distribution):
+    mids = _distribution_mids.get(get_valid_distribution_id(distribution).lower(), None)
+    return mids
+
 
 def calc_em_with_distribution(tk, p, u, mvd, diameter, distribution="Langmuir A"):
     """
@@ -44,17 +68,7 @@ def calc_em_with_distribution(tk, p, u, mvd, diameter, distribution="Langmuir A"
 
     Even so, the two versions yield only slightly different values.
     """
-    mids = {
-        "langmuir a": langmuir_a_mids,
-        "langmuir b": langmuir_b_mids,
-        "langmuir c": langmuir_c_mids,
-        "langmuir d": langmuir_d_mids,
-        "langmuir e": langmuir_e_mids,
-    }.get(distribution.lower(), None)
-    if mids is None:
-        raise ValueError(
-            f"{distribution} is not recognized as a Langmuir distribution type"
-        )
+    mids = get_mids(distribution)
     em = 0
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
         k = calc_k(tk, u, mvd * d_drop_ratio, diameter)
@@ -66,8 +80,8 @@ def calc_em_with_distribution(tk, p, u, mvd, diameter, distribution="Langmuir A"
 
 def calc_em_with_distribution_k_phi_mvd(tk, p, u, mvd, diameter, distribution="Langmuir A"):
     """
-    This will reproduce Table XI distribution values, but as noted in NACA-TR-1215
-    this is an approximation.
+    This will reproduce Table XI distribution values, but as noted in NACA-TN-2904
+    this is an approximation with k_phi values held constant in the calculation.
 
     The k*phi value for the MVD drop size is used for all drop size bins.
     To be more technically correct, each drop size bin should have a unique k*phi value,
@@ -76,17 +90,7 @@ def calc_em_with_distribution_k_phi_mvd(tk, p, u, mvd, diameter, distribution="L
 
     Even so, the two versions yield only slightly different values.
     """
-    mids = {
-        "langmuir a": langmuir_a_mids,
-        "langmuir b": langmuir_b_mids,
-        "langmuir c": langmuir_c_mids,
-        "langmuir d": langmuir_d_mids,
-        "langmuir e": langmuir_e_mids,
-    }.get(distribution.lower(), None)
-    if mids is None:
-        raise ValueError(
-            f"{distribution} is not recognized as a Langmuir distribution type"
-        )
+    mids = get_mids(distribution)
     em = 0
     k_phi = calc_k(tk, u, mvd, diameter) * calc_phi(tk, p, u, diameter)
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):

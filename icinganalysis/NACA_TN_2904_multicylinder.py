@@ -1,9 +1,8 @@
 import matplotlib.pyplot as plt
 from icinganalysis import multicylinder
 from icinganalysis import langmuir_cylinder
-from icinganalysis import NACA_TN_2904_impingement
-from icinganalysis import multicylinder_naca_tn_2904
-from icinganalysis import multicylinder_naca_tn_2904_table_iv
+from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement, multicylinder_naca_tn_2904_using_figure_6_data, \
+    multicylinder_naca_tn_2904
 
 if __name__ == "__main__":
 
@@ -93,12 +92,12 @@ if __name__ == "__main__":
     masses = [em_lwc * d for d, em_lwc in zip(d_cyls, em_lwcs)]
     masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, em_lwcs)]
     print(masses)
-    mc2 = multicylinder_naca_tn_2904.Multicylinder(d_cyls)
+    mc2 = multicylinder_naca_tn_2904_using_figure_6_data.Multicylinder(d_cyls)
     vs = mc2.find_lwc_mvd_from_dist(tk, u, p, masses, distribution="Langmuir B")
     print(vs)
     vs = mc2.find_lwc_mvd_dist(tk, u, p, masses)
     print(vs)
-    mc3 = multicylinder_naca_tn_2904_table_iv.Multicylinder(d_cyls)
+    mc3 = multicylinder_naca_tn_2904.Multicylinder(d_cyls)
 
     ds = plt.np.logspace(0.1 * min(d_cyls), 1.1 * max(d_cyls))
     ds = plt.np.logspace(plt.np.log10(0.1 * min(d_cyls)), plt.np.log10(5 * max(d_cyls)))
@@ -115,7 +114,7 @@ if __name__ == "__main__":
                                                     best_distribution) * lwc_lang * u * 0.0254 ** 2 for
         d in ds]
 
-    mc2 = multicylinder_naca_tn_2904.Multicylinder(d_cyls)
+    mc2 = multicylinder_naca_tn_2904_using_figure_6_data.Multicylinder(d_cyls)
     lwc2, mvd2, best_distribution2, rss2 = mc2.find_lwc_mvd_dist(tk, u, p, masses)
     k_phi2 = multicylinder.calc_k_phi(tk, p, u, mvd2)
     print(lwc2, mvd2, best_distribution2, rss2, k_phi2)

@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from icinganalysis import langmuir_cylinder
-from icinganalysis import NACA_TN_2904_impingement
-from icinganalysis import  multicylinder_naca_tn_2904_table_iv
+from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement, multicylinder_naca_tn_2904
 
 
 def c1(d_inch, mph, mvd, tk):
@@ -79,14 +78,14 @@ if __name__ == "__main__":
     # ems_lang_b = [e * lwc for e in ems_lang_b]
     ems_lwc_nom_u_sq_inch_table_iv = [e * lwc_nom * u * 0.0254 ** 2 for e in ems_nom]
     print('ems_lang_b*lwc_u_sq_inch', ems_lwc_nom_u_sq_inch_table_iv)
-    rss_nominal = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs, ems_lwc_nom_u_sq_inch_table_iv)
+    rss_nominal = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs, ems_lwc_nom_u_sq_inch_table_iv)
     print(em_lwcs)
     print(ems_nom)
     print(ems_lwc_nom_u_sq_inch_table_iv)
     print('rss_nominal', rss_nominal)
 
     masses = [em_lwc_u * d / 1000 * 0.0254 ** -2 for d, em_lwc_u in zip(d_cyls, em_lwcs)]
-    mc3 = multicylinder_naca_tn_2904_table_iv.Multicylinder(d_cyls)
+    mc3 = multicylinder_naca_tn_2904.Multicylinder(d_cyls)
 
     ds = plt.np.logspace(plt.np.log10(0.1 * min(d_cyls)), plt.np.log10(5 * max(d_cyls)))
     ds_inch = [_ / 0.0254 for _ in ds]
@@ -94,15 +93,15 @@ if __name__ == "__main__":
     lwc3, mvd3, best_distribution3, rss3 = mc3.find_lwc_mvd_dist(tk, u, p, masses)
 
     naca3_ems_lwcs = [NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution(tk, p, u, mvd3, d,
-                                                                                     best_distribution3) * lwc3 * u * 0.0254 ** 2
-                     for d in ds]
+                                                                                      best_distribution3) * lwc3 * u * 0.0254 ** 2
+                      for d in ds]
 
     naca3_ems_lwcs = [NACA_TN_2904_impingement.ie(
         langmuir_cylinder.calc_k(tk, u, mvd3, d),
         # langmuir_cylinder.calc_phi(tk, p, u, d),  # !!! error, should use calc_k_phi !!!
         langmuir_cylinder.calc_k_phi(tk, p, u, mvd),
         best_distribution3) * lwc3 * u * 0.0254 ** 2
-                     for d in ds]
+                      for d in ds]
 
     plt.figure()
     plt.suptitle(f'Nominal case MVD={mvd:.1f} LWC={lwc:.2f} {distribution} RSS {rss_nominal}')
@@ -188,7 +187,7 @@ if __name__ == "__main__":
         dist_nom_up,
     ) for d in ds]
     em_lwcs_nom_up = [e * lwc_nom_up * u * 0.0254 ** 2 for e in ems_nom_up]
-    rss_nom_up = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs, em_lwcs_nom_up)
+    rss_nom_up = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs, em_lwcs_nom_up)
     em_indicated_ramped_up = [el/(u*0.0254**2)/lwc_nom_up for el in em_lwcs_ramped_up]
 
     mvd_nom_down = 17
@@ -200,7 +199,7 @@ if __name__ == "__main__":
         dist_nom_down,
     ) for d in ds]
     em_lwcs_nom_down = [e * lwc_nom_down * u * 0.0254 ** 2 for e in ems_nom_down]
-    rss_nom_down = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs, em_lwcs_nom_down)
+    rss_nom_down = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs, em_lwcs_nom_down)
     em_indicated_ramped_down = [el/(u*0.0254**2)/lwc_nom_down for el in em_lwcs_ramped_down]
 
     plt.figure(figsize=(8, 7.9))
@@ -303,7 +302,7 @@ if __name__ == "__main__":
         langmuir_cylinder.calc_k_phi(tk, p, u, mvd_nom_up),
         dist_nom_up) for d in ds]
     em_lwc_us_dps_as = [e * u * lwc_nom_up * 0.0254 ** 2 for e in es]
-    rss_a = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_up, em_lwc_us_dps_as)
+    rss_a = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_up, em_lwc_us_dps_as)
 
     plt.figure(figsize=(10.5, 7.9)) # fig 13 overlay
     plt.plot(em_lwcs, d_cyls_inch, 'o', fillstyle='none', label="Figure 11 data")
@@ -327,7 +326,7 @@ if __name__ == "__main__":
     lwcx = lwc_nom_down
     # lwcx = 0.62
     em_lwcs_nom_downx = [_*lwcx/lwc_nom_down for _ in em_lwcs_nom_down]
-    rss_ex = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_down, em_lwcs_nom_down)
+    rss_ex = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_down, em_lwcs_nom_down)
     plt.plot(em_lwcs, d_cyls_inch, 'o', fillstyle='none', label="Figure 11 data")
     plt.plot(em_lwcs_ramped_up, d_cyls_inch, 'x', label="Figure 11 data ramped\nfrom -5% to +5%")
     plt.plot(em_lwcs_ramped_down, d_cyls_inch, '+', label="Figure 11 data ramped\nfrom +5% to -5%")
@@ -349,7 +348,7 @@ if __name__ == "__main__":
     inv_ks = plt.np.logspace(plt.np.log10(.01), plt.np.log10(6), 1000)
     for dist, tab in NACA_TN_2904_impingement.langs_table_iv.items():
 
-        ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+        ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
         line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} interpolated")
 
         plt.plot(
@@ -375,7 +374,7 @@ if __name__ == "__main__":
     dts = (('Langmuir B', 'ems_b'),)
     for dist, tab in dts:
 
-        ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+        ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
         line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} interpolated")
 
         plt.plot(
@@ -400,23 +399,23 @@ if __name__ == "__main__":
     inv_ks = plt.np.logspace(plt.np.log10(.01), plt.np.log10(6), 1000)
     dist = 'Langmuir E'
     k_phi = 10000
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvd_nom, d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
     plt.plot(ems_d_cyls, inv_ks_d_cyl, '+', c=line.get_color())
     k_phi = kphis[0]
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvds[0], d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
     plt.plot(ems_d_cyls, inv_ks_d_cyl, '+', c=line.get_color())
 
     k_phi_nom_down = langmuir_cylinder.calc_k_phi(tk, p, u, mvd_nom_down)
     ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi_nom_down, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi_nom_down:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvd_nom_down, d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi_nom_down, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi_nom_down, dist) for inv_k in inv_ks_d_cyl]
     print(inv_ks_d_cyl)
     print(ems_d_cyls)
     print(mvd_nom_down)
@@ -436,27 +435,27 @@ if __name__ == "__main__":
     inv_ks = plt.np.logspace(plt.np.log10(.007), plt.np.log10(6), 1000)
     dist = 'Langmuir A'
     k_phi = 10000
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvd_nom, d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
     plt.plot(ems_d_cyls, inv_ks_d_cyl, '+', c=line.get_color())
     lwc_c, mvd_c, rss_c = mc3.find_lwc_mvd_from_dist(tk, u, p, masses_ramped_up, distribution=dist,
                                     constrained_k_phi=k_phi)
     em_indicated = [el/(u*0.0254**2)/lwc_c for el in em_lwcs]
-    rss_indicated = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_indicated, ems_d_cyls)
+    rss_indicated = multicylinder_naca_tn_2904.calc_rss_log_diff(em_indicated, ems_d_cyls)
     plt.plot(em_indicated, inv_ks_d_cyl, 'o', c=line.get_color(), fillstyle='none', label=f"{k_phi:.0f} {mvd_nom:.1f} {rss_indicated:.3f}")
 
     k_phi = kphis[-1]
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvds[-1], d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
     plt.plot(ems_d_cyls, inv_ks_d_cyl, '+', c=line.get_color())
     lwc_c, mvd_c, rss_c = mc3.find_lwc_mvd_from_dist(tk, u, p, masses_ramped_up, distribution=dist,
                                     constrained_k_phi=k_phi)
     em_indicated = [el/(u*0.0254**2)/lwc_nom_up for el in em_lwcs_ramped_up]
-    rss_indicated = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_indicated, ems_d_cyls)
+    rss_indicated = multicylinder_naca_tn_2904.calc_rss_log_diff(em_indicated, ems_d_cyls)
     plt.plot(em_indicated, inv_ks_d_cyl, 'o', c=line.get_color(), fillstyle='none', label=f"{k_phi:.0f} {mvds[-1]:.1f} {rss_indicated:.3f}")
     print(em_indicated)
 
@@ -466,17 +465,17 @@ if __name__ == "__main__":
 
     k_phi_nom_up = langmuir_cylinder.calc_k_phi(tk, p, u, mvd_nom_up)
     k_phi = k_phi_nom_up
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     line, = plt.plot(ems, inv_ks, lw=0.5, label=f"{dist} K*Phi={k_phi:.0f}")
     inv_ks_d_cyl = [1/langmuir_cylinder.calc_k(tk, u, mvd_nom_up, d) for d in d_cyls]
-    ems_d_cyls = [NACA_TN_2904_impingement.ie(1/inv_k,k_phi, dist) for inv_k in inv_ks_d_cyl]
+    ems_d_cyls = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks_d_cyl]
 
     plt.plot(ems_d_cyls, inv_ks_d_cyl, '+', c=line.get_color())
     plt.plot([],[],'+',c='k',label='Cylinder calculated Em values for K*Phi value')
     lwc_c, mvd_c, rss_c = mc3.find_lwc_mvd_from_dist(tk, u, p, masses_ramped_up, distribution=dist,
                                     constrained_k_phi=k_phi)
     em_indicated = [el/(u*0.0254**2)/lwc_c for el in em_lwcs_ramped_up]
-    rss_indicated = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_indicated, ems_d_cyls)
+    rss_indicated = multicylinder_naca_tn_2904.calc_rss_log_diff(em_indicated, ems_d_cyls)
     plt.plot(em_indicated, inv_ks_d_cyl, 'o', c=line.get_color(), fillstyle='none', label=f"{k_phi:.0f} {mvd_nom_up:.1f} {rss_indicated:.3f}")
     print(mvd_nom, mvds[-1], mvd_nom_up)
     print(em_indicated)
@@ -500,14 +499,14 @@ if __name__ == "__main__":
     k_phi = 10000
     lwcx = lwc_nom_up
     lwcx = 0.495
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k, k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     ems_lwc_calc = [e * lwcx * u * 0.0254 ** 2 for e in ems]
     line, = plt.plot(ems_lwc_calc, ds_inch, lw=0.5)
     em_lwcs_d_cyls = [NACA_TN_2904_impingement.ie(
         langmuir_cylinder.calc_k(tk, u, mvd_nom_up, d),
         k_phi, dist,
     ) * lwcx * u * 0.0254 ** 2 for d in d_cyls]
-    rss = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
+    rss = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
     plt.plot(em_lwcs_d_cyls, d_cyls_inch, '+', c=line.get_color(),
              label=f"Constrained K*Phi={k_phi:.0f}\n{dist} {lwcx:.3f} {mvd_nom_up:.2f} {rss:.3f}")
 
@@ -518,14 +517,14 @@ if __name__ == "__main__":
     mvd_c = mvds[-1]
     ds = [langmuir_cylinder.calc_d_cylinder_from_k(1/inv_k, tk, u, mvd_c) for inv_k in inv_ks]
     ds_inch = [_/0.0254 for _ in ds]
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k, k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     ems_lwc_calc = [e * lwc_c * u * 0.0254 ** 2 for e in ems]
     line, = plt.plot(ems_lwc_calc, ds_inch, lw=0.5)
     em_lwcs_d_cyls = [NACA_TN_2904_impingement.ie(
         langmuir_cylinder.calc_k(tk, u, mvd_c, d),
         k_phi, dist,
     ) * lwc_c * u * 0.0254 ** 2 for d in d_cyls]
-    rss = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
+    rss = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
     plt.plot(em_lwcs_d_cyls, d_cyls_inch, '+', c=line.get_color(),
              label=f"K*Phi={k_phi:.0f} Nominal\n{dist} {lwc_c:.3f} {mvd_c:.2f} {mvd_cx:.2f} {rss:.3f}")
 
@@ -533,14 +532,14 @@ if __name__ == "__main__":
     k_phi = langmuir_cylinder.calc_k_phi(tk, p, u, mvd3_ramped_up)
     ds = [langmuir_cylinder.calc_d_cylinder_from_k(1/inv_k, tk, u, mvd3_ramped_up) for inv_k in inv_ks]
     ds_inch = [_/0.0254 for _ in ds]
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k, k_phi, best_distribution3_ramped_up) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, best_distribution3_ramped_up) for inv_k in inv_ks]
     ems_lwc_calc = [e * lwc3_ramped_up * u * 0.0254 ** 2 for e in ems]
     line, = plt.plot(ems_lwc_calc, ds_inch, lw=0.5)
     em_lwcs_d_cyls = [NACA_TN_2904_impingement.ie(
         langmuir_cylinder.calc_k(tk, u, mvd3_ramped_up, d),
         k_phi, best_distribution3_ramped_up,
     ) * lwc3_ramped_up * u * 0.0254 ** 2 for d in d_cyls]
-    rss = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
+    rss = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
     plt.plot(em_lwcs_d_cyls, d_cyls_inch, '+', c=line.get_color(),
              label=f"K*Phi={k_phi:.0f} Calculated best fit\n{best_distribution3_ramped_up} {lwc3_ramped_up:.3f} {mvd3_ramped_up:.2f} {rss:.3f}")
 
@@ -548,14 +547,14 @@ if __name__ == "__main__":
     lwc_nom_up = 0.505
     ds = [langmuir_cylinder.calc_d_cylinder_from_k(1/inv_k, tk, u, mvd_nom_up) for inv_k in inv_ks]
     ds_inch = [_/0.0254 for _ in ds]
-    ems = [NACA_TN_2904_impingement.ie(1/inv_k, k_phi, dist) for inv_k in inv_ks]
+    ems = [NACA_TN_2904_impingement.ie(1 / inv_k, k_phi, dist) for inv_k in inv_ks]
     ems_lwc_calc = [e * lwc_nom_up * u * 0.0254 ** 2 for e in ems]
     line, = plt.plot(ems_lwc_calc, ds_inch, lw=0.5)
     em_lwcs_d_cyls = [NACA_TN_2904_impingement.ie(
         langmuir_cylinder.calc_k(tk, u, mvd_nom_up, d),
         k_phi, dist,
     ) * lwc_nom_up * u * 0.0254 ** 2 for d in d_cyls]
-    rss = multicylinder_naca_tn_2904_table_iv.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
+    rss = multicylinder_naca_tn_2904.calc_rss_log_diff(em_lwcs_ramped_up, em_lwcs_d_cyls)
     plt.plot(em_lwcs_d_cyls, d_cyls_inch, '+', c=line.get_color(),
              label=f"K*Phi={k_phi:.0f} Nom\n{dist} {lwc_nom_up:.3f} {mvd_nom_up:.2f} {rss:.3f}")
 
