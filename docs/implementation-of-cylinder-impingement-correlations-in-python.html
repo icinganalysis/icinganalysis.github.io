@@ -29,13 +29,13 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-01-20T06:33:51.549603-08:00">
-                Published: Thu 20 January 2022
+        <abbr class="published" title="2022-02-01T10:45:13.945039-08:00">
+                Published: Tue 01 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-01-20T06:33:51.549603-08:00">-->
-                <!--Updated: Thu 20 January 2022-->
+        <!--<abbr class="modified" title="2022-02-01T10:45:13.945039-08:00">-->
+                <!--Updated: Tue 01 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -75,19 +75,19 @@ A 2D interpolation of Table II values was used. </p>
 interpolation was selected as the most accurate over the entire range of parameters (K, Phi) considered. 
 The range of values in Table II are rather broad, and should fit every combination of drop size and cylinder diameter 
 of interest in aviation.</p>
-<p>In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi 
+<p>In the file langmuir_cylinder_values.py, several functions are implemented to calculate dimensionless values such as K and Phi 
 from dimensional values, such as airspeed, drop size, and cylinder diameter. 
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
 <p><img alt="comparison to Table XI values" src="images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
 <h3>A subtlety about implementing drop size distributions</h3>
-<p>As noted in NACA-TR-1215 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
+<p>As noted in NACA-TN-2904 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
 This means essentially that for part of the calculation (the k*phi value) the MVD drop size was used for every bin, 
 and for the other part (the k value) the drop size was unique for each bin.
 A more technically correct implementation is to have a unique k*phi value for each bin (both the k and the k*phi parts). 
 I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
-and it was an astute observations made in NACA-TR-1215 to notice this. 
+and it was an astute observations made in NACA-TN-2904 to notice this. 
 A comparison to Table XI values verifies that the "k*phi value for the MVD" method was used.</p>
 <!--- note the the "*" in k*phi is escaped k\*phi to prevent unwanted formatting between "*"s --->
 
@@ -96,8 +96,7 @@ There are only a small differences between values calculated with the two implem
 <p><img alt="comparison of two implementations" src="images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
 <p>I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.</p>
-<p>The "unique k*phi for each bin" method is considered more technically correct, 
-and will be used hereafter (unless noted otherwise).</p>
+<p>The original version of the impingement calculation with a drop size distribution will be used from here on unless noted otherwise.</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
@@ -112,7 +111,7 @@ and will be used hereafter (unless noted otherwise).</p>
 <p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
