@@ -93,6 +93,8 @@ but I have not read through 700+ references to confirm this.
 While [NACA-TN-779]({filename}/NACA-TN-779.md) [^8] presented results as dimensional, this publication put values in non-dimensional terms.
 The non-dimensional form allows the tables to be applied to a wide variety of cases.
 
+Large portions will be reproduce here, as the online version freely available is of limited image quality.  
+
 > The quantity β which serves as a measure of the thickness of the rime at
 any point characterized by θ may thus be defined by  
 

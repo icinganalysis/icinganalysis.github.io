@@ -34,7 +34,7 @@ interpolation was selected as the most accurate over the entire range of paramet
 The range of values in Table II are rather broad, and should fit every combination of drop size and cylinder diameter 
 of interest in aviation.
  
-In the file langmuir_cylinder.py, several functions are implemented to calculate dimensionless values such as K and Phi 
+In the file langmuir_cylinder_values.py, several functions are implemented to calculate dimensionless values such as K and Phi 
 from dimensional values, such as airspeed, drop size, and cylinder diameter. 
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
@@ -43,13 +43,13 @@ The calculated cylinder water catch efficiency Em values compare to Table XI val
 
 ###A subtlety about implementing drop size distributions
 
-As noted in NACA-TR-1215 [^4], for drop size distributions Langmuir and Blodgett used an approximation, 
+As noted in NACA-TN-2904 [^4], for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
 This means essentially that for part of the calculation (the k\*phi value) the MVD drop size was used for every bin, 
 and for the other part (the k value) the drop size was unique for each bin.
 A more technically correct implementation is to have a unique k\*phi value for each bin (both the k and the k\*phi parts). 
 I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
-and it was an astute observations made in NACA-TR-1215 to notice this. 
+and it was an astute observations made in NACA-TN-2904 to notice this. 
 A comparison to Table XI values verifies that the "k\*phi value for the MVD" method was used.
 
 <!--- note the the "*" in k*phi is escaped k\*phi to prevent unwanted formatting between "*"s --->
@@ -62,8 +62,7 @@ There are only a small differences between values calculated with the two implem
 I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.
 
-The "unique k\*phi for each bin" method is considered more technically correct, 
-and will be used hereafter (unless noted otherwise).
+The original version of the impingement calculation with a drop size distribution will be used from here on unless noted otherwise.
 
 ##Notes:
 [^1]:  
@@ -71,4 +70,5 @@ and will be used hereafter (unless noted otherwise).
 [^2]:
 Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: https://www.anaconda.com/  
 [^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
-[^4]: Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
+[^4]: Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
+
