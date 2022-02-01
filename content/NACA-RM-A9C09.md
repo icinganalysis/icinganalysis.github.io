@@ -49,7 +49,7 @@ While there is much of interest here, we focus on the cylinders.
 
 Accuracy targets were determined:
 
-![Desired accuray](images/naca-rm-a9c09/desired%20accuracy.png)  
+![Desired accuracy](images/naca-rm-a9c09/desired%20accuracy.png)  
 
 ###Rotating Multicylinder
 
