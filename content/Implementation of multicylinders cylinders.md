@@ -104,7 +104,7 @@ Estimating the accuracy of the multicyinder method will be a recurring theme in 
 
 #Code implementation of the multicylinder drop size analysis
 
-Fortunately, this laborious process is implemented in the file "multicylinder.py" [^3]. 
+Fortunately, this laborious process is implemented in the file "langmuir_blodgett_multicylinder.py" [^3]. 
 The determination of the best fit Κφ value and distribution type is also automated. 
 When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
 so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.

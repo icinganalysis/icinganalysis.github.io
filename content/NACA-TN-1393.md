@@ -77,18 +77,18 @@ Running the file "naca-tn-1393.py" [^4] yields different results, particularly f
 
 |Source of error|Estimated amount of error|Resultant percent error (E) Water content|Resultant percent error (E) Drop diameter|
 |---|---|---|---|
-|Weighing sample 1/8-in. cylinder|+/-0.02 gram|2.9|2.4|
-|Weighing sample 1-in. cylinder|+/-0.03 gram|0.3|1.0|
+|Weighing sample 1/8-in. cylinder|+/-0.02 gram|2.9|2.6|
+|Weighing sample 1-in. cylinder|+/-0.03 gram|0.3|1.1|
 |Assumed density of ice|-0.08 g/cm^3|0.4|0.3|
 |Timing exposure|+/-1.5 seconds|2.6|0.0|
 |True airspeed|+/-2.5 mph|1.5|0.6|
 |Miscellaneous other errors|----|1.0|1|
-|Error due to using "C" distribution curves for unknown distribution|----|5.5|6.7|
+|Error due to using "C" distribution curves for unknown distribution|----|7.0|9.9|
 
 |Total error|Water content (percent)|Drop diameter (percent)|
 |---|---|---|
-|Maximum total error (sum(E))|14.1|12.0|
-|Maximum resultant error (sum(E^2)^0.5)|7.0|7.3|
+|Maximum total error (sum(E))|15.8|15.5|
+|Maximum resultant error (sum(E^2)^0.5)|8.2|10.4|
 
 Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
 For the 'Error due to using "C" distribution curves for unknown distribution' item, 
@@ -100,7 +100,7 @@ The results are shown below:
 ![Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution](images/naca-tn-1393/naca_tn_1393_error_assuming_c.png)
 
 If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
-the difference in calculated mean effective drop diameter is 6.7%.
+the difference in calculated mean effective drop diameter is 7%.
 
 Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
 As the drop size is different, the collection efficiency is different, 
