@@ -2,7 +2,7 @@ from scipy.interpolate import interp2d, interp1d
 import numpy as np
 import matplotlib.pyplot as plt
 from math import log10
-from icinganalysis import langmuir_cylinder
+from icinganalysis import langmuir_cylinder_values
 
 
 def trim_extra_x_y_zeros(x, y):
@@ -145,99 +145,101 @@ def interp_beta_phi(phi, theta, k):
     return max(0, beta)
 
 
-mvd = 20
-u = 90
-p = 101325
-tk = -10 + 273.15
+if __name__ == '__main__':
 
-mvd = 10  # from the appendix
-lwc = 0.5  # from the appendix
-time = 60  # from the appendix
-tk = 273.15 - 20  # assumed to be cold enough to freeze all water
-p = 101325  # assumed
-mph = 2.5 * 100 / 1.5  # inferred from table in appendix, "2.5 mph" and "1.5%", results in 166 mph, which is "reasonable"
-assumed_distribution = 'Langmuir C'  # inferred from table in appendix "Error due to using "C" distribution curves for unknown distribution"
-ice_density = 800  # kg/m^3, inferred from "0.08 g/cm^3", assuming a 10% variation
-u = mph * 0.44704
+    mvd = 20
+    u = 90
+    p = 101325
+    tk = -10 + 273.15
 
-d_cylinder = 0.0254 * 6
+    mvd = 10  # from the appendix
+    lwc = 0.5  # from the appendix
+    time = 60  # from the appendix
+    tk = 273.15 - 20  # assumed to be cold enough to freeze all water
+    p = 101325  # assumed
+    mph = 2.5 * 100 / 1.5  # inferred from table in appendix, "2.5 mph" and "1.5%", results in 166 mph, which is "reasonable"
+    assumed_distribution = 'Langmuir C'  # inferred from table in appendix "Error due to using "C" distribution curves for unknown distribution"
+    ice_density = 800  # kg/m^3, inferred from "0.08 g/cm^3", assuming a 10% variation
+    u = mph * 0.44704
 
-k = langmuir_cylinder.calc_k(tk, u, mvd, d_cylinder)
-phi = langmuir_cylinder.calc_phi(tk, p, u, d_cylinder)
-print(k, phi)
+    d_cylinder = 0.0254 * 6
 
-print()
-print(np.degrees(0.1))
+    k = langmuir_cylinder_values.calc_k(tk, u, mvd, d_cylinder)
+    phi = langmuir_cylinder_values.calc_phi(tk, p, u, d_cylinder)
+    print(k, phi)
 
-plt.figure()
-for k_ in d_1000:
-    # plt.plot(d[k]['theta'][:-1], d[k]['beta'][:-1], 'o--', label=k)
-    plt.plot(d_1000[k_]['theta'], d_1000[k_]['beta'], 'o--', label=k_)
+    print()
+    print(np.degrees(0.1))
 
-thetas = np.linspace(0, 1.6, 100)
-betas = [interp_beta_phi_1000(theta, k) for theta in thetas]
-thetas, betas = trim_extra_x_y_zeros(thetas, betas)
-plt.plot(thetas, betas, label=f'interpolated at k={k:.2f}')
+    plt.figure()
+    for k_ in d_1000:
+        # plt.plot(d[k]['theta'][:-1], d[k]['beta'][:-1], 'o--', label=k)
+        plt.plot(d_1000[k_]['theta'], d_1000[k_]['beta'], 'o--', label=k_)
 
-thetas = np.linspace(0, 1.6, 1000)
-# print('thetas')
-# print(thetas)
-betas_tree_rings = []
-betas = [0] * len(thetas)
-weighted_betas = []
-for d_ratio, w in zip(langmuir_cylinder.langmuir_e_mids, langmuir_cylinder.langmuir_lwc_fractions):
-    d_drop = mvd * d_ratio
-    k_drop = langmuir_cylinder.calc_k(tk, u, d_drop, d_cylinder)
-    # print(d_drop, k_drop)
-    betas_k = [w * interp_beta_phi_10000(theta, k_drop) for theta in thetas]
-    # print(betas_k)
-    weighted_betas.append(betas_k)
-    betas_tree_rings.append([b0 + b for b0, b in zip(betas, betas_k)])
-    betas = [b0 + b for b0, b in zip(betas, betas_k)]
+    thetas = np.linspace(0, 1.6, 100)
+    betas = [interp_beta_phi_1000(theta, k) for theta in thetas]
+    thetas, betas = trim_extra_x_y_zeros(thetas, betas)
+    plt.plot(thetas, betas, label=f'interpolated at k={k:.2f}')
 
-# print(betas)
-# print(thetas)
+    thetas = np.linspace(0, 1.6, 1000)
+    # print('thetas')
+    # print(thetas)
+    betas_tree_rings = []
+    betas = [0] * len(thetas)
+    weighted_betas = []
+    for d_ratio, w in zip(langmuir_cylinder_values.langmuir_e_mids, langmuir_cylinder_values.langmuir_lwc_fractions):
+        d_drop = mvd * d_ratio
+        k_drop = langmuir_cylinder_values.calc_k(tk, u, d_drop, d_cylinder)
+        # print(d_drop, k_drop)
+        betas_k = [w * interp_beta_phi_10000(theta, k_drop) for theta in thetas]
+        # print(betas_k)
+        weighted_betas.append(betas_k)
+        betas_tree_rings.append([b0 + b for b0, b in zip(betas, betas_k)])
+        betas = [b0 + b for b0, b in zip(betas, betas_k)]
 
-thetas, betas = trim_extra_x_y_zeros(thetas, betas)
-plt.plot(thetas, betas, label=f'interpolated Langmuir E at k={k:.2f}')
+    # print(betas)
+    # print(thetas)
 
-thetas = np.linspace(0, 1.6, 1000)
-# print('thetas')
-# print(thetas)
-betas_tree_rings = []
-betas = [0] * len(thetas)
-weighted_betas = []
-for d_ratio, w in zip(langmuir_cylinder.langmuir_e_mids, langmuir_cylinder.langmuir_lwc_fractions):
-    d_drop = mvd * d_ratio
-    k_drop = langmuir_cylinder.calc_k(tk, u, d_drop, d_cylinder)
-    # print(d_drop, k_drop)
-    betas_k = [w * interp_beta_phi(phi, theta, k_drop) for theta in thetas]
-    # print(betas_k)
-    weighted_betas.append(betas_k)
-    betas_tree_rings.append([b0 + b for b0, b in zip(betas, betas_k)])
-    betas = [b0 + b for b0, b in zip(betas, betas_k)]
+    thetas, betas = trim_extra_x_y_zeros(thetas, betas)
+    plt.plot(thetas, betas, label=f'interpolated Langmuir E at k={k:.2f}')
 
-# print(betas)
-# print(thetas)
+    thetas = np.linspace(0, 1.6, 1000)
+    # print('thetas')
+    # print(thetas)
+    betas_tree_rings = []
+    betas = [0] * len(thetas)
+    weighted_betas = []
+    for d_ratio, w in zip(langmuir_cylinder_values.langmuir_e_mids, langmuir_cylinder_values.langmuir_lwc_fractions):
+        d_drop = mvd * d_ratio
+        k_drop = langmuir_cylinder_values.calc_k(tk, u, d_drop, d_cylinder)
+        # print(d_drop, k_drop)
+        betas_k = [w * interp_beta_phi(phi, theta, k_drop) for theta in thetas]
+        # print(betas_k)
+        weighted_betas.append(betas_k)
+        betas_tree_rings.append([b0 + b for b0, b in zip(betas, betas_k)])
+        betas = [b0 + b for b0, b in zip(betas, betas_k)]
 
-thetas, betas = trim_extra_x_y_zeros(thetas, betas)
-plt.plot(thetas, betas, label=f'interpolated phi Langmuir E at k={k:.2f}')
-#
-#
-#
-# # print(betas)
-# # print(thetas)
-#
-#
-# for betas in betas_tree_rings:
-#     thetas = np.linspace(0, 1.6, 1000)
-#     thetas, betas = trim_extra_x_y_zeros(thetas, betas)
-#     plt.plot(thetas, betas, '--',
-#              # label='component'
-#              )
+    # print(betas)
+    # print(thetas)
+
+    thetas, betas = trim_extra_x_y_zeros(thetas, betas)
+    plt.plot(thetas, betas, label=f'interpolated phi Langmuir E at k={k:.2f}')
+    #
+    #
+    #
+    # # print(betas)
+    # # print(thetas)
+    #
+    #
+    # for betas in betas_tree_rings:
+    #     thetas = np.linspace(0, 1.6, 1000)
+    #     thetas, betas = trim_extra_x_y_zeros(thetas, betas)
+    #     plt.plot(thetas, betas, '--',
+    #              # label='component'
+    #              )
 
 
-# plt.ylim(0, 1)
-plt.grid(True)
-plt.legend()
-plt.show()
+    # plt.ylim(0, 1)
+    plt.grid(True)
+    plt.legend()
+    plt.show()

@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-from icinganalysis import langmuir_blodgett_multicylinder as multicylinder
-from icinganalysis.air_properties import calc_pressure
+from icinganalysis import langmuir_blodgett_multicylinder_k_phi_unique_mvd as multicylinder
 
 
 def calc_percent_difference(reference, value):
@@ -316,7 +315,7 @@ if __name__ == "__main__":
     airspeed_mph = 200
     t_deg_f = -15
     tk = (469.59 + t_deg_f) / 1.8
-    p = calc_pressure(altitude_ft * 12 * 0.025)
+    p = multicylinder.langmuir_cylinder_values.calc_pressure(altitude_ft * 12 * 0.025)
     u = airspeed_mph * 0.44704
     d_cylinder = 3 * 0.0254
 
@@ -335,9 +334,9 @@ if __name__ == "__main__":
         lwcs_light.append(rate_upper_light_icing * 100 ** 2 / 3600 / (em * u))
         lwcs_moderate.append(rate_upper_moderate_icing * 100 ** 2 / 3600 / (em * u))
 
-    plt.plot(d_drops, lwcs_trace, label="Trace (1 g/cm^2-hr)")
-    plt.plot(d_drops, lwcs_light, label="Light (6 g/cm^2-hr)")
-    plt.plot(d_drops, lwcs_moderate, label="Moderate (12 g/cm^2-hr)")
+    plt.plot(d_drops, lwcs_trace, label="Trace (1 g/cm^2-hr")
+    plt.plot(d_drops, lwcs_light, label="Light (6 g/cm^2-hr")
+    plt.plot(d_drops, lwcs_moderate, label="Moderate (12 g/cm^2-hr")
 
     plt.xlim(0, 60)
     plt.xlabel("Mean Effective Drop Diameter, micrometer")
@@ -346,6 +345,6 @@ if __name__ == "__main__":
     plt.ylabel("Liquid Water Content, g/m^3")
 
     plt.legend(loc="upper left")
-    plt.savefig("naca-tn-1393_figure_5_comparison.png", transparent=True)
+    plt.savefig("naca-tn-1393_figure_5_comparison_k_phi_unique.png", transparent=True)
 
     plt.show()

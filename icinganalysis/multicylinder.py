@@ -13,11 +13,11 @@ altitude: pressure altitude, m
 """
 from math import log10, pi
 from scipy.optimize import minimize
-from icinganalysis import langmuir_cylinder
+from icinganalysis import langmuir_cylinder_values
 from icinganalysis.air_properties import calc_altitude
 
-original_calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution
-calc_em_with_distribution_to_use = langmuir_cylinder.calc_em_with_distribution
+original_calc_em_with_distribution = langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin
+calc_em_with_distribution_to_use = langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin
 
 
 def calc_mass_average_em_diameter_with_distribution(
@@ -186,12 +186,12 @@ class Multicylinder:
 def calc_k_phi(tk, p, u, drop_diameter_micrometer):  # equ. (50)
     k_phi = (
                 2
-                * langmuir_cylinder.calc_air_density(tk, p)
+                * langmuir_cylinder_values.calc_air_density(tk, p)
                 * u
                 * drop_diameter_micrometer
                 / 1000000
                 / 2
-                / langmuir_cylinder.calc_air_viscosity(tk)
+                / langmuir_cylinder_values.calc_air_viscosity(tk)
             ) ** 2
     return k_phi
 
@@ -231,10 +231,10 @@ if __name__ == "__main__":
 
     lwc, mvd, dist, rss = mc.find_lwc_mvd_dist(tk, u, p, mass_rates, time_in_icing, ice_density)
     k_phi = calc_k_phi(tk, p, u, mvd)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
-    ems = [langmuir_cylinder.calc_em(tk, p, u, mvd, d) for d in d_cyl]
+    d_cyl = [langmuir_cylinder_values.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
+    ems = [langmuir_cylinder_values.calc_em(tk, p, u, mvd, d) for d in d_cyl]
 
-    inv_kcs = [1 / langmuir_cylinder.calc_k(tk, u, mvd, d) for d in ds]
+    inv_kcs = [1 / langmuir_cylinder_values.calc_k(tk, u, mvd, d) for d in ds]
     apparent_ems = [m / lwc for m in table_X_data["em*lwc"]]
     print()
     print(f"Calculation with k*phi unique for each drop size bin\nMVD={mvd:.1f} {dist} Kφ(mvd)={k_phi:.0f}")
@@ -261,13 +261,13 @@ if __name__ == "__main__":
     plt.savefig('Calculation_with_k_phi_unique_for_each_drop_size_bin.png')
 
     #  "Monkey-patch" in the "calc_em_with_distribution_k_phi_mvd" method
-    langmuir_cylinder.calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution_k_phi_mvd
+    langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin = langmuir_cylinder_values.calc_em_with_distribution_original
     lwc, mvd, dist, rss = mc.find_lwc_mvd_dist(tk, u, p, mass_rates, time_in_icing, ice_density)
     k_phi = calc_k_phi(tk, p, u, mvd)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
-    ems = [langmuir_cylinder.calc_em(tk, p, u, mvd, d) for d in d_cyl]
+    d_cyl = [langmuir_cylinder_values.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
+    ems = [langmuir_cylinder_values.calc_em(tk, p, u, mvd, d) for d in d_cyl]
 
-    inv_kcs = [1 / langmuir_cylinder.calc_k(tk, u, mvd, d) for d in ds]
+    inv_kcs = [1 / langmuir_cylinder_values.calc_k(tk, u, mvd, d) for d in ds]
     apparent_ems = [m / lwc for m in table_X_data["em*lwc"]]
     print()
     print(f"Calculation with k*phi(mvd)=constant\nMVD={mvd:.1f} {dist} Kφ(mvd)={k_phi:.0f}")
@@ -305,8 +305,8 @@ if __name__ == "__main__":
 
     plt.figure()
     k_phi = 10000
-    mvd = langmuir_cylinder.calc_drop_diameter_micrometer_from_re_drop(k_phi ** 0.5, tk, p, u)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
+    mvd = langmuir_cylinder_values.calc_drop_diameter_micrometer_from_re_drop(k_phi ** 0.5, tk, p, u)
+    d_cyl = [langmuir_cylinder_values.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
     for dist in (
         "Langmuir A",
         "Langmuir B",
@@ -314,7 +314,7 @@ if __name__ == "__main__":
         "Langmuir D",
         "Langmuir E",
     ):
-        ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, dist) for d in d_cyl]
+        ems = [langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin(tk, p, u, mvd, d, dist) for d in d_cyl]
         plt.plot(inv_ks, ems, label=f'Kφ(mvd)={k_phi:.0f} {dist}')
     plt.xscale('log')
     plt.xlim(.01, 10)

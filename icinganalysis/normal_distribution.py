@@ -94,7 +94,7 @@ if __name__ == '__main__':
     from scipy.stats import norm
 
     import numpy as np
-    from icinganalysis import langmuir_cylinder
+    from icinganalysis import langmuir_cylinder_values
 
     # Fit NACA-TN-2708 Figure 6 data
     p = 0.01, 0.0175, 0.0175, 0.085, 0.085, 0.16, 0.16, 0.30, 0.30, 0.475, 0.475, 1.00, 1.00, 1.85, 1.85, 3.30, 3.30, 5.80, 5.80, 9.40, 9.40, 15.10, 15.10, 22.55, 22.55, 32.00, 32.00, 41.50, 41.50, 51.50, 51.50, 61.40, 61.40, 72.40, 72.40, 80.00, 80.00, 86.90, 86.90, 91.40, 91.40, 94.20, 94.20, 96.40, 96.40, 97.40, 97.40, 99.25, 99.25, 99.75, 99.75, 99.99, 99.99, 99.99
@@ -114,7 +114,7 @@ if __name__ == '__main__':
     normal_distribution = norm(1, 0.237)
     naca_tn_2708_bin_points = (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47)
     cumulative_volumes_for_naca_tn_2708_bin_mids = normal_distribution.cdf(naca_tn_2708_bin_points)
-    cumulative_volumes_for_langmuir_b = normal_distribution.cdf(langmuir_cylinder.langmuir_b_mids)
+    cumulative_volumes_for_langmuir_b = normal_distribution.cdf(langmuir_cylinder_values.langmuir_b_mids)
     expected_midpoint_cumulative_volumes = 0.025, .1, .25, .5, .75, .9, .975
     size_ratios_for_expected_midpoint_cumulative_volumes = normal_distribution.ppf(expected_midpoint_cumulative_volumes)
 
@@ -131,7 +131,7 @@ if __name__ == '__main__':
         ['0-5', '5-15', '15-35', '35-65', '65-85', '85-95', '95-100'],
         (2.5, 10, 25, 50, 75, 90, 97.5),
         [round(_, 2) for _ in size_ratios_for_expected_midpoint_cumulative_volumes],
-        langmuir_cylinder.langmuir_b_mids,
+        langmuir_cylinder_values.langmuir_b_mids,
         [round(_*100, 1) for _ in cumulative_volumes_for_langmuir_b],
         (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47),
         [round(_*100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
@@ -146,7 +146,7 @@ if __name__ == '__main__':
     normal_distribution = norm(1, 0.25)
     naca_tn_2708_bin_points = (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47)
     cumulative_volumes_for_naca_tn_2708_bin_mids = normal_distribution.cdf(naca_tn_2708_bin_points)
-    cumulative_volumes_for_langmuir_b = normal_distribution.cdf(langmuir_cylinder.langmuir_b_mids)
+    cumulative_volumes_for_langmuir_b = normal_distribution.cdf(langmuir_cylinder_values.langmuir_b_mids)
     expected_midpoint_cumulative_volumes = 0.025, .1, .25, .5, .75, .9, .975
     size_ratios_for_expected_midpoint_cumulative_volumes = normal_distribution.ppf(expected_midpoint_cumulative_volumes)
 
@@ -163,7 +163,7 @@ if __name__ == '__main__':
         ['0-5', '5-15', '15-35', '35-65', '65-85', '85-95', '95-100'],
         (2.5, 10, 25, 50, 75, 90, 97.5),
         [round(_, 2) for _ in size_ratios_for_expected_midpoint_cumulative_volumes],
-        langmuir_cylinder.langmuir_b_mids,
+        langmuir_cylinder_values.langmuir_b_mids,
         [round(_*100, 1) for _ in cumulative_volumes_for_langmuir_b],
         (0.53, 0.69, 0.91, 1.0, 1.09, 1.31, 1.47),
         [round(_*100, 1) for _ in cumulative_volumes_for_naca_tn_2708_bin_mids],
@@ -175,7 +175,7 @@ if __name__ == '__main__':
     print()
 
 
-    print(langmuir_cylinder.langmuir_b_mids)
+    print(langmuir_cylinder_values.langmuir_b_mids)
 
     print(naca_tn_2708_bin_points)
 
@@ -223,7 +223,7 @@ if __name__ == '__main__':
     q_cdfs = q.cdf(ds)
     plt.plot(q_cdfs, ds, 'o', label='NACA-TN-2708 ')
 
-    ds = [mvr * _ for _ in langmuir_cylinder.langmuir_b_mids]
+    ds = [mvr * _ for _ in langmuir_cylinder_values.langmuir_b_mids]
     print(ds)
     print(q.cdf(ds))
     q_cdfs = q.cdf(ds)
@@ -259,7 +259,7 @@ if __name__ == '__main__':
     q_cdfs = q.cdf(ds)
     plt.plot(ds, q_cdfs, 'o', label='NACA-TN-2708 ')
 
-    ds = [mvr * _ for _ in langmuir_cylinder.langmuir_b_mids]
+    ds = [mvr * _ for _ in langmuir_cylinder_values.langmuir_b_mids]
     print(ds)
     print(q.cdf(ds))
     q_cdfs = q.cdf(ds)

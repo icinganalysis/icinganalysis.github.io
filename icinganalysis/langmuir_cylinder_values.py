@@ -11,15 +11,23 @@ d_cylinder: cylinder diameter, m
 d_drop: water drop diameter, micrometer (1e-6 m)
 altitude: pressure altitude, m
 """
-from math import atan, log, log10, degrees
+from math import atan, log10, degrees
 from scipy.interpolate import interp1d
 from scipy.optimize import minimize_scalar
 import numpy as np
 
-from icinganalysis.langmuir_blodgett_table_ii import calc_em
-from icinganalysis.langmuir_blodgett_table_i import calc_cd_r_24_langmuir_blodgett as calc_cd_r_24
-from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett as calc_lambda_lambda_s
-from icinganalysis.air_properties import calc_air_viscosity, calc_pressure, calc_air_density
+from icinganalysis.langmuir_blodgett_table_ii import calc_em as calc_em_from
+from icinganalysis.langmuir_blodgett_table_i import (
+    calc_cd_r_24_langmuir_blodgett as calc_cd_r_24,
+)
+from icinganalysis.langmuir_blodgett_table_i import (
+    calc_ratio_langmuir_blodgett as calc_lambda_lambda_s,
+)
+from icinganalysis.air_properties import (
+    calc_air_viscosity,
+    calc_pressure,
+    calc_air_density,
+)
 
 langmuir_a_mids = 1, 1, 1, 1, 1, 1, 1
 langmuir_b_mids = 0.56, 0.72, 0.84, 1.0, 1.17, 1.32, 1.49
@@ -28,26 +36,30 @@ langmuir_d_mids = 0.31, 0.52, 0.71, 1, 1.37, 1.74, 2.22
 langmuir_e_mids = 0.23, 0.44, 0.65, 1, 1.48, 2.00, 2.71
 langmuir_lwc_fractions = 0.05, 0.1, 0.2, 0.3, 0.2, 0.1, 0.05
 
-em_interpolator_to_use = calc_em
-
-valid_distribution_ids = 'Langmuir A', 'Langmuir B', 'Langmuir C', 'Langmuir D', 'Langmuir E'
+valid_distribution_ids = (
+    "Langmuir A",
+    "Langmuir B",
+    "Langmuir C",
+    "Langmuir D",
+    "Langmuir E",
+)
 
 _distribution_mids = {
-        "langmuir a": langmuir_a_mids,
-        "langmuir b": langmuir_b_mids,
-        "langmuir c": langmuir_c_mids,
-        "langmuir d": langmuir_d_mids,
-        "langmuir e": langmuir_e_mids,
-    }
+    "langmuir a": langmuir_a_mids,
+    "langmuir b": langmuir_b_mids,
+    "langmuir c": langmuir_c_mids,
+    "langmuir d": langmuir_d_mids,
+    "langmuir e": langmuir_e_mids,
+}
 
 
 def get_valid_distribution_id(candidate_distribution_id):
     if candidate_distribution_id.lower() in _distribution_mids:
         return candidate_distribution_id
     raise ValueError(
-            f"{candidate_distribution_id} is not recognized as a Langmuir distribution type"
+        f"{candidate_distribution_id} is not recognized as a Langmuir distribution type"
         "\nMust be one of 'Langmuir A', 'Langmuir B', 'Langmuir C', 'Langmuir D', 'Langmuir E'"
-        )
+    )
 
 
 def get_mids(distribution):
@@ -55,7 +67,9 @@ def get_mids(distribution):
     return mids
 
 
-def calc_em_with_distribution(tk, p, u, mvd, diameter, distribution="Langmuir A"):
+def calc_em_with_distribution_k_phi_unique_each_bin(
+    tk, p, u, mvd, diameter, distribution="Langmuir A"
+):
     """
     This is the more technically correct implementation that should be used for most cases,
     other than reproducing AAF TR 5418 values.
@@ -73,12 +87,14 @@ def calc_em_with_distribution(tk, p, u, mvd, diameter, distribution="Langmuir A"
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
         k = calc_k(tk, u, mvd * d_drop_ratio, diameter)
         phi = calc_phi(tk, p, u, diameter)
-        delta_em = em_interpolator_to_use(k, phi)
+        delta_em = calc_em_from(k, phi)
         em += w * delta_em
     return em
 
 
-def calc_em_with_distribution_k_phi_mvd(tk, p, u, mvd, diameter, distribution="Langmuir A"):
+def calc_em_with_distribution_original(
+    tk, p, u, mvd, diameter, distribution="Langmuir A"
+):
     """
     This will reproduce Table XI distribution values, but as noted in NACA-TN-2904
     this is an approximation with k_phi values held constant in the calculation.
@@ -96,7 +112,7 @@ def calc_em_with_distribution_k_phi_mvd(tk, p, u, mvd, diameter, distribution="L
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
         k = calc_k(tk, u, mvd * d_drop_ratio, diameter)
         phi = k_phi / k
-        delta_em = em_interpolator_to_use(k, phi)
+        delta_em = calc_em_from(k, phi)
         em += w * delta_em
     return em
 
@@ -106,11 +122,19 @@ def calc_re(tk, p, u, length):
 
 
 def calc_re_d_drop(tk, p, u, drop_diameter_micrometer):
-    return u * drop_diameter_micrometer / 1000000 * calc_air_density(tk, p) / calc_air_viscosity(tk)  # equ. (9)
+    return (
+        u
+        * drop_diameter_micrometer
+        / 1000000
+        * calc_air_density(tk, p)
+        / calc_air_viscosity(tk)
+    )  # equ. (9)
 
 
 def calc_drop_diameter_micrometer_from_re_drop(re, tk, p, u):  # equ. (9), re-arranged
-    drop_diameter_micrometer = re * 1000000 * calc_air_viscosity(tk) / (u * calc_air_density(tk, p))
+    drop_diameter_micrometer = (
+        re * 1000000 * calc_air_viscosity(tk) / (u * calc_air_density(tk, p))
+    )
     return drop_diameter_micrometer
 
 
@@ -136,14 +160,14 @@ def calc_phi(tk, p, u, d_cylinder):
 
 def calc_k_phi(tk, p, u, drop_diameter_micrometer):  # equ. (50)
     k_phi = (
-                2
-                * calc_air_density(tk, p)
-                * u
-                * drop_diameter_micrometer
-                / 1000000
-                / 2
-                / calc_air_viscosity(tk)
-            ) ** 2
+        2
+        * calc_air_density(tk, p)
+        * u
+        * drop_diameter_micrometer
+        / 1000000
+        / 2
+        / calc_air_viscosity(tk)
+    ) ** 2
     return k_phi
 
 
@@ -162,25 +186,28 @@ def calc_k(tk, u, drop_diameter_micrometer, d_cylinder):
 
 
 def calc_d_cylinder_from_k(k, tk, u, d_drop):
-    return 2 * 2 / 9 * 1000 * (d_drop / 1000000 / 2) ** 2 * u / calc_air_viscosity(tk) / k  # equ. (12), re-arranged
+    return (
+        2 * 2 / 9 * 1000 * (d_drop / 1000000 / 2) ** 2 * u / calc_air_viscosity(tk) / k
+    )  # equ. (12), re-arranged
 
 
 def calc_d_drop_from_k(k, tk, u, d_cylinder):
-    drop_diameter_micrometer = 1000000 * 2 * (k / (
-        2*
-        2
-        / 9
-        * 1000
-        * u
-        / calc_air_viscosity(tk)
-        / d_cylinder
-    ))**0.5  # equ. (12), re-arranged
+    drop_diameter_micrometer = (
+        1000000
+        * 2
+        * (k / (2 * 2 / 9 * 1000 * u / calc_air_viscosity(tk) / d_cylinder)) ** 0.5
+    )  # equ. (12), re-arranged
     return drop_diameter_micrometer
 
 
 def calc_d_cylinder_from_phi(phi, tk, p, u):
-    d_cylinder = (phi * 2 * 1000 * calc_air_viscosity(tk) / (18 * calc_air_density(tk, p) ** 2 * u)
-                  )  # equ. (25), re-arranged
+    d_cylinder = (
+        phi
+        * 2
+        * 1000
+        * calc_air_viscosity(tk)
+        / (18 * calc_air_density(tk, p) ** 2 * u)
+    )  # equ. (25), re-arranged
     return d_cylinder
 
 
@@ -233,24 +260,14 @@ def calc_theta_impingement(tk, p, u, drop_diameter_micrometer, d_cylinder):
     theta = atan(1.70 * (k - 0.125) ** 0.76)
     em = 0.466 * (log10(8 * ko)) ** 2  # equ. (33)
     if k > 10 and phi <= 10:
-        # if phi > 0:
         theta = atan(k)
     if phi > 10:
         theta = atan(1.70 * (ko - 0.125) ** 0.76)
-        # re_drop = calc_re(tk, p, u, drop_diameter_micrometer / 1000000)
-        # cd_r_24 = 1 + 0.197 * re_drop ** 0.63 + 2.6e-4 * re_drop ** 1.38  # equ. (22)
-        # ho = 0.358 + 0.615 * cd_r_24 - 0.51e-4 * re_drop ** 1.38  # equ. (45)
-        # theta = atan(ko/ho)  # equ (44)
         if k > 10:
             re_drop = calc_re(tk, p, u, drop_diameter_micrometer / 1000000)
-            cd_r_24 = (
-                1 + 0.197 * re_drop ** 0.63 + 2.6e-4 * re_drop ** 1.38
-            )  # equ. (22)
             cd_r_24 = calc_cd_r_24(re_drop)
             ho = 0.358 + 0.615 * cd_r_24 - 0.51e-4 * re_drop ** 1.38  # equ. (45)
             theta = atan(k / ho)  # equ (44)
-        # else:
-        #     theta = atan(1.70 * (ko - 0.125) ** 0.76)
     return degrees(theta)
 
 
@@ -364,8 +381,8 @@ if __name__ == "__main__":
             (line,) = plt.plot(x, y, "o")
             ems_calc = []
             for inv_k in inv_ks_for_interpolation:
-                k = 1/inv_k
-            # for k in ks:
+                k = 1 / inv_k
+                # for k in ks:
                 phi = k_phi / k
                 match_phi_with_u_result = minimize_scalar(  # find an airspeed to match phi
                     lambda _: abs(
@@ -388,7 +405,7 @@ if __name__ == "__main__":
                     raise ValueError(tk, u, d_cylinder, k, match_phi_with_u_result)
                 drop_diameter_micrometer = match_phi_with_u_result.x
                 ems_calc.append(
-                    calc_em_with_distribution_k_phi_mvd(
+                    calc_em_with_distribution_original(
                         tk,
                         p,
                         u,
@@ -430,8 +447,7 @@ if __name__ == "__main__":
             (line,) = plt.plot(x, y, "o")
             ems_calc = []
             for inv_k in inv_ks_for_interpolation:
-                k = 1/inv_k
-            # for k in ks:
+                k = 1 / inv_k
                 phi = k_phi / k
                 match_phi_with_u_result = minimize_scalar(  # find an airspeed to match phi
                     lambda _: abs(
@@ -454,7 +470,7 @@ if __name__ == "__main__":
                     raise ValueError(tk, u, d_cylinder, k, match_phi_with_u_result)
                 drop_diameter_micrometer = match_phi_with_u_result.x
                 ems_calc.append(
-                    calc_em_with_distribution_k_phi_mvd(
+                    calc_em_with_distribution_original(
                         tk,
                         p,
                         u,
@@ -486,8 +502,7 @@ if __name__ == "__main__":
             ems_calc_k_phi_mvd = []
             ems_calc = []
             for inv_k in inv_ks_for_interpolation:
-                k = 1/inv_k
-            # for k in ks:
+                k = 1 / inv_k
                 phi = k_phi / k
                 match_phi_with_u_result = minimize_scalar(  # find an airspeed to match phi
                     lambda _: abs(
@@ -510,7 +525,7 @@ if __name__ == "__main__":
                     raise ValueError(tk, u, d_cylinder, k, match_phi_with_u_result)
                 drop_diameter_micrometer = match_phi_with_u_result.x
                 ems_calc.append(
-                    calc_em_with_distribution(
+                    calc_em_with_distribution_k_phi_unique_each_bin(
                         tk,
                         p,
                         u,
@@ -520,7 +535,7 @@ if __name__ == "__main__":
                     )
                 )
                 ems_calc_k_phi_mvd.append(
-                    calc_em_with_distribution_k_phi_mvd(
+                    calc_em_with_distribution_original(
                         tk,
                         p,
                         u,
@@ -529,25 +544,28 @@ if __name__ == "__main__":
                         distribution=f"Langmuir {em_types[em_type]}",
                     )
                 )
-            line, = plt.plot(
+            (line,) = plt.plot(
                 inv_ks_for_interpolation,
                 ems_calc,
                 label=f"Calculated with NACA-TR-1215 unique bin k*phi values {em_types[em_type]}",
             )
             plt.plot(
                 inv_ks_for_interpolation,
-                ems_calc_k_phi_mvd, '--', c=line.get_color(),
+                ems_calc_k_phi_mvd,
+                "--",
+                c=line.get_color(),
                 # label=f"Calculated with K*Phi from MVD {em_types[em_type]}",
             )
-        plt.plot([], [], '--', c='k',
-        label=f"Calculated with K*Phi from MVD",
+        plt.plot(
+            [], [], "--", c="k", label=f"Calculated with K*Phi from MVD",
         )
         plt.xscale("log")
         plt.xlabel("1/K")
         plt.ylim(0, 1)
-        # plt.yscale('log')
         plt.ylabel("Em")
         plt.legend()
-        plt.savefig(f"compare_em_distribution_with_and_without_k_phi_mvd_k_phi={k_phi:.0f}.png")
+        plt.savefig(
+            f"compare_em_distribution_with_and_without_k_phi_mvd_k_phi={k_phi:.0f}.png"
+        )
 
     plt.show()

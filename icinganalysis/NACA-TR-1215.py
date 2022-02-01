@@ -1,6 +1,6 @@
 from math import pi
 from icinganalysis.ludlam import calc_vapor_p, L_EVAPORATION, L_FREEZING, calc_air_thermal_conductivity
-from icinganalysis.langmuir_cylinder import calc_re, calc_pressure, calc_em
+from icinganalysis.langmuir_cylinder_values import calc_re, calc_pressure, calc_em
 import matplotlib.pyplot as plt
 
 cp_air = 1000

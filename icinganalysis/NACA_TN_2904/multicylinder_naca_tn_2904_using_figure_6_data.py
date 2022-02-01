@@ -13,12 +13,16 @@ altitude: pressure altitude, m
 """
 from math import log10, pi
 from scipy.optimize import minimize
-from icinganalysis import langmuir_cylinder
+from icinganalysis import langmuir_cylinder_values
 from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement
 from icinganalysis.air_properties import calc_altitude
 
-original_calc_em_with_distribution = NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution
-calc_em_with_distribution_to_use = NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution
+original_calc_em_with_distribution = (
+    NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution_fig6_data
+)
+calc_em_with_distribution_to_use = (
+    NACA_TN_2904_impingement.calc_em_naca_tn_2904_with_distribution_fig6_data
+)
 
 
 def calc_mass_average_em_diameter_with_distribution(
@@ -32,14 +36,20 @@ def calc_mass_average_em_diameter_with_distribution(
     length=1,
     distribution="Langmuir A",
     ice_density=None,
-    calc_em_with_distribution_to_use=calc_em_with_distribution_to_use
+    calc_em_with_distribution_to_use=calc_em_with_distribution_to_use,
 ):
     final_diameter = initial_diameter
     prior_estimate_em = float("nan")  # note that this will force at least one iteration
     for i in range(10):
-        em_initial = calc_em_with_distribution_to_use(tk, p, u, mvd, initial_diameter, distribution)
-        mass_initial = (em_initial * lwc / 1000 * u * initial_diameter * length * time_in_icing)
-        em_final = calc_em_with_distribution_to_use(tk, p, u, mvd, final_diameter, distribution)
+        em_initial = calc_em_with_distribution_to_use(
+            tk, p, u, mvd, initial_diameter, distribution
+        )
+        mass_initial = (
+            em_initial * lwc / 1000 * u * initial_diameter * length * time_in_icing
+        )
+        em_final = calc_em_with_distribution_to_use(
+            tk, p, u, mvd, final_diameter, distribution
+        )
         mass_final = em_final * lwc / 1000 * u * final_diameter * length * time_in_icing
         mass = (mass_initial + mass_final) / 2
         if ice_density is None:
@@ -59,7 +69,12 @@ def calc_mass_average_em_diameter_with_distribution(
 
 
 class Multicylinder:
-    def __init__(self, diameters, lengths=None, calc_em_with_distribution_to_use=calc_em_with_distribution_to_use):
+    def __init__(
+        self,
+        diameters,
+        lengths=None,
+        calc_em_with_distribution_to_use=calc_em_with_distribution_to_use,
+    ):
         self.diameters = diameters
         if lengths is None:
             lengths = [1] * len(self.diameters)  # assume unit length
@@ -99,7 +114,7 @@ class Multicylinder:
                 length,
                 distribution,
                 ice_density,
-                calc_em_with_distribution_to_use=self.calc_em_with_distribution_to_use
+                calc_em_with_distribution_to_use=self.calc_em_with_distribution_to_use,
             )
             masses.append(mass)
             ems.append(em)
@@ -131,7 +146,7 @@ class Multicylinder:
                     length,
                     distribution,
                     ice_density,
-                    calc_em_with_distribution_to_use=self.calc_em_with_distribution_to_use
+                    calc_em_with_distribution_to_use=self.calc_em_with_distribution_to_use,
                 )
                 calculated_masses.append(mass)
             rss = (
@@ -185,14 +200,14 @@ class Multicylinder:
 
 def calc_k_phi(tk, p, u, drop_diameter_micrometer):  # equ. (50)
     k_phi = (
-                2
-                * langmuir_cylinder.calc_air_density(tk, p)
-                * u
-                * drop_diameter_micrometer
-                / 1000000
-                / 2
-                / langmuir_cylinder.calc_air_viscosity(tk)
-            ) ** 2
+        2
+        * langmuir_cylinder_values.calc_air_density(tk, p)
+        * u
+        * drop_diameter_micrometer
+        / 1000000
+        / 2
+        / langmuir_cylinder_values.calc_air_viscosity(tk)
+    ) ** 2
     return k_phi
 
 
@@ -206,7 +221,10 @@ if __name__ == "__main__":
     import matplotlib.pyplot as plt
     from numpy import logspace
 
-    print('Average cylinder diameters, inch: ', [_ / 2.54 for _ in table_X_data["average_dia_cm"]])  # page 379
+    print(
+        "Average cylinder diameters, inch: ",
+        [_ / 2.54 for _ in table_X_data["average_dia_cm"]],
+    )  # page 379
     tk = 268  # page 381
     air_density = 1.101  # page 381
     u = 207 * 0.44704  # page 381
@@ -229,20 +247,28 @@ if __name__ == "__main__":
     print("u", u)
     print("mass_rates", mass_rates)
 
-    lwc, mvd, dist, rss = mc.find_lwc_mvd_dist(tk, u, p, mass_rates, time_in_icing, ice_density)
+    lwc, mvd, dist, rss = mc.find_lwc_mvd_dist(
+        tk, u, p, mass_rates, time_in_icing, ice_density
+    )
     k_phi = calc_k_phi(tk, p, u, mvd)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
-    ems = [langmuir_cylinder.calc_em(tk, p, u, mvd, d) for d in d_cyl]
+    d_cyl = [
+        langmuir_cylinder_values.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd)
+        for inv_k in inv_ks
+    ]
+    ems = [langmuir_cylinder_values.calc_em(tk, p, u, mvd, d) for d in d_cyl]
 
-    inv_kcs = [1 / langmuir_cylinder.calc_k(tk, u, mvd, d) for d in ds]
+    inv_kcs = [1 / langmuir_cylinder_values.calc_k(tk, u, mvd, d) for d in ds]
     apparent_ems = [m / lwc for m in table_X_data["em*lwc"]]
     print()
-    print(f"Calculation with k*phi unique for each drop size bin\nMVD={mvd:.1f} {dist} Kφ(mvd)={k_phi:.0f}")
+    print(
+        f"Calculation with k*phi unique for each drop size bin\nMVD={mvd:.1f} {dist} Kφ(mvd)={k_phi:.0f}"
+    )
     print("apparent_ems", apparent_ems)
 
     plt.figure()
     plt.suptitle(
-        f"Calculation with k*phi unique for each drop size bin\nMVD={mvd:.1f} a={mvd / 2:.2f} {dist} Kφ(mvd)={k_phi:.0f}")
+        f"Calculation with k*phi unique for each drop size bin\nMVD={mvd:.1f} a={mvd / 2:.2f} {dist} Kφ(mvd)={k_phi:.0f}"
+    )
     plt.plot(inv_ks, ems, label="calculated Em")
     plt.plot(
         inv_kcs,
@@ -258,55 +284,33 @@ if __name__ == "__main__":
     plt.ylim(0.1, 1)
     plt.ylabel("Em")
     plt.legend()
-    plt.savefig('Calculation_with_k_phi_unique_for_each_drop_size_bin.png')
-
-    #  "Monkey-patch" in the "calc_em_with_distribution_k_phi_mvd" method
-    langmuir_cylinder.calc_em_with_distribution = langmuir_cylinder.calc_em_with_distribution_k_phi_mvd
-    lwc, mvd, dist, rss = mc.find_lwc_mvd_dist(tk, u, p, mass_rates, time_in_icing, ice_density)
-    k_phi = calc_k_phi(tk, p, u, mvd)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
-    ems = [langmuir_cylinder.calc_em(tk, p, u, mvd, d) for d in d_cyl]
-
-    inv_kcs = [1 / langmuir_cylinder.calc_k(tk, u, mvd, d) for d in ds]
-    apparent_ems = [m / lwc for m in table_X_data["em*lwc"]]
-    print()
-    print(f"Calculation with k*phi(mvd)=constant\nMVD={mvd:.1f} {dist} Kφ(mvd)={k_phi:.0f}")
-    print("apparent_ems", apparent_ems)
+    plt.savefig("Calculation_with_k_phi_unique_for_each_drop_size_bin_fig6_data.png")
 
     plt.figure()
-    plt.suptitle(f"Calculation with k*phi(mvd)=constant\nMVD={mvd:.1f} a={mvd / 2:.2f} {dist} Kφ(mvd)={k_phi:.0f}")
-    plt.plot(inv_ks, ems, label="calculated Em")
     plt.plot(
-        inv_kcs,
-        apparent_ems,
-        "^",
-        fillstyle="none",
-        label="apparent Em based on measured mass, average diameter",
+        table_X_data["average_dia_cm"],
+        table_X_data["em*lwc"],
+        "o",
+        label="Data from Cunningham",
     )
     plt.xscale("log")
-    plt.xlim(0.01, 1)
-    plt.xlabel("1/K")
+    plt.xlim(0.1, 100)
+    plt.xlabel("Cylinder average diameter, cm")
+    plt.ylabel("Em*LWC, g/m^3")
+    plt.ylim(0.01, 1)
     plt.yscale("log")
-    plt.ylim(0.1, 1)
-    plt.ylabel("Em")
     plt.legend()
-    plt.savefig('Calculation_with_k_phi_constant_for_each_drop_size_bin.png')
-
-    plt.figure()
-    plt.plot(table_X_data["average_dia_cm"], table_X_data["em*lwc"], 'o', label='Data from Cunningham')
-    plt.xscale('log')
-    plt.xlim(.1, 100)
-    plt.xlabel('Cylinder average diameter, cm')
-    plt.ylabel('Em*LWC, g/m^3')
-    plt.ylim(.01, 1)
-    plt.yscale('log')
-    plt.legend()
-    plt.savefig('Cunningham_data.png')
+    plt.savefig("Cunningham_data_fig6_data.png")
 
     plt.figure()
     k_phi = 10000
-    mvd = langmuir_cylinder.calc_drop_diameter_micrometer_from_re_drop(k_phi ** 0.5, tk, p, u)
-    d_cyl = [langmuir_cylinder.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd) for inv_k in inv_ks]
+    mvd = langmuir_cylinder_values.calc_drop_diameter_micrometer_from_re_drop(
+        k_phi ** 0.5, tk, p, u
+    )
+    d_cyl = [
+        langmuir_cylinder_values.calc_d_cylinder_from_k(1 / inv_k, tk, u, mvd)
+        for inv_k in inv_ks
+    ]
     for dist in (
         "Langmuir A",
         "Langmuir B",
@@ -314,15 +318,20 @@ if __name__ == "__main__":
         "Langmuir D",
         "Langmuir E",
     ):
-        ems = [langmuir_cylinder.calc_em_with_distribution(tk, p, u, mvd, d, dist) for d in d_cyl]
-        plt.plot(inv_ks, ems, label=f'Kφ(mvd)={k_phi:.0f} {dist}')
-    plt.xscale('log')
-    plt.xlim(.01, 10)
-    plt.xlabel('1/K')
-    plt.ylabel('Em')
-    plt.ylim(.01, 1)
-    plt.yscale('log')
+        ems = [
+            langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin(
+                tk, p, u, mvd, d, dist
+            )
+            for d in d_cyl
+        ]
+        plt.plot(inv_ks, ems, label=f"Kφ(mvd)={k_phi:.0f} {dist}")
+    plt.xscale("log")
+    plt.xlim(0.01, 10)
+    plt.xlabel("1/K")
+    plt.ylabel("Em")
+    plt.ylim(0.01, 1)
+    plt.yscale("log")
     plt.legend()
-    plt.savefig('k_phi_10000.png')
+    plt.savefig("k_phi_10000_fig6_data.png")
 
     plt.show()
