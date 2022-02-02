@@ -61,6 +61,11 @@ The mean-effective drop diameter is noted as "The amount of water in all of the 
     
 ![Drop size ratios](images/naca-tn-1904/drop%20size%20ratios.png)
 
+However, as we saw in [NACA-RM-A9C09]({filename}NACA-RM-A9C09.md), 
+the error in estimating maximum drop size from maximum impingement limit on a fixed cylinder 
+is as large as the error determining the MVD from the multicylinder method, 
+so the maximum drop size determined may not be so reliable of a value to compare with.  
+
 Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.
 
 
