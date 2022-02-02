@@ -91,8 +91,9 @@ that had been added later by Clark, and is presented here as
 Table IV. 
 
 The revised distributions are purported to be a better approximation of a normal distribution. 
-However, the this does not appear to be reproducible, 
-see a detailed examination at [A Langmuir B drop size distribution is (almost) a normal distribution]({filename}A Langmuir B distribution is almost a normal distribution.md).
+This will be examined in an upcoming post, "A Langmuir B drop size distribution is (almost) a normal distribution". 
+<!--However, the this does not appear to be reproducible, 
+see a detailed examination at [A Langmuir B drop size distribution is (almost) a normal distribution]({filename}A Langmuir B distribution is almost a normal distribution.md).-->
 
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 

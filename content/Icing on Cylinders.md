@@ -108,8 +108,10 @@ _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Al
 
 _NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" (planned)_  
 
+_"A Langmuir B drop size distribution is (almost) a normal distribution" (planned)_  
+
 <!--NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
-<!--NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" _(planned)_  omit, covered in NACA-TN-2904 -->
+_NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" (planned)_
 
 _NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)_  
 
