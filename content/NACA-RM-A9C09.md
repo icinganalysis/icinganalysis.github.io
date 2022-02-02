@@ -51,7 +51,7 @@ While there is much of interest here, we focus on the cylinders.
 
 Accuracy targets were determined:
 
-![Desired accuracy](images/naca-rm-a9c09/desired%20accuracy.png)  
+![Desired accuracy](images/naca-rm-a9c09/desired_accuracy.png)  
 
 ###Rotating Multicylinder
 
@@ -59,7 +59,7 @@ Depending on the accuracy threshold desired, with the assumed mass measurement v
 the rotating multicylinder method may be applicable up to 
 median effective drop diameters of 20 to 45 micrometers with the "A" set of cylinders:
 
-![Accuracy of measurements with cylinders](images/naca-rm-a9c09/cylinder%20accuracy.png)
+![Accuracy of measurements with cylinders](images/naca-rm-a9c09/cylinder_accuracy.png)
 
 There were few details given on how these values will be determined. 
 Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at [^3] for details. 
@@ -72,8 +72,8 @@ Efforts to reproduce the values in Figure 2 will be the subject of a future post
 
 Several advantages and disadvantages are listed for rotating multicylinders:
 
-![Multicylinder advantages](images/naca-rm-a9c09/cylinder%20advantages.png) 
-![Multicylinder disadvantages](images/naca-rm-a9c09/cylinder%20disadvantages.png)
+![Multicylinder advantages](images/naca-rm-a9c09/cylinder_advantages.png) 
+![Multicylinder disadvantages](images/naca-rm-a9c09/cylinder_disadvantages.png)
 
 Note the conclusion: 
 >  **The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so...**
@@ -82,7 +82,7 @@ Note the conclusion:
 
 Several advantages and disadvantages are listed for the fixed cylinder:
 
-![Fixed cylinder](images/naca-rm-a9c09/fixed%20cylinder%20advantages.png)
+![Fixed cylinder](images/naca-rm-a9c09/fixed_cylinder_advantages.png)
 
 ###Conclusions
 
