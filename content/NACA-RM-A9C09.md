@@ -45,6 +45,9 @@ Nine instruments were assessed:
 - Sooted Slides  
 - Drop Photography  
 
+While photos of each instrument were included, the image quality of the pdf scan is poor, 
+so I will not include them here.
+
 While there is much of interest here, we focus on the cylinders.
 
 Accuracy targets were determined:
