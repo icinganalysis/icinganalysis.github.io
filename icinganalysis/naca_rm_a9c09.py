@@ -72,7 +72,7 @@ mc = langmuir_blodgett_multicylinder.Multicylinder(d_cyls_A)
 mc_B = langmuir_blodgett_multicylinder.Multicylinder(d_cyls_B)
 
 print("this might take a while...")
-plt.figure()
+plt.figure(figsize=(8, 4.8))
 for dist in valid_distribution_ids:
     dists = []
     fds_up = []
@@ -114,12 +114,12 @@ for dist in valid_distribution_ids:
         plt.text(m, f, d[-1])
 plt.xlim(5, 50)
 plt.ylim(0, 1)
-plt.xlabel("MVD, micrometer")
-plt.ylabel("Maximum measurement error fraction, (MVD_calc-MVD)/MVD")
+# plt.xlabel("MVD, micrometer")
+# plt.ylabel("Maximum measurement error fraction, (MVD_calc-MVD)/MVD")
 plt.legend()
 plt.savefig("naca_rm_a9c09_fig2_a.png", transparent=True)
 
-plt.figure()
+plt.figure(figsize=(8, 4.8))
 dist = "Langmuir A"
 # for dist in valid_distribution_ids:
 for dist in ("Langmuir A",):
@@ -203,8 +203,8 @@ for dist in ("Langmuir A",):
 
 plt.xlim(5, 50)
 plt.ylim(0, 1)
-plt.xlabel("MVD or Maximum drop diameter, micrometer")
-plt.ylabel("Maximum measurement error fraction, (dia_calc-dia)/dia")
+# plt.xlabel("MVD or Maximum drop diameter, micrometer")
+# plt.ylabel("Maximum measurement error fraction, (dia_calc-dia)/dia")
 plt.legend()
 plt.savefig("naca_rm_a9c09_fig2.png", transparent=True)
 
