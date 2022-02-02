@@ -1,7 +1,6 @@
 Title: NACA-RM-A9C09   
 Category: NACA
 tags: cylinder
-status: draft
 
 ###"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."
 
