@@ -75,7 +75,7 @@ size distribution in clouds, the volume distribution diagram of Houghton
 and Radford (reference 13) for fog drops was redrawn in the form shown 
 in figure 6 and the volume distribution found by Vonnegut, Cunningham,
 and Katz (reference 11) in clouds was plotted on the same chart. Upon
-comparing this chart with Langimuir's tables (reference 7), it was found
+comparing this chart with Langmuir's tables (reference 7), it was found
 that his selections of the representative radii for the various sub-
 divisions of the volume were in error. The matter was not pursued further 
 at the time, but as a part of the present study it was decided to
