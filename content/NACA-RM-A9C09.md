@@ -63,6 +63,11 @@ median effective drop diameters of 20 to 45 micrometers with the "A" set of cyli
 ![Accuracy of measurements with cylinders](images/naca-rm-a9c09/cylinder%20accuracy.png)
 
 There were few details given on how these values will be determined. 
+Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at [^3] for details. 
+In the figure below, it appears the the variance was over-estimated for larger drop size cases for cylinder set A. 
+
+![Accuracy of measurements with cylinders](images/naca-rm-a9c09/naca_rm_a9c09_fig2_comparison.png)
+
 Efforts to reproduce the values in Figure 2 will be the subject of a future post 
 (NACA-TN-2904 [^2] has a more complete description of a similar study).
 
@@ -118,7 +123,7 @@ NACA-RM-A9C09 cites 15 publications:
 - Schaefer,Vincent J.: The Preparation and Use of Water Sensitive Coatings for Sampling Cloud Particles. General Electric Research Laboratory Report. Contract W-33-038-ac-9151. Apr. 1946.
 - Elliott, H. W.: Cloud Droplet Camera. National Research Laboratories Report No. M.I.-7O1. National Research Council of Canada, Ottawa, Canada. Dec. 1947.
 
-NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
+NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^4]:
 
 - Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.
 - Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.
@@ -130,5 +135,6 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.
 [^2]:
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
-[^3]: 
+[^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^4]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)
