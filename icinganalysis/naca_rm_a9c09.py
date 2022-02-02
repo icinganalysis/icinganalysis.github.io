@@ -159,8 +159,8 @@ for dist in ("Langmuir A",):
         fds.append(max(fds_up[-1], fds_down[-1]))
         dists.append(dist_ramped_up if fds_up[-1] > fds_down[-1] else dist_ramped_down)
     plt.plot(mvds, fds, label=f"MVD Set A")
-    for m, f, d in zip(mvds, fds, dists):
-        plt.text(m, f, d[-1])
+    # for m, f, d in zip(mvds, fds, dists):
+    #     plt.text(m, f, d[-1])
     dists = []
     fds_up = []
     fds_down = []
@@ -197,8 +197,8 @@ for dist in ("Langmuir A",):
         fds.append(max(fds_up[-1], fds_down[-1]))
         dists.append(dist_ramped_up if fds_up[-1] > fds_down[-1] else dist_ramped_down)
     plt.plot(mvds, fds, label=f"MVD Set B")
-    for m, f, d in zip(mvds, fds, dists):
-        plt.text(m, f, d[-1])
+    # for m, f, d in zip(mvds, fds, dists):
+    #     plt.text(m, f, d[-1])
     plt.plot(mvds, diff_max_diameters, "--", label="Maximum drop diameter Cylinder C")
 
 plt.xlim(5, 50)
