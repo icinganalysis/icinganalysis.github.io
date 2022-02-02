@@ -477,7 +477,14 @@ lkphis = [
 ]
 
 
-def ie(k, k_phi, distribution="Langmuir A"):
+def calc_em(tk, p, u, mvd, cylinder_diameter, distribution="Langmuir A"):
+    k = calc_k(tk, u, mvd, cylinder_diameter)
+    k_phi = k * calc_phi(tk, p, u, cylinder_diameter)
+    em = min(1, max(0, calc_em_from(k, k_phi, distribution)))
+    return em
+
+
+def calc_em_from(k, k_phi, distribution="Langmuir A"):
     ems = [ki(log10(1 / k)) for ki in _k_interps[distribution]]
 
     _ip = interp1d(
@@ -489,18 +496,8 @@ def ie(k, k_phi, distribution="Langmuir A"):
         # fill_value=float('nan'),
         bounds_error=False,
     )
-    return _ip(log10(k_phi) if k_phi > 0 else l10phi_for_k_phi_0)
-
-
-def calc_em(tk, p, u, mvd, cylinder_diameter, distribution="Langmuir A"):
-    k = calc_k(tk, u, mvd, cylinder_diameter)
-    k_phi = k * calc_phi(tk, p, u, cylinder_diameter)
-    em = min(1, max(0, calc_em_from(k, k_phi, distribution)))
-    return em
-
-
-def calc_em_from(k, k_phi, distribution="Langmuir A"):
-    em = min(1, max(0, ie(k, k_phi, distribution)))
+    em = _ip(log10(k_phi) if k_phi > 0 else l10phi_for_k_phi_0)
+    em = min(1, max(0, em))
     return em
 
 
@@ -526,7 +523,7 @@ def make_table_iii():
     for i, inv_k in enumerate(data_table_iv_augmented[k_phi]["inv_ks"]):
         phi = k_phi * inv_k
         emc = calc_em_naca_tn_2904_from_figure6_data(1 / inv_k, phi)
-        emy = ie(1 / inv_k, k_phi, distribution)
+        emy = calc_em_from(1 / inv_k, k_phi, distribution)
         k0 = 1 / inv_k
         ems = 0
         emz = 0
@@ -596,7 +593,7 @@ def make_table_i():
     for i, k in enumerate((0.5, 1, 4, 16)):
         em = calc_em_naca_tn_2904_from_figure6_data(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
-        emx = ie(k, k * phi)
+        emx = calc_em_from(k, k * phi)
         print(k, em, em_langmuir_blodgett)
         row = (
             f"{phi:.0f}",
@@ -610,7 +607,7 @@ def make_table_i():
     for i, k in enumerate((0.5, 1, 4, 16)):
         em = calc_em_naca_tn_2904_from_figure6_data(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
-        emx = ie(k, k * phi)
+        emx = calc_em_from(k, k * phi)
         print(k, em, em_langmuir_blodgett)
         row = (
             f"{phi:.0f}",
@@ -624,7 +621,7 @@ def make_table_i():
     for i, k in enumerate((0.5, 1, 4, 16)):
         em = calc_em_naca_tn_2904_from_figure6_data(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
-        emx = ie(k, k * phi)
+        emx = calc_em_from(k, k * phi)
         print(k, em, em_langmuir_blodgett)
         row = (
             f"{phi:.0f}",
@@ -638,7 +635,7 @@ def make_table_i():
     for i, k in enumerate((0.5, 1, 4, 16, 320)):
         em = calc_em_naca_tn_2904_from_figure6_data(k, phi)
         em_langmuir_blodgett = langmuir_blodgett_table_ii.calc_em(k, phi)
-        emx = ie(k, k * phi)
+        emx = calc_em_from(k, k * phi)
         print(k, em, em_langmuir_blodgett)
         row = (
             f"{phi:.0f}",
@@ -683,7 +680,7 @@ def make_table_iv():
                 emc = calc_em_naca_tn_2904_from_with_distribution_fig6_data(
                     1 / inv_k, k_phi * inv_k, dist, False
                 )
-                # emc = ie(1/inv_k, k_phi, dist)
+                # emc = calc_em_from(1/inv_k, k_phi, dist)
                 diff = emc - ema
                 print(f"{float(emc):.3f}|{ema:.3f}", end="|")
                 iks.append(inv_k)
@@ -723,7 +720,7 @@ if __name__ == "__main__":
         )
         ks = plt.np.logspace(log10(0.125), 3)
         ems = [calc_em_naca_tn_2904_from_figure6_data(k, phi) for k in ks]
-        # emx = [ie(k, k*phi) for k in ks]
+        # emx = [calc_em_from(k, k*phi) for k in ks]
         plt.plot(ks, ems, "-", c=line.get_color(), lw=0.5)
         # plt.plot(ks, emx, '--', lw=3, c=line.get_color())
     plt.xscale("log")

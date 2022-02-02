@@ -43,7 +43,7 @@ def calc_lwc_masses_to_match_total_mass(
     time_in_icing=1,
 ):
     ems = [
-        NACA_TN_2904_impingement.ie(
+        NACA_TN_2904_impingement.calc_em_from(
             langmuir_cylinder_values.calc_k(tk, u, mvd, d),
             langmuir_cylinder_values.calc_k_phi(tk, p, u, mvd),
             distribution,

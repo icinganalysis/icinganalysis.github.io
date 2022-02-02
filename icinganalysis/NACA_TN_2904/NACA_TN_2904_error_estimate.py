@@ -36,7 +36,7 @@ for mph in mphs:
     dists_down = []
     for mvd in mvds:
         masses = [
-            NACA_TN_2904_impingement.ie(
+            NACA_TN_2904_impingement.calc_em_from(
                 langmuir_cylinder_values.calc_k(tk, u, mvd, d),
                 langmuir_cylinder_values.calc_k_phi(tk, p, u, mvd),
                 base_distribution,
@@ -94,7 +94,7 @@ plt.savefig("NACA_TN_2904_Figure_14a_calc.png", transparent=True)
 #     dists_up = []
 #     dists_down = []
 #     for mvd in mvds:
-#         masses = [NACA_TN_2904_impingement.ie(
+#         masses = [NACA_TN_2904_impingement.calc_em_from(
 #             langmuir_cylinder.calc_k(tk, u, mvd, d),
 #             langmuir_cylinder.calc_k_phi(tk, p, u, mvd),
 #             base_distribution
@@ -135,7 +135,7 @@ plt.savefig("NACA_TN_2904_Figure_14a_calc.png", transparent=True)
 #     dists_up = []
 #     dists_down = []
 #     for mvd in mvds:
-#         masses = [NACA_TN_2904_impingement.ie(
+#         masses = [NACA_TN_2904_impingement.calc_em_from(
 #             langmuir_cylinder.calc_k(tk, u, mvd, d),
 #             langmuir_cylinder.calc_k_phi(tk, p, u, mvd),
 #             base_distribution
