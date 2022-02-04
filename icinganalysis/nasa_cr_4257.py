@@ -2,7 +2,10 @@
 NASA-CR-4257
 
 """
+from math import pi, degrees
+from statistics import mean, stdev
 from icinganalysis import langmuir_cylinder_values
+from icinganalysis.langmuir_blodgett_table_ii import value_interpolator
 from scipy.interpolate import interp1d
 import matplotlib.pyplot as plt
 
@@ -267,60 +270,73 @@ print(cols)
 mvd, em_test, em_test_lower, em_test_upper, em_calc_breer, em_calc_lb, phi, k = [
     [float(_) for _ in col] for col in cols[1:]
 ]
-
+variance = [0.1*_ for _ in em_test]  # 10% variation from Conclusions
 plt.figure()
-plt.plot(k, em_test, "_", c="k", ms=14, label="Test data")
-plt.plot(k, em_test_lower, "_", c="k", ms=14)
-plt.plot(k, em_test_upper, "_", c="k", ms=14)
-plt.text(k[0], em_test[0], " figure_6.6a")
-plt.text(k[1], em_test[1], " figure_6.6b")
-plt.plot(k, em_calc_breer, "x", label="Calculated (Breer)")
-(line,) = plt.plot(k, em_calc_lb, "+", label="Calculated (Langmuir-Blodgett)")
+eba = plt.errorbar(k[0], em_test[0], yerr=variance[0], linestyle="", marker="o", capsize=4,
+                   # c="k",
+                   mew=3,
+             label="Test data MVD=20.36 (+/-10% repeatability)")
+ebb = plt.errorbar(k[1], em_test[1], yerr=variance[1], linestyle="", marker="o", capsize=4,
+                   # c="k",
+                   mew=3,
+             label="Test data MVD=16.45 (+/-10% repeatability)")
+# plt.plot(k, em_test, "_", c="k", ms=14, label="Test data")
+# plt.plot(k, em_test_lower, "_", c="k", ms=14)
+# plt.plot(k, em_test_upper, "_", c="k", ms=14)
+plt.text(k[0], em_test[0], "  Figure_6.6a MVD=20.36")
+plt.text(k[1], em_test[1], "  Figure_6.6b MVD=16.45")
+(line,) = plt.plot(k, em_calc_lb, "s", fillstyle='none', ms=12, mew=2, label="Calculated (Langmuir-Blodgett)")
+plt.plot(k, em_calc_breer, "x", fillstyle='none', ms=12, mew=2, label="Calculated (Breer)")
 
 ks = plt.np.logspace(-1, 2)
-ems = [langmuir_cylinder_values.calc_em_from(k, phi[0]) for k in ks]
-ems = [
+ems_ks = [
     sum(
         [
-            w * langmuir_cylinder_values.calc_em_from(k * r ** 2, phi[0])
+            w * langmuir_cylinder_values.calc_em_from(k_ * r ** 2, phi[0])
             for w, r in zip(
             d_test["figure_6.6a"]["lwc_fractions"],
             d_test["figure_6.6a"]["d_ratio_mids"],
         )
         ]
     )
-    for k in ks
+    for k_ in ks
 ]
 plt.plot(
     ks,
-    ems,
+    ems_ks,
     "--",
-    c=line.get_color(),
-    label=f"Figure 6.6a distribution Em_calc Phi={phi[0]:.0f}",
+    c=eba[0].get_color(),
+    label=f"Calculated from measured distribution MVD={mvd[0]}",
 )
-ems = [
+ems_ks = [
     sum(
         [
-            w * langmuir_cylinder_values.calc_em_from(k * r ** 2, phi[1])
+            w * langmuir_cylinder_values.calc_em_from(k_ * r ** 2, phi[1])
             for w, r in zip(
             d_test["figure_6.6b"]["lwc_fractions"],
             d_test["figure_6.6b"]["d_ratio_mids"],
         )
         ]
     )
-    for k in ks
+    for k_ in ks
 ]
 plt.plot(
     ks,
-    ems,
+    ems_ks,
     ":",
-    c=line.get_color(),
-    label=f"Figure 6.6b distribution Em_calc Phi={phi[1]:.0f}",
+    c=ebb[0].get_color(),
+    label=f"Calculated from measured distribution MVD={mvd[1]}",
 )
 plt.xscale("log")
+plt.xlabel('K (based on MVD)')
+plt.ylim(0, 1)
+plt.ylabel("Em")
+
 plt.legend()
+plt.savefig("nasa_cr_4257_fig6_6_comparison.png")
 
 ems = []
+all_ems = []
 for case in repeats_a:
     d_cyl = d_test[repeats_a[case]['data_name']]['d_cyl']
     em_h_cm = calc_em_h(repeats_a[case]['s_cm'], repeats_a[case]['beta'])
@@ -331,10 +347,12 @@ for case in repeats_a:
     em_h_cm = calc_em_h(s_lower, beta_lower)
     em_lower = em_h_cm *2 / 100 / d_cyl
     ems.append((case, em, em_upper, em_lower))
+    all_ems.extend(ems[-1][1:])
     print(case, em, em_upper, em_lower)
 
 case, em, em_upper, em_lower = list(zip(*ems))
 em_ave = sum(em)/len(em)
+em_dev_a = stdev([float(_) for _ in all_ems])
 
 header = "Case", "Em", "Em_upper", "Em_lower"
 rows = []
@@ -342,12 +360,13 @@ for case, em, em_upper, em_lower in zip(case, em, em_upper, em_lower):
     vs = (em-em_ave)/em_ave, (em_upper-em_ave)/em_ave, (em_lower-em_ave)/em_ave,
     row = [case] + [f"{v*100:+.1f}%" for v in vs]
     rows.append(row)
-print(f"figure_6.6a Em_ave={em_ave:.3f}")
+print(f"figure_6.6a Em_ave={em_ave:.3f} {em_dev_a:.4f}")
 print("repeats:")
 print(make_markdown_table(header, rows))
 print()
 
 ems = []
+all_ems = []
 for case in repeats_b:
     d_cyl = d_test[repeats_b[case]['data_name']]['d_cyl']
     em_h_cm = calc_em_h(repeats_b[case]['s_cm'], repeats_b[case]['beta'])
@@ -358,10 +377,12 @@ for case in repeats_b:
     em_h_cm = calc_em_h(s_lower, beta_lower)
     em_lower = em_h_cm *2 / 100 / d_cyl
     ems.append((case, em, em_upper, em_lower))
+    all_ems.extend(ems[-1][1:])
     print(case, em, em_upper, em_lower)
 
 case, em, em_upper, em_lower = list(zip(*ems))
 em_ave = sum(em)/len(em)
+em_dev_b = stdev([float(_) for _ in all_ems])
 
 header = "Case", "Em", "Em_upper", "Em_lower"
 rows = []
@@ -369,9 +390,95 @@ for case, em, em_upper, em_lower in zip(case, em, em_upper, em_lower):
     vs = (em-em_ave)/em_ave, (em_upper-em_ave)/em_ave, (em_lower-em_ave)/em_ave,
     row = [case] + [f"{v*100:+.1f}%" for v in vs]
     rows.append(row)
-print(f"figure_6.6b Em_ave={em_ave:.3f}")
+print(f"figure_6.6b Em_ave={em_ave:.3f} {em_dev_b:.4f}")
 print("repeats:")
 print(make_markdown_table(header, rows))
 print()
+
+plt.figure()
+ks = plt.np.logspace(-1, 2)
+for repeats, drop_diam_max in zip((repeats_a, repeats_b), (4.25*20.36, 77.7)):
+    thetas = []
+    for case in repeats:
+        d_cyl = d_test[repeats[case]['data_name']]['d_cyl']
+        s_min = repeats[case]['s_cm'][0] / 100
+        s_max = repeats[case]['s_cm'][-1] / 100
+        theta_min = 360*s_min/(pi*d_cyl)
+        theta_max = 360*s_max/(pi*d_cyl)
+        theta_min = degrees(s_min/(d_cyl/2))  # OK, I think that I get the degrees function now...
+        theta_max = degrees(s_max/(d_cyl/2))
+        thetas.append(abs(theta_min))
+        thetas.append(abs(theta_max))
+        data_name = repeats[case]['data_name']
+        d_cyl = d_test[data_name]["d_cyl"]
+        mvd = d_test[data_name]["mvd"]
+        u = d_test[data_name]["u"]
+        p = d_test[data_name]["p"]
+        tk = d_test[data_name]["tk"]
+        theta_calc_degree = value_interpolator(
+            langmuir_cylinder_values.calc_k(tk, u, drop_diam_max, d_cyl),
+            langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl),
+            'theta_degree',
+        )
+        k_mvd = langmuir_cylinder_values.calc_k(tk, u, mvd, d_cyl)
+
+    eba = plt.plot([k_mvd]*len(thetas), thetas, '_', ms=12, mew=3,
+             label=f"Test data MVD={mvd}")
+    theta_calcs_degrees = [value_interpolator(
+            k*(drop_diam_max/mvd)**2,
+            langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl),
+            'theta_degree') for k in ks]
+    plt.plot(ks, theta_calcs_degrees, '--', c=eba[0].get_color(),
+             label=f"Calculated with maximum drop diameter from measured distribution MVD={mvd}"
+             )
+
+plt.xscale('log')
+plt.xlabel('K (based on MVD)')
+plt.ylabel('Theta impingement maximum, degrees')
+plt.ylim(0, 90)
+plt.yticks(range(0, 90+10, 10))
+plt.legend()
+
+plt.figure()
+ks = plt.np.logspace(-1, 2)
+for repeats in (repeats_a, repeats_b):
+    ems_test = []
+    for case in repeats:
+        data_name = repeats[case]['data_name']
+        d_cyl = d_test[data_name]["d_cyl"]
+        mvd = d_test[data_name]["mvd"]
+        u = d_test[data_name]["u"]
+        p = d_test[data_name]["p"]
+        tk = d_test[data_name]["tk"]
+        s_cm = repeats[case]["s_cm"]
+        beta = repeats[case]["beta"]
+        em_test = calc_em_h(s_cm, beta) / 100 / d_cyl
+        ems_test.append(em_test)
+
+        k_mvd = langmuir_cylinder_values.calc_k(tk, u, mvd, d_cyl)
+
+    eba = plt.plot([k_mvd] * len(ems_test), ems_test, '_', ms=12, mew=3,
+                   label=f"Test data MVD={mvd}")
+    ems_calc = [sum(
+        [
+            w * langmuir_cylinder_values.calc_em_from(
+                k * r ** 2,
+                langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl))
+            for w, r in zip(
+            d_test[data_name]["lwc_fractions"],
+            d_test[data_name]["d_ratio_mids"],
+        )
+        ]
+    )
+        for k in ks]
+    plt.plot(ks, ems_calc, '--', c=eba[0].get_color(),
+             label=f"Calculated from measured distribution MVD={mvd}"
+             )
+
+plt.xscale('log')
+plt.xlabel('K (based on MVD)')
+plt.ylabel('Em')
+plt.ylim(0, 1)
+plt.legend()
 
 plt.show()
