@@ -394,7 +394,7 @@ if __name__ == "__main__":
         label="Langmuir E (as steps)",
     )
     plt.ylabel("Cumulative Fraction LWC")
-    plt.xlabel("Drop size ratio, r/MVD or d/MVD")
+    plt.xlabel("Drop size ratio, r/MVR or d/MVD")
     # plt.xlim(0, 40)
     plt.ylim(0, 1)
     plt.xlim(-1)
