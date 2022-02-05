@@ -75,7 +75,7 @@ However, a normal distribution was shown above to be a good fit of the Houghton 
 So, using the Houghton and Radford data is in effect using a normal distribution. 
 
 When the different distributions are compare to the normal fit of the Houghton and Radford data, 
-there are difference from the ideal fit, but the values from Clark have the largest differences, 
+there are differences from the ideal fit, but the values from Clark have the largest differences, 
 particularly for the "15-35" and "65-85" bins. 
 
 With normal distribution stdev = 0.237 (fit to Houghton and Radford):
@@ -105,7 +105,7 @@ Percentile divisions of total liquid volume in clouds|Expected midpoint cumulati
  
 I do not have a copy of Clark's paper to check if things were transcribed accurately in NACA-TN-2708. 
 Perhaps the values from Clark used different bin sizes, that were not noted in Table IV, 
-and they were more accurate to those.
+and perhaps they were more accurate.
 
 Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.
 
@@ -130,13 +130,13 @@ You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 [^2]:
-Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.
-[^3]:  
+Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
+[^3]: 
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)  
 [^4]:
-Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.
+Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 [^5]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^6]:
 Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
 [^7]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
