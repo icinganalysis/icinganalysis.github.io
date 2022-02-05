@@ -13,6 +13,7 @@ Detailed water drop impingement analysis (independent of prior analysis) is pres
 ##Key points
 1.  Detailed water drop impingement analysis (independent of prior analysis) is presented
 2.  Error estimates are detailed.
+3.  Detailed Beta curves are provided.
 
 ##Abstract
 > Evaluation of the rotating multicylinder method for the measurement
@@ -62,13 +63,13 @@ with all the pertinent computations involved for a representative trajectory are
 In those days, "computer" was a job title for a person, and not the machine. 
 In Figure 15 below, two computers turn the input cranks to produce output rotation on the pen plotter in the middle. 
 
-![](images/naca-tn-2904/Figure15.png)
+![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
 
 Several mechanical analog integrators are connected to perform the calculations. 
 
 ![Plan view of analog setup. Arrows indicate direction of shaft rotation or pen movement for positive sense. Figure 19 of NACA-TN-2904](images/naca-tn-2904/Figure19.png)
 
-An individual itegrator is depicted in Figure 16 below. 
+An individual integrator is depicted in Figure 16 below. 
 The position of the balls could be varied to provide the integrated value of disc rotations to the output shaft above.  
 ![](images/naca-tn-2904/Figure16.png)
 
@@ -114,6 +115,13 @@ Thus, I would not consider this value to be "typical".
 
 Reproducing (or not) the estimated errors on drop size is involved, and will be the subject of a separate posting.  
 
+###Beta curves
+
+This includes detailed Beta (local impingement efficiency) curves, 
+which may be used to develop a Beta curve for a specific condition. 
+These will be used extensively in NACA-TN-3338 [^3]. 
+
+![Local impingement efficiency as a function of cylinder angle, Phi=10000](images/naca-tn-2904/Fig10BetaPhi10000.png)
 
 ##Citations
 
@@ -134,7 +142,7 @@ NACA-TN-2904 cites 15 publications:
 - Crank, J.: The Differential Analyser. Longmans, Green & Co., 1947.
 - Jahnke, Eugen, and Emde, Fritz: Tables of Functions. Dover Pub., 4th ed., 1945.
 
-NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database [^5]:
+NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database [^4]:
 
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.
@@ -156,21 +164,25 @@ NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database [^5]:
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
 
+An online search [^5] found 54 citations of NACA-TN-2904.
 
-An online search [^4] found 54 citations of NACA-TN-2904.
+###Related 
 
+NACA-TR-1215 [^6] "supersedes" NACA-TN-2904. We will see what that means when we review NACA-TR-1215.
 
 ##Notes:  
 [^1]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
 [^2]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418and as Dept. of Commerce Pub. PB No. 27565.)
-
-
-[^4]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG= 
-
-[^5]: 
+[^3]: 
+von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.
+[^4]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)
+[^5]:
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG= 
+[^6]:
+Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
+
 
 
