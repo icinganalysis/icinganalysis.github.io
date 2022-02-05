@@ -29,12 +29,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-05T06:21:49.714746-08:00">
+        <abbr class="published" title="2022-02-05T08:21:04.333802-08:00">
                 Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-05T06:21:49.714746-08:00">-->
+        <!--<abbr class="modified" title="2022-02-05T08:21:04.333802-08:00">-->
                 <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
@@ -59,6 +59,7 @@
 <ol>
 <li>Detailed water drop impingement analysis (independent of prior analysis) is presented</li>
 <li>Error estimates are detailed.</li>
+<li>Detailed Beta curves are provided.</li>
 </ol>
 <h2>Abstract</h2>
 <blockquote>
@@ -101,14 +102,13 @@ Appendix A of NACA-TN-2904 provides much detail. </p>
 mechanical analogy are reviewed herein, and a machine setup together
 with all the pertinent computations involved for a representative trajectory are presented.  </p>
 </blockquote>
-<p>In those days, "computer" was a job title for a person, and not the machine. 
-In Figure 15 below, two computers turn the input cranks to produce output rotation on the pen plotter in the middle. </p>
-<p><img alt="" src="images/naca-tn-2904/Figure15.png"></p>
+<p>In Figure 15 below, two people turn the input cranks to produce output rotation on the pen plotter in the middle. </p>
+<p><img alt="Water-drop-trajectory analog." src="images/naca-tn-2904/Figure15.png"></p>
 <p>Several mechanical analog integrators are connected to perform the calculations. </p>
 <p><img alt="Plan view of analog setup. Arrows indicate direction of shaft rotation or pen movement for positive sense. Figure 19 of NACA-TN-2904" src="images/naca-tn-2904/Figure19.png"></p>
-<p>An individual itegrator is depicted in Figure 16 below. 
+<p>An individual integrator component is depicted in Figure 16 below. 
 The position of the balls could be varied to provide the integrated value of disc rotations to the output shaft above.<br>
-<img alt="" src="images/naca-tn-2904/Figure16.png"></p>
+<img alt="Principle of integrator." src="images/naca-tn-2904/Figure16.png"></p>
 <blockquote>
 <p>The method used in reference 3 for calculating the water-droplet
 trajectories has been used for calculating the data presented herein. 
@@ -126,11 +126,10 @@ Table XI of <sup id="fnref3:2"><a class="footnote-ref" href="#fn:2">2</a></sup> 
 because the sensitivity of the rotating multicylinder method in
 its application does not permit wide tolerances in the theoretical data.  </p>
 </blockquote>
-<!--Unfortunately, the "accuracy" is not always evident. 
-The values in Table IV are not completely consistent with the values in Figure 6.-->
-
 <p>Accuracy was emphasised, and the final results are slightly different than those in <sup id="fnref4:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
-<p>But it is not clear from the data presented NACA-TN-2904 that it is more accurate than <sup id="fnref5:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<p>But it is not clear from the data presented in NACA-TN-2904 that it is more accurate than <sup id="fnref5:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. 
+And even with "modern" data it is difficult to determine that one method is substantially more accurate than the other. 
+This will be the subject of a future post. </p>
 <h3>Error estimates</h3>
 <p>The values in Figure 14b agree with this statement from the "Summary", 
 which shows a "possible error" of 70% for the case given:</p>
@@ -147,6 +146,11 @@ which seems large compared to other error estimates.
 Also, the errors have to be in a worst-case stack-up to achieve the 70% difference value. 
 Thus, I would not consider this value to be "typical".</p>
 <p>Reproducing (or not) the estimated errors on drop size is involved, and will be the subject of a separate posting.  </p>
+<h3>Beta curves</h3>
+<p>This includes detailed Beta (local impingement efficiency) curves, 
+which may be used to develop a Beta curve for a specific condition. 
+These will be used extensively in NACA-TN-3338 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
+<p><img alt="Local impingement efficiency as a function of cylinder angle, Phi=10000" src="images/naca-tn-2904/Fig10BetaPhi10000.png"></p>
 <h2>Citations</h2>
 <p>NACA-TN-2904 cites 15 publications:
 - Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. &amp; M. No. 2025, British A.R.C., 1940.
@@ -164,7 +168,7 @@ Thus, I would not consider this value to be "typical".</p>
 - Kuehni, H. P., and Peterson, H. A.: A New Differential Analyzer. A.I.E.E. Trans., vol. 63, May 1944, pp. 221-227.
 - Crank, J.: The Differential Analyser. Longmans, Green &amp; Co., 1947.
 - Jahnke, Eugen, and Emde, Fritz: Tables of Functions. Dover Pub., 4th ed., 1945.</p>
-<p>NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">4</a></sup>:</p>
+<p>NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>:</p>
 <ul>
 <li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.</li>
 <li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.</li>
@@ -186,7 +190,9 @@ Thus, I would not consider this value to be "typical".</p>
 <li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.</li>
 <li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.</li>
 </ul>
-<p>An online search <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">3</a></sup> found 54 citations of NACA-TN-2904.</p>
+<p>An online search <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> found 54 citations of NACA-TN-2904.</p>
+<h3>Related</h3>
+<p>NACA-TR-1215 <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> "supersedes" NACA-TN-2904. We will see what that means when we review NACA-TR-1215.</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
@@ -197,11 +203,17 @@ Thus, I would not consider this value to be "typical".</p>
 <li id="fn:2">
 <p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418and as Dept. of Commerce Pub. PB No. 27565.)&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
+<li id="fn:3">
+<p>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
 <li id="fn:4">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=NACA-TN-2904&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=NACA-TN-2904&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
