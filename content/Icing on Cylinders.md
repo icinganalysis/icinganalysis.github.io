@@ -82,7 +82,7 @@ Some typical multicylinder meteorological instruments (from NACA-TN-2708):
 ###[NACA-TN-1393 “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"]({filename}/NACA-TN-1393.md)  
 >   1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed. 
 >   2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed. 
->   3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis. 
+>   3. Results from agree well with the Python implementation of the cylinder analysis. 
 >   4. "Tentative" values for icing design conditions were determined. 
 >   5. An effect of distance on icing conditions is noted. 
 

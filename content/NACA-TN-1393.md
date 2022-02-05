@@ -14,7 +14,7 @@ A multicylinder and other instruments measure natural icing conditions in flight
 
 1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.
 2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
-3. Results from the methods of Tribus & Tessman and Langmuir & Blodgett agree well for cylinder analysis.
+3. Results from agree well with the Python implementation of the cylinder analysis.
 4. "Tentative" values for icing design conditions were determined.
 5. An effect of distance on icing conditions is noted.
 
@@ -42,9 +42,7 @@ The multicylinder method for liquid water content measurement is regarded as acc
 >  The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate 
 >  and dependable procedure thus far developed. (Reference 8) [^2]
 
-For the multicylinder calculations, NACA-TN-1393 cites the methods Tribus and Tessman [^2] 
-(which I have not found a copy of), rather that Langmuir and Blodgett [^3], 
-although [^3] is referenced later as the source of the water drop size distributions.
+For the multicylinder calculations NACA-TN-1393 cites the methods of Langmuir and Blodgett [^3].
 
 An assessment of the accuracy of the rotating cylinder method is included:
 
@@ -70,7 +68,6 @@ gram per cubic meter and an average drop diameter of 10 microns.
 |---|---|---|
 |Maximum total error sum(E)| 14| 9|
 |Estimated resultant error (sum(E^2))^0.5| 5.7| 4.4|
-
 
 Running the file "naca-tn-1393.py" [^4] yields different results, particularly for the 
 'Error due to using "C" distribution curves for unknown distribution' part:
@@ -132,11 +129,10 @@ The icing intensity definitions and cylinder water catch calculations from [^2] 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
 as well as several flight meaasurement values](images/naca-tn-1393/Figure%205.png)
 
-###Comparison to Tribus and Tesseman results
+###Comparison of impingement results
 
 When I overlaid calculations with the implementation of the cylinder impingement calculations [^6] 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
-This indicates that the calculations from [^2] and [^3] yield similar results.
 
 ![Comparison of Figure 5 to results from the Python tool](images/naca-tn-1393/compare.png)
 
@@ -241,6 +237,7 @@ Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.
 Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.
 [^2]:
 Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)
+
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
 [^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  

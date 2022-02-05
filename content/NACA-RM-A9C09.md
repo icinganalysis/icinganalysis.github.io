@@ -61,7 +61,7 @@ median effective drop diameters of 20 to 45 micrometers with the "A" set of cyli
 
 ![Accuracy of measurements with cylinders](images/naca-rm-a9c09/cylinder_accuracy.png)
 
-There were few details given on how these values will be determined. 
+There were few details given on how these values were determined. 
 Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at [^2] for details. 
 In the figure below, it appears the the variance was over-estimated for larger drop size cases for cylinder set A. 
 

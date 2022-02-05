@@ -37,7 +37,9 @@ various temperatures.
 
 ###Drops size distributions
 
-A comparison of two methods yielded rather different results.
+The drop size distributions definitions and cylinder impingement analysis methods from [^2] are used
+
+A comparison of two methods of determining the drop size distribution yielded rather different results.
 
 ![Distribution comparison part 1](images/naca-tn-1424/drop%20size%20distributions.png)
 ![Distribution comparison part 2](images/naca-tn-1424/drop%20size%20distributions2.png)
@@ -49,7 +51,7 @@ A possible explanation for the differences was the positions of the instruments:
 ![possible explanation 1](images/naca-tn-1424/possible%20explanation%201.png)
 ![possible explanation 1a](images/naca-tn-1424/possible%20explanation%201a.png)
 
-For methods to assess the water drop concentration around a body, see [^2] and [^3].
+For methods to assess the water drop concentration around a body, see [^3] and [^4].
 
 Even with the differences in drop size distributions, it was noted in the conclusion that:
 
@@ -60,7 +62,7 @@ Even with the differences in drop size distributions, it was noted in the conclu
 An effect of temperature was noted.
 
 ![conditions summary](images/naca-tn-1424/conditions summary.png)
-The "maximum icing conditions proposed previously" are in [^4].
+The "maximum icing conditions proposed previously" are in [^5].
 
 ##Citations
 
@@ -71,9 +73,9 @@ NACA-TN-1424 cites 4 publications:
 - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA TN No. 1391, 1947.
 - Worthing, Archie G. and Geffner, Joseph: Treatment of Experimental Data. John Wiley and Sons, Inc. 1943.
 
-NACA-TN-1424 is cited 19 times in an online search [^5].
+NACA-TN-1424 is cited 19 times in an online search [^6].
 
-NACA-TN-1424 is cited 14 times in the NACA Icing Publications Database [^6]: 
+NACA-TN-1424 is cited 14 times in the NACA Icing Publications Database [^7]: 
 
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
@@ -93,7 +95,7 @@ NACA-TN-1424 is cited 14 times in the NACA Icing Publications Database [^6]:
 
 ##Related Works
 
-NACA-TN-1424 is cited by the three NACA publications cited in Appendix C of the icing regulations [^5].
+NACA-TN-1424 is cited by the three NACA publications cited in Appendix C of the icing regulations [^8].
 
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
@@ -103,12 +105,15 @@ NACA-TN-1424 is cited by the three NACA publications cited in Appendix C of the 
 [^1]:
 Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.
 [^2]:
-Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
 [^3]:
-Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.
+Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.
 [^4]:
-Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.
+Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.
 [^5]:
-search in December, 2021: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-1424&btnG=
+Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.
 [^6]:
+search in December, 2021: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-1424&btnG=
+[^7]:
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)
+[^8]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]
