@@ -104,6 +104,10 @@ NACA-TN-2903 is cited 13 times in the NACA Icing Publications Database [^3]:
 
 An online search [^4] found 26 citations of NACA-TN-2903.
 
+###Related 
+
+NACA-TR-1215 [^5] "supersedes" NACA-TN-2903. We will see what that means when we review NACA-TR-1215.
+
 ##Notes:  
 [^1]: 
 Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.

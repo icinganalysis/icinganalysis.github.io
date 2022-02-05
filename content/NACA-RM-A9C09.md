@@ -128,7 +128,7 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 
 ##Notes:
 [^1]:
-Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.
-[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
+[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)

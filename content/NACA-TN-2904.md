@@ -60,8 +60,7 @@ Appendix A of NACA-TN-2904 provides much detail.
 mechanical analogy are reviewed herein, and a machine setup together
 with all the pertinent computations involved for a representative trajectory are presented.  
 
-In those days, "computer" was a job title for a person, and not the machine. 
-In Figure 15 below, two computers turn the input cranks to produce output rotation on the pen plotter in the middle. 
+In Figure 15 below, two people turn the input cranks to produce output rotation on the pen plotter in the middle. 
 
 ![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
 
@@ -69,9 +68,9 @@ Several mechanical analog integrators are connected to perform the calculations.
 
 ![Plan view of analog setup. Arrows indicate direction of shaft rotation or pen movement for positive sense. Figure 19 of NACA-TN-2904](images/naca-tn-2904/Figure19.png)
 
-An individual integrator is depicted in Figure 16 below. 
+An individual integrator component is depicted in Figure 16 below. 
 The position of the balls could be varied to provide the integrated value of disc rotations to the output shaft above.  
-![](images/naca-tn-2904/Figure16.png)
+![Principle of integrator.](images/naca-tn-2904/Figure16.png)
 
 > The method used in reference 3 for calculating the water-droplet
 trajectories has been used for calculating the data presented herein. 
@@ -89,13 +88,11 @@ Table XI of [^2] actually has more data points in it than NACA-TN-2904 Table IV.
 because the sensitivity of the rotating multicylinder method in
 its application does not permit wide tolerances in the theoretical data.  
 
-<!--Unfortunately, the "accuracy" is not always evident. 
-The values in Table IV are not completely consistent with the values in Figure 6.-->
-
-
 Accuracy was emphasised, and the final results are slightly different than those in [^2]. 
 
-But it is not clear from the data presented NACA-TN-2904 that it is more accurate than [^2]. 
+But it is not clear from the data presented in NACA-TN-2904 that it is more accurate than [^2]. 
+And even with "modern" data it is difficult to determine that one method is substantially more accurate than the other. 
+This will be the subject of a future post. 
  
 ###Error estimates
 
