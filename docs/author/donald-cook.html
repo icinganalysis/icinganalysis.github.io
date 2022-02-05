@@ -5,45 +5,278 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
         <title>Blast from the Past:  NACA Icing Publications - Donald Cook</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
                 <nav><ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/icing-on-cylinders.html">Cylinders</a></li>
-                    <li><a href="/pages/diversions.html">Diversions</a></li>
-                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="https://icinganalysis.github.io/pages/diversions.html">Diversions</a></li>
+                    <li><a href="https://icinganalysis.github.io/pages/about.html">About</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/icing-on-cylinders.html">Icing on Cylinders</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-rm-a9c09.html">NACA-RM-A9C09</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T10:46:33.202758-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:58:52.614494-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T10:46:33.202758-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:58:52.614494-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
-</footer><!-- /.post-info --><blockquote>
+</footer><!-- /.post-info --><h3>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</h3>
+<h1>"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>The multicylinder is the "standard against which other instruments are calibrated"</p>
+<h2>Key points</h2>
+<ol>
+<li>Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.  </li>
+<li>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  </li>
+<li>The effect of mass measurements errors on multicylinder results were assessed.  </li>
+<li>"A reliable method for the measurement of drop-size distribution should be developed"  </li>
+</ol>
+<h2>Abstract</h2>
+<blockquote>
+<p>The status of instrument suitable for the measurement of the 
+meteorological factors conducive to aircraft icing is reviewed. The
+meteorological factors to be evaluated are listed, and tentative 
+values for the desired and acceptable accuracy of measurement for 
+each factor are suggested.</p>
+<p>Nine instruments which appear to be the most promising for the 
+procurement of the meteorological data are discussed with respect to 
+the quantities they measure, principle of operation, range and accu-
+racy, duration of a single reading, and advantages and disadvantages 
+associated with their use.  Recommendations are presented for the 
+continued research and development of icing meteorological instruments. </p>
+</blockquote>
+<h2>Discussion</h2>
+<p>Nine instruments were assessed:<br>
+- Rotating Multicylinders<br>
+- Fixed Cylinder<br>
+- Rotating-Disk Icing-Rate Meter<br>
+- Capillary Collector<br>
+- Rainbow Recorder<br>
+- Dew-Point Recorder<br>
+- Visibility Meter<br>
+- Sooted Slides<br>
+- Drop Photography  </p>
+<p>While photos of each instrument were included, the image quality of the pdf scan is poor, 
+so I will not include them here.</p>
+<p>While there is much of interest here, we focus on the cylinders.</p>
+<p>Accuracy targets were determined:</p>
+<p><img alt="Desired accuracy" src="images/naca-rm-a9c09/desired_accuracy.png">  </p>
+<h3>Rotating Multicylinder</h3>
+<p>Depending on the accuracy threshold desired, with the assumed mass measurement variations of 5%, 
+the rotating multicylinder method may be applicable up to 
+median effective drop diameters of 20 to 45 micrometers with the "A" set of cylinders:</p>
+<p><img alt="Accuracy of measurements with cylinders" src="images/naca-rm-a9c09/cylinder_accuracy.png"></p>
+<p>There were few details given on how these values were determined. 
+Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> for details. 
+In the figure below, it appears the the variance was over-estimated for larger drop size cases for cylinder set A. </p>
+<p><img alt="Accuracy of measurements with cylinders" src="images/naca-rm-a9c09/naca_rm_a9c09_fig2_comparison.png"></p>
+<p>Several advantages and disadvantages are listed for rotating multicylinders:</p>
+<p><img alt="Multicylinder advantages" src="images/naca-rm-a9c09/cylinder_advantages.png"> 
+<img alt="Multicylinder disadvantages" src="images/naca-rm-a9c09/cylinder_disadvantages.png"></p>
+<p>Note the conclusion: </p>
+<blockquote>
+<p><strong>The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so...</strong></p>
+</blockquote>
+<h3>Fixed Cylinder</h3>
+<p>Several advantages and disadvantages are listed for the fixed cylinder:</p>
+<p><img alt="Fixed cylinder" src="images/naca-rm-a9c09/fixed_cylinder_advantages.png"></p>
+<h3>Conclusions</h3>
+<p>In the conclusions, several actions are recommended:</p>
+<blockquote>
+<ol>
+<li>Development of the rotating disk should be continued. This
+device should prove very useful in both the formative and statistical 
+investigations just discussed, since it gives evidence of being 
+capable of producing a continuous record of liquid-water content,
+with small lag, practically independent of drop size.</li>
+<li>The visibility meter should be investigated as a possible
+statistical instrument for use with the rotating disk to provide
+average drop-size information.</li>
+<li>Development of the rainbow recorder as a potential single
+instrument for providing both liquid-water content and drop-size
+data should be continued.</li>
+<li>A reliable method for the measurement of drop-size distribution 
+should be developed.</li>
+</ol>
+</blockquote>
+<h2>Citations</h2>
+<p>NACA-RM-A9C09 cites 15 publications:</p>
+<ul>
+<li>Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural Icing Conditions. NACA TN No. 1434, 1947.</li>
+<li>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice-Prevention in Specified Icing Conditions. NACA TN No. 1472, 1947;</li>
+<li>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA TN 1393, 1947.</li>
+<li>Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA TN 1424, 1947.</li>
+<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418and as Dept. of Commerce Pub. PB No. 27565.)</li>
+<li>Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.</li>
+<li>Katz, R.E., and Cunningham, R.M.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes- II, Aircraft Icing Instruments M.I.T. Icing Research Laboratory Report. Contract No. W-33-038-ac-14165. Mar.1948.</li>
+<li>Schaefer, Vincent J.: The Liquid Water Content of Summer Clouds on the Summit of Mt. Washington. General Electric Research Laboratory Report. Contract W-33-038-ac-9151. Apr. 1946.</li>
+<li>Falconer, R. E., and Schaefer, V. J, : A New Plane Model Cloud Meter. General Electric Research Laboratory Occasional Report No. 2, Project Cirrus. Contract No. W-3&amp;03pSC-32427.May 15, 1948.</li>
+<li>Malcus, Willem V. R., Bishop, Richard H., and Briggs, Robert O.: Analysis and Preliminary Design of an Optical Instrument for the Measurement of Drop Size and Free-Water Content of Clouds. NACA TN No. 1622, 1948.</li>
+<li>Friswold, Frank A., Lewis, Ralph D., and Wheeler, R. Clyde, Jr.: An Improved Continuous-Indicating Dew-Point Meter. NACA TN No. 1215, 1947.</li>
+<li>Orthel, John C.: Visibility Indicator. Aeronautical Ice Research Laboratory Report, serial number AIRL 6034 48-14-7. Mar. 1948. Prepared under contract W-33-038-ac-18024 for Air Materiel Command, U. S. Air Force, Wright Field, Dayton, Ohio</li>
+<li>Schaefer,Vincent J.: The Preparation and Use of Water Sensitive Coatings for Sampling Cloud Particles. General Electric Research Laboratory Report. Contract W-33-038-ac-9151. Apr. 1946.</li>
+<li>Elliott, H. W.: Cloud Droplet Camera. National Research Laboratories Report No. M.I.-7O1. National Research Council of Canada, Ottawa, Canada. Dec. 1947.</li>
+</ul>
+<p>NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>:</p>
+<ul>
+<li>Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.</li>
+<li>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.</li>
+<li>Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.</li>
+<li>Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.</li>
+</ul>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1424.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:55:41.924034-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:55:41.924034-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."</h3>
+</blockquote>
+<h1>"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>The value of the mutlicylinder data for determining drop size …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1424.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1393.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:51:58.401391-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:51:58.401391-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
+</blockquote>
+<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>A …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1393.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
+                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:32:29.892284-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:32:29.892284-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
 <h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
 </blockquote>
 <p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="/images/cylinder with flow lines.png"></p>
@@ -63,237 +296,74 @@
  <em>(from NACA-TN-2904) </em>
 </p>
 
-<p>The cylinder has a wide range of current uses in aviation:<br>
-- Meteorological instruments for flight and icing wind tunnel tests<br>
-- Aircraft in-flight ice detectors and indicators<br>
-- Structural elements (such as landing gear and cables)<br>
-- An approximation of an airfoil leading edge (used in thermal design and icing wind tunnel test conditions determination<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>)   </p>
-<p>Icing conditions measurements with instruments based on cylinders were key to developing the 
-current aircraft flight in icing certification regulations.</p>
-<p>One hundred and thirty-two NACA publications related to aircraft icing were 
-identified in <a href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">"The Historical Selected Bibliography of NACA-NASA Icing Publications"</a>, 
-and categorized into 16 topics.</p>
-<p>Publications related to icing on a cylinder will include several of the 16 topics, 
-such as “Meteorology of Icing Clouds”, “Meteorological Instruments” 
-and “Impingement of Cloud Droplets” (as cylinders were and still are used as icing measurement instruments), 
-as well as “Heat Transfer”. With a firm foundation in those concepts, 
-one may then move on to other topics, including ice protection.</p>
-<p>The cylinder is geometrically simple, but is aerodynamically complex in such areas as flow separation, and so it will present worthy challenges. </p>
-<h2>The Cylinder Thread</h2>
-<p>These reviews will focus on water drop impingement and icing on cylinders. 
-However, as cylinders were important instruments for meteorological measurements, some measurement results will be included. 
-The accuracy of the cylinder when used as an instrument for determining icing conditions will be re-evalutated several times 
-in the publications. 
-While such instruments had limitations, the were often the best available technology at the time. 
-(There may be a thread in the future devoted to measurements of the icing environment). </p>
-<p>Some typical multicylinder meteorological instruments (from NACA-TN-2708):
-<img alt="Multicylinder cloud meters used in comparable studies at Mount Washington Observatory" src="images/naca-tn-2708/figure_1.png"></p>
-<h3>Topic (<em>key points noted</em>)</h3>
-<h3><a href="/naca-tn-779.html">NACA-TN-779 “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</a></h3>
-<blockquote>
-<ol>
-<li>The effect of aerodynamic heating is predictable  </li>
-<li>Water drop impingement on a cylinder is calculated  </li>
-</ol>
-</blockquote>
-<h3><a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a></h3>
-<blockquote>
-<ol>
-<li>The Langmuir drop size distributions are defined</li>
-<li>The water drop impingement terms E, Beta, K, and Ko are defined</li>
-<li>The use of cylinders of different sizes and detailed calculations to determine water drop sizes</li>
-</ol>
-</blockquote>
-<h3><a href="/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a></h3>
-<blockquote>
-<ol>
-<li>The cylinder impingement correlations were implemented and reproduced values from "Mathematical Investigation of Water Droplet Trajectories"</li>
-<li>A subtlety about calculations with drop size distributions is noted.</li>
-</ol>
-</blockquote>
-<h3><a href="/a-detailed-comparison-of-water-drop-impingement-calculations.html">A Detailed Comparison of Water Drop Impingement Calculations</a></h3>
-<blockquote>
-<ol>
-<li>There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.</li>
-<li>When the conditions are revised to match, the comparison with NACA-TN-779 data improves.</li>
-</ol>
-</blockquote>
-<h3><a href="/implementation-of-multicylinder-calculations-in-python.html">Implementation of multicylinder calculations in Python</a></h3>
-<blockquote>
-<ol>
-<li>A manual method of multicylinder calculation is illustrated.  </li>
-<li>The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"  </li>
-</ol>
-</blockquote>
-<h3><a href="/naca-tn-1393.html">NACA-TN-1393 “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</a></h3>
-<blockquote>
-<ol>
-<li>The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed. </li>
-<li>An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed. </li>
-<li>Results from the methods of Tribus &amp; Tessman and Langmuir &amp; Blodgett agree well for cylinder analysis. </li>
-<li>"Tentative" values for icing design conditions were determined. </li>
-<li>An effect of distance on icing conditions is noted. </li>
-</ol>
-</blockquote>
-<h3><a href="/naca-tn-1424.html">NACA-TN-1424 "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</a></h3>
-<blockquote>
-<ol>
-<li>Two methods for determining drop size distributions are compared.</li>
-<li>The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.</li>
-<li>A temperature dependence of icing conditions is noted.</li>
-</ol>
-</blockquote>
-<h3><a href="/naca-rm-a9c09.html">NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</a></h3>
-<blockquote>
-<ol>
-<li>Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.</li>
-<li>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</li>
-<li>The effect of mass measurements errors on multicylinder results were assessed.</li>
-<li>"A reliable method for the measurement of drop-size distribution should be developed"</li>
-</ol>
-</blockquote>
-<!--###[NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948"]({filename}/NACA-TN-1904.md)  
->  1. The average liquid water content varies over distance traveled in icing.
->  2. The value of the multicylinder method for determining drop size distributions is questioned.  -->
-
-<p><em>NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948" (planned)</em>  </p>
-<!--  defer to meteorology thread
-_NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
-
-<p><em>NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" (planned)</em>  </p>
-<p><em>"A Langmuir B drop size distribution is (almost) a normal distribution" (planned)</em>  </p>
-<!--NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
-<p><em>NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" (planned)</em></p>
-<p><em>NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)</em>  </p>
-<p><img alt="A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904" src="images/naca-tn-2904/Figure1.png">  </p>
-<p><em>NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" (planned)</em>  </p>
-<p><img alt="A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23" src="images/naca-rm-e53d23/Figure1.png">  </p>
-<p><em>NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" (planned)</em>  </p>
-<p><em>Python cylinder analysis updated with ambient temperature effects (planned)</em>  </p>
-<p><em>NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" (planned)</em>  </p>
-<p><em>Cylinder Icing Data Use in the post-NACA Era (planned)</em></p>
-<h2>Other</h2>
-<p><a href="index.html">Blast from the Past: NACA Icing Publications</a><br>
-<a href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">The Historical Selected Bibliography of NACA-NASA Icing Publications</a><br>
-<a href="/naca-icing-publications-database.html">NACA Icing Publications Database</a>  </p>
-<p><a href="/blog.html">Blog (to see the latest)</a></p>
-<h2>Notes:</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486 .&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/naca-rm-a9c09.html" rel="bookmark"
-                           title="Permalink to NACA-RM-A9C09">NACA-RM-A9C09</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T09:14:02.857200-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T09:14:02.857200-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</h3>
-<h1>"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary …</h2>
-                <a class="readmore" href="/naca-rm-a9c09.html">read more</a>
+<p>The cylinder has a wide range of current …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/more-general-information.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/more-general-information.html" rel="bookmark"
                            title="Permalink to More general information">More general information</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.326149-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.838789-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.326149-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.838789-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/introduction.html">introduction</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/introduction.html">introduction</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <p><br></p>
 <p>Here are references that include more general information on the NACA era and aircraft icing.  </p>
 <p><a href="https://history.nasa.gov/SP-4219/Chapter2.html">Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames</a></p>
 <p><a href="https://ntrs.nasa.gov/citations/20020066162">"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight …</a></p>
-                <a class="readmore" href="/more-general-information.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/more-general-information.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/naca-icing-publications-database.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/naca-icing-publications-database.html" rel="bookmark"
                            title="Permalink to NACA Icing Publications Database">NACA Icing Publications Database</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.326149-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.838789-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.326149-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.838789-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/database.html">database</a> </p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/database.html">database</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
 <h3>"The documents of that period were so old, however, that they were not listed in the modern computerized library search systems" <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
@@ -302,36 +372,36 @@ _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Al
 <p>210 NACA icing publications were identified, and the references were included in a database.</p>
 <hr>
 <p>I have assembled …</p>
-                <a class="readmore" href="/naca-icing-publications-database.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-icing-publications-database.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/web-publishing-tools.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/web-publishing-tools.html" rel="bookmark"
                            title="Permalink to Web publishing tools">Web publishing tools</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.326149-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.838789-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.326149-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.838789-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/about.html">About</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/about.html">About</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <!--summary: Pelican, Markdown, LibreOffice Impress, and GitHub Pages-->
@@ -340,37 +410,37 @@ _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Al
 <p>The Markdown <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> markup text format was used to write the content.</p>
 <p>The Python package matplotlib and LibreOffice Impress <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> were used to produce graphics.</p>
 <p>The content is …</p>
-                <a class="readmore" href="/web-publishing-tools.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/web-publishing-tools.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/" rel="bookmark"
                            title="Permalink to Welcome">Welcome</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.326149-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.838789-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.326149-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.838789-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/introduction.html">introduction</a> </p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/introduction.html">introduction</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
 <h3>“If you want to go somewhere, it’s best to find someone who has already been there” Robert Kiyosaki</h3>
@@ -389,36 +459,36 @@ _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Al
 
 <p>Many new aircraft icing problems aren’t new at all. 
 Like excavating a lost city, many surprises, answers …</p>
-                <a class="readmore" href="/">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/donald-cook.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/donald-cook.html" rel="bookmark"
                            title="Permalink to Donald Cook">Donald Cook</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.714746-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.714746-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/about.html">About</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/about.html">About</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <p>Donald Cook has over 30 years experience at a major airplane manufacturer in
@@ -428,228 +498,37 @@ several areas of aircraft icing, including:</p>
 <li>Ice protection system design, test, analysis, and certification<ul>
 <li>wing anti-ice</li>
 <li>engine anti-ice …</li></ul></li></ul>
-                <a class="readmore" href="/donald-cook.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/donald-cook.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
-                           title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The correlations for water drop impingement on a cylinder from 
-"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
-are implemented in the Python programming …</p>
-                <a class="readmore" href="/implementation-of-cylinder-impingement-correlations-in-python.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
-                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a …</p>
-                <a class="readmore" href="/implementation-of-multicylinder-calculations-in-python.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
-                           title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/army-air-force.html">Army Air Force</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."</h3>
-</blockquote>
-<h2>Summary</h2>
-<p>Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as …</p>
-                <a class="readmore" href="/mathematical-investigation-of-water-droplet-trajectories.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/naca-tn-1393.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> <a href="/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
-</blockquote>
-<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>A …</p>
-                <a class="readmore" href="/naca-tn-1393.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/naca-tn-1424.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> <a href="/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."</h3>
-</blockquote>
-<h1>"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>The value of the mutlicylinder data for determining drop size …</p>
-                <a class="readmore" href="/naca-tn-1424.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/naca-tn-779.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-779.html" rel="bookmark"
                            title="Permalink to NACA-TN-779">NACA-TN-779</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.714746-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.714746-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
 <h3>"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"</h3>
@@ -657,36 +536,36 @@ are implemented in the Python programming …</p>
 <h1>“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</h1>
 <h2>Summary</h2>
 <p>Water …</p>
-                <a class="readmore" href="/naca-tn-779.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-779.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html" rel="bookmark"
                            title="Permalink to The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)">The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.714746-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.714746-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/diversions.html">Diversions</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <blockquote>
@@ -694,36 +573,36 @@ are implemented in the Python programming …</p>
 <p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 </blockquote>
 <p>Veteran pilots with FIKI ratings (Flight In Known Icing …</p>
-                <a class="readmore" href="/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html" rel="bookmark"
                            title="Permalink to The Historical Selected Bibliography of NACA-NASA Icing Publications">The Historical Selected Bibliography of NACA-NASA Icing Publications</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.202146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.714746-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.202146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.714746-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <blockquote>
@@ -731,37 +610,37 @@ are implemented in the Python programming …</p>
 </blockquote>
 <h2>Summary</h2>
 <p>A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 …</p>
-                <a class="readmore" href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
+                    <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
                            title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.198146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.710744-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.198146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.710744-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
 <h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
@@ -773,36 +652,149 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 <h2>Key Points</h2>
 <ol>
 <li>There are …</li></ol>
-                <a class="readmore" href="/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html" rel="bookmark"
-                           title="Permalink to The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium">The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium</a></h1>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-02T08:46:59.198146-08:00">
-                Published: Wed 02 February 2022
+        <abbr class="published" title="2022-02-05T06:21:49.710744-08:00">
+                Published: Sat 05 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-02T08:46:59.198146-08:00">-->
-                <!--Updated: Wed 02 February 2022-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.710744-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="/category/diversions.html">Diversions</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The equations were found to fit the experimental data over a wider range of values..." <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The correlations for water drop impingement on a cylinder from 
+"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
+are implemented in the Python programming …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:21:49.710744-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.710744-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
+                           title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:21:49.710744-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.710744-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/army-air-force.html">Army Air Force</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."</h3>
+</blockquote>
+<h2>Summary</h2>
+<p>Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html" rel="bookmark"
+                           title="Permalink to The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium">The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-05T06:21:49.710744-08:00">
+                Published: Sat 05 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-05T06:21:49.710744-08:00">-->
+                <!--Updated: Sat 05 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
 <!---->
 
 </footer><!-- /.post-info -->                <blockquote>
@@ -813,7 +805,7 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 <blockquote>
 <p>The subject of aircraft ice protection has provoked much controversy
 and …</p></blockquote>
-                <a class="readmore" href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html">read more</a>
+                <a class="readmore" href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
