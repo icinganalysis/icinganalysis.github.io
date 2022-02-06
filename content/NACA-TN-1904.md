@@ -97,10 +97,6 @@ NACA-TN-1904 is cited by 10 publications in the NACA Icing Publications Database
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.
 
-###Related publications
-
-NACA-TR-1215 "supersedes" NACA-TN-1904 [^3]. We will examine that more when we get to the review of NACA-TR-1215.
-
 ##Notes:
 [^1]:
 Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
