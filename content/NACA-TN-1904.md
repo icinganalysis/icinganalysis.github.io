@@ -135,7 +135,7 @@ Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Imp
 [^4]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^5]: 
-14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]  
+14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]   
 [^6:] 
 Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.  
 
