@@ -73,7 +73,7 @@ number, and for most practical problems involving measurements of
 droplet impingement on cylinders the compressibility effect may be
 ignored.
 > 2. The fact that the effect of compressibility on the impinging
-drolet trajectories is negligible also applies to airfoils.
+droplet trajectories is negligible also applies to airfoils.
 
 ##Citations
 
@@ -110,11 +110,11 @@ NACA-TR-1215 [^5] "supersedes" NACA-TN-2903. We will see what that means when we
 
 ##Notes:  
 [^1]: 
-Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.
+Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
 [^2]: 
-Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
+Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^3]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^4]:
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-2903&btnG= 
 
