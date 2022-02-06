@@ -44,7 +44,8 @@ for cylinders 1 inch or more in diameter.
 ###Instrument comparisons
 
 Three multicylinder instruments were compared over several icing conditions measured at Mount Washington 
-(a weather observatory situated at the top of a mountain). 
+(a weather observatory situated at the top of a mountain). The instruments were similar, but not identical, 
+with the largest cylinder diameter of 4.5 inch.
 
 ![Multicyllnder cloud meters used in comparative study at
 Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
@@ -64,6 +65,22 @@ However, the distributions indicated do not agree well.
 ![Drop-size distributions determined by A and B sets
 correlated with simultaneous determinations by 0 set.](images/naca-tn-2708/figure_4_distribution_comparison.png)
 
+To me, this is the strongest indication we have seen so far in the cylinder thread 
+that the drop size distributions are hard to determine accurately with the multicylinder method. 
+As noted:
+> If the cylinders
+are small and the speed of flight is high, very great accuracy of observation 
+will be required to yield any significant values of drop-size
+distribution; at low airspeeds and with large cylinders, the determination 
+should be relatively good.  
+
+The air speeds in this study were all relatively low (a maximum of 33.1 m/s) 
+compared to most of the flight test data we have seen (160 to 230 mph, 70 to 100 m/s), 
+where the water catch efficiency on a 4.5 inch diameter 
+cylinder should have strongly differentiate values based on distribution type, 
+and yet the distribution type determined did not 
+correlate well. Other values, such as LWC and MVD, did correlated well, 
+indicating that the three instruments received substantially similar exposures to the icing conditions.  
 
 ###The Langmuir drop size distributions were revised
 
@@ -76,8 +93,8 @@ and Radford (reference 13) for fog drops was redrawn in the form shown
 in figure 6 and the volume distribution found by Vonnegut, Cunningham,
 and Katz (reference 11) in clouds was plotted on the same chart. Upon
 comparing this chart with Langmuir's tables (reference 7), it was found
-that his selections of the representative radii for the various sub-
-divisions of the volume were in error. The matter was not pursued further 
+that his selections of the representative radii for the various sub-divisions 
+of the volume were in error. The matter was not pursued further 
 at the time, but as a part of the present study it was decided to
 investigate the effect this error might have on the collection-efficiency
 graphs, based on Langmuir's data, that have been used by virtually all
@@ -92,8 +109,6 @@ Table IV.
 
 The revised distributions are purported to be a better approximation of a normal distribution. 
 This will be examined in an upcoming post, "A Langmuir B drop size distribution is (almost) a normal distribution". 
-<!--However, the this does not appear to be reproducible, 
-see a detailed examination at [A Langmuir B drop size distribution is (almost) a normal distribution]({filename}A Langmuir B distribution is almost a normal distribution.md).-->
 
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
