@@ -4,8 +4,7 @@ tags: cylinder, natural icing
 
 > ###"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"
 
-#"Observations of Icing Conditions Encountered in Flight During 1948"  
-[^1]
+#"Observations of Icing Conditions Encountered in Flight During 1948" [^1]
 
 ##Key points
 
@@ -28,8 +27,8 @@ An analysis of values of maximum drop diameter calculated from the
 area of drop impingement on a stationary cylinder and corresponding
 values of mean-effective drop diameter and dropsize distribution as
 obtained from the rotating cylinders led to the conclusion that the
-rotating-cylinder indications of drop-size distribution are so unre-
-liable that they are of little or no value. The data indicate that
+rotating-cylinder indications of drop-size distribution are so unreliable 
+that they are of little or no value. The data indicate that
 average and maximum values of drop size are significantly greater
 and more variable near the Pacific coast than in the other parts of
 the United States included in this investigation.
