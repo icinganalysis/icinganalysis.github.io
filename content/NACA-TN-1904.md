@@ -1,7 +1,6 @@
 Title: NACA-TN-1904  
 Category: NACA
 tags: cylinder, natural icing
-status: Draft
 
 > ###"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"
 
@@ -50,7 +49,7 @@ The data were summarized in a table.
 ![Conclusion 1](images/naca-tn-1904/conclusion1.png)
 ![Conclusion lwc-distance table](images/naca-tn-1904/conclusion%20table.png)
 
-The data were shown in Figure 5.
+The data were shown in Figure 5.  
 ![Figure 5. Estimated maximum values of average liquid-water content to be expected in 
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
 clouds.](images/naca-tn-1904/Figure5.png)
