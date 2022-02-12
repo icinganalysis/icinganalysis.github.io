@@ -9,8 +9,8 @@ status: draft
 The Langmuir B drop size distribution is almost a normal distribution.
 
 ##Key points
-1. The Langmuir B drop size distribution is almost a normal distributions.  
-2. Perhaps it was originally intended that they be exactly normal distributions.
+1. The Langmuir B drop size distribution is almost a normal distribution.  
+2. Perhaps it was originally intended that it be exactly a normal distribution.
 3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
 4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.
 
