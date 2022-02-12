@@ -21,15 +21,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-02-08T06:43:39.810219-08:00">
-                Published: Tue 08 February 2022
+        <abbr class="published" title="2022-02-11T13:58:37.829743-08:00">
+                Published: Fri 11 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-08T06:43:39.810219-08:00">-->
-                <!--Updated: Tue 08 February 2022-->
+        <!--<abbr class="modified" title="2022-02-11T13:58:37.829743-08:00">-->
+                <!--Updated: Fri 11 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -44,127 +44,393 @@
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
 
 </footer><!-- /.post-info --><blockquote>
-<h3>"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"</h3>
+<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
 </blockquote>
-<h1>"Observations of Icing Conditions Encountered in Flight During 1948" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>A multicylinder and other instruments measure natural icing conditions in flight.</p>
 <h2>Key points</h2>
 <ol>
-<li>The average liquid water content varies over distance traveled in icing.</li>
-<li>The value of the multicylinder method for determining drop size distributions is questioned.</li>
+<li>The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.</li>
+<li>An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.</li>
+<li>Results from agree well with the Python implementation of the cylinder analysis.</li>
+<li>"Tentative" values for icing design conditions were determined.</li>
+<li>An effect of distance on icing conditions is noted.</li>
 </ol>
 <h2>Abstract</h2>
 <blockquote>
-<p>Meteorological data from flight observations in icing conditions
-during the first 5 months of 1948 are presented. A total of 335
-measurements of liquid-water content and mean-effective drop diameter
-were obtained by the multicylinder method in the course of 40 flights
-in icing conditions covering most of northern United States. Cumulus
-clouds were predominant during approximately two-thirds of the flights.
-A continuous record of liquid-water content covering a major portion
-of the operations was obtained by means of a rotating-disk icing-rate
-meter. This record was used to investigate the relation between average 
-liquid-water content and the horizontal extent of icing conditions.
-An analysis of values of maximum drop diameter calculated from the
-area of drop impingement on a stationary cylinder and corresponding
-values of mean-effective drop diameter and dropsize distribution as
-obtained from the rotating cylinders led to the conclusion that the
-rotating-cylinder indications of drop-size distribution are so unreliable 
-that they are of little or no value. The data indicate that
-average and maximum values of drop size are significantly greater
-and more variable near the Pacific coast than in the other parts of
-the United States included in this investigation.</p>
+<p>Data from flight measurements of the meteorological factors
+related to the intensity of icing conditions are presented. The
+physical factors that establish the distribution of liquid water in
+clouds of various types are discussed and the results of the analysis
+aro used to formulate certain rules for the forecasting of icing
+intensity. The problems of determining the range of values of the
+significant factors defining icing intensity for the purpose of the
+design of ice-protection equipment are discussed, and tentative values
+are given.  </p>
 </blockquote>
 <h2>Discussion</h2>
-<h3>Variation in liquid water content with distance</h3>
-<p>Data was gathered in icing clouds in flight, with flight paths that were often not straight lines.</p>
-<p><img alt="Duration discussion" src="images/naca-tn-1904/duration1.png">
-<img alt="Duration discussion continued" src="images/naca-tn-1904/duration1a.png"></p>
-<p>The data were summarized in a table.</p>
-<p><img alt="Conclusion 1" src="images/naca-tn-1904/conclusion1.png">
-<img alt="Conclusion lwc-distance table" src="images/naca-tn-1904/conclusion%20table.png"></p>
-<p>The data were shown in Figure 5.<br>
-<img alt="Figure 5. Estimated maximum values of average liquid-water content to be expected in 
-1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
-clouds." src="images/naca-tn-1904/Figure5.png"></p>
-<h3>Drop size distributions</h3>
-<p>Note above <em>"the conclusion that the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"</em> (!)</p>
-<p>This was based on a comparison of maximum drop size a determined by a stationary cylinder to the mean-effective drop diameter and best fit distribution determined by the multicylinder method.
-The mean-effective drop diameter is noted as "The amount of water in all of the drops greater than the mean-effective diameter is equal to the ".</p>
-<div class="highlight"><pre><span></span><code>γ = (maximum drop size from fixed) / (mean-effective drop diameter from rotating multicylinder)
+<h3>Multicylinder instruments</h3>
+<p>Multi-cylinder probes were used to determine water drop sizes, and, in some cases, drop size distributions.<br>
+A fixed cylinder was also used for an "area of catch" method of drop size determination.</p>
+<p>The multicylinder method for liquid water content measurement is regarded as accurate:</p>
+<blockquote>
+<p>The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate 
+ and dependable procedure thus far developed. (Reference 8) <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+</blockquote>
+<p>For the multicylinder calculations NACA-TN-1393 cites the methods of Langmuir and Blodgett <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<p>An assessment of the accuracy of the rotating cylinder method is included:</p>
+<blockquote>
+<p>The errors involved in calculating the liquid water content
+and mean-effective diameter from the two-cylinder-data have been
+estimated by considering the errors inherent in measuring the
+quantities-used in the calculations.. The results, which are shown
+in the following table, are based on a liquld water content of 0.5
+gram per cubic meter and an average drop diameter of 10 microns.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Resulting percent error (E)</th>
+<th>Resulting percent error (E)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source of error</td>
+<td>estimated amount of error</td>
+<td>Water content</td>
+<td>Drop diameter</td>
+</tr>
+<tr>
+<td>Weighing sample 1/8-in. cylinder</td>
+<td>0.02 gram</td>
+<td>2.6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Weighing sample 1-in. cylinder</td>
+<td>0.03 gram</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Assumed density of ice</td>
+<td>0.08 g/cm^3</td>
+<td>2.5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Timing exposure</td>
+<td>1.5 sec</td>
+<td>2.4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>True airspeed</td>
+<td>2.5</td>
+<td>1.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Misculaneous errors</td>
+<td>----</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Error due to using "C" distribution for unknown distribution</td>
+<td>----</td>
+<td>up to 3</td>
+<td>up to 3</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Total error</th>
+<th>Water content (percent)</th>
+<th>Drop diameter (percent)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum total error sum(E)</td>
+<td>14</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Estimated resultant error (sum(E^2))^0.5</td>
+<td>5.7</td>
+<td>4.4</td>
+</tr>
+</tbody>
+</table>
+<p>Running the file "naca-tn-1393.py" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> yields different results, particularly for the 
+'Error due to using "C" distribution curves for unknown distribution' part:</p>
+<table>
+<thead>
+<tr>
+<th>Source of error</th>
+<th>Estimated amount of error</th>
+<th>Resultant percent error (E) Water content</th>
+<th>Resultant percent error (E) Drop diameter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weighing sample 1/8-in. cylinder</td>
+<td>+/-0.02 gram</td>
+<td>2.9</td>
+<td>2.6</td>
+</tr>
+<tr>
+<td>Weighing sample 1-in. cylinder</td>
+<td>+/-0.03 gram</td>
+<td>0.3</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>Assumed density of ice</td>
+<td>-0.08 g/cm^3</td>
+<td>0.4</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Timing exposure</td>
+<td>+/-1.5 seconds</td>
+<td>2.6</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>True airspeed</td>
+<td>+/-2.5 mph</td>
+<td>1.5</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>Miscellaneous other errors</td>
+<td>----</td>
+<td>1.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Error due to using "C" distribution curves for unknown distribution</td>
+<td>----</td>
+<td>7.0</td>
+<td>9.9</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Total error</th>
+<th>Water content (percent)</th>
+<th>Drop diameter (percent)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum total error (sum(E))</td>
+<td>15.8</td>
+<td>15.5</td>
+</tr>
+<tr>
+<td>Maximum resultant error (sum(E^2)^0.5)</td>
+<td>8.2</td>
+<td>10.4</td>
+</tr>
+</tbody>
+</table>
+<p>Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
+For the 'Error due to using "C" distribution curves for unknown distribution' item, 
+I calculated the cylinder masses with each of Langmuir A, B, C, D, E distributions and then 
+calculated a best fit assuming a Langmuir C distribution. 
+This may or may not be what NACA-TN-1393 actually did. 
+The results are shown below:</p>
+<p><img alt="Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution" src="images/naca-tn-1393/naca_tn_1393_error_assuming_c.png"></p>
+<p>If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
+the difference in calculated mean effective drop diameter is 7%.</p>
+<p>Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
+As the drop size is different, the collection efficiency is different, 
+and to maintain the same mass the LWC must differ.</p>
+<h3>Icing intensity index</h3>
+<p>Icing intensity definitions from "reference 12" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> are included.</p>
+<blockquote>
+<p>The definition of icing intensity- It is now generally recognized 
+that the principal factors determining the intensity of an
+icing condition are the concentration of super-cooled liquid water 
+and the diameter of the drops. In addition, when thermal methods 
+of de-icing are considered, the air temperature and the amount of
+snow in the air have an important effect upon the heat requirements.
+Icing intensities have been defined by the U.S. Weather Bureau for
+reports from mountain stations in terms of the rate of collection 
+at 200 miles per hour on a 3-inch-diameter circular cylinder,
+expressed as grams per hour per square centimeter of projected area.
+(See reference 12.) The definitions are as follows:</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Trace ice: 0 to 1.0 grams per square centimeter hour  
+Light ice: 1.0 to 6.0 grams per square centimeter hour  
+Moderate ice: 6.0 to 12.O grams per square centimeter hour  
+Heavy ice: 12.0 and over grams per square centimeter hour
 </code></pre></div>
 
-<p><img alt="Drop size ratios" src="images/naca-tn-1904/drop%20size%20ratios.png"></p>
-<p>However, as we saw in <a href="https://icinganalysis.github.io/naca-rm-a9c09.html">NACA-RM-A9C09</a> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
-the error in estimating maximum drop size from maximum impingement limit on a fixed cylinder 
-is as large as the error determining the MVD from the multicylinder method, 
-so the maximum drop size determined may not be so reliable of a value to compare with.  </p>
-<p>In the later NACA-TR-1215 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> (of which William Lewis was also an author of) a more nuanced view of the drop size distribution 
-determination will be found.</p>
-<p>Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.</p>
-<h3>Multicylinder accuracy</h3>
-<p>Figure 7 essentially reproduces Figure 2 of <a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-RM-A9C09</a> <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
-the results of which are largely reproducible as noted in that review.  </p>
-<p><img alt="Figure 7. Calcuated error in the measurement of mean-effective drop diameter
-with four rotating cylinders, and maximum drop diameter with one nonrotating
-cylinder.  Calcualtions based on assumtion of erors of +/-5% in determining
-the weight of ice accretions on the rotating cylinders, and +5 degrees in determining
-of the angle of the water imingement (theta_m) on the nonrotating cylinder
-" src="images/naca-tn-1904/Figure7.png"></p>
-<h3>Citations</h3>
-<p>NACA-TN-1904 cites 9 publications:</p>
+<p>The icing intensity definitions and cylinder water catch calculations from <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> were used to make Figure 5.
+<img alt="Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
+Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
+as well as several flight meaasurement values" src="images/naca-tn-1393/Figure%205.png"></p>
+<h3>Comparison of impingement results</h3>
+<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> 
+the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). </p>
+<p><img alt="Comparison of Figure 5 to results from the Python tool" src="images/naca-tn-1393/compare.png"></p>
+<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
+<h3>Illustrating water drop size distributions</h3>
+<p>Figure 10 below illustrates a challenge when comparing Langmuir drop size distributions to other, measured distributions. 
+There are 7 bins in a Langmuir distribution.
+The figure has "stair steps" plotted to illustrate the cumulative distribution.
+The "B" distribution appear to compare favorably with the "observed distribution", 
+but with limitations due to the discrete nature of the Langmuir distributions. 
+At the volume median drop diameter the vertical line jumps from 35 to 65 "percent of water in drop smaller than d".</p>
+<p><img alt="Figure 16: a graph of Mean effective drop diameter in microns vs. 
+Percent of water in drops smaller than d.
+An &quot;observed distribution&quot; line from &quot;reference 8&quot; forms an increasing &quot;S&quot; curve.
+A Langmuir &quot;B&quot; distribution approximates the observed distribution,
+while a Langmuir &quot;E&quot; distriubtion is notable wider." src="images/naca-tn-1393/distributions.png"></p>
+<h3>"Tentative" Design Values</h3>
+<blockquote>
+<p>Analysis of the available observational data, supplemented by
+considerations of the physical processes involved in the formation
+of icing conditions has led to the following tentative estimates of
+the most severe icing conditions likely to be encountered in the 
+course of all-weather transport operations in the United States:</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Cloud type</th>
+<th>Duration</th>
+<th>Liquid water content</th>
+<th>Average drop diameter</th>
+<th>Temperature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cumulus</td>
+<td>1 minute</td>
+<td>2.0 g/m^3</td>
+<td>20 microns</td>
+<td>0°F</td>
+</tr>
+<tr>
+<td>stratus or stratocumulus</td>
+<td>20 minutes or longer</td>
+<td>0.8 g/m^3</td>
+<td>15 microns</td>
+<td>20°F</td>
+</tr>
+<tr>
+<td>stratus or stratocumulus</td>
+<td>20 minutes or longer</td>
+<td>0.5 g/m^3</td>
+<td>25 microns</td>
+<td>20°F</td>
+</tr>
+</tbody>
+</table>
+<h3>Distance effect</h3>
+<p>It was noted:</p>
+<blockquote>
+<p>The duration of flight in 
+continuous icing was therefore used as a measure of the extent of
+the conditions although in several cases the airplane was flown back
+and forth in a single cloud formation thus giving rise to larger
+duration than would have been required for a straight flight.
+Figure 13 shows the relation between the duration of periods of flight
+in continuous icing conditions and the average liquid water content
+during the periods.</p>
+</blockquote>
+<p><img alt="Figure 13:
+A graph of log duration minutes vs. log liquid water content g/m^3.
+There is an &quot;estimated probable maximum conditions&quot; line 
+from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
+There are several &quot;observed values&quot; data points below the line.
+The airspeed in noted as 150 miles per hour.
+" src="images/naca-tn-1393/Distance%20effect.png"></p>
+<h2>Citations</h2>
+<p>NACA-TN-1393 cites 11 references.</p>
 <ul>
-<li>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.</li>
-<li>Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.</li>
-<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
-<li>Jones, Alun R.: An Investigation of a Thermal Ice-Prevention System for a Twin-Engine Transport Airplane. NACA-TR-862, 1946.</li>
-<li>Gumbel, E. J.: On the Frequency of Extreme Values in Meteorological Data. Bulletin of the American Meteorological Society, vol. 23, March 1942, pp. 95-105.</li>
-<li>Peppler, Wilhelm: Unterkuhlte Wasserwolken und Eiswolken. (Supercooled water and ice clouds.) Forschungsund Erfahrungsberichte des Reichswetterdienstes, Ser. B, No. 1, Berlin, 1940. (Brief Summary in Bulletin of the American Meteorological Society. Vol. 29, Nov.1948, p.458.)</li>
+<li>Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942.</li>
+<li>Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.</li>
+<li>Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.</li>
+<li>Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.</li>
+<li>Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.</li>
+<li>Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.</li>
+<li>Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.</li>
+<li>Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)</li>
+<li>Findeisen, W.: Meteorological-Physical Limitations of Icing in the Atmosphere. NACA-TM-885, 1939.</li>
+<li>Simpson, G. C.: On the Formation of Cloud and Rain. Quarterly Jour. of the Royal Meteorological Soc. Vol. 67, no. 290, Apr. 1941, pp.99-133.</li>
 <li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)</li>
-<li>Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.</li>
-<li>Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Fornation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)</li>
 </ul>
-<p>NACA-TN-1904 is cited by 10 publications in the NACA Icing Publications Database <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>:</p>
+<p>NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>.</p>
 <ul>
-<li>Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.</li>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.</li>
+<li>Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.</li>
+<li>Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.</li>
+<li>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.</li>
+<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
+<li>Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.</li>
 <li>Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.</li>
 <li>Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.</li>
-<li>Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.</li>
-<li>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.</li>
+<li>Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.</li>
+<li>Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.</li>
 <li>Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.</li>
 <li>Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.</li>
-<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)</li>
-<li>Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.</li>
-<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.</li>
-<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.</li>
+<li>Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.</li>
 </ul>
-<h3>Related</h3>
-<p>NACA-TN-1904 is cited by the two NACA publications cited in Appendix C of the icing regulations <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.</p>
+<h2>Related Works</h2>
+<p>NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.</p>
 <ul>
+<li>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.</li>
 <li>Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.</li>
 <li>Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.</li>
 </ul>
-<p>See Jeck's <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> comments about the relationship of liquid water content and distance noted in NACA-TN-1904.</p>
+<p>Also, see Jeck's comments <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> on the distance curve in NACA-TN-1393.</p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p>Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -176,58 +442,19 @@ of the angle of the water imingement (theta_m) on the nonrotating cylinder
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1393.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-05T12:16:51.444829-08:00">
-                Published: Sat 05 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-05T12:16:51.444829-08:00">-->
-                <!--Updated: Sat 05 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
-</blockquote>
-<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>A …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1393.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/naca-tn-1424.html" rel="bookmark"
                            title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-05T12:16:51.444829-08:00">
-                Published: Sat 05 February 2022
+        <abbr class="published" title="2022-02-11T13:58:37.829743-08:00">
+                Published: Fri 11 February 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-05T12:16:51.444829-08:00">-->
-                <!--Updated: Sat 05 February 2022-->
+        <!--<abbr class="modified" title="2022-02-11T13:58:37.829743-08:00">-->
+                <!--Updated: Fri 11 February 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -249,6 +476,45 @@ of the angle of the water imingement (theta_m) on the nonrotating cylinder
 <h2>Summary</h2>
 <p>The value of the mutlicylinder data for determining drop size …</p>
                 <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1424.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1904.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1904">NACA-TN-1904</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-02-11T13:58:37.829743-08:00">
+                Published: Fri 11 February 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-02-11T13:58:37.829743-08:00">-->
+                <!--Updated: Fri 11 February 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"</h3>
+</blockquote>
+<h1>"Observations of Icing Conditions Encountered in Flight During 1948" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Key points</h2>
+<ol>
+<li>The average liquid water content varies over distance traveled in icing …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1904.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
