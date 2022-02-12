@@ -53,8 +53,8 @@ Clark [^4] recommended a different fit of the Houghton and Radford data in the c
 NACA-TN-2708 states:
 > Upon
 comparing this chart with Langmuir's tables (reference 7), it was found
-that his selections of the representative radii for the various sub-
-divisions of the volume were in error. The matter was not pursued further at the time, 
+that his selections of the representative radii for the various sub-divisions 
+of the volume were in error. The matter was not pursued further at the time, 
 but as a part of the present study it was decided to
 investigate the effect this error might have on the collection-efficiency
 graphs, based on Langmuir's data, that have been used by virtually all

@@ -87,8 +87,8 @@ indicating that the three instruments received substantially similar exposures t
 Based on a detailed analysis of the Houghton and Radford [^2] data used to develop the Langmuir distributions, 
 the distributions were revised:
 
-> In the course of earlier work on the physical origin of the drop-
-size distribution in clouds, the volume distribution diagram of Houghton
+> In the course of earlier work on the physical origin of the drop-size 
+distribution in clouds, the volume distribution diagram of Houghton
 and Radford (reference 13) for fog drops was redrawn in the form shown 
 in figure 6 and the volume distribution found by Vonnegut, Cunningham,
 and Katz (reference 11) in clouds was plotted on the same chart. Upon
@@ -120,6 +120,9 @@ as neither of the the NACA publications that cite NACA-TN-2708 use the revised d
 volume distributions were computed at KØ = 1000 and are shown in
 Table V and Figure 7.
 
+![Figure 7. Revised graph of collection efficiency as a function of K an K*Phi=1000, 
+Successive curves are displaced laterally by amounts indicated on scale along the line K=1.](images/naca-tn-2708/Figure7_revised_ems.png)
+
 These are relatively small adjustments to the Langmuir and Blodgett values. 
 
 ##Citations
@@ -138,7 +141,7 @@ NACA-TN-2708 cites 17 publications:
 - Cunningham, R. M.: Instructions for Calculating the Liquid Water Content, Effective Drop Size and Effective Drop Distributions from Rotating Cylinder Data Obtained from Average Speed Aircraft. Informal rep., De-Icing Res. Lab., Dept. of Meteorol., M.I.T., 1945.
 - Downie, C. S.: The Rotating Cylinder Method for Obtaining Icing Intensity Data. Eng. Rep. No. AIRL 48-3-2P, Aero. Ice Res. Lab. (Minneapolis), Sept. 1947.
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-- Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Ocea- nography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.
+- Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.
 - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.
 - Conrad, Victor: Preliminary Report on Statistical Investigation of the Mount Washington Series of Icing Observations. Tech. Rep. No. 5676, Air Materiel Command, U. S. Air Force, June 22, 1948, pp. 114-133.
