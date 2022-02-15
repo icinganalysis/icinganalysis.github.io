@@ -104,12 +104,11 @@ Some typical multicylinder meteorological instruments (from NACA-TN-2708):
 <!--  defer to meteorology thread
 _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
 
-_NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" (planned)_  
 
-<!--###[NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method"]({filename}/NACA-TN-2708.md)  
+###[NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method"]({filename}/NACA-TN-2708.md)  
 >  1. Three multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
 but poor agreement for the distribution type
->  2. The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)-->
+>  2. The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)
 
 _"A Langmuir B drop size distribution is (almost) a normal distribution" (planned)_  
 <!--###["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)

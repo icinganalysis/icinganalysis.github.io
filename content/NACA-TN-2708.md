@@ -1,7 +1,6 @@
 Title: NACA-TN-2708 
 Category: NACA
 tags: cylinder
-status: draft
 
 ###"...At low airspeeds and with large cylinders, the determination should be relatively good."
 
