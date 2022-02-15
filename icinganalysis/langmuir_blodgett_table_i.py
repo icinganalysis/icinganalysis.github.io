@@ -70,6 +70,11 @@ _cd_r_24_interpolator = interp1d([log(_) for _ in _interp_cd_r_24_rus], _interp_
 
 
 def calc_cd_r_24_langmuir_blodgett(re):
+    # print('re', re)
+    if re < 0.01:
+        return 1
+    if re > 160000:
+        return 2851
     return _cd_r_24_interpolator(log(re) if re > 0 else log(0.01))
 
 
