@@ -120,6 +120,45 @@ These will be used extensively in NACA-TN-3338 [^3].
 
 ![Local impingement efficiency as a function of cylinder angle, Phi=10000](images/naca-tn-2904/Fig10BetaPhi10000.png)
 
+These are based on detailed analysis shown in figure 9:
+
+![](images/naca-tn-2904/Figure9_phi_10000.png)
+
+
+The text says in one place:
+> An analysis of the data points shown in figure 9 reveals that all
+the points fell on sine curves, with amplitude and period depending on
+the values of К and ф studied. The reason for this behavior is not
+apparent from a study of the equations of motion (equations (l) and (2)),
+which are very nonlinear and do not permit a formal solution.
+
+For Figure 10:
+
+> Curves of Beta as a function of Phi in addition to those curves
+given in figure 10 can be found from the relation
+
+> ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](images/naca-tn-2904/beta_cos.png)
+
+> where theta is measured in radians. This relation applies on the assumption 
+that the curves in figure 9 are sine curves for which the amplitude
+is characterized by y_o_m = Em and the period bу Theta_m.
+
+The assumption that the Beta curves are a cosine curve appears to be an approximation. 
+The maximum Beta (Beta_o) values do not agree well with those from Langmuir and Blodgett [^2]:  
+
+Phi|K|Beta_o|Beta_o|
+---|---|---|---|
+ -  | - |NACA|Langmuir|
+10000|0.25| |.111|
+10000|1|0.415|.343|
+10000|3.24| |.580|
+10000|16|0.880|.832|
+
+I do not know of contemporary data that could resolve which method is more accurate. 
+There is data from the post-NACA era, which will be examined in a planned post 
+near the end of the cylinder thread. 
+
+
 ##Citations
 
 NACA-TN-2904 cites 15 publications:
