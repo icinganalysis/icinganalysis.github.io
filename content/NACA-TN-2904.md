@@ -143,20 +143,21 @@ given in figure 10 can be found from the relation
 that the curves in figure 9 are sine curves for which the amplitude
 is characterized by y_o_m = Em and the period bу Theta_m.
 
-The assumption that the Beta curves are a cosine curve appears to be an approximation. 
-The maximum Beta (Beta_o) values do not agree well with those from Langmuir and Blodgett [^2]:  
+The assumption that the Beta curves are cosine curves appears to be an approximation.
+Langmuir and Blodgett [^2] did not provide Beta curves, but did provide maximum Beta (Beta_o) values. 
+The Beta_o values do not agree well between sources:  
 
 Phi|K|Beta_o|Beta_o|
 ---|---|---|---|
- -  | - |NACA|Langmuir|
-10000|0.25| |.111|
+ -  | - |NACA|Langmuir and Blodgett|
+10000|0.25|0.057|.111|
 10000|1|0.415|.343|
-10000|3.24| |.580|
+10000|3.24|0.68|.580|
 10000|16|0.880|.832|
 
 I do not know of contemporary data that could resolve which method is more accurate. 
 There is data from the post-NACA era, which will be examined in a planned post 
-near the end of the cylinder thread. 
+near the end of the [cylinder thread]({filename}Icing on Cylinders.md). 
 
 
 ##Citations
