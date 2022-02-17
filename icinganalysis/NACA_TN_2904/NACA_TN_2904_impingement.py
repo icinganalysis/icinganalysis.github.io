@@ -11,6 +11,60 @@ from icinganalysis.NACA_TN_2903_compressibility import calc_delta_em
 from icinganalysis.NACA_TN_2903_compressibility import data_fig_4
 from scipy.interpolate import interp1d, interp2d
 
+
+# fmt: off
+data_table_i = {  # phi as keys
+    0: {
+    'ks': (.5, 1, 4, 40),
+        'ems': (.205, .380, .741, .92),
+        'theta': (.716, .980, 1.379, 1.518),
+    },
+    100: {
+        'ks': (.5, 1, 4, 40),
+        'ems': (.157, .309, .680, .924),
+        'theta': (.601, .865, 1.291, .1522),
+    },
+    1000:
+        {
+            'ks': (.5, 1, 4, 40),
+            'ems': (.116, .250, .616, .830),
+        'theta': (.504, .76, 1.2, 1.445),
+        },
+    10000: {
+        'ks': (.5, 1, 4, 40),
+        'ems': (.070, .157, .480, .775),
+        'theta': (.385, .595, 1.060, 1.345),
+    },
+    50000: {
+        'ks': (.5, 1, 4, 40),
+        'ems': (.038, .105, .378, .682),
+        'theta': (.267, .450, .916, 1.258),
+    },
+}
+# fmt: on
+
+l10phi_for_phi_0 = 0
+
+log10_ks = [log10(k) for k in data_table_i[0]["ks"]]
+log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_i]
+phis = [_ for _ in data_table_i]
+zs = [data_table_i[_]["theta"] for _ in data_table_i]
+
+_theta_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind="cubic")
+
+
+def calc_theta_naca_tn_2904_from_table_i_data(k, phi):
+    theta = float(
+        max(
+            0,
+            _theta_interpolator_log10(
+                log10(k), log10(phi) if phi > 0 else l10phi_for_phi_0,
+            ),
+        )
+    )
+    return theta
+
+
 # fmt: off
 data_table_iv_original = {  # k*phi
     0: {
