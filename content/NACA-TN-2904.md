@@ -122,7 +122,7 @@ These will be used extensively in NACA-TN-3338 [^3].
 
 These are based on detailed analysis shown in figure 9:
 
-![](images/naca-tn-2904/Figure9_phi_10000.png)
+![Figure 9 (d) Phi=10000. Trajectory starting ordinates as a function of angle of impingement](images/naca-tn-2904/Figure9_phi_10000.png)
 
 
 The text says in one place:
@@ -150,34 +150,50 @@ The Beta_o values do not agree well between sources:
 Phi|K|Beta_o|Beta_o|
 ---|---|---|---|
  -  | - |NACA|Langmuir and Blodgett|
-10000|0.25|0.057|.111|
+10000|0.25|_0.057_|.111|
 10000|1|0.415|.343|
-10000|3.24|0.68|.580|
+10000|3.24|_0.68_|.580|
 10000|16|0.880|.832|
 
-I do not know of contemporary data that could resolve which method is more accurate. 
+I do not know of contemporaneous data that could resolve which method is more accurate. 
 There is data from the post-NACA era, which will be examined in a planned post 
 near the end of the [cylinder thread]({filename}Icing on Cylinders.md). 
 
+<style>
+details.spoiler summary::after {
+  content: var(--hidden);
+  filter: blur(6px);
+  display: block;
+}
+details[open] summary::after {
+  display: none;
+}
+</style>
+<details class="spoiler" style="--hidden: 'Bet on Langmuir and Blodgett'">
+  <summary>Spoiler alert!:</summary>
+  <div>Bet on Langmuir and Blodgett</div>
+</details>
+<br>
 
 ##Citations
 
-NACA-TN-2904 cites 15 publications:
-- Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
-- Ranz, W. E.: The Impaction of Aerosol Particles on Cylindrical and Spherical Collectors. Tech. Rep. No. 3, Eng. Exp. Station, Univ. Ill., March 31, 1951. (Contract No. AT(30-3)-28, U.S. Atomic Energy Commission.)
-- Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-- Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.
-- Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.
-- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.
-- Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.
-- Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.
-- Anon.: The Multicylinder Method. The Mount Washington Monthly Res. Bull., vol. II, no. 6, June 1946.
-- Wien, W., and Harms, F., eds.: Handbuch der Experimentalphysik. Teil 4, Bd. 4, Akademische Verdagsgesellschaft M.B.H. (Leipzig), 1932.
-- Glauert, H.: The Elements of Aerofoil and Airscrew Theory. The Macmillan Co. (New York), 1944.
-- Bush, V.: The Differential Analyzer. A New Machine for Solving Differential Equations. Jour. Franklin Inst., vol. 212, no. 4, Oct. 1931, pp. 447-488.
-- Kuehni, H. P., and Peterson, H. A.: A New Differential Analyzer. A.I.E.E. Trans., vol. 63, May 1944, pp. 221-227.
-- Crank, J.: The Differential Analyser. Longmans, Green & Co., 1947.
-- Jahnke, Eugen, and Emde, Fritz: Tables of Functions. Dover Pub., 4th ed., 1945.
+NACA-TN-2904 cites 15 publications:  
+
+- Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
+- Ranz, W. E.: The Impaction of Aerosol Particles on Cylindrical and Spherical Collectors. Tech. Rep. No. 3, Eng. Exp. Station, Univ. Ill., March 31, 1951. (Contract No. AT(30-3)-28, U.S. Atomic Energy Commission.)  
+- Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+- Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
+- Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.  
+- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
+- Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
+- Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.  
+- Anon.: The Multicylinder Method. The Mount Washington Monthly Res. Bull., vol. II, no. 6, June 1946.  
+- Wien, W., and Harms, F., eds.: Handbuch der Experimentalphysik. Teil 4, Bd. 4, Akademische Verdagsgesellschaft M.B.H. (Leipzig), 1932.  
+- Glauert, H.: The Elements of Aerofoil and Airscrew Theory. The Macmillan Co. (New York), 1944.  
+- Bush, V.: The Differential Analyzer. A New Machine for Solving Differential Equations. Jour. Franklin Inst., vol. 212, no. 4, Oct. 1931, pp. 447-488.  
+- Kuehni, H. P., and Peterson, H. A.: A New Differential Analyzer. A.I.E.E. Trans., vol. 63, May 1944, pp. 221-227.  
+- Crank, J.: The Differential Analyser. Longmans, Green & Co., 1947.  
+- Jahnke, Eugen, and Emde, Fritz: Tables of Functions. Dover Pub., 4th ed., 1945.  
 
 NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database [^4]:
 
