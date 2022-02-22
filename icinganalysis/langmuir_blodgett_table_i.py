@@ -44,7 +44,8 @@ _ratio_interpolator = interp1d([log(_) for _ in _interp_ratio_rus], _interp_rati
 
 
 def calc_ratio_langmuir_blodgett(re):
-    return _ratio_interpolator(log(re) if re > 0 else log(0.01))
+    re_for_interpolation = max(0.01, min(re, 10000))
+    return _ratio_interpolator(log(re_for_interpolation))
 
 # fmt: off
 _interp_cd_r_24_rus = (0.01, 0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6, 1.8, 2,

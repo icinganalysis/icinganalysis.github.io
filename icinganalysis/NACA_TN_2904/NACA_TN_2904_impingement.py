@@ -1,4 +1,4 @@
-from math import log10
+from math import cos, log10, pi
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
 from icinganalysis.langmuir_cylinder_values import (
     get_mids,
@@ -742,6 +742,16 @@ def make_table_iv():
                 phis.append(k_phi * inv_k)
                 ks.append(1 / inv_k)
             print()
+
+
+def _calc_beta(em, theta_max, theta):
+    return pi / 2 * em / theta_max * cos(max(0, min(pi / 2, pi / 2 * theta / theta_max)))
+
+
+def calc_beta(k, phi, theta):
+    theta_max = min(pi / 2, max(0, calc_theta_naca_tn_2904_from_table_i_data(k, phi)))
+    em = max(0, min(1, calc_em_from(k, k * phi)))
+    return min(1, max(0, _calc_beta(em, theta_max, theta)))
 
 
 if __name__ == "__main__":
