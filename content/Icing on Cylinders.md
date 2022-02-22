@@ -110,12 +110,11 @@ _NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Al
 but poor agreement for the distribution type
 >  2. The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)
 
-_"A Langmuir B drop size distribution is (almost) a normal distribution" (planned)_  
-<!--###["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)
+###["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)
 >  1. The Langmuir B drop size distribution is almost a normal distribution.  
 >  2. Perhaps it was originally intended that it be exactly a normal distribution.
 >  3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
->  4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.  -->
+>  4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.  
 
 <!-- defer to meteorology thread
 NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
