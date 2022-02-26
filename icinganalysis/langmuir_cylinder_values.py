@@ -89,7 +89,30 @@ def calc_em_with_distribution_k_phi_unique_each_bin(
         phi = calc_phi(tk, p, u, diameter)
         delta_em = calc_em_from(k, phi)
         em += w * delta_em
-    return em
+    return float(em)
+
+
+def calc_em_with_arbitrary_distribution_k_phi_unique_each_bin(tk, p, u, diameter, ds, flwcs):
+    """
+    This is the more technically correct implementation that should be used for most cases,
+    other than reproducing AAF TR 5418 values.
+
+    As noted in NACA-TR-1215, Langmuir-Blodgett used an approximation where
+    the k*phi value for the MVD drop size is used for all drop size bins.
+    To be more technically correct, each drop size bin should have a unique k*phi value.
+    The "calc_em_with_distribution_k_phi_mvd" implements the approximation and
+    reproduces AAF TR 5418 Table XI values.
+
+    Even so, the two versions yield only slightly different values.
+    """
+    mids = ds
+    em = 0
+    for d_drop, w in zip(mids, flwcs):
+        k = calc_k(tk, u, d_drop, diameter)
+        phi = calc_phi(tk, p, u, diameter)
+        delta_em = calc_em_from(k, phi)
+        em += w * delta_em
+    return float(em)
 
 
 def calc_em_with_distribution_original(
@@ -111,6 +134,31 @@ def calc_em_with_distribution_original(
     k_phi = calc_k(tk, u, mvd, diameter) * calc_phi(tk, p, u, diameter)
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
         k = calc_k(tk, u, mvd * d_drop_ratio, diameter)
+        phi = k_phi / k
+        delta_em = calc_em_from(k, phi)
+        em += w * delta_em
+    return em
+
+
+def calc_em_with_arbitrary_distribution_original(
+    tk, p, u, mvd, diameter, ds, flwcs
+):
+    """
+    This will reproduce Table XI distribution values, but as noted in NACA-TN-2904
+    this is an approximation with k_phi values held constant in the calculation.
+
+    The k*phi value for the MVD drop size is used for all drop size bins.
+    To be more technically correct, each drop size bin should have a unique k*phi value,
+    "calc_em_with_distribution" implements the more technically correct version,
+    and that is what is recommended for uses other that reproducing AAF TR 5418 values.
+
+    Even so, the two versions yield only slightly different values.
+    """
+    mids = ds
+    em = 0
+    k_phi = calc_k(tk, u, mvd, diameter) * calc_phi(tk, p, u, diameter)
+    for d_drop, w in zip(mids, flwcs):
+        k = calc_k(tk, u, d_drop, diameter)
         phi = k_phi / k
         delta_em = calc_em_from(k, phi)
         em += w * delta_em
