@@ -120,7 +120,10 @@ but poor agreement for the distribution type
 NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
 
 _NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body" (planned)_
-
+<!-- 
+###[NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body"]({filename}/NACA-TN-2903.md)  
+> 1. The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"  
+-->
 _NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)_  
 
 ![A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](images/naca-tn-2904/Figure1.png)  
