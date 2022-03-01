@@ -123,6 +123,12 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 > 1. The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"  
 
 _NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)_  
+<!--
+###[NACA-TN-2904 "Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds"]({filename}/NACA-TN-2904.md)
+>  1.  Detailed water drop impingement analysis (independent of prior analysis) is presented
+>  2.  Error estimates are detailed.
+>  3.  Detailed Beta curves are provided.
+-->
 
 ![A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](images/naca-tn-2904/Figure1.png)  
 
