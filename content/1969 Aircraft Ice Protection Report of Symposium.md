@@ -4,6 +4,9 @@ tags:
 
 > ###"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people." [^1]
 
+![Fig1](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
+
+
 ##Abstract
 
 _("Summary" in the orignal)._
@@ -47,15 +50,15 @@ protection.
 
 1. The ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance
 2. "[Safe operatons of aircraft in icing] should be accomplished through the inherent capability of the aircraft design rather than to rely upon operational restrictions ..."
-
+3. This was the first major meeting on aircraft icing since the NACA era.
 
 ##Discussion
 
 ###Agenda
 
-There is a rather full agenda, and there is something for everyone:
-![Table of contents (text reproduced below)](images/symposium1969/table of contents 1.png)
-![Table of contents 2 (text reproduced below)](images/symposium1969/table of contents 2.png)
+There is a rather full agenda, and there is something for everyone:  
+![Table of contents (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 1.png)
+![Table of contents 2 (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 1.png)
 
 Here is the Table of Content text transcribed, to be legible and searchable:
 > TABLE OF CONTENTS  
@@ -141,6 +144,57 @@ December 24, 1969. It also revised the wording again to nearly the form that it 
 The symposium does not appear to have gotten everyone on the same page (regulators, airlines, manufacturers, etc.) for the forthcoming regulations. 
 Aircraft ice protection was "controversial" both before and after the symposium.
 
+###The first icing meeting in an long time  
+
+In his presentation "Airframe Design for Protection Anti-Icing" Messinger notes that 
+
+> INTRODUCTION
+It is many years since the subject of aircraft ice protection has been accorded
+a place on the program of a technical society meeting, let alone designated the
+sole topic of an entire meeting.
+Like the ill-fated NACA Subcommittee on Icing
+Problems which (was disbanded in 1957), it was at least temporarily displaced by
+space age technical activities and budgets before all the necessary answers to
+its problems had become completely evident.
+
+###Predictions  
+
+In his presentation "Airframe Design for Protection Anti-Icing" Messinger also notes that 
+
+> One of the first things the writer/(speaker) did after being invited to make
+this presentation was to comb through his file of reference material, and found
+there a prior paper which he presented in 1952 at the S.A.E. National Aeronautics
+Meeting in Los Angeles.
+Design - 1952" (Ref. 1)*.
+The title was "Ice Prevention as Related to Airframe
+As the title Implies, it was a progress report on the
+state of the art as of that specific time period.
+Except for certain deficiencies
+in the prediction of aircraft design trends, this seventeen-year old paper is
+reasonably applicable to most of today's problems in this field. One notable
+example of the fuzziness of the 1952 crystal ball was the statement: "transport
+aircraft seem to have reached their maximum size, probably as the result of airport 
+and other economic considerations". In today's presentation, I shall try
+to avoid such hazardous prognostications and limit myself to a presentation of
+the state-of-the-art as we know it from our experience to this date.  
+
+In the audience was Ramon Wilder, who two presentations 
+later would discuss data on the ice shapes for the 747 jumbo jet, 
+which was about to receive certification and enter service.
+
+I have not bee able to find Messinger's 1952 presentation, but I speculate that it was similar to [^3].
+[^3] is the second most cited of all papers on aircraft icing (cited 733 times [^4]), 
+second only to Langmuir and Blodgett [^5] (cited 740 times [^6]).
+ 
+Messinger could not resist at least expressing an aspiration, if not a prediction:
+
+> In closing this 1969 state-of-the-art review, the writer/speaker feels that the
+most important need in the present stage of the technology is the development of
+a reliable method of predicting the size and shape of glaze ice formations for
+both straight and swept wing leading edges...
+
+It would take many years before the substantive ice shape predictions analysis programs would be available. 
+Active development of ice shape prediction programs is still ongoing [^7].
 
 ### Must-reads
 
@@ -158,6 +212,16 @@ These are likely candidates for future [Diversions]({filename}/pages/diversions.
 
 ##Notes:
 [^1]:
-Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
-Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001.
+Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001.  
+[^3]:
+Messinger, B. L.: "Equilibrium Temperature of an Unheated Icing Surface as a Function of Air Speed", J. Aeronaut. Sci., 20, 29-41, 1953.  
+[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Air+Speed&btnG=  
+[^5]:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+[^6]:
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+investigation+of+water+droplet+trajectories&btnG=  
+[^7]:
+1st AIAA Ice Prediction Workshop Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
+

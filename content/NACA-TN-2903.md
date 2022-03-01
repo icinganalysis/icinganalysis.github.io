@@ -1,7 +1,6 @@
 Title: NACA-TN-2903 
 Category: NACA
 tags: cylinder
-status: draft
 
 > ###"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."
 
