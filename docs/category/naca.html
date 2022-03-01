@@ -21,7 +21,211 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-2903.html">NACA-TN-2903</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Icing on Cylinders</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-03-01T06:12:02.639559-08:00">
+                Published: Tue 01 March 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-03-01T06:12:02.639559-08:00">-->
+                <!--Updated: Tue 01 March 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info --><blockquote>
+<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
+</blockquote>
+<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+<p class="aligncenter">
+ <img src="images/naca-tn-2904/Figure15.png" 
+ alt="Multicyllnder cloud meters used in comparative study at Mount Washington Observatory"
+ > 
+ <br>
+ <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>
+ <br>
+ <em>(from NACA-TN-2904) </em>
+</p>
+
+<p>The cylinder has a wide range of current uses in aviation:<br>
+- Meteorological instruments for flight and icing wind tunnel tests<br>
+- Aircraft in-flight ice detectors and indicators<br>
+- Structural elements (such as landing gear and cables)<br>
+- An approximation of an airfoil leading edge (used in thermal design and icing wind tunnel test conditions determination<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>)   </p>
+<p>Icing conditions measurements with instruments based on cylinders were key to developing the 
+current aircraft flight in icing certification regulations.</p>
+<p>One hundred and thirty-two NACA publications related to aircraft icing were 
+identified in <a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">"The Historical Selected Bibliography of NACA-NASA Icing Publications"</a>, 
+and categorized into 16 topics.</p>
+<p>Publications related to icing on a cylinder will include several of the 16 topics, 
+such as “Meteorology of Icing Clouds”, “Meteorological Instruments” 
+and “Impingement of Cloud Droplets” (as cylinders were and still are used as icing measurement instruments), 
+as well as “Heat Transfer”. With a firm foundation in those concepts, 
+one may then move on to other topics, including ice protection.</p>
+<p>The cylinder is geometrically simple, but is aerodynamically complex in such areas as flow separation, and so it will present worthy challenges. </p>
+<h2>The Cylinder Thread</h2>
+<p>These reviews will focus on water drop impingement and icing on cylinders. 
+However, as cylinders were important instruments for meteorological measurements, some measurement results will be included. 
+The accuracy of the cylinder when used as an instrument for determining icing conditions will be re-evalutated several times 
+in the publications. 
+While such instruments had limitations, the were often the best available technology at the time. 
+(There may be a thread in the future devoted to measurements of the icing environment). </p>
+<p>Some typical multicylinder meteorological instruments (from NACA-TN-2708):
+<img alt="Multicylinder cloud meters used in comparable studies at Mount Washington Observatory" src="images/naca-tn-2708/figure_1.png"></p>
+<h3>Topic (<em>key points noted</em>)</h3>
+<h3><a href="https://icinganalysis.github.io/naca-tn-779.html">NACA-TN-779 “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</a></h3>
+<blockquote>
+<ol>
+<li>The effect of aerodynamic heating is predictable  </li>
+<li>Water drop impingement on a cylinder is calculated  </li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a></h3>
+<blockquote>
+<ol>
+<li>The Langmuir drop size distributions are defined</li>
+<li>The water drop impingement terms E, Beta, K, and Ko are defined</li>
+<li>The use of cylinders of different sizes and detailed calculations to determine water drop sizes</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a></h3>
+<blockquote>
+<ol>
+<li>The cylinder impingement correlations were implemented and reproduced values from "Mathematical Investigation of Water Droplet Trajectories"</li>
+<li>A subtlety about calculations with drop size distributions is noted.</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">A Detailed Comparison of Water Drop Impingement Calculations</a></h3>
+<blockquote>
+<ol>
+<li>There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.</li>
+<li>When the conditions are revised to match, the comparison with NACA-TN-779 data improves.</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">Implementation of multicylinder calculations in Python</a></h3>
+<blockquote>
+<ol>
+<li>A manual method of multicylinder calculation is illustrated.  </li>
+<li>The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"  </li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393 “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</a></h3>
+<blockquote>
+<ol>
+<li>The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed. </li>
+<li>An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed. </li>
+<li>Results from agree well with the Python implementation of the cylinder analysis. </li>
+<li>"Tentative" values for icing design conditions were determined. </li>
+<li>An effect of distance on icing conditions is noted. </li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/naca-tn-1424.html">NACA-TN-1424 "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</a></h3>
+<blockquote>
+<ol>
+<li>Two methods for determining drop size distributions are compared.</li>
+<li>The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.</li>
+<li>A temperature dependence of icing conditions is noted.</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/naca-rm-a9c09.html">NACA-RM-A9C09 "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</a></h3>
+<blockquote>
+<ol>
+<li>Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.</li>
+<li>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</li>
+<li>The effect of mass measurements errors on multicylinder results were assessed.</li>
+<li>"A reliable method for the measurement of drop-size distribution should be developed"</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948"</a></h3>
+<blockquote>
+<ol>
+<li>The average liquid water content varies over distance traveled in icing.</li>
+<li>The value of the multicylinder method for determining drop size distributions is questioned. </li>
+</ol>
+</blockquote>
+<!--  defer to meteorology thread
+_NACA-TN-2306 "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds" _(planned)_  -->
+
+<h3><a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708 "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method"</a></h3>
+<blockquote>
+<ol>
+<li>Three multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
+but poor agreement for the distribution type</li>
+<li>The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)</li>
+</ol>
+</blockquote>
+<h3><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is almost a normal distribution"</a></h3>
+<blockquote>
+<ol>
+<li>The Langmuir B drop size distribution is almost a normal distribution.  </li>
+<li>Perhaps it was originally intended that it be exactly a normal distribution.</li>
+<li>The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.</li>
+<li>The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.  </li>
+</ol>
+</blockquote>
+<!-- defer to meteorology thread
+NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States" _(planned)_  -->
+
+<h3><a href="https://icinganalysis.github.io/naca-tn-2903.html">NACA-TN-2903 "Impingement of cloud droplets on aerodynamic bodies as affected by compressibility of air flow around the body"</a></h3>
+<blockquote>
+<ol>
+<li>The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"  </li>
+</ol>
+</blockquote>
+<p><em>NACA-TN-2904 "Impingement of water droplets on a cylinder in an incompressible flow field and evaluation of rotating multicylinder method for measurement of droplet-size distribution, volume-median droplet size, and liquid-water content in clouds" (planned)</em>  </p>
+<p><img alt="A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904" src="images/naca-tn-2904/Figure1.png">  </p>
+<p><em>NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" (planned)</em>  </p>
+<p><img alt="A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23" src="images/naca-rm-e53d23/Figure1.png">  </p>
+<p><em>NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" (planned)</em>  </p>
+<p><em>Python cylinder analysis updated with ambient temperature effects (planned)</em>  </p>
+<p><em>NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" (planned)</em>  </p>
+<p><em>Cylinder Icing Data Use in the post-NACA Era (planned)</em></p>
+<h2>Other</h2>
+<p><a href="index.html">Blast from the Past: NACA Icing Publications</a><br>
+<a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">The Historical Selected Bibliography of NACA-NASA Icing Publications</a><br>
+<a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>  </p>
+<p><a href="/blog.html">Blog (to see the latest)</a></p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486 .&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2903.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2903">NACA-TN-2903</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2022-03-01T06:05:46.807961-08:00">
                 Published: Tue 01 March 2022
@@ -43,246 +247,15 @@
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
-</footer><!-- /.post-info --><blockquote>
+</footer><!-- /.post-info -->                <blockquote>
 <h3>"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."</h3>
 </blockquote>
 <h1>"Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"</h1>
 <h2>Summary</h2>
-<p>The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible".</p>
-<h2>Key points</h2>
-<ol>
-<li>The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"</li>
-</ol>
-<h2>Abstract</h2>
-<blockquote>
-<p>The trajectories of water droplets in a compressible-air flow field
-around a cylinder were computed with a mechanical analog. The results of
-the calculations at approximately the flight critical Mach number were
-compared with calculations of trajectories in an incompressible flow
-field. For a cylinder, the effect of compressibility of the air on the
-droplet trajectories was negligible up to the flight critical Mach number.
-The results obtained with the cylinder were extended to airfoils. This
-extension is possible because the incompressible flow fields of both
-cylinders and airfoils are similarly altered by compressibility.</p>
-</blockquote>
-<h2>Discussion</h2>
-<p>This is one of the shortest reviews, as the conclusion was quite clear. 
-However, there was a significant amount of computational work on a differential analyzer ("mechanical analog") 
-to reach that conclusion. 
-The use of the differential analyzer is well described in <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
-<p>The results for a flight case of Mach 0.4 are summarized in Figure 4:
-<img alt="Correction factor for compressibility effect, Figure 4 of NACA-TN-2903" src="images/naca-tn-2903/Figure4.png"></p>
-<p>A table was included summarizing results at 10,000 ft. altitude:</p>
-<table>
-<thead>
-<tr>
-<th>Inertia parameter K</th>
-<th>Cylinder diameter D (in.)</th>
-<th>Droplet diameter d (microns)</th>
-<th>Dimensionless parameter Phi</th>
-<th>(Em_i-Em_c)/Em_c (percent)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0.5</td>
-<td>1/2</td>
-<td>3</td>
-<td>740</td>
-<td>0.3</td>
-</tr>
-<tr>
-<td>.5</td>
-<td>1</td>
-<td>4</td>
-<td>1,480</td>
-<td>.4</td>
-</tr>
-<tr>
-<td>.5</td>
-<td>3</td>
-<td>7</td>
-<td>4,440</td>
-<td>.5</td>
-</tr>
-<tr>
-<td>.5</td>
-<td>6</td>
-<td>9</td>
-<td>8,880</td>
-<td>.5</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1/2</td>
-<td>4</td>
-<td>740</td>
-<td>.6</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>5</td>
-<td>1,480</td>
-<td>.8</td>
-</tr>
-<tr>
-<td>1</td>
-<td>3</td>
-<td>9</td>
-<td>4,440</td>
-<td>.9</td>
-</tr>
-<tr>
-<td>1</td>
-<td>6</td>
-<td>13</td>
-<td>8,880</td>
-<td>1.0</td>
-</tr>
-<tr>
-<td>5</td>
-<td>1/2</td>
-<td>9</td>
-<td>740</td>
-<td>1.5</td>
-</tr>
-<tr>
-<td>5</td>
-<td>1</td>
-<td>12</td>
-<td>11480</td>
-<td>1.9</td>
-</tr>
-<tr>
-<td>5</td>
-<td>3</td>
-<td>21</td>
-<td>4,440</td>
-<td>2.1</td>
-</tr>
-<tr>
-<td>5</td>
-<td>6</td>
-<td>30</td>
-<td>8,880</td>
-<td>2.3</td>
-</tr>
-<tr>
-<td>5</td>
-<td>18</td>
-<td>50</td>
-<td>27,650</td>
-<td>2.8</td>
-</tr>
-<tr>
-<td>5</td>
-<td>30</td>
-<td>70</td>
-<td>44,400</td>
-<td>2.9</td>
-</tr>
-<tr>
-<td>20</td>
-<td>1/2</td>
-<td>17</td>
-<td>740</td>
-<td>.5</td>
-</tr>
-<tr>
-<td>20</td>
-<td>1</td>
-<td>24</td>
-<td>1,480</td>
-<td>.6</td>
-</tr>
-<tr>
-<td>20</td>
-<td>3</td>
-<td>40</td>
-<td>4,440</td>
-<td>.7</td>
-</tr>
-<tr>
-<td>20</td>
-<td>6</td>
-<td>60</td>
-<td>8,880</td>
-<td>.8</td>
-</tr>
-</tbody>
-</table>
-<p>It is noted that:</p>
-<blockquote>
-<p>The difference in the trajectories caused by the correction [for compressibility] was less than the probable error of the analog.</p>
-</blockquote>
-<h3>Conclusions</h3>
-<blockquote>
-<p>The following conclusions are based on the calculation of droplet
-trajectories around a cylinder in both an incompressible flow field and
-a compressible-air flow field at the flight critical Mach number and on
-a study of the air velocities around airfoils:
-1. For a cylinder the effect of compressibility of the air on the
-droplet trajectories is not very great up to the flight critical Mach
-number, and for most practical problems involving measurements of
-droplet impingement on cylinders the compressibility effect may be
-ignored.
-2. The fact that the effect of compressibility on the impinging
-droplet trajectories is negligible also applies to airfoils.</p>
-</blockquote>
-<h2>Citations</h2>
-<p>NACA-TN-2903 cites 8 publications:
-- Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. &amp; M. No. 2025, British A.R.C., 1940.
-- Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-- Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
-- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.
-- Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.
-- Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.
-- Eser, F. (N. Flint, Trans.): On the Flow of Compressible Fluids Past Solid Bodies at Subsonic Velocity. Luftfabrtforschung, vol. 20, no. 7, July 20, 1943, pp. 220-230. R.T.P. Translation No. 2056, Ministry Aircraft Prod. (British).
-- Kaplan, Carl: Compressible Flow about Symmetrical Joukowski Profiles. NACA-TR-621, 1938.</p>
-<p>NACA-TN-2903 is cited 13 times in the NACA Icing Publications Database <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>:
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.
-- Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
-- Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.
-- Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.
-- Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.
-- Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.
-- Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)
-- Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.
-- Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.
-- Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.
-- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.</p>
-<p>An online search <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> found 26 citations of NACA-TN-2903.</p>
-<h3>Related</h3>
-<p>NACA-TR-1215 <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> "supersedes" NACA-TN-2903. We will see what that means when we review NACA-TR-1215.</p>
-<h2>Notes:</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=naca-tn-2903&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>The effect of the compressibility …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2903.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -486,59 +459,6 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 <ol>
 <li>There are …</li></ol>
                 <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
-                           title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-02-28T10:30:22.992336-08:00">
-                Published: Mon 28 February 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-28T10:30:22.992336-08:00">-->
-                <!--Updated: Mon 28 February 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
-</blockquote>
-<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
-<style>
-.aligncenter {
-    text-align: center;
-}
-</style>
-
-<p class="aligncenter">
- <img src="images/naca-tn-2904/Figure15.png" 
- alt="Multicyllnder cloud meters used in comparative study at Mount Washington Observatory"
- > 
- <br>
- <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>
- <br>
- <em>(from NACA-TN-2904) </em>
-</p>
-
-<p>The cylinder has a wide range of current …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/icing-on-cylinders.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
