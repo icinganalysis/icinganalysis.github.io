@@ -64,7 +64,7 @@ Here is the Table of Content text transcribed, to be legible and searchable:
 > TABLE OF CONTENTS  
 Introductory Remarks  
 Review of Icing Criteria; William Lewis  
-Description, History and Status of NASA-Lewis 1cing Research Tunnel; Vernon H. Gray  
+Description, History and Status of NASA-Lewis Icing Research Tunnel; Vernon H. Gray  
 Ice Protection for Turbine Engines; Edmund E. Striebel  
 Laboratory Testing of Engine Ice Systems; S. H. Davison  
 Small Turbine Engine and Inlet Ice Protection'; George Bianchini  
@@ -201,7 +201,7 @@ Active development of ice shape prediction programs is still ongoing [^7].
 There is much to see here (388 pages).
 
 We have already seen the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
-(not listed in the Table of Contents) that follows "Description, History and Status of NASA-Lewis 1cing Research Tunnel".
+(not listed in the Table of Contents) that follows "Description, History and Status of NASA-Lewis Icing Research Tunnel".
 
 I select the following as "must-reads":  
 - Review of Icing Criteria; William Lewis  
