@@ -107,6 +107,8 @@ in the determination of the volume-median droplet size are possible if
 the flight speed is 200 miles per hour and the actual volume-median
 droplet diameter in the cloud is 30 microns.  
 
+![Figure 14b. Expected errors in the determination of voluem-median drop size, +/-10% cylinder mass error](images/naca-tn-2904/Figure14b.png)
+
 However, Figure 14b is for an assumed cylinder mass measurement error of +/-10%, 
 which seems large compared to other error estimates. 
 Also, the errors have to be in a worst-case stack-up to achieve the 70% difference value. 
