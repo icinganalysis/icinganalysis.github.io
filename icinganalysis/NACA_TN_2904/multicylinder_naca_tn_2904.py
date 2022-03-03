@@ -56,7 +56,7 @@ def calc_mass_average_em_diameter_with_distribution(
             volume = 0
         else:
             volume = mass / ice_density
-        final_diameter = ((4 / pi * volume) + initial_diameter ** 2) ** 0.5
+        final_diameter = (4*volume/pi/length+initial_diameter**2)**0.5
         average_diameter = (initial_diameter + final_diameter) / 2
         em_average = mass / (lwc / 1000 * u * average_diameter * length * time_in_icing)
         delta_em = abs(em_average - prior_estimate_em)
