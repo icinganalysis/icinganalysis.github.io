@@ -7,8 +7,6 @@ status: draft
 
 #"Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds" [^1]
 
-![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
-
 ##Summary
 Detailed water drop impingement analysis (independent of prior analysis) is presented.
 
@@ -16,6 +14,7 @@ Detailed water drop impingement analysis (independent of prior analysis) is pres
 1.  Detailed water drop impingement analysis (independent of prior analysis) is presented
 2.  Error estimates are detailed.
 3.  Detailed Beta curves are provided.
+4.  A difference from Langmuir and Blodgett for drop size distributions calculations is noted.
 
 ##Abstract
 > Evaluation of the rotating multicylinder method for the measurement
@@ -62,7 +61,8 @@ Appendix A of NACA-TN-2904 provides much detail.
 mechanical analogy are reviewed herein, and a machine setup together
 with all the pertinent computations involved for a representative trajectory are presented.  
 
-In Figure 15 below, two people turn the input cranks to produce output rotation on the pen plotter in the middle. 
+In Figure 15 below, two investigators turn the input cranks to produce output rotation on the pen plotter in the middle. 
+_(Unfortunately, their names were not recorded in NACA-TN-2904.)_
 
 ![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
 
@@ -91,10 +91,7 @@ because the sensitivity of the rotating multicylinder method in
 its application does not permit wide tolerances in the theoretical data.  
 
 Accuracy was emphasised, and the final results are slightly different than those in [^2]. 
-
 But it is not clear from the data presented in NACA-TN-2904 that it is more accurate than [^2]. 
-And even with "modern" data it is difficult to determine that one method is substantially more accurate than the other. 
-This will be the subject of a future post. 
  
 ###Error estimates
 
@@ -159,25 +156,31 @@ Phi|K|Beta_o|Beta_o|
 10000|3.24|_0.68_|.580|
 10000|16|0.880|.832|
 
-I do not know of contemporaneous data that could resolve which method is more accurate. 
-There is data from the post-NACA era, which will be examined in a planned post 
-near the end of the [cylinder thread]({filename}Icing on Cylinders.md). 
+###A difference from Langmuir and Blodgett for drop size distributions calculations
 
-<style>
-details.spoiler summary::after {
-  content: var(--hidden);
-  filter: blur(6px);
-  display: block;
-}
-details[open] summary::after {
-  display: none;
-}
-</style>
-<details class="spoiler" style="--hidden: 'No peaking!'">
-  <summary>Spoiler alert!:</summary>
-  <div>Bet on Langmuir and Blodgett</div>
-</details>
-<br>
+As noted in NACA-TN-2904, for drop size distributions Langmuir and Blodgett [^2] used an approximation, 
+using the k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
+This means essentially that for part of the calculation (the k\*phi value) the MVD drop size was used for every bin, 
+and for the other part (the k value) the drop size was unique for each bin.
+A more technically correct implementation is to have a unique k\*phi value for each bin
+(both the k and the k\*phi parts). 
+I could not find in Langmuir and Blodgett where they were explicit about this detail of their method, 
+and it was an astute observations made in NACA-TN-2904 to notice this. 
+
+Both the original Langmuir and Blodgett multicylinder calculations, 
+and a version with unique k\*phi for each bin were implemented in 
+["Implementation of cylinder impingement correlations in Python"]({filename}Implementation of cylinder impingement correlations in Python.md).
+A comparison to Table XI values of [^2] verifies that the "k\*phi value for the MVD" method was used.
+
+We will see a comparison of results of the different methods for a multicylnder case in the upcoming review of NACA-RM-E53D23.
+
+### Conclusions
+
+It is not clear from the data presented in NACA-TN-2904 that its method is more accurate than Langmuir and Blodgett [^2].
+I do not know of contemporaneous data that could resolve which method is more accurate.
+And even with data from the post-NACA era it is difficult to determine that one method is 
+substantially more accurate than the other. 
+This will be the subject of a future post. 
 
 ##Citations
 
