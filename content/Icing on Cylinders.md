@@ -52,7 +52,7 @@ in the publications.
 While such instruments had limitations, the were often the best available technology at the time. 
 (There may be a thread in the future devoted to measurements of the icing environment). 
 
-Some typical multicylinder meteorological instruments (from NACA-TN-2708):
+Some typical multicylinder meteorological instruments (from NACA-TN-2708):  
 ![Multicylinder cloud meters used in comparable studies at Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
 
 
