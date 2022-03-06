@@ -73,7 +73,24 @@ def get_em_stats(case_data):
             for w, r in zip(lwc_fractions, d_ratio_mids)
         ]
     )
-    return name, em_average, em_lower, em_upper, em_mvd, em_dist
+    k_phi = langmuir_cylinder_values.calc_k_phi(tk, p, u, mvd)
+    em_dist_k_phi_const = sum(
+        [
+            w * langmuir_cylinder_values.calc_em_from(
+                langmuir_cylinder_values.calc_k(tk, u, r*mvd, d_cyl),
+                k_phi / langmuir_cylinder_values.calc_k(tk, u, r*mvd, d_cyl)
+                )
+            for w, r in zip(lwc_fractions, d_ratio_mids)
+        ]
+    )
+    em_dist_2904 = sum(
+        [w*naca_tn_2904_calc_em_from(
+            langmuir_cylinder_values.calc_k(tk, u, r * mvd, d_cyl),
+            langmuir_cylinder_values.calc_k_phi(tk, p, u, r * mvd)
+        ) for w, r in zip(lwc_fractions, d_ratio_mids)]
+    )
+
+    return name, em_average, em_lower, em_upper, em_mvd, em_dist, float(em_dist_k_phi_const), float(em_dist_2904)
 
 
 # fmt:off
@@ -189,7 +206,9 @@ if __name__ == "__main__":
         "Em_test_lower",
         "Em_test_upper",
         "Em_calc_Breer",
-        "Em_calc_LB",
+        "Em_calc_LB_original",
+        "Em_calc_LB_corrected",
+        "Em_calc_NACA_TN_2904",
         "Phi",
         "K_mvd",
     )
@@ -203,20 +222,20 @@ if __name__ == "__main__":
         tk = d_test[case]["tk"]
         phi = langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl)
         k_mvd = langmuir_cylinder_values.calc_k(tk, u, mvd, d_cyl)
-        name, em_average, em_lower, em_upper, em_mvd, em_dist = get_em_stats(
+        name, em_average, em_lower, em_upper, em_mvd, em_dist, em_dist_k_phi_const, em_dist_2904 = get_em_stats(
             d_test[case]
         )
         em_theory = get_em_stats(d_theory[case])[1]
         # fmt:off
         row_text = f"{case} {d_test[case]['mvd']:.2f} {em_average:.3f} {em_lower:.3f} " \
-            f"{em_upper:.3f} {em_theory:.3f} {em_dist:.3f} {phi:.0f} {k_mvd:.2f}"
+            f"{em_upper:.3f} {em_theory:.3f} {em_dist:.3f} {em_dist_k_phi_const:.3} {em_dist_2904:.3f} {phi:.0f} {k_mvd:.2f}"
         # fmt:on
         rows.append(row_text.split(" "))
 
     print(make_markdown_table(header, rows))
 
     cols = list(zip(*rows))
-    mvd, em_test, em_test_lower, em_test_upper, em_calc_breer, em_calc_lb, phi, ks_mvd = [
+    mvd, em_test, em_test_lower, em_test_upper, em_calc_breer, em_calc_lb, em_calc_lb_corrected, em_calc_NACA_TN_2904, phi, ks_mvd = [
         [float(_) for _ in col] for col in cols[1:]
     ]
     variance = [0.1 * _ for _ in em_test]  # 10% variation from Conclusions

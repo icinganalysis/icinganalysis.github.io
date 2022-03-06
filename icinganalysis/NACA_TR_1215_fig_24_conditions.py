@@ -54,7 +54,7 @@ conditions_data = {
         mvd=25,
         distribution="Langmuir E",
         d_cyls=[.27, .6, 1.32, 3],
-        # em_lwcs = [.11, .088, .072, .06]  # Figure 24a Y axis appears to be mislabeled by a factor of 10
+        # em_lwcs = [.11, .088, .072, .06]  # Figure 24d Y axis appears to be mislabeled by a factor of 10
         em_lwcs=[1.1, .88, .725, .6],  # Figure 24a Y values corrected
         d_cyls_m=[_ * 0.0254 for _ in [.27, .6, 1.32, 3]],
     )
