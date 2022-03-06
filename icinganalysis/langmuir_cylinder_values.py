@@ -16,6 +16,8 @@ from scipy.interpolate import interp1d
 from scipy.optimize import minimize_scalar
 import numpy as np
 
+from icinganalysis.water_properties import WATER_DENSITY
+
 from icinganalysis.langmuir_blodgett_table_ii import calc_em as calc_em_from
 from icinganalysis.langmuir_blodgett_table_i import (
     calc_cd_r_24_langmuir_blodgett as calc_cd_r_24,
@@ -28,6 +30,8 @@ from icinganalysis.air_properties import (
     calc_pressure,
     calc_air_density,
 )
+
+MICROMETERS_PER_METER = 1000000
 
 langmuir_a_mids = 1, 1, 1, 1, 1, 1, 1
 langmuir_b_mids = 0.56, 0.72, 0.84, 1.0, 1.17, 1.32, 1.49
@@ -173,7 +177,7 @@ def calc_re_d_drop(tk, p, u, drop_diameter_micrometer):
     return (
         u
         * drop_diameter_micrometer
-        / 1000000
+        / MICROMETERS_PER_METER
         * calc_air_density(tk, p)
         / calc_air_viscosity(tk)
     )  # equ. (9)
@@ -181,7 +185,7 @@ def calc_re_d_drop(tk, p, u, drop_diameter_micrometer):
 
 def calc_drop_diameter_micrometer_from_re_drop(re, tk, p, u):  # equ. (9), re-arranged
     drop_diameter_micrometer = (
-        re * 1000000 * calc_air_viscosity(tk) / (u * calc_air_density(tk, p))
+        re * MICROMETERS_PER_METER * calc_air_viscosity(tk) / (u * calc_air_density(tk, p))
     )
     return drop_diameter_micrometer
 
@@ -190,8 +194,8 @@ def calc_range_stokes(tk, u, drop_diameter_micrometer):
     lambda_s = (
         2
         / 9
-        * 1000
-        * (drop_diameter_micrometer / 1000000 / 2) ** 2
+        * WATER_DENSITY
+        * (drop_diameter_micrometer / MICROMETERS_PER_METER / 2) ** 2
         * u
         / calc_air_viscosity(tk)
     )  # equ. (11)
@@ -201,7 +205,7 @@ def calc_range_stokes(tk, u, drop_diameter_micrometer):
 def calc_phi(tk, p, u, d_cylinder):
     c = d_cylinder / 2
     phi = (
-        18 * calc_air_density(tk, p) ** 2 * u * c / (1000 * calc_air_viscosity(tk))
+        18 * calc_air_density(tk, p) ** 2 * u * c / (WATER_DENSITY * calc_air_viscosity(tk))
     )  # equ. (25)
     return phi
 
@@ -212,7 +216,7 @@ def calc_k_phi(tk, p, u, drop_diameter_micrometer):  # equ. (50)
         * calc_air_density(tk, p)
         * u
         * drop_diameter_micrometer
-        / 1000000
+        / MICROMETERS_PER_METER
         / 2
         / calc_air_viscosity(tk)
     ) ** 2
@@ -224,8 +228,8 @@ def calc_k(tk, u, drop_diameter_micrometer, d_cylinder):
     k = (
         2
         / 9
-        * 1000
-        * (drop_diameter_micrometer / 1000000 / 2) ** 2
+        * WATER_DENSITY
+        * (drop_diameter_micrometer / MICROMETERS_PER_METER / 2) ** 2
         * u
         / calc_air_viscosity(tk)
         / c
@@ -235,15 +239,15 @@ def calc_k(tk, u, drop_diameter_micrometer, d_cylinder):
 
 def calc_d_cylinder_from_k(k, tk, u, d_drop):
     return (
-        2 * 2 / 9 * 1000 * (d_drop / 1000000 / 2) ** 2 * u / calc_air_viscosity(tk) / k
+        2 * 2 / 9 * WATER_DENSITY * (d_drop / MICROMETERS_PER_METER / 2) ** 2 * u / calc_air_viscosity(tk) / k
     )  # equ. (12), re-arranged
 
 
 def calc_d_drop_from_k(k, tk, u, d_cylinder):
     drop_diameter_micrometer = (
-        1000000
+        MICROMETERS_PER_METER
         * 2
-        * (k / (2 * 2 / 9 * 1000 * u / calc_air_viscosity(tk) / d_cylinder)) ** 0.5
+        * (k / (2 * 2 / 9 * WATER_DENSITY * u / calc_air_viscosity(tk) / d_cylinder)) ** 0.5
     )  # equ. (12), re-arranged
     return drop_diameter_micrometer
 
@@ -252,7 +256,7 @@ def calc_d_cylinder_from_phi(phi, tk, p, u):
     d_cylinder = (
         phi
         * 2
-        * 1000
+        * WATER_DENSITY
         * calc_air_viscosity(tk)
         / (18 * calc_air_density(tk, p) ** 2 * u)
     )  # equ. (25), re-arranged
@@ -260,7 +264,7 @@ def calc_d_cylinder_from_phi(phi, tk, p, u):
 
 
 def calc_ko_cylinder(tk, p, u, drop_diameter_micrometer, d_cylinder):
-    re_drop = calc_re(tk, p, u, drop_diameter_micrometer / 1000000)
+    re_drop = calc_re(tk, p, u, drop_diameter_micrometer / MICROMETERS_PER_METER)
     lambda_lambda_s = calc_lambda_lambda_s(re_drop)
     k = calc_k(tk, u, drop_diameter_micrometer, d_cylinder)
     ko = 0.125 + lambda_lambda_s * (k - 0.125)
@@ -288,7 +292,7 @@ def calc_em(tk, p, u, drop_diameter_micrometer, d_cylinder):
         em = ko / (ko + 3.14159 / 2)  # equ. (34)
     else:
         if em > 0.5:
-            re_drop = calc_re(tk, p, u, drop_diameter_micrometer / 1000000)
+            re_drop = calc_re(tk, p, u, drop_diameter_micrometer / MICROMETERS_PER_METER)
             cd_r_24 = calc_cd_r_24(re_drop)
             he = 1 + 0.5708 * cd_r_24 - 0.73e-4 * re_drop ** 1.38  # equ. (43)
             k = calc_k(tk, u, drop_diameter_micrometer, d_cylinder)
@@ -312,7 +316,7 @@ def calc_theta_impingement(tk, p, u, drop_diameter_micrometer, d_cylinder):
     if phi > 10:
         theta = atan(1.70 * (ko - 0.125) ** 0.76)
         if k > 10:
-            re_drop = calc_re(tk, p, u, drop_diameter_micrometer / 1000000)
+            re_drop = calc_re(tk, p, u, drop_diameter_micrometer / MICROMETERS_PER_METER)
             cd_r_24 = calc_cd_r_24(re_drop)
             ho = 0.358 + 0.615 * cd_r_24 - 0.51e-4 * re_drop ** 1.38  # equ. (45)
             theta = atan(k / ho)  # equ (44)

@@ -15,6 +15,8 @@ from math import log10, pi
 from scipy.optimize import minimize
 from icinganalysis import langmuir_cylinder_values
 
+G_PER_KG = 1000
+
 original_calc_em_with_distribution = langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin
 calc_em_with_distribution_to_use = langmuir_cylinder_values.calc_em_with_distribution_k_phi_unique_each_bin
 
@@ -37,9 +39,9 @@ def calc_mass_average_em_diameter_with_distribution(
     # print(distribution, lwc, mvd)
     for i in range(10):
         em_initial = calc_em_with_distribution_to_use(tk, p, u, mvd, initial_diameter, distribution)
-        mass_initial = (em_initial * lwc / 1000 * u * initial_diameter * length * time_in_icing)
+        mass_initial = (em_initial * lwc / G_PER_KG * u * initial_diameter * length * time_in_icing)
         em_final = calc_em_with_distribution_to_use(tk, p, u, mvd, final_diameter, distribution)
-        mass_final = em_final * lwc / 1000 * u * final_diameter * length * time_in_icing
+        mass_final = em_final * lwc / G_PER_KG * u * final_diameter * length * time_in_icing
         mass = (mass_initial + mass_final) / 2
         if ice_density is None:
             volume = 0
@@ -47,7 +49,7 @@ def calc_mass_average_em_diameter_with_distribution(
             volume = mass / ice_density
         final_diameter = (4*volume/pi/length+initial_diameter**2)**0.5
         average_diameter = (initial_diameter + final_diameter) / 2
-        em_average = mass / (lwc / 1000 * u * average_diameter * length * time_in_icing)
+        em_average = mass / (lwc / G_PER_KG * u * average_diameter * length * time_in_icing)
         delta_em = abs(em_average - prior_estimate_em)
         if delta_em < 0.001:
             break

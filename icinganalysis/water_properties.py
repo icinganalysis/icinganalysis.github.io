@@ -8,6 +8,7 @@ L_FREEZING = 334640  # J/kg (A.20)
 L_EVAPORATION = 2500900  # J/kg
 RATIO_MOLECULAR_WEIGHTS = 0.622  # water to air
 T_MP = 273.15
+WATER_DENSITY = 1000  # Kg/m^3
 
 
 def calc_vapor_p_psi(tk):  # (A.8) and (A.9)
