@@ -13,7 +13,6 @@ The Langmuir B drop size distribution is almost a normal distribution.
 3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
 4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.
 
-
 ##Discussion
 
 ###Normal drop size distributions
