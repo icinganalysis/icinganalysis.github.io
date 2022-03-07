@@ -160,7 +160,7 @@ Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique 
 [^2]:
 Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 [^3]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418and as Dept. of Commerce Pub. PB No. 27565.)  
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418 and as Dept. of Commerce Pub. PB No. 27565.)  
 [^4]: An online search found 5 more citations, mostly in meteorological publications.
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-2708&btnG= , January, 2022.  
 [^5]: 

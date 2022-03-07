@@ -111,8 +111,6 @@ which seems large compared to other error estimates.
 Also, the errors have to be in a worst-case stack-up to achieve the 70% difference value. 
 Thus, I would not consider this value to be "typical".
 
-Reproducing (or not) the estimated errors on drop size is involved, and will be the subject of a separate posting.  
-
 ###Beta curves
 
 This includes detailed Beta (local impingement efficiency) curves, 
@@ -151,10 +149,10 @@ The Beta_o values do not agree well between sources:
 Phi|K|Beta_o|Beta_o|
 ---|---|---|---|
  -  | - |NACA|Langmuir and Blodgett|
-10000|0.25|_0.057_|.111|
-10000|1|0.415|.343|
-10000|3.24|_0.68_|.580|
-10000|16|0.880|.832|
+10000|0.25|_0.057_|0.111|
+10000|1|0.415|0.343|
+10000|3.24|_0.68_|0.580|
+10000|16|0.880|0.832|
 
 ###A difference from Langmuir and Blodgett for drop size distributions calculations
 
@@ -234,7 +232,7 @@ NACA-TR-1215 [^6] "supersedes" NACA-TN-2904. We will see what that means when we
 [^1]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^2]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418and as Dept. of Commerce Pub. PB No. 27565.)  
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418 and as Dept. of Commerce Pub. PB No. 27565.)  
 [^3]: 
 von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 [^4]: 
