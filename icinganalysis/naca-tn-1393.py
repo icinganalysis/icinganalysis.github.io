@@ -1,19 +1,11 @@
 import matplotlib.pyplot as plt
 from icinganalysis import langmuir_blodgett_multicylinder as multicylinder
 from icinganalysis.air_properties import calc_pressure
+from icinganalysis.markdown_table_helper import make_markdown_table
 
 
 def calc_percent_difference(reference, value):
     return (value - reference) / reference * 100
-
-
-def make_markdown_table(header, rows):
-    vs = ["|" + "|".join(header) + "|"]
-    vs += ["|" + "|".join(["---" for _ in header]) + "|"]
-    for row in rows:
-        vs += ["|" + "|".join([_ for _ in row]) + "|"]
-    for v in vs:
-        print(v)
 
 
 if __name__ == "__main__":
@@ -249,7 +241,7 @@ if __name__ == "__main__":
     print(lwc_rss, mvd_rss)
     print(lwc_total_error, mvd_total_error)
 
-    make_markdown_table(header, rows)
+    print(make_markdown_table(header, rows))
 
     header = ["Total error", "Water content (percent)", "Drop diameter (percent)"]
     rows = [
@@ -260,7 +252,7 @@ if __name__ == "__main__":
         ],
         ["Maximum resultant error (sum(E^2)^0.5)", f"{lwc_rss:.1f}", f"{mvd_rss:.1F}"],
     ]
-    make_markdown_table(header, rows)
+    print(make_markdown_table(header, rows))
 
     plt.figure()
     for dist in ("Langmuir A", "Langmuir B", "Langmuir C", "Langmuir D", "Langmuir E"):

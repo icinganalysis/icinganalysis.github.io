@@ -6,6 +6,7 @@ from scipy.optimize import curve_fit
 from scipy.stats import norm
 import numpy as np
 from icinganalysis import langmuir_cylinder_values
+from icinganalysis.markdown_table_helper import make_markdown_table
 
 
 class NormProbScale(mscale.ScaleBase):
@@ -91,14 +92,6 @@ def to_stairs_y(vs, insert_initial=True):
         ws.append(v)
         ws.append(v)
     return ws
-
-
-def make_markdown_table(header, rows):
-    text = "|".join(header) + "\n"
-    text += "|".join(["---"] * len(header)) + "\n"
-    for row in rows:
-        text += "|".join([str(_) for _ in row]) + "\n"
-    return text
 
 
 if __name__ == "__main__":

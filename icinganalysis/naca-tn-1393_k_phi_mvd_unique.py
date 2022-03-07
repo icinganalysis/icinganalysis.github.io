@@ -1,18 +1,12 @@
 import matplotlib.pyplot as plt
-from icinganalysis import langmuir_blodgett_multicylinder_k_phi_unique_mvd as multicylinder
+from icinganalysis import (
+    langmuir_blodgett_multicylinder_k_phi_unique_mvd as multicylinder,
+)
+from icinganalysis.markdown_table_helper import make_markdown_table
 
 
 def calc_percent_difference(reference, value):
     return (value - reference) / reference * 100
-
-
-def make_markdown_table(header, rows):
-    vs = ["|" + "|".join(header) + "|"]
-    vs += ["|" + "|".join(["---" for _ in header]) + "|"]
-    for row in rows:
-        vs += ["|" + "|".join([_ for _ in row]) + "|"]
-    for v in vs:
-        print(v)
 
 
 if __name__ == "__main__":

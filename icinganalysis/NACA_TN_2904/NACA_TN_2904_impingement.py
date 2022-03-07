@@ -1,15 +1,16 @@
 from math import cos, log10, pi
+from scipy.interpolate import interp1d, interp2d
+from icinganalysis import langmuir_blodgett_table_ii
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
 from icinganalysis.langmuir_cylinder_values import (
     get_mids,
     langmuir_lwc_fractions,
     valid_distribution_ids,
 )
-from icinganalysis import langmuir_blodgett_table_ii
-from icinganalysis import NACA_TR_1215_fig_24_conditions
+from icinganalysis.markdown_table_helper import make_markdown_table
 from icinganalysis.NACA_TN_2903_compressibility import calc_delta_em
 from icinganalysis.NACA_TN_2903_compressibility import data_fig_4
-from scipy.interpolate import interp1d, interp2d
+from icinganalysis import NACA_TR_1215_fig_24_conditions
 
 
 # fmt: off
@@ -561,14 +562,6 @@ interpolators = {
     )
     for phi, d in data_fig_6.items()
 }
-
-
-def make_markdown_table(header, rows):
-    text = "|".join(header) + "\n"
-    text += "|".join(["---"] * len(header)) + "\n"
-    for row in rows:
-        text += "|".join([str(_) for _ in row]) + "\n"
-    return text
 
 
 def make_table_iii():

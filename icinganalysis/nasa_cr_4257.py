@@ -6,18 +6,15 @@ from math import pi, degrees, radians
 from statistics import mean, stdev
 from icinganalysis.langmuir_blodgett_table_ii import value_interpolator
 from icinganalysis import langmuir_cylinder_values
-from icinganalysis.NACA_TN_2904.NACA_TN_2904_impingement import calc_em_from as naca_tn_2904_calc_em_from
-from icinganalysis.NACA_TN_2904.NACA_TN_2904_impingement import calc_em as naca_tn_2904_calc_em
+from icinganalysis.NACA_TN_2904.NACA_TN_2904_impingement import (
+    calc_em_from as naca_tn_2904_calc_em_from,
+)
+from icinganalysis.NACA_TN_2904.NACA_TN_2904_impingement import (
+    calc_em as naca_tn_2904_calc_em,
+)
+from icinganalysis.markdown_table_helper import make_markdown_table
 from scipy.interpolate import interp1d
 import matplotlib.pyplot as plt
-
-
-def make_markdown_table(header, rows):
-    text = "|".join(header) + "\n"
-    text += "|".join(["---"] * len(header)) + "\n"
-    for row in rows:
-        text += "|".join([str(_) for _ in row]) + "\n"
-    return text
 
 
 def calc_em_h(s, beta):
@@ -76,21 +73,35 @@ def get_em_stats(case_data):
     k_phi = langmuir_cylinder_values.calc_k_phi(tk, p, u, mvd)
     em_dist_k_phi_const = sum(
         [
-            w * langmuir_cylinder_values.calc_em_from(
-                langmuir_cylinder_values.calc_k(tk, u, r*mvd, d_cyl),
-                k_phi / langmuir_cylinder_values.calc_k(tk, u, r*mvd, d_cyl)
-                )
+            w
+            * langmuir_cylinder_values.calc_em_from(
+                langmuir_cylinder_values.calc_k(tk, u, r * mvd, d_cyl),
+                k_phi / langmuir_cylinder_values.calc_k(tk, u, r * mvd, d_cyl),
+            )
             for w, r in zip(lwc_fractions, d_ratio_mids)
         ]
     )
     em_dist_2904 = sum(
-        [w*naca_tn_2904_calc_em_from(
-            langmuir_cylinder_values.calc_k(tk, u, r * mvd, d_cyl),
-            langmuir_cylinder_values.calc_k_phi(tk, p, u, r * mvd)
-        ) for w, r in zip(lwc_fractions, d_ratio_mids)]
+        [
+            w
+            * naca_tn_2904_calc_em_from(
+                langmuir_cylinder_values.calc_k(tk, u, r * mvd, d_cyl),
+                langmuir_cylinder_values.calc_k_phi(tk, p, u, r * mvd),
+            )
+            for w, r in zip(lwc_fractions, d_ratio_mids)
+        ]
     )
 
-    return name, em_average, em_lower, em_upper, em_mvd, em_dist, float(em_dist_k_phi_const), float(em_dist_2904)
+    return (
+        name,
+        em_average,
+        em_lower,
+        em_upper,
+        em_mvd,
+        em_dist,
+        float(em_dist_k_phi_const),
+        float(em_dist_2904),
+    )
 
 
 # fmt:off
@@ -222,9 +233,16 @@ if __name__ == "__main__":
         tk = d_test[case]["tk"]
         phi = langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl)
         k_mvd = langmuir_cylinder_values.calc_k(tk, u, mvd, d_cyl)
-        name, em_average, em_lower, em_upper, em_mvd, em_dist, em_dist_k_phi_const, em_dist_2904 = get_em_stats(
-            d_test[case]
-        )
+        (
+            name,
+            em_average,
+            em_lower,
+            em_upper,
+            em_mvd,
+            em_dist,
+            em_dist_k_phi_const,
+            em_dist_2904,
+        ) = get_em_stats(d_test[case])
         em_theory = get_em_stats(d_theory[case])[1]
         # fmt:off
         row_text = f"{case} {d_test[case]['mvd']:.2f} {em_average:.3f} {em_lower:.3f} " \
@@ -235,9 +253,18 @@ if __name__ == "__main__":
     print(make_markdown_table(header, rows))
 
     cols = list(zip(*rows))
-    mvd, em_test, em_test_lower, em_test_upper, em_calc_breer, em_calc_lb, em_calc_lb_corrected, em_calc_NACA_TN_2904, phi, ks_mvd = [
-        [float(_) for _ in col] for col in cols[1:]
-    ]
+    (
+        mvd,
+        em_test,
+        em_test_lower,
+        em_test_upper,
+        em_calc_breer,
+        em_calc_lb,
+        em_calc_lb_corrected,
+        em_calc_NACA_TN_2904,
+        phi,
+        ks_mvd,
+    ) = [[float(_) for _ in col] for col in cols[1:]]
     variance = [0.1 * _ for _ in em_test]  # 10% variation from Conclusions
     plt.figure()
     eba = plt.errorbar(
@@ -350,7 +377,9 @@ if __name__ == "__main__":
     em_ave = sum(em) / len(em)
     em_dev_a = stdev([float(_) for _ in all_ems])
     em_dev_av = stdev([float(_) for _ in ave_ems])
-    print('fig6.3a em ave dev', em_dev_av, em_dev_av / mean([float(_) for _ in ave_ems]))
+    print(
+        "fig6.3a em ave dev", em_dev_av, em_dev_av / mean([float(_) for _ in ave_ems])
+    )
 
     header = "Case", "Em", "Em_upper", "Em_lower"
     rows = []
@@ -390,7 +419,9 @@ if __name__ == "__main__":
     em_ave = sum(em) / len(em)
     em_dev_b = stdev([float(_) for _ in all_ems])
     em_dev_av = stdev([float(_) for _ in ave_ems])
-    print('fig6.3b em ave dev', em_dev_av, em_dev_av / mean([float(_) for _ in ave_ems]))
+    print(
+        "fig6.3b em ave dev", em_dev_av, em_dev_av / mean([float(_) for _ in ave_ems])
+    )
 
     header = "Case", "Em", "Em_upper", "Em_lower"
     rows = []
@@ -470,7 +501,9 @@ if __name__ == "__main__":
 
     plt.figure()
     ks = plt.np.logspace(-1, 2)
-    ks_naca_tn_2904 = plt.np.logspace(plt.np.log10(.25), 2)  # stay in 1/k range NACA-TN-2904 of Table IV
+    ks_naca_tn_2904 = plt.np.logspace(
+        plt.np.log10(0.25), 2
+    )  # stay in 1/k range NACA-TN-2904 of Table IV
     for repeats in (repeats_a, repeats_b):
         ems_test = []
         for case in repeats:
@@ -520,8 +553,11 @@ if __name__ == "__main__":
         ems_calc_naca_tn_2904 = [
             sum(
                 [
-                    w * naca_tn_2904_calc_em_from(
-                        k * r ** 2, k*langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl))
+                    w
+                    * naca_tn_2904_calc_em_from(
+                        k * r ** 2,
+                        k * langmuir_cylinder_values.calc_phi(tk, p, u, d_cyl),
+                    )
                     for w, r in zip(
                         d_test[data_name]["lwc_fractions"],
                         d_test[data_name]["d_ratio_mids"],
@@ -556,8 +592,10 @@ if __name__ == "__main__":
     plt.savefig("nasa_cr_4257_em_comparison.png")
 
     plt.figure(figsize=(8, 8))
-    mvds = list(range(5, 40+1, 1))
-    ks_naca_tn_2904 = plt.np.logspace(plt.np.log10(.25), 2)  # stay in 1/k range NACA-TN-2904 of Table IV
+    mvds = list(range(5, 40 + 1, 1))
+    ks_naca_tn_2904 = plt.np.logspace(
+        plt.np.log10(0.25), 2
+    )  # stay in 1/k range NACA-TN-2904 of Table IV
     for repeats in (repeats_a, repeats_b):
         ems_test = []
         for case in repeats:
@@ -585,8 +623,7 @@ if __name__ == "__main__":
         ems_calc = [
             sum(
                 [
-                    w
-                    * langmuir_cylinder_values.calc_em(tk, p, u, r*mvd_, d_cyl)
+                    w * langmuir_cylinder_values.calc_em(tk, p, u, r * mvd_, d_cyl)
                     for w, r in zip(
                         d_test[data_name]["lwc_fractions"],
                         d_test[data_name]["d_ratio_mids"],
@@ -605,7 +642,7 @@ if __name__ == "__main__":
         ems_calc_naca_tn_2904 = [
             sum(
                 [
-                    w * naca_tn_2904_calc_em(tk, p, u, r*mvd_, d_cyl)
+                    w * naca_tn_2904_calc_em(tk, p, u, r * mvd_, d_cyl)
                     for w, r in zip(
                         d_test[data_name]["lwc_fractions"],
                         d_test[data_name]["d_ratio_mids"],
@@ -635,10 +672,10 @@ if __name__ == "__main__":
     plt.xlabel("MVD, micrometer")
     plt.ylabel("Em")
     plt.ylim(0, 0.6)
-    plt.legend(loc='upper left')
+    plt.legend(loc="upper left")
     plt.savefig("nasa_cr_4257_em_comparison_mvd.png")
 
-    print(radians(5)*(d_cyl/2))
-    print(radians(90)*(d_cyl/2))
+    print(radians(5) * (d_cyl / 2))
+    print(radians(90) * (d_cyl / 2))
 
     plt.show()
