@@ -9,7 +9,6 @@ from icinganalysis.langmuir_cylinder_values import (
 )
 from icinganalysis.markdown_table_helper import make_markdown_table
 from icinganalysis.NACA_TN_2903_compressibility import calc_delta_em
-from icinganalysis.NACA_TN_2903_compressibility import data_fig_4
 from icinganalysis import NACA_TR_1215_fig_24_conditions
 
 
@@ -258,7 +257,9 @@ def calc_em_naca_tn_2904_from_with_distribution_fig6_data(
     return min(1, max(em, 0))
 
 
-def calc_em_naca_tn_2904_fig_6_data(tk, p, u, mvd, d_cylinder, include_compressibility=False):
+def calc_em_naca_tn_2904_fig_6_data(
+    tk, p, u, mvd, d_cylinder, include_compressibility=False
+):
     return calc_em_naca_tn_2904_from_figure6_data(
         calc_k(tk, u, mvd, d_cylinder),
         calc_phi(tk, p, u, d_cylinder),
@@ -738,7 +739,9 @@ def make_table_iv():
 
 
 def _calc_beta(em, theta_max, theta):
-    return pi / 2 * em / theta_max * cos(max(0, min(pi / 2, pi / 2 * theta / theta_max)))
+    return (
+        pi / 2 * em / theta_max * cos(max(0, min(pi / 2, pi / 2 * theta / theta_max)))
+    )
 
 
 def calc_beta(k, phi, theta):
@@ -835,7 +838,8 @@ if __name__ == "__main__":
         print(condition)
         ks_typical = [calc_k(tk, u, mvd, _) for _ in condition["d_cyls_m"]]
         ems_typical = [
-            calc_em_naca_tn_2904_fig_6_data(tk, p, u, mvd, _) for _ in condition["d_cyls_m"]
+            calc_em_naca_tn_2904_fig_6_data(tk, p, u, mvd, _)
+            for _ in condition["d_cyls_m"]
         ]
         plt.plot(ks_typical, ems_typical, "s-", fillstyle="none")
 
@@ -917,7 +921,8 @@ if __name__ == "__main__":
         print(condition)
         inv_ks_typical = [1 / calc_k(tk, u, mvd, _) for _ in condition["d_cyls_m"]]
         ems_typical = [
-            calc_em_naca_tn_2904_fig_6_data(tk, p, u, mvd, _) for _ in condition["d_cyls_m"]
+            calc_em_naca_tn_2904_fig_6_data(tk, p, u, mvd, _)
+            for _ in condition["d_cyls_m"]
         ]
         plt.plot(inv_ks_typical, ems_typical, "s-", fillstyle="none")
 
@@ -926,28 +931,6 @@ if __name__ == "__main__":
     plt.ylabel("Em")
     plt.legend()
     plt.savefig("naca-tr-1215_table_iii_langmuir_comparison.png")
-
-    plt.figure()
-    phis = list(data_fig_6.keys())
-    phis[0] = 10 ** l10phi_for_phi_0
-    phis_log10 = [
-        log10(phi) if phi > 10 ** l10phi_for_phi_0 else l10phi_for_phi_0
-        for phi in list(interpolators.keys())
-    ]
-    plt.plot([], [], " ", label="k")
-    vs = []
-    for k in data_fig_6[0]["ks"]:
-        ems = [interp(log10(k)) for interp in interpolators.values()]
-        plt.plot(phis, ems, "-+", label=k)
-    plt.xscale("log")
-    plt.xlabel("phi")
-    plt.legend()
-
-    plt.figure()
-    for phi in data_fig_4:
-        plt.plot(data_fig_4[phi]["ks"], data_fig_4[phi]["delta_em"], label=phi)
-    plt.xscale("log")
-    plt.legend()
 
     print(calc_delta_em(20, 10))
     make_table_i()
