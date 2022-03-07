@@ -38,7 +38,7 @@ multicylinder method may be given numerical values as follows:
 |----------------|----|----|----|----|----|----|----|----|---|
 |Modulus         |0.00|0.50|0.75|1.00|1.25|1.50|1.75|2.00|2.5|
 
-NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] Langmuir [^3] used did fit a normal distribution well. 
+NACA-TN-2708 [^1] noted that the Houghton and Radford data [^2] which Langmuir [^3] used did fit a normal distribution well. 
 The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.
 
 ![Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart](images/naca-tn-2708/NACA-TN-2708_overlay.png)
