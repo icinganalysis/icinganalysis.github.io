@@ -45,9 +45,10 @@ The data were digitized, and the normal fit was confirmed, as shown in the overl
 ![Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart](images/naca-tn-2708/NACA-TN-2708_overlay.png)
 
 However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
-Perhaps there is a different convention for sigma than the one used by scipy.
+As explained in wikipedia [^4], different constants have been used historically in the definition of the normal distribution. 
+Here, the values differ by about sqrt(2), and sqrt(2) is one of the factors sometimes included or omitted in the definition. 
 
-Clark [^4] recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).  
+Clark [^5] recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).  
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
 NACA-TN-2708 states:
@@ -62,7 +63,7 @@ workers with the multicylinder method.
 
 We will pursue this further herein. 
 
-Langmuir [^5] did not state what distribution he used, other than 
+Langmuir [^6] did not state what distribution he used, other than 
 
 > In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
 on size distribution it was concluded that their measurements were correct
@@ -114,15 +115,15 @@ Rather than correcting errors, including the values from Clark in NACA-TN-2708 a
 Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.
 
 We can compare a Langmuir B distribution to the normal distribution fit of the data:
-Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 [^6]) 
-and a line representation are shown.
+Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 [^7]) 
+and a line representation are shown.  
 ![Langmuir B compared to a normal distribution](images/naca-tn-2708/Langmuir B and normal.png)
 
 The other Langmuir distributions do not match a normal distribution well. 
-A significant portion of the LWC has negative drop sizes with the broader normal distributions. 
+A significant portion of the LWC has negative drop sizes with the broader normal distributions.  
 ![Langmuir E compared to a normal distribution](images/naca-tn-2708/Langmuir E and normal.png)
 
-The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" [^7]
+The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" [^8]
 
 You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.md) 
 
@@ -134,9 +135,10 @@ Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid 
 [^3]: 
 [Mathematical Investigation of Water Droplet Trajectories]({filename}/Mathematical Investigation of Water Droplet Trajectories.md)  
 [^4]:
-Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
+https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution  
 [^5]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
+Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 [^6]:
-Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
-[^7]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
+[^7]: Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
+[^8]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
