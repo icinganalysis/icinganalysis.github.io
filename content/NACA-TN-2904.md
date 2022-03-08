@@ -1,7 +1,6 @@
 Title: NACA-TN-2904 
 Category: NACA
 tags: cylinder
-status: draft
 
 > ###"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."
 

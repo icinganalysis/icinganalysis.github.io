@@ -23,13 +23,13 @@
                 <article>
                     <h1 class="entry-title"><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-02-28T10:30:22.992336-08:00">
-                Published: Mon 28 February 2022
+        <abbr class="published" title="2022-03-08T06:26:41.635009-08:00">
+                Published: Tue 08 March 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-28T10:30:22.992336-08:00">-->
-                <!--Updated: Mon 28 February 2022-->
+        <!--<abbr class="modified" title="2022-03-08T06:26:41.635009-08:00">-->
+                <!--Updated: Tue 08 March 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -105,12 +105,13 @@ multicylinder method may be given numerical values as follows:</p>
 </tr>
 </tbody>
 </table>
-<p>NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> noted that the Houghton and Radford data <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> Langmuir <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> used did fit a normal distribution well. 
+<p>NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> noted that the Houghton and Radford data <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> which Langmuir <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> used did fit a normal distribution well. 
 The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.</p>
 <p><img alt="Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart" src="images/naca-tn-2708/NACA-TN-2708_overlay.png"></p>
 <p>However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
-Perhaps there is a different convention for sigma than the one used by scipy.</p>
-<p>Clark <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).<br>
+As explained in wikipedia <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, different constants have been used historically in the definition of the normal distribution. 
+Here, the values differ by about sqrt(2), and sqrt(2) is one of the factors sometimes included or omitted in the definition. </p>
+<p>Clark <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).<br>
 <img alt="Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds" src="images/naca-tn-2708/table_iv_corrected_distrbutions.png"> </p>
 <p>NACA-TN-2708 states:</p>
 <blockquote>
@@ -124,7 +125,7 @@ graphs, based on Langmuir's data, that have been used by virtually all
 workers with the multicylinder method.</p>
 </blockquote>
 <p>We will pursue this further herein. </p>
-<p>Langmuir <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> did not state what distribution he used, other than </p>
+<p>Langmuir <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> did not state what distribution he used, other than </p>
 <blockquote>
 <p>In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
 on size distribution it was concluded that their measurements were correct
@@ -304,13 +305,13 @@ and perhaps they were more accurate.</p>
 <p>¯\<em>(ツ)</em>/¯</p>
 <p>Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.</p>
 <p>We can compare a Langmuir B distribution to the normal distribution fit of the data:
-Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>) 
-and a line representation are shown.
+Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>) 
+and a line representation are shown.<br>
 <img alt="Langmuir B compared to a normal distribution" src="images/naca-tn-2708/Langmuir B and normal.png"></p>
 <p>The other Langmuir distributions do not match a normal distribution well. 
-A significant portion of the LWC has negative drop sizes with the broader normal distributions. 
+A significant portion of the LWC has negative drop sizes with the broader normal distributions.<br>
 <img alt="Langmuir E compared to a normal distribution" src="images/naca-tn-2708/Langmuir E and normal.png"></p>
-<p>The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup></p>
+<p>The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup></p>
 <p>You may find a more general discussion of <a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708</a> </p>
 <h2>Notes:</h2>
 <div class="footnote">
@@ -326,16 +327,19 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 <p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -353,13 +357,13 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-28T10:30:22.992336-08:00">
-                Published: Mon 28 February 2022
+        <abbr class="published" title="2022-03-08T06:26:41.635009-08:00">
+                Published: Tue 08 March 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-28T10:30:22.992336-08:00">-->
-                <!--Updated: Mon 28 February 2022-->
+        <!--<abbr class="modified" title="2022-03-08T06:26:41.635009-08:00">-->
+                <!--Updated: Tue 08 March 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -392,13 +396,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-02-28T10:30:22.992336-08:00">
-                Published: Mon 28 February 2022
+        <abbr class="published" title="2022-03-08T06:26:41.635009-08:00">
+                Published: Tue 08 March 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-02-28T10:30:22.992336-08:00">-->
-                <!--Updated: Mon 28 February 2022-->
+        <!--<abbr class="modified" title="2022-03-08T06:26:41.635009-08:00">-->
+                <!--Updated: Tue 08 March 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
