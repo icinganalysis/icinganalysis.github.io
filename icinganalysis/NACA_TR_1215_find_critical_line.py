@@ -59,7 +59,7 @@ def find_critical_lwc_em_freeze(tk, p, u, h, u1=None):
     lwc_em = minimize_scalar(f, bounds=(0, 100), method="bounded").x
     qf, q_conv, q_evap, q_sensible, q_kinetic = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc_em, em, h)
     me = q_evap / L_EVAPORATION
-    lwc_em_evap = me * G_PER_KG / (u * em)
+    lwc_em_evap = me * G_PER_KG / u
     lwc_em_freeze = lwc_em - lwc_em_evap
     return lwc_em_freeze
 
