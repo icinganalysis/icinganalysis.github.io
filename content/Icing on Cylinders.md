@@ -136,6 +136,7 @@ _NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes 
 [NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"]({filename}NACA-RM-E52D23.md)  
 >  1. Detailed procedures for the in-flight use of multicylinders are described.  
 >  2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.  
+>  3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
 
 -->
 

@@ -15,6 +15,7 @@ Detailed procedures for the use of multicylinders are described.
 ##Key points  
 1. Detailed procedures for the in-flight use of multicylinders are described.
 2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.
+3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
 
 ##Abstract
 
@@ -93,6 +94,10 @@ Table IV                   |14.1|0.30|Langmuir E
 NACA-TN-2904 implementation|14.6|0.28|Langmuir E
 Langmuir implementation    |15.2|0.30|Langmuir D
 Langmuir corrected         |15.2|0.30|Langmuir E
+
+Differences in analysis method details can drive MVD and LWC differences 
+in the of 5% to 10%.  This is smaller than the differences drive by possible 
++/-5% mass errors analyzed in NACA-TN-2904 (inducing an MVD error of 10% and greater).
 
 ##Conclusions
 
