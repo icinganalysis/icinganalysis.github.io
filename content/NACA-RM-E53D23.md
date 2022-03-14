@@ -1,7 +1,6 @@
 Title: NACA-RM-E53D23   
 Category: NACA  
 tags: cylinder  
-status: draft
 
 > ###"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"  
 

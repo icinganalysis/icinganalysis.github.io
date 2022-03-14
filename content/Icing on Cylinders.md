@@ -131,14 +131,10 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 
 ![A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](images/naca-tn-2904/Figure1.png)  
 
-_NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method" (planned)_  
-<!--
-[NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"]({filename}NACA-RM-E52D23.md)  
+[NACA-RM-E53D23 "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"]({filename}NACA-RM-E53D23.md)  
 >  1. Detailed procedures for the in-flight use of multicylinders are described.  
 >  2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.  
 >  3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
-
--->
 
 
 ![A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](images/naca-rm-e53d23/Figure1.png)  
