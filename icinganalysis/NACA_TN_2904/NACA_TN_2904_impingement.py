@@ -13,6 +13,85 @@ from icinganalysis import NACA_TR_1215_fig_24_conditions
 
 
 # fmt: off
+data_figure_9 = {
+    0.1: {
+        'ks': (.125, .25, .5, 1, 2, 4, 16, 100),
+        'em': (0,.05, .21, .38,.56,.74,.92,.96),
+        'theta': (0,.33,.715,.98, 1.2,1.38, 1.52,1.55)
+    },
+    100: {
+        'ks': (.125, .25, .5, 1, 2, 4, 16, 100),
+        'em': (0,.04, .155,.31,.49,.68,.87, .95),
+        'theta': (0, .265,.6,.86, 1.09,1.29,1.48,1.54)
+    },
+    1000: {
+        'ks': (.125, .25, .5, 1, 2, 4, 16, 100),
+        'em': (0, .025, .11,.25, .425,.615, .835,.93),
+        'theta': (0, .22, .505,.76,.99,1.2,1.445,1.525)
+    },
+    10000: {
+'ks': (.125, .25, .5, 1, 2, 4, 16, 100),
+        'em': (0, .01,.07, .16,.3,.48,.755, .9),
+        'theta': (0, .16,.385,.595,.83,1.06,1.34, 1.48)
+    },
+    50000: {
+'ks': (.125, .25, .5, 1, 2, 4, 16, 100),
+        'em': (0, .01,.04, .11,.23,.38,.68,.87),
+        'theta': (0, .11, .26,.45,.68,.92,1.26,1.45)
+    },
+}
+
+
+l10phi_for_phi_0 = 0
+
+log10_ks = [log10(k) for k in data_figure_9[0.1]["ks"]]
+log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_figure_9]
+phis = [_ for _ in data_figure_9]
+zs = [data_figure_9[_]["theta"] for _ in data_figure_9]
+
+_theta_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
+                                              kind='linear',
+                                              )
+
+
+def calc_theta_from_figure_9_data(k, phi):
+    theta = float(
+        max(
+            0,
+            _theta_interpolator_figure_9_log10(
+                log10(k), log10(phi) if phi > 0 else l10phi_for_phi_0,
+            ),
+        )
+    )
+    return theta
+
+
+zs = [data_figure_9[_]["em"] for _ in data_figure_9]
+_em_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
+                                               kind = 'linear',
+                                               )
+
+
+def calc_em_from_figure_9_data(k, phi):
+    em = float(
+        max(
+            0,
+            _em_interpolator_figure_9_log10(
+                log10(k), log10(phi) if phi > 0 else l10phi_for_phi_0,
+            ),
+        )
+    )
+    return em
+
+
+def calc_beta_from_figure_9(k, phi, theta):
+    theta_max = calc_theta_from_figure_9_data(k, phi)
+    em = calc_em_from_figure_9_data(k, phi)
+    beta_o = pi / 2 * em / theta_max if theta_max > 0 else 0
+    part = cos(max(0, min(pi / 2, pi / 2 * theta / theta_max))) if theta_max > 0 else 0
+    return beta_o * part
+
+
 data_table_i = {  # phi as keys
     0: {
     'ks': (.5, 1, 4, 40),
@@ -42,13 +121,43 @@ data_table_i = {  # phi as keys
     },
 }
 # fmt: on
+# fmt: off
+data_table_i_augmented = {  # phi as keys, augmented with Figures 6 & 7
+    0: {
+    'ks': (0.2,  .5, 1, 4, 40),
+        'ems': (0.02, .205, .380, .741, .92),
+        'theta': (.195,   .716, .980, 1.379, 1.518),
+    },
+    100: {
+        'ks': (0.2,  .5, 1, 4, 40),
+        'ems': (0.012, .157, .309, .680, .924),
+        'theta': (0.15,  .601, .865, 1.291, .1522),
+    },
+    1000:
+        {
+            'ks': (0.2,   .5, 1, 4, 40),
+            'ems': (0.008,   .116, .250, .616, .830),
+        'theta': (0.13,   .504, .76, 1.2, 1.445),
+        },
+    10000: {
+        'ks': (0.2,   .5, 1, 4, 40),
+        'ems': (0.004, .070, .157, .480, .775),
+        'theta': (.1,   .385, .595, 1.060, 1.345),
+    },
+    50000: {
+        'ks': (0.2,  .5, 1, 4, 40),
+        'ems': (0.001, .038, .105, .378, .682),
+        'theta': (0.06,   .267, .450, .916, 1.258),
+    },
+}
+# fmt: on
 
 l10phi_for_phi_0 = 0
 
-log10_ks = [log10(k) for k in data_table_i[0]["ks"]]
-log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_i]
-phis = [_ for _ in data_table_i]
-zs = [data_table_i[_]["theta"] for _ in data_table_i]
+log10_ks = [log10(k) for k in data_table_i_augmented[0]["ks"]]
+log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_i_augmented]
+phis = [_ for _ in data_table_i_augmented]
+zs = [data_table_i_augmented[_]["theta"] for _ in data_table_i_augmented]
 
 _theta_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind="cubic")
 
