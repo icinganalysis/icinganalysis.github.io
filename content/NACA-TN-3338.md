@@ -73,13 +73,17 @@ and a "faired" curve through them manually produced.
 ![Figure 18](images/naca-tn-3338/Figure18.png)
 
 The cylinder angle theta values can be translated into drop impingement limits and plotted. 
+(Note that drop radius "a" is used here, not diameter) 
 
 ![Figure 21](images/naca-tn-3338/Figure21.png)
+
+It is not surprising that the curves tend to flat-line at low drop sizes. 
+The drop radii for K=0.125, where impingement would be zero, are noted on the figure as "ac".
 
 The analysis was also conducted using data from Langmuir and Blodgett,
 shown in Figure 22 below. 
 It is not clear how this was done, as L&B did not provide beta curves. 
-I speculate that the L&B Beta_o and Theta_max values were used with an
+I speculate that the L&B Em and Theta_max values were used with an
 assumed cosine relationship as in NACA-TN-2904.
 
 > ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](images/naca-tn-2904/beta_cos.png)
