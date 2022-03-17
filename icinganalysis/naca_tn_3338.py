@@ -183,7 +183,7 @@ if __name__ == "__main__":
     plt.plot(
         [_ / 2 for _ in ds],
         cumulative_lwcs,
-        lw=2,
+        lw=3,
         label="2 inch, Using NACA example intervals",
     )
     plt.xlim(0)
@@ -208,7 +208,7 @@ if __name__ == "__main__":
 
     plt.figure(42)
     plt.plot(
-        [_ / 2 for _ in ds], cumulative_lwcs, "--", lw=2, label="using 50 intervals"
+        [_ / 2 for _ in ds], cumulative_lwcs, "--", lw=3, label="using 50 intervals"
     )
     plt.xlim(0, 40)
     plt.xlabel("Drop radius, micrometer")
