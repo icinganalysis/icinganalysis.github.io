@@ -9,7 +9,7 @@ M_PER_FT = M_PER_INCH * INCHES_PER_FT
 G_PER_KG = 1000
 
 from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement
-from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
+from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi, calc_d_drop_from_k
 from scipy.optimize import minimize_scalar
 from scipy.interpolate import interp1d
 from math import degrees, radians
@@ -217,5 +217,11 @@ if __name__ == "__main__":
     plt.legend()
 
     plt.savefig("naca_tn_3338_example.png", transparent=True)
+
+
+    k = 0.125
+    for d_cyl in [_*.0254 for _ in (2, 4, 6)]:
+        print(d_cyl, calc_d_drop_from_k(k, tk, u, d_cyl))
+
 
     plt.show()
