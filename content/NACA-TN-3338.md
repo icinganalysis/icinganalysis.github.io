@@ -7,6 +7,12 @@ status: draft
 
 #"A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" [^1]
 
+##Summary 
+A pioneering test method is described, and a drop size measurement analysis that did not quite work out.
+
+##Key points  
+1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
+2. An analysis of test results attempted to determine the water spray drop size spectrum.
 
 ##Abstract
 
@@ -154,7 +160,7 @@ there are data for three cylinder diameters to apply.
 This could yield values for MVD, LWC, and Langmuir distribution type, 
 which is at least characterization of the breadth of the distribution. 
 Author von Glahn was familiar with the multicylinder instrument. 
-He also an author of NACA-RM-E51B12, which noted the use of multicylinders 
+He was an author of NACA-RM-E51B12, which noted the use of multicylinders 
 in the calibration of the icing tunnel: 
 > Cloud droplet sizes and liquid-water contents in the tunnel
 were measured by the rotating-multicylinder method and were in the
@@ -163,7 +169,7 @@ range of natural icing conditions.
 I note how casually the (then) NACA Lewis Icing Wind Tunnel (IRT) is mentioned. 
 There is no citation for the tunnel and its capabilities 
 (in contrast, there are at least 18 publications in the NASA era about the IRT and its uses). 
-The ASME recognized it as an "International Historic Mechanical Engineering Landmark" in 1987. 
+The ASME recognized the IRT as an "International Historic Mechanical Engineering Landmark" in 1987. 
 
 ##Conclusions
 
@@ -219,7 +225,6 @@ Cites 13
 - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.
 - Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
 
-
 cited by 10
 
 - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.
@@ -252,12 +257,11 @@ Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
 see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md). 
 And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. 
 
-The dye-blotter technique will be used in the post-NACA era, see NACA-CR-4257 [].
+The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 [].
 
 
 ##Notes  
 [1]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
-
 
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
 
@@ -265,10 +269,12 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 
 An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies
 
-
-Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Whitmer, L.: "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three- Dimensional Bodies," NASA CR–4257, Nov. 1989.
+Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Whitmer, L.: "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three- Dimensional Bodies," NASA-CR-4257, Nov. 1989.
 https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf
 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&btnG=  
 
 https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf  
+
+
+von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.
