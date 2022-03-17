@@ -3,15 +3,17 @@ Category: NACA
 tags: cylinder  
 status: draft
 
-> ###"... the effect on final results of droplets that do not freeze completely on the cylinders"  
+> ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
 #"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
 
 ##Summary 
-Stuff
+Conditions where not all water drops freeze are considered.
 
 ##Key points  
-1. point  
+1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).
+2. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
+3. The terms "freezing fraction" is introduced into the NACA publications.
 
 ##Abstract
 
@@ -19,7 +21,7 @@ Stuff
 measurement of droplet-size distribution, volume-median droplet
 size, and liquid-water content in clouds showed that small 
 uncertainties in the basic data eliminate the distinction between
-diferent cloud droplet-size distributions and are a source of
+different cloud droplet-size distributions and are a source of
 large errors in the determination of the droplet size. Calculations 
 of the trajectories of cloud droplets in incompressible and
 compressible flow fields around a cylinder were performed on a
@@ -47,7 +49,7 @@ by the inherent insensitivity of the multicylinder method.
 
 ##Discussion
 
-#"supersedes" NACA-TN-2903, NACA-TN-2903, and NACA-RM-E53D23
+###"supersedes" NACA-TN-2903, NACA-TN-2903, and NACA-RM-E53D23
 
 NACA-TR-1215 "supersedes" NACA-TN-2903 [^2], NACA-TN-2903 [^3], and NACA-RM-E53D23 [^4]. 
 Large portions of each of those is reproduced in NACA-TR-1215, 
@@ -69,7 +71,7 @@ perhaps implying that there would be no need to look at them again?
 Brun was an author on all four publications. 
 (See also the "Conclusions" section below).
 
-#droplets that do not freeze completely
+###droplets that do not freeze completely
 
 The significant part that NACA-TR-1215 adds 
 is the effect of of water drops that do not completely freeze. 
@@ -129,7 +131,7 @@ from which reliable results are unobtainable can
 also be recognized and rejected.
 
 
-#Freezing fraction
+###Freezing fraction
 
 NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time in the NACA series.
 
