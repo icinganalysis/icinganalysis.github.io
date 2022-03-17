@@ -128,10 +128,6 @@ section.
 
 ![Figure 23](images/naca-tn-3338/Figure23.png)
 
-One may note that Figure 23 is more similar to Figure 22 (L&B) than Figure 21 (NACA-TN-2904 method), 
-but the authors did not note this. 
-
-
 > The accuracy of determining droplet size distribution by the use of
 the dye-tracer technique together with theoretical trajectory data could
 be definitely established if an accurate instrument were available to
@@ -258,8 +254,9 @@ if care is taken in both the sample collection and the processing of the samples
 [I have personally used the oiled-slide method in natural icing flight tests].  
 
 Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
-see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md). 
-And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. 
+see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md),
+and was an advocate for the multicylinder method. 
+NACA-TN-3338 chose to make comparision to a Langmuir distribution. 
 
 The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 [].
 
