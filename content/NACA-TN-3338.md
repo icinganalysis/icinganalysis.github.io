@@ -3,7 +3,8 @@ Category: NACA
 tags: cylinder
 status: draft
 
-###>_"The present state of development of the camera (ref. 16) or the oiled-slide technique (ref. 17) for measuring droplet size is not considered so adequate a means for determining droplet size as the indirect method herein described."_
+
+###>_"a method has been developed ... to determine the droplet size distribution of the impinging cloud"_
 
 #"A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" [^1]
 
@@ -14,6 +15,8 @@ A pioneering test method is described, and a drop size measurement analysis that
 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
 2. An analysis of test results attempted to determine the water spray drop size spectrum. 
 3. The dye-tracer analysis is compared to the multicylinder method. 
+4. The analysis method is limited by the lack of an independent measurement of drop sizes.
+5. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread.
 
 ##Abstract
 
@@ -135,6 +138,8 @@ section.
 
 ![Figure 23](images/naca-tn-3338/Figure23.png)
 
+###Need an independent measurement of drop sizes
+
 > The accuracy of determining droplet size distribution by the use of
 the dye-tracer technique together with theoretical trajectory data could
 be definitely established if an accurate instrument were available to
@@ -144,7 +149,7 @@ camera (ref. 16) or the oiled-slide technique (ref. 17) for measuring
 droplet size is not considered so adequate a means for determining droplet 
 size as the indirect method herein described.
 
-Unfortunately, we may never know the accuracy of the method, 
+Unfortunately, we cannot know the accuracy of the method with the data in NACA-TN-3338, 
 as there was not an independent measurement of the drop size distribution. 
 Figure 23 frankly does not look like a natural or artificially produced drop size sprectrum that I have seen 
 (they usually have an "S" shape, not a steep slope at one end), 
@@ -178,22 +183,28 @@ in the calibration of the icing tunnel:
 were measured by the rotating-multicylinder method and were in the
 range of natural icing conditions. 
 
+While the cylinders were not rotating, that does not limit the applicability of the method, 
+as the main reason for rotating the cylinders is to make any ice accretion stay close to a cylindrical shape,
+rather than some other shape for which the impingement characteristics are unknown. 
+With the dye-tracer method, the surface shape does not change. 
+
 I performed the multicylinder comparison shown below in the file "naca_tn_3338_multicylinder.py". 
 There are some similarities, but the NACA-TN-3338 method is generally steeper in the middle, 
 and flatter on the ends than the multicylinder best fits. 
 
 ![Figure 21 multicylinder comparison](images/naca-tn-3338/Figure21_multicylinder.png)
 
-If I had to pick a best guess as to the true distribution, 
-or at least a "close enough" representation,
-I would pick the "Langmuir-Blodgett multicylinder_k_phi_unique" line. 
-By that reckoning, the NACA-TN-3338 figure 21 values are "not bad" for MVD and LWC 
-(it is hard to establish accuracy with only one comparision),
-but, as mentioned above, have a different distribution shape.
+We cannot determine which distribution is more representative with the data in NACA-TN-3338, 
+or other NACA-era data that I know of. 
+However, more recent tools may help, and we will look at those at the end of the Cylinders thread. 
+(Spoiler alert: one of the several distributions above does not fare well.)
 
-I note how casually the (then) NACA Lewis Icing Wind Tunnel (IRT) is mentioned. 
+#Icing Research Tunnel
+
+I note how casually the (then) NACA Lewis Icing Research Tunnel (IRT) is mentioned (now the Nasa Glenn IRT). 
 There is no citation for the tunnel and its capabilities, 
-and I had to look hard to find that one line from NACA-RM-E51B12 about using the rotating-multicylinder.
+and I had to look hard to find that one line from NACA-RM-E51B12 about using the rotating-multicylinder 
+to measure MVD.
 (In contrast, there are at least 18 publications in the NASA era about the IRT and its uses). 
 The ASME recognized the IRT as an "International Historic Mechanical Engineering Landmark" in 1987. 
 
