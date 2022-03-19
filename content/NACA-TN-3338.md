@@ -47,7 +47,7 @@ Cylinder test articles were constructed.
 
 ![Figure 9](images/naca-tn-3338/Figure9.png)
 
-After the blotter paper was exposed to dye spray, the paper was analyzed for dye concentration. 
+After the blotter paper was exposed to water spray with dye in it, the paper was analyzed for dye concentration. 
 
 ![Figure 12](images/naca-tn-3338/Figure12.png)
 
