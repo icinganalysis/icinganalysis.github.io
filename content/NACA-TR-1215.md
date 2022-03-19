@@ -139,7 +139,7 @@ NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time i
 
 Note that the term is defined on a mass basis (F17) and then transformed to an energy basis (36).
 
-Here, the term is credited to Fraser [^6], which was published in August, 1952.
+Here, the term is credited to Fraser [^6] ("reference 18"), which was published in August, 1952.
 
 The term is generally credited to Messinger [^7], which was published in a journal in January, 1953. 
 However, Messinger had presented the paper at a meeting in 1951. 

@@ -13,8 +13,9 @@ A pioneering test method is described, and a drop size measurement analysis is p
 
 ##Key points  
 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
-2. An analysis of test results to determine the water spray drop size distribution is described. 
-4. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes.
+2. An analysis of test results to determine the water spray drop size spectrum is described. 
+3. The dye-tracer analysis is compared to the multicylinder method. 
+4. The analysis method is limited by the lack of an independent measurement of drop sizes.
 5. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread.
 
 ##Abstract
@@ -37,6 +38,9 @@ can be maintained near saturation.
 
 ##Discussion
 
+I characterize this as a pioneering test method, 
+and a brilliant results analysis that did not quite work out. 
+
 ###The spray system
 
 There is a detailed discussion of a dye and blotter paper method of experimentally 
@@ -47,7 +51,7 @@ Cylinder test articles were constructed.
 
 ![Figure 9](images/naca-tn-3338/Figure9.png)
 
-After the blotter paper was exposed to dye spray, the paper was analyzed for dye concentration. 
+After the blotter paper was exposed to dye spray, the paper was analyzed for de concentration. 
 
 ![Figure 12](images/naca-tn-3338/Figure12.png)
 
@@ -74,7 +78,7 @@ Fractions of total water content for each segment are determined during the proc
 ![Figure 17](images/naca-tn-3338/Figure17.png)
 
 The values from each group or segment are plotted, 
-and a "faired" curve through them is manually produced. 
+and a "faired" curve through them manually produced. 
 
 ![Figure 18](images/naca-tn-3338/Figure18.png)
 
@@ -88,8 +92,8 @@ The drop radii for K=0.125, where impingement would be zero, are noted on the fi
 
 The analysis was also conducted using data from Langmuir and Blodgett,
 shown in Figure 22 below. 
-It is not clear how this was done, as Langmuir and Blodgett did not provide beta curves. 
-I speculate that the Langmuir and Blodgett Em and Theta_max values were used with an
+It is not clear how this was done, as L&B did not provide beta curves. 
+I speculate that the L&B Em and Theta_max values were used with an
 assumed cosine relationship as in NACA-TN-2904.
 
 > ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](images/naca-tn-2904/beta_cos.png)
@@ -97,7 +101,7 @@ assumed cosine relationship as in NACA-TN-2904.
 
 ![Figure 22](images/naca-tn-3338/Figure22.png)
 
-The results from Figure 22 were set aside in favor of the NACA-TN-2904 results from Figure 21.
+The results were set aside in favor of the NACA-TN-2904 results from Figure 21.
 
 > The differences noted (between
 figs. 21 and 22) are again caused by the differences inherent in the
@@ -164,35 +168,45 @@ Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
 see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md). 
 And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. 
 
-###Icing Research Tunnel
+###Multicylinder comparison
 
-I note how casually the (then) NACA Lewis Icing Research Tunnel (IRT) is mentioned (now the Nasa Glenn IRT). 
-
-> The experimental studies of droplet
-impingement characteristics on cylinders were conducted in the 6- by
-9-foot-test section of the NACA icing tunnel.
-
-There is no citation for the tunnel and its capabilities. 
-(In contrast, there are at several publications in the calibration of the IRT). 
-The ASME recognized the IRT as an "International Historic Mechanical Engineering Landmark" in 1987. 
-Readers may be interested in 
-["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162).
-
-The drop measurement technique described here would not be useful for the calibration of the IRT, 
-as a different set of spray nozzles was used to allow fast spray activation and deactivation. 
-Even if the spray parts of the nozzles were similar, 
-installation details can cause differences in the spray cloud.
-
-The IRT merits further review. 
-For now, I will note that calibration of the tunnel in the NACA era was a challenge, 
-in part due to limited instrumentation.
-Author von Glahn of NACA-TN-3338 was an author of NACA-RM-E51B12, which noted the use of multicylinders 
+I wonder why they did not use the "go-to" method of the multicylinder analysis. 
+This was perhaps another lost opportunity that would not require technology beyond what was available. 
+Assuming that the measured impingement rates are accurate, 
+there are data for three cylinder diameters to apply. 
+This could yield values for MVD, LWC, and Langmuir distribution type, 
+which is at least characterization of the breadth of the distribution. 
+Author von Glahn was familiar with the multicylinder instrument. 
+He was an author of NACA-RM-E51B12, which noted the use of multicylinders 
 in the calibration of the icing tunnel: 
 > Cloud droplet sizes and liquid-water contents in the tunnel
 were measured by the rotating-multicylinder method and were in the
 range of natural icing conditions. 
 
-Contrast that to the detail in a post-NACA calibration of the IRT [].
+While the cylinders were not rotating, that does not limit the applicability of the method, 
+as the main reason for rotating the cylinders is to make any ice accretion stay close to a cylindrical shape,
+rather than some other shape for which the impingement characteristics are unknown. 
+With the dye-tracer method, the surface shape does not change. 
+
+I performed the multicylinder comparison shown below in the file "naca_tn_3338_multicylinder.py". 
+There are some similarities, but the NACA-TN-3338 method is generally steeper in the middle, 
+and flatter on the ends than the multicylinder best fits. 
+
+![Figure 21 multicylinder comparison](images/naca-tn-3338/Figure21_multicylinder.png)
+
+We cannot determine which distribution is more representative with the data in NACA-TN-3338, 
+or other NACA-era data that I know of. 
+However, more recent tools may help, and we will look at those at the end of the Cylinders thread. 
+(Spoiler alert: one of the several distributions above does not fare well.)
+
+#Icing Research Tunnel
+
+I note how casually the (then) NACA Lewis Icing Research Tunnel (IRT) is mentioned (now the Nasa Glenn IRT). 
+There is no citation for the tunnel and its capabilities, 
+and I had to look hard to find that one line from NACA-RM-E51B12 about using the rotating-multicylinder 
+to measure MVD.
+(In contrast, there are at least 18 publications in the NASA era about the IRT and its uses). 
+The ASME recognized the IRT as an "International Historic Mechanical Engineering Landmark" in 1987. 
 
 ##Conclusions
 
@@ -229,11 +243,6 @@ used in theoretical trajectory calculations are valid. This determination
 requires an independent means (reliable instrument) for measuring
 the droplet size distribution.
 
-The accuracy of the various drop distributions shown above are unknown, 
-due to the lack of an independent comparison measurement. 
-I do not know of data from the NACA era that could clarify the accuracy. 
-We will look at a comparison of post-NACA data at the end of the Cylinders thread.
-
 
 ##Citations
 
@@ -269,9 +278,24 @@ cited by 10
 26 citations
 
 ##Related  
+> The present state of development of the
+camera (ref. 16) or the oiled-slide technique (ref. 17) for measuring
+droplet size is not considered so adequate a means for determining droplet 
+size as the indirect method herein described.
+ 
+I think that here NACA-TN-3338 missed an opportunity. 
+The oiled-slide measurement technique was studied in detail by Langmuir [^], 
+and the potential shortcoming of the method noted. 
+However, the technique can yield accurate results, 
+if care is taken in both the sample collection and the processing of the samples. 
+[I have personally used the oiled-slide method in natural icing flight tests].  
 
-The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 []. 
-That data did have an independent measurement of the drop size distribution. 
+Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
+see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md),
+and was an advocate for the multicylinder method. 
+NACA-TN-3338 chose to make comparision to a Langmuir distribution. 
+
+The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 [].
 
 
 ##Notes  
@@ -288,13 +312,11 @@ https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf
 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&btnG=  
 
-Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987.
 https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf  
 
 [^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 
 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.
 
-Ide, Robert F., Oldenberg, John R.:"Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
-https://apps.dtic.mil/sti/pdfs/ADA392590.pdf
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
