@@ -51,9 +51,12 @@ After the blotter paper was exposed to dye spray, the paper was analyzed for dye
 
 ![Figure 12](images/naca-tn-3338/Figure12.png)
 
-Special nozzles with fast acing solenoids were used. 
-It is not clear to me if the nozzles were otherwise similar to the Icing Research Tunnel 
-"STD" or "MOD1" nozzles, so they may produce a different spray characteristic. 
+Special nozzles with fast acting solenoids were used, but the spray part was the same as the usual IRT nozzles. 
+
+> These nozzles are of the same design as those used
+in the main icing spray system of the icing tunnel and are located in
+the same low-air-velocity section of the tunnel.
+
 
 ![Figure 11](images/naca-tn-3338/Figure11.png)
 
@@ -178,10 +181,10 @@ The ASME recognized the IRT as an "International Historic Mechanical Engineering
 Readers may be interested in 
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162).
 
-The drop measurement technique described here would not be useful for the calibration of the IRT, 
-as a different set of spray nozzles was used to allow fast spray activation and deactivation. 
-Even if the spray parts of the nozzles were similar, 
-installation details can cause differences in the spray cloud.
+The drop measurement technique described here may not be completely useful for the calibration of the IRT, 
+as even if the spray parts of the nozzles were similar, 
+installation details can cause differences in the spray cloud. 
+And NACA-TN-3338 reported three candidate distributions, without data to select which is the best one.
 
 The IRT merits further review. 
 For now, I will note that calibration of the tunnel in the NACA era was a challenge, 
