@@ -1,4 +1,4 @@
-Title: NACA-TN-3338 
+Title: NACA-TN-3338X 
 Category: NACA
 tags: cylinder
 status: draft

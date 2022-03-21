@@ -1,7 +1,6 @@
 Title: NACA-TR-1215  
 Category: NACA  
 tags: cylinder  
-status: draft
 
 > ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
