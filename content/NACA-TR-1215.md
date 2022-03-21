@@ -108,7 +108,7 @@ smaller than the effect of discontinuities (gaps) in the cloud.
 Figure 24 shows cases where the cylinder masses are well below the critical line (a),
 some masses are affected (b and c), and all cylinders (d).  
 
-![Figure 24](images/naca-tr-1215/NACA-TR-1215_Figure_24.png)
+![Figure 24](images/naca-tr-1215/Figure24.png)
 
 Data affected by run-off may still be useful in some circumstances:
 
