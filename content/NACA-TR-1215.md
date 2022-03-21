@@ -68,7 +68,6 @@ However, note that the three are conspicuously missing from the references of NA
 (although they appear in a foot note),
 perhaps implying that there would be no need to look at them again?
 Brun was an author on all four publications. 
-(See also the "Conclusions" section below).
 
 ###droplets that do not freeze completely
 
