@@ -8,14 +8,20 @@ status: draft
 
 #Conclusion of the Cylinders Thread 
 
+##Summary  
+Data from the post-NACA era is used to resolve open questions
 
+##Key points
+We will answer questions about:
+1. differences in analysis methods between Langmuir and Blodgett, and NACA-TN-2904 (which one is more accurate?)
+2. the accuracy of the multicylinder method 
+3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions? 
 
 ##Discussion
 
+###Review of the Cylinders thread so far
 
-###Review 
-
-We saw:
+In the Cylinders thread, we saw:
 
 - A pioneering analysis of water drop impingement on a cylinder (NACA-TN-779)
 - The most cited aircraft icing publication, with more detail of water drop impingement on a cylinder, and the rotating multicylinder instrument
@@ -26,8 +32,8 @@ We saw:
 - The ability of the multicylinder method to determine drop distribution was questioned several times, including NACA-TN-1904
 - a comparison test of three similar multicylinders found differences (NACA-TN-2708) 
 - ["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)
-- The effect of compressibility on impngment calculation was found to be "negligable" (NACA-TN-2903) 
-- A "more detailed" water drop impingement analysis method was presented (NACA-TN-2904)
+- The effect of compressibility on impngment calculation was found to be "negligible" (NACA-TN-2903) 
+- An analysis method to "more precisely" calculate water drop impingement was presented (NACA-TN-2904)
 - Data analysis methods can affect multicylinder results (NACA-RM-E53D23) 
 - The effect of incomplete freezing in some cases on multicylinder results was quantified (NACA-TR-1215)
 - A pioneering dye-tracing impingment test method was used (NACA-TN-3338) 
@@ -36,14 +42,10 @@ And several programs in the Python programming language are available to reprodu
 
 ###Open questions
 
-Left unanswered were questions about:
+We will look at some data from the post-NACA era to help resolve these questions.
 1. differences in analysis methods between Langmuir and Blodgett, and NACA-TN-2904 (which one is more accurate?)
 2. the accuracy of the multicylinder method 
-<!--
 3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions? 
--->
-
-We will look at some data from the post-NACA era to help resolve these questions.
 
 ##NASA-CR-4257
 
@@ -54,13 +56,13 @@ Water drop impingement rates were measured and presented as beta curves.
 The repeatability of the results was estimated as +/-10%.
 There are also beta curves determined by water drop trajectory analysis (the "Breer" method).
 
+[Note: I have worked with one of the authors, Marlin Breer.]
+
 Two cases were measured, at 20.36 and 16.45 MVD.
 
 ![Figure 6.6A](images/nasa-cr-4257/Figure_6_6a.png)  
 
 ![Figure 6.6B](images/nasa-cr-4257/Figure_6_6b.png)  
-
-[Note: I have worked with one of the authors, Marlin Breer.]
 
 Detailed drop size distributions were measured using a "Fiber Optics Particle Sizing System". 
 30 bin data were published 
@@ -81,7 +83,8 @@ This reference also certainly merits a more complete review, but for now we will
 The LEWICE computer program calculates water drop impingement rates on a body.
 (It can also calculate ice shapes). 
 
-It uses by default a compressible, potential flow solution. 
+LEWICE uses, by default, a compressible, potential flow solution 
+(users have an option to use a separately determined flow solution). 
 Drop trajectories are calculated by releasing drops upstream, 
 and seeing where they impinge (not unlike the methods in NACA-TN-779, Langmuir-Blodgett, and NACA-TN-2904).
 
@@ -99,6 +102,7 @@ and agree fairly well with the test values (within the +/-10% variation).
 The Breer method trends slightly lower.
 
 ![Comparison to Figure 6.6A](images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6A.png)  
+
 ![Comparison to Figure 6.6B](images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6B.png)  
 
 The results are compared in tables below. 
@@ -126,7 +130,7 @@ while the Langmuir and Blodgett values are within the variation.
 While I am inclined to view the Langmuir-Blodgett method as more accurate than the NACA-TN-2904 method, 
 I would like to see more impingement data to determine it with more confidence. 
 There is more cylinder test data that I am aware of, but as ice shapes, 
-not direct impingement measurements, so the question may be left largely unresolved. 
+not direct impingement measurements, so the question may be not completely resolved. 
 
 ##Multicylinder method measurement accuracy
 
@@ -181,11 +185,11 @@ When the distributions determined by the multicylinder methods are run in LEWICE
 the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
 and less well for the NACA-TN-2904 multicylinder method. 
 
-![](images/naca-tn-3338/Langmuir E original_6.png) 
+![Water catch rates calculated with Langmuir multicylinder fit](images/naca-tn-3338/Langmuir E original_6.png) 
 
-![](images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png) 
+![Water catch rates calculated with NACA-TN-2904 multicylinder fit](images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png) 
 
-![](images/naca-tn-3338/Langmuir E k_phi_unique_6.png)
+![Water catch rates calculated with Langmuir multicylinder_k_phi_unique fit](images/naca-tn-3338/Langmuir E k_phi_unique_6.png)
 
 So, a drop distribution determined by the multicylinder method 
 (which is driven by cylinder Em values) 
@@ -202,7 +206,7 @@ NACA-TN-3338 presented (at least) three drop distributions to represent the same
 While I was sceptical of them, I ran them in LEWICE, 
 and the Example from NACA-TN-3338 did an excellent job of reproducing the measured masses. 
 
-![](images/naca-tn-3338/Example_6.png)
+![Water catch rates calculated with NACA-TN-3338 Example distribution](images/naca-tn-3338/Example_6.png)
 
 When we plot the cumulative LWC vs. drop size for the distributions 
 they may not appear to be very "similar", but three of them yielded very similar 
@@ -212,26 +216,35 @@ but the "Langmuir_k_phi_unique" line yielded a significantly better water catch 
 So, I caution against reading too much into distribution plot comparisons for their 
 relative effects on water catch. 
 
-![](images/naca-tn-3338/distributions.png)
+![Comparison of distributions](images/naca-tn-3338/distributions.png)
 
-
-#Natural distributions
+#Natural drop size distributions
 
 We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24. 
+(Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 
 
-![](images/FAA_RD_80_24/Figure20.png)
+![FAA-RD-80-24 Figure 20](images/FAA_RD_80_24/Figure20.png)
 
-I selected the 6000 ft data, and fit Langmuir distributions to that, 
-using LEWICE to determine the cylinder masses. 
+I selected the 6000 ft data.
+Alas, there was not a multicylinder instrument included in this test, 
+so we will again use LEWICE to get the cylinder masses to use for the fitting. 
 I use the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.
 
-![](images/FAA_RD_80_24/RD80_mc_fits.png)
+![Langmuir distribution fits to Figure 20 data](images/FAA_RD_80_24/RD80_mc_fits.png)
 
-As in the prior examples, Beta curves were calculated and compared.
+As in the prior examples, Beta curves were calculated with LEWICE. 
+The Langmuir C best fit reproduces the measure test distribution ("ASSP") 
+Beta curves very well, 
+and the Langmuir E fit works well. 
 
-![](images/FAA_RD_80_24/RD80_betas.png)
+![Calculated beta curve for the cylinders with distibutions](images/FAA_RD_80_24/RD80_betas.png)
 
-
+So, even if multicylinder distributions may not appear to be similar to a 
+more detailed, measured natural distribution, they can be used to reproduce impingement values 
+quite well. 
+The apparent difference in drop size distributions made 
+little effective difference in impingement. 
+For this case, at least, a Langmuir C fit or a Langmuir E fit both work well.
 
 ##Notes:
 [^1]: 
