@@ -32,7 +32,7 @@ In the Cylinders thread, we saw:
 - The ability of the multicylinder method to determine drop distribution was questioned several times, including NACA-TN-1904
 - a comparison test of three similar multicylinders found differences (NACA-TN-2708) 
 - ["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)
-- The effect of compressibility on impngment calculation was found to be "negligible" (NACA-TN-2903) 
+- The effect of compressibility on impingment calculation was found to be "negligible" (NACA-TN-2903) 
 - An analysis method to "more precisely" calculate water drop impingement was presented (NACA-TN-2904)
 - Data analysis methods can affect multicylinder results (NACA-RM-E53D23) 
 - The effect of incomplete freezing in some cases on multicylinder results was quantified (NACA-TR-1215)
@@ -193,7 +193,7 @@ and less well for the NACA-TN-2904 multicylinder method.
 
 So, a drop distribution determined by the multicylinder method 
 (which is driven by cylinder Em values) 
-can be used to well reproduce the composite water catch, built from Beta curves. 
+can be used to reproduce well the composite water catch, built from Beta curves. 
  
 This is an illustration of the applicability and accuracy of the multicylinder distribution measurements, 
 at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in this case).
@@ -245,6 +245,9 @@ quite well.
 The apparent difference in drop size distributions made 
 little effective difference in impingement. 
 For this case, at least, a Langmuir C fit or a Langmuir E fit both work well.
+For me, this mitigates the concern expressed in NACA-TN-2904 and several other places of: 
+> ... the inherent extreme insensitivity of the rotating multicylinder method to
+differences in droplet size distributions ...
 
 ##Notes:
 [^1]: 
