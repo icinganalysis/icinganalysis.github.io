@@ -128,7 +128,7 @@ I would like to see more impingement data to determine it with more confidence.
 There is more cylinder test data that I am aware of, but as ice shapes, 
 not direct impingement measurements, so the question may be left largely unresolved. 
 
-##Multicylinder measurement accuracy
+##Multicylinder method measurement accuracy
 
 Alas, cylinders of different diameters were not included in NASA-CR-4257. 
 However, three different cylinder diameters were included in NACA-TN-3338. 
@@ -151,24 +151,34 @@ With the dye-tracer method, the surface shape does not change.
 We will use the Python tools previously developed for multicylinders, 
 using the Langmuir and Blodgett, and the NACA-TN-2904 implementations. 
 
-![Figure 20](images/naca-tn-3338/Figure20.png)
+![Figure 20](images/naca-tn-3338/Figure20.png) 
 
 I digitized only one set of values for each cylinder diameter. 
 Industrious readers may wish to clone the software repository, 
 digitize more cases, and see if the results below still hold up. 
 
-<!--
-Original definition of MED and MVD?
--->
+Note the small and subtle difference between MED and MVD from AC 20-73A:
 
-Multicylinder Method| MVD | LWC | Best Fit Type
+>Appendix C icing conditions: 14 CFR parts 25, Appendix C and 29, Appendix C certification
+icing condition standard for approving ice protection provisions on aircraft. The conditions are
+specified by altitude, temperature, liquid water content (LWC), representative drop size (mean
+effective diameter (MED)), and cloud horizontal extent.
+
+>>NOTE: In Appendix C, the term “mean effective diameter” refers to
+what is now called the “median volume diameter (MVD).” The MED
+of Appendix C was determined by using rotating multi-cylinders and
+assuming a Langmuir distribution.
+
+So, I will use MED when reporting multicylinder results.
+
+Multicylinder Method| MED (micrometer) | LWC (g/m^3)| Best Fit Type
 ---|---|---|---
 Langmuir and Blodgett (original)| 18.8 | 0.458 | E
 NACA-TN-2904| 21.1 | 0.381 | E
 Langmuir and Blodgett (k_phi_unique)| 21.5 | 0.413 | E
 
 When the distributions determined by the multicylinder methods are run in LEWICE, 
-the measured mass values are reproduced well for the Langmuir and Blodgett methods, 
+the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
 and less well for the NACA-TN-2904 multicylinder method. 
 
 ![](images/naca-tn-3338/Langmuir E original_6.png) 
@@ -184,16 +194,35 @@ can be used to well reproduce the composite water catch, built from Beta curves.
 This is an illustration of the applicability and accuracy of the multicylinder distribution measurements, 
 at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in this case).
 
-This also adds weight to the view that the Langmuir and Blodgett methods are more accurate. 
+The comparisons above also add weight to the view that the Langmuir and Blodgett methods are more accurate than those of NACA-TN-2904. 
 
 ###A surprise from NACA-TN-3338
 
-NACA-TN-3338 presented (at least) three drop distributions to represent the drop distribution. 
-While I was highly sceptical of all on them, I ran them in LEWICE, 
-and the Example from Appendix C did an excellent job of reproducing the measured masses. 
+NACA-TN-3338 presented (at least) three drop distributions to represent the same test drop distribution. 
+While I was sceptical of them, I ran them in LEWICE, 
+and the Example from NACA-TN-3338 did an excellent job of reproducing the measured masses. 
 
 ![](images/naca-tn-3338/Example_6.png)
+
+When we plot the cumulative LWC vs. drop size for the distributions 
+they may not appear to be very "similar", but three of them yielded very similar 
+impingement analysis results. 
+The NACA-TN-2904 distribution may appear similar to the "Langmuir_k_phi_unique" line, 
+but the "Langmuir_k_phi_unique" line yielded a significantly better water catch result. 
+So, I caution against reading too much into distribution plot comparisons for their 
+relative effects on water catch. 
+
+![](images/naca-tn-3338/distributions.png)
+
+
+
+
 
 ##Notes:
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
+
+
+https://www.sae.org/standards/content/arp5624/  
+
+https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf
