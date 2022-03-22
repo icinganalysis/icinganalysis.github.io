@@ -6,7 +6,7 @@ status: draft
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
 
 
-#Conclusion of the Cylinders Thread 
+#Conclusions of the Cylinders Thread 
 
 ##Summary  
 Data from the post-NACA era is used to resolve open questions
@@ -125,9 +125,7 @@ LEWICE               |0.288|0.480   |79.8
 NACA-TN-2904         |0.308|0.549   |80.9
 Langmuir and Blodgett|0.287|0.461   |80.2
 
-The NACA-TN-2904 values are outside of the estimated +/-10% test measurement variations for Em and Beta_max, 
-while the Langmuir and Blodgett values are within the variation.   
-While I am inclined to view the Langmuir-Blodgett method as more accurate than the NACA-TN-2904 method, 
+While I am inclined to view the Langmuir and Blodgett method as more accurate than the NACA-TN-2904 method, 
 I would like to see more impingement data to determine it with more confidence. 
 There is more cylinder test data that I am aware of, but as ice shapes, 
 not direct impingement measurements, so the question may be not completely resolved. 
@@ -248,6 +246,48 @@ For this case, at least, a Langmuir C fit or a Langmuir E fit both work well.
 For me, this mitigates the concern expressed in NACA-TN-2904 and several other places of: 
 > ... the inherent extreme insensitivity of the rotating multicylinder method to
 differences in droplet size distributions ...
+
+##NACA era data that is still used today
+
+Data from the NACA era that is still used today include:
+1. Langmuir drop size distributions
+2. Icing physics terminology (K, Ko, MED, MVD)
+3. Cylinder impingement correlations
+4. An approximation of an airfoil leading edge
+5. Icing conditions in regulations were determined largely from multicylinder data
+6. Cylinder icing thermodynamics for icing indication and detection
+
+I will show examples of each of these.
+
+###Langmuir drop size distribution
+
+Langmuir and Blodgett: 
+ 
+![](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
+
+AC 20-73A: 
+
+![](images/ac2073a/LangmuirD.png)
+
+###Terminology 
+Langmuir and Blodgett: 
+ 
+![](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
+
+DOT/FAA/CT88-8/1:
+
+![](images/faa_ct_88_k_terms.png)
+
+#Correlations
+
+DOT/FAA/CT88-8/1: 
+
+![](images/FAA_CT_fig2_44.png)
+
+LTR-LT-92: 
+
+![](images/LTR-LT-92_correlations.png)
+
 
 ##Notes:
 [^1]: 
