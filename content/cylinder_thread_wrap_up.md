@@ -154,14 +154,45 @@ using the Langmuir and Blodgett, and the NACA-TN-2904 implementations.
 ![Figure 20](images/naca-tn-3338/Figure20.png)
 
 I digitized only one set of values for each cylinder diameter. 
+Industrious readers may wish to clone the software repository, 
+digitize more cases, and see if the results below still hold up. 
 
 <!--
 Original definition of MED and MVD?
 -->
 
+Multicylinder Method| MVD | LWC | Best Fit Type
+---|---|---|---
+Langmuir and Blodgett (original)| 18.8 | 0.458 | E
+NACA-TN-2904| 21.1 | 0.381 | E
+Langmuir and Blodgett (k_phi_unique)| 21.5 | 0.413 | E
 
+When the distributions determined by the multicylinder methods are run in LEWICE, 
+the measured mass values are reproduced well for the Langmuir and Blodgett methods, 
+and less well for the NACA-TN-2904 multicylinder method. 
 
+![](images/naca-tn-3338/Langmuir E original_6.png) 
 
+![](images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png) 
+
+![](images/naca-tn-3338/Langmuir E k_phi_unique_6.png)
+
+So, a drop distribution determined by the multicylinder method 
+(which is driven by cylinder Em values) 
+can be used to well reproduce the composite water catch, built from Beta curves. 
+ 
+This is an illustration of the applicability and accuracy of the multicylinder distribution measurements, 
+at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in this case).
+
+This also adds weight to the view that the Langmuir and Blodgett methods are more accurate. 
+
+###A surprise from NACA-TN-3338
+
+NACA-TN-3338 presented (at least) three drop distributions to represent the drop distribution. 
+While I was highly sceptical of all on them, I ran them in LEWICE, 
+and the Example from Appendix C did an excellent job of reproducing the measured masses. 
+
+![](images/naca-tn-3338/Example_6.png)
 
 ##Notes:
 [^1]: 
