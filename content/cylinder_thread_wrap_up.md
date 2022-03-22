@@ -278,7 +278,7 @@ DOT/FAA/CT88-8/1:
 
 ![](images/faa_ct_88_k_terms.png)
 
-#Correlations
+###Correlations
 
 DOT/FAA/CT88-8/1: 
 
@@ -287,6 +287,35 @@ DOT/FAA/CT88-8/1:
 LTR-LT-92: 
 
 ![](images/LTR-LT-92_correlations.png)
+
+###Approximation of an airfoil leading edge 
+
+Manual of Scaling Methods: 
+
+![](images/Manual of scaling methods/terms1.png) 
+![](images/Manual of scaling methods/terms2.png) 
+![](images/Manual of scaling methods/terms3.png) 
+
+###Icing conditions in regulations
+
+DOT/FAA/CT88-8/1: 
+
+![](images/Derivation of FAR standards.png)
+
+CFR 25, Appendix C:
+
+![](images/AppCfig1.png)
+
+###Cylinder icing thermodynamics for icing indication and detection
+
+NACA-TR-1215:
+
+![](images/naca-tr-1215/Fig24small.png)
+
+LTR-LT-92: 
+
+![](images/LRT-LT-92Fig3.png)
+
 
 
 ##Notes:
