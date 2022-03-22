@@ -215,6 +215,23 @@ relative effects on water catch.
 ![](images/naca-tn-3338/distributions.png)
 
 
+#Natural distributions
+
+We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24. 
+
+![](images/FAA_RD_80_24/Figure20.png)
+
+I selected the 6000 ft data, and fit Langmuir distributions to that, 
+using LEWICE to determine the cylinder masses. 
+I use the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.
+
+![](images/FAA_RD_80_24/RD80_mc_fits.png)
+
+As in the prior examples, Beta curves were calculated and compared.
+
+![](images/FAA_RD_80_24/RD80_betas.png)
+
+
 
 ##Notes:
 [^1]: 
