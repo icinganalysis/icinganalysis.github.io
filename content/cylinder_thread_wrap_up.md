@@ -261,7 +261,7 @@ and the more often cited version was published in 1946.
 See ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
 and ["A Langmuir B drop size distribution is (almost) a normal distribution"[]({filename}A Langmuir B distribution is almost a normal distribution.md) 
  
-![](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
+![Table IX](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
 
 More than 70 years later, they are still in use. 
 From FAA AC 20-73A, "Aircraft Ice Protection" [^6]: 
@@ -271,11 +271,11 @@ From FAA AC 20-73A, "Aircraft Ice Protection" [^6]:
 ###Terminology 
 May of the terms still in use were in Langmuir and Blodgett:  
  
-![](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
+![K terms](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
 
 From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 [^8]:
 
-![](images/faa_ct_88_k_terms.png)
+![K terms](images/faa_ct_88_k_terms.png)
 
 ###Correlations
 
@@ -283,21 +283,21 @@ The impingement correlations form Langmuir and Blodgett,
 and NACA-TN-2904 were summarized 
 and are available in plots such as this from the "Aircraft Icing Handbook" [^8]:
 
-![](images/FAA_CT_fig2_44.png)
+![Figure 2-44](images/FAA_CT_fig2_44.png)
 
 Langmuir and Blodgett correlation formulas are also used, as in the from 
 "An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9]:
 
-![](images/LTR-LT-92_correlations.png)
+![Page A2](images/LTR-LT-92_correlations.png)
 
 ###Approximation of an airfoil leading edge 
 
 The "Manual of Scaling Methods" [^10] details the use Langmuir and Blodgett correlations for 
 a cylinder as an approximation of an airfoil leading edge: 
 
-![](images/Manual of scaling methods/terms1.png) 
-![](images/Manual of scaling methods/terms2.png) 
-![](images/Manual of scaling methods/terms3.png) 
+![equation 3.5](images/Manual of scaling methods/terms1.png) 
+![equation 3.8](images/Manual of scaling methods/terms2.png) 
+![Figure 3.3.2](images/Manual of scaling methods/terms3.png) 
 
 ###Icing conditions in regulations
 
@@ -316,7 +316,7 @@ processed with the methods of Langmuir and Blodgett,
 and not the "more precisely" calculated methods in NACA-TN-2904. 
 NACA-TN-2904 was published too late to directly influence the icing regulations. 
 
-![](images/Derivation of FAR standards.png)
+![Figure 3-1](images/Derivation of FAR standards.png)
 
 The citation on the figure "Reference 3-12" is NACA-TN-2569, 
 but the figure is not to be found there, 
@@ -325,7 +325,7 @@ I have not found where the figure was originally from.
 
 NACA-TN-1855 (and others) are cited directly in the US icing regulations: 
 
-![](images/AppCfig1.png)
+![Appendix C Figure 1](images/AppCfig1.png)
 
 ###Cylinder icing thermodynamics for icing indication and detection
 
@@ -333,12 +333,12 @@ NACA-TR-1215 studied several flight icing data cases,
 and found some were affected by not all of the available water freezing. 
 An analysis of the freezing rates agreed well with the observed values: 
 
-![](images/naca-tr-1215/Fig24small.png)
+![Figure 24b](images/naca-tr-1215/Fig24small.png)
 
 "An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9] shows a similar effect, 
 plotted in a different format: 
 
-![](images/LRT-LT-92Fig3.png)
+![Fig. 3](images/LRT-LT-92Fig3.png)
 
 ##Conclusion
 

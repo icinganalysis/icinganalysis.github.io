@@ -161,7 +161,6 @@ _Cylinder Icing Data Use in the post-NACA Era (planned)_
 3. NACA era data that are still used today are summarized 
 -->
 
-
 _Python cylinder analysis updated with ambient temperature effects (deferred to Thermodynamics thread)_  
 
 ##Other
