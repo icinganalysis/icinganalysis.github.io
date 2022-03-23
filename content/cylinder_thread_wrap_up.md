@@ -110,7 +110,7 @@ The results are compared in tables below.
 The theta_max values for the Breer method may not have been digitized well by me, 
 as they were difficult to discern from the figures. 
  
-Method               |Em   |Beta_max|Theta_max
+Method               |Em   |Beta_max|Theta_max (degrees)
 ---                  |---  |---     |---
 Test Figure 6.6A     |0.380|0.540   |69.9
 Breer analysis       |0.352|0.520   |81.2
@@ -118,7 +118,7 @@ LEWICE               |0.373|0.556   |81.6
 NACA-TN-2904         |0.397|0.620   |82.0
 Langmuir and Blodgett|0.376|0.540   |81.7
 
-Method               |Em   |Beta_max|Theta_max
+Method               |Em   |Beta_max|Theta_max (degrees)
 ---                  |---  |---     |---
 Test Figure 6.6B     |0.245|0.430   |63.2
 Breer analysis       |0.259|0.445   |69.9
