@@ -5,7 +5,6 @@ status: draft
 
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
 
-
 #Conclusions of the Cylinders Thread 
 
 ##Summary  
@@ -14,7 +13,7 @@ Data from the post-NACA era is used to resolve open questions
 ##Key points
 1. The Cylinders thread is summarized
 2. Post-NACA era data is used to resolve some open questions.
-3. NACA era data that is still used today is summarized
+3. NACA era data that are still used today are summarized 
 
 ##Discussion
 
@@ -22,33 +21,33 @@ Data from the post-NACA era is used to resolve open questions
 
 In the Cylinders thread, we saw:
 
-- A pioneering analysis of water drop impingement on a cylinder (NACA-TN-779)
+- A pioneering analysis of water drop impingement on a cylinder ([NACA-TN-779]({filename}NACA-TN-779.md)) 
 - The most cited aircraft icing publication, with more detail of water drop impingement on a cylinder, and the rotating multicylinder instrument
-("Mathematical...") 
-- In flight icing measurements and an icing severity index (NACA-TN-1393)
-- An additional way to estimate drop size on a fixed cylinder (NACA-TN-1424)
-- Nine icing instruments compared (NACA-RM-A9C09)
-- The ability of the multicylinder method to determine drop distribution was questioned several times, including NACA-TN-1904
-- a comparison test of three similar multicylinders found differences (NACA-TN-2708) 
-- ["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)
-- The effect of compressibility on impingment calculation was found to be "negligible" (NACA-TN-2903) 
-- An analysis method to "more precisely" calculate water drop impingement was presented (NACA-TN-2904)
-- Data analysis methods can affect multicylinder results (NACA-RM-E53D23) 
-- The effect of incomplete freezing in some cases on multicylinder results was quantified (NACA-TR-1215)
-- A pioneering dye-tracing impingement test method was used (NACA-TN-3338) 
+(["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md)) 
+- In flight icing measurements and an icing severity index ([NACA-TN-1393]({filename}NACA-TN-1393.md))
+- An additional way to estimate drop size on a fixed cylinder ([NACA-TN-1424]({filename}NACA-TN-1424.md)) 
+- Nine icing instruments compared ([NACA-RM-A9C09]({filename}NACA-RM-A9C09.md))
+- The ability of the multicylinder method to determine drop distribution was questioned several times, including [NACA-TN-1904]({filename}NACA-TN-1904.md) 
+- a comparison test of three similar multicylinders that found differences (NACA-TN-2708) 
+- ["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md) 
+- The effect of compressibility on impingement calculation was found to be "negligible" ([NACA-TN-2903]({filename}NACA-TN-2903.md))  
+- An analysis method to "more precisely" calculate water drop impingement was presented ([NACA-TN-2904]({filename}NACA-TN-2904.md)) 
+- Data analysis methods can affect multicylinder results ([NACA-RM-E53D23]({filename}NACA-RM-E53D23.md)) 
+- The effect of incomplete freezing on multicylinder results was quantified ([NACA-TR-1215]({filename}NACA-TR-1215.md)) 
+- A pioneering dye-tracing impingement test method was used ([NACA-TN-3338]({filename}NACA-TN-3338.md)) 
 
-And several programs in the Python programming language are available to reproduce the results in several cases. 
+And several programs in the Python programming language are available to reproduce the results in several cases [^2]. 
 
 ##Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions.
-1. differences in analysis methods between Langmuir and Blodgett, and NACA-TN-2904 (which one is more accurate?)
+1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?)
 2. the accuracy of the multicylinder method 
 3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions? 
 
 ##Post-NACA era data
 
-###NASA-CR-4257
+###NASA-CR-4257 [^4]
 
 This reference certainly merits a more complete review, but for now we will settle for a summary. 
 
@@ -76,7 +75,7 @@ They were compared to a Langmuir D distribution.
 
 ![Figure E6](images/nasa-cr-4257/FigureE6_pr0_8_rot.png)
 
-###LEWICE  
+###LEWICE [^5]
 
 This reference also certainly merits a more complete review, but for now we will settle for a summary. 
 
@@ -159,7 +158,7 @@ I digitized only one set of values for each cylinder diameter.
 Industrious readers may wish to clone the software repository, 
 digitize more cases, and see if the results below still hold up. 
 
-Note the small and subtle difference between MED and MVD from AC 20-73A:
+Note the small and subtle difference between MED and MVD from AC 20-73A [^6]:
 
 >Appendix C icing conditions: 14 CFR parts 25, Appendix C and 29, Appendix C certification
 icing condition standard for approving ice protection provisions on aircraft. The conditions are
@@ -210,6 +209,7 @@ When we plot the cumulative LWC vs. drop size for the distributions
 they may not appear to be very "similar", but three of them yielded very similar 
 impingement analysis results. 
 The NACA-TN-2904 distribution may appear similar to the "Langmuir_k_phi_unique" line, 
+(see ["Implementation of cylinder impingement correlations in Python"]({filenae}Implementation of cylinder impingement correlations in Python.md))
 but the "Langmuir_k_phi_unique" line yielded a significantly better water catch result. 
 So, I caution against reading too much into distribution plot comparisons for their 
 relative effects on water catch. 
@@ -218,7 +218,7 @@ relative effects on water catch.
 
 #Natural drop size distributions
 
-We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24. 
+We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 [^7]. 
 (Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 
 
 ![FAA-RD-80-24 Figure 20](images/FAA_RD_80_24/Figure20.png)
@@ -250,19 +250,7 @@ differences in droplet size distributions ...
 A Langmuir distribution representation of an icing condition may not be the actual distribution, 
 but it is a functionally representative distribution. 
 
-##NACA era data that is still used today
-
-<!--
-Data from the NACA era that is still used today include:
-1. Langmuir drop size distributions
-2. Icing physics terminology (K, Ko, MED, MVD)
-3. Cylinder impingement correlations
-4. An approximation of an airfoil leading edge
-5. Icing conditions in regulations were determined largely from multicylinder data
-6. Cylinder icing thermodynamics for icing indication and detection
-
-I will show examples of each of these.
--->
+##NACA era data that are still used today
 
 ###Langmuir drop size distributions
 
@@ -274,7 +262,7 @@ and ["A Langmuir B drop size distribution is (almost) a normal distribution"[]({
 ![](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
 
 More than 70 years later, they are still in use. 
-From FAA AC 20-73A, "Aircraft Ice Protection": 
+From FAA AC 20-73A, "Aircraft Ice Protection" [^6]: 
 
 ![Table I-1](images/ac2073a/LangmuirD.png)
 
@@ -283,7 +271,7 @@ May of the terms still in use were in Langmuir and Blodgett:
  
 ![](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
 
-From "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1:
+From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 [^8]:
 
 ![](images/faa_ct_88_k_terms.png)
 
@@ -291,18 +279,18 @@ From "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1:
 
 The impingement correlations form Langmuir and Blodgett, 
 and NACA-TN-2904 were summarized 
-and are available in plots such as this from the "Aircraft Icing Handbook":
+and are available in plots such as this from the "Aircraft Icing Handbook" [^8]:
 
 ![](images/FAA_CT_fig2_44.png)
 
 Langmuir and Blodgett correlation formulas are also used, as in the from 
-"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement":
+"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9]:
 
 ![](images/LTR-LT-92_correlations.png)
 
 ###Approximation of an airfoil leading edge 
 
-The "Manual of Scaling Methods" details the use Langmuir and Blodgett correlations for 
+The "Manual of Scaling Methods" [^10] details the use Langmuir and Blodgett correlations for 
 a cylinder as an approximation of an airfoil leading edge: 
 
 ![](images/Manual of scaling methods/terms1.png) 
@@ -311,7 +299,7 @@ a cylinder as an approximation of an airfoil leading edge:
 
 ###Icing conditions in regulations
 
-The "Aircraft Icing Handbook" summarizes data used to develop icing regulations. 
+The "Aircraft Icing Handbook" [^8] summarizes data used to develop icing regulations. 
 We have reviewed three of these:
 [NACA-TN-1393]({filename}NACA-TN-1393.md), 
 [NACA-TN-1424]({filename}NACA-TN-1424.md), 
@@ -319,7 +307,7 @@ and [NACA-TN-1904]({filename}NACA-TN-1904.md).
 
 One may note that the later cylinder publications are not included, 
 notably [NACA-TN-2904]({filename}(NACA-TN-2904.md)) and 
-[NACA-TR-1215]({filename}(NACA-TR-1215.md).
+[NACA-TR-1215]({filename}NACA-TR-1215.md).
 
 The implications of this is that much of the data used was multicylinder data, 
 processed with the methods of Langmuir and Blodgett, 
@@ -345,14 +333,15 @@ An analysis of the freezing rates agreed well with the observed values:
 
 ![](images/naca-tr-1215/Fig24small.png)
 
-LTR-LT-92 shows the same effect, plotted in a different format: 
+"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9] shows a similar effect, 
+plotted in a different format: 
 
 ![](images/LRT-LT-92Fig3.png)
 
 ##Conclusion
 
-Langmuir was widely acknowledged in the post-NACA era by another often cited author of aircraft icing publications 
-(B.L. Messinger, 1969):
+Langmuir was widely acknowledged in the post-NACA era, including by another often cited author of aircraft icing publications 
+(B.L. Messinger, 1969 [^11]):
 > Thanks to the basic work of Dr. Irving Langmuir and his associates in the early
 194O's, we came to understand the physics of the behavior of cloud particles in 
 the aerodynamic flow field of an airplane.
@@ -378,8 +367,24 @@ and is a good introduction to icing thermodynamics.
 ##Notes:
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
+[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
+[^3]:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+[^4]: 
+Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whitier, L.,:
+"An Experimental Method for Measuring" Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies", NASA-CR-4257, DOT/FAA/CT-87/22, 1987.  
+[^5]: 
+https://software.nasa.gov/software/LEW-18573-1
+https://ntrs.nasa.gov/citations/19990021235  
+[^6]: Anon.:"Aircraft Ice Protection", FAA AC 20-73A, https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf  
+[^7]: R. Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.  
+[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991).  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
+[^9]: 
+Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement", LTR-LT-92, November, 1978.  
+[^10]: 
+Anderson, David N.: "Manual of Scaling Methods", NASA/CR-2004-212875, 2004.  
+[^11]:
+Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 
-
-https://www.sae.org/standards/content/arp5624/  
-
-https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf
