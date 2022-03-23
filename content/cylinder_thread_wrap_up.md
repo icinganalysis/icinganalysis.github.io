@@ -5,10 +5,12 @@ status: draft
 
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
 
+![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
+
 #Conclusions of the Cylinders Thread 
 
 ##Summary  
-Data from the post-NACA era is used to resolve open questions
+Data from the post-NACA era are used to resolve open questions 
 
 ##Key points
 1. The Cylinders thread is summarized
@@ -136,7 +138,7 @@ However, three different cylinder diameters were included in NACA-TN-3338.
 We will take another look at that data, and analyze it as multicylinder data.
 
 I wonder why NACA-TN-3338 did not use the "go-to" method of the multicylinder analysis. 
-This was perhaps another lost opportunity for a drop size comparison that would not require technology beyond what was available. 
+This was perhaps a lost opportunity for a drop size comparison that would not require technology beyond what was available. 
 Author von Glahn was familiar with the multicylinder instrument. 
 He was an author of NACA-RM-E51B12, which noted the use of multicylinders 
 in the calibration of the icing tunnel: 
@@ -386,5 +388,8 @@ Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liqui
 Anderson, David N.: "Manual of Scaling Methods", NASA/CR-2004-212875, 2004.  
 [^11]:
 Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
-Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  
+Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. 
+I could not find this on the NTRS or on the FAA site. 
+It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 
