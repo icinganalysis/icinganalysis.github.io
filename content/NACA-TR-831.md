@@ -29,6 +29,39 @@ demonstrated.
 
 ##Discussion 
 
+The nomenclature may be challenging, so peruse the symbols used: 
+![Symbols](images/NACA-TR-831/Symbols.png) 
+
+The ice protection heat exchanger is described in detail in NACA-ARR-5A03b. 
+Hot air from an internal "D" chamber enters a corrugated heat exchanger near the leading edge. 
+![NACA-ARR-5A03b Figure 19](images/NACA-TR-831/NACA-ARR-5A03b_Figure19.png)
+
+The thermal performance calculations are detailed. 
+Large portions are reproduced herein:
+
+> THEORETICAL ANALYSIS
+CLEAR AIR  
+In clear air, the equation which gives the balance of the
+flow of heat to and from the surface is  
+> ![Equation 1](images/NACA-TR-831/Equation1.png)  
+> The equation which gives the change in temperature of the
+hot air t_a, as it flows over the inner surface is  
+> ![Equation 2](images/NACA-TR-831/Equation2.png)  
+> Values of t_s and t_a, which satisfy both equations, are found
+by trial. These are the mean values for a strip of width Δs in
+a chordwise direction and unit length spanwise. Equation
+(2) is inexact, since the air flowing through the space between
+inner and outer skins receives heat through the back of the
+corrugations from the air as it flows from the main duct to
+the entry to the corrugations. A more exact equation is  
+>![Equation 3](images/NACA-TR-831/Equation3.png)  
+
+> h_a_o is the over-all coefficient of transfer of heat from the hot
+air behind to the hot air within the corrugations and t_a_o is
+the temperature of the air before entering the corrugations.
+In the present analysis, equation (2) has been used throughout. 
+A trial calculation has been made using equation (3);
+the results of this calculation will be discussed later.
 
 
 

@@ -7,6 +7,13 @@ status: draft
 
 #Thermodynamics Thread 
 
+
+This thread will focus on the use of thermodynamic heat and mass balance. 
+There may be some over-lap with ice protection, 
+but ice protection systems will not be detailed herein. 
+
+
+
 Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) 
 
 Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. 
@@ -19,11 +26,15 @@ Messinger, B.L.: “Equilibrium Temperature of an Unheated Icing Surface as a Fu
 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952. 
 
+Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
+
 Fraser: Thermodynamic Limitations of Ice Accretion Instruments, 1953.
 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
+
+![C-46 Lab Test Article](images/C-46lab.jpg)
 
 Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. 
 
