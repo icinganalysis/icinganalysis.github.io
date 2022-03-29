@@ -1,7 +1,6 @@
 Title: NACA-TN-3338 
 Category: NACA
 tags: cylinder
-status: draft
 
 
 ###>_"a method has been developed ... to determine the droplet size distribution of the impinging cloud"_
