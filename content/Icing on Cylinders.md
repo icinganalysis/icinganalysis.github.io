@@ -152,10 +152,10 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 
 _Cylinder Icing Data Use in the post-NACA Era (planned)_ 
 <!--
-["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md)  
-1. The Cylinders thread is summarized 
-2. Post-NACA era data is used to resolve some open questions 
-3. NACA era data that are still used today are summarized 
+##["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md)  
+> 1. The Cylinders thread is summarized 
+> 2. Post-NACA era data is used to resolve some open questions 
+> 3. NACA era data that are still used today are summarized 
 -->
 
 _Python cylinder analysis updated with ambient temperature effects (deferred to Thermodynamics thread)_  
