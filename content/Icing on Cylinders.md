@@ -144,14 +144,11 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 2. Conditions where not all water drops freeze on the multicylinder instrument are considered.  
 3. The terms "freezing fraction" is introduced into the NACA publications.  
 
-_NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" (planned)_  
-<!--
 ###[NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md)  
 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
 2. An analysis of test results to determine the water spray drop size distribution is described. 
 3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes. 
 4. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread. 
--->
 
 _Cylinder Icing Data Use in the post-NACA Era (planned)_ 
 <!--
