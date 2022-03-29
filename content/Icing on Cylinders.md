@@ -140,15 +140,15 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 ![A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](images/naca-rm-e53d23/Figure1.png)  
 
 ###[NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method"]({filename}/NACA-TR-1215.md)  
-1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).  
-2. Conditions where not all water drops freeze on the multicylinder instrument are considered.  
-3. The terms "freezing fraction" is introduced into the NACA publications.  
+> 1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).  
+> 2. Conditions where not all water drops freeze on the multicylinder instrument are considered.  
+> 3. The terms "freezing fraction" is introduced into the NACA publications.  
 
 ###[NACA-TN-3338 "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md)  
-1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
-2. An analysis of test results to determine the water spray drop size distribution is described. 
-3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes. 
-4. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread. 
+> 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
+> 2. An analysis of test results to determine the water spray drop size distribution is described. 
+> 3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes. 
+> 4. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread. 
 
 _Cylinder Icing Data Use in the post-NACA Era (planned)_ 
 <!--
