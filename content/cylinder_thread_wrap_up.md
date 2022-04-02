@@ -15,7 +15,7 @@ Data from the post-NACA era are used to resolve open questions
 ##Key points
 1. The Cylinders thread is summarized
 2. Post-NACA era data is used to resolve some open questions.
-3. NACA era data that are still used today are summarized 
+3. NACA era data that are still used today are summarized
 
 ##Discussion
 
@@ -43,9 +43,9 @@ And several programs in the Python programming language are available to reprodu
 ##Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions.
-1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?) 
-2. the accuracy of the multicylinder method 
-3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions? 
+1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?)
+2. the accuracy of the multicylinder method
+3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions?
 
 ##Post-NACA era data
 
