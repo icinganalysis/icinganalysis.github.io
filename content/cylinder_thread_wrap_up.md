@@ -30,7 +30,7 @@ In the Cylinders thread, we saw:
 - An additional way to estimate drop size on a fixed cylinder ([NACA-TN-1424]({filename}NACA-TN-1424.md)) 
 - Nine icing instruments compared ([NACA-RM-A9C09]({filename}NACA-RM-A9C09.md))
 - The ability of the multicylinder method to determine drop distribution was questioned several times, including [NACA-TN-1904]({filename}NACA-TN-1904.md) 
-- a comparison test of three similar multicylinders that found differences (NACA-TN-2708) 
+- a comparison test of three similar multicylinders that found differences ([NACA-TN-2708]({filename}NACA-TN-2708.md)) 
 - ["A Langmuir B drop size distribution is almost a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md) 
 - The effect of compressibility on impingement calculation was found to be "negligible" ([NACA-TN-2903]({filename}NACA-TN-2903.md))  
 - An analysis method to "more precisely" calculate water drop impingement was presented ([NACA-TN-2904]({filename}NACA-TN-2904.md)) 
@@ -43,7 +43,7 @@ And several programs in the Python programming language are available to reprodu
 ##Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions.
-1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?)
+1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?) 
 2. the accuracy of the multicylinder method 
 3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions? 
 
@@ -389,8 +389,8 @@ Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liqui
 Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
 [^11]:
 Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
-Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  
-Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. 
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
+Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 
 It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 
