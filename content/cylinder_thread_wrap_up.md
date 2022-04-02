@@ -42,7 +42,8 @@ And several programs in the Python programming language are available to reprodu
 
 ##Open questions
 
-We will look at some data from the post-NACA era to help resolve these questions.
+We will look at some data from the post-NACA era to help resolve these questions. 
+
 1. differences in analysis methods between Langmuir and Blodgett [^3], and NACA-TN-2904 (which one is more accurate?)
 2. the accuracy of the multicylinder method
 3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions?
@@ -366,6 +367,11 @@ distributions as "representative".
 NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
 and is a good introduction to icing thermodynamics. 
 
+##Related
+
+A version of this post that was presented to the SAE AC-9C Aircraft Icing Technology Committee [^12] is [available as a pdf](/images/cylinder_thread_wrap_up/SAE presentation Cook.pdf).
+
+
 ##Notes:
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.  
@@ -393,4 +399,5 @@ Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 19
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 
 It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^12] More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C  
 
