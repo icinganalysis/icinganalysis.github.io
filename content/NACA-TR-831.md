@@ -1,4 +1,4 @@
-Title: NACA-TN-831
+Title: NACA-TR-831
 Category: NACA
 tags: thermodynamics 
 status: draft 
