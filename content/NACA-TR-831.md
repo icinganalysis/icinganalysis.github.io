@@ -187,11 +187,11 @@ that the water is caught in the area between s/c= +/-1.25
 percent, and that it is equally distributed over this area
 except at the stagnation point. At the stagnation point, the
 rate of catch, it is assumed, is given by the equation  
->![](images/NACA-TR-831/Equation13.png)  
+>![Equation 13](images/NACA-TR-831/Equation13.png)  
 > Between s/c =0 and s/c =1.25 percent on either the upper or
 the lower surface of the wing, the rate of catch for unit span
 is given by  
->![](images/NACA-TR-831/Equation_after_13.png)  
+>![Equation after 13](images/NACA-TR-831/Equation_after_13.png)  
 
 This method differences from later investigations. 
 
@@ -243,9 +243,9 @@ if any, is blown off of the surface
 evaporation of water from the surface, when the surface is
 completely wetted, presents no difficulty. The rate of
 evaporation is given either by the equation  
->![](images/NACA-TR-831/Equation14.png)  
+>![Equation 14](images/NACA-TR-831/Equation14.png)  
 >or by the equation  
->![](images/NACA-TR-831/Equation15.png)  
+>![Equation 15](images/NACA-TR-831/Equation15.png)  
 > When the surface is just wet, the condition reached at
 the termination of stage 2, the value of M in equation (6)
 is equal to that of W. In this state, the value of t_s, which
