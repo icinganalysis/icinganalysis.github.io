@@ -365,7 +365,7 @@ extent by the use of a C or an E distribution, supporting the continued use of t
 distributions as "representative". 
 
 NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
-and is a good introduction to icing thermodynamics. 
+and is a good introduction to [icing thermodynamics]({filename/thermodynamics.md). 
 
 ##Related
 

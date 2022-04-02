@@ -1,18 +1,18 @@
-Title: Thermodynamics   
+Title: Icing Thermodynamics   
 Category: NACA
 tags: thermodynamics 
 status: draft
 
 ![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
 
-#Thermodynamics Thread 
+#Icing Thermodynamics Thread 
 
+This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. 
 
-This thread will focus on the use of thermodynamic heat and mass balance. 
-There may be some over-lap with ice protection, 
-but ice protection systems will not be detailed herein. 
+There may be some overlap with ice protection systems, 
+but the systems will not be detailed herein. 
 
-
+##Publications:  
 
 - Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) 
 
@@ -28,7 +28,7 @@ but ice protection systems will not be detailed herein.
 
 - Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
 
-- Fraser: Thermodynamic Limitations of Ice Accretion Instruments, 1953.
+- Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953.
 
 - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
 
