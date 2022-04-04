@@ -36,8 +36,8 @@ demonstrated.
 
 ##Discussion 
 
-Here we see evidence of the cooperation between NACA and the RAE (Royal Aircraft Establishment), 
-as author J. K. Hardy was from the RAE, as are several of the references. 
+Here we cooperation between NACA and the RAE (Royal Aircraft Establishment), 
+as author J. K. Hardy was from the RAE, as were several of the references. 
 
 The nomenclature may be challenging, so peruse the symbols used: 
 

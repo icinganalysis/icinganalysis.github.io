@@ -369,7 +369,9 @@ and is a good introduction to [icing thermodynamics]({filename}/thermodynamics.m
 
 ##Related
 
-A version of this post that was presented to the SAE AC-9C Aircraft Icing Technology Committee [^12] is [available as a pdf](/images/cylinder_thread_wrap_up/SAE presentation Cook.pdf). 
+A version of this post that was presented to the 
+SAE AC-9C Aircraft Icing Technology Committee [^12] 
+is [available as a pdf](/images/cylinder_thread_wrap_up/SAE presentation Cook.pdf). 
 
 
 ##Notes:
