@@ -314,7 +314,7 @@ def calc_wet_surface_temperture(
 
         return abs(qh - qc - q_evaporation - q_sensible)
 
-    ts = iteration_helpers.solve_minimize_f(calc_ts, [233, 313])
+    ts = iteration_helpers.solve_minimize_f(calc_ts, [223, 323])
     return ts
 
 
@@ -347,7 +347,7 @@ def calc_t_total_water_drops_in_equilibrium(tk, p, u, lwc):
         )
         return abs(qb)
 
-    tkt = iteration_helpers.solve_minimize_f(f, [233, 313])
+    tkt = iteration_helpers.solve_minimize_f(f, [223, 323])
     nt = calc_n(tkt, p)
     dn = nt - n0
     d_lwc = dn / rhoair * G_PER_KG
@@ -410,7 +410,7 @@ if __name__ == "__main__":
     )
 
     plt.ylim(0, 280)
-    plt.yticks(range(0, 280 + 40, 40))
+    plt.yticks(range(0, 280 + 20, 20))
     plt.xlim(0, 0.2)
     plt.xlabel("S/C")
     plt.ylabel("T - T_o, F")
@@ -469,7 +469,7 @@ if __name__ == "__main__":
     )
 
     plt.ylim(0, 280)
-    plt.yticks(range(0, 280 + 40, 40))
+    plt.yticks(range(0, 280 + 20, 20))
     plt.xlim(0, 0.2)
     plt.xlabel("S/C")
     plt.ylabel("T, F")
@@ -559,7 +559,7 @@ if __name__ == "__main__":
     for i, m in enumerate(ms0):
         rows[i].insert(1, f"{m/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}")
     rows[-1].insert(1, f"{sum(ms0)/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}")
-    t = markdown_table_helper.make_markdown_table(
+    t = markdown_table_helper.make_nice_width_markdown_table(
         [
             "s/c",
             "Rate of evaporation T=0F (lbm/hr-ft-LE)",
