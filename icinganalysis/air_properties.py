@@ -15,6 +15,8 @@ CP_AIR = 1000
 SPECIFIC_HEAT_AIR = 1000  # J/kg-K
 GAMMA_AIR = 1.401
 R_AIR = 287.05  # J/kg-K
+MOLECULAR_MASS = 0.0289647  # kg/mol
+
 
 
 def calc_air_thermal_conductivity(tk):

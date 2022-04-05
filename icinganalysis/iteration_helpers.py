@@ -46,3 +46,8 @@ def generate_staggered_pairs(sequence: Sequence) -> Iterator:
     :return: iterator of values
     """
     return zip(sequence[:-1], sequence[1:])
+
+
+def generate_even_odd_pairs(sequence):
+    return zip(sequence[::2], sequence[1::2])
+
