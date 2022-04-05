@@ -259,7 +259,7 @@ but it is a functionally representative distribution.
 A version of the drop distributions was published in 1944, 
 and the more often cited version was published in 1946. 
 See ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
-and ["A Langmuir B drop size distribution is (almost) a normal distribution"[]({filename}A Langmuir B distribution is almost a normal distribution.md) 
+and ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md) 
  
 ![Table IX](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
 
