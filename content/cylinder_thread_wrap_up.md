@@ -1,11 +1,10 @@
 Title: Conclusions of the Cylinder Thread   
 Category: NACA  
 tags: cylinder  
-status: draft 
 
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
 
-![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images/cylinder with flow lines.png)
+![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
 
 #Conclusions of the Cylinders Thread 
 
@@ -63,9 +62,9 @@ There are also beta curves determined by water drop trajectory analysis (the "Br
 
 Two cases were measured, at 20.36 and 16.45 MVD.
 
-![Figure 6.6A](/images/nasa-cr-4257/Figure_6_6a.png)  
+![Figure 6.6A](images/nasa-cr-4257/Figure_6_6a.png)  
 
-![Figure 6.6B](/images/nasa-cr-4257/Figure_6_6b.png)  
+![Figure 6.6B](images/nasa-cr-4257/Figure_6_6b.png)  
 
 Detailed drop size distributions were measured using a "Fiber Optics Particle Sizing System". 
 30 bin data were published 
@@ -74,9 +73,9 @@ so they are effectively 23 to 27 bin data).
 They were compared to a Langmuir D distribution.
 (Nozzle pressure ratios corresponding to the cases above).
 
-![Figure E9](/images/nasa-cr-4257/FigureE9_pr_0_65.png) 
+![Figure E9](images/nasa-cr-4257/FigureE9_pr_0_65.png) 
 
-![Figure E6](/images/nasa-cr-4257/FigureE6_pr0_8_rot.png)
+![Figure E6](images/nasa-cr-4257/FigureE6_pr0_8_rot.png)
 
 ###LEWICE [^5]
 
@@ -103,9 +102,9 @@ The LEWICE and Langmuir-Bodgett analyses agree well with each other,
 and agree fairly well with the test values (within the +/-10% variation). 
 The Breer method trends slightly lower.
 
-![Comparison to Figure 6.6A](/images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6A.png)  
+![Comparison to Figure 6.6A](images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6A.png)  
 
-![Comparison to Figure 6.6B](/images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6B.png)  
+![Comparison to Figure 6.6B](images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6B.png)  
 
 The results are compared in tables below. 
 The theta_max values for the Breer method may not have been digitized well by me, 
@@ -155,7 +154,7 @@ With the dye-tracer method, the surface shape does not change.
 We will use the Python tools previously developed for multicylinders, 
 using the Langmuir and Blodgett, and the NACA-TN-2904 implementations. 
 
-![Figure 20](/images/naca-tn-3338/Figure20.png) 
+![Figure 20](images/naca-tn-3338/Figure20.png) 
 
 I digitized only one set of values for each cylinder diameter. 
 Industrious readers may wish to clone the software repository, 
@@ -185,11 +184,11 @@ When the distributions determined by the multicylinder methods are run in LEWICE
 the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
 and less well for the NACA-TN-2904 multicylinder method. 
 
-![Water catch rates calculated with Langmuir multicylinder fit](/images/naca-tn-3338/Langmuir E original_6.png) 
+![Water catch rates calculated with Langmuir multicylinder fit](images/naca-tn-3338/Langmuir E original_6.png) 
 
-![Water catch rates calculated with NACA-TN-2904 multicylinder fit](/images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png) 
+![Water catch rates calculated with NACA-TN-2904 multicylinder fit](images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png) 
 
-![Water catch rates calculated with Langmuir multicylinder_k_phi_unique fit](/images/naca-tn-3338/Langmuir E k_phi_unique_6.png)
+![Water catch rates calculated with Langmuir multicylinder_k_phi_unique fit](images/naca-tn-3338/Langmuir E k_phi_unique_6.png)
 
 So, a drop distribution determined by the multicylinder method 
 (which is driven by cylinder Em values) 
@@ -206,7 +205,7 @@ NACA-TN-3338 presented (at least) three drop distributions to represent the same
 While I was sceptical of them, I ran them in LEWICE, 
 and the Example from NACA-TN-3338 did an excellent job of reproducing the measured masses. 
 
-![Water catch rates calculated with NACA-TN-3338 Example distribution](/images/naca-tn-3338/Example_6.png)
+![Water catch rates calculated with NACA-TN-3338 Example distribution](images/naca-tn-3338/Example_6.png)
 
 When we plot the cumulative LWC vs. drop size for the distributions 
 they may not appear to be very "similar", but three of them yielded very similar 
@@ -217,28 +216,28 @@ but the "Langmuir_k_phi_unique" line yielded a significantly better water catch 
 So, I caution against reading too much into distribution plot comparisons for their 
 relative effects on water catch. 
 
-![Comparison of distributions](/images/naca-tn-3338/distributions.png)
+![Comparison of distributions](images/naca-tn-3338/distributions.png)
 
 #Natural drop size distributions
 
 We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 [^7]. 
 (Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 
 
-![FAA-RD-80-24 Figure 20](/images/FAA_RD_80_24/Figure20.png)
+![FAA-RD-80-24 Figure 20](images/FAA_RD_80_24/Figure20.png)
 
 I selected the 6000 ft data.
 Alas, there was not a multicylinder instrument included in this test, 
 so we will again use LEWICE to get the cylinder masses to use for the fitting. 
 I used the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.
 
-![Langmuir distribution fits to Figure 20 data](/images/FAA_RD_80_24/RD80_mc_fits.png)
+![Langmuir distribution fits to Figure 20 data](images/FAA_RD_80_24/RD80_mc_fits.png)
 
 As in the prior examples, Beta curves were calculated with LEWICE. 
 The Langmuir C best fit reproduces the measure test distribution ("ASSP") 
 Beta curves very well, 
 and the Langmuir E fit works well. 
 
-![Calculated beta curve for the cylinders with distibutions](/images/FAA_RD_80_24/RD80_betas.png)
+![Calculated beta curve for the cylinders with distibutions](images/FAA_RD_80_24/RD80_betas.png)
 
 So, even if multicylinder distributions may not appear to be similar to a 
 more detailed, measured natural distribution, they can be used to reproduce impingement values 
@@ -262,21 +261,21 @@ and the more often cited version was published in 1946.
 See ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
 and ["A Langmuir B drop size distribution is (almost) a normal distribution"[]({filename}A Langmuir B distribution is almost a normal distribution.md) 
  
-![Table IX](/images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
+![Table IX](images/Mathematical Investigation of Water Droplet Trajectories/distributions.png) 
 
 More than 70 years later, they are still in use. 
 From FAA AC 20-73A, "Aircraft Ice Protection" [^6]: 
 
-![Table I-1](/images/ac2073a/LangmuirD.png)
+![Table I-1](images/ac2073a/LangmuirD.png)
 
 ###Terminology 
 May of the terms still in use were in Langmuir and Blodgett:  
  
-![K terms](/images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
+![K terms](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
 
 From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 [^8]:
 
-![K terms](/images/faa_ct_88_k_terms.png)
+![K terms](images/faa_ct_88_k_terms.png)
 
 ###Correlations
 
@@ -284,21 +283,21 @@ The impingement correlations form Langmuir and Blodgett,
 and NACA-TN-2904 were summarized 
 and are available in plots such as this from the "Aircraft Icing Handbook" [^8]:
 
-![Figure 2-44](/images/FAA_CT_fig2_44.png)
+![Figure 2-44](images/FAA_CT_fig2_44.png)
 
 Langmuir and Blodgett correlation formulas are also used, as in the from 
 "An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9]:
 
-![Page A2](/images/LTR-LT-92_correlations.png)
+![Page A2](images/LTR-LT-92_correlations.png)
 
 ###Approximation of an airfoil leading edge 
 
 The "Manual of Scaling Methods" [^10] details the use Langmuir and Blodgett correlations for 
 a cylinder as an approximation of an airfoil leading edge: 
 
-![equation 3.5](/images/Manual of scaling methods/terms1.png) 
-![equation 3.8](/images/Manual of scaling methods/terms2.png) 
-![Figure 3.3.2](/images/Manual of scaling methods/terms3.png) 
+![equation 3.5](images/Manual of scaling methods/terms1.png) 
+![equation 3.8](images/Manual of scaling methods/terms2.png) 
+![Figure 3.3.2](images/Manual of scaling methods/terms3.png) 
 
 ###Icing conditions in regulations
 
@@ -317,7 +316,7 @@ processed with the methods of Langmuir and Blodgett,
 and not the "more precisely" calculated methods in NACA-TN-2904. 
 NACA-TN-2904 was published too late to directly influence the icing regulations. 
 
-![Figure 3-1](/images/Derivation of FAR standards.png)
+![Figure 3-1](images/Derivation of FAR standards.png)
 
 The citation on the figure "Reference 3-12" is NACA-TN-2569, 
 but the figure is not to be found there, 
@@ -326,7 +325,7 @@ I have not found where the figure was originally from.
 
 NACA-TN-1855 (and others) are cited directly in the US icing regulations: 
 
-![Appendix C Figure 1](/images/AppCfig1.png)
+![Appendix C Figure 1](images/AppCfig1.png)
 
 ###Cylinder icing thermodynamics for icing indication and detection
 
@@ -334,12 +333,12 @@ NACA-TR-1215 studied several flight icing data cases,
 and found some were affected by not all of the available water freezing. 
 An analysis of the freezing rates agreed well with the observed values: 
 
-![Figure 24b](/images/naca-tr-1215/Fig24small.png)
+![Figure 24b](images/naca-tr-1215/Fig24small.png)
 
 "An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9] shows a similar effect, 
 plotted in a different format: 
 
-![Fig. 3](/images/LRT-LT-92Fig3.png)
+![Fig. 3](images/LRT-LT-92Fig3.png)
 
 ##Conclusion
 
@@ -371,7 +370,7 @@ and is a good introduction to [icing thermodynamics]({filename}/thermodynamics.m
 
 A version of this post that was presented to the 
 SAE AC-9C Aircraft Icing Technology Committee [^12] 
-is [available as a pdf](/images/cylinder_thread_wrap_up/SAE presentation Cook.pdf). 
+is [available as a pdf](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf). 
 
 
 ##Notes:

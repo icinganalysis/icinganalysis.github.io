@@ -150,13 +150,10 @@ NACA-TN-2738 "A Probability Analysis of the Meteorological Factors Conducive to 
 > 3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes. 
 > 4. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread. 
 
-_Cylinder Icing Data Use in the post-NACA Era (planned)_ 
-<!--
-##["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md)  
+##[Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md)  
 > 1. The Cylinders thread is summarized 
 > 2. Post-NACA era data is used to resolve some open questions 
 > 3. NACA era data that are still used today are summarized 
--->
 
 _Python cylinder analysis updated with ambient temperature effects (deferred to Thermodynamics thread)_  
 
