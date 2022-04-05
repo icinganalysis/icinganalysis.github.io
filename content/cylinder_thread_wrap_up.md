@@ -269,7 +269,7 @@ From FAA AC 20-73A, "Aircraft Ice Protection" [^6]:
 ![Table I-1](images/ac2073a/LangmuirD.png)
 
 ###Terminology 
-May of the terms still in use were in Langmuir and Blodgett:  
+Many of the terms still in use were in Langmuir and Blodgett:  
  
 ![K terms](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
 
