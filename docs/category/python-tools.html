@@ -21,14 +21,14 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">Implementation of multicylinder calculations in Python</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-04-05T05:13:04.043129-07:00">
+        <abbr class="published" title="2022-04-05T08:21:23.240156-07:00">
                 Published: Tue 05 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-05T05:13:04.043129-07:00">-->
+        <!--<abbr class="modified" title="2022-04-05T08:21:23.240156-07:00">-->
                 <!--Updated: Tue 05 April 2022-->
         <!--</abbr>-->
         <!---->
@@ -44,120 +44,302 @@
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info --><blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 </blockquote>
 <h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. </p>
+<p>The Langmuir B drop size distribution is almost a normal distribution.</p>
 <h2>Key points</h2>
 <ol>
-<li>A manual method of multicylinder calculation is illustrated.</li>
-<li>The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"</li>
+<li>The Langmuir B drop size distribution is almost a normal distribution.  </li>
+<li>Perhaps it was originally intended that it be exactly a normal distribution.</li>
+<li>The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.</li>
+<li>The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.</li>
 </ol>
 <h2>Discussion</h2>
-<h3>Manual method of drop size analysis</h3>
-<p>By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.</p>
-<p>Some typical multicylinder instruments (from <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>):
-<img alt="Multicyllnder cloud meters used in comparative study at
-Mount Washington Observatory" src="images/naca-tn-2708/figure_1.png"></p>
-<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> provides an example of the mutlicylinder calculations method in 
-the section "Example of the Application of the D.A. Data to Experimental Data".</p>
+<h3>Normal drop size distributions</h3>
+<p><a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distributions</a> show up many places in nature, 
+so it is not surprising that drop sizes in clouds can approximate a normal distribution.  </p>
+<p>In NACA-TN-2708 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, it was "presumed" that water-volume distribution with the
+drop size is a Gaussian [normal] distribution:</p>
 <blockquote>
-<p>The method has been revised as a result of the work done with the D.A.
-We shall describe the revised method and illustrate its use by analyzing some
-recent data that were obtained by R. M . Cunningham in an airplane.</p>
-<p>Amounts of ice were collected on four cylinders of different diameters,
-each 10 cm in length. The liquid water content of the fog in g/m^3 was ω.
-The mean value of the initial diameter of a cylinder and the diameter coated
-with ice at the finish of an experiment was 2C . The true speed of the airplane
-was 207 mi/hr, the temperature measured by a thermometer —3°C .</p>
+<p>Drop-Size Distribution. - In the present report it is presumed,
+following Howell (reference 6), that water-volume distribution with the
+drop size is a Gaussian distribution, the breadth of which may be characterized 
+by a modulus of distribution m that is defined by the relation:  </p>
 </blockquote>
-<div class="highlight"><pre><span></span><code>TABLE X
-
-Em ω (g)  2 C (cm)
--------   ------
-0.118     0.43
-0.0808    2.60
-0.0603    5.09
-0.0250    15
+<div class="highlight"><pre><span></span><code>m = (2)**0.5 * sigma / R_bar
 </code></pre></div>
 
-<p>Note: units on Em ω should be (g/m^3)</p>
 <blockquote>
-<p>By combining Eqs. (12) and (25) we obtain  </p>
+<p>where sigma is the standard deviation and R_bar is the volume median radius.
+The distributions postulated by Langmuir (reference 7) and used in the
+multicylinder method may be given numerical values as follows:</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code>Κφ = (2 ρa U a / η)**2  (50)
-</code></pre></div>
-
-<p>Note: there was already an equation (50), (70) was probably what was intended as it would be next in the sequence.</p>
+<table>
+<thead>
+<tr>
+<th>Langmuir letter</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+<th>F</th>
+<th>G</th>
+<th>H</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modulus</td>
+<td>0.00</td>
+<td>0.50</td>
+<td>0.75</td>
+<td>1.00</td>
+<td>1.25</td>
+<td>1.50</td>
+<td>1.75</td>
+<td>2.00</td>
+<td>2.5</td>
+</tr>
+</tbody>
+</table>
+<p>NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> noted that the Houghton and Radford data <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> which Langmuir <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> used did fit a normal distribution well. 
+The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.</p>
+<p><img alt="Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart" src="images/naca-tn-2708/NACA-TN-2708_overlay.png"></p>
+<p>However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
+As explained in wikipedia <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, different constants have been used historically in the definition of the normal distribution. 
+Here, the values differ by about sqrt(2), and sqrt(2) is one of the factors sometimes included or omitted in the definition. </p>
+<p>Clark <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).<br>
+<img alt="Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds" src="images/naca-tn-2708/table_iv_corrected_distrbutions.png"> </p>
+<p>NACA-TN-2708 states:</p>
 <blockquote>
-<p>Therefore Κφ is independent of the cylinder radius. The values of Κφ were
-found to be between 13,000 and 6000, for all of Cunningham's data.
-A curve was prepared in which Em was plotted against 1/K on double logarithmic 
-paper for a constant value of Κφ which was taken to be 10^6.</p>
-<p>The experimental data are compared with the theoretical curve by superimposing one
-sheet on the other, sliding the upper sheet (with the axis of coordinates parallel
-for the two sheets) until the two curves coincide at the end where C is small.</p>
+<p>Upon
+comparing this chart with Langmuir's tables (reference 7), it was found
+that his selections of the representative radii for the various sub-divisions 
+of the volume were in error. The matter was not pursued further at the time, 
+but as a part of the present study it was decided to
+investigate the effect this error might have on the collection-efficiency
+graphs, based on Langmuir's data, that have been used by virtually all
+workers with the multicylinder method.</p>
 </blockquote>
-<p>I do not have log-log graph paper anymore, so I printed the data in log-log coordinates with maptplotlib. </p>
-<p><img alt="Cunningham data from Table X" src="images/cunningham_data/Cunningham_data.png"></p>
-<p><img alt="Graph of 1/K vs. Em for K*Phi=10000" src="images/cunningham_data/k_phi_10000.png"></p>
+<p>We will pursue this further herein. </p>
+<p>Langmuir <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> did not state what distribution he used, other than </p>
 <blockquote>
-<p>A convenient way to illuminate the sheets is to hold them against a window
-pane.</p>
+<p>In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
+on size distribution it was concluded that their measurements were correct
+when the covering fraction a was less than 0.1. In their paper they give a "volume
+distribution curve" (Fig. 7), based on the microphotograph of the Fig. 4 for
+which a = 0.072. As ordinates they plot the relative volumes (liquid water
+content, Δw) of the droplets for equal increments of droplet radius.</p>
 </blockquote>
-<p>I lined up the printed graphs on an artist's light box.</p>
-<p><img alt="Aligned graphs of experimental data and theoretical curves" src="images/cunningham_data/cunningham_cropped.png"></p>
-<p>It was tedious to keep the graphs sides parallel as I aligned them. 
-I imagine it was more difficult on a vertical window pane. 
-I admit that the photo is not of good quality, but the view was not much better on the light box.</p>
-<blockquote>
-<p>When the set of Cunningham's data that we
-have given as an example were compared with the curves B, C, D, Ε it was
-found that all four experimental points lay on curve C if the two sheets
-were superimposed in such a way that the values 2 C = 17.0 and Emw = 0.132
-on the experimental curve coincided respectively with 1/K = 1 and Em = 1
-on the theoretical curve.</p>
-</blockquote>
-<p>As close as I can read it for my graphs, a "C" curve was the best match, 
-and the 1/K=1 vertical line crosses the diameter line between 17 and 18 cm,
-so I have fair agreement with Langmuir and Blodgett.</p>
-<blockquote>
-<p>The value of the radius a of the fog particles was calculated by means of
-Eq. (12), as follows:</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code> Κ = 2 ρs a^2 U / (9 η C), (12)
-</code></pre></div>
-
-<p>Since K and C are now known (1/K=1, 2C=17 cm), airspeed U is known, the water density is known, 
-and the air viscosity can be calculated, the value of drop radius a can be calculated.</p>
-<blockquote>
-<p>From Eq. (12) we obtain a = 8.33μ.</p>
-</blockquote>
-<p>It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
-Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. </p>
-<h1>Code implementation of the multicylinder drop size analysis</h1>
-<p>Fortunately, this laborious process is implemented in the file "langmuir_blodgett_multicylinder.py" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. 
-The determination of the best fit Κφ value and distribution type is also automated. 
-When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 
-so the drop radius was 8.25 micrometer, which compares well to Langmuir and Blodgett value of 8.33 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation" src="images/cunningham_data/Calculation_with_k_phi_constant_for_each_drop_size_bin.png"></p>
-<p>The above result used the original Langmuir-Blodgett approximate method "Κφ value for the MVD applied to each drop size bin", 
-as explained in <a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>. </p>
-<p>When the more technically correct "unique Κφ value for each drop size bin" method is used, the calculated MVD=17.1 micrometer.</p>
-<p><img alt="Graph of Graph of 1/K vs. Em with automated calculation alternative method" src="images/cunningham_data/Calculation_with_k_phi_unique_for_each_drop_size_bin.png"></p>
-<p>I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.</p>
+<p>However, a normal distribution was shown above to be a good fit of the Houghton and Radford data. 
+So, using the Houghton and Radford data is in effect using a normal distribution. </p>
+<p>When the different distributions are compare to the normal fit of the Houghton and Radford data, 
+there are differences from the ideal fit, but the values from Clark have the largest differences, 
+particularly for the "15-35" and "65-85" bins. </p>
+<p>With normal distribution stdev = 0.237 (fit to Houghton and Radford):</p>
+<table>
+<thead>
+<tr>
+<th>Percentile divisions of total liquid volume in clouds</th>
+<th>Expected midpoint cumulative %</th>
+<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
+<th>Drop size ratios (Langmuir B)</th>
+<th>Calculate cumulative volume (Langmuir B), %</th>
+<th>Drop size ratios (Clark)</th>
+<th>Calculate cumulative volume (Clark), %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0-5</td>
+<td>2.5</td>
+<td>0.54</td>
+<td>0.56</td>
+<td>3.2</td>
+<td>0.53</td>
+<td>2.4</td>
+</tr>
+<tr>
+<td>5-15</td>
+<td>10</td>
+<td>0.7</td>
+<td>0.72</td>
+<td>11.9</td>
+<td>0.69</td>
+<td>9.5</td>
+</tr>
+<tr>
+<td>15-35</td>
+<td>25</td>
+<td>0.84</td>
+<td>0.84</td>
+<td>25.0</td>
+<td>0.91</td>
+<td>35.2</td>
+</tr>
+<tr>
+<td>35-65</td>
+<td>50</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>50.0</td>
+<td>1.0</td>
+<td>50.0</td>
+</tr>
+<tr>
+<td>65-85</td>
+<td>75</td>
+<td>1.16</td>
+<td>1.17</td>
+<td>76.3</td>
+<td>1.09</td>
+<td>64.8</td>
+</tr>
+<tr>
+<td>85-95</td>
+<td>90</td>
+<td>1.3</td>
+<td>1.32</td>
+<td>91.2</td>
+<td>1.31</td>
+<td>90.5</td>
+</tr>
+<tr>
+<td>95-100</td>
+<td>97.5</td>
+<td>1.46</td>
+<td>1.49</td>
+<td>98.1</td>
+<td>1.47</td>
+<td>97.6</td>
+</tr>
+</tbody>
+</table>
+<p>With normal fit distribution rounded to stdev = 0.25, the Langmuir B matches some of the bins exactly, 
+while the large differences for the Clark values remain.</p>
+<table>
+<thead>
+<tr>
+<th>Percentile divisions of total liquid volume in clouds</th>
+<th>Expected midpoint cumulative %</th>
+<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
+<th>Drop size ratios (Langmuir B)</th>
+<th>Calculate cumulative volume (Langmuir B), %</th>
+<th>Drop size ratios (Clark)</th>
+<th>Calculate cumulative volume (Clark), %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0-5</td>
+<td>2.5</td>
+<td>0.51</td>
+<td>0.56</td>
+<td>3.9</td>
+<td>0.53</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>5-15</td>
+<td>10</td>
+<td>0.68</td>
+<td>0.72</td>
+<td>13.1</td>
+<td>0.69</td>
+<td>10.7</td>
+</tr>
+<tr>
+<td>15-35</td>
+<td>25</td>
+<td>0.83</td>
+<td>0.84</td>
+<td>26.1</td>
+<td>0.91</td>
+<td>35.9</td>
+</tr>
+<tr>
+<td>35-65</td>
+<td>50</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>50.0</td>
+<td>1.0</td>
+<td>50.0</td>
+</tr>
+<tr>
+<td>65-85</td>
+<td>75</td>
+<td>1.17</td>
+<td>1.17</td>
+<td>75.2</td>
+<td>1.09</td>
+<td>64.1</td>
+</tr>
+<tr>
+<td>85-95</td>
+<td>90</td>
+<td>1.32</td>
+<td>1.32</td>
+<td>90.0</td>
+<td>1.31</td>
+<td>89.3</td>
+</tr>
+<tr>
+<td>95-100</td>
+<td>97.5</td>
+<td>1.49</td>
+<td>1.49</td>
+<td>97.5</td>
+<td>1.47</td>
+<td>97.0</td>
+</tr>
+</tbody>
+</table>
+<p>I do not have a copy of Clark's paper to check if things were transcribed accurately in NACA-TN-2708. 
+Perhaps the values from Clark used different bin sizes, that were not noted in Table IV, 
+and perhaps they were more accurate.</p>
+<p>Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.</p>
+<p>¯\<em>(ツ)</em>/¯</p>
+<p>Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.</p>
+<p>We can compare a Langmuir B distribution to the normal distribution fit of the data:
+Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>) 
+and a line representation are shown.<br>
+<img alt="Langmuir B compared to a normal distribution" src="images/naca-tn-2708/Langmuir B and normal.png"></p>
+<p>The other Langmuir distributions do not match a normal distribution well. 
+A significant portion of the LWC has negative drop sizes with the broader normal distributions.<br>
+<img alt="Langmuir E compared to a normal distribution" src="images/naca-tn-2708/Langmuir E and normal.png"></p>
+<p>The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup></p>
+<p>You may find a more general discussion of <a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708</a> </p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -169,55 +351,18 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
-                           title="Permalink to A Langmuir B drop size distribution is (almost) a normal distribution">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-05T05:13:04.039127-07:00">
-                Published: Tue 05 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-05T05:13:04.039127-07:00">-->
-                <!--Updated: Tue 05 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The Langmuir B drop size distribution is almost a …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html" rel="bookmark"
                            title="Permalink to Implementation of cylinder impingement correlations in Python">Implementation of cylinder impingement correlations in Python</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-05T05:13:04.039127-07:00">
+        <abbr class="published" title="2022-04-05T08:21:23.240156-07:00">
                 Published: Tue 05 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-05T05:13:04.039127-07:00">-->
+        <!--<abbr class="modified" title="2022-04-05T08:21:23.240156-07:00">-->
                 <!--Updated: Tue 05 April 2022-->
         <!--</abbr>-->
         <!---->
@@ -240,6 +385,43 @@ as explained in <a href="https://icinganalysis.github.io/implementation-of-cylin
 "Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
 are implemented in the Python programming …</p>
                 <a class="readmore" href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-05T08:21:23.240156-07:00">
+                Published: Tue 05 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-05T08:21:23.240156-07:00">-->
+                <!--Updated: Tue 05 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

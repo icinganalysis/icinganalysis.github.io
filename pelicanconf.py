@@ -31,7 +31,7 @@ SOCIAL = (('github', 'https://github.com/icinganalysis/icinganalysis.github.io')
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 DEFAULT_DATE = 'fs'
 # THEME = 'aboutwilson'
@@ -48,8 +48,8 @@ INDEX_SAVE_AS = 'blog.html'
 MENUITEMS = (
     ('Home', '/'),
     ('Cylinders', '/icing-on-cylinders.html'),
+    ('Thermodynamics', 'icing-thermodynamics.html'),
     ('Diversions', '/pages/diversions.html'),
     ('About', '/pages/about.html'),
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icingblog/notmyidea/templates']
-
