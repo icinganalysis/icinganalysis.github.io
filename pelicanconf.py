@@ -48,7 +48,7 @@ INDEX_SAVE_AS = 'blog.html'
 MENUITEMS = (
     ('Home', '/'),
     ('Cylinders', '/icing-on-cylinders.html'),
-    ('Thermodynamics', 'icing-thermodynamics.html'),
+    ('Thermodynamics', '/icing-thermodynamics.html'),
     ('Diversions', '/pages/diversions.html'),
     ('About', '/pages/about.html'),
 )

@@ -13,6 +13,7 @@ RELATIVE_URLS = False
 MENUITEMS = (
     ('Home', SITEURL + '/index.html'),
     ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
+    ('Thermodynamics', '/icing-thermodynamics.html'),
     ('Diversions', SITEURL + '/pages/diversions.html'),
     ('About', SITEURL + '/pages/about.html'),
 )
