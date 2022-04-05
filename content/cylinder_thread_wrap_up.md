@@ -400,5 +400,5 @@ Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 19
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 
 It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
-[^12] More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C  
+[^12]: More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C  
 
