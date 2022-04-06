@@ -117,8 +117,8 @@ The heat effect of cold water impinging is not included.
 
 ##Results of Calculations 
 
-![](images/naca-arr-5g13/Kinetic Temperature of Propeller Blade in Wet Air.png) 
-![](images/naca-arr-5g13/Results_Table_I.png)
+![Kinetic Temperature of Propeller Blade in Wet Air](images/naca-arr-5g13/Kinetic Temperature of Propeller Blade in Wet Air.png) 
+![discussion of kinetic temperature](images/naca-arr-5g13/Results_Table_I.png)
   
 <br>
 
@@ -150,7 +150,6 @@ NACA-ARR-5G13 cites 7 references.
 - Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943. 
 - Brooks, Donald B.: Psychometric Charts for High and Low Pressures, Misc. Pub. M146, Nat. Bur. of Standards, Jan. 18, 1938. 
 - Kimball, Leo B.: Icing Tests of Aircraft-Engine Induction Systems. NACA-WR-W-97, Jan. 1943. 
-
 
 NACA-ARR-5G13 is cited 8 times in the NACA Icing Publications Database [^3].
 

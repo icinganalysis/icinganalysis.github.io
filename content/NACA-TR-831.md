@@ -11,7 +11,7 @@ status: draft
 ![Figure 2](images/NACA-TR-831/Figure2.png) 
 
 ##Summary
-Two dmensional heat balance equations for ice protection are detailed. 
+Two dimensional heat balance equations for ice protection are detailed. 
 
 ##Key points
 1.  Heat balance equations for ice protection are detailed. 
@@ -92,9 +92,9 @@ The vapor pressure of the heated air (measured via dew point)
 could then be used to calculate the liquid water content of the air. 
 
 To calculate t_o, 
-NACA-ARR-4I11 used a table from 
-Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942)
+NACA-ARR-4I11 used a table from [^3]
 which I have not been able to find. 
+For the python implementation, I used the t_o calculation method from [NACA-ARR-5G13]({filename}NACA-ARR-5G13) [^4].
 
 There is a subtlety here for the ice protection application, 
 which assumes that the water drops and vapor are always in equilibrium with the (dry) air temperature. 
@@ -277,9 +277,9 @@ will be revisited in later works.
 ###External Heat Transfer Coefficients  
 
 There is a discussion about how the external heat transfer coefficients were determined. 
-There had been previous analysis ([^3], [^4], [^5], [^6]) (and [^6] includes the cylinder leading edge approximation).
-There is much to see here, but this is the thermodynamics thread, so I will stay focussed. 
-The method from 10 was used, as it provided laminar and turbulent values. 
+There had been previous analysis ([^5], [^6], [^7], [^8]) (and [^8] includes the cylinder leading edge approximation).
+There is much to see here, but this is the thermodynamics thread, so I will stay focused. 
+The method from [^5] was used, as it provided laminar and turbulent values. 
 
 >The values of h_o, used in the analysis, are plotted in figure 1. 
 The form of the transition from the laminar to the turbulent 
@@ -405,8 +405,6 @@ And it raised issues to be investigate further.
 So, I view it as a success. 
 
 
-
-
 ##References 
 
 NACA-TR-831 cites 14 references: 
@@ -426,7 +424,7 @@ NACA-TR-831 cites 14 references:
 - Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.
 - Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.
 
-NACA-TR-831 is cited 8 times in the NACA Icing Publications Database [^8]: 
+NACA-TR-831 is cited 8 times in the NACA Icing Publications Database [^9]: 
 
 - Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.
 - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945
@@ -437,23 +435,20 @@ NACA-TR-831 is cited 8 times in the NACA Icing Publications Database [^8]:
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.
 - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.
 
-An online search found that NACA-TR-831 is cited 13 times in the literature [^9].  
+An online search found that NACA-TR-831 is cited 13 times in the literature [^10].  
 
 ##Notes: 
 
 [^1]: 
-Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) 
+Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
 [^2]: Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945. 
-
-
-[^4]: Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943.  
-[^5]: Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.  
-[^6]: Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943.  
-[^7]: Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
-
-
-
-[^8]:
+[^3]: Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942) 
+[^4]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945 
+[^5]: Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943.  
+[^6]: Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.  
+[^7]: Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943.  
+[^8]: Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
+[^9]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^9]: 
+[^10]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&btnG=  
