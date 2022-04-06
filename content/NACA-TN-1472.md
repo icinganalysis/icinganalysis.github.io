@@ -41,7 +41,6 @@ This is one of the longest reviews, as NACA-TN-1472 is long (108 pages)
 and is densely packed with information. 
 Large portions of NACA-TN-1472 will be reproduced here.
 
-
 The symbols are a little different than those previously in the 
 [Thermodynamics thread]({filename}thermodynamics.md). 
 
