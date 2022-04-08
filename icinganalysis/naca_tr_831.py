@@ -1,3 +1,5 @@
+from scipy.interpolate import interp1d
+
 from icinganalysis.water_properties import (
     WATER_SPECIFIC_HEAT,
     L_EVAPORATION,
@@ -12,26 +14,19 @@ from icinganalysis.air_properties import (
     calc_pressure,
 )
 from icinganalysis import langmuir_cylinder_values
-
-from scipy.interpolate import interp1d
-
 from icinganalysis import iteration_helpers
+from icinganalysis.units_helpers import (
+    LBM_PER_KG,
+    FT_PER_M,
+    MPH_PER_M_S,
+    S_PER_HOUR,
+    BTU_H_FT2_F_PER_W_M2_K,
+    G_PER_KG,
+    tf_to_k,
+    tk_to_f,
+)
 
-KG_PER_LBM = 0.4535924
-M_PER_FT = 0.3048
 FT_S_PER_MPH = 1.466667
-MS_PER_MPH = 0.44704
-G_PER_KG = 1000
-S_PER_HOUR = 3600
-W_M2_K_PER_BTU_H_FT2_F = 5.678
-
-
-def tf_to_k(tf):
-    return (tf + 459.67) / 1.8
-
-
-def tk_to_f(tk):
-    return tk * 1.8 - 459.67
 
 
 def calc_n(tk, p):
@@ -132,7 +127,7 @@ _d_transition = (  # Figure 1, s/c, hc (BTU/h-ft^2-F)
 )
 s_c_transition = _d_transition[::2]
 hc_btu_transition = _d_transition[1::2]
-hcs_transition = [_ * W_M2_K_PER_BTU_H_FT2_F for _ in hc_btu_transition]
+hcs_transition = [_ / BTU_H_FT2_F_PER_W_M2_K for _ in hc_btu_transition]
 hc_interpolator_transition = interp1d(s_c_transition, hcs_transition)
 
 _d = (  # Figure 1, s/c, hc (BTU/h-ft^2-F)
@@ -151,7 +146,7 @@ _d = (  # Figure 1, s/c, hc (BTU/h-ft^2-F)
 )
 s_c = _d[::2]
 hc_btu = _d[1::2]
-hcs = [_ * W_M2_K_PER_BTU_H_FT2_F for _ in hc_btu]
+hcs = [_ / BTU_H_FT2_F_PER_W_M2_K for _ in hc_btu]
 hc_interpolator = interp1d(s_c, hcs)
 
 fig3_tb_s_c = 0, 0.12
@@ -172,21 +167,21 @@ def calc_dry_air_fig_3(hc_interpolator=hc_interpolator):
     v_mph = 180
     t_f = 28.5
     tk = (t_f + 459.67) / 1.8
-    chord = chord_ft * M_PER_FT
-    u = v_mph * MS_PER_MPH
+    chord = chord_ft / FT_PER_M
+    u = v_mph / MPH_PER_M_S
     delta_t_f_heat = 197
     hc_btu = 23
-    hc = hc_btu * W_M2_K_PER_BTU_H_FT2_F
+    hc = hc_btu / BTU_H_FT2_F_PER_W_M2_K
     ds = 0.025 * chord
 
     heating_air_flow_lbm = 84  # lbm/hr-ft.LE, upper surface (only)
     heating_air_flow = (
-        heating_air_flow_lbm * KG_PER_LBM / S_PER_HOUR / M_PER_FT
+        heating_air_flow_lbm / LBM_PER_KG / S_PER_HOUR * FT_PER_M
     )  # kg/s/m-LE
     t_o = tk + u ** 2 / 2 / CP_AIR
     t_heating_air = t_o + delta_t_f_heat / 1.8
     h_heating_air_btu = 21  # BTU/hr-ft^2-F
-    h_heating_air = W_M2_K_PER_BTU_H_FT2_F * h_heating_air_btu  # W/m^2-K
+    h_heating_air = h_heating_air_btu / BTU_H_FT2_F_PER_W_M2_K  # W/m^2-K
 
     tbs = []
     tss = []
@@ -217,14 +212,14 @@ def calc_figure_6(t_f, mvd, lwcs=tuple([0.1 * _ for _ in range(0, 40 + 1, 1)])):
     v_mph = 180
     alt_ft = 4000
     tk = (t_f + 459.67) / 1.8
-    chord = chord_ft * M_PER_FT
-    d_cyl = d_cyl_ft * M_PER_FT
-    u = v_mph * MS_PER_MPH
-    p = calc_pressure(alt_ft * M_PER_FT)
+    chord = chord_ft / FT_PER_M
+    d_cyl = d_cyl_ft / FT_PER_M
+    u = v_mph / MPH_PER_M_S
+    p = calc_pressure(alt_ft / FT_PER_M)
     em = langmuir_cylinder_values.calc_em(tk, p, u, mvd, d_cyl)
     t_heating_air = tf_to_k(236)
     h_heating_air_btu = 21  # BTU/hr-ft^2-F
-    h_heating_air = W_M2_K_PER_BTU_H_FT2_F * h_heating_air_btu  # W/m^2-K
+    h_heating_air = h_heating_air_btu / BTU_H_FT2_F_PER_W_M2_K  # W/m^2-K
     hc = hc_interpolator(0)
     tss = []
     for lwc in lwcs:
@@ -248,10 +243,10 @@ def calc_wet_air_fig_4(hc_interpolator=hc_interpolator, t_f=28.5):
     alt_ft = 4000
     # t_f = 28.5
     tk = (t_f + 459.67) / 1.8
-    chord = chord_ft * M_PER_FT
-    d_cyl = d_cyl_ft * M_PER_FT
-    u = v_mph * MS_PER_MPH
-    p = calc_pressure(alt_ft * M_PER_FT)
+    chord = chord_ft / FT_PER_M
+    d_cyl = d_cyl_ft / FT_PER_M
+    u = v_mph / MPH_PER_M_S
+    p = calc_pressure(alt_ft / FT_PER_M)
     ds = 0.0125 * chord
     mvd = 10
     lwc = 1.2
@@ -260,13 +255,13 @@ def calc_wet_air_fig_4(hc_interpolator=hc_interpolator, t_f=28.5):
 
     heating_air_flow_lbm = 84  # lbm/hr-ft.LE, upper surface (only)
     heating_air_flow = (
-        heating_air_flow_lbm * KG_PER_LBM / S_PER_HOUR / M_PER_FT
+        heating_air_flow_lbm / LBM_PER_KG / S_PER_HOUR * FT_PER_M
     )  # kg/s/m-LE
     t_o, lwc2 = calc_t_total_water_drops_in_equilibrium(tk, p, u, lwc)
     m = calc_equation_13(em, lwc2, u, 0, d_cyl, chord)
     t_heating_air = tf_to_k(t_f + 207.5)
     h_heating_air_btu = 21  # BTU/hr-ft^2-F
-    h_heating_air = W_M2_K_PER_BTU_H_FT2_F * h_heating_air_btu  # W/m^2-K
+    h_heating_air = h_heating_air_btu / BTU_H_FT2_F_PER_W_M2_K  # W/m^2-K
 
     tbs = []
     tss = []
@@ -543,10 +538,10 @@ if __name__ == "__main__":
     rows = []
     for sc, sc0, mevap in zip(sc, sc0, ms):
         rows.append(
-            [f"{sc:.4f} to {sc0:.4f}", f"{mevap/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}"]
+            [f"{sc:.4f} to {sc0:.4f}", f"{mevap*LBM_PER_KG*S_PER_HOUR/FT_PER_M:.2f}"]
         )
 
-    rows.append(["Total", f"{sum(ms)/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}"])
+    rows.append(["Total", f"{sum(ms)*LBM_PER_KG*S_PER_HOUR/FT_PER_M:.2f}"])
 
     t = markdown_table_helper.make_markdown_table(["s/c", "Rate of evaporation"], rows)
 
@@ -557,8 +552,8 @@ if __name__ == "__main__":
     t_o, tss, tbs, s_c_surface, m_evaps0 = calc_wet_air_fig_4(t_f=0)
     ms0 = m_evaps0[:2] + [v1 + v2 for v1, v2 in zip(m_evaps0[2::2], m_evaps0[3::2])]
     for i, m in enumerate(ms0):
-        rows[i].insert(1, f"{m/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}")
-    rows[-1].insert(1, f"{sum(ms0)/KG_PER_LBM*S_PER_HOUR*M_PER_FT:.2f}")
+        rows[i].insert(1, f"{m*LBM_PER_KG*S_PER_HOUR/FT_PER_M:.2f}")
+    rows[-1].insert(1, f"{sum(ms0)*LBM_PER_KG*S_PER_HOUR/FT_PER_M:.2f}")
     t = markdown_table_helper.make_nice_width_markdown_table(
         [
             "s/c",

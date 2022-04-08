@@ -8,12 +8,12 @@ SQ_FT_PER_SQ_M = (INCHES_PER_FT * M_PER_INCH) ** -2
 M_PER_FT = M_PER_INCH * INCHES_PER_FT
 G_PER_KG = 1000
 
-from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement
-from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi, calc_d_drop_from_k
-from scipy.optimize import minimize_scalar
-from scipy.interpolate import interp1d
 from math import degrees, radians
 import matplotlib.pyplot as plt
+from scipy.optimize import minimize_scalar
+from scipy.interpolate import interp1d
+from icinganalysis.NACA_TN_2904 import NACA_TN_2904_impingement
+from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi, calc_d_drop_from_k
 
 
 def find_d_drop_for_theta(theta, tk, p, u, d_cyl):

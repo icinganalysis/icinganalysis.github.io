@@ -39,7 +39,6 @@ def calc_mass_average_em_diameter_with_distribution(
 ):
     final_diameter = initial_diameter
     prior_estimate_em = float("nan")  # note that this will force at least one iteration
-    # print(distribution, lwc, mvd)
     for i in range(10):
         em_initial = calc_em_with_distribution_to_use(
             tk, p, u, mvd, initial_diameter, distribution

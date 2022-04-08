@@ -1,7 +1,7 @@
+import matplotlib.pyplot as plt
+from scipy.optimize import minimize_scalar
 from icinganalysis import langmuir_cylinder_values
 from icinganalysis import langmuir_blodgett_table_ii
-from scipy.optimize import minimize_scalar
-import matplotlib.pyplot as plt
 
 
 def calc_mvd_for_theta_degree(theta_degree, tk, p, u, d_cylinder):

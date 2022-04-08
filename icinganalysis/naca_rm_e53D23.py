@@ -1,13 +1,13 @@
 """
 NACA-RM-E53D23
 """
+from math import log10, pi
+import matplotlib.pyplot as plt
 from icinganalysis.NACA_TN_2904 import multicylinder_naca_tn_2904
 from icinganalysis import langmuir_blodgett_multicylinder
 from icinganalysis import langmuir_blodgett_multicylinder_k_phi_unique_mvd
 from icinganalysis import air_properties
 from icinganalysis import langmuir_cylinder_values
-import matplotlib.pyplot as plt
-from math import log10, pi
 
 
 def calc_ave_d(d0, mass, length, ice_density=917):
