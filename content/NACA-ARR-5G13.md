@@ -37,6 +37,9 @@ The effect of kinetic heating is included.
 
 ##Discussion
 
+(Note: the image quality of the pdf of NACA-ARR-5G13 did not allow readily capturing the text, 
+so much of this post is images, not searchable text.)
+
 Here we cooperation between NACA and the RAE (Royal Aircraft Establishment), 
 as author J. K. Hardy was from the RAE, as were several of the references. 
 

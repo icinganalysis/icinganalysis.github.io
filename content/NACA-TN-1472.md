@@ -11,7 +11,12 @@ status: draft
 
 ##Key points
 
-1. key point 1  
+1. Thermodynamic equations for a heated surface with water impingement are detailed. 
+2. Test flights in natural icing conditions measured surface temperature for a heated surface.
+3. Heat transfer coefficients in icing were be inferred from measurements and calculations. 
+4. "the design of heated wings on a fundamental, wet-air basis now can be undertaken with reasonable
+certainty."
+
 
 ##Abstract
 
@@ -245,6 +250,80 @@ becomes
 ![Equation 25](images/naca-tn-1472/Equation25.png) 
 
 
+#Flight tests
+
+Detailed test articles were constructed. 
+
+> Two electrically heated test airfoils were used to obtain
+fundamental data on the process of wing thermal ice prevention. Each
+airfoil was mounted vertically on top of the fuselage of the C-46
+airplane, as shown in figure 5. The test airfoil installed during
+the winter of 1945-46 had an NACA 0012 section.
+
+>Measurements of the temperature of the aluminum surface of the
+test section were obtained by means of thermocouples. 
+... 
+Thermocouples were located at the center of
+the test section at 1-inch chordwise intervals in the leading-edge
+and calculated transition regions, and at 1-1/2-inch chordwise
+intervals in other regions. Surface temperatures were recorded by
+means of self-balancing automatic-recording potentiometers.
+
+> The flow of heat through the outer surface was calculated from
+measurements of the power dissipated in the electrical heating
+strips. This power was determined by measuring the resistance of
+the strips and the current flowing through them. Thermocouples
+placed on both surfaces of the plastic base at a number of chordwise
+stations gave an indication of the heat flow into the model interior.
+These thermocouples were connected to the same recording potentiometers 
+used to record surface temperatures.
+
+![C-46 Lab Test Article](images/C-46lab.jpg) 
+
+![Figure 7](images/naca-tn-1472/Figure7.png) 
+
+Flight tests in natural icing were conducted. 
+
+![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
+
+>TEST PROCEDURE  
+The test airplane was flown into natural-icing conditions over
+most of the northwestern area of the United States during the winter
+of 1945-46. During the winter of 1946-47 the area of operations was
+extended to include a few flights in the central and eastern part of
+the United States. The usual test procedure, during flight in icing
+conditions, was to record. airfoil data simultaneously with the
+measurement of the meteorological conditions. The rotating cylinders,
+described in reference 13, which constituted the means of measuring
+liquid-water concentration, drop size, and drop-size distribution,
+were extended as often as was conveniently possible. Records of
+free-air temperature, airspeed, and altitude were taken several times
+a minute. The recording potentiometer used to obtain airfoil temperatures 
+was operated continuously. During this time, the values of
+current flow through the electrical heating strips of the airfoil
+were recorded. Photographs of the test-section surface and records
+of pressure distribution were taken at frequent intervals. 
+
+"Reference 13" is [NACA-TN-1393]({filename}NACA-TN-1393.md), 
+which was reviewed in the [Cylinders thread]({filename}Icing on Cylinders.md).
+
+![Table I](images/naca-tn-1472/Table1.png) 
+
+
+###Analysis results
+
+For brevity, we will examine the NACA 0012 test article results (only). 
+
+With measured flight test values for t_surface and heat applied to the heating strips, 
+equations 24 and 25 were used to inferred a external heat transfer coefficient, 
+shown in Figure 8 ("H"). 
+
+![Figure 8a](images/naca-tn-1472/Figure8a.png) 
+
+A python implementation (file naca_tn_1472.py) found similar values. 
+
+![Python analysis of figure 8a conditions](images/naca-tn-1472/naca_tn_1472_fig8a.png)
+
 
 > A picture of the conditions of wetness which existed on the
 airfoil during flight in clouds can be seen in figure 15. This
@@ -258,10 +337,6 @@ aft. The records were obtained during icing conditions 11, 13, and
 14, table II.
 ![Figure 4](images/naca-tn-1472/Figure15.png) 
 
-
-
-
-###Key point
 
 ##Citations
 
@@ -317,12 +392,9 @@ NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database
 
 [^1]: 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
-
 [^2]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^3]: Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 [^4]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-
-
 
 [^10]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
