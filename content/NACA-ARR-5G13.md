@@ -110,7 +110,7 @@ Now conditions with a wet surface are considered.
 
 Hardy outlined a condition where the water drops 
 are not in equilibrium with the local air temperature, 
-(the equation after 15, e1= eo*p1/po), but then adopts the 
+(the equation e1= eo*p1/po, after (15)), but then adopts the 
 temperature equilibrium, which is used in the example calculations he presented. 
 
 ![Kinetic wet temperature](/images/naca-arr-5g13/kinetic_wet_t.png)  
@@ -157,9 +157,6 @@ T, F|P, mm_hg|NACA-ARR-5G13 T_surface, F|Calculated T_surface, F|NACA-ARR-5G13 R
 25  |760     |40.1                      |39.9                   |0.6                           |0.59                       
 25  |350     |35.5                      |35.5                   |0.49                          |0.42                       
 
-
-While the nomenclature and format of NACA-ARR-5G13 may differ from current psychrometrics, 
-the results hold up well. 
 
 
 ##Citations
