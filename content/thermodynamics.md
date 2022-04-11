@@ -11,18 +11,25 @@ This thread will focus on the use of thermodynamic heat and mass balance for ici
 There may be some overlap with ice protection systems, 
 but the systems will not be detailed herein. 
 
+<!--
+###[NACA-ARR-5G13, [Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md) 
+> Psychrometric equations are presented to calculate the thermal effects of 
+evaporation from wet surfaces. 
+-->
+
 ##Publications to review:  
 
-Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.
+Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. 
 > Psychrometric equations are presented to calculate the thermal effects of 
-evaporation from wet surfaces.
+evaporation from wet surfaces at high air speeds.
 
 Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) 
-> Two dimensional heat balance equations for ice protection are detailed.
+> Two dimensional heat balance equations for ice protection are detailed. 
 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947. 
+> Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations. 
 
-Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.
+Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951. 
 
 Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed,” J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42. 
 
@@ -30,7 +37,7 @@ Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
 
-Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953.
+Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 
 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
 

@@ -12,7 +12,7 @@ status: draft
 
 ##Summary 
 Psychrometric equations are presented to calculate the thermal effects of 
-evaporation from wet surfaces. 
+evaporation from wet surfaces at high air speeds. 
 
 ##Key Points
 1. The wet surface equilibrium "datum" temperature is defined. 

@@ -8,6 +8,7 @@ status: draft
 #"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" [^1]
 
 ##Summary
+Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.
 
 ##Key points
 

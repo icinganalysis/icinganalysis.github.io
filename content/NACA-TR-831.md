@@ -382,7 +382,7 @@ design of thermal systems of protection can be given in terms
 of definite conditions of icing.
 
 The confidence that 
-> "the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude"  
+> "**the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude**"  
 
 is quickly tempered with a list of uncertainties:
 - "The uncertainties are the location of the point of transition" 
@@ -405,7 +405,7 @@ And it raised issues to be investigate further.
 So, I view it as a success. 
 
 
-##References 
+##Citations 
 
 NACA-TR-831 cites 14 references: 
 
