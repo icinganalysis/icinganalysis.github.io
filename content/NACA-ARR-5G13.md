@@ -1,7 +1,6 @@
 Title: NACA-ARR-5G13  
 Category: NACA  
 tags: thermodynamics  
-status: draft  
 
 ###_"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"_
 
