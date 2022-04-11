@@ -7,6 +7,9 @@ status: draft
 
 #"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation" [^1]
 
+![Cover sheet "WARTIME REPORT"](/images/naca-arr-5g13/Cover.png)  
+
+
 ##Summary 
 Psychrometric equations are presented to calculate the thermal effects of 
 evaporation from wet surfaces. 
@@ -42,6 +45,14 @@ so much of this post is images, not searchable text.)
 
 Here we cooperation between NACA and the RAE (Royal Aircraft Establishment), 
 as author J. K. Hardy was from the RAE, as were several of the references. 
+
+As noted on the coversheet above:
+>NACA WARTIME REPORTS are reprints of papers originally issued to provide rapid distribution of
+advance research results to an authorized group requiring them for the war effort. They were 
+previously held under a security status but are now unclassified. Some of these reports were not 
+technically edited. All have been reproduced without change in order to expedite general distribution.
+
+While "Some of these reports were not technically edited", this report has excellent technical content. 
 
 The nomenclature may be challenging, so peruse the symbols used: 
 ![Symbols part 1](/images/naca-arr-5g13/symbols0.png)  
