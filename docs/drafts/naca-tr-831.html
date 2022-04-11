@@ -30,13 +30,13 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-05T08:21:23.244156-07:00">
-                Published: Tue 05 April 2022
+        <abbr class="published" title="2022-04-11T07:38:44.643531-07:00">
+                Published: Mon 11 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-05T08:21:23.244156-07:00">-->
-                <!--Updated: Tue 05 April 2022-->
+        <!--<abbr class="modified" title="2022-04-11T07:38:44.643531-07:00">-->
+                <!--Updated: Mon 11 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -56,7 +56,7 @@
 <h1>"An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
 <p><img alt="Figure 2" src="images/NACA-TR-831/Figure2.png"> </p>
 <h2>Summary</h2>
-<p>Two dmensional heat balance equations for ice protection are detailed. </p>
+<p>Two dimensional heat balance equations for ice protection are detailed. </p>
 <h2>Key points</h2>
 <ol>
 <li>Heat balance equations for ice protection are detailed. </li>
@@ -129,9 +129,9 @@ and the sample was heated to ensure that all water drops evaporated.
 The vapor pressure of the heated air (measured via dew point) 
 could then be used to calculate the liquid water content of the air. </p>
 <p>To calculate t_o, 
-NACA-ARR-4I11 used a table from 
-Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942)
-which I have not been able to find. </p>
+NACA-ARR-4I11 used a table from <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>
+which I have not been able to find. 
+For the python implementation, I used the t_o calculation method from <a href="{filename}NACA-ARR-5G13">NACA-ARR-5G13</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
 <p>There is a subtlety here for the ice protection application, 
 which assumes that the water drops and vapor are always in equilibrium with the (dry) air temperature. 
 A dry air calculation yields a static temperature rise as the flow approaches the stagnation point on a surface. 
@@ -304,9 +304,9 @@ this report it is assumed that the surface is fully wetted.</p>
 will be revisited in later works. </p>
 <h3>External Heat Transfer Coefficients</h3>
 <p>There is a discussion about how the external heat transfer coefficients were determined. 
-There had been previous analysis ([^3], <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">3</a></sup>, <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">4</a></sup>, <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">5</a></sup>) (and <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">5</a></sup> includes the cylinder leading edge approximation).
-There is much to see here, but this is the thermodynamics thread, so I will stay focussed. 
-The method from 10 was used, as it provided laminar and turbulent values. </p>
+There had been previous analysis (<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>, <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>) (and <sup id="fnref2:8"><a class="footnote-ref" href="#fn:8">8</a></sup> includes the cylinder leading edge approximation).
+There is much to see here, but this is the thermodynamics thread, so I will stay focused. 
+The method from <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup> was used, as it provided laminar and turbulent values. </p>
 <blockquote>
 <p>The values of h_o, used in the analysis, are plotted in figure 1. 
 The form of the transition from the laminar to the turbulent 
@@ -323,7 +323,7 @@ to determine external heat transfer coefficients. </p>
 the external heat transfer coefficient values,
 the calculated t_o value, 
 and surface and heated air thermocouple readings. 
-So, the accuracy of the internal heat transfer coefficient is depenent on those other values. </p>
+So, the accuracy of the internal heat transfer coefficient is dependent on those other values. </p>
 <blockquote>
 <p>The value, used in the analysis, for the coefficient of
 transfer of heat h d to the inner surface of the wing has been
@@ -440,7 +440,7 @@ So, I view it as a success. </p>
 <li>Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.</li>
 <li>Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.</li>
 </ul>
-<p>NACA-TR-831 is cited 8 times in the NACA Icing Publications Database <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">7</a></sup>: </p>
+<p>NACA-TR-831 is cited 8 times in the NACA Icing Publications Database <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>: </p>
 <ul>
 <li>Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.</li>
 <li>Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945</li>
@@ -451,7 +451,7 @@ So, I view it as a success. </p>
 <li>Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.</li>
 <li>Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.</li>
 </ul>
-<p>An online search found that NACA-TR-831 is cited 13 times in the literature <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">8</a></sup>.  </p>
+<p>An online search found that NACA-TR-831 is cited 13 times in the literature <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>.  </p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
@@ -462,23 +462,29 @@ So, I view it as a success. </p>
 <li id="fn:2">
 <p>Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
+<li id="fn:3">
+<p>Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
 <li id="fn:4">
-<p>Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p>Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
-<p>Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:8">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 <li id="fn:9">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

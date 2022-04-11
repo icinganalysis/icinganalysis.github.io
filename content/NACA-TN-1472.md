@@ -1,6 +1,6 @@
 Title: NACA-TN-1472  
-Category: NACA
-tags: thermodynamics 
+Category: NACA  
+tags: thermodynamics  
 status: draft 
 
 > ###_"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"_  
@@ -337,6 +337,108 @@ aft. The records were obtained during icing conditions 11, 13, and
 14, table II.
 ![Figure 4](images/naca-tn-1472/Figure15.png) 
 
+###Heat transfer coefficients
+
+For the same airfoil flying at similar conditions, 
+we saw several measurements and estimates of the 
+external heat transfer coefficients.
+
+![external heat transfer coefficients](images/naca-tn-1472/naca_tn_1472_hc_comparison.png) 
+
+The values calculated in icing conditions ware uniformly higher than those in dry air conditions.
+NACA-TN-1472 offers an explanation of surface roughness about the transition region:
+
+>It is very likely that disturbance of the boundary layer, caused
+by **water drops striking the airfoil surface and roughening the surface**
+as they coalesce and flow aft, would effect a forward movement of
+transition. There is further evidence to support the assumption that
+the water-roughened surface caused movement of transition forward.
+Observations of the 65,2-016 airfoil during a flight in clear air
+with toe test section heated indicated that transition had shifted
+forward by a considerable amount. This was noted by a lowering of
+the surface temperature in the region aft of the leading edge. The
+heat distribution had been set previously to produce a constant
+surface temperature in clear air, and only a change in the boundary-
+layer characteristics could cause the evident change in heat-transfer
+coefficient. After the flight, a close examination of the leading-
+edge region of the airfoil revealed small insects stuck to the
+surface where they had hit during the flight. The surface was wiped
+clean and during a subsequent flight in clear air it was noted that
+transition had moved back again, as evidenced by the restoration of
+the surface temperatures to normal. Thus, **it appears that very small
+irregularities in the surface, such as are present on the surface of
+an airfoil in icing conditions, are sufficient to cause transition to
+occur prematurely**. Tests in wind tunnels also have shown that small
+protuberances in the leading-edge region of an airfoil will cause
+the movement of transition forward. (See reference 24.)  
+
+>The exact values of the convective heat-transfer coefficient in
+the region aft of the area of impingement in icing conditions are
+unknown, but it 1s believed the values fluctuate due to changes in
+the location of transition during flight. Very probably, the
+disturbance to the boundary layer caused by water on the airfoil
+surface is of such a character as to create instability in the
+boundary layer, and cause the location of transition to fluctuate.
+
+I do not find this explanation of differences in the aft region to be very convincing,
+as the differences extend more than "a short distance": 
+>Most of the curves of heat-transfer coefficient measured during
+flight in icing conditions, shown in figures 8(a) to 8(f) and 12(a)
+to 12(g), display a definite increase in the aft region of high heat
+intensity, suggesting that transition is located at this point. It
+should be noted that the increase in heat-transfer coefficient
+indicated by these curves is believed to be only an apparent increase,
+caused by the rapid change in heating intensity in this region. If
+the coefficient is relatively constant throughout this area, as it is
+believed to be, a sudden increase in heating intensity will not be
+accompanied by an equally rapid change in the thermal boundary layer,
+and **for a short distance aft the indicated values of heat-transfer
+coefficient will be erroneously high**.
+
+Despite the statement below that "In this [aft] region, the
+measured heat-flow curve and the calculated curve of convective heat
+transfer come together", the values do not correspond well: 
+>In the aft region of high heat flow (figs. 23 and 24), the
+values of convective heat-transfer coefficient are known, since
+turbulent flow existed in this region in clear air, when the values
+were measured, as well as in icing conditions. **In this region, the
+measured heat-flow curve and the calculated curve of convective heat
+transfer come together**, indicating that at the point where the curves ·
+coincide all the water on the surface has been evaporated.
+
+The difference near S/C=0 are not explained. 
+
+Determining the heat transfer coefficients was a challenge in the NACA era, 
+and is still a challenge in the current era. 
+A heat transfer textbook [^5] advises: 
+>The foregoing correlations are suitable for most engineering calculations. 
+However, they should not be viewed as providing exact determinations of the 
+coefficients. Conditions may vary according to the freestream turbuence and 
+surface roughness, and **it would be unreasonable to expect the correlations to 
+predict results to better than 25% accuracy**. This statement made be made 
+for virtually all the correlations to be considered.  
+
+I would extend the statement above to include modern, 3D CFD (computational fluid dynamics) tools, 
+which can report computed results to great precision, but often unknown accuracy for heat transfer coefficients. 
+Some CFD tools do not include surface roughness, and so would be limited for the surface water induced roughness cases noted above. 
+
+The heat transfer coefficients affect the heating required to evaporate all water, 
+and so the use of coefficients that include the turbulent transition are recommended for system design:
+
+>The total heat flow required [in Figure 27]
+to evaporate all the water within the area from 0 to 14 percent s/c
+with transition at 5 percent s/c is **approximately 10 percent greater
+than the amount of heat required if laminar flow prevails**. Apparently,
+the location of transition moves forward in conditions of icing, even
+in the presence of a favorable pressure gradient, to a point where a
+strong favorable pressure gradient is encountered (figs. 11 and 16).
+As was stated previously, the location of transition is believed to
+fluctuate, probably over a considerable distance. **It is suggested
+that forward movement of transition to a point close to the leading
+edge of the wing be assumed in the design of thermal ice-prevention
+equipment, especially in view of the fact that a greater amount of
+heat is required for the turbulent-flow condition**.
+
 
 ##Citations
 
@@ -395,7 +497,8 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^2]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^3]: Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 [^4]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-
+[^5]:
+Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984. 
 [^10]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 

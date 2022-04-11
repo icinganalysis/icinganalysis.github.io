@@ -298,7 +298,7 @@ The internal heat transfer coefficient was determined from
 the external heat transfer coefficient values,
 the calculated t_o value, 
 and surface and heated air thermocouple readings. 
-So, the accuracy of the internal heat transfer coefficient is depenent on those other values. 
+So, the accuracy of the internal heat transfer coefficient is dependent on those other values. 
 
 > The value, used in the analysis, for the coefficient of
 transfer of heat h d to the inner surface of the wing has been
