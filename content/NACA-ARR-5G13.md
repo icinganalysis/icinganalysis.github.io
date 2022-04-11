@@ -108,6 +108,11 @@ Now conditions with a wet surface are considered.
 
 ![Equation 15](/images/naca-arr-5g13/Equation15.png)  
 
+Hardy outlined a condition where the water drops 
+are not in equilibrium with the local air temperature, 
+(the equation after 15, e1= eo*p1/po), but then adopts the 
+temperature equilibrium, which is used in the example calculations he presented. 
+
 ![Kinetic wet temperature](/images/naca-arr-5g13/kinetic_wet_t.png)  
 ![vapor analogy](/images/naca-arr-5g13/vapor_analogy.png)  
 ![Equation 17](/images/naca-arr-5g13/equation17.png)  
