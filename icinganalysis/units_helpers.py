@@ -52,7 +52,7 @@ A note about mass and force:
     In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2).
     It must be explicitly included in any calculation involving force, mass and acceleration.
     The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this.
-    gc = 1 slug-ft/lbf-s^2
+         gc = 1 slug-ft/lbf-s^2
     However, I have seen many errors of a factor of 32.174, when either slugs or lbm were used.
 
     (see an excellent discussion about gc in "Fundamentals of Classical Thermodynamics",
