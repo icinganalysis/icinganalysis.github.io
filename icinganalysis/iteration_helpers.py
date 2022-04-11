@@ -1,5 +1,6 @@
-from scipy.optimize import minimize_scalar
 from typing import Any, Callable, Iterator, Optional, Sequence, Union
+from scipy.interpolate import interp1d
+from scipy.optimize import minimize_scalar
 
 
 def solve_minimize_f(
@@ -51,3 +52,45 @@ def generate_staggered_pairs(sequence: Sequence) -> Iterator:
 def generate_even_odd_pairs(sequence):
     return zip(sequence[::2], sequence[1::2])
 
+
+def get_x_y_split_at_x_value(x, y, x_value=0.0):
+    if not any(x):
+        return [], [], [], []
+    if x_value in x:
+        i = x.index(x_value)
+        return x[0 : i + 1], y[0 : i + 1], x[i:], y[i:]
+    if max(x) < x_value:
+        return x, y, [], []
+    elif min(x) > x_value:
+        return [], [], x, y
+    else:
+        x = list(x)
+        y = list(y)
+        i = [i for i, _ in enumerate(x) if _ < x_value][-1]
+        yi = interp1d(x[i : i + 1 + 1], y[i : i + 1 + 1])(x_value)
+        x_lower = x[:i] + [x_value]
+        x_upper = [x_value] + x[i:]
+        y_lower = y[:i] + [yi]
+        y_upper = [yi] + y[i:]
+        return x_lower, y_lower, x_upper, y_upper
+
+
+def trim_extra_x_y_zeros(x, y, threshold=0):
+    i_s = [i for i, _ in enumerate(y) if _ > threshold]
+    if not i_s:
+        return [], []
+    i0 = i_s[0] - 1 if i_s[0] > 0 else 0
+    i_end = i_s[-1] + 1 + 1 if i_s[-1] + 1 + 1 <= len(y) else len(y)
+    return x[i0:i_end], y[i0:i_end]
+
+
+def calc_area(x, y):
+    area = sum(
+        [
+            (y1 + y2) / 2 * (x2 - x1)
+            for (y1, y2), (x1, x2) in zip(
+                generate_staggered_pairs(y), generate_staggered_pairs(x)
+            )
+        ]
+    )
+    return area
