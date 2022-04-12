@@ -87,3 +87,10 @@ def tf_to_k(tf):
 def tk_to_f(tk):
     return tk * F_PER_K - T_0F_R
 
+
+def tc_to_k(tc):
+    return tc + T_0C_K
+
+
+def tk_to_c(tk):
+    return tk - T_0C_K
