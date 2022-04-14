@@ -383,7 +383,7 @@ of definite conditions of icing.
 The confidence that 
 > "**the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude**"  
 
-is quickly tempered with a list of uncertainties:
+is quickly tempered with a list of uncertainties:  
 - "The uncertainties of the location of the point of transition"  
 - "the uncertainty as to the effect, on transition, of water on the surface"  
 - "The rate of transfer of heat from the hot air to the inner surface cannot at present be calculated with any confidence"  
