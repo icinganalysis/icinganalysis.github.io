@@ -384,19 +384,19 @@ The confidence that
 > "**the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude**"  
 
 is quickly tempered with a list of uncertainties:
-- "The uncertainties are the location of the point of transition" 
-- "the uncertainty as to the effect, on transition, of water on the surface" 
-- "The rate of transfer of heat from the hot air to the inner surface cannot at present be calculated with any confidence" 
-- "point at which water is blown off the wing cannot be predicted" 
-- "optimum distribution of heat also is uncertain" 
-- "The lack of knowledge as to the physical characteristics of severe conditions of icing, as they occur in nature, is a severe handicap"
+- "The uncertainties are the location of the point of transition"  
+- "the uncertainty as to the effect, on transition, of water on the surface"  
+- "The rate of transfer of heat from the hot air to the inner surface cannot at present be calculated with any confidence"  
+- "point at which water is blown off the wing cannot be predicted"  
+- "optimum distribution of heat also is uncertain"  
+- "The lack of knowledge as to the physical characteristics of severe conditions of icing, as they occur in nature, is a severe handicap"  
 
 These will be continuing challenges for later works, as well as other items noted above:  
-- accuracy of the water drop temperature equilibrium assumption
-- water rate catch calculations 
-- details of the evaporation calculation, including the ratio of k_h to k_w
-- fraction of water drops blown off of the surface, if any
-- fraction wettedness of the surface in the water runback region 
+- accuracy of the water drop temperature equilibrium assumption  
+- water rate catch calculations  
+- details of the evaporation calculation, including the ratio of k_h to k_w  
+- fraction of water drops blown off of the surface, if any  
+- fraction wettedness of the surface in the water runback region  
 
 NACA-TR-831 included most of the components of more recent, 
 2D thermal ice protection thermodynamic analysis. 
