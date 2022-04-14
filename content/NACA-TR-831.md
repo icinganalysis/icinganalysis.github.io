@@ -1,7 +1,6 @@
-Title: NACA-TR-831
-Category: NACA
-tags: thermodynamics 
-status: draft 
+Title: NACA-TR-831 
+Category: NACA 
+tags: thermodynamics  
 
 >###_"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."_
 
