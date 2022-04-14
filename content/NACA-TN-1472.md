@@ -14,8 +14,9 @@ Natural icing flight tests with an instrumented test airfoil are compared to 2D 
 
 1. Thermodynamic equations for a heated surface with water impingement are detailed. 
 2. Test flights in natural icing conditions measured surface temperature for a heated surface.
-3. Heat transfer coefficients in icing were be inferred from measurements and calculations. 
-4. "the design of heated wings on a fundamental, wet-air basis now can be undertaken with reasonable
+3. Runback water characteristics were noted.
+4. Heat transfer coefficients in icing were be inferred from measurements and calculations. 
+5. "the design of heated wings on a fundamental, wet-air basis now can be undertaken with reasonable
 certainty."
 
 
@@ -311,6 +312,30 @@ which was reviewed in the [Cylinders thread]({filename}Icing on Cylinders.md).
 ![Table I](images/naca-tn-1472/Table1.png) 
 
 
+#Runback water
+
+The water that runs back on a surface is not usually a unifor sheet of water. 
+The water tends to breakup into rivulats. 
+This was characterized: 
+
+> A picture of the conditions of wetness which existed on the
+airfoil during flight in clouds can be seen in figure 15. This
+figure shows some typical records obtained with strips of blueprint
+paper which had been fastened to a device that could be extended
+into the air stream up the leading edge of the airfoil model to a
+point just below the test section. Since, in effect, these were
+wrapped around the leading edge of the model, they illustrate the
+pattern that the water assUlWS in striking the airfoil and flowing
+aft. The records were obtained during icing conditions 11, 13, and
+14, table II.
+![Figure15](images/naca-tn-1472/Figure15.png) 
+
+This was (roughly) correlated with water runback rate 
+(although a constant value of about 0.25 would fit the data as well, IMHO).
+
+![Figure 21](images/naca-tn-1472/Figure21.png) 
+
+
 ###Analysis results
 
 For brevity, we will examine the NACA 0012 test article results (only). 
@@ -324,19 +349,6 @@ shown in Figure 8 ("H").
 A python implementation (file naca_tn_1472.py) found similar values. 
 
 ![Python analysis of figure 8a conditions](images/naca-tn-1472/naca_tn_1472_fig8a.png)
-
-
-> A picture of the conditions of wetness which existed on the
-airfoil during flight in clouds can be seen in figure 15. This
-figure shows some typical records obtained with strips of blueprint
-paper which had been fastened to a device that could be extended
-into the air stream up the leading edge of the airfoil model to a
-point just below the test section. Since, in effect, these were
-wrapped around the leading edge of the model, they illustrate the
-pattern that the water assUlWS in striking the airfoil and flowing
-aft. The records were obtained during icing conditions 11, 13, and
-14, table II.
-![Figure 4](images/naca-tn-1472/Figure15.png) 
 
 ###Heat transfer coefficients
 
