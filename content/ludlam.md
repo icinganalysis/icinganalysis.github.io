@@ -10,7 +10,7 @@ or
 ##"A confusion of Ludlam Limits"
 
 ##Summary
-Various "Ludlam Limits" have been implemented, but they produce varying results.  
+Various "Ludlam Limits" have been implemented, but they produce different results.  
 
 ##Key points  
 1. Calculations are laid out for finding the "critical" LWC where not all available water freezes on a cylinder. 
@@ -128,12 +128,13 @@ Areas where Mazin is different:
 Jeck cited Ludlam, but did not provide details of the implementation. 
 Jeck presented results as "Ludlam limit" icing rates on the cylinder, 
 as shown in Figure 22c below, 
-which may readily be converted to an LWC value using equation (8). 
 
-![Jeck Figure 22c](images/Ludlam/JeckFigure22c.png)
+![Jeck Figure 22c](images/Ludlam/JeckFigure22c.png) 
 
->![Jeck equation (8)](images/Ludlam/Jeck_equ8.png) 
->![Jeck equation (8)](images/Ludlam/Jeck_beta.png)
+which may readily be converted to an LWC value using the continuity equation. 
+
+>![Jeck equation (8)](images/Ludlam/Jeck_beta.png) 
+> LWC = thick_growth_rate / ice_density / (beta * airspeed)  [with unit conversions]
 
 NACA-TR-1215 cites Ludlam, and includes a "critical" LWC value. 
 Differences include:
@@ -148,12 +149,12 @@ but these are enough to make a point.
 
 ###The various "Ludlam limit" methods produce significantly different results. 
 
-![](images/Ludlam/ludlam_comparisons_all.png) 
+![Comparison of "Ludlam limit" values](images/Ludlam/ludlam_comparisons_all.png) 
 
 For Mazin, the most important difference is that the area for evaporation and convection is 
 confined to the impingement area, which for most cases for this small cylinder
 is the front half. 
-This largely explains why the Mazin LWC results are about 1/2 of the python implementation,
+This largely explains why the Mazin LWC results are about 1/2 of the python implementation, 
 which allows evaporation and convection over the entire surface. 
  
 I speculate that Jeck attempted to use Ludlam's published evaporation coefficient
@@ -197,13 +198,7 @@ Ludlam is cited by 3 publications in the NACA Icing Publications Database [^7]:
 
 An online search found that Ludlam is cited 106 times in the literature [^8].  
 
-
-###Related
-
-something related
-
-##Notes: 
-
+##Notes:  
 [^1]: 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
 [^2]: Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
@@ -213,12 +208,12 @@ Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Imp
 [^5]: 
 Mazin, I. P., A. V. Korolev, A. Heymsfield, G. A. Isaac, and S. G. Cober, 2001: Thermodynamics of Icing Cylinder for Measurements of Liquid Water Content in Supercooled Clouds. J. Atmospheric Ocean. Technol., 18, 543-558  
 I also recommend Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp  
-This is a candidate for "The Greatest Thing That You (Probably) Have Not Read"  
+This is a candidate for "The Greatest Thing That You (Probably) Have Never Read"  
 A translation to English is available at [DTIC](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
 [^6]: 
 Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002.  
-[^6]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^7]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^8]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Heat+Economy+of+a+Rimed+Cylinder&btnG=  
 
