@@ -5,7 +5,7 @@ status: draft
 
 > ###_"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
 
-#Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
+#F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
 or 
 ##"A confusion of Ludlam Limits"
 
@@ -27,7 +27,7 @@ the associated liquid-water content of the cloud is calculated
 and found to be usually less than the maximum theoretical value inside a deep cumulus cloud. 
 The rotating-cylinder technique of determining water content and drop-size distribution 
 cannot therefore be used without consideration of the heat economy, 
-and may otherwise lead to large underestimates of water concentration in severe icing conditions.
+and may otherwise lead to large underestimates of water concentration in severe icing conditions. 
     
 ##Discussion
 
@@ -121,9 +121,9 @@ Mazin cited Ludlam, and provided details of the implementation.
 Areas where Mazin is different:  
 - heat transfer coefficients  
 - evaporation calculation  
-- Evaporation and convection are confined to the impingement area  
+- evaporation and convection are confined to the impingement area  
 - evaporation reduces the water available for freezing  
-- visous and kinetic heating are included  
+- viscous and kinetic heating are included  
 
 Jeck cited Ludlam, but did not provide details of the implementation. 
 Jeck presented results as "Ludlam limit" icing rates on the cylinder, 
@@ -159,7 +159,9 @@ which allows evaporation and convection over the entire surface.
 I speculate that Jeck attempted to use Ludlam's published evaporation coefficient
 which may explain some of the differences. 
 
-We will compare cylinder test data when we get to the review of NACA-TR-1215 in the Thermodynamics thread. 
+We will compare cylinder test data 
+when we get to the review of NACA-TR-1215 in the Thermodynamics thread, 
+which might help sort out the more useful analysis methods. 
 
 ##Conclusions 
 
@@ -187,7 +189,6 @@ Ludlam cites 11 publications:
 - Ludlam, F. H.: . Quart. Jour. Roy. Meteorological Soc., vol. 77, Oct. 1951. p. 402.  
 - Powell, R. W.: . Trans Inst. Chem. Eng., 18, 1940, p. 36.  
 
-
 Ludlam is cited by 3 publications in the NACA Icing Publications Database [^7]:
 
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
@@ -211,6 +212,9 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 [^5]: 
 Mazin, I. P., A. V. Korolev, A. Heymsfield, G. A. Isaac, and S. G. Cober, 2001: Thermodynamics of Icing Cylinder for Measurements of Liquid Water Content in Supercooled Clouds. J. Atmospheric Ocean. Technol., 18, 543-558  
+I also recommend Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp  
+This is a candidate for "The Greatest Thing That You (Probably) Have Not Read"  
+A translation to English is available at [DTIC](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
 [^6]: 
 Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002.  
 [^6]: 
