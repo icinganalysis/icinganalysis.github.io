@@ -1,0 +1,278 @@
+Title: Messinger  
+Category: NACA  
+tags: thermodynamics  
+status: draft
+
+> ###_""freezing-fraction," which denotes the proportion of the impinging liquid which freezes in the impingement region"_  
+
+#B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" [^1]
+
+
+![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png) 
+> Modes of energy transfer for an unheated airfoil in icing conditions. 
+
+##Summary
+The "freezing fraction" is defined
+
+##Key points
+
+1. key point 1  
+
+##Abstract
+
+> The thermal analysis of a heated surface in icing conditions has
+been extensively treated in the literature. Except for the work
+of Tribus, however, little has been done on the analysis of an
+unheated icing surface. This latter analysis is significant in the
+design of cyclic thermal deicing systems that are attractive for
+small high-speed aircraft for which thermal anti-icing requirements 
+have become severe.
+In this paper, a complete analysis of the temperature of an
+unheated surface in icing conditions is presented for the several
+significant regimes (i.e., less than 32°F., at 32°F., and above
+32°F.) as a function of air speed, altitude, ambient temperature,
+and liquid water content.
+The results are presented in graphical form and permit the
+rapid determination of surface temperature for a wide range of
+variables. Curves are presented to determine the speeds beyond
+which no ice accretion will occur. Curves are also presented to
+indicate the surface temperature and the rate of ice sublimation
+which takes place when an ice-covered surface emerges into clear
+air.
+One significant result of this study is the introduction of a new
+basic variable referred to as the "freezing-fraction," which denotes 
+the proportion of the impinging liquid which freezes in the
+impingement region. The fact that some of the liquid does not
+freeze in the impingement region tends to explain the observed
+variation in ice formation shape with temperature, speed, and
+water catch.
+New test data obtained at Mt. Washington, N.H., for stagnation-point 
+surface temperatures of an unheated plastic cylinder in
+natural and artificial icing conditions are included in the Appendix. 
+These data substantiate the validity of the assumptions
+made in the theoretical analysis.
+    
+##Discussion
+
+In a footnote, Messinger credits for the term "freezing fraction":  
+>The author is indebted to M. M. Friedlander for assistance
+in preparation of the curves and to P. J. Valentine for suggestions
+relative to the "freezing fraction" concept. Both are members of
+the Thermodynamics Group at Lockheed Aircraft Corporation.
+
+###Symbols  
+The paper used its own nomenclature. 
+I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^2]. 
+
+Description| symbol | Messinger symbol
+---|---|---
+surface area | A | A 
+air specific heat at constant pressure | cp | ca
+unit system gravitation factor | gc = 1 kg-m/(N-s^2) | g, "gravitational constant, 32.2 ft./sec.^2 or lbs. per slug"
+heat transfer coefficient| hc| f
+ambient static pressure | p | B, ambient absolute pressure
+mass flux rate of water (mass/unit_area/time) | mw | Rw
+mass flux rate of evaporation (mass/unit_area/time) | me | Rwe
+evaporation fraction | m | m
+freezing fraction | n | n
+ambient water vapor pressure | pv | p∞
+surface water vapor pressure | pvs | psw
+heat transfer (loss) by convection | qc | qc
+heat transfer (loss) by evaporation | qe | qe
+heat transfer (gain) by freezing | qf | qf
+heat transfer (gain) by kinetic heating from drops | qk | qk
+heat transfer (gain) by viscous heating | qv | qv
+heat transfer (loss) by warming drops | qw | qw
+recovery factor | r | r
+ambient air static temperature| ta | t∞
+surface temperature | ts | tse
+latent heat of evaporation | Le | Le
+latent heat of freezing | Lf | Lf
+free stream airspeed | u | V
+
+I believe that the "ambient absolute pressure" refers not only to the 
+pressure being absolute (not gauge pressure), 
+but also that it is the pressure of the air and water vapor mix, 
+not just the dry air component partial pressure. 
+This distinction makes little difference for unheated surfaces, 
+but can be non-trial for heated surfaces. 
+
+And calculations here will be in SI units, with the exceptions of:  
+- LWC, g/m^3  
+- drop diameter, micrometer   
+
+###A brief digression about mass, force, and gc:  
+    To keep unit consistency in Newton's second law, a unit constant "gc" is introduced.
+    Force = mass * acceleration / gc
+    
+    In SI units gc = 1 kg-m/(N-s^2)
+    Force = mass * acceleration / gc
+    N = kg * m/s^2  / (kg-m/N-s^2) = N  ✔
+    
+    As the value is 1, gc might not be explicitly be included in calculations in SI units,
+    but it is always implicitly there.
+    
+    In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2).
+    It must be explicitly included in any calculation involving force, mass and acceleration.
+    The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this.
+         gc = 1 slug-ft/lbf-s^2
+    However, I have seen many errors of a factor of 32.174, when either slugs or lbm were used.
+    (see an excellent discussion about gc in "Fundamentals of Classical Thermodynamics",
+    Van Wylen and Sonntag, Second Edition, John Wiley and Sons, 1973.)
+
+###Heat balance for a surface at 32F (0C)
+
+For a surface at 32F:
+
+> qc = hc * (ts - ta) 
+
+> qe = 2.9 * Le * fc * A *(Psw - P∞) / B  _[Messinger nomenclature]_  
+
+In a footnote, Messinger says of the term:  
+> The constant 2.90 is an empirical factor relating mass transfer
+to convection heat transfer. In reference 1 this constant appears
+erroneously as being equal to 2.29 because of a numerical error
+in the derivation. Also, to be completely accurate, the values of
+Pm and B should be replaced by their corresponding local values
+just outside the boundary layer. Thus the areas of low static
+pressure promote increased evaporation and high static pressure
+areas suppress evaporation. The magnitude of this effect is 
+considered negligible in this paper.
+
+
+NACA-TR-831 discusses the related ratio kw/kh:
+
+>![Definitions of kh and kw](images/NACA-TR-831/kh_and_kw.png) 
+>Coefficient of evaporation.—There is some uncertainty as
+to the correct value of the ratio of kw. to kh, owing to 
+uncertainty in the value of the coefficient of diffusion of water
+vapor in air. When the flow is laminar 
+>![Equation 10](images/NACA-TR-831/Equation10.png) 
+>When the flow is turbulent, the ratio is more nearly unity;
+the value may be found by substitution in Karman's equation 
+(reference 7). Taylor's number Tr is the ratio of the
+diffusivity of momentum to that of any substance or heat.
+Prandtl's number Pr is Taylor's number in the particular
+case of heat, when the diffusivity is k/(p)'cp.
+Values for the diffusivity of water vapor in air are few
+and scattered. The most reliable is considered to be 0.22
+centimeter squared per second at 0°C. (reference 8). With
+this value, equation (10) gives kw/kh =1.12.
+
+The ratio (Pr/Tr)**(2/3) is fairly constant over the range of conditions of interest, 
+so it is often in post-NACA literature taken as the constant value 1.12. 
+
+To get Messingers value of 2.9: 
+>ratio of molecular masses, water to air = 0.622 
+>cp_air = 0.24 BTU/lbm-F 
+>2.9 = 0.622 / 0.24 / 1.12
+
+So, the 2.9 factor is not just empirical, 
+it is founded in the ideal gas law and boundary layer analogies. 
+
+More generally, for any unit system: 
+> kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)
+> he = hc * 0.622 / P / cp * (Pr/Tr)**(2/3)  (if using vapor pressure difference)
+
+So, 
+
+> qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  _[standard nomenclature]_  
+> qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  _[constant factor]_  
+
+> qe = Le * hc * 0.7 / cp * (pvs - pv) / p  _[regrouped]_  
+
+> qw = mw * A * cpw * (ts - ta) 
+
+> qf = Lf * n * mw * A
+
+Note that all of the impinging water mw is considered to freeze (evaporation is not included). 
+
+> qv = fc * A * (r * V**2 / 2 / g / J /cp)  _[Messinger nomenclature]_  
+
+
+
+In SI units, this simplifies to: 
+
+> qv = hc * A * (r * u**2 / 2 / cpw) 
+
+> qk = mw * A * (u**2 / 2)
+
+
+###When ts=32F and 0 <= n <= 1
+
+(For brevity, we will cover only this case, consult the paper for other cases such as ts<32F, ts>32F).
+
+Equating the sum of the "gain" terms to the sum of the "loss" terms:
+
+> qf + qv + qk = qc + qe + qw
+
+> (Lf * n * mw * A) + (hc * A * (r * u\*\*2 / 2 / cpw)) + (mw * A * (u\*\*2 / 2))  
+= (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
+
+From this, the freezing fraction n may be solved for by successive approximation. 
+The non-linear terms, particularly vapor pressure, preclude a direct solution. 
+
+Messinger goes on to define terms that can be graphed, to aid graphical solutions. 
+
+    "By introducing the dimensionless ratio b = Rw*cw/fc"  
+
+> b = mw * cpw / hc
+
+    "and three new groupings of the variables—namely,"
+    
+> θ'1 = ts * (1 + b) + Le * 0.7 / cp * pvs  / p
+
+> θ'2 = t * (1 + b)  + Le * 0.7 / cp * pv  / p + Lf * n *  b
+
+> θ'3 = (r / cp + b) * (u**2 / 2)
+
+> θ\'1 = θ\'2 + θ\'3
+
+    "For any given altitude θ'1 is a function only of b as
+    shown in Fig. 5, and θ'2 can be plotted in two steps as
+    indicated in Figs. 6 and 7,"
+
+Unfortunately, Figure 6 is for 20,000 ft. altitude (only), 
+and it is not clear how the reader would get solutions for other altitudes. 
+    
+
+
+
+
+###Key point
+
+##Citations
+
+Messinger cites 9 publications:
+
+- Tribus, Myron: Intermittent Heating for Protection In Aircraft Icing. (Thesis submitted in partial satisfaction of requirements for Ph.D. degree in engineering.) Univ. of Calif., Dept. of Engr., 1949.  
+- Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
+- Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+- Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
+- Hardy, J. K.: Protection of Aircraft Against Ice. Rep. No. S.M.E. 3380, British R.A.E., July 1946.  
+- Hacker, Paul T., Dorsch, Robert G., Gelder, Thomas F., Lewis, James P., Chandler, H. C., Jr., and Koutz, Stanley L.: Ice Protection for Turbojet Transport Airplane. S.M.F. Fund Paper No. FF-1, Presented at I.A.S. Fifth Annual Flight Propulsion Meeting, March 24, 1950.  
+- Lewis, William: Meteorological Factors in the Design and Operation of Thermal Ice Protection Equipment for High Speed, High Altitude Transport Airplanes. Part 7 of a Compilation of the Paper Presented at NACA "Conference on Some Problems of Aircraft Operation", October 9 and 10, 1950.  
+- Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
+- Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
+
+Messiger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^10]:
+
+- Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.
+
+
+
+###Related
+
+something related
+
+##Notes: 
+
+[^1]: 
+Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.
+[^2]: 
+Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+
+
+[^10]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+

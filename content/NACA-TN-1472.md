@@ -7,6 +7,9 @@ status: draft
 
 #"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" [^1]
 
+![Figure 7](images/naca-tn-1472/Figure7.png) 
+
+
 ##Summary
 Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.
 
@@ -90,11 +93,11 @@ qw = Ma * Cpw * (ts - (to + Δtkw))
 >The term Δtkw is the kinetic temperature rise of the water caused
 by stoppage of the droplets as they strike the wing. The value of
 Δtkw is given by
-![Equation 3](images/naca-tn-1472/Equation3.png)
+![Equation 3](images/naca-tn-1472/Equation3.png)  
 >where V is the free-stream velocity in feet per second. The value
 of Δtkw is less than 2 Fahrenheit for airplane speeds up to 200
 miles an hour and, for the calculations presented in this report, the
-term has been neglected. Equation (2) thus becomes: 
+term has been neglected. Equation (2) thus becomes:  
 ![Equation 4](images/naca-tn-1472/Equation4.png) 
 
 "Runback" is defined: 
@@ -136,9 +139,8 @@ specified point on an airfoil is a function of the area of impingement,
 the velocity of flight, the liquid-water concentration of the air
 stream, and the distribution of the intercepted vater over the surface.
 This latter factor, called the concentration factor C is represented
-by the ratio of Yo to s, or:
+by the ratio of Yo to s, or: 
 ![Equation 6](images/naca-tn-1472/Equation6.png) 
-
 
 > Using values of C obtained from figure 2, the weight of water impingement
 at any point on the surface can be calculated from equation (7).
@@ -159,19 +161,19 @@ Equation (8) then becomes:
 a particular size and C is the concentration factor for the K
 value corresponding to that drop size.
 
-The total water catch can be calculated:
+The total water catch can be calculated: 
 > In order to establish the possibility of runback forming aft of
 the heated area of a wing, it is necessary to know the total quantity
 of water intercepted per unit of wing span. This rate of impingement,
-denoted as Me in pounds per hour, foot span, is given by
+denoted as Me in pounds per hour, foot span, is given by 
 ![Equation 9](images/naca-tn-1472/Equation9.png) 
 > A more rapid method for the evaluation of Me utilizes a curve of
 collection efficiency E as a function of K (fig. 3). Collection
-efficiency is defined as:
+efficiency is defined as: 
 ![Equation 10](images/naca-tn-1472/Equation10.png) 
 > where Yolimit is the value of Yo for which drops of a particular
 K value just miss the airfoil, and Ymax is the maximum ordinate of
-the airfoil. The equation for computing Me, then, is
+the airfoil. The equation for computing Me, then, is 
 ![Equation 11](images/naca-tn-1472/Equation11.png) 
 ![Figure 3](images/naca-tn-1472/Figure3.png) 
 
@@ -202,7 +204,7 @@ laminar flow becomes
 ![Equation 15 and 16](images/naca-tn-1472/Equation15_16.png) 
 ![Equation 17](images/naca-tn-1472/Equation17.png) 
 
-An alternative way of calculating tok was selected:
+An alternative way of calculating "tok" was selected:
 
 >Experiments in clouds, in the process of calibrating a free-air
 thermometer installation (reference 13), showed that by multiplying
@@ -212,7 +214,7 @@ of kinetic temperature rise calculated in this manner and the measured
 values was obtained. Since use of the ratio of the adiabatic lapse
 rates was substantiated experimentally, and since equation (17) must
 be solved by trial, a somewhat laborious procedure, the following
-equations were used in this report to calculate values of tok:
+equations were used in this report to calculate values of tok: 
 ![Equation 18 and 19](images/naca-tn-1472/Equations18_19.png) 
 >Values of αs/αd, the ratio of the wet- to the dry-adiabatic lapse
 rates, are obtained from figure 4. The use of the lapse-rate ratio
@@ -220,18 +222,18 @@ in equations (18) and (19) is semi-empirical. The limitations of
 this simplification in the calculation of kinetic-temperature rise of
 airfoil surfaces in clouds are not known. Below speeds of 200 miles
 per hour, however, these equations can be used with small error, since
-the kinetic-temperature rise is low.
+the kinetic-temperature rise is low. 
 ![Figure 4](images/naca-tn-1472/Figure4.png) 
 
-###Heat Loss Due to Evaporation of the Water on the Surface
+###Heat Loss Due to Evaporation of the Water on the Surface 
 >The amount of heat removed from a wetted surface as a result of
-the evaporation of water on that surface can be expressed:
+the evaporation of water on that surface can be expressed: 
 ![Equation 20](images/naca-tn-1472/Equation20.png) 
 
 A lumped and linearized value X for convection and evaporation is developed:
 > From reference 6 the relation between Qe and the convective
 heat-transfer coefficient h can be expressed for a completely
-wetted surface as:
+wetted surface as: 
 ![Equations 21 22 23](images/naca-tn-1472/Equations21_23.png) 
 > The values chosen for Ls and cp are 11OO Btu per pound and 0.24
 Btu per pound, Fahrenheit, respectively. The factor PSL/P1 is the
@@ -248,7 +250,7 @@ and evaporation, equation (1) can be written:
 ![Equation 24](images/naca-tn-1472/Equation24.png) 
 
 > Aft of the region of water impingement, Ma = 0 and equation (24)
-becomes
+becomes 
 ![Equation 25](images/naca-tn-1472/Equation25.png) 
 
 
@@ -263,8 +265,8 @@ airplane, as shown in figure 5. The test airfoil installed during
 the winter of 1945-46 had an NACA 0012 section.
 
 >Measurements of the temperature of the aluminum surface of the
-test section were obtained by means of thermocouples. 
-... 
+test section were obtained by means of thermocouples.  
+...  
 Thermocouples were located at the center of
 the test section at 1-inch chordwise intervals in the leading-edge
 and calculated transition regions, and at 1-1/2-inch chordwise
@@ -286,7 +288,7 @@ used to record surface temperatures.
 
 Flight tests in natural icing were conducted. 
 
-![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
+![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png) 
 
 >TEST PROCEDURE  
 The test airplane was flown into natural-icing conditions over
@@ -349,6 +351,21 @@ shown in Figure 8 ("H").
 A python implementation (file naca_tn_1472.py) found similar values. 
 
 ![Python analysis of figure 8a conditions](images/naca-tn-1472/naca_tn_1472_fig8a.png)
+
+The analysis can be used to determine surface temperatures from the heating and heat transfer coefficients 
+(rather than determining heat transfer coefficients for the surface temperatures and heating, as above). 
+A set of heat transfer coefficients was used: 
+![](images/naca-tn-1472/Figure25.png) 
+
+NACA-TN-1472 did not show the surface temperatures, here are the python analysis results.
+![](images/naca-tn-1472/naca_tn_1472_fig26_t_surface.png) 
+
+The portions of the heat transfer can be calculated: 
+![](images/naca-tn-1472/Figure26.png) 
+
+The python analysis shows similar results: 
+![](images/naca-tn-1472/naca_tn_1472_fig26.png)
+
 
 ###Heat transfer coefficients
 
@@ -452,6 +469,29 @@ edge of the wing be assumed in the design of thermal ice-prevention
 equipment, especially in view of the fact that a greater amount of
 heat is required for the turbulent-flow condition**.
 
+##Conclusions  
+
+>From the foregoing discussion, it is concluded that the extent
+of knowledge on the meteorology of icing, the impingement of water
+drops on airfoil surfaces, and the processes of heat transfer and
+evaporation from a wetted airfoil surface has been increased to a
+point where the design of heated wings on a fundamental, wet-air
+basis now can be undertaken with reasonable certainty. In addition
+to this general conclusion, the following conclusions are drawn,
+based on test data and analytical studies of the processes of heat
+transfer and evaporation from a heated wing.
+>1. The heat should be concentrated as much as possible in the
+leading-edge region of the wing in the area of water-drop impingement, 
+if an efficient thermal system is to be obtained.
+>2. An increase in altitude, for the same rate and area of water
+impingement on a wing and for the same conditions of true airspeed
+and free-air temperature, decreases the heat requirement for thermal
+ice prevention.
+>3. A wing thermal ice-prevention system which has been designed
+to evaporate all impinging water in the leading-edge region for a
+relatively high free-air temperature (20F) will be capable of ice
+prevention at low air temperatures (0F) in icing conditions nearly
+as severe as those upon which the design was based.
 
 ##Citations
 
@@ -497,11 +537,6 @@ NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database
 - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.
-
-
-###Related
-
-
 
 ##Notes: 
 
