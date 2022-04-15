@@ -9,3 +9,5 @@ Do not expected the site content, structure, nor links to be stable.
 Author: [Donald E. Cook]({filename}../donald-cook.md)  
 
 [Web publishing tools]({filename}../web publishing tools.md)  
+
+[Python programming style guide]({filename}../python_style_guide.md)  
