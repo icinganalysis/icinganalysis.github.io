@@ -1,7 +1,8 @@
 title: Python coding style guide  
 category: Python  
 tags: python  
-status: draft  
+
+![Python logo](images/python-logo-master-v3-TM.png)
 
 For the [Thermodynamics tread]({filename}thermodynamics.md) and on, I will be using this style guide. 
 Previous code may eventually be upgraded to this.

@@ -2,7 +2,7 @@ Title: Icing Thermodynamics
 Category: NACA
 tags: thermodynamics 
 
-![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
+![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
 
 #Icing Thermodynamics Thread 
 
@@ -28,7 +28,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 
 Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed,” J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42. 
 
-Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952. 
+Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
 

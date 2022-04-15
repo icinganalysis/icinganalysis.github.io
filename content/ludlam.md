@@ -7,7 +7,7 @@ status: draft
 
 #F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
 or 
-##"A confusion of Ludlam Limits"
+##"A Confusion of Ludlam Limits" 
 
 ##Summary
 Various "Ludlam Limits" have been implemented, but they produce different results.  
@@ -56,8 +56,8 @@ Heat transfer due to evaporation:
 
 The entire surface of the cylinder is considered to be available for evaporation. 
 A mass transfer coefficient was presented, k_evap = Nusselt * Dv / d_cylinder, 
-where Dv is the diffusitivy of water vapor in air. 
-This differs from the k_w term from [NACA-TR-831]({filename}NACA-TR-831.md) [^2].
+where Dv is the diffusivity of water vapor in air. 
+This differs from the k_w term in [NACA-TR-831]({filename}NACA-TR-831.md) [^2].
 I believe that this is an area where what Ludlam implemented is different from what Ludlam described.  
 
 Heat transfer due to water impingement: 
@@ -93,7 +93,7 @@ Differences from Ludlam are:
 - evaporation calculation  
 
 Ludlam did not include the air pressures, so those were calculated 
-using the wet_air to dry_air relationship from NACA-TR-831.
+using the wet_air to dry_air relationship from [NACA-TR-831]({filename}NACA-TR-831.md).
 
 ![Air pressures for Figure 1](images/Ludlam/ludlam_ps.png)
 
@@ -125,6 +125,9 @@ Areas where Mazin is different:
 - evaporation reduces the water available for freezing  
 - viscous and kinetic heating are included  
 
+Results are summaried in Mazin Figure 5:  
+![Mazin Figure 5. The Ludlam limit Wcr (critical LWC at which the surface temperature rises to 0C) vs. airspeed U for pressure Pa, temperature Ta.](images/Ludlam/MazinFigure5.png)
+
 Jeck cited Ludlam, but did not provide details of the implementation. 
 Jeck presented results as "Ludlam limit" icing rates on the cylinder, 
 as shown in Figure 22c below, 
@@ -134,9 +137,9 @@ as shown in Figure 22c below,
 which may readily be converted to an LWC value using the continuity equation. 
 
 >![Jeck equation (8)](images/Ludlam/Jeck_beta.png) 
-> LWC = thick_growth_rate / ice_density / (beta * airspeed)  [with unit conversions]
+> LWC = thick_growth_rate * ice_density / (beta * airspeed)  [with unit conversions]
 
-NACA-TR-1215 cites Ludlam, and includes a "critical" LWC value. 
+[NACA-TR-1215]({filename}NACA-TR-1215.md) cites Ludlam, and includes a "critical" LWC value. 
 Differences include:
 - evaporation calculation  
 - evaporation reduces the water available for freezing 
@@ -157,12 +160,32 @@ is the front half.
 This largely explains why the Mazin LWC results are about 1/2 of the python implementation, 
 which allows evaporation and convection over the entire surface. 
  
-I speculate that Jeck attempted to use Ludlam's published evaporation coefficient
+I speculate that Jeck attempted to use Ludlam's published evaporation coefficient 
 which may explain some of the differences. 
 
-We will compare cylinder test data 
-when we get to the review of NACA-TR-1215 in the Thermodynamics thread, 
-which might help sort out the more useful analysis methods. 
+Jeck's analysis results appear to be outliers, 
+so I question his discussion in relation to his "Ludlam limit" values shown in Figure 22c:
+
+>A comparison of measured icing rates with the envelopes can be illustrated with the following
+examples.
+
+Case|Icing Rate (mm/min)|Horizontal Extent (nmi)|OAT (°C)
+---|---|---|---
+A|0.7|10|-6
+B|0.7|5|-6
+C|0.5|15|-3
+D|1.0|8|-5
+
+>These are plotted in figure 22c where they should be compared with the upper two curves for 0°
+and -10°C. The example icing rates fall well below the probable maximum values represented
+by the solid curves for 0° and -10°C, but those icing rates are not achievable anyway, due to the
+Ludlam limit effect. As a result, the measured values can be directly compared with the
+envelopes only below the Ludlam limit lines. Icing rates (case D, for example) can still occur
+above these lines, but the measured rate will be less than the same LWC would provide in a
+colder cloud. That is, the icing rate will not increase in proportion to the available LWC when
+the icing rate exceeds the Ludlam limit for the existing OAT.
+
+There is a Ludlam limit, but probably not the ones that Jeck plotted. 
 
 ##Conclusions 
 
@@ -172,6 +195,7 @@ may not freeze all of the impinging water in some cases.
 However, it is not clear how some of the values in Ludlam's Figure 1 were derived. 
 
 Various implementations of "Ludlam limit" in the literature produce significantly different results. 
+With such disparity, the term has lost its meaning. 
 
 Whenever someone mentions a "Ludlam limit", be sure to ask "Which one?"
 
@@ -197,6 +221,13 @@ Ludlam is cited by 3 publications in the NACA Icing Publications Database [^7]:
 - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  
 
 An online search found that Ludlam is cited 106 times in the literature [^8].  
+
+##Related
+
+We will compare cylinder test data 
+when we get to the review of [NACA-TR-1215]({filename}NACA-TR-1215.md) in the Thermodynamics thread, 
+which might help sort out the more useful analysis methods. 
+
 
 ##Notes:  
 [^1]: 
