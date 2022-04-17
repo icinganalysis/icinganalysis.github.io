@@ -1,22 +1,25 @@
 Title: Messinger  
 Category: NACA  
+
 tags: thermodynamics  
 status: draft
 
-> ###_""freezing-fraction," which denotes the proportion of the impinging liquid which freezes in the impingement region"_  
+> ###_""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"_  
 
-#B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" [^1]
-
+#B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" [^1] 
 
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png) 
 > Modes of energy transfer for an unheated airfoil in icing conditions. 
 
 ##Summary
-The "freezing fraction" is defined
+The term "freezing fraction" is defined
 
 ##Key points
 
-1. key point 1  
+1. Heat balance equations for a wet surface are presented.  
+2. The term "freezing fraction" is defined  
+3. Example calculations are provided  
+4. Icing wind tunnel test data is provided  
 
 ##Abstract
 
@@ -55,9 +58,7 @@ made in the theoretical analysis.
 ##Discussion
 
 This is also one of the longest reviews. 
-This paper is a close second to Langmuir and Blodgett 
-for the most cited aircraft icing publication in the literature 
-(the positions change periodically, as both papers are often cited by new publications), 
+This paper is one of the most cited aircraft icing publication in the literature 
 and merits close study. 
 
 In a footnote, Messinger credits for the term "freezing fraction":  
@@ -95,13 +96,6 @@ surface temperature | ts | tse
 latent heat of evaporation | Le | Le
 latent heat of freezing | Lf | Lf
 free stream airspeed | u | V
-
-I believe that the "ambient absolute pressure" refers not only to the 
-pressure being absolute (not gauge pressure), 
-but also that it is the pressure of the air and water vapor mix, 
-not just the dry air component partial pressure. 
-This distinction makes little difference for unheated surfaces, 
-but can be non-trial for heated surfaces. 
 
 Calculations here will be in SI units, with the exceptions of:  
 - LWC, g/m^3  
@@ -229,7 +223,7 @@ as in Figure 10.
 shown for constant values of b, it should be noted that b
 will vary somewhat with speed as indicated above. It
 has been suggested by J. P . Lewis, one of the coauthors
-of references 2, 6, and 9, that , since Figs. 9, 10, and 12
+of references 2, 6, and 9, that, since Figs. 9, 10, and 12
 do not present a realistic picture of the true variation
 of surface temperature with air speed, it would be desirable 
 to construct these curves for constant values of
@@ -245,7 +239,7 @@ diameter cylinder.
 
 Figure 10a conditions: altitude = 10,000 ft., T= 0F.
 
-The python implementation (file messinger.py) reproduces Figure 10a results well. 
+The python implementation (file messinger.py [^3]) reproduces Figure 10a results well. 
 
 ![](images/messinger/messinger_figure10a_calc_b0_5.png)  
 (Yes, 1000 knots is kind-of high, but that is the range that Messinger used.)
@@ -260,10 +254,10 @@ Figure 10b includes the variation of b with airspeed.
 However, it did not include the beta values, 
 or the heat transfer coefficients assumed for the cylinder. 
 
-So, we will use the Langmuir and Blodgett relationships to get beta values.  
+So, we will use the Langmuir and Blodgett [^4] relationships to get beta values.  
 ![](images/messinger/messinger_fig10b_beta.png) 
 
-We will used the heat transfer coefficients from NACA-TN-1472. 
+We will used the heat transfer coefficients from [NACA-TN-1472]({filename}NACA-TN-1472.md) [^5]. 
 
 ![](images/messinger/messinger_fig10b_hcs.png) 
 
@@ -291,7 +285,7 @@ is wetted by an above-freezing-temperature cloud.
 Messinger continues: 
 
 >The convection loss term is presented as  
-qc = fc*(ts-t0k)  
+qc = fc*(ts-tok)  
 which would indicate that the difference between surface 
 temperature and wet bulb temperature is the controlling 
 potential. This is obviously contrary to the
@@ -299,13 +293,6 @@ definition of the conductance.
 
 There is more in that vein, so this marks the beginning of the end of 
 the use of "datum" temperature. 
-
-###Sublimation and melting
-
-Messinger has some interesting comments on these topics, 
-which I will not detail. Readers are recommended to consult the paper. 
-
-Sublimation is summarized below in the Conclusions. 
 
 ##Conclusions
 
@@ -350,7 +337,7 @@ We calc calculate what LWC "critical" value results in a freezing fraction
 of 1 for the 0.25 inch diameter cylinder we saw in the review of Ludlam. 
 
 The Reynolds is too low to be turbulent for a smooth surface, 
-but we will consider the rough surface correlation from NACA-TR-1215. 
+but we will consider the rough surface correlation from [NACA-TR-1215]({filename}NACA-TR-1215.md) [^6]. 
 We will also consider just the stagnation point, as Messinger did, 
 and also an "averaged" value, 
 spreading out the impingement over the entire surface of the cylinder. 
@@ -361,8 +348,60 @@ As Messinger wrote:
 
     "... data, obtained in natural icing conditions, would be valuable
     for establishing the validity of the various foregoing assumptions"
+    
+##Appendix 
 
-###Key point
+Messinger added an appendix with 
+
+> One phase of this test program
+included a series of surface temperature measurements
+on an unheated Lucite cylinder, which had a 3.75-in.
+outside diameter and a 1/8-in. wall thickness and was
+approximately 12 in. long. Surface thermocouple
+readings were obtained at the forward stagnation
+point, as well as at the 100° and 180° positions.
+The principal purpose of recording these cylinder
+temperatures was to obtain experimental data with
+which to check the validity of the theoretical analysis
+presented in the subject paper.
+The test facility used for this investigation consisted
+of a duct attached to the inlet of a radial-flow jet en-
+gine. This duct, having a cross-sectional area of ap-
+proximately 3 sq.ft., acted as a small icing wind tunnel
+by induction of the ambient icing cloud conditions that
+prevail at the top of Mt. Washington during the winter
+months of the year. By this means, the natural icing
+conditions which flow over the mountain top at veloci-
+ties ranging from about 30 to 90 m.p.h. are accelerated
+in this tunnel to about 250 m.p.h.
+
+The python program "messinger.py" was used to predict the stagnation-line surface temperature and freezing fraction "n". 
+The external heat transfer relationship used was:
+
+    nu = 0.24 * reynolds ** 0.6
+
+Calculated values agree well with the Messinger Table 1 values.
+
+Run |Airspeed, mph|LWC  |MVD |T_static, F|Messinger calculated n|Python calculated n|Measured T_surface, F|Calculated T_surface, F
+----|-------------|-----|----|-----------|----------------------|-------------------|---------------------|-----------------------
+1   |244          |0.64 |6.8 |3.8        |1                     |1.00               |31                   |31.4                   
+2-A |252          |0.7  |9.7 |1.8        |0.65                  |0.67               |34                   |32.0                   
+2-B |252          |2    |7.6 |1.8        |0.402                 |0.42               |31                   |32.0                   
+2-C |252          |0.26 |10.5|1.8        |1                     |1.00               |27                   |26.5                   
+3   |235          |1.1  |8.5 |6.9        |0.46                  |0.49               |33                   |32.0                   
+4   |226          |0.32 |12  |-0.9       |1                     |1.00               |25                   |27.3                   
+5   |227          |0.27 |20.7|1.7        |0.9                   |0.89               |30                   |32.0                   
+6-A |221          |0.27 |9.8 |2.9        |1                     |1.00               |22                   |24.1                   
+6-B |207          |0.27 |10  |3.8        |1                     |1.00               |21                   |23.8                   
+7   |220          |0.5  |18.2|4.6        |0.535                 |0.57               |32                   |32.0                   
+8   |210          |0.81 |17.1|14.8       |0.237                 |0.27               |33                   |32.0                   
+9   |238          |0.7  |16.4|8.8        |0.35                  |0.38               |33                   |32.0                   
+10  |234          |0.16 |13.8|0.2        |1                     |1.00               |20                   |21.0                   
+11  |228          |0.43 |13.2|17.2       |0.282                 |0.38               |31                   |32.0                   
+12-A|243          |0.17 |8.9 |-1.6       |1                     |1.00               |16                   |16.0                   
+12-B|243          |0.145|10  |-2.9       |1                     |1.00               |18                   |14.7                   
+13  |238          |0.34 |13  |4.5        |0.83                  |0.88               |31                   |32.0                   
+14  |232          |0.34 |16  |12.3       |0.475                 |0.54               |32                   |32.0                   
 
 ##Citations
 
@@ -382,22 +421,35 @@ Messiger is cited, surprisingly, only once by publications in the NACA Icing Pub
 
 - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.
 
+The single citation is surprising, as this paper is a close second to Langmuir and Blodgett 
+for the most cited aircraft icing publication in the literature with 740 citations
+(the positions change from time to time, as either paper is often cited by new publications).
 
 
 ###Related
 
-something related
+Messinger made a presentation at the [1969 Aircraft Ice Protection Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md). 
+
+Messinger taught workshops at the University of Michigan. 
+I saw material from them them many years ago, 
+but I do not have a copy and I have not found it online. 
 
 ##Notes: 
 
 [^1]: 
-Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.
+Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^2]: 
 Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
-
-740
+[^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
+[^4]:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+[^5]: 
+Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
+[^6]:
+Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
+[^7]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[8]:  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 
-[^10]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
 

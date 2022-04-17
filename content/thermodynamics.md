@@ -27,6 +27,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 > Various "Ludlam Limits" have been implemented, but they produce different results.  
 
 Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed,” J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42. 
+> The term "freezing fraction" is defined.  
 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 
