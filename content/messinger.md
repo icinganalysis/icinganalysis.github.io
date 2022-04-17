@@ -29,7 +29,7 @@ small high-speed aircraft for which thermal anti-icing requirements
 have become severe.
 In this paper, a complete analysis of the temperature of an
 unheated surface in icing conditions is presented for the several
-significant regimes (i.e., less than 32°F., at 32°F., and above
+significant regimes (i.e., less than 32°F, at 32°F, and above
 32°F.) as a function of air speed, altitude, ambient temperature,
 and liquid water content.
 The results are presented in graphical form and permit the
@@ -195,6 +195,8 @@ In SI units, this simplifies to:
 
 > qv = hc * A * (r * u**2 / 2 / cpw) 
 
+Similarly,
+
 > qk = mw * A * (u**2 / 2)
 
 
@@ -209,10 +211,9 @@ Equating the sum of the "gain" terms to the sum of the "loss" terms:
 > (Lf * n * mw * A) + (hc * A * (r * u\*\*2 / 2 / cpw)) + (mw * A * (u\*\*2 / 2))  
 = (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
 
-From this, the freezing fraction n may be solved for by successive approximation. 
-The non-linear terms, particularly vapor pressure, preclude a direct solution. 
+The equation may be regrouped to solve for the freezing fraction, n.
 
-Messinger goes on to define terms that can be graphed, to aid graphical solutions. 
+Terms are defined to aid graphical solutions. 
 
     "By introducing the dimensionless ratio b = Rw*cw/fc"  
 
@@ -220,13 +221,7 @@ Messinger goes on to define terms that can be graphed, to aid graphical solution
 
     "and three new groupings of the variables—namely,"
     
-> θ'1 = ts * (1 + b) + Le * 0.7 / cp * pvs  / p
-
-> θ'2 = t * (1 + b)  + Le * 0.7 / cp * pv  / p + Lf * n *  b
-
-> θ'3 = (r / cp + b) * (u**2 / 2)
-
-> θ\'1 = θ\'2 + θ\'3
+> θ'1, θ'2, θ'3
 
     "For any given altitude θ'1 is a function only of b as
     shown in Fig. 5, and θ'2 can be plotted in two steps as
@@ -234,10 +229,150 @@ Messinger goes on to define terms that can be graphed, to aid graphical solution
 
 Unfortunately, Figure 6 is for 20,000 ft. altitude (only), 
 and it is not clear how the reader would get solutions for other altitudes. 
+
+###Results
+
+Most of the results are in the form of surface temperature vs. airspeed,
+as in Figure 10. 
+
+> Although each of these plots of ts versus air speed is
+shown for constant values of b, it should be noted that b
+will vary somewhat with speed as indicated above. It
+has been suggested by J. P . Lewis, one of the coauthors
+of references 2, 6, and 9, that , since Figs. 9, 10, and 12
+do not present a realistic picture of the true variation
+of surface temperature with air speed, it would be desirable 
+to construct these curves for constant values of
+liquid water content as would be the case in actual icing
+flight. Unfortunately, it is only possible to construct
+such a plot for a given location on a given configuration
+of aerodynamic body. In order to illustrate the differences 
+between the general plot using b as the independent 
+parameter and a specific plot using liquid water
+content as the independent parameter, Fig. 10a has
+been prepared based on the stagnation region of a 3-in.
+diameter cylinder.
+
+Figure 10a conditions: altitude = 10,000 ft., T= 0F.
+
+The python implementation (file messinger.py) reproduces Figure 10a results well. 
+
+![](images/messinger/messinger_figure10a_calc_b0_5.png)
+(Yes, 1000 knots is kind-of high, but that is the range that Messinger used.)
+
+
+Source              |Ts@V=0, F|V@n=0, knots|V@n=1, knots|Ts@V=1000, F
+--------------------|---------|------------|------------|------------
+Messinger Figure 10a|28.2     |185         |587         |66          
+Calculated (Python) |30       |179         |576         |66.1        
+
+Figure 10b includes the variation of b with airspeed. 
+However, it did not include the beta values, 
+or the heat transfer coefficients assumed for the cylinder. 
+
+So, we will use the Langmuir and Blodgett relationships to get beta values.  
+![](images/messinger/messinger_fig10b_beta.png) 
+
+We will used the heat transfer coefficients from NACA-TN-1472. 
+
+![](images/messinger/messinger_fig10b_hcs.png) 
+
+The heat transfer relations result in b values that bound the Figure 10b values.  
+![](images/messinger/messinger_fig10b_bs.png) 
+
+The resulting surface temperatures with either heat transfer relationship 
+match Figure 10b values well.  
+![](images/messinger/messinger_fig10b_ts.png) 
+
+
+
+###"Datum" temperature
+
+Messinger has comments about Hardy's "datum temperature":
+
+> An examination of the above equation indicates that
+this parameter might be more aptly named the "dynamic 
+wet bulb temperature" rather than "datum temperature." 
+Since it does not include terms to account
+for the sensible heating of the impinging droplets or
+the release of the latent heat of fusion, it cannot represent 
+the true equilibrium temperature of an unheated
+icing surface or even the temperature of a surface that
+is wetted by an above-freezing-temperature cloud. 
+
+Messinger continues: 
+
+>The convection loss term is presented as  
+qc = fc*(ts-t0k)  
+which would indicate that the difference between surface 
+temperature and wet bulb temperature is the controlling 
+potential. This is obviously contrary to the
+definition of the conductance.
+
+There is more in that vein, so this marks the beginning of the end of 
+the use of "datum" temperature. 
+
+###Sublimation and melting
+
+Messinger has some interesting comments on these topics, 
+which I will not detail. Readers are recommended to consult the paper. 
+
+Sublimation is summarized below in the Conclusions. 
+
+##Conclusions
+
+>At least some ice can collect on an unheated surface
+in normal low-temperature icing conditions at speeds
+up to about 600 knots (690 m.p.h.).  
+
+>High rates of water catch tend to maintain an unheated 
+icing surface at 32°F over a wide range of
+speeds, but, except at the high speed end, a 32°F surface 
+temperature does not signify an ice-free surface.  
+
+>Surface temperatures predicted by the "datum temperature"
+or "wet adiabatic" method of analysis are
+lower in the low-speed range and slightly higher in the
+high-speed range than are obtained by the methods developed 
+in this paper.  
+
+>Once an unheated surface has been allowed to collect
+ice, the period required to remove it by sublimation
+alone is long. It is of the order of 5 hours for 1/4 in.
+of ice at an air speed of 500 knots at 30,000 ft. and
+N.A.C.A. standard ambient temperature.  
     
+Many times in my career I have been asked "Won't the ice just sublimate away?" 
+Well, yes, if you are very patient. 
 
+>The air speed required to attain a 32°F ice surface
+temperature in clear air at 30,000 ft. and at N.A.C.A.
+standard temperature is about 850 knots. Beyond
+this speed, melting and evaporation occur.  
 
+>There are few reliable experimental data available
+which would permit checking the accuracy of the results 
+developed analytically in this paper. Such data,
+obtained in natural icing conditions, would be valuable
+for establishing the validity of the various foregoing
+assumptions (see Appendix).
 
+We now have another "Ludam-ish limit" to add to our collection. 
+We calc calculate what LWC "critical" value results in a freezing fraction 
+of 1 for the 0.25 inch diameter cylinder we saw in the review of Ludlam. 
+
+The Reynolds is too low to be turbulent for a smooth surface, 
+but we will consider the rough surface correlation from NACA-TR-1215. 
+We will also consider just the stagnation point, as Messinger did, 
+but also an "averaged" value, 
+spreading out the impingement over the entire surface of the cylinder. 
+
+![](images/messinger/ludlam_comparisons_all_plus_messinger.png)
+
+As Messinger wrote: 
+
+    "... data, obtained in natural icing conditions, would be valuable
+    for establishing the validity of the various foregoing assumptions"
 
 ###Key point
 
