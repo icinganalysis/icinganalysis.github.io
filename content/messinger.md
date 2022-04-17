@@ -54,6 +54,12 @@ made in the theoretical analysis.
     
 ##Discussion
 
+This is also one of the longest reviews. 
+This paper is a close second to Langmuir and Blodgett 
+for the most cited aircraft icing publication in the literature 
+(the positions change periodically, as both papers are often cited by new publications), 
+and merits close study. 
+
 In a footnote, Messinger credits for the term "freezing fraction":  
 >The author is indebted to M. M. Friedlander for assistance
 in preparation of the curves and to P. J. Valentine for suggestions
@@ -97,32 +103,15 @@ not just the dry air component partial pressure.
 This distinction makes little difference for unheated surfaces, 
 but can be non-trial for heated surfaces. 
 
-And calculations here will be in SI units, with the exceptions of:  
+Calculations here will be in SI units, with the exceptions of:  
 - LWC, g/m^3  
 - drop diameter, micrometer   
 
-###A brief digression about mass, force, and gc:  
-    To keep unit consistency in Newton's second law, a unit constant "gc" is introduced.
-    Force = mass * acceleration / gc
-    
-    In SI units gc = 1 kg-m/(N-s^2)
-    Force = mass * acceleration / gc
-    N = kg * m/s^2  / (kg-m/N-s^2) = N  ✔
-    
-    As the value is 1, gc might not be explicitly be included in calculations in SI units,
-    but it is always implicitly there.
-    
-    In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2).
-    It must be explicitly included in any calculation involving force, mass and acceleration.
-    The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this.
-         gc = 1 slug-ft/lbf-s^2
-    However, I have seen many errors of a factor of 32.174, when either slugs or lbm were used.
-    (see an excellent discussion about gc in "Fundamentals of Classical Thermodynamics",
-    Van Wylen and Sonntag, Second Edition, John Wiley and Sons, 1973.)
-
 ###Heat balance for a surface at 32F (0C)
 
-For a surface at 32F:
+A heat balance is detailed for a wet surface at 32F.
+
+Several heat transfer components are defined. 
 
 > qc = hc * (ts - ta) 
 
@@ -163,15 +152,15 @@ The ratio (Pr/Tr)**(2/3) is fairly constant over the range of conditions of inte
 so it is often in post-NACA literature taken as the constant value 1.12. 
 
 To get Messingers value of 2.9: 
->ratio of molecular masses, water to air = 0.622 
->cp_air = 0.24 BTU/lbm-F 
->2.9 = 0.622 / 0.24 / 1.12
+>ratio of molecular masses, water to air = 0.622  
+>cp_air = 0.24 BTU/lbm-F  
+>2.9 = 0.622 / 0.24 / 1.12  
 
 So, the 2.9 factor is not just empirical, 
 it is founded in the ideal gas law and boundary layer analogies. 
 
 More generally, for any unit system: 
-> kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)
+> kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)  
 > he = hc * 0.622 / P / cp * (Pr/Tr)**(2/3)  (if using vapor pressure difference)
 
 So, 
@@ -228,11 +217,12 @@ Terms are defined to aid graphical solutions.
     indicated in Figs. 6 and 7,"
 
 Unfortunately, Figure 6 is for 20,000 ft. altitude (only), 
-and it is not clear how the reader would get solutions for other altitudes. 
+and it is not clear how the reader would get solutions 
+graphically for other altitudes. 
 
 ###Results
 
-Most of the results are in the form of surface temperature vs. airspeed,
+Most of the results are in the form of surface temperature "as a function of airspeed",
 as in Figure 10. 
 
 > Although each of these plots of ts versus air speed is
@@ -257,7 +247,7 @@ Figure 10a conditions: altitude = 10,000 ft., T= 0F.
 
 The python implementation (file messinger.py) reproduces Figure 10a results well. 
 
-![](images/messinger/messinger_figure10a_calc_b0_5.png)
+![](images/messinger/messinger_figure10a_calc_b0_5.png)  
 (Yes, 1000 knots is kind-of high, but that is the range that Messinger used.)
 
 
@@ -281,10 +271,8 @@ The heat transfer relations result in b values that bound the Figure 10b values.
 ![](images/messinger/messinger_fig10b_bs.png) 
 
 The resulting surface temperatures with either heat transfer relationship 
-match Figure 10b values well.  
+match Figure 10b values (not shown) well.  
 ![](images/messinger/messinger_fig10b_ts.png) 
-
-
 
 ###"Datum" temperature
 
@@ -364,7 +352,7 @@ of 1 for the 0.25 inch diameter cylinder we saw in the review of Ludlam.
 The Reynolds is too low to be turbulent for a smooth surface, 
 but we will consider the rough surface correlation from NACA-TR-1215. 
 We will also consider just the stagnation point, as Messinger did, 
-but also an "averaged" value, 
+and also an "averaged" value, 
 spreading out the impingement over the entire surface of the cylinder. 
 
 ![](images/messinger/ludlam_comparisons_all_plus_messinger.png)
@@ -407,6 +395,8 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^2]: 
 Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
 
+740
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 
 [^10]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
