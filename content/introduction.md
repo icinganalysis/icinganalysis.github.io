@@ -109,7 +109,7 @@ That was my only direct link to the NACA era].
 
 ##Or see the [Blog](blog.html) (latest articles first)
 
-##[Diversions]({filename}/pages/diversions.md) get into the post-NACA era
+##[Diversions]({filename}diversions.md) get into the post-NACA era
 
 ##Notes:
 [^1]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  

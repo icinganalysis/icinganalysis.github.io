@@ -49,8 +49,8 @@ MENUITEMS = (
     ('Home', '/'),
     ('Cylinders', '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
-    ('Diversions', '/pages/diversions.html'),
-    ('About', '/pages/about.html'),
+    ('Diversions', '/diversions.html'),
+    ('About', '/about.html'),
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']
 DELETE_OUTPUT_DIRECTORY = False

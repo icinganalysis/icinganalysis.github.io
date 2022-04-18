@@ -208,7 +208,7 @@ I select the following as "must-reads":
 - Airframe Design for Protection Anti-Icing; B. L. Messinger  
 - Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces; Ramon W. Wilder  
 
-These are likely candidates for future [Diversions]({filename}/pages/diversions.md)
+These are likely candidates for future [Diversions]({filename}/diversions.md)
 
 ##Notes:
 [^1]:

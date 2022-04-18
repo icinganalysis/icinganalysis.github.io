@@ -14,8 +14,8 @@ MENUITEMS = (
     ('Home', SITEURL + '/index.html'),
     ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
-    ('Diversions', SITEURL + '/pages/diversions.html'),
-    ('About', SITEURL + '/pages/about.html'),
+    ('Diversions', SITEURL + '/diversions.html'),
+    ('About', SITEURL + '/about.html'),
 )
 
 FEED_ALL_ATOM = ''
