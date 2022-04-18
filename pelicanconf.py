@@ -52,4 +52,5 @@ MENUITEMS = (
     ('Diversions', '/pages/diversions.html'),
     ('About', '/pages/about.html'),
 )
-THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icingblog/notmyidea/templates']
+THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']
+DELETE_OUTPUT_DIRECTORY = False

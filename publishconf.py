@@ -22,8 +22,9 @@ FEED_ALL_ATOM = ''
 CATEGORY_FEED_ATOM = ''
 
 
+DELETE_OUTPUT_DIRECTORY = False
 
-DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
