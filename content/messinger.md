@@ -251,13 +251,13 @@ Messinger Figure 10a|28.2     |185         |587         |66
 Calculated (Python) |30       |179         |576         |66.1        
 
 Figure 10b includes the variation of b with airspeed. 
-However, it did not include the beta values, 
+However, it did not include the water drop catch efficiency beta values, 
 or the heat transfer coefficients assumed for the cylinder. 
 
 So, we will use the Langmuir and Blodgett [^4] relationships to get beta values.  
 ![](images/messinger/messinger_fig10b_beta.png) 
 
-We will used the heat transfer coefficients from [NACA-TN-1472]({filename}NACA-TN-1472.md) [^5]. 
+We will used the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^5]. 
 
 ![](images/messinger/messinger_fig10b_hcs.png) 
 
@@ -270,7 +270,8 @@ match Figure 10b values (not shown) well.
 
 ###"Datum" temperature
 
-Messinger has comments about Hardy's "datum temperature":
+Messinger has comments about the "datum temperature" from 
+[NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^6]:
 
 > An examination of the above equation indicates that
 this parameter might be more aptly named the "dynamic 
@@ -351,7 +352,7 @@ As Messinger wrote:
     
 ##Appendix 
 
-Messinger added an appendix with 
+Messinger added an appendix with test data.
 
 > One phase of this test program
 included a series of surface temperature measurements
@@ -363,16 +364,16 @@ point, as well as at the 100° and 180° positions.
 The principal purpose of recording these cylinder
 temperatures was to obtain experimental data with
 which to check the validity of the theoretical analysis
-presented in the subject paper.
+presented in the subject paper.  
 The test facility used for this investigation consisted
-of a duct attached to the inlet of a radial-flow jet en-
-gine. This duct, having a cross-sectional area of ap-
-proximately 3 sq.ft., acted as a small icing wind tunnel
+of a duct attached to the inlet of a radial-flow jet engine. 
+This duct, having a cross-sectional area of approximately 
+3 sq.ft., acted as a small icing wind tunnel
 by induction of the ambient icing cloud conditions that
 prevail at the top of Mt. Washington during the winter
 months of the year. By this means, the natural icing
-conditions which flow over the mountain top at veloci-
-ties ranging from about 30 to 90 m.p.h. are accelerated
+conditions which flow over the mountain top at velocities 
+ranging from about 30 to 90 m.p.h. are accelerated
 in this tunnel to about 250 m.p.h.
 
 The python program "messinger.py" was used to predict the stagnation-line surface temperature and freezing fraction "n". 
@@ -380,9 +381,10 @@ The external heat transfer relationship used was:
 
     nu = 0.24 * reynolds ** 0.6
 
-Calculated values agree well with the Messinger Table 1 values.
+Calculated values agree well with the Messinger Table 1 values, 
+especially considering that we had to infer the water catch efficiency and heat transfer coefficients. 
 
-Run |Airspeed, mph|LWC  |MVD |T_static, F|Messinger calculated n|Python calculated n|Measured T_surface, F|Calculated T_surface, F
+Run |Airspeed, mph|LWC  |Water drop diameter, micrometer |T_static, F|Messinger calculated n|Python calculated n|Measured T_surface, F|Calculated T_surface, F
 ----|-------------|-----|----|-----------|----------------------|-------------------|---------------------|-----------------------
 1   |244          |0.64 |6.8 |3.8        |1                     |1.00               |31                   |31.4                   
 2-A |252          |0.7  |9.7 |1.8        |0.65                  |0.67               |34                   |32.0                   
@@ -417,20 +419,19 @@ Messinger cites 9 publications:
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
 - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
 
-Messiger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^10]:
+Messiger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^8]:
 
 - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.
 
-The single citation is surprising, as this paper is a close second to Langmuir and Blodgett 
-for the most cited aircraft icing publication in the literature with 740 citations
+The single citation is surprising, as this paper is a close second to Langmuir and Blodgett [^4]
+for the most cited aircraft icing publication in the literature with 740 citations [^9]
 (the positions change from time to time, as either paper is often cited by new publications).
-
 
 ###Related
 
 Messinger made a presentation at the [1969 Aircraft Ice Protection Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md). 
 
-Messinger taught workshops at the University of Michigan. 
+Messinger taught workshops on aircraft icing at the University of Michigan. 
 I saw material from them them many years ago, 
 but I do not have a copy and I have not found it online. 
 
@@ -439,17 +440,18 @@ but I do not have a copy and I have not found it online.
 [^1]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^2]: 
-Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
 [^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^4]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^5]: 
-Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
-[^6]:
+Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
+[^6]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
+[^7]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-[^7]: 
+[^8]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[8]:  
+[9]:  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 
 

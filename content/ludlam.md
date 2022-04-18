@@ -40,7 +40,7 @@ but there are either errors or there where addition equations not listed that we
 produce the published results. 
 As such (and due to copyright) I will not reproduce them here. 
 
-Heat transfer due to convection: 
+####Heat transfer due to convection: 
 
 Heat transfer coefficients were determined with laminar flow, and turbulent flow, correlations for a smooth cylinder. 
 Reynolds number (100000) was used to select between the two. 
@@ -52,7 +52,7 @@ The effect of viscous heating is not included.
 As the analysis is for a rotating cylinder, 
 perhaps the viscous heating was thought to average out to zero over the entire surface. 
 
-Heat transfer due to evaporation:
+####Heat transfer due to evaporation:
 
 The entire surface of the cylinder is considered to be available for evaporation. 
 A mass transfer coefficient was presented, k_evap = Nusselt * Dv / d_cylinder, 
@@ -60,7 +60,7 @@ where Dv is the diffusivity of water vapor in air.
 This differs from the k_w term in [NACA-TR-831]({filename}NACA-TR-831.md) [^2].
 I believe that this is an area where what Ludlam implemented is different from what Ludlam described.  
 
-Heat transfer due to water impingement: 
+####Heat transfer due to water impingement: 
 
 The rate of water impingement was calculated. 
 The heat due to water impingement is water_rate * cp_water * (_surface - t_ambient). 
@@ -68,11 +68,13 @@ This is similar to other sources, except that the kinetic heating
 due to the impingement of water drops was not included 
 (this is typically a relatively small term). 
 
-Heat due to water freezing:
+####Heat due to water freezing:
 
 The heat due to water freezing is H = water_rate * latent_heat_of_freezing. 
 Some other sources include the fact that a small portion of the water has evaporated, 
 leaving a slightly reduced amount of water available to freeze. 
+
+####The heat economy
 
 The terms are evaluated as a surface temperature of 0C, 
 the warmest temperature at which ice can form. 
@@ -92,8 +94,9 @@ The python implementation was intended to be as straight-forward as possible.
 Differences from Ludlam are:
 - evaporation calculation  
 
-Ludlam did not include the air pressures, so those were calculated 
-using the wet_air to dry_air relationship from [NACA-TR-831]({filename}NACA-TR-831.md).
+Ludlam did not include the air pressures, which are necessary for the calculation, 
+so those were calculated 
+using the wet_air to dry_air relationship from [NACA-TR-831]({filename}NACA-TR-831.md). 
 
 ![Air pressures for Figure 1](images/Ludlam/ludlam_ps.png)
 
@@ -103,19 +106,22 @@ The results for a 0.35 cm diameter cylinder compare well.
 
 However, the results for a 15 cm diameter cylinder did not compare well.
 
-![Comparison to Ludlam Figure 1, 15 cm cylinder](images/Ludlam/ludlam15cm.png) 
+![Comparison to Ludlam Figure 1, 15 cm cylinder](images/Ludlam/ludlam15cm.png)  
+
 There will be more discussion of the large cylinder results 
 when we get to the review of NACA-TR-1215 [^4]
 ([NACA-TR-1215]({filename}NACA-TR-1215.md) was reviewed in the Cylinders thread, and will be reviewed again in the Thermodynamics thread). 
  
-We will now compare analysis for a 0.25 inch (6.35 mm) diameter cylinder. 
- 
+####A 0.25 inch diameter cylinder  
+  
 A cylinder that has been studied in detail is the 0.25 inch (6.35 mm) diameter 
 sensing head of the "Rosemount" ice detector
 (Rosemount being the original name of the company that produces it). 
 This cylinder does not rotate. 
 
-Studies that use the term "Ludlam Limit" include Mazin [^5], et al., and Jeck [^6]. 
+Studies that use the term "Ludlam Limit" include Mazin, et al. [^5], and Jeck [^6]. 
+Each of these merits further study, but for now we will focus on the 
+"Ludlum limits" contained in them. 
 
 Mazin cited Ludlam, and provided details of the implementation. 
 Areas where Mazin is different:  
@@ -136,7 +142,7 @@ as shown in Figure 22c below,
 
 which may readily be converted to an LWC value using the continuity equation. 
 
->![Jeck equation (8)](images/Ludlam/Jeck_beta.png) 
+>![Jeck equation (8)](images/Ludlam/Jeck_beta.png)  
 > LWC = thick_growth_rate * ice_density / (beta * airspeed)  [with unit conversions]
 
 [NACA-TR-1215]({filename}NACA-TR-1215.md) cites Ludlam, and includes a "critical" LWC value. 
