@@ -18,10 +18,11 @@ evaporation from wet surfaces.
 ###NACA-TR-831, [An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane]({filename}NACA-TR-831.md) 
 > Two dimensional heat balance equations for ice protection are detailed. 
 
-##Publications to review:  
-
-Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947. 
+###NACA-TN-1472, [The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions]({filename}NACA-TN-1472.md)
 > Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations. 
+
+
+##Publications to review:  
 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951. 
 > Various "Ludlam Limits" have been implemented, but they produce different results.  

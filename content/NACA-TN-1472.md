@@ -1,7 +1,6 @@
 Title: NACA-TN-1472  
 Category: NACA  
 tags: thermodynamics  
-status: draft 
 
 > ###_"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"_  
 
@@ -346,7 +345,7 @@ shown in Figure 8 ("H").
 
 ![Figure 8a](/images/naca-tn-1472/Figure8a.png) 
 
-A python implementation (file naca_tn_1472.py) found similar values. 
+A python implementation (file "naca_tn_1472.py" [^5]) found similar values. 
 
 ![Python analysis of figure 8a conditions](/images/naca-tn-1472/naca_tn_1472_fig8a.png)
 
@@ -522,7 +521,7 @@ NACA-TN-1472 cites 26 publications:
 - Gardner, Tracy B.: Investigation of Runback. Air Materiel Command Ice Research Base Rep. No. IRB 46-36-1F, July 1946.
 - Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.
 
-NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database [^6]:
+NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database [^7]:
 
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
 - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.
@@ -536,7 +535,7 @@ NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
 
-NACA-TN-1472 is cited 33 times in the literature [^7].
+NACA-TN-1472 is cited 33 times in the literature [^8].
 
 ##Notes: 
 
@@ -545,9 +544,11 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^2]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^3]: Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 [^4]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-[^5]:
-Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984. 
+[^5]: 
+[https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984. 
 [^7]: 
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^8]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&btnG=  
