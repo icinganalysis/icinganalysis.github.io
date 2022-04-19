@@ -5,7 +5,12 @@ from icinganalysis.langmuir_cylinder_values import calc_re as calc_reynolds
 from icinganalysis.iteration_helpers import solve_minimize_f
 from icinganalysis.naca_tn_1472_data import interp_wet_dry_ratio
 from icinganalysis.units_helpers import tc_to_k, tk_to_c
-from icinganalysis.water_properties import RATIO_MOLECULAR_WEIGHTS, L_EVAPORATION, L_FREEZING, WATER_SPECIFIC_HEAT
+from icinganalysis.water_properties import (
+    RATIO_MOLECULAR_WEIGHTS,
+    L_EVAPORATION,
+    L_FREEZING,
+    WATER_SPECIFIC_HEAT,
+)
 
 CAL_PER_JOULE = 0.23900573614
 G_PER_KG = 1000
@@ -16,13 +21,27 @@ MB_PER_PA = 0.01
 def calc_vapor_p(tk):
     dt = tk - 273.15
     pv = 610.78 + (
-        dt * (44.365 + (
-        dt * (1.4289 + (
-        dt * (2.6506e-2 + (
-        dt * (3.0312e-4 + (
-        dt * (2.0341e-6 + (
-        dt * (6.1368e-9)
-    )))))))))))
+        dt
+        * (
+            44.365
+            + (
+                dt
+                * (
+                    1.4289
+                    + (
+                        dt
+                        * (
+                            2.6506e-2
+                            + (
+                                dt
+                                * (3.0312e-4 + (dt * (2.0341e-6 + (dt * (6.1368e-9)))))
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
     return pv
 
 
@@ -51,7 +70,7 @@ def get_htc(tk, p, u, d):
 def find_p2(tk, p, tk2):
     p2_guess = p * (tk2 / tk) ** 3.5  # if a dry adiabat
     dp = (p - p2_guess) / 20
-    p2 = float('nan')  # just to make the IDE happy
+    p2 = float("nan")  # just to make the IDE happy
     for i in range(1000):  # it might take many more than 20 steps
         p2 = p - dp
         tk2_dry = tk * (p2 / p) ** (1 / 3.5)
@@ -64,7 +83,7 @@ def find_p2(tk, p, tk2):
     return float(p2)
 
 
-def calc_lwc_critical(tk, p, u, d, e=1.):
+def calc_lwc_critical(tk, p, u, d, e=1.0):
     t_surface = 273.15
     hc = get_htc(tk, p, u, d)
     q_convection = hc * (t_surface - tk)
@@ -108,7 +127,7 @@ lwc_0_35cm_tc20_fig1 = d_fig1[5::7]
 lwc_15cm_tc5_fig1 = d_fig1[6::7]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     import matplotlib.pyplot as plt
 
     # Figure 1 conditions
@@ -120,7 +139,9 @@ if __name__ == '__main__':
 
     d = 0.35 / CM_PER_M
     e = 1
-    lwcs_0035_tb5 = [calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb5)]
+    lwcs_0035_tb5 = [
+        calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb5)
+    ]
     print(lwcs_0035_tb5)
 
     d = 15 / CM_PER_M
@@ -133,52 +154,94 @@ if __name__ == '__main__':
 
     d = 0.35 / CM_PER_M
     e = 1
-    lwcs_0035_tb20 = [calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb20)]
+    lwcs_0035_tb20 = [
+        calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb20)
+    ]
     print(lwcs_0035_tb20)
 
     d = 15 / CM_PER_M
     e = 0.4
-    lwcs_15_tb20 = [calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb20)]
+    lwcs_15_tb20 = [
+        calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(tks_fig1, ps_tb20)
+    ]
     print(lwcs_15_tb20)
 
     plt.figure()
-    tcs = range(5, -30-5, -5)
+    tcs = range(5, -30 - 5, -5)
     p5s = [find_p2(tc_to_k(5), p0, tc_to_k(_)) for _ in tcs]
-    plt.plot(tcs, p5s, '-o', label="T_base = 5C")
-    tcs = range(20, -30-5, -5)
+    plt.plot(tcs, p5s, "-o", label="T_base = 5C")
+    tcs = range(20, -30 - 5, -5)
     p20s = [find_p2(tc_to_k(20), p0, tc_to_k(_)) for _ in tcs]
-    plt.plot(tcs, p20s, '-s', label="T_base = 20C")
+    plt.plot(tcs, p20s, "-s", label="T_base = 20C")
     plt.legend()
     plt.xlim(20, -30)
     plt.xlabel("T at altitude, C")
     plt.ylim(0)
-    plt.ylabel('Air pressure, Pa')
-    plt.savefig('ludlam_ps.png')
+    plt.ylabel("Air pressure, Pa")
+    plt.savefig("ludlam_ps.png")
 
     plt.figure()
-    line, = plt.plot(tcs_fig1, lwc_0_35cm_tc5_fig1, label="Ludlam Figure 1, T_base=5C, Diameter=0.35 cm")
-    plt.plot(tcs_fig1, lwcs_0035_tb5, '--', c=line.get_color(), label="Calculated T_base=5C, Diameter=0.35 cm")
-    line, = plt.plot(tcs_fig1, lwc_0_35cm_tc20_fig1, label="Ludlam Figure 1, T_base=20C, Diameter=0.35 cm")
-    plt.plot(tcs_fig1, lwcs_0035_tb20, '--', c=line.get_color(), label="Calculated T_base=20C, Diameter=0.35 cm")
+    (line,) = plt.plot(
+        tcs_fig1,
+        lwc_0_35cm_tc5_fig1,
+        label="Ludlam Figure 1, T_base=5C, Diameter=0.35 cm",
+    )
+    plt.plot(
+        tcs_fig1,
+        lwcs_0035_tb5,
+        "--",
+        c=line.get_color(),
+        label="Calculated T_base=5C, Diameter=0.35 cm",
+    )
+    (line,) = plt.plot(
+        tcs_fig1,
+        lwc_0_35cm_tc20_fig1,
+        label="Ludlam Figure 1, T_base=20C, Diameter=0.35 cm",
+    )
+    plt.plot(
+        tcs_fig1,
+        lwcs_0035_tb20,
+        "--",
+        c=line.get_color(),
+        label="Calculated T_base=20C, Diameter=0.35 cm",
+    )
 
     plt.xlim(0, -30)
     plt.xlabel("T at altitude, C")
-    plt.ylim(0, )
+    plt.ylim(0,)
     plt.ylabel("LWC, g/m^3")
     plt.legend()
-    plt.savefig('ludlam0_35cm.png')
+    plt.savefig("ludlam0_35cm.png")
 
     plt.figure()
-    line, = plt.plot(tcs_fig1, lwc_15cm_tc5_fig1, label="Ludlam Figure 1, T_base=5C, Diameter=15 cm")
-    plt.plot(tcs_fig1, lwcs_15_tb5, '--', c=line.get_color(), label="Calculated T_base=5C, Diameter=15 cm")
-    line, = plt.plot(tcs_fig1, lwc_15cm_tc20_fig1, label="Ludlam Figure 1, T_base=20C, Diameter=15 cm")
-    plt.plot(tcs_fig1, lwcs_15_tb20, '--', c=line.get_color(), label="Calculated T_base=20C, Diameter=15 cm")
+    (line,) = plt.plot(
+        tcs_fig1, lwc_15cm_tc5_fig1, label="Ludlam Figure 1, T_base=5C, Diameter=15 cm"
+    )
+    plt.plot(
+        tcs_fig1,
+        lwcs_15_tb5,
+        "--",
+        c=line.get_color(),
+        label="Calculated T_base=5C, Diameter=15 cm",
+    )
+    (line,) = plt.plot(
+        tcs_fig1,
+        lwc_15cm_tc20_fig1,
+        label="Ludlam Figure 1, T_base=20C, Diameter=15 cm",
+    )
+    plt.plot(
+        tcs_fig1,
+        lwcs_15_tb20,
+        "--",
+        c=line.get_color(),
+        label="Calculated T_base=20C, Diameter=15 cm",
+    )
 
     plt.xlim(0, -30)
     plt.xlabel("T at altitude, C")
     plt.ylim(0, 7)
     plt.ylabel("LWC, g/m^3")
     plt.legend()
-    plt.savefig('ludlam15cm.png')
+    plt.savefig("ludlam15cm.png")
 
     plt.show()
