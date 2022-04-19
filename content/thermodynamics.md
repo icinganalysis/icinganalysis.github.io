@@ -21,11 +21,10 @@ evaporation from wet surfaces.
 ###NACA-TN-1472, [The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions]({filename}NACA-TN-1472.md)
 > Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations. 
 
+###[Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)   
+> Various "Ludlam Limits" have been implemented, but they produce different results.  
 
 ##Publications to review:  
-
-Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951. 
-> Various "Ludlam Limits" have been implemented, but they produce different results.  
 
 Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed,” J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42. 
 > The term "freezing fraction" is defined.  

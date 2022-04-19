@@ -56,7 +56,7 @@ made in the theoretical analysis.
     
 ##Discussion
 
-This is also one of the longest reviews. 
+This is one of the longest reviews. 
 This paper is one of the most cited aircraft icing publication in the literature 
 and merits close study. 
 
@@ -106,9 +106,9 @@ A heat balance is detailed for a wet surface at 32F.
 
 Several heat transfer components are defined. 
 
-> qc = hc * (ts - ta) 
-
-> qe = 2.9 * Le * fc * A *(Psw - P∞) / B  _[Messinger nomenclature]_  
+    qc = hc * (ts - ta) 
+    
+    qe = 2.9 * Le * fc * A *(Psw - P∞) / B  _[Messinger nomenclature]_  
 
 In a footnote, Messinger says of the term:  
 > The constant 2.90 is an empirical factor relating mass transfer
@@ -144,42 +144,44 @@ this value, equation (10) gives kw/kh =1.12.
 The ratio (Pr/Tr)**(2/3) is fairly constant over the range of conditions of interest, 
 so it is often in post-NACA literature taken as the constant value 1.12. 
 
-To get Messingers value of 2.9: 
->ratio of molecular masses, water to air = 0.622  
->cp_air = 0.24 BTU/lbm-F  
->2.9 = 0.622 / 0.24 / 1.12  
+To get Messingers value of 2.9:  
+
+    ratio of molecular masses, water to air = 0.622  
+    cp_air = 0.24 BTU/lbm-F  
+    2.9 = 0.622 / 0.24 / 1.12  
 
 So, the 2.9 factor is not just empirical, 
 it is founded in the ideal gas law and boundary layer analogies. 
 
 More generally, for any unit system: 
-> kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)  
-> he = hc * 0.622 / P / cp * (Pr/Tr)**(2/3)  (if using vapor pressure difference)
+
+    kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)  
+    he = hc * 0.622 / P / cp * (Pr/Tr)**(2/3)  (if using vapor pressure difference)
 
 So, 
 
-> qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  _[standard nomenclature]_  
-> qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  _[constant factor]_  
-
-> qe = Le * hc * 0.7 / cp * (pvs - pv) / p  _[regrouped]_  
-
-> qw = mw * A * cpw * (ts - ta) 
-
-> qf = Lf * n * mw * A
+    qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  _[standard nomenclature]_  
+    qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  _[constant factor]_  
+    
+    qe = Le * hc * 0.7 / cp * (pvs - pv) / p  _[regrouped]_  
+    
+    qw = mw * A * cpw * (ts - ta) 
+    
+    qf = Lf * n * mw * A
 
 Note that all of the impinging water mw is considered to freeze (evaporation is not included). 
 
-> qv = fc * A * (r * V**2 / 2 / g / J /cp)  _[Messinger nomenclature]_  
+    qv = fc * A * (r * V**2 / 2 / g / J /cp)  _[Messinger nomenclature]_  
 
 
 
 In SI units, this simplifies to: 
 
-> qv = hc * A * (r * u**2 / 2 / cpw) 
+    qv = hc * A * (r * u**2 / 2 / cpw) 
 
 Similarly,
 
-> qk = mw * A * (u**2 / 2)
+    qk = mw * A * (u**2 / 2)
 
 
 ###When ts=32F and 0 <= n <= 1
@@ -188,26 +190,26 @@ Similarly,
 
 Equating the sum of the "gain" terms to the sum of the "loss" terms:
 
-> qf + qv + qk = qc + qe + qw
+    qf + qv + qk = qc + qe + qw
 
-> (Lf * n * mw * A) + (hc * A * (r * u\*\*2 / 2 / cpw)) + (mw * A * (u\*\*2 / 2))  
-= (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
+    (Lf * n * mw * A) + (hc * A * (r * u\*\*2 / 2 / cpw)) + (mw * A * (u\*\*2 / 2))  
+    = (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
 
 The equation may be regrouped to solve for the freezing fraction, n.
 
 Terms are defined to aid graphical solutions. 
 
-    "By introducing the dimensionless ratio b = Rw*cw/fc"  
+>"By introducing the dimensionless ratio b = Rw*cw/fc"  
 
-> b = mw * cpw / hc
+    b = mw * cpw / hc
 
-    "and three new groupings of the variables—namely,"
+>"and three new groupings of the variables—namely,"
     
-> θ'1, θ'2, θ'3
-
-    "For any given altitude θ'1 is a function only of b as
-    shown in Fig. 5, and θ'2 can be plotted in two steps as
-    indicated in Figs. 6 and 7,"
+    θ'1, θ'2, θ'3  
+    
+>"For any given altitude θ'1 is a function only of b as
+shown in Fig. 5, and θ'2 can be plotted in two steps as
+indicated in Figs. 6 and 7,"
 
 Unfortunately, Figure 6 is for 20,000 ft. altitude (only), 
 and it is not clear how the reader would get solutions 
