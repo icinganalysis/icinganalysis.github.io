@@ -60,6 +60,10 @@ This is one of the longest reviews.
 This paper is one of the most cited aircraft icing publication in the literature 
 and merits close study. 
 
+I am reviewing publication the [Thermodynamics thread]({filename}thermodynamics.md) in order of publication. 
+I am counting this as published in 1951, as some NACA publications (such as NACA-TN-2861) 
+cite a pre-print of this publication. The journal publication was in 1953. 
+
 In a footnote, Messinger credits for the term "freezing fraction":  
 >The author is indebted to M. M. Friedlander for assistance
 in preparation of the curves and to P. J. Valentine for suggestions
