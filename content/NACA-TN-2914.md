@@ -81,6 +81,43 @@ Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914.
 
 ![](images/NACA-TN-2914/expirement.png)  
 
+> Example I. - Calculation is made of the free-stream static temperature 
+required for an ice-free surface as a function of Mach number for
+an NACA 65-206 airfoil at 15,000 feet pressure altitude and 1° angle of
+attack.
+The velocity ratio
+can be found for this airfoil by the
+methods and results presented in reference 5. The maximum velocity ratio
+(minimum pressure ratio) for this airfoil was determined to be
+Vl/Vo = 1.139 and occurs at the 45-percent chord station on the upper
+surface. Assuming a value of the recovery factor of 0.85 and that the
+surface is wet at this point determines toc, in the following way:
+
+
+Mach|Reported pl/po|Calculated pl/po|Reported Toc, R|Python Calculated Toc, R
+----|--------------|----------------|---------------|-----------------
+0.4 |0.97          |0.967           |486.6          |486.2            
+0.5 |0.95          |0.949           |483.8          |483.0            
+0.6 |0.929         |0.927           |480            |478.9            
+0.7 |0.902         |0.902           |475.6          |473.7            
+
+
+>Example 2. - This example is presented. to show typical calculations
+and. results in the transonic speed. range. Determination is made of the
+relation between stream Mach number and stream static temperature which
+will provide an ice-free surface at the midchord of an 8.8 percent thick
+circular arc airfoil at zero angle of attack for altitudes of 10,000,
+25,000, and 40,000 feet. The recovery factor r is 0.90.  
+The values of pressure coefficient C and local Mach number M1
+can be obtained. from reference 10 for stream Mach numbers of 0.848 to
+1.500 and are listed. as follows:
+
+
+Mach |Coefficient of pressure|10000 ft. Toc, R|Python Calculated Toc, R|25000 ft. Toc, R|Python Calculated Toc, R|40000 ft. Toc, R|Python Calculated Toc, R
+-----|-----------------------|----------------|-----------------|----------------|-----------------|----------------|-----------------
+0.848|-0.355                 |460             |462.3            |472.5           |473.2            |484             |484.0            
+0.935|-0.33                  |452             |454.7            |466.5           |468.0            |481.5           |481.8            
+1.11 |-0.045                 |423.5           |427.5            |440             |442.8            |464             |464.7            
 
 
 
