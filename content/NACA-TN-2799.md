@@ -7,7 +7,9 @@ status: draft
 
 #"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" [^1]
 
-![Figure 1](images/naca-tn-2799/Figure1.png) 
+![Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.](images/naca-tn-2799/Figure1.png) 
+> Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.
+
 
 ##Summary
 Simplified ice protection equations allow graphical solutions.
@@ -59,6 +61,16 @@ These heat-transfer processes are discussed in detail in references 1 to
 
 Readers may recognize forms of equations 1 through 4 from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^2]. 
 
+Note that the evaporation equations (2) and (3) use the factor:
+
+    0.622 / cp
+    
+which differs from [Messinger]({filename}messinger.md) [^3], which used:
+
+    (Pr/Tr)**(2/3) * 0.622 / cp
+    (Pr/Tr)**(2/3) = 1.12
+    1.12 * 0.622 / cp
+
 I think that equation (5) is a wet adiabatic calculation 
 that assumes water drop temperatures are in equilibrium 
 with the air as they approach a surface, 
@@ -86,35 +98,26 @@ assumption that the water drops are in equilibrium with the air as they approach
 ![Equation 7](images/naca-tn-2799/Equation7.png) 
 Equation 7 is an incompressible approximation of Bernoulli's Law.
 
-    p/rho + v**2/2 = pl/rhol +vl**2/2
-    v**2/2 - vl**2/2 = pl/rhol - p/rho
-    v**2 - vl**2 = 2 * (pl/rhol - p/rho)
-    assume that rho ~= rhol
-    v**2 - vl**2 = 2 / rho * (pl - p)
-    vl**2 = v**2 - 2 / rho * (pl - p)
-    vl**2 = v**2 - 2 p / rho * (pl/p - p/p)
-    vl**2 = v**2 - 2 p / rho * (pl/p - 1)
-    
-    p/rho = R*T
-    
-    vl**2 = v**2 - 2 * R * T * (pl/p - 1)
-    T = 464 R = 257.77 K
-    
-    
-    
-    (v**2/2 - vl**2/2) / (2*32.2*778*0.24) = R * T * (pl/p - 1) / (2*32.2*778*0.24)
-    
-    T = p/(rho*R)
-    
-    rho lb-s^2/ft^4  !!?? 
-    
-    lbm/ft^3 / (ft/s^2) = lbm-s^2/ft^4   
+The simplified equations are regrouped: 
 
 ![Equations 8 and 9](images/naca-tn-2799/Equations8and9.png) 
 
+Also note that equation (5) was quietly omitted. 
+
+
+> Further simplification is obtained by expressing the following minor
+variables as constants near the middle of their expected range in anti-icing 
+calculations:  
+(1) Recovery factor R, assumed as 0.85, corresponding to the conservative 
+case of laminar flow  
+(2) Latent heat of vaporization L, assumed as 1066 Btu per pound,
+corresponding to an average surface temperature of 50F  
+(3) Ambient absolute temperature (for air density calculation),
+assumed as 464R
+
 ![Equations 10 to 15](images/naca-tn-2799/Equations10to15.png) 
 
-The text from Figure 1:
+The text from Figure 1 gives an example of the use of the tau values:
 
     Solutions:  q/ha = τ1 - τ2  + K(τ3 -τ4) + τ5, F
                  Mev = (hs K/1066)(τ3 - τ4), lb/(hr)(ft^2)
@@ -142,27 +145,24 @@ The text from Figure 1:
             
     Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.
     (A 17 1/2 x 22 inch print of this figure is attached.) 
-    
-Since there is a graphical solution, I guess there is no need for a python implementation :( 
 
 Let us write the equations in (mostly) SI units:    
 
-I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^2]. 
+I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^4]. 
 
-Description| symbol | Messinger symbol
+Description| symbol | NACA-TN-2799 symbol
 ---|---|---
 air specific heat at constant pressure | cp | cp
 unit system gravitation factor | gc = 1 kg-m/(N-s^2) | g, acceleration due to gravity, 32.2 ft/sec^2
 heat transfer coefficient| hc| ha
-ambient static pressure | p | p
+latent heat of evaporation | Le | L
 mass flux rate of water (mass/unit_area/time) | mw | Mw
+ambient static pressure | p | p
 ambient water vapor pressure | pv | eo
 surface water vapor pressure | pvs | el
 recovery factor | r | R
 ambient air static temperature| ta | to
 surface temperature | ts | ts
-latent heat of evaporation | Le | Le
-latent heat of freezing | Lf | Lf
 free stream airspeed | u | V
 
 Calculations here will be in SI units, with the exceptions of:  
@@ -178,27 +178,65 @@ From the units on g:
 I infer that the mass in the density is the archaic unit "slug" in disguise
 (see [A Brief Digression on Unit Systems]({filename}brief-digression-on-units.md)).  
 
-    slug = 32.2 lbm / (32.2 ft/s^2) => lbm-s^2/ft units 
-    (missing the unit system constant "gc")
-    
+    slug = 32.2 lbm / (32.2 ft/s^2) => lbm-s^2/ft units     
     density = slug / vol = lbm-s^2/ft / (ft^3) = lbm-s^2/ft^4
     
-So, the tau values become (in units K):  
+So, the tau values become (the units are temperature of the units system):  
 
     τ1 = (ts - ta) * (1 + wm * cpw / ha)    
     τ2 = u**2 / 2 * (r / cp + wm / ha)  
-    τ3 = 0.7 * Le / cp * (pvs / pl)  
-    τ4 = 0.7 * Le / cp * (pv / po)  
-    τ5 = (1-r) * R_AIR * ta / (2 *cp) * (1 - pl / p)  [evaluated at 464R, 257.77K, r=0.85]  
-    
-    
-The τ5 term is a dry approximation, as I do not want to unwind all of equation (5),
-and, after Messinger's comments about the "datum" temperature, the literature will soon lose interest. 
-The term is small, anyway.
+    τ3 = 0.622 * Le / cp * (pvs / pl)  
+    τ4 = 0.622 * Le / cp * (pv / po)  
+    τ5 = (1-r) * R_AIR * ta / (2 *cp) * (1 - pl / p)  [evaluated at 464R=257.77K, r=0.85]  
+
+Since there is a graphical solution, I guess there is no need for a python implementation :(  
+
+I made one anyway, file "naca_tn_2799.py" [^5]. 
+Values calculated with the file "naca_tn_2799.py" agree well with the example values. 
+
+Value|Calculated, F|Example value, F
+-----|-------------|----------------
+τ1   |102.3        |102             
+τ2   |41.7         |41.4            
+τ3   |180.6        |179.5           
+τ4   |25.6         |23.5            
+τ5   |-6.7         |-6.8            
+
+
+Value          |Calculated|Example
+---------------|----------|-------
+q, BTU/h-ft^2  |10453     |10490  
+Mev, lbm/h-ft^2|7.21      |7.32   
+
     
 ##Conclusions  
 
->From 
+>In the preceding derivations, the assumption is made that the
+moisture in the ambient air does not have time to change state during
+the adiabatic pressure and temperature changes in the local air stream.
+Because of the high speeds and short distances involved in most anti-
+icing calculations, this assumption appears reasonable. Answers obtained
+by use of this assumption do not differ appreciably from those using the
+assumption of phase changes in equilibrium with the local air tempera-
+ture. The difference between the two solutions is greatest when p1/p0
+is most removed from unity and when low heating rates are used.  
+
+>Errors in the present graphical solution may become appreciable at
+high subsonic speeds because an incompressible-flow relation was used in
+eliminating the velocity-ratio term from the equations. Recovery factors
+for wetted surfaces at high speeds may also deviate from the value
+assumed herein. The errors in solution due to the temperature factors
+that were taken as constants near the mean of their expected ranges are
+in the order of 3 percent for the range of graph presented. The fore-
+going errors are negligible, however, compared with the uncertainty and
+the latitude involved in estimating values of the basic variables,
+especially the water-interception rate and the beat-transfer coefficient. 
+
+>The form of solution presented herein is intentionally niade general
+for maximum usage. The solution is applicable to practically any body
+shape for which the flow conditions are known, and is not dependent upon
+any specific assumptions as to body geometry, location of transition,
+wetness of surface, and method or extent of heating. 
 
 ##Citations
 
@@ -217,20 +255,24 @@ NACA-TN-2799 cites 12 publications:
 - Drexel, Roger E., and McAdams, William H.: Heat-Transfer Coefficients for Air Flowing in Round Tubes, In Rectangular Ducts, and around Finned Cylinders. NACA-ARR-4F28, 1945.  
 - Lowdermilk, Warren H., and Grele, Milton D.: Influence of Tube-Entrance Configuration on Average Heat-Transfer Coefficients and Friction Factors for Air Flowing in an Inconel Tube. NACA-RM-E50E23, 1950.  
 
-NACA-TN-1472 is cited once by publications in the NACA Icing Publications Database [^7]:
+NACA-TN-1472 is cited once by publications in the NACA Icing Publications Database [^6]:
 
 - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
 
-NACA-TN-1472 is cited 6 times in the literature [^8].
+NACA-TN-1472 is cited 6 times in the literature [^7].
 
 ##Notes: 
 
 [^1]: 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 [^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
-
+[^3]: 
+Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
+[^4]: 
 [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
-[^7]: 
+[^5]: 
+Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+[^6]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^8]: 
+[^7]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Simple+Graphical+Solution+of+Heat+Transfer+and+Evaporation+from+Surface+Heated+to+Prevent+Icing&btnG=  
