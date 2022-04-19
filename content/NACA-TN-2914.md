@@ -68,9 +68,19 @@ evaporation, then Dalton's law of partial pressures applies and
 
 ![](images/NACA-TN-2914/Equation1a.png)  
 
-Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914. 
 
 ![](images/NACA-TN-2914/Discussion_after_equation2.png) 
+
+Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914. 
+
+Note that the heat or mass transfer coefficients do not need to be evaluated,
+just the ratio ke/kh, which was assumed to be 1. 
+No assumption about laminar or turbulent flow is required, 
+except in the selection of the recovery factor value. 
+
+The term tl/tcl... may be determined from a pressure coefficient, 
+or a local Mach number:
+
 ![](images/NACA-TN-2914/Discussion_after_equation2_continued.png) 
 
 ![](images/NACA-TN-2914/Equation3.png)  
@@ -79,14 +89,23 @@ Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914.
 
 ![](images/NACA-TN-2914/Equation6.png)  
 
+NACA-TN-2861 describes a test that was run:
+
 ![](images/NACA-TN-2914/expirement.png)  
+
+Unfortunately, the coefficient of pressure or pl/po ratios were not included,
+so a comparison for this case was not run. 
+
+In NACA-TN-2914 more complete examples were provided. 
+
+An implementation in the python file "naca_tn_2914.py" was used to compared results. 
+
 
 > Example I. - Calculation is made of the free-stream static temperature 
 required for an ice-free surface as a function of Mach number for
 an NACA 65-206 airfoil at 15,000 feet pressure altitude and 1° angle of
 attack.
-The velocity ratio
-can be found for this airfoil by the
+The velocity ratio can be found for this airfoil by the
 methods and results presented in reference 5. The maximum velocity ratio
 (minimum pressure ratio) for this airfoil was determined to be
 Vl/Vo = 1.139 and occurs at the 45-percent chord station on the upper
@@ -94,12 +113,14 @@ surface. Assuming a value of the recovery factor of 0.85 and that the
 surface is wet at this point determines toc, in the following way:
 
 
-Mach|Reported pl/po|Calculated pl/po|Reported Toc, R|Python Calculated Toc, R
+Mach|Reported pl/po|Python Calculated pl/po|Reported Toc, R|Python Calculated Toc, R
 ----|--------------|----------------|---------------|-----------------
 0.4 |0.97          |0.967           |486.6          |486.2            
 0.5 |0.95          |0.949           |483.8          |483.0            
 0.6 |0.929         |0.927           |480            |478.9            
-0.7 |0.902         |0.902           |475.6          |473.7            
+0.7 |0.902         |0.902           |475.6          |473.7         
+
+Even though the ratio pl/po calculated agrees well, the temperature values differ by up to 2.1R. 
 
 
 >Example 2. - This example is presented. to show typical calculations
@@ -108,7 +129,7 @@ relation between stream Mach number and stream static temperature which
 will provide an ice-free surface at the midchord of an 8.8 percent thick
 circular arc airfoil at zero angle of attack for altitudes of 10,000,
 25,000, and 40,000 feet. The recovery factor r is 0.90.  
-The values of pressure coefficient C and local Mach number M1
+The values of pressure coefficient Cp and local Mach number M1
 can be obtained. from reference 10 for stream Mach numbers of 0.848 to
 1.500 and are listed. as follows:
 
