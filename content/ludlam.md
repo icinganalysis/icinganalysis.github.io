@@ -1,4 +1,4 @@
-Title: template  
+Title: Ludlam  
 Category: NACA  
 tags: thermodynamics   
 status: draft
@@ -6,17 +6,14 @@ status: draft
 > ###_"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
 
 #F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
-or 
-##"A Confusion of Ludlam Limits" 
 
 ##Summary
 Various "Ludlam Limits" have been implemented, but they produce different results.  
 
 ##Key points  
 1. Calculations are laid out for finding the "critical" LWC where not all available water freezes on a cylinder. 
-2. Values of critical LWC were presented. 
-3. The critical LWC is often termed the "Ludlam limit", although Ludlam did not use that term. 
-4. Various "Ludlam Limits" have been implemented, but they produce different results. 
+2. The critical LWC is often termed the "Ludlam limit", although Ludlam did not use that term. 
+3. Various "Ludlam Limits" have been implemented, but they produce different results. 
 
 ##Abstract
 
@@ -63,14 +60,14 @@ I believe that this is an area where what Ludlam implemented is different from w
 ####Heat transfer due to water impingement: 
 
 The rate of water impingement was calculated. 
-The heat due to water impingement is water_rate * cp_water * (_surface - t_ambient). 
+The heat due to water impingement is H = water_rate * cp_water * (t_surface - t_ambient).  
 This is similar to other sources, except that the kinetic heating 
 due to the impingement of water drops was not included 
 (this is typically a relatively small term). 
 
 ####Heat due to water freezing:
 
-The heat due to water freezing is H = water_rate * latent_heat_of_freezing. 
+The heat due to water freezing is H = water_rate * latent_heat_of_freezing.  
 Some other sources include the fact that a small portion of the water has evaporated, 
 leaving a slightly reduced amount of water available to freeze. 
 
@@ -233,7 +230,6 @@ An online search found that Ludlam is cited 106 times in the literature [^8].
 We will compare cylinder test data 
 when we get to the review of [NACA-TR-1215]({filename}NACA-TR-1215.md) in the Thermodynamics thread, 
 which might help sort out the more useful analysis methods. 
-
 
 ##Notes:  
 [^1]: 

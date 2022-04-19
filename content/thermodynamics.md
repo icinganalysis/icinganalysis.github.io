@@ -31,6 +31,7 @@ Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a F
 > The term "freezing fraction" is defined.  
 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+> Simplified ice protection equations allow graphical solutions.
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
 
