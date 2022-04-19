@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Python coding style guide</title>
+        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <meta name="description" content="For the Thermodynamics tread and on, I will be using this style guide. Previous code may eventually be upgraded to this. Python target version:..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="/icing-thermodynamics.html">Thermodynamics</a></li>
+                    <li><a href="https://icinganalysis.github.io/diversions.html">Diversions</a></li>
+                    <li><a href="https://icinganalysis.github.io/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://icinganalysis.github.io/python-coding-style-guide.html" rel="bookmark"
+           title="Permalink to Python coding style guide">Python coding style guide</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-19T07:40:24.285568-07:00">
+                Published: Tue 19 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-19T07:40:24.285568-07:00">-->
+                <!--Updated: Tue 19 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python.html">Python</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/python.html">python</a> </p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="Python logo" src="images/python-logo-master-v3-TM.png"></p>
+<p>For the <a href="https://icinganalysis.github.io/icing-thermodynamics.html">Thermodynamics tread</a> and on, I will be using this style guide. 
+Previous code may eventually be upgraded to this.</p>
+<h1>Python target version:</h1>
+<p>Target python version 3.7, and the corresponding <a href="https://www.anaconda.com/">Anaconda stack</a> (version 2021-11). 
+Avoid modules with deprecation warnings (there are not many of them).
+This is a balance between current installations and future-proofing. 
+The goal is to be applicable for all 3.7+ uses. </p>
+<p>(Note: 3.10 is the latest available version, as of April 2022).</p>
+<p>Code should be portable, and not use operating system specific functions. </p>
+<h1>General guidelines</h1>
+<ul>
+<li>
+<p>simple</p>
+<ul>
+<li>use simple functions over classes</li>
+<li>out-source complexity where possible<ul>
+<li>use built-in data structures (list, dict) </li>
+<li>use numpy and scipy, anything in the anaconda stack</li>
+</ul>
+</li>
+<li>promote reuse<ul>
+<li>anything used more than once should be put in an importable <a href="https://docs.python.org/3.7/tutorial/modules.html">module</a></li>
+<li>use the "if __name__ == '__main__:" block <a href="https://docs.python.org/3.7/library/__main__.html">idiom</a> <ul>
+<li>to have clean (no side effect) imports</li>
+<li>include an example of how to use the module</li>
+</ul>
+</li>
+<li>lots of small modules are an asset<ul>
+<li>each module is easier to understand</li>
+<li>a well focused, cohesive module is more likely to be reused</li>
+<li>lots of imports are better than lots of bespoke code</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>do all internal calculations in SI units<ul>
+<li>use units_helpers for input/output conversion</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>understandable</p>
+<ul>
+<li>name things well<ul>
+<li>use named constants rather than just numeric values</li>
+<li>long, descriptive variable and function names are an asset</li>
+<li>use verbs for function names (calc_, find_, get_, ...)</li>
+<li>use <a href="https://docs.python.org/3/glossary.html#term-namespace">namespaces</a><ul>
+<li>eschew the temptation to use "import *"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>include <a href="https://peps.python.org/pep-0257/">doc strings</a> for non-obvious functions</li>
+<li>consider using <a href="https://docs.python.org/3.7/library/typing.html">type annotations</a> (perhaps I should do more of that)</li>
+<li>minimize comments<ul>
+<li>prefer doc strings, well named variables, and type annotations </li>
+</ul>
+</li>
+<li>a consistent "look and feel" reduces the cognitive load<ul>
+<li>use the <a href="https://pypi.org/project/black/">"Black"</a> file formatter (a super-set of <a href="https://peps.python.org/pep-0008/">PEP 8</a>)</li>
+<li>imports order (consistency aids understanding):<ol>
+<li><a href="https://docs.python.org/3.7/py-modindex.html">Standard modules</a> (in alphabetical order)</li>
+<li>Anaconda stack (numpy, scipy, etc.)</li>
+<li>icinganalysis modules</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>I consider <a href="https://docs.python.org/3.7/tutorial/datastructures.html#list-comprehensions">list comprehensions</a> to be quite understandable (others may not)</li>
+<li>limit file lengths to less than 1000 lines of code<ul>
+<li>while number of lines of code is a crude measure of complexity, it is adequate in many cases</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1>Version control</h1>
+<p><a href="https://git-scm.com/">Git</a> is used. </p>
+<p>Code is available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a></p>
+<h1>License</h1>
+<p>The code is available under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a></p>
+<h1>Verification</h1>
+<p>There are not yet any unit tests. They would probably be good idea. </p>
+<p>At the moment, the verification is out-sourced to the validation 
+("If it works, it works"). 
+However, this may miss edge-cases, 
+and coincidences where one error offsets another error.</p>
+<h1>Validation</h1>
+<p>Code will have a comparison to test and NACA analysis data, 
+which illustrate the degree of agreement. </p>
+<p>Users may determine if the degree of agreement is adequate for their use case. </p>
+<h1>The Zen of Python <a href="https://peps.python.org/pep-0020/">https://peps.python.org/pep-0020/</a></h1>
+<blockquote>
+<p>Beautiful is better than ugly.<br>
+Explicit is better than implicit.<br>
+Simple is better than complex.<br>
+Complex is better than complicated.<br>
+Flat is better than nested.<br>
+Sparse is better than dense.<br>
+Readability counts.<br>
+Special cases aren't special enough to break the rules.<br>
+Although practicality beats purity.<br>
+Errors should never pass silently.<br>
+Unless explicitly silenced.<br>
+In the face of ambiguity, refuse the temptation to guess.<br>
+There should be one-- and preferably only one --obvious way to do it.<br>
+Although that way may not be obvious at first unless you're Dutch.<br>
+Now is better than never.<br>
+Although never is often better than <em>right</em> now.<br>
+If the implementation is hard to explain, it's a bad idea.<br>
+If the implementation is easy to explain, it may be a good idea.<br>
+Namespaces are one honking great idea -- let's do more of those!  </p>
+</blockquote>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://twitter.com/icinganalysis">twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@gmail.com">email</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies.
+                </address><!-- /#about -->
+
+
+                <br /> copyright 2022 by Donald Cook
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
