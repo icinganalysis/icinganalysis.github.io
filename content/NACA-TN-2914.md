@@ -14,7 +14,9 @@ The warmest ambient temperature at which ice can accumulate is calculated.
 
 ##Key points
 
-1. key point 1  
+1. The warmest ambient temperature at which ice can accumulate is calculated.  
+2. Compressibility effects were included. 
+3. Analysis showed good results compared to test data at transonic Mach numbers. 
 
 ##Abstract
 
@@ -45,6 +47,8 @@ They have the same authors, and contain much of the same theoretic material.
 NACA-TN-2861 includes experimental data for comparison. 
 NACA-TN-2914 includes more analysis cases. 
 
+![](images/NACA-TN-2914/Symbols.png)
+
 Equations from Hardy ([NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)) [^3] are 
 used. 
 ![](images/NACA-TN-2914/Equation1.png)  
@@ -61,7 +65,7 @@ From purely physical reasoning, however, an additional restriction exists.
 This restriction results from the fact that the air in a cloud is fully
 saturated at the static or free-stream conditions. For each value of
 stream-static temperature, the free-stream vapor pressure is therefore
-assuid a constant and equal to the saturated vapor pressure. If it is
+assumed a constant and equal to the saturated vapor pressure. If it is
 assumed that the flow about the body, outside the boundary layer, is
 accomplished with no change in phase, that is, no condensation or 
 evaporation, then Dalton's law of partial pressures applies and
@@ -77,6 +81,10 @@ Note that the heat or mass transfer coefficients do not need to be evaluated,
 just the ratio ke/kh, which was assumed to be 1. 
 No assumption about laminar or turbulent flow is required, 
 except in the selection of the recovery factor value. 
+
+Note also that an impingement rate is not calculated. 
+It is assumed that there is enough water to wet the entire surface. 
+The is no partial surface wettedness as was considered in [NACA-TN-2799](NACA-TN-2799.md) [^4]. 
 
 The term tl/tcl... may be determined from a pressure coefficient, 
 or a local Mach number:
@@ -98,8 +106,7 @@ so a comparison for this case was not run.
 
 In NACA-TN-2914 more complete examples were provided. 
 
-An implementation in the python file "naca_tn_2914.py" was used to compared results. 
-
+An implementation of the calculations in the python file "naca_tn_2914.py" [^5] was used to compared results. 
 
 > Example I. - Calculation is made of the free-stream static temperature 
 required for an ice-free surface as a function of Mach number for
@@ -133,16 +140,12 @@ The values of pressure coefficient Cp and local Mach number M1
 can be obtained. from reference 10 for stream Mach numbers of 0.848 to
 1.500 and are listed. as follows:
 
-
 Mach |Coefficient of pressure|10000 ft. Toc, R|Python Calculated Toc, R|25000 ft. Toc, R|Python Calculated Toc, R|40000 ft. Toc, R|Python Calculated Toc, R
 -----|-----------------------|----------------|-----------------|----------------|-----------------|----------------|-----------------
-0.848|-0.355                 |460             |462.3            |472.5           |473.2            |484             |484.0            
-0.935|-0.33                  |452             |454.7            |466.5           |468.0            |481.5           |481.8            
-1.11 |-0.045                 |423.5           |427.5            |440             |442.8            |464             |464.7            
+0.848|-0.355                 |460             |459.0            |472.5           |470.8            |484             |482.8            
+0.935|-0.33                  |452             |450.7            |466.5           |465.0            |481.5           |480.3            
+1.11 |-0.045                 |423.5           |423.1            |440             |438.9            |464             |462.3            
 
-
-
-###Key point
 
 ##Citations
 
@@ -197,8 +200,12 @@ Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing L
 
 [^2]: 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
-[3]: 
+[^3]: 
 Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945
+[^4]: 
+Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+[^5]: 
+[https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 
 [^10]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  

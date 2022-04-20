@@ -33,6 +33,7 @@ Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from
 > Simplified ice protection equations allow graphical solutions.
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
+> The warmest ambient temperature at which ice can accumulate is calculated.
 
 Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 
 
