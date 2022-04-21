@@ -1,7 +1,6 @@
 Title: Messinger  
 Category: NACA  
 tags: thermodynamics  
-status: draft
 
 > ###_""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"_  
 
@@ -75,7 +74,6 @@ I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling
 
 Description| symbol | Messinger symbol
 ---|---|---
-surface area | A | A 
 air specific heat at constant pressure | cp | ca
 unit system gravitation factor | gc = 1 kg-m/(N-s^2) | g, "gravitational constant, 32.2 ft./sec.^2 or lbs. per slug"
 heat transfer coefficient| hc| f
@@ -111,7 +109,7 @@ Several heat transfer components are defined.
 
     qc = hc * (ts - ta) 
     
-    qe = 2.9 * Le * fc * A *(Psw - P∞) / B  [Messinger nomenclature]  
+    qe = 2.9 * Le * fc * (psw - p∞) / B  [Messinger nomenclature]  
 
 In a footnote, Messinger says of the value 2.9 in qe equation:  
 > The constant 2.90 is an empirical factor relating mass transfer
@@ -130,7 +128,7 @@ considered negligible in this paper.
 >Coefficient of evaporation.—There is some uncertainty as
 to the correct value of the ratio of kw. to kh, owing to 
 uncertainty in the value of the coefficient of diffusion of water
-vapor in air. When the flow is laminar 
+vapor in air. When the flow is laminar  
 >![Equation 10](images/NACA-TR-831/Equation10.png)  
 >When the flow is turbulent, the ratio is more nearly unity;
 the value may be found by substitution in Karman's equation 
@@ -163,27 +161,24 @@ More generally, for any unit system:
 So, 
 
     qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  [standard nomenclature]  
-    qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  [constant factor]  
+    qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  [constant factor (Pr/Tr)**(2/3)]  
     qe = Le * hc * 0.7 / cp * (pvs - pv) / p  [regrouped]  
     
-    qw = mw * A * cpw * (ts - ta) 
+    qw = mw * cpw * (ts - ta) 
     
-    qf = Lf * n * mw * A
+    qf = Lf * n * mw
 
 Note that all of the impinging water mw is considered to freeze (evaporation is not included). 
 
-    qv = fc * A * (r * V**2 / 2 / g / J /cp)  [Messinger nomenclature]  
-
-
+    qv = fc * (r * V**2 / 2 / g / J /cp)  [Messinger nomenclature]  
 
 In SI units, this simplifies to: 
 
-    qv = hc * A * (r * u**2 / 2 / cpw) 
+    qv = hc * (r * u**2 / 2 / cpw) 
 
 Similarly,
 
-    qk = mw * A * (u**2 / 2)
-
+    qk = mw * (u**2 / 2)
 
 ###When ts=32F and 0 <= n <= 1
 
@@ -193,8 +188,8 @@ Equating the sum of the "gain" terms to the sum of the "loss" terms:
 
     qf + qv + qk = qc + qe + qw
 
-    (Lf * n * mw * A) + (hc * A * (r * u**2 / 2 / cpw)) + (mw * A * (u**2 / 2))  
-    = (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
+    (Lf * n * mw) + (hc * (r * u**2 / 2 / cp)) + (mw * (u**2 / 2))  
+    = (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * cpw * (ts - ta)) 
 
 The equation may be regrouped to solve for the freezing fraction, n.
 

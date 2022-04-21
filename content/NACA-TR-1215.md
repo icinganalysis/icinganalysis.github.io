@@ -139,12 +139,7 @@ Note that the term is defined on a mass basis (F17) and then transformed to an e
 
 Here, the term is credited to Fraser [^6] ("reference 18"), which was published in August, 1952.
 
-<!--
 The term is generally credited to [Messinger]({filename}messinger.md) [^7], which was published in a journal in January, 1953. 
--->
-
-
-The term is generally credited to Messinger [^7], which was published in a journal in January, 1953. 
 However, Messinger had presented the paper at a meeting in 1951. 
 Also, Messinger's freezing fraction is different. 
 In this nomenclature, Messinger's freezing fraction is λ = wf / w. 
