@@ -111,9 +111,9 @@ Several heat transfer components are defined.
 
     qc = hc * (ts - ta) 
     
-    qe = 2.9 * Le * fc * A *(Psw - P∞) / B  _[Messinger nomenclature]_  
+    qe = 2.9 * Le * fc * A *(Psw - P∞) / B  [Messinger nomenclature]  
 
-In a footnote, Messinger says of the term:  
+In a footnote, Messinger says of the value 2.9 in qe equation:  
 > The constant 2.90 is an empirical factor relating mass transfer
 to convection heat transfer. In reference 1 this constant appears
 erroneously as being equal to 2.29 because of a numerical error
@@ -124,25 +124,24 @@ pressure promote increased evaporation and high static pressure
 areas suppress evaporation. The magnitude of this effect is 
 considered negligible in this paper.
 
+[NACA-TR-831]({filename}NACA-TR-831) [^3] discusses the related ratio kw/kh:
 
-NACA-TR-831 discusses the related ratio kw/kh:
-
->![Definitions of kh and kw](images/NACA-TR-831/kh_and_kw.png) 
+>![Definitions of kh and kw](images/NACA-TR-831/kh_and_kw.png)  
 >Coefficient of evaporation.—There is some uncertainty as
 to the correct value of the ratio of kw. to kh, owing to 
 uncertainty in the value of the coefficient of diffusion of water
 vapor in air. When the flow is laminar 
->![Equation 10](images/NACA-TR-831/Equation10.png) 
+>![Equation 10](images/NACA-TR-831/Equation10.png)  
 >When the flow is turbulent, the ratio is more nearly unity;
 the value may be found by substitution in Karman's equation 
 (reference 7). Taylor's number Tr is the ratio of the
 diffusivity of momentum to that of any substance or heat.
 Prandtl's number Pr is Taylor's number in the particular
-case of heat, when the diffusivity is k/(p)'cp.
+case of heat, when the diffusivity is k/(ρ)'cp.
 Values for the diffusivity of water vapor in air are few
 and scattered. The most reliable is considered to be 0.22
 centimeter squared per second at 0°C. (reference 8). With
-this value, equation (10) gives kw/kh =1.12.
+this value, equation (10) gives kw/kh =1.12. 
 
 The ratio (Pr/Tr)**(2/3) is fairly constant over the range of conditions of interest, 
 so it is often in post-NACA literature taken as the constant value 1.12. 
@@ -151,7 +150,7 @@ To get Messingers value of 2.9:
 
     ratio of molecular masses, water to air = 0.622  
     cp_air = 0.24 BTU/lbm-F  
-    2.9 = 0.622 / 0.24 / 1.12  
+    2.9 = 0.622 / 0.24 * 1.12  
 
 So, the 2.9 factor is not just empirical, 
 it is founded in the ideal gas law and boundary layer analogies. 
@@ -163,10 +162,9 @@ More generally, for any unit system:
 
 So, 
 
-    qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  _[standard nomenclature]_  
-    qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  _[constant factor]_  
-    
-    qe = Le * hc * 0.7 / cp * (pvs - pv) / p  _[regrouped]_  
+    qe = Le * hc * 0.622 / p / cp * (Pr/Tr)**(2/3) * (pvs - pv)  [standard nomenclature]  
+    qe = Le * hc * 0.622 / p / cp * 1.12 * (pvs - pv)  [constant factor]  
+    qe = Le * hc * 0.7 / cp * (pvs - pv) / p  [regrouped]  
     
     qw = mw * A * cpw * (ts - ta) 
     
@@ -174,7 +172,7 @@ So,
 
 Note that all of the impinging water mw is considered to freeze (evaporation is not included). 
 
-    qv = fc * A * (r * V**2 / 2 / g / J /cp)  _[Messinger nomenclature]_  
+    qv = fc * A * (r * V**2 / 2 / g / J /cp)  [Messinger nomenclature]  
 
 
 
@@ -195,7 +193,7 @@ Equating the sum of the "gain" terms to the sum of the "loss" terms:
 
     qf + qv + qk = qc + qe + qw
 
-    (Lf * n * mw * A) + (hc * A * (r * u\*\*2 / 2 / cpw)) + (mw * A * (u\*\*2 / 2))  
+    (Lf * n * mw * A) + (hc * A * (r * u**2 / 2 / cpw)) + (mw * A * (u**2 / 2))  
     = (hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * A * cpw * (ts - ta)) 
 
 The equation may be regrouped to solve for the freezing fraction, n.
@@ -243,7 +241,7 @@ diameter cylinder.
 
 Figure 10a conditions: altitude = 10,000 ft., T= 0F.
 
-The python implementation (file messinger.py [^3]) reproduces Figure 10a results well. 
+The python implementation (file messinger.py [^4]) reproduces Figure 10a results well. 
 
 ![Figure 10a conditions](images/messinger/messinger_figure10a_calc_b0_5.png)  
 (Yes, 1000 knots is kind-of high, but that is the range that Messinger used.) 
@@ -258,10 +256,10 @@ Figure 10b includes the variation of b with airspeed.
 However, it did not include the water drop catch efficiency beta values, 
 or the heat transfer coefficients assumed for the cylinder. 
 
-So, we will use the Langmuir and Blodgett [^4] relationships to get beta values.  
+So, we will use the Langmuir and Blodgett [^5] relationships to get beta values.  
 ![Beta values for Figure 10b](images/messinger/messinger_fig10b_beta.png) 
 
-We will used the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^5]. 
+We will used the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^6]. 
 
 ![HC values for Figure 10b](images/messinger/messinger_fig10b_hcs.png) 
 
@@ -275,7 +273,7 @@ match Figure 10b values (not shown) well.
 ###"Datum" temperature
 
 Messinger has comments about the "datum temperature" from 
-[NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^6]:
+[NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^7]:
 
 > An examination of the above equation indicates that
 this parameter might be more aptly named the "dynamic 
@@ -342,7 +340,7 @@ We calc calculate what LWC "critical" value results in a freezing fraction
 of 1 for the 0.25 inch diameter cylinder we saw in the review of Ludlam. 
 
 The Reynolds is too low to be turbulent for a smooth surface, 
-but we will consider the rough surface correlation from [NACA-TR-1215]({filename}NACA-TR-1215.md) [^6]. 
+but we will consider the rough surface correlation from [NACA-TR-1215]({filename}NACA-TR-1215.md) [^8]. 
 We will also consider just the stagnation point, as Messinger did, 
 and also an "averaged" value, 
 spreading out the impingement over the entire surface of the cylinder. 
@@ -409,6 +407,12 @@ Run |Airspeed, mph|LWC  |Water drop diameter, micrometer |T_static, F|Messinger 
 13  |238          |0.34 |13  |4.5        |0.83                  |0.88               |31                   |32.0                   
 14  |232          |0.34 |16  |12.3       |0.475                 |0.54               |32                   |32.0                   
 
+Ludlam wrote "These data substantiate the validity of the assumptions made in the theoretical analysis." 
+The data substantiate the surface temperatures calculated, 
+but the freezing fractions were not measured. 
+We will have to look at data from the post-NACA era for freezing fraction measurements. 
+
+
 ##Citations
 
 Messinger cites 9 publications:
@@ -423,12 +427,12 @@ Messinger cites 9 publications:
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
 - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
 
-Messiger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^8]:
+Messiger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^9]:
 
 - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.
 
-The single citation is surprising, as this paper is a close second to Langmuir and Blodgett [^4]
-for the most cited aircraft icing publication in the literature with 740 citations [^9]
+The single citation is surprising, as this paper is a close second to Langmuir and Blodgett [^5]
+for the most cited aircraft icing publication in the literature with 740 citations [^10]
 (the positions change from time to time, as either paper is often cited by new publications).
 
 ###Related
@@ -445,17 +449,19 @@ but I do not have a copy and I have not found it online.
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^2]: 
 Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
-[^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
-[^4]:
+[^3]: 
+Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+[^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
+[^5]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-[^5]: 
+[^6]: 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
-[^6]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
-[^7]:
+[^7]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
+[^8]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-[^8]: 
+[^9]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^9]:  
+[^10]:  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 
 
