@@ -42,11 +42,11 @@ Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obsta
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
 
-![C-46 Lab Test Article](images/C-46lab.jpg)
+![C-46 Lab Test Article](images/C-46lab.jpg) 
 
 Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. 
 
-![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png)
+![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 
