@@ -106,11 +106,11 @@ Calculations here will be in SI units, with the exceptions of:
 A heat balance is detailed for a wet surface at 32F.
 
 Several heat transfer components are defined. 
-
+```text
     qc = hc * (ts - ta) 
     
     qe = 2.9 * Le * fc * (psw - p∞) / B  [Messinger nomenclature]  
-
+```
 In a footnote, Messinger says of the value 2.9 in qe equation:  
 > The constant 2.90 is an empirical factor relating mass transfer
 to convection heat transfer. In reference 1 this constant appears

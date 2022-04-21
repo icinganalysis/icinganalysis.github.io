@@ -30,12 +30,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-21T06:17:17.578238-07:00">
+        <abbr class="published" title="2022-04-21T06:30:34.821491-07:00">
                 Published: Thu 21 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-21T06:17:17.578238-07:00">-->
+        <!--<abbr class="modified" title="2022-04-21T06:30:34.821491-07:00">-->
                 <!--Updated: Thu 21 April 2022-->
         <!--</abbr>-->
         <!---->
@@ -244,9 +244,9 @@ I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling
 <h3>Heat balance for a surface at 32F (0C)</h3>
 <p>A heat balance is detailed for a wet surface at 32F.</p>
 <p>Several heat transfer components are defined. </p>
-<div class="highlight"><pre><span></span><code><span class="n">qc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hc</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">ts</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">ta</span><span class="p">)</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>    qc = hc * (ts - ta) 
 
-<span class="n">qe</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">2.9</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Le</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">fc</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">psw</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">p</span><span class="err">∞</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">B</span><span class="w">  </span><span class="p">[</span><span class="n">Messinger</span><span class="w"> </span><span class="n">nomenclature</span><span class="p">]</span><span class="w"></span>
+    qe = 2.9 * Le * fc * (psw - p∞) / B  [Messinger nomenclature]  
 </code></pre></div>
 
 <p>In a footnote, Messinger says of the value 2.9 in qe equation:  </p>
