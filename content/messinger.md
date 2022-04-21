@@ -10,8 +10,8 @@ status: draft
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png) 
 > Modes of energy transfer for an unheated airfoil in icing conditions. 
 
-##Summary
-The term "freezing fraction" is defined
+##Summary 
+The term "freezing fraction" is defined 
 
 ##Key points
 
@@ -56,7 +56,6 @@ made in the theoretical analysis.
     
 ##Discussion
 
-This is one of the longest reviews. 
 This paper is one of the most cited aircraft icing publication in the literature 
 and merits close study. 
 
@@ -246,8 +245,8 @@ Figure 10a conditions: altitude = 10,000 ft., T= 0F.
 
 The python implementation (file messinger.py [^3]) reproduces Figure 10a results well. 
 
-![](images/messinger/messinger_figure10a_calc_b0_5.png)  
-(Yes, 1000 knots is kind-of high, but that is the range that Messinger used.)
+![Figure 10a conditions](images/messinger/messinger_figure10a_calc_b0_5.png)  
+(Yes, 1000 knots is kind-of high, but that is the range that Messinger used.) 
 
 
 Source              |Ts@V=0, F|V@n=0, knots|V@n=1, knots|Ts@V=1000, F
@@ -260,18 +259,18 @@ However, it did not include the water drop catch efficiency beta values,
 or the heat transfer coefficients assumed for the cylinder. 
 
 So, we will use the Langmuir and Blodgett [^4] relationships to get beta values.  
-![](images/messinger/messinger_fig10b_beta.png) 
+![Beta values for Figure 10b](images/messinger/messinger_fig10b_beta.png) 
 
 We will used the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^5]. 
 
-![](images/messinger/messinger_fig10b_hcs.png) 
+![HC values for Figure 10b](images/messinger/messinger_fig10b_hcs.png) 
 
 The heat transfer relations result in b values that bound the Figure 10b values.  
-![](images/messinger/messinger_fig10b_bs.png) 
+![b values for Figure 10b](images/messinger/messinger_fig10b_bs.png) 
 
 The resulting surface temperatures with either heat transfer relationship 
 match Figure 10b values (not shown) well.  
-![](images/messinger/messinger_fig10b_ts.png) 
+![Surface temperature values for Figure 10b](images/messinger/messinger_fig10b_ts.png) 
 
 ###"Datum" temperature
 
@@ -456,7 +455,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 [^8]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[9]:  
+[^9]:  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 
 
