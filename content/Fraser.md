@@ -8,11 +8,12 @@ status: draft
 #Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
 
 ##Summary
-"Ludlam limits" for instruments are calculated.
+The term "freezing fraction" is defined (but probably not the one that you expected). 
 
 ##Key points
 
-1. 
+1. The term "freezing fraction" is defined (but probably not the one that you expected). 
+1. "Ludlam limits" for instruments are calculated.
 
 ##Abstract
 
@@ -99,6 +100,12 @@ tion which freezes on impact. So that if m > ml
 
     mi = freezing_fraction * m + mc          (3)
     mi = ml + freezing_fraction * (m - ml)   (4)
+    freezing_fraction = (mi - ml) / (m - ml)
+
+In Fraser, "freezing fraction" is a fraction of water 
+in excess of the limiting LWC (m-ml) that is frozen. 
+This differs from Messinger, 
+where freezing fraction is the fraction of impinging water that is frozen (mi / m).
 
 >The excess water, (m — mi) is blown off in
 the liquid state, or included as liquid water in
@@ -188,6 +195,12 @@ something related
 
 [^1]: 
 Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 
+
+Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
+
+Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
+
+
 [^5]: 
 [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 
