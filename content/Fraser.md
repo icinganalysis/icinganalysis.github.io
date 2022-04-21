@@ -167,6 +167,33 @@ In our unit system:
           / (g_per_kg * E * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2))
 
 
+>Further experimental evidence of the existence
+of the Ludlam Limit was obtained during tests
+on an engine icing test-bed. A
+1/8-in. diameter cylinder was used to obtain water contents
+while a spray concentration giving about 2 gm/m 3
+was being used. The highest readings obtained
+by the rotating cylinder are shown in FIGURE 3.
+
+![Figure 3. Comparison of experimental points with calculated Ludlam lines for 1/8-in. diam. cylinder.](images/Fraser/Fraser_figure3.png)  
+
+>A further check of the calculated limits was
+made by using a 0.1 inch diameter cylinder in an
+icing tunnel, at 450 fps, with a constant flow of
+water to the sprays, while the temperature was
+varied. The readings obtained are shown in
+FIGURE 3, and indicate a Ludlam Limit of 0.5
+gm/m 3 at — 7°C. ambient temperature. This is in
+reasonable agreement with the theoretical limit.
+
+However, Fraser appears to be comparing 0.1 inch, 450 fps data to the 1/8 inch, 300 fps line
+When we add a limit line for 0.1 inch diameter and 450 fps, 
+the apparent limit does not agree as well with the test readings. 
+There is a limit characteristic, 
+but the theory and data do not match so well in this case. 
+
+![](images/Fraser/fraser_figure3_detail.png)  
+
 ##Citations
 
 Fraser cites 6 publications: 
