@@ -345,10 +345,10 @@ spreading out the impingement over the entire surface of the cylinder.
 ![Comparison of various "Ludlam limits"](images/messinger/ludlam_comparisons_all_plus_messinger.png) 
 
 As Messinger wrote: 
-
+```text
     "... data, obtained in natural icing conditions, would be valuable
     for establishing the validity of the various foregoing assumptions"
-    
+```    
 ##Appendix 
 
 Messinger added an appendix with test data.
