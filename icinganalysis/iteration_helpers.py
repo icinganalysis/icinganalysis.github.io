@@ -84,6 +84,11 @@ def trim_extra_x_y_zeros(x, y, threshold=0):
     return x[i0:i_end], y[i0:i_end]
 
 
+def take_by(s: tuple, n: int):
+    return tuple(zip(*(iter(s),) * n)
+)
+
+
 def calc_area(x, y):
     area = sum(
         [
