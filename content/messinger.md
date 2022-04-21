@@ -348,7 +348,7 @@ We will also consider just the stagnation point, as Messinger did,
 and also an "averaged" value, 
 spreading out the impingement over the entire surface of the cylinder. 
 
-![](images/messinger/ludlam_comparisons_all_plus_messinger.png)
+![Comparison of various "Ludlam limits"](images/messinger/ludlam_comparisons_all_plus_messinger.png) 
 
 As Messinger wrote: 
 

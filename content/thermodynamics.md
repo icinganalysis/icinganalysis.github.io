@@ -24,6 +24,11 @@ evaporation from wet surfaces.
 ###[Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)   
 > Various "Ludlam Limits" have been implemented, but they produce different results.  
 
+<!--
+[Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed”]({filename}messinger.md)  
+> The term "freezing fraction" is defined.  
+-->
+
 ##Publications to review:  
 
 Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed,” J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42. 
@@ -36,6 +41,7 @@ Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of
 > The warmest ambient temperature at which ice can accumulate is calculated.
 
 Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 
+> The term "freezing fraction" is defined (but probably not the one that you expected). 
 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
 

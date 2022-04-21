@@ -133,16 +133,23 @@ also be recognized and rejected.
 
 NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time in the NACA series.
 
-![Freezing fraction definitions](images/naca-tr-1215/freezing_fraction.png)
+![Freezing fraction definitions](images/naca-tr-1215/freezing_fraction.png) 
 
 Note that the term is defined on a mass basis (F17) and then transformed to an energy basis (36).
 
 Here, the term is credited to Fraser [^6] ("reference 18"), which was published in August, 1952.
 
+<!--
+The term is generally credited to [Messinger]({filename}messinger.md) [^7], which was published in a journal in January, 1953. 
+-->
+
+
 The term is generally credited to Messinger [^7], which was published in a journal in January, 1953. 
 However, Messinger had presented the paper at a meeting in 1951. 
+Also, Messinger's freezing fraction is different. 
+In this nomenclature, Messinger's freezing fraction is λ = wf / w. 
 
-Surprisingly, Messinger is not referenced in the NACA publications, 
+Surprisingly, Messinger is referenced only once (NACA-TN-2861) in the NACA publications, 
 even though it was contemporaneous, at least for the later NACA works. 
 Messinger is the second most cited of any aircraft icing publication that I know of, 
 second only to Langmuir and Blodgett [^9] (732 citations versus 741 [^9]).
