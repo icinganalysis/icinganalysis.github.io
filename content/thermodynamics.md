@@ -39,6 +39,7 @@ Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accret
 > The term "freezing fraction" is defined (but probably not the one that you expected). 
 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
+> Less that 1% of drops evaporate approaching an obstacle for most cases.
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
 

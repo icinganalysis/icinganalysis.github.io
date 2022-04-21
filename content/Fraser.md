@@ -1,9 +1,9 @@
-Title: Frase  
+Title: Fraser  
 Category: NACA    
 tags: thermodynamics  
 status: draft
 
-> ###_""_  
+> ###_"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
 
 #Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
 
@@ -192,7 +192,15 @@ the apparent limit does not agree as well with the test readings.
 There is a limit characteristic, 
 but the theory and data do not match so well in this case. 
 
-![](images/Fraser/fraser_figure3_detail.png)  
+![Detailed comparison of Fiugre 3](images/Fraser/fraser_figure3_detail.png)  
+
+We now have yet another "Ludam-ish limit" to add to our collection. 
+
+![Comparison of Ludam limits including Fraser](images/Fraser/ludlam_comparisons_all_plus_messinger_plus_fraser.png) 
+
+Fraser gives a similar result to Messinger (averaged laminar). 
+The chief difference between them is Messinger includes the 1.12 factor on evaporation, 
+while Fraser does not. 
 
 ##Citations
 
