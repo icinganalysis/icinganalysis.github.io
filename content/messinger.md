@@ -155,8 +155,10 @@ it is founded in the ideal gas law and boundary layer analogies.
 
 More generally, for any unit system: 
 
+```text
     kw = kh / cp * (Pr/Tr)**(2/3) (if using vapor concentration difference)  
     he = hc * 0.622 / P / cp * (Pr/Tr)**(2/3)  (if using vapor pressure difference)
+```
 
 So, 
 
