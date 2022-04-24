@@ -30,6 +30,11 @@ evaporation from wet surfaces.
 ###NACA-TN-2799, [Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing]({filename}NACA-TN-2799.md)  
 > Simplified ice protection equations allow graphical solutions.  
 
+<!--
+###NACA-TN-2914, [A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
+> The warmest ambient temperature at which ice can accumulate is calculated.  
+-->
+
 ##Publications to review:  
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
