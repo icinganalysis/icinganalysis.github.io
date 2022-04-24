@@ -1,7 +1,6 @@
 Title: A Brief Digression on Unit Systems  
 Category: NACA  
 tags: thermodynamics  
-status: draft
 
 #A Brief Digression on Unit Systems
 

@@ -244,7 +244,7 @@ heat transfer coefficient and the water catch rate.
 
 The "pressure and temperature changes in the local air stream" 
 over the surface is a feature that will be used in the next publication review in the 
-[Icing Thermodynamics thread]({filename}thermodymanics.md), NACA-TN-2914,
+[Icing Thermodynamics thread]({filename}thermodynamics.md), NACA-TN-2914,
 although in the compressible flow form.
 
 ##Citations
