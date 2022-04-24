@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>A Brief Digression on Unit Systems</title>
+        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <meta name="description" content="A Brief Digression on Unit Systems Preferred units (primary SI units): mass: kg force: N length: m tk: temperature, K time: seconds, s p: air..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="/icing-thermodynamics.html">Thermodynamics</a></li>
+                    <li><a href="https://icinganalysis.github.io/diversions.html">Diversions</a></li>
+                    <li><a href="https://icinganalysis.github.io/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html" rel="bookmark"
+           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-24T11:22:20.014227-07:00">
+                Published: Sun 24 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-24T11:22:20.014227-07:00">-->
+                <!--Updated: Sun 24 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->      <h1>A Brief Digression on Unit Systems</h1>
+<h2>Preferred units (primary SI units):</h2>
+<div class="highlight"><pre><span></span><code><span class="n">mass</span><span class="o">:</span> <span class="n">kg</span>
+<span class="n">force</span><span class="o">:</span> <span class="n">N</span>
+<span class="n">length</span><span class="o">:</span> <span class="n">m</span>
+<span class="n">tk</span><span class="o">:</span> <span class="n">temperature</span><span class="o">,</span> <span class="n">K</span>
+<span class="n">time</span><span class="o">:</span> <span class="n">seconds</span><span class="o">,</span> <span class="n">s</span>
+<span class="n">p</span><span class="o">:</span> <span class="n">air</span> <span class="kd">static</span> <span class="n">pressure</span><span class="o">,</span> <span class="n">Pa</span> <span class="o">(</span><span class="n">N</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="o">)</span>
+<span class="n">u</span><span class="o">:</span> <span class="n">free</span><span class="o">-</span><span class="n">stream</span> <span class="n">air</span> <span class="n">speed</span><span class="o">,</span> <span class="n">m</span><span class="o">/</span><span class="n">s</span>
+<span class="n">altitude</span><span class="o">:</span> <span class="n">pressure</span> <span class="n">altitude</span><span class="o">,</span> <span class="n">m</span>
+<span class="n">energy</span><span class="o">:</span> <span class="n">J</span> <span class="n">or</span> <span class="n">N</span><span class="o">-</span><span class="n">m</span>
+</code></pre></div>
+
+<h2>Icing specific, entrenched exceptions:</h2>
+<div class="highlight"><pre><span></span><code><span class="n">d_drop</span><span class="o">:</span> <span class="n">water</span> <span class="n">drop</span> <span class="n">diameter</span><span class="o">,</span> <span class="n">micrometer</span> <span class="o">(</span><span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">6</span> <span class="n">m</span><span class="o">)</span>
+<span class="n">lwc</span><span class="o">:</span> <span class="n">liquid</span> <span class="n">water</span> <span class="n">content</span><span class="o">,</span> <span class="n">g</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">3</span>
+</code></pre></div>
+
+<h2>A note about mass and force:</h2>
+<p>To keep unit consistency in Newton's second law, a unit system constant "gc" is introduced.  </p>
+<p>Force = mass * acceleration / gc</p>
+<p>In SI units gc = 1 kg-m/(N-s^2)<br>
+N = kg * m/s^2 / (kg-m/N-s^2) = N  </p>
+<p>As the value is 1, gc might not be explicitly be included in calculations in SI units,
+but it is always implicitly there.</p>
+<p>In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2).<br>
+It must be explicitly included in any calculation involving force, mass and acceleration. </p>
+<p>The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this,
+by making the gc value numerically 1, so if it is omitted it has no apparent effect.  </p>
+<div class="highlight"><pre><span></span><code> gc = 1 slug-ft/lbf-s^2
+</code></pre></div>
+
+<p>However, I have seen errors of a factor of 32.174, regardless of whether slugs or lbm were used. </p>
+<p>Sometimes a unique unit appears, such as this from NACA-TN-2799:</p>
+<div class="highlight"><pre><span></span><code>⍴  density, (lb)(s^2)/ft^4
+</code></pre></div>
+
+<p>This is slug / ft^3, in disguise.    </p>
+<p>See an excellent discussion about gc in "Fundamentals of Classical Thermodynamics", Van Wylen and Sonntag, Second Edition, John Wiley and Sons, 1973. </p>
+<h2>A note about thermal energy</h2>
+<p>In SI units, thermal energy and any other energy units are the same. 
+For thermal energy, the Joule "J" is conventionally used. 
+For mechanical energy, the unit N-m may be used, but it is, by definition, the same as a Joule. </p>
+<p>In "US customary" units, thermal energy is typically in BTU (British Thermal Units).<br>
+To complicate matters, there is more than one BTU definition. 
+See https://en.wikipedia.org/wiki/British_thermal_unit. 
+Herein, the IT BTU is used.</p>
+<div class="highlight"><pre><span></span><code><span class="mf">1</span> <span class="n">BTU</span> <span class="o">=</span> <span class="mf">778.16926</span> <span class="n">lbf</span><span class="o">-</span><span class="n">ft</span>
+</code></pre></div>
+
+<p>In the NACA publications, this is commonly rounded to 778.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://twitter.com/icinganalysis">twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@gmail.com">email</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies.
+                </address><!-- /#about -->
+
+
+                <br /> copyright 2022 by Donald Cook
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
