@@ -27,10 +27,10 @@ evaporation from wet surfaces.
 ###[Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed”]({filename}messinger.md)  
 > The term "freezing fraction" is defined.  
 
-##Publications to review:  
-
-Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+###NACA-TN-2799, [Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing]({filename}NACA-TN-2799.md)  
 > Simplified ice protection equations allow graphical solutions.  
+
+##Publications to review:  
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
 > The warmest ambient temperature at which ice can accumulate is calculated.  

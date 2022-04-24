@@ -1,7 +1,6 @@
 Title: NACA-TN-2799  
 Category: NACA  
 tags: thermodynamics  
-status: draft    
 
 > ###_"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."_  
 
