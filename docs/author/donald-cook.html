@@ -22,15 +22,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-2799.html">NACA-TN-2799</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/icing-thermodynamics.html">Icing Thermodynamics</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:22:20.022228-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.491480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:22:20.022228-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.491480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -44,374 +44,67 @@
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
 
-</footer><!-- /.post-info --><blockquote>
-<h3><em>"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."</em></h3>
-</blockquote>
-<h1>"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing." src="images/naca-tn-2799/Figure1.png"> </p>
+</footer><!-- /.post-info --><p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png"></p>
+<h1>Icing Thermodynamics Thread</h1>
+<p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
+<p>There may be some overlap with ice protection systems, 
+but the systems will not be detailed herein.  </p>
+<h3>NACA-ARR-5G13, <a href="https://icinganalysis.github.io/naca-arr-5g13.html">Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."</a></h3>
 <blockquote>
-<p>Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.</p>
+<p>Psychrometric equations are presented to calculate the thermal effects of 
+evaporation from wet surfaces.  </p>
 </blockquote>
-<h2>Summary</h2>
-<p>Simplified ice protection equations allow graphical solutions.</p>
-<h2>Key points</h2>
-<ol>
-<li>Simplified ice protection equations allow graphical solutions.</li>
-<li>The effects of varying local surface pressure and velocity are included.</li>
-</ol>
-<h2>Abstract</h2>
+<h3>NACA-TR-831, <a href="https://icinganalysis.github.io/naca-tr-831.html">An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane</a></h3>
 <blockquote>
-<p>Equations expressing the heat transfer and evaporation from wetted
-surfaces during ice prevention have been simplified and regrouped to
-permit solutions by simple graphical means. Working charts for quick
-and accurate anti-icing calculations are also included. </p>
+<p>Two dimensional heat balance equations for ice protection are detailed.  </p>
 </blockquote>
-<h2>Discussion</h2>
+<h3>NACA-TN-1472, <a href="https://icinganalysis.github.io/naca-tn-1472.html">The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions</a></h3>
 <blockquote>
-<p>INTRODUCTION
-Solution of the general problem of heat and mass transfer from a
-wetted surface in forced convection is quite involved and tedious.
-The calculations that often must be made point by point along a surface
-are complex even after the basic variables and ambient conditions have
-been determined. The method of solution customarily performed involves
-several trial-and-error calculations that are intermediate'between the
-final answer and the basic factors that define a particular anti-icing
-situation.
-This investigation was conducted at the NACA Lewis laboratory to
-simplify the method of calculating heat and mass transfer after the basic
-factors (such as ambient temperature, rate of water interception, and
-relative velocity) are known. Calculations will be greatly simplified by
-a fundamental rearrangement of terms in the conventional equations, which
-will eliminate the trial-and-error calculations, and permit a rapid,
-graphical solution. The solution will be limited to the normal range of
-anti-icing conditions and to the case of surface temperatures above
-32°F with liquid-water interception by the surface.</p>
-<p>Heat transfer. - The heat transfer in forced convection from a surface 
-subjected, to water impingement and. heated above 32°F has been represented 
-by the total heat transferred. by convection and by evaporation
-of surface water, plus the sensible heat change of the impinging water.
-These heat-transfer processes are discussed in detail in references 1 to
-5 and are summarized, in the following five conventional equations: </p>
+<p>Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.  </p>
 </blockquote>
-<p><img alt="Equations 1 to 5" src="images/naca-tn-2799/Equations1to5.png"> </p>
-<p>Readers may recognize forms of equations 1 through 4 from <a href="https://icinganalysis.github.io/naca-arr-5g13.html">NACA-ARR-5G13</a> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
-<p>Note that the evaporation equations (2) and (3) use the factor:</p>
-<div class="highlight"><pre><span></span><code>    0.622 / cp
-</code></pre></div>
-
-<p>which differs from <a href="https://icinganalysis.github.io/messinger.html">Messinger</a> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, which used:</p>
-<div class="highlight"><pre><span></span><code>    (Pr/Tr)**(2/3) * 0.622 / cp
-    (Pr/Tr)**(2/3) = 1.12
-    1.12 * 0.622 / cp
-</code></pre></div>
-
-<p>I think that equation (5) is a wet adiabatic calculation 
-that assumes water drop temperatures are in equilibrium 
-with the air as they approach a surface, 
-although I could not find it in "references 1 to 5". 
-I guess that I am not completely up on the "five conventional equations".</p>
+<h3><a href="https://icinganalysis.github.io/ludlam.html">Ludlam, F. H.: The Heat Economy of a Rimed Cylinder</a></h3>
 <blockquote>
-<p>(The symbols used herein are given in the appendix.)
-A solution of equation (1) requires the prior calculation of equations 
-(2) to (5). Because of the dependence of ed on td and of el
-on tl, equations (2) and (5) are both trial-and-error solutions. In
-order to eliminate these laborious calculations, a single equation will
-be derived containing only a minimum number of basic variables.</p>
-<p>In order to obtain a simplified relation using the preceeding eight terms; 
-the following assumptions are made:<br>
-(1) In the air flow over a body, temperatures and pressures change
-adiabatically too quickly to permit any change in the state of entrained
-moisture; the local-stream vapor pressure (as shown in reference 2) is
-then given by<br>
-<img alt="Equation 6" src="images/naca-tn-2799/Equation6.png"> </p>
+<p>Various "Ludlam Limits" have been implemented, but they produce different results.  </p>
 </blockquote>
-<p>Reference 2 is NACA-ARR-5G13. 
-It is an alternative that was considered (not the only scenario presented) 
-to the assumption that the water drops are in equilibrium with the air 
-as they approach an object. 
-<img alt="Equation 7" src="images/naca-tn-2799/Equation7.png"> 
-Equation 7 is an incompressible approximation of Bernoulli's Law.</p>
-<p>The simplified equations are regrouped: </p>
-<p><img alt="Equations 8 and 9" src="images/naca-tn-2799/Equations8and9.png"> </p>
-<p>Also note that equation (5) was quietly omitted. </p>
+<h3><a href="https://icinganalysis.github.io/messinger.html">Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed”</a></h3>
 <blockquote>
-<p>Further simplification is obtained by expressing the following minor
-variables as constants near the middle of their expected range in anti-icing 
-calculations:<br>
-(1) Recovery factor R, assumed as 0.85, corresponding to the conservative 
-case of laminar flow<br>
-(2) Latent heat of vaporization L, assumed as 1066 Btu per pound,
-corresponding to an average surface temperature of 50F<br>
-(3) Ambient absolute temperature (for air density calculation),
-assumed as 464R</p>
+<p>The term "freezing fraction" is defined.  </p>
 </blockquote>
-<p><img alt="Equations 10 to 15" src="images/naca-tn-2799/Equations10to15.png"> </p>
-<p>The text from Figure 1 gives an example of the use of the tau values:</p>
-<div class="highlight"><pre><span></span><code>    Solutions:  q/ha = τ1 - τ2  + K(τ3 -τ4) + τ5, F
-                 Mev = (hs K/1066)(τ3 - τ4), lb/(hr)(ft^2)
-                     Abscissa         Sloping line
-    τ1 = Intersection  Mw/ha    and     ts - to
-    τ2 = Intersection  Mw/ha    and       vo
-    τ3 = Intersection   pl      and       ts
-    τ4 = Intersection   po      and       to
-    τ5 = Intersection   pl      and       po
-    Example:    
-    Let:  
-    ha = 50 Btu/(hr)(ft^2)(F)  
-    Mw = 35 lb/(hr)(ft^2)  
-    ts = 80 F 
-    to = 20 F  
-    vo = 700 ft/s  
-    p0  = 12 in. Hg  
-    pl  = 16 in. Hg 
-    Then: 
-    Mw/ha = 0.7  
-        q = 50(102 - 41.4 - 179.5 - 23.5 - 6.8) =
-            10,490 BTU/(hr)(ft^2)
-      Mev = (50/1066)(179.5 - 23.5) = 
-            7.32 lb/(hr)(ft^2)
-
-    Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.
-    (A 17 1/2 x 22 inch print of this figure is attached.) 
-</code></pre></div>
-
-<p>Let us write the equations in (mostly) SI units:    </p>
-<p>I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. </p>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-<th>symbol</th>
-<th>NACA-TN-2799 symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>air specific heat at constant pressure</td>
-<td>cp</td>
-<td>cp</td>
-</tr>
-<tr>
-<td>unit system gravitation factor</td>
-<td>gc = 1 kg-m/(N-s^2)</td>
-<td>g, acceleration due to gravity, 32.2 ft/sec^2</td>
-</tr>
-<tr>
-<td>heat transfer coefficient</td>
-<td>hc</td>
-<td>ha</td>
-</tr>
-<tr>
-<td>latent heat of evaporation</td>
-<td>Le</td>
-<td>L</td>
-</tr>
-<tr>
-<td>mass flux rate of water (mass/unit_area/time)</td>
-<td>mw</td>
-<td>Mw</td>
-</tr>
-<tr>
-<td>ambient static pressure</td>
-<td>p</td>
-<td>p</td>
-</tr>
-<tr>
-<td>ambient water vapor pressure</td>
-<td>pv</td>
-<td>eo</td>
-</tr>
-<tr>
-<td>surface water vapor pressure</td>
-<td>pvs</td>
-<td>el</td>
-</tr>
-<tr>
-<td>recovery factor</td>
-<td>r</td>
-<td>R</td>
-</tr>
-<tr>
-<td>ambient air static temperature</td>
-<td>ta</td>
-<td>to</td>
-</tr>
-<tr>
-<td>surface temperature</td>
-<td>ts</td>
-<td>ts</td>
-</tr>
-<tr>
-<td>free stream airspeed</td>
-<td>u</td>
-<td>V</td>
-</tr>
-</tbody>
-</table>
-<p>Calculations here will be in SI units, with the exceptions of:<br>
-- LWC, g/m^3<br>
-- drop diameter, micrometer   </p>
-<p>A curious unit appears in the description of density:
-<img alt="rho term" src="images/naca-tn-2799/term_rho.png"> </p>
-<p>From the units on g:
-<img alt="g term" src="images/naca-tn-2799/term_g.png"> </p>
-<p>I infer that the mass in the density is the archaic unit "slug" in disguise
-(see <a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a>).  </p>
-<div class="highlight"><pre><span></span><code>    slug = 32.2 lbm / (32.2 ft/s^2) =&gt; lbm-s^2/ft units     
-    density = slug / vol = lbm-s^2/ft / (ft^3) = lbm-s^2/ft^4
-</code></pre></div>
-
-<p>So, the tau values become (the units are temperature of the units system):  </p>
-<div class="highlight"><pre><span></span><code>    τ1 = (ts - ta) * (1 + wm * cpw / ha)    
-    τ2 = u**2 / 2 * (r / cp + wm / ha)  
-    τ3 = 0.622 * Le / cp * (pvs / pl)  
-    τ4 = 0.622 * Le / cp * (pv / po)  
-    τ5 = (1-r) * R_AIR * ta / (2 *cp) * (1 - pl / p)  [evaluated at 464R=257.77K, r=0.85]  
-</code></pre></div>
-
-<p>Since there is a graphical solution, I guess there is no need for a python implementation :(  </p>
-<p>I made one anyway, file "naca_tn_2799.py" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. 
-Values calculated with the file "naca_tn_2799.py" agree well with the example values. </p>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Calculated, F</th>
-<th>Example value, F</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>τ1</td>
-<td>102.3</td>
-<td>102</td>
-</tr>
-<tr>
-<td>τ2</td>
-<td>41.7</td>
-<td>41.4</td>
-</tr>
-<tr>
-<td>τ3</td>
-<td>180.6</td>
-<td>179.5</td>
-</tr>
-<tr>
-<td>τ4</td>
-<td>25.6</td>
-<td>23.5</td>
-</tr>
-<tr>
-<td>τ5</td>
-<td>-6.7</td>
-<td>-6.8</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Calculated</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>q, BTU/h-ft^2</td>
-<td>10453</td>
-<td>10490</td>
-</tr>
-<tr>
-<td>Mev, lbm/h-ft^2</td>
-<td>7.21</td>
-<td>7.32</td>
-</tr>
-</tbody>
-</table>
-<h2>Conclusions</h2>
+<h3>NACA-TN-2799, <a href="https://icinganalysis.github.io/naca-tn-2799.html">Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing</a></h3>
 <blockquote>
-<p>In the preceding derivations, the assumption is made that the
-moisture in the ambient air does not have time to change state during
-the adiabatic pressure and temperature changes in the local air stream.
-Because of the high speeds and short distances involved in most anti-
-icing calculations, this assumption appears reasonable. Answers obtained
-by use of this assumption do not differ appreciably from those using the
-assumption of phase changes in equilibrium with the local air temperature. 
-The difference between the two solutions is greatest when pl/p0
-is most removed from unity and when low heating rates are used.  </p>
-<p>Errors in the present graphical solution may become appreciable at
-high subsonic speeds because an incompressible-flow relation was used in
-eliminating the velocity-ratio term from the equations. Recovery factors
-for wetted surfaces at high speeds may also deviate from the value
-assumed herein. The errors in solution due to the temperature factors
-that were taken as constants near the mean of their expected ranges are
-in the order of 3 percent for the range of graph presented. The fore-
-going errors are negligible, however, compared with the uncertainty and
-the latitude involved in estimating values of the basic variables,
-especially the water-interception rate and the beat-transfer coefficient. </p>
-<p>The form of solution presented herein is intentionally made general
-for maximum usage. The solution is applicable to practically any body
-shape for which the flow conditions are known, and is not dependent upon
-any specific assumptions as to body geometry, location of transition,
-wetness of surface, and method or extent of heating. </p>
+<p>Simplified ice protection equations allow graphical solutions.  </p>
 </blockquote>
-<p>NACA-TN-2799 presented a general solution, 
-but it left to the user some of the hard parts of a complete solution, 
-such as determining the 
-heat transfer coefficient and the water catch rate. </p>
-<p>The "pressure and temperature changes in the local air stream" 
-over the surface is a feature that will be used in the next publication review in the 
-<a href="https://icinganalysis.github.io/icing-thermodynamics.html">Icing Thermodynamics thread</a>, NACA-TN-2914,
-although in the compressible flow form.</p>
-<h2>Citations</h2>
-<p>NACA-TN-2799 cites 12 publications:</p>
-<ul>
-<li>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  </li>
-<li>Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  </li>
-<li>Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  </li>
-<li>Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  </li>
-<li>Brunt, David: Physical and Dynamical Meteorology. Univ. Press (Cambridge), 2nd ed., 2nd reprint, Chap. III, 1944, pp. 49-68.  </li>
-<li>Boelter, L. M. K., Martinelli, R. C., Romie, F. E., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XVIII - A Design Manual for Exhaust Gas and Air Heat Exchangers. NACA-ARR-5A06, 1945.  </li>
-<li>Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, University of California, 1947.  </li>
-<li>Johnson, H. A., and Rubesin, M. W.: Aerodynamic Heating and Convective Heat Transfer - Summary of Literature Survey. Trans. ASME, vol. 71, no. 5, July 1949, pp. 447-456.  </li>
-<li>Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942.  </li>
-<li>Scherrer, Richard: The Effects of Aerodynamic Heating and Heat Transfer on the Surface Temperature of a Body of Revolution in Steady Supersonic Flight. NACA-TR-917, 1948. (Formerly NACA-TN-1300.)  </li>
-<li>Drexel, Roger E., and McAdams, William H.: Heat-Transfer Coefficients for Air Flowing in Round Tubes, In Rectangular Ducts, and around Finned Cylinders. NACA-ARR-4F28, 1945.  </li>
-<li>Lowdermilk, Warren H., and Grele, Milton D.: Influence of Tube-Entrance Configuration on Average Heat-Transfer Coefficients and Friction Factors for Air Flowing in an Inconel Tube. NACA-RM-E50E23, 1950.  </li>
-</ul>
-<p>NACA-TN-2779 is cited once by publications in the NACA Icing Publications Database <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>:</p>
-<ul>
-<li>Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  </li>
-</ul>
-<p>NACA-TN-2799 is cited 6 times in the literature <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.</p>
-<h2>Notes:</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Simple+Graphical+Solution+of+Heat+Transfer+and+Evaporation+from+Surface+Heated+to+Prevent+Icing&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
+<!--
+###[NACA-TN-2861, Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow]({filename}NACA-TN-2914.md), and
+###[NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
+> The warmest ambient temperature at which ice can accumulate is calculated.  
+-->
+<h2>Publications to review:</h2>
+<p>Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  </p>
+<blockquote>
+<p>The warmest ambient temperature at which ice can accumulate is calculated.  </p>
+</blockquote>
+<p>Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. </p>
+<blockquote>
+<p>The term "freezing fraction" is defined (but probably not the one that you expected).  </p>
+</blockquote>
+<p>Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. </p>
+<blockquote>
+<p>Less that 1% of drops evaporate approaching an obstacle for most cases. </p>
+</blockquote>
+<p>Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. </p>
+<blockquote>
+<p>A detailed analysis of what the ratio of heat transfer to mass transfer might be. </p>
+</blockquote>
+<p><img alt="C-46 Lab Test Article" src="images/C-46lab.jpg"> </p>
+<p>Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. </p>
+<blockquote>
+<p>Sublimation rates at Mach 1.3 are measured. </p>
+</blockquote>
+<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>
+<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  </p>
+<p>Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955. </p>
+<p>Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. </p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
@@ -420,19 +113,19 @@ although in the compressible flow form.</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html" rel="bookmark"
-                           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
+                    <h1><a href="https://icinganalysis.github.io/web-publishing-tools.html" rel="bookmark"
+                           title="Permalink to Web publishing tools">Web publishing tools</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:22:20.014227-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.491480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:22:20.014227-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.491480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -443,58 +136,16 @@ although in the compressible flow form.</p>
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <h1>A Brief Digression on Unit Systems</h1>
-<h2>Preferred units (primary SI units):</h2>
-<div class="highlight"><pre><span></span><code><span class="n">mass</span><span class="o">:</span> <span class="n">kg</span>
-<span class="n">force</span><span class="o">:</span> <span class="n">N</span>
-<span class="n">length</span><span class="o">:</span> <span class="n">m</span>
-<span class="n">tk</span><span class="o">:</span> <span class="n">temperature</span><span class="o">,</span> <span class="n">K</span>
-<span class="n">time</span><span class="o">:</span> <span class="n">seconds</span><span class="o">,</span> <span class="n">s</span>
-<span class="n">p</span><span class="o">:</span> <span class="n">air</span> <span class="kd">static</span> <span class="n">pressure</span><span class="o">,</span> <span class="n">Pa</span> <span class="o">(</span><span class="n">N</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="o">)</span>
-<span class="n">u</span><span class="o">:</span> <span class="n">free</span><span class="o">-</span><span class="n">stream</span> <span class="n">air</span> <span class="n">speed</span><span class="o">,</span> <span class="n">m</span><span class="o">/</span><span class="n">s</span>
-<span class="n">altitude</span><span class="o">:</span> <span class="n">pressure …</span></code></pre></div>
-                <a class="readmore" href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/icing-thermodynamics.html" rel="bookmark"
-                           title="Permalink to Icing Thermodynamics">Icing Thermodynamics</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:10:56.179908-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:10:56.179908-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/about.html">About</a>.</p>-->
 <!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
 
-</footer><!-- /.post-info -->                <p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png"></p>
-<h1>Icing Thermodynamics Thread</h1>
-<p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
-<p>There may be some overlap with ice protection systems, 
-but the systems will not be detailed herein.  </p>
-<h3>NACA-ARR-5G13 …</h3>
-                <a class="readmore" href="https://icinganalysis.github.io/icing-thermodynamics.html">read more</a>
+</footer><!-- /.post-info -->                <!--summary: Pelican, Markdown, LibreOffice Impress, and GitHub Pages-->
+
+<p>The Python package Pelican <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> was used to build this web page.</p>
+<p>The Markdown <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> markup text format was used to write the content.</p>
+<p>The Python package matplotlib and LibreOffice Impress <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> were used to produce graphics.</p>
+<p>The content is …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/web-publishing-tools.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
@@ -506,13 +157,13 @@ but the systems will not be detailed herein.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -545,13 +196,13 @@ but the systems will not be detailed herein.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -584,13 +235,13 @@ but the systems will not be detailed herein.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -620,13 +271,13 @@ but the systems will not be detailed herein.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -659,13 +310,13 @@ but the systems will not be detailed herein.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -691,57 +342,19 @@ Avoid modules with deprecation …</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/web-publishing-tools.html" rel="bookmark"
-                           title="Permalink to Web publishing tools">Web publishing tools</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/about.html">About</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <!--summary: Pelican, Markdown, LibreOffice Impress, and GitHub Pages-->
-
-<p>The Python package Pelican <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> was used to build this web page.</p>
-<p>The Markdown <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> markup text format was used to write the content.</p>
-<p>The Python package matplotlib and LibreOffice Impress <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> were used to produce graphics.</p>
-<p>The content is …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/web-publishing-tools.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/" rel="bookmark"
                            title="Permalink to Welcome">Welcome</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.566967-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.487480-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.566967-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.487480-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -778,19 +391,140 @@ Like excavating a lost city, many surprises, answers …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html" rel="bookmark"
+                           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h1>A Brief Digression on Unit Systems</h1>
+<h2>Preferred units (primary SI units):</h2>
+<div class="highlight"><pre><span></span><code><span class="n">mass</span><span class="o">:</span> <span class="n">kg</span>
+<span class="n">force</span><span class="o">:</span> <span class="n">N</span>
+<span class="n">length</span><span class="o">:</span> <span class="n">m</span>
+<span class="n">tk</span><span class="o">:</span> <span class="n">temperature</span><span class="o">,</span> <span class="n">K</span>
+<span class="n">time</span><span class="o">:</span> <span class="n">seconds</span><span class="o">,</span> <span class="n">s</span>
+<span class="n">p</span><span class="o">:</span> <span class="n">air</span> <span class="kd">static</span> <span class="n">pressure</span><span class="o">,</span> <span class="n">Pa</span> <span class="o">(</span><span class="n">N</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="o">)</span>
+<span class="n">u</span><span class="o">:</span> <span class="n">free</span><span class="o">-</span><span class="n">stream</span> <span class="n">air</span> <span class="n">speed</span><span class="o">,</span> <span class="n">m</span><span class="o">/</span><span class="n">s</span>
+<span class="n">altitude</span><span class="o">:</span> <span class="n">pressure …</span></code></pre></div>
+                <a class="readmore" href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
+                           title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
+</blockquote>
+<h2>Summary</h2>
+<p>Water drop impingement calculations on a cylinder from 
+"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
+and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are compared.</p>
+<h2>Key Points</h2>
+<ol>
+<li>There are …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
+                           title="Permalink to A Langmuir B drop size distribution is (almost) a normal distribution">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The Langmuir B drop size distribution is almost a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/about.html" rel="bookmark"
                            title="Permalink to About">About</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -822,13 +556,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -864,13 +598,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -900,13 +634,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -933,242 +667,19 @@ several areas of aircraft icing, including:</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-779.html" rel="bookmark"
-                           title="Permalink to NACA-TN-779">NACA-TN-779</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"</h3>
-</blockquote>
-<h1>“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</h1>
-<h2>Summary</h2>
-<p>Water …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-779.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215.html" rel="bookmark"
-                           title="Permalink to NACA-TR-1215">NACA-TR-1215</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
-</blockquote>
-<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Summary</h2>
-<p>Conditions where not …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-831.html" rel="bookmark"
-                           title="Permalink to NACA-TR-831">NACA-TR-831</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."</em></h3>
-</blockquote>
-<h1>"An Analysis of the Dissipation of Heat in Conditions of …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-831.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html" rel="bookmark"
-                           title="Permalink to The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)">The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"Aircraft icing is one of the major weather hazards to aviation. Icing is a cumulative hazard. It reduces aircraft efficiency by increasing weight, reducing lift, decreasing thrust, and increasing drag."</h3>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-</blockquote>
-<p>Veteran pilots with FIKI ratings (Flight In Known Icing …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html" rel="bookmark"
-                           title="Permalink to The Historical Selected Bibliography of NACA-NASA Icing Publications">The Historical Selected Bibliography of NACA-NASA Icing Publications</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.134966-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.134966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"... the recommendation was made that before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
-                           title="Permalink to A Langmuir B drop size distribution is (almost) a normal distribution">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The Langmuir B drop size distribution is almost a …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/icing-on-cylinders.html" rel="bookmark"
                            title="Permalink to Icing on Cylinders">Icing on Cylinders</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1215,13 +726,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1254,13 +765,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1291,13 +802,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1328,13 +839,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1362,13 +873,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1398,13 +909,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1437,13 +948,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1476,13 +987,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1515,13 +1026,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1554,13 +1065,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1593,13 +1104,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1623,19 +1134,58 @@ are implemented in the Python programming …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2799.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2799">NACA-TN-2799</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."</em></h3>
+</blockquote>
+<h1>"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing." src="images/naca-tn-2799/Figure1.png"> </p>
+<blockquote>
+<p>Figure 1. - Graphical solution of anti-icing heat and mass …</p></blockquote>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2799.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/naca-tn-2903.html" rel="bookmark"
                            title="Permalink to NACA-TN-2903">NACA-TN-2903</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1667,13 +1217,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1703,13 +1253,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.130965-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.130965-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1733,19 +1283,19 @@ are implemented in the Python programming …</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
-                           title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-779.html" rel="bookmark"
+                           title="Permalink to NACA-TN-779">NACA-TN-779</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.126966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.126966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1760,16 +1310,86 @@ are implemented in the Python programming …</p>
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
-<h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
+<h3>"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"</h3>
 </blockquote>
+<h1>“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</h1>
 <h2>Summary</h2>
-<p>Water drop impingement calculations on a cylinder from 
-"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
-and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are compared.</p>
-<h2>Key Points</h2>
-<ol>
-<li>There are …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
+<p>Water …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-779.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215.html" rel="bookmark"
+                           title="Permalink to NACA-TR-1215">NACA-TR-1215</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
+</blockquote>
+<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>Conditions where not …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-831.html" rel="bookmark"
+                           title="Permalink to NACA-TR-831">NACA-TR-831</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."</em></h3>
+</blockquote>
+<h1>"An Analysis of the Dissipation of Heat in Conditions of …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-831.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
@@ -1781,13 +1401,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-04-24T11:05:31.126966-07:00">
-                Published: Sun 24 April 2022
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-24T11:05:31.126966-07:00">-->
-                <!--Updated: Sun 24 April 2022-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1811,6 +1431,80 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 <p>The subject of aircraft ice protection has provoked much controversy
 and …</p></blockquote>
                 <a class="readmore" href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html" rel="bookmark"
+                           title="Permalink to The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)">The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"Aircraft icing is one of the major weather hazards to aviation. Icing is a cumulative hazard. It reduces aircraft efficiency by increasing weight, reducing lift, decreasing thrust, and increasing drag."</h3>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</blockquote>
+<p>Veteran pilots with FIKI ratings (Flight In Known Icing …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-ac-00-6a-cancelled.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html" rel="bookmark"
+                           title="Permalink to The Historical Selected Bibliography of NACA-NASA Icing Publications">The Historical Selected Bibliography of NACA-NASA Icing Publications</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-25T08:15:44.075487-07:00">
+                Published: Mon 25 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-25T08:15:44.075487-07:00">-->
+                <!--Updated: Mon 25 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"... the recommendation was made that before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
