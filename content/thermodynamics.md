@@ -52,7 +52,7 @@ Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 
 Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. 
->Sublimation rates at Mach 1.3 are measured. 
+> Sublimation rates at Mach 1.3 are measured. 
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
