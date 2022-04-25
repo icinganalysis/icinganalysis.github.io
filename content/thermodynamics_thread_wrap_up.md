@@ -44,7 +44,30 @@ And several programs in the Python programming language are available to reprodu
 We will look at some data from the post-NACA era to help resolve these questions. 
 
 1. Which of the various "Ludlam limits" is most accurate? 
+2. Do calculated freezing fractions correspond to observed values? 
 
+##Conclusions  
+
+###Influencers
+
+There was a notable shift in influence from the NACA-era to the post-NACA era. 
+
+J. K. Hardy's publications were highly influential in the NACA-era. 
+He either authored or is cited by 11 of the 14 publications in the thread. 
+However, Hardy is not often cited in recent publications. 
+
+Messinger's publication [^1] is highly influential in the post-NACA era, 
+and is still cited in recent literature, 
+but was cited only once in the thread. 
+Messinger cited three of Hardy's publications 
+and acknowledge Hardy's contributions in the text. 
+Perhaps we may view Hardy as still having influence, 
+but one layer down in the citations. 
+
+One thing that is common to the NACA-era and the post-NACA era 
+is the influence of Langmuir. 
+Six of the 14 publications in the thread cite Langmuir. 
+Langmuir is still cited in recent publications. 
 
 ##Notes: 
  

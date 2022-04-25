@@ -214,7 +214,7 @@ Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water drople
 
 
 
-Frase is cited by 5 publications in the NACA Icing Publications Database [^10]: 
+Fraser is cited by 5 publications in the NACA Icing Publications Database [^10]: 
 
 
 - Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952
