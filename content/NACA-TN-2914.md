@@ -175,7 +175,7 @@ NACA-TN-2914 did not have a "conclusions" section.
 An interesting question is can ice form when the ambient static temperature is the melting point of ice, 0C? 
 The calculations from NACA-TN-2914 predict yes, over a range of conditions:
 
-![](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)
+![](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)  
 
 The the examples in NACA-TN-2914 did not have coefficient of pressure values in this range, 
 but they are not unrealistic for other airfoils at holding conditions. 
