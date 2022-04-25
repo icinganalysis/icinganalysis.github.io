@@ -1,4 +1,4 @@
-from icinganalysis.units_helpers import tf_to_k, FT_PER_M
+from icinganalysis.units_helpers import FT_PER_M
 from icinganalysis.water_properties import (
     calc_vapor_p,
     L_EVAPORATION,
@@ -13,7 +13,7 @@ INCH_HG_PER_PA = 0.00029529980164712
 mach = 1.36
 
 # fmt: off
-_d_front = (
+_d_front = (  # NACA-TN-2861, page 9
     9.13, 404, 403,
     9.76, 406, 401,
 )
@@ -23,7 +23,7 @@ ts_expirement_front_r = _d_front[1::3]
 ts_analytical_front_r = _d_front[2::3]
 
 # fmt: off
-_d_back = (
+_d_back = (  # NACA-TN-2861, page 9
     9.41, 422, 422,
     9.91, 418, 422,
     3.91, float('nan'), 447,
@@ -48,10 +48,14 @@ def calc_t(p, mach, pressure_coefficient, r=0.85):
     t_freeze = 273.15
     pl = p * (1 + 0.7 * mach ** 2 * pressure_coefficient)
     es = calc_vapor_p(t_freeze)
+    if pl <= es:
+        return float("nan")
     tl_toc_mach = (1 + 0.2 * mach ** 2) * r + (1 - r) * (pl / p) ** 0.286
 
     def calc_t_diff(tk):
         eo = calc_vapor_p(tk)
+        if p <= eo:
+            return float("nan")
         dt = (
             tk * tl_toc_mach
             - t_freeze
@@ -68,8 +72,24 @@ def calc_t(p, mach, pressure_coefficient, r=0.85):
     return tk
 
 
+def calc_min_cp(mach):
+    """cp value where pl = 0"""
+    return -1 / (0.7 * mach ** 2)
+
+
+def calc_cp_for_t_ambient_0c(p, mach, r=0.85):
+    def calc_diff(cp):
+        return abs(273.15 - calc_t(p, mach, cp, r))
+
+    cp_min = calc_min_cp(mach)  # cp_min: cp value where pl = 0
+    cp = solve_minimize_f(
+        calc_diff, [cp_min + 0.1, 1]  # need a little tolerance above cp_min
+    )
+    return cp
+
+
 # fmt: off
-d_p10_table_1 = (  # mach, pl/p, tl_toc_mach term, toc_rankine
+d_p10_table_1 = (  # mach, pl/p, tl_toc_mach term, toc_rankine, NACA-TN-2914
     0.4, 0.97, 1.028, 486.6,
     0.5, 0.95, 1.041, 483.8,
     0.6, 0.929, 1.059, 480,
@@ -82,7 +102,7 @@ tl_terms_table_1 = d_p10_table_1[2::4]
 toc_rankines_table_1 = d_p10_table_1[3::4]
 
 # fmt: off
-d_p10_table_2 = (  # mach, pl/p, tl_toc_mach term, toc_rankine
+d_p10_table_2 = (  # mach, pl/p, tl_toc_mach term, toc_rankine, NACA-TN-2914
     0.848, -0.355, 0.820, 460, 472.5, 484,
     0.935, -0.330, 0.789, 452, 466.5, 481.5,
     1.11, -0.045, 0.961, 423.5, 440, 464,
@@ -91,6 +111,7 @@ d_p10_table_2 = (  # mach, pl/p, tl_toc_mach term, toc_rankine
 
 if __name__ == "__main__":
 
+    mach = 1.36
     print()
     for p, ts, cp in zip(ps_front, ts_analytical_front_r, (0.205, 0.225)):
         tk = calc_t(p, mach, cp)
@@ -163,3 +184,19 @@ if __name__ == "__main__":
         d,
     )
     print(text)
+
+    import matplotlib.pyplot as plt
+
+    p = calc_pressure(15000 / FT_PER_M)
+    machs = plt.np.linspace(0.1, 0.9)
+    cps = [calc_cp_for_t_ambient_0c(p, _) for _ in machs]
+    plt.figure()
+    plt.suptitle("T_ambient = 0C, Altitude = 15000 ft.")
+    plt.plot(machs, cps, "-o")
+    plt.xlabel("Mach")
+    plt.xlim(0, 1)
+    plt.ylabel("Coefficient of pressure for t_surface=0C")
+    plt.ylim(1, -3)
+    plt.savefig('naca-tn-2914_cp_for_0c.png')
+
+    plt.show()
