@@ -24,7 +24,7 @@ evaporation from wet surfaces.
 ###[Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)   
 > Various "Ludlam Limits" have been implemented, but they produce different results.  
 
-###[Messinger, B. L.: “Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed”]({filename}messinger.md)  
+###[Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed]({filename}messinger.md)  
 > The term "freezing fraction" is defined.  
 
 ###NACA-TN-2799, [Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing]({filename}NACA-TN-2799.md)  
