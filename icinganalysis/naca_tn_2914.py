@@ -192,10 +192,10 @@ if __name__ == "__main__":
     cps = [calc_cp_for_t_ambient_0c(p, _) for _ in machs]
     plt.figure()
     plt.suptitle("T_ambient = 0C, Altitude = 15000 ft.")
-    plt.plot(machs, cps, "-o")
+    plt.plot(machs, cps)
     plt.xlabel("Mach")
     plt.xlim(0, 1)
-    plt.ylabel("Coefficient of pressure for t_surface=0C")
+    plt.ylabel("Coefficient of pressure for wet t_surface=0C")
     plt.ylim(1, -3)
     plt.savefig('naca-tn-2914_cp_for_0c.png')
 
