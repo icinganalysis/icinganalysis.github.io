@@ -75,6 +75,8 @@ evaporation, then Dalton's law of partial pressures applies and
 
 ![](images/NACA-TN-2914/Discussion_after_equation2.png) 
 
+![](images/NACA-TN-2914/Discussion_after_equation2_continued.png) 
+
 Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914. 
 
 Note that the heat or mass transfer coefficients do not need to be evaluated,
@@ -83,13 +85,12 @@ No assumption about laminar or turbulent flow is required,
 except in the selection of the recovery factor value. 
 
 Note also that an impingement rate is not calculated. 
+So, the water drop size and liquid water content values do not have to be known. 
 It is assumed that there is enough water to wet the entire surface. 
 The is no partial surface wettedness as was considered in [NACA-TN-2799](NACA-TN-2799.md) [^4]. 
 
 The term tl/tcl... may be determined from a pressure coefficient, 
 or a local Mach number:
-
-![](images/NACA-TN-2914/Discussion_after_equation2_continued.png) 
 
 ![](images/NACA-TN-2914/Equation3.png)  
 
@@ -146,6 +147,30 @@ Mach |Coefficient of pressure|10000 ft. Toc, R|Python Calculated Toc, R|25000 ft
 0.935|-0.33                  |452             |450.7            |466.5           |465.0            |481.5           |480.3            
 1.11 |-0.045                 |423.5           |423.1            |440             |438.9            |464             |462.3            
 
+##Conclusions
+
+NACA-TN-2861: 
+> SUMMARY OF RESULTS
+The results of the analysis of icing limit presented for the
+diamond airfoil at zero angle of attack in the transonic-supersonic
+speed range are as follows:
+>1. The critical point for the whole airfoil in terms of the icing
+limit was located immediately behind the shoulder. The critical point
+on the front surface was located immediately ahead of the shoulder.
+The results indicate that icing may occur at the critical point behind
+the shoulder for Mach numbers as high as 1.4. 
+>2. At a constant free-stream Mach number and airfoil thickness, the
+minimum free-stream static temperature corresponding to an ice-free
+condition increases with increasing altitude. 
+>3. For the point immediately ahead of the shoulder the minimum
+free-stream temperature corresponding to an ice-free condition remains
+the same or decreases with increasing thickness ratio at a constant
+value of Mach number and altitude. For the point immediately down-
+stream of the shoulder the free-stream temperature corresponding to
+an ice-free condition increases with increasing thickness at a constant
+Mach number and altitude.
+
+NACA-TN-2914 did not have a "conclusions" section.
 
 ##Citations
 

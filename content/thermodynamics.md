@@ -31,10 +31,10 @@ evaporation from wet surfaces.
 > Simplified ice protection equations allow graphical solutions.  
 
 <!--
-###NACA-TN-2914, [A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
+###[NACA-TN-2861, Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow]({filename}NACA-TN-2914.md), and
+###[NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
 > The warmest ambient temperature at which ice can accumulate is calculated.  
 -->
-
 ##Publications to review:  
 
 Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
@@ -44,15 +44,15 @@ Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accret
 > The term "freezing fraction" is defined (but probably not the one that you expected).  
 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
-> Less that 1% of drops evaporate approaching an obstacle for most cases.
+> Less that 1% of drops evaporate approaching an obstacle for most cases. 
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
-> A detailed analysis of what the ratio of heat transfer to mass transfer might be
+> A detailed analysis of what the ratio of heat transfer to mass transfer might be. 
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 
 Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. 
->Sublimation rates at Mach 1.3 are measured.
+>Sublimation rates at Mach 1.3 are measured. 
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
