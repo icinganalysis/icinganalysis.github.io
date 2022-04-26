@@ -34,6 +34,11 @@ evaporation from wet surfaces.
 ###[NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
 > The warmest ambient temperature at which ice can accumulate is calculated.  
 
+<!--
+###[Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md)  
+> The term "freezing fraction" is defined (but probably not the one that you expected).  
+-->
+
 ##Publications to review:  
 
 Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 

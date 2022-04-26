@@ -47,7 +47,7 @@ a paper by Ludlam, "The Heat Economy of a Rimed Cylinder",
 apparently no attempt had
 been made to define it. Following the appearance
 of Ludlam's theoretical analysis, brief tests were
-> made in the icing tunnel of the NAE, and general
+made in the icing tunnel of the NAE, and general
 agreement was found between his calculated values 
 and the experimental results from the tunnel.
 As a result, Ludlam's analysis was examined further 
@@ -58,9 +58,9 @@ experimental verification for the case of rotating
 cylinders, and to determine the "Ludlam limits"
 for a rotating disc and an NAE-Smith ice detector.
 
-![](images/Fraser/heat_economy.png) 
+![Heat economy](images/Fraser/heat_economy.png) 
 
-We see extensions of the Ludlam analysis, 
+We see extensions of the Ludlam analysis [^2], 
 including the addition of kinetic and viscous heating, 
 and conductive heat loss. 
 
@@ -78,7 +78,7 @@ icing surface. Thus the limiting amount of
 water that can be totally frozen after impinge-
 ment on the body is
 
-![](images/Fraser/equation2.png) 
+![Equation 2](images/Fraser/equation2.png) 
 
 Fraser is using a unit system where 
 cpw = 1 cal/g-C, L_freeze = 80 cal/g.
@@ -93,10 +93,10 @@ More generally, equation 2 is:
 by the body is the same as the amount of super-
 cooled water impinging on it. If the amount
 of impinging water, m, is greater than this limit,
-m L l the only additional ice formed is that frac-
-tion which freezes on impact. So that if m > ml
+ml the only additional ice formed is that fraction 
+which freezes on impact. So that if m > ml
 
-![](images/Fraser/equations3and4.png) 
+![Equations 3 and 4](images/Fraser/equations3and4.png) 
 
     mi = freezing_fraction * m + mc          (3)
     mi = ml + freezing_fraction * (m - ml)   (4)
@@ -104,7 +104,7 @@ tion which freezes on impact. So that if m > ml
 
 In Fraser, "freezing fraction" is a fraction of water 
 in excess of the limiting LWC (m-ml) that is frozen. 
-This differs from Messinger, 
+This differs from Messinger [^3], 
 where freezing fraction is the fraction of impinging water that is frozen (mi / m).
 
 >The excess water, (m — mi) is blown off in
@@ -112,24 +112,24 @@ the liquid state, or included as liquid water in
 the collected ice. 
 
 
-![](images/Fraser/Figure1.png) 
+![Figure 1](images/Fraser/Figure1.png) 
 
 ###Appendix
 >The heat flow equation for the icing surface on a cold
 body, assuming all impinging water freezes, is  
-![](images/Fraser/Appendix_heat_balance.png)  
+![Appendix heat balance](images/Fraser/Appendix_heat_balance.png)  
 >For the specific case of a rotating, non-conducting cylinder, 
 with surface temperature at 0°C, and fully wetted,
 the equation simplifies to 
-![](images/Fraser/appendix_simplified.png)  
+![Appendix heat balance simlified](images/Fraser/appendix_simplified.png)  
 >where q is measured in CHU/hr. (The term CHU denotes 
 a centigrade heat unit which is the heat required to
 raise one lb of water through one degree Celsius.) 
 Examining the individual terms:—
 
-![](images/Fraser/appendix_heat_terms.png)  
+![Appendix heat terms](images/Fraser/appendix_heat_terms.png)  
 
-![](images/Fraser/appendix_heat_terms2.png)  
+![Appendix heat terms 2](images/Fraser/appendix_heat_terms2.png)  
 
 To get the 1550 value on the evaporation term:
     
@@ -183,7 +183,7 @@ icing tunnel, at 450 fps, with a constant flow of
 water to the sprays, while the temperature was
 varied. The readings obtained are shown in
 FIGURE 3, and indicate a Ludlam Limit of 0.5
-gm/m 3 at — 7°C. ambient temperature. This is in
+gm/m 3 at -7°C. ambient temperature. This is in
 reasonable agreement with the theoretical limit.
 
 However, Fraser appears to be comparing 0.1 inch, 450 fps data to the 1/8 inch, 300 fps line
@@ -191,8 +191,15 @@ When we add a limit line for 0.1 inch diameter and 450 fps,
 the apparent limit does not agree as well with the test readings. 
 There is a limit characteristic, 
 but the theory and data do not match so well in this case. 
+The test data show that there is a "Ludlam limit", 
+but these calculations only approximate that value. 
+
+An implementation of Fraser's equations is in the file "fraser.py" [^4], 
+which was used to add the "0.1, 450 FPS" line:
 
 ![Detailed comparison of Fiugre 3](images/Fraser/fraser_figure3_detail.png)  
+
+###Comparison to "Ludlam limit"
 
 We now have yet another "Ludam-ish limit" to add to our collection. 
 
@@ -204,43 +211,33 @@ while Fraser does not.
 
 ##Citations
 
-Fraser cites 6 publications: 
-Ludlam, F. H . : "The heat economy of a rimed cylinder." Quarterly Journal Royal Met. Soc., V. 77, No. 334, pp. 663-666, Oct. 1951.
-Fraser, D., Pettit, K. G., and Bowler, E. H . : "Criteria for the design, assessment and control of icing protection systems." Inst, of Aero. Sciences Preprint No. 369 (1952)
-Pettit, K. G.: "Nephelometric instrumentation for aircraft icing research." N.R.C. Report MD-33 (1950).
-Internal communication from the N.A.E. Engine Testing Laboratory, Feb., 1952.
-Neel, C. B., and Steinmetz, C. P . : "The calculated and measured performance characteristics of a heated-wire liquid-water-content meter for measuring icing severity." NACA-TN-2615 (1952).
-Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).
+Fraser cites 6 publications:  
 
+- Ludlam, F. H . : "The heat economy of a rimed cylinder." Quarterly Journal Royal Met. Soc., V. 77, No. 334, pp. 663-666, Oct. 1951.  
+- Fraser, D., Pettit, K. G., and Bowler, E. H . : "Criteria for the design, assessment and control of icing protection systems." Inst, of Aero. Sciences Preprint No. 369 (1952)  
+- Pettit, K. G.: "Nephelometric instrumentation for aircraft icing research." N.R.C. Report MD-33 (1950).  
+- Internal communication from the N.A.E. Engine Testing Laboratory, Feb., 1952.  
+- Neel, C. B., and Steinmetz, C. P . : "The calculated and measured performance characteristics of a heated-wire liquid-water-content meter for measuring icing severity." NACA-TN-2615 (1952).  
+- Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).  
 
+Fraser is cited by 5 publications in the NACA Icing Publications Database [^5]: 
 
-Fraser is cited by 5 publications in the NACA Icing Publications Database [^10]: 
+- Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952  
+- Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
 
-
-- Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952
-- Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.
-
-
-
-###Related
-
-something related
+Fraser is cited 31 times in the literature [^6].
 
 ##Notes: 
 
 [^1]: 
-Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953. 
-
+Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953.  
+[^2]: 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
-
+[^3]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
-
-
-[^5]: 
+[^4]: 
 [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
-
-[^10]: 
+[^5]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-
-31
+[^6]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Thermodynamic+Limitations+of+Ice+Accretion+Instruments&btnG=  
