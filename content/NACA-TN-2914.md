@@ -130,15 +130,15 @@ Mach|Reported pl/po|Python Calculated pl/po|Reported Toc, R|Python Calculated To
 Even though the ratio pl/po calculated agrees well, the temperature values differ by up to 2.1R. 
 
 
->Example 2. - This example is presented. to show typical calculations
-and. results in the transonic speed. range. Determination is made of the
+>Example 2. - This example is presented to show typical calculations
+and results in the transonic speed range. Determination is made of the
 relation between stream Mach number and stream static temperature which
 will provide an ice-free surface at the midchord of an 8.8 percent thick
 circular arc airfoil at zero angle of attack for altitudes of 10,000,
 25,000, and 40,000 feet. The recovery factor r is 0.90.  
-The values of pressure coefficient Cp and local Mach number M1
-can be obtained. from reference 10 for stream Mach numbers of 0.848 to
-1.500 and are listed. as follows:
+The values of pressure coefficient Cp and local Mach number Ml
+can be obtained from reference 10 for stream Mach numbers of 0.848 to
+1.500 and are listed as follows:
 
 Mach |Coefficient of pressure|10000 ft. Toc, R|Python Calculated Toc, R|25000 ft. Toc, R|Python Calculated Toc, R|40000 ft. Toc, R|Python Calculated Toc, R
 -----|-----------------------|----------------|-----------------|----------------|-----------------|----------------|-----------------
@@ -177,7 +177,7 @@ The calculations from NACA-TN-2914 predict yes, over a range of conditions:
 ![Cp values calculated](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)  
 
 The the examples in NACA-TN-2914 did not have coefficient of pressure values in this range, 
-but they are not unrealistic for other airfoils at holding conditions. 
+but they are not unrealistic for other airfoils at some flight conditions. 
 It is not clear that the location of the coefficient of pressure values would be in the impingement zone, 
 and that the assumption of a fully wet surface would apply. 
 
