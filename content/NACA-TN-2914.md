@@ -1,7 +1,6 @@
 Title: NACA-TN-2914  
 Category: NACA    
 tags: thermodynamics  
-status: draft
 
 > ###_"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"_  
 
@@ -47,12 +46,12 @@ They have the same authors, and contain much of the same theoretic material.
 NACA-TN-2861 includes experimental data for comparison. 
 NACA-TN-2914 includes more analysis cases. 
 
-![](images/NACA-TN-2914/Symbols.png)
+![Symbols](images/NACA-TN-2914/Symbols.png)
 
 Equations from Hardy ([NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)) [^3] are 
 used. 
-![](images/NACA-TN-2914/Equation1.png)  
-![](images/NACA-TN-2914/Equation1continued.png)  
+![Equation 1](images/NACA-TN-2914/Equation1.png)  
+![Equation 1 continured](images/NACA-TN-2914/Equation1continued.png)  
 
 > Because interest in this problem is fixed on a definition of flight
 circumstances that provide local surface temperatures of 32°F, the
@@ -70,12 +69,12 @@ assumed that the flow about the body, outside the boundary layer, is
 accomplished with no change in phase, that is, no condensation or 
 evaporation, then Dalton's law of partial pressures applies and
 
-![](images/NACA-TN-2914/Equation1a.png)  
+![Equation 1a](images/NACA-TN-2914/Equation1a.png)  
 
 
-![](images/NACA-TN-2914/Discussion_after_equation2.png) 
+![Equation 2](images/NACA-TN-2914/Discussion_after_equation2.png) 
 
-![](images/NACA-TN-2914/Discussion_after_equation2_continued.png) 
+![Equation 2 continued](images/NACA-TN-2914/Discussion_after_equation2_continued.png) 
 
 Equation (1a) in NACA-TN-2861 is the same as equation (2) in NACA-TN-2914. 
 
@@ -92,15 +91,15 @@ The is no partial surface wettedness as was considered in [NACA-TN-2799](NACA-TN
 The term tl/tcl... may be determined from a pressure coefficient, 
 or a local Mach number:
 
-![](images/NACA-TN-2914/Equation3.png)  
+![Equation 3](images/NACA-TN-2914/Equation3.png)  
 
-![](images/NACA-TN-2914/Equation5.png)  
+![Equation 5](images/NACA-TN-2914/Equation5.png)  
 
-![](images/NACA-TN-2914/Equation6.png)  
+![Equation 6](images/NACA-TN-2914/Equation6.png)  
 
 NACA-TN-2861 describes a test that was run:
 
-![](images/NACA-TN-2914/expirement.png)  
+![Table of expiremental values](images/NACA-TN-2914/expirement.png)  
 
 Unfortunately, the coefficient of pressure or pl/po ratios were not included,
 so a comparison for this case was not run. 
@@ -175,7 +174,7 @@ NACA-TN-2914 did not have a "conclusions" section.
 An interesting question is can ice form when the ambient static temperature is the melting point of ice, 0C? 
 The calculations from NACA-TN-2914 predict yes, over a range of conditions:
 
-![](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)  
+![Cp values calculated](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)  
 
 The the examples in NACA-TN-2914 did not have coefficient of pressure values in this range, 
 but they are not unrealistic for other airfoils at holding conditions. 
@@ -198,17 +197,6 @@ NACA-TN-2861 cites 11 publications:
 - Moeckel, W. E., and Connors, J. F.: Charts for the Determination of Supersonic Flow Against Inclined Planes and Axially Air Symmetric Cones. NACA-TN-1373, 1947.  
 - Diehl, Walter Stuart: Standard Atmosphere - Tables and Data. NACA-TR-218, 1925.  
 
-NACA-TN-2861 is cited by 5 publications in the NACA Icing Publications Database [^6]: 
-
-- Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
-- Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
-- Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
-- Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
-
-NACA-TN-2914 is cited by once publications in the NACA Icing Publications Database [^6]: 
-- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
-
 NACA-TN-2914 cites 10 publications:
 
 - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
@@ -221,6 +209,17 @@ NACA-TN-2914 cites 10 publications:
 - Jones, Robert T., and Cohen, Doris: A Graphical Method of Determining Pressure Distribution in Two-Dimensional Flow. NACA-TR-722, 1941.  
 - Kaplan, Carl: Potential Flow about Elongated Bodies of Revolution. NACA-TR-516, 1935.  
 - Bryson, Arthur Earl, Jr.: An Experimental Investigation of Transonic Flow Past Two-Dimensional Wedge and Circular-Arc Sections Using a Mach-Zehnder Interferometer. NACA-TN-2560, 1951.  
+
+NACA-TN-2861 is cited by 5 publications in the NACA Icing Publications Database [^6]: 
+
+- Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
+- Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
+- Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
+- Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
+- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
+
+NACA-TN-2914 is cited by once publications in the NACA Icing Publications Database [^6]: 
+- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
 
 NACA-TN-2861 is cited by 10 publications in the literature [^7]. 
 
