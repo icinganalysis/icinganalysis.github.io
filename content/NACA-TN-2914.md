@@ -153,14 +153,17 @@ NACA-TN-2861:
 The results of the analysis of icing limit presented for the
 diamond airfoil at zero angle of attack in the transonic-supersonic
 speed range are as follows:
+
 >1. The critical point for the whole airfoil in terms of the icing
 limit was located immediately behind the shoulder. The critical point
 on the front surface was located immediately ahead of the shoulder.
 The results indicate that icing may occur at the critical point behind
 the shoulder for Mach numbers as high as 1.4. 
+
 >2. At a constant free-stream Mach number and airfoil thickness, the
 minimum free-stream static temperature corresponding to an ice-free
 condition increases with increasing altitude. 
+
 >3. For the point immediately ahead of the shoulder the minimum
 free-stream temperature corresponding to an ice-free condition remains
 the same or decreases with increasing thickness ratio at a constant
