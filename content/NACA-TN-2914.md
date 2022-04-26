@@ -171,6 +171,8 @@ Mach number and altitude.
 
 NACA-TN-2914 did not have a "conclusions" section.
 
+###Can ice form at T_ambient = 0C?
+
 An interesting question is can ice form when the ambient static temperature is the melting point of ice, 0C? 
 The calculations from NACA-TN-2914 predict yes, over a range of conditions:
 
