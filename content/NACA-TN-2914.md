@@ -221,6 +221,7 @@ NACA-TN-2861 is cited by 5 publications in the NACA Icing Publications Database 
 - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
 
 NACA-TN-2914 is cited by once publications in the NACA Icing Publications Database [^6]: 
+
 - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
 
 NACA-TN-2861 is cited by 10 publications in the literature [^7]. 
