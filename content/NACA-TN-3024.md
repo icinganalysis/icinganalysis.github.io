@@ -161,7 +161,7 @@ that would do part of what the AEDC1DMP code mentioned below does.
 ##Related
 
 A distant descendant of NACA-TN-3024 (although NACA-TN-3024 is not cited by it) is the AEDC1DMP 
-(Arnold Engineering Development Center 1 Dimensional Multi-Particle) code described in [^3].
+(Arnold Engineering Development Center 1 Dimensional Multi-Phase) code described in [^3].
 
 I have used the code but I do not have a copy of it, and I do not know where to find it online. 
 [When I used it years ago, one had to "know someone" to get the code.] 
