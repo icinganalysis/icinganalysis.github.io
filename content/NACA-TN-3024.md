@@ -126,6 +126,14 @@ The calculations are rather involved, and so they will not be detailed herein.
 Readers who have read the preceding reviews in the [Icing Thermodynamics thread]({filename}thermodymanics.md) 
 will be well prepared. 
 
+The water drop airspeeds relative to the local airspeed were calculated: 
+
+![Figure 8.](images/naca-tn-3024/Figure8.png)  
+
+The resulting evaporation calculations:  
+
+![Figure 9.](images/naca-tn-3024/Figure9.png)  
+
 > CONCLUSIONS
 On the basis of a theoretical analysis of rates of loss by evaporation 
 of atmospheric droplets moving along stagnation lines toward
@@ -148,7 +156,7 @@ closer to 0C for high degrees of stagnation and moderately long
 (10 ft) ducts.
 
 39.5 inch diameter is rather large for a wing leading edge, 
-so the losses of "several percent" may over-estimate more typical cases. 
+so the losses of "several percent" may over-estimate most typical cases. 
 The 3.95 inch diameter is more typical, 
 so I think that the "little or no evaporative loss" would apply for most wings. 
 
