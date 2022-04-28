@@ -1,11 +1,12 @@
 Title: Fraser  
 Category: NACA    
 tags: thermodynamics  
-status: draft
 
 > ###_"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
 
 #Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
+
+![Figure 1](images/Fraser/Figure1.png) 
 
 ##Summary
 The term "freezing fraction" is defined (but probably not the one that you expected). 
@@ -112,8 +113,6 @@ the liquid state, or included as liquid water in
 the collected ice. 
 
 
-![Figure 1](images/Fraser/Figure1.png) 
-
 ###Appendix
 >The heat flow equation for the icing surface on a cold
 body, assuming all impinging water freezes, is  
@@ -197,7 +196,7 @@ but these calculations only approximate that value.
 An implementation of Fraser's equations is in the file "fraser.py" [^4], 
 which was used to add the "0.1, 450 FPS" line:
 
-![Detailed comparison of Fiugre 3](images/Fraser/fraser_figure3_detail.png)  
+![Detailed comparison of Figure 3](images/Fraser/fraser_figure3_detail.png)  
 
 ###Comparison to "Ludlam limit"
 
