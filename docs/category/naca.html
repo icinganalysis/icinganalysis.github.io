@@ -22,7 +22,273 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/icing-thermodynamics.html">Icing Thermodynamics</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/fraser.html">Fraser</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-04-28T16:17:07.429353-07:00">
+                Published: Thu 28 April 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-04-28T16:17:07.429353-07:00">-->
+                <!--Updated: Thu 28 April 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info --><blockquote>
+<h3><em>"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."</em></h3>
+</blockquote>
+<h1>Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1" src="images/Fraser/Figure1.png"> </p>
+<h2>Summary</h2>
+<p>The term "freezing fraction" is defined (but probably not the one that you expected). </p>
+<h2>Key points</h2>
+<ol>
+<li>The term "freezing fraction" is defined (but probably not the one that you expected). </li>
+<li>"Ludlam limits" for instruments are calculated.</li>
+</ol>
+<h2>Abstract</h2>
+<blockquote>
+<p>A number of instruments used for determining the supercooled water content of an icing
+cloud depend on measuring the rate of accretion of ice on an unheated body. It has been shown
+by Ludlam that, since only part of the supercooled water freezes on impact, and the rest
+cannot always be frozen by the limited convective and evaporative heat losses which are avail-
+able, there are limiting water contents beyond which such methods of measurement are unreliable. 
+These limits have been calculated for a rotating cylinder at normal and high flight
+speeds, and the results show that rotating cylinder measurements are of limited usefulness and
+may, in fact, prove entirely misleading as regards both water content and droplet size. 
+Experimental results show agreement with the calculated values. The limits for a conventional
+rotating-disc rate-of-icing meter and for an NAE-Smith ice detector head have also been obtained 
+experimentally.
+It is concluded that apart from the possibility of using refrigerated ice-accretion instruments,
+it is necessary to use a thermal method of measuring high values of water concentration, but
+that an ice-accretion method must also be employed to distinguish between warm water,
+supercooled water and ice crystals.</p>
+</blockquote>
+<h2>Discussion</h2>
+<blockquote>
+<p>However, under conditions of high water catch
+and high temperature, and also under conditions
+of high flight speed, the heat balance of a small-
+scale body becomes such that only part of the water 
+is retained as ice, the rest running or blowing
+off in the liquid state.<br>
+This is well-known to be a limitation of such
+instruments, but until the recent publication of
+a paper by Ludlam, "The Heat Economy of a Rimed Cylinder", 
+apparently no attempt had
+been made to define it. Following the appearance
+of Ludlam's theoretical analysis, brief tests were
+made in the icing tunnel of the NAE, and general
+agreement was found between his calculated values 
+and the experimental results from the tunnel.
+As a result, Ludlam's analysis was examined further 
+and modified to include the kinetic effects of
+high flight speeds, and further tests were made in
+the icing tunnel and engine test-beds to provide
+experimental verification for the case of rotating
+cylinders, and to determine the "Ludlam limits"
+for a rotating disc and an NAE-Smith ice detector.</p>
+</blockquote>
+<p><img alt="Heat economy" src="images/Fraser/heat_economy.png"> </p>
+<p>We see extensions of the Ludlam analysis <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
+including the addition of kinetic and viscous heating, 
+and conductive heat loss. </p>
+<blockquote>
+<p>Another way of looking at it is this. The
+amount of water that can be frozen on a body in
+a given time consists of:—
+(a) that fraction of the water catch that
+freezes on impact, plus
+(b) the amount that can be frozen by heat
+loss effects.
+At any given speed, temperature and pressure
+there is an upper limit to the latter amount,
+which will depend on the conduction from the
+icing surface. Thus the limiting amount of
+water that can be totally frozen after impinge-
+ment on the body is</p>
+</blockquote>
+<p><img alt="Equation 2" src="images/Fraser/equation2.png"> </p>
+<p>Fraser is using a unit system where 
+cpw = 1 cal/g-C, L_freeze = 80 cal/g.</p>
+<p>More generally, equation 2 is:</p>
+<div class="highlight"><pre><span></span><code>freezing_fraction = cpw * (t_surface-t_ambient) / L_freeze
+
+ml = freezing_fraction * m + mc         (2)
+</code></pre></div>
+
+<blockquote>
+<p>Up to this limit, the amount of ice collected
+by the body is the same as the amount of super-
+cooled water impinging on it. If the amount
+of impinging water, m, is greater than this limit,
+ml the only additional ice formed is that fraction 
+which freezes on impact. So that if m &gt; ml</p>
+</blockquote>
+<p><img alt="Equations 3 and 4" src="images/Fraser/equations3and4.png"> </p>
+<div class="highlight"><pre><span></span><code>mi = freezing_fraction * m + mc          (3)
+mi = ml + freezing_fraction * (m - ml)   (4)
+freezing_fraction = (mi - ml) / (m - ml)
+</code></pre></div>
+
+<p>In Fraser, "freezing fraction" is a fraction of water 
+in excess of the limiting LWC (m-ml) that is frozen. 
+This differs from Messinger <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, 
+where freezing fraction is the fraction of impinging water that is frozen (mi / m).</p>
+<blockquote>
+<p>The excess water, (m — mi) is blown off in
+the liquid state, or included as liquid water in
+the collected ice. </p>
+</blockquote>
+<h3>Appendix</h3>
+<blockquote>
+<p>The heat flow equation for the icing surface on a cold
+body, assuming all impinging water freezes, is<br>
+<img alt="Appendix heat balance" src="images/Fraser/Appendix_heat_balance.png"><br>
+For the specific case of a rotating, non-conducting cylinder, 
+with surface temperature at 0°C, and fully wetted,
+the equation simplifies to 
+<img alt="Appendix heat balance simlified" src="images/Fraser/appendix_simplified.png"><br>
+where q is measured in CHU/hr. (The term CHU denotes 
+a centigrade heat unit which is the heat required to
+raise one lb of water through one degree Celsius.) 
+Examining the individual terms:—</p>
+</blockquote>
+<p><img alt="Appendix heat terms" src="images/Fraser/appendix_heat_terms.png">  </p>
+<p><img alt="Appendix heat terms 2" src="images/Fraser/appendix_heat_terms2.png">  </p>
+<p>To get the 1550 value on the evaporation term:</p>
+<div class="highlight"><pre><span></span><code>L_evap = 598 CHU/g
+Ratio_molecular_masses = 0.662
+cp = 0.24 CHU/g
+
+1550 = L_evap * Ratio_molecular_masses / cp
+1550 = 598 * 0.622 / 0.24
+</code></pre></div>
+
+<p>So the "1.12" factor was not included. </p>
+<p>In our unit system: </p>
+<div class="highlight"><pre><span></span><code>qf = wcr * L_freeze
+wcr = E * LWC / g_per_kg * u / pi 
+qk = wcr * u**2 / 2
+qv = hc * r * u**2 / (2 * cp)
+qw = cwp * wcr * (t_surface - t_ambient)
+qc = hc * (t_surface - t_ambient)
+qe = hc * L_evaporation * 0.622 / cp * (es - eo) / p
+hc = 0.24 * re**0.6 * k_air / d_cylinder
+L_freeze = 334640 J/kg
+L_Eevap = 2500900 J/kg
+cp = 1000 J/kg-K
+cpw = 4168 J/kg-K
+
+E * LWC / g_per_kg * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2)
+= hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p)
+
+LWC / g_per_kg * E * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2)
+= hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p)
+
+LWC = hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p) 
+      / (g_per_kg * E * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2))
+</code></pre></div>
+
+<blockquote>
+<p>Further experimental evidence of the existence
+of the Ludlam Limit was obtained during tests
+on an engine icing test-bed. A
+1/8-in. diameter cylinder was used to obtain water contents
+while a spray concentration giving about 2 gm/m 3
+was being used. The highest readings obtained
+by the rotating cylinder are shown in FIGURE 3.</p>
+</blockquote>
+<p><img alt="Figure 3. Comparison of experimental points with calculated Ludlam lines for 1/8-in. diam. cylinder." src="images/Fraser/Fraser_figure3.png">  </p>
+<blockquote>
+<p>A further check of the calculated limits was
+made by using a 0.1 inch diameter cylinder in an
+icing tunnel, at 450 fps, with a constant flow of
+water to the sprays, while the temperature was
+varied. The readings obtained are shown in
+FIGURE 3, and indicate a Ludlam Limit of 0.5
+gm/m 3 at -7°C. ambient temperature. This is in
+reasonable agreement with the theoretical limit.</p>
+</blockquote>
+<p>However, Fraser appears to be comparing 0.1 inch, 450 fps data to the 1/8 inch, 300 fps line
+When we add a limit line for 0.1 inch diameter and 450 fps, 
+the apparent limit does not agree as well with the test readings. 
+There is a limit characteristic, 
+but the theory and data do not match so well in this case. 
+The test data show that there is a "Ludlam limit", 
+but these calculations only approximate that value. </p>
+<p>An implementation of Fraser's equations is in the file "fraser.py" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, 
+which was used to add the "0.1, 450 FPS" line:</p>
+<p><img alt="Detailed comparison of Figure 3" src="images/Fraser/fraser_figure3_detail.png">  </p>
+<h3>Comparison to "Ludlam limit"</h3>
+<p>We now have yet another "Ludam-ish limit" to add to our collection. </p>
+<p><img alt="Comparison of Ludam limits including Fraser" src="images/Fraser/ludlam_comparisons_all_plus_messinger_plus_fraser.png"> </p>
+<p>Fraser gives a similar result to Messinger (averaged laminar). 
+The chief difference between them is Messinger includes the 1.12 factor on evaporation, 
+while Fraser does not. </p>
+<h2>Citations</h2>
+<p>Fraser cites 6 publications:  </p>
+<ul>
+<li>Ludlam, F. H . : "The heat economy of a rimed cylinder." Quarterly Journal Royal Met. Soc., V. 77, No. 334, pp. 663-666, Oct. 1951.  </li>
+<li>Fraser, D., Pettit, K. G., and Bowler, E. H . : "Criteria for the design, assessment and control of icing protection systems." Inst, of Aero. Sciences Preprint No. 369 (1952)  </li>
+<li>Pettit, K. G.: "Nephelometric instrumentation for aircraft icing research." N.R.C. Report MD-33 (1950).  </li>
+<li>Internal communication from the N.A.E. Engine Testing Laboratory, Feb., 1952.  </li>
+<li>Neel, C. B., and Steinmetz, C. P . : "The calculated and measured performance characteristics of a heated-wire liquid-water-content meter for measuring icing severity." NACA-TN-2615 (1952).  </li>
+<li>Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).  </li>
+</ul>
+<p>Fraser is cited by 2 publications in the NACA Icing Publications Database <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>: </p>
+<ul>
+<li>Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952  </li>
+<li>Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  </li>
+</ul>
+<p>Fraser is cited 31 times in the literature <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.</p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Thermodynamic+Limitations+of+Ice+Accretion+Instruments&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/icing-thermodynamics.html" rel="bookmark"
+                           title="Permalink to Icing Thermodynamics">Icing Thermodynamics</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2022-04-28T16:09:36.459237-07:00">
                 Published: Thu 28 April 2022
@@ -44,102 +310,13 @@
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
 
-</footer><!-- /.post-info --><p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png"></p>
+</footer><!-- /.post-info -->                <p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png"></p>
 <h1>Icing Thermodynamics Thread</h1>
 <p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
 <p>There may be some overlap with ice protection systems, 
 but the systems will not be detailed herein.  </p>
-<h3>NACA-ARR-5G13, <a href="https://icinganalysis.github.io/naca-arr-5g13.html">Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."</a></h3>
-<blockquote>
-<p>Psychrometric equations are presented to calculate the thermal effects of 
-evaporation from wet surfaces.  </p>
-</blockquote>
-<h3>NACA-TR-831, <a href="https://icinganalysis.github.io/naca-tr-831.html">An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane</a></h3>
-<blockquote>
-<p>Two dimensional heat balance equations for ice protection are detailed.  </p>
-</blockquote>
-<h3>NACA-TN-1472, <a href="https://icinganalysis.github.io/naca-tn-1472.html">The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions</a></h3>
-<blockquote>
-<p>Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/ludlam.html">Ludlam, F. H.: The Heat Economy of a Rimed Cylinder</a></h3>
-<blockquote>
-<p>Various "Ludlam Limits" have been implemented, but they produce different results.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/messinger.html">Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed</a></h3>
-<blockquote>
-<p>The term "freezing fraction" is defined.  </p>
-</blockquote>
-<h3>NACA-TN-2799, <a href="https://icinganalysis.github.io/naca-tn-2799.html">Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing</a></h3>
-<blockquote>
-<p>Simplified ice protection equations allow graphical solutions.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-2914.html">NACA-TN-2861, Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow</a>, and</h3>
-<h3><a href="https://icinganalysis.github.io/naca-tn-2914.html">NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions</a></h3>
-<blockquote>
-<p>The warmest ambient temperature at which ice can accumulate is calculated.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/fraser.html">Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments</a></h3>
-<blockquote>
-<p>The term "freezing fraction" is defined (but probably not the one that you expected).  </p>
-</blockquote>
-<h2>Publications to review:</h2>
-<p>Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. </p>
-<blockquote>
-<p>Less that 1% of drops evaporate approaching an obstacle for most cases. </p>
-</blockquote>
-<p>Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. </p>
-<blockquote>
-<p>A detailed analysis of what the ratio of heat transfer to mass transfer might be. </p>
-</blockquote>
-<p><img alt="C-46 Lab Test Article" src="images/C-46lab.jpg"> </p>
-<p>Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. </p>
-<blockquote>
-<p>Sublimation rates at Mach 1.3 are measured. </p>
-</blockquote>
-<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>
-<p>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  </p>
-<p>Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955. </p>
-<p>Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/fraser.html" rel="bookmark"
-                           title="Permalink to Fraser">Fraser</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-04-28T16:09:36.455237-07:00">
-                Published: Thu 28 April 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-04-28T16:09:36.455237-07:00">-->
-                <!--Updated: Thu 28 April 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."</em></h3>
-</blockquote>
-<h1>Fraser, et al., "Thermodynamic …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/fraser.html">read more</a>
+<h3>NACA-ARR-5G13 …</h3>
+                <a class="readmore" href="https://icinganalysis.github.io/icing-thermodynamics.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
