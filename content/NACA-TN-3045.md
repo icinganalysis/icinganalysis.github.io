@@ -20,7 +20,7 @@ For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.
 ##Abstract  
 
 >An analysis of combined heat and mass transfer from a flat plate has
-been made in terms of Prandtlt's simplified physical concept of the turbulent 
+been made in terms of Prandtl's simplified physical concept of the turbulent 
 boundary layer. The results of the analysis show that for conditions 
 of reasonably small heat and mass transfer, the ratio of the mass- and 
 heat-transfer coefficients is dependent on the Reynolds number of the
@@ -32,7 +32,7 @@ greater than unity.
 
 ##Discussion 
 
-This will get heavily into boundary layer theory, so get acquainted with the symbols.
+This will get heavily into boundary layer theory, so be acquainted with the symbols.
 
 ![Symbols part 1](images/naca-tn-3045/Symbols1.png)  
 ![Symbols part 2](images/naca-tn-3045/Symbols2.png)  
