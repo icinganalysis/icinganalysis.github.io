@@ -195,7 +195,7 @@ NACA-TN-3024 cites 16 publications:
 - Carslaw, H. S., and Jaeger, J. C.: Conduction of Heat in Solids. Clarendon Press (Oxford), 1947.  
 - Jakob, Max: Heat Transfer. Vol. I. John Wiley & Sons, Inc., 1949.  
 
-NACA-TN-2779 is cited 2 times by publications in the NACA Icing Publications Database [^4]:
+NACA-TN-3024 is cited 2 times by publications in the NACA Icing Publications Database [^4]:
 
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
