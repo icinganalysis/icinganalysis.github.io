@@ -1,34 +1,32 @@
 from math import pi
-from scipy.optimize import minimize_scalar
-from icinganalysis.water_properties import calc_vapor_p
+from icinganalysis.air_properties import (
+    CP_AIR,
+    calc_air_thermal_conductivity,
+    calc_air_density,
+    calc_air_viscosity,
+)
+from icinganalysis.iteration_helpers import solve_minimize_f
+from icinganalysis.units_helpers import G_PER_KG
 from icinganalysis.water_properties import (
+    calc_vapor_p,
     L_EVAPORATION,
     L_FREEZING,
     WATER_SPECIFIC_HEAT,
     RATIO_MOLECULAR_WEIGHTS,
-    T_MP
+    T_MP,
 )
-from icinganalysis import air_properties
-from icinganalysis.air_properties import CP_AIR
-
-G_PER_KG = 1000
 
 
 def calc_hc_cyl(tk, p, u, d_cyl):
-    re = (
-        air_properties.calc_air_density(tk, p)
-        * u
-        * d_cyl
-        / air_properties.calc_air_viscosity(tk)
-    )
+    re = calc_air_density(tk, p) * u * d_cyl / calc_air_viscosity(tk)
     nu = 0.082 * re ** 0.747  # NACA-TR-1215 (F12)
-    hc = nu * air_properties.calc_air_thermal_conductivity(tk) / d_cyl
+    hc = nu * calc_air_thermal_conductivity(tk) / d_cyl
     return hc
 
 
-def calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h, ts=T_MP, r=0.75, u1=None):  # r from Appendix F
-    if u1 is None:
-        u1 = u
+def calc_rotating_cylinder_heat_balance_terms(
+    tk, p, u, lwc, em, h, ts=T_MP, r=0.75, u1=1.0
+):  # r from Appendix F
     q_conv = pi * h * (ts - tk - u ** 2 / 2 / CP_AIR * (1 - u1 ** 2 / u ** 2 * (1 - r)))
     q_evap = (
         pi
@@ -46,20 +44,30 @@ def calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h, ts=T_MP, r=0
     return q_freezing, q_conv, q_evap, q_sensible, q_kinetic
 
 
-def find_critical_lwc_em_freeze(tk, p, u, h, u1=None):
-    if u1 is None:
-        u1 = u
+def find_critical_lwc_em_freeze(tk, p, u, h, u1=1.0):
     em = 1
 
     def f(lwc):
-        qf, q_conv, q_evap, q_sensible, q_kinetic = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h,
-                                                                                              u1=u1)
+        (
+            qf,
+            q_conv,
+            q_evap,
+            q_sensible,
+            q_kinetic,
+        ) = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h, u1=u1)
         mf = qf / L_FREEZING
         me = q_evap / L_EVAPORATION
         return abs(lwc * em * u / G_PER_KG - mf - me)
 
-    lwc_em = minimize_scalar(f, bounds=(0, 100), method="bounded").x
-    qf, q_conv, q_evap, q_sensible, q_kinetic = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc_em, em, h)
+    lwc_em = solve_minimize_f(f, bounds=(0, 100))
+
+    (
+        qf,
+        q_conv,
+        q_evap,
+        q_sensible,
+        q_kinetic,
+    ) = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc_em, em, h)
     me = q_evap / L_EVAPORATION
     lwc_em_evap = me * G_PER_KG / u
     lwc_em_freeze = lwc_em - lwc_em_evap
@@ -76,7 +84,7 @@ c_d_cyl_runoff_inch = (0.15, 3.6)
 c_d_cyl_runoff = [_ * 0.0254 for _ in c_d_cyl_runoff_inch]
 c_runoff_em_lwc = (0.248, 0.109)
 
-# ftm: off
+# fmt: off
 c_d = (
     0.1, 0.4,
     0.15, 0.379,
@@ -100,7 +108,7 @@ c_d = (
     4, 0.032,
     5, 0.021,
 )
-# ftm: on
+# fmt: on
 c_d_cyl_impingement_inch = c_d[::2]
 c_d_cyl_impingement = [_ * 0.0254 for _ in c_d_cyl_impingement_inch]
 c_impingement_em_lwc = c_d[1::2]
