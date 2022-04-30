@@ -6,10 +6,11 @@ from icinganalysis.water_properties import (
     L_FREEZING,
     WATER_SPECIFIC_HEAT,
     RATIO_MOLECULAR_WEIGHTS,
-T_MP
+    T_MP
 )
 from icinganalysis import air_properties
 from icinganalysis.air_properties import CP_AIR
+
 G_PER_KG = 1000
 
 
@@ -51,7 +52,8 @@ def find_critical_lwc_em_freeze(tk, p, u, h, u1=None):
     em = 1
 
     def f(lwc):
-        qf, q_conv, q_evap, q_sensible, q_kinetic = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h, u1=u1)
+        qf, q_conv, q_evap, q_sensible, q_kinetic = calc_rotating_cylinder_heat_balance_terms(tk, p, u, lwc, em, h,
+                                                                                              u1=u1)
         mf = qf / L_FREEZING
         me = q_evap / L_EVAPORATION
         return abs(lwc * em * u / G_PER_KG - mf - me)
@@ -63,6 +65,45 @@ def find_critical_lwc_em_freeze(tk, p, u, h, u1=None):
     lwc_em_freeze = lwc_em - lwc_em_evap
     return lwc_em_freeze
 
+
+c_d_cyl_inch = (0.185, 0.53, 1.25, 3, 4.5)
+c_d_cyl = [_ * 0.0254 for _ in c_d_cyl_inch]
+c_d_cyl_em_lwc = (0.235, 0.18, 0.134, 0.05, 0.025)
+c_d_cyl_critical_inch = (0.1, 5.9)
+c_d_cyl_critical = [_ * 0.0254 for _ in c_d_cyl_critical_inch]
+c_critical_em_lwc = (0.332, 0.118)
+c_d_cyl_runoff_inch = (0.15, 3.6)
+c_d_cyl_runoff = [_ * 0.0254 for _ in c_d_cyl_runoff_inch]
+c_runoff_em_lwc = (0.248, 0.109)
+
+# ftm: off
+c_d = (
+    0.1, 0.4,
+    0.15, 0.379,
+    0.2, 0.35,
+    0.25, 0.33,
+    0.3, 0.315,
+    0.35, 0.3,
+    0.4, 0.28,
+    0.5, 0.25,
+    0.6, 0.23,
+    0.7, 0.21,
+    0.8, 0.191,
+    0.9, 0.175,
+    1, 0.162,
+    1.25, 0.134,
+    1.5, 0.115,
+    2, 0.086,
+    2.5, 0.066,
+    3, 0.05,
+    3.5, 0.04,
+    4, 0.032,
+    5, 0.021,
+)
+# ftm: on
+c_d_cyl_impingement_inch = c_d[::2]
+c_d_cyl_impingement = [_ * 0.0254 for _ in c_d_cyl_impingement_inch]
+c_impingement_em_lwc = c_d[1::2]
 
 if __name__ == "__main__":
 
@@ -86,7 +127,7 @@ if __name__ == "__main__":
         u = data[d]["u"]
         tk = data[d]["tk"]
         p = data[d]["p"]
-        hcs = [calc_hc_cyl(tk, p, u, d) for d in data[d]["d_cyls_m"]]
+        hcs = [calc_hc_cyl(tk, p, u, d_) for d_ in data[d]["d_cyls_m"]]
         critical_values = [
             find_critical_lwc_em_freeze(
                 tk,
@@ -126,5 +167,28 @@ if __name__ == "__main__":
         plt.legend()
         plt.savefig(n, transparent=True)
         print(critical_values)
+
+        plt.figure()
+        plt.suptitle(d)
+        plt.plot(c_d_cyl_critical_inch, c_critical_em_lwc)
+        plt.plot(
+            data[d]["d_cyls"],
+            critical_values,
+            "o",
+            fillstyle="none",
+            label=f"Calculated with U_ratio={local_airspeed_ratio}",
+        )
+        plt.plot(
+            data[d]["d_cyls"],
+            critical_values_no_u_ratio,
+            "s",
+            fillstyle="none",
+            label=f"Calculated with U_ratio=1",
+        )
+        plt.xscale("log")
+        plt.yscale("log")
+        plt.xlim(xlims)
+        plt.ylim(ylim)
+        plt.legend()
 
     plt.show()
