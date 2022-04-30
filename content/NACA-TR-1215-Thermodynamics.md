@@ -131,6 +131,17 @@ from which reliable results are unobtainable can
 also be recognized and rejected.
 
 
+![](images/naca-tr-1215/NACA_TR_1215_fig24b_critical.png)  
+
+![](images/naca-tr-1215/NACA_TR_1215_fig24c_critical.png)  
+
+![](images/naca-tr-1215/NACA_TR_1215_fig24d_critical.png)  
+
+
+
+
+
+
 ###Freezing fraction
 
 NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time in the NACA series.
