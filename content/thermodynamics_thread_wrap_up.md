@@ -46,6 +46,19 @@ We will look at some data from the post-NACA era to help resolve these questions
 1. Which of the various "Ludlam limits" is most accurate? 
 2. Do calculated freezing fractions correspond to observed values? 
 
+
+
+Rotating
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24a_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24b_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24c_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24d_critical_plus.png)  
+
+
 ##Conclusions  
 
 ###Influential authors

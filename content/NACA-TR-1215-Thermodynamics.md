@@ -131,11 +131,13 @@ from which reliable results are unobtainable can
 also be recognized and rejected.
 
 
-![](images/naca-tr-1215/NACA_TR_1215_fig24b_critical.png)  
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24a_critical.png)  
 
-![](images/naca-tr-1215/NACA_TR_1215_fig24c_critical.png)  
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24b_critical.png)  
 
-![](images/naca-tr-1215/NACA_TR_1215_fig24d_critical.png)  
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24c_critical.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24d_critical.png)  
 
 
 
