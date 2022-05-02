@@ -40,6 +40,17 @@ evaporation from wet surfaces.
 ###[NACA-TN-3024, Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions]({filename}NACA-TN-3024.md)  
 > Less that 1% of drops evaporate approaching an obstacle for most cases. 
 
+<!--
+###[NACA-TN-3045, Analogy Between Mass and Heat Transfer with Turbulent Flow]({filename}NACA-TN-3045.md)  
+> For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   
+-->
+
+<!--
+###[NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer]({filename}NACA-TN-3104.md)  
+> Sublimation rates at Mach 1.3 are measured. 
+-->
+
+
 ##Publications to review:  
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 

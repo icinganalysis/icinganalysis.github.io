@@ -14,17 +14,17 @@ status: draft
 > An experimental investigation was conducted in a 3.84- by 10-inch
 tunnel to determine the mass transfer by sublimation, heat transfer,
 and skin friction for an iced surface on a flat plate for Mach numbers
-of 0.4, 0.6, and 0.8 and pressure altitudes to 30,000 feet. Measure-
-ments of rates of sublimation were also made for a Mach number of 1.3
+of 0.4, 0.6, and 0.8 and pressure altitudes to 30,000 feet. Measurements 
+of rates of sublimation were also made for a Mach number of 1.3
 at a pressure altitude of 30,000 feet.  
-The results show that the parameters of sublimation and heat trans-
-fer were 40 to 50 percent greater for an iced surface than was the bare-
-plate heat-transfer parameter. For iced surfaces of equivalent rough-
-ness, the ratio of sublimation to heat-transfer parameters was found to
+The results show that the parameters of sublimation and heat transfer 
+were 40 to 50 percent greater for an iced surface than was the bare-
+plate heat-transfer parameter. For iced surfaces of equivalent roughness, 
+the ratio of sublimation to heat-transfer parameters was found to
 be 0.90. The sublimation data obtained at a Mach number of 1.3 showed
 no appreciable deviation from that obtained at subsonic speeds. The
 data obtained indicate that sublimation as a means of removing ice
-formations of appreciable thickness is usually too slow to be oi mach
+formations of appreciable thickness is usually too slow to be of mach
 value in the de-icing of aircraft at high altitudes.
 
 ##Summary
@@ -52,8 +52,8 @@ Be acquainted with the symbols.
 of sublimation of ice and evaporation of water makes the principles
 evolved by previous investigators in the field of evaporation applicable
 to sublimation studies. From Reynolds analogy and from the work of many
-investigators, notably Colburn (refs. 2 and 3), in correlating experi-
-mental data, the relations between mass transfer, heat transfer, and
+investigators, notably Colburn (refs. 2 and 3), in correlating experimental 
+data, the relations between mass transfer, heat transfer, and
 skin friction for a flat plate are well known. Thus a reasonably accurate
 prediction of the rate of sublimation of a smooth ice surface subjected
 to a tangential low-velocity air stream could be made from available
@@ -200,6 +200,7 @@ of ice at an air speed of 500 knots at 30,000 ft. and
 N.A.C.A. standard ambient temperature.  
 
 which equates to about 0.25 lbm/ft^2-hr at 500 knots (575 mph) (depending on the ice density).  
+
 Figure 10a (saturated air) yields about 0.5 lbm/ft^2-hr at -40C, 
 and Figure 10b (dry air) yields about 0.6 lbm/ft^2-hr.
 

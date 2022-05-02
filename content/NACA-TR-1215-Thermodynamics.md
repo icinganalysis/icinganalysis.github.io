@@ -6,15 +6,14 @@ status: draft
 
 > ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
-#"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
+#"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics] [^1]
 
 ##Summary 
 Conditions where not all water drops freeze are considered.
 
 ##Key points  
-1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).
-2. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
-3. The terms "freezing fraction" is introduced into the NACA publications.
+1. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
+2. Rotating cylinder Ludlam limits are compared to flight test data. 
 
 ##Abstract
 
@@ -50,66 +49,47 @@ by the inherent insensitivity of the multicylinder method.
 
 ##Discussion
 
-###"supersedes" NACA-TN-2903, NACA-TN-2903, and NACA-RM-E53D23
+This review focuses on the thermodynamic aspects of NACA-TR-1215, 
+see a more general review as [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
-NACA-TR-1215 "supersedes" NACA-TN-2903 [^2], NACA-TN-2903 [^3], and NACA-RM-E53D23 [^4]. 
-Large portions of each of those is reproduced in NACA-TR-1215, 
-and will not be reiterated here. 
-Detail-oriented readers will want to view those reviews: 
-[NACA-TN-2903]({filename}NACA-TN-2903.md), 
-[NACA-TN-2904]({filename}NACA-TN-2904.md), 
-[NACA-RM-E53D23]({filename}NACA-RM-E53D23.md). 
-And due to the compact, two-column print format of NACA-TR-1215, 
-many of the figures are more legible in the three forerunners. 
-
-I did not find where anything significant was deleted from the three. 
-So supersede does not appear to mean over-riding or deprecating.
-Rather, NACA-TR-1215 collects them and adds to them.
-
-However, note that the three are conspicuously missing from the references of NACA-TR-1215, 
-(although they appear in a foot note),
-perhaps implying that there would be no need to look at them again?
-Brun was an author on all four publications. 
-
-###droplets that do not freeze completely
+###Droplets that do not freeze completely
 
 The significant part that NACA-TR-1215 adds 
 is the effect of of water drops that do not completely freeze. 
-Building on the work of Ludlam [^5] and others, an analysis method was detailed in Appendix F.
+Building on the work of Ludlam [^5] and others, an analysis method was detailed in Appendix F. 
+
+![](images/naca-tr-1215/Symbols1.png)  
+![](images/naca-tr-1215/Symbols2.png)  
 
 ![Assumptions](images/naca-tr-1215/Assumptions.png)
-
-A detailed explanation of the equations in Appendix F is quite involved, 
-and will be deferred to a possible, future thread on thermodynamics. 
 
 To put the analysis results in terms useful for multicylinder analysis, 
 the ambient liquid water content is split into the portions that freeze, evaporate, 
 and liquid water that does not freeze and presumably runs off of the cylinder. 
 The term LWC_freeze\*Em (or wf\*Em) is proportional to the rotating cylinder ice mass, 
 and it is plotted with cylinder diameter, similar to the plots used for the manual 
-determination of best fit MVD, LWC and distribution that we have seen previously.
+determination of best fit MVD, LWC and distribution that we have seen previously. 
 
-What is added is a "critical" line, which is a calculated limit for freezing all of the 
-available water, using the equations from Appendix F. 
+![](images/naca-tr-1215/EquationF3.png)  
 
-Note that critical line is a function of airspeed, temperature, and altitude,
-and that there are unique values for each cylinder diameter, 
-even though each cylinder is flying through the same conditions. 
+![](images/naca-tr-1215/EquationF4.png)  
 
-Also added is a "run-off" line:  
+![](images/naca-tr-1215/EquationsF8toF10.png)  
+
+
+Figure 24 shows cases where the cylinder masses are well below the critical line (a),
+some masses are affected (b and c), and all cylinders (d).  
+
+![Figure 24](images/naca-tr-1215/Figure24.png)
+
+
+Also shown in Figure 24 is a "run-off" line:  
 > For observations in discontinuous clouds, points representing 
 critical or super-critical conditions lie approximately along a line called the
 "run-off line," which is located parallel to and generally
 below the critical line, because the effect on the average
 value of wf*Ew of the term containing λ is nearly always
 smaller than the effect of discontinuities (gaps) in the cloud.
-
-(The term λ is explained further below).
-
-Figure 24 shows cases where the cylinder masses are well below the critical line (a),
-some masses are affected (b and c), and all cylinders (d).  
-
-![Figure 24](images/naca-tr-1215/Figure24.png)
 
 Data affected by run-off may still be useful in some circumstances:
 
@@ -130,66 +110,74 @@ in which one or two cylinders are affected by run-off. Observations
 from which reliable results are unobtainable can
 also be recognized and rejected.
 
+The equations were programmed in the file "naca_tr_1215_find_critical_line.py". 
+
+I did not attempt to implement Equation F10 directly. 
+Instead, the heat terms are collected and an LWC value found 
+iteratively to satisfy the mass and energy balance. 
+
+    q_conv = pi * h * (ts - tk - u ** 2 / 2 / CP_AIR * (1 - u1 ** 2 / u ** 2 * (1 - r)))
+    q_evap = (pi * h * RATIO_MOLECULAR_WEIGHTS / CP_AIR * L_EVAPORATION * (calc_vapor_p(ts) - calc_vapor_p(tk)) / p)
+    q_sensible = em * lwc / CP_AIR * u * WATER_SPECIFIC_HEAT * (ts - tk)
+    q_kinetic = -em * lwc / CP_AIR * u * u ** 2 / 2
+    q_freezing = q_conv + q_evap + q_sensible + q_kinetic
+
+    mf = qf / L_FREEZING
+    me = q_evap / L_EVAPORATION
+    mc = lwc / G_PER_KG * em * u
+    
+    find lwc so that
+    mc - mf - me = 0
+
+Note the term pi in the convection and evaporation terms. 
+The entire surface of the cylinder is considered to be fully wet and contribute to
+convection and evaporation, with a surface extent of pi*diameter 
+[diameter is common to all of the heat terms, and divides out]. 
+The enitre surface is also considered to be at one temperature, 0C. 
+
+The critical line (only) was calculated. 
+
+The run-off line was apparent surmised manually, 
+with the logic that if more than one cylinder mass is at or below the critical line, 
+and the apparently limited masses follow a -0.253 slope on the log-log plot. 
+The -0.253 slope comes from the heat transfer relationship used, 
+nu = 0.082*re^0.747, so -0.253 = 0.747 - 1 . 
+
+Figure 24a has no run-off line, and none of the cylinder freezing rates appear to be limited. 
 
 ![](images/naca-tr-1215/NACA-TR-1215 Figure 24a_critical.png)  
 
+For Figure 24b, the smaller two cylinders appear to be limited, 
+and the run-off line is close to the critical line. 
+
 ![](images/naca-tr-1215/NACA-TR-1215 Figure 24b_critical.png)  
+
+For Figure 24c, the smaller two cylinders appear to be limited, 
+and the run-off line is further below the critical line than in Figure 24b. 
 
 ![](images/naca-tr-1215/NACA-TR-1215 Figure 24c_critical.png)  
 
+In Figure 24d, all of the cylinder freezing rates are limited, 
+and the run-off line is close to the critical line. 
+
 ![](images/naca-tr-1215/NACA-TR-1215 Figure 24d_critical.png)  
 
+In Appendix F the value for Ul/U is given as: 
 
+>The value 1.12 used for the ratio Ul/U was obtained from
+measurements made in calibrating the multicylinder exposure
+used on the C-46 airplane by the Ames laboratory (ref. 33).
 
+However, it is not clear that that the 1.12 value was used for all cases in Figure 24. 
+For cases b and d, the results calculated with the python implementation agree better 
+with a ratio of Ul/U=1. 
+The difference in results with Ul/U=1 versus Ul/U=1.12 is small, about 0.02 g/m^3, 
+and the python results agree with the Figure 24 results within that tolerance. 
 
-
-
-###Freezing fraction
-
-NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time in the NACA series.
-
-![Freezing fraction definitions](images/naca-tr-1215/freezing_fraction.png) 
-
-Note that the term is defined on a mass basis (F17) and then transformed to an energy basis (36).
-
-Here, the term is credited to Fraser [^6] ("reference 18"), which was published in August, 1952.
-
-The term is generally credited to [Messinger]({filename}messinger.md) [^7], which was published in a journal in January, 1953. 
-However, Messinger had presented the paper at a meeting in 1951. 
-Also, Messinger's freezing fraction is different. 
-In this nomenclature, Messinger's freezing fraction is λ = wf / w. 
-
-Surprisingly, Messinger is referenced only once (NACA-TN-2861) in the NACA publications, 
-even though it was contemporaneous, at least for the later NACA works. 
-Messinger is the second most cited of any aircraft icing publication that I know of, 
-second only to Langmuir and Blodgett [^9] (732 citations versus 741 [^9]).
 
 #Conclusions
 
-The often noted laments about the limitations of the multicylinder method 
-are repeated yet again, 
-but it is also noted that it was still the most "reliable" technique.
-
-> Although the rotating multicylinder method for measurements 
-in icing clouds has several inherent undesirable 
-characteristics, it is considered to be the most reliable technique
-known at this time that is adaptable to flight use. The meteorological 
-data obtained with the multicylinder method are
-the only data available for the design of ice-protection equipment 
-for aircraft. An important deficiency of the method lies
-in its insensitivity in discriminating and resolving droplet-size 
-distributions. The differences among the droplet-size 
-distributions are masked by the scattering of the measured data
-due to errors in measurements, by differences between
-assumed theoretical conditions and those actually prevailing
-in the natural cloud, and by errors in the calculations.  
-
-> Even though the effect of compressibility of the air on the
-droplet trajectories is negligible, the airplane speed should be
-maintained as low as possible in obtaining flight data, because
-the final results are most accurate at low speeds. Also, the
-limitations of ice-accretion rate caused by kinetic heating and
-heat of fusion are less severe at low airspeeds. Multicylinder
+> Multicylinder
 results obtained with limitations on ice-accretion rates may
 be in error by a magnitude as large as the measurements, if
 the effect of run-off is not evaluated. Run-off is a factor in
@@ -198,20 +186,42 @@ content. If run-off is not recognized in the analysis of
 the data, the measured data points are incorrectly matched
 to the theoretically calculated matching curves.  
 
-> Different forms of the multicylinder instruments are discussed 
-in reference 25, along with the effects of yaw, ice
-density, and other factors on the reliability of data and the
-reproducibility of measurements for conditions on a
-mountain.
+##Ludlam limits
 
-"Reference 25" is NACA-TN-2708 (previous review: [NACA-TN-2708]({filename}NACA-TN-2708.md)).
+When we compare the various ["Ludlam limits"]({filename}ludlam.md) for rotating cylinders that we have seen before, 
+some compare well to the test results, and some do not. 
 
-NACA-TR-1215 superseded NACA-TN-2904, 
-but NACA-TN-2904 is cited more often (54 citations) than NACA-TR-1215 (12 citations [^10]).
-Some of the difference (11 citations) is due to NACA-TN-2904 predating NACA-TR-1215 by about two years, 
-but many of the citations occur after NACA-TR-1215 was published. 
-If "supersede" was intended to mean "make obsolete", it did not have that effect. 
+The NACA-TR-1215 method compares to the measured data very well. 
+I find this level of agreement compelling. 
 
+The Messinger method with the same heat transfer relationship as NACA-TR-1215 
+(nu = 0.082*re^0.747) compares well to the test data. 
+
+The Messinger methods with other heat transfer relationships do not compare well. 
+
+The Ludlam method compares well in some cases (24c and 24c), but not in others. 
+The lack of viscous heating in the Ludlam method contributes to the differences. 
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24a_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24b_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24c_critical_plus.png)  
+
+![](images/naca-tr-1215/NACA-TR-1215 Figure 24d_critical_plus.png)  
+
+The LTR-LT-92 method [^12] has been added to the rotating cylinder "Ludlam limits". 
+Figure 7 of LTR-LT-92 gives critical LWC values for a 0.002489 m diameter cylinder (only),
+and is plotted here as 0.1 inch diameter. 
+The LTR-LT-92 method does not compare well to the test data. 
+The LTR-LT-92 method assumes that only the impingement region 
+(approximately the front half of the cylinder) contributes to convection and evaporation. 
+While the values do not compare well to this flight test data, 
+they may be viewed as "conservative" in that if they are used as LWC limits, 
+any measurements will be well below the critical line and the run-off lines, 
+but many legitimate measurements might be questioned. 
+
+![LTR-LT-92 Figure 7.](images/ltr_lt_92/Figure7.png)
 
 ##Citations
 
@@ -268,12 +278,6 @@ An online search found that NACA-TR-1215 is cited 12 times in the literature [^1
 
 [^1]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-[^2]:
-Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
-[^3]:
-Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
-[^4]:
-Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
 [^5]:
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.
 [^6]:
@@ -281,13 +285,14 @@ Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Acc
 [^7]:
 Messinger, B.L.: “Equilibrium Temperature of an Un-heated Icing Surface as a Function of Airspeed”, J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42.  
 [^8]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-[^9]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=  
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Un-heated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
 [^10]:
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Cloud+Droplets+and+Procedure+for+Measuring+Liquid-Water+Content+and+Droplet+Sizes+in+Supercooled+Clouds+by+Rotating+Multicylinder+Method.+NACA-TR-1215%2C+1955.+%28Supersedes+NACA+TN%E2%80%99s+2903%2C+2904%2C+and+NACA-RM-E53D23%29++&btnG=  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TR-1215&btnG=  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=  
 [^11]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+
+[^12]: 
+Stallabrass, J. R.: An Appraisal of the Single Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978.  
+
+
