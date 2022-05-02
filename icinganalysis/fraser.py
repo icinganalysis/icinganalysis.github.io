@@ -1,10 +1,12 @@
 from math import pi
-from scipy.interpolate import interp1d
-from icinganalysis.air_properties import calc_altitude, CP_AIR, calc_pressure, calc_air_thermal_conductivity
+from icinganalysis.air_properties import (
+    CP_AIR,
+    calc_pressure,
+    calc_air_thermal_conductivity,
+)
 from icinganalysis.langmuir_cylinder_values import calc_re as calc_reynolds
 from icinganalysis.iteration_helpers import solve_minimize_f, take_by
-from icinganalysis.naca_tn_1472_data import interp_wet_dry_ratio
-from icinganalysis.units_helpers import tc_to_k, tk_to_c, FT_PER_M, INCH_PER_M
+from icinganalysis.units_helpers import tc_to_k, FT_PER_M, INCH_PER_M
 from icinganalysis.water_properties import (
     RATIO_MOLECULAR_WEIGHTS,
     L_EVAPORATION,
@@ -60,11 +62,17 @@ def calc_hc_cyl_naca_tr_1215(tk, p, u, d_cyl):
     return hc
 
 
-def calc_lwc_critical(tk, p, u, d, e=1.0, r=0.85, calc_hc=calc_htc, rh=1.):
+def calc_lwc_critical(tk, p, u, d, e=1.0, r=0.85, calc_hc=calc_htc, rh=1.0):
     t_surface = 273.15
     hc = calc_hc(tk, p, u, d)
     q_convection = hc * (t_surface - tk)
-    m_evap = hc * RATIO_MOLECULAR_WEIGHTS / CP_AIR * (calc_vapor_p(t_surface) - rh * calc_vapor_p(tk)) / p
+    m_evap = (
+        hc
+        * RATIO_MOLECULAR_WEIGHTS
+        / CP_AIR
+        * (calc_vapor_p(t_surface) - rh * calc_vapor_p(tk))
+        / p
+    )
     q_evap = m_evap * L_EVAPORATION
     qv = hc * r * u ** 2 / (2 * CP_AIR)
 
@@ -79,17 +87,8 @@ def calc_lwc_critical(tk, p, u, d, e=1.0, r=0.85, calc_hc=calc_htc, rh=1.):
     return lwc
 
 
-def calc_freezing_rate(tk, p, u, d, lwc, e=1.0, r=0.85, rh=1.):
+def calc_freezing_rate(tk, p, u, d, lwc, e=1.0, r=0.85, rh=1.0):
     t_surface = 273.15
-    # hc = calc_htc(tk, p, u, d)
-    # q_convection = hc * (t_surface - tk)
-    # m_evap = hc * RATIO_MOLECULAR_WEIGHTS / CP_AIR * (calc_vapor_p(t_surface) - calc_vapor_p(tk)) / p
-    # q_evap = m_evap * L_EVAPORATION
-    # qv = hc * r * u ** 2 / (2 * CP_AIR)
-    m_water_impingement = e * lwc / G_PER_KG * u / pi
-    # q_sensible = m_water_impingement * WATER_SPECIFIC_HEAT * (t_surface - tk)
-    # qk = m_water_impingement * u ** 2 / 2
-
     ml = calc_lwc_critical(tk, p, u, d, e, r, rh=rh)
     if lwc < ml:
         mi = lwc
@@ -102,13 +101,63 @@ def calc_freezing_rate(tk, p, u, d, lwc, e=1.0, r=0.85, rh=1.):
 
 alt = 0
 d_fig1_180fps = (  # tc, lwc_crititcal
-    -2.5, .25,
-    -10, 1.46,
-    -20, 3.28,
-    -27.5, 4.95,
+    -2.5,
+    0.25,
+    -10,
+    1.46,
+    -20,
+    3.28,
+    -27.5,
+    4.95,
 )
 tcs_fig1_180fps = d_fig1_180fps[::2]
 lwcs_fig1_180fps = d_fig1_180fps[1::2]
+
+# fmt: off
+df_fig3 = (
+    -1, 0.17,
+    -1.4, 0.03,
+    -1.5, 0.21,
+    -1.6, 0.28,
+    -1.9, 0.08,
+    -2.2, 0.11,
+    -2.3, 0.19,
+    -2.7, 0.14,
+    -3.5, 0.15,
+    -3.8, 0.1,
+    -3.8, 0.24,
+    -4.3, 0.21,
+    -4.3, 0.3,
+    -4.7, 0.29,
+    -4.8, 0.28,
+    -5, 0.32,
+    -5.1, 0.31,
+    -5.3, 0.44,
+    -5.6, 0.42,
+    -6, 0.44,
+    -6.7, 0.44,
+    -7, 0.44,
+    -7.8, 0.51,
+    -7.8, 0.56,
+    -9.7, 0.44,
+    -9.7, 0.5,
+    -10.7, 0.44,
+    -11.7, 0.44,
+    -11.8, 0.5,
+    -13.5, 0.44,
+    -13.7, 0.44,
+    -14.6, 0.43,
+    -14.9, 0.44,
+    -16.3, 0.51,
+    -16.4, 0.43,
+    -17.6, 0.51,
+    -17.7, 0.43,
+    -18.7, 0.43,
+    -19.1, 0.43,
+)
+# fmt: on
+tc_fig3 = df_fig3[::2]
+lwc_fig3 = df_fig3[1::2]
 
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
@@ -123,18 +172,24 @@ if __name__ == "__main__":
     d_cyl = 2 / INCH_PER_M
     lwcs_2 = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl) for _ in tcs]
     plt.figure()
-    plt.suptitle('Fraser Figure 1 Calculated Ludlam Lines for 1/8 inch diameter rotating cylinder')
-    line, = plt.plot(tcs_fig1_180fps, lwcs_fig1_180fps, label="Fraser Figure 1 Sea Level V=180 fps")
-    plt.plot(tcs, lwcs, '--', c=line.get_color(), label="Calculated")
-    plt.plot(tcs, lwcs_2, ':', label="Calculated 2 inch 300 fps")
+    plt.suptitle(
+        "Fraser Figure 1 Calculated Ludlam Lines for 1/8 inch diameter rotating cylinder"
+    )
+    (line,) = plt.plot(
+        tcs_fig1_180fps, lwcs_fig1_180fps, label="Fraser Figure 1 Sea Level V=180 fps"
+    )
+    plt.plot(tcs, lwcs, "--", c=line.get_color(), label="Calculated")
+    plt.plot(tcs, lwcs_2, ":", label="Calculated 2 inch 300 fps")
     plt.xlim(-40, 0)
-    plt.xlabel('Ambient Air Temperature, C')
+    plt.xlabel("Ambient Air Temperature, C")
     plt.ylim(0, 5)
-    plt.ylabel('Liquid Water Content, LWC, g/m^3')
+    plt.ylabel("Liquid Water Content, LWC, g/m^3")
     plt.legend()
 
     plt.figure()
-    plt.suptitle('Fraser Figure 3 Calculated Ludlam Lines for 1/8 inch diameter cylinder')
+    plt.suptitle(
+        "Fraser Figure 3 Calculated Ludlam Lines for 1/8 inch diameter cylinder"
+    )
     e = 1
     p = calc_pressure(0)
     u = 180 / FT_PER_M
@@ -143,11 +198,17 @@ if __name__ == "__main__":
     u = 300 / FT_PER_M
     d_cyl = 0.125 / INCH_PER_M
     lwcs_2 = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl) for _ in tcs]
-    lwcs_2x = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl, calc_hc=calc_hc_cyl_naca_tr_1215) for _ in tcs]
+    lwcs_2x = [
+        calc_lwc_critical(tc_to_k(_), p, u, d_cyl, calc_hc=calc_hc_cyl_naca_tr_1215)
+        for _ in tcs
+    ]
     u = 450 / FT_PER_M
     d_cyl = 0.1 / INCH_PER_M
     lwcs_3 = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl) for _ in tcs]
-    lwcs_3x = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl, calc_hc=calc_hc_cyl_naca_tr_1215) for _ in tcs]
+    lwcs_3x = [
+        calc_lwc_critical(tc_to_k(_), p, u, d_cyl, calc_hc=calc_hc_cyl_naca_tr_1215)
+        for _ in tcs
+    ]
     lwcs_3y = [calc_lwc_critical(tc_to_k(_), p, u, d_cyl, rh=0.35) for _ in tcs]
 
     lwc = 0.45
@@ -155,24 +216,24 @@ if __name__ == "__main__":
     print(mi)
     print(ff)
     print(ml)
-    plt.plot(tcs, mi, '--')
-    plt.plot(tcs, ff, ':')
+    plt.plot(tcs, mi, "--")
+    plt.plot(tcs, ff, ":")
 
     plt.plot(tcs, lwcs, label="Sea level, 1/8 inch, 180 fps")
     plt.plot(tcs, lwcs_2, label="Sea level, 1/8 inch, 300 fps")
-    plt.plot(tcs, lwcs_2x, ':', label="Sea level, 1/8 inch, 300 fps")
+    plt.plot(tcs, lwcs_2x, ":", label="Sea level, 1/8 inch, 300 fps")
     plt.plot(tcs, lwcs_3, label="Sea level, 0.1 inch, 450 fps")
-    plt.plot(tcs, lwcs_3y, ':', label="Sea level, 0.1 inch, 450 fps")
+    plt.plot(tcs, lwcs_3y, ":", label="Sea level, 0.1 inch, 450 fps")
     plt.xlim(-40, 0)
-    plt.xlabel('Ambient Air Temperature, C')
+    plt.xlabel("Ambient Air Temperature, C")
     plt.ylim(0, 5)
-    plt.ylabel('Liquid Water Content, LWC, g/m^3')
+    plt.ylabel("Liquid Water Content, LWC, g/m^3")
     plt.legend()
 
     csv_helper.save_data(
-        'fraser_fig3.csv',
-        ('tcs', 'lwcs_180fps', 'lwcs_300fps', 'lwcs_450fps'),
-        (tcs, lwcs, lwcs_2, lwcs_3)
+        "fraser_fig3.csv",
+        ("tcs", "lwcs_180fps", "lwcs_300fps", "lwcs_450fps"),
+        (tcs, lwcs, lwcs_2, lwcs_3),
     )
 
     from icinganalysis import ludlam
@@ -188,22 +249,31 @@ if __name__ == "__main__":
     d = 0.35 / CM_PER_M
     e = 1
     lwcs_ludlam_0035_tb5 = [
-        ludlam.calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(ludlam.tks_fig1, ps_tb5)
+        ludlam.calc_lwc_critical(tk, p, u, d, e)
+        for tk, p in zip(ludlam.tks_fig1, ps_tb5)
     ]
     lwcs_fraser_0035_tb5 = [
         calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(ludlam.tks_fig1, ps_tb5)
     ]
     print(lwcs_ludlam_0035_tb5)
-    line, = plt.plot(ludlam.tcs_fig1, ludlam.lwc_0_35cm_tc5_fig1, label="Ludlam Figure 1")
-    plt.plot(ludlam.tcs_fig1, lwcs_fraser_0035_tb5, '--', c=line.get_color(), label="Fraser")
+    (line,) = plt.plot(
+        ludlam.tcs_fig1, ludlam.lwc_0_35cm_tc5_fig1, label="Ludlam Figure 1"
+    )
+    plt.plot(
+        ludlam.tcs_fig1, lwcs_fraser_0035_tb5, "--", c=line.get_color(), label="Fraser"
+    )
 
     d = 15 / CM_PER_M
     e = 0.6
     lwcs_fraser_15_tb5 = [
         calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(ludlam.tks_fig1, ps_tb5)
     ]
-    line, = plt.plot(ludlam.tcs_fig1, ludlam.lwc_15cm_tc5_fig1, label="Ludlam Figure 1 15 cm")
-    plt.plot(ludlam.tcs_fig1, lwcs_fraser_15_tb5, '--', c=line.get_color(), label="Fraser")
+    (line,) = plt.plot(
+        ludlam.tcs_fig1, ludlam.lwc_15cm_tc5_fig1, label="Ludlam Figure 1 15 cm"
+    )
+    plt.plot(
+        ludlam.tcs_fig1, lwcs_fraser_15_tb5, "--", c=line.get_color(), label="Fraser"
+    )
 
     tk0 = tc_to_k(20)
     ps_tb20 = [ludlam.find_p2(tk0, p0, tc_to_k(tc)) for tc in ludlam.tcs_fig1]
@@ -214,16 +284,26 @@ if __name__ == "__main__":
         calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(ludlam.tks_fig1, ps_tb20)
     ]
 
-    line, = plt.plot(ludlam.tcs_fig1, ludlam.lwc_0_35cm_tc20_fig1, label="Ludlam Figure 1 0.35 cm tb20")
-    plt.plot(ludlam.tcs_fig1, lwcs_fraser_0035_tb20, '--', c=line.get_color(), label="Fraser")
+    (line,) = plt.plot(
+        ludlam.tcs_fig1,
+        ludlam.lwc_0_35cm_tc20_fig1,
+        label="Ludlam Figure 1 0.35 cm tb20",
+    )
+    plt.plot(
+        ludlam.tcs_fig1, lwcs_fraser_0035_tb20, "--", c=line.get_color(), label="Fraser"
+    )
 
     d = 15 / CM_PER_M
     e = 0.4
     lwcs_fraser_15_tb20 = [
         calc_lwc_critical(tk, p, u, d, e) for tk, p in zip(ludlam.tks_fig1, ps_tb20)
     ]
-    line, = plt.plot(ludlam.tcs_fig1, ludlam.lwc_15cm_tc20_fig1, label="Ludlam Figure 1 15 cm tb20")
-    plt.plot(ludlam.tcs_fig1, lwcs_fraser_15_tb20, '--', c=line.get_color(), label="Fraser")
+    (line,) = plt.plot(
+        ludlam.tcs_fig1, ludlam.lwc_15cm_tc20_fig1, label="Ludlam Figure 1 15 cm tb20"
+    )
+    plt.plot(
+        ludlam.tcs_fig1, lwcs_fraser_15_tb20, "--", c=line.get_color(), label="Fraser"
+    )
     plt.legend()
 
     plt.figure()
@@ -235,18 +315,22 @@ if __name__ == "__main__":
     tk = tc_to_k(tc)
     mvd = 20
     e = calc_em(tk, p, u, mvd, d_cyl)
-    print('e', e)
+    print("e", e)
 
     lwc = calc_lwc_critical(tc_to_k(tc), p, u, d_cyl, e=e)
     print(lwc)
     lwcs = plt.np.linspace(0, 4)
-    mi, ff, ml = zip(*[calc_freezing_rate(tc_to_k(tc), p, u, d_cyl, _, e=e) for _ in lwcs])
-    plt.plot(lwcs, mi, 'o', fillstyle='none')
-    plt.plot(lwcs, ml, '--x')
-    plt.plot(lwcs, lwcs, '-.')
-    plt.plot(lwcs, ff, ':')
-    mi, ff, ml = zip(*[calc_freezing_rate(tc_to_k(tc), p, u, d_cyl, _, e=e, rh=0.5) for _ in lwcs])
-    plt.plot(lwcs, mi, '^', fillstyle='none')
+    mi, ff, ml = zip(
+        *[calc_freezing_rate(tc_to_k(tc), p, u, d_cyl, _, e=e) for _ in lwcs]
+    )
+    plt.plot(lwcs, mi, "o", fillstyle="none")
+    plt.plot(lwcs, ml, "--x")
+    plt.plot(lwcs, lwcs, "-.")
+    plt.plot(lwcs, ff, ":")
+    mi, ff, ml = zip(
+        *[calc_freezing_rate(tc_to_k(tc), p, u, d_cyl, _, e=e, rh=0.5) for _ in lwcs]
+    )
+    plt.plot(lwcs, mi, "^", fillstyle="none")
     plt.xlim(0)
     plt.ylim(0)
 
@@ -254,11 +338,15 @@ if __name__ == "__main__":
     e = 1
     p = calc_pressure(0)
     u = 175 / FT_PER_M
-    d_cyl = 1/16 / INCH_PER_M
+    d_cyl = 1 / 16 / INCH_PER_M
     lwcs = plt.np.linspace(0, 2.5)
-    mi, ff, ml = zip(*[calc_freezing_rate(tc_to_k(-6), p, u, d_cyl, _, e=e) for _ in lwcs])
+    mi, ff, ml = zip(
+        *[calc_freezing_rate(tc_to_k(-6), p, u, d_cyl, _, e=e) for _ in lwcs]
+    )
     plt.plot(lwcs, mi)
-    mi, ff, ml = zip(*[calc_freezing_rate(tc_to_k(-12), p, u, d_cyl, _, e=e) for _ in lwcs])
+    mi, ff, ml = zip(
+        *[calc_freezing_rate(tc_to_k(-12), p, u, d_cyl, _, e=e) for _ in lwcs]
+    )
     plt.plot(lwcs, mi)
     plt.xlim(0, 2.5)
     plt.ylim(0, 2.5)
@@ -273,8 +361,5 @@ if __name__ == "__main__":
     plt.plot(tcs, lwcs)
     plt.xlim(-15, 0)
     plt.ylim(0)
-
-
-
 
     plt.show()
