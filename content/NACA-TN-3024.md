@@ -2,7 +2,7 @@ Title: NACA-TN-3024
 Category: NACA  
 tags: thermodynamics  
 
-> ###_"losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
+> ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
 #"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" [^1]
 
@@ -122,7 +122,7 @@ for motion along stagnation lines.
 This is essentially water drop the equilibrium assumption we saw in Hardy [^2].  
 
 The calculations are rather involved, and so they will not be detailed herein. 
-Readers who have read the preceding reviews in the [Icing Thermodynamics thread]({filename}thermodymanics.md) 
+Readers who have read the preceding reviews in the [Icing Thermodynamics thread]({filename}thermodynamics.md) 
 will be well prepared. 
 
 The water drop airspeeds relative to the local airspeed were calculated: 
