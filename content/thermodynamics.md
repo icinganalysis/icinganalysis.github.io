@@ -37,15 +37,10 @@ evaporation from wet surfaces.
 ###[Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md)  
 > The term "freezing fraction" is defined (but probably not the one that you expected).  
 
-<!--
 ###[NACA-TN-3024, Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions]({filename}NACA-TN-3024.md)  
 > Less that 1% of drops evaporate approaching an obstacle for most cases. 
--->
 
 ##Publications to review:  
-
-Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953. 
-> Less that 1% of drops evaporate approaching an obstacle for most cases. 
 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
 > For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   

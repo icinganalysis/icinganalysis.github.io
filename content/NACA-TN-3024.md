@@ -1,7 +1,6 @@
 Title: NACA-TN-3024  
 Category: NACA  
 tags: thermodynamics  
-status: draft    
 
 > ###_"losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
