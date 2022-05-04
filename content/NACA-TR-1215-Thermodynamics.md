@@ -6,7 +6,7 @@ status: draft
 
 > ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
-#"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics] [^1]
+#"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics topics] [^1]
 
 ##Summary 
 Conditions where not all water drops freeze are considered.
@@ -49,8 +49,8 @@ by the inherent insensitivity of the multicylinder method.
 
 ##Discussion
 
-This review focuses on the thermodynamic aspects of NACA-TR-1215, 
-see a more general review as [NACA-TR-1215]({filename}NACA-TR-1215.md).  
+This review focuses on the thermodynamic aspects, 
+see a more general review at [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
 ###Droplets that do not freeze completely
 
@@ -70,15 +70,23 @@ The term LWC_freeze\*Em (or wf\*Em) is proportional to the rotating cylinder ice
 and it is plotted with cylinder diameter, similar to the plots used for the manual 
 determination of best fit MVD, LWC and distribution that we have seen previously. 
 
+Detailed heat equations start with convection: 
+
 ![](images/naca-tr-1215/EquationF3.png)  
 
+And freezing: 
+
 ![](images/naca-tr-1215/EquationF4.png)  
+
+And evaporation, 
+and then all equations are combined in F10 to predict the
+"critical line" (the maximum water rate that cal all freeze):
 
 ![](images/naca-tr-1215/EquationsF8toF10.png)  
 
 
 Figure 24 shows cases where the cylinder masses are well below the critical line (a),
-some masses are affected (b and c), and all cylinders (d).  
+some masses are affected (b and c), and all cylinders are affected (d).  
 
 ![Figure 24](images/naca-tr-1215/Figure24.png)
 

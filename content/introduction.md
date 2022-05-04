@@ -109,12 +109,13 @@ That was my only direct link to the NACA era].
 
 ##Notes:
 [^1]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
-[^2]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)
+[^2]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
 [^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
-[^4]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)
+[^4]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^5]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)  
-[^7]: DOT/FAA/CT-88/8-1, “Aircraft Icing Handbook”, 1991  [Volume 1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
-[^8]: [https://ntrs.nasa.gov/](https://ntrs.nasa.gov) 
+[^7]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
+[^8]: [https://ntrs.nasa.gov/](https://ntrs.nasa.gov)  
 (Note: I have not been able to find a few of the publications at the ntrs, but I have found most of the missing ones with more general internet searches)  
 

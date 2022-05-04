@@ -48,7 +48,6 @@ evaporation from wet surfaces.
 > Sublimation rates at Mach 1.3 are measured. 
 -->
 
-
 ##Publications to review:  
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
@@ -65,6 +64,6 @@ Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Air
 >Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 
 
 Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
-
+> A single thermodynamic control volume is used for anti-ice calculations  
 
 
