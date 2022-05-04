@@ -40,10 +40,8 @@ evaporation from wet surfaces.
 ###[NACA-TN-3024, Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions]({filename}NACA-TN-3024.md)  
 > Less that 1% of drops evaporate approaching an obstacle for most cases. 
 
-<!--
 ###[NACA-TN-3045, Analogy Between Mass and Heat Transfer with Turbulent Flow]({filename}NACA-TN-3045.md)  
 > For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   
--->
 
 <!--
 ###[NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer]({filename}NACA-TN-3104.md)  
@@ -52,9 +50,6 @@ evaporation from wet surfaces.
 
 
 ##Publications to review:  
-
-Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. 
-> For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 
@@ -67,6 +62,7 @@ Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Imp
 > Ludlam limits for rotating cylinders are compared.
 
 Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955. 
+>Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 
 
 Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
 

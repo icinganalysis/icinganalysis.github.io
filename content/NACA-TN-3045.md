@@ -1,7 +1,6 @@
 Title: NACA-TN-3045  
 Category: NACA  
 tags: thermodynamics  
-status: draft    
 
 ###_"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"_   
 

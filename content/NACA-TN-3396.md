@@ -3,21 +3,22 @@ Category: NACA
 tags: thermodynamics  
 status: draft  
 
-##_"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
+###_"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
 
-#"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions"
+#"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"
 
 ![Figure 6](images/naca-tn-3396/Figure6.png)  
 
 ##Summary  
-Predictions of the icing limit temperature were validated in tests at Mach 1.35. 
+Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 
 
 ##Key points  
 
 1. Surface temperatures in icing conditions are challenging to measure.  
-2. Apparently small difference in recovery factor values are important at high Mach values. 
+2. Apparently small differences in pressure coefficient and recovery factor values are important at high Mach values. 
 3. Partial surface wettedness makes comparisons between analysis and test challenging.  
-4. Predictions of the icing limit temperature were validated in tests at Mach 1.35.    
+4. Thermal conduction in the substrate affects runback ice.  
+5. Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.    
 
 ##Abstract 
 
@@ -326,7 +327,7 @@ An online search found that NACA-TN-3396 is cited 2 times in the literature [^4]
 ##Notes 
 
 [^1]: 
-Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
+Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955.  
 [^2]: 
 Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
 [^3]: 
