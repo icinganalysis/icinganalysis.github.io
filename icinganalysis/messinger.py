@@ -149,7 +149,7 @@ def calc_qf(wcr, n):
     return wcr * n * L_FREEZING
 
 
-def calc_n(tk, p, u, hc, wcr, r=0.875):
+def calc_n_unlimited(tk, p, u, hc, wcr, r=0.875):
     qc = calc_qc(tk, hc)
     qe = calc_qe(tk, p, hc)
     qv = calc_qv(u, hc, r)
@@ -162,7 +162,7 @@ def calc_n(tk, p, u, hc, wcr, r=0.875):
 
 
 def calc_ts_n(tk, p, u, hc, wcr, r=0.875, t_surface=273.15):
-    n = calc_n(tk, p, u, hc, wcr, r)
+    n = calc_n_unlimited(tk, p, u, hc, wcr, r)
     if 0 <= n <= 1:
         ts = 273.15
         return ts, float(n)
@@ -252,7 +252,7 @@ def calc_theta_3(u, b, r=0.875):
 def calc_n_with_b(tk, p, u, b, r=0.875):
     hc = 1  # arbitrary, just need for ratio b = wcr * cpw / hc
     wcr = hc * b / WATER_SPECIFIC_HEAT
-    return calc_n(tk, p, u, hc, wcr, r)
+    return calc_n_unlimited(tk, p, u, hc, wcr, r)
 
 
 def calc_n_with_b_messinger_units(tk, p, u, b, r=0.875):

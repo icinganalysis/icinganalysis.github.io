@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from icinganalysis.air_properties import calc_pressure
 from icinganalysis.iteration_helpers import solve_minimize_f
-from icinganalysis import messinger_rh
+from icinganalysis import messinger
 from icinganalysis.langmuir_blodgett_table_ii import calc_beta_o
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
 from icinganalysis.units_helpers import (
@@ -28,8 +28,8 @@ for lwc, fig_name in (
 
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
-            hc = messinger_rh.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger_rh.calc_n(tk, p, u, hc, beta * lwc / 1000 * u) - 1)
+            hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
+            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - 1)
 
         tk = solve_minimize_f(calc_diff, [173, 333])
 
@@ -37,8 +37,8 @@ for lwc, fig_name in (
 
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
-            hc = messinger_rh.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger_rh.calc_n(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
+            hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
+            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
 
         tk67 = solve_minimize_f(calc_diff, [173, 333])
 
@@ -46,8 +46,8 @@ for lwc, fig_name in (
 
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
-            hc = messinger_rh.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger_rh.calc_n(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
+            hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
+            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
 
         tk0 = solve_minimize_f(calc_diff, [173, 333])
         vs.append((u * KNOTS_PER_MS, tk_to_f(tk), tk_to_f(tk67), tk_to_f(tk0)))
