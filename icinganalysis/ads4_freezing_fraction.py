@@ -5,8 +5,9 @@ from icinganalysis import messinger
 from icinganalysis.langmuir_blodgett_table_ii import calc_beta_o
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
 from icinganalysis.units_helpers import (
-    INCH_PER_M,
     FT_PER_M,
+    G_PER_KG,
+    INCH_PER_M,
     KNOTS_PER_MS,
     tk_to_f,
 )
@@ -14,8 +15,7 @@ from icinganalysis.units_helpers import (
 # ADS-4 Figure 3-33
 mvd = 15
 d_cyl = 2 / INCH_PER_M
-alt = 5000 / FT_PER_M
-p = calc_pressure(alt)
+p = calc_pressure(5000 / FT_PER_M)
 
 for lwc, fig_name in (
     (0.2, "3-33"),
@@ -29,7 +29,9 @@ for lwc, fig_name in (
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
             hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - 1)
+            return abs(
+                messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / G_PER_KG * u) - 1
+            )
 
         tk = solve_minimize_f(calc_diff, [173, 333])
 
@@ -38,7 +40,10 @@ for lwc, fig_name in (
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
             hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
+            return abs(
+                messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / G_PER_KG * u)
+                - n_target
+            )
 
         tk67 = solve_minimize_f(calc_diff, [173, 333])
 
@@ -47,7 +52,10 @@ for lwc, fig_name in (
         def calc_diff(tk):
             beta = calc_beta_o(calc_k(tk, u, mvd, d_cyl), calc_phi(tk, p, u, d_cyl))
             hc = messinger.calc_htc_lam(tk, p, u, d_cyl)
-            return abs(messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / 1000 * u) - n_target)
+            return abs(
+                messinger.calc_n_unlimited(tk, p, u, hc, beta * lwc / G_PER_KG * u)
+                - n_target
+            )
 
         tk0 = solve_minimize_f(calc_diff, [173, 333])
         vs.append((u * KNOTS_PER_MS, tk_to_f(tk), tk_to_f(tk67), tk_to_f(tk0)))
