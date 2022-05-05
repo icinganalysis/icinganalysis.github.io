@@ -37,6 +37,10 @@ https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf
 
 ![](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
 
+<!--
+Hmm, add radial growth rate correction?
+-->
+
 The ice thickness at the leading edge was measured from the figure. 
 From that, an ice growth rate can be calculated: 
 
