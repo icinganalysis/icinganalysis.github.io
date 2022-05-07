@@ -13,11 +13,9 @@ Thus the validation of freezing fraction calculations is subject to that uncerta
 
 Example comparisons are given below. 
 
-
 ##Non-rotating cylinders
 
 There are several sources of ice measurements on non-rotating cylinders. 
-
 
 AEDC-TR-85-30
 
@@ -62,18 +60,24 @@ The heat transfer relationship from NASA-TM-107141 was used:
     nu = 1.244 * re^0.4774
 
 The file "messinger.py" was used to calculate the freezing fraction. 
+The freezing fraction is evaluated at the initial cylinder diameter (only). 
+The is no attempt to calculate changes during the ice growth, 
+when the surface shape becomes non-cylindrical and the heat transfer 
+and water catch rate may change.
 
 For the AEDC Table 1, the reported and calculated freezing fraction values agree well, 
-but the apparent freezing fraction values do not.  
+but the apparent freezing fraction values have scatter compared to the calculated values.  
 
 ![](images/freezing_fractions/cylinder_freezing_fractions_AEDC_TR_85_30_fig21.png)  
 
-For NASA-TM, apparent freezing fraction values agree well with the calculated values, 
-but the reported values do not.
+For NASA-TM-107141, apparent freezing fraction values agree well with the calculated values, 
+but the reported values do not. 
+As the heat transfer relationship used came from NASA-TM-107141, 
+it is not clear what the implementation differences of the calculation would be. 
 
 ![](images/freezing_fractions/cylinder_freezing_fractions_nasa_tm_107141_table1.png)  
 
-For the NASA-CR, the values agree fairly well. 
+For the NASA-CR-2008-215302, the values agree fairly well. 
 
 ![](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 

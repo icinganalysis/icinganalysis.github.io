@@ -2,7 +2,7 @@ Title: Icing Thermodynamics
 Category: NACA  
 tags: thermodynamics  
 
-![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)
+![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
 
 #Icing Thermodynamics Thread 
 
@@ -11,14 +11,14 @@ This thread will focus on the use of thermodynamic heat and mass balance for ici
 There may be some overlap with ice protection systems, 
 but the systems will not be detailed herein.  
 
-###NACA-ARR-5G13, [Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md) 
+###NACA-ARR-5G13, [Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md)  
 > Psychrometric equations are presented to calculate the thermal effects of 
 evaporation from wet surfaces.  
 
-###NACA-TR-831, [An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane]({filename}NACA-TR-831.md) 
+###NACA-TR-831, [An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane]({filename}NACA-TR-831.md)  
 > Two dimensional heat balance equations for ice protection are detailed.  
 
-###NACA-TN-1472, [The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions]({filename}NACA-TN-1472.md)
+###NACA-TN-1472, [The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions]({filename}NACA-TN-1472.md)  
 > Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.  
 
 ###[Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)   
