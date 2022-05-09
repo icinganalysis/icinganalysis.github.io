@@ -22,15 +22,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html">Conclusions of the Cylinder Thread</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.359403-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.359403-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -41,306 +41,430 @@
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info --><blockquote>
-<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
 </blockquote>
+<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
+<h1>Conclusions of the Cylinders Thread</h1>
 <h2>Summary</h2>
-<p>The Langmuir B drop size distribution is almost a normal distribution.</p>
+<p>Data from the post-NACA era are used to resolve open questions </p>
 <h2>Key points</h2>
 <ol>
-<li>The Langmuir B drop size distribution is almost a normal distribution.  </li>
-<li>Perhaps it was originally intended that it be exactly a normal distribution.</li>
-<li>The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.</li>
-<li>The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.</li>
+<li>The Cylinders thread is summarized</li>
+<li>Post-NACA era data is used to resolve some open questions.</li>
+<li>NACA era data that are still used today are summarized</li>
 </ol>
 <h2>Discussion</h2>
-<h3>Normal drop size distributions</h3>
-<p><a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distributions</a> show up many places in nature, 
-so it is not surprising that drop sizes in clouds can approximate a normal distribution.  </p>
-<p>In NACA-TN-2708 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, it was "presumed" that water-volume distribution with the
-drop size is a Gaussian [normal] distribution:</p>
-<blockquote>
-<p>Drop-Size Distribution. - In the present report it is presumed,
-following Howell (reference 6), that water-volume distribution with the
-drop size is a Gaussian distribution, the breadth of which may be characterized 
-by a modulus of distribution m that is defined by the relation:  </p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>m = (2)**0.5 * sigma / R_bar
-</code></pre></div>
-
-<blockquote>
-<p>where sigma is the standard deviation and R_bar is the volume median radius.
-The distributions postulated by Langmuir (reference 7) and used in the
-multicylinder method may be given numerical values as follows:</p>
-</blockquote>
+<h3>Review of the Cylinders thread so far</h3>
+<p>In the Cylinders thread, we saw:</p>
+<ul>
+<li>A pioneering analysis of water drop impingement on a cylinder (<a href="https://icinganalysis.github.io/naca-tn-779.html">NACA-TN-779</a>) </li>
+<li>The most cited aircraft icing publication, with more detail of water drop impingement on a cylinder, and the rotating multicylinder instrument
+(<a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a>) </li>
+<li>In flight icing measurements and an icing severity index (<a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a>)</li>
+<li>An additional way to estimate drop size on a fixed cylinder (<a href="https://icinganalysis.github.io/naca-tn-1424.html">NACA-TN-1424</a>) </li>
+<li>Nine icing instruments compared (<a href="https://icinganalysis.github.io/naca-rm-a9c09.html">NACA-RM-A9C09</a>)</li>
+<li>The ability of the multicylinder method to determine drop distribution was questioned several times, including <a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904</a> </li>
+<li>a comparison test of three similar multicylinders that found differences (<a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708</a>) </li>
+<li><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is almost a normal distribution"</a> </li>
+<li>The effect of compressibility on impingement calculation was found to be "negligible" (<a href="https://icinganalysis.github.io/naca-tn-2903.html">NACA-TN-2903</a>)  </li>
+<li>An analysis method to "more precisely" calculate water drop impingement was presented (<a href="https://icinganalysis.github.io/naca-tn-2904.html">NACA-TN-2904</a>) </li>
+<li>Data analysis methods can affect multicylinder results (<a href="https://icinganalysis.github.io/naca-rm-e53d23.html">NACA-RM-E53D23</a>) </li>
+<li>The effect of incomplete freezing on multicylinder results was quantified (<a href="https://icinganalysis.github.io/naca-tr-1215.html">NACA-TR-1215</a>) </li>
+<li>A pioneering dye-tracing impingement test method was used (<a href="https://icinganalysis.github.io/naca-tn-3338.html">NACA-TN-3338</a>) </li>
+</ul>
+<p>And several programs in the Python programming language are available to reproduce the results in several cases <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<h2>Open questions</h2>
+<p>We will look at some data from the post-NACA era to help resolve these questions. </p>
+<ol>
+<li>differences in analysis methods between Langmuir and Blodgett <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, and NACA-TN-2904 (which one is more accurate?)</li>
+<li>the accuracy of the multicylinder method</li>
+<li>How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions?</li>
+</ol>
+<h2>Post-NACA era data</h2>
+<h3>NASA-CR-4257 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></h3>
+<p>This reference certainly merits a more complete review, but for now we will settle for a summary. </p>
+<p>In this publication, a dye-tracer method similar to NACA-TN-3338 was used on a 6 inch cylinder for two test cases. 
+Water drop impingement rates were measured and presented as beta curves. 
+The repeatability of the results was estimated as +/-10%.
+There are also beta curves determined by water drop trajectory analysis (the "Breer" method).</p>
+<p>[Note: I have worked with one of the authors, Marlin Breer.]</p>
+<p>Two cases were measured, at 20.36 and 16.45 MVD.</p>
+<p><img alt="Figure 6.6A" src="images/nasa-cr-4257/Figure_6_6a.png">  </p>
+<p><img alt="Figure 6.6B" src="images/nasa-cr-4257/Figure_6_6b.png">  </p>
+<p>Detailed drop size distributions were measured using a "Fiber Optics Particle Sizing System". 
+30 bin data were published 
+(although some of the larger drop size bins had zero water, 
+so they are effectively 23 to 27 bin data). 
+They were compared to a Langmuir D distribution.
+(Nozzle pressure ratios corresponding to the cases above).</p>
+<p><img alt="Figure E9" src="images/nasa-cr-4257/FigureE9_pr_0_65.png"> </p>
+<p><img alt="Figure E6" src="images/nasa-cr-4257/FigureE6_pr0_8_rot.png"></p>
+<h3>LEWICE <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></h3>
+<p>This reference also certainly merits a more complete review, but for now we will settle for a summary. </p>
+<p>The LEWICE computer program calculates water drop impingement rates on a body.
+(It can also calculate ice shapes). </p>
+<p>LEWICE uses, by default, a compressible, potential flow solution 
+(users have an option to use a separately determined flow solution). 
+Drop trajectories are calculated by releasing drops upstream, 
+and seeing where they impinge (not unlike the methods in NACA-TN-779, Langmuir-Blodgett, and NACA-TN-2904).</p>
+<p>We will use it to get calculated water impingement rate values to compare to other data.</p>
+<h3>Comparison of impingement calculation methods</h3>
+<p>We can use the detailed drop distribution data from NASA-CR-4257 to calculate water catch rate curves on the cylinder. </p>
+<p>The NACA-TN-2904 method tends to give higher values for both the maximum Beta value 
+and the total water catch Em value, compared to the test and to the other analysis methods. </p>
+<p>The LEWICE and Langmuir-Bodgett analyses agree well with each other, 
+and agree fairly well with the test values (within the +/-10% variation). 
+The Breer method trends slightly lower.</p>
+<p><img alt="Comparison to Figure 6.6A" src="images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6A.png">  </p>
+<p><img alt="Comparison to Figure 6.6B" src="images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6B.png">  </p>
+<p>The results are compared in tables below. 
+The theta_max values for the Breer method may not have been digitized well by me, 
+as they were difficult to discern from the figures. </p>
 <table>
 <thead>
 <tr>
-<th>Langmuir letter</th>
-<th>A</th>
-<th>B</th>
-<th>C</th>
-<th>D</th>
-<th>E</th>
-<th>F</th>
-<th>G</th>
-<th>H</th>
-<th>J</th>
+<th>Method</th>
+<th>Em</th>
+<th>Beta_max</th>
+<th>Theta_max (degrees)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Modulus</td>
-<td>0.00</td>
-<td>0.50</td>
-<td>0.75</td>
-<td>1.00</td>
-<td>1.25</td>
-<td>1.50</td>
-<td>1.75</td>
-<td>2.00</td>
-<td>2.5</td>
+<td>Test Figure 6.6A</td>
+<td>0.380</td>
+<td>0.540</td>
+<td>69.9</td>
+</tr>
+<tr>
+<td>Breer analysis</td>
+<td>0.352</td>
+<td>0.520</td>
+<td>81.2</td>
+</tr>
+<tr>
+<td>LEWICE</td>
+<td>0.373</td>
+<td>0.556</td>
+<td>81.6</td>
+</tr>
+<tr>
+<td>NACA-TN-2904</td>
+<td>0.397</td>
+<td>0.620</td>
+<td>82.0</td>
+</tr>
+<tr>
+<td>Langmuir and Blodgett</td>
+<td>0.376</td>
+<td>0.540</td>
+<td>81.7</td>
 </tr>
 </tbody>
 </table>
-<p>NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> noted that the Houghton and Radford data <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> which Langmuir <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> used did fit a normal distribution well. 
-The data were digitized, and the normal fit was confirmed, as shown in the overlaid figure below.</p>
-<p><img alt="Figure 6.- Volume distribution of water in fog according to Houghton and Radford, overlayed with a calculated normal curve fit chart" src="images/naca-tn-2708/NACA-TN-2708_overlay.png"></p>
-<p>However, the calculated value of m for this fit is 0.335, not the 0.5 value from the table above for a Langmuir B. 
-As explained in wikipedia <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, different constants have been used historically in the definition of the normal distribution. 
-Here, the values differ by about sqrt(2), and sqrt(2) is one of the factors sometimes included or omitted in the definition. </p>
-<p>Clark <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> recommended a different fit of the Houghton and Radford data in the column denoted by (2) than that found by Langmuir (1).<br>
-<img alt="Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds" src="images/naca-tn-2708/table_iv_corrected_distrbutions.png"> </p>
-<p>NACA-TN-2708 states:</p>
-<blockquote>
-<p>Upon
-comparing this chart with Langmuir's tables (reference 7), it was found
-that his selections of the representative radii for the various sub-divisions 
-of the volume were in error. The matter was not pursued further at the time, 
-but as a part of the present study it was decided to
-investigate the effect this error might have on the collection-efficiency
-graphs, based on Langmuir's data, that have been used by virtually all
-workers with the multicylinder method.</p>
-</blockquote>
-<p>We will pursue this further herein. </p>
-<p>Langmuir <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> did not state what distribution he used, other than </p>
-<blockquote>
-<p>In our analysis (pages 264-265 of Part I) of the Houghton and Radford data
-on size distribution it was concluded that their measurements were correct
-when the covering fraction a was less than 0.1. In their paper they give a "volume
-distribution curve" (Fig. 7), based on the microphotograph of the Fig. 4 for
-which a = 0.072. As ordinates they plot the relative volumes (liquid water
-content, Δw) of the droplets for equal increments of droplet radius.</p>
-</blockquote>
-<p>However, a normal distribution was shown above to be a good fit of the Houghton and Radford data. 
-So, using the Houghton and Radford data is in effect using a normal distribution. </p>
-<p>When the different distributions are compare to the normal fit of the Houghton and Radford data, 
-there are differences from the ideal fit, but the values from Clark have the largest differences, 
-particularly for the "15-35" and "65-85" bins. </p>
-<p>With normal distribution stdev = 0.237 (fit to Houghton and Radford):</p>
 <table>
 <thead>
 <tr>
-<th>Percentile divisions of total liquid volume in clouds</th>
-<th>Expected midpoint cumulative %</th>
-<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
-<th>Drop size ratios (Langmuir B)</th>
-<th>Calculate cumulative volume (Langmuir B), %</th>
-<th>Drop size ratios (Clark)</th>
-<th>Calculate cumulative volume (Clark), %</th>
+<th>Method</th>
+<th>Em</th>
+<th>Beta_max</th>
+<th>Theta_max (degrees)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0-5</td>
-<td>2.5</td>
-<td>0.54</td>
-<td>0.56</td>
-<td>3.2</td>
-<td>0.53</td>
-<td>2.4</td>
+<td>Test Figure 6.6B</td>
+<td>0.245</td>
+<td>0.430</td>
+<td>63.2</td>
 </tr>
 <tr>
-<td>5-15</td>
-<td>10</td>
-<td>0.7</td>
-<td>0.72</td>
-<td>11.9</td>
-<td>0.69</td>
-<td>9.5</td>
+<td>Breer analysis</td>
+<td>0.259</td>
+<td>0.445</td>
+<td>69.9</td>
 </tr>
 <tr>
-<td>15-35</td>
-<td>25</td>
-<td>0.84</td>
-<td>0.84</td>
-<td>25.0</td>
-<td>0.91</td>
-<td>35.2</td>
+<td>LEWICE</td>
+<td>0.288</td>
+<td>0.480</td>
+<td>79.8</td>
 </tr>
 <tr>
-<td>35-65</td>
-<td>50</td>
-<td>1.0</td>
-<td>1.0</td>
-<td>50.0</td>
-<td>1.0</td>
-<td>50.0</td>
+<td>NACA-TN-2904</td>
+<td>0.308</td>
+<td>0.549</td>
+<td>80.9</td>
 </tr>
 <tr>
-<td>65-85</td>
-<td>75</td>
-<td>1.16</td>
-<td>1.17</td>
-<td>76.3</td>
-<td>1.09</td>
-<td>64.8</td>
-</tr>
-<tr>
-<td>85-95</td>
-<td>90</td>
-<td>1.3</td>
-<td>1.32</td>
-<td>91.2</td>
-<td>1.31</td>
-<td>90.5</td>
-</tr>
-<tr>
-<td>95-100</td>
-<td>97.5</td>
-<td>1.46</td>
-<td>1.49</td>
-<td>98.1</td>
-<td>1.47</td>
-<td>97.6</td>
+<td>Langmuir and Blodgett</td>
+<td>0.287</td>
+<td>0.461</td>
+<td>80.2</td>
 </tr>
 </tbody>
 </table>
-<p>With normal fit distribution rounded to stdev = 0.25, the Langmuir B matches some of the bins exactly, 
-while the large differences for the Clark values remain.</p>
+<p>While I am inclined to view the Langmuir and Blodgett method as more accurate than the NACA-TN-2904 method, 
+I would like to see more impingement data to determine it with more confidence. 
+There is more cylinder test data that I am aware of, but as ice shapes, 
+not direct impingement measurements, so the question may be not completely resolved. </p>
+<h3>Multicylinder method measurement accuracy</h3>
+<p>Alas, cylinders of different diameters were not included in NASA-CR-4257. 
+However, three different cylinder diameters were included in NACA-TN-3338. 
+We will take another look at that data, and analyze it as multicylinder data.</p>
+<p>I wonder why NACA-TN-3338 did not use the "go-to" method of the multicylinder analysis. 
+This was perhaps a lost opportunity for a drop size comparison that would not require technology beyond what was available. 
+Author von Glahn was familiar with the multicylinder instrument. 
+He was an author of NACA-RM-E51B12, which noted the use of multicylinders 
+in the calibration of the icing tunnel: </p>
+<blockquote>
+<p>Cloud droplet sizes and liquid-water contents in the tunnel
+were measured by the rotating-multicylinder method and were in the
+range of natural icing conditions. </p>
+</blockquote>
+<p>While the cylinders were not rotating, that does not limit the applicability of the method, 
+as the main reason for rotating the cylinders is to make any ice accretion stay close to a cylindrical shape,
+rather than some other shape for which the impingement characteristics are not known. 
+With the dye-tracer method, the surface shape does not change. </p>
+<p>We will use the Python tools previously developed for multicylinders, 
+using the Langmuir and Blodgett, and the NACA-TN-2904 implementations. </p>
+<p><img alt="Figure 20" src="images/naca-tn-3338/Figure20.png"> </p>
+<p>I digitized only one set of values for each cylinder diameter. 
+Industrious readers may wish to clone the software repository, 
+digitize more cases, and see if the results below still hold up. </p>
+<p>Note the small and subtle difference between MED and MVD from AC 20-73A <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>:</p>
+<blockquote>
+<p>Appendix C icing conditions: 14 CFR parts 25, Appendix C and 29, Appendix C certification
+icing condition standard for approving ice protection provisions on aircraft. The conditions are
+specified by altitude, temperature, liquid water content (LWC), representative drop size (mean
+effective diameter (MED)), and cloud horizontal extent.</p>
+<blockquote>
+<p>NOTE: In Appendix C, the term “mean effective diameter” refers to
+what is now called the “median volume diameter (MVD).” The MED
+of Appendix C was determined by using rotating multi-cylinders and
+assuming a Langmuir distribution.</p>
+</blockquote>
+</blockquote>
+<p>So, I will use MED when reporting multicylinder results.</p>
 <table>
 <thead>
 <tr>
-<th>Percentile divisions of total liquid volume in clouds</th>
-<th>Expected midpoint cumulative %</th>
-<th>Drop size ratios to match midpoint cumulative % (normal distribution)</th>
-<th>Drop size ratios (Langmuir B)</th>
-<th>Calculate cumulative volume (Langmuir B), %</th>
-<th>Drop size ratios (Clark)</th>
-<th>Calculate cumulative volume (Clark), %</th>
+<th>Multicylinder Method</th>
+<th>MED (micrometer)</th>
+<th>LWC (g/m^3)</th>
+<th>Best Fit Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0-5</td>
-<td>2.5</td>
-<td>0.51</td>
-<td>0.56</td>
-<td>3.9</td>
-<td>0.53</td>
-<td>3.0</td>
+<td>Langmuir and Blodgett (original)</td>
+<td>18.8</td>
+<td>0.458</td>
+<td>E</td>
 </tr>
 <tr>
-<td>5-15</td>
-<td>10</td>
-<td>0.68</td>
-<td>0.72</td>
-<td>13.1</td>
-<td>0.69</td>
-<td>10.7</td>
+<td>NACA-TN-2904</td>
+<td>21.1</td>
+<td>0.381</td>
+<td>E</td>
 </tr>
 <tr>
-<td>15-35</td>
-<td>25</td>
-<td>0.83</td>
-<td>0.84</td>
-<td>26.1</td>
-<td>0.91</td>
-<td>35.9</td>
-</tr>
-<tr>
-<td>35-65</td>
-<td>50</td>
-<td>1.0</td>
-<td>1.0</td>
-<td>50.0</td>
-<td>1.0</td>
-<td>50.0</td>
-</tr>
-<tr>
-<td>65-85</td>
-<td>75</td>
-<td>1.17</td>
-<td>1.17</td>
-<td>75.2</td>
-<td>1.09</td>
-<td>64.1</td>
-</tr>
-<tr>
-<td>85-95</td>
-<td>90</td>
-<td>1.32</td>
-<td>1.32</td>
-<td>90.0</td>
-<td>1.31</td>
-<td>89.3</td>
-</tr>
-<tr>
-<td>95-100</td>
-<td>97.5</td>
-<td>1.49</td>
-<td>1.49</td>
-<td>97.5</td>
-<td>1.47</td>
-<td>97.0</td>
+<td>Langmuir and Blodgett (k_phi_unique)</td>
+<td>21.5</td>
+<td>0.413</td>
+<td>E</td>
 </tr>
 </tbody>
 </table>
-<p>I do not have a copy of Clark's paper to check if things were transcribed accurately in NACA-TN-2708. 
-Perhaps the values from Clark used different bin sizes, that were not noted in Table IV, 
-and perhaps they were more accurate.</p>
-<p>Rather than correcting errors, including the values from Clark in NACA-TN-2708 appears to have introduced larger errors.</p>
-<p>¯\<em>(ツ)</em>/¯</p>
-<p>Perhaps it is just as well that the alternative distributions from NACA-TN-2708 were not widely adopted.</p>
-<p>We can compare a Langmuir B distribution to the normal distribution fit of the data:
-Both the "step" representation of the Langmuir distribution (first seen in NACA-TN-1393 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>) 
-and a line representation are shown.<br>
-<img alt="Langmuir B compared to a normal distribution" src="images/naca-tn-2708/Langmuir B and normal.png"></p>
-<p>The other Langmuir distributions do not match a normal distribution well. 
-A significant portion of the LWC has negative drop sizes with the broader normal distributions.<br>
-<img alt="Langmuir E compared to a normal distribution" src="images/naca-tn-2708/Langmuir E and normal.png"></p>
-<p>The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup></p>
-<p>You may find a more general discussion of <a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708</a> </p>
+<p>When the distributions determined by the multicylinder methods are run in LEWICE, 
+the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
+and less well for the NACA-TN-2904 multicylinder method. </p>
+<p><img alt="Water catch rates calculated with Langmuir multicylinder fit" src="images/naca-tn-3338/Langmuir E original_6.png"> </p>
+<p><img alt="Water catch rates calculated with NACA-TN-2904 multicylinder fit" src="images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png"> </p>
+<p><img alt="Water catch rates calculated with Langmuir multicylinder_k_phi_unique fit" src="images/naca-tn-3338/Langmuir E k_phi_unique_6.png"></p>
+<p>So, a drop distribution determined by the multicylinder method 
+(which is driven by cylinder Em values) 
+can be used to reproduce well the composite water catch, built from Beta curves. </p>
+<p>This is an illustration of the applicability and accuracy of the multicylinder distribution measurements, 
+at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in this case).</p>
+<p>The comparisons above also add weight to the view that the Langmuir and Blodgett methods are more accurate than those of NACA-TN-2904. </p>
+<h3>A surprise from NACA-TN-3338</h3>
+<p>NACA-TN-3338 presented (at least) three drop distributions to represent the same test drop distribution. 
+While I was sceptical of them, I ran them in LEWICE, 
+and the Example from NACA-TN-3338 did an excellent job of reproducing the measured masses. </p>
+<p><img alt="Water catch rates calculated with NACA-TN-3338 Example distribution" src="images/naca-tn-3338/Example_6.png"></p>
+<p>When we plot the cumulative LWC vs. drop size for the distributions 
+they may not appear to be very "similar", but three of them yielded very similar 
+impingement analysis results. 
+The NACA-TN-2904 distribution may appear similar to the "Langmuir_k_phi_unique" line, 
+(see <a href="{filenae}Implementation of cylinder impingement correlations in Python.md">"Implementation of cylinder impingement correlations in Python"</a>)
+but the "Langmuir_k_phi_unique" line yielded a significantly better water catch result. 
+So, I caution against reading too much into distribution plot comparisons for their 
+relative effects on water catch. </p>
+<p><img alt="Comparison of distributions" src="images/naca-tn-3338/distributions.png"></p>
+<h1>Natural drop size distributions</h1>
+<p>We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>. 
+(Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). </p>
+<p><img alt="FAA-RD-80-24 Figure 20" src="images/FAA_RD_80_24/Figure20.png"></p>
+<p>I selected the 6000 ft data.
+Alas, there was not a multicylinder instrument included in this test, 
+so we will again use LEWICE to get the cylinder masses to use for the fitting. 
+I used the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.</p>
+<p><img alt="Langmuir distribution fits to Figure 20 data" src="images/FAA_RD_80_24/RD80_mc_fits.png"></p>
+<p>As in the prior examples, Beta curves were calculated with LEWICE. 
+The Langmuir C best fit reproduces the measure test distribution ("ASSP") 
+Beta curves very well, 
+and the Langmuir E fit works well. </p>
+<p><img alt="Calculated beta curve for the cylinders with distibutions" src="images/FAA_RD_80_24/RD80_betas.png"></p>
+<p>So, even if multicylinder distributions may not appear to be similar to a 
+more detailed, measured natural distribution, they can be used to reproduce impingement values 
+quite well. 
+The apparent difference in drop size distributions made 
+little effective difference in impingement. 
+For this case, at least, a Langmuir C fit or a Langmuir E fit both work well.
+For me, this mitigates the concern expressed in NACA-TN-2904 and several other places of: </p>
+<blockquote>
+<p>... the inherent extreme insensitivity of the rotating multicylinder method to
+differences in droplet size distributions ...</p>
+</blockquote>
+<p>A Langmuir distribution representation of an icing condition may not be the actual distribution, 
+but it is a functionally representative distribution. </p>
+<h2>NACA era data that are still used today</h2>
+<h3>Langmuir drop size distributions</h3>
+<p>A version of the drop distributions was published in 1944, 
+and the more often cited version was published in 1946. 
+See <a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> 
+and <a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is (almost) a normal distribution"</a> </p>
+<p><img alt="Table IX" src="images/Mathematical Investigation of Water Droplet Trajectories/distributions.png"> </p>
+<p>More than 70 years later, they are still in use. 
+From FAA AC 20-73A, "Aircraft Ice Protection" <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>: </p>
+<p><img alt="Table I-1" src="images/ac2073a/LangmuirD.png"></p>
+<h3>Terminology</h3>
+<p>Many of the terms still in use were in Langmuir and Blodgett:  </p>
+<p><img alt="K terms" src="images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png"></p>
+<p>From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>:</p>
+<p><img alt="K terms" src="images/faa_ct_88_k_terms.png"></p>
+<h3>Correlations</h3>
+<p>The impingement correlations form Langmuir and Blodgett, 
+and NACA-TN-2904 were summarized 
+and are available in plots such as this from the "Aircraft Icing Handbook" <sup id="fnref2:8"><a class="footnote-ref" href="#fn:8">8</a></sup>:</p>
+<p><img alt="Figure 2-44" src="images/FAA_CT_fig2_44.png"></p>
+<p>Langmuir and Blodgett correlation formulas are also used, as in the from 
+"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>:</p>
+<p><img alt="Page A2" src="images/LTR-LT-92_correlations.png"></p>
+<h3>Approximation of an airfoil leading edge</h3>
+<p>The "Manual of Scaling Methods" <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup> details the use Langmuir and Blodgett correlations for 
+a cylinder as an approximation of an airfoil leading edge: </p>
+<p><img alt="equation 3.5" src="images/Manual of scaling methods/terms1.png"> 
+<img alt="equation 3.8" src="images/Manual of scaling methods/terms2.png"> 
+<img alt="Figure 3.3.2" src="images/Manual of scaling methods/terms3.png"> </p>
+<h3>Icing conditions in regulations</h3>
+<p>The "Aircraft Icing Handbook" <sup id="fnref3:8"><a class="footnote-ref" href="#fn:8">8</a></sup> summarizes data used to develop icing regulations. 
+We have reviewed three of these:
+<a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a>, 
+<a href="https://icinganalysis.github.io/naca-tn-1424.html">NACA-TN-1424</a>, 
+and <a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904</a>. </p>
+<p>One may note that the later cylinder publications are not included, 
+notably <a href="{filename}(NACA-TN-2904.md)">NACA-TN-2904</a> and 
+<a href="https://icinganalysis.github.io/naca-tr-1215.html">NACA-TR-1215</a>.</p>
+<p>The implications of this is that much of the data used was multicylinder data, 
+processed with the methods of Langmuir and Blodgett, 
+and not the "more precisely" calculated methods in NACA-TN-2904. 
+NACA-TN-2904 was published too late to directly influence the icing regulations. </p>
+<p><img alt="Figure 3-1" src="images/Derivation of FAR standards.png"></p>
+<p>The citation on the figure "Reference 3-12" is NACA-TN-2569, 
+but the figure is not to be found there, 
+and NACA-TN-2569 was published before the icing regulations were published. 
+I have not found where the figure was originally from. </p>
+<p>NACA-TN-1855 (and others) are cited directly in the US icing regulations: </p>
+<p><img alt="Appendix C Figure 1" src="images/AppCfig1.png"></p>
+<h3>Cylinder icing thermodynamics for icing indication and detection</h3>
+<p>NACA-TR-1215 studied several flight icing data cases, 
+and found some were affected by not all of the available water freezing. 
+An analysis of the freezing rates agreed well with the observed values: </p>
+<p><img alt="Figure 24b" src="images/naca-tr-1215/Fig24small.png"></p>
+<p>"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" <sup id="fnref2:9"><a class="footnote-ref" href="#fn:9">9</a></sup> shows a similar effect, 
+plotted in a different format: </p>
+<p><img alt="Fig. 3" src="images/LRT-LT-92Fig3.png"></p>
+<h2>Conclusion</h2>
+<p>Langmuir was widely acknowledged in the post-NACA era, including by another often cited author of aircraft icing publications 
+(B.L. Messinger, 1969 <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup>):</p>
+<blockquote>
+<p>Thanks to the basic work of Dr. Irving Langmuir and his associates in the early
+194O's, we came to understand the physics of the behavior of cloud particles in 
+the aerodynamic flow field of an airplane.</p>
+</blockquote>
+<p>Langmuir frankly eclipsed the many efforts of NACA on the icing of cylinders 
+and the multicylinder instruments, 
+including the "more precisely" calculated NACA-TN-2904.</p>
+<p>The bulk of the flight data that icing regulations were developed from were from multicylinder instruments, 
+the data of which was processed with methods from Langmuir and Blodgett. 
+This quote from NACA-RM-E53D53 over-states the situation a bit, but it was not far from the reality of the time:</p>
+<blockquote>
+<p>The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft</p>
+</blockquote>
+<p>Much effort went into estimating the potential errors of the multicylinder method, 
+particularly identifying the distribution type (A, B, C, D, E).
+As shown in examples above, calculated impingement values were affected to a limited 
+extent by the use of a C or an E distribution, supporting the continued use of the 
+distributions as "representative". </p>
+<p>NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
+and is a good introduction to <a href="https://icinganalysis.github.io/icing-thermodynamics.html">icing thermodynamics</a>. </p>
+<h2>Related</h2>
+<p>A version of this post that was presented to the 
+SAE AC-9C Aircraft Icing Technology Committee <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> 
+is <a href="images/cylinder_thread_wrap_up/SAE presentation Cook.pdf">available as a pdf</a>. </p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.<br>
+I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Mathematical Investigation of Water Droplet Trajectories</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whitier, L.,:
+"An Experimental Method for Measuring" Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies", NASA-CR-4257, DOT/FAA/CT-87/22, 1987.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>https://software.nasa.gov/software/LEW-18573-1,<br>
+https://ntrs.nasa.gov/citations/19990021235&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Anon.:"Aircraft Ice Protection", FAA AC 20-73A, https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
-<p>Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>R. Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:8">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p>“Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .<br>
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement", LTR-LT-92, November, 1978.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
+Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.<br>
+I could not find this on the NTRS or on the FAA site. 
+It is available at <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">DTIC</a>.&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -352,19 +476,19 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html" rel="bookmark"
-                           title="Permalink to Conclusions of the Cylinder Thread">Conclusions of the Cylinder Thread</a></h1>
+                    <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
+                           title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -379,16 +503,53 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
 </footer><!-- /.post-info -->                <blockquote>
-<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
+<h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
 </blockquote>
-<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
-<h1>Conclusions of the Cylinders Thread</h1>
 <h2>Summary</h2>
-<p>Data from the post-NACA era are used to resolve open questions </p>
-<h2>Key points</h2>
+<p>Water drop impingement calculations on a cylinder from 
+"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
+and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are compared.</p>
+<h2>Key Points</h2>
 <ol>
-<li>The Cylinders thread …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html">read more</a>
+<li>There are …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html" rel="bookmark"
+                           title="Permalink to A Langmuir B drop size distribution is (almost) a normal distribution">A Langmuir B drop size distribution is (almost) a normal distribution</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The Langmuir B drop size distribution is almost a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
@@ -400,13 +561,13 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -453,13 +614,13 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -492,13 +653,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -529,13 +690,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -566,13 +727,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -602,13 +763,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -641,13 +802,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -680,13 +841,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -719,13 +880,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -758,13 +919,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -794,13 +955,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -832,13 +993,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -868,13 +1029,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -904,13 +1065,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -942,13 +1103,13 @@ are implemented in the Python programming …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.007700-07:00">
-                Published: Mon 02 May 2022
+        <abbr class="published" title="2022-05-08T18:35:20.355401-07:00">
+                Published: Sun 08 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.007700-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
+        <!--<abbr class="modified" title="2022-05-08T18:35:20.355401-07:00">-->
+                <!--Updated: Sun 08 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -969,48 +1130,6 @@ are implemented in the Python programming …</p>
 <h2>Summary</h2>
 <p>Conditions where not …</p>
                 <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html" rel="bookmark"
-                           title="Permalink to A Detailed Comparison of Water Drop Impingement Calculations">A Detailed Comparison of Water Drop Impingement Calculations</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-02T16:26:43.003701-07:00">
-                Published: Mon 02 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-02T16:26:43.003701-07:00">-->
-                <!--Updated: Mon 02 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The discrepancies are of the magnitude to be expected from ... the step by step integration"</h3>
-</blockquote>
-<h2>Summary</h2>
-<p>Water drop impingement calculations on a cylinder from 
-"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>
-and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are compared.</p>
-<h2>Key Points</h2>
-<ol>
-<li>There are …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/a-detailed-comparison-of-water-drop-impingement-calculations.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->

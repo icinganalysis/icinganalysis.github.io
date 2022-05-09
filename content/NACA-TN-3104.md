@@ -1,7 +1,6 @@
 Title: NACA-TN-3104  
 Category: NACA  
 tags: thermodynamics  
-status: draft    
 
 > ###_"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"_  
 

@@ -43,17 +43,12 @@ evaporation from wet surfaces.
 ###[NACA-TN-3045, Analogy Between Mass and Heat Transfer with Turbulent Flow]({filename}NACA-TN-3045.md)  
 > For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   
 
-<!--
 ###[NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer]({filename}NACA-TN-3104.md)  
 > Sublimation rates at Mach 1.3 are measured. 
--->
 
 ##Publications to review:  
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
-
-Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. 
-> Sublimation rates at Mach 1.3 are measured. 
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
