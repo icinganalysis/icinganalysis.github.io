@@ -5,6 +5,7 @@ from scipy.optimize import minimize_scalar
 
 def solve_minimize_f(
     f: Callable, bounds: Optional[Sequence] = None,
+    tolerance=None,
 ) -> float:
     """
     Find the value that minimizes a function
@@ -25,8 +26,16 @@ def solve_minimize_f(
         solution = minimize_scalar(f)
     else:
         solution = minimize_scalar(f, bounds=bounds, method="bounded")
+
     if solution.success:
-        x = solution.x
+        # print('  ', solution.x, f(solution.x))
+        if tolerance is not None:
+            diff = f(solution.x)
+            if diff <= tolerance:
+                x = solution.x
+                # print('tolerance', abs(diff), tolerance, abs(diff) > tolerance)
+        else:
+            x = solution.x
     return x
 
 
