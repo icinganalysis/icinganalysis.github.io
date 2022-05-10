@@ -28,7 +28,7 @@ compressible flow fields around a cylinder were performed on a
 mechanical analog constructed for the study of the trajectories of
 droplets around aerodynamic bodies. Many data points were
 carefully calculated in order to determine precisely the rate of
-droplet impingement on the surfme of a right circular cylinder.
+droplet impingement on the surface of a right circular cylinder.
 From the computed droplet trajectories, the following impingement 
 characteristics of the cylinder surface were obtained and
 are presented in terms of dimensionless parameters: (1) total
@@ -80,7 +80,7 @@ And freezing:
 
 And evaporation, 
 and then all equations are combined in F10 to predict the
-"critical line" (the maximum water rate that cal all freeze):
+"critical line" (the maximum water rate that can all freeze):
 
 ![](images/naca-tr-1215/EquationsF8toF10.png)  
 
@@ -144,7 +144,7 @@ The entire surface is also considered to be at one temperature, 0C.
 
 The critical line (only) was calculated. 
 
-The run-off line was apparent surmised manually, 
+The run-off line was apparently surmised manually, 
 with the logic that if more than one cylinder mass is at or below the critical line, 
 and the apparently limited masses follow a -0.253 slope on the log-log plot. 
 The -0.253 slope comes from the heat transfer relationship used, 
@@ -226,11 +226,11 @@ The LTR-LT-92 method does not compare well to the test data.
 The LTR-LT-92 method assumes that only the impingement region 
 (approximately the front half of the cylinder) contributes to convection and evaporation. 
 While the values do not compare well to this flight test data, 
-they may be viewed as "conservative" in that if they are used as LWC limits, 
+they may be viewed as "conservative" in that if the values are used as LWC limits, 
 any measurements will be well below the critical line and the run-off lines, 
 but many legitimate measurements might be questioned. 
 
-![LTR-LT-92 Figure 7.](images/ltr_lt_92/Figure7.png)
+![LTR-LT-92 Figure 7.](images/ltr_lt_92/Figure7.png)  
 
 It appears that there were two essential elements of an analysis to well match the flight test rotating cylinder freezing rate values:
 1. Evaporation and convection occur on the entire surface of the cylinder.  
