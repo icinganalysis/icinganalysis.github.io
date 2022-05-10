@@ -46,6 +46,11 @@ evaporation from wet surfaces.
 ###[NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer]({filename}NACA-TN-3104.md)  
 > Sublimation rates at Mach 1.3 are measured. 
 
+<!--
+###[NACA-TR-1215, Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method]({filename}NACA-TR-1215-Thermodynamics.md)  
+> Ludlam limits for rotating cylinders are compared.  
+-->
+
 ##Publications to review:  
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
@@ -53,10 +58,10 @@ evaporation from wet surfaces.
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-> Ludlam limits for rotating cylinders are compared.
+> Ludlam limits for rotating cylinders are compared.  
 
 Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955. 
->Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 
+>Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.  
 
 Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
 > A single thermodynamic control volume is used for anti-ice calculations  

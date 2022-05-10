@@ -222,7 +222,7 @@ The lack of viscous heating in the Ludlam method contributes to the differences.
 The LTR-LT-92 method [^6] has been added to the rotating cylinder "Ludlam limits". 
 Figure 7 of LTR-LT-92 gives critical LWC values for a 0.002489 m diameter cylinder (only),
 and is plotted here as 0.1 inch diameter. 
-The LTR-LT-92 method does not compare well to the test data. 
+The LTR-LT-92 method does not compare well to the flight test data. 
 The LTR-LT-92 method assumes that only the impingement region 
 (approximately the front half of the cylinder) contributes to convection and evaporation. 
 While the values do not compare well to this flight test data, 
