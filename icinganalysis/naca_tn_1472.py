@@ -32,7 +32,6 @@ from icinganalysis.naca_tn_1472_data import (
     h_turb_fig25,
     h_measured_fig25,
     f_wet_interpolator,
-    get_scs_betas,
 )
 
 

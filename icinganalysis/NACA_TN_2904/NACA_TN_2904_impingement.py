@@ -131,7 +131,7 @@ data_table_i_augmented = {  # phi as keys, augmented with Figures 6 & 7
     100: {
         'ks': (0.2,  .5, 1, 4, 40),
         'ems': (0.012, .157, .309, .680, .924),
-        'theta': (0.15,  .601, .865, 1.291, .1522),
+        'theta': (0.15,  .601, .865, 1.291, 1.522),
     },
     1000:
         {
@@ -856,7 +856,8 @@ def _calc_beta(em, theta_max, theta):
 def calc_beta(k, phi, theta):
     theta_max = min(pi / 2, max(0, calc_theta_naca_tn_2904_from_table_i_data(k, phi)))
     em = max(0, min(1, calc_em_from(k, k * phi)))
-    return min(1, max(0, _calc_beta(em, theta_max, theta)))
+    print('     ', theta_max, em)
+    return max(0, _calc_beta(em, theta_max, theta))
 
 
 if __name__ == "__main__":
