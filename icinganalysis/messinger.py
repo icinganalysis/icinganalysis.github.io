@@ -23,11 +23,18 @@ from icinganalysis.iteration_helpers import solve_minimize_f
 from icinganalysis.markdown_table_helper import make_nice_width_markdown_table
 from icinganalysis.langmuir_blodgett_table_ii import calc_beta_o
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi, calc_re
-from icinganalysis.NACA_TR_1215_find_critical_line import calc_hc_cyl
 
 CAL_PER_JOULE = 0.23900573614
 G_PER_KG = 1000
 CM_PER_M = 100
+
+
+def calc_htc_rough(tk, p, u, d_cyl):
+    k = (tk * 1.8 + 81) * 1e-7 / CAL_PER_JOULE * CM_PER_M
+    re = calc_re(tk, p, u, d_cyl)
+    nu = 0.082 * re ** 0.747  # NACA-TR-1215 (F12)
+    hc = nu * k /d_cyl
+    return hc
 
 
 def calc_htc_lam(tk, p, u, d):
@@ -193,7 +200,7 @@ def find_lwc_critical_turb(tk, p, u, beta, d_cyl, r=0.875):
 
 
 def find_lwc_critical_rough(tk, p, u, beta, d_cyl, r=0.875):
-    hc = calc_hc_cyl(tk, p, u, d_cyl)
+    hc = calc_htc_rough(tk, p, u, d_cyl)
     return find_lwc_critical_n1(tk, p, u, hc, beta, r)
 
 
