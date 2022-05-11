@@ -204,7 +204,7 @@ def make_fig(
 ):
     plt.figure(figsize=figsize)
     fig_name = case[:23]
-    plt.suptitle(case)
+    plt.suptitle("Ludlam limits compared\n"+case)
     plt.plot(
         d_cyl_inch,
         d_cyl_em_lwc,
@@ -353,9 +353,11 @@ if __name__ == "__main__":
         )
 
         plt.plot(data[case]["d_cyls"], ludlam, ":x", label="Ludlam")
-        plt.plot(0.1, lwc_ltr * em_0_1, "<", ms=14, mew=3, c="r", label="LT-LTR-92")
+        plt.plot(0.1, lwc_ltr * em_0_1, "<", ms=14, mew=3, c="r", label="LTR-LT-92")
 
         plt.legend()
-        plt.savefig(f"{case[:23]}_critical_plus.png")
+        save_name = f"{case[:23]}_critical_plus.png"
+        print(save_name)
+        plt.savefig(save_name)
 
     plt.show()
