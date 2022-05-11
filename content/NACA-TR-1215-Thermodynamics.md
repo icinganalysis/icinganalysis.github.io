@@ -1,7 +1,6 @@
 Title: NACA-TR-1215 Thermodynamics
 Category: NACA  
 tags: cylinder  
-status: draft  
 
 
 > ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
@@ -58,8 +57,8 @@ The significant part that NACA-TR-1215 adds
 is the effect of of water drops that do not completely freeze. 
 Building on the work of Ludlam [^2] and others, an analysis method was detailed in Appendix F. 
 
-![](images/naca-tr-1215/Symbols1.png)  
-![](images/naca-tr-1215/Symbols2.png)  
+![Symbols 1](images/naca-tr-1215/Symbols1.png)  
+![Symbols 2](images/naca-tr-1215/Symbols2.png)  
 
 ![Assumptions](images/naca-tr-1215/Assumptions.png)
 
@@ -72,17 +71,17 @@ determination of best fit MVD, LWC and distribution that we have seen previously
 
 Detailed heat equations start with convection: 
 
-![](images/naca-tr-1215/EquationF3.png)  
+![Equation F3](images/naca-tr-1215/EquationF3.png)  
 
 And freezing: 
 
-![](images/naca-tr-1215/EquationF4.png)  
+![Equation F4](images/naca-tr-1215/EquationF4.png)  
 
 And evaporation, 
 and then all equations are combined in F10 to predict the
 "critical line" (the maximum water rate that can all freeze):
 
-![](images/naca-tr-1215/EquationsF8toF10.png)  
+![Equation F8 to F10](images/naca-tr-1215/EquationsF8toF10.png)  
 
 
 Figure 24 shows cases where the cylinder masses are well below the critical line (a),

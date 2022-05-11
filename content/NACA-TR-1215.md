@@ -197,9 +197,7 @@ Some of the difference (11 citations) is due to NACA-TN-2904 predating NACA-TR-1
 but many of the citations occur after NACA-TR-1215 was published. 
 If "supersede" was intended to mean "make obsolete", it did not have that effect. 
 
-<!--
 The thermodynamics of NACA-TR-1215 are reviewed in more detail in [NACA-TR-1215-Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md).  
--->
 
 ##Citations
 
