@@ -1,7 +1,6 @@
 title: NACA-TN-3396  
 Category: NACA  
 tags: thermodynamics  
-status: draft  
 
 ###_"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
 

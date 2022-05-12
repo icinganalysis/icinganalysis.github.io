@@ -49,16 +49,16 @@ evaporation from wet surfaces.
 ###[NACA-TR-1215, Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method]({filename}NACA-TR-1215-Thermodynamics.md)  
 > Ludlam limits for rotating cylinders are compared.  
 
+###[NACA-TN-3396, Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions]({filename}NACA-TN-3396.md)  
+>Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.  
+
 ##Publications to review:  
+
+Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
+> A single thermodynamic control volume is used for anti-ice calculations  
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
-
-Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955. 
->Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.  
-
-Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
-> A single thermodynamic control volume is used for anti-ice calculations  
 
 
