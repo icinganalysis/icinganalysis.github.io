@@ -144,9 +144,9 @@ which may readily be converted to an LWC value using the continuity equation.
 > LWC = thick_growth_rate * ice_density / (beta * airspeed)  [with unit conversions]
 
 [NACA-TR-1215]({filename}NACA-TR-1215.md) cites Ludlam, and includes a "critical" LWC value. 
-Differences include:
+Differences include:  
 - evaporation calculation  
-- evaporation reduces the water available for freezing 
+- evaporation reduces the water available for freezing  
 - a heat transfer coefficient that includes surface roughness  
 
 A case from Ludlam Figure 1 is similar, but not identical to the comparison case selected. 
