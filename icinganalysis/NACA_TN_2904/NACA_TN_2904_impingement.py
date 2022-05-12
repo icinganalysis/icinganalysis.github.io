@@ -856,7 +856,6 @@ def _calc_beta(em, theta_max, theta):
 def calc_beta(k, phi, theta):
     theta_max = min(pi / 2, max(0, calc_theta_naca_tn_2904_from_table_i_data(k, phi)))
     em = max(0, min(1, calc_em_from(k, k * phi)))
-    print('     ', theta_max, em)
     return max(0, _calc_beta(em, theta_max, theta))
 
 
