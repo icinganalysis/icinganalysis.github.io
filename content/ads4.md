@@ -205,7 +205,7 @@ specific values shown are based on the stagnation line of a two-inch cylinder
 An aluminum-skinned airfoil would
 tend to accumulate rime and intermediate glaze-rime ice at slightly higher
 temperatures than shown, because of the conduction of heat away from the area
-of high water catch (arid release of heat of fusion).
+of high water catch (and release of heat of fusion).
 The plots of Figures 2-33
 through 2-35 can be used as a guide in determining the probable type of ice
 formed for various flight and icing conditions.
