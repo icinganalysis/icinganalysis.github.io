@@ -192,6 +192,11 @@ speed.
 ![Figure 2-34](images/ads4/Figure2-34.png)  
 ![Figure 2-35](images/ads4/Figure2-35.png)  
 
+
+The file "ads4.py" [^5] reproduces the values well.
+
+![Figure 2-35 calculated values](images/ads4/ADS-4_figure2-35.png)  
+
 >This correlation was obtained from an analysis by Dickey (Ref. 2-28),
 using the "freezing fraction" concept developed by Messinger (Ref. 2-27).
 The
@@ -277,7 +282,7 @@ used for design purposes.
 
 ###Methods of Ice Protection
 
-We previously reviewed [NACA-TN-2799]({filename}NACA-TN-2799.md) [^5], 
+We previously reviewed [NACA-TN-2799]({filename}NACA-TN-2799.md) [^6], 
 and it was noted that it did not include how to determine heat tranfer coefficients. 
 Methods for that are provided in ADS-4. 
 
@@ -338,7 +343,7 @@ Figures 3-18a and 3-18b are presented for this purpose.
 ![Figure 3-18a](images/ads4/Figure3-18a.png)  
 ![Figure 3-18b](images/ads4/Figure3-18b.png)  
 
-"Ref. 3-4" was reviewed previously at [NACA-TN-2799]({filename}NACA-TN-2799.md) [^5].  
+"Ref. 3-4" was reviewed previously at [NACA-TN-2799]({filename}NACA-TN-2799.md) [^6].  
 
 >Preparatory to using
 these figures, the local heat transfer coefficient and rate of water catch (MW)
@@ -355,7 +360,7 @@ c. Heat transfer coefficient for turbulent flow over a flat plate to the
 chordwise extent of the heated surface
 ![Figure 2-36](images/ads4/htp.png)  
 
-"Ref. 3-7" is NACA-TN-2866 [^6].  
+"Ref. 3-7" is NACA-TN-2866 [^7].  
 
 >A typical plot of these heat transfer coefficients is presented in Figure 3-19
 for a specific altitude and airspeed.
@@ -392,7 +397,7 @@ knowledge, the following equation may be solved for
 impingement region and 0.20 to 0.25 beyond the impingement region.
 
 While it is not cited by ADS-4, I believe that the 0.2 to 0.25 surface wettedness value came from 
-NACA-TN-2480 [^7], Figure 7:  
+NACA-TN-2480 [^8], Figure 7:  
 
 ![Figure 3-19](images/ads4/NACA-TN-2480Figure7.png)  
 
@@ -419,7 +424,7 @@ There will be considerable development of ice shape test and analysis methods in
 This use of an averaged heat transfer coefficient and a single, averaged control volume gets perpetuated in later sources such as 
 the SAE Aerospace Applied Thermodynamics Manual [^9]. 
 
-The Aircraft Icing Handbook [^9] incorporates large portions of ADS-4. 
+The Aircraft Icing Handbook [^10] incorporates large portions of ADS-4. 
 
 ##Citations
 
@@ -477,7 +482,7 @@ Section 3 cites 17 publications, 9 of which are NACA publications.
 - Meyer, W. R., and Foley, E. F., Jr.,: Ice Adhesion Tests on Films of Organic Polar Materials. WADC Technical Report 56-591, March 1957.  
 - Trunov, O. K., and Egorov, M. S.: Some Results of Experimental Flights in Natural Icing Conditions and Operation of Aircraft Thermal Ice Protection. (paper presented at 1960 Aircraft Ice Protection Conference, D. Napier and Son, Ld.).  
 
-An online search [^10] found 65 citations of ADS-4 in the literature.  
+An online search [^11] found 65 citations of ADS-4 in the literature.  
 
 ##Notes 
 
@@ -487,13 +492,14 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 [^3]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
 [^4]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
-[^5]: 
-Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+[^5]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 [^7]: 
+Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+[^9]: 
 Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
-[^8]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)  
-[^9]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf   
+[^9]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)  
+[^10]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf   
 Also note that there was a perhaps little known update in 1993: https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
-[^10]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Engineering+Summary+of+Airframe+Icing+Technical+Data&btnG=  
+[^11]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Engineering+Summary+of+Airframe+Icing+Technical+Data&btnG=  
