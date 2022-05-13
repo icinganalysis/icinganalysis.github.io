@@ -32,7 +32,7 @@ Key technical data on airframe icing was selected
 and summarized for the report.
 Results of the work provide a design engineer
 with the following:  
-a. Complete statistical data on the earth' s icing weather conditions that can be used as design criteria for airframe ice protection systems.  
+a. Complete statistical data on the earth's icing weather conditions that can be used as design criteria for airframe ice protection systems.  
 b. An explanation of the physics of airframe ice collection.  
 c. A discussion of known methods of airframe ice protection, and formulas and data to be used in their design.  
 d. Selected specific applications of ice protection systems to conventional aircraft airframes.  
