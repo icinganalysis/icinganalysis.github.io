@@ -259,7 +259,7 @@ This factor should be considered in predicting ice shapes on unheated airfoils.
 
 The image quality of Figures 2-37 to 2-40 are so poor that they are not worth reproducing here. 
 
->On highly swept airfoils, glaze ice tends to form as a series of discontinous cup shapes.
+>On highly swept airfoils, glaze ice tends to form as a series of discontinuous cup shapes.
 A comparison of ice shapes for various sweep angles is
 shown in Figure 2-40.
 
@@ -296,7 +296,7 @@ is permitted on the protected surface and then removed periodically.
 Second is running wet anti-icing, in which moisture is prevented by some means
 from freezing on the surface.
 This moisture may run back beyond the protected
-surface and freeze (commonly called runback ice).
+surface and freeze (commonly called runback ice).  
 Third is evaporative or dry
 anti-icing, in which all moisture impinging upon the surface is evaporated with
 no runback.  
@@ -352,13 +352,13 @@ To determine the local heat transfer on an airfoil, the following three
 equations may be used:
 a. Heat transfer coefficient for a cylinder (hcy) of the same radius as the
 leading edge of the airfoil.  
-![Figure 2-36](images/ads4/hcyl.png)  
+![Equation hcy](images/ads4/hcyl.png)  
 b. Heat transfer coefficient for laminar flow over a flat plate (hlp) to the
 chordwise extent of the heated surface .
-![Figure 2-36](images/ads4/hlp.png)  
+![Equation hlp](images/ads4/hlp.png)  
 c. Heat transfer coefficient for turbulent flow over a flat plate to the
 chordwise extent of the heated surface
-![Figure 2-36](images/ads4/htp.png)  
+![Equation htp](images/ads4/htp.png)  
 
 "Ref. 3-7" is NACA-TN-2866 [^7].  
 

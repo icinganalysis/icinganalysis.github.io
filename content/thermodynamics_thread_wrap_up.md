@@ -57,6 +57,19 @@ We will look at some data from the post-NACA era to help resolve these questions
 
 ##Freezing fractions 
 
+###Rotating cylinders
+
+We saw in [NACA-TR-1215]({filename}NACA-TR-1215.md) good correspondence between flight test 
+ice mass and calculated ice mass. 
+
+It appears that there were two essential elements of an analysis to well match the flight test rotating cylinder freezing rate values:
+1. Evaporation and convection occur on the entire surface of the cylinder.  
+2. A roughness-enhanced heat transfer relationship (nu = 0.024 * re^0.747)  
+
+However, in [Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md), 
+the correspondance was not as good for icing tunnel test data. 
+This will be an area for future investigation. 
+
 ###Non-rotating cylinders
 
 The theoretical value "freezing fraction" does have some correspondence to measured test values. 
@@ -243,7 +256,6 @@ One thing that is common to the NACA-era and the post-NACA era
 is the influence of Langmuir and Blodgett [^5]. 
 Six of the 14 publications in the Thermodynamics thread cite Langmuir and Blodgett. 
 Recent publications frequently cite Langmuir and Blodgett. 
-
 
 ##Notes: 
  
