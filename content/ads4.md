@@ -60,7 +60,7 @@ This review will focus on the thermodynamic aspects (only) of Section 2, "Physic
 and Section 3, "Methods of Ice Protection".
 
 Note: the quality of the images from the online document is variable. 
-Scanned text often requires manual cleanup. 
+Scanned text often required manual cleanup. 
 I have done some straightening of the images herein. 
 
 ###Physics of Ice Collection 
@@ -91,7 +91,7 @@ speed and angle of attack, airfoil or body geometry, and duration of the icing
 encounter.
 
 The image quality of ADS-4 Figure 2-1 is very poor, so I will not reproduce it here.
-Instead, here is the original Figure 11 from "The Icing Problem" ("Ref. 2-1") [^2].
+Instead, here is the more legible, original Figure 11 from "The Icing Problem" ("Ref. 2-1") [^2].
 ![Typical Ice Formations](images/ads4/von Glahn Figure 11.png)  
 
 Perhaps surprisingly, this is one of the few images of ice 
@@ -150,7 +150,7 @@ Curves for sea level and 20,000 ft. are shown in Section 3 (Figure 3-8).
 It may be seen that a flight speed of 300 kt. will produce a 32 F datum temperature at 20 F
 ambient, but that at 0 F a speed of 485 knots is needed.
 This graph may be used as a guide in determining whether a particular combination of flight speed and 
-ambient temperature is likely to represent a potential icing problem.
+ambient temperature is likely to represent a potential icing problem.  
 ![](images/ads4/Figure2-31.png)  
 
 >An exact account of the heat balance on an unheated, insulated icing surface
@@ -193,7 +193,7 @@ speed.
 ![Figure 2-35](images/ads4/Figure2-35.png)  
 
 
-The file "ads4.py" [^5] reproduces the values well.
+The file "ads4.py" [^5] reproduces the values well:
 
 ![Figure 2-35 calculated values](images/ads4/ADS-4_figure2-35.png)  
 
@@ -283,7 +283,7 @@ used for design purposes.
 ###Methods of Ice Protection
 
 We previously reviewed [NACA-TN-2799]({filename}NACA-TN-2799.md) [^6], 
-and it was noted that it did not include how to determine heat tranfer coefficients. 
+and it was noted that it did not include how to determine heat transfer coefficients. 
 Methods for that are provided in ADS-4. 
 
 >3.1 SUMMARY  
@@ -349,7 +349,7 @@ Figures 3-18a and 3-18b are presented for this purpose.
 these figures, the local heat transfer coefficient and rate of water catch (MW)
 must be determined.  
 To determine the local heat transfer on an airfoil, the following three
-equations may be used:
+equations may be used:  
 a. Heat transfer coefficient for a cylinder (hcy) of the same radius as the
 leading edge of the airfoil.  
 ![Equation hcy](images/ads4/hcyl.png)  
@@ -381,7 +381,7 @@ This average value (ha) is then
 used to enter Figures 3-18a and 3-18b to determine the anti-icing heat requirements.
 This assumption of an average value of heat transfer coefficient has a
 percentage of error in the same order of magnitude as the assumptions made
-in the meteorological variables.
+in the meteorological variables.  
 >![Figure 3-19](images/ads4/Figure3-19.png)  
 
 In many situations, "engineering judgement" would have to be applied 
