@@ -90,7 +90,7 @@ the flight
 speed and angle of attack, airfoil or body geometry, and duration of the icing
 encounter.
 
-The image quality of ADS-4 Figure 2-1 is very poor, so I will not reproduce it here.
+The image quality of ADS-4 Figure 2-1 is poor, so I will not reproduce it here.
 Instead, here is the more legible, original Figure 11 from "The Icing Problem" ("Ref. 2-1") [^2].
 ![Typical Ice Formations](images/ads4/von Glahn Figure 11.png)  
 

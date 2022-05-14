@@ -48,6 +48,8 @@ And programs in the Python programming language are available to reproduce the r
 - naca_tr_1215_find_critical_line.py  
 - ads4.py  
 
+Readers may also be interested in the prior [Icing on Cylinders thread]({filename}Icing on Cylinders.md)  
+
 ##Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions. 
@@ -67,8 +69,8 @@ It appears that there were two essential elements of an analysis to well match t
 2. A roughness-enhanced heat transfer relationship (nu = 0.024 * re^0.747)  
 
 However, in [Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md), 
-the correspondance was not as good for icing tunnel test data. 
-This will be an area for future investigation. 
+the correspondence was not as good for icing tunnel test data. 
+This will be an area for further investigation. 
 
 ###Non-rotating cylinders
 
@@ -154,42 +156,10 @@ For the NASA-CR-2008-215302, the values agree fairly well.
 
 ![NASA/CR—2008-215302 Figure 3 comparison](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
-###Freezing fractions on a 0.25 inch diameter cylinder
+<!--
+###LEWICE analysis of cylinders 
+-->
 
-A particular non-rotating cylinder is the 0.25 inch diameter sensing head of the "Rosemount" 0871 series ice detectors 
-(Rosemount was the name of the original company that produced it). 
-There are several models, but they have a similar sensing head. 
-The technology has been used for meteorological instruments to measure liquid water content,
-as well as a yes/no type of icing detector or indicator. 
-
-The detector senses ice mass accumulated on the head. 
-The nominal ice detection thickness of 0.02 inch (0.0005 m) is small compared to the diameter, 
-so cylinder approximations may apply well. 
-Measuring ice mass can provide a "global" freezing fraction for the entire surface of the detector. 
-
-The icing of this cylinder has been studied in several publications. 
-Here is a list from
-[Greg Lee Sova, EVALUATION OF THE PERFORMANCE OF A ROSEMOUNT ICING DETECTOR DURING IMPACTS 2020.](https://commons.und.edu/cgi/viewcontent.cgi?article=5195&context=theses)  
-
->Table 1: Studies regarding the measuring capabilities of the Rosemount Icing Detector
-(RICE Probe) and the model of RICE Probe used in each study.
-
-Author| (Year)| RICE Probe Model  
----|---|---
-Sova| (2021)| 0871ND4-FT  
-Jeck| (2007)| 0871FA  
-Jackson et al.| (2003)| 0871 series  
-Cober et al.| (2001c)| 871FA221B  
-Isaac et al.| (2001)| 871FA  
-Jackson et al.| (2001a)| 0871BN3-3    
-Jackson et al.| (2001b)| 0871 series  
-Claffey et al.| (1995)| 871CB1, 872B12, 872DC  
-Baumgardner and Rodi| (1989)| 871FA  
-Brown| (1981)| 871FA212SCI  
-
-However, there has been limited work on calculating or predicting the ice mass on the cylinder. 
-
-This will be a topic to be explored in future [Diversions]({filename}pages/diversions.md). 
 
 ###Airfoil leading edge approximated as a cylinder
 
@@ -231,7 +201,7 @@ There was a notable shift in influence from the NACA-era to the post-NACA era.
 J. K. Hardy's publications were highly influential in the NACA-era. 
 He either authored or is cited by 10 of the 14 publications in the Thermodynamics thread. 
 However, Hardy is not often cited in recent publications. 
-Being omitted from the references of ADS-4 (where Hardy's datum temperature was described but not credited) 
+Not being included from the references of ADS-4 (where Hardy's datum temperature was described but not credited) 
 may have had an influence on that. 
 
 The validation of Hardy's equations to the limits of the test methods available at the time in 
@@ -267,6 +237,6 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^4]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^5]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
 
 
