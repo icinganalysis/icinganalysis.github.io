@@ -70,7 +70,29 @@ It appears that there were two essential elements of an analysis to well match t
 
 However, in [Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md), 
 the correspondence was not as good for icing tunnel test data. 
-This will be an area for further investigation. 
+This is an area for further investigation. 
+
+###Use of LEWICE for rotating cylnders
+
+While LEWICE is a [well validate tool for airfoils](https://ntrs.nasa.gov/citations/19990021235), 
+as noted in ["NACA Publications on Aircraft Icing Cylinders"](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf), 
+the use of LEWICE for rotating cylinders is not recommended. 
+
+The NACA-TR-1215 flight cases were run with LEWICE. 
+LEWICE was run in two modes. 
+One mode started at the clean cylinder diameter, 
+and used the automatic time step method determine the number of ice shape iterations. 
+This resulted in 6 to 19 steps, depending on the condition and cylinder size. 
+The other mode started at the reported average ice cylinder diameter, 
+and took a single, 1 second long time step to get an ice growth rate for the cylindrical surface. 
+
+LEWICE results had fair to poor agreement for the rotating cylinder flight test data. 
+
+![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24a lewice.png)  
+
+![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png)  
+
+![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png)  
 
 ###Non-rotating cylinders
 
@@ -156,9 +178,19 @@ For the NASA-CR-2008-215302, the values agree fairly well.
 
 ![NASA/CR—2008-215302 Figure 3 comparison](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
-<!--
 ###LEWICE analysis of cylinders 
--->
+
+For non-rotating cylinders, the results with LEWICE are mixed. 
+
+One case had good agreement at the stagnation line, but varying agreement elsewhere: 
+
+![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png)  
+
+Another case did not agree well at the stagnation line, with varying agreement elsewhere.
+
+![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png)  
+
+Unfortunately, the mass values were not recorded in NASA-TM-107141. 
 
 
 ###Airfoil leading edge approximated as a cylinder
