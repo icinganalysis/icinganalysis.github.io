@@ -14,6 +14,7 @@ conditions_data = {
         d_cyls=[0.185, 0.53, 1.3, 3],
         em_lwcs=[0.17, 0.125, 0.078, 0.035],
         d_cyls_m=[_ * 0.0254 for _ in [0.185, 0.53, 1.3, 3]],
+        d_cyls_initial_m=[_ * 0.0254 for _ in [0.125, 0.5, 1.25, 3]],
     ),
     "NACA-TR-1215 Figure 24b, NACA-TN-2306 Flight 10, run 2": dict(
         mph=192,
@@ -28,6 +29,7 @@ conditions_data = {
         d_cyls=[0.23, 0.58, 1.3, 3],
         em_lwcs=[0.35, 0.28, 0.199, 0.09],
         d_cyls_m=[_ * 0.0254 for _ in [0.23, 0.58, 1.3, 3]],
+        d_cyls_initial_m=[_ * 0.0254 for _ in [0.125, 0.5, 1.25, 3]],
     ),
     "NACA-TR-1215 Figure 24c, NACA-TN-2306 Flight 19, run 2": dict(
         mph=200,
@@ -42,6 +44,7 @@ conditions_data = {
         d_cyls=[0.19, 0.535, 1.3, 3, 4.6],
         em_lwcs=[0.235, 0.175, 0.13, 0.05, 0.025],
         d_cyls_m=[_ * 0.0254 for _ in [0.19, 0.535, 1.3, 3, 4.6]],
+        d_cyls_initial_m=[_ * 0.0254 for _ in [0.125, 0.5, 1.25, 3, 4.6]],
     ),
     "NACA-TR-1215 Figure 24d, NACA-TN-1904 Flight 179, run 17": dict(
         mph=180,
@@ -57,5 +60,6 @@ conditions_data = {
         # em_lwcs = [.11, .088, .072, .06]  # Figure 24d Y axis appears to be mislabeled by a factor of 10
         em_lwcs=[1.1, 0.88, 0.725, 0.6],  # Figure 24a Y values corrected
         d_cyls_m=[_ * 0.0254 for _ in [0.27, 0.6, 1.32, 3]],
+        d_cyls_initial_m=[_ * 0.0254 for _ in [0.125, 0.5, 1.25, 3]],
     ),
 }
