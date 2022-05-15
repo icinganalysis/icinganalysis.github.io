@@ -5,6 +5,7 @@ tags: thermodynamics
 ###_"these calculations, performed at several span stations, can become unnecessarily tedious"_  
 
 #ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^1]  
+
 ![Figure 3-1](images/ads4/Figure3-1.png)  
 
 ##Summary
