@@ -3,18 +3,18 @@ Category: NACA
 tags: thermodynamics  
 status: draft  
 
-![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png) 
-> Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. [^1]
+![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png)  
+> Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions.  
 
 #Conclusions of the Icing Thermodynamics Thread 
 
 ##Summary  
 Data from the post-NACA era are used to resolve open questions 
 
-##Key points
-1. The Icing Thermodynamics thread is summarized
-2. Post-NACA era data is used to resolve some open questions.
-3. NACA era data that are still used today are summarized
+##Key points  
+1. The Icing Thermodynamics thread is summarized.  
+2. Post-NACA era data is used to resolve some open questions.  
+3. The "Messinger model" and extended Messinger models are prevalent in current icing analysis.  
 
 ##Discussion
 
@@ -28,6 +28,7 @@ In the Icing Thermodynamics thread, we saw:
 - The "Ludlam limit" for freezing all water impinging [Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)  
 - The term "freezing fraction" defined [Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed]({filename}messinger.md)  
 - Graphical solutions of ice protection equations [Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing]({filename}NACA-TN-2799.md)  
+- The unit gc and the archaic unit "slug" explained ["A Brief Digression on Unit Systems"]({filename}brief-digression-on-units.md)   
 - The warmest ambient temperature at which ice can accumulate [NACA-TN-2861]({filename}NACA-TN-2914.md), and [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 - Evidence for "Ludlam limits" for icing instruments [Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md)  
 - Less that 1% of water drops evaporate approaching an obstacle [NACA-TN-3024]({filename}NACA-TN-3024.md)  
@@ -35,7 +36,7 @@ In the Icing Thermodynamics thread, we saw:
 - Measurements of sublimation rates at Mach 1.3 [NACA-TN-3104]({filename}NACA-TN-3104.md)  
 - Measurements and analysis of the "Ludlam limit" for rotating cylinders [NACA-TR-1215]({filename}NACA-TR-1215.md)  
 - Experimental verification of the warmest temperature at which ice can accumulate [NACA-TN-3396]({filename}NACA-TN-3396.md)  
-- A distillation of the NACA-era thermodynamics to one control volume [FAA-ADS-4](FAA-ADS-4.md)  
+- A distillation of the NACA-era thermodynamics to one control volume [ADS-4](ADS-4.md)  
 
 And programs in the Python programming language are available to reproduce the results in several cases [^2].  
 - naca_arr_5g13.py  
@@ -84,7 +85,7 @@ One mode started at the clean cylinder diameter,
 and used the automatic time step method determine the number of ice shape iterations. 
 This resulted in 6 to 19 steps, depending on the condition and cylinder size. 
 The other mode started at the reported average ice cylinder diameter, 
-and took a single, 1 second long time step to get an ice growth rate for the cylindrical surface. 
+and used a single, 1 second long time step to calculate an ice growth rate for the cylindrical surface. 
 
 LEWICE results had fair to poor agreement for the rotating cylinder flight test data. 
 
@@ -93,6 +94,10 @@ LEWICE results had fair to poor agreement for the rotating cylinder flight test 
 ![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png)  
 
 ![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png)  
+
+[Figure 24d is not compared, as the actual flight LWC value is unknown, 
+because all of the cylinders of the multicylinder instrument had unknown degree of limited freezing.]
+
 
 ###Non-rotating cylinders
 
@@ -178,20 +183,20 @@ For the NASA-CR-2008-215302, the values agree fairly well.
 
 ![NASA/CR—2008-215302 Figure 3 comparison](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
-###LEWICE analysis of cylinders 
+###LEWICE analysis of non-rotating cylinders 
 
 For non-rotating cylinders, the results with LEWICE are mixed. 
 
-One case had good agreement at the stagnation line, but varying agreement elsewhere: 
+One case had good agreement at the stagnation line, but varying agreement elsewhere:  
 
 ![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png)  
 
-Another case did not agree well at the stagnation line, with varying agreement elsewhere.
+Another case did not agree well at the stagnation line, with varying agreement elsewhere.  
 
 ![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png)  
 
-Unfortunately, the mass values were not recorded in NASA-TM-107141. 
-
+Unfortunately, the mass values were not recorded in NASA-TM-107141,
+so we cannot compare the calculated masses to the observed masses. 
 
 ###Airfoil leading edge approximated as a cylinder
 
@@ -211,7 +216,7 @@ but it took 50 years to get the measured data.
 ##Water drop evaporation  
 
 I will defer the evaluation of this to a future post in [Diversions]({filename}pages/diversions.md), 
-"Let's Build a 1D Water Drop Motion Simulation". 
+"Water Drop Evaporation". 
 We will put together several pieces from the NACA-era to implement this, 
 similar to [NACA-TN-3024]({filename}NACA-TN-3024.md), 
 but without the equilibrium assumption.  
@@ -246,13 +251,19 @@ Messinger's publication [^1] is highly influential in the post-NACA era,
 and is still cited frequently in recent literature, 
 but was cited only once in the NACA publications. 
 Messinger cited three of Hardy's publications 
-and acknowledge Hardy's contributions in the text. 
+and acknowledged Hardy's contributions in the text. 
 Perhaps we may view Hardy as still having influence, 
 but one layer down in the citations. 
 
-Messinger's model and "extended" Messinger models still are used extensively. 
+Messinger's model and "extended" Messinger models are used extensively today for icing analysis. 
+The recent publications citing Messinger are too numerous to list here, 
+see an automatically updated listing at [scholar.google.com](https://scholar.google.com/scholar?as_ylo=2021&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&hl=en&as_sdt=0,48)
+(115 results since 2021, sampled on May 15, 2022, it may well grow by the time this post is published). 
 The original publication lacked features such as surface pressure variations that
 some extended models add. 
+Note that there are many details in implementing the Messinger model, 
+and different implementations may yield different results 
+(see the discussion of NASA-TM-107141 above). 
 
 One thing that is common to the NACA-era and the post-NACA era 
 is the influence of Langmuir and Blodgett [^5]. 

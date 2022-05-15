@@ -142,7 +142,7 @@ air boundary layer" temperature.
 It may be calculated from the equation:  
 ![](images/ads4/datum temperature equation.png)  
 
-While it is not cited by ADS-4, the datum temperature concept comes from NACA-ARR-5G13 [^3]. 
+While it is not cited by ADS-4, the datum temperature concept comes from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^3]. 
 
 >Solution of this equation is shown In Figure 2-31 for flight speeds up to 800 kt., 
 ambient temperatures of -20 to 30 F, and an altitude of 10,000 ft. 
