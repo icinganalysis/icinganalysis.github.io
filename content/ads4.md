@@ -192,8 +192,7 @@ speed.
 ![Figure 2-34](images/ads4/Figure2-34.png)  
 ![Figure 2-35](images/ads4/Figure2-35.png)  
 
-
-The file "ads4.py" [^5] reproduces the values well:
+The file "ads4_freezing_fraction.py" [^5] reproduces the values well:
 
 ![Figure 2-35 calculated values](images/ads4/ADS-4_figure2-35.png)  
 
