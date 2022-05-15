@@ -34,9 +34,9 @@ In the Icing Thermodynamics thread, we saw:
 - Less that 1% of water drops evaporate approaching an obstacle [NACA-TN-3024]({filename}NACA-TN-3024.md)  
 - Detailed analysis of the ratio of heat transfer to mass transfer [NACA-TN-3045]({filename}NACA-TN-3045.md)  
 - Measurements of sublimation rates at Mach 1.3 [NACA-TN-3104]({filename}NACA-TN-3104.md)  
-- Measurements and analysis of the "Ludlam limit" for rotating cylinders [NACA-TR-1215]({filename}NACA-TR-1215.md)  
+- Measurements and analysis of the "Ludlam limit" for rotating cylinders [NACA-TR-1215]({filename}NACA-TR-1215-Thermodynamics.md)  
 - Experimental verification of the warmest temperature at which ice can accumulate [NACA-TN-3396]({filename}NACA-TN-3396.md)  
-- A distillation of the NACA-era thermodynamics to one control volume [ADS-4](ADS-4.md)  
+- A distillation of the NACA-era thermodynamics to one control volume [ADS-4]({filename}ADS-4.md)  
 
 And programs in the Python programming language are available to reproduce the results in several cases [^2].  
 - naca_arr_5g13.py  
@@ -78,6 +78,9 @@ This is an area for further investigation.
 While LEWICE is a [well validate tool for airfoils](https://ntrs.nasa.gov/citations/19990021235), 
 as noted in ["NACA Publications on Aircraft Icing Cylinders"](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf), 
 the use of LEWICE for rotating cylinders is not recommended. 
+
+The results below are probably using LEWICE for a case that it was not intended for. 
+I present results anyway to illustrate the the differences. 
 
 The NACA-TR-1215 flight cases were run with LEWICE. 
 LEWICE was run in two modes. 
@@ -179,13 +182,16 @@ it is not clear what the implementation differences of the calculation would be.
 
 ![NASA-TM-107141 Figure 10 comparison](images/freezing_fractions/cylinder_freezing_fractions_nasa_tm_107141_table1.png)  
 
-For the NASA-CR-2008-215302, the values agree fairly well. 
+For NASA-CR-2008-215302, the values agree fairly well. 
 
 ![NASA/CR—2008-215302 Figure 3 comparison](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
 ###LEWICE analysis of non-rotating cylinders 
 
 For non-rotating cylinders, the results with LEWICE are mixed. 
+
+Unlike rotating cylinders, LEWICE was apparently intended to be used for non-rotating cylinders, 
+as there is a cylinder example in the LEWICE manual. 
 
 One case had good agreement at the stagnation line, but varying agreement elsewhere:  
 
@@ -197,6 +203,17 @@ Another case did not agree well at the stagnation line, with varying agreement e
 
 Unfortunately, the mass values were not recorded in NASA-TM-107141,
 so we cannot compare the calculated masses to the observed masses. 
+
+Industrious readers are encouraged to run more comparisons, 
+but these two examples are typical in my experience. 
+
+I speculate that analysis methods other than LEWICE will also be challenged for cylinder cases like these. 
+Cylinders have complex aerodynamics, with many cases of interest having separated flow. 
+As we saw in the [Icing on Cylinders thread]({filename}Icing on Cylinders.md), 
+the water impingement values can be accurately calculated with potential flow, 
+which does not include separation, 
+but other flow features, such as surface pressure coefficient and 
+heat transfer coefficients, may be more sensitive. 
 
 ###Airfoil leading edge approximated as a cylinder
 
@@ -212,6 +229,31 @@ but at lower values the scatter is greater than the +/-10% region shown.
 I view this as validation of Uwe von Glahn's assertion that 
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955,
 but it took 50 years to get the measured data. 
+
+###"Ludam Limits"  
+
+Related to the freezing fraction calculation is the "Ludlam Limit", 
+the maximum water catch rate where all available water is frozen. 
+It is often expressed as a "critical" LWC value. 
+
+However, as we saw in the reviews of [Ludlam]({filename}ludlam.md) 
+and [NACA-TR-1215]({filename}NACA-TR-1215-Thermodynamics.md), 
+there are several different "Ludlam Limit" methods that yield different values. 
+
+The values are so disparate that the term Ludlam limit has almost lost meaning. 
+
+![Comparison of "Ludlam limit" values](images/Ludlam/ludlam_comparisons_all.png) 
+
+![Figure 24c calculated Ludlam limits](images/naca-tr-1215/NACA-TR-1215 Figure 24c_critical_plus.png)  
+
+If you need to calculate if all available water is freezing on a surface, 
+be sure that you have validation data for the method applicable to your environment 
+(natural icing, icing wind tunnel) and configuration (rotating cylinder, cylinder, airfoil, other),
+or you may well find large differences between test and analysis values.  
+
+Also note that for natural icing conditions, NACA-TR-1215 presents a critical value, 
+that can be predicted, and run-off values, that can only be determined post-test 
+by comparing the various multicylinder values. 
 
 ##Water drop evaporation  
 
@@ -255,20 +297,28 @@ and acknowledged Hardy's contributions in the text.
 Perhaps we may view Hardy as still having influence, 
 but one layer down in the citations. 
 
+One thing that is common to the NACA-era and the post-NACA era 
+is the influence of Langmuir and Blodgett [^5]. 
+Six of the 14 publications in the Thermodynamics thread cite Langmuir and Blodgett. 
+Recent publications frequently cite Langmuir and Blodgett. 
+
+###Data still used today  
+
 Messinger's model and "extended" Messinger models are used extensively today for icing analysis. 
 The recent publications citing Messinger are too numerous to list here, 
 see an automatically updated listing at [scholar.google.com](https://scholar.google.com/scholar?as_ylo=2021&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&hl=en&as_sdt=0,48)
 (115 results since 2021, sampled on May 15, 2022, it may well grow by the time this post is published). 
 The original publication lacked features such as surface pressure variations that
 some extended models add. 
+
 Note that there are many details in implementing the Messinger model, 
 and different implementations may yield different results 
 (see the discussion of NASA-TM-107141 above). 
 
-One thing that is common to the NACA-era and the post-NACA era 
-is the influence of Langmuir and Blodgett [^5]. 
-Six of the 14 publications in the Thermodynamics thread cite Langmuir and Blodgett. 
-Recent publications frequently cite Langmuir and Blodgett. 
+The single control volume anti-ice calculation method from [ADS-4]({filename}ADS-4.md) is still in use today,
+or at least it has not been deprecated in later design guides such as [^6] and [^7]. 
+However, the wide availability of LEWICE and other 2D and 3D ice protection 
+design tools has largely displaced its use. 
 
 ##Notes: 
  
@@ -281,5 +331,8 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^5]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
+[^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)  
+[^7]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
 
 
