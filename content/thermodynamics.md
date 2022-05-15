@@ -52,15 +52,14 @@ evaporation from wet surfaces.
 ###[NACA-TN-3396, Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions]({filename}NACA-TN-3396.md)  
 >Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.  
 
-<!--
 ###[FAA-ADS-4, Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency]({filename}ads4.md)   
 > A single thermodynamic control volume is used for anti-ice calculations.  
--->
 
 ##Publications to review:  
 
-Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. 
-> A single thermodynamic control volume is used for anti-ice calculations.  
+Conclusions of the Icing Thermodynamics Thread
+>The "Messinger model" and extended Messinger models are prevalent in current icing analysis.  
+
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 

@@ -1,7 +1,6 @@
 title: ADS-4  
 Category: NACA  
 tags: thermodynamics  
-status: draft  
 
 ###_"these calculations, performed at several span stations, can become unnecessarily tedious"_  
 
@@ -140,7 +139,7 @@ Types of ice and shape are also shown and are related to flight and meteorologic
 (This usage is not entirely accurate, as will be discussed later.) It has also been described as "wet adiabatic" and "wet
 air boundary layer" temperature.
 It may be calculated from the equation:  
-![](images/ads4/datum temperature equation.png)  
+![Datum temperature](images/ads4/datum temperature equation.png)  
 
 While it is not cited by ADS-4, the datum temperature concept comes from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^3]. 
 
@@ -151,7 +150,7 @@ It may be seen that a flight speed of 300 kt. will produce a 32 F datum temperat
 ambient, but that at 0 F a speed of 485 knots is needed.
 This graph may be used as a guide in determining whether a particular combination of flight speed and 
 ambient temperature is likely to represent a potential icing problem.  
-![](images/ads4/Figure2-31.png)  
+![Figure 2-31](images/ads4/Figure2-31.png)  
 
 >An exact account of the heat balance on an unheated, insulated icing surface
 way be found in Ref. 2-27.

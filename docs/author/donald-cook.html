@@ -22,15 +22,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/icing-thermodynamics.html">Icing Thermodynamics</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/ads-4.html">ADS-4</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.995089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T16:20:25.324504-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.995089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T16:20:25.324504-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -44,82 +44,538 @@
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
 
-</footer><!-- /.post-info --><p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png">  </p>
-<h1>Icing Thermodynamics Thread</h1>
-<p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
-<p>There may be some overlap with ice protection systems, 
-but the systems will not be detailed herein.  </p>
-<h3>NACA-ARR-5G13, <a href="https://icinganalysis.github.io/naca-arr-5g13.html">Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."</a></h3>
+</footer><!-- /.post-info --><h3><em>"these calculations, performed at several span stations, can become unnecessarily tedious"</em></h3>
+<h1>ADS-4, “Engineering Summary of Airframe Icing Technical Data” <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 3-1" src="images/ads4/Figure3-1.png">  </p>
+<h2>Summary</h2>
+<p>A single thermodynamic control volume is used for anti-ice calculations. </p>
+<h2>Key points</h2>
+<ol>
+<li>Ice shapes are classified (glaze, rime).  </li>
+<li>A single thermodynamic control volume is used for anti-ice calculations.  </li>
+<li>NACA icing publications are extensively used.  </li>
+</ol>
+<h2>Abstract</h2>
 <blockquote>
-<p>Psychrometric equations are presented to calculate the thermal effects of 
-evaporation from wet surfaces.  </p>
+<p>This report provides, in a single reference document, an engineering summary
+of selected technical data on airframe icing conditions, methods of detecting,
+preventing, and removing ice from airframes in flight, and methods of testing
+ice protection systems to ensure their adequacy.
+An aircraft engineer can use
+this report to design adequate ice protection systems for any type aircraft for
+any flight mission profile.<br>
+The work done in preparing this report covered a survey, study, analysis,
+and summary of the vast amount of technical literature on airframe icing
+available in the world today.
+Key technical data on airframe icing was selected
+and summarized for the report.
+Results of the work provide a design engineer
+with the following:<br>
+a. Complete statistical data on the earth's icing weather conditions that can be used as design criteria for airframe ice protection systems.<br>
+b. An explanation of the physics of airframe ice collection.<br>
+c. A discussion of known methods of airframe ice protection, and formulas and data to be used in their design.<br>
+d. Selected specific applications of ice protection systems to conventional aircraft airframes.<br>
+e. Data on known methods and systems for detection of airframe icing.<br>
+f. Various methods of testing ice protection systems and aircraft for adequacy.</p>
+<p>This technical report is an adequate single reference document for airframe
+design engineers to use in designing airframe ice protection systems.
+New and
+different airframe protection systems, methods, and test procedures that are
+as good or better than those given here may exist and certainly will exist in the
+future.
+The adequacy of the ice protection system on each type of aircraft must be
+proved in the mission icing environment the design engineer established for the
+aircraft.</p>
 </blockquote>
-<h3>NACA-TR-831, <a href="https://icinganalysis.github.io/naca-tr-831.html">An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane</a></h3>
+<h2>Discussion</h2>
+<p>ADS-4 was published after the NACA era, but it was included in Uwe von Glahn's <a href="https://icinganalysis.github.io/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">"Selected Bibliography of NACA-NASA Icing Publications"</a>.
+ADS-4 relied heavily on NACA icing publications, 
+and more than half of the citations in the sections reviewed below were NACA icing publications. </p>
+<p>There is much to see here, as ADS-4 is long (483 pages). 
+This review will focus on the thermodynamic aspects (only) of Section 2, "Physics of Ice Collection", 
+and Section 3, "Methods of Ice Protection".</p>
+<p>Note: the quality of the images from the online document is variable. 
+Scanned text often required manual cleanup. 
+I have done some straightening of the images herein. </p>
+<h3>Physics of Ice Collection</h3>
 <blockquote>
-<p>Two dimensional heat balance equations for ice protection are detailed.  </p>
+<p>2.1 SUMMARY<br>
+Ice can form on aircraft forward surfaces during flight through clouds at temperatures below freezing.
+For a given icing condition (as defined in Section 1), 
+the rate and extent of ice accumulation is a function of flight speed 
+and airfoil or body geometry.
+This section of the report presents the formulas ard tabulations
+of impingement data that will allow calculation of ice accretion rate and extent
+for a large number of airfoils and geometric bodies.
+The ice collection rate for nearly any object can be approximated from the data presented.
+These values are needed for the design of the various types of ice protection systems, or to
+consider the effects of ice accretion if the surface is not protected.  </p>
+<p>2.2 INTRODUCTION
+Ice may form on the unheated forward facing surfaces of an aircraft flying
+through clouds of supercooled water droplets.
+At low temperature, the water droplets freeze immediately on impact with airfoil leading edges, forming rime ice (Figure 2-1 from Ref. 2-1).
+At higher temperatures, the water droplets
+may flow over the surface for a short distance before freezing, resulting in
+glaze ice (Figure 2-1b). The size, shape and extent
+of ice formation depends
+on the cloud liquid water content, the drop size and temperature,
+the flight
+speed and angle of attack, airfoil or body geometry, and duration of the icing
+encounter.</p>
 </blockquote>
-<h3>NACA-TN-1472, <a href="https://icinganalysis.github.io/naca-tn-1472.html">The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions</a></h3>
+<p>The image quality of ADS-4 Figure 2-1 is poor, so I will not reproduce it here.
+Instead, here is the more legible, original Figure 11 from "The Icing Problem" ("Ref. 2-1") <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.
+<img alt="Typical Ice Formations" src="images/ads4/von Glahn Figure 11.png">  </p>
+<p>Perhaps surprisingly, this is one of the few images of ice 
+from all of the NACA icing publications. </p>
 <blockquote>
-<p>Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.  </p>
+<p>Equations and methods of determining ice shapes on unprotected airframe
+components are shown.
+The flight speeds above which icing will not occur are
+shown versus ambient temperature.
+Typical ice shapes are also shown, as
+well as plots to define the three basic types of ice accretion in terms of flight
+speed, ambient temperature, liquid water content and droplet size.
+The terms used in this report to describe the three types of ice are glaze,
+intermediate and rime. The terms are in common use in icing literature and
+by icing research and design engineers.
+The terminology commonly used by
+aircraft pilots in reporting ice may differ; the following tabulation may help
+clarify the discrepancies:</p>
 </blockquote>
-<h3><a href="https://icinganalysis.github.io/ludlam.html">Ludlam, F. H.: The Heat Economy of a Rimed Cylinder</a></h3>
-<blockquote>
-<p>Various "Ludlam Limits" have been implemented, but they produce different results.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/messinger.html">Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed</a></h3>
-<blockquote>
-<p>The term "freezing fraction" is defined.  </p>
-</blockquote>
-<h3>NACA-TN-2799, <a href="https://icinganalysis.github.io/naca-tn-2799.html">Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing</a></h3>
-<blockquote>
-<p>Simplified ice protection equations allow graphical solutions.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-2914.html">NACA-TN-2861, Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow</a>, and</h3>
-<h3><a href="https://icinganalysis.github.io/naca-tn-2914.html">NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions</a></h3>
-<blockquote>
-<p>The warmest ambient temperature at which ice can accumulate is calculated.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/fraser.html">Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments</a></h3>
-<blockquote>
-<p>The term "freezing fraction" is defined (but probably not the one that you expected).  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-3024.html">NACA-TN-3024, Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions</a></h3>
-<blockquote>
-<p>Less that 1% of drops evaporate approaching an obstacle for most cases. </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-3045.html">NACA-TN-3045, Analogy Between Mass and Heat Transfer with Turbulent Flow</a></h3>
-<blockquote>
-<p>For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.   </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-3104.html">NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer</a></h3>
-<blockquote>
-<p>Sublimation rates at Mach 1.3 are measured. </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tr-1215-thermodynamics.html">NACA-TR-1215, Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method</a></h3>
-<blockquote>
-<p>Ludlam limits for rotating cylinders are compared.  </p>
-</blockquote>
-<h3><a href="https://icinganalysis.github.io/naca-tn-3396.html">NACA-TN-3396, Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions</a></h3>
-<blockquote>
-<p>Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.  </p>
-</blockquote>
-<!--
-###[FAA-ADS-4, Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency]({filename}ads4.md)   
-> A single thermodynamic control volume is used for anti-ice calculations  
--->
+<div class="highlight"><pre><span></span><code>Ice Designation                  Ice Description
 
-<h2>Publications to review:</h2>
-<p>Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964. </p>
+Icing Literature  Pilots         
+----------------  ------
+--                Glaze      Smooth film of ice covering leading edge 
+                             at temperatures just below freezing.
+
+Glaze             Mushroom   Double-horn ice formations, hard clear
+                             ice with rapid growth rate.
+
+Intermediate      --         Combination of glaze and rime ice; glaze
+                             in forward areas, rime in aft areas.
+
+Rime              Spearhead  Milky white appearance, lower density
+                             ice with a relatively streamlined shape.
+</code></pre></div>
+
 <blockquote>
-<p>A single thermodynamic control volume is used for anti-ice calculations  </p>
+<p>2.5.1 ICING LIMIT AND TYPES OF ICE AS A FUNCTION OF FLIGHT CONDITIONS -<br>
+The following discussion presents information on characteristic ice shapes and means of determining the type of ice shape associated with
+various combinations of airspeed and icing conditions.
+The temperature of an airfoil exposed to icing conditions is a complex function of airspeed, liquid water content, ambient temperature and altitude.
+shape and type of ice (if any) that forms is dependent on the surface temperature. 
+In this section of the report, equations for calculating surface temperature are presented, as well as typical results.
+Types of ice and shape are also shown and are related to flight and meteorological conditions.</p>
+<p>The "datum temperature" has been widely used to represent the temperature of an unheated surface in icing. 
+(This usage is not entirely accurate, as will be discussed later.) It has also been described as "wet adiabatic" and "wet
+air boundary layer" temperature.
+It may be calculated from the equation:<br>
+<img alt="Datum temperature" src="images/ads4/datum temperature equation.png">  </p>
 </blockquote>
-<p><img alt="C-46 Lab Test Article" src="images/C-46lab.jpg"> </p>
-<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>                </article>
+<p>While it is not cited by ADS-4, the datum temperature concept comes from <a href="https://icinganalysis.github.io/naca-arr-5g13.html">NACA-ARR-5G13</a> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
+<blockquote>
+<p>Solution of this equation is shown In Figure 2-31 for flight speeds up to 800 kt., 
+ambient temperatures of -20 to 30 F, and an altitude of 10,000 ft. 
+Curves for sea level and 20,000 ft. are shown in Section 3 (Figure 3-8).
+It may be seen that a flight speed of 300 kt. will produce a 32 F datum temperature at 20 F
+ambient, but that at 0 F a speed of 485 knots is needed.
+This graph may be used as a guide in determining whether a particular combination of flight speed and 
+ambient temperature is likely to represent a potential icing problem.<br>
+<img alt="Figure 2-31" src="images/ads4/Figure2-31.png">  </p>
+<p>An exact account of the heat balance on an unheated, insulated icing surface
+way be found in Ref. 2-27.
+Typical curves of surface temperature versus free
+stream velocity are shown in Figure 2-32, and are compared with the temperatures 
+in clear air and those calculated by the "datum temperature" equation.
+At the lower speeds, release of heat of fusion (as the water freezes) can result
+in temperatures in excess of dry air total temperature.
+At 32 F, a region exists
+where the water catch is completely frozen (n = 1), partly frozen, or all in
+liquid form (n = 0).
+(The freezing fraction, n, is defined in Ref. 2-27 as that
+part of the water catch that freezes in the region where it impinges.) At the
+higher speeds, the equilibrium surface temperature is not greatly different from
+the "datum" temperature.
+<img alt="Figure 2-32" src="images/ads4/Figure2-32.png">  </p>
+</blockquote>
+<p>Ref. 2-27 is <a href="https://icinganalysis.github.io/messinger.html">Messinger</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. </p>
+<blockquote>
+<p>It should be noted that the method of Ref. 2-27 is based upon an insulated
+surface (no chordwise heat flow).
+This is true for a plastic radome or fiberglass leading edge as well as 
+for a titanium or steel leading edge. However,
+an aluminum-skinned airfoil will transfer heat chordwise and the surface
+temperature at the lower speeds may be fairly close to the "datum" temperature.
+It may be seen from the preceding data that relatively high speeds are
+needed to preclude the formation of ice, and that aircraft with low operating
+speeds will experience icing much more frequently than higher speed aircraft.
+The type of ice that forms and its shape are a function of speed, liquid
+water content and temperature.
+intermediate and rime.
+Ice shapes are generally classified as glaze,
+A correlation of ice shape is shown in Figures 2-33
+through 2-35 in terms of liquid water content, ambient temperature and flight
+speed.</p>
+</blockquote>
+<p><img alt="Figure 2-33" src="images/ads4/Figure2-33.png"><br>
+<img alt="Figure 2-34" src="images/ads4/Figure2-34.png"><br>
+<img alt="Figure 2-35" src="images/ads4/Figure2-35.png">  </p>
+<p>The file "ads4.py" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> reproduces the values well:</p>
+<p><img alt="Figure 2-35 calculated values" src="images/ads4/ADS-4_figure2-35.png">  </p>
+<blockquote>
+<p>This correlation was obtained from an analysis by Dickey (Ref. 2-28),
+using the "freezing fraction" concept developed by Messinger (Ref. 2-27).
+The
+specific values shown are based on the stagnation line of a two-inch cylinder
+(insulated) with a drop size of 15 microns.
+An aluminum-skinned airfoil would
+tend to accumulate rime and intermediate glaze-rime ice at slightly higher
+temperatures than shown, because of the conduction of heat away from the area
+of high water catch (and release of heat of fusion).
+The plots of Figures 2-33
+through 2-35 can be used as a guide in determining the probable type of ice
+formed for various flight and icing conditions.
+These curves have not been
+validated by experiment over the complete range of parameters shown; therefore, 
+caution and judgment must be exercised in their use.
+In general terms, it can be stated that rime ice is likely to occur at total
+air temperatures of about 10 F and below, while glaze ice usually occurs at
+total temperatures of 25 to 32 F.
+Between 10 and 25 F, a glaze-rime formation will usually occur, with clear glaze ice at the stagnation region, and 
+milky-white rime ice in the aft regions.</p>
+<p>2.5.2<br>
+GLAZE ANID RIME ICE SHAPES FOR VARIOUS AIRFOILS AND BODIES OF REVOLUTION - 
+The shape of ice formation is of particular interest
+in the case of unprotected airframe components.
+Flight tests are often made
+with simulated ice shapes on developmental aircraft to determine the need for
+protecting these components.
+In this case, the ice shape must be determined
+by a combination of analysis and reference to existing data an ice shapes from
+both wind tunnel and flight tests.  </p>
+<p>Although a large number of photographs are available of ice shapes on unheated bodies, 
+very few actually show cross-sections of the ice, or give critical
+dimensions (maximum thickness, extent, etc).
+Several photographs and sketches
+from Ref. 2-29 and 2-30 are shown in Figures 2-36 through 2-40 to illustrate
+glaze, intermediate and rime ice deposits.
+Cross-sections of ice on a four per
+cent airfoil are shown in Figure 2-36.
+Rime ice forms in a manner that is easily
+predictable; that is, the drops freeze on impact and the resulting ice shape has
+the same form as would be predicted by the droplet impingement data shown previously.
+The rate of growth is generally linear for rime ice, because the ice
+shape does not alter the flow field significantly.
+The glaze ice exhibits tthe typical "double horn" shape, 
+that results from water flow in the stagnation region.
+As the ice increases in size, the aft regions are sheltered from impingement so
+that virtually all the water is deposited a the stagnation region.
+The exact shape
+of glaze ice is difficult to predict; however, most glaze ice shapes will be similar
+to those of Figures 2-36 and 2-37.
+Rate of growth for glaze ice may be nonlinear
+(increasing with time in icing) because the ice affects the flow field.
+This is
+particularly true for thin airfoils at low angle of attack (See Ref. 2-29).
+This factor should be considered in predicting ice shapes on unheated airfoils.</p>
+</blockquote>
+<p><img alt="Figure 2-36" src="images/ads4/Figure2-36.png">  </p>
+<p>The image quality of Figures 2-37 to 2-40 are so poor that they are not worth reproducing here. </p>
+<blockquote>
+<p>On highly swept airfoils, glaze ice tends to form as a series of discontinuous cup shapes.
+A comparison of ice shapes for various sweep angles is
+shown in Figure 2-40.</p>
+<p>The ice shapes shown are based upon maintaining angle of attack (as well
+as other parameters) constant throughout the icing encounter.
+This is a reasonable assumptton for current turbine aircraft 
+which have a large power reserve at the lower speeds where icing is most likely to occur.
+Aircraft powered
+by piston engines may not have adequate power to maintain airspeed as drag
+increases in icing.
+In this case, speed is reduced and the angle of attack is increased.
+Analysis of ice shapes on unprotected surfaces should consider
+this change in angle of attack when it is applicable.<br>
+A correlation of ice shape and drag effects with impingement parameters
+has been published as an SAE paper (Ref. 2-31).
+The report contains significant and useful data; 
+however, the correlations shown are entirely empirical.
+It is believed that the correlations should be further qualified before they are
+used for design purposes. </p>
+</blockquote>
+<h3>Methods of Ice Protection</h3>
+<p>We previously reviewed <a href="https://icinganalysis.github.io/naca-tn-2799.html">NACA-TN-2799</a> <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, 
+and it was noted that it did not include how to determine heat transfer coefficients. 
+Methods for that are provided in ADS-4. </p>
+<blockquote>
+<p>3.1 SUMMARY<br>
+If a need for ice protection has been established for an airframe, then the depth
+or degree of protection that is desired or can be provided must be established.
+Areas that may require ice protection are presented in Figure 3-1. 
+Several degrees of ice protection are possible.
+First is de-icing, in which ice accretion 
+is permitted on the protected surface and then removed periodically.
+Second is running wet anti-icing, in which moisture is prevented by some means
+from freezing on the surface.
+This moisture may run back beyond the protected
+surface and freeze (commonly called runback ice).<br>
+Third is evaporative or dry
+anti-icing, in which all moisture impinging upon the surface is evaporated with
+no runback.<br>
+These various degrees of ice protection may be provided by pneumatic
+de-icers, fluid freezing point depressants, and thermal-hot gas and thermal-electric systems.<br>
+This section of the report will describe the various ice protection systems
+and will present methods of determining the requirements placed on the systems 
+to provide a particular degree of ice protection.
+<img alt="Figure 3-1" src="images/ads4/Figure3-1.png">  </p>
+<p>3.5 THERMAL ANTI-ICING <br>
+3.5.1 DESCRIPTION -<br>
+Thermal anti-icing systems use heat to maintain the
+temperature of the surface to be protected above freezing throughout an icing
+encounter. Thermal anti-icing systems are classified as evaporative and running wet. 
+Evaporative systems, as the name implies, supply sufficient heat to
+evaporate all water droplets impinging upon the heated surface.
+The running
+wet systems, however, provide only enough heat to prevent freezing upon the
+heated surface.
+Beyond the heated surface of a running wet system, the water
+could freeze (generally called runback ice).
+For this reason, running wet systems must be used carefully 
+so as not to permit runback ice buildup in critical
+locations.
+For example, the heated surface of a running wet system on a
+turboprop or turbojet inlet should extend into the inlet to the compressor face
+so that the water runoff will combine with the intake air and not strike cold
+surfaces where it could refreeze, break off, and possibly damage the engine.</p>
+<p>Basically, two sources of heat for thermal anti-icing are used in aircraft:
+electrical heaters and hot air. For anti-icing, the heat source must remain on
+throughout the icing encounter. Areas ot an aircraft that may be afforded thermal 
+ice protection are included in Figure 3-1.
+Of these areas, the windshield
+is always given anti-ice protection while the remainder of the areas may be
+given anti-icing or de-icing protection, depending on the power available for
+ice protection and the effects of ice accretion on the aircraft.</p>
+<p>3.5.2
+REQUIREMENTS - Equations expressing heat transfer and evaporation
+from wetted surfaces during icing encounters have been used to develop a graphical solution for the determination of heat required for anti-icing (Ref. 3-4).
+Figures 3-18a and 3-18b are presented for this purpose.
+<img alt="Figure 3-18a" src="images/ads4/Figure3-18a.png"><br>
+<img alt="Figure 3-18b" src="images/ads4/Figure3-18b.png">  </p>
+</blockquote>
+<p>"Ref. 3-4" was reviewed previously at <a href="https://icinganalysis.github.io/naca-tn-2799.html">NACA-TN-2799</a> <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.  </p>
+<blockquote>
+<p>Preparatory to using
+these figures, the local heat transfer coefficient and rate of water catch (MW)
+must be determined.<br>
+To determine the local heat transfer on an airfoil, the following three
+equations may be used:<br>
+a. Heat transfer coefficient for a cylinder (hcy) of the same radius as the
+leading edge of the airfoil.<br>
+<img alt="Equation hcy" src="images/ads4/hcyl.png"><br>
+b. Heat transfer coefficient for laminar flow over a flat plate (hlp) to the
+chordwise extent of the heated surface .
+<img alt="Equation hlp" src="images/ads4/hlp.png"><br>
+c. Heat transfer coefficient for turbulent flow over a flat plate to the
+chordwise extent of the heated surface
+<img alt="Equation htp" src="images/ads4/htp.png">  </p>
+</blockquote>
+<p>"Ref. 3-7" is NACA-TN-2866 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.  </p>
+<blockquote>
+<p>A typical plot of these heat transfer coefficients is presented in Figure 3-19
+for a specific altitude and airspeed.
+The transitions from flat plate laminar to
+flat plat turbulent are only estimates, as the location of the transition region
+will vary with surface roughness, airfoil shape and angle of attack.
+Transition
+will usually start at a Reynolds Number of .5 to 2 x 10^6 and the flow will be fully
+turbulent at a Reynolds Number of 2 to 4 x 10^6.<br>
+These equations may be used to determine the heat required per unit area
+along the chord.
+On tapered and swept-back airfoil, these calculations, performed at several span stations, 
+can become unnecessarily tedious.
+In practice,
+the heat transfer coefficients for a span station are plotted as in Figure 3-19
+and an average value assumed for that station.
+This average value (ha) is then
+used to enter Figures 3-18a and 3-18b to determine the anti-icing heat requirements.
+This assumption of an average value of heat transfer coefficient has a
+percentage of error in the same order of magnitude as the assumptions made
+in the meteorological variables.<br>
+<img alt="Figure 3-19" src="images/ads4/Figure3-19.png">  </p>
+</blockquote>
+<p>In many situations, "engineering judgement" would have to be applied 
+to find the "average value assumed" of disparate values like those shown above. </p>
+<blockquote>
+<p>The water catch rate (Mw) is obtained by dividing the water catch (Wm) by
+the heated area per foot of span for each spanwise position (see Section 2 and
+the example in Section 4). For a completely evaporative system, the rate of
+evaporation of water (Mev) must equal the rate of water catch (Mw). With this
+knowledge, the following equation may be solved for
+<img alt="Figure 3-19" src="images/ads4/tau3.png"><br>
+where K is the surface wettness fraction which is assumed to be 1.0 in the
+impingement region and 0.20 to 0.25 beyond the impingement region.</p>
+</blockquote>
+<p>While it is not cited by ADS-4, I believe that the 0.2 to 0.25 surface wettedness value came from 
+NACA-TN-2480 [^8], Figure 7:  </p>
+<p><img alt="Figure 3-19" src="images/ads4/NACA-TN-2480Figure7.png">  </p>
+<blockquote>
+<p>With τ3,
+Figure 3-18b is entered with po to find ts.
+<img alt="Figure 3-19" src="images/ads4/Equation3_5_2.png"><br>
+If designing for a running wet system, the surface temperature (ts) is
+assumed to be some value above freezing (such as 35F, and
+τ3 is found graphically. The next steps are the graphical solution for τ1 through τ5 using Figures
+3-18a and 3-18b and the solution of Equation 3.5.2 for the heat transfer rate at
+each spanwise position.
+The heat transfer rate (q) may then be plotted versus spanwise position to
+obtain heating distribution requirements.
+Typical values for a wing are from
+2,5000 to 5,5000 [sic] BTU/hr.-ft. span.</p>
+</blockquote>
+<p>I believe that what was intended above is "2500 to 5500 BTU/hr.-ft.span". </p>
+<h2>Conclusions</h2>
+<p>From a current perspective, there were surprisingly few ice shapes recorded in the NACA era. 
+There will be considerable development of ice shape test and analysis methods in the post-NACA era. </p>
+<p>This use of an averaged heat transfer coefficient and a single, averaged control volume gets perpetuated in later sources such as 
+the SAE Aerospace Applied Thermodynamics Manual <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">8</a></sup>. </p>
+<p>The Aircraft Icing Handbook <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">9</a></sup> incorporates large portions of ADS-4. </p>
+<h2>Citations</h2>
+<p>Section 2 cites 31 publications, 19 of which are NACA publications. </p>
+<ul>
+<li>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.    </li>
+<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  </li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  </li>
+<li>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.    </li>
+<li>Sogin, H. H.: A Design Manual for Thermal Anti-Icing Systems. WADC TR 54-313, December 1954.  </li>
+<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  </li>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  </li>
+<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  </li>
+<li>Torgeson, W. L., and Abramson, A. E.: A Study of Heat Requirements for Anti-Icing Radome Shapes with Dry and Wet Surfaces. WADC Tech. Rep. 53-284, Wright Air Dev. Center, Wright-Patterson Air Force Base, Sept. 1953. (Contract AF 33(616)-85, RDO No. 664-802.)  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  </li>
+<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  </li>
+<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  </li>
+<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
+<li>Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  </li>
+<li>Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  </li>
+<li>Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  </li>
+<li>Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  </li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
+<li>Weiner, Frederick R.: Use of the Ko Correlation in Preliminary Design and Scale Model Icing. NA-63-303, North American Aviation, Inc. (Presented at Spring Meeting of Aircraft Air-Conditioning Forum, Los Angeles, California, March 21, 1963).  </li>
+<li>Dewinnell, J. H.: Principles of Aerodynamics. McGraw-Hill, 1949.  </li>
+<li>Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  </li>
+<li>von Mises, Richard: Theory of Flight. McGraw-Hill, 1945.  </li>
+<li>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  </li>
+<li>Dickey, Thomas A.: An Analysis of the Effects of Certain Variables in Determining the Form of an Ice Accretion. AEL 1206, April 1952 (presented at Mt. Washington Spring Planning Conference, Engineering Laboratory, Naval Air Experimental Station, 29 May 1952).  </li>
+<li>Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  </li>
+<li>Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  </li>
+<li>Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  </li>
+</ul>
+<p>Section 3 cites 17 publications, 9 of which are NACA publications.  </p>
+<ul>
+<li>Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  </li>
+<li>Anon.: De-Icing System, Pneumatic Boot, Aircraft, General Specification for. Mil Spec. MIL-D-8804A, 14 June 1956.  </li>
+<li>Anon.: Spray Equipment, Aircraft Windshield, Anti-Icing. Mil Spec. MIL-8-6625A, Oct. 1951  </li>
+<li>Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  </li>
+<li>Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  </li>
+<li>Tanner,  D. C.: Fluid De-Icing. (paper presented at 1961 Aircraft Ice Protection Conference, D. Napier &amp; Son, Ltd.).  </li>
+<li>Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  </li>
+<li>Anon.: Anti-Icing Equipment for Aircraft, Heated Surface Type, General Specification for. Mil Spec. MIL-A-9482, 15 Dec. 1947, amended 10 June 1955, 1955.  </li>
+<li>Anon.: Transparent Areas, Anti-Icing Defrosting and Defogging Systems, General Specifications for. Mil Spec. MIL-T-5842A, 1 Sept. 1950.  </li>
+<li>Sogin, H. H.: A Design Manual for Thermal Anti-Icing Systems. WADC TR 54-313, December 1954.  </li>
+<li>Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  </li>
+<li>Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  </li>
+<li>Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Blade Heaters. NACA-TN-1691, 1948.  </li>
+<li>Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  </li>
+<li>Johnson, H. C., and  Johnson, E. G.: Study of Limited Type Ice Removal and Prevention Systems (Mechanical Phase). WADC Technical Report 55-262, Research Inc., April 1955.  </li>
+<li>Meyer, W. R., and Foley, E. F., Jr.,: Ice Adhesion Tests on Films of Organic Polar Materials. WADC Technical Report 56-591, March 1957.  </li>
+<li>Trunov, O. K., and Egorov, M. S.: Some Results of Experimental Flights in Natural Icing Conditions and Operation of Aircraft Thermal Ice Protection. (paper presented at 1960 Aircraft Ice Protection Conference, D. Napier and Son, Ld.).  </li>
+</ul>
+<p>An online search <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">10</a></sup> found 65 citations of ADS-4 in the literature.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 <a href="https://apps.dtic.mil/sti/citations/AD0608865">ADS-4</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>“Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>“Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf <br>
+Also note that there was a perhaps little known update in 1993: https://apps.dtic.mil/sti/pdfs/ADA276499.pdf&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Engineering+Summary+of+Airframe+Icing+Technical+Data&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/icing-thermodynamics.html" rel="bookmark"
+                           title="Permalink to Icing Thermodynamics">Icing Thermodynamics</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T16:19:29.741468-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T16:19:29.741468-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png">  </p>
+<h1>Icing Thermodynamics Thread</h1>
+<p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
+<p>There may be some overlap with ice protection systems, 
+but the systems will not be detailed herein.  </p>
+<h3>NACA-ARR-5G13 …</h3>
+                <a class="readmore" href="https://icinganalysis.github.io/icing-thermodynamics.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -129,13 +585,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.995089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.331149-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.995089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.331149-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -167,13 +623,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -206,13 +662,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -245,13 +701,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -281,13 +737,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -320,13 +776,13 @@ evaporation from wet surfaces.  </p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -358,13 +814,13 @@ Avoid modules with deprecation …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.991089-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:01.327148-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.991089-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:01.327148-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -407,13 +863,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -449,13 +905,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -487,13 +943,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -529,13 +985,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -565,13 +1021,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -598,661 +1054,19 @@ several areas of aircraft icing, including:</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
-                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
-                           title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/army-air-force.html">Army Air Force</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."</h3>
-</blockquote>
-<h2>Summary</h2>
-<p>Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-arr-5g13.html" rel="bookmark"
-                           title="Permalink to NACA-ARR-5G13">NACA-ARR-5G13</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3><em>"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"</em></h3>
-<h1>"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-arr-5g13.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-rm-a9c09.html" rel="bookmark"
-                           title="Permalink to NACA-RM-A9C09">NACA-RM-A9C09</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</h3>
-<h1>"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary …</h2>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-rm-a9c09.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-rm-e53d23.html" rel="bookmark"
-                           title="Permalink to NACA-RM-E53D23">NACA-RM-E53D23</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"</h3>
-</blockquote>
-<h1>"Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 1 - Rotating mulicylinder set extended through top of airplane fuselage." src="images/naca-rm-e53d23/Figure1.png"></p>
-<h2>Summary</h2>
-<p>Detailed procedures …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-rm-e53d23.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1393.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
-</blockquote>
-<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>A …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1393.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1424.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."</h3>
-</blockquote>
-<h1>"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>The value of the mutlicylinder data for determining drop size …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1424.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1472.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1472">NACA-TN-1472</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"</em></h3>
-</blockquote>
-<h1>"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 7" src="images/naca-tn-1472/Figure7.png"> </p>
-<h2>Summary</h2>
-<p>Natural icing flight tests with an instrumented test …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1472.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-1904.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1904">NACA-TN-1904</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"</h3>
-</blockquote>
-<h1>"Observations of Icing Conditions Encountered in Flight During 1948" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Key points</h2>
-<ol>
-<li>The average liquid water content varies over distance traveled in icing …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1904.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-2708.html" rel="bookmark"
-                           title="Permalink to NACA-TN-2708">NACA-TN-2708</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3>"...At low airspeeds and with large cylinders, the determination should be relatively good."</h3>
-<h1>"Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Summary</h2>
-<p>Multicylinder instruments had good agreement for liquid water content and median effective drop diameter …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2708.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-2799.html" rel="bookmark"
-                           title="Permalink to NACA-TN-2799">NACA-TN-2799</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."</em></h3>
-</blockquote>
-<h1>"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing." src="images/naca-tn-2799/Figure1.png"> </p>
-<blockquote>
-<p>Figure 1. - Graphical solution of anti-icing heat and mass …</p></blockquote>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2799.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-2903.html" rel="bookmark"
-                           title="Permalink to NACA-TN-2903">NACA-TN-2903</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."</h3>
-</blockquote>
-<h1>"Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"</h1>
-<h2>Summary</h2>
-<p>The effect of the compressibility …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2903.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-2904.html" rel="bookmark"
-                           title="Permalink to NACA-TN-2904">NACA-TN-2904</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."</h3>
-</blockquote>
-<h1>"Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2904.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-2914.html" rel="bookmark"
-                           title="Permalink to NACA-TN-2914">NACA-TN-2914</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"</em></h3>
-</blockquote>
-<h1>NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p>and </p>
-<h1>NACA-TN-2914 "A Method for Rapid …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2914.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-3024.html" rel="bookmark"
-                           title="Permalink to NACA-TN-3024">NACA-TN-3024</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."</em></h3>
-</blockquote>
-<h1>"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 1. Motional relationships among air-stream, droplet, and obstacle." src="images/naca-tn-3024/Figure1.png">  </p>
-<h2>Summary</h2>
-<p>Less that 1% of drops evaporate approaching …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3024.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-3045.html" rel="bookmark"
-                           title="Permalink to NACA-TN-3045">NACA-TN-3045</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3><em>"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"</em></h3>
-<h1>"Analogy Between Mass and Heat Transfer with Turbulent Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 2." src="images/naca-tn-3045/Figure2.png">  </p>
-<h2>Summary</h2>
-<p>For turbulent flow on a flat plate, ke/kh is about 1.1 to …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3045.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-3104.html" rel="bookmark"
-                           title="Permalink to NACA-TN-3104">NACA-TN-3104</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"</em></h3>
-</blockquote>
-<h1>"Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>
-<h2>Abstract</h2>
-<blockquote>
-<p>An …</p></blockquote>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3104.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/naca-tn-3338.html" rel="bookmark"
                            title="Permalink to NACA-TN-3338">NACA-TN-3338</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1282,13 +1096,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1319,13 +1133,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1357,13 +1171,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1395,13 +1209,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1433,13 +1247,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1469,13 +1283,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1506,13 +1320,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.551086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.887007-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.551086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.887007-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1543,13 +1357,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1585,13 +1399,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1622,13 +1436,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1658,13 +1472,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1711,13 +1525,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1744,19 +1558,661 @@ are implemented in the Python programming …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
+                           title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/army-air-force.html">Army Air Force</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."</h3>
+</blockquote>
+<h2>Summary</h2>
+<p>Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-arr-5g13.html" rel="bookmark"
+                           title="Permalink to NACA-ARR-5G13">NACA-ARR-5G13</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"</em></h3>
+<h1>"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-arr-5g13.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-rm-a9c09.html" rel="bookmark"
+                           title="Permalink to NACA-RM-A9C09">NACA-RM-A9C09</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3>"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."</h3>
+<h1>"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary …</h2>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-rm-a9c09.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-rm-e53d23.html" rel="bookmark"
+                           title="Permalink to NACA-RM-E53D23">NACA-RM-E53D23</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"</h3>
+</blockquote>
+<h1>"Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1 - Rotating mulicylinder set extended through top of airplane fuselage." src="images/naca-rm-e53d23/Figure1.png"></p>
+<h2>Summary</h2>
+<p>Detailed procedures …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-rm-e53d23.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1393.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"</h3>
+</blockquote>
+<h1>“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>A …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1393.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1424.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."</h3>
+</blockquote>
+<h1>"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</h1>
+<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2>Summary</h2>
+<p>The value of the mutlicylinder data for determining drop size …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1424.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1472.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1472">NACA-TN-1472</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"</em></h3>
+</blockquote>
+<h1>"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 7" src="images/naca-tn-1472/Figure7.png"> </p>
+<h2>Summary</h2>
+<p>Natural icing flight tests with an instrumented test …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1472.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-1904.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1904">NACA-TN-1904</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> <a href="https://icinganalysis.github.io/tag/natural-icing.html">natural icing</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"</h3>
+</blockquote>
+<h1>"Observations of Icing Conditions Encountered in Flight During 1948" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Key points</h2>
+<ol>
+<li>The average liquid water content varies over distance traveled in icing …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-1904.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2708.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2708">NACA-TN-2708</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3>"...At low airspeeds and with large cylinders, the determination should be relatively good."</h3>
+<h1>"Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>Multicylinder instruments had good agreement for liquid water content and median effective drop diameter …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2708.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2799.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2799">NACA-TN-2799</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."</em></h3>
+</blockquote>
+<h1>"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing." src="images/naca-tn-2799/Figure1.png"> </p>
+<blockquote>
+<p>Figure 1. - Graphical solution of anti-icing heat and mass …</p></blockquote>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2799.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2903.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2903">NACA-TN-2903</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."</h3>
+</blockquote>
+<h1>"Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"</h1>
+<h2>Summary</h2>
+<p>The effect of the compressibility …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2903.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2904.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2904">NACA-TN-2904</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."</h3>
+</blockquote>
+<h1>"Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2904.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-2914.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2914">NACA-TN-2914</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"</em></h3>
+</blockquote>
+<h1>NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p>and </p>
+<h1>NACA-TN-2914 "A Method for Rapid …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-2914.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-3024.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3024">NACA-TN-3024</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."</em></h3>
+</blockquote>
+<h1>"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. Motional relationships among air-stream, droplet, and obstacle." src="images/naca-tn-3024/Figure1.png">  </p>
+<h2>Summary</h2>
+<p>Less that 1% of drops evaporate approaching …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3024.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-3045.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3045">NACA-TN-3045</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"</em></h3>
+<h1>"Analogy Between Mass and Heat Transfer with Turbulent Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 2." src="images/naca-tn-3045/Figure2.png">  </p>
+<h2>Summary</h2>
+<p>For turbulent flow on a flat plate, ke/kh is about 1.1 to …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3045.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-3104.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3104">NACA-TN-3104</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"</em></h3>
+</blockquote>
+<h1>"Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>
+<h2>Abstract</h2>
+<blockquote>
+<p>An …</p></blockquote>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3104.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html" rel="bookmark"
                            title="Permalink to The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium">The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-14T08:49:00.547086-07:00">
-                Published: Sat 14 May 2022
+        <abbr class="published" title="2022-05-15T07:57:00.883006-07:00">
+                Published: Sun 15 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-14T08:49:00.547086-07:00">-->
-                <!--Updated: Sat 14 May 2022-->
+        <!--<abbr class="modified" title="2022-05-15T07:57:00.883006-07:00">-->
+                <!--Updated: Sun 15 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
