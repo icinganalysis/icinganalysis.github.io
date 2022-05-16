@@ -6,7 +6,7 @@ tags: thermodynamics
 
 #ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^1]  
 
-![Figure 3-1](images/ads4/Figure3-1.png)  
+![Figure 3-1](/images/ads4/Figure3-1.png)  
 
 ##Summary
 A single thermodynamic control volume is used for anti-ice calculations. 
