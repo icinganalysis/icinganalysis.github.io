@@ -9,14 +9,13 @@ status: draft
 #Irving, Langmuir: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air
 
 ##Summary 
-Langmuir develops improved drop size measurements for the oil-slide and multicylinder methods, to validate his theory of drop size growth. 
+Evaporation and condensation rates on water drops are calculated. 
 
 ##Key Points
 
 1. The analysis of ice collecting on cylinders is improved.  
 2. A theory of water drop growth by condensation in the atmosphere is developed.  
 3. The evaporation rates of stationary water drops is analyzed.  
-
 
 ##Abstact
 
