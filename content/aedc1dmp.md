@@ -47,22 +47,7 @@ The coefficient of drag, Cd, for a sphere, where R is Reynolds number, is (from 
 
 Let us go implement the equations. 
 
-We want to, among other uses, determine the minimum drop size for impingement. 
-This will require high accuracy very near x = 1. 
 
-Equation (23) was recast to use d = x-1, or x = d+1, rather than x. 
-
-    ux = 1 - 1 / (d+1)**2
-    ux = 1 - 1 / (d**2 + 2*d +1)
-    for small d values: ux ~= 1 - 1 / (2*d + 1)
-
-This may not appear to be much of a change, 
-but having a linear term (2\*d) rather than a squared term (x\**2)
-leaves much more "room" in the available floating point precision. 
-
-
-
-cylinder_drop_1d_trajectory_shift.py
 
 Selecting a case where Phi=1000 and K=0.125, 
 we expect that there will be no impingement.  
