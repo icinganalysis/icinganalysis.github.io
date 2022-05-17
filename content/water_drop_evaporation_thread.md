@@ -12,12 +12,13 @@ status: draft
 
 This thread will have a mix of NACA-era and post-NACA era data. 
 
-###Topics:
+##Topics:
 
-Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"  
+###[Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"]({filename}Langmuir Rising Currents.md)  
 >Evaporation and condensation rates on water drops are calculated. 
 
 Let's build a 1D particle motion simulation: Impingement on the stagnation point of a cylinder  
+>A 1D water drop motion simulation is built. 
 
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
 

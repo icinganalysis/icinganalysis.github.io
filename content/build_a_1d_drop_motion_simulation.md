@@ -10,7 +10,7 @@ status: draft
 #Let's build a 1D water drop trajectory simulation  
 
 ##Summary
-Water impingement values on a cylinder are calculated with step-by-step integration.
+Water impingement values on a cylinder are calculated with step-by-step integration. 
 
 ##Key points
 1. 1D equations of motion were implemented.  
@@ -19,7 +19,7 @@ Water impingement values on a cylinder are calculated with step-by-step integrat
 
 ##Discussion  
 
-We are going to start with a one dimensional simulation along a line. 
+We are going to start with a one dimensional simulation along a single line. 
 This will keep the implementation simple to be readily understood. 
 
 We will implement the equations of motions for a drop around a cylinder from 
@@ -35,21 +35,21 @@ We will use python syntax, where exponentiation is "**".
 "u" is the dimensionless airspeed. 
 
 For incompressible potential flow, 
-the airspeed approaching a cylinder is (from [^1]):
+the airspeed approaching a cylinder is (from [^1]): 
 
-![](images/Mathematical Investigation of Water Droplet Trajectories/equations23and24.png)  
+![Equations 23 and 24](images/Mathematical Investigation of Water Droplet Trajectories/equations23and24.png)  
 
-For y = 0 (the stagnation line or center-line), this simplifies to:
+For y = 0 (the stagnation line or center-line), this simplifies to: 
 
     ux = 1 - 1 / x**2
     
-The coefficient of drag, Cd, for a sphere, where R is Reynolds number, is (from L&B)
+The coefficient of drag, Cd, for a sphere, where R is Reynolds number, is:
 
-![](images/Mathematical Investigation of Water Droplet Trajectories/equation22.png)  
+![Equation 22](images/Mathematical Investigation of Water Droplet Trajectories/equation22.png)  
 
-![](images/Mathematical Investigation of Water Droplet Trajectories/equation4.png)  
-![](images/Mathematical Investigation of Water Droplet Trajectories/equation6.png)  
-![](images/Mathematical Investigation of Water Droplet Trajectories/equation12.png)  
+![Equation 4](images/Mathematical Investigation of Water Droplet Trajectories/equation4.png)  
+![Equation 6](images/Mathematical Investigation of Water Droplet Trajectories/equation6.png)  
+![Equation 12](images/Mathematical Investigation of Water Droplet Trajectories/equation12.png)  
 
 Let us go implement the equations, in the file cylinder_drop_1d_trajectory_shift.py [^2]. 
 
@@ -61,18 +61,19 @@ the reasons will be explained further below.
 
 The time step selected has some effect on the result. 
 The dimensionless time step tau = 0.1 had a different result than the other values, 
-which are so close together they cannot be differentiated on this scale. 
+which are so close together that they cannot be differentiated on this scale. 
 I selected tau = 0.001 as the default value. 
 
-![](images/1d_cyl_shift_k0.126_tau0.0005_x_vx.png)  
+![Effect of dimensionless time step tau value](images/1d_cyl_shift_k0.126_tau0.0005_x_vx.png)  
 
-The results are surprising robust to the initial location of the drop for this low K value (small dimensionless drop size). 
+The results are surprising robust to the dimensionless initial location X0 
+of the drop for this low K value (small dimensionless drop size). 
 The drop was released at the same speed as the nominal airspeed, 
 (I did not use the Langmuir and Blodgett estimate of initial drop speed).
 The drop velocities rapidly converge to the trajectory for X0 = -20. 
 I made X0 = -4 (d=-3) as the default value (the same as Langmuir and Blodgett).
 
-![](images/1d_cyl_shift_k0.126_x_vx.png)  
+![Effect of dimensionless initial position X0](images/1d_cyl_shift_k0.126_x_vx.png)  
 
 We want to, among other uses, determine the minimum drop size for impingement. 
 In theory, for K = 0.125, the drop decelerates enough so that while it does not stop completely, 
@@ -100,26 +101,29 @@ For smaller values, d can differential if a drop hits or not to high precision,
 while x is limited.
 
 I do not have infinite time to wait for a solution, 
-so I will compromise and consider if d < 1e-25, then the drop has impinged on the cylinder. 
+so I will compromise and consider that if d < 1e-25, then the drop has impinged on the cylinder. 
 This level of precision was required to accurately simulate impingement (or not) 
-near K=0.125. 
+near K = 0.125. 
 The predicted drop final position and velocity agree with the expected results of 
 no impingement at K = 0.125, and impingement with K = 0.126.
 
-![](images/1d_cyl_shift_near_k_0_125_x_vx.png)  
+![Drop final position for values near K=0.125](images/1d_cyl_shift_near_k_0_125_x_vx.png)  
 
 To compare results at other values of K, we will use Figure 8 from [^1].  
-![](images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png) 
+![Figure 8](images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png) 
 
 The calculated values are similar, but not identical. 
-To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md):  
+To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md):  
 >_"The discrepancies are of the magnitude to be expected from ... the step by step integration"._  
 
-![](images/1d_cyl_shift_fig8_vls_4.png)  
+![Calculated values for Figure 8 conditions](images/1d_cyl_shift_fig8_vls_4.png)  
 
 We will call this implementation "good enough" for now. 
 
-##Notes:
+##Notes: 
+
+This is part of the [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md), 
+which you may want to review if you came here via a direct link. 
 
 [^1]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
