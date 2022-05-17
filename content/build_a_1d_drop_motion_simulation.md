@@ -5,33 +5,39 @@ status: draft
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)  
 
+###_"The discrepancies are of the magnitude to be expected from ... the step by step integration"._  [^1]  
 
 #Let's build a 1D water drop trajectory simulation  
 
+##Summary
+Water impingement values on a cylinder are calculated with step-by-step integration.
+
+##Key points
+1. 1D equations of motion were implemented.  
+2. Results agree well with the minimum drop size required for impingement.  
+3. The methods appears accurate enough to use for other applications.  
+
 ##Discussion  
 
-We are going to start with a one dimensional simulation along the stagnation line. 
+We are going to start with a one dimensional simulation along a line. 
 This will keep the implementation simple to be readily understood. 
-This may not seem very useful, but it has applications: 
 
-1. determine the drop size that will not impinge on a cylinder. 
-2. icing wind tunnel center-line simulation. 
+We will implement the equations of motions for a drop around a cylinder from 
+["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) [^1].
 
-When we add water drop evaporation rates, we will have something like the AEDC1DMP (Arnold Engineering Development Center 1 Dimensional Multi-Particle) code, 
-but it will be the "one dimensional single particle code". 
+Readers unfamiliar with ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) 
+may wish to review it before proceeding further herein.
 
-We will use the dimensionless coordinate system from Figure 1 above (from NACA-TN-2903). 
+We will use the dimensionless coordinate system from Figure 1 above (from [NACA-TN-2903]({filename}NACA-TN-2903.md)). 
 
 We will use python syntax, where exponentiation is "**". 
 
 "u" is the dimensionless airspeed. 
 
 For incompressible potential flow, 
-The airspeed approaching a cylinder is (from L&B):
-
+the airspeed approaching a cylinder is (from [^1]):
 
 ![](images/Mathematical Investigation of Water Droplet Trajectories/equations23and24.png)  
-
 
 For y = 0 (the stagnation line or center-line), this simplifies to:
 
@@ -45,104 +51,76 @@ The coefficient of drag, Cd, for a sphere, where R is Reynolds number, is (from 
 ![](images/Mathematical Investigation of Water Droplet Trajectories/equation6.png)  
 ![](images/Mathematical Investigation of Water Droplet Trajectories/equation12.png)  
 
-Let us go implement the equations. 
+Let us go implement the equations, in the file cylinder_drop_1d_trajectory_shift.py [^2]. 
+
+I used a time-base, fixed step integrator for the drop position and velocity. 
+This will not win any speed contests, but it is simple to implement and understand. 
+
+I used d = x + 1 as the position coordinate, 
+the reasons will be explained further below. 
+
+The time step selected has some effect on the result. 
+The dimensionless time step tau = 0.1 had a different result than the other values, 
+which are so close together they cannot be differentiated on this scale. 
+I selected tau = 0.001 as the default value. 
+
+![](images/1d_cyl_shift_k0.126_tau0.0005_x_vx.png)  
+
+The results are surprising robust to the initial location of the drop for this low K value (small dimensionless drop size). 
+The drop was released at the same speed as the nominal airspeed, 
+(I did not use the Langmuir and Blodgett estimate of initial drop speed).
+The drop velocities rapidly converge to the trajectory for X0 = -20. 
+I made X0 = -4 (d=-3) as the default value (the same as Langmuir and Blodgett).
+
+![](images/1d_cyl_shift_k0.126_x_vx.png)  
 
 We want to, among other uses, determine the minimum drop size for impingement. 
-This will require high accuracy very near x = 1. 
+In theory, for K = 0.125, the drop decelerates enough so that while it does not stop completely, 
+infinite time is required to reach the cylinder surface. 
+This will require high accuracy very near x = 1 to differentiate if a drop hits or not. 
 
 Equation (23) was recast to use d = x-1, or x = d+1, rather than x. 
 
+    ux = 1 - (d+1)**2 / ((d+1)**2)**2
     ux = 1 - 1 / (d+1)**2
     ux = 1 - 1 / (d**2 + 2*d +1)
-    for small d values: ux ~= 1 - 1 / (2*d + 1)
+    ux = ((d**2 + 2*d +1) - 1) / (d**2 + 2*d +1)
+    ux = (d**2 + 2*d ) / (d**2 + 2*d +1)
+
+    for small d values, d < 1e-15: 
+        ux ~= 2*d / (2*d +1)   drop the d**2 terms
+        ux ~= 2*d              approximate the denominator
 
 This may not appear to be much of a change, 
 but having a linear term (2\*d) rather than a squared term (x\**2)
 leaves much more "room" in the available floating point precision. 
+For example, if d= 4.109382787428e-16 the x is represented in floating point
+as rounded off to 1.0000000000000004. 
+For smaller values, d can differential if a drop hits or not to high precision, 
+while x is limited.
 
+I do not have infinite time to wait for a solution, 
+so I will compromise and consider if d < 1e-25, then the drop has impinged on the cylinder. 
+This level of precision was required to accurately simulate impingement (or not) 
+near K=0.125. 
+The predicted drop final position and velocity agree with the expected results of 
+no impingement at K = 0.125, and impingement with K = 0.126.
 
+![](images/1d_cyl_shift_near_k_0_125_x_vx.png)  
 
-cylinder_drop_1d_trajectory_shift.py
-
-Selecting a case where Phi=1000 and K=0.125, 
-we expect that there will be no impingement.  
-The drop is released at x=10 (non-dimensional) 
-at the same speed as the free stream air flow. 
-We see the the drop speed vx drops fairly quickly from the assumed initial condition (vx=1, non-dimensional), 
-then slowly decelerates until near x=2 where it decelerates more rapidly. 
-On this scale, it is hard to tell if it impinges on the cylinder, 
-the surface of which is at x=1.  
-![](images/build_a_1d_drop_motion_simulation/1d_cyl_k_0_125_x_vx.png)  
-
-Let us see if it reproduces Figure 8:  
+To compare results at other values of K, we will use Figure 8 from [^1].  
 ![](images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png) 
- 
-It does a good job at the lower values of Phi, 
-but the results are different for the Phi = 1000000 case.  
 
-![](images/build_a_1d_drop_motion_simulation/1d_cyl_fig8_vls.png)  
+The calculated values are similar, but not identical. 
+To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md):  
+>_"The discrepancies are of the magnitude to be expected from ... the step by step integration"._  
 
-Here are cases near K = 0.125. Note the zoomed in scale. 
-The K=0.127 case does impinge on the cylinder.   
+![](images/1d_cyl_shift_fig8_vls_4.png)  
 
-![](images/build_a_1d_drop_motion_simulation/1d_cyl_near_k_0_125_xs_vxs.png)  
+We will call this implementation "good enough" for now. 
 
-We need to zoom even further to see the the other cases. 
-We will look only at the terminal velocities and positions. 
-The K=0.126 case does not impinge, 
-which is slightly different than the theory value of 0.125 for no impingement. 
-The K= 0.125 value does not impinge, as predicted. 
+##Notes:
 
-![](images/build_a_1d_drop_motion_simulation/1d_cyl_near_k_0_125_x_vx.png)  
-
-
->5.3.2 Nominal Test Conditions in a Full-Scale Icing Facility
-
->The duct or wind tunnel geometry assumed for test case 2 is shown in Figure 14. This
-wind tunnel like configuration has a large inlet and a steep contraction section, to minimize flow
-disturbances. Icing spray nozzles are assumed to be put in the plane of the large inlet. The test
-section is located at x = 46 ft, so that the state of the water particles injected at the inlet of the
-wind tunnel should be in kinetic and thermal equilibrium with the air flow by the time they reach
-the test section. The tunnel has a large contraction ratio (inlet flow area divided by test section
-flow area), hence, the range of permissible inlet air flow velocities is small, ranging from near 0
-to about 45 ft per second. At the higher inlet air velocities, the test section has reached near-
-choking, or sonic flow conditions. Generally, icing tests are conducted at air flow or flight-
-simulating speeds in the range of a few hundred miles per hour. Therefore, a nominal set of inlet
-test conditions was defined for the representative calculation made with AEDC1DMP. The
-nominal test conditions are listed below.
-
-![](images/build_a_1d_drop_motion_simulation/Table2AEDC.png)  
-![](images/build_a_1d_drop_motion_simulation/Figure14AEDC.png)  
-
-Equations were implemented in the file "iads1dmp.py" for the iads1dmp 
-("Icing Analysis Developmental Software 1 Dimensional Multi-Phase" code, 
-an homage to AEDC1DMP and the python lower case file naming convention). 
-Incompressible flow equations were used. 
-
-The drop velocity values agree well with the AEDC1DMP results. 
-![](images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png)   
-
-The temperature values agree well for the 50 micrometer case, 
-but not as well as for the 500 micrometer case, although the end points match well. 
-The iads1dmp used the heat transfer correlation from NACA-TN-3024 for a sphere. 
-I suspect that the AEDC1DMP may have used a different heat transfer coefficient
-(the coefficient used is not give in the reference). 
-
-![](images/build_a_1d_drop_motion_simulation/iads1dmp_temperature.png)  
-
-The drop sizes change slightly as the travel. 
-Most of the change occurs near the pot of the spray, where the drops are hot. 
-![](images/build_a_1d_drop_motion_simulation/iads1dmp_drop_size.png)   
-
-We will call this "good enough" to proceed. 
-
-
-
-
-
-is the AEDC1DMP 
-(Arnold Engineering Development Center 1 Dimensional Multi-Phase) code described in [^3].
-
-[^3]: 
-Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
-
+[^1]:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
