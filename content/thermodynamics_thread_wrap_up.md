@@ -93,11 +93,11 @@ and used a single, 1 second long time step to calculate an ice growth rate for t
 
 LEWICE results had fair to poor agreement for the rotating cylinder flight test data. 
 
-![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24a lewice.png)  
+![NACA-TR-1215 Figure 24a comparison to lewice](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24a lewice.png)  
 
-![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png)  
+![NACA-TR-1215 Figure 24b comparison to lewice](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png)  
 
-![](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png)  
+![NACA-TR-1215 Figure 24c comparison to lewice](images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png)  
 
 [Figure 24d is not compared, as the actual flight LWC value is unknown, 
 because all of the cylinders of the multicylinder instrument had unknown degree of limited freezing.]
@@ -196,11 +196,11 @@ as there is a cylinder example in the LEWICE manual.
 
 One case had good agreement at the stagnation line, but varying agreement elsewhere:  
 
-![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png)  
+![NASA-TM-107141 Figure 12 comparison to LEWICE](images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png)  
 
 Another case did not agree well at the stagnation line, with varying agreement elsewhere.  
 
-![](images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png)  
+![NASA-TM-107141 Figure 9 comparison to LEWICE](images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png)  
 
 Unfortunately, the mass values were not recorded in NASA-TM-107141,
 so we cannot compare the calculated masses to the observed masses. 
@@ -258,7 +258,7 @@ by comparing the various multicylinder values.
 
 ##Water drop evaporation  
 
-I will defer the evaluation of this to a future post in ["Water Drop Evaporation thread"]({filename}water_drop_evaporation_thread.md). 
+I will defer the evaluation of this to a future post in the ["Water Drop Evaporation thread"]({filename}water_drop_evaporation_thread.md). 
 We will put together several pieces from the NACA-era to implement this, 
 similar to [NACA-TN-3024]({filename}NACA-TN-3024.md), 
 but without the equilibrium assumption.  

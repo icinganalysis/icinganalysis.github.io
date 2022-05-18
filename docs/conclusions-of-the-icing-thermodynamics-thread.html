@@ -30,13 +30,13 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-17T19:06:58.276652-07:00">
-                Published: Tue 17 May 2022
+        <abbr class="published" title="2022-05-18T06:11:55.379012-07:00">
+                Published: Wed 18 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-17T19:06:58.276652-07:00">-->
-                <!--Updated: Tue 17 May 2022-->
+        <!--<abbr class="modified" title="2022-05-18T06:11:55.379012-07:00">-->
+                <!--Updated: Wed 18 May 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -125,9 +125,9 @@ This resulted in 6 to 19 steps, depending on the condition and cylinder size.
 The other mode started at the reported average ice cylinder diameter, 
 and used a single, 1 second long time step to calculate an ice growth rate for the cylindrical surface. </p>
 <p>LEWICE results had fair to poor agreement for the rotating cylinder flight test data. </p>
-<p><img alt="" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24a lewice.png">  </p>
-<p><img alt="" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png">  </p>
-<p><img alt="" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png">  </p>
+<p><img alt="NACA-TR-1215 Figure 24a comparison to lewice" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24a lewice.png">  </p>
+<p><img alt="NACA-TR-1215 Figure 24b comparison to lewice" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24b lewice.png">  </p>
+<p><img alt="NACA-TR-1215 Figure 24c comparison to lewice" src="images/thermodynamics_wrapup/NACA-TR-1215 Figure 24c lewice.png">  </p>
 <p>[Figure 24d is not compared, as the actual flight LWC value is unknown, 
 because all of the cylinders of the multicylinder instrument had unknown degree of limited freezing.]</p>
 <h3>Non-rotating cylinders</h3>
@@ -198,9 +198,9 @@ it is not clear what the implementation differences of the calculation would be.
 <p>Unlike rotating cylinders, LEWICE was apparently intended to be used for non-rotating cylinders, 
 as there is a cylinder example in the LEWICE manual. </p>
 <p>One case had good agreement at the stagnation line, but varying agreement elsewhere:  </p>
-<p><img alt="" src="images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png">  </p>
+<p><img alt="NASA-TM-107141 Figure 12 comparison to LEWICE" src="images/thermodynamics_wrapup/NASA-TM-107141 Figure 12 LEWICE.png">  </p>
 <p>Another case did not agree well at the stagnation line, with varying agreement elsewhere.  </p>
-<p><img alt="" src="images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png">  </p>
+<p><img alt="NASA-TM-107141 Figure 9 comparison to LEWICE" src="images/thermodynamics_wrapup/NASA-TM-107141 Figure 9 LEWICE.png">  </p>
 <p>Unfortunately, the mass values were not recorded in NASA-TM-107141,
 so we cannot compare the calculated masses to the observed masses. </p>
 <p>Industrious readers are encouraged to run more comparisons, 
@@ -239,7 +239,7 @@ or you may well find large differences between test and analysis values.  </p>
 that can be predicted, and run-off values, that can only be determined post-test 
 by comparing the various multicylinder values. </p>
 <h2>Water drop evaporation</h2>
-<p>I will defer the evaluation of this to a future post in <a href="https://icinganalysis.github.io/water-drop-evaporation.html">"Water Drop Evaporation thread"</a>. 
+<p>I will defer the evaluation of this to a future post in the <a href="https://icinganalysis.github.io/water-drop-evaporation.html">"Water Drop Evaporation thread"</a>. 
 We will put together several pieces from the NACA-era to implement this, 
 similar to <a href="https://icinganalysis.github.io/naca-tn-3024.html">NACA-TN-3024</a>, 
 but without the equilibrium assumption.<br>
