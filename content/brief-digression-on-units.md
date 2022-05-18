@@ -2,6 +2,12 @@ Title: A Brief Digression on Unit Systems
 Category: NACA  
 tags: thermodynamics  
 
+>_"I'm burning through the sky, yeah  
+Two hundred degrees, that's why they call me Mister Fahrenheit  
+I'm travelling at the speed of light  
+I wanna make a supersonic woman of you"_  
+from Queen, "Don't Stop Me Now"  
+
 #A Brief Digression on Unit Systems
 
 ##Preferred units (primary SI units):
