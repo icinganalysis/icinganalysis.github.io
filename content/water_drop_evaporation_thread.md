@@ -1,6 +1,5 @@
 title: Water drop evaporation  
 Category: Diversions  
-status: draft 
 
 #Water drop evaporation
 
@@ -14,7 +13,11 @@ This thread will have a mix of NACA-era and post-NACA era data.
 
 ##Topics:
 
+<!--
 ###[Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"]({filename}Langmuir Rising Currents.md)  
+>Evaporation and condensation rates on water drops are calculated. 
+-->
+Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"  
 >Evaporation and condensation rates on water drops are calculated. 
 
 Let's build a 1D particle motion simulation: Impingement on the stagnation point of a cylinder  

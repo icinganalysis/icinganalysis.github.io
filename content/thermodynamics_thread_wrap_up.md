@@ -1,7 +1,8 @@
 Title: Conclusions of the Icing Thermodynamics Thread   
 Category: NACA  
 tags: thermodynamics  
-status: draft  
+
+###_**"The collection of ice by the cylinders is similar to the collection of ice by airplane components"**_
 
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png)  
 > Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions.  
@@ -257,8 +258,7 @@ by comparing the various multicylinder values.
 
 ##Water drop evaporation  
 
-I will defer the evaluation of this to a future post in [Diversions]({filename}pages/diversions.md), 
-"Water Drop Evaporation". 
+I will defer the evaluation of this to a future post in ["Water Drop Evaporation thread"]({filename}water_drop_evaporation_thread.md). 
 We will put together several pieces from the NACA-era to implement this, 
 similar to [NACA-TN-3024]({filename}NACA-TN-3024.md), 
 but without the equilibrium assumption.  
