@@ -23,7 +23,9 @@ Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 Let's build a 1D particle motion simulation: Impingement on the stagnation point of a cylinder  
 >A 1D water drop motion simulation is built. 
 
+The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
+>Water drop evaporation rates in an icing tunnel are calculated.
 
 NACA-TN-3396 revisited  
 

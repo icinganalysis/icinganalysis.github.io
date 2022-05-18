@@ -118,6 +118,8 @@ To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"
 
 ![Calculated values for Figure 8 conditions](images/1d_cyl_shift_fig8_vls_4.png)  
 
+##Conclusions
+
 We will call this implementation "good enough" for now. 
 
 ##Notes: 
