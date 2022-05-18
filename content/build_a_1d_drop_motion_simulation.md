@@ -95,9 +95,9 @@ Equation (23) was recast to use d = x-1, or x = d+1, rather than x.
 This may not appear to be much of a change, 
 but having a linear term (2\*d) rather than a squared term (x\**2)
 leaves much more "room" in the available floating point precision. 
-For example, if d= 4.109382787428e-16 the x is represented in floating point
+For example, if d= 4.109382787428e-16 then x is represented in floating point
 as rounded off to 1.0000000000000004. 
-For smaller values, d can differential if a drop hits or not to high precision, 
+For smaller values, d can differentiate if a drop hits or not to high precision, 
 while x is limited.
 
 I do not have infinite time to wait for a solution, 
