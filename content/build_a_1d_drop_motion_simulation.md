@@ -15,18 +15,20 @@ Water impingement values on a cylinder are calculated with step-by-step integrat
 ##Key points
 1. 1D equations of motion were implemented.  
 2. Results agree well with the minimum drop size required for impingement.  
-3. The methods appears accurate enough to use for other applications.  
+3. Water drops may contact the cylinder at very low K values.  
+4. The methods appears accurate enough to use for other applications.  
 
 ##Discussion  
 
-We are going to start with a one dimensional simulation along a single line. 
-This will keep the implementation simple to be readily understood. 
+We are going to start with a one dimensional simulation along a single line,
+the stagnation line of flow around a cylinder, y=0 in the figure above. 
 
 We will implement the equations of motions for a drop around a cylinder from 
 ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) [^1].
 
 Readers unfamiliar with ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) 
-may wish to review it before proceeding further herein.
+may wish to review it before proceeding further herein, 
+especially to be familiar with the dimensionless terms K and Phi.
 
 We will use the dimensionless coordinate system from Figure 1 above (from [NACA-TN-2903]({filename}NACA-TN-2903.md)). 
 
@@ -89,8 +91,8 @@ Equation (23) was recast to use d = x-1, or x = d+1, rather than x.
     ux = (d**2 + 2*d ) / (d**2 + 2*d +1)
 
     for small d values, d < 1e-15: 
-        ux ~= 2*d / (2*d +1)   drop the d**2 terms
-        ux ~= 2*d              approximate the denominator
+    ux ~= 2*d / (2*d +1)   drop the d**2 terms
+    ux ~= 2*d              approximate the denominator
 
 This may not appear to be much of a change, 
 but having a linear term (2\*d) rather than a squared term (x\**2)
@@ -118,9 +120,33 @@ To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"
 
 ![Calculated values for Figure 8 conditions](images/1d_cyl_shift_fig8_vls_4.png)  
 
+###Centroid crossing versus leading edge contact for impingement 
+
+The equations of motion are written for the centroid (center of mass) of the water drop. 
+Langmuir and Blodgett did not mention considering the drop diameter for impingement detection,
+rather it appears that where the drop mass centroid crosses the cylinder surface is considered impingement. 
+
+>![Figure 6 from Langmuir and Blodgett.](images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png)  
+>Figure 6 from [^1].  
+
+While the drop diameters are typically small compared to the cylinder diameters, 
+the leading edge of the drop is ahead of the mass centroid by the drop radius. 
+When we are capable of integrating down to a dimensionless distance of 1e-25 this makes a difference. 
+If we define impingement as leading edge contact rather than mass centroid crossing, 
+we find that all drop sizes contact, 
+down to the lowest K values (dimensionless drop sizes) that the integrator will operate at. 
+This is quite different for the theoretic impingement lower K limit of 0.125 for a cylinder. 
+
+![Drop contact for low K values.](images/build_a_1d_drop_motion_simulation/1d_cyl_shift_low_k_x_vx.png)  
+Note that the terminal distance corresponds to the diameters ratio, d_drop/d_cylinder. 
+
 ##Conclusions
 
 We will call this implementation "good enough" for now. 
+
+The model is capable of determining water drop relative airspeed, 
+which will be important in our next step in the [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md)
+of calculating mass and heat transfer rates from a drop. 
 
 ##Notes: 
 
