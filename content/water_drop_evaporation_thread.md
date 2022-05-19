@@ -1,7 +1,6 @@
 title: Water drop evaporation  
 Category: Diversions  
 
-#Water drop evaporation
 
 ###_"snow-flakes will form and these will grow by vapor condensation and by evaporation of fog droplets" [^1]_  
 
@@ -23,7 +22,7 @@ Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 Let's build a 1D particle motion simulation: Impingement on the stagnation point of a cylinder  
 >A 1D water drop motion simulation is built. 
 
-The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp
+The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp  
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
 >Water drop evaporation rates in an icing tunnel are calculated.
 
