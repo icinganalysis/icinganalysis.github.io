@@ -20,7 +20,7 @@ Evaporation and condensation rates on water drops are calculated.
 ##Abstact
 
 As this is an extensive work (130 pages), 
-and Langmuir did not provide an abstract or introductory summary, 
+and as Langmuir did not provide an abstract or introductory summary, 
 we will begin with the Langmuir's conclusions as a summary.
 
 >**Summary of Main Conclusions of Part I to April 1, 1944**
