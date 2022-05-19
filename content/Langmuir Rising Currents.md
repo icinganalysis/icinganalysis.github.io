@@ -241,7 +241,7 @@ Adiabatic lift theory was then used to determine the time value t.
 
 ##Conclusions 
 
-Care must be take when using the oiled-slide method to ensure that drops do not 
+Care must be taken when using the oiled-slide method to ensure that drops do not 
 evaporate or coalesce. 
 
 Water drops of "typical" cloud sizes (10 micrometer diameter) at low relative airspeeds in saturated humidity have 
