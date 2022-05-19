@@ -1,4 +1,4 @@
-Title: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air
+Title: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air  
 Category: NACA  
 status: draft  
 
@@ -241,6 +241,9 @@ Adiabatic lift theory was then used to determine the time value t.
 
 ##Conclusions 
 
+Care must be take when using the oiled-slide method to ensure that drops do not 
+evaporate or coalesce. 
+
 Water drops of "typical" cloud sizes (10 micrometer diameter) at low relative airspeeds in saturated humidity have 
 low evaporation rates, with a calculated life of almost 2 hours. 
 
@@ -255,9 +258,7 @@ Langmuir cites 8 references:
 - Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 - Humphreys, W. J.: Physics of the Air. J. B. Lippincott Co., 1920.  
 - Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.  
-
-Langmuir also cites "Zahm's data for the coefficient of drag for spheres (NACA Technical Report No. 253, 1927)", 
-but I could not find NACA-TR-253 on the ntrs.   
+- Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics, NACA-TR-253, 1927.  
 
 An online search [^3] found "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air" cited by 24 publications.
 
