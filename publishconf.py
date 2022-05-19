@@ -15,6 +15,7 @@ MENUITEMS = (
     ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
     ('Diversions', SITEURL + '/diversions.html'),
+    ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
     ('About', SITEURL + '/about.html'),
 )
 
