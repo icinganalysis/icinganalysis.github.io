@@ -1,3 +1,9 @@
+"""
+reference:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories.
+Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
+"""
+
 from icinganalysis import air_properties
 from icinganalysis import langmuir_cylinder_values
 from icinganalysis.units_helpers import MICROMETERS_PER_METER
