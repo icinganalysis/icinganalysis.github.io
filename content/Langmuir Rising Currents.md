@@ -13,8 +13,8 @@ Evaporation and condensation rates on water drops are calculated.
 
 ##Key Points
 
-1. The analysis of ice collecting on cylinders is improved.  
-2. A theory of water drop growth by condensation in the atmosphere is developed.  
+1. A theory of water drop growth by condensation in the atmosphere is developed.  
+2. The drop size measurement by oiled-slide and multicylinder instruments is improved.  
 3. The evaporation rates of stationary water drops is analyzed.  
 
 ##Abstact
@@ -253,7 +253,7 @@ Langmuir cites 8 references:
 
 - Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 - "On the measurement of drop size in liquid water content in fogs and clouds", Papers in Physical Oceanographic Institute and Meteorology, published by Mass. Inst. of Tech. and Woods Hole Oceanographic Institute, Volume 4 , November 1938.  
-- Albrecht, F. Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.  
+- Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.  
 - Langmuir, Irving: OSRD report on Screening Smokes No. 490, Dated October 5, 1942 https://apps.dtic.mil/sti/pdfs/ADB811463.pdf  
 - Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 - Humphreys, W. J.: Physics of the Air. J. B. Lippincott Co., 1920.  
