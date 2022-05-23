@@ -16,6 +16,7 @@ from icinganalysis.air_properties import (
     calc_air_viscosity,
     calc_air_thermal_conductivity,
 )
+from icinganalysis.compressible_flow import calc_mach, calc_mach_from_t_total, calc_a_a_star, calc_mach2_subsonic
 from icinganalysis.iteration_helpers import solve_minimize_f, take_by
 from icinganalysis.units_helpers import (
     FT_PER_M,
@@ -219,16 +220,6 @@ distance_fig17_continued = [_ / FT_PER_M for _ in d_fig17_continued[::2]]
 d_drop_fig17_continued = d_fig17_continued[1::2]
 
 
-def calc_mach(u, tk):
-    return u / (gamma * R_AIR * tk) ** 0.5
-
-
-def calc_mach_from_t_total(u, t_total):
-    t = t_total - u ** 2 / (2 * CP_AIR)
-    mach = calc_mach(u, t)
-    return mach
-
-
 def calc_ru(tk, p, u, drop_radius):
     """equation (9)"""
     return (
@@ -243,20 +234,6 @@ def calc_ru(tk, p, u, drop_radius):
 def calc_cd_r_24_approx(re_relative):
     """equation (22)"""
     return 1 + 0.197 * re_relative ** 0.63 + 2.6e-4 * re_relative ** 1.38
-
-
-def calc_a_a_star(mach):
-    return 1 / mach * ((1 + gm1d2 * mach ** 2) ** gp1d2gm1) * gp1d2 ** -gp1d2gm1
-
-
-def calc_mach2_subsonic(a1, mach1, a2):
-    a_star = a1 / calc_a_a_star(mach1)
-
-    def calc_diff(mach2):
-        return abs(a_star - a2 / calc_a_a_star(mach2))
-
-    mach2 = solve_minimize_f(calc_diff, [0, 1])
-    return mach2
 
 
 def calc_u_fig14(x):
