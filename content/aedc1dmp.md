@@ -10,6 +10,7 @@ status: draft
 ##Abstract 
 
 The AEDC1DMP is described in "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" [^1]. 
+AEDC is the Arnold Engineering Development Complex, formerly the Arnold Engineering Development Center. 
 
 >1.0 INTRODUCTION TO THE RESEARCH  
 This report describes a continuation of research into the modeling of water particle
@@ -27,7 +28,7 @@ dimensional multiphase flow code to predict water spray freezing in ducted air f
 There is considerable information on water drop freezing calculations, 
 that will not be described herein. 
 
-Our immediate goal is data to use for comparison with the code developed in this post. 
+Our immediate goal is to find data to use for comparison with the code developed in this post. 
 
 ##Discussion  
 
@@ -64,10 +65,14 @@ The nominal test conditions are listed below.
 ![Table 2 part 2](images/build_a_1d_drop_motion_simulation/Table2_part2.png)  
 ![Figure 14](images/build_a_1d_drop_motion_simulation/Figure14AEDC.png)  
 
+["Load Factor" is the ratio of mass of water drops injected to mass of air, and is proportional to the liquid water content.] 
+
+###The iads1dmp code
+
 Our goal is to develop enough capability to predict water drop airspeed, 
 temperature, and evaporation rates. 
 
-Equations were implemented in the file "iads1dmp.py" [^2] for the iads1dmp 
+Equations from [^2] and [^3] were implemented in the file "iads1dmp.py" [^4] for the iads1dmp 
 ("Icing Analysis Developmental Software 1 Dimensional Multi-Phase" code, 
 an homage to AEDC1DMP and the python lower case file naming convention). 
 
@@ -96,7 +101,7 @@ The calculated temperature values agree well for the 50 micrometer case,
 but not as well as for the 500 micrometer case, although the end points match well. 
 The iads1dmp used the heat transfer correlation from NACA-TN-3024 for a sphere. 
 I suspect that the AEDC1DMP may have used a different heat transfer coefficient
-(the coefficient used is not give in the reference). 
+(the coefficient used is not given in reference [^1]). 
 
 ![iads1dmp temperature](images/build_a_1d_drop_motion_simulation/iads1dmp_temperature.png)  
 
@@ -104,14 +109,23 @@ The drop sizes change slightly during the travel as water evaporates.
 Most of the change occurs near the point of the spray, where the drops are hot. 
 ![iads1dmp drop size](images/build_a_1d_drop_motion_simulation/iads1dmp_drop_size.png)   
 
+The liquid water content changes as drops evaporate. 
+Although the initial values (0.22 g/m^3) are the same for both drop size cases, 
+the final values differ. 
+The smaller drop size has a larger surface area to volume ratio, 
+which is a large factor in the more rapid evaporation of the smaller drops. 
+
+![iads1dmp drop size](images/build_a_1d_drop_motion_simulation/iads1dmp_lwc.png)   
+
 ##Conclusions
 
 Unfortunately, "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" 
 did not include actual test data for comparison, 
 but it did have analysis results for comparison. 
+Measuring water drops temperatures in an icing wind tunnel is quite challenging,
+and is an area still undergoing development. 
 
 We will call this "good enough" to proceed. 
-
 
 ##Notes:
 
@@ -120,7 +134,9 @@ which you may want to review if you came here via a direct link.
 
 [^1]: 
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
-[^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^2]:
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^3]: 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953  
+[^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 
