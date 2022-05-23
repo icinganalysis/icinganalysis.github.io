@@ -125,7 +125,14 @@ but it did have analysis results for comparison.
 Measuring water drops temperatures in an icing wind tunnel is quite challenging,
 and is an area still undergoing development. 
 
-We will call this "good enough" to proceed. 
+The AEDC1DMP code does many things 
+(such as handling a drop size distribution, and predicting drop freeze out rates) 
+that the iads1dmp does not. 
+However, the iads1dmp does give similar results for water drop relative airspeed and 
+heat and mass transfer rates for the single drop size cases compared herein. 
+
+We will call this "good enough" to proceed to our next step,
+comparing calculated water drop evaporation rates to those in NACA-TN-3024. 
 
 ##Notes:
 

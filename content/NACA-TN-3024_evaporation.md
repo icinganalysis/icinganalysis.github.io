@@ -1,10 +1,11 @@
 Title: NACA-TN-3024  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics 
+status: draft   
 
 > ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
-#"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" [^1]
+#"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations [^1]
 
 ![Figure 1. Motional relationships among air-stream, droplet, and obstacle.](images/naca-tn-3024/Figure1.png)  
 
@@ -14,7 +15,11 @@ Less that 1% of drops evaporate approaching an obstacle for most cases.
 ##Key points
 
 1. Equations are detailed for the evaporation of water drops approaching an obstacle.  
-2. Less that 1% of drops evaporate approaching an obstacle for most cases.  
+2. The equations were coded into a python program.  
+3. Less that 1% of drops evaporate approaching an obstacle for most cases.  
+
+[NACA-TN-3024]({filename}NACA-TN-3024.md) was reviewed previously, 
+herein we will concentrate on comparing our own code to the results in NACA-TN-3024.
 
 ##Abstract
 
@@ -82,7 +87,25 @@ mass-transfer rate including, in some instances, radiation effects; and
 size, flight Mach number, and flight ambient air conditions.  
 
 >The unavailability of a suitable high-speed calculator made it
-necessary, however, to restrict in some manner the scope of the calculations.
+necessary, however, to restrict in some manner the scope of the calculations. 
+
+For point (1), we developed compressible flow relationships in 
+["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp]({filename}aedci1mp.md).
+The drag coefficient used is a function of Reynolds number, but not Mach. 
+While the flow Mach numbers considered in NACA-TN-3024 included high values (0.75), 
+the relative drop-to-air Mach values were lower (<0.3), so we will consider
+Mach independence to be "good enough". 
+
+For point (2), we will leave out radiation effects. 
+For large drops, the temperature distribution within a drop caused by dynamic changes may be important, 
+but for smaller drops (<100 micrometer) a constant temperature approximation is "good enough". 
+
+For point (3), we wrote our equations to use a general air speed function as an input, 
+so we just need a unique airspeed function for each "obstacle".
+
+And fortunately, "a suitable high-speed calculator" is now widely available, 
+the modern personal computer 
+(although mine is an 8-year-old laptop, which some may not count as modern). 
 
 >Since the subject of droplet evaporation, insofar as aircraft are
 concerned, is of interest chiefly in connection with icing, radiation
@@ -112,71 +135,51 @@ the interior droplet temperature will always lag behind the rising
 surface temperature, and both the mean droplet temperature and the surface 
 temperature will always be less than the local equilibrium (psychrometric) value; 
 all droplet temperatures will rise monotonically. It is
-possible to conclude that both the acual local time rate of evaporation
+possible to conclude that both the actual local time rate of evaporation
 and the actual total loss of liquid will be less than those calculated
 on the basis of psychrometric calculations in the case of stagnation
 streamline droplet motion. It therefore follows that the present quasi-static 
 calculations set upper bounds to the loss rates and total losses
 for motion along stagnation lines.
 
-This is essentially water drop the equilibrium assumption we saw in Hardy [^2].  
+We will also restrict our analysis to the stagnation line. 
+However, we will not use the "quasi static" assumption, and 
+will use the water drop relative speed, mass transfer, and heat transfer 
+developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp]({filename}aedci1mp.md). 
 
-The calculations are rather involved, and so they will not be detailed herein. 
-Readers who have read the preceding reviews in the [Icing Thermodynamics thread]({filename}thermodynamics.md) 
-will be well prepared. 
+For the cylinder case in NACA-TN-3024, I used the airspeed calculation from 
+Langmuir and ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md) . 
 
-The water drop airspeeds relative to the local airspeed were calculated: 
+This is incorporated into the file "naca_tn_3024.py" [^2]. 
 
-![Figure 8.](images/naca-tn-3024/Figure8.png)  
+The Mach values calculated herein are similar, 
+but not identical to the values in NACA-TN-3024 Figure 8. 
+NACA-TN-3024 did not describe how the airspeed values were calculated. 
+Presumably, they would be the same as in Langmuir and Blodgett [^3], which was referenced. 
+The airspeed calculations herein were from Langmuir and Blodgett, 
+but the values are visibly different. 
 
-The resulting evaporation calculations:  
+![](images/naca-tn-3024/naca_tn_3024_mach.png)  
 
-![Figure 9.](images/naca-tn-3024/Figure9.png)  
+The evaporation rates compared to Figure 9 values are similar in magnitude, 
+but not in detail. 
+However, either result meets the "less than 1 percent" LWC change. 
 
-> CONCLUSIONS
-On the basis of a theoretical analysis of rates of loss by evaporation 
-of atmospheric droplets moving along stagnation lines toward
-obstacles (such as wings and icing-rate measurement cylinders), it may
-be concluded that:
->1. Little or no evaporative loss occurs from droplets approaching
-liquid-water-content measurement cylinders (that is, cylinders having
-diameters less than about 15 cm).
->2. Evaporative losses may be as high as several percent in the case
-of small droplets approaching larger obstacles, such as wings, except
-that there is always a possibility that the droplet will never reach the
-airfoil. (In the latter case, it will, of course, evaporate completely
-if it has been approaching along the stagnation line).
->3. Total losses from droplets moving along intake ducts, for example,
-between the inlet entrance and engine screen of a jet engine, will
-usually be of the order of 5 to 10 percent at low temperatures for the
-smaller droplets and a fraction of that for the larger droplets, but may
-be as great as 50 percent for the smaller droplets at ambient temperatures 
-closer to 0C for high degrees of stagnation and moderately long
-(10 ft) ducts.
+![](images/naca-tn-3024/naca_tn_3024_lwc_change.png)  
 
-39.5 inch diameter is rather large for a wing leading edge, 
-so the losses of "several percent" may over-estimate most typical cases. 
-The 3.95 inch diameter is more typical, 
-so I think that the "little or no evaporative loss" would apply for most wings. 
+##Conclusions
 
-In the post-NACA era, most sources assume zero loss due to evaporation of drops approaching an obstacle. 
+NACA-TN-3024 stated that the "quasi-static" calculations set an upper bound:
 
-Reproducing the calculations in python is a non-trivial task, 
-but I am considering a "Let's Build a 1D Water Drop Motion Simulation" project, 
-that would do part of what the AEDC1DMP code mentioned below does.  
+>It therefore follows that the present quasi-static 
+calculations set upper bounds to the loss rates and total losses
+for motion along stagnation lines.
 
-<!--
-The results of NACA-TN-3024 are compared to calculations in python in 
-["Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations]({filename}NACA-TN-3024_evaporation.md).  
--->
+However, it is not clear that that is the case. 
 
-##Related
+The conclusion of "less than 1 percent" LWC change due to evaporation is supported. 
 
-A distant descendant of NACA-TN-3024 (although NACA-TN-3024 is not cited by it) is the AEDC1DMP 
-(Arnold Engineering Development Center 1 Dimensional Multi-Phase) code described in [^3].
-
-I have used the code but I do not have a copy of it, and I do not know where to find it online. 
-[When I used it years ago, one had to "know someone" to get the code.] 
+In the post-NACA era, most sources assume (often tacitly) zero loss due to evaporation of drops approaching an obstacle. 
 
 ##Citations
 
@@ -210,9 +213,9 @@ NACA-TN-3024 is cited 6 times in the literature [^5].
 
 [^1]: 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953  
-[^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
-[^3]: 
-Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
+[^2]:
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.
+[^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^4]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^5]: 
