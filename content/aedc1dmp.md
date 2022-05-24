@@ -22,8 +22,8 @@ continued into FY1997 and has been expanded to include work done to model three-
 ice accretions on surfaces, as well as modeling the near field of water spray clouds produced by
 air-atomized water spray nozzles. Because of the increased scope of the work, a single report
 cannot cover all of the work phases. Therefore, the present report covers only the continued
-research and development of water particulate freezing models and their application in a one-
-dimensional multiphase flow code to predict water spray freezing in ducted air flows.
+research and development of water particulate freezing models and their application in a 
+one-dimensional multiphase flow code to predict water spray freezing in ducted air flows.
 
 There is considerable information on water drop freezing calculations, 
 that will not be described herein. 
@@ -120,7 +120,7 @@ which is a large factor in the more rapid evaporation of the smaller drops.
 ##Conclusions
 
 Unfortunately, "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" 
-did not include actual test data for comparison, 
+did not include actual test data, 
 but it did have analysis results for comparison. 
 Measuring water drops temperatures in an icing wind tunnel is quite challenging,
 and is an area still undergoing development. 
