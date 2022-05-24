@@ -61,19 +61,20 @@ d_fig14 = (
     25, 4.58,
     26, 4.48,
     27, 4.4,
-    28, 4.33,
-    29, 4.27,
-    30, 4.22,
-    31, 4.18,
-    32, 4.15,
-    33, 4.12,
-    34, 4.1,
-    45.5, 4.1,
+    28, 4.35,
+    29, 4.29,
+    30, 4.24,
+    31, 4.19,
+    32, 4.16,
+    33, 4.15,
+    34, 4.14,
+    45.5, 4.14,
 )
 # fmt: on
 distance_fig14 = [_ / FT_PER_M for _ in d_fig14[::2]]
 area_fig_14 = [pi * (_ / FT_PER_M) ** 2 for _ in d_fig14[1::2]]
-mach_nominal_fig14 = 0.0188
+mach_initial_nominal_fig14 = 0.0188
+
 
 area_fig_14_interpolator = interp1d(
     distance_fig14, area_fig_14, kind="linear", fill_value="extrapolate"
@@ -107,6 +108,8 @@ distance_fig15 = [_ / FT_PER_M for _ in distance_ft_fig15]
 u_air_fig15 = [_ / FT_PER_M for _ in v_air_fig15]
 u_50_fig15 = [_ / FT_PER_M for _ in v_50_fig15]
 u_500_fig15 = [_ / FT_PER_M for _ in v_500_fig15]
+t_total = 500 / 1.8
+mach_initial_calculated_fig14 = calc_mach_from_t_total(u_air_fig15[0], t_total)
 
 # fmt: off
 d_fig16 = (
@@ -239,7 +242,7 @@ def calc_cd_r_24_approx(re_relative):
 def calc_u_fig14(x):
     area = area_fig_14_interpolator(x)
     t_total = tk_air_fig16[0]
-    mach = calc_mach2_subsonic(area_fig_14[0], mach_nominal_fig14, area)
+    mach = calc_mach2_subsonic(area_fig_14[0], mach_initial_nominal_fig14, area)
     tk = t_total / (1 + gm1d2 * mach ** 2)
     return mach * (gamma * R_AIR * tk) ** 0.5
 
