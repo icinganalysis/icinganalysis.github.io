@@ -65,7 +65,7 @@ The dimensionless time step tau = 0.1 had a different result than the other valu
 which are so close together that they cannot be differentiated on this scale. 
 I selected tau = 0.001 as the default value. 
 
-![Effect of dimensionless time step tau value](images/1d_cyl_shift_k0.126_tau0.0005_x_vx.png)  
+![Effect of dimensionless time step tau value](images/build_a_1d_drop_motion_simulation/1d_cyl_shift_k0.126_tau0.0005_x_vx.png)  
 
 The results are surprising robust to the dimensionless initial location X0 
 of the drop for this low K value (small dimensionless drop size). 
@@ -74,7 +74,7 @@ The drop was released at the same speed as the nominal airspeed,
 The drop velocities rapidly converge to the trajectory for X0 = -20. 
 I made X0 = -4 (d=-3) as the default value (the same as Langmuir and Blodgett).
 
-![Effect of dimensionless initial position X0](images/1d_cyl_shift_k0.126_x_vx.png)  
+![Effect of dimensionless initial position X0](images/build_a_1d_drop_motion_simulation/1d_cyl_shift_k0.126_x_vx.png)  
 
 We want to, among other uses, determine the minimum drop size for impingement. 
 In theory, for K = 0.125, the drop decelerates enough so that while it does not stop completely, 
@@ -108,7 +108,7 @@ near K = 0.125.
 The predicted drop final position and velocity agree with the expected results of 
 no impingement at K = 0.125, and impingement with K = 0.126.
 
-![Drop final position for values near K=0.125](images/1d_cyl_shift_near_k_0_125_x_vx.png)  
+![Drop final position for values near K=0.125](images/build_a_1d_drop_motion_simulation/1d_cyl_shift_near_k_0_125_x_vx.png)  
 
 To compare results at other values of K, we will use Figure 8 from [^1].  
 ![Figure 8](images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png) 
@@ -117,7 +117,7 @@ The calculated values are similar, but not identical.
 To use a phrase from ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md):  
 >_"The discrepancies are of the magnitude to be expected from ... the step by step integration"._  
 
-![Calculated values for Figure 8 conditions](images/1d_cyl_shift_fig8_vls_4.png)  
+![Calculated values for Figure 8 conditions](images/build_a_1d_drop_motion_simulation/1d_cyl_shift_fig8_vls_4.png)  
 
 ###Centroid crossing versus leading edge contact for impingement 
 

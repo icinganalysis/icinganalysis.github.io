@@ -31,12 +31,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-05-25T07:24:59.382930-07:00">
+        <abbr class="published" title="2022-05-25T07:36:56.692432-07:00">
                 Published: Wed 25 May 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-05-25T07:24:59.382930-07:00">-->
+        <!--<abbr class="modified" title="2022-05-25T07:36:56.692432-07:00">-->
                 <!--Updated: Wed 25 May 2022-->
         <!--</abbr>-->
         <!---->
@@ -95,14 +95,14 @@ the reasons will be explained further below. </p>
 The dimensionless time step tau = 0.1 had a different result than the other values, 
 which are so close together that they cannot be differentiated on this scale. 
 I selected tau = 0.001 as the default value. </p>
-<p><img alt="Effect of dimensionless time step tau value" src="images/1d_cyl_shift_k0.126_tau0.0005_x_vx.png">  </p>
+<p><img alt="Effect of dimensionless time step tau value" src="images/build_a_1d_drop_motion_simulation/1d_cyl_shift_k0.126_tau0.0005_x_vx.png">  </p>
 <p>The results are surprising robust to the dimensionless initial location X0 
 of the drop for this low K value (small dimensionless drop size). 
 The drop was released at the same speed as the nominal airspeed, 
 (I did not use the Langmuir and Blodgett estimate of initial drop speed).
 The drop velocities rapidly converge to the trajectory for X0 = -20. 
 I made X0 = -4 (d=-3) as the default value (the same as Langmuir and Blodgett).</p>
-<p><img alt="Effect of dimensionless initial position X0" src="images/1d_cyl_shift_k0.126_x_vx.png">  </p>
+<p><img alt="Effect of dimensionless initial position X0" src="images/build_a_1d_drop_motion_simulation/1d_cyl_shift_k0.126_x_vx.png">  </p>
 <p>We want to, among other uses, determine the minimum drop size for impingement. 
 In theory, for K = 0.125, the drop decelerates enough so that while it does not stop completely, 
 infinite time is required to reach the cylinder surface. 
@@ -132,7 +132,7 @@ This level of precision was required to accurately simulate impingement (or not)
 near K = 0.125. 
 The predicted drop final position and velocity agree with the expected results of 
 no impingement at K = 0.125, and impingement with K = 0.126.</p>
-<p><img alt="Drop final position for values near K=0.125" src="images/1d_cyl_shift_near_k_0_125_x_vx.png">  </p>
+<p><img alt="Drop final position for values near K=0.125" src="images/build_a_1d_drop_motion_simulation/1d_cyl_shift_near_k_0_125_x_vx.png">  </p>
 <p>To compare results at other values of K, we will use Figure 8 from <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.<br>
 <img alt="Figure 8" src="images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png"> </p>
 <p>The calculated values are similar, but not identical. 
@@ -140,7 +140,7 @@ To use a phrase from <a href="https://icinganalysis.github.io/mathematical-inves
 <blockquote>
 <p><em>"The discrepancies are of the magnitude to be expected from ... the step by step integration".</em>  </p>
 </blockquote>
-<p><img alt="Calculated values for Figure 8 conditions" src="images/1d_cyl_shift_fig8_vls_4.png">  </p>
+<p><img alt="Calculated values for Figure 8 conditions" src="images/build_a_1d_drop_motion_simulation/1d_cyl_shift_fig8_vls_4.png">  </p>
 <h3>Centroid crossing versus leading edge contact for impingement</h3>
 <p>The equations of motion are written for the centroid (center of mass) of the water drop. 
 Langmuir and Blodgett did not mention considering the drop diameter for impingement detection,
