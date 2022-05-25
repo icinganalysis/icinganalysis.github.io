@@ -1,7 +1,6 @@
 Title: Let's Build a 1D Water Drop Trajectory Simulation  
 category: Diversions  
 tags: impingement  
-status: draft  
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)  
 
