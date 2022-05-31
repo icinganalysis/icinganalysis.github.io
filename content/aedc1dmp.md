@@ -1,14 +1,14 @@
 Title: AEDC1DMP  
 category: Diversions  
 tags: impingement  
-status: draft  
 
 ![iads1dmp velocity](images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png)   
 
-#The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp
+#The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp
 
 ##Abstract 
 
+The AEDC1DMP calculates the water drop speed and evaporation in an icing wind tunnel. 
 The AEDC1DMP is described in "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" [^1]. 
 AEDC is the Arnold Engineering Development Complex, formerly the Arnold Engineering Development Center. 
 
