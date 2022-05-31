@@ -115,7 +115,7 @@ the final values differ.
 The smaller drop size has a larger surface area to volume ratio, 
 which is a large factor in the more rapid evaporation of the smaller drops. 
 
-![iads1dmp drop size](images/build_a_1d_drop_motion_simulation/iads1dmp_lwc.png)   
+![iads1dmp lwc](images/build_a_1d_drop_motion_simulation/iads1dmp_lwc.png)   
 
 ##Conclusions
 
