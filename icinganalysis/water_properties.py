@@ -13,6 +13,7 @@ T_MP = 273.15
 WATER_DENSITY = 1000  # kg/m^3
 PA_PER_MM_HG = 133.322
 ICE_BULK_DENSITY = 917  # kg/m^3
+R_WATER_VAPOR = 461.52  # J/kg-K
 
 
 def calc_vapor_p_psi(tk):  # (A.8) and (A.9)

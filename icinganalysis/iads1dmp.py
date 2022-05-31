@@ -5,6 +5,14 @@ An homage to AEDC1DMP, and python lower case naming convention
 
 The AEDC1DMP is described in:
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf
+
+Simplifying approximations:
+
+- omit volume of water drops from air pressure and flow calculations (air volume >> liquid water volume)
+- air/vapor mix treated as air (air mass >> vapor mass) for compressible flow calculations
+
+
+
 """
 from math import pi
 from scipy.interpolate import interp1d
@@ -16,8 +24,13 @@ from icinganalysis.air_properties import (
     calc_air_viscosity,
     calc_air_thermal_conductivity,
 )
-from icinganalysis.compressible_flow import calc_mach, calc_mach_from_t_total, calc_a_a_star, calc_mach2_subsonic
-from icinganalysis.iteration_helpers import solve_minimize_f, take_by
+from icinganalysis.compressible_flow import (
+    calc_mach,
+    calc_mach_from_t_total,
+    calc_mach2_subsonic,
+    calc_u,
+)
+from icinganalysis.iteration_helpers import take_by
 from icinganalysis.units_helpers import (
     FT_PER_M,
     MICROMETERS_PER_METER,
@@ -39,6 +52,7 @@ gdgm1 = gamma / (gamma - 1)  # 3.5
 inv_gm1 = 1 / (gamma - 1)  # 2.5
 gm1d2 = (gamma - 1) / 2  # 0.2
 gp1d2 = (gamma + 1) / 2  # 0.7
+
 
 # fmt: off
 d_fig14 = (
@@ -240,11 +254,17 @@ def calc_cd_r_24_approx(re_relative):
 
 
 def calc_u_fig14(x):
+    """
+    Calculate airspeed as a function of position with duct flow area change.
+    Duct areas from Figure 14
+    :param x: position, m
+    :return: airspeed, m/s
+    """
     area = area_fig_14_interpolator(x)
     t_total = tk_air_fig16[0]
     mach = calc_mach2_subsonic(area_fig_14[0], mach_initial_nominal_fig14, area)
     tk = t_total / (1 + gm1d2 * mach ** 2)
-    return mach * (gamma * R_AIR * tk) ** 0.5
+    return calc_u(mach, tk)
 
 
 def integrate_drop(
@@ -260,6 +280,8 @@ def integrate_drop(
     u_function_of_x=calc_u_fig14,
     tau=0.0001,
     n_max=1000000,
+    include_t_total_change=False,
+    include_vapor_ratio_change=False,
 ):
     xs = [initial_position]
     vs = [v_drop]
@@ -272,146 +294,135 @@ def integrate_drop(
     tks = [tk]
     lwcs = [lwc]
     t_totals = [tk_total]
-
+    mach = calc_mach_from_t_total(u, t_totals[-1])
+    p = p_total / (1 + gm1d2 * mach ** 2) ** gdgm1
+    rho_air = p / (R_AIR * tk)
+    vapor_ratios = [rh * calc_vapor_p(tk) * RATIO_MOLECULAR_WEIGHTS / (p)]
+    water_ratio = lwc / G_PER_KG / rho_air
+    mass_of_drop = WATER_DENSITY * pi / 6 * (d_drop / MICROMETERS_PER_METER) ** 3
+    number_of_drops_per_unit_mass_dry_air = water_ratio / mass_of_drop * rho_air
+    t_drop_recs = [float("nan")]
     for i in range(n_max):
-        mach = calc_mach_from_t_total(u, t_totals[-1])
-        tk = tk_total / (1 + gm1d2 * mach ** 2)
-        p = p_total / (1 + gm1d2 * mach ** 2) ** gdgm1
         (
-            x2,
-            v2,
-            t_drop2,
+            v_drop2,
             d_drop2,
-            rh2,
-            lwc2,
-            t_total2,
-        ) = increment_drop_position_adapt_tau(
-            tks[-1],
-            p,
-            u_function_of_x,
-            vs[-1],
-            d_drops[-1],
-            t_drops[-1],
-            tau,
-            xs[-1],
-            rhs[-1],
-            lwcs[-1],
-        )
-
+            t_drop2,
+            delta_position,
+            t_recovery_local_drop_relative,
+            qc
+        ) = increment_drop_position(tau, t_totals[-1], p_total, us[-1], vs[-1], d_drops[-1], t_drops[-1],
+                                    vapor_ratios[-1])
         if (
             d_drop2 != d_drop2
         ):  # float('nan'), drop evaporated, cannot continue the integration
             break
-
-        if x2 <= xs[-1]:
+        position2 = xs[-1] + delta_position
+        if position2 <= xs[-1]:
             raise ValueError(
-                f"Integration error, try a smaller tau value, x2 <= xs[-1], tau={tau}, x2={x2} xs[-1]={xs[-1]}"
+                f"Integration error, try a smaller tau value, x2 <= xs[-1], tau={tau}, x2={position2} xs[-1]={xs[-1]}"
             )
 
-        if x2 > final_position:
+        t_total2 = tk_total
+        if include_t_total_change:
+            t_total2 = t_total - qc * number_of_drops_per_unit_mass_dry_air / CP_AIR
+        u2 = u_function_of_x(position2)
+        mach2 = calc_mach_from_t_total(u2, t_total2)
+        tk2 = t_total2 / (1 + gm1d2 * mach2 ** 2)
+        p2 = p_total / (1 + gm1d2 * mach2 ** 2) ** gp1d2gm1
+
+        mass_of_drop = WATER_DENSITY * pi / 6 * (d_drops[-1] / MICROMETERS_PER_METER) ** 3
+        mass_of_drop2 = WATER_DENSITY * pi / 6 * (d_drop2 / MICROMETERS_PER_METER) ** 3
+        delta_mass_of_drop = mass_of_drop2 - mass_of_drop
+        vrx = vapor_ratios[-1] - delta_mass_of_drop * number_of_drops_per_unit_mass_dry_air
+        vapor_ratio2 = vrx
+        if not include_vapor_ratio_change:
+            vapor_ratio2 = vapor_ratios[-1]
+        rh2 = p2 * vapor_ratio2 / RATIO_MOLECULAR_WEIGHTS / calc_vapor_p(tk2)
+        lwc2 = number_of_drops_per_unit_mass_dry_air * mass_of_drop2 * G_PER_KG
+
+        if position2 > final_position:
             u = u_function_of_x(final_position)
             t_drop2 = t_drops[-1] + (t_drop2 - t_drops[-1]) * (
                 final_position - xs[-1]
-            ) / (x2 - xs[-1])
+            ) / (position2 - xs[-1])
             d_drop2 = d_drops[-1] + (d_drop2 - d_drops[-1]) * (
                 final_position - xs[-1]
-            ) / (x2 - xs[-1])
+            ) / (position2 - xs[-1])
             t_total2 = t_totals[-1] + (t_total2 - t_totals[-1]) * (
                 final_position - xs[-1]
-            ) / (x2 - xs[-1])
-            tk = t_total2 - u ** 2 / 2 / CP_AIR
-            rh2 = rhs[-1] + (rh2 - rhs[-1]) * (final_position - xs[-1]) / (x2 - xs[-1])
-            lwc2 = lwcs[-1] + (lwc2 - lwcs[-1]) * (final_position - xs[-1]) / (
-                x2 - xs[-1]
+            ) / (position2 - xs[-1])
+            tk2 = t_total2 - u ** 2 / 2 / CP_AIR
+            rh2 = rhs[-1] + (rh2 - rhs[-1]) * (final_position - xs[-1]) / (
+                position2 - xs[-1]
             )
-        xs.append(x2)
-        vs.append(v2)
-        u = u_function_of_x(x2)
+            lwc2 = lwcs[-1] + (lwc2 - lwcs[-1]) * (final_position - xs[-1]) / (
+                position2 - xs[-1]
+            )
+            vapor_ratio2 = vapor_ratios[-1] + (vapor_ratio2 - vapor_ratios[-1]) * (
+                final_position - xs[-1]
+            ) / (position2 - xs[-1])
+        xs.append(position2)
+        vs.append(v_drop2)
         t_drops.append(t_drop2)
         d_drops.append(d_drop2)
-        us.append(u)
-        tks.append(tk)
+        us.append(u2)
+        tks.append(tk2)
         rhs.append(rh2)
         lwcs.append(lwc2)
+        t_drop_recs.append(t_recovery_local_drop_relative)
         t_totals.append(t_total2)
-        if x2 > final_position:
+        vapor_ratios.append(vapor_ratio2)
+        if position2 > final_position:
             xs[-1] = final_position
             break
     else:
         raise ValueError(
             f"Did not complete integration, try increasing n_max or tau,\nx={xs[-1]}, target final position={final_position}, tau={tau}, n_max={n_max}"
         )
-    return xs, vs, us, t_drops, d_drops, tks, rhs, lwcs, t_totals
-
-
-def increment_drop_position_adapt_tau(
-    tk, p, u_function_of_x, v_drop, d_drop, t_drop, d_tau, position, rh=1.0, lwc=1
-):
-    position2, v_drop2, t_drop2, d_drop2, rh2, lwc2, t_total2 = increment_drop_position(
-        tk,
-        p,
-        u_function_of_x(position),
-        v_drop,
-        d_drop,
-        t_drop,
-        d_tau,
-        position,
-        rh,
-        lwc,
+    print("iterations", i)
+    return (
+        xs,
+        vs,
+        us,
+        t_drops,
+        d_drops,
+        tks,
+        rhs,
+        lwcs,
+        t_totals,
+        vapor_ratios,
+        t_drop_recs,
     )
-    if abs(t_drop - t_drop2) > 1:
-        tau = d_tau / 10
-        mach = calc_mach(u_function_of_x(position), tk)
-        position2, v_drop2, t_drop2, d_drop2, rh2, lwc2 = (
-            position,
-            v_drop,
-            t_drop,
-            d_drop,
-            rh,
-            lwc,
-        )
-        for i in range(10):
-            (
-                position2,
-                v_drop2,
-                t_drop2,
-                d_drop2,
-                rh2,
-                lwc2,
-                t_total2,
-            ) = increment_drop_position(
-                tk,
-                p,
-                u_function_of_x(position2),
-                v_drop2,
-                d_drop2,
-                t_drop2,
-                tau,
-                position2,
-                rh2,
-                lwc2,
-            )
-            mach2 = calc_mach_from_t_total(u_function_of_x(position2), t_total2)
-            tk = t_total2 * (1 + gm1d2 * mach2 ** 2)
-            p = p * (1 + gm1d2 * mach ** 2) ** gdgm1 / (1 + gm1d2 * mach2 ** 2) ** gdgm1
-
-    return position2, v_drop2, t_drop2, d_drop2, rh2, lwc2, t_total2
 
 
-def increment_drop_position(
-    tk, p, u, v_drop, d_drop, t_drop, d_tau, position, rh=1.0, lwc=1
-):
+def increment_drop_position(d_tau, t_total, p_total, u, v_drop, d_drop, t_drop, vapor_ratio):
+    """
+
+    :param d_tau: time step, seconds
+    :param t_total: air total temperature, K
+    :param p_total: air total pressure, Pa
+    :param u: local air speed, m/s
+    :param v_drop: water drop speed, m/s
+    :param d_drop: water drop diameter, micrometer
+    :param t_drop: water drop temperature, K
+    :param vapor_ratio:
+    :return:
+    """
     r = 0.8  # NACA-TN-3024, "Note that a recovery coefficient of 0.8 is used; this is no more than a representative average figure based on many data reported in the literature."
-    mach = calc_mach(u, tk)
+    mach = calc_mach_from_t_total(u, t_total)
+    tk = t_total / (1 + gm1d2 * mach ** 2)
+    p = p_total / (1 + gm1d2 * mach ** 2) ** gdgm1
     re_relative = calc_ru(tk, p, abs(u - v_drop), d_drop / 2)
     mach_relative = calc_mach(abs(u - v_drop), tk)
-    t_static_local_drop_relative = (
-        tk * (1 + gm1d2 * mach ** 2) / (1 + gm1d2 * mach_relative ** 2)
-    )  # after equation 1 in NACA-TN-3024
-    t_recovery_local_drop_relative = t_static_local_drop_relative * (
+    t_static_local = tk  # after equation 1 in NACA-TN-3024, p. 7
+    t_drop_effective_local = t_static_local * (
         1 + r * gm1d2 * mach_relative ** 2
-    )  # after equation 1 in NACA-TN-3024
-
+    )  # after equation 1 in NACA-TN-3024, p. 7
+    p_effective_local_relative = (
+        p_total
+        / (1 + gm1d2 * mach ** 2) ** gdgm1
+        * (1 + gm1d2 * mach_relative ** 2) ** gdgm1
+    )
     cd_r_24 = calc_cd_r_24_approx(re_relative)
     f = (
         cd_r_24
@@ -423,9 +434,17 @@ def increment_drop_position(
         / 2
         * calc_air_viscosity(tk)
     )
-    mass = pi / 6 * (d_drop / MICROMETERS_PER_METER) ** 3 * WATER_DENSITY
-    if mass <= 0:
-        position2, v_drop2, t_drop, d_drop2, rh2, lwc2, t_total2 = (
+    mass_of_drop = pi / 6 * (d_drop / MICROMETERS_PER_METER) ** 3 * WATER_DENSITY
+    if mass_of_drop <= 1e-15:
+        (
+            t_total2,
+            v_drop2,
+            d_drop2,
+            t_drop2,
+            delta_position,
+            vapor_ratio2,
+            t_drop_effective_local,
+        ) = (
             float("nan"),
             float("nan"),
             float("nan"),
@@ -434,45 +453,56 @@ def increment_drop_position(
             float("nan"),
             float("nan"),
         )
-        return position2, v_drop2, t_drop, d_drop2, rh2, lwc2, t_total2
-    n = lwc / G_PER_KG / mass
-    accel = f / mass
-    delta_v = accel * d_tau
+        return (
+            t_total2,
+            v_drop2,
+            d_drop2,
+            t_drop2,
+            delta_position,
+            vapor_ratio2,
+            t_drop_effective_local,
+        )
+    accel = f / mass_of_drop
+    delta_v = 1 * accel * d_tau
     v_drop2 = v_drop + delta_v
-    position2 = position + v_drop * d_tau + delta_v / 2 * d_tau
-
+    delta_position = v_drop * d_tau + delta_v / 2 * d_tau
     nu = 2 + 0.2464 * (0.71) ** (1 / 3) * re_relative ** 0.6393  # NACA-TN-3024, page 10
     hc = nu * calc_air_thermal_conductivity(tk) / (d_drop / MICROMETERS_PER_METER)
     nue = 2 + 0.33 * re_relative ** 0.56  # NACA-TN-3024, page 11
     hce = nue * calc_air_thermal_conductivity(tk) / (d_drop / MICROMETERS_PER_METER)
-
-    pv = rh * calc_vapor_p(tk)
+    pv = p * vapor_ratio / RATIO_MOLECULAR_WEIGHTS
     pvs = calc_vapor_p(t_drop)
-    me = 1.12 * hce * RATIO_MOLECULAR_WEIGHTS / CP_AIR * (pvs / p - pv / p)
+    me = (
+        hce
+        * RATIO_MOLECULAR_WEIGHTS
+        / CP_AIR
+        * (pvs / p_effective_local_relative - pv / p)
+    )
     qe = me * L_EVAPORATION
     surface_area = 4 * pi * (d_drop / 2 / MICROMETERS_PER_METER) ** 2
-    qc = surface_area * hc * (t_recovery_local_drop_relative - t_drop) * d_tau
-    q = surface_area * (hc * (t_recovery_local_drop_relative - t_drop) - qe) * d_tau
-    delta_mass = me * surface_area * d_tau
-    mass2 = mass - delta_mass
-    if mass2 < 0:
-        mass2 = 0
-    d_drop2 = (mass2 * 6 / pi / WATER_DENSITY) ** (1 / 3) * MICROMETERS_PER_METER
-    dt = q / (mass * WATER_SPECIFIC_HEAT)
-    t_drop += dt
+    qc = surface_area * hc * (t_drop_effective_local - t_drop) * d_tau
+    q = surface_area * (hc * (t_drop_effective_local - t_drop) - qe) * d_tau
+    delta_mass_of_drop = me * surface_area * d_tau
+    mass_of_drop2 = mass_of_drop - delta_mass_of_drop
+    if mass_of_drop2 < 0:
+        raise ValueError(
+            "mass_of_drop, delta_mass_of_drop", mass_of_drop, delta_mass_of_drop
+        )
 
-    rho = p / (R_AIR * tk)
-    lwc2 = lwc - (delta_mass * n * G_PER_KG)
-    vapor_mass = pv / (R_AIR / RATIO_MOLECULAR_WEIGHTS * tk)
-    vapor_mass2 = vapor_mass + delta_mass * n
-    pv2 = vapor_mass2 * (R_AIR / RATIO_MOLECULAR_WEIGHTS * tk)
+    d_drop2 = (mass_of_drop2 * 6 / pi / WATER_DENSITY) ** (
+        1 / 3
+    ) * MICROMETERS_PER_METER
+    dt = q / (mass_of_drop * WATER_SPECIFIC_HEAT)
+    t_drop2 = t_drop + dt
 
-    t_total = tk * (1 + gm1d2 * mach ** 2)
-    t_total2 = t_total - qc * n / rho / CP_AIR
-    tk2 = t_total2 / (1 + gm1d2 * mach ** 2)
-    rh2 = pv2 / calc_vapor_p(tk2)
-
-    return position2, v_drop2, t_drop, d_drop2, rh2, lwc2, t_total2
+    return (
+        v_drop2,
+        d_drop2,
+        t_drop2,
+        delta_position,
+        t_drop_effective_local,
+        qc
+    )
 
 
 if __name__ == "__main__":
@@ -482,6 +512,8 @@ if __name__ == "__main__":
     x_start = 0
     x_finish = 46 / FT_PER_M
     mass_ratio_water_air = 0.00018  # Table II LF "load factor"
+    include_t_total_change = True
+    include_vapor_ratio_change = True
 
     u0 = u_air_fig15[0]
     mach = calc_mach_from_t_total(u0, t_total)
@@ -496,10 +528,27 @@ if __name__ == "__main__":
     d_drop = 500
     v_drop0 = u_500_fig15[0]
     t_drop_start = tk_500_fig16[0]
-    taus = 0.01, 0.005, 0.002, 0.001, 0.0005, 0.0002, 0.0001
+    taus = (
+        0.01,
+        0.001,
+        0.0001,
+        # 0.00001,
+    )
     all_final_vs = []
     for tau in taus:
-        xs, vs, us, t_drops, d_drops, tks, rhs, lwcs, t_totals = integrate_drop(
+        (
+            xs,
+            vs,
+            us,
+            t_drops,
+            d_drops,
+            tks,
+            rhs,
+            lwcs,
+            t_totals,
+            vapor_ratios,
+            t_drop_recs,
+        ) = integrate_drop(
             t_total,
             p_total,
             d_drop,
@@ -510,6 +559,8 @@ if __name__ == "__main__":
             rh,
             lwc,
             tau=tau,
+            include_t_total_change=include_t_total_change,
+            include_vapor_ratio_change=include_vapor_ratio_change,
         )
         all_final_vs.append(
             (
@@ -530,7 +581,7 @@ if __name__ == "__main__":
     plt.plot(taus, t_drops, "--+", label="Drop diameter=500 micrometer")
     plt.xlabel("Dimensionless time step tau")
     plt.xscale("log")
-    plt.ylabel("T drop final")
+    plt.ylabel("T drop final, K")
     plt.ylim(min(260, plt.ylim()[0]), max(280, plt.ylim()[1]))
     plt.legend()
     plt.savefig("iads1dmp_tau_sensitivity.png")
@@ -538,8 +589,22 @@ if __name__ == "__main__":
     d_drop = 50
     v_drop0 = u_50_fig15[0]
     t_drop_start = tk_50_fig16[0]
-    xs, vs, us, t_drops, d_drops, tks, rhs, lwcs, t_totals = integrate_drop(
-        t_total, p_total, d_drop, v_drop0, t_drop_start, x_start, x_finish, rh, lwc
+    (
+        xs,
+        vs,
+        us,
+        t_drops,
+        d_drops,
+        tks,
+        rhs,
+        lwcs,
+        t_totals,
+        vapor_ratios,
+        t_drop_recs,
+    ) = integrate_drop(
+        t_total, p_total, d_drop, v_drop0, t_drop_start, x_start, x_finish, rh, lwc,
+        include_t_total_change=include_t_total_change,
+        include_vapor_ratio_change=include_vapor_ratio_change,
     )
 
     d_drop = 500
@@ -555,8 +620,12 @@ if __name__ == "__main__":
         rhs500,
         lwcs500,
         t_totals500,
+        vapor_ratios500,
+        t_drop_recs500,
     ) = integrate_drop(
-        t_total, p_total, d_drop, v_drop0, t_drop_start, x_start, x_finish, rh, lwc
+        t_total, p_total, d_drop, v_drop0, t_drop_start, x_start, x_finish, rh, lwc,
+        include_t_total_change=include_t_total_change,
+        include_vapor_ratio_change=include_vapor_ratio_change,
     )
 
     plt.figure()
@@ -625,14 +694,6 @@ if __name__ == "__main__":
         c=line.get_color(),
         label="Figure 15 500 micrometer",
     )
-    t_vaps500 = [find_tk_for_pv(rh * calc_vapor_p(t)) for rh, t in zip(rhs500, tks500)]
-    plt.plot(
-        xs500,
-        t_vaps500,
-        ":",
-        c=line.get_color(),
-        label="Saturated vapor temperature 500 micrometer",
-    )
     (line,) = plt.plot(xs, tks, "--", label="Calculated air T_static")
     plt.plot(
         distance_fig16,
@@ -696,7 +757,7 @@ if __name__ == "__main__":
     plt.xlabel("Distance, m")
     plt.ylabel("Drop diameter, micrometer")
     plt.legend()
-    plt.savefig("iads1dmp_drop_size50.png")
+    plt.savefig("iads1dmp_drop_size500_.png")
 
     plt.figure()
     plt.suptitle("TASK REPORT 97-03, Reference Case 2")
@@ -727,5 +788,15 @@ if __name__ == "__main__":
     plt.xlabel("Distance, m")
     plt.ylabel("Relative velocity, m/s")
     plt.legend()
+    plt.savefig("iads1dmp_relative_v.png")
+
+    plt.figure()
+    plt.plot(xs, vapor_ratios, label="50 micrometer")
+    plt.plot(xs500, vapor_ratios500, "--", label="500 micrometer")
+    plt.ylim(0, 1.2 * plt.ylim()[1])
+    plt.xlabel("Distance, m")
+    plt.ylabel("Vapor ratio, kg vapor per kg air")
+    plt.legend()
+    plt.savefig("iads1dmp_vapor_ratio.png")
 
     plt.show()

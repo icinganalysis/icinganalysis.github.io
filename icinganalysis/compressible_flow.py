@@ -30,8 +30,9 @@ def calc_u(mach, tk):
 
 
 def calc_mach_from_t_total(u, t_total):
-    t = t_total - u ** 2 / (gamma * air_properties.R_AIR)
+    t = t_total - u ** 2 / (2 * air_properties.CP_AIR)
     mach = calc_mach(u, t)
+
     return mach
 
 
@@ -69,6 +70,47 @@ def calc_t_recovery(tk_static, u, r=1):
     mach = calc_mach(u, tk_static)
     tr = tk_static * (1 + r * gm1d2 * mach ** 2)
     return tr
+
+
+def calc_mpat(mach):
+    """
+    Calculate the mass flow rate function value
+    mtap = flow_rate * tk_total**0.5 / (area * pressure_total)
+    flow_rate in kg/s
+    tk_total in K
+    area in m**2
+    p_total in Pa (N/m**2)
+
+    :param mach: flow Mach number
+    :return: mass/s * tk_total**0.5 / (area * pressure_total) value
+    """
+    return (
+        (gamma / air_properties.R_AIR) ** 0.5
+        * mach
+        * (1 + gm1d2 * mach ** 2) ** -gp1d2gm1
+    )
+
+
+def calc_mach_subsonic_from_mtap(mtap):
+    """
+    Calculate the flow Mach number for the mass flow rate function value
+    mtap = flow_rate * tk_total**0.5 / (area * pressure_total)
+    flow_rate in kg/s
+    tk_total in K
+    area in m**2
+    p_total in Pa (N/m**2)
+
+    Note: there can also be a supersonic solution
+
+    :param mtap: mass/s * tk_total**0.5 / (area * pressure_total)
+    :return: flow Mach number
+    """
+
+    def calc_diff(mach):
+        return abs(calc_mpat(mach) - mtap)
+
+    mach = solve_minimize_f(calc_diff, bounds=[0, 1], tolerance=0.001)
+    return mach
 
 
 def calc_a_a_star(mach):
@@ -181,3 +223,19 @@ if __name__ == "__main__":
     print(calc_pl_p(mach, cp_limited))
     print(gp1d2)
     print(calc_pl_p_max(mach))
+
+    m = 1
+    p = 101325
+    a = 1
+    mtap = m * tk ** 0.5 / a / p
+    mach = calc_mach_subsonic_from_mtap(mtap)
+    mtap2 = calc_mpat(mach)
+    print(mtap, mach, mtap2)
+    import numpy as np
+
+    for mach in np.logspace(-2, 0):
+        mtap = calc_mpat(mach)
+        mach2 = calc_mach_subsonic_from_mtap(mtap)
+        print(mach, mtap, mach2, mtap*a*p/tk**0.5)
+    mtap = 0.05
+    print(mtap, calc_mach_subsonic_from_mtap(mtap))
