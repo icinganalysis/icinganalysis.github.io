@@ -237,6 +237,20 @@ distance_fig17_continued = [_ / FT_PER_M for _ in d_fig17_continued[::2]]
 d_drop_fig17_continued = d_fig17_continued[1::2]
 
 
+def calc_u_fig14(x):
+    """
+    Calculate airspeed as a function of position with duct flow area change.
+    Duct areas from Figure 14
+    :param x: position, m
+    :return: airspeed, m/s
+    """
+    area = area_fig_14_interpolator(x)
+    t_total = tk_air_fig16[0]
+    mach = calc_mach2_subsonic(area_fig_14[0], mach_initial_nominal_fig14, area)
+    tk = t_total / (1 + gm1d2 * mach ** 2)
+    return calc_u(mach, tk)
+
+
 def calc_ru(tk, p, u, drop_radius):
     """equation (9)"""
     return (
@@ -251,20 +265,6 @@ def calc_ru(tk, p, u, drop_radius):
 def calc_cd_r_24_approx(re_relative):
     """equation (22)"""
     return 1 + 0.197 * re_relative ** 0.63 + 2.6e-4 * re_relative ** 1.38
-
-
-def calc_u_fig14(x):
-    """
-    Calculate airspeed as a function of position with duct flow area change.
-    Duct areas from Figure 14
-    :param x: position, m
-    :return: airspeed, m/s
-    """
-    area = area_fig_14_interpolator(x)
-    t_total = tk_air_fig16[0]
-    mach = calc_mach2_subsonic(area_fig_14[0], mach_initial_nominal_fig14, area)
-    tk = t_total / (1 + gm1d2 * mach ** 2)
-    return calc_u(mach, tk)
 
 
 def integrate_drop(

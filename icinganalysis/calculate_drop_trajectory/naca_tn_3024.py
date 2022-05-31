@@ -184,6 +184,7 @@ if __name__ == "__main__":
     plt.ylabel("Temperature, K")
     plt.xlabel("Distance from cylinder surface, radii (distance/r_cylinder)")
     plt.legend()
+    plt.savefig("naca_tn_3024_temperature.png")
 
     plt.figure()
     plt.suptitle("Figure 9 Comparison")
