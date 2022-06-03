@@ -1,7 +1,6 @@
-Title: NACA-TN-3024  
+Title: NACA-TN-3024-revisited  
 Category: NACA  
-tags: thermodynamics 
-status: draft   
+tags: thermodynamics  
 
 > ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
@@ -17,6 +16,7 @@ Less that 1% of drops evaporate approaching an obstacle for most cases.
 1. Equations are detailed for the evaporation of water drops approaching an obstacle.  
 2. The equations were coded into a python program.  
 3. Less that 1% of drops evaporate approaching an obstacle for most cases.  
+4. A water drop that approaches on the stagnation line but does not impinge is predicted to evaporate away. 
 
 [NACA-TN-3024]({filename}NACA-TN-3024.md) was reviewed previously, 
 herein we will concentrate on comparing our own code to the results in NACA-TN-3024.
@@ -41,12 +41,12 @@ having diameters smaller than about 30 microns along relatively long
 ducts (length at least several feet) or toward large obstacles (wings),
 since disequilibrium effects are then of little significance. Mass losses
 in the case of movement within ducts will often be significant fractions
-(one-fifth to one-half) of original droplet masses, while very small drop-
-lets within ducts will often disappear even though the entraining air is
+(one-fifth to one-half) of original droplet masses, while very small droplets 
+within ducts will often disappear even though the entraining air is
 not fully stagnated. Wing-approach evaporation losses will usually be of
 the order of several percent of original droplet masses.  
-Two numerical examples are given of the determination of local evap-
-oration rates and total mass losses in cases involving cloud droplets
+Two numerical examples are given of the determination of local evaporation 
+rates and total mass losses in cases involving cloud droplets
 approaching circular cylinders along stagnation lines. The cylinders
 chosen were of 3.95-inch (10.0+ cm) diameter and 39.5-inch 100+ cm)
 diameter. The smaller is representative of icing-rate measurement cylinders, 
@@ -54,8 +54,8 @@ while with the larger will be associated an air-flow field similar
 to that ahead of an airfoil having a leading-edge radius comparable with
 that of the cylinder. It is found that the losses are less than 5 percent. 
 It is concluded that such losses are, in general, very small
-(less than 1 percent) in the case of smaller obstacles (of icing-rate-
-measurement-cylinder size); the motional dynamics are such, however, that
+(less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder 
+size); the motional dynamics are such, however, that
 exceptions will occur by reason of failure of very small droplets (moving
 along stagnation lines) to impinge upon obstacle surfaces. In such
 cases, the droplets will evaporate completely.  
@@ -145,7 +145,7 @@ for motion along stagnation lines.
 We will also restrict our analysis to the stagnation line. 
 However, we will not use the "quasi static" assumption, and 
 will use the water drop relative speed, mass transfer, and heat transfer 
-developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp]({filename}aedci1mp.md). 
+developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedci1mp.md). 
 
 For the cylinder case in NACA-TN-3024, I used the airspeed calculation from 
 Langmuir and ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md) . 
@@ -159,13 +159,43 @@ Presumably, they would be the same as in Langmuir and Blodgett [^3], which was r
 The airspeed calculations herein were from Langmuir and Blodgett, 
 but the values are visibly different. 
 
-![](images/naca-tn-3024/naca_tn_3024_mach.png)  
+![Comparison to Figure 8 Mach values](images/naca-tn-3024/naca_tn_3024_mach.png)  
 
 The evaporation rates compared to Figure 9 values are similar in magnitude, 
 but not in detail. 
 However, either result meets the "less than 1 percent" LWC change. 
 
-![](images/naca-tn-3024/naca_tn_3024_lwc_change.png)  
+![Comparison to Figure 9 LWC change values](images/naca-tn-3024/naca_tn_3024_lwc_change.png)  
+
+
+The results above were for a water drop that impinges on the obstacle. 
+NACA-TN-3024 considers cases where the drop never impinges:  
+>Evaporative losses may be as high as several percent in the case
+of small droplets approaching larger obstacles, such as wings, except
+that there is always a possibility that the droplet will never reach the
+airfoil. (In the latter case, it will, of course, evaporate completely
+if it has been approaching along the stagnation line). 
+
+To test this I used a case from ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md), 
+where K=0.125, and the drop should theoretically never impinge on the cylinder. 
+This requires a rather small drop for this condition (about 1.5 micrometer diameter).
+
+I used a final distance for the cylinder of 1e-30 
+(recall that we built the cylinder water drop motion simulation to handle very close approaches, 
+and that we do not have infinite time to wait for a solution.)
+The water drop is predicted to dwell very close to the cylinder:  
+![Simulation time](images/naca-tn-3024/naca_tn_3024_time_k0_125.png)  
+
+The water drop is predicted to be evaporating:  
+![Simulated water drop diameter](images/naca-tn-3024/naca_tn_3024_d_drop_k0_125.png)  
+
+The boundary conditions have essentially stabilized at the end of the time simulation. 
+The local airspeed is essentially zero, so the local static pressure and temperature are constant. 
+As the local static pressure is constant, the local vapor concentration and pressure will be constant. 
+The water drop relative air velocity is essentially zero, so the heat and mass Nusselt numbers are constant at 2. 
+The heat and mass transfer coefficients are inversely proportional to drop diameter, 
+so those values will increase as the drop evaporates further.
+So, the prediction that the drop will eventually evaporate is supported if it does not impinge. 
 
 ##Conclusions
 
@@ -175,11 +205,16 @@ NACA-TN-3024 stated that the "quasi-static" calculations set an upper bound:
 calculations set upper bounds to the loss rates and total losses
 for motion along stagnation lines.
 
-However, it is not clear that that is the case. 
+The comparison to Figure 9 values above support that conclusion. 
 
 The conclusion of "less than 1 percent" LWC change due to evaporation is supported. 
 
 In the post-NACA era, most sources assume (often tacitly) zero loss due to evaporation of drops approaching an obstacle. 
+
+The basic equations required to do the calculations implemented in iads1dmp.py were available in the NACA era. 
+I was surprised at how what I had to implement in the python code was just "plumbing" to join together the 
+referenced equations and to do the integration, and not new or different equations. 
+The key difference in 1953 was the "unavailability of a suitable high-speed calculator."
 
 ##Citations
 

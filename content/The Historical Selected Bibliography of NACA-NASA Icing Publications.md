@@ -74,6 +74,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
         - The NTRS link does not have a file download available.  
 - Gray, Vernon H.: "Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions". SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  
     - The NTRS link does not have a download available.  
+    - It is available at [https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up)  
     - It is available for purchase from the SAE.  
 - Gray, Vernon H.: "Heat Requirements for Ice Prevention on Gas-Heated Propellers". SAE preprint No. 424 (paper presented at SAE Annual Meeting), 1950.  
     - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  

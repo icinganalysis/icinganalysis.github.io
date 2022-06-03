@@ -21,7 +21,8 @@ This thread will have a mix of NACA-era and post-NACA era data.
 ###[The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedc1dmp.md)    
 >Water drop evaporation rates in an icing tunnel are calculated.
 
-NACA-TN-3024 revisited  
+###[NACA-TN-3024 revisited]({filename}NACA-TN-3024_evaporation.md)  
+>Less that 1% of drops evaporate approaching an obstacle for most cases.  
 
 <!--
 Effect of humidity on icing tunnel tests  
