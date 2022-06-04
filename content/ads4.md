@@ -95,7 +95,7 @@ Instead, here is the more legible, original Figure 11 from "The Icing Problem" (
 ![Typical Ice Formations](images/ads4/von Glahn Figure 11.png)  
 
 Perhaps surprisingly, this is one of the few images of ice 
-from all of the NACA icing publications. 
+from all of the NACA icing publications that we have seen so far. 
 
 >Equations and methods of determining ice shapes on unprotected airframe
 components are shown.
