@@ -14,6 +14,7 @@ MENUITEMS = (
     ('Home', SITEURL + '/index.html'),
     ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
+    ('Ice Shapes', '/ice-shape-and-their-effects.html'),
     ('Diversions', SITEURL + '/diversions.html'),
     ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
     ('About', SITEURL + '/about.html'),
