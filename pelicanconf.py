@@ -49,7 +49,7 @@ MENUITEMS = (
     ('Home', '/'),
     ('Cylinders', '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
-    ('Ice Shapes', '/ice-shape-and-their-effects.html'),
+    ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
     ('Diversions', '/diversions.html'),
     ('About', '/about.html'),
 )
