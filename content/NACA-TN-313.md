@@ -26,7 +26,7 @@ means together with recommendations for avoiding the consequences of the formati
 
 ##Discussion  
 
-This is a "lost gem" of the NACA-era (cited only 2 times).  
+This is an almost "lost gem" of the NACA-era (cited only 10 times).  
 It features:  
 - Description of supercooled large drop (SLD) icing conditions
 - "Detect and exit" icing mitigation strategy
@@ -60,7 +60,8 @@ where moisture exists, either in the form of fog, clouds, or
 rain, but at temperatures varying from 32F. to as low as -14F.  
 
 >Methods and Apparatus  
-The lack of agreement as to the conditions under which a
+
+>The lack of agreement as to the conditions under which a
 deposit of ice might be expected indicated the necessity for a
 connected study at first hand.
 Some difficulty was anticipated in locating the necessary conditions for this study
@@ -99,7 +100,8 @@ could be made on the ground, in addition to the observations in
 flight, which were made in every case.
 
 >Results  
-The results of a great number of observations have clearly
+
+>The results of a great number of observations have clearly
 identified the conditions which must prevail in order that ice
 may be deposited upon the airplane.
 First, moisture must be
@@ -178,14 +180,14 @@ These, of course, cancel.
 >The ice formation has been charged in numerous instances
 with clogging air-speed-heads and other exposed instruments,
 and there are some reports of jammed controls.
-It is quite obvious that the format ion upon the Pitot or Venturi head of an
+It is quite obvious that the formation upon the Pitot or Venturi head of an
 air-speed meter or other instrument would interfere with its operation.
-However, the jamming of controls has not been experiepced in the experiments at this 
+However, the jamming of controls has not been experienced in the experiments at this 
 laboratory.
 It is thought that the reported in stances of jamming have occurred on older
 and obsolete types of airplanes whose control systems were more
 exposed, and that it is much less likely to occur upon the more
-modern airplanes .
+modern airplanes.
 
 >During the conduct of these experiments several unusual
 cases of temperature inversion were noted, the most unusual
@@ -218,7 +220,7 @@ clouds, or fog, this inversion may be expected as a matter of more frequent occu
 
 ![Figures 5 and 6](images/naca-tn-313/Figures5and6.png)  
 
-###Ice phobics tests
+###Icephobics tests
 
 Several potentially protective substances were tested. 
 
@@ -239,9 +241,6 @@ simply poured upon such surfaces.
 These drops strike the oily
 or greasy material and are, to a certain extent, embedded therein and held, 
 so that they freeze before they have had an opportunity to roll off.
-
-A group I worked with once had the perhaps unfair phrase (to lump all icephobics together) "Icephobics ain't" 
-to summarize their similar test experiences. 
 
 ##Conclusions  
 
@@ -318,27 +317,38 @@ of altitude should tend to eliminate the hazard.
 
 NACA-TN-313 cites no references. 
 
-NACA-TN-313 is cited by 2 references:  
+NACA-TN-313 is cited by 2 references in the [NACA Icing Publications Database]({filename}naca icing publications database.md) [^2]:  
 - Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests: on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.
 - Geer, William C., and Scott, Merit: The Prevention of the Ice Hazard on Airplanes. NACA-TN-345, July, 1930. Available at [https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes/?wpdmdl=25543&ind=1479911870209](https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes/?wpdmdl=25543&ind=1479911870209)   
 
-An online search [^2] found NACA-TN-313 cited by 10 references. 
-
-The lack of citations may be due to NACA-TN-313 not being in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
-The two references that cite it were also not on the list. 
-As we saw above, this was not due to a lack of technical merit; 
-it has a surprising amount of technically innovative material early in the historical development of 
-ice protection technology. 
+An online search [^3] found NACA-TN-313 cited by 10 references. 
 
 ##Related  
 
-NACA-TN-293 [^3] describes earlier work by the same authors. 
+NACA-TN-293 [^4] describes earlier work by the same authors. 
 It is a "lost" publication, as I could find no citations of it. 
+
+One of the 10 references citing NACA-TN-313 was AIAA 2003-21 [^5], 
+which appears to be the point of modern revival of interest in NACA-TN-313, 
+as there were no citations between 1938 and 2003. 
+
+In AIAA 2003-21, I particularly like the premise that [paraphrased]: 
+>"The process of education is generally built around... the questions 'What do we know?' and 'How do we know it?'".
+
+which is something I endeavor to address here.
+
+The low number of citations may be due to NACA-TN-313 not being in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md). 
+The few references that cite it were also not on the list. 
+As we saw above, this was not due to a lack of merit; 
+it has a surprising amount of technically innovative material early in the historical development of 
+ice protection technology. 
 
 ##Notes  
 
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
-[^2]: https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en  
-[^3]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929.  
-
-
+[^2]:
+[NACA Icing Publications Database]({filename}/naca icing publications database.md)  
+[^3]: https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en  
+[^4]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929.  
+[^5]: Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf) .
+This is a candidate for "The Greatest Thing That You Have (Probably) Never Read" series in [Diversions]({filename}diversions.md). 
