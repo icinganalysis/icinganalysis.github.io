@@ -1,0 +1,124 @@
+title: NACA-TR-446  
+Category: NACA  
+status: draft  
+
+##_"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."_
+
+![Figure 11](images/naca-tr-446/Figure11.png)  
+
+#NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances" [^1]
+
+##Summary
+"Protuberances" on an airfoil can have significant effects on section lift and drag. 
+
+##Key Points
+1. Position and height of the protuberance are important.  
+2. While icing is not mentioned, later works will apply this data in an icing context. 
+
+##Abstract
+
+>The drag and interference caused by protuberance
+from the surface of an airfoil have been determined in the
+N.A.C.A. Variable-Density Wind Tunnel at a Reynolds
+Number of approximately 3,100,000. The effects of variations
+of the fore-and-aft position, height, and shape of
+the protuberance were measured by determining how the
+airfoil section characteristics were affected by the addition
+of th various protuberances extending along the entire 
+span of the airfoil. The results provide fundamental
+data on which to base the prediction of the effects of actual
+short-span protuberances. The data may also be applied
+to the design of air brakes and spoilers.
+
+##Discussion  
+
+This publication does not mention ice or icing, 
+but it has shaped many perceptions about the effects of ice on an airfoil. 
+
+The Variable-Density Wind Tunnel was used [^2]. 
+This pressurized wind tunnel allowed achieving a fairly high Reynolds Number, 
+even if the test article was not large. 
+![NACA-TR-416 Figure 2](images/naca-tr-446/NACA-TR-416Figure2.png)  
+
+Sheet-metal "protuberances" were positioned at various locations on the model.  
+![Figure 1](images/naca-tr-446/Figure1.png)  
+
+The protuberance heights had different effects at one location.  
+![Figure 2](images/naca-tr-446/Figure2.png)  
+
+Different locations had different effects at one protuberance height.  
+![Figure 11](images/naca-tr-446/Figure11.png)  
+
+Drag was roughly proportional to protuberance height, but varied by location.  
+![Figure 12](images/naca-tr-446/Figure12.png)  
+
+The effects on maximum lift of protuberance height and location were summarized.  
+![Figure 13](images/naca-tr-446/Figure13.png)  
+
+Fairing the protuberance had some effect.  
+![Figure 23](images/naca-tr-446/Figure23.png)  
+
+##Conclusions  
+
+>The following conclusions of immediate practical
+value may be drawn from the results in regard to the
+effects of full-span protuberances.
+>1. For most of the unfaired protuberances investigated 
+except those very near the lending edge, the
+drag resulting from the addition of the protuberance
+could be roughly estimated as equal to or greater than,
+the product of the free-stream dynamic pressure and
+the protuberance frontal area.  
+>2. The greater drag increases may result from protuberances 
+the height of which exceeds 0.001c, particularly when 
+the protuberances are from points
+along either surface forward of the maximum-thickness
+position.  
+>3. Very large increases of drag may result from the
+interference of a protuberance having a height exceeding 
+0.005c if it is on the forward portion of the
+upper surface of the profile.  
+>4. A simple fairing over the protuberance greatly
+reduces but does not entirely eliminate the adverse
+effect.  
+>5. The effect of a protuberance on the maximum
+lift is unimportant when the protuberance is on the
+lower surface, but becomes very important, even for a
+protuberance so small that it would ordinarily be
+classed as a surface roughness, as the position approaches 
+the leading edge along the upper surface.  
+
+This data was for a single, 2D airfoil section at one Reynolds number, 
+but it has been used as a general "map" of the expected effects of aircraft icing 
+[we will see examples at the end of the [Ice Shapes and Their Effect thread]({filename}ice_shapes_thread.md)].
+
+NACA-TR-446 is cited several times in the recent literature in the context of ice shapes on an airfoil. 
+
+The data are also an excellent test for your favorite CFD method, 
+to see how high of an angle of attack that you can reproduce test results,
+both with and without a protuberance. 
+
+##Citations
+
+NACA-TR-446 cites 5 references.  
+- Ower, E.: Interference. Roy. Aero. Soc. Jour., July, 1932.  
+- Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
+- Jacobs, Eastman N.: Tests of Six Symmetrical Airfoils in the Variable-Density Wind Tunnel. NACA-TR-385, 1931.  
+- Wieselberger, C., and Betz, A.: Ergebnisse der Aerodynamischen Versuchsanstalt zu Gottingen. Oldenburg (Munchen), 1923. II Liferung, pp. 33-34.  
+- Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931.  
+
+NACA-TR-446 is cited 5 times in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^3]  
+- Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
+- Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
+- von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
+- Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
+- Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
+
+An online search [^4] found 103 citations of NACA-TR-446, many of them in an icing context. 
+
+##Notes  
+
+[^1]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
+[^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
+[^3]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Airfoil+Section+Characteristics+as+Affected+by+Protuberances&btnG=  

@@ -352,16 +352,16 @@ A python implementation (file "naca_tn_1472.py" [^5]) found similar values.
 The analysis can be used to determine surface temperatures from the heating and heat transfer coefficients 
 (rather than determining heat transfer coefficients for the surface temperatures and heating, as above). 
 A set of heat transfer coefficients was used: 
-![](images/naca-tn-1472/Figure25.png) 
+![Figure 25](images/naca-tn-1472/Figure25.png) 
 
 NACA-TN-1472 did not show the surface temperatures, here are the python analysis results.
-![](images/naca-tn-1472/naca_tn_1472_fig26_t_surface.png) 
+![Surface temperatures](images/naca-tn-1472/naca_tn_1472_fig26_t_surface.png) 
 
 The portions of the heat transfer can be calculated: 
-![](images/naca-tn-1472/Figure26.png) 
+![Figure 26](images/naca-tn-1472/Figure26.png) 
 
 The python analysis shows similar results: 
-![](images/naca-tn-1472/naca_tn_1472_fig26.png)
+![Comparison to Figure 26](images/naca-tn-1472/naca_tn_1472_fig26.png)
 
 
 ###Heat transfer coefficients
