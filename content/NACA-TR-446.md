@@ -35,13 +35,33 @@ to the design of air brakes and spoilers.
 This publication does not mention ice or icing, 
 but it has shaped many perceptions about the effects of ice on an airfoil. 
 
-The Variable-Density Wind Tunnel was used [^2]. 
+The Variable-Density Wind Tunnel was used [^2] 
+(which is now on the U.S. National Register of Historic Places [^3]). 
 This pressurized wind tunnel allowed achieving a fairly high Reynolds Number, 
 even if the test article was not large. 
 ![NACA-TR-416 Figure 2](images/naca-tr-446/NACA-TR-416Figure2.png)  
 
 Sheet-metal "protuberances" were positioned at various locations on the model.  
 ![Figure 1](images/naca-tr-446/Figure1.png)  
+
+For NACA-TR-442, tunnel data corrections are explained:
+>Attention should be here called to the fact,
+however, that the characteristics thus presented should
+not be used with precise strip method calculations as
+though they were true infinite-aspect-ratio characteristics, 
+but should be considered as average section
+characteristics deduced from the test data by the
+methods described in reference 2. Differences between 
+these section characteristics and the true ones
+may probably be neglected as long as all the sections of
+the rectangular wing that was tested were operating
+at effective angles of attack are within the range of approximately 
+normal lift curve slope.
+Their use is also partly justified by the fact that approximately correct
+results for a full-span protuberance
+on a wing of normal aspect ratio are obtained from them when the
+simple aspect-ratio corrections
+(reference 2) are applied.
 
 The protuberance heights had different effects at one location.  
 ![Figure 2](images/naca-tr-446/Figure2.png)  
@@ -107,18 +127,19 @@ NACA-TR-446 cites 5 references.
 - Wieselberger, C., and Betz, A.: Ergebnisse der Aerodynamischen Versuchsanstalt zu Gottingen. Oldenburg (Munchen), 1923. II Liferung, pp. 33-34.  
 - Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931.  
 
-NACA-TR-446 is cited 5 times in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^3]  
+NACA-TR-446 is cited 5 times in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^4]  
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
 - Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 - von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
 
-An online search [^4] found 103 citations of NACA-TR-446, many of them in an icing context. 
+An online search [^5] found 103 citations of NACA-TR-446, many of them in an icing context. 
 
 ##Notes  
 
 [^1]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
-[^3]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Airfoil+Section+Characteristics+as+Affected+by+Protuberances&btnG=  
+[^3]: https://en.wikipedia.org/wiki/Variable_Density_Tunnel  
+[^4]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^5]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Airfoil+Section+Characteristics+as+Affected+by+Protuberances&btnG=  

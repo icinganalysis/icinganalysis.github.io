@@ -23,6 +23,7 @@ Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances
 >"Protuberances" on an airfoil can have significant effects on section lift and drag. 
 
 Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938.   
+>Airfoil characteristics with simulated residual ice are measured.
 
 Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.   
 
