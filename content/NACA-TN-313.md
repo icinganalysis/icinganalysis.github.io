@@ -27,10 +27,10 @@ means together with recommendations for avoiding the consequences of the formati
 
 This is an almost "lost gem" of the NACA-era (cited only 10 times).  
 It features:  
-- Description of supercooled large drop (SLD) icing conditions
-- "Detect and exit" icing mitigation strategy
-- Natural icing flight tests of icephobic materials
-- Identification of different types of icing
+- Description of supercooled large drop (SLD) icing conditions  
+- "Detect and exit" icing mitigation strategy  
+- Natural icing flight tests of icephobic materials  
+- Identification of different types of icing  
 
 and all of this in 1929 [!].  
 
