@@ -316,8 +316,8 @@ of altitude should tend to eliminate the hazard.
 
 NACA-TN-313 cites no references. 
 
-NACA-TN-313 is cited by 2 references in the [NACA Icing Publications Database]({filename}naca icing publications database.md) [^2]:  
-- Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests: on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.
+NACA-TN-313 is cited by 2 references in the [NACA Icing Publications Database]({filename}naca icing publications database.md) [^2]:    
+- Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests: on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
 - Geer, William C., and Scott, Merit: The Prevention of the Ice Hazard on Airplanes. NACA-TN-345, July, 1930. Available at [https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes/?wpdmdl=25543&ind=1479911870209](https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes/?wpdmdl=25543&ind=1479911870209)   
 
 An online search [^3] found NACA-TN-313 cited by 10 references. 
