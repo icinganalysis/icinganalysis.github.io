@@ -3,7 +3,7 @@ Category: NACA
 
 ###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_
 
-#NACA-TN-293, "The Formation of Ice upon Exposed Parts of an Airplane in Flight" and NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" [^1] 
+#NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" [^1] 
 
 ![Figure 2](images/naca-tn-313/Figure2.png)  
 ##Summary  
