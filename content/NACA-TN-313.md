@@ -32,7 +32,7 @@ It features:
 - Natural icing flight tests of icephobic materials  
 - Identification of different types of icing  
 
-and all of this in 1929 [!].  
+and all of this in 1929.  
 
 I was surprised at how much of my own icing flight test experience was reflected in NACA-TN-313,
 published 90+ years ago.  
