@@ -1,6 +1,5 @@
 title: NACA-TN-313  
 Category: NACA  
-status: draft  
 
 ###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_
 
@@ -283,7 +282,7 @@ of ice and particularly if they can learn that every deposit
 upon the wings or parts of an airplane is not necessarily hazardous, 
 the problem will be in a large measure solved.
 
->They must know that clear ice, wh ich forms in a narrow
+>They must know that clear ice, which forms in a narrow
 range of temperature just below 32F, is almost certain to be
 deposited, if the conditions favorable to its deposit are maintained 
 sufficiently long, and that this formation is detrimental
@@ -329,7 +328,7 @@ NACA-TN-293 [^4] describes earlier work by the same authors.
 It is a "lost" publication, as I could find no citations of it. 
 
 One of the 10 references citing NACA-TN-313 was AIAA 2003-21 [^5], 
-which appears to be the point of modern revival of interest in NACA-TN-313, 
+which I credit with the post NACA-era revival of interest in NACA-TN-313, 
 as there were no citations between 1938 and 2003. 
 
 In AIAA 2003-21, I particularly like the premise that [paraphrased]: 

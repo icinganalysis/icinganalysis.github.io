@@ -16,7 +16,7 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ##Publications
 
-Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
+[NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md)  
 >Ice shapes are recorded in flight tests in natural icing conditions.  
 
 Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
