@@ -1,6 +1,5 @@
 title: NACA-TR-446  
 Category: NACA  
-status: draft  
 
 ##_"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."_
 

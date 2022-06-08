@@ -16,16 +16,17 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ##Publications
 
-[NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md)  
+###[NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md)  
 >Ice shapes are recorded in flight tests in natural icing conditions.  
 
-Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
+###[NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"]({filename}NACA-TR-446.md)  
 >"Protuberances" on an airfoil can have significant effects on section lift and drag. 
 
 Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938.   
 >Airfoil characteristics with simulated residual ice are measured.
 
 Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.   
+>Airplane levels effects of icing are measured, and broken into major components.  
 
 Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.   
 

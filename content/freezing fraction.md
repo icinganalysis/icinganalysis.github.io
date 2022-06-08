@@ -21,19 +21,19 @@ AEDC-TR-85-30
 
 https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2 
 
-![](images/freezing_fractions/AEDC_TR_85_30_Figure21.png)  
+![AEDC_TR_85_30_Figure21](images/freezing_fractions/AEDC_TR_85_30_Figure21.png)  
 
 NASA-TM-107141
 https://ntrs.nasa.gov/api/citations/19960012178/downloads/19960012178.pdf 
 
-![](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
+![NASA_TM_107141_Figure10](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
 
 NASA/CR—2008-215302  
 Ice Shape Scaling for Aircraft in SLD Conditions
 https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf 
 
 
-![](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
+![NASA_CR_2008_215302_fig3](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
 
 The ice thickness at the leading edge was measured from the figure. 
 From that, an ice growth rate can be calculated: 
@@ -64,18 +64,18 @@ and water catch rate may change.
 For the AEDC Table 1, the reported and calculated freezing fraction values agree well, 
 but the apparent freezing fraction values have scatter compared to the calculated values.  
 
-![](images/freezing_fractions/cylinder_freezing_fractions_AEDC_TR_85_30_fig21.png)  
+![cylinder_freezing_fractions_AEDC_TR_85_30_fig21](images/freezing_fractions/cylinder_freezing_fractions_AEDC_TR_85_30_fig21.png)  
 
 For NASA-TM-107141, apparent freezing fraction values agree well with the calculated values, 
 but the reported values do not. 
 As the heat transfer relationship used came from NASA-TM-107141, 
 it is not clear what the implementation differences of the calculation would be. 
 
-![](images/freezing_fractions/cylinder_freezing_fractions_nasa_tm_107141_table1.png)  
+![cylinder_freezing_fractions_nasa_tm_107141_table1](images/freezing_fractions/cylinder_freezing_fractions_nasa_tm_107141_table1.png)  
 
 For the NASA-CR-2008-215302, the values agree fairly well. 
 
-![](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
+![cylinder_freezing_fractions_NASA_CR_2008_215302_fig3](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
 
 ##Airfoil leading edge approximated as a cylinder
@@ -88,7 +88,7 @@ Treats the airfoil leading edge as a cylinder with a diameter equal to twice the
 The freezing fraction values agree fairly well at higher values, 
 but at lower values the scatter is greater than the +/-10% region shown. 
 
-![](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+![NASA_CR_2005_213852_Figure3](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
 
 
 
