@@ -43,7 +43,7 @@ even if the test article was not large.
 Sheet-metal "protuberances" were positioned at various locations on the model.  
 ![Figure 1](images/naca-tr-446/Figure1.png)  
 
-For NACA-TR-442, tunnel data corrections are explained:
+For NACA-TR-446, tunnel data corrections are explained:
 >Attention should be here called to the fact,
 however, that the characteristics thus presented should
 not be used with precise strip method calculations as
