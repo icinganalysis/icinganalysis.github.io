@@ -81,7 +81,7 @@ Fairing the protuberance had some effect.
 
 >The following conclusions of immediate practical
 value may be drawn from the results in regard to the
-effects of full-span protuberances.
+effects of full-span protuberances.  
 >1. For most of the unfaired protuberances investigated 
 except those very near the lending edge, the
 drag resulting from the addition of the protuberance
