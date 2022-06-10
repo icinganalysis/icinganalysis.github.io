@@ -7,11 +7,21 @@ status: draft
 
 #NACA-TN-2962, "Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection" [^1]  
 
+![Figure 2](images/naca-tn-2962/Figure 2.png)  
+
+##Summary  
+The drag due to ice shapes (including runback) are measured over a range of conditions. 
+
+##Key Points  
+1. "The results showed that glaze-ice formations, either primary or runback, ... caused large and rapid increases in drag, especially at datum air temperatures approaching 32F"  
+2. There is an early statement of icing wind tunnel test to flight similarity.  
+3. Different phases of flight (takeoff, cruise, descent), including sequences, are considered.  
+4. By "discriminating use of the data", drag results compared well to those in NACA-TR-446.  
 
 ##Abstract 
->The effects of primary and. runback icing and frost formations on the
+>The effects of primary and runback icing and frost formations on the
 drag of an 8-foot-chord NACA 651-212 airfoil section were investigated
-over a range of angles of attack from 20 to 80 and airspeeds up to
+over a range of angles of attack from 2° to 8° and airspeeds up to
 260 miles per hour for icing conditions with liquid-water contents ranging 
 from 0.25 to 1.4 grams per cubic meter and datum air temperatures of
 -30 to 30 F.
@@ -29,20 +39,19 @@ present a serious drag problem except when heavy spanwise ridges of runback
 ice occurred aft of the heatable area. Frost formations caused
 rapid and large increases in drag with incipient stalling of the airfoil.
 
-
 ##Discussion  
 
-This is a relatively long (69 page) page publication, 
-so in the interest of brevity I will not detail all of its points,
+This is a relatively long (69 page) publication. 
+In the interest of brevity,
+and to leave room for the extensive "Significance of Results" section,
+I will not detail all of its points,
 particularly about deicing system design. 
 Readers are encouraged to read the full publication, 
 available at [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586).  
 
-
-
 >The results presented herein were obtained with an 8-foot-chord NACA
 651-212 airfoil model employing a hot-gas icing-protection system
-(ref. 2). The airfoil study was conducted over tIe following range of
+(ref. 2). The airfoil study was conducted over the following range of
 icing and operating conditions:
 ```text
 Angle of attack, deg ....................      2 to 8
@@ -52,11 +61,7 @@ Datum air temperature, °F ...............   -30 to 30
 Mean effective droplet size, microns ....    10 to 16
 ```
 
-
-
 >APPARATUS AND INSTRUMENTATION
-
-
 
 >The model used in this study (and that of ref. 2) is an NACA
 651-212 airfoil section of 8-foot chord spanning the 6-foot height of
@@ -71,14 +76,17 @@ zero chord line (ref. 2).
 
 ![Figure 1](images/naca-tn-2962/Figure 1.png)  
 
->Aft of 12 percent of chOrd the model was divided into four compartments 
-(fig. 1), each capable of being inividually heated by means of 
+>Aft of 12 percent of chord the model was divided into four compartments 
+(fig. 1), each capable of being individually heated by means of 
 steam. The inside of each compartment was lined with 1/16-inch-thick
 neoprene to reduce the surface temperature, which otherwise might have 
 resulted in sufficient heat transfer to the airfoil wake to affect the
 drag measurements. In order to prevent steam leakage into the wake,
 these compartments (hereinafter designated afterbody) were operated under
 a slight vacuum.
+
+The heating was used in sets of configurations: 
+![Table of heating configurations](images/naca-tn-2962/Table of heating configurations.png)  
 
 >Datum air temperature was defined and determined as the average surface 
 temperature of the unheated airfoil leading-edge section. In icing
@@ -95,7 +103,7 @@ The data temperature here was experimentally determined.
 It may be similar to, but not exactly the same as, 
 the analytically determined datum temperature in [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md). 
 The dye-tracer technique for drop size is not elaborated on further. 
-Perhaps it is the method later documented in [NACA-TN-3338, "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md).
+Perhaps it was the method later documented in [NACA-TN-3338, "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md) (which was authored by von Glahn, a co-author on NACA-TN-2962).
 
 Here we have an early statement of icing wind tunnel test to flight similarity 
 considerations:
@@ -114,8 +122,6 @@ this investigation and at high liquid-water, contents may be assumed to
 be approximately representative of ice formations at twice the airspeed
 and half the liquid-water content.
 
-
-
 >For studies of the effect of afterbody frost formations on the drag
 of the airfoil, no heat was furnished to the afterbody. Frost formed on
 the afterbody because of air-stream turbulence and the supersaturated
@@ -131,6 +137,10 @@ the pressure rake were made throughout the test. The frost studies with
 a fully frosted airfoil were made at an angle of attack of 8° and at a
 speed of about 100 miles per hour, simulating take-off conditions.
 
+The statement "supersaturated condition of the tunnel air" was not elaborated on,
+it is not clear if it was measured, inferred, or assumed. 
+(We may study this further in the [Water Drop Evaporation thread]({filename}water_drop_evaporation_thread.md)).
+
 >RESULTS AND DISCUSSION
 
 >The investigation of the airfoil drag studies reported herein is
@@ -143,7 +153,7 @@ effects were not evaluated.
 
 >Three general types of leading-edge ice formations were investigated
 (fig. 2). The first, a rime-ice formation (fig. 2(a)), was associated
-with a datum air temperature of 00 F and was essentially independent of
+with a datum air temperature of 0 F and was essentially independent of
 liquid-water content.. These ice formations conformed closely to the airfoil 
 contour and faired generally forward into the air stream. The
 second type, a glaze-ice formation (fig. 2(b)), was obtained with a datum
@@ -184,7 +194,137 @@ For others, the drag changed with time in icing.
 
 ![Figure 3](images/naca-tn-2962/Figure 3.png)  
 
+Comparable cases were run for runback ice 
+with leading edge heating selected to not evaporate all of the impinging water:  
 
+![Figure 11](images/naca-tn-2962/Figure 11.png)  
+
+![Figure 10](images/naca-tn-2962/Figure 10.png)  
+
+###Comparisons with NACA-TR-446
+
+Below, "ref. 4" is NACA-TR-446 [^2].
+
+>Correlation of Drag Caused by Icing with Drag Caused by Protuberances
+
+>The data presented herein are necessarily limited to specific operating 
+and icing conditions; consequently, it is highly desirable to be
+able to extend the drag data associated with ice formations by comparative 
+means. __Reexamination of the aerodynamic effects of protuberances
+(fig. 39) at various positions on an airfoil (ref. 4) together with the
+effects of ice formations presented herein indicates that a large part
+of the data in reference 4 is directly applicable for estimating the
+effect of ice formations on airfoil characteristics.__ From reference 4
+it is apparent that protuberances near the stagnation region for low
+angles of attack do not greatly change the airfoil characteristics. A
+protuberance such as a mushroom-type ice formation (fig. 2(c)) is, of
+course, an exception. Reference 4 indicates that protuberances on the
+lower surface generally do not seriously affect the airfoil drag unless
+the protuberance is very large, as is also shown in the icing drag
+studies.. Although the airfoil drag is affected in varying degrees by
+protuberances on the upper surface for all angles of attack, the most
+serious effects are obtained when the protuberances are near the leading
+edge, as was demonstrated by the serious drag increases caused by the
+leading-edge ice formations during the heat-off period of a cyclic
+de-icing system under conditions of high rates of water catch and high
+datum air temperature (figs. 21 to 24). The mushroom-type leading-edge
+ice formation and runback icing that forms in spanwise ridges can be
+represented by the spoiler protuberance of reference 4 (fig. 39(a)). A
+smoother, sheet-type runback ice formation can be represented by the
+faired protuberance (fig. 39(b)) used in reference 4. Such a faired
+protuberance generally does. not affect the drag of an airfoil seriously
+except if located near the stagnation region on the upper surface of the
+airfoil. A protuberance located at a specific point on the lower surface 
+will generally have a smaller percentage effect on drag as the angle
+of attack is increased.
+
+![Figure 39](images/naca-tn-2962/Figure 39.png)  
+
+>__The data in reference 4 are directly applicable only to an NACA 0012
+airfoil section and should not be applied to airfoils of thickness ratios
+greatly different from 12 percent. Because, however, the present airfoil
+model is of 12-percent thickness, the magnitude and trend of the aerodynamic 
+changes caused by the protuberance s of reference 4 are believed to
+be generally similar to those expected for an NACA 651-212 airfoil section.__
+On the basis of this assumption, some of the data presented in reference 4
+are replotted in figure 40 in terms of the percentage of drag increase as
+a function of protuberance height for the subject airfoil for three chord
+stations and three angles of attack. in addition to these data, limited
+data on a faired protuberance of 0.5-inch thickness (fig. 39(b)) indicate
+that a small increase of 0.0005 to 0.001 (6 to 10 percent of bare airfoil
+drag coefficient) may occur in the drag coefficient over the range of
+chord stations and angles of attack shown in figure 40. At the stagnation
+region, data for a spoiler protuberance faired on the downstream side
+(fig. 39(c)) indicated marked drag reduction as compared with an unfaired
+protuberance.
+
+![Figure 40a](images/naca-tn-2962/Figure 40a.png)  
+![Figure 40b](images/naca-tn-2962/Figure 40b.png)  
+![Figure 40c](images/naca-tn-2962/Figure 40c.png)  
+
+>By discriminating use of the data of figure 40, reference 4, and
+the preceding discussion, the drag-coefficient change caused by ice formations 
+can be estimated. However, the data presented herein and in
+reference 4 are limited in scope and all ice formations cannot be represented 
+adequately by the simple protuberances investigated, especially
+those ice formations near the leading edge. In these cases only rough
+estimates of the effect of such ice formations can be made.
+
+>For the runback ice formations shown in figures 11(c) and (a) near
+the 12-percent-chord station, the height of the ice formations on both
+the surfaces after 20 minutes of icing is estimated at between 1/8
+and 3/16 inch. According to figure 40(c), this protuberance height
+should result in a drag increase of about 28 percent for each formation,
+or a total of 56 percent. On the upper surface, however, the ice formation 
+is more nearly represented by a faired protuberance for which the
+drag increase amounts to about 6 percent (ref. 4). The total estimated
+drag increase would therefore be approximately 34 percent. The measured
+increase In drag for the ice formations in figure 11 was approximately
+29 percent, which agrees satisfactorily with the estimated value.
+
+>In figures 21(c) and (e) the predominant ice formations are located
+at the leading edge of the upper surface and at about 13 percent of
+chord on the lower surface. Although there is an ice formation near
+3 percent of chord on the lower surface, the effect of 'such a protuber-
+ance is overshadowed by the greater formation at 13 percent of chord.
+An estimate of the leading-edge ice from figures 21(c) and(e) indicates 
+a thickness of about 1/2 inch, with the average thickness on the
+lower surface at 13 percent of chord about the same. By use of figures 
+40(a) and (c), the estimated drag-coefficient increase is about
+101 percent compared with a measured increase in drag of 96 percent.
+For figure 21(d) much of the ice has been removed after the heating
+period, and. the average ice thickness near the center span of the airfoil
+at 13 percent of chord is about 1/4 inch. Only thin faired runback
+streaks were evident on the upper surface, with a maximum thickness of
+about 0.1 inch which, according to reference 4 and substantiated by the
+drag measurements reported herein, can be neglected for drag evaluations.
+The total drag increase for this runback icing is estimated from figure 40(c) 
+to be 46 percent compared with the measured increase in drag
+of 37 percent.
+
+>The foregoing examples were selected to illustrate the degree to
+which the effect of ice formations on airfoil drag characteristics can
+be estimated. No such close agreement between estimated and measured
+increases in drag coefficient can be made for the dangerous ice formations 
+occurring between 1 and 5 percent of chord on the airfoil upper
+surface without additional data similar to those presented in reference 4. 
+The estimated drag values will usually tend to be high, because
+the ice formations are generally more faired and discontinuous than the
+protuberances used in reference 4.
+
+The Reynold number was not discussed. 
+For the 8 foot chord airfoil in NACA-TN-2962, 
+the Reynolds number at the 260 mph airspeed used for many of the cases was about 1.9e7.
+For NACA-TR-446, the chord Reynolds number was 3.1e6. 
+There is presumably a Reynolds number effect. 
+
+The comparison above uses percent drag change between clean and iced airfoil. 
+This avoids (but may not really solve) the problem noted in the review of [NACA-WR-L-292]({filename}NACA-WR-L-292.md) 
+of a clean airfoil Cl or Cd value offset. 
+As airfoil sections were different in the two publications, 
+there is presumably an offset of the clean airfoil values. 
+
+###Interpretation of results
 
 >Significance of Results  
 
@@ -206,7 +346,7 @@ interest with respect to drag changes and aircraft performance.
 flight assumed negligible, it would appear that low rates of water catch
 generally obtained by a combination of small droplets, average liquid-water 
 content, low subsonic airspeeds, and large airfoil chords and
-thicknesses - do not seriously affect the airfoil drag characteristics.
+thicknesses do not seriously affect the airfoil drag characteristics.
 For these same conditions of low water catch, cyclic de-icing of the
 leading-edge section does not improve the drag characteristics of the
 airfoil, principally because the airfoil drag is not seriously affected
@@ -235,6 +375,7 @@ would quickly rise, especially in the low-drag range, by as much as
 100 percent to approach the initial drag coefficients reported herein
 for the bare airfoil. Thereafter ice formations of the streamlined
 type would contribute no appreciable drag increase.  
+
 >A mushroom-type glaze-ice formation resulting from icing encounters
 with combinations of high liquid-water content, large droplet size, high
 airspeed, and high datum air temperatures will cause large and rapid
@@ -281,14 +422,13 @@ performance characteristics.
 during flight, the probability of such an occurrence appears to be
 quite remote. Frost formations during ground operation, however, are
 quite common in cold climates and, with respect to the drag losses
-associated. with such formations on airfoil surfaces, merit attention.
+associated with such formations on airfoil surfaces, merit attention.
 The use of a conventional thermal icing-protection system to remove
 frost from the leading-edge region of an airfoil will not provide sufficient 
 protection to ensure a safe take-off. It is, therefore, necessary
 in all-weather operation to provide additional protection from frost for
 the aircraft while on the ground, such as sheltering the wings and
-empennage surfaces with heated. covers, tents, or hangars.
-
+empennage surfaces with heated covers, tents, or hangars.
 
 ##Conclusions  
 
@@ -330,8 +470,6 @@ impinging water.
 rapid increase in the drag coefficient and at high angles of attack (8°)
 were accompanied by incipient stalling of the airfoil.
 
-
-
 ##Citations
 
 NACA-TN-2962 cites 7 publications:
@@ -344,8 +482,7 @@ NACA-TN-2962 cites 7 publications:
 - Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951.  
 - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
 
-
-NACA-TN-2962 is cited 8 time in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^2]  
+NACA-TN-2962 is cited 8 times in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^3]  
 
 - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.
 - von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.
@@ -356,13 +493,12 @@ NACA-TN-2962 is cited 8 time in the [NACA Icing Publications Database]({filename
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.
 - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TN-D-2166, 1964.
 
-An online search [^3] found 48 citations of NACA-TN-2962. 
-
+An online search [^4] found 48 citations of NACA-TN-2962. 
 
 #Notes  
 
 [^1]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
-[^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
-[^3]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+and+Frost+Formations+on+Drag+of+NACA+651-212+Airfoil+for+Various+Modes+of+Thermal+Ice+Protection&btnG=  
+[^2]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
+[^3]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
+[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+and+Frost+Formations+on+Drag+of+NACA+651-212+Airfoil+for+Various+Modes+of+Thermal+Ice+Protection&btnG=  
 
-Effect of Ice and Frost Formations on Drag of NACA 651-212 Airfoil for Various Modes of Thermal Ice Protection
