@@ -163,7 +163,7 @@ simple aspect-ratio corrections
 However, the Cl_max values with the clean airfoil differ (see the table further below).
 
 The roughness elements for NACA-WR-L-292 had a h/chord ratio of 0.005, 
-and an x/chord location of 0.025. 
+and an x/chord location of 0.025 (furthest aft "lumps"). 
 While the elements were rough, and applied in a 3D pattern, 
 we will treat them as full span, square-edged protuberances like in NACA-TR-446. 
 We can then interpolate a Cl_max with protuberance value from NACA-TR-446, Figure 13. 
