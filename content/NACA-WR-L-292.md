@@ -1,6 +1,5 @@
 title: NACA-WR-L-292  
 Category: NACA  
-status: draft  
 
 ###_"The danger lies, not so much in the higher stalling speed, but more in the possibility that the stall may occur without advance warning to the pilot."_  
 

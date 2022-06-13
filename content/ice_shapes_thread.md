@@ -22,7 +22,7 @@ There are additional publications on ice shapes for deicing systems and propelle
 ###[NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"]({filename}NACA-TR-446.md)  
 >"Protuberances" on an airfoil can have significant effects on section lift and drag. 
 
-Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938.   
+###[NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil"]({filename}NACA-WR-L-292.md)     
 >Airfoil characteristics with simulated residual ice are measured.
 
 Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.   
