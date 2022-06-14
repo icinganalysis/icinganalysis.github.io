@@ -1,6 +1,5 @@
 title: NACA-TN-1598   
 Category: NACA  
-status: draft  
 
 ###_"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"_  
 
