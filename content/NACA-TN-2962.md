@@ -2,7 +2,6 @@ title: NACA-TN-2962
 Category: NACA  
 status: draft  
 
-
 ###_"The results showed that glaze-ice formations, either primary or runback, ... caused large and rapid increases in drag, especially at datum air temperatures approaching 32F"_  
 
 #NACA-TN-2962, "Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection" [^1]  
@@ -16,7 +15,7 @@ The drag due to ice shapes (including runback) are measured over a range of cond
 1. "The results showed that glaze-ice formations, either primary or runback, ... caused large and rapid increases in drag, especially at datum air temperatures approaching 32F"  
 2. There is an early statement of icing wind tunnel test to flight similarity.  
 3. Different phases of flight (takeoff, cruise, descent), including sequences, are considered.  
-4. By "discriminating use of the data", drag results compared well to those in NACA-TR-446.  
+4. By "discriminating use of the data", drag results can be estimated using NACA-TR-446.  
 
 ##Abstract 
 >The effects of primary and runback icing and frost formations on the
@@ -85,7 +84,7 @@ drag measurements. In order to prevent steam leakage into the wake,
 these compartments (hereinafter designated afterbody) were operated under
 a slight vacuum.
 
-The heating was used in sets of configurations: 
+The heating was used in sets of configurations:  
 ![Table of heating configurations](images/naca-tn-2962/Table of heating configurations.png)  
 
 >Datum air temperature was defined and determined as the average surface 
@@ -99,11 +98,12 @@ with a pressure-type icing-rate meter (ref. 6). The mean effective
 droplet size in these studies ranged from 10 to 16 microns as determined
 from a dye-tracer technique.
 
-The data temperature here was experimentally determined. 
+The datum temperature here was experimentally determined. 
 It may be similar to, but not exactly the same as, 
 the analytically determined datum temperature in [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md). 
 The dye-tracer technique for drop size is not elaborated on further. 
-Perhaps it was the method later documented in [NACA-TN-3338, "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md) (which was authored by von Glahn, a co-author on NACA-TN-2962).
+Perhaps it was the method later documented in [NACA-TN-3338, "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"]({filename}NACA-TN-3338.md) 
+and NACA-TN-3839 (which were co-authored by von Glahn, a co-author on NACA-TN-2962).
 
 Here we have an early statement of icing wind tunnel test to flight similarity 
 considerations:
@@ -221,7 +221,7 @@ protuberance such as a mushroom-type ice formation (fig. 2(c)) is, of
 course, an exception. Reference 4 indicates that protuberances on the
 lower surface generally do not seriously affect the airfoil drag unless
 the protuberance is very large, as is also shown in the icing drag
-studies.. Although the airfoil drag is affected in varying degrees by
+studies. Although the airfoil drag is affected in varying degrees by
 protuberances on the upper surface for all angles of attack, the most
 serious effects are obtained when the protuberances are near the leading
 edge, as was demonstrated by the serious drag increases caused by the
@@ -244,7 +244,7 @@ of attack is increased.
 airfoil section and should not be applied to airfoils of thickness ratios
 greatly different from 12 percent. Because, however, the present airfoil
 model is of 12-percent thickness, the magnitude and trend of the aerodynamic 
-changes caused by the protuberance s of reference 4 are believed to
+changes caused by the protuberances of reference 4 are believed to
 be generally similar to those expected for an NACA 651-212 airfoil section.__
 On the basis of this assumption, some of the data presented in reference 4
 are replotted in figure 40 in terms of the percentage of drag increase as
@@ -401,7 +401,7 @@ in reference 1 for a system designed to evaporate all the impinging
 water.  
 
 >For certain types of aircraft that need only penetrate a stratus
-cloud layer immediately after take-off arid are capable of rapid descent
+cloud layer immediately after take-off and are capable of rapid descent
 through such a cloud layer, the magnitude of the ice formation accumulated 
 during the flight through the layer may not seriously affect the
 aircraft performance. Upon ascent, the ice formations may decrease by
@@ -412,6 +412,7 @@ specifications, an icing-protection system may be included that.
 is designed to operate only for low-speed let-down conditions. Such an
 icing-protection system could operate either cyclically or continuously
 with a relatively low heating requirement.  
+
 >The icing of an aircraft in flying through a cumulus cloud at high
 altitude should not prove excessively detrimental to aircraft perform-
 ance, because the aircraft will in all probability be at a low angle of

@@ -94,7 +94,6 @@ the airfoil section. The radius of curvature of the tracks is approximately
 angle.
 
 ![Figure 1](images/naca-rm-e53J30/Figure 1.png)  
-_(I speculate that this is Uwe von Glahn.)_
 
 >Heating System
 
