@@ -102,7 +102,8 @@ for calculating leading edge freezing fraction.
 We will use that here. 
 
 For the cases in NACA-TN-4151 Table II, 
-the leading edge equivalent cylinder freezing fractions were calculated.
+the leading edge equivalent cylinder freezing fractions were calculated. 
+A Langmuir "D" drop size distribution was assumed. 
 
 A fitting function of the form 
 
@@ -134,7 +135,12 @@ They convey very similar information.
 
 ###Comparison to LEWICE 2D  
 
+LEWICE 2D calculations are compared to NACA-TN-4151 Table II 
+values below. 
 
+![](images/ice_shapes_wrap_up/l2d theta.png)  
+
+![](images/ice_shapes_wrap_up/l2d hs.png)  
 
 
 
