@@ -76,9 +76,65 @@ Wilder
 
 ###Correlation to freezing fraction 
 
-NACA-TN-4151 terms are similar to freezing fraction 
+In the review of NACA-TN-4155, it was noted:
 
-LEWICE 2D
+We can see elements of a "freezing fraction" calculation from Messinger [^4] in equations (1) and (2)
+from above. 
+
+    θ = 483 w^0.5 (Em/(32-t_o)^(1/3) - 72 - 58 (1 - 1/1.35^αi), deg   (1)
+    
+    h = 4.35X10-4 τ V_o (w β_m)*0.5 (32-t_o)^0.3   (2)
+
+LWC (w) and a water catch efficient term (E_m or β_m) are in both, and a temperature difference. 
+
+From Messinger (equations re-arranged), we also see a water catch rate and a temperature difference:
+
+    mw = LWC * β * V_o  or mw = LWC * E_m / length * V_o
+
+    n = ((hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * cpw * (ts - ta)) 
+          -(hc * (r * u**2 / 2 / cp))-(mw * (u**2 / 2))) / (Lf * mw)
+
+In the [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
+it was noted that 
+[NASA/CR-2005-213852](https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf)  
+treated the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature 
+for calculating leading edge freezing fraction. 
+We will use that here. 
+
+For the cases in NACA-TN-4151 Table II, 
+the leading edge equivalent cylinder freezing fractions were calculated.
+
+A fitting function of the form 
+
+    A * freezing_fraction + B * aoa + C = theta_upper_horn_measured 
+was used to determine the best fit coefficient values of A and B and C. 
+
+The results of this are compared to the values from equation (1) below:  
+
+![](images/ice_shapes_wrap_up/thetas fits.png)  
+
+Both fits have some variance, but the one using freezing fraction 
+has a slightly better fit. 
+
+A similar fit was made for ice height with the addition 
+of a water catch term:
+
+    A * freezing_fraction * water_catch + B * aoa + C = theta_upper_horn_measured 
+
+![](images/ice_shapes_wrap_up/ffcyl hs fit.png)  
+
+The results are comparable between equation (2) values 
+and the fit with freezing fraction. 
+
+To summarized, calculated equivalent cylinder leading edge freezing fraction 
+correlates as well to the ice shape height and theta as 
+the icing conditions equations (1) and (2). 
+They convey very similar information. 
+
+
+###Comparison to LEWICE 2D  
+
+
 
 
 
