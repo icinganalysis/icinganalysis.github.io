@@ -16,18 +16,23 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ##Publications
 
-###[NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md)  
->Ice shapes are recorded in flight tests in natural icing conditions.  
 
-###[NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"]({filename}NACA-TR-446.md)  
->"Protuberances" on an airfoil can have significant effects on section lift and drag. 
+###Review of the "Ice Shapes and Their Effects" thread so far
 
-###[NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil"]({filename}NACA-WR-L-292.md)     
->Airfoil characteristics with simulated residual ice are measured.
+In this thread, we saw:
 
-###[NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight"]({filename}NACA-TN-1598.md)   
->Airplane levels effects of icing are measured, and broken into major components.  
+An almost "lost gem" of the NACA-era, [NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"] with, in 1929: 
+- Description of supercooled large drop (SLD) icing conditions  
+- "Detect and exit" icing mitigation strategy  
+- Natural icing flight tests of icephobic materials  
+- Identification of different types of icing  
 
+The effect of "protuberances" on an airfoil section lift and drag in [NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"]({filename}NACA-TR-446.md)  
+
+The effects of simulated residual ice in [NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil"]({filename}NACA-WR-L-292.md)     
+
+Airplane levels effects of icing are measured, and broken into major components in [NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight"]({filename}NACA-TN-1598.md)   
+  
 Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.   
 >By "discriminating use of the data", drag results can be estimated using NACA-TR-446.  
 
@@ -48,6 +53,41 @@ Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Sh
 >Glaze ice shape correlations for two commercial aircraft airfoils are developed.
 
 Summary of the "Ice Shapes and Their Effects" thread
+
+
+
+
+
+
+##Discussion  
+
+###NACA-TR-446 is widely applied
+
+NACA-WR-L-292  
+NACA-TN-2962  
+Brumby  
+
+
+###Correlations to icing conditions 
+
+NACA-TN-4151  
+SAE 225  
+Wilder  
+
+###Correlation to freezing fraction 
+
+NACA-TN-4151 terms are similar to freezing fraction 
+
+LEWICE 2D
+
+
+
+
+
+
+
+
+
 
 
 ##Notes  

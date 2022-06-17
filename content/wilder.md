@@ -6,7 +6,6 @@ status: draft
 
 ![Figure 25](images/wilder/Figure 25.png)  
 
-
 #"Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
 
 ##Summary 
@@ -228,7 +227,6 @@ area.
 
 ![Figure 6](images/wilder/Figure 6.png)  
 
-
 >The above calculation procedues only approximate the actual ice shape
 since accurate ice accretion data for most airfoils is not available. 
 Also,
@@ -367,8 +365,8 @@ point surface temperature. This would allow the water to flow further along
 the surface before freezing. No attempt was made in this study to determine
 the magnitude of this effect of material properties on ice shape. 
 
-[Having worked with aircraft both aluminum and composite leading edge materials, 
-I have not seen a notable effect due to material.]
+Having worked with aircraft both aluminum and composite leading edge materials, 
+I have not seen a notable effect due to material.
 
 ###Theoretical Impingement Characteristics  
 
@@ -622,7 +620,8 @@ This publication cites 6 references:
 - Stoffel, G. J., "Determination of the Necessity of Tail Ice Protection on Commercial Jetliners", Procedings of the 5th Annual National Conference on Environmental Effects on Aircraft and Propulsion Systems, 1965.  
 
 I could not find a citation of this publication in the literature,
-and so this truly qualifies as __"The Greatest Thing That You Have (Probably) Never Read"__. 
+and so this truly qualifies as __"The Greatest Thing That You Have (Probably) Never Read"__,
+or at least "a thing that you have (probably) never read". 
 
 However, see "Related" below. 
 
@@ -634,6 +633,11 @@ Wilder, R. W. "A theoretical and experimental means to predict ice accretion sha
 I could not find this publication online. 
 
 [https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+theoretical+and+experimental+means+to+predict+ice+accretion+shapes+for+evaluating+aircraft+handling+and+performance+characteristics&btnG=  ](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+theoretical+and+experimental+means+to+predict+ice+accretion+shapes+for+evaluating+aircraft+handling+and+performance+characteristics&btnG=  )
+
+See also the review of the conference where this paper was presented, 
+[1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md), 
+which stated:  
+>"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people.".  
 
 ##Notes
 

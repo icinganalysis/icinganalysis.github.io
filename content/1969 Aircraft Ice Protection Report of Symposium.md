@@ -6,7 +6,6 @@ tags:
 
 ![Fig1](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
 
-
 ##Abstract
 
 _("Summary" in the orignal)._
@@ -82,7 +81,6 @@ Airline Operational Experience in Icing Airlines Environment.; Capt. Paul A. Sod
 Appendix I - List of Attendees  
 
 ###Introductory remarks
-
 
 > Mr. Stephen H. Rolle; Chief, Propulsion Branch, Engineering and
 Manufacturing Division, in his capacity as symposium chairman,
