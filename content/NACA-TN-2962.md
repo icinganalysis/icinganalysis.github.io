@@ -436,39 +436,39 @@ empennage surfaces with heated covers, tents, or hangars.
 
 >The results of an investigation of the effects of ice and frost
 formations on the drag of an NACA 65<sub>1</sub>-212 airfoil 
-section may be summarized as follows:
+section may be summarized as follows:  
 >1. At high angles of attack (8°), a prohibitive increase in drag
 coefficient of approximately 70 percent was obtained within 2 minutes
 when ice formed on the upper surface near the leading edge of the airfoil
 under conditions of heavy glaze icing (high rate of water catch and high
-datum air temperatures).
+datum air temperatures).  
 >2. Relatively small formations of glaze icing (low rates of water
 catch and high datum air temperature) increased the drag coefficient of
 the airfoil over the range of conditions studied by less than 27 percent
 following a 30-minute icing period, except for simulated landing
 approaches. Rime-ice formations associated with lower air temperatures
 did not increase the airfoil drag coefficient appreciably above the
-initial (standard roughness) level, even with high rates of water catch.
+initial (standard roughness) level, even with high rates of water catch.  
 >3. A glaze-ice formation on the leading-edge section for a simulated
 approach condition, during which the airfoil attitude is increased from
 2° to 8° angle of attack, caused a severe increase in drag coefficient
 of over 285 percent over the bare airfoil drag at 8° angle of attack and
 was accompanied by a shift in the position of the momentum wake that
-indicated incipient stalling of the airfoil.
+indicated incipient stalling of the airfoil.  
 >4. Runback icing on the lower surface obtained with the use of a
 continuous heating system that does not evaporate all the impinging
 water caused moderate drag increases only when a spanwise ridge of ice
-was formed aft of the heatable area.
+was formed aft of the heatable area.  
 >5. Removal of the primary ice formations by cyclic de-icing caused
 the drag to return almost to the bare airfoil drag coefficient, except
 for the drag caused by runback ice formations. In general, runback
 icing with a cyclic de-icing system increased the drag less than did
 runback icing incurred in similar conditions with a continuous heating
 system that only evaporated approximately 28 to 44 percent of the
-impinging water.
+impinging water.  
 >6. Frost formations on the airfoil surfaces caused a large and
 rapid increase in the drag coefficient and at high angles of attack (8°)
-were accompanied by incipient stalling of the airfoil.
+were accompanied by incipient stalling of the airfoil.  
 
 ##Citations
 
