@@ -60,6 +60,10 @@ We will look at recent data to address some questions:
 1. Does leading edge freezing fraction correlate to airfoil ice shape parameters?  
 2. How well do LEWICE results compare to the ice shapes data that we have seen?  
 
+NASA-TM-107374 and NACA-TR-446  
+
+
+
 ###Correlation to freezing fraction 
 
 In the review of NACA-TN-4155, it was noted:
