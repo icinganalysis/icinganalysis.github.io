@@ -3,7 +3,7 @@ Category: NACA
 
 ###_"It is desirable to evaluate the effect of sweepback on the shape of the leading-edge ice formations and the associated drag penalties"_  
 
-#NACA-RM-E53J30, "Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection" [^1]  
+#"Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection" [^1]  
 
 ##Summary  
 The section drag due to ice on a swept airfoil section is measured. 
