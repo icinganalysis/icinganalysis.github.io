@@ -34,9 +34,7 @@ There are additional publications on ice shapes for deicing systems and propelle
 ###[NACA-RM-E53J30, "Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection]({filename}NACA-RM-E53J30.md)  
 >The drag due to ice on a swept airfoil section is measured. 
 
-Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958  
-and  
-Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
+###[NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"]({filename}NACA-TN-4151)    
 >Correlations are develop between ice shapes, aerodynamic performance, and icing conditions.  
 
 Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957, [https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  

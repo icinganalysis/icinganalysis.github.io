@@ -1,6 +1,5 @@
 title: NACA-TN-4151     
 Category: NACA  
-status: draft  
 
 ###_"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"_  
 
