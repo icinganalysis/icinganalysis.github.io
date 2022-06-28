@@ -1,18 +1,33 @@
 title: Calibration of the NACA Icing Wind Tunnels    
-category: icing tunnels
+category: icing tunnels  
 status: draft  
 
 "Considerable time [was devoted] to means for controlling the amount
 of water sprayed into the air stream, the size of water particles, and the temperatures of
 the air and water" [^1]  
 
+##Summary  
+Calibration methods evolved during the NACA-era
+
+##Key Points  
+1. Early tests had informal calibrations, partly due to a limited understanding of the natural icing environment.  
+2. Rotating multicylinders were the most used means of calibration.  
+3. Water spray nozzles were improved circa 1949.  
+4. The understanding of the natural icing environment had also advanced by 1949.  
+
 ##Discussion  
+
+As implied from the quote above from the year 1929, 
+the calibration of an icing wind tunnel is often not just measuring what the facility produces, 
+but also altering and improving the facility to achieve target values for water drop size and 
+liquid water content, 
+and producing a water drop spray that is uniform "enough". 
 
 ###Early calibrations  
 
-Two early icing wind tunnel tests had informal (compared to today's standards [^2]) calibrations.
+Two early icing wind tunnel tests had informal calibrations (compared to today's standards [^2]).
 
-[NACA-TN-339]({filename}NACA-TN-339.md), 1930 (Langley Refrigerated Wind Tunnel): 
+####[NACA-TN-339]({filename}NACA-TN-339.md), 1930 (Langley Refrigerated Wind Tunnel) [^3]: 
 
 >Certain preliminary tests were made in the wind tunnel to
 determine the best form of water spray necessary to produce ice
@@ -33,11 +48,16 @@ the following tests, as it could be easily controlled to give
 even dispersion across the air stream at any desired rate of
 water output.
 
-NACA-TN-712, 1939 (Langley 7-foot by 10-foot wind tunnel): 
+####NACA-TN-712, 1939 (Langley 7-foot by 10-foot wind tunnel) [^4]: 
   
 >Natural precipitations were simulated by admitting
 water to the air stream through a spray nozzle.
 The tunnel test section with the model and the spray are diagrammatically shown in figure 1.  
+
+![Figure 1 of NACA-TN-712](images/naca-tn-712/Figure 1.png)  
+
+[There will be a discussion of this figure when we get to "Large Drop Icing" 
+in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md)]
 
 >The range of control over the formation of ice was
 such that a simulation of all typical ice formations
@@ -91,7 +111,7 @@ LWC calibration methods:
 
 ![Figure 3 of NACA-TN-3839](images/naca-tn-3839/Figure 3.png)  
 
-###NACA spray calibrations
+###NACA water spray calibrations  
 
 _(In approximate chronological order)_  
 Note that while NACA-RM-E50K10 was published in 1951, 
@@ -117,7 +137,7 @@ NACA-RM-E51E16 | not stated | not stated
 NACA-RM-E51B12 | multicylinder | multicylinder "in the range of natural icing conditions"
 NACA-RM-E51J29 | not stated | not stated 
 NACA-RM-E51J30 | multicylinder | multicylinder 6 to 10 MVD
-NACA-RM-E53C27 | not stated | not stated 8 18 MVD
+NACA-RM-E53C27 | not stated | not stated 8 to 18 MVD
 NACA-TN-2962 | "The icing conditions were determined from a previous calibration of the tunnel and periodically checked with a pressure-type icing-rate meter" | dye-tracer technique 10 to 16 MVD 
 NACA-RM-E53E07 | not stated | not stated 
 NACA-RM-E52J31  | not stated | not stated 
@@ -132,6 +152,35 @@ NACA-RM-E56E11 | not stated | not stated
 NACA-TN-4155 | "Liquid-water content was measured by means of a pressure-type icing-rate meter" | "Icing-cloud-droplet size as a function of spray-nozzle pressure settings was determined from a previous calibration of droplet size obtained with water droplets carrying dye in solution"
 NACA-RM-E57G09  | Not stated | not stated 
 NACA-TN-4268 | "The cloud total liquid-water content was obtained by collecting dye from the spray cloud in an aspirating device (a tube that draws in the cloud at free-stream conditions)"|"The cloud droplet size and size distribution were determined by experimental and theoretical impingement on a 36.5-percent-thick symmetrical Joukowski airfoil" 
+
+###Natural icing conditions characterizations  
+
+Calibration may be thought of as understanding the conditions that a facility can achieve. 
+
+Another step is knowing what the flight conditions are that one wants to simulate. 
+
+The understanding of natural icing conditions was also evolving in the NACA-era. 
+This topic merits a thread of its own, but for now I will very briefly summarize. 
+
+In 1947 there was some understanding of MVD and LWC targets. 
+This figure is from a presentation by William Lewis [^5]. 
+
+![Figure 3 from William Lewis presentation](images/william_lewis_1947/Figure 3.png)  
+
+This had advanced by 1949 to something close to our current understanding. 
+As mentioned in the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
+the current icing regulations environment definition was largely determined by a few NACA publications, 
+NACA-TN-1855 [^6] being one of them. 
+Readers may recognize the values of "II-M Intermittent Maximum"
+and "III-M Continuous Maximum" in Table I below 
+as being part of the current regulations. 
+
+![Table I of NACA-TN-1855](images/naca-tn-1855/Table 1.png)  
+
+It was fortunate that by 1949 the IRT spray system was able to 
+produce sprays similar to at least a portion of these values. 
+
+So, by 1951, NACA-RM-E51B12 could declare that the test conditions were "in the range of natural icing conditions".  
 
 ##References  
 
@@ -177,12 +226,22 @@ NACA-TN-4268 | "The cloud total liquid-water content was obtained by collecting 
 
 ##Related
 
-Today, SAE ARP5905, Calibration and Acceptance of Icing Wind Tunnels (Aerospace Recommended Practice) [^2]
-"provides recommended practices for the calibration and acceptance of icing wind tunnels to be used in testing of aircraft components and systems and for the development of simulated ice shapes".
+Today, SAE [ARP5905](https://www.sae.org/standards/content/arp5905/), Calibration and Acceptance of Icing Wind Tunnels (Aerospace Recommended Practice) [^2] 
+"provides recommended practices for the calibration and acceptance of icing wind tunnels to be used in testing of aircraft components and systems and for the development of simulated ice shapes".  
 
-#Notes
+You can see a recent calibration of the NASA Glenn Icing Research Tunnel at [ntrs](https://ntrs.nasa.gov/citations/20205002688) [^7].  
 
-[^1]: NACA Annual Report for 1929 via NASA-SP-2002-4226, 
+##Notes
+
+[^1]: NACA Annual Report for 1929 discussing the Langley Refrigerated Wind Tunnel, via NASA-SP-2002-4226, 
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)  
-
 [^2]: Aerospace, S. A. E. "SAE ARP 5905 Calibration and acceptance of icing wind tunnels." [ARP5905](https://www.sae.org/standards/content/arp5905/)  
+[^3]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
+[^4]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939.  
+[^5]: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
+This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
+This is also a candidate for "The Greatest Thing That You Have (Probably) Never Read"  
+[^6]: 
+Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+[^7]: Timko, Emily N., et al. NASA Glenn Icing Research Tunnel: 2019 Cloud Calibration Procedure and Results. No. E-19889. 2021.  [ntrs](https://ntrs.nasa.gov/citations/20205002688).  
+

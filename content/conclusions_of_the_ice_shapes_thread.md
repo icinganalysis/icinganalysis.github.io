@@ -1,10 +1,11 @@
 Title: Ice Shapes and Their Effects  
 Category: NACA  
+status: draft  
 
-###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]
+###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]  
 
 ![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
->from NACA-TN-1598 [^2]
+>from NACA-TN-1598 [^2]  
 
 #Ice Shapes and Their Effects Thread
 
@@ -32,37 +33,21 @@ The effects of simulated residual ice in [NACA-WR-L-292, "Effects of a Simulated
 
 Airplane levels effects of icing are measured, and broken into major components in [NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight"]({filename}NACA-TN-1598.md)   
   
-Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.   
->By "discriminating use of the data", drag results can be estimated using NACA-TR-446.  
+Estimated drag results by "discriminating use of the data" from NACA-TR-446 in [NACA-TN-2962, "Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection"]({filename}NACA-TN-2962.md)  
 
-von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
->The drag due to ice on a swept airfoil section is measured. 
+The drag due to ice on a swept airfoil section measured in [NACA-RM-E53J30, "Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection"]({filename}NACA-RM-E53J30.md)  
 
-Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958  
-and  
-Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
->Correlations are develop between ice shapes, aerodynamic performance, and icing conditions.  
+Correlations between ice shapes, aerodynamic performance, and icing conditions in [NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"]({filename}NACA-TN-4151.md)  
 
-Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957, [https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  
-and  
-Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TN-D-2166, 1964.  [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590)  
->A more general correlation of drag due to ice on an airfoil is developed.  
+A more general correlation of drag due to ice on an airfoil in [NASA-TN-D-2166, "Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils"]({filename}NASA-TN-D-2166.md)  
 
-Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [https://apps.dtic.mil/sti/pdfs/AD0690469.pdf](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
->Glaze ice shape correlations for two commercial aircraft airfoils are developed.  
-
-Summary of the "Ice Shapes and Their Effects" thread
-
+Glaze ice shape correlations for two commercial aircraft airfoils in [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)  
 
 ##Discussion  
 
 We will look at recent data to address some questions:  
 1. Does leading edge freezing fraction correlate to airfoil ice shape parameters?  
 2. How well do LEWICE results compare to the ice shapes data that we have seen?  
-
-NASA-TM-107374 and NACA-TR-446  
-
-
 
 ###Correlation to freezing fraction 
 
@@ -102,7 +87,7 @@ was used to determine the best fit coefficient values of A and B and C.
 
 The results of this are compared to the values from equation (1) below:  
 
-![](images/ice_shapes_wrap_up/thetas fits.png)  
+![calculated fit of theta values](images/ice_shapes_wrap_up/thetas fits.png)  
 
 Both fits have some variance, but the one using freezing fraction 
 has a slightly better fit. 
@@ -112,7 +97,7 @@ of a water catch term:
 
     A * freezing_fraction * water_catch + B * aoa + C = theta_upper_horn_measured 
 
-![](images/ice_shapes_wrap_up/ffcyl hs fit.png)  
+![calculated fit of ice heights](images/ice_shapes_wrap_up/ffcyl hs fit.png)  
 
 The results are comparable between equation (2) values 
 and the fit with freezing fraction. 
@@ -157,7 +142,7 @@ There is some correlation of upper horn angle at higher values,
 but poor correlation at lower theta values, 
 many of which are at higher AOA values where there is separation. 
 
-![](images/ice_shapes_wrap_up/l2d theta_.png)  
+![Theta values calculated with LEWICE 2D](images/ice_shapes_wrap_up/l2d theta_.png)  
 
 LEWICE was run with the default ice density of 917 kg/m^3. 
 For ice height, the upper bound is not exceed 
@@ -166,17 +151,15 @@ Using a lower ice density (or expeditiously increasing icing time)
 would move the LEWICE 2D value up to a better average, 
 but would not improve the scatter. 
 
-![](images/ice_shapes_wrap_up/l2d hs.png)  
+![Ice heights calculated with LEWICE 2D](images/ice_shapes_wrap_up/l2d hs.png)  
 
 ##What is still used today 
 
 ###Protuberance effects
 
-The "protuberance" effect data from NACA-TR-446 in perpetuated in Brumby,
+The "protuberance" effect data from NACA-TR-446 in perpetuated in Brumby [^3],
 which in addition to NACA-TR-446 collected several other studies and 
 summarized them on a series of graphs. 
-
-2] Brumby RE. Wing Surface Roughness – Cause & Effect. D.C. Flight Approach, Jan. 1979. pp. 2-7. 
 
 These are still used today for purposes like in NACA-TR-446 of
 "the prediction of the effects of short span protuberances" 
@@ -188,44 +171,49 @@ Large drop icing can form in area different from smaller drops,
 and if ice forms aft of a protection system it can produce different shapes. 
 the "Forward Facing Quarter Round" has been used as a stand-in for such ice. 
 
-![](images/DOT-FAA-AR-00-14/Figure 7.png)  
->Figure 7 from DOT/FAA/AR-00-14.
+![DOT-FAA-AR-00-14 Figure 7](images/DOT-FAA-AR-00-14/Figure 7.png)  
+>Figure 7 from DOT/FAA/AR-00/14 [^4].
 
-You can find a more detail discussion at
-Bragg, Michael B., Andy P. Broeren, and Leia A. Blumenthal. "Iced-airfoil aerodynamics." Progress in Aerospace Sciences 41.5 (2005): 323-362.  http://icing.ae.illinois.edu/papers/05/Iced%20Airfoil%20Aerodynamics.pdf  
+You can find a more detail discussion in Bragg, "Iced-airfoil aerodynamics" [^5].  
 
 ###Icing conditions parameters  
 
 As we saw above, the "empirical" icing conditions parameters in NACA-TN-4151 
 anticipated and correlate to equivalent leading edge freezing fraction values. 
 
-This gets used in 
-
-NASA/CR-2004-212875 and NASA/CR-2005-213852
+This gets used in NASA/CR-2004-212875 [^6] and NASA/CR-2005-213852 [^7].  
 
 ![NASA/CR-2005-213852 Figure 3](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+>Figure 3 from NASA/CR-2005-213852.  
 
 ###Ice shape parameters
 
 While there is no completely agreed upon "standard" set of parameters to describe an ice shape, 
-the values from NACA-TN-4151 get perpetuated in the LEWICE user's manual,
+the values from NACA-TN-4151 get perpetuated in the LEWICE user's manual [^8],
 and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set:
 
-NASA/CR—2008-214255
-User’s Manual for LEWICE Version 3.2
-November, 2008
-https://ntrs.nasa.gov/api/citations/20080048307/downloads/20080048307.pdf
+![Figure 18 Ice shape parameters from LEWICE manual](images/ice_shapes_wrap_up/LEWICE manual figure 18.png)  
 
-![](images/ice_shapes_wrap_up/LEWICE manual figure 18.png)  
+However, the validation report [^9] used a modified definition for theta:
 
-However, the validation report used a modified definition for theta:
+![Figure 16 from NASA/CR-1998-208687](images/ice_shapes_wrap_up/LEWICE validation fig 16.png)  
 
-NASA/CR-1998-208687
-A Summary of Validation Results for LEWICE 2.0
-december, 1998
-![](images/ice_shapes_wrap_up/LEWICE validation fig 16.png)  
+##Related  
+
+Most of the ice shapes from this thread were produced in icing wind tunnels. 
+We will review these test facilities in the upcoming "Icing Wind Tunnels Thread".
 
 ##Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.   
 [^2]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
-
+[^3]: Brumby RE. Wing Surface Roughness – Cause & Effect. D.C. Flight Approach, Jan. 1979. pp. 2-7.  
+[^4]: Bragg, Michael B., and Eric Loth. Effects of large-droplet ice accretion on airfoil and wing aerodynamics and control. ILLINOIS UNIV AT URBANA DEPT OF AERONAUTICAL AND ASTRONAUTICAL ENGINEERING, 2000. DOT/FAA/AR-00/14,
+available at [tc.faa](http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf)  
+[^5]: Bragg, Michael B., Andy P. Broeren, and Leia A. Blumenthal. "Iced-airfoil aerodynamics." Progress in Aerospace Sciences 41.5 (2005): 323-362.  [icing.ae](http://icing.ae.illinois.edu/papers/05/Iced%20Airfoil%20Aerodynamics.pdf)  
+[^6]: Bond, Thomas H., and David N. Anderson. Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
+[^7]: 
+Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  [ntrs](https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf)  
+[^8]: 
+Wright, William. User's manual for LEWICE version 3.2. No. E-15537. 2008. NASA/CR—2008-214255 [ntsr](https://ntrs.nasa.gov/api/citations/20080048307/downloads/20080048307.pdf)  
+[^9]: 
+Wright, William B. A Summary of Validation Results for LEWICE 2.0. No. E-11467. 1998.  NASA/CR-1998-208687  [researchgate](https://www.researchgate.net/profile/William-Wright-23/publication/24286769_A_summary_of_validation_results_for_LEWICE_20/links/0c96051dc1c80ad31a000000/A-summary-of-validation-results-for-LEWICE-20.pdf)  

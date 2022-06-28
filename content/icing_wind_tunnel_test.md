@@ -46,11 +46,9 @@ Anti-ice Test Similarity
 
 Large Drop Icing  
 
-
-##Citations  
+##Notes 
 
 [^1]: Bond, Thomas H., and David N. Anderson. Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
-
 [^2]: Pope, A. Wind Tunnel Testing. John Wiley and Sons, Inc., New York, 1947.  
 
 

@@ -6,7 +6,7 @@ status: draft
 
 ![Figure 25](images/wilder/Figure 25.png)  
 
-#"Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
+#"Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
 
 ##Summary 
 Glaze ice shape correlations for two commercial aircraft airfoils are developed.
@@ -15,6 +15,7 @@ Glaze ice shape correlations for two commercial aircraft airfoils are developed.
 1. Icing wind tunnel tests with two commercial aircraft airfoils were conducted.  
 2. Glaze ice shape correlations were developed.  
 3. Airplane level ice effects are detailed.  
+4. The state of the art in 1969 is documented.  
 
 ##A Note
 
@@ -214,13 +215,13 @@ where
 
 ```
 
-This water catch rate is in terms of pounds of ice per hout per foot of span. 
+This water catch rate is in terms of pounds of ice per hour per foot of span. 
 The cross-sectional area of the ice cap is then:
 ```text
 Area = 144 * w_c * theta / gamma_i                (4)
 
 ```
->A double peaked glaze ice shape such as shown in Fgiure 6 is then drawn by 
+>A double peaked glaze ice shape such as shown in Figure 6 is then drawn by 
 trial
 and error which contains the calculated theoretical cross-sectional
 area. 
@@ -230,8 +231,8 @@ area.
 >The above calculation procedues only approximate the actual ice shape
 since accurate ice accretion data for most airfoils is not available. 
 Also,
-water drop sizes and resultant collection efficiences must be checked for the
-nxu water catch. Figure 7 shows a typical plot of the effect of drop
+water drop sizes and resultant collection efficiencies must be checked for the
+water catch. Figure 7 shows a typical plot of the effect of drop
 size on collection efficiency and cloud liquid water content. This
 calculation will generally show that the maximum catch rate will occur with
 20 to 25 micron droplets.
@@ -255,7 +256,7 @@ horizontal stabilizer configuration of typical current jet transport aircraft.
 This program a conducted in the NASA 6 foot by 9 foot icing tunnel at
 Cleveland, Ohio. Frm ice accretion data obtained in the test program, an
 emperical relationship was obtained which correlated ice accretion thickness
-and ice angles with theoretical impingenent parameters. Use of these
+and ice angles with theoretical impingement parameters. Use of these
 relationships allows the direct determination of ice shapes adjusted for any
 given icing and flight condition as well as for size and sweep of the airfoil.
 
@@ -335,7 +336,7 @@ casts as defined in Figure 16.
 
 ![Figure 16](images/wilder/Figure 16.png)  
 
->The majority of the ice samples were ot the glaze type with typical double
+>The majority of the ice samples were of the glaze type with typical double
 horn protuberances. A few rime ice samples were obtained and the remainder 
 were a mixture of the two. Figure 17 shows representative ice shapes obtained 
 during this test program. The effect of the wing sweepback was most noticeable 
@@ -586,8 +587,6 @@ characteristics can be analytically determined for a given descent profile.
 Use of the procedures illustrated here will enable the determination of
 the time and altitude at which the ice will shed or what destination airport
 temperature is required to assure ice shedding prior to approach.
-
-###Comments  
 
 This publication simplified the ice shape correlation 
 (compared to NACA-TN-4151) 

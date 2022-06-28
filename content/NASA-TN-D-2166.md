@@ -179,7 +179,7 @@ SAE Preprint 225 and NASA-TN-D-2166 both cite the same 6 publications:
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 
-An online search found NASA-TN-D-2166 cited 47 times. 
+An online search found NASA-TN-D-2166 cited 47 times [^3]. 
 No citations for SAE Preprint 225 were found. 
 
 #Notes:
