@@ -1,6 +1,5 @@
 Title: NASA-TN-D-2166  
 Category: NACA  
-status: draft  
 
 ###_"this correlation is a first-order approximation of the presently available aerodynamic and icing data for airfoils exposed to icing conditions"_  
 

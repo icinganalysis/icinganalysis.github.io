@@ -25,16 +25,35 @@ There are significant icing wind tunnel test method improvements in the post-NAC
 ##NACA-ERA:
 
 NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"  
+<!--
+[NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"]({filename}NACA-TN-339.md)  
+-->
+>An early icing wind tunnel and test are described
 
 Uses of the NACA Icing Wind Tunnels  
+<!--
+[Uses of the NACA Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)  
+-->
+>A wide variety of test articles were used in the NACA-era Icing Research Tunnel (IRT)  
+
 
 Calibration of the NACA icing wind tunnels
+<!--
+[Calibration of the NACA icing wind tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
+-->
+>Calibration methods evolved during the NACA-era
 
 Scaling in NACA tests
+<!--
+[Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
+-->
+>Early examples of icing test scaling are noted
 
 ##Post NACA-ERA:
 
-Development of Test Similarity  
+AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"  
+
+NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 
 Bilanin Pi-Terms    
 

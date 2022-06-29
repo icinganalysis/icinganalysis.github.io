@@ -2,6 +2,8 @@ title: Scaling in NACA Icing Wind Tunnel Tests
 category: icing tunnels  
 status: draft  
 
+###_"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"_
+
 #Summary  
 Early examples of icing test scaling are noted.
 
@@ -33,8 +35,8 @@ to a direct-ram installation The ram-pressure recovery
 and the circumferential uniformity of the mass flow in the inlets
 was relatively independent of angle of attack.
 
-![](images/naca-rm-e8a27/Figure 2.png)  
-![](images/naca-rm-e8a27/Figure 3.png)  
+![Figure 2 of NACA-RM-E8A27](images/naca-rm-e8a27/Figure 2.png)  
+![Figure 3 of NACA-RM-E8A27](images/naca-rm-e8a27/Figure 3.png)  
 
 >Extrapolation of model icing investigations to full scale. 
 
@@ -61,13 +63,20 @@ where a is water drop diameter
       V is air speed
       C is chord length
       ρ is air density
+      μ is air viscosity
+      
 ```
 
-The dimensionless terms K and φ that describe water drop impingement are used. 
-Langmuir and Blodgett were not included in the references for NACA-RM-E8A27, 
-but the K and φ terms come from [Langmuir and Blodgett]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2].  
+Using an analogy such as Re = ρVC/μ, a subscale test value of C may be compensated for by
+increasing ρ or V (or in combination) to maintain a full scale flight Re value. 
+Facilities such as the Variable-Density Wind Tunnel [see NACA-TR-446]({filename}NACA-TR-446.md) can be pressurized to achieve a high density. 
+Here, the water drop impingement dimensionless terms K and φ are used. 
+  
+The dimensionless terms K and φ that describe water drop impingement come from [Langmuir and Blodgett]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2],
+but Langmuir and Blodgett were not included in the references of NACA-RM-E8A27.  
 
-Thus, a test with a half scale test article in an essentially sea level pressure facility
+The IRT is not pressurized, so the test section pressure will be close to sea level pressure.
+Thus, a test with a half scale test article in a close to sea level pressure facility
 is related full scale flight at altitude. 
 
 The example does not detail all of the four key variables for the flight and test cases
