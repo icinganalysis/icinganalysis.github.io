@@ -2,6 +2,7 @@ title: AEDC-TR-87-23
 category: icing tunnels  
 status: draft  
 
+###_"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  
 
 ![Figure 3](images/aedc_tr_87_23/Figure 3.png)  
 
@@ -55,6 +56,39 @@ by the particular application. However, this does not prevent using Cd as a simi
 
 ![Figure 9](images/aedc_tr_87_23/Figure 9.png)  
 
+Those ice shapes and others with measure Cd values were plotted versus 
+calculated leading edge freezing fraction (and other parameters).
+
+![Figure 3](images/aedc_tr_87_23/Figure 3.png)  
+
+This suggests that for this airfoil and this range of conditions, 
+there is a peak effect near a stagnation line freezing fraction of 0.3. 
+Slightly different values of freezing fraction would put one in the regions to either side of steep slopes,
+where a small difference in freezing fraction equals a large difference in Cd. 
+Thus it is hard to determine a universal "close enough" tolerance on freezing fraction 
+or any other variable.  
+
+It is perhaps illustrative that the measurements shown in Figure 3 are not 
+numerous enough to capture the peak Cd value with confidence 
+(the lines drawn are speculative, not real curve fits). 
+This is not because the tests were not planned well, 
+but because it is hard to do.  
+
+To find such a peak in detail, options include:  
+
+1. have numerous, tightly spaced test points in the test plan   
+2. have some pre-knowledge that there is a peak near certain conditions, and plan several closely space test points near that  
+3. during a test, plot points and realize there is an apparent peak, and add more test points near the peak    
+
+I would not say that for all airfoils and conditions there is a peak effect near freezing fraction of 0.3, 
+but if you have no other information that might be a good place to start searching.  
+
+Not every test measures section Cd with ice. 
+There are technical challenges to measuring the section drag with either a balance or pressure rake. 
+These add time and cost to a test. 
+Also, while the section Cd measured may be a useful relative value, 
+it is not clear that it relates directly and linearly to airplane level values. 
+
 
 
 ##Conclusions  
@@ -66,8 +100,8 @@ results of this investigation indicate that:
 >1. The criteria for establishing icing similitude should be specified in advance of
 the simulation. Allowable similitude tolerances should also be specified.  
 >2. A change in a particular icing scaling parameter may or may not indicate a change
-in ice shape (simil/tude). The reason for this is the functional dependency of
-a particular scaling parameter (0, ~, N, Ac, Ko) on the icing test conditions (T,
+in ice shape (similitude). The reason for this is the functional dependency of
+a particular scaling parameter (0, Φ, N, Ac, Ko) on the icing test conditions (T,
 LWC, MVD, V, P) that caused the change in the ice shape.  
 >3. It may be more indicative of similitude to consider changes in ice shape brought
 about by changes in the test conditions rather than changes of the icing scaling
@@ -89,6 +123,30 @@ it consider how changes in free-stream altitude pressure may change local icing
 test conditions and, hence, affect ice shape.  
 >9. Additional work is needed to develop other approaches to ice scaling. The ice
 scaling code employed in this study may be too restrictive.  
+
+It is perhaps illustrative that the measurements shown in Figure 3 are not 
+numerous enough to capture the peak Cd value with confidence 
+(the lines drawn are speculative, not real curve fits). 
+This is not because the tests were not planned well, 
+but because it is hard to do.  
+
+To find such a peak in detail, options include:  
+
+1. have numerous, tightly spaced test points in the test plan   
+2. have some pre-knowledge that there is a peak near certain conditions, and plan several closely space test points near that  
+3. during a test, plot points and realize there is an apparent peak, and add more test points near the peak    
+
+I would not say that for all airfoils and conditions there is a peak effect near freezing fraction of 0.3, 
+but if you have no other information that might be a good place to start searching.  
+
+Not every test measures section Cd with ice. 
+Cd measurements add time and cost to a test. 
+
+There are technical challenges to measuring the section drag wih ice with either a force balance or pressure rake. 
+Among the challenges is that the ice is not always uniform over the span. 
+
+Also, while the measured section Cd with ice may be a useful relative value, 
+it is not clear that it relates directly and linearly to airplane level values. 
 
 
 
