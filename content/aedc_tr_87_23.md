@@ -8,7 +8,6 @@ status: draft
 
 #"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" [^1]  
 
-
 ##Abstract  
 
 >Often, engine icing tests cannot be conducted at conditions that are considered the critical
@@ -39,7 +38,6 @@ are generally less tolerant to changes in test conditions.)
 >5. The scaling law used herein cannot solely be used to determine tolerances in setting
 test conditions.  
 
-
 ##Discussion  
 
 To me, this publication is as much about critical icing conditions selection as it is about 
@@ -67,29 +65,6 @@ Slightly different values of freezing fraction would put one in the regions to e
 where a small difference in freezing fraction equals a large difference in Cd. 
 Thus it is hard to determine a universal "close enough" tolerance on freezing fraction 
 or any other variable.  
-
-It is perhaps illustrative that the measurements shown in Figure 3 are not 
-numerous enough to capture the peak Cd value with confidence 
-(the lines drawn are speculative, not real curve fits). 
-This is not because the tests were not planned well, 
-but because it is hard to do.  
-
-To find such a peak in detail, options include:  
-
-1. have numerous, tightly spaced test points in the test plan   
-2. have some pre-knowledge that there is a peak near certain conditions, and plan several closely space test points near that  
-3. during a test, plot points and realize there is an apparent peak, and add more test points near the peak    
-
-I would not say that for all airfoils and conditions there is a peak effect near freezing fraction of 0.3, 
-but if you have no other information that might be a good place to start searching.  
-
-Not every test measures section Cd with ice. 
-There are technical challenges to measuring the section drag with either a balance or pressure rake. 
-These add time and cost to a test. 
-Also, while the section Cd measured may be a useful relative value, 
-it is not clear that it relates directly and linearly to airplane level values. 
-
-
 
 ##Conclusions  
 
@@ -140,14 +115,40 @@ I would not say that for all airfoils and conditions there is a peak effect near
 but if you have no other information that might be a good place to start searching.  
 
 Not every test measures section Cd with ice. 
+While I can find hundreds (perhaps in the low thousand) of measured ice shapes, 
+I can only thinks of only a few dozen where Cd was measured (most of them herein) (and fewer with Cl measured.)
 Cd measurements add time and cost to a test. 
 
-There are technical challenges to measuring the section drag wih ice with either a force balance or pressure rake. 
+There are technical challenges to measuring the section drag with ice with either a force balance or wake pressure survey. 
 Among the challenges is that the ice is not always uniform over the span. 
 
 Also, while the measured section Cd with ice may be a useful relative value, 
 it is not clear that it relates directly and linearly to airplane level values. 
 
+If Cd is not measured, how does one select a "critical" ice shape? 
+Figure 10 of NASA-TM-83556 has probably been influential. 
+The ice shapes with the largest Cd values have upper ice "horn" angles of about 45 degrees
+(209 km/h -5C, 338 km/h -2C and -5C). 
+
+![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png) 
+_Figure 10 from NASA-TM-83556_ 
+
+![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)  
+_Figure 7 from NACA-TN-4151_ 
+
+While it was published well before NACA-TM-83556, 
+the ice shapes from Wilder also have about a 45 degree horn angle: 
+
+![Figure 6 from Wilder](images/wilder/Figure 6.png)  
+_Figure 6 from Wilder_
+
+And, even earlier, NACA-TN-4151 had maximum Cd values at an ice horn angle of 
+35 to 60 degrees, depending on the angle of attack, for a completely different (much thinner) airfoil. 
+
+![Figure 10 from NACA-TN-4151](images/naca-tn-4151/Figure 10.png)  
+_Figure 10 from NACA-TN-4151_ 
+
+If nothing else, it appears to be a long ingrained expectation of ice shapes.  
 
 
 ##Citations  
