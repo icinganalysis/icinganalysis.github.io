@@ -1,14 +1,14 @@
-Title: NASA-TN-D-2166  
+Title: NASA-TM-D-2166  
 Category: NACA  
 
 ###_"this correlation is a first-order approximation of the presently available aerodynamic and icing data for airfoils exposed to icing conditions"_  
 
 #SAE Preprint No. 225, "Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions"  
 and  
-#NASA-TN-D-2166, "Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils"  
+#NASA-TM-D-2166, "Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils"  
 
 The content of these two publications are almost identical. 
-As NASA-TN-D-2166 is the one that was cited the most, 
+As NASA-TM-D-2166 is the one that was cited the most, 
 and has a more legible copy available online, 
 I will center the review around it. 
 
@@ -45,10 +45,10 @@ for which complex trends preclude a general relation scope of this report.
 
 ##Discussion
 
-NASA-TN-D-2166 was published (in 1964) after the end of the NACA-era. 
+NASA-TM-D-2166 was published (in 1964) after the end of the NACA-era. 
 However, it is listed in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
-A footnote in NASA-TN-D-2166 explains the republication of the data from SAE Preprint 225: 
+A footnote in NASA-TM-D-2166 explains the republication of the data from SAE Preprint 225: 
 
 > The material contained herein was presented as a paper at the 
 SAE National Aeronautic Meeting, 
@@ -169,7 +169,7 @@ and in making flight performance studies in which icing effects must be evaluate
 
 ##Citations
 
-SAE Preprint 225 and NASA-TN-D-2166 both cite the same 6 publications:  
+SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:  
 
 - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1957.  
 - von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
@@ -178,7 +178,7 @@ SAE Preprint 225 and NASA-TN-D-2166 both cite the same 6 publications:
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 
-An online search found NASA-TN-D-2166 cited 47 times [^3]. 
+An online search found NASA-TM-D-2166 cited 47 times [^3]. 
 No citations for SAE Preprint 225 were found. 
 
 #Notes:
@@ -186,7 +186,7 @@ No citations for SAE Preprint 225 were found.
 [^1]: Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.
 I could not find a download this on the nrts, it is available at 
 [https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  
-[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TN-D-2166, 1964. 
+[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. 
 I could not find a download for this on the nrts, it is available at 
 [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590).  
 [^3]: 
