@@ -2,9 +2,7 @@ title: Calibration of the NACA Icing Wind Tunnels
 category: icing tunnels  
 status: draft  
 
-"Considerable time [was devoted] to means for controlling the amount
-of water sprayed into the air stream, the size of water particles, and the temperatures of
-the air and water" [^1]  
+###_"Considerable time [was devoted] to means for controlling the amount of water sprayed into the air stream, the size of water particles, and the temperatures of the air and water" [^1]_  
 
 ##Summary  
 Calibration methods evolved during the NACA-era
