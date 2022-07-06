@@ -3,6 +3,7 @@ category: icing tunnels
 status: draft  
 
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
+_from NACA-TN-1246_
 
 ###_"Icing wind tunnels can simulate natural icing with water-spray and refrigeration systems ... to permit safe, convenient and relatively inexpensive testing."_ [^1]  
 
@@ -21,6 +22,9 @@ I will not have a detailed review of most of the individual publications in this
 Instead, I will use the collective themes below about icing wind tunnels. 
 
 There are significant icing wind tunnel test method improvements in the post-NACA era that will also be covered. 
+
+Readers are also encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
+which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 
 
 ##NACA-ERA:
 
@@ -52,10 +56,17 @@ Scaling in NACA tests
 ##Post NACA-ERA:
 
 AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"  
+>"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."  
+
+NASA-TM-83556 and AEDC-TR-87-23 
+>"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ... drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
 
 NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
+>"This study study has established the import of correctly analyzing the leading-edge heat balance in establishing scaling methods."  
 
-Bilanin Pi-Terms    
+
+Bilanin Pi-Terms  
+>"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
 Weber Number Effects  
 

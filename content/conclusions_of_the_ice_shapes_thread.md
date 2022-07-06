@@ -136,7 +136,7 @@ aerodynamic effect of drag due to an ice shape,
 and that the corresponding shape factors (location and height of the ice horn)
 are aerodynamically meaningful.__
 
-###Comparison to LEWICE2D [^6] and NACA-TR-446 and NASA-TM-D-2166
+###Comparison to LEWICE2D [^6] and NACA-TR-446
 
 In the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md) 
 and [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
@@ -198,7 +198,7 @@ as the case with the largest effect, but the other values do not match Figure 10
 The other methods do not correctly identify the condition with the largest section drag coefficient,
 but for the extrapolated NASA-TM-83556 data at least the condition was a close second. 
 In general, they do not match Figure 10 (b) well. 
-The best one might say about them is that they are at least on the correct order of magnitude. 
+I suppose that "first-order approximation" (from NASA-TM-D-2166) applies as a description. 
 
 Note that these results were for a moderate chord (0.53 m) airfoil. 
 Results may be different for a larger or smaller airfoil in

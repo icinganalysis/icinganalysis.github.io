@@ -167,6 +167,9 @@ in estimating the type and size of ice formations that would result from any spe
 in estimating the aerodynamic penalties that would result from an encounter, 
 and in making flight performance studies in which icing effects must be evaluated.
 
+See "Related" below for a later comparison of icing wind tunnel test data to 
+NASA-TM-D-2166 calculations, illustrating the limitations of "a first-order approximation".
+
 ##Citations
 
 SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:  
@@ -181,7 +184,20 @@ SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:
 An online search found NASA-TM-D-2166 cited 47 times [^3]. 
 No citations for SAE Preprint 225 were found. 
 
-#Notes:
+##Related  
+
+NASA-TM-83556 [^4] compares measured ice drag on a NACA0012 airfoil to NASA-TM-D-2166 ("ref. 1") calculations.  
+Several of the calculated delta Cd values are notably higher than the test values. 
+
+![NASA-TM-83556 Figure 20](images/nasa-tm-83556/Figure 20.png)  
+
+Data for the NACA0012 airfoil was not included in the NASA-TM-D-2166 data, 
+but the similar NACA0011 airfoil was. 
+
+We will see more from NASA-TM-83556 in the "Conclusions of the Ice Shapes and Their Effects Thread", 
+and in the upcoming "Icing Wind Tunnel Test Thread".
+
+##Notes:
 
 [^1]: Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.
 I could not find a download this on the nrts, it is available at 
@@ -191,4 +207,5 @@ I could not find a download for this on the nrts, it is available at
 [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590).  
 [^3]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Prediction+of+Aerodynamic+Penalties+Caused+by+Ice+Formations+on+Various+Airfoils&btnG=  
+[^4]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984.  
 
