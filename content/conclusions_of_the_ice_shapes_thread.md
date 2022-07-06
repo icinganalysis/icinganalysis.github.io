@@ -9,6 +9,16 @@ status: draft
 
 #Conclusions of the Ice Shapes and Their Effects Thread
 
+##Summary 
+Data from the post-NACA era are used to resolve open questions 
+
+##Key Points  
+1. The Ice Shapes and Their Effects thread is summarized.  
+2. Post-NACA era data is used to resolve some open questions.  
+3. Correlations of drag due to ice have limited, "first order" accuracy.  
+
+##Discussion  
+
 ###Review of the "Ice Shapes and Their Effects" thread so far
 
 In this thread, we saw:
@@ -35,7 +45,7 @@ A more general correlation of drag due to ice on an airfoil in [NASA-TM-D-2166, 
 
 Glaze ice shape correlations for two commercial aircraft airfoils in [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)  
 
-##Discussion  
+###Open Questions  
 
 We will look at recent data to address some questions:  
 1. Does leading edge freezing fraction correlate to airfoil ice shape parameters?  
