@@ -108,7 +108,7 @@ correlates as well to the ice shape height and theta as
 the icing conditions equations (1) and (2). 
 They convey very similar information. 
 
-I view this even more validation of Uwe von Glahn's assertion that 
+I view this as further validation of Uwe von Glahn's assertion that 
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955.  
 
 ####AEDC-TR-87-23 [^5]
@@ -136,13 +136,13 @@ aerodynamic effect of drag due to an ice shape,
 and that the corresponding shape factors (location and height of the ice horn)
 are aerodynamically meaningful.__
 
-###Comparison to LEWICE2D [^6] and NACA-TR-446
+###Comparison of NASA-TM-83556 [^7] to LEWICE2D [^6] and NACA-TR-446
 
 In the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md) 
 and [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
 comparisons to LEWICE 2D were made. 
 
-We will do so again here, using data from NASA-TM-83556 [^7] where 
+We will do so again here, using data from NASA-TM-83556 where 
 the drag due to ice shapes was measured. 
 (We will review this data in more detail in the upcoming "Icing Wind Tunnel Test Thread").
 Fortunately, a NACA0012 airfoil was used, as was used in NACA-TR-446. 
@@ -175,30 +175,30 @@ while the ice horn bases are at values of x/c < 0.005.
 This is pushing _"discriminating use of the data"_ [^8] to its limits.
 The measured ice data only roughly corresponds to the protuberance data: 
 
-![](images/nasa-tm-83556/nasa_tm_83556_xc_delta_cd_normalized.png)  
+![Comparison of NASA-TM-83556 data to NACA-TR-446](images/nasa-tm-83556/nasa_tm_83556_xc_delta_cd_normalized.png)  
 
 we will also use a fit of delta Cd due to ice with ice horn angle and ice height,
 and allow extrapolation to larger horn angles (this is a subset of the data in AEDC-TR-87-23).  
 
-![Figure 10 data fit for ice angle](images/nasa-tm-83556/nasa_tm_83556_theta_delta_cd_normalized.png)  
+![Fit of NASA-TM-83556 data](images/nasa-tm-83556/nasa_tm_83556_theta_delta_cd_normalized.png)  
 
-We will also use NASA-TM-D-2166 [^9] methods, using the LEWICE calculated ice horn location and height, 
-and using ice horn location and height calculated from the icing conditions and NACA0012 impingement characteristics. 
+(A comparison to NASA-TM-D-2166 [^9] methods were discussed in the review of [NASA-TM-D-2166]({}NASA-TM-D-2166.md),
+and were found to be of limited accuracy.)
 
 With any of the very approximate extrapolation of Cd, 
 the estimated effects are different than Figure 10 (b) from above. 
 
-![Calculated Cd values for figure 10 conditions](images/nasa-tm-83556/nasa_tm_83556_lewice_comparison_extrapolated_cd.png)  
-
 ![Figure 10b from NASA-TM-83556](images/nasa-tm-83556/Figure 10b.png)
+
+![Calculated Cd values for figure 10 conditions](images/nasa-tm-83556/nasa_tm_83556_lewice_comparison_extrapolated_cd.png)  
 
 With the NACA-TR-446 based extrapolation, the 338 km/h case at -2C is correctly identified 
 as the case with the largest effect, but the other values do not match Figure 10 (b) well. 
 
-The other methods do not correctly identify the condition with the largest section drag coefficient,
-but for the extrapolated NASA-TM-83556 data at least the condition was a close second. 
-In general, they do not match Figure 10 (b) well. 
-I suppose that "first-order approximation" (from NASA-TM-D-2166) applies as a description. 
+The method using a fit of NASA-TM-83556 horn angle data did not correctly identify the condition with the largest section drag coefficient,
+least the highest Cd test condition was a close second in the analysis. 
+In general, values do not match Figure 10 (b) well. 
+I suppose that "first-order approximation" (a phrase from NASA-TM-D-2166) applies as a description. 
 
 Note that these results were for a moderate chord (0.53 m) airfoil. 
 Results may be different for a larger or smaller airfoil in
