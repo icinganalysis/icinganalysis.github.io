@@ -229,6 +229,10 @@ that was presented at the workshop so far
 would produce significantly better results. 
 The workshop has not gotten to ice shape effects yet. 
 
+At the moment, if one needs accurate data for effects due to ice, 
+a combination of icing wind tunnel test, wind tunnel test, and
+perhaps flight test are recommended. 
+
 ##What is still used today 
 
 ###Protuberance effects
