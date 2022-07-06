@@ -465,7 +465,7 @@ airport temperature is below the temperature at which the ice will shed.
 ##Conclusions  
 
 >The determination of the need for airfoil ice protection requires the
-establishment, of the effects of large ice accretions on airplane performance. The
+establishment of the effects of large ice accretions on airplane performance. The
 ice accretion test program conducted by Boeing provides a basis for accurately
 determining the size and shape of these ice accretions. This has been
 accomplished by correlating the measured ice cap dimensions with theoretical
