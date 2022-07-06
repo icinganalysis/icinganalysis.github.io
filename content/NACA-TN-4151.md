@@ -248,7 +248,7 @@ The expression resulting from the plot in figure 8 is as follows:
     t_o is free-stream total temperature, F
     αi is angle of attack during icing, degree
     
->Thus, equation (1) relates the ice angle 0 to the icing and operating
+>Thus, equation (1) relates the ice angle θ to the icing and operating
 conditions that are generally known or calculable in a flight performance
 study.
 

@@ -227,7 +227,7 @@ of an airfoil as far back as the maximum ordinate.
 surfaces may prove to be effective, such as the continuous 
 application of a liquid soluble compound to the leading edge.  
 
-It is not clear that this particular icing wind tunnel was used for other tests. 
+It is not clear that this particular icing wind tunnel was used for other icing tests. 
 See ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)
 for more information. 
 

@@ -49,7 +49,7 @@ Glaze ice shape correlations for two commercial aircraft airfoils in [Wilder, Ra
 
 We will look at recent data to address some questions:  
 1. Does leading edge freezing fraction correlate to airfoil ice shape parameters?  
-2. How well do LEWICE results compare to the ice shapes data that we have seen?  
+2. How well do LEWICE results compare to the ice shape drag data?  
 
 ###Correlation to freezing fraction 
 
@@ -57,7 +57,7 @@ We will look at recent data to address some questions:
 
 In the review of NACA-TN-4155, it was noted:
 
->Thus, equation (1) relates the ice angle 0 to the icing and operating
+>Thus, equation (1) relates the ice angle θ to the icing and operating
 conditions that are generally known or calculable in a flight performance
 study.
 
@@ -146,7 +146,7 @@ aerodynamic effect of drag due to an ice shape,
 and that the corresponding shape factors (location and height of the ice horn)
 are aerodynamically meaningful.
 
-###Comparison of NASA-TM-83556 [^7] to LEWICE2D [^6] and NACA-TR-446
+###Comparison of NASA-TM-83556 [^6] to LEWICE2D [^7] and [NACA-TR-446]({filename}NACA-TR-446.md)  
 
 In the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md) 
 and [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
@@ -214,7 +214,7 @@ Note that these results were for a moderate chord (0.53 m) airfoil.
 Results may be different for a larger or smaller airfoil in
 similar icing conditions. 
 
-It is not clear to me if the limited accuracy of the effect extrapolation methods used 
+It is not clear to me if the limited accuracy of the effect extrapolation methods used here
 make the LEWICE ice shapes effects seem to be significantly different when they may not really be, 
 or if the LEWICE ice shapes themselves are meaningfully different. 
 
@@ -231,7 +231,8 @@ The workshop has not gotten to ice shape effects yet.
 
 At the moment, if one needs accurate data for effects due to ice, 
 a combination of icing wind tunnel test, wind tunnel test, and
-perhaps flight test are recommended. 
+perhaps flight test are recommended, similar to the methods used in 1969 
+[see [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)]. 
 
 ##What is still used today 
 
@@ -249,12 +250,12 @@ Protuberances had renewed interest after supercooled large drop (SLD) icing
 was recognized as a potential threat to current aircraft. 
 Large drop icing can form in area different from smaller drops, 
 and if ice forms aft of a protection system it can produce different shapes. 
-the "Forward Facing Quarter Round" has been used as a stand-in for such ice. 
+The "Forward Facing Quarter Round" has been used to represent such ice. 
 
 ![DOT-FAA-AR-00-14 Figure 7](images/DOT-FAA-AR-00-14/Figure 7.png)  
 >Figure 7 from DOT/FAA/AR-00/14 [^12].
 
-You can find a more detail discussion in Bragg, "Iced-airfoil aerodynamics" [^13].  
+You can find a more detailed discussion in "Iced-airfoil aerodynamics" [^13].  
 
 ###Icing conditions parameters  
 
@@ -291,10 +292,10 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^4]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^5]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983.  
-[^6]: 
+[^6]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984.  
+[^7]: 
 https://software.nasa.gov/software/LEW-18573-1,  
 https://ntrs.nasa.gov/citations/19990021235  
-[^7]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984.  
 [^8]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 [^9]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. 
 I could not find a download for this on the nrts, it is available at 

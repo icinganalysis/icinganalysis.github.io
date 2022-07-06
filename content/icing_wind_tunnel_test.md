@@ -12,7 +12,7 @@ While there were extensive publications on how to use aerodynamic wind tunnels i
 there was no reference for using icing wind tunnels that I could find, 
 and I cannot think of a current publication that provides comprehensive guidance. 
 
-This thread will not single-handedly correct that problem, 
+This thread will not by itself correct that problem, 
 but it will summarize uses, 
 and perhaps provide some guidance by examples. 
 
@@ -26,7 +26,7 @@ There are significant icing wind tunnel test method improvements in the post-NAC
 Readers are also encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 
 
-##NACA-ERA:
+##NACA-Era:
 
 NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"  
 <!--
@@ -40,7 +40,6 @@ Uses of the NACA Icing Wind Tunnels
 -->
 >A wide variety of test articles were used in the NACA-era Icing Research Tunnel (IRT)  
 
-
 Calibration of the NACA icing wind tunnels
 <!--
 [Calibration of the NACA icing wind tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
@@ -53,17 +52,16 @@ Scaling in NACA tests
 -->
 >Early examples of icing test scaling are noted
 
-##Post NACA-ERA:
+##Post NACA-Era:
 
 AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"  
 >"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."  
 
 NASA-TM-83556 and AEDC-TR-87-23 
->"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ... drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
+>"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ...[Here] drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
 
 NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 >"This study study has established the import of correctly analyzing the leading-edge heat balance in establishing scaling methods."  
-
 
 Bilanin Pi-Terms  
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  

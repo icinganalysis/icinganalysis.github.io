@@ -186,13 +186,13 @@ No citations for SAE Preprint 225 were found.
 
 ##Related  
 
-NASA-TM-83556 [^4] compares measured ice drag on a NACA0012 airfoil to NASA-TM-D-2166 ("ref. 1") calculations.  
+NASA-TM-83556 [^4] compares measured ice drag on a NACA0012 airfoil to NASA-TM-D-2166 ("ref. 1") calculations. 
 Several of the calculated delta Cd values are notably higher than the test values. 
 
 ![NASA-TM-83556 Figure 20](images/nasa-tm-83556/Figure 20.png)  
 
 Data for the NACA0012 airfoil was not included in the NASA-TM-D-2166 data, 
-but the similar NACA0011 airfoil was. 
+but the similar NACA0011 airfoil was included. 
 
 We will see more from NASA-TM-83556 in the "Conclusions of the Ice Shapes and Their Effects Thread", 
 and in the upcoming "Icing Wind Tunnel Test Thread".
