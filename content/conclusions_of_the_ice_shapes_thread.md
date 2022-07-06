@@ -13,7 +13,7 @@ status: draft
 
 In this thread, we saw:
 
-An almost "lost gem" of the NACA-era, [NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"] with, in 1929: 
+An almost "lost gem" of the NACA-era, [NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md) with, in 1929: 
 - Description of supercooled large drop (SLD) icing conditions  
 - "Detect and exit" icing mitigation strategy  
 - Natural icing flight tests of icephobic materials  
@@ -114,7 +114,7 @@ I view this even more validation of Uwe von Glahn's assertion that
 ####AEDC-TR-87-23 [^5]
 
 AEDC-TR-87-23 (which we will review in more detail in the upcoming "Icing Wind Tunnel Test Thread") 
-used Cd as an ice shape similarity indicator
+used the drag coefficient Cd as an ice shape similarity indicator
 (and skipped over the ice shape details):  
 
 >drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed.
@@ -150,7 +150,7 @@ There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and 
 The data is at an angle of attack of 4 degrees,
 while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees angle of attack.
 
-![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png) 
+![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png)  
 _Figure 10 from NASA-TM-83556_ 
 
 LEWICE 2D yields similar, but not identical, ice shapes. 
@@ -161,18 +161,19 @@ and the ice horn angles are larger.
 ![LEWICE calculations for Figure 10 data](images/nasa-tm-83556/nasa_tm_83556_fig10_2_lewice.png)  
 
 LEWICE 2D does not have a way to evaluate drag due to ice 
-(and it is challenging for any CFD method). 
+and it is challenging for any CFD method, 
+particularly for glaze ice cases at higher angle of attack values. 
 
 To crudely estimate the effects of the LEWICE ice shapes, 
 we will try using NACA-TR-446 data. 
-A challenge is that the NACA-TR-446 data is only available at certain x/c stations. 
+A challenge is that the NACA-TR-446 data is only available at certain 
+protuberance heights and x/c stations. 
+The largest height/chord ratio in the NACA-TR-446 values is 0.0125, 
+but the ice horn heights are in the 0.03 to 0.08 range. 
 The closest stations of interest are at x/c=0 and x/c=0.05, 
 while the ice horn bases are at values of x/c < 0.005. 
-So, while this is technically linear interpolation, 
-I will label it extrapolation, as it is not clear that the effect is linear, 
-and to limit the expectations of accuracy. 
 This is pushing _"discriminating use of the data"_ [^8] to its limits.
-The measured ice data only vaguely corresponds to the protuberance data. 
+The measured ice data only roughly corresponds to the protuberance data: 
 
 ![](images/nasa-tm-83556/nasa_tm_83556_xc_delta_cd_normalized.png)  
 
@@ -195,7 +196,7 @@ With the NACA-TR-446 based extrapolation, the 338 km/h case at -2C is correctly 
 as the case with the largest effect, but the other values do not match Figure 10 (b) well. 
 
 The other methods do not correctly identify the condition with the largest section drag coefficient,
-but for the extrapolated NASA-TM-83556 data at least the condition was a close second.  
+but for the extrapolated NASA-TM-83556 data at least the condition was a close second. 
 In general, they do not match Figure 10 (b) well. 
 The best one might say about them is that they are at least on the correct order of magnitude. 
 
@@ -213,8 +214,8 @@ a phrase like __"Additional work is needed"__ [^5] applies here.
 Additional work is ongoing in groups such as the 
 AIAA Ice Prediction Workshop Workshop [^10]. 
 While the ice shape results above were specifically for LEWICE2D, 
-I am not sure that any other currently available codes 
-presented at the workshop so far
+I am not sure that any other currently available code 
+that was presented at the workshop so far
 would produce significantly better results. 
 The workshop has not gotten to ice shape effects yet. 
 

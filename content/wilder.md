@@ -1,6 +1,5 @@
 Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]  
 Category: Diversions  
-status: draft  
 
 ###_"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."_  
 
@@ -106,50 +105,6 @@ of commercial aircraft airfoils.
 
 This gives us a detailed snapshot of at least 
 one airplane manufacturer's "state of the art" for determining ice shapes in 1969.  
-
-###Theory of Ice Shapes  
-
->Ice shapes on airfoils are classified as "glaze" or "rime" although many
-ice shapes will be a mixture of the two.
-Rime ice is
-found at combinations
-of low temperatures and low liquid water contents.
-The water droplets freeze on
-impact resulting in a milky-white ice shape, Figure 3, dictated by the airfoil
-impingement characteristics in terms of water catch, distribution, and impingement 
-limits. The drag and other aerodynamic effects of rime ice are much
-less severe than glaze ice because of the streamline form and therefore this
-type of icing is not considered in determining the airplane tolerance to icing.
-
->Glaze ice forms at combinations of high liquid water contents and surface
-temperatures near freezing.
-Not all of the water droplets freeze on impact, but
-some run a short distance before freezing, resulting in a blunt or double horn
-ice shape as shown in Figure 4. This ice is usually clear since there is
-little or no air entrained in the ice. The upper surface horn acts as a
-spoiler, increasing drag, and reducing lift. The lower surface horn usually
-has little effect because of low local air velocities, This ice shape,
-because of its "spoiler" action, can affect aerodynamic characteristics in
-terms of increased drag and decreased maximum lift coefficient. On highly
-swept airfoils, glaze ice tends to form as a series of discontinuous cup
-shares due to the spawnise velocity component.
-
-![Figure 4](images/wilder/Figure 4.png)  
-[Unfortunately, many of the figures have a "NOT REPRODUCIBLE" stamp like this one, 
-and so I will not be including many of those figures.]  
-
->The shapes end type of ice is dependent on tha surface temperature, which
-is a complex function of airspeed, liquid water content, ambient air temperature,
-local flow field around the object and altitude. A correlation or ice shapes
-on a small 2 inch diameter unswept cylinder, with these paramaters, is shown
-in Figure 5 where n is the freezing fraction defined in reference 3 as that
-part of the water catch that freezes where it impinges. In general terms,
-rime ice is likely to occur at total air temperatures between 25 and 32 F.
-Between 10 and 25 F, a mixture of rime and glaze ice will occur with glaze
-predominantly in the stagnation area and for high liquid water content
-conditions.
-
-![Figure 5](images/wilder/Figure 5.png)  
 
 ###Calculation Procedures  
 
@@ -453,7 +408,7 @@ extrapolated much beyond the airfoil angles of attack from which the data
 was obtained without correlating impingement data.  
 
 >The frontal heights, obtained through these ice angles are maximum dimensions
-since the test data wns obtained at or near maximum icing temperatures where
+since the test data was obtained at or near maximum icing temperatures where
 the impinging water can run farther aft before freezing. The range of flight
 and icing conditions during holding or approach is within the test icing
 conditions so these dimensions will also be valid for flight conditions.
@@ -487,70 +442,6 @@ blunt highly cambered BAC 470 airfoil.
 A detailed example calculation is given, the results of which are shown in Figure 25.
 
 ![Figure 25](images/wilder/Figure 25.png)  
-
-###EFFECTS OF ICE ON AIRPLANE PERFORMANCE  
-
-####Wind Tunnel Testing 
-
->A preliminary evaluation of the effects of ice on airplane performance
-and stability is usual obtained from wind tunnel testing with ice shapes
-attached to the unheated airfoil sections. Wind tunnel test results showing
-the effect on the lift coefficient and pitching moment curves of a typical
-Boeing Jet transport are shown in Figure 26. At angles of attack associated with
-level flight, the ice has little effect other than to increase drag. This
-effect on airplane drag with flaps extended, is shown in Figure 27. As indicated
-in this figure, the drag increase due to ice, increases sharply with landing
-flap settings. It is under these conditions where ice has the most effect on
-airplane performance
-
-![Figure 26](images/wilder/Figure 26.png)  
-
-![Figure 27](images/wilder/Figure 27.png)  
-
-####Flight Testing
-
->The final check of the airplane tolerance to icing is usually obtained
-through flight testing with simulated ice shapes unless previous data is
-available or sufficient to determine aerodynamic characteristics or penalties.
-These ice shapes are made up from a styrofoam core attached to a fiberglas
-glove which fastens over the airfoil leading curve. Epabond or body putty is
-applied over the styrofoam ice shape to give a rough outside texture. A
-typical ice shape used on the 727 horizontal stabilizer is shown in Figure 28.
-Exact simulation of the cup-like protrusions, shown in Figure 19, is not
-considered necessary since the horn or ice pinnacle acts as the spoiler which
-results in airflow separation. In some conditions, the cup-like protrusions
-could act like vortex generators and promote reattachment of the airflow to
-the airfoil. Therefore, only the external ice shape is duplicated, including
-the sharpness of the ice pinnacles.
-
-[Figure 28 is illegible.]
-
->The flight test evaluation by FAA pilots includes basic airplane performance
-data as well as flight characteristics for the following at the most critical
-center as of
-gravity:
->1. Demonstration of stalls, sideslip, heading changes under engine out
-conditions and windup turns.  
->2. Demonstration of elevator effectiveness through pushovers starting at
-1.4 Vs to flap placard speeds and down to 1.1 Vs.  
->3. Demonstration of high speed handling characteristics including lateral
-control evaluation, pushovers, and pull ups.
->4. Flap retraction and extension during simulated go-around.
->5. Demonstration of approach and cruise stability through triming the
-airplane and stabilizing on airspeed through elevator only.  
-
->This latter condition usually is the most difficult in that the aircraft
-must have sufficient elevator control available to attain speeds between 1.1 Vs
-and 1.7 Vs for approach without retriming the aircraft. Using a movable
-horizontal stabilizer for trim usually means
-more elevator control available,
-especially for fully powered or directly controlled elevators. Aircraft 
-with fixed stabilizers have experienced severe nose down pitching due to loss 
-of elevator control from the effects of ice on the stabilizer leading edges. 
-This is usually associated with a change in flap position or speed, which 
-requires the tail surfaces to work harder. These surfaces already being 
-at a high lift coefficient condition "stall out" resulting in loww of elevator 
-effectiveness. 
 
 ###Performance Penalties
 
@@ -600,13 +491,6 @@ plaster casts of the actual ice shapes"__
 This allowed omitting a temperature value from the correlation, 
 but that may have lost some of the broader detail and applicability. 
 
-A flight test that is typically performed, but not mentioned above, 
-is flight test in natural icing conditions. 
-This verifies, at least to some fidelity (it is hard to measure ice on a wing in flight), 
-that the "representative" ice shapes were indeed representative, 
-and that the airplane performance and handling predicted by wind tunnel tests and 
-demonstrated in the flight test with artificial ice shapes are accurate. 
-
 ##Citations
 
 This publication cites 6 references:  
@@ -619,7 +503,7 @@ This publication cites 6 references:
 - Stoffel, G. J., "Determination of the Necessity of Tail Ice Protection on Commercial Jetliners", Procedings of the 5th Annual National Conference on Environmental Effects on Aircraft and Propulsion Systems, 1965.  
 
 I could not find a citation of this publication in the literature,
-and so this truly qualifies as __"The Greatest Thing That You Have (Probably) Never Read"__,
+and so this truly qualifies as a candidate for __"The Greatest Thing That You Have (Probably) Never Read"__,
 or at least "a thing that you have (probably) never read". 
 
 However, see "Related" below. 
