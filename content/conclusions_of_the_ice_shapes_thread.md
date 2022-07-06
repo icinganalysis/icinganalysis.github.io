@@ -140,11 +140,11 @@ NACA0012 airfoil used in the study:
 
 ![](images/nasa-tm-83556/nasa_tm_83556_no_theta.png)  
 
-__This suggests that calculated leading edge freezing fraction is not 
+This suggests that calculated leading edge freezing fraction is not 
 only an indicator of ice shape factors, but it also indicates the 
 aerodynamic effect of drag due to an ice shape, 
 and that the corresponding shape factors (location and height of the ice horn)
-are aerodynamically meaningful.__
+are aerodynamically meaningful.
 
 ###Comparison of NASA-TM-83556 [^7] to LEWICE2D [^6] and NACA-TR-446
 
