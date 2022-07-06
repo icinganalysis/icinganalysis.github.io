@@ -68,7 +68,7 @@ found in flight could be produced.
 Calibrations methods in the NACA Lewis Icing Research Tunnel (IRT) 
 evolved over time. 
 
-Drop size calibration methods:  
+####Drop size calibration methods:  
 
 1946 NACA-TN-1134 pool of castor oil  
 1947 NACA-TN-1246 rotating multicylinders  
@@ -84,7 +84,7 @@ Drop size calibration methods:
 \* I note this because it implies that they had enough confidence in the control systems and prior calibrations so that 
 conditions could be set just by the spray control parameters.
 
-LWC calibration methods: 
+####LWC calibration methods: 
 
 1946 NACA-TN-1134 free-water sampling rake  
 1947 NACA-TN-1246 rotating multicylinders  
