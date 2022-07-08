@@ -61,7 +61,7 @@ In the review of NACA-TN-4155, it was noted:
 conditions that are generally known or calculable in a flight performance
 study.
 
-    θ = 483 w^0.5 (Em/(32-t_o)^(1/3) - 72 - 58 (1 - 1/1.35^αi), deg   (1)
+    θ = 483 w^0.5 (E_m/(32-t_o)^(1/3) - 72 - 58 (1 - 1/1.35^αi), deg   (1)
     
     h = 4.35X10-4 τ V_o (w β_m)*0.5 (32-t_o)^0.3   (2)
 
@@ -130,7 +130,9 @@ used the drag coefficient Cd as an ice shape similarity indicator
 >drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed.
 
 It found that calculated leading edge freezing fraction corresponds
-to Cd measured with an ice shape, in a complex way. 
+to Cd measured with an ice shape, in a complex way, 
+with ice shapes having a calculated leading edge freezing fraction of about 0.3
+having the highest drag coefficient.   
 
 ![AEDC-TR-87-23 Figure 8](images/aedc_tr_87_23/Figure 8.png)  
 
@@ -163,6 +165,7 @@ while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees ang
 ![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png)  
 _Figure 10 from NASA-TM-83556_ 
 
+A Langmuir "D" drop size distribution was used for LEWICE 2D analysis of the conditions in Figure 10.
 LEWICE 2D yields similar, but not identical, ice shapes. 
 In general, the LEWICE shapes are thinner (due in part to being run with the default ice density of 917 kg/m^2),
 and the ice horn angles are larger. 
@@ -171,8 +174,10 @@ and the ice horn angles are larger.
 ![LEWICE calculations for Figure 10 data](images/nasa-tm-83556/nasa_tm_83556_fig10_2_lewice.png)  
 
 LEWICE 2D does not have a way to evaluate drag due to ice 
-and it is challenging for any CFD method, 
-particularly for glaze ice cases at higher angle of attack values. 
+and the calculation of drag due to ice is challenging for any CFD method, 
+particularly for glaze ice cases at higher angle of attack values 
+and higher Reynolds number values, where modeling separated flow is an important factor
+(and I have seen far too many simulations stop well short of Cl_max). 
 
 To crudely estimate the effects of the LEWICE ice shapes, 
 we will try using NACA-TR-446 data. 
@@ -229,6 +234,15 @@ that was presented at the workshop so far
 would produce significantly better results. 
 The workshop has not gotten to ice shape effects yet. 
 
+We also have not discussed lift effects much. 
+NASA-TM-D-2166 stated that "no systematic relation is readily apparent for a thin, sharp-nosed airfoil such as the 65A004 airfoil", 
+and there are fewer measurements of lift effects of in the NACA literature than for drag effects. 
+The lift effects of leading edge ice tend to be small for "typical" angle of attack values, 
+but can become significant at higher angle of attack values approaching the clean airfoil Cl_max. 
+Drag has been referred to as a "leading indicator" of lift effects, 
+as the change in drag due to ice a low angles of attack can be measurably significant, 
+while the lift effects may not be. 
+
 At the moment, if one needs accurate data for effects due to ice, 
 a combination of icing wind tunnel test, wind tunnel test, and
 perhaps flight test are recommended, similar to the methods used in 1969 
@@ -246,7 +260,7 @@ These are still used today for purposes like in NACA-TR-446 of
 "the prediction of the effects of short span protuberances" 
 such as spoilers, and the effect of repairs such as external doublers. 
 
-Protuberances had renewed interest after supercooled large drop (SLD) icing 
+Protuberances have had renewed interest after supercooled large drop (SLD) icing 
 was recognized as a potential threat to current aircraft. 
 Large drop icing can form in area different from smaller drops, 
 and if ice forms aft of a protection system it can produce different shapes. 
@@ -271,7 +285,8 @@ This gets used in NASA/CR-2004-212875 [^14] and NASA/CR-2005-213852 [^15].
 
 While there is no completely agreed upon "standard" set of parameters to describe an ice shape, 
 the values from NACA-TN-4151 get perpetuated in the LEWICE user's manual [^16],
-and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set:
+and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set,
+at least for 2D characterizations (3D is a matter of ongoing research):  
 
 ![Figure 18 Ice shape parameters from LEWICE manual](images/ice_shapes_wrap_up/LEWICE manual figure 18.png)  
 
@@ -282,7 +297,7 @@ However, the validation report [^17] used a modified definition for theta:
 ##Related  
 
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
-We will review these test facilities in the upcoming "Icing Wind Tunnels Thread".
+We will review these test facilities in the upcoming "Icing Wind Tunnels Test Thread". 
 
 ##Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.   
@@ -298,7 +313,7 @@ https://software.nasa.gov/software/LEW-18573-1,
 https://ntrs.nasa.gov/citations/19990021235  
 [^8]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 [^9]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. 
-I could not find a download for this on the nrts, it is available at 
+I could not find a download for this on the nrts, it is available at 0
 [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590).  
 [^10]:
 1st AIAA Ice Prediction Workshop Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  

@@ -76,6 +76,7 @@ The United States aircraft certification requirements still directly cite
 (circa 2021) NACA publications as the sources of data [^4].
 
 As these are technical publications, some readers may be challenged by the science and technology discussed. 
+[You may want to see ["A Gentle Introduction to Aircraft Icing"]({filename}a_gentle_introduction_to_aircraft_icing.md)]
 Disclaimer: The NACA publications by themselves would not provide a complete, orderly, or current education in the field of aircraft icing. 
 However, the publications have significantly contributed to several, more recent design resources:
 

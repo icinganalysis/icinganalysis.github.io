@@ -10,7 +10,8 @@ _from NACA-TN-1246_
 While there were extensive publications on how to use aerodynamic wind tunnels in the NACA-era 
 (for example, Pope's "Wind Tunnel Testing" [^2]), 
 there was no reference for using icing wind tunnels that I could find, 
-and I cannot think of a current publication that provides comprehensive guidance. 
+and I cannot think of a current publication that provides comprehensive guidance 
+(there are publications that cover specific aspects, as we shall see in the thread). 
 
 This thread will not by itself correct that problem, 
 but it will summarize uses, 
@@ -61,18 +62,18 @@ NASA-TM-83556 and AEDC-TR-87-23
 >"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ...[Here] drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
 
 NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
->"This study study has established the import of correctly analyzing the leading-edge heat balance in establishing scaling methods."  
+>"This study has established the import of correctly analyzing the leading-edge heat balance in establishing scaling methods."  
 
 Bilanin Pi-Terms  
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
-Weber Number Effects  
+NASA-CR-2004-212875 and Weber Number Effects  
 
 The Effect of Humidity  
 
 Anti-ice Test Similarity  
 
-Large Drop Icing  
+Large Water Drop Icing  
 
 ##Notes 
 

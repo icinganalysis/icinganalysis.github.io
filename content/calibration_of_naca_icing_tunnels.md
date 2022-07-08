@@ -52,7 +52,7 @@ water output.
 water to the air stream through a spray nozzle.
 The tunnel test section with the model and the spray are diagrammatically shown in figure 1.  
 
-![Figure 1 of NACA-TN-712](/images/naca-tn-712/Figure 1.png)  
+![Figure 1 of NACA-TN-712](images/naca-tn-712/Figure 1.png)  
 
 [There will be a discussion of this figure when we get to "Large Drop Icing" 
 in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md)]
@@ -95,19 +95,25 @@ conditions could be set just by the spray control parameters.
 1957 NACA-TN-4155 "Liquid-water content was measured by means of a pressure-type icing-rate meter"  
 1958 NACA-TN-4268 "The cloud total liquid-water content was obtained by collecting dye from the spray cloud in an aspirating device (a tube that draws in the cloud at free-stream conditions)"  
 
-###Gallery of selected images  
+###Selected images  
 
-![Figure 3 of NACA-TN-1134](/images/naca-tn-1134/Figure 3.png)  
+![Figure 3 of NACA-TN-1134](images/naca-tn-1134/Figure 3.png)  
+_from NACA-TN-1134_  
 
-![Figure 7 of NACA-TN-1520](/images/naca-tn-1520/Figure 7.png)  
+![Figure 7 of NACA-TN-1520](images/naca-tn-1520/Figure 7.png)  
+_from NACA-TN-1520_  
 
-![Figure 1 of NACA-RM-E51E16](/images/naca-rm-e51e16/Figure 1.png)  
+![Figure 1 of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 1.png)  
+_from NACA-RM-E51E16_  
 
-![Figure 6 of NACA-RM-E51E16](/images/naca-rm-e51e16/Figure 6.png)  
+![Figure 6 of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6.png)  
+_from NACA-RM-E51E16_  
 
-![Figure 7 of NACA-TN-2615](/images/naca-tn-2615/Figure 7.png)  
+![Figure 7 of NACA-TN-2615](images/naca-tn-2615/Figure 7.png)  
+_from NACA-TN-2615_  
 
-![Figure 3 of NACA-TN-3839](/images/naca-tn-3839/Figure 3.png)  
+![Figure 3 of NACA-TN-3839](images/naca-tn-3839/Figure 3.png)  
+_from NACA-TN-3839_  
 
 ###NACA water spray calibrations  
 
@@ -163,7 +169,7 @@ This topic merits a thread of its own, but for now I will very briefly summarize
 In 1947 there was some understanding of MVD and LWC targets. 
 This figure is from a presentation by William Lewis [^5]. 
 
-![Figure 3 from William Lewis presentation](/images/william_lewis_1947/Figure 3.png)  
+![Figure 3 from William Lewis presentation](images/william_lewis_1947/Figure 3.png)  
 
 This had advanced by 1949 to something close to our current understanding. 
 As mentioned in the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
@@ -173,7 +179,7 @@ Readers may recognize the values of "II-M Intermittent Maximum"
 and "III-M Continuous Maximum" in Table I below 
 as being part of the current regulations. 
 
-![Table I of NACA-TN-1855](/images/naca-tn-1855/Table 1.png)  
+![Table I of NACA-TN-1855](images/naca-tn-1855/Table 1.png)  
 
 It was fortunate that by 1949 the IRT spray system was able to 
 produce sprays similar to at least a portion of these values. 
