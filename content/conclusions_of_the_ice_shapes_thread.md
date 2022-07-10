@@ -101,7 +101,7 @@ The results of this are compared to the values from equation (1) below:
 ![calculated fit of theta values](images/ice_shapes_wrap_up/thetas fits.png)  
 
 Both fits have some variance, but the one using freezing fraction 
-has a slightly better fit. 
+has a better fit. 
 
 A similar fit was made for ice height with the addition 
 of a water catch term:
