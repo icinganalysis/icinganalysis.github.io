@@ -174,13 +174,14 @@ Again, I thank my readers.
 
 I plan to continue posting.
 
-For the upcoming "Icing Wind Tunnel Test Thread" I will be trying something a little different, 
+For the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md) 
+I will be trying something a little different, 
 grouping several publications into a single topic review, 
 and including more post NACA-era information. 
 This may accelerate getting through the publications, 
 but as I said above, I may not get through all 132 NACA icing publications. 
 
-I welcome feedback about what will most useful in future posts to you. 
+I welcome feedback about what will most useful to you in future posts. 
 
 
 

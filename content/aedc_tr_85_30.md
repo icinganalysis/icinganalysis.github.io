@@ -253,7 +253,7 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 - Fergus, J. L., Jr.: "A Steady-State Thermal Model for Analysis of Incipient Icing on an Airfoil Leading Edge." AEDC-TR-83-2 (AD-AI31207), July 1983.  
 - Sibley, P. J. and Smith, R. E., Jr.: "Model Testing in an Icing Wind Tunnel." Lockheed Aircraft Corporation, Report No. LR10981, 1955.  
 - Jackson, E. T.: "Development Study: The Use of Scale Models in an Icing Tunnel to Determine the Ice Catch on a Prototype Aircraft with Particular Reference to Concorde." British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75T/RMMcK/242, July 1967.  
-- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Traty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
+- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
 - Hauger, H. H. and Englar, K. G.: "Analysis of Model Testing in an Icing Wind Tunnel." Douglas Aircraft Company, Inc. Report No. SM14933, 1954.  
 - Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
 - Bentley, H. T.: "Fiber Optics Particle-Sizing System." AEDC-TR-73-111 (AD-766647), September 1973.  

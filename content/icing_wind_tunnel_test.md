@@ -1,6 +1,5 @@
 title: Icing Wind Tunnel Test Thread 
 category: icing tunnels  
-status: draft  
 
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
 _from NACA-TN-1246_

@@ -1,6 +1,5 @@
 Title: Ice Shapes and Their Effects  
 Category: NACA  
-status: draft  
 
 ###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]  
 
@@ -123,7 +122,7 @@ I view this as further validation of Uwe von Glahn's assertion that
 
 ####AEDC-TR-87-23 [^5]
 
-AEDC-TR-87-23 (which we will review in more detail in the upcoming "Icing Wind Tunnel Test Thread") 
+AEDC-TR-87-23 (which we will review in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md)) 
 used the drag coefficient Cd as an ice shape similarity indicator
 (and skipped over the ice shape details):  
 
@@ -140,7 +139,7 @@ While AEDC-TR-87-23 did not include this, there is correspondence
 between calculated leading edge freezing fraction and ice horn angle for the 
 NACA0012 airfoil used in the study:
 
-![](images/nasa-tm-83556/nasa_tm_83556_no_theta.png)  
+![Calculated fit of n to theta](images/nasa-tm-83556/nasa_tm_83556_no_theta.png)  
 
 This suggests that calculated leading edge freezing fraction is not 
 only an indicator of ice shape factors, but it also indicates the 
@@ -156,7 +155,7 @@ comparisons to LEWICE 2D were made.
 
 We will do so again here, using data from NASA-TM-83556 where 
 the drag due to ice shapes was measured. 
-(We will review this data in more detail in the upcoming "Icing Wind Tunnel Test Thread").
+(We will review this data in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md)).
 Fortunately, a NACA0012 airfoil was used, as was used in NACA-TR-446. 
 There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and NACA-TR-446 (3.1 x10^6).
 The data is at an angle of attack of 4 degrees,
@@ -284,7 +283,8 @@ This gets used in NASA/CR-2004-212875 [^14] and NASA/CR-2005-213852 [^15].
 ###Ice shape parameters
 
 While there is no completely agreed upon "standard" set of parameters to describe an ice shape, 
-the values from NACA-TN-4151 get perpetuated in the LEWICE user's manual [^16],
+the values from NACA-TN-4151 Figure 7 get perpetuated in the LEWICE user's manual [^16]
+(although the theta=0 reference is shifted),
 and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set,
 at least for 2D characterizations (3D is a matter of ongoing research):  
 
@@ -297,7 +297,7 @@ However, the validation report [^17] used a modified definition for theta:
 ##Related  
 
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
-We will review these test facilities in the upcoming "Icing Wind Tunnels Test Thread". 
+We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md). 
 
 ##Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.   
