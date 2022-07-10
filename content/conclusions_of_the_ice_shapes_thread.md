@@ -200,7 +200,7 @@ and allow extrapolation to larger horn angles (this is a subset of the data in A
 (A comparison to NASA-TM-D-2166 [^9] methods were discussed in the review of [NASA-TM-D-2166]({}NASA-TM-D-2166.md),
 and were found to be of limited accuracy.)
 
-With any of the very approximate extrapolation of Cd, 
+With either of the very approximate extrapolation of Cd, 
 the estimated effects are different than Figure 10 (b) from above. 
 
 ![Figure 10b from NASA-TM-83556](images/nasa-tm-83556/Figure 10b.png)
@@ -211,7 +211,7 @@ With the NACA-TR-446 based extrapolation, the 338 km/h case at -2C is correctly 
 as the case with the largest effect, but the other values do not match Figure 10 (b) well. 
 
 The method using a fit of NASA-TM-83556 horn angle data did not correctly identify the condition with the largest section drag coefficient,
-least the highest Cd test condition was a close second in the analysis. 
+though at least the highest Cd test condition was a close second in the analysis. 
 In general, values do not match Figure 10 (b) well. 
 I suppose that "first-order approximation" (a phrase from NASA-TM-D-2166) applies as a description. 
 
@@ -241,7 +241,7 @@ The lift effects of leading edge ice tend to be small for "typical" angle of att
 but can become significant at higher angle of attack values approaching the clean airfoil Cl_max. 
 Drag has been referred to as a "leading indicator" of lift effects, 
 as the change in drag due to ice a low angles of attack can be measurably significant, 
-while the lift effects may not be. 
+while the lift effects may not be apparent until higher angle of attack are reached. 
 
 At the moment, if one needs accurate data for effects due to ice, 
 a combination of icing wind tunnel test, wind tunnel test, and
@@ -313,7 +313,7 @@ https://software.nasa.gov/software/LEW-18573-1,
 https://ntrs.nasa.gov/citations/19990021235  
 [^8]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 [^9]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. 
-I could not find a download for this on the nrts, it is available at 0
+I could not find a download for this on the nrts, it is available at 
 [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590).  
 [^10]:
 1st AIAA Ice Prediction Workshop Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
