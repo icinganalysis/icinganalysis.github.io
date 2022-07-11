@@ -3,224 +3,79 @@ status: draft
 
 ###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
 
+###Buckingham-π Analysis of Icing Scaling
 
-```text
+"Straightforward application of the Buckingham-π theory" found 18 dimensionless parameters
+(although vapor pressure was noted as a term not included).
 
-Primary Units
-L            length
-M            mass
-τ            time
-Temperature  T
-angle        radian
+For brevity, I will not enumerate them all here. 
+Some of the terms are familiar, such a Mach and Reynolds numbers. 
+You can see all 18 pi terms and a detailed discussion in Dillon [^3].
 
-Note that force can be expressed as
-F ∝ M L / τ^2 
+Bilanin summarizes:
 
-
-Table 1 
-
-           Description                  Units
-Lengths
-δi      ice thickness                   L
-d       drop diameter                   L
-ℓ       mean distance between drops     L
-C       chord                           L
-s       surface distance along airfoil  L
-
-Densities
-ρa      air                             M / L^3
-ρw      water                           M / L^3
-ρi      ice                             M / L^3
-
-Viscosity
-νa      air                             L^2 / τ
-νw      water                           L^2 / τ
-
-Thermal
-ka      thermal conductivity air        M L / (τ^3 T)
-kw      thermal conductivity water      M L / (τ^3 T)
-ki      thermal conductivity ice        M L / (τ^3 T)
-Cpa     specific heat air               M L / (τ^2 T)
-Cpa     specific heat water             M L / (τ^2 T)
-Cpa     specific heat ice               M L / (τ^2 T)
-hfs     latent heat of fusion           M L / τ^2
-Ta      air temperature                 T
-Tf      freezing temperature            T
-
-Surface tension
-σw/a    water/air                       M / τ^2
-γ       contact angle                   radian *
-
-Velocity
-U∞      air speed                       M / τ
-
-
-* original had M / τ^2
-
-```
-
-Pi terms
-
-δ<sub>i</sub> / c = f(π1, ..., π18)  
-
-π1 = τ U<sub>∞</sub> / C  
-
-π2 = s / C  
-
-π3 = d / C
-
-π4 = d / ℓ  
-
-π5 = ρ<sub>a</sub> / ρ<sub>w</sub>  
-
-π6 = ρ<sub>i</sub> / ρ<sub>w</sub>  
-
-π7 = Cp<sub>a</sub> / Cp<sub>w</sub>
-
-π8 = Cp<sub>w</sub> / Cp<sub>i</sub>    
-  
-π9 = k<sub>a</sub> / k<sub>w</sub>  
-
-π10 = k<sub>w</sub> / k<sub>i</sub>  
-
-π11 = ν<sub>a</sub> / ν<sub>w</sub>  
-
-π12 = γ  
-
-π13 = Cp<sub>a</sub> ρ<sub>a</sub> ν<sub>a</sub> / k<sub>w</sub>  
-
-π14 = T<sub>f</sub> / T<sub>a</sub>
-
-π15 = h<sub>fs</sub> / (Cp<sub>a</sub> T<sub>a</sub>)
-
-π16 = U<sub>∞</sub><sup>2</sup> / (Cp<sub>a</sub> T<sub>a</sub>)  
-
-π17 = U<sub>∞</sub> C / ν<sub>a</sub>  
-
-π18 = ρ<sub>a</sub> U<sub>∞</sub><sup>2</sup> C / σ<sub>w/a</sub>
-
-
-Proposed additions:  
-
-π19 = p<sub>vapor</sub> / p<subs>a</sub>
-
-π20 = p<sub>vapor at freezing</sub> / p<sub>vapor</sub>
-
-Where:  
-p<sub>vapor</sub> is vapor pressure at ambient temperature  
-p<sub>vapor at freezing</sub> is vapor pressure at the freezing (melting) temperature  
-
-
-"While aircraft size and speed have increased, tunnel facilities have not, 
-thus making subscale geometric tests a necessity"
-
-
-
->The difficulty of conducting full-scale icing tests has long been appreciated. 
-Testing in an icing wind tunnel has been undertaken for decades. 
-While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity. 
-Scaling laws governing these tests are almost exclusively based on analysis
-performed over 30 years ago and have not been rigorously validated. 
-The following work reviews past scaling and suggests revision to these analyses based on recent experimental observation. 
-It is also suggested, based on the analysis contained herein, 
-that current ice accretion predictive technologies, as LEWICE, 
-when utilized in the glaze ice accretion regime, 
-may need upgrading to more accurately estimate the rate of ice buildup on aerodynamic surfaces.
-
-
-Here is a subset of the Pi terms (see the paper for the full set).
-
-
-```text
-Primary Units
-L            length
-M            mass
-τ            time
-Temperature  T
-
-Note that force can be expressed as
-F ∝ M L / τ^2 
-
-Table 1 (omitting substance properties)
-
-           Description                  Units
-Lengths
-δi      ice thickness                   L
-d       drop diameter                   L
-ℓ       mean distance between drops     L
-C       chord                           L
-s       surface distance along airfoil  L
-
-Densities
-ρa      air                             M / L^3
-
-Viscosity
-νa      air                             L^2 / τ
-νw      water                           L^2 / τ
-
-Thermal
-Cpa     specific heat air               M L / (τ^2 T)
-hfs     latent heat of fusion           M L / τ^2
-Ta      air temperature                 T
-Tf      freezing temperature            T
-
-Surface tension
-σw/a    water/air                       M / τ^2
-
-Velocity
-U∞      air speed                       M / τ
-```
-
-
-Pi terms
-
-(substance properties omitted)
-
-δ<sub>i</sub> / c = f(π1, ..., π18)  
-
-π1 = τ U<sub>∞</sub> / C  
-
-π2 = s / C  
-
-π3 = d / C
-
-π4 = d / ℓ  
-
-π14 = T<sub>f</sub> / T<sub>a</sub>
-
-π15 = h<sub>fs</sub> / (Cp<sub>a</sub> T<sub>a</sub>)
-
-π16 = U<sub>∞</sub><sup>2</sup> / (Cp<sub>a</sub> T<sub>a</sub>)  
-
-π17 = U<sub>∞</sub> C / ν<sub>a</sub>  
-
-π18 = ρ<sub>a</sub> U<sub>∞</sub><sup>2</sup> C / σ<sub>w/a</sub>
-
-
->The next three parameters π16 through π18 result that the free stream velocity vary as:  
- 
->>U<sub>∞</sub> ~ const, U<sub>∞</sub> ~ 1/C, U<sub>∞</sub> ~ 1/sqrt(C)
-
->respectively, in an attempt to keep the Mach,
-Reynolds and Weber numbers constant between 
+>[Inconsistencies arise] in an attempt to keep the Mach,
+Reynolds and Weber numbers constant between [scaled]
 tests. Obviously, this is not possible and not 
 surprisingly __the π method has failed to provide a 
 scaling methodology which can be used to test 
-subscale aerodynamic components__. 
+subscale aerodynamic components__.  
 
 [Emphasis added.]
+
+NASA-TM-106461 discusses this:
+
+>In an attempt to analyze the icing scaling problem rigorously, 
+Bilanin identified 18 dimensionless group which affect the normalized ice thickness. 
+A consideration of three of these similarity parmeters, the Mach
+number, the Reynolds number, and the Weber number,
+illustrates the fundamental difficulty of icing scaling analysis.  
+>>M = V<sup>2</sup> / (C<sub>p,a</sub> T<sub>a</sub>) &nbsp;&nbsp;&nbsp;&nbsp; (1)  
+>>Re = V chord ρ<sub>a</sub> / μ<sub>a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (2)  
+>>We = V<sup>2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (3)   
+
+>Because the temperatures of interest to icing extend over 
+a very narrow range on the absolute temperature scale, 
+T<sub>a</sub>, C<sub>p,a</sub>, μ<sub>a</sub> and σ<sub>w/a</sub> are effectively constant. Thus, to
+match the Mach number between scale and reference
+cases requires
+>>V<sub>s</sub> = V<sub>r</sub> &nbsp;&nbsp;&nbsp;&nbsp; (4)  
+
+>The altitudes at which icing occurs are generally low 
+enough that the test facility total pressures are close to flight
+icing-encounter total pressures. In this case, scale and reference
+ρ<sub>a</sub> are nearly equal. Then to match Reynolds number requires
+>>V<sub>s</sub> = chord<sub>r</sub> / chord<sub>s</sub>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (5)  
+
+>and to match the Weber number requires
+>>V<sub>s</sub> = chord<sub>r</sub><sup>0.5</sup> / chord<sub>s</sub><sup>0.5</sup>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (6)  
+
+>Clearly, it is impossible to satisfy similarity of Mach, Reynolds,
+and Weber numbers simultaneously, 
+except for the special case in which both scale size and velocity 
+equal their respective reference values. The Mach number 
+can be neglected because at the relatively low speeds of interest to icing, 
+compressibility effects are small.
+Even with this simplification, however, equations (5) 
+and (6) are inconsistent, and each requires scale velocities
+greater than the reference when the scale size is less than the 
+reference. Because test velocities greater than typical flight are not
+generally achievable in icing test facilities,
+equations (5) and (6) impose impractical restrictions. 
+
+Bilanin then notes: 
 
 >This, however, does not preclude seeking 
 approximate scaling methodologies which is the 
 subject of the discussion that follows.  
 
+###Past scaling laws
 
 There is a review of scaling methods, similar to that in [AEDC-TR-83-30]({filename}AEDC-TR-83-30.md),
-defining A<sub>c</sub>, Φ, Θ, b, and n in slightly different forms:  
+defining A<sub>c</sub> and n in slightly different forms:  
 
 >The freezing fraction n is defined as the mass freezing/mass water incoming. 
 Note that Eq. (4) is nondimensional, __exact__
-
 
 >>d(δ<sub>i</sub>/C) / d(τ U<sub>∞</sub>/C) = LWC β n / ρ<sub>i</sub> &nbsp;&nbsp;&nbsp;&nbsp; (4)
 
@@ -234,17 +89,20 @@ each be held constant which is what is normally attempted.
 [Emphasis in the original]
 
 
+###Brief evaluation of the data  
+
 >The freezing fraction has been computed by several investigators using a
-model propoosed by Messinger in 1951 (Ref. 11). If
+model proposed by Messinger in 1951 (Ref. 11). If
 evaporation is neglected in this model...  
 
 [Eq. 5 not included herein]
 
-[this results in] the functional form of freezing fraction used in the SIMICE code 
+>[this results in] the functional form of freezing fraction used in the SIMICE code 
 (Ref. 12). 
 
 Later it is noted that the freezing fractions determined by SIMICE are much lower than those
-determined experimentally, and this is not surprising, as evaporation was neglected. 
+determined experimentally. If I am reader Bilanin correctly,
+SIMICE does not include evaporation, and that seems to be a fairly large "neglect". 
 
 >Obviously, something is very wrong here, since at 
 the lower freezing fractions differs from the measured value 
@@ -253,22 +111,9 @@ freezing fraction n in Equ. 5 is not being
 computed sufficiently accurately using the
 Messinger formulation. 
 
-This may be why I have not been able to find the SIMICE code.  
-
-
-
-
-
-
-After a quick review of scaling methods, similar to that in [AEDC-TR-83-30]({filename}AEDC-TR-83-30.md), 
-it is stated:  
->__It is again emphasised that if Ac and n are accurately computed analytically and
-held constant between two tests, the prediction of 
-ice accreation and scaling of the tests__ is a proven technology.  
-
 [Emphasis in the original]
 
-
+###Film dynamics at a stagnation point
 
 A "zeroth-order expansion" analysis in distance from the stagnation
 point is performed, resulting in 
@@ -287,13 +132,12 @@ Messinger in a very direct way by providing
 surface roughness which will augment the heat
 transfer, as well as provide thermal resistance 
 through which the latent heat of fusion must pass. 
-Also, splach back from this layer cannot be
+Also, splash back from this layer cannot be
 ruled out. It should be noted that the Weber 
 number, based on dynamic air pressure for a layer 
 of this thickness, is of the order of 10<sup>2</sup> which 
 suggests that the stripping of this film by the 
 airstream may also occur.  
-
 
 > It is significant to note at this time that 
 Olsen (Ref. 20) has photographed the microphysics
@@ -311,10 +155,19 @@ height at least an order of magnitude larger can
 be argued. This liquid roughness, and upon 
 freezing, ice roughness is known to greatly affect 
 the local convection heat transfer rate (Ref. 21). 
-Detailed obeservations of the stagnation 
+Detailed observations of the stagnation 
 region have recently been made by Hansman et al. 
 (Ref. 22) and are discussed at this meeting. 
 
+I am not sure that Ref 20, NASA-TM-83556 is the correct citation, 
+as I did not find the photos there. 
+There are relevant photos in Olsen [NASA-TM-87184], 
+that were reproduced in Hansman.
+
+![Figure 2 from AIAA-88-0015](images/AIAA-88-0105/Figure 2.png)  
+_Figure 2 from Hansman_
+
+###Freezing fraction with film dynamics  
 
 There is an interesting reformation of Messinger's freezing fraction equation:  
 
@@ -326,6 +179,37 @@ described by Messinger. The last term which is
 proportional to the film thickness reduces the 
 freezing fraction as a consequence of the presence 
 of the film. 
+
+After some development, the thermal resistance of the water layer is estimated:
+
+>Therefore, at a liquid water content of 1 g/m<sup>3</sup>, and at cruise ...
+[there is] a 1 to 10 mil film layer [and] the effective heat transfer is reduced
+by 2 to 20%, respectively. 
+
+###Film Beading  
+
+The physics of the water film forming beads is examined, and equations developed. 
+
+>U<sub>1</sub> / U<sub>2</sub> = C<sub>2</sub> / C<sub>1</sub>  
+σ<sub>w/a2</sub> / σ<sub>w/a1</sub> = C<sub>1</sub> / C<sub>2</sub>  
+γ<sub>1</sub> = γ<sub>2</sub> [contact angle]  
+
+>The above icing tests can be undertaken using
+the Ac and n scaling laws. The surface 
+tension can be changed using a surface active agent that 
+does not change the freezing temperature and the contact 
+angle can be held constant by changing the airfoil material. 
+It is finally noted that Hansman et al. (Ref. 22) have just 
+recently completed tests which repeated two icing conditions
+in a wind tunnel where the only difference in tests added a
+surfactant to to upstream spray. 
+Very significant differences in the accreted ice pattern were noted,
+strongly supporing our conjecture that the icing tests must 
+scale properly the microphysics of the liquid film 
+dynamics and bead formation. 
+
+![Figure 16 from AIAA-88-0015](images/AIAA-88-0105/Figure 16.png)  
+_Figure 16 from Hansman_
 
 ##Conclusions
 
@@ -339,10 +223,22 @@ icing wind tunnel subscale tests are likely to be even more restrictive.
 >Lastly, the phenomenon of droplet splash back cannot be ruled out and there is little justification
 to go to the great care in computing the impact of droplets with a surface if significant
 splash back occurs. It is strongly recommended that test be conducted in the near
-future which can examone the question of splash back.  
+future which can examine the question of splash back.  
 
+Due to this publication and the prior works cited, 
+numerous other investigations have explored the effects of surface tension 
+and the importance to the water layer and water drops. 
 
+This work is still continuing today, as several recent publications mention the Weber number. 
 
+While Bilanin explicitly noted one form of the Weber number: 
+>We = V<sup>2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> 
+
+there are other forms that use other dimensions (such as drop size or water film thickness), 
+other speed (water film speed rather than air speed), 
+and other densities (water rather than air). 
+Those will be explored in ongoing investigations. 
+  
 ##Citations
 
 cites 22 publications:
@@ -373,8 +269,20 @@ Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior
 
 
 
+
+
 Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.  
 
 
+Dillon, Thomas William. An investigation into the effects of modifying the surface tension of the spray water in icing tunnel tests. Diss. Carleton University, 1998. [carleton.ca](https://curve.carleton.ca/system/files/etd/0994c7b1-0e21-43c4-a293-f5feadb3b6bc/etd_pdf/66c0b115102323c8f47f76176c5e98c6/dillon-aninvestigationintotheeffectsofmodifyingthe.pdf)  
 
 
+Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994.
+
+
+
+Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
+[ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)
+
+Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.
+NASA-TM-87184
