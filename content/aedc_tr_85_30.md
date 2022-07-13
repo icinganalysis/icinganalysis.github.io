@@ -65,9 +65,32 @@ method. The objectives of the study were met by identifying a scaling method tha
 scaled ice accretions over a wide range of test conditions and that can be applied to a variety
 of icing testing situations.
 
-##Discussion  
+##Discussion 
 
 This is a long publication (80 pages, 38 figures), so this will be a highly condensed review. 
+
+>TYPES OF ICING SCALING  
+
+>The first and most obvious type of icing scaling is that in which the ice accretions are
+formed on a subscale model similar to those that would be obtained at full-scale. The ability
+to test subscale geometries would allow smaller test facilities to conduct a wider range of
+icing tests. Since smaller test facilities are usually less expensive to operate than larger
+facilities, the cost would be substantially reduced.  
+
+>A second type of icing scaling, test parameter scaling, is aimed at increasing the
+simulation capabilities of test facilities by extending the Mach number, altitude, and/or
+temperature ranges. Icing scaling equations relate the test cell atmospheric and
+meteorological conditions so that similar ice accretions can be formed. These equations
+indicate how ground test conditions could be modified to avoid the operational limits of a
+test facility, yet achieve the appropriate icing condition. For example, a facility may be
+limited to ambient pressure but have the need to produce an ice accretion that would be
+formed at an altitude of 10,000 ft. The scaling equations would be applied to determine the
+test conditions at atmospheric pressure required to simulate the icing that occurs at the
+altitude flight condition. This type of scaling will allow test facilities to offer a wider range of
+possible conditions to an aircraft manufacturer to evaluate their flight system.  
+
+>The applications of both types of scaling would make them very attractive to both the
+test facility operator and the aircraft manufacturer.
 
 Several candidate similarity terms are developed. 
 
@@ -190,7 +213,7 @@ parameters that must be determined from thse equations are as follows:
 >5. drop diameter
 >6. icing time  
 
-I have not been able to find "AEDC-TR-85-30, Vol. II", or the SIMICE program.
+I have not been able to find "AEDC-TR-85-30, Vol. II", or the SIMICE program online.
 
 >Note that there are six icing test parameters and only five equations, indicating that the
 problem is underspecified and that one of the test parameters can, therefore, be arbitrarily

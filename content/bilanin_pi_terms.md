@@ -1,7 +1,15 @@
-Title: Bilanin Pi Terms  
+Title: Bilanin Pi Terms the Weber Number  
 status: draft  
 
 ###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
+
+##Discussion  
+
+This publication identifies water surface tension as a potetially important 
+factor in the formation of ice. 
+The Weber number relates water surface tension to other forces, 
+and can describe the flow of water on a surface or the tendency 
+for droplets to breakup. 
 
 ###Buckingham-π Analysis of Icing Scaling
 
@@ -10,7 +18,7 @@ status: draft
 
 For brevity, I will not enumerate them all here. 
 Some of the terms are familiar, such a Mach and Reynolds numbers. 
-You can see all 18 pi terms and a detailed discussion in Dillon [^3].
+You can see all 18 pi terms in the publication, or in Dillon [^2].
 
 Bilanin summarizes:
 
@@ -23,7 +31,7 @@ subscale aerodynamic components__.
 
 [Emphasis added.]
 
-NASA-TM-106461 discusses this:
+NASA-TM-106461 [^3] discusses this:
 
 >In an attempt to analyze the icing scaling problem rigorously, 
 Bilanin identified 18 dimensionless group which affect the normalized ice thickness. 
@@ -71,7 +79,7 @@ subject of the discussion that follows.
 
 ###Past scaling laws
 
-There is a review of scaling methods, similar to that in [AEDC-TR-83-30]({filename}AEDC-TR-83-30.md),
+There is a review of scaling methods, similar to that in [AEDC-TR-83-30]({filename}AEDC-TR-83-30.md) [^4],
 defining A<sub>c</sub> and n in slightly different forms:  
 
 >The freezing fraction n is defined as the mass freezing/mass water incoming. 
@@ -88,11 +96,10 @@ each be held constant which is what is normally attempted.
 
 [Emphasis in the original]
 
-
 ###Brief evaluation of the data  
 
 >The freezing fraction has been computed by several investigators using a
-model proposed by Messinger in 1951 (Ref. 11). If
+model proposed by Messinger in 1951 (Ref. 11) [^5]. If
 evaporation is neglected in this model...  
 
 [Eq. 5 not included herein]
@@ -101,8 +108,7 @@ evaporation is neglected in this model...
 (Ref. 12). 
 
 Later it is noted that the freezing fractions determined by SIMICE are much lower than those
-determined experimentally. If I am reader Bilanin correctly,
-SIMICE does not include evaporation, and that seems to be a fairly large "neglect". 
+determined experimentally. 
 
 >Obviously, something is very wrong here, since at 
 the lower freezing fractions differs from the measured value 
@@ -110,6 +116,30 @@ by a factor of 2.3. The problem is that the
 freezing fraction n in Equ. 5 is not being 
 computed sufficiently accurately using the
 Messinger formulation. 
+
+In a later section Bilanin calculates the effects of a surface water film 
+to see if that could explain the differences. 
+
+However, later NASA-CR-2004-212875 [^6] would note:
+
+>Bilanin performed a similar study using a limited set of
+ice-shape data from Ruff. Bilanin found agreement of n_e 
+[experimentally determined freezing fraction]
+and n_a [analytically determined freezing fraction] 
+at rime, but the two deviated significantly for
+the lowest freezing fractions. He concluded that the
+Messinger analysis for freezing fraction had serious deficiencies, 
+probably because surface-water effects, particularly splashing, 
+were not included in the heat balance.
+However, Bilanin did not consider the possibility that his
+results might be explained by experimental complications, 
+such as possible problems with the facility LWC
+calibration and the uncertainty in the leading-edge thickness 
+for low freezing fractions.  
+>Unlike Bilanin’s results, the experimentally-determined
+freezing fractions for the Anderson and Tsao study in
+figure 3.5.6 showed no systematic deviation from the
+analytical values at low freezing fractions.
 
 [Emphasis in the original]
 
@@ -161,8 +191,8 @@ region have recently been made by Hansman et al.
 
 I am not sure that Ref 20, NASA-TM-83556 is the correct citation, 
 as I did not find the photos there. 
-There are relevant photos in Olsen [NASA-TM-87184], 
-that were reproduced in Hansman.
+There are relevant photos in Olsen [NASA-TM-87184] [^7], 
+that were reproduced in Hansman [^8].
 
 ![Figure 2 from AIAA-88-0015](images/AIAA-88-0105/Figure 2.png)  
 _Figure 2 from Hansman_
@@ -238,6 +268,33 @@ there are other forms that use other dimensions (such as drop size or water film
 other speed (water film speed rather than air speed), 
 and other densities (water rather than air). 
 Those will be explored in ongoing investigations. 
+
+To very briefly summarize some of the work:
+
+NASA-CR-2003-211822 [^9] will conduct tests and conclude:
+
+>Acceptable scale Re and We fall in the range of 60
+to 160% of the respective reference values.
+
+This leads to test conditions scaling that is not so "even more restrictive". 
+
+but also:
+>Evaluation of pressure effects on ice shape
+suggested that even greater tolerances on Re may
+be possible, and We c is apparently not the right
+form of Weber number to be used as a similarity
+parameter
+
+Later still, NASA-CR-2004-212875, 
+after evaluating numerous forms of the Weber number, 
+will selected We<sub>L</sub> (where L is chord) 
+as the scaling parameter to use for scaling 
+for ice shape on unprotected surfaces 
+"within the FAA Part 25 Appendix-C
+envelope which includes drop sizes from 15 to 50 μm
+median volume diameter (MVD)", and recommend a +/-15% tolerance. 
+[We will get to large drop icing in a future post].
+
   
 ##Citations
 
@@ -267,22 +324,22 @@ Achenbach, E.: The Effect of Surface Roughness on the Heat Transfer from a Circu
 Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988.  
 
 
+##Notes  
+[^1]: Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.  
+[^2]: Dillon, Thomas William. An investigation into the effects of modifying the surface tension of the spray water in icing tunnel tests. Diss. Carleton University, 1998. [carleton.ca](https://curve.carleton.ca/system/files/etd/0994c7b1-0e21-43c4-a293-f5feadb3b6bc/etd_pdf/66c0b115102323c8f47f76176c5e98c6/dillon-aninvestigationintotheeffectsofmodifyingthe.pdf)  
+[^3]: Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994.  
+[^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985  
+[^5]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
+[^6]: Bond, Thomas H., and David N. Anderson. Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
+[^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.  
+[^8]: Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
+[ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)  
+[^9]: 
+Anderson, David. "Acceptable tolerances for matching icing similarity parameters in scaling applications." 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0832, NASA-CR-2003-211822. 2001.
+https://ntrs.nasa.gov/api/citations/20030064040/downloads/20030064040.pdf  
 
 
 
 
-Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.  
-
-
-Dillon, Thomas William. An investigation into the effects of modifying the surface tension of the spray water in icing tunnel tests. Diss. Carleton University, 1998. [carleton.ca](https://curve.carleton.ca/system/files/etd/0994c7b1-0e21-43c4-a293-f5feadb3b6bc/etd_pdf/66c0b115102323c8f47f76176c5e98c6/dillon-aninvestigationintotheeffectsofmodifyingthe.pdf)  
-
-
-Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994.
-
-
-
-Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
-[ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)
-
-Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.
-NASA-TM-87184
+53
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Proposed+Modifications+to+Ice+Accretion%2FIcing+Scaling+Theory&btnG=  

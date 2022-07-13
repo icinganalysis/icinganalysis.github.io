@@ -57,16 +57,18 @@ Scaling in NACA tests
 AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"  
 >"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."  
 
-NASA-TM-83556 and AEDC-TR-87-23 
+AEDC-TR-87-23 
 >"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ...[Here] drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
 
+<!--
 NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 >"This study has established the import of correctly analyzing the leading-edge heat balance in establishing scaling methods."  
+-->
 
-Bilanin Pi-Terms  
+Bilanin Pi-Terms and the Weber Number  
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
-NASA-CR-2004-212875 and Weber Number Effects  
+NASA-CR-2004-212875 Icing Similarity Calculations  
 
 The Effect of Humidity  
 

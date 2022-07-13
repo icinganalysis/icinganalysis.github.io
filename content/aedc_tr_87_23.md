@@ -41,7 +41,7 @@ test conditions.
 ##Discussion  
 
 To me, this publication is as much about critical icing conditions selection as it is about 
-icing wind tunnel test.  
+icing wind tunnel test ("critical" being the one with large effects).  
 
 The drag coefficient with ice is proposed as a similarity "goodness" indicator. 
 
@@ -52,19 +52,23 @@ to change and still maintain similitude cannot be generalized since this would b
 by the particular application. However, this does not prevent using Cd as a similitude
 "goodness" indicator or index.
 
-![Figure 9](images/aedc_tr_87_23/Figure 9.png)  
-
 Those ice shapes and others with measure Cd values were plotted versus 
 calculated leading edge freezing fraction (and other parameters).
 
-![Figure 3](images/aedc_tr_87_23/Figure 3.png)  
+![Figure 8](images/aedc_tr_87_23/Figure 8.png)  
 
 This suggests that for this airfoil and this range of conditions, 
-there is a peak effect near a stagnation line freezing fraction of 0.3. 
+there is a peak effect near a stagnation line freezing fraction of 0.3
+[see also the discussion in [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}conclusions_of_the_ice_shapes_thread.md)]. 
 Slightly different values of freezing fraction would put one in the regions to either side of steep slopes,
 where a small difference in freezing fraction equals a large difference in Cd. 
 Thus it is hard to determine a universal "close enough" tolerance on freezing fraction 
 or any other variable.  
+
+Note that the freezing fraction values calculated in AEDC-TR-87-23 in 
+differ slightly from those calculated with the method in the later NASA-CR-2004-212875. 
+AEDC-TR-87-23 does not provide detailed example calculations to 
+determine what the differences are. 
 
 ##Conclusions  
 
@@ -83,7 +87,7 @@ about by changes in the test conditions rather than changes of the icing scaling
 parameters.  
 >4. The allowable tolerance in setting icing test conditions will depend upon the
 similitude application and the particular icing conditions at which the test is to
-be conducted (e.g., rime versus glaze ice region).
+be conducted (e.g., rime versus glaze ice region).  
 >5. As long as the local icing conditions ensure rime ice accretions on the component
 under consideration (N is approximately > 0.7), similitude is easier to accomplish.  
 >6. For specific temperatures, the LWC term can be decreased to levels that cause
@@ -99,11 +103,23 @@ test conditions and, hence, affect ice shape.
 >9. Additional work is needed to develop other approaches to ice scaling. The ice
 scaling code employed in this study may be too restrictive.  
 
-It is perhaps illustrative that the measurements shown in Figure 3 are not 
+###additional work
+
+Extensive additional work on scaling was accomplished after AEDC-TR-87-23. 
+However, a subsequent paper, [Bilanin], appears to impose even more restrictions. 
+It would take much further testing and analysis to arrive at 
+what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
+NASA-2004-212875. 
+
+###critical ice shape selection
+
+It is illustrative that the measurements shown in Figure 3 are not 
 numerous enough to capture the peak Cd value with confidence 
 (the lines drawn are speculative, not real curve fits). 
 This is not because the tests were not planned well, 
-but because it is hard to do.  
+but because it is hard to do. 
+Finding such a peak is presumably what needs to be done to identify a 
+critical ice shape.  
 
 To find such a peak in detail, options include:  
 
@@ -125,7 +141,7 @@ Among the challenges is that the ice is not always uniform over the span.
 Also, while the measured section Cd with ice may be a useful relative value, 
 it is not clear that it relates directly and linearly to airplane level values. 
 
-If Cd is not measured, how does one select a "critical" ice shape? 
+If Cd is not measured, how does one select a critical ice shape? 
 Figure 10 of NASA-TM-83556 has probably been influential. 
 The ice shapes with the largest Cd values have upper ice "horn" angles of about 45 degrees
 (209 km/h -5C, 338 km/h -2C and -5C). 
@@ -150,6 +166,24 @@ _Figure 10 from NACA-TN-4151_
 
 If nothing else, it appears to be a long ingrained expectation of ice shapes.  
 
+###Setting tolerances
+
+While the stated subject of the publication was tolerances in icing tunnel tests, 
+it ends up with little practical guidance:  
+>1.&nbsp;The criteria for establishing icing similitude should be specified in advance of
+the simulation. Allowable similitude tolerances should also be specified.  
+>4.&nbsp;The allowable tolerance in setting icing test conditions will depend upon the
+similitude application and the particular icing conditions at which the test is to
+be conducted (e.g., rime versus glaze ice region).  
+>7.&nbsp;The ice scaling laws of Ref. 1 cannot be used to determine allowable tolerances
+in setting test conditions.  
+
+It is not clear how tolerances can be specified. 
+If we pick for our "similitude application" as selecting ice shapes with the largest Cd effect, 
+we expect glaze ice shapes to have the largest effect, as in Figure 10 from NASA-TM-83556 above. 
+In Figure 8 above, 
+a 1°F change in static temperature would appear to cause a significant change in Cd near the peak value. 
+It is also not clear if, for example, a +/-10% tolerance on the LWC values is "good enough" or not.  
 
 ##Citations  
 
@@ -162,12 +196,6 @@ AEDC-TR-87-23 cites seven publications:
 - Langmuir, E. and Blodgett, K. B. "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25 223, February 1946.  
 - Willbanks, C. E. and Schulz, R. J. "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-144 (AD-770069),November 1973.  
 - Pheifer, G. D. and Maier, G. P. "Engineering Summary of Powerplant Technical Data." FFA-RD-77-76, July 1977.  
-
-
-
-
-
-
 
 ##Notes
 
