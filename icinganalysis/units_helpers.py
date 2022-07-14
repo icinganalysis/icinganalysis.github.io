@@ -95,5 +95,9 @@ def tc_to_k(tc):
     return tc + T_0C_K
 
 
+def tc_to_f(tc):
+    return F_PER_K * tc + 32
+
+
 def tk_to_c(tk):
     return tk - T_0C_K
