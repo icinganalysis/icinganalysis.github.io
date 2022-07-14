@@ -17,6 +17,7 @@ MENUITEMS = (
     ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
     ('Diversions', SITEURL + '/diversions.html'),
     ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
+    ('Icing Tunnels', SITEURL + '/icing-wind-tunnel-test-thread.html'),
     ('About', SITEURL + '/about.html'),
 )
 
