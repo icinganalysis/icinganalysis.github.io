@@ -28,10 +28,7 @@ which includes information from NACA-era internal memos and interviews that I ha
 
 ##NACA-Era:
 
-NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"  
-<!--
 [NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"]({filename}NACA-TN-339.md)  
--->
 >An early icing wind tunnel and test are described
 
 Uses of the NACA Icing Wind Tunnels  

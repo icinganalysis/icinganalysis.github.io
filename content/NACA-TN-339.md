@@ -1,6 +1,5 @@
 title: NACA-TN-339  
 category: icing tunnels  
-status: draft  
 
 ###_"A spray, which consisted of very small drops, was found to be quite satisfactory"_  
 
