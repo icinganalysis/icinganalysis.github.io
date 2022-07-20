@@ -81,6 +81,7 @@ S_PER_MINUTE = 60
 T_0C_K = 273.15  # 0C in K, also the melting point of ice at standard pressure
 T_0F_R = 459.67  # 0F in R
 PSI_PER_PA = 1.450377319e-4
+LBF_PER_N = 4.4482216153
 
 
 def tf_to_k(tf):
@@ -101,3 +102,95 @@ def tc_to_f(tc):
 
 def tk_to_c(tk):
     return tk - T_0C_K
+
+
+def ms_to_mph(ms):
+    return ms * MPH_PER_M_S
+
+
+def mph_to_ms(mph):
+    return mph / MPH_PER_M_S
+
+
+def m_to_cm(m):
+    return m * 100
+
+
+def cm_to_m(cm):
+    return cm / 100
+
+
+def m_to_inch(m):
+    return m * INCH_PER_M
+
+
+def inch_to_m(inch):
+    return inch / INCH_PER_M
+
+
+def r_to_k(r):
+    return r / 1.8
+
+
+def k_to_r(k):
+    return k * 1.8
+
+
+def percent_to_fraction(percent):
+    return percent / 100
+
+
+def fraction_to_percent(fraction):
+    return fraction * 100
+
+
+def dyne_cm_to_n_m(dyne_cm):
+    return dyne_cm * 1e-5 * 100
+
+
+def n_m_to_dyne_cm(n_m):
+    return n_m / 1e-5 / 100
+
+
+def n_m_to_lbf_ft(n_m):
+    return n_m * LBF_PER_N / FT_PER_M
+
+
+def lbf_ft_to_n_m(lbf_ft):
+    return lbf_ft / LBF_PER_N * FT_PER_M
+
+
+def psi_to_pa(psi):
+    return psi / PSI_PER_PA
+
+
+def pa_to_psi(pa):
+    return pa * PSI_PER_PA
+
+
+def no_conversion(v):
+    return v
+
+
+conversions_to_domain_units = {
+    "cm": m_to_cm,
+    "inch": m_to_inch,
+    "C": tk_to_c,
+    "°C": tk_to_c,
+    "F": tk_to_f,
+    "°F": tk_to_f,
+    "mph": ms_to_mph,
+    "MPH": ms_to_mph,
+    "R": k_to_r,
+    "°R": k_to_r,
+    "dyne/cm": n_m_to_dyne_cm,
+    "lbf/ft": n_m_to_lbf_ft,
+    "psi": pa_to_psi,
+    "": no_conversion
+}
+
+
+def convert_to_domain_unit(v, domain_unit):
+    return conversions_to_domain_units.get(domain_unit, no_conversion)(v)
+
+
