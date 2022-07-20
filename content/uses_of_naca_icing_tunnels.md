@@ -1,6 +1,5 @@
 title: Uses of NACA-Era Icing Wind Tunnels  
 category: icing tunnels  
-status: draft  
 
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
 _How much of a P-39 can one fit into an icing wind tunnel?_  
@@ -57,7 +56,7 @@ Some were floor mounted, and others had special purpose mounts.
 The nominal test section was used in most tests.  
 However, some test articles were mounted in the upstream converging section or downstream expansion section. 
 
-###Gallery of selected images  
+###Selected images  
 
 ![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
 _from 1969 Aircraft Ice Protection Report of Symposium [^2]_  
