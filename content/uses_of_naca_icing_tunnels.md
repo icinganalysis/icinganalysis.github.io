@@ -80,7 +80,7 @@ Note that while NACA-RM-E50K10 was published in 1951,
 it contains data from a test conducted in 1945. 
 
 Publication | Test Article | Scale Ratio | Portion | Mount 
----|---|---|---|---|
+---|---|---|---|---
 NACA-RM-E50K10a |pneumatic deicer on a 42-inch chord airfoil | 1 | section | From ceiling of contraction 
 NACA-TN-1134 | engine nacelle with carburetor inlet scoop | 1 | half (upper) | floor
 NACA-TN-1246 | engine nacelle with cooling fan| 1| full | pedestal from floor of settling chamber  
