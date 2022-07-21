@@ -44,6 +44,8 @@ To me, this publication is as much about critical icing conditions selection as 
 icing wind tunnel test ("critical" being the one with large effects).  
 
 The drag coefficient with ice is proposed as a similarity "goodness" indicator. 
+This does not require assuming which ice shape characteristics are important, 
+it requires the measurement of the figure of merit, drag due to the ice. 
 
 >drag coefficient (Cd) was used
 as an index of similitude by quantitatively indicating how much the shape or ice surface changed
@@ -103,7 +105,7 @@ test conditions and, hence, affect ice shape.
 >9. Additional work is needed to develop other approaches to ice scaling. The ice
 scaling code employed in this study may be too restrictive.  
 
-###additional work
+###Additional work
 
 Extensive additional work on scaling was accomplished after AEDC-TR-87-23. 
 However, a subsequent paper, [Bilanin], appears to impose even more restrictions. 
@@ -111,7 +113,7 @@ It would take much further testing and analysis to arrive at
 what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
 NASA-2004-212875. 
 
-###critical ice shape selection
+###Critical ice shape selection
 
 It is illustrative that the measurements shown in Figure 3 are not 
 numerous enough to capture the peak Cd value with confidence 
@@ -197,6 +199,12 @@ AEDC-TR-87-23 cites seven publications:
 - Willbanks, C. E. and Schulz, R. J. "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-144 (AD-770069),November 1973.  
 - Pheifer, G. D. and Maier, G. P. "Engineering Summary of Powerplant Technical Data." FFA-RD-77-76, July 1977.  
 
+An online search [^2] found 7 citations of 
+"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". 
+[I view this as under-valued for the excellent technical content it contains, 
+but not quite a "lost gem".]
+
 ##Notes
 
 [^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983.  
+[^2]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Look+at+Tolerances+in+Setting+Icing+Test+Conditions+with+Particular+Application+to+Icing+Similitude&btnG=  

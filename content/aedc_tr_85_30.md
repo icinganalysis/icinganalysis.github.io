@@ -11,7 +11,7 @@ status: draft
 An expanded set of icing similarity terms are derived and tested.  
 
 #Key Points  
-1. water drop impingement similarity is simplified.  
+1. water drop impingement similarity is simplified using Ko.  
 2. Icing heat transfer similarity terms derived from Messinger are added.  
 3. Tests in an icing wind tunnel validate the selected set of similarity terms.  
 
@@ -223,6 +223,8 @@ examples to be discussed in the following section.
 
 Note also that some icing wind tunnels do not control pressure. 
 In those cases, the five equations determine the five test parameters. 
+
+##Conclusions  
 
 >8.0 SUMMARY OF RESULTS
 The objectives of this study were to evaluate the equations governing the ice-accretion

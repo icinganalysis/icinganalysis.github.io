@@ -237,8 +237,8 @@ You can see a recent calibration of the NASA Glenn Icing Research Tunnel at [ntr
 
 ##Notes
 
-Emily Timko (lead author of [^7]) reviewed a draft of this post. 
-I edited it after it was reviewed, and any errors are mine.
+I thank Emily Timko (lead author of [^7]) for reviewing a draft of this post. 
+I edited the post after it was reviewed, and any errors are mine.
 
 [^1]: NACA Annual Report for 1929 discussing the Langley Refrigerated Wind Tunnel, via NASA-SP-2002-4226, 
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)  

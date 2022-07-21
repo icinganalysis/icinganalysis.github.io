@@ -69,7 +69,7 @@ where a is water drop diameter
 
 Using an analogy such as Re = ρVC/μ, a subscale test value of C may be compensated for by
 increasing ρ or V (or in combination) to maintain a full scale flight Re value. 
-Facilities such as the Variable-Density Wind Tunnel [see NACA-TR-446]({filename}NACA-TR-446.md) can be pressurized to achieve a high density. 
+Facilities such as the Variable-Density Wind Tunnel ([see NACA-TR-446]({filename}NACA-TR-446.md)) can be pressurized to achieve a high density. 
 Here, the water drop impingement dimensionless terms K and φ are used. 
   
 The dimensionless terms K and φ that describe water drop impingement come from [Langmuir and Blodgett]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2],
@@ -87,7 +87,7 @@ Here are relative values that maintain the K and φ values.
 There is more than one flight set that corresponds to the test values. 
 
 Relative Value | a | V | Chord | ρ | a<sup>2</sup> V / C |ρ<sup>2</sup> V C
----|---|---|---|---|---|---|
+---|---|---|---|---|---|---
 Test| 1 | 1| 0.5 | 1 | 2 | 0.5
 Flight 1 | 1 | 2 | 1 | 0.5 | 2 | 0.5
 Flight 2 | 1.41 | 1 | 1 | 0.707 | 2 | 0.5
@@ -112,13 +112,13 @@ inertia-separation inlets consisting of a main duct and an alternate
 duct designed to prevent automatically the entrance of large
 quantities of water into a turbojet engine in icing conditions are
 presented. Total-pressure losses and icing characteristics for a
-direct-ram Inlet and the inertia-separation inlets are compared at
+direct-ram inlet and the inertia-separation inlets are compared at
 similar aerodynamic and simulated icing conditions.
 Complete ice protection for inlet guide vanes could not be
 achieved with the inertia-separation inlets investigated. Approximately 
 8 percent of the volume of water entering the nacelles
-remained. In the air passing Into the compressor Inlet. Heavy
-alternate-duct-elbow Ice formations caused by secondary inertia
+remained. In the air passing into the compressor inlet, heavy
+alternate-duct-elbow ice formations caused by secondary inertia
 separation resulted in rapid total-pressure losses and decreases
 in mass flow. The duration in an icing condition for an inertia-
 separation inlet, without local surface heating, was increased
