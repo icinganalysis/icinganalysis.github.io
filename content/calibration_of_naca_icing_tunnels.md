@@ -154,7 +154,7 @@ NACA-TN-3839 | Joukowski-aspirator | multicylinder
 NACA-RM-E56B23 | not stated | not stated
 NACA-RM-E56E11 | not stated | not stated 
 NACA-TN-4155 | "Liquid-water content was measured by means of a pressure-type icing-rate meter" | "Icing-cloud-droplet size as a function of spray-nozzle pressure settings was determined from a previous calibration of droplet size obtained with water droplets carrying dye in solution"
-NACA-RM-E57G09  | Not stated | not stated 
+NACA-RM-E57G09  | not stated | not stated 
 NACA-TN-4268 | "The cloud total liquid-water content was obtained by collecting dye from the spray cloud in an aspirating device (a tube that draws in the cloud at free-stream conditions)"|"The cloud droplet size and size distribution were determined by experimental and theoretical impingement on a 36.5-percent-thick symmetrical Joukowski airfoil" 
 
 ###Natural icing conditions characterizations  
@@ -236,6 +236,9 @@ Today, SAE [ARP5905](https://www.sae.org/standards/content/arp5905/), Calibratio
 You can see a recent calibration of the NASA Glenn Icing Research Tunnel at [ntrs](https://ntrs.nasa.gov/citations/20205002688) [^7].  
 
 ##Notes
+
+Emily Timko (lead author of [^7]) reviewed a draft of this post. 
+I edited it after it was reviewed, and any errors are mine.
 
 [^1]: NACA Annual Report for 1929 discussing the Langley Refrigerated Wind Tunnel, via NASA-SP-2002-4226, 
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)  
