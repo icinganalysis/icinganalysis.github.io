@@ -5,7 +5,7 @@ status: draft
 
 ##Discussion  
 
-This publication identifies water surface tension as a potetially important 
+This publication identifies water surface tension as a potentially important 
 factor in the formation of ice. 
 The Weber number relates water surface tension to other forces, 
 and can describe the flow of water on a surface or the tendency 
@@ -35,7 +35,7 @@ NASA-TM-106461 [^3] discusses this:
 
 >In an attempt to analyze the icing scaling problem rigorously, 
 Bilanin identified 18 dimensionless group which affect the normalized ice thickness. 
-A consideration of three of these similarity parmeters, the Mach
+A consideration of three of these similarity parameters, the Mach
 number, the Reynolds number, and the Weber number,
 illustrates the fundamental difficulty of icing scaling analysis.  
 >>M = V<sup>2</sup> / (C<sub>p,a</sub> T<sub>a</sub>) &nbsp;&nbsp;&nbsp;&nbsp; (1)  
@@ -120,7 +120,7 @@ Messinger formulation.
 In a later section Bilanin calculates the effects of a surface water film 
 to see if that could explain the differences. 
 
-However, later NASA-CR-2004-212875 [^6] would note:
+However, later NASA/CR-2004-212875 [^6] would note:
 
 >Bilanin performed a similar study using a limited set of
 ice-shape data from Ruff. Bilanin found agreement of n_e 
@@ -259,7 +259,8 @@ Due to this publication and the prior works cited,
 numerous other investigations have explored the effects of surface tension 
 and the importance to the water layer and water drops. 
 
-This work is still continuing today, as several recent publications mention the Weber number. 
+This work is still continuing today, 
+as several recent publications mention the Weber number [^9]. 
 
 While Bilanin explicitly noted one form of the Weber number: 
 >We = V<sup>2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> 
@@ -271,7 +272,7 @@ Those will be explored in ongoing investigations.
 
 To very briefly summarize some of the work:
 
-NASA-CR-2003-211822 [^9] will conduct tests and conclude:
+NASA/CR-2003-211822 [^10] will conduct tests and conclude:
 
 >Acceptable scale Re and We fall in the range of 60
 to 160% of the respective reference values.
@@ -281,48 +282,52 @@ This leads to test conditions scaling that is not so "even more restrictive".
 but also:
 >Evaluation of pressure effects on ice shape
 suggested that even greater tolerances on Re may
-be possible, and We c is apparently not the right
+be possible, and We_c is apparently not the right
 form of Weber number to be used as a similarity
-parameter
+parameter.
 
-Later still, NASA-CR-2004-212875, 
-after evaluating numerous forms of the Weber number, 
-will selected We<sub>L</sub> (where L is chord) 
+(We_c is a different form of Weber number than what Bilanin used.)
+
+Later still, NASA/CR-2004-212875 [^6], (which we will review in a future post)
+evaluated numerous forms of the Weber number, 
+and selected We<sub>L</sub> (where L is a significant length proportional to chord,
+essentially the same Weber number that Bilanin used) 
 as the scaling parameter to use for scaling 
-for ice shape on unprotected surfaces 
-"within the FAA Part 25 Appendix-C
+for ice shape on unprotected surfaces, and recommend a +/-15% tolerance:  
+>within the FAA Part 25 Appendix-C
 envelope which includes drop sizes from 15 to 50 μm
-median volume diameter (MVD)", and recommend a +/-15% tolerance. 
-[We will get to large drop icing in a future post].
+median volume diameter (MVD). 
 
+[We will get to large drop icing in a future post].
   
 ##Citations
 
-cites 22 publications:
+Bilanin cites 22 publications:
 
-Duhnham, R. E., Bezos, G. M., Gentry, C. L.: Two-Dimensional Wind Tunnel Tests of a Transport Type Airfoil in Water Spray. AIAA-85-0258, January, 1985.  
-Feo, A.: Rotating Arms Applied to Studies of Single Angular Drop Impacts. AIAA-87-0257, January, 1985.  
+- Duhnham, R. E., Bezos, G. M., Gentry, C. L.: Two-Dimensional Wind Tunnel Tests of a Transport Type Airfoil in Water Spray. AIAA-85-0258, January, 1985.  
+- Feo, A.: Rotating Arms Applied to Studies of Single Angular Drop Impacts. AIAA-87-0257, January, 1985.  
 - Bragg, M. B., Gregorek, G. M., and Shaw, R. J.: "An Analytical Approach to Airfoil Icing." AIAA Paper No. 81-0403, Presented at the 19th Aerospace Sciences Meeting, January 12-15, 1981.  
-Papadakis, M., Elangovan, R. Freund, G. A. Jr., Breer, M. D.: Experimental Water Droplet Impingement Data on Two-Dimensional Airfoils, Axisymmetric Inlet and Boeing 737-300 Engine Inlet. AIAA-87-0097, January, 1987.  
-Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  
-Ruff, G. A.: Development of an Analytical Ice Accretion Prediction Method (LEWICE). Sverdrup Technology, Inc., LeRC Group Progress Report, February, 1986.  
-MacAurthur, C. D.: Numerical Simulation of Airfoil Ice Accretion. AIAA-83-0112, January, 1983.  
+- Papadakis, M., Elangovan, R. Freund, G. A. Jr., Breer, M. D.: Experimental Water Droplet Impingement Data on Two-Dimensional Airfoils, Axisymmetric Inlet and Boeing 737-300 Engine Inlet. AIAA-87-0097, January, 1987.  
+- Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  
+- Ruff, G. A.: Development of an Analytical Ice Accretion Prediction Method (LEWICE). Sverdrup Technology, Inc., LeRC Group Progress Report, February, 1986.  
+- MacAurthur, C. D.: Numerical Simulation of Airfoil Ice Accretion. AIAA-83-0112, January, 1983.  
 - Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979.  
-Bilanin, A. J.: Scaling Laws for Testing Airfoils Under Heavy Rainfall. Journal of Aircraft, Vol. 24, No. 1, January, 1987.  
-Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971.
-Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
-Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. II, March, 1986.   
-Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Douglas Aircraft Company, Inc. Report No. SM14933, 1954.   
-Sibley, P. J. and Smith, R. E., Jr.: "Model Testing in an Icing Wind Tunnel." Lockheed Aircraft Corporation, Report No. LR10981, 1955.  
-Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
-Jackson, E. T.: Development Study: The Use of Scale Models in an Icing Wind Tunnel to Determine Ice Catch on a Prototype Aircraft with Particular Reference to Concorde. British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75/RMMcK/242, July, 1967.  
-Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
-Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985  
-Schlichting, D.: Boundary-Layer Theory. McGraw-Hill Book Company, New York, NY, 1968.  
+- Bilanin, A. J.: Scaling Laws for Testing Airfoils Under Heavy Rainfall. Journal of Aircraft, Vol. 24, No. 1, January, 1987.  
+- Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971.
+- Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
+- Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. II, March, 1986.   
+- Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Douglas Aircraft Company, Inc. Report No. SM14933, 1954.   
+- Sibley, P. J. and Smith, R. E., Jr.: "Model Testing in an Icing Wind Tunnel." Lockheed Aircraft Corporation, Report No. LR10981, 1955.  
+- Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
+- Jackson, E. T.: Development Study: The Use of Scale Models in an Icing Wind Tunnel to Determine Ice Catch on a Prototype Aircraft with Particular Reference to Concorde. British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75/RMMcK/242, July, 1967.  
+- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
+- Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985  
+- Schlichting, D.: Boundary-Layer Theory. McGraw-Hill Book Company, New York, NY, 1968.  
 - Olsen, W., Shaw, J., and Newton, J. "Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil." NASA-TM-83556, January 1984.  
-Achenbach, E.: The Effect of Surface Roughness on the Heat Transfer from a Circular Cylinder to the Cross Flow of Air. International Journal of Heat Mass Transfer, Vol. 20, 1977.  
-Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988.  
+- Achenbach, E.: The Effect of Surface Roughness on the Heat Transfer from a Circular Cylinder to the Cross Flow of Air. International Journal of Heat Mass Transfer, Vol. 20, 1977.  
+- Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988.  
 
+An online search [^11] found Bilanin cited by 53 publications.
 
 ##Notes  
 [^1]: Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.  
@@ -334,12 +339,9 @@ Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior
 [^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.  
 [^8]: Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
 [ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)  
-[^9]: 
-Anderson, David. "Acceptable tolerances for matching icing similarity parameters in scaling applications." 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0832, NASA-CR-2003-211822. 2001.
+[^9]: https://scholar.google.com/scholar?start=0&q=icing++%22weber+number%22&hl=en&scisbd=1&as_sdt=0,48  
+[^10]: 
+Anderson, David. "Acceptable tolerances for matching icing similarity parameters in scaling applications." 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0832, NASA/CR-2003-211822. 2001.
 https://ntrs.nasa.gov/api/citations/20030064040/downloads/20030064040.pdf  
-
-
-
-
-53
+[^11]: 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Proposed+Modifications+to+Ice+Accretion%2FIcing+Scaling+Theory&btnG=  

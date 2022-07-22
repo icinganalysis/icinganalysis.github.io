@@ -60,13 +60,16 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 -->
 
 Bilanin Pi-Terms and the Weber Number  
+<!--
+[Bilanin Pi-Terms and the Weber Number]({filename}bilanin_pi_terms.md)  
+-->
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
-NASA-CR-2004-212875 Icing Similarity Calculations  
+NASA/CR-2004-212875 "Manual of Scaling Methods" Icing Similarity Calculations  
 
 The Effect of Humidity  
 
-Anti-ice Test Similarity  
+Anti-Ice Test Similarity  
 
 Large Water Drop Icing  
 
