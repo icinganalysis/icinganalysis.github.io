@@ -172,6 +172,47 @@ def no_conversion(v):
     return v
 
 
+standard_to_domain_units = {
+    "K": ("c", "f", "r", "°c", "°f", "°r",),  # note lower case
+    "m": ("inch", "cm"),
+    "m/s": ("mph",),
+    "N/m": ("dyne/cm", "lbf/ft"),
+    "Pa": ("psi",),
+    "μm": ("micrometer",),
+}
+
+
+def find_standard_unit_name(name):
+    standard_name = name
+    for k, v in standard_to_domain_units.items():
+        # print(name.lower(), v, name.lower() in v, k)
+        if name.lower() in v:
+            standard_name = k
+            break
+    return standard_name
+
+
+conversions_from_domain_units = {
+    "cm": cm_to_m,
+    "inch": inch_to_m,
+    "C": tc_to_k,
+    "°C": tc_to_k,
+    "F": tf_to_k,
+    "°F": tf_to_k,
+    "mph": mph_to_ms,
+    "MPH": mph_to_ms,
+    "R": r_to_k,
+    "°R": r_to_k,
+    "dyne/cm": dyne_cm_to_n_m,
+    "psi": psi_to_pa,
+    "": no_conversion
+}
+
+
+def convert_domain_to_standard_unit(v, domain_unit):
+    return conversions_from_domain_units.get(domain_unit, no_conversion)(v)
+
+
 conversions_to_domain_units = {
     "cm": m_to_cm,
     "inch": m_to_inch,
