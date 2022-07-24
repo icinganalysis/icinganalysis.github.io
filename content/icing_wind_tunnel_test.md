@@ -34,10 +34,7 @@ which includes information from NACA-era internal memos and interviews that I ha
 [Uses of the NACA Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)  
 >A wide variety of test articles were used in the NACA-era Icing Research Tunnel (IRT)  
 
-Calibration of the NACA icing wind tunnels
-<!--
 [Calibration of the NACA icing wind tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
--->
 >Calibration methods evolved during the NACA-era
 
 Scaling in NACA tests
