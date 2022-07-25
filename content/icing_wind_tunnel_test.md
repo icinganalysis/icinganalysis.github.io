@@ -63,8 +63,10 @@ Bilanin Pi-Terms and the Weber Number
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
 NASA/CR-2004-212875 "Manual of Scaling Methods" Icing Similarity Calculations  
+>"... it was not surprising that scale ice shapes were again a good match for the reference"  
 
-The Effect of Humidity  
+The Effect of Humidity 
+>"a condition of supersaturation, which promotes the growth of frost deposits"   
 
 Anti-Ice Test Similarity  
 
