@@ -237,7 +237,7 @@ distance_fig17_continued = [_ / FT_PER_M for _ in d_fig17_continued[::2]]
 d_drop_fig17_continued = d_fig17_continued[1::2]
 
 
-def calc_u_fig14(x):
+def calc_u_fig14(x, mach_initial=mach_initial_nominal_fig14):
     """
     Calculate airspeed as a function of position with duct flow area change.
     Duct areas from Figure 14
@@ -246,7 +246,7 @@ def calc_u_fig14(x):
     """
     area = area_fig_14_interpolator(x)
     t_total = tk_air_fig16[0]
-    mach = calc_mach2_subsonic(area_fig_14[0], mach_initial_nominal_fig14, area)
+    mach = calc_mach2_subsonic(area_fig_14[0], mach_initial, area)
     tk = t_total / (1 + gm1d2 * mach ** 2)
     return calc_u(mach, tk)
 
@@ -282,10 +282,11 @@ def integrate_drop(
     n_max=1000000,
     include_t_total_change=False,
     include_vapor_ratio_change=False,
+    mach_initial = mach_initial_nominal_fig14
 ):
     xs = [initial_position]
     vs = [v_drop]
-    u = u_function_of_x(xs[-1])
+    u = u_function_of_x(xs[-1], mach_initial)
     tk = tk_total - u ** 2 / 2 / CP_AIR
     us = [u]
     t_drops = [t_drop]
@@ -302,6 +303,8 @@ def integrate_drop(
     mass_of_drop = WATER_DENSITY * pi / 6 * (d_drop / MICROMETERS_PER_METER) ** 3
     number_of_drops_per_unit_mass_dry_air = water_ratio / mass_of_drop * rho_air
     t_drop_recs = [float("nan")]
+    t_total = tk_total
+
     for i in range(n_max):
         (
             v_drop2,
@@ -322,10 +325,10 @@ def integrate_drop(
                 f"Integration error, try a smaller tau value, x2 <= xs[-1], tau={tau}, x2={position2} xs[-1]={xs[-1]}"
             )
 
-        t_total2 = tk_total
+        t_total2 = t_total
         if include_t_total_change:
             t_total2 = t_total - qc * number_of_drops_per_unit_mass_dry_air / CP_AIR
-        u2 = u_function_of_x(position2)
+        u2 = u_function_of_x(position2, mach_initial)
         mach2 = calc_mach_from_t_total(u2, t_total2)
         tk2 = t_total2 / (1 + gm1d2 * mach2 ** 2)
         p2 = p_total / (1 + gm1d2 * mach2 ** 2) ** gp1d2gm1
@@ -341,7 +344,7 @@ def integrate_drop(
         lwc2 = number_of_drops_per_unit_mass_dry_air * mass_of_drop2 * G_PER_KG
 
         if position2 > final_position:
-            u = u_function_of_x(final_position)
+            u = u_function_of_x(final_position, mach_initial)
             t_drop2 = t_drops[-1] + (t_drop2 - t_drops[-1]) * (
                 final_position - xs[-1]
             ) / (position2 - xs[-1])
@@ -372,6 +375,7 @@ def integrate_drop(
         t_drop_recs.append(t_recovery_local_drop_relative)
         t_totals.append(t_total2)
         vapor_ratios.append(vapor_ratio2)
+        t_total = t_total2
         if position2 > final_position:
             xs[-1] = final_position
             break
