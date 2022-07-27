@@ -142,7 +142,7 @@ For the leading edge stagnation line,
 the calculated surface temperature and freezing fraction (n) are affected. 
 
 The difference in calculated leading edge freezing fraction varies by airspeed case. 
-At the lower airspeeds both values are 1, so there is no difference.  
+At the lower airspeeds both values are 1, so there is no difference. 
 A maximum of 0.025 was found, which is probably not significant for most purposes. 
 ![](images/naca-tn-2962/naca_tn_2962_humidity_dt_n_rh.png)  
 
