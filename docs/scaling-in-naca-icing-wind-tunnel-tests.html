@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Scaling in NACA Icing Wind Tunnel Tests</title>
+        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <meta name="description" content=""If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://icinganalysis.github.io/">Blast from the Past:  NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="https://icinganalysis.github.io/index.html">Home</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="/icing-thermodynamics.html">Thermodynamics</a></li>
+                    <li><a href="/ice-shapes-and-their-effects.html">Ice Shapes</a></li>
+                    <li><a href="https://icinganalysis.github.io/diversions.html">Diversions</a></li>
+                    <li><a href="https://icinganalysis.github.io/water-drop-evaporation.html">Evaporation</a></li>
+                    <li><a href="https://icinganalysis.github.io/icing-wind-tunnel-test-thread.html">Icing Tunnels</a></li>
+                    <li><a href="https://icinganalysis.github.io/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://icinganalysis.github.io/scaling-in-naca-icing-wind-tunnel-tests.html" rel="bookmark"
+           title="Permalink to Scaling in NACA Icing Wind Tunnel Tests">Scaling in NACA Icing Wind Tunnel Tests</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-07-26T17:44:33.161873-07:00">
+                Published: Tue 26 July 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-07-26T17:44:33.161873-07:00">-->
+                <!--Updated: Tue 26 July 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->      <h3><em>"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"</em></h3>
+<h1>Summary</h1>
+<p>Early examples of icing test scaling are noted.</p>
+<h1>Key Points</h1>
+<ol>
+<li>Three publication that mention scaling are reviewed.  </li>
+<li>Some challenges with scaling are noted.  </li>
+<li>A airfoil design of a full scale leading edge truncated with an aft flap addresses some challenges.  </li>
+</ol>
+<h2>Discussion</h2>
+<h3>NACA-RM-E8A27 "Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<p>This is the earliest example that I have found of using dimensionless water drop impingement terms for 
+test similarity calculations.  </p>
+<blockquote>
+<p>The results of a preliminary investigation of internal water-
+inertia separation inlets designed to prevent automatically the
+entrance of large quantities of water into a turbojet engine in
+icing conditions are presented. A simplified analytical approach
+to the design of internal water-inertia separation inlets is
+included. The analysis is applied specifically to the model
+investigated.<br>
+The results show that to be effective in separating the free
+water from the air stream in order to prevent screen and stator-
+blade icing, an inlet of this type had a 75-percent ram-pressure
+recovery at the design inlet-velocity ratio in an icing condition.
+For normal nonicing operation, the ram-pressure recovery is comparable 
+to a direct-ram installation The ram-pressure recovery
+and the circumferential uniformity of the mass flow in the inlets
+was relatively independent of angle of attack.</p>
+</blockquote>
+<p><img alt="Figure 2 of NACA-RM-E8A27" src="images/naca-rm-e8a27/Figure 2.png"><br>
+<img alt="Figure 3 of NACA-RM-E8A27" src="images/naca-rm-e8a27/Figure 3.png">  </p>
+<blockquote>
+<p>Extrapolation of model icing investigations to full scale. </p>
+<p>If the values of the K and φ parameters (where K = f(a<sup>2</sup> V / C)
+and φ = f(ρ<sup>2</sup> V C)) for the model and full-scale nacelle are maintained 
+the same, the icing characteristics of the model will be
+similar to the icing characteristics of the full-scale nacelle as
+determined by Langmuir and Blodgett.
+Each component of a complicated duct system will have its own K and φ values; however 
+by choosing the most important component for a particular investigation a satisfactory 
+extrapolation to full scale can be attained.
+The calculations of K and φ contain four important variables:
+velocity, drop diameter, body dimension, and density, which can
+be varied simultaneously, separately, or in combination.
+For the investigation presented, the data were extrapolated
+from half scale to full scale by holding K constant and so
+changing the density or pressure altitude for the full-scale
+nacelle that φ<sub>m</sub> for the half-scale model was the same as φ<sub>f</sub>
+The half-scale model conditions for these investigations thus
+pertain to full-scale conditions at a pressure altitude of approximately 21,000 feet.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>where a is water drop diameter 
+      V is air speed
+      C is chord length
+      ρ is air density
+      μ is air viscosity
+</code></pre></div>
+
+<p>Using an analogy such as Re = ρVC/μ, a subscale test value of C may be compensated for by
+increasing ρ or V (or in combination) to maintain a full scale flight Re value. 
+Facilities such as the Variable-Density Wind Tunnel (<a href="https://icinganalysis.github.io/naca-tr-446.html">see NACA-TR-446</a>) can be pressurized to achieve a high density. 
+Here, the water drop impingement dimensionless terms K and φ are used. </p>
+<p>The dimensionless terms K and φ that describe water drop impingement come from <a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">Langmuir and Blodgett</a> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>,
+but Langmuir and Blodgett were not included in the references of NACA-RM-E8A27.  </p>
+<p>The IRT is not pressurized, so the test section pressure will be close to sea level pressure.
+Thus, a test with a half scale test article in a close to sea level pressure facility
+is related full scale flight at altitude. </p>
+<p>The example does not detail all of the four key variables for the flight and test cases
+required to maintain the same K = f(a<sup>2</sup>V/C) and φ = f(ρ<sup>2</sup>VC) values. 
+At 21,000 ft. the air density is about 0.5 that of sea level 
+(if using a standard atmosphere table, the density would be less if temperature was held constant). 
+Here are relative values that maintain the K and φ values. 
+There is more than one flight set that corresponds to the test values. </p>
+<table>
+<thead>
+<tr>
+<th>Relative Value</th>
+<th>a</th>
+<th>V</th>
+<th>Chord</th>
+<th>ρ</th>
+<th>a<sup>2</sup> V / C</th>
+<th>ρ<sup>2</sup> V C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test</td>
+<td>1</td>
+<td>1</td>
+<td>0.5</td>
+<td>1</td>
+<td>2</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Flight 1</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+<td>0.5</td>
+<td>2</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Flight 2</td>
+<td>1.41</td>
+<td>1</td>
+<td>1</td>
+<td>0.707</td>
+<td>2</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<p>The first flight set appears to be what was described in the example, 
+but the flight velocity being twice the test value was not mentioned. 
+The second flight set scales drop size, but uses the same velocity as the test. 
+The K = f(a<sup>2</sup>V/C) = 2 value cannot be achieved with a, V, and C all being 1.</p>
+<p>This illustrates a challenge of scaling: 
+scaling one dimensional parameter often requires scaling at least one other 
+dimensional parameter (sometimes several) to keep a dimensionless parameter value constant. </p>
+<h3>NACA-RM-E50E03, "Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></h3>
+<p>This considers testing a subscale model at sea level pressure and comparing
+that to flight. </p>
+<blockquote>
+<p>SUMMARY
+The results of an investigation of several internal water-
+inertia-separation inlets consisting of a main duct and an alternate 
+duct designed to prevent automatically the entrance of large
+quantities of water into a turbojet engine in icing conditions are
+presented. Total-pressure losses and icing characteristics for a
+direct-ram inlet and the inertia-separation inlets are compared at
+similar aerodynamic and simulated icing conditions.
+Complete ice protection for inlet guide vanes could not be
+achieved with the inertia-separation inlets investigated. Approximately 
+8 percent of the volume of water entering the nacelles
+remained. In the air passing into the compressor inlet, heavy
+alternate-duct-elbow ice formations caused by secondary inertia
+separation resulted in rapid total-pressure losses and decreases
+in mass flow. The duration in an icing condition for an inertia-
+separation inlet, without local surface heating, was increased
+approximately four times above that for a direct-ram inlet with a
+compressor-inlet screen. For normal nonicing operation, the inertia-
+separation-inlet total-pressure losses were comparable to a direct-
+ram installation. The pressure losses and the circumferential uniformity 
+of the mass flow in all the inlets were relatively independent of angle of attack. 
+Use of an inertia-separation inlet
+would in most cases require a larger diameter nacelle than a direct-
+ram inlet in order to obtain an alternate duct sufficiently large
+to pass the required engine air flow at duct Mach numbers below
+1.0 at the minimum area.</p>
+<p>"For full-scale considerations, the alternate-duct
+area must therefore be increased to an extent that it would pass
+sufficient air to the engine at a reasonable Mach number and pressure loss. 
+This design requirement could be attained with configuration E by 
+increasing the inlet gap about 26 percent and then
+scaling the entire configuration to fit the engine. 
+An increase
+in the inlet gap, however, does not appear to be feasible for good
+water separation." </p>
+</blockquote>
+<p>The test demonstrated the feasibility of water separation inlet design, 
+but the specific design tested does not appear to be feasible for flight. </p>
+<p>This illustrates another challenge of scaling and test in a ground level, 
+limited Mach range facility. </p>
+<h3>NACA-RM-E56E11, "Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections" <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></h3>
+<p>The use of truncated airfoils is described. 
+Keeping a full scale leading edge avoids geometric scaling in test similarity calculations, 
+but allows smaller test articles to keep within the physical limits 
+of the test facility. </p>
+<blockquote>
+<p>In an effort to increase the operational range of existing small
+icing tunnels, the use of truncated airfoil sections has been suggested.
+With truncated airfoils, large-scale or even full-scale wing-icing-
+protection systems could be evaluated. Therefore, experimental studies
+were conducted in the NACA Lewis laboratory icing tunnel with an NACA
+651-212 airfoil section to determine the effect of truncating the airfoil 
+chord on velocity distribution and impingement characteristics. A
+6-foot-chord airfoil was cut successively at the 50- and 30-percent-chord
+stations to produce the truncated airfoil sections, which were equipped
+with trailing-edge flaps that were used to alter the flow field about
+the truncated sections. The study was conducted at geometric angles of
+attack of 0° and 4°, an airspeed of about 156 knots, and volume-median
+droplet sizes of 11.5 and 18.6 microns. A dye-tracer technique was used
+in the impingement studies.  </p>
+<p><strong>With the trailing-edge flap on the truncated airfoil deflected so
+that the local velocity distribution in the impingement region was 
+substantially the same as that for the full-chord airfoil, the local impingement 
+rates and the limits of impingement for the truncated and full-
+chord airfoils were the same.</strong> In general, truncating the airfoils with
+flaps undeflected resulted in a substantially altered velocity distribution 
+and local impingement rates compared with those of the full-chord
+airfoil. The use of flapped truncated airfoils may permit impingement
+and icing studies to be conducted with full-scale leading-edge sections,
+ranging in size from tip to root sections.</p>
+</blockquote>
+<p><img alt="Figure 2a of NACA-RM-E56E11" src="images/naca-rm-e56e11/Figure 2a.png"><br>
+<img alt="Figure 2b of NACA-RM-E56E11" src="images/naca-rm-e56e11/Figure 2b.png">  </p>
+<p>This technique has been refined and is still used today <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. </p>
+<h2>Citations</h2>
+<p>NACA-RM-E8A27 cites 4 publications:</p>
+<ul>
+<li>von Glahn, Uwe H., and Renner, Clark E.: Development of a Protected Air Scoop for the Reduction of Induction-System Icing. NACA-TN-1134, 1946.  </li>
+<li>Baals, Donald D., Smith, Norman F., and Wright, John B.: The Development and Application of High-Critical-Speed Nose Inlets. NACA-ACR-L5F30a, 1945.  </li>
+<li>Cohen, Herbert N.: Investigation of Intake Ducts for a High-Speed Subsonic Jet-Propelled Airplane. NACA-RM-L7C24a, 1947.  </li>
+<li>Stickley, A. R.: Some Remarks on the Physical Aspects of the Aircraft Icing Problem. Jour. Aero. Sci., Vol. 5, no. 11, Sept. 1938, pp. 442-446.  </li>
+</ul>
+<p>NACA-RM-E50E03 cites 6 publications: </p>
+<ul>
+<li>von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System. NACA-RM-E8A27, 1948.   </li>
+<li>Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948.  </li>
+<li>Naumann: Wlrkungsgrad von Diffusoren bel hohen Unterechallgeschwindigkeiten. PB Nr. 1705, ZWB (Berlin-Adlershof), Dez. 18, 1942.  </li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  </li>
+<li>Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949.  </li>
+<li>Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  </li>
+</ul>
+<p>NACA-RM-E56E11 cites 5 publications: </p>
+<ul>
+<li>Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Rep. No. SM 14993, Douglas Aircraft Co., Inc., May 14, 1954.  </li>
+<li>Sibley, P. J., and Smith, R. E., Jr.: Model Testing in an Icing Wind Tunnel. Rep. No. LR 10981, Lockheed Aircraft Cor., Oct. 14, 1955.  </li>
+<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  </li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  </li>
+<li>Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.  </li>
+</ul>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System. NACA-RM-E8A27, 1948.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Fujiwara, Gustavo EC, et al. "A hybrid airfoil design method for icing wind tunnel tests." 5th AIAA atmospheric and space environments conference. 2013.
+available at http://icing.ae.illinois.edu/papers/13/AIAA-2013-2826.pdf&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://twitter.com/icinganalysis">twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@gmail.com">email</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies.
+                </address><!-- /#about -->
+
+
+                <br /> copyright 2022 by Donald Cook
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

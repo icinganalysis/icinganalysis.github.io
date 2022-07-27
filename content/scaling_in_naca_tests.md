@@ -1,6 +1,5 @@
 title: Scaling in NACA Icing Wind Tunnel Tests  
 category: icing tunnels  
-status: draft  
 
 ###_"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"_
 
@@ -10,7 +9,7 @@ Early examples of icing test scaling are noted.
 #Key Points
 1. Three publication that mention scaling are reviewed.  
 2. Some challenges with scaling are noted.  
-3. A airfoi design of a full scale leading edge truncated with an aft flap addresses some challenges.  
+3. A airfoil design of a full scale leading edge truncated with an aft flap addresses some challenges.  
 
 ##Discussion  
 
