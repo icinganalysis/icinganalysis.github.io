@@ -37,8 +37,8 @@ which includes information from NACA-era internal memos and interviews that I ha
 ###[Calibration of the NACA icing wind tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
 >Calibration methods evolved during the NACA-era
 
-[Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
->Early examples of icing test scaling are noted
+###[Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
+>Early examples of icing test scaling are noted  
 
 ##Post NACA-Era:
 

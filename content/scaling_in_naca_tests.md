@@ -39,8 +39,8 @@ was relatively independent of angle of attack.
 
 >Extrapolation of model icing investigations to full scale. 
 
->If the values of the K and φ parameters (where K = f(a<sup>2</sup> V / C)
-and φ = f(ρ<sup>2</sup> V C)) for the model and full-scale nacelle are maintained 
+>If the values of the K and φ parameters (where K = f( a<sup>2</sup> V / C)
+and φ = f( ρ<sup>2</sup> V C)) for the model and full-scale nacelle are maintained 
 the same, the icing characteristics of the model will be
 similar to the icing characteristics of the full-scale nacelle as
 determined by Langmuir and Blodgett.
@@ -79,13 +79,13 @@ Thus, a test with a half scale test article in a close to sea level pressure fac
 is related full scale flight at altitude. 
 
 The example does not detail all of the four key variables for the flight and test cases
-required to maintain the same K = f(a<sup>2</sup>V/C) and φ = f(ρ<sup>2</sup>VC) values. 
+required to maintain the same K = f( a<sup>2</sup> V / C) and φ = f( ρ<sup>2</sup> V C) values. 
 At 21,000 ft. the air density is about 0.5 that of sea level 
 (if using a standard atmosphere table, the density would be less if temperature was held constant). 
 Here are relative values that maintain the K and φ values. 
 There is more than one flight set that corresponds to the test values. 
 
-Relative Value | a | V | Chord | ρ | a<sup>2</sup> V / C |ρ<sup>2</sup> V C
+Relative Value | a | V | Chord | ρ | a<sup>2</sup> V / C | ρ<sup>2</sup> V C
 ---|---|---|---|---|---|---
 Test| 1 | 1| 0.5 | 1 | 2 | 0.5
 Flight 1 | 1 | 2 | 1 | 0.5 | 2 | 0.5
@@ -94,7 +94,7 @@ Flight 2 | 1.41 | 1 | 1 | 0.707 | 2 | 0.5
 The first flight set appears to be what was described in the example, 
 but the flight velocity being twice the test value was not mentioned. 
 The second flight set scales drop size, but uses the same velocity as the test. 
-The K = f(a<sup>2</sup>V/C) = 2 value cannot be achieved with a, V, and C all being 1.
+The K = f( a<sup>2</sup> V / C) = 2 value cannot be achieved with a, V, and C all being 1.
 
 This illustrates a challenge of scaling: 
 scaling one dimensional parameter often requires scaling at least one other 
