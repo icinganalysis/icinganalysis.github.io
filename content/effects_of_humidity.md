@@ -2,6 +2,14 @@ title: The Effects of Humidity in Icing Wind Tunnel Tests
 category: icing tunnels  
 status: draft  
 
+##Summary  
+Supersaturated humidity can affect icing wind tunnel results.  
+
+##Key Points  
+1. Some observations of supersaturated humidity conditions were made in the NACA-era.  
+2. Supersaturation was associated with frost on test article afterbodies.  
+3. Recirculating icing wind tunnel conditions are calculated to tend to be supersaturated.  
+4. Some potential effects of surpersaturation are calculated.  
 
 ##A brief primer on humidity  
 
@@ -110,8 +118,70 @@ on the ram-inlet lips.
 
 In the review ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp"]({filename}aedc1dmp.md) 
 the water spray drop evaporation was calculated, 
-as well as the amount of vapor in the tunnel air. 
+as well as the amount of vapor in the tunnel flow. 
 
+For that case, the tunnel modeled was assumed to have control over the humidity. 
+
+For cases of recirculating flow icing wind tunnels without humidity control, 
+the flow in the constant area section upstream of the contraction into the test section
+tends to have 100% relative humidity (see [^5]). 
+The flow then goes through the contraction into the test section. 
+The static temperature lowers, but the vapor does not have time 
+condense out to equilibrium, so the relative humidity climbs. 
+
+Two test conditions from NACA-TN-2962 were modeled with the iads1dmp.py program, 
+as shown below. The test airspeed for each was 180 MPH (about 80 m/s). 
+At that airspeed, the test section relative humidity is calculated to be about 120%. 
+Higher airspeeds were also considered. 
+At higher airspeeds, the relative humidity can be much higher.  
+
+![](images/naca-tn-2962/naca_tn_2962_humidity_compare_rhs.png)  
+
+This has some effect on the calculated heat and mass balance. 
+For the leading edge stagnation line, 
+the calculated surface temperature and freezing fraction (n) are affected. 
+
+The difference in calculated leading edge freezing fraction varies by airspeed case. 
+At the lower airspeeds both values are 1, so there is no difference.  
+A maximum of 0.025 was found, which is probably not significant for most purposes. 
+![](images/naca-tn-2962/naca_tn_2962_humidity_dt_n_rh.png)  
+
+The difference in surface temperature varies by airspeed case, 
+reaching a maximum of 0.35 C, which is probably not significant. 
+(Where the freezing fraction is below 1, both values are 0C, 
+so there is no temperature difference.)
+
+![](images/naca-tn-2962/naca_tn_2962_humidity_dt_t_surface_rh.png)  
+
+The calculated difference test section temperature for no freezing 
+(n=0) is significantly affected by airspeed and the resulting humidity. 
+At the 80 m/s airspeed, there is a 1C difference, 
+which may not be significant in many cases. 
+However, at higher airspeed the results can be significantly different. 
+
+![](images/naca-tn-2962/naca_tn_2962_humidity_dt_max_t_rh.png)  
+
+This has implication for tests that seek to determine the maximum temperature for ice accumulation, 
+and to determine runback ice. 
+
+##Conclusions  
+
+As many test facilities cannot control humidity, 
+icing wind tunnel users should consider measuring test section humidity during tests. 
+An instrument that is capable of reading above 100% relative humidity or the 
+saturated vapor pressure should be used (some instruments are not capable).
+
+Analysis methods that can use humidity values above 100% should be used 
+for comparison to icing wind tunnel test results 
+(some can only use 100% relative humidity).
+
+If humidity cannot be measured during a test, 
+analysis methods such as the AEDC1DMP and the iads1dmp.py can be used. 
+
+Some tests, 
+such as determining the maximum temperature for ice accumulation, 
+and determining the presence runback ice near the maximum temperature, 
+may be particularly sensitive to the effects of test section humidity. 
 
 ##Notes
 
@@ -119,3 +189,5 @@ as well as the amount of vapor in the tunnel air.
 [^2]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 [^3]: Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
 [^4]: Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953.  
+[^5]: Cook, Donald E.: Maximum Temperature for Ice Accumulation Calculations. AIAA-2005-655, January, 2005.   
+
