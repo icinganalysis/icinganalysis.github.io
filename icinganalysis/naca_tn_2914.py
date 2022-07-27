@@ -44,7 +44,7 @@ def calc_pressure_coefficient_from(mach, vl_vo):
     return cp
 
 
-def calc_t(p, mach, pressure_coefficient, r=0.85):
+def calc_t(p, mach, pressure_coefficient, r=0.85, rh=1):
     t_freeze = 273.15
     pl = p * (1 + 0.7 * mach ** 2 * pressure_coefficient)
     es = calc_vapor_p(t_freeze)
@@ -53,7 +53,7 @@ def calc_t(p, mach, pressure_coefficient, r=0.85):
     tl_toc_mach = (1 + 0.2 * mach ** 2) * r + (1 - r) * (pl / p) ** 0.286
 
     def calc_t_diff(tk):
-        eo = calc_vapor_p(tk)
+        eo = rh*calc_vapor_p(tk)
         if p <= eo:
             return float("nan")
         dt = (
@@ -77,9 +77,9 @@ def calc_min_cp(mach):
     return -1 / (0.7 * mach ** 2)
 
 
-def calc_cp_for_t_ambient_0c(p, mach, r=0.85):
+def calc_cp_for_t_ambient_0c(p, mach, r=0.85, rh=1):
     def calc_diff(cp):
-        return abs(273.15 - calc_t(p, mach, cp, r))
+        return abs(273.15 - calc_t(p, mach, cp, r, rh=rh))
 
     cp_min = calc_min_cp(mach)  # cp_min: cp value where pl = 0
     cp = solve_minimize_f(
@@ -154,7 +154,6 @@ if __name__ == "__main__":
     for mach, cp, pl_po, tr_10000, tr_25000, tr_40000 in zip(
         *(iter(d_p10_table_2),) * 6
     ):
-        pass
         tk_10000 = calc_t(calc_pressure(10000 / FT_PER_M), mach, cp, r=0.90)
         tk_25000 = calc_t(calc_pressure(25000 / FT_PER_M), mach, cp, r=0.90)
         tk_40000 = calc_t(calc_pressure(40000 / FT_PER_M), mach, cp, r=0.90)
