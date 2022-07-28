@@ -164,6 +164,20 @@ However, at higher airspeed the results can be significantly different.
 This has implication for tests that seek to determine the maximum temperature for ice accumulation, 
 and to determine runback ice. 
 
+At the nominal airspeed of 180 MPH, 
+the effect of supersaturation on the ice shape as calculated by
+LEWICE2D is small.
+
+![](images/naca-tn-2962/naca_tn_2962_humidity_lewice_180mph.png)  
+
+At the 350 MPH, 
+the effect of supersaturation on the ice shape is small, 
+but more readily discernible than for the 180 MPH case. 
+
+![](images/naca-tn-2962/naca_tn_2962_humidity_lewice_350mph.png)  
+
+
+
 ##Conclusions  
 
 As many test facilities cannot control humidity, 
