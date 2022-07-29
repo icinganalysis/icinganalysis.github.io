@@ -62,7 +62,7 @@ Bilanin Pi-Terms and the Weber Number
 NASA/CR-2004-212875 "Manual of Scaling Methods" Icing Similarity Calculations  
 >"... it was not surprising that scale ice shapes were again a good match for the reference"  
 
-The Effect of Humidity 
+The Effects of Humidity 
 >"a condition of supersaturation, which promotes the growth of frost deposits"   
 
 Anti-Ice Test Similarity  

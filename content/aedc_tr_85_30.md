@@ -11,7 +11,7 @@ status: draft
 An expanded set of icing similarity terms are derived and tested.  
 
 #Key Points  
-1. water drop impingement similarity is simplified using Ko.  
+1. Water drop impingement similarity is simplified using Ko.  
 2. Icing heat transfer similarity terms derived from Messinger are added.  
 3. Tests in an icing wind tunnel validate the selected set of similarity terms.  
 
@@ -96,10 +96,10 @@ Several candidate similarity terms are developed.
 
 ###Impingement similarity  
 
-Water drop impingement similarity is used, similar to [NACA-RM-E8A27]({filename}NACA-RM-E8A27.md), 
+Water drop impingement similarity is used, similar to [NACA-RM-E8A27]({filename}scaling_in_naca_tests.md), 
 but rather than separate K and Phi terms, a merged Ko term is used.
 
->K = 2/9 ρ<sub>w</sub>r<sub>d</sub><sup>2</sup>U<sub>∞</sub>/(μ<sub>a</sub>c) &nbsp;&nbsp;&nbsp;&nbsp; (3)
+>K = 2/9 ρ<sub>w</sub> r<sub>d</sub><sup>^2 </sup>U<sub>∞</sub>/(μ<sub>a</sub> c) &nbsp;&nbsp;&nbsp;&nbsp; (3)
 
 >Ko = (λ/λ<sub>s</sub>) K  &nbsp;&nbsp;&nbsp;&nbsp; (8)
 
@@ -130,8 +130,8 @@ T<sub>s</sub> is air static temperature
 A heat transfer analysis derived from Messinger [^3] was developed.
 
 >b = W<sub>w</sub>c<sub>p<sub>ws</sub></sub> / h<sub>c</sub>  &nbsp;&nbsp;&nbsp;&nbsp; (20)  
->Φ = 32 - T<sub>s</sub> - U<sub>∞</sub><sup>2</sup>/(2 g<sub>c</sub> J c<sub>p<sub>w,s</sub></sub>)  &nbsp;&nbsp;&nbsp;&nbsp; (21)  
->Θ = (T<sub>sur</sub> - T<sub>s</sub> - U<sub>∞</sub><sup>2</sup>/(2 g<sub>c</sub> J c<sub>p<sub>a</sub></sub>)) + W<sub>e</sub> L<sub>v</sub> / h<sub>c</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (22)  
+>Φ = 32 - T<sub>s</sub> - U<sub>∞</sub><sup>^2</sup>/(2 g<sub>c</sub> J c<sub>p<sub>w,s</sub></sub>)  &nbsp;&nbsp;&nbsp;&nbsp; (21)  
+>Θ = (T<sub>sur</sub> - T<sub>s</sub> - U<sub>∞</sub><sup>^2</sup>/(2 g<sub>c</sub> J c<sub>p<sub>a</sub></sub>)) + W<sub>e</sub> L<sub>v</sub> / h<sub>c</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (22)  
 
 >Where:  
 W<sub>w</sub> is water catch rate  
@@ -167,7 +167,9 @@ portion of this study:
 >(Φ)<sub>model</sub> = (Φ)<sub>full-scale</sub>  
 >(Θ)<sub>model</sub> = (Θ)<sub>full-scale</sub>  
 
-Table 1 shows prior scaling analysis works.
+Table 1 shows prior scaling analysis works. 
+It shows that industry and others were actively developing scaling methods 
+at a time when NACA/NASA was not. 
 
 ![Table 1](images/aedc-tr-85-30/Table 1.png)  
 
@@ -175,6 +177,8 @@ I have read two of these in the past (but I do not have a copy of them),
 and I have not found any of these online. 
 It is not surprising that the one from Lockheed Aircraft includes freezing fraction, 
 as Messinger worked there at that time. 
+
+###Icing wind tunnel tests
 
 Various methods were tried. 
 
@@ -193,7 +197,7 @@ performed the best, both for scaling test article size or other parameters.
 ![Figure 24d](images/aedc-tr-85-30/Figure 24d.png)  
 
 >These results have identified a scaling procedure that accurately duplicates the ice-
-accretion profiles. In this scaling method, Ko, Ac, n, Φ, and 0 are held constant. The set of
+accretion profiles. In this scaling method, Ko, Ac, n, Φ, and Θ are held constant. The set of
 verified scaling equations can, therefore, be expressed as follows:
 
 >1. (K<sub>o</sub>)<sub>model</sub> = (K<sub>o</sub>)<sub>full-scale</sub>  
@@ -255,10 +259,13 @@ versa.
 was developed, but facility limitations did not permit adequate verification.
 Additional testing is required to verify this ice-shedding scaling technique.  
 
-The selected method yielded excellent results. 
-However, it is rather restrictive, 
+The selected method yielded excellent results.
+
+In later literature, it is sometimes called the "AEDC" or "Ruff" method. 
+
+The method can be rather restrictive, 
 particularly if adjusting test section air pressure is not available. 
-Depending on the flight condition, 
+Depending on the flight reference condition, 
 the calculated test condition may be outside of the envelope of 
 MVD-LWC-Airspeed that the facility can produce (a subject not covered in AEDC-TR-85-30).
 
