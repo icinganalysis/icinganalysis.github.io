@@ -229,7 +229,7 @@ In those cases, the five equations determine the five test parameters.
 
 ##Conclusions  
 
->8.0 SUMMARY OF RESULTS
+>8.0 SUMMARY OF RESULTS  
 The objectives of this study were to evaluate the equations governing the ice-accretion
 process to identify proposed scaling parameters and to conduct tests to determine which, if
 any, of the proposed methods produced scale ice accretions. A set of scaling equations were
