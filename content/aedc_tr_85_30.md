@@ -1,6 +1,5 @@
 title: AEDC-TR-85-30  
 category: icing tunnels  
-status: draft  
 
 ###_"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."_  
 ![Figure 24c](images/aedc-tr-85-30/Figure 24c.png)  

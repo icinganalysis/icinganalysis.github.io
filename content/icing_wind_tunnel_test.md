@@ -42,7 +42,7 @@ which includes information from NACA-era internal memos and interviews that I ha
 
 ##Post NACA-Era:
 
-AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"  
+###[AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"]({filename}aedc_tr_85_30.md)    
 >"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."  
 
 AEDC-TR-87-23 
