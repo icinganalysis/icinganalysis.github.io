@@ -112,6 +112,14 @@ def mph_to_ms(mph):
     return mph / MPH_PER_M_S
 
 
+def ktas_to_ms(ktas):
+    return ktas / KNOTS_PER_MS
+
+
+def ms_to_ktas(ms):
+    return ms * KNOTS_PER_MS
+
+
 def m_to_cm(m):
     return m * 100
 
@@ -183,7 +191,7 @@ def no_conversion(v):
 standard_to_domain_units = {
     "K": ("c", "f", "r", "°c", "°f", "°r",),  # note lower case
     "m": ("inch", "cm", "ft"),
-    "m/s": ("mph",),
+    "m/s": ("mph", "ktas"),
     "N/m": ("dyne/cm", "lbf/ft"),
     "Pa": ("psi",),
     "μm": ("micrometer",),
@@ -209,6 +217,8 @@ conversions_from_domain_units = {
     "°C": tc_to_k,
     "F": tf_to_k,
     "°F": tf_to_k,
+    "ktas": ktas_to_ms,
+    "KTAS": ktas_to_ms,
     "mph": mph_to_ms,
     "MPH": mph_to_ms,
     "R": r_to_k,
@@ -232,6 +242,8 @@ conversions_to_domain_units = {
     "°C": tk_to_c,
     "F": tk_to_f,
     "°F": tk_to_f,
+    "ktas": ms_to_ktas,
+    "KTAS": ms_to_ktas,
     "mph": ms_to_mph,
     "MPH": ms_to_mph,
     "R": k_to_r,
