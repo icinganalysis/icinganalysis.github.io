@@ -128,6 +128,14 @@ def inch_to_m(inch):
     return inch / INCH_PER_M
 
 
+def m_to_ft(m):
+    return m * INCH_PER_M / 12
+
+
+def ft_to_m(foot):
+    return foot * 12 / INCH_PER_M
+
+
 def r_to_k(r):
     return r / 1.8
 
@@ -174,7 +182,7 @@ def no_conversion(v):
 
 standard_to_domain_units = {
     "K": ("c", "f", "r", "°c", "°f", "°r",),  # note lower case
-    "m": ("inch", "cm"),
+    "m": ("inch", "cm", "ft"),
     "m/s": ("mph",),
     "N/m": ("dyne/cm", "lbf/ft"),
     "Pa": ("psi",),
@@ -195,6 +203,8 @@ def find_standard_unit_name(name):
 conversions_from_domain_units = {
     "cm": cm_to_m,
     "inch": inch_to_m,
+    "ft": ft_to_m,
+    "foot": ft_to_m,
     "C": tc_to_k,
     "°C": tc_to_k,
     "F": tf_to_k,
@@ -216,6 +226,8 @@ def convert_domain_to_standard_unit(v, domain_unit):
 conversions_to_domain_units = {
     "cm": m_to_cm,
     "inch": m_to_inch,
+    "ft": m_to_ft,
+    "foot": m_to_ft,
     "C": tk_to_c,
     "°C": tk_to_c,
     "F": tk_to_f,
