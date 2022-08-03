@@ -109,7 +109,7 @@ scaling code employed in this study may be too restrictive.
 ###Additional work
 
 Extensive additional work on scaling was accomplished after AEDC-TR-87-23. 
-However, a subsequent paper, [Bilanin], appears to impose even more restrictions. 
+However, a subsequent paper, [Bilanin, "Proposed Modifications to Ice Accretion/Icing Scaling Theory"], appears to impose even more restrictions. 
 It would take much further testing and analysis to arrive at 
 what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
 NASA/CR-2004-212875. 
@@ -149,10 +149,10 @@ Figure 10 of NASA-TM-83556 has probably been influential.
 The ice shapes with the largest Cd values have upper ice "horn" angles of about 45 degrees
 (209 km/h -5C, 338 km/h -2C and -5C). 
 
-![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png) 
-_Figure 10 from NASA-TM-83556_ 
+![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png)  
+_Figure 10 from NASA-TM-83556_   
 
-![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)  
+![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)   
 _Figure 7 from NACA-TN-4151_ 
 
 While it was published well before NACA-TM-83556, 
