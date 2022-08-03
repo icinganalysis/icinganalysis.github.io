@@ -1,6 +1,5 @@
 title: AEDC-TR-87-23  
 category: icing tunnels  
-status: draft  
 
 ###_"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  
 
@@ -23,7 +22,7 @@ much each of the ice scaling parameters could vary without affecting similitude.
 Also studied were the effects of changing the ice scaling parameters and the icing test
 conditions on the resulting ice shapes. This effort used ice shape and associated drag coefficient
 data collected during other studies as well as new ice shape data which was collected as a
-part of this study.
+part of this study.  
 The results of this study indicate that  
 >1. Icing similitude criteria should be established in advance of the test in order to
 focus attention on the critical components and critical icing test conditions.  
@@ -42,6 +41,8 @@ test conditions.
 
 To me, this publication is as much about critical icing conditions selection as it is about 
 icing wind tunnel test ("critical" being the one with large effects).  
+
+The publication is long (56 pages, 40 figures) so this will only be a brief summary. 
 
 The drag coefficient with ice is proposed as a similarity "goodness" indicator. 
 This does not require assuming which ice shape characteristics are important, 
@@ -82,7 +83,7 @@ results of this investigation indicate that:
 the simulation. Allowable similitude tolerances should also be specified.  
 >2. A change in a particular icing scaling parameter may or may not indicate a change
 in ice shape (similitude). The reason for this is the functional dependency of
-a particular scaling parameter (0, Φ, N, Ac, Ko) on the icing test conditions (T,
+a particular scaling parameter (Θ, Φ, N, Ac, Ko) on the icing test conditions (T,
 LWC, MVD, V, P) that caused the change in the ice shape.  
 >3. It may be more indicative of similitude to consider changes in ice shape brought
 about by changes in the test conditions rather than changes of the icing scaling
@@ -111,7 +112,7 @@ Extensive additional work on scaling was accomplished after AEDC-TR-87-23.
 However, a subsequent paper, [Bilanin], appears to impose even more restrictions. 
 It would take much further testing and analysis to arrive at 
 what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
-NASA-2004-212875. 
+NASA/CR-2004-212875. 
 
 ###Critical ice shape selection
 
@@ -155,7 +156,7 @@ _Figure 10 from NASA-TM-83556_
 _Figure 7 from NACA-TN-4151_ 
 
 While it was published well before NACA-TM-83556, 
-the ice shapes from Wilder also have about a 45 degree horn angle: 
+the ice shapes from [Wilder]({filename}wilder.md) also have about a 45 degree horn angle: 
 
 ![Figure 6 from Wilder](images/wilder/Figure 6.png)  
 _Figure 6 from Wilder_
