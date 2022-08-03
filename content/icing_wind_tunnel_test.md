@@ -45,7 +45,7 @@ which includes information from NACA-era internal memos and interviews that I ha
 ###[AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"]({filename}aedc_tr_85_30.md)    
 >"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."  
 
-###[AEDC-TR-87-23, "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude"](filename}aedc_tr_87_23.md)   
+###[AEDC-TR-87-23, "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude"]({filename}aedc_tr_87_23.md)   
 >"In most icing similitude reports, the criteria for successful similitude are rarely discussed. ...[Here] drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed."  
 
 <!--
