@@ -153,13 +153,13 @@ The ice shapes with the largest Cd values have upper ice "horn" angles of about 
 _Figure 10 from NASA-TM-83556_   
 
 ![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)   
-_Figure 7 from NACA-TN-4151_ 
+_Figure 7 from NACA-TN-4151_  
 
 While it was published well before NACA-TM-83556, 
 the ice shapes from [Wilder]({filename}wilder.md) also have about a 45 degree horn angle: 
 
 ![Figure 6 from Wilder](images/wilder/Figure 6.png)  
-_Figure 6 from Wilder_
+_Figure 6 from Wilder_  
 
 And, even earlier, NACA-TN-4151 had maximum Cd values at an ice horn angle of 
 35 to 60 degrees, depending on the angle of attack, for a completely different (much thinner) airfoil. 
