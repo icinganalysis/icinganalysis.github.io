@@ -184,6 +184,10 @@ def pa_to_psi(pa):
     return pa * PSI_PER_PA
 
 
+def btu_h_qs_inch_to_w_sq_m(btu_h_qs_inch):
+    return btu_h_qs_inch * BTU_H_PER_W * INCH_PER_M**2
+
+
 def no_conversion(v):
     return v
 
@@ -195,6 +199,7 @@ standard_to_domain_units = {
     "N/m": ("dyne/cm", "lbf/ft"),
     "Pa": ("psi",),
     "μm": ("micrometer",),
+    "W/s-m^2": ("BTU/h-in^2",),
 }
 
 
@@ -225,6 +230,7 @@ conversions_from_domain_units = {
     "°R": r_to_k,
     "dyne/cm": dyne_cm_to_n_m,
     "psi": psi_to_pa,
+    "BTU/h-in^2": btu_h_qs_inch_to_w_sq_m,
     "": no_conversion
 }
 
