@@ -263,7 +263,7 @@ This work is still continuing today,
 as several recent publications mention the Weber number [^9]. 
 
 While Bilanin explicitly noted one form of the Weber number: 
->We = V<sup>2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> 
+>We = V<sup>^2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> 
 
 there are other forms that use other dimensions (such as drop size or water film thickness), 
 other speed (water film speed rather than air speed), 
@@ -272,7 +272,7 @@ Those will be explored in ongoing investigations.
 
 To very briefly summarize some of the work:
 
-NASA/CR-2003-211822 [^10] will conduct tests and conclude:
+NASA/CR-2003-211822 [^10] conducted tests and concluded:
 
 >Acceptable scale Re and We fall in the range of 60
 to 160% of the respective reference values.
@@ -291,7 +291,7 @@ parameter.
 Later still, NASA/CR-2004-212875 [^6], (which we will review in a future post)
 evaluated numerous forms of the Weber number, 
 and selected We<sub>L</sub> (where L is a significant length proportional to chord,
-essentially the same Weber number that Bilanin used) 
+and the density of water was used, rather than the air density used by Bilanin) 
 as the scaling parameter to use for scaling 
 for ice shape on unprotected surfaces, and recommend a +/-15% tolerance:  
 >within the FAA Part 25 Appendix-C
