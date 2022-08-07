@@ -1,4 +1,4 @@
-Title: Bilanin Pi Terms the Weber Number  
+Title: Bilanin Pi Terms and the Weber Number  
 
 ###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
 
