@@ -188,6 +188,11 @@ def btu_h_qs_inch_to_w_sq_m(btu_h_qs_inch):
     return btu_h_qs_inch * BTU_H_PER_W * INCH_PER_M**2
 
 
+def w_sq_inch_to_w_sq_m(w_sq_inch):
+    print('    "', w_sq_inch, '"')
+    return w_sq_inch * INCH_PER_M**2
+
+
 def no_conversion(v):
     return v
 
@@ -199,7 +204,7 @@ standard_to_domain_units = {
     "N/m": ("dyne/cm", "lbf/ft"),
     "Pa": ("psi",),
     "μm": ("micrometer",),
-    "W/s-m^2": ("BTU/h-in^2",),
+    "W/m^2": ("BTU/h-in^2", "W/in^2"),
 }
 
 
@@ -231,12 +236,19 @@ conversions_from_domain_units = {
     "dyne/cm": dyne_cm_to_n_m,
     "psi": psi_to_pa,
     "BTU/h-in^2": btu_h_qs_inch_to_w_sq_m,
+    "W/in^2": w_sq_inch_to_w_sq_m,
     "": no_conversion
 }
 
 
 def convert_domain_to_standard_unit(v, domain_unit):
-    return conversions_from_domain_units.get(domain_unit, no_conversion)(v)
+    try:
+        w = conversions_from_domain_units.get(domain_unit, no_conversion)(v)
+        return w
+    except Exception:
+        if domain_unit:
+            return float('nan')
+        return v
 
 
 conversions_to_domain_units = {
