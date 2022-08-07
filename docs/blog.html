@@ -25,15 +25,15 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/aedc-tr-87-23.html">AEDC-TR-87-23</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/bilanin-pi-terms-the-weber-number.html">Bilanin Pi Terms the Weber Number</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T18:35:11.306871-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:18:58.124985-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T18:35:11.306871-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:18:58.124985-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -44,193 +44,354 @@
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!--<p>In <a href="https://icinganalysis.github.io/category/misc.html">misc</a>.</p>-->
 <!---->
 
-</footer><!-- /.post-info --><h3><em>"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"</em></h3>
-<p><img alt="Figure 3" src="images/aedc_tr_87_23/Figure 3.png">  </p>
-<h1>"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Abstract</h2>
-<blockquote>
-<p>Often, engine icing tests cannot be conducted at conditions that are considered the critical
-test points because of aircraft engine test facility operational constraints or the inability to
-find the desired conditions in natural icing flight tests. The use of ice scaling laws may
-circumvent this testing limitation. Earlier studies (Refs. 1 and 2) of the application of ice
-scaling (similitude) to aircraft engine testing indicated that experimental data were needed
-to determine to what extent icing test conditions [temperature (T), velocity (V), liquid water
-content (LWC), median volume diameter (MVD), pressure (P)], could vary and still achieve
-similar test results.
-In this investigation, experimental data were gathered and analyzed to determine how
-much each of the ice scaling parameters could vary without affecting similitude.
-Also studied were the effects of changing the ice scaling parameters and the icing test
-conditions on the resulting ice shapes. This effort used ice shape and associated drag coefficient
-data collected during other studies as well as new ice shape data which was collected as a
-part of this study.<br>
-The results of this study indicate that<br>
-1. Icing similitude criteria should be established in advance of the test in order to
-focus attention on the critical components and critical icing test conditions.<br>
-2. Changes in the ice scaling parameters do not necessarily indicate a quantifiable
-change in the ice shape (similitude).<br>
-3. Experimental data are useful in determining allowable changes in the icing test
-conditions (T, LWC, MVD, V, time) and may be a useful indicator of similitude
-in some icing regimes.<br>
-4.  Determination of allowable tolerances for the icing test parameters depend on
-which icing regime one is operating in (e.g., rime or glaze ice). (Glaze ice accretions
-are generally less tolerant to changes in test conditions.)<br>
-5. The scaling law used herein cannot solely be used to determine tolerances in setting
-test conditions.  </p>
-</blockquote>
+</footer><!-- /.post-info --><h3><em>"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."</em></h3>
 <h2>Discussion</h2>
-<p>To me, this publication is as much about critical icing conditions selection as it is about 
-icing wind tunnel test ("critical" being the one with large effects).  </p>
-<p>The publication is long (56 pages, 40 figures) so this will only be a brief summary. </p>
-<p>The drag coefficient with ice is proposed as a similarity "goodness" indicator. 
-This does not require assuming which ice shape characteristics are important, 
-it requires the measurement of the figure of merit, drag due to the ice. </p>
+<p>This publication identifies water surface tension as a potentially important 
+factor in the formation of ice. 
+The Weber number relates water surface tension to other forces, 
+and can describe the flow of water on a surface or the tendency 
+for droplets to breakup. </p>
+<h3>Buckingham-π Analysis of Icing Scaling</h3>
+<p>"Straightforward application of the Buckingham-π theory" found 18 dimensionless parameters
+(although vapor pressure was noted as a term not included).</p>
+<p>For brevity, I will not enumerate them all here. 
+Some of the terms are familiar, such a Mach and Reynolds numbers. 
+You can see all 18 pi terms in the publication, or in Dillon <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
+<p>Bilanin summarizes:</p>
 <blockquote>
-<p>drag coefficient (Cd) was used
-as an index of similitude by quantitatively indicating how much the shape or ice surface changed
-as measured by this aerodynamic parameter. The question of how much Cd can be allowed
-to change and still maintain similitude cannot be generalized since this would be dictated
-by the particular application. However, this does not prevent using Cd as a similitude
-"goodness" indicator or index.</p>
+<p>[Inconsistencies arise] in an attempt to keep the Mach,
+Reynolds and Weber numbers constant between [scaled]
+tests. Obviously, this is not possible and not 
+surprisingly <strong>the π method has failed to provide a 
+scaling methodology which can be used to test 
+subscale aerodynamic components</strong>.  </p>
 </blockquote>
-<p>Those ice shapes and others with measure Cd values were plotted versus 
-calculated leading edge freezing fraction (and other parameters).</p>
-<p><img alt="Figure 8" src="images/aedc_tr_87_23/Figure 8.png">  </p>
-<p>This suggests that for this airfoil and this range of conditions, 
-there is a peak effect near a stagnation line freezing fraction of 0.3
-[see also the discussion in <a href="https://icinganalysis.github.io/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the "Ice Shapes and Their Effects" thread</a>]. 
-Slightly different values of freezing fraction would put one in the regions to either side of steep slopes,
-where a small difference in freezing fraction equals a large difference in Cd. 
-Thus it is hard to determine a universal "close enough" tolerance on freezing fraction 
-or any other variable.  </p>
-<p>Note that the freezing fraction values calculated in AEDC-TR-87-23 in 
-differ slightly from those calculated with the method in the later NASA-CR-2004-212875. 
-AEDC-TR-87-23 does not provide detailed example calculations to 
-determine what the differences are. </p>
+<p>[Emphasis added.]</p>
+<p>NASA-TM-106461 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> discusses this:</p>
+<blockquote>
+<p>In an attempt to analyze the icing scaling problem rigorously, 
+Bilanin identified 18 dimensionless group which affect the normalized ice thickness. 
+A consideration of three of these similarity parameters, the Mach
+number, the Reynolds number, and the Weber number,
+illustrates the fundamental difficulty of icing scaling analysis.  </p>
+<blockquote>
+<p>M<sup>^2</sup> = V<sup>^2</sup> / (C<sub>p,a</sub> T<sub>a</sub>) &nbsp;&nbsp;&nbsp;&nbsp; (1)<br>
+Re = V chord ρ<sub>a</sub> / μ<sub>a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (2)<br>
+We = V<sup>^2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (3)   </p>
+</blockquote>
+</blockquote>
+<p>[Note there is a typo in the original equation (1), corrected herein.]</p>
+<blockquote>
+<p>Because the temperatures of interest to icing extend over 
+a very narrow range on the absolute temperature scale, 
+T<sub>a</sub>, C<sub>p,a</sub>, μ<sub>a</sub> and σ<sub>w/a</sub> are effectively constant. Thus, to
+match the Mach number between scale and reference
+cases requires</p>
+<blockquote>
+<p>V<sub>s</sub> = V<sub>r</sub> &nbsp;&nbsp;&nbsp;&nbsp; (4)  </p>
+</blockquote>
+<p>The altitudes at which icing occurs are generally low 
+enough that the test facility total pressures are close to flight
+icing-encounter total pressures. In this case, scale and reference
+ρ<sub>a</sub> are nearly equal. Then to match Reynolds number requires</p>
+<blockquote>
+<p>V<sub>s</sub> = chord<sub>_r</sub> / chord<sub>_s</sub>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (5)  </p>
+</blockquote>
+<p>and to match the Weber number requires</p>
+<blockquote>
+<p>V<sub>s</sub> = chord<sub>_r</sub><sup>^0.5</sup> / chord<sub>_s</sub><sup>^0.5</sup>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (6)  </p>
+</blockquote>
+<p>Clearly, it is impossible to satisfy similarity of Mach, Reynolds,
+and Weber numbers simultaneously, 
+except for the special case in which both scale size and velocity 
+equal their respective reference values. The Mach number 
+can be neglected because at the relatively low speeds of interest to icing, 
+compressibility effects are small.
+Even with this simplification, however, equations (5) 
+and (6) are inconsistent, and each requires scale velocities
+greater than the reference when the scale size is less than the 
+reference. Because test velocities greater than typical flight are not
+generally achievable in icing test facilities,
+equations (5) and (6) impose impractical restrictions. </p>
+</blockquote>
+<p>Bilanin then notes: </p>
+<blockquote>
+<p>This, however, does not preclude seeking 
+approximate scaling methodologies which is the 
+subject of the discussion that follows.  </p>
+</blockquote>
+<h3>Past scaling laws</h3>
+<p>There is a review of scaling methods, similar to that in <a href="{filename}AEDC-TR-83-30.md">AEDC-TR-83-30</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>,
+defining A<sub>c</sub> and n in slightly different forms:  </p>
+<blockquote>
+<p>The freezing fraction n is defined as the mass freezing/mass water incoming. 
+Note that Eq. (4) is nondimensional, <strong>exact</strong></p>
+<blockquote>
+<p>d(δ<sub>i</sub>/C) / d(τ U<sub>∞</sub>/C) = LWC β n / ρ<sub>i</sub> &nbsp;&nbsp;&nbsp;&nbsp; (4)</p>
+</blockquote>
+<p>and <strong>scaled ice accretion exactly requires</strong> that  </p>
+<blockquote>
+<p>LWC β / ρ<sub>i</sub> τ U<sub>∞</sub> / C = A<sub>c</sub> n = constant</p>
+</blockquote>
+<p>or that A<sub>c</sub>, the accumulation parameter, and n
+each be held constant which is what is normally attempted. </p>
+</blockquote>
+<p>[Emphasis in the original]</p>
+<h3>Brief evaluation of the data</h3>
+<blockquote>
+<p>The freezing fraction has been computed by several investigators using a
+model proposed by Messinger in 1951 (Ref. 11) <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. If
+evaporation is neglected in this model...  </p>
+</blockquote>
+<p>[Eq. 5 not included herein]</p>
+<blockquote>
+<p>[this results in] the functional form of freezing fraction used in the SIMICE code 
+(Ref. 12). </p>
+</blockquote>
+<p>Later it is noted that the freezing fractions determined by SIMICE are much lower than those
+determined experimentally. </p>
+<blockquote>
+<p>Obviously, something is very wrong here, since at 
+the lower freezing fractions differs from the measured value 
+by a factor of 2.3. The problem is that the 
+freezing fraction n in Equ. 5 is not being 
+computed sufficiently accurately using the
+Messinger formulation. </p>
+</blockquote>
+<p>In a later section Bilanin calculates the effects of a surface water film 
+to see if that could explain the differences. </p>
+<p>However, later NASA/CR-2004-212875 <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> would note:</p>
+<blockquote>
+<p>Bilanin performed a similar study using a limited set of
+ice-shape data from Ruff. Bilanin found agreement of n_e 
+[experimentally determined freezing fraction]
+and n_a [analytically determined freezing fraction] 
+at rime, but the two deviated significantly for
+the lowest freezing fractions. He concluded that the
+Messinger analysis for freezing fraction had serious deficiencies, 
+probably because surface-water effects, particularly splashing, 
+were not included in the heat balance.
+However, Bilanin did not consider the possibility that his
+results might be explained by experimental complications, 
+such as possible problems with the facility LWC
+calibration and the uncertainty in the leading-edge thickness 
+for low freezing fractions.<br>
+Unlike Bilanin’s results, the experimentally-determined
+freezing fractions for the Anderson and Tsao study in
+figure 3.5.6 showed no systematic deviation from the
+analytical values at low freezing fractions.</p>
+</blockquote>
+<p>[Emphasis in the original]</p>
+<h3>Film dynamics at a stagnation point</h3>
+<p>A "zeroth-order expansion" analysis in distance from the stagnation
+point is performed, resulting in </p>
+<blockquote>
+<p>At 200 ft/sec, the film thickness on a cylinder with 
+2R = 1 inches is estimated to be 
+δ<sub>w</sub>(o) ~ 0.001 inches or about 25 μm which is 
+nearly the diameter of the drop impacting the surface. </p>
+<p>The above analysis, while admittedly
+approximate, does confirm that a thin film is 
+anticipated over the ice when conditions of low 
+freezing fraction are anticipated. These films
+may modify the freezing fraction as described by 
+Messinger in a very direct way by providing
+surface roughness which will augment the heat
+transfer, as well as provide thermal resistance 
+through which the latent heat of fusion must pass. 
+Also, splash back from this layer cannot be
+ruled out. It should be noted that the Weber 
+number, based on dynamic air pressure for a layer 
+of this thickness, is of the order of 10<sup>2</sup> which 
+suggests that the stripping of this film by the 
+airstream may also occur.  </p>
+<p>It is significant to note at this time that 
+Olsen (Ref. 20) has photographed the microphysics
+of accretion at a stagnation point, and had
+confirmed the presence of liquid and run back at 
+the stagnation region. This work, however, 
+indicates that liquid beading is also observed 
+indicating that the surface tension neglected in the
+above analysis plays an important role. While
+from the photographs it is difficult to estimate
+the height of the droplets, it is clear that when
+surface tension is acting, the film thickness
+estimates are low and perhaps an effective droplet
+height at least an order of magnitude larger can 
+be argued. This liquid roughness, and upon 
+freezing, ice roughness is known to greatly affect 
+the local convection heat transfer rate (Ref. 21). 
+Detailed observations of the stagnation 
+region have recently been made by Hansman et al. 
+(Ref. 22) and are discussed at this meeting. </p>
+</blockquote>
+<p>I am not sure that Ref 20, NASA-TM-83556 is the correct citation, 
+as I did not find the photos there. 
+There are relevant photos in Olsen [NASA-TM-87184] <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, 
+that were reproduced in Hansman <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>.</p>
+<p><img alt="Figure 2 from AIAA-88-0015" src="images/AIAA-88-0105/Figure 2.png"><br>
+<em>Figure 2 from Hansman</em></p>
+<h3>Freezing fraction with film dynamics</h3>
+<p>There is an interesting reformation of Messinger's freezing fraction equation:  </p>
+<p>n = (dM<sub>i</sub> / dt) / (LWC U<sub>∞</sub>d<sup>2</sup>)
+= (Cp<sub>w</sub> (T<sub>∞</sub> - T<sub>f</sub>) / h<sub>fs</sub>) - q<sub>am</sub> / (h<sub>fs</sub> LWC U<sub>∞</sub>d<sup>2</sup>) + Cp<sub>w</sub> (1-n) δ<sub>w</sub>q<sub>am</sub> / (2 h<sub>fs</sub> k<sub>w</sub> d<sup>2</sup>)</p>
+<blockquote>
+<p>The first two terms are the freezing fraction as
+described by Messinger. The last term which is 
+proportional to the film thickness reduces the 
+freezing fraction as a consequence of the presence 
+of the film. </p>
+</blockquote>
+<p>After some development, the thermal resistance of the water layer is estimated:</p>
+<blockquote>
+<p>Therefore, at a liquid water content of 1 g/m<sup>3</sup>, and at cruise ...
+[there is] a 1 to 10 mil film layer [and] the effective heat transfer is reduced
+by 2 to 20%, respectively. </p>
+</blockquote>
+<h3>Film Beading</h3>
+<p>The physics of the water film forming beads is examined, and equations developed. </p>
+<blockquote>
+<p>U<sub>1</sub> / U<sub>2</sub> = C<sub>2</sub> / C<sub>1</sub><br>
+σ<sub>w/a2</sub> / σ<sub>w/a1</sub> = C<sub>1</sub> / C<sub>2</sub><br>
+γ<sub>1</sub> = γ<sub>2</sub> [contact angle]  </p>
+<p>The above icing tests can be undertaken using
+the Ac and n scaling laws. The surface 
+tension can be changed using a surface active agent that 
+does not change the freezing temperature and the contact 
+angle can be held constant by changing the airfoil material. 
+It is finally noted that Hansman et al. (Ref. 22) have just 
+recently completed tests which repeated two icing conditions
+in a wind tunnel where the only difference in tests added a
+surfactant to to upstream spray. 
+Very significant differences in the accreted ice pattern were noted,
+strongly supporing our conjecture that the icing tests must 
+scale properly the microphysics of the liquid film 
+dynamics and bead formation. </p>
+</blockquote>
+<p><img alt="Figure 16 from AIAA-88-0015" src="images/AIAA-88-0105/Figure 16.png"><br>
+<em>Figure 16 from Hansman</em></p>
 <h2>Conclusions</h2>
 <blockquote>
-<p>CONCLUSIONS
-A study was conducted to investigate the possibility of achieving approximate icing
-similitude by comparing ice shapes against their corresponding icing scaling parameters. The
-results of this investigation indicate that:<br>
-1. The criteria for establishing icing similitude should be specified in advance of
-the simulation. Allowable similitude tolerances should also be specified.<br>
-2. A change in a particular icing scaling parameter may or may not indicate a change
-in ice shape (similitude). The reason for this is the functional dependency of
-a particular scaling parameter (Θ, Φ, N, Ac, Ko) on the icing test conditions (T,
-LWC, MVD, V, P) that caused the change in the ice shape.<br>
-3. It may be more indicative of similitude to consider changes in ice shape brought
-about by changes in the test conditions rather than changes of the icing scaling
-parameters.<br>
-4. The allowable tolerance in setting icing test conditions will depend upon the
-similitude application and the particular icing conditions at which the test is to
-be conducted (e.g., rime versus glaze ice region).<br>
-5. As long as the local icing conditions ensure rime ice accretions on the component
-under consideration (N is approximately &gt; 0.7), similitude is easier to accomplish.<br>
-6. For specific temperatures, the LWC term can be decreased to levels that cause
-the icing surface thermodynamics to return to the rime ice accretion regime, and
-thereby allows use of the (LWC x V x t) term to achieve approximate similitude.<br>
-7. The ice scaling laws of Ref. 1 cannot be used to determine allowable tolerances
-in setting test conditions.<br>
-8. The effects of pressure (altitude) on icing similitude in the range studied herein
-are negligible and can be ignored in these cases. This does not consider the effects
-of icing due to pressure changes, internal to an engine, for example, nor does
-it consider how changes in free-stream altitude pressure may change local icing
-test conditions and, hence, affect ice shape.<br>
-9. Additional work is needed to develop other approaches to ice scaling. The ice
-scaling code employed in this study may be too restrictive.  </p>
+<p>It is argued that improve ice accretion scaling may require a better match in Reynolds 
+Number and more accurate consideration of the physics of water film and droplet dynamics on the 
+airfoil surface. Additional scaling parameters are proposed which require that the surface tension 
+phenomenon be more accurately accounted for in wind tunnel tests. An unfortunate fact is that if 
+proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, 
+icing wind tunnel subscale tests are likely to be even more restrictive.  </p>
+<p>Lastly, the phenomenon of droplet splash back cannot be ruled out and there is little justification
+to go to the great care in computing the impact of droplets with a surface if significant
+splash back occurs. It is strongly recommended that test be conducted in the near
+future which can examine the question of splash back.  </p>
 </blockquote>
-<h3>Additional work</h3>
-<p>Extensive additional work on scaling was accomplished after AEDC-TR-87-23. 
-However, a subsequent paper, [Bilanin, "Proposed Modifications to Ice Accretion/Icing Scaling Theory"], appears to impose even more restrictions. 
-It would take much further testing and analysis to arrive at 
-what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
-NASA/CR-2004-212875. </p>
-<h3>Critical ice shape selection</h3>
-<p>It is illustrative that the measurements shown in Figure 3 are not 
-numerous enough to capture the peak Cd value with confidence 
-(the lines drawn are speculative, not real curve fits). 
-This is not because the tests were not planned well, 
-but because it is hard to do. 
-Finding such a peak is presumably what needs to be done to identify a 
-critical ice shape.  </p>
-<p>To find such a peak in detail, options include:  </p>
-<ol>
-<li>have numerous, tightly spaced test points in the test plan   </li>
-<li>have some pre-knowledge that there is a peak near certain conditions, and plan several closely space test points near that  </li>
-<li>during a test, plot points and realize there is an apparent peak, and add more test points near the peak    </li>
-</ol>
-<p>I would not say that for all airfoils and conditions there is a peak effect near freezing fraction of 0.3, 
-but if you have no other information that might be a good place to start searching.  </p>
-<p>Not every test measures section Cd with ice. 
-While I can find hundreds (perhaps in the low thousand) of measured ice shapes, 
-I can only thinks of only a few dozen where Cd was measured (most of them herein) (and fewer with Cl measured.)
-Cd measurements add time and cost to a test. </p>
-<p>There are technical challenges to measuring the section drag with ice with either a force balance or wake pressure survey. 
-Among the challenges is that the ice is not always uniform over the span. </p>
-<p>Also, while the measured section Cd with ice may be a useful relative value, 
-it is not clear that it relates directly and linearly to airplane level values. </p>
-<p>If Cd is not measured, how does one select a critical ice shape? 
-Figure 10 of NASA-TM-83556 has probably been influential. 
-The ice shapes with the largest Cd values have upper ice "horn" angles of about 45 degrees
-(209 km/h -5C, 338 km/h -2C and -5C). </p>
-<p><img alt="Figure 10 from NASA-TM-83556" src="images/nasa-tm-83556/Figure 10.png"><br>
-<em>Figure 10 from NASA-TM-83556</em>   </p>
-<p><img alt="Figure 7 from NACA-TN-4151" src="images/naca-tn-4151/Figure 7.png"> <br>
-<em>Figure 7 from NACA-TN-4151</em> </p>
-<p>While it was published well before NACA-TM-83556, 
-the ice shapes from <a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium-ramon-wilder-1.html">Wilder</a> also have about a 45 degree horn angle: </p>
-<p><img alt="Figure 6 from Wilder" src="images/wilder/Figure 6.png"><br>
-<em>Figure 6 from Wilder</em></p>
-<p>And, even earlier, NACA-TN-4151 had maximum Cd values at an ice horn angle of 
-35 to 60 degrees, depending on the angle of attack, for a completely different (much thinner) airfoil. </p>
-<p><img alt="Figure 10 from NACA-TN-4151" src="images/naca-tn-4151/Figure 10.png"><br>
-<em>Figure 10 from NACA-TN-4151</em> </p>
-<p>If nothing else, it appears to be a long ingrained expectation of ice shapes.  </p>
-<h3>Setting tolerances</h3>
-<p>While the stated subject of the publication was tolerances in icing tunnel tests, 
-it ends up with little practical guidance:  </p>
+<p>Due to this publication and the prior works cited, 
+numerous other investigations have explored the effects of surface tension 
+and the importance to the water layer and water drops. </p>
+<p>This work is still continuing today, 
+as several recent publications mention the Weber number <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>. </p>
+<p>While Bilanin explicitly noted one form of the Weber number: </p>
 <blockquote>
-<p>1.&nbsp;The criteria for establishing icing similitude should be specified in advance of
-the simulation. Allowable similitude tolerances should also be specified.<br>
-4.&nbsp;The allowable tolerance in setting icing test conditions will depend upon the
-similitude application and the particular icing conditions at which the test is to
-be conducted (e.g., rime versus glaze ice region).<br>
-7.&nbsp;The ice scaling laws of Ref. 1 cannot be used to determine allowable tolerances
-in setting test conditions.  </p>
+<p>We = V<sup>^2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> </p>
 </blockquote>
-<p>It is not clear how tolerances can be specified. 
-If we pick for our "similitude application" as selecting ice shapes with the largest Cd effect, 
-we expect glaze ice shapes to have the largest effect, as in Figure 10 from NASA-TM-83556 above. 
-In Figure 8 above, 
-a 1°F change in static temperature would appear to cause a significant change in Cd near the peak value. 
-It is also not clear if, for example, a +/-10% tolerance on the LWC values is "good enough" or not.  </p>
+<p>there are other forms that use other dimensions (such as drop size or water film thickness), 
+other speed (water film speed rather than air speed), 
+and other densities (water rather than air). 
+Those will be explored in ongoing investigations. </p>
+<p>To very briefly summarize some of the work:</p>
+<p>NASA/CR-2003-211822 <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup> conducted tests and concluded:</p>
+<blockquote>
+<p>Acceptable scale Re and We fall in the range of 60
+to 160% of the respective reference values.</p>
+</blockquote>
+<p>This leads to test conditions scaling that is not so "even more restrictive". </p>
+<p>but also:</p>
+<blockquote>
+<p>Evaluation of pressure effects on ice shape
+suggested that even greater tolerances on Re may
+be possible, and We_c is apparently not the right
+form of Weber number to be used as a similarity
+parameter.</p>
+</blockquote>
+<p>(We_c is a different form of Weber number than what Bilanin used.)</p>
+<p>Later still, NASA/CR-2004-212875 <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, (which we will review in a future post)
+evaluated numerous forms of the Weber number, 
+and selected We<sub>L</sub> (where L is a significant length proportional to chord,
+and the density of water was used, rather than the air density used by Bilanin) 
+as the scaling parameter to use for scaling 
+for ice shape on unprotected surfaces, and recommend a +/-15% tolerance:  </p>
+<blockquote>
+<p>within the FAA Part 25 Appendix-C
+envelope which includes drop sizes from 15 to 50 μm
+median volume diameter (MVD). </p>
+</blockquote>
+<p>[We will get to large drop icing in a future post].</p>
 <h2>Citations</h2>
-<p>AEDC-TR-87-23 cites seven publications:  </p>
+<p>Bilanin cites 22 publications:</p>
 <ul>
-<li>Ruff, G. A. "Analysis and Verification of the Icing Scaling Equations, Vol. I." AEDC-TR-85-30, (AD-AI67976), November 1985.  </li>
-<li>Bartlett, C. S. "An Analytical Study of Icing Simifitude for Aircraft Engine Testing." AEDC-TR-86-26, DOT/FAA/CT-86/35, October 1986.  </li>
+<li>Duhnham, R. E., Bezos, G. M., Gentry, C. L.: Two-Dimensional Wind Tunnel Tests of a Transport Type Airfoil in Water Spray. AIAA-85-0258, January, 1985.  </li>
+<li>Feo, A.: Rotating Arms Applied to Studies of Single Angular Drop Impacts. AIAA-87-0257, January, 1985.  </li>
+<li>Bragg, M. B., Gregorek, G. M., and Shaw, R. J.: "An Analytical Approach to Airfoil Icing." AIAA Paper No. 81-0403, Presented at the 19th Aerospace Sciences Meeting, January 12-15, 1981.  </li>
+<li>Papadakis, M., Elangovan, R. Freund, G. A. Jr., Breer, M. D.: Experimental Water Droplet Impingement Data on Two-Dimensional Airfoils, Axisymmetric Inlet and Boeing 737-300 Engine Inlet. AIAA-87-0097, January, 1987.  </li>
+<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  </li>
+<li>Ruff, G. A.: Development of an Analytical Ice Accretion Prediction Method (LEWICE). Sverdrup Technology, Inc., LeRC Group Progress Report, February, 1986.  </li>
+<li>MacAurthur, C. D.: Numerical Simulation of Airfoil Ice Accretion. AIAA-83-0112, January, 1983.  </li>
+<li>Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979.  </li>
+<li>Bilanin, A. J.: Scaling Laws for Testing Airfoils Under Heavy Rainfall. Journal of Aircraft, Vol. 24, No. 1, January, 1987.  </li>
+<li>Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971.</li>
+<li>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  </li>
+<li>Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. II, March, 1986.   </li>
+<li>Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Douglas Aircraft Company, Inc. Report No. SM14933, 1954.   </li>
+<li>Sibley, P. J. and Smith, R. E., Jr.: "Model Testing in an Icing Wind Tunnel." Lockheed Aircraft Corporation, Report No. LR10981, 1955.  </li>
+<li>Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  </li>
+<li>Jackson, E. T.: Development Study: The Use of Scale Models in an Icing Wind Tunnel to Determine Ice Catch on a Prototype Aircraft with Particular Reference to Concorde. British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75/RMMcK/242, July, 1967.  </li>
+<li>Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  </li>
+<li>Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985  </li>
+<li>Schlichting, D.: Boundary-Layer Theory. McGraw-Hill Book Company, New York, NY, 1968.  </li>
 <li>Olsen, W., Shaw, J., and Newton, J. "Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil." NASA-TM-83556, January 1984.  </li>
-<li>Flemming, R. J. and Lednicer, D. A. "High Speed Ice Accretion on Rotorcraft Airfoils." United Technologies Corporation, NASA-CR-3910, August 1985.  </li>
-<li>Langmuir, E. and Blodgett, K. B. "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25 223, February 1946.  </li>
-<li>Willbanks, C. E. and Schulz, R. J. "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-144 (AD-770069),November 1973.  </li>
-<li>Pheifer, G. D. and Maier, G. P. "Engineering Summary of Powerplant Technical Data." FFA-RD-77-76, July 1977.  </li>
+<li>Achenbach, E.: The Effect of Surface Roughness on the Heat Transfer from a Circular Cylinder to the Cross Flow of Air. International Journal of Heat Mass Transfer, Vol. 20, 1977.  </li>
+<li>Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988.  </li>
 </ul>
-<p>An online search <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> found 7 citations of 
-"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". 
-[I view this as under-valued for the excellent technical content it contains, 
-but not quite a "lost gem".]</p>
+<p>An online search <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> found Bilanin cited by 53 publications.</p>
 <h2>Notes</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=An+Empirical+Look+at+Tolerances+in+Setting+Icing+Test+Conditions+with+Particular+Application+to+Icing+Similitude&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Dillon, Thomas William. An investigation into the effects of modifying the surface tension of the spray water in icing tunnel tests. Diss. Carleton University, 1998. <a href="https://curve.carleton.ca/system/files/etd/0994c7b1-0e21-43c4-a293-f5feadb3b6bc/etd_pdf/66c0b115102323c8f47f76176c5e98c6/dillon-aninvestigationintotheeffectsofmodifyingthe.pdf">carleton.ca</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Bond, Thomas H., and David N. Anderson. Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  <a href="https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
+<a href="https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>https://scholar.google.com/scholar?start=0&amp;q=icing++%22weber+number%22&amp;hl=en&amp;scisbd=1&amp;as_sdt=0,48&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Anderson, David. "Acceptable tolerances for matching icing similarity parameters in scaling applications." 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0832, NASA/CR-2003-211822. 2001.
+https://ntrs.nasa.gov/api/citations/20030064040/downloads/20030064040.pdf&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Proposed+Modifications+to+Ice+Accretion%2FIcing+Scaling+Theory&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>                </article>
@@ -248,13 +409,13 @@ but not quite a "lost gem".]</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T18:31:29.422082-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:14:26.057508-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T18:31:29.422082-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:14:26.057508-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -285,13 +446,13 @@ but not quite a "lost gem".]</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -325,13 +486,13 @@ but not quite a "lost gem".]</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -357,167 +518,19 @@ but the systems will not be detailed herein.  </p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-icing-publications-database.html" rel="bookmark"
-                           title="Permalink to NACA Icing Publications Database">NACA Icing Publications Database</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/database.html">database</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"The documents of that period were so old, however, that they were not listed in the modern computerized library search systems" <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>210 NACA icing publications were identified, and the references were included in a database.</p>
-<hr>
-<p>I have assembled …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-icing-publications-database.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/python-coding-style-guide.html" rel="bookmark"
-                           title="Permalink to Python coding style guide">Python coding style guide</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python.html">Python</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/python.html">python</a> </p>-->
-
-</footer><!-- /.post-info -->                <p><img alt="Python logo" src="images/python-logo-master-v3-TM.png"></p>
-<p>For the <a href="https://icinganalysis.github.io/icing-thermodynamics.html">Thermodynamics tread</a> and on, I will be using this style guide. 
-Previous code may eventually be upgraded to this.</p>
-<h1>Python target version:</h1>
-<p>Target python version 3.7, and the corresponding <a href="https://www.anaconda.com/">Anaconda stack</a> (version 2021-11). 
-Avoid modules with deprecation …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/python-coding-style-guide.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/scaling-in-naca-icing-wind-tunnel-tests.html" rel="bookmark"
-                           title="Permalink to Scaling in NACA Icing Wind Tunnel Tests">Scaling in NACA Icing Wind Tunnel Tests</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h3><em>"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"</em></h3>
-<h1>Summary</h1>
-<p>Early examples of icing test …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/scaling-in-naca-icing-wind-tunnel-tests.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/six-month-review-of-blast-from-the-past-naca-icing-publications.html" rel="bookmark"
-                           title="Permalink to Six Month Review of Blast from the Past: NACA Icing Publications">Six Month Review of Blast from the Past: NACA Icing Publications</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/misc.html">misc</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <p><img alt="Figure 8" src="images/naca-tn-339/Figure 8.png"><br>
-<em>One of the earliest icing wind tunnel tests on surface coatings to prevent ice, NACA-TN-339, 1929. Sometimes, there is a learning curve.</em>  </p>
-<p>I have been posting for about six months now, 
-so it is time to review how it is …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/six-month-review-of-blast-from-the-past-naca-icing-publications.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium-ramon-wilder-1.html" rel="bookmark"
                            title="Permalink to The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]">The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -548,13 +561,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -587,13 +600,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -625,13 +638,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.135702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.895861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.135702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.895861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -663,13 +676,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.131702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.131702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -702,13 +715,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.131702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.131702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -741,13 +754,13 @@ so it is time to review how it is …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.131702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.131702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -771,19 +784,167 @@ so it is time to review how it is …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-icing-publications-database.html" rel="bookmark"
+                           title="Permalink to NACA Icing Publications Database">NACA Icing Publications Database</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/database.html">database</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"The documents of that period were so old, however, that they were not listed in the modern computerized library search systems" <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>210 NACA icing publications were identified, and the references were included in a database.</p>
+<hr>
+<p>I have assembled …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-icing-publications-database.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/python-coding-style-guide.html" rel="bookmark"
+                           title="Permalink to Python coding style guide">Python coding style guide</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python.html">Python</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/python.html">python</a> </p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Python logo" src="images/python-logo-master-v3-TM.png"></p>
+<p>For the <a href="https://icinganalysis.github.io/icing-thermodynamics.html">Thermodynamics tread</a> and on, I will be using this style guide. 
+Previous code may eventually be upgraded to this.</p>
+<h1>Python target version:</h1>
+<p>Target python version 3.7, and the corresponding <a href="https://www.anaconda.com/">Anaconda stack</a> (version 2021-11). 
+Avoid modules with deprecation …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/python-coding-style-guide.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/scaling-in-naca-icing-wind-tunnel-tests.html" rel="bookmark"
+                           title="Permalink to Scaling in NACA Icing Wind Tunnel Tests">Scaling in NACA Icing Wind Tunnel Tests</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"</em></h3>
+<h1>Summary</h1>
+<p>Early examples of icing test …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/scaling-in-naca-icing-wind-tunnel-tests.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/six-month-review-of-blast-from-the-past-naca-icing-publications.html" rel="bookmark"
+                           title="Permalink to Six Month Review of Blast from the Past: NACA Icing Publications">Six Month Review of Blast from the Past: NACA Icing Publications</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/misc.html">misc</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure 8" src="images/naca-tn-339/Figure 8.png"><br>
+<em>One of the earliest icing wind tunnel tests on surface coatings to prevent ice, NACA-TN-339, 1929. Sometimes, there is a learning curve.</em>  </p>
+<p>I have been posting for about six months now, 
+so it is time to review how it is …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/six-month-review-of-blast-from-the-past-naca-icing-publications.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/" rel="bookmark"
                            title="Permalink to Welcome">Welcome</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:40.131702-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.891861-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:40.131702-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.891861-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -820,19 +981,251 @@ Like excavating a lost city, many surprises, answers …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html" rel="bookmark"
+                           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<p><em>"I'm burning through the sky, yeah<br>
+Two hundred degrees, that's why they call me Mister Fahrenheit<br>
+I'm travelling at the speed of light<br>
+I wanna make a supersonic woman of you"</em><br>
+from Queen, "Don't Stop Me Now"  </p>
+</blockquote>
+<h1>A Brief Digression …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/about.html" rel="bookmark"
+                           title="Permalink to About">About</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/misc.html">misc</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <p>This site is still under development.</p>
+<p>Do not expected the site content, structure, nor links to be stable.</p>
+<p><a href="blog.html">Blog</a> (latest articles first)</p>
+<p>Author: <a href="https://icinganalysis.github.io/donald-cook.html">Donald E. Cook</a>  </p>
+<p><a href="https://icinganalysis.github.io/web-publishing-tools.html">Web publishing tools</a>  </p>
+<p><a href="https://icinganalysis.github.io/python-coding-style-guide.html">Python programming style guide</a>  </p>
+<p><a href="https://icinganalysis.github.io/drafts/a-gentle-introduction-to-aircraft-icing.html">A Gentle Introduction to Aircraft Icing</a>  </p>
+                <a class="readmore" href="https://icinganalysis.github.io/about.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/ads-4.html" rel="bookmark"
+                           title="Permalink to ADS-4">ADS-4</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"these calculations, performed at several span stations, can become unnecessarily tedious"</em></h3>
+<h1>ADS-4, “Engineering Summary of Airframe Icing Technical Data” <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 3-1" src="/images/ads4/Figure3-1.png">  </p>
+<h2>Summary</h2>
+<p>A single thermodynamic control volume is used for anti-ice calculations. </p>
+<h2>Key points</h2>
+<ol>
+<li>Ice shapes are classified (glaze, rime).  </li>
+<li>A …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/ads-4.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/aedc-tr-85-30.html" rel="bookmark"
+                           title="Permalink to AEDC-TR-85-30">AEDC-TR-85-30</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."</em></h3>
+<p><img alt="Figure 24c" src="images/aedc-tr-85-30/Figure 24c.png">  </p>
+<h1>"Analysis and Verification of the Icing Scaling Equations" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h1>Summary</h1>
+<p>An expanded set of icing similarity terms are derived …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/aedc-tr-85-30.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/aedc-tr-87-23.html" rel="bookmark"
+                           title="Permalink to AEDC-TR-87-23">AEDC-TR-87-23</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"</em></h3>
+<p><img alt="Figure 3" src="images/aedc_tr_87_23/Figure 3.png">  </p>
+<h1>"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Abstract</h2>
+<blockquote>
+<p>Often …</p></blockquote>
+                <a class="readmore" href="https://icinganalysis.github.io/aedc-tr-87-23.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/aedc1dmp.html" rel="bookmark"
+                           title="Permalink to AEDC1DMP">AEDC1DMP</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/impingement.html">impingement</a> </p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="iads1dmp velocity" src="images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png">   </p>
+<h1>The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp</h1>
+<h2>Abstract</h2>
+<p>The AEDC1DMP calculates the water drop speed and evaporation in an icing wind tunnel. 
+The AEDC1DMP is described in "Second Report for Research and Modeling of Water Particles in Adverse …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/aedc1dmp.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/calibration-of-the-naca-icing-wind-tunnels.html" rel="bookmark"
                            title="Permalink to Calibration of the NACA Icing Wind Tunnels">Calibration of the NACA Icing Wind Tunnels</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -862,13 +1255,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -904,13 +1297,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -946,13 +1339,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -982,13 +1375,13 @@ Like excavating a lost city, many surprises, answers …</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1021,13 +1414,13 @@ several areas of aircraft icing, including:</p>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.975679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.975679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1054,213 +1447,19 @@ several areas of aircraft icing, including:</p>
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html" rel="bookmark"
-                           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<p><em>"I'm burning through the sky, yeah<br>
-Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-I'm travelling at the speed of light<br>
-I wanna make a supersonic woman of you"</em><br>
-from Queen, "Don't Stop Me Now"  </p>
-</blockquote>
-<h1>A Brief Digression …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/a-brief-digression-on-unit-systems.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/about.html" rel="bookmark"
-                           title="Permalink to About">About</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/misc.html">misc</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <p>This site is still under development.</p>
-<p>Do not expected the site content, structure, nor links to be stable.</p>
-<p><a href="blog.html">Blog</a> (latest articles first)</p>
-<p>Author: <a href="https://icinganalysis.github.io/donald-cook.html">Donald E. Cook</a>  </p>
-<p><a href="https://icinganalysis.github.io/web-publishing-tools.html">Web publishing tools</a>  </p>
-<p><a href="https://icinganalysis.github.io/python-coding-style-guide.html">Python programming style guide</a>  </p>
-<p><a href="https://icinganalysis.github.io/drafts/a-gentle-introduction-to-aircraft-icing.html">A Gentle Introduction to Aircraft Icing</a>  </p>
-                <a class="readmore" href="https://icinganalysis.github.io/about.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/ads-4.html" rel="bookmark"
-                           title="Permalink to ADS-4">ADS-4</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3><em>"these calculations, performed at several span stations, can become unnecessarily tedious"</em></h3>
-<h1>ADS-4, “Engineering Summary of Airframe Icing Technical Data” <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<p><img alt="Figure 3-1" src="/images/ads4/Figure3-1.png">  </p>
-<h2>Summary</h2>
-<p>A single thermodynamic control volume is used for anti-ice calculations. </p>
-<h2>Key points</h2>
-<ol>
-<li>Ice shapes are classified (glaze, rime).  </li>
-<li>A …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/ads-4.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/aedc-tr-85-30.html" rel="bookmark"
-                           title="Permalink to AEDC-TR-85-30">AEDC-TR-85-30</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h3><em>"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."</em></h3>
-<p><img alt="Figure 24c" src="images/aedc-tr-85-30/Figure 24c.png">  </p>
-<h1>"Analysis and Verification of the Icing Scaling Equations" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h1>Summary</h1>
-<p>An expanded set of icing similarity terms are derived …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/aedc-tr-85-30.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/aedc1dmp.html" rel="bookmark"
-                           title="Permalink to AEDC1DMP">AEDC1DMP</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/impingement.html">impingement</a> </p>-->
-
-</footer><!-- /.post-info -->                <p><img alt="iads1dmp velocity" src="images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png">   </p>
-<h1>The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp</h1>
-<h2>Abstract</h2>
-<p>The AEDC1DMP calculates the water drop speed and evaporation in an icing wind tunnel. 
-The AEDC1DMP is described in "Second Report for Research and Modeling of Water Particles in Adverse …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/aedc1dmp.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/lets-build-a-1d-water-drop-trajectory-simulation.html" rel="bookmark"
                            title="Permalink to Let's Build a 1D Water Drop Trajectory Simulation">Let's Build a 1D Water Drop Trajectory Simulation</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1288,352 +1487,19 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-339.html" rel="bookmark"
-                           title="Permalink to NACA-TN-339">NACA-TN-339</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h3><em>"A spray, which consisted of very small drops, was found to be quite satisfactory"</em></h3>
-<h1>"Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"</h1>
-<h2>Summary</h2>
-<p>An early icing wind tunnel and test are described</p>
-<h2>Key Points</h2>
-<ol>
-<li>An early icing …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-339.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-3396.html" rel="bookmark"
-                           title="Permalink to NACA-TN-3396">NACA-TN-3396</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <h3><em>"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."</em></h3>
-<h1>"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"</h1>
-<p><img alt="Figure 6" src="images/naca-tn-3396/Figure6.png">  </p>
-<h2>Summary</h2>
-<p>Predictions of the icing limit temperature were "sufficiently accurate …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3396.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-4151.html" rel="bookmark"
-                           title="Permalink to NACA-TN-4151">NACA-TN-4151</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h3><em>"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"</em></h3>
-<h1>NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"</h1>
-<p>and  </p>
-<h1>NACA-TN-4155, "Aerodynamic Effects …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-4151.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tn-779.html" rel="bookmark"
-                           title="Permalink to NACA-TN-779">NACA-TN-779</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"</h3>
-</blockquote>
-<h1>“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</h1>
-<h2>Summary</h2>
-<p>Water …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-779.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215.html" rel="bookmark"
-                           title="Permalink to NACA-TR-1215">NACA-TR-1215</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
-</blockquote>
-<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Summary</h2>
-<p>Conditions where not …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215-thermodynamics.html" rel="bookmark"
-                           title="Permalink to NACA-TR-1215 Thermodynamics">NACA-TR-1215 Thermodynamics</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
-</blockquote>
-<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics topics] <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Summary</h2>
-<p>Conditions …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215-thermodynamics.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-446.html" rel="bookmark"
-                           title="Permalink to NACA-TR-446">NACA-TR-446</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h2><em>"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."</em></h2>
-<p><img alt="Figure 11" src="images/naca-tr-446/Figure11.png">  </p>
-<h1>NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
-<h2>Summary</h2>
-<p>"Protuberances" on an airfoil can have …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-446.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-tr-831.html" rel="bookmark"
-                           title="Permalink to NACA-TR-831">NACA-TR-831</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3><em>"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."</em></h3>
-</blockquote>
-<h1>"An Analysis of the Dissipation of Heat in Conditions of …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-831.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/naca-wr-l-292.html" rel="bookmark"
-                           title="Permalink to NACA-WR-L-292">NACA-WR-L-292</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!---->
-
-</footer><!-- /.post-info -->                <h3><em>"The danger lies, not so much in the higher stalling speed, but more in the possibility that the stall may occur without advance warning to the pilot."</em></h3>
-<h1>NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an …</h1>
-                <a class="readmore" href="https://icinganalysis.github.io/naca-wr-l-292.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/nasa-tm-d-2166.html" rel="bookmark"
                            title="Permalink to NASA-TM-D-2166">NASA-TM-D-2166</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1663,13 +1529,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1700,13 +1566,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.971679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.055792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.971679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.055792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1731,56 +1597,19 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
-                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
-        </abbr>
-        <!---->
-		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
-        <!--</abbr>-->
-        <!---->
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
-<h2>Summary</h2>
-<p>The calculations to determine drop median volumetric diameter with a …</p>
-                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
                            title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1811,13 +1640,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1845,13 +1674,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1881,13 +1710,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1920,13 +1749,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1954,13 +1783,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -1993,13 +1822,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2032,13 +1861,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2071,13 +1900,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2106,13 +1935,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2145,13 +1974,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2181,13 +2010,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2220,13 +2049,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2258,13 +2087,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2294,13 +2123,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2332,13 +2161,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2366,13 +2195,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2405,13 +2234,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2444,13 +2273,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2481,13 +2310,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2521,13 +2350,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2558,13 +2387,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2588,19 +2417,352 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-339.html" rel="bookmark"
+                           title="Permalink to NACA-TN-339">NACA-TN-339</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/icing-tunnels.html">icing tunnels</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"A spray, which consisted of very small drops, was found to be quite satisfactory"</em></h3>
+<h1>"Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"</h1>
+<h2>Summary</h2>
+<p>An early icing wind tunnel and test are described</p>
+<h2>Key Points</h2>
+<ol>
+<li>An early icing …</li></ol>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-339.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-3396.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3396">NACA-TN-3396</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."</em></h3>
+<h1>"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"</h1>
+<p><img alt="Figure 6" src="images/naca-tn-3396/Figure6.png">  </p>
+<h2>Summary</h2>
+<p>Predictions of the icing limit temperature were "sufficiently accurate …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3396.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-4151.html" rel="bookmark"
+                           title="Permalink to NACA-TN-4151">NACA-TN-4151</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"</em></h3>
+<h1>NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"</h1>
+<p>and  </p>
+<h1>NACA-TN-4155, "Aerodynamic Effects …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-4151.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-779.html" rel="bookmark"
+                           title="Permalink to NACA-TN-779">NACA-TN-779</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"</h3>
+</blockquote>
+<h1>“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"</h1>
+<h2>Summary</h2>
+<p>Water …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-779.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215.html" rel="bookmark"
+                           title="Permalink to NACA-TR-1215">NACA-TR-1215</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
+</blockquote>
+<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>Conditions where not …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-1215-thermodynamics.html" rel="bookmark"
+                           title="Permalink to NACA-TR-1215 Thermodynamics">NACA-TR-1215 Thermodynamics</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"... the effect on final results of droplets that do not freeze completely on the cylinders"</em></h3>
+</blockquote>
+<h1>"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics topics] <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>Conditions …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-1215-thermodynamics.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-446.html" rel="bookmark"
+                           title="Permalink to NACA-TR-446">NACA-TR-446</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h2><em>"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."</em></h2>
+<p><img alt="Figure 11" src="images/naca-tr-446/Figure11.png">  </p>
+<h1>NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>"Protuberances" on an airfoil can have …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-446.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tr-831.html" rel="bookmark"
+                           title="Permalink to NACA-TR-831">NACA-TR-831</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."</em></h3>
+</blockquote>
+<h1>"An Analysis of the Dissipation of Heat in Conditions of …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tr-831.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-wr-l-292.html" rel="bookmark"
+                           title="Permalink to NACA-WR-L-292">NACA-WR-L-292</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->                <h3><em>"The danger lies, not so much in the higher stalling speed, but more in the possibility that the stall may occur without advance warning to the pilot."</em></h3>
+<h1>NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an …</h1>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-wr-l-292.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/super-cooled-water-droplets-in-rising-currents-of-cold-saturated-air.html" rel="bookmark"
                            title="Permalink to Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air">Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.967679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.051792-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.967679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.051792-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2631,13 +2793,13 @@ The AEDC1DMP is described in "Second Report for Research and Modeling of Water P
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2673,13 +2835,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2710,13 +2872,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2746,13 +2908,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2799,13 +2961,13 @@ and NACA-TN-779 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></su
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->
@@ -2832,19 +2994,56 @@ are implemented in the Python programming …</p>
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html" rel="bookmark"
+                           title="Permalink to Implementation of multicylinder calculations in Python">Implementation of multicylinder calculations in Python</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
+        </abbr>
+        <!---->
+		<!--<br />-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
+        <!--</abbr>-->
+        <!---->
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/python-tools.html">python tools</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</blockquote>
+<h2>Summary</h2>
+<p>The calculations to determine drop median volumetric diameter with a …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/implementation-of-multicylinder-calculations-in-python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="https://icinganalysis.github.io/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html" rel="bookmark"
                            title="Permalink to The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium">The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2022-08-02T13:56:38.963679-07:00">
-                Published: Tue 02 August 2022
+        <abbr class="published" title="2022-08-07T16:11:58.047791-07:00">
+                Published: Sun 07 August 2022
         </abbr>
         <!---->
 		<!--<br />-->
-        <!--<abbr class="modified" title="2022-08-02T13:56:38.963679-07:00">-->
-                <!--Updated: Tue 02 August 2022-->
+        <!--<abbr class="modified" title="2022-08-07T16:11:58.047791-07:00">-->
+                <!--Updated: Sun 07 August 2022-->
         <!--</abbr>-->
         <!---->
 <!---->

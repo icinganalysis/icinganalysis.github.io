@@ -1,5 +1,4 @@
 Title: Bilanin Pi Terms the Weber Number  
-status: draft  
 
 ###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
 
@@ -38,9 +37,11 @@ Bilanin identified 18 dimensionless group which affect the normalized ice thickn
 A consideration of three of these similarity parameters, the Mach
 number, the Reynolds number, and the Weber number,
 illustrates the fundamental difficulty of icing scaling analysis.  
->>M = V<sup>2</sup> / (C<sub>p,a</sub> T<sub>a</sub>) &nbsp;&nbsp;&nbsp;&nbsp; (1)  
+>>M<sup>^2</sup> = V<sup>^2</sup> / (C<sub>p,a</sub> T<sub>a</sub>) &nbsp;&nbsp;&nbsp;&nbsp; (1)  
 >>Re = V chord ρ<sub>a</sub> / μ<sub>a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (2)  
->>We = V<sup>2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (3)   
+>>We = V<sup>^2</sup> chord ρ<sub>a</sub> / σ<sub>w/a</sub> &nbsp;&nbsp;&nbsp;&nbsp; (3)   
+
+[Note there is a typo in the original equation (1), corrected herein.]
 
 >Because the temperatures of interest to icing extend over 
 a very narrow range on the absolute temperature scale, 
@@ -53,10 +54,10 @@ cases requires
 enough that the test facility total pressures are close to flight
 icing-encounter total pressures. In this case, scale and reference
 ρ<sub>a</sub> are nearly equal. Then to match Reynolds number requires
->>V<sub>s</sub> = chord<sub>r</sub> / chord<sub>s</sub>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (5)  
+>>V<sub>s</sub> = chord<sub>_r</sub> / chord<sub>_s</sub>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (5)  
 
 >and to match the Weber number requires
->>V<sub>s</sub> = chord<sub>r</sub><sup>0.5</sup> / chord<sub>s</sub><sup>0.5</sup>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (6)  
+>>V<sub>s</sub> = chord<sub>_r</sub><sup>^0.5</sup> / chord<sub>_s</sub><sup>^0.5</sup>  V<sub>r</sub>   &nbsp;&nbsp;&nbsp;&nbsp; (6)  
 
 >Clearly, it is impossible to satisfy similarity of Mach, Reynolds,
 and Weber numbers simultaneously, 
