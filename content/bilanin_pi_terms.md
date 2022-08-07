@@ -2,6 +2,34 @@ Title: Bilanin Pi Terms the Weber Number
 
 ###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
 
+#"Proposed Modifications to Ice Accretion/Icing Scaling Theory" [^1]  
+
+#Summary  
+Water surface tension is identified as a factor in ice shapes and test similarity.  
+
+#Key points  
+1. 18 dimensionless Pi-terms were identified.  
+2. "the π method has failed to provide a scaling methodology which can be used to test subscale aerodynamic components"  
+3. "however, does not preclude seeking approximate scaling methodologies"   
+4. Several late studies investigate the role of water surface tension and the Weber number.  
+
+##Abstract
+
+>The difficulty of conducting full-scale icing tests has long been appreciated. Testing in an icing wind tunnel has
+been undertaken for decades. 
+While aircraft size and speed have increased, tunnel facilities have not,
+thus making subscale geometric tests a necessity. 
+Scaling laws governing these tests are almost exclusively based on analysis
+performed over 30 years ago and have not been rigorously validated. 
+The following work reviews past scaling analyses 
+and suggests revision to these analyses based on recent experimental observation. 
+It is also
+suggested, based on the analysis contained herein, that current ice accretion predictive technologies,
+such as LEWICE, when utilized in the glaze ice accretion regime, 
+may need upgrading to more accurately estimate the rate of ice buildup
+on aerodynamic surfaces.
+
+
 ##Discussion  
 
 This publication identifies water surface tension as a potentially important 
