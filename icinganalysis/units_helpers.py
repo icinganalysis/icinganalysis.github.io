@@ -189,7 +189,6 @@ def btu_h_qs_inch_to_w_sq_m(btu_h_qs_inch):
 
 
 def w_sq_inch_to_w_sq_m(w_sq_inch):
-    print('    "', w_sq_inch, '"')
     return w_sq_inch * INCH_PER_M**2
 
 
