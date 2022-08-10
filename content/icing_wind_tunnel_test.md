@@ -56,7 +56,7 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 ###[Bilanin Pi-Terms and the Weber Number]({filename}bilanin_pi_terms.md)  
 >"While aircraft size and speed have increased, tunnel facilities have not, making subscale geometric tests a necessity."  
 
-NASA/CR-2004-212875 "Manual of Scaling Methods" Icing Similarity Calculations  
+###[NASA/CR-2004-212875 "Manual of Scaling Methods"]({filename}NASA-CR-2004-212875.md)  
 >"... it was not surprising that scale ice shapes were again a good match for the reference"  
 
 The Effects of Humidity 
