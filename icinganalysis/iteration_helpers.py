@@ -3,6 +3,11 @@ from scipy.interpolate import interp1d
 from scipy.optimize import minimize_scalar
 
 
+def min_max_filter_nan(vs):
+    vs = [_ for _ in vs if _==_]
+    return min(vs), max(vs)
+
+
 def solve_minimize_f(
     f: Callable, bounds: Optional[Sequence] = None,
     tolerance=None,
