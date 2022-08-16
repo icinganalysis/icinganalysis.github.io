@@ -1,6 +1,8 @@
 title: The Effects of Humidity in Icing Wind Tunnel Tests   
 category: icing tunnels  
 
+###_"a condition of supersaturation, which promotes the growth of frost deposits"_  
+
 ##Summary  
 Supersaturated humidity can affect icing wind tunnel results.  
 
