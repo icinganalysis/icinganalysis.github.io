@@ -1,6 +1,5 @@
 title: The Effects of Humidity in Icing Wind Tunnel Tests   
 category: icing tunnels  
-status: draft  
 
 ##Summary  
 Supersaturated humidity can affect icing wind tunnel results.  

@@ -59,7 +59,7 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 ###[NASA/CR-2004-212875 "Manual of Scaling Methods"]({filename}NASA-CR-2004-212875.md)  
 >"... it was not surprising that scale ice shapes were again a good match for the reference"  
 
-The Effects of Humidity 
+###[The Effects of Humidity]({filename}effects_of_humidity.md)   
 >"a condition of supersaturation, which promotes the growth of frost deposits"   
 
 Anti-Ice Test Similarity  
