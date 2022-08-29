@@ -5,8 +5,6 @@ category: icing tunnels
 
 ![Table 1 Interim Guidance](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
 
-#Large Drop Icing Conditions in Icing Wind Tunnels [^1]  
-
 ##Summary  
 Icing wind tunnel uses and challenges for large drop icing are discussed.  
 
