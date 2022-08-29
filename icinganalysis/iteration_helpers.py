@@ -113,3 +113,19 @@ def calc_area(x, y):
         ]
     )
     return area
+
+
+def find_k_for_v(v, dict_):
+    for k_, v_ in dict_.items():
+        if v in v_:
+            name = k_
+            return name
+    return None
+
+
+def find_k_for_v_else_v(v, dict_):
+    name = find_k_for_v(v, dict_)
+    if name is None:
+        name = v
+    return name
+

@@ -61,7 +61,7 @@ A note about mass and force:
 """
 
 
-BTU_PER_J = 1/1055.0558526  # IT BTU
+BTU_PER_J = 1 / 1055.0558526  # IT BTU
 BTU_H_PER_W = 3.412141633  # IT BTU
 BTU_H_FT2_F_PER_W_M2_K = 0.17611018367570236  # IT BTU
 F_PER_K = 1.8
@@ -185,11 +185,11 @@ def pa_to_psi(pa):
 
 
 def btu_h_qs_inch_to_w_sq_m(btu_h_qs_inch):
-    return btu_h_qs_inch * BTU_H_PER_W * INCH_PER_M**2
+    return btu_h_qs_inch * BTU_H_PER_W * INCH_PER_M ** 2
 
 
 def w_sq_inch_to_w_sq_m(w_sq_inch):
-    return w_sq_inch * INCH_PER_M**2
+    return w_sq_inch * INCH_PER_M ** 2
 
 
 def no_conversion(v):
@@ -197,9 +197,9 @@ def no_conversion(v):
 
 
 standard_to_domain_units = {
-    "K": ("c", "f", "r", "°c", "°f", "°r",),  # note lower case
+    "K": ("C", "F", "R", "°C", "°F", "°R",),  # note upper case
     "m": ("inch", "cm", "ft"),
-    "m/s": ("mph", "ktas"),
+    "m/s": ("mph", "ktas", "MPH", "KTAS"),
     "N/m": ("dyne/cm", "lbf/ft"),
     "Pa": ("psi",),
     "μm": ("micrometer",),
@@ -211,7 +211,7 @@ def find_standard_unit_name(name):
     standard_name = name
     for k, v in standard_to_domain_units.items():
         # print(name.lower(), v, name.lower() in v, k)
-        if name.lower() in v:
+        if name in v:
             standard_name = k
             break
     return standard_name
@@ -236,7 +236,7 @@ conversions_from_domain_units = {
     "psi": psi_to_pa,
     "BTU/h-in^2": btu_h_qs_inch_to_w_sq_m,
     "W/in^2": w_sq_inch_to_w_sq_m,
-    "": no_conversion
+    "": no_conversion,
 }
 
 
@@ -246,7 +246,7 @@ def convert_domain_to_standard_unit(v, domain_unit):
         return w
     except Exception:
         if domain_unit:
-            return float('nan')
+            return float("nan")
         return v
 
 
@@ -268,11 +268,9 @@ conversions_to_domain_units = {
     "dyne/cm": n_m_to_dyne_cm,
     "lbf/ft": n_m_to_lbf_ft,
     "psi": pa_to_psi,
-    "": no_conversion
+    "": no_conversion,
 }
 
 
 def convert_to_domain_unit(v, domain_unit):
     return conversions_to_domain_units.get(domain_unit, no_conversion)(v)
-
-
