@@ -65,8 +65,8 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 ###[Anti-Ice Test Similarity, AIAA-2017-3927, "Evaluation of Alternative Altitude Scaling Methods for Thermal Ice Protection System in NASA Icing Research Tunnel"]({filename}aiaa_2017_3927.md)    
 >"With a thermal IPS, energy reduction can be achieved by operating in a ‘running wet’ mode under more extreme icing conditions."  
 
-
-Large Water Drop Icing  
+###[Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)  
+>""effects are scaled appropriately between Appendix C and SLD conditions using the existing scaling methods"  
 
 ##Notes 
 
