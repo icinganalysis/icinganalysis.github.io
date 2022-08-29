@@ -351,7 +351,7 @@ particularly for freezing rain conditions and ice protection testing.
 Recent developments such as Breitfuß [^9] provide hope for an improvement of the 
 AC 25-28 Table 1 "interim guidance" assessment from above of using icing wind tunnel tests 
 for all SLD conditions.  
-
+ 
 ##Notes
 
 [^1]: 
