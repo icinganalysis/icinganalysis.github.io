@@ -72,7 +72,7 @@ def calc_t_recovery(tk_static, u, r=1):
     return tr
 
 
-def calc_mpat(mach):
+def calc_mtap(mach):
     """
     Calculate the mass flow rate function value
     mtap = flow_rate * tk_total**0.5 / (area * pressure_total)
@@ -107,7 +107,7 @@ def calc_mach_subsonic_from_mtap(mtap):
     """
 
     def calc_diff(mach):
-        return abs(calc_mpat(mach) - mtap)
+        return abs(calc_mtap(mach) - mtap)
 
     mach = solve_minimize_f(calc_diff, bounds=[0, 1], tolerance=0.001)
     return mach
@@ -193,6 +193,27 @@ def calc_pl_p_max(mach):
     return (1 / (1 + gm1d2 * mach ** 2)) ** -gdgm1
 
 
+def get_t_p_u_mach_local(t, p, u, cp):
+    mach = calc_mach(u, t)
+    p_total = p*(1+0.2*mach**2)
+    p_local = (1+cp*0.7*mach**2)*p
+    t_local = t*(p_local/p)**(1/3.5)
+    mach_local = (5*(((p_local/p)**(-1/3.5))*(1+0.2*mach**2)-1))**0.5
+    u_local = calc_sonic_airspeed(t_local)*mach_local
+    return t_local, p_local, u_local, mach_local
+
+
+def get_t_p_u_mach_local_from(p_local, t, p, u):
+    mach = calc_mach(u, t)
+    # p_total = p*(1+0.2*mach**2)
+    # mach_local = ((p_total / p_local - 1) / 0.2) ** 0.5
+    mach_local = (5*(((p_local/p)**(-1/3.5))*(1+0.2*mach**2)-1))**0.5
+    # p_local = p*((1+0.2*mach**2)/(1+0.2*mach_local**2))**3.5
+    t_local = t*(p_local/p)**(1/3.5)
+    u_local = calc_sonic_airspeed(t_local)*mach_local
+    return t_local, p_local, u_local, mach_local
+
+
 if __name__ == "__main__":
     tk = 273.15
     c = (air_properties.GAMMA_AIR * air_properties.R_AIR * tk) ** 0.5
@@ -229,12 +250,12 @@ if __name__ == "__main__":
     a = 1
     mtap = m * tk ** 0.5 / a / p
     mach = calc_mach_subsonic_from_mtap(mtap)
-    mtap2 = calc_mpat(mach)
+    mtap2 = calc_mtap(mach)
     print(mtap, mach, mtap2)
     import numpy as np
 
     for mach in np.logspace(-2, 0):
-        mtap = calc_mpat(mach)
+        mtap = calc_mtap(mach)
         mach2 = calc_mach_subsonic_from_mtap(mtap)
         print(mach, mtap, mach2, mtap*a*p/tk**0.5)
     mtap = 0.05
