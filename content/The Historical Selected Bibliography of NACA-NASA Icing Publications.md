@@ -159,7 +159,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Propeller Ice Protection
 
     - Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
-    - Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Blade Heaters. NACA-TN-1691, 1948.  
+    - Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948.  
     - Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
     - Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949.  
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948.  
