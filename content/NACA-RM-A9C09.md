@@ -126,9 +126,13 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.
 
+An online search [^4] found NACA-RM-A9C09 cited 13 times.  
+
+
 ##Notes:
 [^1]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
 [^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Review+of+Instruments+Developed+for+the+Measurement+of+the+Meteorological+Factors+Conducive+to+Aircraft+Icing&btnG=  
