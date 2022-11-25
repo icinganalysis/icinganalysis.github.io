@@ -1,5 +1,7 @@
 Title: NACA-RM-A9C09 Instruments  
 Category: NACA
+category: instruments  
+tags: instruments  
 tags: cylinder
 status: draft  
 
@@ -521,7 +523,7 @@ which is currently available commercially.
 The search for "A reliable method for the measurement of drop-size distribution" 
 would continue through the NACA era, but would not be fulfilled until 
 various technologies with laser-based illumination and computer processing 
-became available circa the 1970s. Some of these are direct imaging technologies, 
+became available decades later. Some of these are direct imaging technologies, 
 and may be thought of as distant descendants of the water drop photography from the NACA-era.  
 
 

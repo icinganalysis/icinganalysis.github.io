@@ -1,10 +1,12 @@
 title: Meteorological Instruments  
+category: instruments  
+tags: instruments  
 status: draft 
 
 
 ###_"A review ... of meteorological factors conducive to aircraft icing reveals outstanding needs"_  
 
-#Meteorological Instruments  
+#Meteorological Instruments Thread  
 
 ![Figure 6 from NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6b.png)  
 
@@ -17,7 +19,12 @@ and distant descendants of some of the devices are still used today.
 See also [Icing on cylinders]({filename}Icing on Cylinders.md), and 
 [Calibration of the NACA Icing Wind Tunnels]({filename}calibration_of_naca_icing_tunnels.md).    
 
+##Reviews  
+
 ###Nine instruments NACA-RM-A9C09 _(in work)_  
+<!--
+###[Nine instruments NACA-RM-A9C09]({filename}NACA-RM-A9C09_instruments.md)  
+-->
 >- Rotating Multicylinders  
 >- Fixed Cylinder  
 >- Rotating-Disk Icing-Rate Meter  
@@ -51,10 +58,28 @@ NACA-RM-E51E16
 
 ###Conclusions of NACA Icing Instruments _(in work)_  
 
+##Selected Images
+
+![Figure 6 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 6.png)  
+_Figure 6 from NACA-RM-E50K01a_  
+
+![Figure 2 from NACA-RM-E50J12a](images/naca-rm-e50j12a/Figure 2.png)  
+_Figure 2 from NACA-RM-E50J12a_  
+
+![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
+_Figure 5 from NACA-TN-1397_  
+
+![Figure 7 from NACA-TN-2458](images/NACA-TN-2458/Figure 7.png)  
+_Figure 7 from NACA-TN-2458_  
+
+![Figure 1 from NACA-RM-E51E16](images/naca-rm-e51e16/Figure 1.png)  
+_Figure 1 from NACA-RM-E51E16_  
+
+
 ##References  
 
 The [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md)
-Meteorological Instruments section:  
+Meteorological Instruments section [some with links to prior reviews]:  
 
 >- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 >- Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. [NACA-RM-A9C09](NACA-RM-A9C09.md), 1949.  

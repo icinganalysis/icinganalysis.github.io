@@ -265,7 +265,7 @@ However, the large drop conditions that a facility can produce may require a
 fairly high LWC value. 
 In Figure 23 above, the LWC values were fairly high (1.64 g/m^3). 
 The freezing drizzle definitions LWC values, however, are fairly low (up to 0.44 g/m^3):   
-![](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
+![Figure 1 Appendix O](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
 
 This leads to challenges. 
 If one tests at a higher LWC and the resulting water exposure rate than the reference 
