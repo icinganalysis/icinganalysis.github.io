@@ -1,5 +1,4 @@
 Title: A Gentle Introduction to Aircraft Icing  
-status: draft  
 
 
 This web site was written with people in mind (engineers, aerodynamicists) who already know something about aircraft and aircraft icing.  
