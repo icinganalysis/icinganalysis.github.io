@@ -221,7 +221,7 @@ Icing Testing in the Large Modane Wind-Tunnel on Full-Scale and Reduced-Scale Mo
 
 
 AEDC-TR-85-23  
- ![](images/aedc-tr-85-30/Table 1.png)  
+ ![Table 1](images/aedc-tr-85-30/Table 1.png)  
  
 
 

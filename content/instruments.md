@@ -1,14 +1,13 @@
 title: Meteorological Instruments  
 category: instruments  
 tags: instruments  
-status: draft 
 
 
 ###_"A review ... of meteorological factors conducive to aircraft icing reveals outstanding needs"_  
 
 #Meteorological Instruments Thread  
 
-![Figure 6 from NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6b.png)  
+![Figure 6 from NACA-RM-E51E16](/images/naca-rm-e51e16/Figure 6b.png)  
 
 Several instruments were developed and improved during the NACA-era 
 to measure icing conditions. 
@@ -60,19 +59,19 @@ NACA-RM-E51E16
 
 ##Selected Images
 
-![Figure 6 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 6.png)  
+![Figure 6 from NACA-RM-E50K01a](/images/naca-rm-e50k01a/Figure 6.png)  
 _Figure 6 from NACA-RM-E50K01a_  
 
-![Figure 2 from NACA-RM-E50J12a](images/naca-rm-e50j12a/Figure 2.png)  
+![Figure 2 from NACA-RM-E50J12a](/images/naca-rm-e50j12a/Figure 2.png)  
 _Figure 2 from NACA-RM-E50J12a_  
 
-![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
+![Figure 5 from NACA-TN-1397](/images/naca-tn-1397/Figure 5.png)  
 _Figure 5 from NACA-TN-1397_  
 
-![Figure 7 from NACA-TN-2458](images/NACA-TN-2458/Figure 7.png)  
+![Figure 7 from NACA-TN-2458](/images/NACA-TN-2458/Figure 7.png)  
 _Figure 7 from NACA-TN-2458_  
 
-![Figure 1 from NACA-RM-E51E16](images/naca-rm-e51e16/Figure 1.png)  
+![Figure 1 from NACA-RM-E51E16](/images/naca-rm-e51e16/Figure 1.png)  
 _Figure 1 from NACA-RM-E51E16_  
 
 
