@@ -18,7 +18,7 @@ MENUITEMS = (
     ('Diversions', SITEURL + '/diversions.html'),
     ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
     ('Icing Tunnels', SITEURL + '/icing-wind-tunnel-test-thread.html'),
-    ('Instruments', SITEURL + 'meteorological-instruments.html'),
+    ('Instruments', SITEURL + '/meteorological-instruments.html'),
     ('About', SITEURL + '/about.html'),
 )
 
