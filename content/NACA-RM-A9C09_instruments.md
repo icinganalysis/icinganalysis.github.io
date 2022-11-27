@@ -482,7 +482,7 @@ of the images have alleviated some of the challenges to this method.
 
 >A review of the present status of research on the meteorological
 factors conducive to aircraft icing reveals two outstanding needs:  
-(1) means for the continuous indication or recording of simultaneous
+>(1) means for the continuous indication or recording of simultaneous
 values of liquid-water content, free-air temperature, altitude, and,
 if possible, average and maximum drop size; and  
 >(2) for the
@@ -511,7 +511,7 @@ data should be continued.
 >4. A reliable method for the measurement of drop-size distribution should be developed.  
 
 The rotating disk saw further use in the NACA era, 
-largely by the National Research Council of Canada. 
+as we will see in the upcoming post "Conclusions of the Meteorological Instruments Thread". 
 
 I do not know of further uses of the visibility meter.  
 
