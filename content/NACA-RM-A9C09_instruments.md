@@ -1,7 +1,6 @@
 Title: NACA-RM-A9C09 Instruments  
-Category: NACA, instruments  
+Category: NACA  
 tags: instruments  
-status: draft  
 
 ###"This [rotating disk] device should prove very useful in both the formative and statistical investigations."  
 

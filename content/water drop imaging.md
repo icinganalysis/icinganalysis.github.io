@@ -1,25 +1,25 @@
 title: Water Drop Imaging  
 status: draft  
 
-
 ###_"it is necessary to measure the sizes of the droplets within the clouds."_ [^1]  
-
-
 
 #NACA-RM-E50K01a, "Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere"    
 #NACA-RM-E51G05, "Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds"  
 #NACA-TN-3592, "An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight"  
 
-
-##Abstract  
+##Summary  
 
 Three strategies were explored for water drop imaging.  
 In NACA-RM-E50K01a, a telephoto arrangement allowed imaging water drops in situ.  
 In NACA-RM-E51G05, water drops were put through a particle size sorting cascade, impacting on slides, and imaged.  
 In NACA-TN-3592, water drops were captured in an oil stream exposed to the ambient flow, and then imaged.  
 
+##Key Points  
+1. Three methods for obtaining images of water drops are discussed.  
+2. Images of enough water drops allowed the calculation of the drop size distribution.  
+3. These instruments had limited influence in the NACA-era.  
 
-##Summary  
+##Abstract  
 
 NACA-RM-E50K01a:  
 >A camera designed for use in flight has been developed by the NACA
@@ -264,7 +264,7 @@ NACA-TN-3592 is cited by three publications in the NACA Icing Publications Datab
   
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
-- Perkins, Porter J., Summary of Statistical Icing Cloud Data Measured over United States and North Atlantic, Pacific, and Artict Oceans during Routine Aircraft Operations. NASA-Memo-1-19-59E, January, 1959.   
+- Perkins, Porter J., Summary of Statistical Icing Cloud Data Measured over United States and North Atlantic, Pacific, and Artict Oceans during Routine Aircraft Operations. NASA-Memo-1-19-59E, January, 1959. https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up   
   
 An online search found NACA-TN-3592 cited 6 times [^8].
 
