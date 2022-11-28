@@ -4,8 +4,7 @@ tags: instruments
 
 ###"This [rotating disk] device should prove very useful in both the formative and statistical investigations."  
 
-#"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
-[^1]
+#"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  [^1]  
 
 ![Figure 6b of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6b.png)  
 _from NACA-RM-E51E16 [^2]_  
