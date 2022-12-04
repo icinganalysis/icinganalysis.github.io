@@ -32,10 +32,7 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 >- Sooted Slides  
 >- Drop Photography  
 
-<!--
 ###[Water drop imaging]({filename}water drop imaging.md)  
--->
-###Water drop imaging _(in work)_  
 NACA-RM-E50K01a  
 NACA-RM-E51G05  
 NACA-TN-3592  
