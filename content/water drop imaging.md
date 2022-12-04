@@ -195,9 +195,9 @@ Water drop photography had only limited contributions to icing research in the N
 
 I believe the challenges noted in [NACA-RM-A9C09]({filename}NACA-RM-A9C09_instruments.md) hampered wider use:
 >Disadvantages.-  
->1. A large number of photographs are required.
->2. Evaluation of the data is very lengthy and tedious. 
->3. The photographic equipment is somewhat bulky.
+>1. A large number of photographs are required.  
+>2. Evaluation of the data is very lengthy and tedious.  
+>3. The photographic equipment is somewhat bulky.  
 
 The method would benefit in the post-NACA era from laser light illumination 
 and computer processing of the water drop images. 
