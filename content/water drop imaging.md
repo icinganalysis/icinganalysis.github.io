@@ -1,7 +1,6 @@
 title: Water Drop Imaging  
 Category: NACA  
 tags: instruments  
-status: draft  
 
 ###_"it is necessary to measure the sizes of the droplets within the clouds."_ [^1]  
 
@@ -181,8 +180,8 @@ may be operated at any altitude and temperature and over a large
 range of airspeeds.  
 The test model of the aeroscope occupies about 6 cubic feet and
 weighs about 100 pounds. These values could be greatly reduced in future
-designs, since little attention was paid to weight and volume in the de-
-sign of the test model. The test model of the aeroscope is semiautomatic
+designs, since little attention was paid to weight and volume in the design 
+of the test model. The test model of the aeroscope is semiautomatic
 in that pictures are taken automatically by the use of an intervalometer.
 The aeroscope could be made more fully automatic by photographing on the
 same film as the droplets an instrument panel containing a clock, air-speed 
