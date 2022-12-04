@@ -1,4 +1,6 @@
 title: Water Drop Imaging  
+Category: NACA  
+tags: instruments  
 status: draft  
 
 ###_"it is necessary to measure the sizes of the droplets within the clouds."_ [^1]  
@@ -74,23 +76,23 @@ to previously published data.
 
 ##Discussion    
 
-All three methods above were implemented for flight tests in natural icing conditions. 
+All three methods above were implemented for flight tests in natural icing conditions.  
 
 Related methods are the sooted slide (see [NACA-RM-A9C09]({filename}NACA-RM-A9C09_instruments.md)) and the oiled slide on which water drops are captured. 
 However, these methods do not have an integral camera 
 (the slides are manually moved to a microscope for processing or photography). 
 These methods are discussed further in Langmuir's "Rising currents ..." [^4], 
-and are not detailed herein.
+and are not detailed herein.  
 
 The figures in each of the publications provides an overview of each method. 
 
 ###NACA-RM-E50K01a Flight Camera  
 
-![Figure 6 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 6.png)  
-_Figure 6 from NACA-RM-E50K01a_  
-
 ![Figure 7 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 7.png)  
 _Figure 7 from NACA-RM-E50K01a_  
+
+![Figure 6 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 6.png)  
+_Figure 6 from NACA-RM-E50K01a_  
 
 ![Figure 8 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 8.png)  
 _Figure 8 from NACA-RM-E50K01a_  

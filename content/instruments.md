@@ -7,7 +7,7 @@ tags: instruments
 
 #Meteorological Instruments Thread  
 
-![Figure 6 from NACA-RM-E51E16](/images/naca-rm-e51e16/Figure 6b.png)  
+![Figure 6 from NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6b.png)  
 
 Several instruments were developed and improved during the NACA-era 
 to measure icing conditions. 
@@ -32,20 +32,23 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 >- Sooted Slides  
 >- Drop Photography  
 
-###Water drop imaging _(in work)_ 
+<!--
+###[Water drop imaging]({filename}water drop imaging.md)  
+-->
+###Water drop imaging _(in work)_  
 NACA-RM-E50K01a  
 NACA-RM-E51G05  
 NACA-TN-3592  
 
-###Heated probes _(in work)_ 
+###Heated probes _(in work)_  
 NACA-RM-E50J12a  
 NACA-TN-2615  
 NACA-RM-A54I23
 
-###Inference from airfoil impingement _(in work)_
+###Inference from airfoil impingement _(in work)_  
 NACA-TN-1397  
-NACA-RM-E52B12  
 NACA-TN-2476  
+NACA-RM-E52B12  
 
 ###Corona discharge _(in work)_  
 NACA-TN-2458  
