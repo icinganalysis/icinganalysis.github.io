@@ -65,6 +65,14 @@ and review these publications in this ["Meteorological Instruments" thread]({fil
 
 A motivation for these three publications was that the use of a 
 differential analyzer was expensive and time consuming. 
+The water drop equations of motion are included in all three, 
+were solved using a differential analyzer 
+(for more details see ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md). 
+However, the differential analyzer device was large, 
+expensive, and labor intensive to operate. 
+A large entity (like General Electric) might own one, 
+but they were also available for rent at a few locations.  
+
 It is hard to design an ice protection system without knowing 
 how much water is hitting where on an airfoil.  
 
@@ -205,9 +213,14 @@ obtained in the form of plots of the droplet trajectories with respect
 to the airfoil. The coefficient of drag CD for the droplets, required
 in equations (1), was obtained from tables in references 2 and 3.  
 
-Unfortunately, it does not provide a photo or further description of the device. 
-I assume that it was a simpler, 
-"hard-coded" (non-reconfigurable) version of the differential analyzer.
+[NACA-TN-2904]({filename}NACA-TN-2904.md) tell us more about the mechanical analog:  
+>The water droplet trajectories were computed on a mechanical analog 
+which was fundamentally a differential
+analyzer constructed for solving the equations of motion (equations (1)
+and (2)).
+
+![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
+_Figure 15 of NACA-TN-2904_  
 
 ##Conclusions  
 
