@@ -13,7 +13,7 @@ We will detail NACA-RM-A54I23 herein, as that was the final in the series
 of publications detailing the development, 
 and will include some detail from the earlier NACA-RM-E50J12a and NACA-TN-2615. 
 
-##Summary
+##Summary  
 Electrically heated probes can measure water exposure rate, 
 from which LWC can be calculated.  
 
@@ -21,61 +21,11 @@ from which LWC can be calculated.
 1. The technology evolved over the span of the three publications.  
 2. A heated wire probe can provide measurements with low lag (~1 second), 
 faster than other technologies available in the NACA-era.  
-3. The technology is still used today.  
+3. There was an earlier "cloud indicator" based on similar technology.  
+4. The technology is still used today.  
 
 ##Abstract  
 
-<!--
-
-NACA-RM-E50J12a: 
->A principle formerly used in an instrument for cloud detection was
-further investigated to provide a simple and rapid means for measuring
-the liquid-water content of clouds at temperatures above and below
-freezing. The instrument consists of a small cylindrical element so
-operated at high surface temperatures that the impingement of cloud
-droplets creates a significant drop in the surface temperature.  
-The instrument is sensitive to a wide range of liquid-water content 
-and was calibrated at one set of fixed conditions against rotating
-multicylinder measurements. The limited conditions of the calibration
-Included an air temperature of 20° F, an air velocity of 175 miles per
-hour, and a surface temperature in clear air of 475° F. The results
-obtained from experiments conducted with the instrument indicate that
-the principle can be used for measurements in clouds at temperatures 
-above and below freezing. Calibrations for ranges of airspeed,
-air temperature, and air density will be necessary to adapt the
-instrument for general flight use.
-
-
-NACA-TN-2615:  
->Ground tests have been made of an instrument which, when assembled
-in a more compact form for flight installation, could be used to obtain
-statistical flight data on the liquid-water content of icing clouds and
-to provide an indication of icing severity. The sensing element of the
-instrument consists of an electrically heated wire which is mounted in
-the air stream. The degree of cooling of the wire resulting from evap-
-oration of the impinging water droplets is a measure. of the liquid-water
-content of the cloud. Determination of the value of the liquid-water
-content from the wire temperature at any instant requires a knowledge of
-the airspeed, altitude, and air temperature.  
-An analysis was made of the temperature response of a heated wire
-exposed to an air stream containing water drops. Comparisons were made
-of the liquid-water content as measured with several heated wires and
-absorbent cylinders in an artificially produced cloud. For one of the
-wires, comparative tests were made with a rotating-disk icing-rate meter
-in an icing wind tunnel. From the test results, it was shown that an
-instrument for measuring the concentration of liquid water in an air
-stream can be built using an electrically heated wire of known temperature-
-resistance characteristics, and that the performance of such a device
-can be predicted using appropriate theory.  
-Although an instrument in a form suitable for gathering statistical
-data in flight was not built, the practicability of constructing such
-an instrument was illustrated. The ground-test results indicated that
-a flight heated-wire instrument would be simple and durable, would
-respond rapidly to variations in liquid-water content, and could be
-used for the measurement of water content in clouds which are above
-freezing temperature, as well as in icing clouds.
-
--->
 NACA-RM-A54I23:  
 >In the conduct of research directed toward the development of a simple 
 instrument suitable for the measurement of icing severity,
@@ -97,6 +47,7 @@ predicted in a previous statistical analysis. The highest value measured was
 
 ##Discussion  
 
+NACA-RM-A54I23:  
 >An instrument which appears to be useful in meteorological research
 and which might also be adapted for direct indication of icing severity
 has been developed by the Ames Laboratory of the NACA. 
@@ -142,19 +93,10 @@ A cloud duct was constructed for some development tests.
 _Figure 4 from NACA-TN-2615_  
 
 The method was also calibrated in the NACA Icing Research Tunnel against other instruments that we have seen before 
-(multicylinders and the icing-rate meter [rotating disk]).
+(multicylinders and the icing-rate meter [[rotating disk]({filename}NACA-RM-A9C09_instruments.md)]).
 
 ![Figure 4 from NACA-RM-E50J12a](images/naca-rm-e50j12a/Figure 4.png)  
 _Figure 4 from NACA-RM-E50J12a_  
-
-
-<!--
-![Figure 7 from NACA-TN-2615](images/naca-tn-2615/Figure 7.png)  
-_Figure 7 from NACA-TN-2615_  
-
-![Figure 5 from NACA-RM-A54I23](images/NACA-RM-A54I23/Figure 5.png)  
-_Figure 5 from NACA-RM-A54I23_  
--->
 
 Flight tests were conducted, along with other instruments. 
 >Figure 7 shows the location in which the heated-wire
@@ -175,6 +117,7 @@ on the pilots' instrument panel and one at the observer's station.
 
 ![Figure 7 from NACA-RM-A54I23](images/NACA-RM-A54I23/Figure 7.png)  
 _Figure 7 from NACA-RM-A54I23_  
+_(image quality in the online version of NACA-RM-A54I23 is poor)_  
 
 The implementation using a small diameter wire had a response time on the order of one second
 to changes in LWC values. 
@@ -211,58 +154,48 @@ The size chosen was 17 microns,
 which is suggested in reference
 4 as a reasonable value to assign to cumulus clouds.
 
+###Origin of the instrument  
+
+NACA-RM-E50J12a provides an origin of the instrument as "a cloud detector":  
+>This principle was originally used as a cloud detector to
+indicate entrance and exit from a cloud during flight (reference 3).
+The instrument was not used for the measurement of quantitative values
+of liquid water because the surface temperatures during operation were
+insufficient.
+
+The "reference 3" above is NACA-TN-1904 [^4]:    
+>THE CLOUD INDICATOR
+It had become apparent during previous years that an instrumental 
+method of supplementing visual observations of the time of entering 
+and leaving clouds, and the patchy or uniform characteristics of
+the cloud masses was desirable, The cloud indicator was designed to
+meet this need. This instrument consists of a heated cylinder 5/8
+inch in diameter exposed at right angles to the air stream, with a
+thermocouple installed to measure the surface temperature at the
+stagnation point. To provide a continuous surface-temperature
+record, the thermocouple is connected to a self-balancing potentiometer 
+equipped to provide a continuous ink trace of the variations
+in temperature. In use, the heating power supplied to the cylinder
+is adjusted to maintain a surface temperature of from 170° F to
+200° F when flying in clear air. Immediately upon entering a cloud,
+the temperature drops very rapidly, sometimes by as much as 50° F
+in 1 second. Similarly, a rapid rise of temperature is observed
+on leaving a cloud. Small areas of clear air within a cloud and
+variations of cloud density are indicated by irregularities in the
+temperature trace. Figure 6 is an example of the response of this
+instrument during passage through various types of clouds. As indicated 
+in the figure, the instrument is more sensitive to liquid-
+water drops than to snow. Thus, it is possible to identify regions
+containing liquid water in a continuous snow cloud.   
+
+![Figure 6 of NACA-TN-1904](images/naca-tn-1904/Figure 6.png)  
+
+Unfortunately, NACA-TN-1904 does not provide a picture of the instrument, 
+nor a reference with further detail 
+(it is perhaps in their references 8 or 9, 
+but I have not been able to find copies of those to verify).  
+
 ##Conclusions  
-<!--
-
-NACA-RM-E50J12a: 
->A small cylindrical element capable of being heated in clear air
-to temperatures on the order of 475° F was constructed and investigated.
-to determine the feasibility of measuring the liquid-water content of
-an air mass by observing the temperature drop of the sensitive element
-during exposure to the wet air stream. The following results were
-obtained from experiments conducted with the instrument:  
->1. The instrument was very sensitive to a wide range of liquid-
-water content and could be used for measurements In above- and. below-
-freezing clouds.  
->2. At the conditions investigated, the surface temperature of the
-sensitive element had to be maintained above 150° F during the measuring
-period to assure complete evaporation of the impinging water.  
->3. A calibration of the instrument at an air temperature of 20° F,
-an air velocity of 175 miles per hour, and a surface temperature in
-clear air of 475° F was obtained using rotating multicylinders as a
-basis of measurement.  
-
-NACA-TN-2615:  
->An investigation of the practicability of utilizing the temperature-
-resistance characteristics of an electrically heated wire as the basis
-for an instrument to measure liquid-water concentration in clouds has
-resulted in the following conclusions, which apply to wires of approximately 
-the same size as those tested:  
->1. A simple, durable, direct-indicating device for measuring
-liquid-water content can be built using an electrically heated wire of
-known temperature-resistance characteristics for the sensing element.
->2. The performance characteristics of a heated wire when subjected
-to various values of liquid-water concentration and airspeed are in
-agreement with predicted characteristics as long as all impinging water
-is evaporated, that is, provided the water concentration is less than
-the value required to saturate the wire.  
->3. The present theory for calculating the concentration of water
-required to saturate the wire is inadequate, and predicts values which
-are considerably larger than the observed values at apparent saturation.
-An empirical relationship has been established, however, which allows
-adequate evaluation of the concentration of water required to saturate
-the wire.  
->4. By supplying sufficient voltage, the wire temperature can be
-raised to a point where the performance of the wire is predictable for
-practically the entire liquid-water-content range associated with icing
-conditions.  
->5. Response of the instrument to variations in liquid-water
-content is considerably more rapid than that of existing instruments
-which are usable for obtaining statistical meteorological data.  
->6. The principle of this instrument can be used for measuring
-liquid-water content in clouds at temperatures either above or below
-freezing.  
--->
 
 NACA-RM-A54I23:  
 >As a result of an investigation to develop a flight version of the
@@ -289,6 +222,7 @@ that it did not appear to have had a direct influence on the later development o
 
 The basic technology, measuring a current or voltage difference of a heated element exposed to icing, 
 is used in several instruments in use currently, including the Johnson-Williams LWC probe.  
+
 
 ##Citations:
 
@@ -330,32 +264,29 @@ Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorolog
 Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
 Fraser, D.: Analysis of Meteorological Design Requirements for Icing Protection Systems. University of Michigan Airplane Icing Information Course, Lecture No. l2a, 1953.  
 
-
 NACA-RM-E50J12a is cited once in the NACA Icing Publications Database [^7]:  
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 
-An online search [^4] found NACA-RM-E50J12a cited two times.  
-
+An online search [^5] found NACA-RM-E50J12a cited two times.  
 
 NACA-TN-2615 is cited three times in the NACA Icing Publications Database [^7]:     
 - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.    
 - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
 - Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
 
-An online search [^5] found NACA-TN-2615 cited 21 times.  
+An online search [^6] found NACA-TN-2615 cited 21 times.  
 
 NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^7]:  
 - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, [FAA-ADS-4](ads4.md), 1964.    
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
 
-An online search [^6] found NACA-RM-A54I23 cited 22 times.   
-
-
+An online search [^7] found NACA-RM-A54I23 cited 22 times.   
 
 ##Notes  
 [^1]: Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
 [^2]: Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 [^3]: Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
-[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=  
-[^5]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=  
-[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=  
+[^4]: Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
+[^5]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=  
+[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=  
+[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=  

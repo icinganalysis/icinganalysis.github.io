@@ -44,11 +44,11 @@ determining water drop impingement rates.
 The (then) NACA Lewis Icing Research Tunnel (IRT) (now NASA Glenn) was used in the test. 
 Cylinder test articles were constructed. 
 
-![Figure 9](/images/naca-tn-3338/Figure9.png)
+![Figure 9](images/naca-tn-3338/Figure9.png)
 
 After the blotter paper was exposed to water spray with dye in it, the paper was analyzed for dye concentration. 
 
-![Figure 12](/images/naca-tn-3338/Figure12.png)
+![Figure 12](images/naca-tn-3338/Figure12.png)
 
 Special nozzles with fast acting solenoids were used, but the spray part was the same as the usual IRT nozzles. 
 
@@ -57,14 +57,14 @@ in the main icing spray system of the icing tunnel and are located in
 the same low-air-velocity section of the tunnel.
 
 
-![Figure 11](/images/naca-tn-3338/Figure11.png)
+![Figure 11](images/naca-tn-3338/Figure11.png)
 
 ###The impingement data
 
 After a chemical analysis of the dye concentration in the blotter paper 
 the local water catch rates were calculated. 
 
-![Figure 20](/images/naca-tn-3338/Figure20.png)
+![Figure 20](images/naca-tn-3338/Figure20.png)
 
 ###The distribution analysis
 
@@ -73,17 +73,17 @@ and beta curves corresponding to drop sizes for the impingement limit are
 constricted and summed to yield an approximate total beta curve. 
 Fractions of total water content for each segment are determined during the process. 
 
-![Figure 17](/images/naca-tn-3338/Figure17.png)
+![Figure 17](images/naca-tn-3338/Figure17.png)
 
 The values from each group or segment are plotted, 
 and a "faired" curve through them is manually produced. 
 
-![Figure 18](/images/naca-tn-3338/Figure18.png)
+![Figure 18](images/naca-tn-3338/Figure18.png)
 
 The cylinder angle theta values can be translated into drop impingement limits and plotted. 
 (Note that drop radius "a" is used here, not diameter) 
 
-![Figure 21](/images/naca-tn-3338/Figure21.png)
+![Figure 21](images/naca-tn-3338/Figure21.png)
 
 It is not surprising that the curves tend to flat-line at low drop sizes. 
 The drop radii for K=0.125, where impingement would be zero, are noted on the figure as "ac".
@@ -94,10 +94,10 @@ It is not clear how this was done, as Langmuir and Blodgett did not provide beta
 I speculate that the Langmuir and Blodgett Em and Theta_max values were used with an
 assumed cosine relationship as in NACA-TN-2904 [^2].
 
-> ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](/images/naca-tn-2904/beta_cos.png)
+> ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](images/naca-tn-2904/beta_cos.png)
 
 
-![Figure 22](/images/naca-tn-3338/Figure22.png)
+![Figure 22](images/naca-tn-3338/Figure22.png)
 
 The results from Figure 22 were set aside in favor of the NACA-TN-2904 method results from Figure 21.
 
@@ -124,7 +124,7 @@ specified by the wt values obtained with the aspirating device. The
 averages (for several repeats) of the total liquid-water content wt
 obtained with the aspirator are summarized as follows:
 
-![LWC Table from page 24](/images/naca-tn-3338/LWC_table_page_24.png)
+![LWC Table from page 24](images/naca-tn-3338/LWC_table_page_24.png)
 
 > Because of the cylinder-size trend for droplet radii less than 
 approximately 6 microns (fig. 21), a straight line was faired between a 6
@@ -133,7 +133,7 @@ results of this interpretation of the data are shown in figure 23; the
 reasoning underlying this interpretation is presented in the DISCUSSION
 section.
 
-![Figure 23](/images/naca-tn-3338/Figure23.png)
+![Figure 23](images/naca-tn-3338/Figure23.png)
 
 ###Need an independent measurement of drop sizes
 

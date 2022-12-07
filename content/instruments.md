@@ -37,6 +37,9 @@ NACA-RM-E50K01a
 NACA-RM-E51G05  
 NACA-TN-3592  
 
+<!--
+###[Heated probes]({filename}Heated Probes.md)  
+-->
 ###Heated probes _(in work)_  
 NACA-RM-E50J12a  
 NACA-TN-2615  
