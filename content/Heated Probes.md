@@ -1,7 +1,6 @@
 title: Heated Probes  
 Category: NACA  
 tags: instruments  
-status: draft  
 
 ###_"a simple and rapid means for measuring the liquid-water content of clouds"_  [^1]  
 
@@ -68,7 +67,7 @@ obtained during the flight and ground experimentation.
 Also included is an analysis of measurements made in the most severe 
 icing conditions encountered.
 
-_["reference 1" is NACA-TN-2615.]_
+_["reference 1" is NACA-TN-2615.]_  
 
 The first implementation utilized a 5/8 inch diameter metal tube for sensing. 
 While this was robust, it had a fair amount of thermal capacity, 
@@ -119,21 +118,20 @@ on the pilots' instrument panel and one at the observer's station.
 _Figure 7 from NACA-RM-A54I23_  
 _(image quality in the online version of NACA-RM-A54I23 is poor)_  
 
+(We will see more about the "NACA pressure-type icing-rate meter"
+in an upcoming post).
+
 The implementation using a small diameter wire had a response time on the order of one second
 to changes in LWC values. 
 ![Figure 12a from NACA-RM-A54I23](images/NACA-RM-A54I23/Figure 12a.png)  
 _Figure 12a from NACA-RM-A54I23_  
-
-(We will see more about the "NACA pressure-type icing-rate meter"
-in an upcoming post).
 
 The measure maximum LWC values corresponded well to predicted values. 
 
 >It is of interest to compare the data of icing encounter C (fig.
 12(c)) with the predictions of Lewis and Bergrun (ref. 9) for maximum
 values of liquid-water content likely to be encountered in Pacific
-coast cumulus clouds.
-Maximum values of the average water content existing in
+coast cumulus clouds. ...
 
 ![Table of LWC values from NACA-RM-A54I23](images/NACA-RM-A54I23/Table of LWC values.png)  
 _Table of LWC values from NACA-RM-A54I23_  
@@ -223,7 +221,6 @@ that it did not appear to have had a direct influence on the later development o
 The basic technology, measuring a current or voltage difference of a heated element exposed to icing, 
 is used in several instruments in use currently, including the Johnson-Williams LWC probe.  
 
-
 ##Citations:
 
 NACA-RM-E50J12a cites five references:  
@@ -232,6 +229,11 @@ Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmo
 Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+
+NACA-RM-E50J12a is cited once in the NACA Icing Publications Database [^5]:  
+- Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
+
+An online search [^6] found NACA-RM-E50J12a cited two times.  
 
 NACA-TN-2615 cites 16 references:  
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
@@ -251,6 +253,13 @@ Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Condit
 Bowers, R. D., ed.: Basic Icing Research by General Electric Company, Fiscal Year 1946. AAF Tech. Rep. 5539, Sec. 3, Jan. 1947.  
 Eckert, E. R. G.: Temperature Recording in High-Speed Gases. NACA-TM-983, 1941.
 
+NACA-TN-2615 is cited three times in the NACA Icing Publications Database [^5]:     
+- von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.    
+- Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
+- Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
+
+An online search [^7] found NACA-TN-2615 cited 21 times.  
+
 NACA-RM-A54I23 cites 11 references:  
 Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 Bullard, A. F.: Convair Model 340 Airfoil Anti-Icing System Test. Plane N-73104. United Air Lines, Inc., Engineering Dept., Rept. No. F-345, May 1953.  
@@ -264,29 +273,18 @@ Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorolog
 Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
 Fraser, D.: Analysis of Meteorological Design Requirements for Icing Protection Systems. University of Michigan Airplane Icing Information Course, Lecture No. l2a, 1953.  
 
-NACA-RM-E50J12a is cited once in the NACA Icing Publications Database [^7]:  
-- Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
-
-An online search [^5] found NACA-RM-E50J12a cited two times.  
-
-NACA-TN-2615 is cited three times in the NACA Icing Publications Database [^7]:     
-- von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.    
-- Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
-- Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
-
-An online search [^6] found NACA-TN-2615 cited 21 times.  
-
-NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^7]:  
+NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^5]:  
 - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, [FAA-ADS-4](ads4.md), 1964.    
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
 
-An online search [^7] found NACA-RM-A54I23 cited 22 times.   
+An online search [^8] found NACA-RM-A54I23 cited 22 times.   
 
 ##Notes  
 [^1]: Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
 [^2]: Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 [^3]: Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
 [^4]: Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
-[^5]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=  
-[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=  
-[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=  
+[^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=  
+[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=  
+[^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=  
