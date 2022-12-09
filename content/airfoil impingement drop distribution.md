@@ -5,6 +5,9 @@ status: draft
 
 ###_"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"_ [^1]  
 
+![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
+_Figure 5 from NACA-TN-1397_  
+
 #NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."
 [^1]  
   
@@ -51,7 +54,8 @@ these were included in the "Meteorological Instrument" section
 of [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 when there is also a large "Impingement of Cloud Droplets" section.  
 
-However, the later NACA-TN-3338 does describe measuring a drop size 
+However, the later [NACA-TN-3338]({filename}NACA-TN-3338.md) [^4] 
+does describe measuring a drop size 
 distribution based on the impingement rates on a cylinder, 
 measured with the dye tracer method in a wind tunnel,
 and the method could be used for airfoils. 
@@ -116,7 +120,6 @@ chosen as adaptable to transport and cargo airplanes. An angle of attack
 of 4° was chosen as being representative of low cruise attitude for a
 turbojet-powered aircraft operated under conditions giving a relatively
 large area of droplet impingement on the airfoil.  
-
 
 ###NACA-TN-1397 "equivalent" cylinder analysis  
 
@@ -234,7 +237,8 @@ There was a lot of analysis and some tests conducted to determine impingement ra
 and the methods mentioned above were used to estimate approximate impingement 
 rates without having to run an expensive analysis.  
 
-Today, one is likely to use analysis methods such as LEWICE [^5] to perform impingement analysis.
+Today, one is likely to use analysis methods such as LEWICE [^5] 
+to perform comparable impingement analysis.  
 
 ###Inferring a drop size distribution  
 
@@ -255,9 +259,13 @@ for the area near the impingement limits to calculate
 the fraction of total water in that drop size bin. 
 This is then repeated for each size bin. 
 
+![Figure 17](images/naca-tn-3338/Figure17.png)  
+_Figure 17 of NACA-TN-3338_  
+
 This method saw limited use for tunnel tests, 
-and was ill-suited to use in natural icing, 
-as a calibrated amount of dye was needed to be mixed into the impinging drops.  
+and was not well-suited to use in natural icing, 
+as a calibrated amount of dye was needed to be mixed 
+into the impinging water drops.  
 
 ##Citations  
 
