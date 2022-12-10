@@ -265,7 +265,42 @@ _Figure 17 of NACA-TN-3338_
 This method saw limited use for tunnel tests, 
 and was not well-suited to use in natural icing, 
 as a calibrated amount of dye was needed to be mixed 
-into the impinging water drops.  
+into the impinging water drops. 
+
+NACA-TN-4035 [^6] discusses building an airfoil impingement  instrument, 
+but did not test one.  
+
+>The replacement of cylinders by a Joukowski airfoil for measuring
+instruments is required only when the airflow around the cylinder is not
+comparable to the theoretical flow used in the calculations of reference 1.
+The 36.5-percent-thick Joukowski airfoil retains many of the desirable
+properties of the cylinder and has the necessary flow field that permits
+the application of calculated results in a range of operating conditions
+not possible with cylinders. The least desirable feature of the airfoil
+is that the shape changes as ice accumulates on the surface. This feature
+is of no consequence when the airfoil is used with the dye-tracer technique
+in tunnels.  
+
+<!--
+>As mentioned in the INTRODUCTION, the impingement data presented
+herein are also useful in estimating impingement on thick streamlined
+struts. Thick-sectioned struts that are over 15 percent thick probably
+do not differ from Joukouski airfoil sections in any manner that affects
+the collection efficiency appreciably when compared to a Joukowski airfoil
+section of the same thickness ratio. The surface extent of impingement is
+more sensitive than collection efficiency to details of shape (ref. 10).
+As demonstrated in reference 12, if a part of an airfoil section (such as
+the leading-edge region or forward 25-percent region, etc.) has the same
+shape and pressure distribution as its counterpart on another airfoil, the
+impingement on the two parts will be the same even though the other portions 
+of the airfoil sections differ in both shape and pressure
+distribution. On thick-sectioned bodies the distribution is concentrated
+on the leading edge, which eases the problem of estimating the surface 
+impingement.  
+
+The "" 
+[Scaling in NACA tests]({filename}scaling_in_naca_tests.md) 
+-->
 
 ##Citations  
 
@@ -292,7 +327,7 @@ NACA-TN-1397 is cited by 13 publications in the NACA Icing Publication Database 
 - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 
-An online search found NACA-TN-1397 cited 38 times. [^7]
+An online search found NACA-TN-1397 cited 38 times. [^8]
 
 NACA-TN-2476 cites nine publications  
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
@@ -305,7 +340,7 @@ NACA-TN-2476 cites nine publications
 - Stack, John: Compressible Flows in Aeronautics. Jour. Aero. Sci., vol. 12, no.2, April 1945, pp. 127-148.  
 - Allen, H. J., and Nitzberg, Gerald E.: The Effect of Compressibility on the Growth of the Laminar Boundary Layer on Low-Drag Wings and Bodies. NACA-TN-1255, 1947.  
 
-NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database [^6]  
+NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database [^7]  
 - Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.  
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
 - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
@@ -317,7 +352,7 @@ NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database 
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
-An online search found NACA-TN-2476 cited 25 times. [^8]  
+An online search found NACA-TN-2476 cited 25 times. [^9]  
 
 NACA-RM-E52B12 cites 38 publications  
 - Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949.
@@ -359,7 +394,7 @@ NACA-RM-E52B12 cites 38 publications
 - von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, III - Annular Submerged Inlets. NACA-RM-E8A29, 1948.                                                                                                             
 - Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.                                                                           
 
-NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database [^6]  
+NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database [^7]  
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
@@ -370,7 +405,7 @@ NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database
 - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
-An online search found NACA-RM-E52B12 cited 3 times. [^9]  
+An online search found NACA-RM-E52B12 cited 3 times. [^10]  
 
 ##Notes  
 
@@ -381,9 +416,10 @@ An online search found NACA-RM-E52B12 cited 3 times. [^9]
 [^5]: 
 https://software.nasa.gov/software/LEW-18573-1,  
 https://ntrs.nasa.gov/citations/19990021235  
-[^6]: 
+[^6]: Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
+[^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=  
-[^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Method+Permitting+Rapid+Determination+of+the+Area%2C+Rate%2C+and+Distribution+of+Water-Drop+Impingement+on+an+Airfoil+of+Arbitrary+Section+at+Subsonic+Speeds&btnG=  
-[^9]:https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Water+Droplets+on+an+NACA+651-212+Airfoil+at+an+Angle+of+Attack+of+4&btnG=  
+[^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=  
+[^9]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Method+Permitting+Rapid+Determination+of+the+Area%2C+Rate%2C+and+Distribution+of+Water-Drop+Impingement+on+an+Airfoil+of+Arbitrary+Section+at+Subsonic+Speeds&btnG=  
+[^10]:https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Water+Droplets+on+an+NACA+651-212+Airfoil+at+an+Angle+of+Attack+of+4&btnG=  
 

@@ -1,5 +1,6 @@
 Title: The Historical Selected Bibliography of NACA-NASA Icing Publications
-Category: NACA
+Category: NACA  
+status: draft  
 
 > ### "... the recommendation was made that before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^1]
 
@@ -7,9 +8,9 @@ Category: NACA
 
 A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 categories.
 
-##Discussion
+##Discussion  
 
-###Publications
+###Publications  
  
 This title was published twice. 
 
@@ -19,7 +20,7 @@ It was not credited, but immediately followed a paper by Vernon Gray.
 
 The second publication was in 1981 in NASA-TM-81651 [^2] . 
 NASA-TM-81651 includes a reprint of Uwe von Glahn's "The Icing Problem: Current Status of NACA Techniques and Research" 
-from 1955[^3].
+from 1955 [^3].
 That is followed by "Selected Bibliography of NACA-NASA Icing Publications", which is again not credited,
 but the "Foreword" attributes it to Uwe von Glahn. 
 The second publication includes the abstracts of all 132 publications.
@@ -82,9 +83,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - This is available at DTIC, https://apps.dtic.mil/sti/citations/ADA800876
 
-##The 132 icing publications  
-
-Links to reviews are included where applicable.  
+## The 132 icing publications
 
 - Meteorology of Icing Clouds
 
@@ -293,7 +292,7 @@ Links to reviews are included where applicable.
 
     - Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  
         > review: [SAE preprint No. 225]({filename}NACA-TN-D-2166.md)  
-    - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [Reprint included in NASA-TM-81651]  
+    - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
@@ -306,8 +305,7 @@ Links to reviews are included where applicable.
 [^1]:
 "Selected Bibiliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
-Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at [https://core.ac.uk/reader/42858720](https://core.ac.uk/reader/42858720) (circa November, 2021)  
+Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^3]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. 
-[Reprint included in NASA-TM-81651] 
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.  
 [^4]: National Technical Reports Server, https://ntrs.nasa.gov/  
