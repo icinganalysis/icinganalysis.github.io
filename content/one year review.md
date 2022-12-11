@@ -94,6 +94,9 @@ The [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md)
 had four reviews, but only one from the 132 NACA icing publications.   
 
 The [Diversions]({filename}diversions.md) had three reviews of post-NACA publications.  
+>[The Greatest Thing That You Have (Probably) Never Read: AC 00-6A]({filename}ac00-6a.md)  
+[The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md)   
+[The Greatest Thing That You Have (Probably) Never Read: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
 
 Three of the 132 NACA icing publications were reviewed twice (in different threads).  
 

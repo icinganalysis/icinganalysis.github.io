@@ -70,8 +70,10 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
     - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
         - The NTRS link does not have a file download available.  
+        - It can be found at https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation&source=bl&ots=lZ_jAfSwml&sig=ACfU3U3y-IGGy39BCf1u3bV8LFV3B2DqZg&hl=en&sa=X&ved=2ahUKEwic8KzL3-_7AhU2GTQIHXebBjcQ6AF6BAgdEAM#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false  
     - Gray, Vernon H.: "Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes". NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82266, 1954.  
         - The NTRS link does not have a file download available.  
+        - It can be found at https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation&source=bl&ots=lZ_jAfSwml&sig=ACfU3U3y-IGGy39BCf1u3bV8LFV3B2DqZg&hl=en&sa=X&ved=2ahUKEwic8KzL3-_7AhU2GTQIHXebBjcQ6AF6BAgdEAM#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false  
 - Gray, Vernon H.: "Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions". SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  
     - The NTRS link does not have a download available.  
     - It is available at [https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up)  
@@ -302,9 +304,9 @@ Links to reviews are included where applicable.
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  
         > review: [FAA-ADS-4]({filename}ads4.md)  
 
-##Notes:
+##Notes
 [^1]:
-"Selected Bibiliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+"Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at [https://core.ac.uk/reader/42858720](https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^3]: 

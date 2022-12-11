@@ -112,6 +112,9 @@ reference 5.
 ><sup>8</sup> data obtained during the 1947-48 icing research flights conducted
 by the Ames Aeronautical Laboratory.
 
+![Figure 5](images/naca-rm-a9c09/Figure 5.png)  
+_[I did not know it was this small.]_  
+
 ![Figure 6 of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6.png)  
 _from NACA-RM-E51E16_  
 
@@ -163,8 +166,8 @@ impregnated with methylene blue dye powder. The width of the trace
 on the tape is proportional to the rate of water interception by the
 head. The General Electric instrument is shown in figure 6.
 
-![Figure 6](images/naca-rm-a9c09/Figure 6 capilary collector.png)  
-_(image quality is poor in the online version of NACA-RM-A9C09)_  
+![Figure 6](images/naca-rm-a9c09/Figure 6.png)  
+_(image quality is poor in the online version of NACA-RM-A9C09, I made my own scan for here.)_  
 
 >Advantages  
 >1. The capillary collector provides for the
@@ -402,12 +405,11 @@ I have performed the manual evaluation of oil slide data
 (about 25 years ago, if that counts as "recent"), 
 and I concur that it is indeed very tedious. 
 
-
 ###Drop Photography  
  
 ![Figure 11](images/naca-rm-a9c09/Figure 11.png)  
-_(image quality is poor in the online version of NACA-RM-A9C09)_  
-_(We will see clearer images the upcoming post "Water drop imaging".)_  
+![Figure 11](images/naca-rm-a9c09/Figure 11 new.png)  
+_(image quality is poor in the online version of NACA-RM-A9C09, I made my own scan for here.)_  
 
 <!-- 
 Here are some clearer images from the later NACA-RM-E50K01a.  
