@@ -195,8 +195,8 @@ and today one is unlikely to use the methods detailed therein.
 
 See if you can wrap your thoughts around the "hodographs" presented.  
 
-![Figure 10 from NACA-TN-1397](images/NACA-TN-2476/Figure 19 concluded.png)  
-_Figure 10 from NACA-TN-1397_  
+![Figure 19 from NACA-TN-2476](images/NACA-TN-2476/Figure 19 concluded.png)  
+_Figure 19 from NACA-TN-2476_  
 
 ###Mechanical Analog  
 
@@ -416,7 +416,7 @@ An online search found NACA-RM-E52B12 cited 3 times. [^10]
 [^5]: 
 https://software.nasa.gov/software/LEW-18573-1,  
 https://ntrs.nasa.gov/citations/19990021235  
-[^6]: Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
+[^6]: Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=  
