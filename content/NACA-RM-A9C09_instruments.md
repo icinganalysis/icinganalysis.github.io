@@ -77,7 +77,7 @@ Another form consists of a cylinder with markings on the surface
 which are used to estimate the extent of the ice accretion.
 The accretion is removed periodically by rotating the cylinder against
 a knife-edge scraper. 
-(See fig. 4 and reference 4.)
+(See fig. 4 and reference 4.)  
 
 ![Figure 3](images/naca-rm-a9c09/Figure 3.png)  
 
