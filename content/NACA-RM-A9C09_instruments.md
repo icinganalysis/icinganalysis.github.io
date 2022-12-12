@@ -407,7 +407,6 @@ and I concur that it is indeed very tedious.
 
 ###Drop Photography  
  
-![Figure 11](images/naca-rm-a9c09/Figure 11.png)  
 ![Figure 11](images/naca-rm-a9c09/Figure 11 new.png)  
 _(image quality is poor in the online version of NACA-RM-A9C09, I made my own scan for here.)_  
 

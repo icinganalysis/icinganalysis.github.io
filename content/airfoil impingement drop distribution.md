@@ -1,7 +1,6 @@
 title: airfoil impingement drop distribution  
 Category: NACA  
 tags: instruments  
-status: draft  
 
 ###_"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"_ [^1]  
 

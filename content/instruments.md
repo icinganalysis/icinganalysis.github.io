@@ -46,7 +46,7 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 >- NACA-TN-2615  
 >- NACA-RM-A54I23
 
-###Inference from airfoil impingement _(in work)_  
+###[Inference from airfoil impingement]({filename}airfoil impingement drop distribution.md)  
 >- NACA-TN-1397  
 >- NACA-TN-2476  
 >- NACA-RM-E52B12  
