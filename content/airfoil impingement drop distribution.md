@@ -2,7 +2,7 @@ title: airfoil impingement drop distribution
 Category: NACA  
 tags: instruments  
 
-###_"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"_  [^1]  
+###"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"    
 
 ![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
 _Figure 5 from NACA-TN-1397_  
@@ -403,7 +403,7 @@ An online search found NACA-RM-E52B12 cited 3 times. [^10]
 
 ##Notes  
 
-[^5]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
+[^1]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^2]: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
 [^3]: Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.  
 [^4]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
