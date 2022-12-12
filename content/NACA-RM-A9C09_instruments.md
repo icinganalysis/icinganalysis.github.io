@@ -49,14 +49,84 @@ Nine instruments were assessed:
 - Sooted Slides  
 - Drop Photography  
 
-The two cylinder based instruments are discussed in detail in the review ([NACA-RM-A9C09]({filename}NACA-RM-A9C09.md)).  
+The cylinder based instruments are discussed in detail in the review ([NACA-RM-A9C09]({filename}NACA-RM-A9C09.md)).  
 
 While the multicylinder is the "standard against which other instruments are calibrated", 
-the other seven non-cylinder instruments will be discuss herein.  
+the other eight instruments will be discuss herein.  
 
 Some of the images in the online version of NACA-RM-A9C09 are of poor quality. 
 I have found clearer, substitute images of the instruments for some cases from 
 other NACA publications.  
+
+###Fixed Cylinder  
+
+>Factor measured.-  
+The fixed cylinder is employed for the determination of the maximum drop diameter.  
+>
+>Principle of operation and description.-  
+The area of impingement of water drops on a nonrotating cylinder is taken as an
+indication of the maximum diameter of the drops present. A large
+cylinder is used to assure a collection efficiency less than 100
+percent. One form of the device consists of a 4-inch diameter
+cylinder with blueprint paper stretched over the surface.
+(See fig. 3 and reference 3.) The cylinder is exposed for a brief period
+of time and the area of impingement, easily discernible on the blue-print paper, 
+provides an indication of the maximum diameter of the
+drops which were present in sufficient quantity to leave a trace.
+Another form consists of a cylinder with markings on the surface
+which are used to estimate the extent of the ice accretion.
+The accretion is removed periodically by rotating the cylinder against
+a knife-edge scraper. 
+(See fig. 4 and reference 4.)
+
+![Figure 3](images/naca-rm-a9c09/Figure 3.png)  
+
+![Figure 4](images/naca-rm-a9c09/Figure 4.png)  
+
+>Range and accuracy.-  
+As discussed in reference 4, considerable
+discrepancy has been noted between the minimum drop diameter as
+indicated by the fixed cylinder and that computed from the rotating-cylinder data. 
+This discrepancy is again present in the 1947-48
+meteorological data obtained during the C-46 airplane icing operation 
+by the Ames Aeronautical Laboratory and has not been resolved
+at the present writing. The most probable source of error in the
+deteration of the maximum drop diameter by the fixed-cylinder
+method is the measurement of the extent of the ice accretion on the
+cylinder. This extent is commonly expressed ae the included angle
+between the two radii of the cylinder which define the extremities of the ice accretion. 
+To obtain an indication of the effect
+of an error in the determination of θ on the value of maximum drop
+diameter, calculations have been made for the 5 inch-diameter cylinder
+and an assumed maximum error of 5° in the value of θ. The result
+of these computations is presented as curve C in figure 2, which
+represents the maximum percent error in the maximum drop diameter
+for a error in θ. On the basis of curve C in figure 2, it
+would appear reasonable to assign the following accuracies to a
+5-inch fixed cylinder:
+
+```text
+Actual maximum drop diameter    Maximum measurement error
+(microns)                       (microns)
+ 5 to 15                         2
+15 to 25                         4
+25 to 35                         7
+35 to 50                        15
+```
+>At the present time it appears that the principal source of
+error in the fixed-cylinder method as used at Ames Aeronautical
+Laboratory during 1948 (fig. 4) lies in the inability of the observer
+to detect the extreme edge of the ice formation. Another contributing 
+factor is probably the effect of the slight change in profile
+due to the presence of the ice layer. Reasonable agreement between
+the rotating-cylinder and fixed-cylinder data may be obtained by
+adding a constant correction of 5° to the observed value of θ,
+These considerations suggest that the method of measuring the angle
+by means of a trace on blueprint paper (fig. 3) is more accurate and
+dependable than by visual observation of the ice formation. The
+range of the device is limited only by the practical aspect of the
+maximum cylinder size that can be employed in any projected investigation.
+
 
 ###Rotating-Disk Icing-Rate Meter  
 
