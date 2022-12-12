@@ -2,19 +2,16 @@ title: airfoil impingement drop distribution
 Category: NACA  
 tags: instruments  
 
-###_"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"_ [^1]  
+###_"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"_  [^1]  
 
 ![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
 _Figure 5 from NACA-TN-1397_  
 
-#NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."
-[^1]  
+#NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."  [^1]   
   
-#NACA-TN-2476, "An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds."  
-[^2]  
+#NACA-TN-2476, "An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds." [^2]    
 
-#NACA-RM-E52B12, "Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°."  
-[^3]  
+#NACA-RM-E52B12, "Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°." [^3]    
 
 ##Summary  
 Three publications detail water impingement calculations.  
@@ -85,8 +82,6 @@ preferably without the necessity of a differential analyzer, which
 will provide some indication of the area and distribution of water
 impingement.  
 
-[^1]  
-
 These three publications provide numerous tables, graphs, 
 and an "equivalent cylinder" method 
 to obtain approximate impingement values without the use 
@@ -94,13 +89,13 @@ of a differential analyzer.
 
 ###Airfoils  
 
-NACA-TN-1397:  
+NACA-TN-1397 [^1]:  
 >12—percent—thick symmetrical Joukowski profile chosen to
-simulate an NACA 0012 section. [^1]
+simulate an NACA 0012 section.
 
-NACA-TN-2476:  
+NACA-TN-2476 [^2]:  
 >The five airfoil cases selected for the water-drop-trajectory
-investigation are listed in the following table: [^2]  
+investigation are listed in the following table:  
 ![NACA-TN-2476 Table of airfoils](images/NACA-TN-2476/Table of airfoils.png)  
 _["Do" is apparently short for "ditto", or "same as above".]_  
 
