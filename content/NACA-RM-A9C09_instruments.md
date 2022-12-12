@@ -93,7 +93,7 @@ by the Ames Aeronautical Laboratory and has not been resolved
 at the present writing. The most probable source of error in the
 deteration of the maximum drop diameter by the fixed-cylinder
 method is the measurement of the extent of the ice accretion on the
-cylinder. This extent is commonly expressed ae the included angle
+cylinder. This extent is commonly expressed as the included angle
 between the two radii of the cylinder which define the extremities of the ice accretion. 
 To obtain an indication of the effect
 of an error in the determination of θ on the value of maximum drop
