@@ -298,7 +298,8 @@ The ""
 
 ##Citations  
 
-NACA-TN-1397 cites six publications  
+NACA-TN-1397 cites six publications.  
+
 - Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.    
 - Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
@@ -306,7 +307,8 @@ NACA-TN-1397 cites six publications
 - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
 - Pierce, B. 0 : A Short Table of Integrals. Ginn and Company, 1929.  
 
-NACA-TN-1397 is cited by 13 publications in the NACA Icing Publication Database [^7]  
+NACA-TN-1397 is cited by 13 publications in the NACA Icing Publication Database [^7].  
+
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
 - Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  
 - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
@@ -323,7 +325,8 @@ NACA-TN-1397 is cited by 13 publications in the NACA Icing Publication Database 
 
 An online search found NACA-TN-1397 cited 38 times. [^8]
 
-NACA-TN-2476 cites nine publications  
+NACA-TN-2476 cites nine publications.  
+
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
 - Patterson, D. M.: A Simplified Procedure for the Determination of Heat Requirements for ice Protection of Fixed Areas of Aircraft. Central Air Documents Office, Technical Data Digest, vol. 14, no, 4, February 15, 1944, pp. 15-23.  
 - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
@@ -334,7 +337,8 @@ NACA-TN-2476 cites nine publications
 - Stack, John: Compressible Flows in Aeronautics. Jour. Aero. Sci., vol. 12, no.2, April 1945, pp. 127-148.  
 - Allen, H. J., and Nitzberg, Gerald E.: The Effect of Compressibility on the Growth of the Laminar Boundary Layer on Low-Drag Wings and Bodies. NACA-TN-1255, 1947.  
 
-NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database [^7]  
+NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database [^7].  
+
 - Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.  
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
 - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
@@ -349,6 +353,7 @@ NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database 
 An online search found NACA-TN-2476 cited 25 times. [^9]  
 
 NACA-RM-E52B12 cites 38 publications  
+
 - Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949.
 - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.
 - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.                                                                                                                          
@@ -389,6 +394,7 @@ NACA-RM-E52B12 cites 38 publications
 - Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.                                                                           
 
 NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database [^7]  
+
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
