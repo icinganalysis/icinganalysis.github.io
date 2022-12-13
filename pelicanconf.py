@@ -1,5 +1,5 @@
 AUTHOR = 'Donald Cook'
-SITENAME = "Blast from the Past:  NACA Icing Publications"
+SITENAME = "Blast from the Past: NACA Icing Publications"
 SITEURL = ''
 
 PATH = 'content'
@@ -23,9 +23,10 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/icinganalysis/icinganalysis.github.io'),
-          ('twitter', 'https://twitter.com/icinganalysis'),
+#          ('twitter', 'https://twitter.com/icinganalysis'),
           ('linkedin', 'https://www.linkedin.com/in/donald-cook-96204316a/'),
-          ('email', 'mailto:icinganalysis@gmail.com')
+          ('email', 'mailto:icinganalysis@gmail.com'),
+          ('mastodon', 'https://mstdn.social/@icinganalysis'),
           )
 
 DEFAULT_PAGINATION = False
