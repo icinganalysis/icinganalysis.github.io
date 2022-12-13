@@ -2,7 +2,6 @@ title: Meteorological Instruments
 category: instruments  
 tags: instruments  
 
-
 ###_"A review ... of meteorological factors conducive to aircraft icing reveals outstanding needs"_  
 
 #Meteorological Instruments Thread  
@@ -51,9 +50,15 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 >- NACA-TN-2476  
 >- NACA-RM-E52B12  
 
+<!--
+###[Corona discharge]({filename}NACA-TN-2458.md)    
+-->
 ###Corona discharge _(in work)_  
 >- NACA-TN-2458  
 
+<!--
+###[Modified pressure probe]({filename}modified pressure probe.md)    
+-->
 ###Modified pressure probe _(in work)_  
 >- NACA-RM-E51E16  
 
