@@ -9,7 +9,7 @@ You do not need an account to view the posts,
 they are available at [mstdn.social/@icinganalysis](https://mstdn.social/@icinganalysis). 
 
 If you have an ActivityPub or "fediverse" social media account, you can follow 
-@icinganalysis@mstdn.social .
+@icinganalysis@mstdn.social.
 
 At the moment, the posts are "old" ones (aren't they all?), 
 but they will eventually (over several weeks) catch up to the current posts. 
