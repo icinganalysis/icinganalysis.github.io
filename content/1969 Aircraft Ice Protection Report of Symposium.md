@@ -47,9 +47,9 @@ protection.
 
 ##Key points
 
-1. The ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance
-2. "[Safe operatons of aircraft in icing] should be accomplished through the inherent capability of the aircraft design rather than to rely upon operational restrictions ..."
-3. This was the first major meeting on aircraft icing since the NACA era.
+1. The ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance  
+2. "[Safe operatons of aircraft in icing] should be accomplished through the inherent capability of the aircraft design rather than to rely upon operational restrictions ..."  
+3. This was the first major meeting on aircraft icing since the NACA era.  
 
 ##Discussion
 

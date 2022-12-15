@@ -1,7 +1,6 @@
 title: NACA-TN-2458  
 Category: NACA  
 tags: instruments  
-status: draft  
 
 ###_"Because the charge placed on the droplets is a function of the droplet size, the size spectrum can be determined ..."_ [^1]  
 
@@ -263,3 +262,4 @@ An online search found NACA-TN-2458 cited three times. [^3]
 [^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951.  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^3]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2458&btnG=  
+
