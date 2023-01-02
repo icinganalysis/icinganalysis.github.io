@@ -10,10 +10,6 @@
 {% block title %}{{ article.title|striptags }}{% endblock %}
 
 {% block extra_head %}
-{% import 'translations.html' as translations with context %}
-{% if translations.entry_hreflang(article) %}
-  {{ translations.entry_hreflang(article) }}
-{% endif %}
 {% endblock %}
 
 {% block content %}
