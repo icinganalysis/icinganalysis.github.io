@@ -14,7 +14,7 @@ tags: introduction
 <p class="aligncenter">
  <img src="images/airplane_banner.png" 
  alt="A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail." 
- width="60%"> 
+ width="80%"> 
 </p>
 
 Many new aircraft icing problems aren’t new at all. 
