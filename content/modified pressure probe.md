@@ -5,15 +5,16 @@ status: draft
 ###_"A measure of the concentration of liquid water in a supercooled cloud is of considerable value in determining the severity of aircraft icing conditions"_  
 
 #"A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight"  
+[^1] 
 
 ##Summary  
 An instrument for automatically recording the occurrence of icing and liquid water content values is described.  
 
 ##Key Points  
 1. The instrument relied on the plugging of holes exposed to icing, which made a measurable pressure difference.  
-2. The instrument was cyclically deice with electric heating.  
+2. The instrument was cyclically deiced with electric heating.  
 3. Data was recorded on film that was later processed.  
-4. The instrument was used on numerous of flights.  
+4. The instrument was used on numerous flights.  
 
 ##Abstract  
 
@@ -45,6 +46,10 @@ cloud liquid-water content based on the multicylinder method for
 measuring supercooled cloud quantities.
 
 ##Discussion  
+
+The publication is succinct, 
+and the online version has good quality scanned images.  
+I will let it tell its story with selected extracts.  
 
 >OPERATING PRINCIPLE
 The instrument operates on differential pressure created when
@@ -171,7 +176,7 @@ cloud quantities.
 
 The instrument was used to survey icing conditions along commercial airline routes [^2], [^3]. 
 Data from hundreds of flights where measured. 
-However, this seemingly valuable data saw surprisingly little use, 
+However, this seemingly valuable data saw surprisingly limited use, 
 something that we will soon look at in the 
 "Conclusions of the Meteorological Instruments Thread". 
 

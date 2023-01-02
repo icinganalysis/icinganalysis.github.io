@@ -59,6 +59,13 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 ###Modified pressure probe _(in work)_  
 >- NACA-RM-E51E16  
 
+
+<!--
+Possible additions  
+- Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.  
+- Golitzine, M.: Method for Measuring the Size of Water Droplets in Clouds, Fogs and Sprays. National Aeronautical Establishment Canada, Note 6 (ME-177), 1951.    
+-->
+
 ###Conclusions of NACA Icing Instruments _(in work)_  
 
 ##Selected Images
