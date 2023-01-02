@@ -2,6 +2,7 @@
 {% if article.translations %}
 Translations:
     {% for translation in article.translations %}
+        <br />
         <a href="{{ SITEURL }}/{{ translation.url }}" hreflang="{{ translation.lang }}">{{ translation.lang }}</a>
     {% endfor %}
 {% endif %}
