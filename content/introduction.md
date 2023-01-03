@@ -80,7 +80,7 @@ As these are technical publications, some readers may be challenged by the scien
 Disclaimer: The NACA publications by themselves would not provide a complete, orderly, or current education in the field of aircraft icing. 
 However, the publications have significantly contributed to several, more recent design resources:
 
-- “Engineering Summary of Airframe Icing Technical Data”, 1969 [^5]  (half of the references are NACA publications)
+- “Engineering Summary of Airframe Icing Technical Data”, 1963 [^5]  (half of the references are NACA publications)
 - “Ice, Frost, and Rain Protection” (original publication 1969) [^6]  
 - “The Aircraft Icing Handbook”, 1991 [^7]
 
