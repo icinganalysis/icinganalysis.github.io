@@ -108,7 +108,7 @@ subject of the discussion that follows.
 
 ###Past scaling laws
 
-There is a review of scaling methods, similar to that in [AEDC-TR-83-30]({filename}AEDC-TR-83-30.md) [^4],
+There is a review of scaling methods, similar to that in [AEDC-TR-85-30]({filename}aedc_tr_85_30.md) [^4],
 defining A<sub>c</sub> and n in slightly different forms:  
 
 >The freezing fraction n is defined as the mass freezing/mass water incoming. 
