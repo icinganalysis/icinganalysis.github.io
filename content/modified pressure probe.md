@@ -1,6 +1,5 @@
 Title: NACA-RM-E51E16  
 Category: NACA  
-status: draft  
 
 ###_"A measure of the concentration of liquid water in a supercooled cloud is of considerable value in determining the severity of aircraft icing conditions"_  
 
@@ -126,7 +125,7 @@ the disk-type meter varies between 12 percent at the low icing rate to
 ±6 percent at the high icing rate, thus providing a total maximum error
 in the calibration of about ±14 percent at the low icing rates to
 ±26 percent at the high icing rates. No effects of air temperature on
-the icing-rate calibration were noted between 0° and 20° F.
+the icing-rate calibration were noted between 0° and 20° F.  
 ![Figure 7](images/naca-rm-e51e16/Figure 7.png)  
 
 >The differential-pressure records shown in figure 10 were taken
