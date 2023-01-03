@@ -90,7 +90,7 @@ size, flight Mach number, and flight ambient air conditions.
 necessary, however, to restrict in some manner the scope of the calculations. 
 
 For point (1), we developed compressible flow relationships in 
-["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp]({filename}aedci1mp.md).
+["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp]({filename}aedc1dmp.md).
 The drag coefficient used is a function of Reynolds number, but not Mach. 
 While the flow Mach numbers considered in NACA-TN-3024 included high values (0.75), 
 the relative drop-to-air Mach values were lower (<0.3), so we will consider
@@ -145,7 +145,7 @@ for motion along stagnation lines.
 We will also restrict our analysis to the stagnation line. 
 However, we will not use the "quasi static" assumption, and 
 will use the water drop relative speed, mass transfer, and heat transfer 
-developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedci1mp.md). 
+developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedc1dmp.md). 
 
 For the cylinder case in NACA-TN-3024, I used the airspeed calculation from 
 Langmuir and ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md) . 

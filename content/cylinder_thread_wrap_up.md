@@ -211,7 +211,7 @@ When we plot the cumulative LWC vs. drop size for the distributions
 they may not appear to be very "similar", but three of them yielded very similar 
 impingement analysis results. 
 The NACA-TN-2904 distribution may appear similar to the "Langmuir_k_phi_unique" line, 
-(see ["Implementation of cylinder impingement correlations in Python"]({filenae}Implementation of cylinder impingement correlations in Python.md))
+(see ["Implementation of cylinder impingement correlations in Python"]({filename}Implementation of cylinder impingement correlations in Python.md))
 but the "Langmuir_k_phi_unique" line yielded a significantly better water catch result. 
 So, I caution against reading too much into distribution plot comparisons for their 
 relative effects on water catch. 
@@ -308,7 +308,7 @@ We have reviewed three of these:
 and [NACA-TN-1904]({filename}NACA-TN-1904.md). 
 
 One may note that the later cylinder publications are not included, 
-notably [NACA-TN-2904]({filename}(NACA-TN-2904.md)) and 
+notably [NACA-TN-2904]({filename}NACA-TN-2904.md) and 
 [NACA-TR-1215]({filename}NACA-TR-1215.md).
 
 The implications of this is that much of the data used was multicylinder data, 

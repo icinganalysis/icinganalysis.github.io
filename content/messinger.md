@@ -122,7 +122,7 @@ pressure promote increased evaporation and high static pressure
 areas suppress evaporation. The magnitude of this effect is 
 considered negligible in this paper.
 
-[NACA-TR-831]({filename}NACA-TR-831) [^3] discusses the related ratio kw/kh:
+[NACA-TR-831]({filename}NACA-TR-831.md) [^3] discusses the related ratio kw/kh:
 
 >![Definitions of kh and kw](images/NACA-TR-831/kh_and_kw.png)  
 >Coefficient of evaporation.—There is some uncertainty as

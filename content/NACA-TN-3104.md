@@ -191,7 +191,7 @@ speeds.
 thickness is usually too slow to be of much value in aircraft
 de-icing at high altitudes.  
 
-For comparison, [Messinger's]({filename}Messinger.md) [^2] estimate for sublimation was:
+For comparison, [Messinger's]({filename}messinger.md) [^2] estimate for sublimation was:
 >Once an unheated surface has been allowed to collect
 ice, the period required to remove it by sublimation
 alone is long. It is of the order of 5 hours for 1/4 in.

@@ -93,7 +93,7 @@ could then be used to calculate the liquid water content of the air.
 To calculate t_o, 
 NACA-ARR-4I11 used a table from [^3]
 which I have not been able to find. 
-For the python implementation, I used the t_o calculation method from [NACA-ARR-5G13]({filename}NACA-ARR-5G13) [^4].
+For the python implementation, I used the t_o calculation method from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^4].
 
 There is a subtlety here for the ice protection application, 
 which assumes that the water drops and vapor are always in equilibrium with the (dry) air temperature. 

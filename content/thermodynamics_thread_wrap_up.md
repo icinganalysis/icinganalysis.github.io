@@ -24,7 +24,7 @@ Data from the post-NACA era are used to resolve open questions
 In the Icing Thermodynamics thread, we saw:
 
 - Calculations of wet surface temperatures [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)  
-- Two dimensional heated surface equations for ice protection [NACA-TR-381]({filename}NACA-TR-381.md)  
+- Two dimensional heated surface equations for ice protection [NACA-TR-8311]({filename}NACA-TR-831.md)  
 - Comparisons of natural icing flight data to 2D ice protection calculations [NACA-TN-1472]({filename}NACA-TN-1472.md)  
 - The "Ludlam limit" for freezing all water impinging [Ludlam, F. H.: The Heat Economy of a Rimed Cylinder]({filename}ludlam.md)  
 - The term "freezing fraction" defined [Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed]({filename}messinger.md)  
@@ -37,7 +37,7 @@ In the Icing Thermodynamics thread, we saw:
 - Measurements of sublimation rates at Mach 1.3 [NACA-TN-3104]({filename}NACA-TN-3104.md)  
 - Measurements and analysis of the "Ludlam limit" for rotating cylinders [NACA-TR-1215]({filename}NACA-TR-1215-Thermodynamics.md)  
 - Experimental verification of the warmest temperature at which ice can accumulate [NACA-TN-3396]({filename}NACA-TN-3396.md)  
-- A distillation of the NACA-era thermodynamics to one control volume [ADS-4]({filename}ADS-4.md)  
+- A distillation of the NACA-era thermodynamics to one control volume [ADS-4]({filename}ads4.md)  
 
 And programs in the Python programming language are available to reproduce the results in several cases [^2].  
 - naca_arr_5g13.py  
@@ -315,7 +315,7 @@ Note that there are many details in implementing the Messinger model,
 and different implementations may yield different results 
 (see the discussion of NASA-TM-107141 above). 
 
-The single control volume anti-ice calculation method from [ADS-4]({filename}ADS-4.md) is still in use today,
+The single control volume anti-ice calculation method from [ADS-4]({filename}ads4.md) is still in use today,
 or at least it has not been deprecated in later design guides such as [^6] and [^7]. 
 However, the wide availability of LEWICE and other 2D and 3D ice protection 
 design tools has largely displaced its use. 

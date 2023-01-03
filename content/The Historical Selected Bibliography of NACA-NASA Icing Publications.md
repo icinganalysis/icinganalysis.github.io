@@ -163,7 +163,7 @@ Links to reviews are included where applicable.
     - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  
     - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
     - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
-        > review: [NACA-TN-3338]({filename}NACA-TN-3388.md)
+        > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)
     - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
     - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
@@ -242,9 +242,9 @@ Links to reviews are included where applicable.
     - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1957.  
-        > review: [NACA-TN-4155]({filename}NACA-TN-4155.md)  
+        > review: [NACA-TN-4155]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964.  
-        > review: [NASA-TM-D-2166]({filename}NACA-TN-D-2166.md)  
+        > review: [NASA-TM-D-2166]({filename}NASA-TM-D-2166.md)  
 
 - Windshield Ice Protection
 
@@ -283,7 +283,7 @@ Links to reviews are included where applicable.
     - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
         > review: [NACA-TN-2799]({filename}NACA-TN-2799.md)  
     - Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
-        > review: [NACA-TN-3105]({filename}NACA-TN-3105.md)  
+        > review: [NACA-TN-3045]({filename}NACA-TN-3045.md)  
     - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
         > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
     - Coles, Willard D.: Experimental Determination of Thermal Conductivity of Low-Density Ice. NACA-TN-3143, 1954.  
@@ -294,7 +294,7 @@ Links to reviews are included where applicable.
 - Miscellaneous
 
     - Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  
-        > review: [SAE preprint No. 225]({filename}NACA-TN-D-2166.md)  
+        > review: [SAE preprint No. 225]({filename}NASA-TM-D-2166.md)  
     - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [Reprint included in NASA-TM-81651]  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  

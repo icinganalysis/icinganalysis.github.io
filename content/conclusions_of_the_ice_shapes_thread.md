@@ -194,7 +194,7 @@ and allow extrapolation to larger horn angles (this is a subset of the data in A
 
 ![Fit of NASA-TM-83556 data](images/nasa-tm-83556/nasa_tm_83556_theta_delta_cd_normalized.png)  
 
-(A comparison to NASA-TM-D-2166 [^9] methods were discussed in the review of [NASA-TM-D-2166]({}NASA-TM-D-2166.md),
+(A comparison to NASA-TM-D-2166 [^9] methods were discussed in the review of [NASA-TM-D-2166]({filename}NASA-TM-D-2166.md),
 and were found to be of limited accuracy.)
 
 With either of the very approximate extrapolation of Cd, 

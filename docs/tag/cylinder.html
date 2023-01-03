@@ -26,7 +26,463 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/naca-tn-3338.html">NACA-TN-3338</a></h1>
+                    <h1 class="entry-title"><a href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html">Conclusions of the Cylinder Thread</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2023-01-03T07:31:45.450056-08:00">
+                Published: Tue 03 January 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-01-03T07:31:45.450056-08:00">
+                Updated: Tue 03 January 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
+
+</footer><!-- /.post-info --><blockquote>
+<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
+</blockquote>
+<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
+<h1>Conclusions of the Cylinders Thread</h1>
+<h2>Summary</h2>
+<p>Data from the post-NACA era are used to resolve open questions </p>
+<h2>Key points</h2>
+<ol>
+<li>The Cylinders thread is summarized</li>
+<li>Post-NACA era data is used to resolve some open questions.</li>
+<li>NACA era data that are still used today are summarized</li>
+</ol>
+<h2>Discussion</h2>
+<h3>Review of the Cylinders thread so far</h3>
+<p>In the Cylinders thread, we saw:</p>
+<ul>
+<li>A pioneering analysis of water drop impingement on a cylinder (<a href="https://icinganalysis.github.io/naca-tn-779.html">NACA-TN-779</a>) </li>
+<li>The most cited aircraft icing publication, with more detail of water drop impingement on a cylinder, and the rotating multicylinder instrument
+(<a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a>) </li>
+<li>In flight icing measurements and an icing severity index (<a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a>)</li>
+<li>An additional way to estimate drop size on a fixed cylinder (<a href="https://icinganalysis.github.io/naca-tn-1424.html">NACA-TN-1424</a>) </li>
+<li>Nine icing instruments compared (<a href="https://icinganalysis.github.io/naca-rm-a9c09.html">NACA-RM-A9C09</a>)</li>
+<li>The ability of the multicylinder method to determine drop distribution was questioned several times, including <a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904</a> </li>
+<li>a comparison test of three similar multicylinders that found differences (<a href="https://icinganalysis.github.io/naca-tn-2708.html">NACA-TN-2708</a>) </li>
+<li><a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is almost a normal distribution"</a> </li>
+<li>The effect of compressibility on impingement calculation was found to be "negligible" (<a href="https://icinganalysis.github.io/naca-tn-2903.html">NACA-TN-2903</a>)  </li>
+<li>An analysis method to "more precisely" calculate water drop impingement was presented (<a href="https://icinganalysis.github.io/naca-tn-2904.html">NACA-TN-2904</a>) </li>
+<li>Data analysis methods can affect multicylinder results (<a href="https://icinganalysis.github.io/naca-rm-e53d23.html">NACA-RM-E53D23</a>) </li>
+<li>The effect of incomplete freezing on multicylinder results was quantified (<a href="https://icinganalysis.github.io/naca-tr-1215.html">NACA-TR-1215</a>) </li>
+<li>A pioneering dye-tracing impingement test method was used (<a href="https://icinganalysis.github.io/naca-tn-3338.html">NACA-TN-3338</a>) </li>
+</ul>
+<p>And several programs in the Python programming language are available to reproduce the results in several cases <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<h2>Open questions</h2>
+<p>We will look at some data from the post-NACA era to help resolve these questions. </p>
+<ol>
+<li>differences in analysis methods between Langmuir and Blodgett <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, and NACA-TN-2904 (which one is more accurate?)</li>
+<li>the accuracy of the multicylinder method</li>
+<li>How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions?</li>
+</ol>
+<h2>Post-NACA era data</h2>
+<h3>NASA-CR-4257 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></h3>
+<p>This reference certainly merits a more complete review, but for now we will settle for a summary. </p>
+<p>In this publication, a dye-tracer method similar to NACA-TN-3338 was used on a 6 inch cylinder for two test cases. 
+Water drop impingement rates were measured and presented as beta curves. 
+The repeatability of the results was estimated as +/-10%.
+There are also beta curves determined by water drop trajectory analysis (the "Breer" method).</p>
+<p>[Note: I have worked with one of the authors, Marlin Breer.]</p>
+<p>Two cases were measured, at 20.36 and 16.45 MVD.</p>
+<p><img alt="Figure 6.6A" src="images/nasa-cr-4257/Figure_6_6a.png">  </p>
+<p><img alt="Figure 6.6B" src="images/nasa-cr-4257/Figure_6_6b.png">  </p>
+<p>Detailed drop size distributions were measured using a "Fiber Optics Particle Sizing System". 
+30 bin data were published 
+(although some of the larger drop size bins had zero water, 
+so they are effectively 23 to 27 bin data). 
+They were compared to a Langmuir D distribution.
+(Nozzle pressure ratios corresponding to the cases above).</p>
+<p><img alt="Figure E9" src="images/nasa-cr-4257/FigureE9_pr_0_65.png"> </p>
+<p><img alt="Figure E6" src="images/nasa-cr-4257/FigureE6_pr0_8_rot.png"></p>
+<h3>LEWICE <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></h3>
+<p>This reference also certainly merits a more complete review, but for now we will settle for a summary. </p>
+<p>The LEWICE computer program calculates water drop impingement rates on a body.
+(It can also calculate ice shapes). </p>
+<p>LEWICE uses, by default, a compressible, potential flow solution 
+(users have an option to use a separately determined flow solution). 
+Drop trajectories are calculated by releasing drops upstream, 
+and seeing where they impinge (not unlike the methods in NACA-TN-779, Langmuir-Blodgett, and NACA-TN-2904).</p>
+<p>We will use it to get calculated water impingement rate values to compare to other data.</p>
+<h3>Comparison of impingement calculation methods</h3>
+<p>We can use the detailed drop distribution data from NASA-CR-4257 to calculate water catch rate curves on the cylinder. </p>
+<p>The NACA-TN-2904 method tends to give higher values for both the maximum Beta value 
+and the total water catch Em value, compared to the test and to the other analysis methods. </p>
+<p>The LEWICE and Langmuir-Bodgett analyses agree well with each other, 
+and agree fairly well with the test values (within the +/-10% variation). 
+The Breer method trends slightly lower.</p>
+<p><img alt="Comparison to Figure 6.6A" src="images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6A.png">  </p>
+<p><img alt="Comparison to Figure 6.6B" src="images/nasa-cr-4257/nasa_cr_4257_beta_comparison_fig6_6B.png">  </p>
+<p>The results are compared in tables below. 
+The theta_max values for the Breer method may not have been digitized well by me, 
+as they were difficult to discern from the figures. </p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Em</th>
+<th>Beta_max</th>
+<th>Theta_max (degrees)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test Figure 6.6A</td>
+<td>0.380</td>
+<td>0.540</td>
+<td>69.9</td>
+</tr>
+<tr>
+<td>Breer analysis</td>
+<td>0.352</td>
+<td>0.520</td>
+<td>81.2</td>
+</tr>
+<tr>
+<td>LEWICE</td>
+<td>0.373</td>
+<td>0.556</td>
+<td>81.6</td>
+</tr>
+<tr>
+<td>NACA-TN-2904</td>
+<td>0.397</td>
+<td>0.620</td>
+<td>82.0</td>
+</tr>
+<tr>
+<td>Langmuir and Blodgett</td>
+<td>0.376</td>
+<td>0.540</td>
+<td>81.7</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Em</th>
+<th>Beta_max</th>
+<th>Theta_max (degrees)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test Figure 6.6B</td>
+<td>0.245</td>
+<td>0.430</td>
+<td>63.2</td>
+</tr>
+<tr>
+<td>Breer analysis</td>
+<td>0.259</td>
+<td>0.445</td>
+<td>69.9</td>
+</tr>
+<tr>
+<td>LEWICE</td>
+<td>0.288</td>
+<td>0.480</td>
+<td>79.8</td>
+</tr>
+<tr>
+<td>NACA-TN-2904</td>
+<td>0.308</td>
+<td>0.549</td>
+<td>80.9</td>
+</tr>
+<tr>
+<td>Langmuir and Blodgett</td>
+<td>0.287</td>
+<td>0.461</td>
+<td>80.2</td>
+</tr>
+</tbody>
+</table>
+<p>While I am inclined to view the Langmuir and Blodgett method as more accurate than the NACA-TN-2904 method, 
+I would like to see more impingement data to determine it with more confidence. 
+There is more cylinder test data that I am aware of, but as ice shapes, 
+not direct impingement measurements, so the question may be not completely resolved. </p>
+<h3>Multicylinder method measurement accuracy</h3>
+<p>Alas, cylinders of different diameters were not included in NASA-CR-4257. 
+However, three different cylinder diameters were included in NACA-TN-3338. 
+We will take another look at that data, and analyze it as multicylinder data.</p>
+<p>I wonder why NACA-TN-3338 did not use the "go-to" method of the multicylinder analysis. 
+This was perhaps a lost opportunity for a drop size comparison that would not require technology beyond what was available. 
+Author von Glahn was familiar with the multicylinder instrument. 
+He was an author of NACA-RM-E51B12, which noted the use of multicylinders 
+in the calibration of the icing tunnel: </p>
+<blockquote>
+<p>Cloud droplet sizes and liquid-water contents in the tunnel
+were measured by the rotating-multicylinder method and were in the
+range of natural icing conditions. </p>
+</blockquote>
+<p>While the cylinders were not rotating, that does not limit the applicability of the method, 
+as the main reason for rotating the cylinders is to make any ice accretion stay close to a cylindrical shape,
+rather than some other shape for which the impingement characteristics are not known. 
+With the dye-tracer method, the surface shape does not change. </p>
+<p>We will use the Python tools previously developed for multicylinders, 
+using the Langmuir and Blodgett, and the NACA-TN-2904 implementations. </p>
+<p><img alt="Figure 20" src="images/naca-tn-3338/Figure20.png"> </p>
+<p>I digitized only one set of values for each cylinder diameter. 
+Industrious readers may wish to clone the software repository, 
+digitize more cases, and see if the results below still hold up. </p>
+<p>Note the small and subtle difference between MED and MVD from AC 20-73A <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>:</p>
+<blockquote>
+<p>Appendix C icing conditions: 14 CFR parts 25, Appendix C and 29, Appendix C certification
+icing condition standard for approving ice protection provisions on aircraft. The conditions are
+specified by altitude, temperature, liquid water content (LWC), representative drop size (mean
+effective diameter (MED)), and cloud horizontal extent.</p>
+<blockquote>
+<p>NOTE: In Appendix C, the term “mean effective diameter” refers to
+what is now called the “median volume diameter (MVD).” The MED
+of Appendix C was determined by using rotating multi-cylinders and
+assuming a Langmuir distribution.</p>
+</blockquote>
+</blockquote>
+<p>So, I will use MED when reporting multicylinder results.</p>
+<table>
+<thead>
+<tr>
+<th>Multicylinder Method</th>
+<th>MED (micrometer)</th>
+<th>LWC (g/m^3)</th>
+<th>Best Fit Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Langmuir and Blodgett (original)</td>
+<td>18.8</td>
+<td>0.458</td>
+<td>E</td>
+</tr>
+<tr>
+<td>NACA-TN-2904</td>
+<td>21.1</td>
+<td>0.381</td>
+<td>E</td>
+</tr>
+<tr>
+<td>Langmuir and Blodgett (k_phi_unique)</td>
+<td>21.5</td>
+<td>0.413</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<p>When the distributions determined by the multicylinder methods are run in LEWICE, 
+the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
+and less well for the NACA-TN-2904 multicylinder method. </p>
+<p><img alt="Water catch rates calculated with Langmuir multicylinder fit" src="images/naca-tn-3338/Langmuir E original_6.png"> </p>
+<p><img alt="Water catch rates calculated with NACA-TN-2904 multicylinder fit" src="images/naca-tn-3338/Langmuir E NACA-TN-2904_6.png"> </p>
+<p><img alt="Water catch rates calculated with Langmuir multicylinder_k_phi_unique fit" src="images/naca-tn-3338/Langmuir E k_phi_unique_6.png"></p>
+<p>So, a drop distribution determined by the multicylinder method 
+(which is driven by cylinder Em values) 
+can be used to reproduce well the composite water catch, built from Beta curves. </p>
+<p>This is an illustration of the applicability and accuracy of the multicylinder distribution measurements, 
+at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in this case).</p>
+<p>The comparisons above also add weight to the view that the Langmuir and Blodgett methods are more accurate than those of NACA-TN-2904. </p>
+<h3>A surprise from NACA-TN-3338</h3>
+<p>NACA-TN-3338 presented (at least) three drop distributions to represent the same test drop distribution. 
+While I was sceptical of them, I ran them in LEWICE, 
+and the Example from NACA-TN-3338 did an excellent job of reproducing the measured masses. </p>
+<p><img alt="Water catch rates calculated with NACA-TN-3338 Example distribution" src="images/naca-tn-3338/Example_6.png"></p>
+<p>When we plot the cumulative LWC vs. drop size for the distributions 
+they may not appear to be very "similar", but three of them yielded very similar 
+impingement analysis results. 
+The NACA-TN-2904 distribution may appear similar to the "Langmuir_k_phi_unique" line, 
+(see <a href="https://icinganalysis.github.io/implementation-of-cylinder-impingement-correlations-in-python.html">"Implementation of cylinder impingement correlations in Python"</a>)
+but the "Langmuir_k_phi_unique" line yielded a significantly better water catch result. 
+So, I caution against reading too much into distribution plot comparisons for their 
+relative effects on water catch. </p>
+<p><img alt="Comparison of distributions" src="images/naca-tn-3338/distributions.png"></p>
+<h1>Natural drop size distributions</h1>
+<p>We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>. 
+(Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). </p>
+<p><img alt="FAA-RD-80-24 Figure 20" src="images/FAA_RD_80_24/Figure20.png"></p>
+<p>I selected the 6000 ft data.
+Alas, there was not a multicylinder instrument included in this test, 
+so we will again use LEWICE to get the cylinder masses to use for the fitting. 
+I used the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.</p>
+<p><img alt="Langmuir distribution fits to Figure 20 data" src="images/FAA_RD_80_24/RD80_mc_fits.png"></p>
+<p>As in the prior examples, Beta curves were calculated with LEWICE. 
+The Langmuir C best fit reproduces the measure test distribution ("ASSP") 
+Beta curves very well, 
+and the Langmuir E fit works well. </p>
+<p><img alt="Calculated beta curve for the cylinders with distibutions" src="images/FAA_RD_80_24/RD80_betas.png"></p>
+<p>So, even if multicylinder distributions may not appear to be similar to a 
+more detailed, measured natural distribution, they can be used to reproduce impingement values 
+quite well. 
+The apparent difference in drop size distributions made 
+little effective difference in impingement. 
+For this case, at least, a Langmuir C fit or a Langmuir E fit both work well.
+For me, this mitigates the concern expressed in NACA-TN-2904 and several other places of: </p>
+<blockquote>
+<p>... the inherent extreme insensitivity of the rotating multicylinder method to
+differences in droplet size distributions ...</p>
+</blockquote>
+<p>A Langmuir distribution representation of an icing condition may not be the actual distribution, 
+but it is a functionally representative distribution. </p>
+<h2>NACA era data that are still used today</h2>
+<h3>Langmuir drop size distributions</h3>
+<p>A version of the drop distributions was published in 1944, 
+and the more often cited version was published in 1946. 
+See <a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> 
+and <a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is (almost) a normal distribution"</a> </p>
+<p><img alt="Table IX" src="images/Mathematical Investigation of Water Droplet Trajectories/distributions.png"> </p>
+<p>More than 70 years later, they are still in use. 
+From FAA AC 20-73A, "Aircraft Ice Protection" <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>: </p>
+<p><img alt="Table I-1" src="images/ac2073a/LangmuirD.png"></p>
+<h3>Terminology</h3>
+<p>Many of the terms still in use were in Langmuir and Blodgett:  </p>
+<p><img alt="K terms" src="images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png"></p>
+<p>From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>:</p>
+<p><img alt="K terms" src="images/faa_ct_88_k_terms.png"></p>
+<h3>Correlations</h3>
+<p>The impingement correlations form Langmuir and Blodgett, 
+and NACA-TN-2904 were summarized 
+and are available in plots such as this from the "Aircraft Icing Handbook" <sup id="fnref2:8"><a class="footnote-ref" href="#fn:8">8</a></sup>:</p>
+<p><img alt="Figure 2-44" src="images/FAA_CT_fig2_44.png"></p>
+<p>Langmuir and Blodgett correlation formulas are also used, as in the from 
+"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>:</p>
+<p><img alt="Page A2" src="images/LTR-LT-92_correlations.png"></p>
+<h3>Approximation of an airfoil leading edge</h3>
+<p>The "Manual of Scaling Methods" <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup> details the use Langmuir and Blodgett correlations for 
+a cylinder as an approximation of an airfoil leading edge: </p>
+<p><img alt="equation 3.5" src="images/Manual of scaling methods/terms1.png"> 
+<img alt="equation 3.8" src="images/Manual of scaling methods/terms2.png"> 
+<img alt="Figure 3.3.2" src="images/Manual of scaling methods/terms3.png"> </p>
+<h3>Icing conditions in regulations</h3>
+<p>The "Aircraft Icing Handbook" <sup id="fnref3:8"><a class="footnote-ref" href="#fn:8">8</a></sup> summarizes data used to develop icing regulations. 
+We have reviewed three of these:
+<a href="https://icinganalysis.github.io/naca-tn-1393.html">NACA-TN-1393</a>, 
+<a href="https://icinganalysis.github.io/naca-tn-1424.html">NACA-TN-1424</a>, 
+and <a href="https://icinganalysis.github.io/naca-tn-1904.html">NACA-TN-1904</a>. </p>
+<p>One may note that the later cylinder publications are not included, 
+notably <a href="https://icinganalysis.github.io/naca-tn-2904.html">NACA-TN-2904</a> and 
+<a href="https://icinganalysis.github.io/naca-tr-1215.html">NACA-TR-1215</a>.</p>
+<p>The implications of this is that much of the data used was multicylinder data, 
+processed with the methods of Langmuir and Blodgett, 
+and not the "more precisely" calculated methods in NACA-TN-2904. 
+NACA-TN-2904 was published too late to directly influence the icing regulations. </p>
+<p><img alt="Figure 3-1" src="images/Derivation of FAR standards.png"></p>
+<p>The citation on the figure "Reference 3-12" is NACA-TN-2569, 
+but the figure is not to be found there, 
+and NACA-TN-2569 was published before the icing regulations were published. 
+I have not found where the figure was originally from. </p>
+<p>NACA-TN-1855 (and others) are cited directly in the US icing regulations: </p>
+<p><img alt="Appendix C Figure 1" src="images/AppCfig1.png"></p>
+<h3>Cylinder icing thermodynamics for icing indication and detection</h3>
+<p>NACA-TR-1215 studied several flight icing data cases, 
+and found some were affected by not all of the available water freezing. 
+An analysis of the freezing rates agreed well with the observed values: </p>
+<p><img alt="Figure 24b" src="images/naca-tr-1215/Fig24small.png"></p>
+<p>"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" <sup id="fnref2:9"><a class="footnote-ref" href="#fn:9">9</a></sup> shows a similar effect, 
+plotted in a different format: </p>
+<p><img alt="Fig. 3" src="images/LRT-LT-92Fig3.png"></p>
+<h2>Conclusion</h2>
+<p>Langmuir was widely acknowledged in the post-NACA era, including by another often cited author of aircraft icing publications 
+(B.L. Messinger, 1969 <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup>):</p>
+<blockquote>
+<p>Thanks to the basic work of Dr. Irving Langmuir and his associates in the early
+194O's, we came to understand the physics of the behavior of cloud particles in 
+the aerodynamic flow field of an airplane.</p>
+</blockquote>
+<p>Langmuir frankly eclipsed the many efforts of NACA on the icing of cylinders 
+and the multicylinder instruments, 
+including the "more precisely" calculated NACA-TN-2904.</p>
+<p>The bulk of the flight data that icing regulations were developed from were from multicylinder instruments, 
+the data of which was processed with methods from Langmuir and Blodgett. 
+This quote from NACA-RM-E53D53 over-states the situation a bit, but it was not far from the reality of the time:</p>
+<blockquote>
+<p>The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft</p>
+</blockquote>
+<p>Much effort went into estimating the potential errors of the multicylinder method, 
+particularly identifying the distribution type (A, B, C, D, E).
+As shown in examples above, calculated impingement values were affected to a limited 
+extent by the use of a C or an E distribution, supporting the continued use of the 
+distributions as "representative". </p>
+<p>NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
+and is a good introduction to <a href="https://icinganalysis.github.io/icing-thermodynamics.html">icing thermodynamics</a>. </p>
+<h2>Related</h2>
+<p>A version of this post that was presented to the 
+SAE AC-9C Aircraft Icing Technology Committee <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> 
+is <a href="images/cylinder_thread_wrap_up/SAE presentation Cook.pdf">available as a pdf</a>. </p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.<br>
+I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whitier, L.,:
+"An Experimental Method for Measuring" Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies", NASA-CR-4257, DOT/FAA/CT-87/22, 1987.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>https://software.nasa.gov/software/LEW-18573-1,<br>
+https://ntrs.nasa.gov/citations/19990021235&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Anon.:"Aircraft Ice Protection", FAA AC 20-73A, https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>R. Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>“Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .<br>
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement", LTR-LT-92, November, 1978.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
+Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.<br>
+I could not find this on the NTRS or on the FAA site. 
+It is available at <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">DTIC</a>.&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://icinganalysis.github.io/naca-tn-3338.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3338">NACA-TN-3338</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2022-12-06T13:06:12.493372-08:00">
                 Published: Tue 06 December 2022
@@ -46,279 +502,13 @@
 <!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
 
-</footer><!-- /.post-info --><h3>&gt;<em>"a method has been developed ... to determine the droplet size distribution of the impinging cloud"</em></h3>
+</footer><!-- /.post-info -->                <h3>&gt;<em>"a method has been developed ... to determine the droplet size distribution of the impinging cloud"</em></h3>
 <h1>"A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
 <h2>Summary</h2>
-<p>A pioneering test method is described, and a drop size measurement analysis is proposed.</p>
-<h2>Key points</h2>
-<ol>
-<li>A dye-tracer blotter-paper water drop impingement measurement technique is described. </li>
-<li>An analysis of test results to determine the water spray drop size distribution is described. </li>
-<li>The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes.</li>
-<li>We see the use of the Icing Research Tunnel for the first time in the Cylinders thread.</li>
-</ol>
-<h2>Abstract</h2>
-<blockquote>
-<p>A dye-tracer technique has been developed whereby the quantity of
-dyed water collected on a blotter-wrapped body exposed to an air stream
-containing a dyed-water spray cloud can be colorimetrically determined
-in order to obtain local collection efficiencies, total collection 
-efficiency, and rearward extent of impingement on the body. In addition, a
-method has been developed whereby the impingement characteristics obtained 
-experimentally for a body can be related to theoretical impingement data 
-for the same body in order to determine the droplet size 
-distribution of the impinging cloud. Several cylinders, a ribbon, and an
-aspirating device to measure cloud liquid-water content were used in the
-studies presented herein for the purpose of evaluating the dye-tracer
-technique. Although the experimental techniques used in the dye-tracer
-technique require careful control, the methods presented herein should be
-applicable for any wind tunnel provided the humidity of the air stream
-can be maintained near saturation.</p>
-</blockquote>
-<h2>Discussion</h2>
-<h3>The spray system</h3>
-<p>There is a detailed discussion of a dye and blotter paper method of experimentally 
-determining water drop impingement rates.  </p>
-<p>The (then) NACA Lewis Icing Research Tunnel (IRT) (now NASA Glenn) was used in the test. 
-Cylinder test articles were constructed. </p>
-<p><img alt="Figure 9" src="images/naca-tn-3338/Figure9.png"></p>
-<p>After the blotter paper was exposed to water spray with dye in it, the paper was analyzed for dye concentration. </p>
-<p><img alt="Figure 12" src="images/naca-tn-3338/Figure12.png"></p>
-<p>Special nozzles with fast acting solenoids were used, but the spray part was the same as the usual IRT nozzles. </p>
-<blockquote>
-<p>These nozzles are of the same design as those used
-in the main icing spray system of the icing tunnel and are located in
-the same low-air-velocity section of the tunnel.</p>
-</blockquote>
-<p><img alt="Figure 11" src="images/naca-tn-3338/Figure11.png"></p>
-<h3>The impingement data</h3>
-<p>After a chemical analysis of the dye concentration in the blotter paper 
-the local water catch rates were calculated. </p>
-<p><img alt="Figure 20" src="images/naca-tn-3338/Figure20.png"></p>
-<h3>The distribution analysis</h3>
-<p>The impingement is divided into arbitrary segments, 
-and beta curves corresponding to drop sizes for the impingement limit are 
-constricted and summed to yield an approximate total beta curve. 
-Fractions of total water content for each segment are determined during the process. </p>
-<p><img alt="Figure 17" src="images/naca-tn-3338/Figure17.png"></p>
-<p>The values from each group or segment are plotted, 
-and a "faired" curve through them is manually produced. </p>
-<p><img alt="Figure 18" src="images/naca-tn-3338/Figure18.png"></p>
-<p>The cylinder angle theta values can be translated into drop impingement limits and plotted. 
-(Note that drop radius "a" is used here, not diameter) </p>
-<p><img alt="Figure 21" src="images/naca-tn-3338/Figure21.png"></p>
-<p>It is not surprising that the curves tend to flat-line at low drop sizes. 
-The drop radii for K=0.125, where impingement would be zero, are noted on the figure as "ac".</p>
-<p>The analysis was also conducted using data from Langmuir and Blodgett,
-shown in Figure 22 below. 
-It is not clear how this was done, as Langmuir and Blodgett did not provide beta curves. 
-I speculate that the Langmuir and Blodgett Em and Theta_max values were used with an
-assumed cosine relationship as in NACA-TN-2904 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.</p>
-<blockquote>
-<p><img alt="Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)" src="images/naca-tn-2904/beta_cos.png"></p>
-</blockquote>
-<p><img alt="Figure 22" src="images/naca-tn-3338/Figure22.png"></p>
-<p>The results from Figure 22 were set aside in favor of the NACA-TN-2904 method results from Figure 21.</p>
-<blockquote>
-<p>The differences noted (between
-figs. 21 and 22) are again caused by the differences inherent in the
-theoretical results of references 1 and 2. Because more data points
-are presented and the accuracy of the data is stated, reference 1 will
-be used hereinafter rather than reference 2 as a basis for the 
-subsequent results.</p>
-</blockquote>
-<p>The flat results for small drop sizes in Figure 21 led to a re-evaluation:</p>
-<blockquote>
-<p>In obtaining a single curve which is the best representation of
-the actual droplet size distribution existing in the tunnel for a given
-set of spray conditions, it is reasonable to use an average of the nine
-curves (three repeats times three cylinder sizes) in the larger droplet
-size range where the results from all three cylinder sizes are in
-reasonable agreement. In the range of the smaller droplet sizes (a &lt; 6
-microns, see fig. 21), it appears that the theoretical data are not
-strictly applicable because a different droplet size distribution curve
-is obtained for each cylinder size. However, the end point of the droplet 
-size distribution curve (a = 0, w = wt) is single-valued and is
-specified by the wt values obtained with the aspirating device. The
-averages (for several repeats) of the total liquid-water content wt
-obtained with the aspirator are summarized as follows:</p>
-</blockquote>
-<p><img alt="LWC Table from page 24" src="images/naca-tn-3338/LWC_table_page_24.png"></p>
-<blockquote>
-<p>Because of the cylinder-size trend for droplet radii less than 
-approximately 6 microns (fig. 21), a straight line was faired between a 6
-microns and the tabulated value of wt for each pressure ratio. The
-results of this interpretation of the data are shown in figure 23; the
-reasoning underlying this interpretation is presented in the DISCUSSION
-section.</p>
-</blockquote>
-<p><img alt="Figure 23" src="images/naca-tn-3338/Figure23.png"></p>
-<h3>Need an independent measurement of drop sizes</h3>
-<blockquote>
-<p>The accuracy of determining droplet size distribution by the use of
-the dye-tracer technique together with theoretical trajectory data could
-be definitely established if an accurate instrument were available to
-measure directly a representative sample of all droplet sizes present in
-the experimental spray cloud. The present state of development of the
-camera (ref. 16) or the oiled-slide technique (ref. 17) for measuring
-droplet size is not considered so adequate a means for determining droplet 
-size as the indirect method herein described.</p>
-</blockquote>
-<p>Unfortunately, we cannot know the accuracy of the method with the data in NACA-TN-3338, 
-as there was not an independent measurement of the drop size distribution. 
-Figure 23 frankly does not look like a natural or artificially produced drop size spectrum that I have seen 
-(they usually have an "S" shape, not a steep slope at one end), 
-but perhaps the nozzles used in the test produced that size characteristic. 
-I think that it is more likely that the aspirating device used to measure LWC was not very accurate, 
-resulting in an artificially high left end point.</p>
-<p>I think that here NACA-TN-3338 missed an opportunity. 
-The oiled-slide measurement technique was studied in detail by Langmuir <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, 
-and the potential shortcoming of the method noted. 
-However, the technique can yield accurate results, 
-if care is taken in both the sample collection and the processing of the samples. 
-[I have used the oiled-slide method and other drop sizing instruments in natural icing flight tests].  </p>
-<p>Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
-see <a href="https://icinganalysis.github.io/a-langmuir-b-drop-size-distribution-is-almost-a-normal-distribution.html">"A Langmuir B drop size distribution is (almost) a normal distribution"</a>. 
-And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. </p>
-<h3>Icing Research Tunnel</h3>
-<p>I note how casually the (then) NACA Lewis Icing Research Tunnel (IRT) is mentioned (now the NASA Glenn IRT). </p>
-<blockquote>
-<p>The experimental studies of droplet
-impingement characteristics on cylinders were conducted in the 6- by
-9-foot-test section of the NACA icing tunnel.</p>
-</blockquote>
-<p>There is no citation for the tunnel and its capabilities. 
-(In contrast, there are at several publications in the calibration of the IRT). 
-The ASME recognized the IRT as an "International Historic Mechanical Engineering Landmark" in 1987 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. 
-Readers may be interested in 
-<a href="https://ntrs.nasa.gov/citations/20020066162">"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety</a>.</p>
-<p>The drop measurement technique described here may not be completely useful for the calibration of the IRT, 
-as even if the spray parts of the nozzles were similar, 
-installation details can cause differences in the spray cloud. 
-And NACA-TN-3338 reported three candidate distributions, without data to select which is the best one.</p>
-<p>The IRT merits further review. 
-For now, I will note that calibration of the tunnel in the NACA era was a challenge, 
-in part due to limited instrumentation.
-Author von Glahn of NACA-TN-3338 was an author of NACA-RM-E51B12 <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>, which noted the use of multicylinders 
-in the calibration of the icing tunnel: </p>
-<blockquote>
-<p>Cloud droplet sizes and liquid-water contents in the tunnel
-were measured by the rotating-multicylinder method and were in the
-range of natural icing conditions. </p>
-</blockquote>
-<p>Contrast that to the detail in a post-NACA calibration of the IRT <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.</p>
-<h2>Conclusions</h2>
-<blockquote>
-<p>A technique for experimentally determining the impingement 
-characteristics of an arbitrary body and a method whereby the droplet size
-spectrum of the spray cloud can be determined from the experimental 
-impingement on a body for which the theoretical trajectories are known
-have been developed. These developments present an opportunity to study
-experimentally the impingement characteristics of other shapes such as
-airfoils, radomes, inlet cowlings, and asymmetrical bodies. Although
-analytical trajectory studies can be made for these various bodies, the
-problems associated with the determination of the flow fields and 
-consequent droplet trajectories often prove difficult and tedious. Use of
-the dye-tracer technique for arbitrary shapes in any suitable testing
-facility would proceed as described herein for cylinders: The droplet
-size distribution in the spray cloud would be established using bodies
-for which the theoretical impingement characteristics are known, while
-an aspirating device similar to the one described (appendix B) may be
-used for the determination of total liquid-water content. The unknown
-body with blotter then would be exposed and analyzed for local rates of
-water impingement, including the determination of the maximum extent or
-limit of impingement, and integrated for total collection efficiency.
-Impingement limits and collection efficiency are often presented.</p>
-<p>...</p>
-<p>The method of calculation is a step-wise approximation
-and may be derived by methods similar to those used for obtaining the
-droplet distribution in the section METHOD OF DETERMINING DROPLET-SIZE
-DISTRIBUTION. The results of such an analysis would be useful in (1)
-calculating the impingement rates for a body in a cloud of arbitrary
-droplet size distribution, and (2) determining whether the assumptions
-used in theoretical trajectory calculations are valid. This determination 
-requires an independent means (reliable instrument) for measuring
-the droplet size distribution.</p>
-</blockquote>
-<p>The accuracy of the various drop distributions shown above are unknown, 
-due to the lack of an independent comparison measurement. 
-I do not know of data from the NACA era that could clarify the accuracy. 
-We will look at a comparison of post-NACA data at the end of the Cylinders thread.</p>
-<h2>Citations</h2>
-<p>NACA-TN-3338 cites 13 publications:</p>
-<ul>
-<li>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.</li>
-<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)</li>
-<li>Tribus, Myron: Modern Icing Technology - Lecture Notes. Eng. Res. Inst., Univ. of Michigan, Jan. 1952. (Air Res. and Dev. Command, USAF Contract AF 18(600)-51, E.O. No. 462 Br-1, Proj. M992-E.)</li>
-<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.</li>
-<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.</li>
-<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.</li>
-<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.</li>
-<li>Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.</li>
-<li>Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)</li>
-<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.</li>
-<li>Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.</li>
-<li>Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.</li>
-<li>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)</li>
-</ul>
-<p>In the NACA Icing Publication Database <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, NACA-TN-3338 is cited 10 times:</p>
-<ul>
-<li>Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.</li>
-<li>Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.</li>
-<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.</li>
-<li>Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.</li>
-<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.</li>
-<li>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.</li>
-<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.</li>
-<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.</li>
-<li>Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.</li>
-<li>Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.</li>
-</ul>
-<p>An online search <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> found 26 citations of NACA-TN-3338.</p>
-<h2>Related</h2>
-<p>The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>. 
-That data did have an independent measurement of the drop size distribution. </p>
-<h2>Notes</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
-https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p>Ide, Robert F., Oldenberg, John R.:"Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
-https://apps.dtic.mil/sti/pdfs/ADA392590.pdf&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p><a href="https://icinganalysis.github.io/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:8">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:9">
-<p>Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Whitmer, L.: "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three- Dimensional Bodies," NASA-CR-4257, Nov. 1989.
-https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>A pioneering test method …</p>
+                <a class="readmore" href="https://icinganalysis.github.io/naca-tn-3338.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -351,46 +541,6 @@ https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf&#
 <p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
 <h2>Summary …</h2>
                 <a class="readmore" href="https://icinganalysis.github.io/naca-rm-a9c09.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html" rel="bookmark"
-                           title="Permalink to Conclusions of the Cylinder Thread">Conclusions of the Cylinder Thread</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-11-16T10:48:23.601677-08:00">
-                Published: Wed 16 November 2022
-        </abbr>
-		<br />
-        <abbr class="modified" title="2022-11-16T10:48:23.601677-08:00">
-                Updated: Wed 16 November 2022
-        </abbr>
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/cylinder.html">cylinder</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h2>"The collection of ice by the cylinders is similar to the collection of ice by airplane components." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h2>
-</blockquote>
-<p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png"></p>
-<h1>Conclusions of the Cylinders Thread</h1>
-<h2>Summary</h2>
-<p>Data from the post-NACA era are used to resolve open questions </p>
-<h2>Key points</h2>
-<ol>
-<li>The Cylinders thread …</li></ol>
-                <a class="readmore" href="https://icinganalysis.github.io/conclusions-of-the-cylinder-thread.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
