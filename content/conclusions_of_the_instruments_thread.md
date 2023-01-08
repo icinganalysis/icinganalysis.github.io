@@ -1,6 +1,5 @@
 title: Conclusions of the Meteorological Instruments Thread  
 category: NACA  
-status: draft  
 
 ###_"difficulties with the calibration proved to be more serious than had been anticipated"_ [^1]  
 
@@ -239,7 +238,7 @@ as determined by the method described by Lewis and Hoecker, bears the
 presumed relationship to the volume median diameter and the drop-size
 distribution.
 
-The FAA guidance material also still cites Langmuir distributions (AC 20-73A, 2016 [^14]). 
+The FAA guidance material also still cites Langmuir distributions (AC 20-73A, 2016 [^14]).  
 
 ####Aircraft Icing Handbook (1992), Vol. II [^15]  
 

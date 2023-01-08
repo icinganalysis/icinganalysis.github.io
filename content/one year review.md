@@ -6,8 +6,8 @@ status: draft
 
 #One year of "Blast from the Past: NACA Icing Publications"  
 
-![Making delicate adjustments](images/making adjustments.png)  
-_[Making delicate adjustments in an icing wind tunnel.]_  
+![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail.](images/airplane_banner_colorized.png)  
+_Image from "NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members" 6505/NACA-1947/8, 1947. (colorized)_  
 
 I made 50+ posts in the past 12 months.   
 
@@ -20,7 +20,7 @@ I set out to review the 132 publications in the
 
 Out of 132 publications, 
 I wrote 33 reviews.   
-[links to the reviews are included in the link above.]  
+(links to the individual reviews are included in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md))  
 
 There is still a long way to go!    
 
@@ -88,12 +88,21 @@ and traced uses to the current era.
 The [Icing Wind Tunnel Test Thread]({filename}icing_wind_tunnel_test.md) 
 covered something that the 132 publications did not directly include, 
 the NACA-era Lewis Icing Research Tunnel (IRT) and other tunnels, and their uses. 
-This included 11 reviews, several from the post-NACA era.  
+This included 11 reviews, several from the post-NACA era:
+
+>- [AEDC-TR-85-30, "Analysis and Verification of the Icing Scaling Equations"]({filename}aedc_tr_85_30.md)    
+>- [AEDC-TR-87-23, "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude"]({filename}aedc_tr_87_23.md)   
+>- [Bilanin Pi-Terms and the Weber Number]({filename}bilanin_pi_terms.md)  
+>- [NASA/CR-2004-212875 "Manual of Scaling Methods"]({filename}NASA-CR-2004-212875.md)  
+>- [The Effects of Humidity]({filename}effects_of_humidity.md)   
+>- [Anti-Ice Test Similarity, AIAA-2017-3927, "Evaluation of Alternative Altitude Scaling Methods for Thermal Ice Protection System in NASA Icing Research Tunnel"]({filename}aiaa_2017_3927.md)    
+>- [Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)  
 
 The [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md) 
 had four reviews, but only one from the 132 NACA icing publications.   
 
 The [Diversions]({filename}diversions.md) had three reviews of post-NACA publications.  
+
 >- [The Greatest Thing That You Have (Probably) Never Read: AC 00-6A]({filename}ac00-6a.md)  
 >- [The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md)   
 >- [The Greatest Thing That You Have (Probably) Never Read: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
@@ -118,14 +127,13 @@ I have a few criteria for what to review:
 2. Is this on the list of things I wish that I had known earlier in my career?  
 3. Is there enough material for a topic "thread"?  
 
-And there are "bonus points" for good images.  
+And there are bonus points for good images.  
 
 There are many worthy publications that may not pass through the criteria above.  
 
 Candidates for future topic threads include:  
 
-- Ice Protection Systems    
-- Ice Protection Tests  
+- Ice Protection  
 - Meteorology of Icing Clouds
 - The University of Michigan 1953 Airplane Icing Information Course    
 
