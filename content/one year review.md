@@ -1,13 +1,12 @@
 title: One Year Review  
 Category: NACA  
-status: draft  
 
 ###_"... Before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's."_ [^1]  
 
 #One year of "Blast from the Past: NACA Icing Publications"  
 
 ![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail.](images/airplane_banner_colorized.png)  
-_Image from "NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members" 6505/NACA-1947/8, 1947. (colorized)_  
+_Image from "NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members" 6505/NACA-1947/8, 1947. (colorized) (and the new logo for 2023)_  
 
 I made 50+ posts in the past 12 months.   
 
@@ -96,7 +95,7 @@ This included 11 reviews, several from the post-NACA era:
 >- [NASA/CR-2004-212875 "Manual of Scaling Methods"]({filename}NASA-CR-2004-212875.md)  
 >- [The Effects of Humidity]({filename}effects_of_humidity.md)   
 >- [Anti-Ice Test Similarity, AIAA-2017-3927, "Evaluation of Alternative Altitude Scaling Methods for Thermal Ice Protection System in NASA Icing Research Tunnel"]({filename}aiaa_2017_3927.md)    
->- [Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)  
+>- [Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)   
 
 The [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md) 
 had four reviews, but only one from the 132 NACA icing publications.   

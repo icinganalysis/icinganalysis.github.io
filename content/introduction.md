@@ -73,7 +73,7 @@ the National Aeronautic Association 1946 Collier Trophy award to Lewis Rodert of
 The NACA publications were key to establishing the description of the icing weather used in aircraft design and certification, 
 which are still current. 
 The United States aircraft certification requirements still directly cite 
-(circa 2021) NACA publications as the sources of data [^4].
+(circa 2023) NACA publications as the sources of data [^4].
 
 As these are technical publications, some readers may be challenged by the science and technology discussed. 
 [You may want to see ["A Gentle Introduction to Aircraft Icing"]({filename}a_gentle_introduction_to_aircraft_icing.md)]
