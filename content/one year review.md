@@ -5,7 +5,17 @@ Category: NACA
 
 #One year of "Blast from the Past: NACA Icing Publications"  
 
-![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail.](images/airplane_banner_colorized.png)  
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+<p class="aligncenter">
+ <img src="images/airplane_banner_colorized.png" 
+ alt="A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail." 
+ width="80%"> 
+</p>
 _Image from "NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members" 6505/NACA-1947/8, 1947. (colorized) (and the new logo for 2023)_  
 
 I made 50+ posts in the past 12 months.   
