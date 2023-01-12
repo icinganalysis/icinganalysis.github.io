@@ -98,7 +98,11 @@ This included 11 reviews, several from the post-NACA era:
 >- [Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)   
 
 The [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md) 
-had four reviews, but only one from the 132 NACA icing publications.   
+had four reviews, but three were not of NACA icing publications.  
+
+>- [Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air]({filename}Langmuir Rising Currents.md)  
+>- [Let's build a 1D particle motion simulation: Impingement on the stagnation point of a cylinder]({filename}build_a_1d_drop_motion_simulation.md)  
+>- [The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedc1dmp.md)    
 
 The [Diversions]({filename}diversions.md) had three reviews of post-NACA publications.  
 
@@ -114,6 +118,35 @@ when one is retired one can do that).
 
 So, I view 33 reviews as about the most that is sustainable 
 when "working" at a hobby level.  
+
+##Selected images
+
+And let us not forget some of the great images:   
+
+![Figure 7](images/naca-tn-339/Figure 7.png)  
+_from NACA-TN-339_  
+
+![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
+_How much of a P-39 can one fit in an icing wind tunnel?_  
+_from NACA-TN-1246_  
+
+![C-46 Lab Test Article](images/C-46lab.jpg)  
+_Test article under construction for the C-46 airplane in the banner image above._  
+
+![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
+_from NACA-TN-2903_  
+
+![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
+_from NACA-TN-2904_  
+
+![A drawing of an airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-TN-2904](images/naca-tn-2904/Figure1.png)  
+_from NACA-TN-2904_  
+
+![Figure 7 from NACA-TN-2458](images/NACA-TN-2458/Figure 7.png)  
+_Figure 7 from NACA-TN-2458_  
+
+![Figure 24 of NACA-TR-403](images/Figure 24 of NACA-TR-403.png)  
+_Figure 7 from NACA-TR-403, and a "sneak preview" of the upcoming Ice Protection Thread._  
 
 ##The Future  
 
