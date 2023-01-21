@@ -59,9 +59,8 @@ Modern online searches, such as scholar.google.com, commonly miss many
 Most of the NACA publications are available only as image scans, and some of them of poor quality, 
 from which the text is difficult extract accurately. 
 
-Ironically, NASA-TM-81651 [^2] is currently "not listed in the modern computerized library search systems", 
-as it is not in the NTRS [^4] (it can be found with other online searches). 
-The quality of the online version found is not good, so the text was not accurately parsed by computer 
+Ironically, the quality of the online version of NASA-TM-81651 [^2] is not good, 
+so the text was not accurately parsed by computer 
 (numerous manual corrections of scanned text were required to produce the listings below).  
 
 ###Publications not in the NTRS
@@ -309,7 +308,7 @@ Links to reviews are included where applicable.
 [^1]:
 "Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
-Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at [https://core.ac.uk/reader/42858720](https://core.ac.uk/reader/42858720) (circa November, 2021)  
+Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.    
 [^3]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. 
 [Reprint included in NASA-TM-81651] 
