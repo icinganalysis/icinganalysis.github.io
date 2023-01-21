@@ -54,7 +54,8 @@ response to those requests.
 Note the requests from expert groups for 30+ year-old NACA icing data.
 
 Also note _"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print."_
-Modern online searches, such as scholar.google.com, commonly miss many NACA citations. 
+Modern online searches, such as scholar.google.com, commonly miss many
+ NACA citations. 
 Most of the NACA publications are available only as image scans, and some of them of poor quality, 
 from which the text is difficult extract accurately. 
 
@@ -263,7 +264,7 @@ Links to reviews are included where applicable.
 - Antenna icing
 
     - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948.  
-    - Gowan. W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
+    - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
 
 - Inlet and Vent Icing Protection
 

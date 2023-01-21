@@ -44,7 +44,6 @@ And more details:
 - [executable Python code](https://github.com/icinganalysis/icinganalysis.github.io) (in some cases) to reproduce the results [^1]  
 - how the publication got used, and where it is cited  
 - where to find the publication (most, but not not all, are on the [NASA NTRS site](https://ntrs.nasa.gov))  
-- the references the publication cited (in searchable text)  
 
 Check back often, I am adding more articles regularly.
 
