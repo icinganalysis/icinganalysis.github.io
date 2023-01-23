@@ -1,4 +1,4 @@
-title: ice protection  
+title: Ice Protection  
 
 ###_"The possible methods for overcoming the ice hazard ..." [^1]_  
 
@@ -15,6 +15,8 @@ of air discharge louvers in the wing upper surface and
 exhaust discharge at the wing tip.
 ](images/NACA-ACR-A-53/Figure 1.png)  
 _From NACA-ACR-A-53, 1941. [^2]_  
+
+##Introduction  
 
 >During the war, more than a hundred cargo planes of the Air Transport Command, 
 flying from bases in India over the Hump to battlefronts in China, crashed
