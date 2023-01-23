@@ -1,5 +1,4 @@
-title: draft ice protection  
-status: draft  
+title: ice protection  
 
 ###_"The possible methods for overcoming the ice hazard ..." [^1]_  
 
