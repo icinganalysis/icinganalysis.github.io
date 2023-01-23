@@ -26,7 +26,7 @@ SOCIAL = (('github', 'https://github.com/icinganalysis/icinganalysis.github.io')
 #          ('twitter', 'https://twitter.com/icinganalysis'),
           ('linkedin', 'https://www.linkedin.com/in/donald-cook-96204316a/'),
           ('email', 'mailto:icinganalysis@gmail.com'),
-          ('mastodon', 'https://mstdn.social/@icinganalysis'),
+          ('mastodon', 'https://historians.social/@icinganalysis'),
           )
 
 DEFAULT_PAGINATION = False
