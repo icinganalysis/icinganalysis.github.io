@@ -265,7 +265,7 @@ section drag only 5 percent) had no effect on lift) and had negligible
 effect on airfoil drag averaged over a cycle.  
 >3. With the de-icer inoperative, rime-ice formations of 0.5 pound
 per foot span increased section drag 38 to 67 percent and decreased lift
-up to 4 percent for angles of attack from 0° to 4.6°. The same amount  
+up to 4 percent for angles of attack from 0° to 4.6°. The same amount 
 of ridge-type glaze ice increased drag 124 to 230 percent and decreased
 lift up to 20 percent for angles of attack from 0° to 9.3°. Increasing
 the airfoil angle of attack with even a small ice formation on the airfoil 
