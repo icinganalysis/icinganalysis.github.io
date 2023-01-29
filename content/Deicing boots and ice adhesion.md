@@ -281,7 +281,7 @@ ADS-4 [^8].
 ##ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^8]  
 
 [ADS-4]({filename}ads4.md) 
-was review previously in the [Thermodynmaics Thread]({filename}thermodynamics.md).  
+was review previously in the [Thermodynamics Thread]({filename}thermodynamics.md).  
 
 ADS-4 has a section discussion mechanical deicing systems, 
 and examples of the application to aircraft. 
