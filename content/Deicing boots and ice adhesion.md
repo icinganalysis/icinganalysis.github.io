@@ -5,7 +5,7 @@ tags: ice protection
 
 ![A drawing of a deicing boot for a wing leading edge. 
 Small tubes in the rubber can be inflated to deform the surface and remove ice.
-](images/ads4/Figure 3-2.png)  
+](images/ads4/Figure 3_2.png)  
 _Image from “Engineering Summary of Airframe Icing Technical Data” ADS-4, 1963._    
 
 ##Summary
@@ -288,7 +288,7 @@ and examples of the application to aircraft.
 
 ![A drawing of a deicing boot for a wing leading edge. 
 Small tubes in the rubber can be inflated to deform the surface and remove ice.
-](images/ads4/Figure 3-2.png)  
+](images/ads4/Figure 3_2.png)  
 
 ![Figure 4.1-12. Line diagram of Pneumatic Boot De-Icing System for Wings and Empennage of Aircraft "A".
 Each wing has 9 foot by 10 inch coverage (divided into two separate de-icers).
@@ -296,7 +296,7 @@ The hozontal stabilizer has two 5.5 foot by 5 inchde-icers,
 and the vertical fin has a 6 foot by 5 inch de-icer. 
 All segments are connected by pneumatic lines.  
 Total de-icer protected area: 22.1 sq. ft. 
-Total area including tapered edge: 28.0 sq. ft.](images/ads4/Figure 4.1-12.png)  
+Total area including tapered edge: 28.0 sq. ft.](images/ads4/Figure 4.1_12.png)  
 
 ADS-4 trained at least one generation (if not several) 
 of engineers on aircraft icing (myself included).  
