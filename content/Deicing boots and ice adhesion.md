@@ -232,7 +232,7 @@ There is a note: "Boot thickness, 0.1 inch".
 The caption reads: "Figure 3. Sketch of spanwise-tube de-icer showing tube locations (dimensions in inches)".
 ](images/NACA-TN-3564/Figure 3b.png)  
   
-Findings are summarized:    
+Findings are summarized:  
   
 >SUMMARY OF RESULTS  
 The results of a study to determine the effects of pneumatic de-icers 
