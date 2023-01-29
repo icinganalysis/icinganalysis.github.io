@@ -5,12 +5,11 @@ title: Ice Protection
 ![Lockheed 12-A. A large, metal constuction,
 low wing, two engine, propeller drive airplane. 
 The tail has three vertical fins. 
-Figure 1. - Lockheed 12-A airplane. 
+Figure 1. Lockheed 12-A airplane. 
 Alterations were made to a standard
 commercial model which include provisions for heating the
 wings with exhaust gas, and the windshield with heated air.
-Figure 12 . - 
-Three-quarter rear view of airplane, showing location
+Figure 12. Three-quarter rear view of airplane, showing location
 of air discharge louvers in the wing upper surface and
 exhaust discharge at the wing tip.
 ](images/NACA-ACR-A-53/Figure 1.png)  
@@ -70,7 +69,9 @@ many protection strategies were studied in the NACA-era.
 
 ##Engine exhaust heat  
 
-_"The successful design of an airplane that will be immune from the dangers of ice accumulation is, as far as can be judged from analysis and laboratory experiments, only a matter of technical development."_  
+_"The successful design of an airplane that will be immune from the dangers of ice accumulation is ... only a matter of technical development."_  
+
+- A robust heat source provided robust ice protection.
 
 <!--
 
@@ -93,22 +94,29 @@ _"The successful design of an airplane that will be immune from the dangers of i
 - "An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings", NACA-WR-W-14, Mar. 1943.  
 - "An Investigation of Aircraft Heaters. XVIII - A Design Manual for Exhaust Gas and Air Heat Exchangers", NACA APP 5A06, 1945.  
 - "An Investigation of Aircraft Heaters. XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils" NACA TN 1453, 1948.  
+
+An investigation of aircraft heaters XXXVI : preliminary investigation of a combustion-type aircraft heater
+
 -->
 
 ##Compressed air heat  
 
 _"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_  
 
-<!--
-- Hot engine "bleed" air is used in the jet-era.  
+- Hot engine compressor "bleed" air is used in the jet-era.  
 
+<!--
 - "Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil", NACA-RM-E51J29, 1952.  
 - "Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil", NACA-RM-E53C27, 1953.  
+- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
 - "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
-- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  
+- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
 - "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
 - "Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat", NACA-RM-E56B23, 1956.  
+
 -->
+
+<!--
 
 ##Air jet  
 
@@ -121,6 +129,7 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - "A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream", NACA-TN-2466, 1951.  
 - "General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream", NACA-TN-2855, 1952.
 -->
+-->
    
 ##Electric heat  
 
@@ -132,6 +141,8 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - "De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding", NACA-RM-E53C26, 1953.  
 - "Electro-Thermal De-Icing Systems Their Design and Control", Low Temperature Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 8, University of Michigan Airplane Icing Information Course, 1953. (includes errata sheet)  
 - “Electro-Thermal De-Icing Systems: Their Design and Control”. NRC NAE Report LR-70, March 1953.  
+
+https://www.youtube.com/watch?v=7zNDDtg7dH0
 -->
 
 ##Freezing point depressant fluids  
@@ -154,6 +165,8 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 
 ##Component Tests  
 
+_"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
+
 <!--
 - "The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers", NACA-TN-799, 1941.  
 - "Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations", NACA-TN-1789, 1949.  
@@ -161,9 +174,15 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
 - "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
 - "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953.  
+
+NACA Langley Engineer-in-Chief Smith DeFrance, reported in [Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html)  
+
+
 -->
 
 ##Thermal Analysis  
+
+_"ice formation can be redefined in more general terms as a thermodynamic problem"_  
 
 <!--
 - "A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body", NACA-WR-A-40, Dec. 1942.  
@@ -177,9 +196,27 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", NACA-TN-2914, 1953.  
     > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 - "An Analytical Study of Heat Requirements for Icing Protection of Radomes", NACA-RM-E53A22, 1953.  
+- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+
+NASA-SP-4409, vol. 2
 -->
 
 ##Conclusions of the Ice Protection Thread  
+
+<!--
+##Turbine-Type Engine and Inlet Icing Studies  
+
+- Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950.  
+- Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
+- Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+- Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
+- Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
+- Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
+- von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
+- von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
+- Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
+- von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
+-->
 
 
 ##Notes  
@@ -316,7 +353,6 @@ Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic 
 28. Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.  
 33. Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.  
 
-
 p.528
 
 "One useful job for the full-scale tunnel would be a study of the effect
@@ -324,14 +360,14 @@ of de-icers, both in their de­flated and in their operating condition, on the d
 and the stalling characteristics of wings. Another would be an investigation of the
 temperature drop of air flowing around a wing. Where moisture in the air forms as
 ice on an aerodynamic surface, it is presumably the result of a change of temperature
-on contact with that surface. If there is to be any possibility of using heat ef­fectively
+on contact with that surface. If there is to be any possibility of using heat effectively
 in the prevention of ice, data are needed on the exact conditions under which heat
-ought to be used and the exact amount that ought to be ap­plied. Even if heat is
-considered out of the ques­tion, the investigation of temperature changes would still
+ought to be used and the exact amount that ought to be applied. Even if heat is
+considered out of the question, the investigation of temperature changes would still
 be worthwhile as providing a basis for determining the probable locations of ready
 ice deposit. Experience indicates that certain types of control surfaces, for example,
 accumulate ice, while others do not. It suggests the need for particular care in the
-design of slotted con­trols, the more especially as de-icers can hardly be used in a slot.
+design of slotted controls, the more especially as de-icers can hardly be used in a slot.
 While of course much of this work can only be done in a refrigerated tunnel where
 practical tests of actual ice deposit can be made, there is more that can be done in
 any kind of a flowing stream if ice formation can be redefined in more general terms
