@@ -60,7 +60,7 @@ _"The removal of ice from a De-Icer surface depends on the true adhesion of ice 
 - Pneumatic boot deicers were the first widely used form of 
 aircraft ice protection, and are still used today.  
         
-##Carburetor and Induction Systems  
+##[Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)    
 
 _"A demon was operating the throttle."_  
 
@@ -69,7 +69,7 @@ many protection strategies were studied in the NACA-era.
 
 ##Engine exhaust heat  
 
-_"The successful design of an airplane that will be immune from the dangers of ice accumulation is ... only a matter of technical development."_  
+_"an airplane that will be immune from the dangers of ice accumulation is ... only a matter of technical development."_  
 
 - A robust heat source provided robust ice protection.
 
@@ -85,9 +85,13 @@ _"The successful design of an airplane that will be immune from the dangers of i
 - "Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane", NACA-ARR-4B02, 1944.  
 -->
 
-<!--
-##Combustion heated air  
+##Combustion heated air and heat transfer coefficients   
 
+_"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
+
+- Combustion heated air, independent of the engines, was used on some aircraft.  
+
+<!--
 - "An Investigation of Aircraft Heaters, II - Properties of Gases", NACA-WR-W-9, Oct. 1942.  
 - "An Investigation of Aircraft Heaters, IV - Measured and Predicted Performance of Longitudinally Finned Tubes", NACA-WR-W-12, Oct. 1942.  
 - "An Investigation of Aircraft Heaters, V- Theory and Use of Heat Meters for the Measurement of Rates of Heat Transfer which are Independent of Time", NACA-WR-W-11, Dec. 1942.  
@@ -110,7 +114,6 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - "Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil", NACA-RM-E53C27, 1953.  
 - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
 - "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
-- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
 - "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
 - "Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat", NACA-RM-E56B23, 1956.  
 
@@ -197,6 +200,7 @@ _"ice formation can be redefined in more general terms as a thermodynamic proble
     > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 - "An Analytical Study of Heat Requirements for Icing Protection of Radomes", NACA-RM-E53A22, 1953.  
 - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
 
 NASA-SP-4409, vol. 2
 -->
