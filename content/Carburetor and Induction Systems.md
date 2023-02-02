@@ -13,12 +13,12 @@ partially obstructing the airflow.
 ](images/NACA-TR-982/Figure 3.png)  
 _From NACA-TR-982._
 
-#Summary  
+##Summary  
 
 Carburetor icing has been a known hazard for over 100 years, and
 many protection strategies were studied in the NACA-era.  
 
-#Key Points  
+##Key Points  
 
 1. Carburetor icing has been a known hazard for over 100 years.  
 2. Part of the hazard can occur in clear air (throttling icing and fuel-evaporation icing).  
@@ -26,7 +26,7 @@ many protection strategies were studied in the NACA-era.
 4. Numerous tests and studies were conducted in the NACA-era.  
 5. Many aircraft today have carburetor protection similar to that developed in the NACA-era.  
 
-##Introduction  
+##Discussion  
 
 The spark ignition, Otto cycle engines 
 commonly used on airplanes in the NACA-era 
