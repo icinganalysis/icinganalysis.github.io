@@ -67,41 +67,17 @@ _"A demon was operating the throttle."_
 - Carburetor icing has been a known hazard for over 100 years, and
 many protection strategies were studied in the NACA-era.  
 
-##Engine exhaust heat  
+##[Engine exhaust heat]({filename}engine exhaust heat.md)  
 
 _"an airplane that will be immune from the dangers of ice accumulation is ... only a matter of technical development."_  
 
 - A robust heat source provided robust ice protection.
-
-<!--
-
-- NACA-TR-403, "Ice Prevention by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil", 1931.  
-- "PRELIMINARY REPORT ON FLIGHT TESTS OF AN AIRPLANE HAVING EXHAUST-HEATED WINGS", NACA-ACR-A-53, 1941.  
-- Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942.  
-- Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942.  
-- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943.  
-- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943.  
-- "Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane", NACA-WR-A-7, Oct. 1943.  
-- "Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane", NACA-ARR-4B02, 1944.  
--->
 
 ##Combustion heated air and heat transfer coefficients   
 
 _"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
 - Combustion heated air, independent of the engines, was used on some aircraft.  
-
-<!--
-- "An Investigation of Aircraft Heaters, II - Properties of Gases", NACA-WR-W-9, Oct. 1942.  
-- "An Investigation of Aircraft Heaters, IV - Measured and Predicted Performance of Longitudinally Finned Tubes", NACA-WR-W-12, Oct. 1942.  
-- "An Investigation of Aircraft Heaters, V- Theory and Use of Heat Meters for the Measurement of Rates of Heat Transfer which are Independent of Time", NACA-WR-W-11, Dec. 1942.  
-- "An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings", NACA-WR-W-14, Mar. 1943.  
-- "An Investigation of Aircraft Heaters. XVIII - A Design Manual for Exhaust Gas and Air Heat Exchangers", NACA APP 5A06, 1945.  
-- "An Investigation of Aircraft Heaters. XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils" NACA TN 1453, 1948.  
-
-An investigation of aircraft heaters XXXVI : preliminary investigation of a combustion-type aircraft heater
-
--->
 
 ##Compressed air heat  
 
@@ -180,7 +156,6 @@ _"I am surprised to find that there are so many details which have not been anti
 
 NACA Langley Engineer-in-Chief Smith DeFrance, reported in [Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html)  
 
-
 -->
 
 ##Thermal Analysis  
@@ -205,7 +180,17 @@ _"ice formation can be redefined in more general terms as a thermodynamic proble
 NASA-SP-4409, vol. 2
 -->
 
+##Ice Protection Design Manuals  
+
+_"An aircraft engineer can use this report to design adequate ice protection systems for any type aircraft for any flight mission profile."_  
+
+- The knowledge of aircraft icing reached enough maturity to produce engineering design manuals.  
+
 ##Conclusions of the Ice Protection Thread  
+
+_"The optimum icing protection system for ... any particular aircraft cannot be generally specified; the choice of the optimum system is dependent upon the specific characteristics of the airplane and engine, the flight plan, the probable icing conditions, and the performance requirements of the aircraft."_  
+
+- There are many viable ice protection technologies and strategies to choose from.  
 
 <!--
 ##Turbine-Type Engine and Inlet Icing Studies  
