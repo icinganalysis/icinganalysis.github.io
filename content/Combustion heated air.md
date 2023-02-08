@@ -1,5 +1,4 @@
 Title: Combustion heated air and heat transfer coefficients  
-status: draft  
 
 ###_"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
