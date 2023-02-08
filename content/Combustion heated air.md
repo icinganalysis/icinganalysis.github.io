@@ -276,7 +276,7 @@ I am not entirely certain, however, that it originated there.
 and I would not be surprised if it is still in use today.  
 
 >![Figure 3_19. Typical External Heat Transfer Coefficients for 
-Cylinder and Flat Plate](images/ads4/Figure3-19.png)  
+Cylinder and Flat Plate](images/ads4/Figure3_19.png)  
 
 One may note that L. M. K. Boelter was an author on the three publications above, 
 as well as many of the 38 Aircraft Heater publications. 
