@@ -73,7 +73,7 @@ _"an airplane that will be immune from the dangers of ice accumulation is ... on
 
 - A robust heat source provided robust ice protection.
 
-##Combustion heated air and heat transfer coefficients   
+##[Combustion heated air and heat transfer coefficients]({filename}Combustion heated air.md)     
 
 _"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
