@@ -274,6 +274,7 @@ I am not entirely certain, however, that it originated there.
 [ADS-4]({filename}ads4.md) perpetuates its use 
 (and the origins are not credited there, either), 
 and I would not be surprised if it is still in use today.  
+
 >![Figure 3-19. Typical External Heat Transfer Coefficients for 
 Cylinder and Flat Plate](images/ads4/Figure3-19.png)  
 
