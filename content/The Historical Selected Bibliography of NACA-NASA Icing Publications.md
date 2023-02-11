@@ -231,21 +231,15 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md) (combined review with NACA-TN-2914)      
     - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953.  
     - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
-        <!--
-        > review: [Compressed Air Heat]({filename}Compressed air heat.md)  
-        -->
+        > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
     - Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
         <!--
-        > review: [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > review: [Design Manuals]({filename}Design Manuals.md)  
         -->
     - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
-        <!--
         > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
-        -->
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
-        <!--
         > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
-        -->
     - Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
         > review: [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)  
 
@@ -258,9 +252,7 @@ Links to reviews are included where applicable.
     - Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
         > review: [NACA-TN-1598]({filename}NACA-TN-1598.md)  
     - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
-        <!--
         > review [Compressed Air Heat]({filename}Compressed air heat.md)  
-        -->
     - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
         > review: [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)  
     - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  

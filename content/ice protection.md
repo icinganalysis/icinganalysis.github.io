@@ -79,7 +79,7 @@ _"an effective system for ... wing surfaces to prevent the formation of ice requ
 
 - Combustion heated air, independent of the engines, was used on some aircraft.  
 
-##Compressed air heat  
+##[Compressed air heat]({filename}Compressed air heat.md)  
 
 _"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_  
 
