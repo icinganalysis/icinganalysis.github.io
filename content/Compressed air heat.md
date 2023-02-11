@@ -375,7 +375,7 @@ variations in the internal heating.
 The title is pretty descriptive. 
 
 - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
-This describes some of the consideration for getting a heat supply 
+This describes some of the considerations for getting a heat supply 
 to a moving surface, like a leading edge slat. 
 
 ##Conclusions  
