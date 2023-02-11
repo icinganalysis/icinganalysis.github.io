@@ -50,8 +50,8 @@ research has provided basic criteria for use in the design of continuous
 heating systems (references 1 and 2); however, the exact type of continuous 
 heating for an airplane component depends on a complexity of
 parameters and is more fully discussed in reference 3. Design analysis
-in reference 3 has shown that the heat requirements and associated air-
-plane performance penalties for high-speed, high-altitude transport
+in reference 3 has shown that the heat requirements and associated airplane 
+performance penalties for high-speed, high-altitude transport
 aircraft using continuous heating for icing protection are extremely
 large and in some cases may be prohibitive.  
 
@@ -395,6 +395,10 @@ the recirculating hot air supply proposed in
 several of the NACA studies. 
 I characterize the industry anti-ice designs as more 
 economical than the NACA studies. 
+Anti-ice was used despite the NACA assessment that:  
+>performance penalties for high-speed, high-altitude transport
+aircraft using continuous heating for icing protection are extremely
+large and in some cases may be prohibitive. [^1]  
 
 Compressed air heating is still commonly used in the larger jet transports
 for wing ice protection 
