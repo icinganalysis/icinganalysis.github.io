@@ -2,14 +2,14 @@ title: Compressed Air Heat
 
 ###_"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_ [^1]  
 
-![A jet tranport airplane. 
+![A jet transport airplane. 
 There are many windows in the passenger cabin, implying may rows of seats. 
 Notations read: "Shading indicates protected areas", 
 which include the wing and empennage leading edges, the engine inlets, 
 and forward windshields. 
 Figure 1. Theoretical turbojet transport airplane assumed in calculations. 
 Gross weight, 125,000 pounds; wing span, 158 feet; wing section, NACA 651-212; 
-wing taper, 4:1; cruising speed, 500 miles per bour.](images/NACA-TN-2866/Figure 1.png)  
+wing taper, 4:1; cruising speed, 500 miles per hour.](images/NACA-TN-2866/Figure 1.png)  
 _From NACA-TN-2866._  
 
 ##Summary  

@@ -97,7 +97,7 @@ _"... the power required for ice prevention may be excessive for certain applica
 <!--
 - "An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06, NACA-WR-A-50, June, 1941.  
 - "De-Icing of an Aircraft Engine Induction System", NACA-ARR-3H13, 1943.  
-- ["Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md). NACA-ARR-5G13, 1945  
+- ["Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md). NACA-ARR-5G13, 1945.  
 - "The Design of Fluid Anti-Icing Systems". Engine Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 11, University of Michigan Airplane Icing Information Course, 1953.  (32 pages) (includes errata sheet)  
 -->
 
