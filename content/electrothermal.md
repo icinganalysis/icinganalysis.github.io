@@ -612,8 +612,9 @@ many of which are proprietary to three entities (Boeing, GKN, and Ultra Electron
 It is difficult to publish much about the system without all three involved, 
 and I have seen few details published. 
 
-An article describes some of the rationale for the "no bleed" architecture.
-[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)  
+An article describes some of the rationale for the "no bleed" architecture.  
+[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)   
+
 It would be very challenging to provide enough power for electrothermal wing anti-ice, 
 unless the power supply system is specifically designed considering all the airplane power requirements, 
 including wing anti-ice.    
