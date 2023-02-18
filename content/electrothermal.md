@@ -11,7 +11,7 @@ Electrothermal deicing is studied in the NACA-era.
 1. The power levels required for continuous anti-ice are challenging, so deicing was persued.  
 2. Runback ice and residual ice are challenges for deicing.  
 3. Analogue computers calculated transient heating and deicing.  
-4. The chordwise, sequenced zone heating ice shedding strategy was devised.  
+4. A chordwise-sequenced zone heating ice shedding strategy was devised.  
 5. The current 787 jet aircraft uses electrothermal heating for wing anti-icing and de-icing.  
 
 ##Discussion  
