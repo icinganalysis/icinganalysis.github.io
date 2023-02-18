@@ -1,6 +1,6 @@
 title: Electrothermal Ice Protection  
 
-###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_  
+###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_ [^1]   
 
 ##Summary  
 
@@ -28,7 +28,7 @@ It is noted in "We Freeze" that by 1943 NACA had aircraft with robust
 ice protection which enabled more extensive icing flight research, 
 and that capability was used to improve propeller deicing. 
 
-##"Tests of Thermal-Electric De-Icing Equipment for Propellers", NACA-ARR-4A20  
+##"Tests of Thermal-Electric De-Icing Equipment for Propellers", NACA-ARR-4A20 [^2]  
 
 >SUMMARY  
 Flights were made in natural icing conditions at the
@@ -145,7 +145,7 @@ and 90 percent of the blade radius.
 heating supplied to the leading-edge 7-percent chord is
 twice that supplied to the remainder of the blade-shoe area.
 
-##NACA-TN-2852  
+##NACA-TN-2852 [^3]  
 
 >SUMMARY  
 A study has been made of the heat requirement for the cyclic de-icing
@@ -207,7 +207,7 @@ A man stands in front of a large rack of electrical circuits.
 Three more similar racks are in the background.
 ](images/NACA-TN-2852/Figure 1.png)  
 
-"Modern Icing Technology" by Tribus, while not referenced by NACA-TN-2852, 
+"Modern Icing Technology" by Tribus [^4], while not referenced by NACA-TN-2852, 
 (his 1949 thesis was referenced) 
 has a figure to illustrate the type of analog circuits:  
 
@@ -331,26 +331,38 @@ NACA-TN-2852 assumed a +/-20% uncertainty, which is probably optimistic.
 If ones' design and analysis are not robust to at least that range of variation, 
 perhaps one should reconsider the design.  
 
+##Conclusions  
+
+Electrothermal heating is still used today for propeller ice protection. 
+Use for wing ice protection is less common, although see the 787 system described below.  
+
+Electrothermal ice protection is used widely today for many smaller components, 
+including windshields and air data probes. 
+
 ##The 787 wing ice protection system  
 
 I was the principal investigator of the 7E7 (a study airplane configuration) technology development for wing ice protection. 
 The 7E7 study selected electrothermal ice protection. 
 The 7E7 soon became the Boeing 787, a twin-engine jet with largely composite structure. 
+The wing ice protection on the 787 is electrothermal heat, 
+in either an anti-icing or deicing mode.  
 
-An article describes some of the rationale for the "no bleed" architecture.  
-[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)  
-
-While there are numerous instructive details about the design, 
-many are proprietary to three entities (Boeing, GKN, and Ultra Electronics). 
-It is difficult to publish much about the system without all three involved, 
-and I have seen few details published. 
-
-While the NACA lessons learned noted above are valuable, 
+While the NACA lessons learned noted above are valuable for electrothermal design, 
 there are details to be worked out 
 to applying the general technology to a specific application. 
 
-I will point readers to a video produced by Ultra Electronics, 
-that gives an overview of the system.  
+There are numerous instructive details about the design, 
+many of which are proprietary to three entities (Boeing, GKN, and Ultra Electronics). 
+It is difficult to publish much about the system without all three involved, 
+and I have seen few details published. 
+
+An article describes some of the rationale for the "no bleed" architecture.
+[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)  
+It would be very challenging to provide enough power for electrothermal wing anti-ice, 
+unless the power supply system is specifically designed considering all the airplane power requirements, 
+including wing anti-ice.    
+
+A video produced by Ultra Electronics gives an overview of the system.  
 [787 Wing Ice Protection System Video](https://www.youtube.com/watch?v=7zNDDtg7dH0)  
 
 An article describes some of the details of the electronic controls.  
@@ -358,7 +370,7 @@ An article describes some of the details of the electronic controls.
 
 ![C-46 Lab Test Article](images/C-46lab.jpg)  
 _The 787 electrothermal system?
-No, but it does have a lot of wires.  
+No, but it does have a lot of wires. 
 (C-46 Lab Flight Test Article.)_  
 
 ##Other Publications  
@@ -396,5 +408,7 @@ NACA-TN-3025 0 times.
 
 ##Notes  
 
-[^1]: Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944.  
-[^2]: Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
+[^1]: Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944.  
+[^2]: Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944.  
+[^3]: Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
+[^4]: Tribus, Myron: "Modern Icing Technology" 1952.  https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5  
