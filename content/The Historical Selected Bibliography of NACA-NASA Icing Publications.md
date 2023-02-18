@@ -233,7 +233,7 @@ Links to reviews are included where applicable.
     - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md) (combined review with NACA-TN-2914)      
     - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953.  
-        > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
+        > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
         > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
     - Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
