@@ -368,6 +368,7 @@ No, but it does have a lot of wires.
 - Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944.  
 - Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944.  
 - Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
+- Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948.  
 - Dallas, Thomas, and Ellisman, Carl: Analysis and Preliminary Investigation of Eddy-Current Heating for Icing Protection of Axial-Flow-Compressor Blades. NACA-RM-E9EO6, 1949.  
 
 ###Wings  
@@ -386,6 +387,7 @@ An online search (scholar.google.com) found citations for
 NACA-ACR-4H31 8 times,  
 NACA-ARR-4A20 7 times,   
 NACA-TN-1520 14 times,  
+NACA-TN-1691 10 times,  
 NACA-RM-E9EO6 2 times,  
 NACA-RM-E51J30 2 times,  
 NACA-RM-E53C26 0 times,  

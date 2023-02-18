@@ -86,7 +86,7 @@ _"the most economical icing protection ... consists of a system utilizing hot ga
 - Hot engine compressor "bleed" air is used in the jet-era.  
 
    
-##Electric heat  
+##[Electric heat]({filename}electrothermal.md)    
 
 _"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_  
 
