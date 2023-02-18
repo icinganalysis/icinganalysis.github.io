@@ -383,8 +383,7 @@ No, but it does have a lot of wires.
 ##Citations  
 
 An online search (scholar.google.com) found citations for  
-
-NACA-ACR-4H31 8 times, 
+NACA-ACR-4H31 8 times,  
 NACA-ARR-4A20 7 times,   
 NACA-TN-1520 14 times,  
 NACA-RM-E9EO6 2 times,  
