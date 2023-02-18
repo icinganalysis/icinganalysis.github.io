@@ -1,5 +1,4 @@
 title: Electrothermal Ice Protection  
-status: draft  
 
 ###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_  
 
@@ -48,7 +47,7 @@ shoe was found to reduce the power input necessary for
 satisfactory de-icing.
 A satisfactory thermal design of
 blade shoe and a hub generator of sufficient capacity
-were developed.
+were developed.  
 
 ![Figure 3. A B. F. Goodrich Company thermal
 electric de-icing blade shoe
@@ -68,7 +67,7 @@ This heat distribution was obtained by a change in thickness
 and hence in resistance of the conductive neoprene layer.
 The blade area protected by the types 1 and 2 blade shoes
 was the same, and the power inputs to the to types of
-Goodrich blade shoe were equal at the same line voltage.
+Goodrich blade shoe were equal at the same line voltage.  
 
 ![Figure 4. Sections of the blead shoes tested. 
 The Hamilton Standard blade shoe has small resistance wires embedded in a moulded shoe place on the propeller surface, up to 0.20 chord. 
@@ -127,7 +126,7 @@ Ambient air temp.: 9 to 11 F
 Average unit power: 0.53 watts/sq in.
 Type of ice: rime
 Unit power to shoe leading edge: 0.79 watts/ sq in.
-](images/NACA-ARR-4A20/Figure 12.png)  ]
+](images/NACA-ARR-4A20/Figure 12.png)  
 
 >CONCLUDING REMARKS  
 The tests indicate that the final design of blade
@@ -282,7 +281,7 @@ Heat is applied for 10 seconds of an 80 seconds cycle.
 The heater rapidly warms to 110 F, then cools to 20F. 
 The surface temperature warms to 33 F, and cools to 14 F.](images/NACA-TN-2852/Figure 5.png)  
 
->CONCLUSIONS
+>CONCLUSIONS  
 The following conclusions have been reached as the result of an
 analytical study of cyclic de-icing with blade heating shoes mounted on
 a hollow steel propeller. The percentage values of energy saving presented 
@@ -360,7 +359,7 @@ An article describes some of the details of the electronic controls.
 ![C-46 Lab Test Article](images/C-46lab.jpg)  
 _The 787 electrothermal system?
 No, but it does have a lot of wires.  
-(C-46 Lab Flight Test Article.)_
+(C-46 Lab Flight Test Article.)_  
 
 ##Other Publications  
 
