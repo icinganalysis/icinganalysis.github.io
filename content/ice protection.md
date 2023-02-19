@@ -167,7 +167,7 @@ _"The optimum icing protection system for ... any particular aircraft cannot be 
 ##Notes  
 
 [^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. [NACA-TN-339]({filename}NACA-TN-339.md), 1930.  
-[^2]: Rodert, Lewis A., McAvoy, William H., and Clousing, Lawrence A.: PRELIMINARY REPORT ON FLIGHT TESTS OF AN AIRPLANE HAVING EXHAUST-HEATED WINGS. NACA-ACR-A-53, April, 1941.  
+[^2]: Rodert, Lewis A., McAvoy, William H., and Clousing, Lawrence A.: PRELIMINARY REPORT ON FLIGHT TESTS OF AN AIRPLANE HAVING EXHAUST-HEATED WINGS. [NACA-ACR-A-53]({filename}engine exhaust heat.md), April, 1941.  
 
 <!--
 p.528
