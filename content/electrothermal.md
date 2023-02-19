@@ -403,6 +403,8 @@ Airspeed, 175 miles per hour; datum temperature, -1 F; angle of attack, 0; liqui
 (c) 4 minute icing, ninth cycle. Total icing time, 38 minutes, 40 seconds.
 ](images/NACA-RM-E51J30/Figure 22.png)  
 
+See [The Effects of Humidity in Icing Wind Tunnel Tests]({filename}effects_of_humidity.md) for more on frost formations.  
+
 >SUMMARY OF RESULTS AND CONCLUSIONS  
 For the range of variables investigated, the following results and
 conclusions may be stated:  
