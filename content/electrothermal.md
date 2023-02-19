@@ -298,7 +298,7 @@ time of 80 seconds.
 currently in operation by applying higher heating intensities for shorter
 durations of time than are generally in use. For the case of conventional
 shoes of the type commonly used, by operating at a 5-second duration of
-heating time, the total energy can be decreased to about 4O percent of
+heating time, the total energy can be decreased to about 40 percent of
 that required for operation at a 20-second heating duration.  
 >2. Considerable saving of energy can be effected through proper
 design of blade shoes. For example, if the thickness of the insulation
