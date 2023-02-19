@@ -43,6 +43,7 @@ When quoting text from the NACA-era, I leave it as is.
 When discussing text of the NACA-era, I tend to use their spelling, 
 but I may not be consistent.  
 However, "anti-ice" should consistently include the hyphen. 
+I am not going to mark every historic spelling variation with "sic". 
 
 I read somewhere that NACA was usually pronounced as the separate letters, 
 "N A C A", rather than as a word, as NASA usually is. 

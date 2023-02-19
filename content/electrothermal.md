@@ -332,7 +332,8 @@ Some designs incorporate a metal erosion shield on the outer surface.
 
 Uncertainties about heat transfer coefficients continue to this day. 
 NACA-TN-2852 assumed a +/-20% uncertainty, which is probably optimistic. 
-If ones' design and analysis are not robust to at least that range of variation, 
+If one's design and analysis are not robust 
+to at least that range of variation, 
 perhaps one should reconsider the design.  
 
 ##"Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater", NACA-RM-E51J30 [^5]  
@@ -420,6 +421,8 @@ In some colder areas, the ice may remain attached,
 while most other areas are well above the melting point. 
 There is an opportunity for much melting and runback 
 formation while waiting for the last attached areas to melt and shed. 
+Ice can be surprisingly strong, with even "thin" ice able to bridge 
+apparently widely spaced contact adhesion points. 
 
 ##"De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding", NACA-RM-E53C26 [^6]    
 
@@ -460,8 +463,8 @@ Areas covering the span of the wing are divided chordwise, labeled 1 to 3.
 Figure 3. - Segment notation for de-icing, boots used in investigation.
 ](images/NACA-RM-E53C26/Figures 2 and 3.png)  
 
->The internal circuitry of the boots was quite similar. The cir-
-cuitry of each segment of each boot (including the parting strip) was
+>The internal circuitry of the boots was quite similar. The circuitry 
+of each segment of each boot (including the parting strip) was
 arranged in a series-parallel circuit as shown by the schematic diagram
 presented In figure 5. For boots B and C, several sets of individual
 heater wires arranged in parallel were wound back and forth spanwise in
