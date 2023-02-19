@@ -2,6 +2,21 @@ title: Electrothermal Ice Protection
 
 ###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_ [^1]   
 
+![Figure 12 from NACA-ARR-4A20. Ice formations on the thermal-electric de-icing
+blade shoes installed on a propeller of the XB-17F airplane.
+Shoe type: 2
+Date: March 27, 1943
+Indicated airspeed: 160 mph
+Propeller speed: 1010 rpm
+Pressure altitude : 10,000 ft 
+Total power input: 402 watts for nine minutes
+Ambient air temp.: 9 to 11 F
+Average unit power: 0.53 watts/sq in.
+Type of ice: rime
+Unit power to shoe leading edge: 0.79 watts/ sq in.
+](images/NACA-ARR-4A20/Figure 12.png)  
+_Figure 12 of NACA-ARR-4A20._  
+
 ##Summary  
 
 Electrothermal deicing is studied in the NACA-era.  
@@ -103,7 +118,7 @@ The condition of the blade leading
 edge indicates that the total power input to the three
 blade-shoes was too low and allowed excessive ice.  
 
-![Figure 11.- Ice formations on the thermal-electric de-lcing
+![Figure 11. Ice formations on the thermal-electric de-lcing
 blade shoes installed on a propeller of the XB-17F airplane.
 Ice up to 1 inch thick is on the propeller leading edges. 
 Date: March 27, 1943
@@ -118,7 +133,7 @@ Average unit power: none
 Unit power to the shoe leading edge: none
 ](images/NACA-ARR-4A20/Figure 11.png)  
 
-![Figure 12.- Ice formations on the thermal-electric de-icing
+![Figure 12. Ice formations on the thermal-electric de-icing
 blade shoes installed on a propeller of the XB-17F airplane.
 Shoe type: 2
 Date: March 27, 1943
@@ -342,7 +357,7 @@ While there are similarities between deicing on an propeller and an large airfoi
 the lack of centrifugal force and size can make deicing an airfoil more challenging. 
 
 For this test, a large airfoil with many individually controlled heaters strips was used.  
-![Figure 2. - Heater instaflation and construction details.
+![Figure 2. Heater instaflation and construction details.
 (a) Position of heater on lower surface of airfoil. 
 A 96 inch cohord airfoil has a 38 inch span by 22 inch heated leading edge area. 
 (b) Location of heater elements and details of heater construction.
@@ -380,7 +395,7 @@ that have started to form downstream of the heated area are typical
 of those obtained in all tests and appear to be inherent to tunnel
 operation. These frost formations increased in size and extent with
 increasing amounts of runback and residual ice.  
-![Figure 22. - Growth of runback formation on lower surface of heater during cyclic de-icing.
+![Figure 22. Growth of runback formation on lower surface of heater during cyclic de-icing.
 Airspeed, 175 miles per hour; datum temperature, -1 F; angle of attack, 0; liquid-water content, 1.0 gram per cubic meter; heat-on period, 20 seconds; heat-off period,
 4 minutes.
 (a) 4 minute icing, second. cycle. Total icing time, 8 minutes, 20 seconds.
@@ -488,7 +503,7 @@ schematic drawing of the model employed in the investigation is shown
 in figure 6.
 
 ![Figure 5. Schematic diagram showing internal circuitry of boots.
-Figure 6. - Airfoil model employed in investigation.
+Figure 6. Airfoil model employed in investigation.
 ](images/NACA-RM-E53C26/Figures 5 and 6.png)
 
 >General De-Icing and Runback Characteristics  
