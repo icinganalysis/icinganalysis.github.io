@@ -22,12 +22,15 @@ was studied by NACA.
 
 The deicing of propellers is perhaps easier in some ways, 
 as the centrifugal of the spin greatly aids the shedding of ice. 
+Also, there are scale differences, as a wing airfoil 
+usually has a larger chord length than a propeller. 
 However, there are commonalities and some of the lessons learned 
 may apply to each. 
 
-It is noted in "We Freeze" that by 1943 NACA had aircraft with robust 
+It is noted in ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162) 
+that by 1943 NACA had aircraft with robust 
 ice protection which enabled more extensive icing flight research, 
-and that capability was used to improve propeller deicing. 
+and that capability was used to improve propeller deicing.  
 
 ##"Tests of Thermal-Electric De-Icing Equipment for Propellers", NACA-ARR-4A20 [^2]  
 
@@ -52,7 +55,7 @@ were developed.
 
 ![Figure 3. A B. F. Goodrich Company thermal
 electric de-icing blade shoe
-installed on a propeller blade of XB-l7F
+installed on a propeller blade of XB-17F
 airplane.
 There is a hub generator, 
 blade shank slip-ring assemblies, and the heated blade shoes
@@ -418,7 +421,6 @@ while most other areas are well above the melting point.
 There is an opportunity for much melting and runback 
 formation while waiting for the last attached areas to melt and shed. 
 
-
 ##"De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding", NACA-RM-E53C26 [^6]    
 
 >Whereas previous NACA investigations of cyclic de-icing have all
@@ -590,45 +592,12 @@ than spanwise shedding.
 ##Conclusions  
 
 Electrothermal heating is still used today for propeller ice protection. 
-Use for wing ice protection is less common, although see the 787 system described below.  
+Use for wing ice protection is less common, 
+although the current 787 jet aircraft uses electrotherm wing ice protection
+(we will discuss that more in the upcoming "Conclusions of the Ice Protection Thread").  
 
 Electrothermal ice protection is used widely today for many smaller components, 
 including windshields and air data probes. 
-
-##The 787 wing ice protection system  
-
-I was the principal investigator of the 7E7 (a study airplane configuration) technology development for wing ice protection. 
-The 7E7 study selected electrothermal ice protection. 
-The 7E7 soon became the Boeing 787, a twin-engine jet with largely composite structure. 
-The wing ice protection on the 787 is electrothermal heat, 
-in either an anti-icing or deicing mode.  
-
-While the NACA lessons learned noted above are valuable for electrothermal design, 
-there are details to be worked out 
-to applying the general technology to a specific application. 
-
-There are numerous instructive details about the design, 
-many of which are proprietary to three entities (Boeing, GKN, and Ultra Electronics). 
-It is difficult to publish much about the system without all three involved, 
-and I have seen few details published. 
-
-An article describes some of the rationale for the "no bleed" architecture.  
-[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)   
-
-It would be very challenging to provide enough power for electrothermal wing anti-ice, 
-unless the power supply system is specifically designed considering all the airplane power requirements, 
-including wing anti-ice.    
-
-A video produced by Ultra Electronics gives an overview of the system.  
-[787 Wing Ice Protection System Video](https://www.youtube.com/watch?v=7zNDDtg7dH0)  
-
-An article describes some of the details of the electronic controls.  
-[MDE Semiconductor, Inc. TVS Diode Clamp Devices Provide Protection to Boeing 787 Dreamliner’s Unique Electro-thermal Wing De-icing System](https://mdesemiconductor.com/mde-semiconductor-inc-tvs-diode-clamp-devices-provide-protection-to-boeing-787-dreamliners-unique-electro-thermal-wing-de-icing-system/)  
-
-![C-46 Lab Test Article](images/C-46lab.jpg)  
-_The 787 electrothermal system?
-No, but it does have a lot of wires. 
-(C-46 Lab Flight Test Article.)_  
 
 ##Other Publications  
 
