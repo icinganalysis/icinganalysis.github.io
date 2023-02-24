@@ -38,7 +38,7 @@ We already saw some of the uses of alcohol as a deicing and ice prevention fluid
 Here, we will detail a study of improving propeller deicing, 
 and a study of calculations to determine how much fluid is required. 
 
-##"An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06  
+##"An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06 [^1]  
 
 By 1941, NACA had airplanes with robust ice protection 
 (see ["Engine Exhaust Heat"]({filename}engine exhaust heat.md)), 
@@ -179,7 +179,7 @@ in 100 hours of flight service.
 >3. The manufacturer's recommendations for
 installation of the feed rings were satisfactory.  
 
-##"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation", NACA-ARR-5G13  
+##"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation", NACA-ARR-5G13 [^2]  
 
 We saw the calculations wet surface temperatures in the review in the Thermodynamics Thread, 
 [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md).  
