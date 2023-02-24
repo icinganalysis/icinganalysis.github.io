@@ -1,4 +1,5 @@
 title: Ice Protection  
+tags: ice protection   
 
 ###_"The possible methods for overcoming the ice hazard ..." [^1]_  
 
@@ -92,23 +93,18 @@ _"... the power required for ice prevention may be excessive for certain applica
 
 - Electric heating is applied to propellers and wings.  
 
-##Freezing point depressant fluids  
+##[Freezing point depressant fluids]({filename}Freezing point depressant.md)  
 
 _"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_  
 
-<!--
-- "An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06, NACA-WR-A-50, June, 1941.  
-- "De-Icing of an Aircraft Engine Induction System", NACA-ARR-3H13, 1943.  
-- ["Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation."]({filename}NACA-ARR-5G13.md). NACA-ARR-5G13, 1945.  
-- "The Design of Fluid Anti-Icing Systems". Engine Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 11, University of Michigan Airplane Icing Information Course, 1953.  (32 pages) (includes errata sheet)  
-- Smith, E. L.: "The design of fluid anti-icing systems". National Aeronautical Establishment (Canada) LR-64, 1953. [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=f64c5521-eb28-4569-9ff6-32b038394078)    
-
--->
+- Freezing point depressant fluids were used widely in the NACA-era.  
 
 ##Windshield Protection  
 
+_"ice on the airplane windshield ... is known to be a problem in urgent need of solution."_  
+
 <!--
-- "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130, 1938. Also NACA-TN-754, 1940.  
+- Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130, 1938. Also NACA-TN-754, 1940.  
 - "Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention", NACA-RB-3F24, 1943.  
 - "Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast", NACA-RM-E55E17a, July 25, 1955.  
 - "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434, 1947.  
@@ -120,8 +116,8 @@ _"I am surprised to find that there are so many details which have not been anti
 
 <!--
 - "The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers", NACA-TN-799, 1941.  
-- "Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations", NACA-TN-1789, 1949.  
 - "Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation", NACA-TN-1246, 1947.  
+- "Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations", NACA-TN-1789, 1949.  
 - "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
 - "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
 - "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953.  

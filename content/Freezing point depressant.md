@@ -1,5 +1,5 @@
 title: Freezing Point Depressant Fluids  
-status: draft  
+tags: ice protection   
 
 _"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_  
 
@@ -39,6 +39,10 @@ Here, we will detail a study of improving propeller deicing,
 and a study of calculations to determine how much fluid is required. 
 
 ##"An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06  
+
+By 1941, NACA had airplanes with robust ice protection 
+(see ["Engine Exhaust Heat"]({filename}engine exhaust heat.md)), 
+and so could do natural icing flight tests, like the ones described here. 
 
 >INTRODUCTION  
 Alcohol as a means of protection against ice formation on 
@@ -142,6 +146,10 @@ The
 distribution tests also indicated that alcohol was satisfactorily 
 provided to the blade leading edges at the ice-emergency propeller 
 speed only by the use of the feed rings.
+
+Some engines today have an ice protection procedure 
+that increases the engine speed temporarily, 
+but they are not typically labeled "ice-emergency".  
 
 >Although the tests in icing conditions indicate that
 an effort must be made to develop a method of propeller
