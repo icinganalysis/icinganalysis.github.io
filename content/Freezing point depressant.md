@@ -272,7 +272,7 @@ such as thermal anti-ice.
 
 ![Figure 3-10. Diagrammatic Layout of Fluid Protection System. 
 An airplane with a central supply tank and pump feed pipe to wing and empannage leading edge distribution panels. 
-There is a control switch in the fight deck.](images/ads4/Figure 3-10.png)  
+There is a control switch in the fight deck.](images/ads4/Figure 3_10.png)  
 _Figure 3-10 from ADS-4._  
 
 ##Conclusions  
