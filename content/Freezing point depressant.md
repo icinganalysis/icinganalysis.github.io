@@ -1,7 +1,7 @@
 title: Freezing Point Depressant Fluids  
 tags: ice protection   
 
-_"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_  
+_"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_ [^1]  
 
 ![Figure 2. A typical propeller alcohol-discharge-nozzle
 installation.](images/NACA-RB-4F06/Figure 2.png)  
@@ -291,4 +291,4 @@ NACA-ARR-5G13 18 times.
 ##Notes  
 
 [^1]: Neel, Carr B: An Investigation of the Characteristics of a Propeller Alcohol Feed Ring. NACA-RB-4F06, NACA-WR-A-50, June, 1941.  
-[^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
+[^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  

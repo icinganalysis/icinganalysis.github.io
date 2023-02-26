@@ -117,9 +117,9 @@ _"I am surprised to find that there are so many details which have not been anti
 <!--
 - "The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers", NACA-TN-799, 1941.  
 - "Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation", NACA-TN-1246, 1947.  
-- "Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations", NACA-TN-1789, 1949.  
-- "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
-- "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
+- Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
+##- "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
+##- "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
 - "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953.  
 
 NACA Langley Engineer-in-Chief Smith DeFrance, reported in [Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html)  
@@ -138,12 +138,12 @@ _"ice formation can be redefined in more general terms as a thermodynamic proble
 - "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions", NACA-TN-1472, 1947.  
     > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
 - "An Investigation of Aircraft Heaters. XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils" NACA-TN-1453, 1948.  
+- "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
 - "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow", NACA-TN-2861, 1953.  
 - "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", NACA-TN-2914, 1953.  
     > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 - "An Analytical Study of Heat Requirements for Icing Protection of Radomes", NACA-RM-E53A22, 1953.  
-- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
-- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
+##- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
 
 NASA-SP-4409, vol. 2
 -->
@@ -153,7 +153,11 @@ NASA-SP-4409, vol. 2
 _"An aircraft engineer can use this report to design adequate ice protection systems for any type aircraft for any flight mission profile."_  
 
 - The knowledge of aircraft icing reached enough maturity to produce engineering design manuals.  
+<!--
 
+- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
+
+-->
 ##Conclusions of the Ice Protection Thread  
 
 _"The optimum icing protection system for ... any particular aircraft cannot be generally specified; the choice of the optimum system is dependent upon the specific characteristics of the airplane and engine, the flight plan, the probable icing conditions, and the performance requirements of the aircraft."_  

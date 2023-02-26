@@ -23,9 +23,9 @@ We are going to start with a one dimensional simulation along a single line,
 the stagnation line of flow around a cylinder, y=0 in the figure above. 
 
 We will implement the equations of motions for a drop around a cylinder from 
-["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) [^1].
+["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^1].
 
-Readers unfamiliar with ["Mathematical Investigation of Water Droplet Trajectories"]({filename}/Mathematical Investigation of Water Droplet Trajectories.md) 
+Readers unfamiliar with ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
 may wish to review it before proceeding further herein, 
 especially to be familiar with the dimensionless terms K and Phi.
 
