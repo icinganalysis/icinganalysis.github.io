@@ -82,7 +82,7 @@ the glass panes.
 The flight model of the electrically heated windshield was mounted 
 in the right front windshield frame of a four-place cabin monoplane (fig. 2).
 
-![Figure 2. Electrically heated windshield model mounted in an airplane whindshield for flight tests. 
+![Figure 2. Electrically heated windshield model mounted in an airplane windshield for flight tests. 
 The main windshield is cut out to permit the insertion of the heated model.
 ](images/NACA-SR-130/Figure 2.png)  
 
@@ -197,9 +197,9 @@ ice-prevention equipment may in part be offset by other design simplifications.
  
 >CONCLUSIONS  
 Tests in the 7- by 3-foot
-ice tunnel and in flight in dicated that:  
+ice tunnel and in flight indicated that:  
 >1. Ice could be prevented from forming on the windshield by 
-electric heat,by heated air,or by an alcohol-dispensing, rotating wiper blade.
+electric heat,by heated air, or by an alcohol-dispensing, rotating wiper blade.
 >2. Preformed ice could be removed from the airplane
 windshield by the use of either electric or hot-air heating.
 >3. The power required by a heating system for the
@@ -239,7 +239,7 @@ observations about water drop impingement on windshields.
 
 >SUMMARY  
 An equation is presented for calculating the heat flow required.
-froth the surface of an internally heated windshield in order to
+from the surface of an internally heated windshield in order to
 prevent the formation of ice accretions during flight in specified.
 icing conditions. To ascertain the validity of the equation,
 comparison is made between calculated values of the heat required
@@ -299,7 +299,7 @@ under outer glass layer.](images/NACA-TN-1434/Figure 7.png)
 
 The transparent electrical-conducting film is the type of 
 heating used on some current design heated windows 
-(contrasting ther earlier NACA-SR-130, 
+(contrasting the earlier NACA-SR-130, 
 where wires heated glycol between two window panes). 
 
 ![Figure 8. Details of external discharge heated-air ice-prevention system for
@@ -335,7 +335,7 @@ confirmation in this respect, since windshield icing was encountered
 in only 8 out of 30 actual flights in icing clouds. Figure 16 shows
 the lack of ice accretions on the flush windshield after a flight in
 a cloud which produced the accretions shown on 3/8-inch rods located
-just below the pilot's and copilct's windshields.
+just below the pilot's and copilot's windshields.
 
 ![Figure 30. Flow lines around projected area of a flat-plate used in computing the rate of impingement. 
 Stream lines diverge as they approach a flat plate perpendicular to the flow. 
@@ -379,7 +379,7 @@ In Table IV, 20 micrometer diameter drops are predicted to not impinge at all,
 while 30 micrometer diameter drops do impinge. 
 
 Rain sized drops have a more appreciable rate of impingement. 
-Freezing rain is a challenge for many ice protection systems, 
+Freezing rain is a challenge for many types of ice protection systems, 
 including windshield heating.  
 
 ##See also  
