@@ -62,3 +62,18 @@ MENUITEMS = (
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']
 DELETE_OUTPUT_DIRECTORY = False
+
+STATIC_PATHS = [
+    # 'images',
+    'extra',  # this
+]
+EXTRA_PATH_METADATA = {
+    # 'extra/custom.css': {'path': 'custom.css'},
+    # 'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    # 'extra/CNAME': {'path': 'CNAME'},
+    # 'extra/LICENSE': {'path': 'LICENSE'},
+    # 'extra/README': {'path': 'README'},
+}
+
+
