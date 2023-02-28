@@ -360,7 +360,7 @@ procedure discussed in Appendix A, is presented in table VI for
 various drop-size diameters. The same flight conditions employed
 for the flat-plate water interception calculations (table V) were
 again assumed to apply.
-
+ 
 ![Figure 31. Flow lines around a sphere compared with the projected area
 of the C-46 airplane fuselage and windshield, 
 showing area used in computing the rate of impingement. ](images/NACA-TN-1434/Figure 31.png)  
