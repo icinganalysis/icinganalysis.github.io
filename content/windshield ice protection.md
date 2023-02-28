@@ -4,16 +4,16 @@ tags: ice protection
 
 _"... ice on the airplane windshield, which is known to be a problem in urgent need of solution."_  
 
-#Summary  
+## Summary  
 
 Ice protection for windshields matured during the NACA-era.  
 
-##Key points  
+## Key points  
 1. In 1939: "The existing practice of making the airplane windshield retractable
 or removable by the pilot ... against loss of vision due to rain or ice"    
 2. By 1947, window heat designs similar to current designs were available.  
 
-##Discussion  
+## Discussion  
 
 Ice protection for windshields matured during the NACA-era.  
 Technology progressed from this in 1939 (NACA-SR-130): 
@@ -22,7 +22,7 @@ or removable by the pilot ... against loss of vision due to rain or ice
 
 By 1947, there were electrical window heating ice protection designs similar to current designs (NACA-TN-1434).  
 
-##"An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130 [^1] and NACA-TN-754 [^2]   
+## "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130 [^1] and NACA-TN-754 [^2]   
 
 >INTRODUCTION  
 >The National Advisory Committee for Aeronautics is
@@ -110,7 +110,7 @@ in the model with relation to the direction of the air
 stream over the outside was thought to be unfavorable to
 the most efficient operation of the heating system.
 In order to avoid the extensive changes required to both the
-airplane windshield frame and to the model to obtaina desirable 
+airplane windshield frame and to the model to obtain a desirable 
 orientation, the model was moved to the side location.
 The side mounting was therefore utilized for the
 rest of the tests because it eliminated the objectionable
@@ -160,7 +160,7 @@ Figure 7. An engine-driven rotating wiper blade, viewed from the interior of the
 ](images/NACA-SR-130/Figure 6.png)  
 _The person in the Figure 6 photo might be the author Lewis Rodert._  
 
-![Figure 8. A commercial model of the electrtic motor-driven rotating wiper blade. 
+![Figure 8. A commercial model of the electric motor-driven rotating wiper blade. 
 Figure 8b includes the flexible shaft driving the wiper and the alcohol supply tube.](images/NACA-SR-130/Figure 8.png)  
 
 >The heated-air panel appears to be the most satisfactory
@@ -187,7 +187,7 @@ In addition,
 the interior of the heated windshield will be protected
 against frost and provision will have been made for some
 vision through the windshield when flying in rain.
-The existing practice of making the air plane windshield retractable
+The existing practice of making the airplane windshield retractable
 or removable by the pilot may become unnecessary
 if adequate protection against loss of vision due to rain
 or ice can be provided.
@@ -226,10 +226,10 @@ the equations for heat loads and conclusions 3 and 4.
 I find this confusing, as
 NACA-TN-754 was published after NACA-SR-130 
 (although the sequence they were written or 
-revised in may be different than the publishing dates). 
+revised in may be different from the publishing dates). 
 The images are better reproduced in the NACA-SR-130 download. 
 
-##"A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434  
+## "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434  
 
 This publication is quite extensive (102 pages). 
 There are a lot a good images, 
@@ -382,7 +382,7 @@ Rain sized drops have a more appreciable rate of impingement.
 Freezing rain is a challenge for many types of ice protection systems, 
 including windshield heating.  
 
-##See also  
+## See also  
 
 - Kushnick, Jerome L.: "Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention", NACA-RB-3F24, 1943 (also published as NACA-WR-A-56).  
 
@@ -398,7 +398,7 @@ In the thermodynamics thread we previously reviewed [ADS-4]({filename}ads4.md).
 
 This has more details on windshield ice protection, including freezing point depressant fluids.  
 
-##Conclusions  
+## Conclusions  
 
 In brief time, 1939 to 1947, windshield ice protection matured rapidly. 
 The problem was driven by "urgent need", and NACA and the aviation industry responded. 
@@ -408,13 +408,13 @@ There are at least three viable technology options available for aircraft today
 
 (By "viable" I mean that there is documentation on how to design the system.) 
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found citations for   
 NACA-SR-130 6 times, and  
 NACA-TN-1434 8 times.  
 
-##Notes
+## Notes
 
 [^1]: Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130, 1939. https://ntrs.nasa.gov/citations/20090014142.   
 [^2]: Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-TN-754, 1940. https://ntrs.nasa.gov/citations/19930081547.   
