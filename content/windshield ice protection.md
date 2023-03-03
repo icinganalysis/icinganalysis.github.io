@@ -1,5 +1,4 @@
 Title: Windshield Ice Protection  
-status: draft  
 tags: ice protection   
 
 _"... ice on the airplane windshield, which is known to be a problem in urgent need of solution."_  
@@ -17,10 +16,12 @@ or removable by the pilot ... against loss of vision due to rain or ice"
 
 Ice protection for windshields matured during the NACA-era.  
 Technology progressed from this in 1939 (NACA-SR-130): 
+
 >The existing practice of making the airplane windshield retractable
 or removable by the pilot ... against loss of vision due to rain or ice 
 
-By 1947, there were electrical window heating ice protection designs similar to current designs (NACA-TN-1434).  
+By 1947, there were electrical window heating ice protection designs 
+similar to current designs (NACA-TN-1434).  
 
 ## "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130 [^1] and NACA-TN-754 [^2]   
 
@@ -39,8 +40,8 @@ for the prevention and removal of ice on an airplane windshield.
 Tests were made on the use of electric heating,
 hot-air heating, and an alcohol-dispensing, rotating wiper
 blade.
-The results showed that vision through the airplane
-windshield could be maintained during severe icing conditions by the use of heat.
+The results showed that vision through the airplane windshield 
+> could be maintained during severe icing conditions by the use of heat.
 When put in operation prior to
 the formation of ice on the windshield, the rotating wiper
 blade prevented the formation of ice.
@@ -86,7 +87,8 @@ in the right front windshield frame of a four-place cabin monoplane (fig. 2).
 The main windshield is cut out to permit the insertion of the heated model.
 ](images/NACA-SR-130/Figure 2.png)  
 
-![Figure 3a. Photograph of the model. Electrically heated.](images/NACA-SR-130/Figure 3a.png)  
+![Figure 3a. Photograph of the model. Electrically heated.
+](images/NACA-SR-130/Figure 3a.png)  
 
 ![Figure 3b, c. The electrically heated flight-test model.
 (b) section through the rim. 
@@ -231,11 +233,9 @@ The images are better reproduced in the NACA-SR-130 download.
 
 ## "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434  
 
-This publication is quite extensive (102 pages). 
+This publication is extensive (102 pages). 
 There are a lot a good images, 
-I will let the pictures tell most of the story, 
-and include some discussion about interesting 
-observations about water drop impingement on windshields.  
+so I will let the pictures tell most of the story.
 
 >SUMMARY  
 An equation is presented for calculating the heat flow required.
@@ -261,7 +261,7 @@ accretions on both flush- and V-type windshields during flight in
 specified. icing conditions can be calculated with a degree of
 accuracy suitable for design purposes.  
 >2. A heat flow of 2000 to 2500 Btu per hour per square foot
-is required for complete and. continuous protection of a V-type
+is required for complete and continuous protection of a V-type
 windshield in flight at speeds up to 300 miles per hour in a
 moderate cumulous [cumulus in current spelling] icing condition. 
 For the same degree of protection
@@ -406,7 +406,8 @@ The problem was driven by "urgent need", and NACA and the aviation industry resp
 There are at least three viable technology options available for aircraft today 
 (electric heating, heated air, and fluids). 
 
-(By "viable" I mean that there is documentation on how to design the system.) 
+(By "viable" I mean that there is documentation on how to design the system. 
+We will see examples in the upcoming Design Manuals post.)  
 
 ## Citations  
 
