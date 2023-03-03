@@ -3,6 +3,11 @@ tags: ice protection
 
 _"... ice on the airplane windshield, which is known to be a problem in urgent need of solution."_  
 
+![Figure 14. Sketch based on photographs and flight engineer's notes
+of ice accretions on nose and windshields of C-46 airplane after
+icing condition 9, table I. Panel angle 60 degrees with the fuselage.](images/NACA-TN-1434/Figure 14.png)  
+_Figure 14 from NACA-TN-1434._  
+
 ## Summary  
 
 Ice protection for windshields matured during the NACA-era.  

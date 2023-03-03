@@ -99,7 +99,7 @@ _"Alcohol as a means of protection against ice formation on propeller blades is 
 
 - Freezing point depressant fluids were used widely in the NACA-era.  
 
-##Windshield Protection  
+##[Windshield Protection]({filename(windshield%20ice%20protection.md)  
 
 _"ice on the airplane windshield ... is known to be a problem in urgent need of solution."_  
 
