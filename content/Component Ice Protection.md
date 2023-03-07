@@ -83,14 +83,14 @@ occurred for the configurations investigated.
 rapid vent-tube pressure loss than was observed for a cloud-icing
 condition.  
 
-[Note: a "fuel cell" below is a type of flexible fuel tank or sub-tank, 
+[Note: a "fuel cell" below is a type of fuel tank or sub-tank, 
 not an electricity generating technology.]
 
 >Introduction  
 >
 >Several types of fuel cell now in use in transport airplanes
 tend to collapse under negative pressure, venting in such a manner
-that mach of the contents is expelled. Overpumping during fuel
+that much of the contents is expelled. Overpumping during fuel
 transfer between cells may also cause the fuel to be expelled
 through the vents. The location of fuel-cell vents is very
 important in the reduction of fire hazards because fuel expelled
