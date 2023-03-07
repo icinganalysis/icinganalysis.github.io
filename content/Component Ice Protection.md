@@ -3,6 +3,11 @@ tags: ice protection
 
 _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
 
+![Figure 1. Typical fuel-vent configuration mounted on NACA 65,2-216 airfoil section in
+test section of icing research tunnel.
+](images%2FNACA-TN-1789%2FFigure 1 square.png)  
+_Figure 1 from NACA-TN-1789._  
+
 ## Summary  
 
 The effects of icing on small components must be addressed.
@@ -36,7 +41,7 @@ Any sharp corner or gadget protruding into the airstream,
 Rodert constantly reminded manufacturers,
 was an invitation both to icing and static electricity.
 
-_Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames". [^1] _  
+_Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames"._  [^1]   
 
 [We saw some details of the Lockheed 12A test aircraft in [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)].  
 
@@ -109,39 +114,39 @@ vent to cause failure of the fuel cells.
 > 
 > ...
 > 
-> Icing
+> Icing  
 >4. Rapid losses in vent-tube pressures during the first few
 minutes in icing conditions were caused by the roughness of the ice
 formations on the airfoil surface ahead of the vent ramp rather
-than by the icing of the vent configuration.
+than by the icing of the vent configuration.  
 >5. In similar cloud-icing conditions, only the configuration
 in which the highest vent-tube pressures were attained maintained
 the required vent-tube pressure throughout a 60-minute icing period. 
 In general, the configurations with diverging ramp walls
 maintained adequate vent-tube pressures for a longer period of
 time in an icing condition than configurations with parallel ramp
-walls.
+walls.  
 >6. For similar cloud-icing conditions, the ice formations on
 the rear wall slope for configurations with diverging ramp walls
 were more severe than those observed for configurations with parallel
 walls. These more severe ice formations, however, did not appreciably 
-influence the vent-tube pressures.
+influence the vent-tube pressures.  
 >7. At an angle of attack of 14° and. at a tunnel-air velocity of
 240 feet per second, no complete closure of vent-tube openings duo
 to ice formations occurred for the configurations investigated,
 although the areas of the vent-tube openings and the plenum-chamber
-entrance were considerably reduced in some instances by ice formations.
+entrance were considerably reduced in some instances by ice formations.  
 >8. For simulated freezing-rain conditions, the vent-tube pressure 
 losses for all configurations were greater and occurred more
 rapidly than those observed for a cloud-icing condition. These large
 and rapid vent-tube pressure losses were more detrimental at the
 smaller angles of attack because the marginal pressure values were
-reached in a matter of minutes.
+reached in a matter of minutes.  
 >9. Negative vent-tube pressures were realized in some instances
 for both cloud-icing and. simulated freezing-rain conditions. For
 the configuration having the highest vent-tube pressure characteristics, 
 negative pressure values were obtained, only at low angles of
-attack in a freezing-rain condition.
+attack in a freezing-rain condition.  
 
 ![Figure 1. Typical fuel-vent configuration mounted on NACA 65,2-216 airfoil section in
 test section of icing research tunnel.
