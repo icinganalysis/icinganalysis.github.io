@@ -131,7 +131,7 @@ the rear wall slope for configurations with diverging ramp walls
 were more severe than those observed for configurations with parallel
 walls. These more severe ice formations, however, did not appreciably 
 influence the vent-tube pressures.  
->7. At an angle of attack of 14° and. at a tunnel-air velocity of
+>7. At an angle of attack of 14° and at a tunnel-air velocity of
 240 feet per second, no complete closure of vent-tube openings duo
 to ice formations occurred for the configurations investigated,
 although the areas of the vent-tube openings and the plenum-chamber
@@ -143,7 +143,7 @@ and rapid vent-tube pressure losses were more detrimental at the
 smaller angles of attack because the marginal pressure values were
 reached in a matter of minutes.  
 >9. Negative vent-tube pressures were realized in some instances
-for both cloud-icing and. simulated freezing-rain conditions. For
+for both cloud-icing and simulated freezing-rain conditions. For
 the configuration having the highest vent-tube pressure characteristics, 
 negative pressure values were obtained, only at low angles of
 attack in a freezing-rain condition.  
