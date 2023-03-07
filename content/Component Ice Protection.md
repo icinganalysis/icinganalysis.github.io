@@ -12,7 +12,7 @@ _Figure 1 from NACA-TN-1789._
 
 The effects of icing on small components must be addressed.
 
-# Key points  
+## Key points  
 
 1. Flight tests in natural icing revealed (and still reveal) small component icing effects.  
 2. Fuel vents designs were evaluated.  
