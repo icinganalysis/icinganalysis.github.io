@@ -110,21 +110,11 @@ _"ice on the airplane windshield ... is known to be a problem in urgent need of 
 - "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434, 1947.  
 -->
 
-##Component Tests  
+##[Component Tests]({filename}Component Ice Protection.md)  
 
 _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
 
-<!--
-- "The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers", NACA-TN-799, 1941.  
-- "Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation", NACA-TN-1246, 1947.  
-- Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
-##- "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
-##- "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing", NACA-RM-E54I03, 1955.  
-- "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953.  
-
-NACA Langley Engineer-in-Chief Smith DeFrance, reported in [Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html)  
-
--->
+- The effects of icing on small components must be addressed.
 
 ##Thermal Analysis  
 
