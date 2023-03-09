@@ -22,7 +22,7 @@ The effects of icing on small components must be addressed.
 ## Introduction  
 
 We saw some details of the Lewis Rodert's work on the 
-Lockheed 12A test aircraft in [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)]. 
+Lockheed 12A test aircraft in [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md). 
 However, wing ice protection was not the only challenge:  
 
 >To fly into ice clouds and survive,
@@ -284,7 +284,7 @@ hour, angles of attack of 0° and 4°, liquid-water contents of 0.4 and
 ![Figure 12. Droplet-size distribution in icing research tunnel for
 radome water-impingement investigation.](images%2FNACA-RM-E52J31%2FFigure%2012.png)  
 
-See [airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)] 
+See [airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md) 
 for more on the dye tracer technique.  
   
 >The photographs of figure 16 indicate that the main ice formation on the C-radome is confined to a rather
