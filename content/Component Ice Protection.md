@@ -16,7 +16,8 @@ The effects of icing on small components must be addressed.
 
 1. Flight tests in natural icing revealed (and still reveal) small component icing effects.  
 2. Fuel vents designs were evaluated.  
-3. The effect of icing on the radome for radar was evaluated.  
+3. "At present very little is known of the effect of radome icing on radar operation."  
+4. The effect of icing on the radome for radar was evaluated.  
 
 ## Introduction  
 
