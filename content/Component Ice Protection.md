@@ -21,6 +21,10 @@ The effects of icing on small components must be addressed.
 
 ## Introduction  
 
+We saw some details of the Lewis Rodert's work on the 
+Lockheed 12A test aircraft in [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)]. 
+However, wing ice protection was not the only challenge:  
+
 >To fly into ice clouds and survive,
 the Ames group necessarily became expert on the impact
 of ice on the total aircraft. 
@@ -43,8 +47,6 @@ Rodert constantly reminded manufacturers,
 was an invitation both to icing and static electricity.
 
 _Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames"._  [^1]   
-
-[We saw some details of the Lockheed 12A test aircraft in [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)].  
 
 Safe flight in icing conditions requires design for 
 "the impact of ice on the total aircraft", as noted above, 
@@ -364,7 +366,7 @@ It does not list the numerous small components that might cause problems on some
 "Any sharp corner or gadget protruding into the airstream" is not a bad description, 
 although I might add gaps and holes to the list. 
 It is up to you to show on your aircraft that they are not a problem. 
-And I know that "discoveries" are still sometime made about the 
+And I know that "discoveries" are still sometimes made about the 
 adequacy of components for a particular aircraft on icing flight tests. 
 
 ![Figure 2-1.](images%2FFAA%20Handbook%20volume%202%2FFigure%202-1.png)
