@@ -3,13 +3,13 @@ Category: NACA
 
 > ### "... the recommendation was made that before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^1]
 
-##Summary
+## Summary
 
 A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 categories.
 
-##Discussion
+## Discussion
 
-###Publications
+### Publications
  
 This title was published twice. 
 
@@ -29,7 +29,7 @@ Minor differences include different numberings, and some references are updated,
 "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations" 
 was updated from "NASA Memo CCE-169" to "NASA Memo 1-19-59E".
 
-###Requests for data
+### Requests for data
 
 In the "Foreword" of [^2], Jack Reimann writes:
 
@@ -63,7 +63,7 @@ Ironically, the quality of the online version of NASA-TM-81651 [^2] is not good,
 so the text was not accurately parsed by computer 
 (numerous manual corrections of scanned text were required to produce the listings below).  
 
-###Publications not in the NTRS
+### Publications not in the NTRS
 
 While most of the NACA publications are available at the NTRS [^4], some are not. The publications that I could not find copies of on the NTRS are:
 
@@ -84,7 +84,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - This is available at DTIC, https://apps.dtic.mil/sti/citations/ADA800876
 
-##The 132 icing publications  
+## The 132 icing publications  
 
 Links to reviews are included where applicable.  
 
@@ -325,7 +325,7 @@ Links to reviews are included where applicable.
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  
         > review: [FAA-ADS-4]({filename}ads4.md)  
 
-##Notes
+## Notes  
 [^1]:
 "Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
