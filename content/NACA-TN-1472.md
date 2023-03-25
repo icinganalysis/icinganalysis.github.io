@@ -437,10 +437,10 @@ The difference near S/C=0 are not explained.
 
 Determining the heat transfer coefficients was a challenge in the NACA era, 
 and is still a challenge in the current era. 
-A heat transfer textbook [^5] advises: 
+A heat transfer textbook [^6] advises: 
 >The foregoing correlations are suitable for most engineering calculations. 
 However, they should not be viewed as providing exact determinations of the 
-coefficients. Conditions may vary according to the freestream turbuence and 
+coefficients. Conditions may vary according to the freestream turbulence and 
 surface roughness, and **it would be unreasonable to expect the correlations to 
 predict results to better than 25% accuracy**. This statement made be made 
 for virtually all the correlations to be considered.  
