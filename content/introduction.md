@@ -60,7 +60,7 @@ and they were key to establishing safe aircraft design and operating procedures.
 The NACA publications cover a wide range of aircraft icing topics. 
 Reference [^2] lists 132 publications, in 16 categories of topics, from “Meteorology of Icing Clouds” to “Wing Ice Protection”. 
 
-Some readers may interested in less technical, [more general histories]({filename}/more general info.md) 
+Some readers may be interested in less technical, [more general histories]({filename}/more general info.md) 
 of the NACA/NASA efforts to improve the safety of flight in icing conditions.
 
 ##The NACA publications on aircraft icing have an enduring legacy.
