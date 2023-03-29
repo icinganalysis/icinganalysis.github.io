@@ -116,7 +116,7 @@ _"I am surprised to find that there are so many details which have not been anti
 
 - The effects of icing on small components must be addressed.
 
-## [Thermal Analysis]({filename}Thermal Analysis.md)  
+## [Thermal Analysis and Surface Wettedness]({filename}Thermal Analysis.md)  
 
 _"ice formation can be redefined in more general terms as a thermodynamic problem"_  
 
