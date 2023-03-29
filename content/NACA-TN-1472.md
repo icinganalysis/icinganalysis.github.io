@@ -50,7 +50,7 @@ This is one of the longest reviews, as NACA-TN-1472 is long (108 pages)
 and is densely packed with information. 
 Large portions of NACA-TN-1472 will be reproduced here.
 
-The symbols are a little different than those previously in the 
+The symbols are a little different from those previously in the 
 [Thermodynamics thread]({filename}thermodynamics.md). 
 
 ![Symbols part 1](images/naca-tn-1472/symbols0.png) 
@@ -86,7 +86,7 @@ required per unit area to heat the water to surface temperature is
 ![Equation 2](images/naca-tn-1472/Equation2.png) 
 
 Note that Cpw is implicitly included (the value in the units used is 1 BTU/lbm-F, so it was omitted). 
-In other unit systems equation (2) should be:  
+In other unit systems, equation (2) should be:  
 qw = Ma * Cpw * (ts - (to + Δtkw))
 
 >The term Δtkw is the kinetic temperature rise of the water caused
@@ -313,8 +313,8 @@ which was reviewed in the [Cylinders thread]({filename}Icing on Cylinders.md).
 
 #Runback water
 
-The water that runs back on a surface is not usually a unifor sheet of water. 
-The water tends to breakup into rivulats. 
+The water that runs back on a surface is not usually a uniform sheet of water. 
+The water tends to breakup into rivulets. 
 This was characterized: 
 
 > A picture of the conditions of wetness which existed on the
@@ -324,7 +324,7 @@ paper which had been fastened to a device that could be extended
 into the air stream up the leading edge of the airfoil model to a
 point just below the test section. Since, in effect, these were
 wrapped around the leading edge of the model, they illustrate the
-pattern that the water assUlWS in striking the airfoil and flowing
+pattern that the water assumes in striking the airfoil and flowing
 aft. The records were obtained during icing conditions 11, 13, and
 14, table II.
 ![Figure15](images/naca-tn-1472/Figure15.png) 
@@ -340,7 +340,7 @@ This was (roughly) correlated with water runback rate
 For brevity, we will examine the NACA 0012 test article results (only). 
 
 With measured flight test values for t_surface and heat applied to the heating strips, 
-equations 24 and 25 were used to inferred a external heat transfer coefficient, 
+equations 24 and 25 were used to inferred an external heat transfer coefficient, 
 shown in Figure 8 ("H"). 
 
 ![Figure 8a](images/naca-tn-1472/Figure8a.png) 
@@ -362,7 +362,6 @@ The portions of the heat transfer can be calculated:
 
 The python analysis shows similar results: 
 ![Comparison to Figure 26](images/naca-tn-1472/naca_tn_1472_fig26.png)
-
 
 ###Heat transfer coefficients
 
