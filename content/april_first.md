@@ -12,7 +12,9 @@ several sources have taken a humorous approach to illustrating the hazards.
 ![Chapter 10 Icing. 
 A pilot sits in or on a small cartoon airplane, 
 much of which is encased in a block or ice.
-](images%2Fac00-6a%2Ficing%20logo.png)
+](images%2Fac00-6a%2Ficing%20logo.png)  
+
+See also [The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)]({filename}ac00-6a.md)  
 
 ### "Mechanical De-Icing Systems" [^2]  
 
@@ -41,7 +43,8 @@ affects your aircraft may prevent the last side of the box from closing."](image
 
 ### Icing Hazards - National Weather Service [^4]  
 
-![A cartoon of an airplane with ice on the wings, and a pilot in an open cockpit, 
+![Adverse Effects to Flight. 
+A cartoon of an airplane with ice on the wings, and a pilot in an open cockpit, 
 with stylized human forces of reduced thrust pushing aft, 
 increased drag pulling aft, 
 decreased lift pushing down, and increased weight pulling down.](images/Force_Icing.png)  
