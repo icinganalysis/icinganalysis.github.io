@@ -7,7 +7,7 @@ While icing weather is a serious topic for aircraft,
 several sources have used [debatably] humorous,
 instructive illustrations of the hazards.   
 
-### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled)
+### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled) [^1]  
 
 ![Chapter 10 Icing. 
 A pilot sits in or on a small cartoon airplane, 
