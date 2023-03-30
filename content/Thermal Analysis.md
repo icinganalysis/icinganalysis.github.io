@@ -68,7 +68,7 @@ Here, we look at NACA-TN-2480.
 
 >SUMMARY  
 >An investigation of the heat transfer from an airfoil in clear
-air and in simulated icing conditions was conducted. in the NACA Lewis
+air and in simulated icing conditions was conducted in the NACA Lewis
 6- by 9-foot icing-research tunnel in order to determine the validity
 of heat-transfer data as obtained in the tunnel. This investigation
 was made on the same model NACA 65,2-016 airfoil section used in a
@@ -86,7 +86,7 @@ The determination of the heat required for the protection of aircraft
 in icing has been the subject of considerable research by the
 NACA for a number of years. For specific aircraft, the heat required
 to realize an arbitrary temperature rise above the free-stream air
-temperature of the airplane surfaces that are subject to icing. is
+temperature of the airplane surfaces that are subject to icing is
 determined, in reference 1. The development by Hardy (reference 2) of
 an analysis of the heat transfer from an airplane surface during
 icing provides a means of computing the heat requirements for specified 
@@ -115,9 +115,9 @@ adjustment of power distribution within the limits of the available
 facilities. The differences in power readings for heating elements
 common to the same circuit are caused by differences in resistance.
 This arrangement permitted a chordwise power distribution similar to
-that. employed in the flight investigations. The heated length of the
+that employed in the flight investigations. The heated length of the
 test strip extended to 55 percent of the chord length on the left side
-of the airfoil and. to 17 percent of the chord length on the right side.
+of the airfoil and to 17 percent of the chord length on the right side.
 
 ![Figure 1.png](images%2Fnaca-tn-2480%2FFigure%201.png)  
 
@@ -213,7 +213,7 @@ rivulets was measured at various surface distances downstream of the
 limits of impingement. The results of these measurements are shown
 in figure 7. The wetness factor K decreases sharply from a value of
 1 at the limit of impingement to a mean value of approximately 25 percent 
-1-inch downstream of the impingement limit and. decreases slowly
+1-inch downstream of the impingement limit and decreases slowly
 thereafter. The tunnel and flight measurements show agreement, which
 indicates that the flow process is substantially the same. Within
 the range of conditions investigated, no significant variation of the
@@ -250,10 +250,10 @@ of the maximum coefficient moved forward from approximately 28- to 24-percent ch
 >Additional Tunnel Results  
 In addition to the tunnel investigation in which the flight heat
 distribution was used, studies were made with heat distributions that
-gave uniform surface temperatures in clear air and. also in simulated.
-icing. The results obtained. with a uniform surface temperature in
-clear air in the icing-research tunnel have already been presented. in
-figure 9(c). The thermal data obtained. with this same heat distribution 
+gave uniform surface temperatures in clear air and also in simulated.
+icing. The results obtained with a uniform surface temperature in
+clear air in the icing-research tunnel have already been presented in
+figure 9(c). The thermal data obtained with this same heat distribution 
 during icing in the tunnel are given for condition 11' in
 figure 15. The original surface temperature, which was approximately
 70 F in clear air, was sharply reduced in the first 20 percent of
@@ -261,12 +261,12 @@ chord and a minimum temperature of 25° F was obtained, which resulted
 in ice formations. Photographs of these ice formations are shown in
 figure 16. The heat-transfer results are presented in the Nusselt
 correlation form in figure 17(a) together with a comparison with the
-clear-air curve. A marked. forward movement of transition resulted
+clear-air curve. A marked forward movement of transition resulted
 from operation in icing with the actual transition beginning at
-approximately 2 percent of chord. (fig. 15). The turbulent curve downstream 
+approximately 2 percent of chord (fig. 15). The turbulent curve downstream 
 of the ice formation follows the slope of the theoretical turbulent 
 curve from equation (12), but is approximately 18 percent higher
-than the curve obtained. in clear air at the same condition.
+than the curve obtained in clear air at the same condition.
 
 ![Figure 15.png](images%2Fnaca-tn-2480%2FFigure%2015.png)  
 
@@ -283,7 +283,7 @@ values from equation (12).
 
 >Comparison of Tunnel and Flight Results  
 A comparison of the tunnel and flight results is shown in figure 19 
-for icing conditions 1 and. 8. These conditions had approximately 
+for icing conditions 1 and 8. These conditions had approximately 
 the same true airspeed, free-stream temperature, and limit of
 impingement; the same flight heat distribution that resulted in non-uniform 
 surface temperatures in icing was used for both. No comparison is made 
@@ -291,7 +291,7 @@ for the case of uniform surface temperatures in icing
 inasmuch as such results were not obtained in the flight investigation.
 The greatest discrepancy between the tunnel and flight results of figure 
 19 occurs in the laminar region at a local Reynolds number of
-3X10^5 and. in the turbulent region at a local Reynolds number of 3X10^6
+3X10^5 and in the turbulent region at a local Reynolds number of 3X10^6
 where large peaks for both flight and tunnel result from sudden
 increases in heat input at this region. In the transition region, a
 better comparison is obtained; the tunnel results are approximately 5
