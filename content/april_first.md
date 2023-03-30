@@ -1,7 +1,9 @@
 Title: Instructive Illustrations  
 Category: Diversions  
 
-![April_first.png](images%2FApril_first.png)  
+![Four cartoon depictions of aircraft in icing. 
+The individual images are described in detail below. 
+](images%2FApril_first.png)  
 
 While icing weather is a serious topic for aircraft, 
 several sources have used [debatably] humorous,
