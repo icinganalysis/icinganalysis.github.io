@@ -1,0 +1,55 @@
+Title: Who wore it better?  
+
+![April_first.png](images%2FApril_first.png)  
+
+Happy April 1st!
+
+While icing weather is a serious topic for aircraft, 
+several sources have taken a humorous approach to illustrating the hazards. 
+
+### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled)
+
+![Chapter 10 Icing. 
+A pilot sits in or on a small cartoon airplane, 
+much of which is encased in a block or ice.
+](images%2Fac00-6a%2Ficing%20logo.png)
+
+### "Mechanical De-Icing Systems" [^2]  
+
+![A cartoon drawing of an airplane in flight, 
+with pilots visible in the flight deck windows. 
+There is snow on the ground below. 
+Mechanical arms are coming out from hatches on the airplane, 
+removing ice from the wing leading edge with ice picks. 
+Caption: "Most practical de-icers I ever saw". Artist: Dick Sha.](images/most practical de_icers i ever saw.png)  
+
+<!--
+From Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
+There is no copyright noted, on the drawing or in the publication.
+-->
+
+### Air Command Weather Manual (Canada) [^3]  
+
+![Chapter 9 Aircraft Icing. 
+A pilot sitting in or on a small cartoon airplane pushes up against 
+the lid of a box of ice around the airplane. 
+The caption reads: 
+"Aircraft accidents generally occur after a series of events place a pilot in a
+box from which be [he?] cannot escape. Icing is one of the events that can close
+the box, making an accident inevitable. Your knowledge of icing and how it
+affects your aircraft may prevent the last side of the box from closing."](images%2FAir%20Command%20Weather%20Manual%2FChapter%209%20AIrcraft%20Icing.png)  
+
+### Icing Hazards - National Weather Service [^4]  
+
+![A cartoon of an airplane with ice on the wings, and a pilot in an open cockpit, 
+with stylized human forces of reduced thrust pushing aft, 
+increased drag pulling aft, 
+decreased lift pushing down, and increased weight pulling down.](images/Force_Icing.png)  
+
+## Notes  
+
+[^1]:
+Anon.: Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled), FAA, issued April, 1975, cancelled 2016. https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268  
+[^2]: Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
+[^3]: Anon., Air Command Weather Manual (Canada), CFACM 2-70, May 22, 2001.  
+[^4]: https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm  
