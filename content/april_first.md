@@ -4,8 +4,8 @@ Category: Diversions
 ![April_first.png](images%2FApril_first.png)  
 
 While icing weather is a serious topic for aircraft, 
-several sources have used [debatably] humorous illustrations 
-of the hazards.   
+several sources have used [debatably] humorous,
+instructive illustrations of the hazards.   
 
 ### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled)
 
