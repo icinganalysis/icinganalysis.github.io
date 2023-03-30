@@ -1,11 +1,11 @@
-Title: Who wore it better?  
+Title: Instructive Illustrations  
+Category: Diversions  
 
 ![April_first.png](images%2FApril_first.png)  
 
-Happy April 1st!
-
 While icing weather is a serious topic for aircraft, 
-several sources have taken a humorous approach to illustrating the hazards. 
+several sources have used [debatably] humorous illustrations 
+of the hazards.   
 
 ### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled)
 
