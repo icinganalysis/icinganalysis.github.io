@@ -16,7 +16,7 @@ A single thermodynamic control volume is used for anti-ice calculations.
 2. A single thermodynamic control volume is used for anti-ice calculations.  
 3. NACA icing publications are extensively used.  
 
-##Abstract
+##Abstract  
 
 >This report provides, in a single reference document, an engineering summary
 of selected technical data on airframe icing conditions, methods of detecting,
@@ -241,10 +241,10 @@ predictable; that is, the drops freeze on impact and the resulting ice shape has
 the same form as would be predicted by the droplet impingement data shown previously.
 The rate of growth is generally linear for rime ice, because the ice
 shape does not alter the flow field significantly.
-The glaze ice exhibits tthe typical "double horn" shape, 
+The glaze ice exhibits the typical "double horn" shape, 
 that results from water flow in the stagnation region.
 As the ice increases in size, the aft regions are sheltered from impingement so
-that virtually all the water is deposited a the stagnation region.
+that virtually all the water is deposited at the stagnation region.
 The exact shape
 of glaze ice is difficult to predict; however, most glaze ice shapes will be similar
 to those of Figures 2-36 and 2-37.
@@ -264,7 +264,7 @@ shown in Figure 2-40.
 
 >The ice shapes shown are based upon maintaining angle of attack (as well
 as other parameters) constant throughout the icing encounter.
-This is a reasonable assumptton for current turbine aircraft 
+This is a reasonable assumption for current turbine aircraft 
 which have a large power reserve at the lower speeds where icing is most likely to occur.
 Aircraft powered
 by piston engines may not have adequate power to maintain airspeed as drag

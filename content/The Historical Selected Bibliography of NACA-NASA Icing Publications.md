@@ -40,7 +40,7 @@ of that period were so old, however, that they were not
 listed in the modern computerized library search systems, and some
 of these documents were out of print. Fortunately, U. H. von Glahn
 had prepared a selected bibliography of the NACA-NASA publications
-in aircraft icing. This bibliolraphy was furnished to those who
+in aircraft icing. This bibliography was furnished to those who
 requested information about the NACA works. But some of the 
 citations in the bibliography were those that were out of print.
 
