@@ -1,6 +1,5 @@
 Title: Design Manuals  
 category: Ice Protection  
-status: draft  
 
 ### _"An aircraft engineer can use this report to design adequate ice protection systems for any type aircraft for any flight mission profile."_ [^1]  
 
@@ -11,6 +10,11 @@ _Figure 4.2-2 of ADS-4._
 
 ## Summary
 - The knowledge of aircraft icing matured to produce engineering design manuals.  
+
+## Key Points  
+1. NACA publications contributed heavily to later design manuals.  
+2. Extensive design publications distilling research into practical methods appeared in the 1950s.  
+3. I do not know of an authoritative, comprehensive, single design resource for some recent topics such as 3D design and analysis.  
 
 ## Discussion  
 
@@ -24,7 +28,8 @@ by the 1950s for comprehensive engineering design manuals to be written.
 While NACA did not write all of the design manuals, 
 all of the design manuals heavily relied on NACA references. 
 Half of the references in ADS-4 
-"Engineering Summary of Airframe Icing Technical Data" are NACA references. 
+"Engineering Summary of Airframe Icing Technical Data" are NACA references, 
+and the main author, Dean Bowden, had published NACA icing papers. 
 
 The breadth of knowledge encapsulated in ADS-4 allowed the expansive 
 claim in 1963:   
@@ -183,7 +188,7 @@ Almost half of the pages are on water drop catch efficiency,
 and there are many figures similar to figure 3-12.  
 
 ![Figure 3-12. Total Collection Efficiency of NACA 65,1-212 
-Airfoil at 4 Angle of Attack.](images%2FWADC%2054-313%2FFigure%203-12.png)  
+Airfoil at 4 degree Angle of Attack.](images%2FWADC%2054-313%2FFigure%203-12.png)  
 
 A thermal detail allows a seemingly 3D problem of thermal conduction 
 in the internal heating passages to be simplified to a 1D heat conduction 
@@ -233,8 +238,8 @@ Rather than the 2D analysis of NACA-TN-3130, ADS-4 describes a
 is described with a single, averaged control volume (from [NACA-TN-2799.md](NACA-TN-2799.md)). 
 
 The other sections go well beyond the thermal aspects, 
-and provide much information to avoid 
-"details which have not been anticipated before the de-icing tests were started".
+and provide much information to help avoid 
+"details which have not been anticipated before the de-icing tests were started". 
 
 ## Conclusions  
 
@@ -285,10 +290,10 @@ The AIAA has an Ice Prediction Workshop [^8] that addresses 3D ice shape tools,
 but not ice protection, and it is planned to last several more years, 
 and has not yielded something like a new design manual. 
 
-Some day I might write an extensive review of the “Aircraft Icing Handbook", 
+Some day I might write a review of the “Aircraft Icing Handbook", 
 but not today. 
 
-## Notes
+## Notes  
 
 [^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^2]: Tribus, Myron: "Modern Icing Technology" 1952.  https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5  
