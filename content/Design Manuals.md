@@ -72,7 +72,7 @@ This was the most comprehensive airplane icing education
 
 Apparently, all sections were presented by Tribus. 
 Sections IV and V on energy transfers borrowed from Bernard L. Messinger's 
-["Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed"](messinger.md), 
+["Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed"]({filename}messinger.md), 
 perhaps the most frequently cited reference on aircraft icing. 
 
 >Messinger has used these functions to prepare graphs showing the
@@ -232,10 +232,10 @@ e. Data on known methods and systems for detection of airframe icing.
 f. Various methods of testing ice protection systems and aircraft for
 adequacy.  
 
-We already reviewed part of [ADS-4](ads4.md). 
+We already reviewed part of [ADS-4]({filename}ads4.md). 
 Rather than the 2D analysis of NACA-TN-3130, ADS-4 describes a 
 1D analysis where ice protection performance on a surface (upper or lower wing)
-is described with a single, averaged control volume (from [NACA-TN-2799.md](NACA-TN-2799.md)). 
+is described with a single, averaged control volume (from [NACA-TN-2799]({filename}NACA-TN-2799.md)). 
 
 The other sections go well beyond the thermal aspects, 
 and provide much information to help avoid 
@@ -248,12 +248,12 @@ Aircraft icing was largely viewed as a "solved" problem,
 and NASA resources were largely devoted to other tasks, such as space exploration
 (ADS-4 was published by the FAA, not NASA). 
 
-The [1969 Aircraft Ice Protection Symposium.md](1969%20Aircraft%20Ice%20Protection%20Report%20of%20Symposium.md) 
+The [1969 Aircraft Ice Protection Symposium]({filename}1969%20Aircraft%20Ice%20Protection%20Report%20of%20Symposium.md) 
 sponsored by the FAA had 16 presentations. 
 Two were by former NACA employees, and presented prior work. 
 The new data presented were from other entities, 
 such as industry and the US Air Force. 
-[The Historical Selected Bibliography of NACA-NASA Icing Publications.md](The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) also had 
+[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) also had 
 its first appearance at the symposium, 
 and was still relevant when republished in 1981.  
 The Selected Bibliography includes ADS-4, even though it is not a 
