@@ -5,7 +5,7 @@ category: Ice Protection
 
 ![Figure 4.2-2. Typical Hot-Air Anti-Icing System.
 A diagram of air ducts leading from four engines to manifolds and 
-wing ice protection ducts. ](images%2Fads4%2FFigure%204.2-2.png)  
+wing ice protection ducts. ](images%2Fads4%2FFigure%204-2.2%20rotated.png)  
 _Figure 4.2-2 of ADS-4._  
 
 ## Summary
@@ -188,7 +188,7 @@ Almost half of the pages are on water drop catch efficiency,
 and there are many figures similar to figure 3-12.  
 
 ![Figure 3-12. Total Collection Efficiency of NACA 65,1-212 
-Airfoil at 4 degree Angle of Attack.](images%2FWADC%2054-313%2FFigure%203-12.png)  
+Airfoil at 4 degree Angle of Attack.](images%2FWADC%2054-313%2FFigure%203-12%20rotated.png)  
 
 A thermal detail allows a seemingly 3D problem of thermal conduction 
 in the internal heating passages to be simplified to a 1D heat conduction 
@@ -200,7 +200,7 @@ of the fin are at temperatures higher than t_c, and so only a fraction of
 this heat is actually picked up. This fraction, denoted by eta and 
 called fin effectiveness, may be evaluated by means of the equation
 (Ref. 63, p. 235).](images%2FWADC%2054-313%2FDiscuss%204-14.png)  
-![Figure 4-14. Model of Inner Skin for Approximate Analysis.](images%2FWADC%2054-313%2FFigure%204-14.png)  
+![Figure 4-14. Model of Inner Skin for Approximate Analysis.](images%2FWADC%2054-313%2FFigure%204-14%20rotated.png)  
 ![Equation 4-65](images%2FWADC%2054-313%2FEquation%204-65.png)  
 
 ## “Engineering Summary of Airframe Icing Technical Data” ADS-4 [^1]  
