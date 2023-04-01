@@ -14,7 +14,7 @@ _Figure 4.2-2 of ADS-4._
 ## Key Points  
 1. NACA publications contributed heavily to later design manuals.  
 2. Extensive design publications distilling research into practical methods appeared in the 1950s.  
-3. I do not know of an authoritative, comprehensive, single design resource for some recent topics such as 3D design and analysis.  
+3. I do not know of a comprehensive design resource for some recent topics such as 3D design and analysis.  
 
 ## Discussion  
 
