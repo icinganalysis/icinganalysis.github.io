@@ -10,17 +10,29 @@ from pelicanconf import *
 # SITEURL = ''
 SITEURL = 'https://icinganalysis.github.io'
 RELATIVE_URLS = False
+#MENUITEMS = (
+#    ('Home', SITEURL + '/index.html'),
+#    ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
+#    ('Thermodynamics', '/icing-thermodynamics.html'),
+#    ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
+#    ('Diversions', SITEURL + '/diversions.html'),
+#    ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
+#    ('Icing Tunnels', SITEURL + '/icing-wind-tunnel-test-thread.html'),
+#    ('Instruments', SITEURL + '/meteorological-instruments.html'),
+#    ('Ice Protection', SITEURL + '/ice-protection.html'),
+#    ('About', SITEURL + '/about.html'),
+#)
 MENUITEMS = (
-    ('Home', SITEURL + '/index.html'),
-    ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
+    ('Home', '/index.html'),
+    ('Cylinders', '/icing-on-cylinders.html'),
     ('Thermodynamics', '/icing-thermodynamics.html'),
     ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
-    ('Diversions', SITEURL + '/diversions.html'),
-    ('Evaporation', SITEURL + '/water-drop-evaporation.html'),
-    ('Icing Tunnels', SITEURL + '/icing-wind-tunnel-test-thread.html'),
-    ('Instruments', SITEURL + '/meteorological-instruments.html'),
-    ('Ice Protection', SITEURL + '/ice-protection.html'),
-    ('About', SITEURL + '/about.html'),
+    ('Diversions', '/diversions.html'),
+    ('Evaporation', '/water-drop-evaporation.html'),
+    ('Icing Tunnels', '/icing-wind-tunnel-test-thread.html'),
+    ('Instruments', '/meteorological-instruments.html'),
+    ('Ice Protection', '/ice-protection.html'),
+    ('About', '/about.html'),
 )
 
 FEED_ALL_ATOM = ''
