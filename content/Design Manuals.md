@@ -232,7 +232,7 @@ e. Data on known methods and systems for detection of airframe icing.
 f. Various methods of testing ice protection systems and aircraft for
 adequacy.  
 
-We already reviewed part of [ADS-4]({filename}ads4.md). 
+We already reviewed part of [ADS-4](ads4.md). 
 Rather than the 2D analysis of NACA-TN-3130, ADS-4 describes a 
 1D analysis where ice protection performance on a surface (upper or lower wing)
 is described with a single, averaged control volume (from [NACA-TN-2799]({filename}NACA-TN-2799.md)). 
