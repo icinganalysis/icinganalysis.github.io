@@ -260,7 +260,7 @@ and was still relevant when republished in 1981.
 The Selected Bibliography includes ADS-4, even though it is not a 
 NACA or NASA publication. 
 
-“Ice, Frost, and Rain Protection” part of the SAE Applied Thermodynamics Manual [^7], 
+“Ice, Frost, and Rain Protection” part of the SAE Applied Thermodynamics Manual [^6], 
 was first published in 1969. It covers many of the same topics as ADS-4. 
 The current version is listed as "stabilized" by the SAE, 
 which means it will not be revised unless a need arises
@@ -277,11 +277,11 @@ We have not found the motivation for the extensive
 re-write that might be required to address recent topics. 
 
 Recent topics are being addressed in other avenues. 
-The AIAA has an Ice Prediction Workshop [^8] that addresses 3D ice shape tools, 
+The AIAA has an Ice Prediction Workshop [^7] that addresses 3D ice shape tools, 
 but not ice protection, and it is planned to last several more years, 
 and has not yielded something like a new design manual. 
 
-Some day I might write a review of the “Aircraft Icing Handbook" [^6], 
+Some day I might write a review of the “Aircraft Icing Handbook" [^8], 
 but not today. It is also perhaps a little dated. 
 The abstract discusses ADS-4:
 
@@ -301,7 +301,7 @@ aircraft and is intended as a working tool for the designer and analyst of ice p
 systems.  
 
 ADS-4 was the predominant design reference for decades. 
-The DOT/FAA “Aircraft Icing Handbook” [^6] was published in 1991, 
+The DOT/FAA “Aircraft Icing Handbook” [^8] was published in 1991, 
 and re-used large portions of ADS-4. 
 
 I have used many of the methods from ADS-4. 
@@ -319,7 +319,7 @@ ADS-4 has been used for decades, and is a crowning achievement of the NACA-era.
 [^3]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381  
 [^4]: "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
 [^5]: "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
-[^6]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
-[^7]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [AIR1168/4C](https://www.sae.org/standards/content/air1168/4/))  
-[^8]:
+[^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [AIR1168/4C](https://www.sae.org/standards/content/air1168/4/))  
+[^7]:
 1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
+[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  

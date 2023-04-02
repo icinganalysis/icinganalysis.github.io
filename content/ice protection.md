@@ -141,16 +141,12 @@ including the determination of heat transfer coefficients and fraction of the su
 NASA-SP-4409, vol. 2
 -->
 
-##Ice Protection Design Manuals  
+## [Ice Protection Design Manuals]({filename}Design Manuals.md)  
 
 _"An aircraft engineer can use this report to design adequate ice protection systems for any type aircraft for any flight mission profile."_  
 
 - The knowledge of aircraft icing reached enough maturity to produce engineering design manuals.  
-<!--
 
-- "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
-
--->
 ##Conclusions of the Ice Protection Thread  
 
 _"The optimum icing protection system for ... any particular aircraft cannot be generally specified; the choice of the optimum system is dependent upon the specific characteristics of the airplane and engine, the flight plan, the probable icing conditions, and the performance requirements of the aircraft."_  
@@ -166,7 +162,7 @@ _"The optimum icing protection system for ... any particular aircraft cannot be 
 p.528
 
 "One useful job for the full-scale tunnel would be a study of the effect
-of de-icers, both in their de­flated and in their operating condition, on the drag
+of de-icers, both in their deflated and in their operating condition, on the drag
 and the stalling characteristics of wings. Another would be an investigation of the
 temperature drop of air flowing around a wing. Where moisture in the air forms as
 ice on an aerodynamic surface, it is presumably the result of a change of temperature
