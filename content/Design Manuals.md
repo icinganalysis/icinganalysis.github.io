@@ -259,16 +259,6 @@ and was still relevant when republished in 1981.
 The Selected Bibliography includes ADS-4, even though it is not a 
 NACA or NASA publication. 
 
-ADS-4 was the predominant design reference for decades. 
-The DOT/FAA “Aircraft Icing Handbook” [^6] was published in 1991, 
-and re-used large portions of ADS-4. 
-
-I have used many of the methods from ADS-4. 
-While nomographs and 1D analysis may seem simplistic, 
-they yield reliable results. I have also used 3D analysis tools. 
-Frankly, if the 3D results do not agree with 1D analysis by, say, 
-+/20 % I would re-check what I did in the 3D analysis. 
-
 “Ice, Frost, and Rain Protection” part of the SAE Applied Thermodynamics Manual [^7], 
 was first published in 1969. It covers many of the same topics as ADS-4. 
 The current version is listed as "stabilized" by the SAE, 
@@ -290,12 +280,40 @@ The AIAA has an Ice Prediction Workshop [^8] that addresses 3D ice shape tools,
 but not ice protection, and it is planned to last several more years, 
 and has not yielded something like a new design manual. 
 
-Some day I might write a review of the “Aircraft Icing Handbook", 
-but not today. 
+Some day I might write a review of the “Aircraft Icing Handbook" [^6], 
+but not today. It is also perhaps a little dated today. 
+The abstract discusses ADS-4:
+
+>Periodically the Federal Aviation Administration
+(FAA) provides documentation to assist regulatory certification teams and industry design engineers
+in standardizing testing and validating procedures. Examples of such documentation are 
+"Engineering Summary of Airframe Icing Technical Data" FAA Report
+No. ADS-4 dated December 1964. and
+"EngineeringSummary of Powerplant Icing Technical Data." FAA
+Report No. RD-77-76,
+dated July 1977. Although most of the information contained in these reports is still valid. some is outdated. and
+more usable information is now available through recent research and experience. Therefore. this
+work was directed towards developing an updated and more comprehensive combined version of
+Report ADS-4 and RD-77-76 that includes reference material on ground and airborne icing facilities.
+simulation procedures and analytical techniques. This document represents all types and classes of
+aircraft and is intended as a working tool for the designer and analyst of ice protection
+systems.  
+
+ADS-4 was the predominant design reference for decades. 
+The DOT/FAA “Aircraft Icing Handbook” [^6] was published in 1991, 
+and re-used large portions of ADS-4. 
+
+I have used many of the methods from ADS-4. 
+While nomographs and 1D analysis may seem simplistic, 
+they yield reliable results. I have also used 3D analysis tools. 
+Frankly, if the 3D results do not agree with 1D analysis by, say, 
++/20 % I would re-check what I did in the 3D analysis. 
+
+ADS-4 has been used for decades, and is a crowning achievement of the NACA-era.  
 
 ## Notes  
 
-[^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
+[^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^2]: Tribus, Myron: "Modern Icing Technology" 1952.  https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5  
 [^3]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381  
 [^4]: "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
