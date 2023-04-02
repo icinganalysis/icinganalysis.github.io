@@ -244,7 +244,8 @@ and provide much information to help avoid
 ## Conclusions  
 
 By 1963 the comprehensive ADS-4 was available. 
-Aircraft icing was largely viewed as a "solved" problem, 
+Aircraft icing was largely viewed as a "solved" problem. 
+NACA had been subsumed by NASA, 
 and NASA resources were largely devoted to other tasks, such as space exploration
 (ADS-4 was published by the FAA, not NASA). 
 
@@ -281,7 +282,7 @@ but not ice protection, and it is planned to last several more years,
 and has not yielded something like a new design manual. 
 
 Some day I might write a review of the “Aircraft Icing Handbook" [^6], 
-but not today. It is also perhaps a little dated today. 
+but not today. It is also perhaps a little dated. 
 The abstract discusses ADS-4:
 
 >Periodically the Federal Aviation Administration
