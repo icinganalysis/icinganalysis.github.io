@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
         <title>Let's Build a 1D Water Drop Trajectory Simulation</title>
-        <link rel="stylesheet" href="https://icinganalysis.github.io/theme/css/main.css" />
+        <link rel="stylesheet" href="/theme/css/main.css" />
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -14,7 +14,7 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://icinganalysis.github.io/">Blast from the Past: NACA Icing Publications</a></h1>
+                <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
                 <nav><ul>
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/icing-on-cylinders.html">Cylinders</a></li>
@@ -32,7 +32,7 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="https://icinganalysis.github.io/lets-build-a-1d-water-drop-trajectory-simulation.html" rel="bookmark"
+        <a href="/lets-build-a-1d-water-drop-trajectory-simulation.html" rel="bookmark"
            title="Permalink to Let's Build a 1D Water Drop Trajectory Simulation">Let's Build a 1D Water Drop Trajectory Simulation</a></h1>
     </header>
 
@@ -49,12 +49,12 @@
         <!---->
         <!--<address class="vcard author">-->
                 <!--By -->
-                        <!--<a class="url fn" href="https://icinganalysis.github.io/author/donald-cook.html">Donald Cook</a>-->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
                 <!---->
         <!--</address>-->
         <!---->
-<!--<p>In <a href="https://icinganalysis.github.io/category/diversions.html">Diversions</a>.</p>-->
-<!--<p>tags: <a href="https://icinganalysis.github.io/tag/impingement.html">impingement</a> </p>-->
+<!--<p>In <a href="/category/diversions.html">Diversions</a>.</p>-->
+<!--<p>tags: <a href="/tag/impingement.html">impingement</a> </p>-->
 
 </footer><!-- /.post-info -->      <p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png">  </p>
 <h3><em>"The discrepancies are of the magnitude to be expected from ... the step by step integration".</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
@@ -72,11 +72,11 @@
 <p>We are going to start with a one dimensional simulation along a single line,
 the stagnation line of flow around a cylinder, y=0 in the figure above. </p>
 <p>We will implement the equations of motions for a drop around a cylinder from 
-<a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
-<p>Readers unfamiliar with <a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> 
+<a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<p>Readers unfamiliar with <a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> 
 may wish to review it before proceeding further herein, 
 especially to be familiar with the dimensionless terms K and Phi.</p>
-<p>We will use the dimensionless coordinate system from Figure 1 above (from <a href="https://icinganalysis.github.io/naca-tn-2903.html">NACA-TN-2903</a>). </p>
+<p>We will use the dimensionless coordinate system from Figure 1 above (from <a href="/naca-tn-2903.html">NACA-TN-2903</a>). </p>
 <p>We will use python syntax, where exponentiation is "**". </p>
 <p>"u" is the dimensionless airspeed. </p>
 <p>For incompressible potential flow, 
@@ -141,7 +141,7 @@ no impingement at K = 0.125, and impingement with K = 0.126.</p>
 <p>To compare results at other values of K, we will use Figure 8 from <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.<br>
 <img alt="Figure 8" src="images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png"> </p>
 <p>The calculated values are similar, but not identical. 
-To use a phrase from <a href="https://icinganalysis.github.io/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a>:  </p>
+To use a phrase from <a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a>:  </p>
 <blockquote>
 <p><em>"The discrepancies are of the magnitude to be expected from ... the step by step integration".</em>  </p>
 </blockquote>
@@ -166,10 +166,10 @@ Note that the terminal distance corresponds to the diameters ratio, d_drop/d_cyl
 <h2>Conclusions</h2>
 <p>We will call this implementation "good enough" for now. </p>
 <p>The model is capable of determining water drop relative airspeed, 
-which will be important in our next step in the <a href="https://icinganalysis.github.io/water-drop-evaporation.html">Water drop evaporation thread</a>
+which will be important in our next step in the <a href="/water-drop-evaporation.html">Water drop evaporation thread</a>
 of calculating mass and heat transfer rates from a drop. </p>
 <h2>Notes:</h2>
-<p>This is part of the <a href="https://icinganalysis.github.io/water-drop-evaporation.html">Water drop evaporation thread</a>, 
+<p>This is part of the <a href="/water-drop-evaporation.html">Water drop evaporation thread</a>, 
 which you may want to review if you came here via a direct link. </p>
 <div class="footnote">
 <hr>
@@ -210,6 +210,6 @@ which you may want to review if you came here via a direct link. </p>
                 <br /> copyright 2022-2023 by Donald Cook
 
         </footer><!-- /#contentinfo -->
-<link rel="shortcut icon" href="https://icinganalysis.github.io/images/favicon.ico?v=2" />
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
 </body>
 </html>
