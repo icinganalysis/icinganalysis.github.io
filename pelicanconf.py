@@ -25,7 +25,7 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (('github', 'https://github.com/icinganalysis/icinganalysis.github.io'),
 #          ('twitter', 'https://twitter.com/icinganalysis'),
           ('linkedin', 'https://www.linkedin.com/in/donald-cook-96204316a/'),
-          ('email', 'mailto:icinganalysis@gmail.com'),
+          ('email', 'mailto:icinganalysis@proton.me'),
           ('mastodon', 'https://historians.social/@icinganalysis'),
           )
 
