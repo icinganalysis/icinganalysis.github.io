@@ -35,7 +35,7 @@ that is, but in regularity. When cancellations on account of weather are elimina
 or even reduced to a fifth or a tenth of their present number, air transport’s whole
 status will be changed.” It is difficult to see how aviation can come into its full
 destiny as an every-day competitor of steamships and railroads unless airplanes are
-made capable of flying in any weather.
+made capable of flying in any weather.  
 
 _Excerpts from George W. Gray, Chapter 14,
 “Heat Against Ice,” in Frontiers of Flight: The Story of NACA Research, 
@@ -122,24 +122,6 @@ _"ice formation can be redefined in more general terms as a thermodynamic proble
 
 - The thermal analysis of icing conditions has unique challenges, 
 including the determination of heat transfer coefficients and fraction of the surface wetted.  
-
-<!--
-- "A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body", NACA-WR-A-40, Dec. 1942.  
-- "An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings", NACA-WR-W-14, Mar. 1943.  
-- "An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane", NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
-    > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
-- "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions", NACA-TN-1472, 1947.  
-    > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
-- "An Investigation of Aircraft Heaters. XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils" NACA-TN-1453, 1948.  
-- "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
-- "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow", NACA-TN-2861, 1953.  
-- "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", NACA-TN-2914, 1953.  
-    > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
-- "An Analytical Study of Heat Requirements for Icing Protection of Radomes", NACA-RM-E53A22, 1953.  
-##- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
-
-NASA-SP-4409, vol. 2
--->
 
 ## [Ice Protection Design Manuals]({filename}Design Manuals.md)  
 

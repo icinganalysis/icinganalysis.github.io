@@ -483,6 +483,10 @@ Section 3 cites 17 publications, 9 of which are NACA publications.
 
 An online search [^11] found 65 citations of ADS-4 in the literature.  
 
+## See also  
+
+[Design Manuals](Design%20Manuals.md) discusses ADS-4 and its predecessors. 
+
 ##Notes 
 
 [^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
