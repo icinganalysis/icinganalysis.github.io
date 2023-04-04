@@ -72,7 +72,7 @@ Unmanned aircraft can be almost any size, including rather small.
 Some applications may be able to tolerate schedule interruptions due to weather, 
 while others may need all-weather capability. 
 All-electric aircraft have unique advantages and challenges. 
-I did a cursory search and easily found 18 companies working on 
+I did a cursory search and easily found 18 companies currently working on 
 all-electric aircraft, and I do not doubt that there are many more. 
 
 Analysis methods developed after the NACA-era, 
@@ -247,7 +247,7 @@ such as the [Sonic Criuser](https://en.wikipedia.org/wiki/Boeing_Sonic_Cruiser).
 
 ## Conclusions  
 
-While the knowledge from the NACA-era that is encapsulated in design guides is useful 
+While the NACA-era knowledge that is encapsulated in design guides is useful 
 for determining "adequate" ice protection, 
 optimal systems for new aircraft configurations and new technologies 
 may still require research and development. 
