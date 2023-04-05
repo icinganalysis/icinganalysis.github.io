@@ -187,7 +187,7 @@ de-icing and possible ice ingestion in tail-mounted engines and propellers.
 These considerations may weigh against the selection of a deicing system.
 
 >...  
-> 111.6.6 DISTINCTIVE TRANSPORT CATEGORY AIRPLANE PROBLEMS (FAR PART 25)
+> III.6.6 DISTINCTIVE TRANSPORT CATEGORY AIRPLANE PROBLEMS (FAR PART 25)
 Aircraft in this category can be either small, medium or large and each would have somewhat
 distinctive ice protection problems. Added to this is the complication that these aircraft can be
 powered by piston engines, turboprop engines and propellers, or jet engines (high or low bypass ratio).
