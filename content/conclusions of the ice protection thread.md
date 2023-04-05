@@ -1,6 +1,5 @@
 title: Conclusions of the Ice Protection Thread  
 category: Ice Protection  
-status: draft  
 
 ### _"The industry has now passed through the experimental stages of heating and anti-icing ..." (1946) [^1]_   
 
@@ -14,8 +13,8 @@ wings with exhaust gas, and the windshield with heated air.
 Figure 12. Three-quarter rear view of airplane, showing location
 of air discharge louvers in the wing upper surface and
 exhaust discharge at the wing tip.
-](images/NACA-ACR-A-53/Figure 1.png)  
-_From [NACA-ACR-A-53](engine%20exhaust%20heat.md), 1941. [^2]_  
+](images/NACA-ACR-A-53/Figure 1.png)
+_From [NACA-ACR-A-53](engine%20exhaust%20heat.md), 1941._  
 
 ## Summary  
 Ice protection system development continues to address new challenges.  
@@ -43,7 +42,10 @@ a crowning achievement of the NACA-era
 (ADS-4 was published after the NACA era, 
 but it was included in Uwe von Glahn's ["Selected Bibliography of NACA-NASA Icing Publications"]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md)).  
 
-The "destiny" noted below of all-weather aircraft had been achieved:  
+[NACA-TR-403](engine%20exhaust%20heat.md) said in 1931: 
+>"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development."    
+
+The prediction above and the "destiny" noted below of all-weather aircraft had thus been achieved:  
 
 >“The greatest advance that can be made in air transport from its present level,”
 said Edward P. Warner in 1946, “is not in speed, or even in economy, important as
@@ -69,6 +71,7 @@ and may yet see improvements.
 Also, ice protection is being applied to aircraft other than the 
 transports largely considered in the NACA-era. 
 Unmanned aircraft can be almost any size, including rather small. 
+Some mission profiles may have extended durations in potential icing conditions. 
 Some applications may be able to tolerate schedule interruptions due to weather, 
 while others may need all-weather capability. 
 All-electric aircraft have unique advantages and challenges. 
@@ -85,7 +88,7 @@ This is an area of ongoing research and development.
 We have seen many possible methods for ice protection. 
 How do airplane designers choose from among them? 
 
-The Aircraft Icing Handbook [^2] has sections describing ice protection methods
+The Aircraft Icing Handbook [^3] has sections describing ice protection methods
 (including one that we did not see in the NACA-era, electro-impulse de-icing or EIDI). 
 It also has a section on selecting from among the options. 
 The Aircraft Icing Handbook in general drew heavily from the prior ADS-4. 
@@ -255,4 +258,5 @@ may still require research and development.
 ## Notes  
 
 [^1]: Draney, John J.: "Heat Recovery Applied to Heating and Anti-Icing of Aircraft". SAE Transactions, Vol. 54, 1946.  
-[^2]: “Aircraft Icing Handbook, Volume 2.” DOT/FAA/CT-88/8-2 (1991) https://apps.dtic.mil/sti/citations/ADA238040 .  
+[^2]: Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
+[^3]: “Aircraft Icing Handbook, Volume 2.” DOT/FAA/CT-88/8-2 (1991) https://apps.dtic.mil/sti/citations/ADA238040 .  
