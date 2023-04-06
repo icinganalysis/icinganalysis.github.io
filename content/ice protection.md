@@ -129,7 +129,7 @@ _"An aircraft engineer can use this report to design adequate ice protection sys
 
 - The knowledge of aircraft icing reached enough maturity to produce engineering design manuals.  
 
-##Conclusions of the Ice Protection Thread  
+## [Conclusions of the Ice Protection Thread](conclusions%20of%20the%20ice%20protection%20thread.md)  
 
 _"The optimum icing protection system for ... any particular aircraft cannot be generally specified; the choice of the optimum system is dependent upon the specific characteristics of the airplane and engine, the flight plan, the probable icing conditions, and the performance requirements of the aircraft."_  
 
