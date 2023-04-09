@@ -6,7 +6,7 @@ Category: NACA
 ## Summary
 
 A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 categories.
-
+  
 ## Discussion
 
 ### Publications
