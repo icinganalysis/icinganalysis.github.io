@@ -1,5 +1,4 @@
 Title: The Historical Selected Bibliography of NACA-NASA Icing Publications
-summary: A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 categories.  
 Date: 2022-02-01 12:00  
 Category: NACA
 
