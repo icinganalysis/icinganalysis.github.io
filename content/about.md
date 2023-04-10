@@ -1,8 +1,9 @@
 Title: About   
+Date: 2022-01-15 12:00  
 
 This site is still under development.
 
-Do not expected the site content, structure, nor links to be stable.
+Do not expect the site content, structure, nor links to be stable.
 
 [Blog](blog.html) (latest articles first)
   

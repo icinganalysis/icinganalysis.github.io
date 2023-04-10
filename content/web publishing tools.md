@@ -1,4 +1,5 @@
 Title: Web publishing tools
+Date: 2022-01-15 12:00  
 Category: About
 <!--summary: Pelican, Markdown, LibreOffice Impress, and GitHub Pages-->
 

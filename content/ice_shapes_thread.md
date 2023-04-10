@@ -1,4 +1,5 @@
 Title: Ice Shapes and Their Effects  
+Date: 2022-06-04 12:00  
 Category: NACA  
 
 ###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]

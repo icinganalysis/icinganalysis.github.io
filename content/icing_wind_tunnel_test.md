@@ -1,4 +1,5 @@
 title: Icing Wind Tunnel Test Thread 
+Date: 2022-07-15 12:00  
 category: icing tunnels  
 
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
