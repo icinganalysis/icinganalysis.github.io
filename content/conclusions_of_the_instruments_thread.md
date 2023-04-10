@@ -1,4 +1,5 @@
 title: Conclusions of the Meteorological Instruments Thread  
+Date: 2023-01-08 12:00  
 category: NACA  
 
 ###_"difficulties with the calibration proved to be more serious than had been anticipated"_ [^1]  

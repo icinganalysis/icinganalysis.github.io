@@ -1,4 +1,5 @@
 title: Freezing Point Depressant Fluids  
+Date: 2023-02-26 12:00  
 tags: ice protection   
 
 _"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_ [^1]  

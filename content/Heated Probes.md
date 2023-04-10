@@ -1,4 +1,5 @@
 title: Heated Probes  
+Date: 2022-12-08 12:00  
 Category: NACA  
 tags: instruments  
 

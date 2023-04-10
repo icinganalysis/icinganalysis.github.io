@@ -1,4 +1,5 @@
 Title: "Mathematical Investigation of Water Droplet Trajectories"    
+Date: 2022-02-01 12:00  
 Category: Army Air Force
 tags: cylinder
 
@@ -17,7 +18,7 @@ Langmuir drop size distributions are defined, and water drop impingement on a co
 
 >  Calculations are given of the trajectories of small water droplets 
 moving in air at high velocities across a cylinder.  The calculations were 
-made by means of of a differential analyzer (D.A.). A few calculations are
+made by means of a differential analyzer (D.A.). A few calculations are
 also given for the case of a sphere and a ribbon.
 
 >  Each D. A. trajectory represents the motion of a single particle. The theoretical curves for

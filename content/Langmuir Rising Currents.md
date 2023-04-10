@@ -1,4 +1,5 @@
 Title: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air  
+Date: 2022-05-23 12:00  
 Category: NACA  
 
 ###_"It is possible to develop this theory to cover also growth of water droplets during the adiabatic expansion of a rising mass of saturated air."_  

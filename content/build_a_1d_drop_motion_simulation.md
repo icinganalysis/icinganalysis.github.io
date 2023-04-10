@@ -1,4 +1,5 @@
 Title: Let's Build a 1D Water Drop Trajectory Simulation  
+Date: 2022-05-25 12:00  
 category: Diversions  
 tags: impingement  
 

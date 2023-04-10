@@ -1,4 +1,5 @@
 title: Large Drop Icing Conditions in Icing Wind Tunnels  
+Date: 2022-08-29 12:00  
 category: icing tunnels  
 
 ###_"effects are scaled appropriately between Appendix C and SLD conditions using the existing scaling methods"_  
@@ -24,7 +25,7 @@ While Appendix O [^2] is only 10 page long,
 AC 25-28 [^3] describing acceptable means of compliance is 89 pages long, 
 and the Ice Protection Harmonization Working Group report [^4], 
 that details the data behind Appendix O, is 559 pages long 
-(and it is highly recommended for those who have the time to study it).
+(and it is highly recommended for those who have the time to study it).  
 
 In 2014, new icing certification requirements [^2] were published by the FAA
 that included, for the first time, requirements for SLD icing conditions, 

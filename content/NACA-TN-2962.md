@@ -1,4 +1,5 @@
 title: NACA-TN-2962     
+Date: 2022-06-19 12:00  
 Category: NACA  
 
 ###_"The results showed that glaze-ice formations, either primary or runback, ... caused large and rapid increases in drag, especially at datum air temperatures approaching 32F"_  

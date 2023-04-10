@@ -1,4 +1,5 @@
 title: Engine Exhaust Heat  
+Date: 2023-02-06 12:00  
 
 ###_"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development." [^1]_  
 

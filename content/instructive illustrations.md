@@ -1,4 +1,5 @@
 Title: Instructive Illustrations  
+Date: 2023-04-01 12:00
 Category: Diversions  
 
 ![Four cartoon depictions of aircraft in icing. 

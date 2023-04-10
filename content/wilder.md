@@ -1,4 +1,5 @@
 Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]  
+Date: 2022-07-06 12:00  
 Category: Diversions  
 
 ###_"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."_  

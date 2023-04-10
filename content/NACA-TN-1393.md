@@ -1,4 +1,5 @@
 Title: NACA-TN-1393    
+Date: 2022-01-29 12:00  
 Category: NACA
 tags: cylinder, natural icing
 

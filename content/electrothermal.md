@@ -1,4 +1,5 @@
 title: Electrothermal Ice Protection  
+Date: 2023-02-20 12:00  
 
 ###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_ [^1]   
 

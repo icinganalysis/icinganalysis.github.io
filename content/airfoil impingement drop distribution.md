@@ -1,4 +1,5 @@
 title: airfoil impingement drop distribution  
+Date: 2022-12-11 12:00  
 Category: NACA  
 tags: instruments  
 

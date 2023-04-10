@@ -1,4 +1,5 @@
 title: NACA-TN-2458  
+Date: 2022-12-15 12:00  
 Category: NACA  
 tags: instruments  
 

@@ -1,4 +1,5 @@
 Title: NACA-TN-3045  
+Date: 2022-05-04 12:00  
 Category: NACA  
 tags: thermodynamics  
 

@@ -1,4 +1,5 @@
 title: Conclusions of the Ice Protection Thread  
+Date: 2023-04-06 12:00  
 category: Ice Protection  
 
 ### _"The industry has now passed through the experimental stages of heating and anti-icing ..." (1946) [^1]_   

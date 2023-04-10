@@ -1,4 +1,5 @@
 title: Six Month Review of Blast from the Past: NACA Icing Publications    
+Date: 2022-07-13 12:00  
 
 ![Figure 8](images/naca-tn-339/Figure 8.png)  
 _One of the earliest icing wind tunnel tests on surface coatings to prevent ice, NACA-TN-339, 1929. Sometimes, there is a learning curve._  

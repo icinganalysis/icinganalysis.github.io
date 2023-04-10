@@ -1,4 +1,5 @@
 title: AEDC-TR-85-30  
+Date: 2022-08-01 12:00  
 category: icing tunnels  
 
 ###_"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."_  

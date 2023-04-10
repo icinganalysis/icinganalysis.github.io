@@ -1,4 +1,5 @@
 title: Out-Sourcing My Work to ChatGPT and DALL-E ;)  
+Date: 2023-01-22 12:00  
 
 ![A metal-construction, low-wing, single engine, propeller driven airplane in flight.
 The passenger cabin is rather boxy for an airplane. 

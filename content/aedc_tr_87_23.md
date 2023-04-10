@@ -1,4 +1,5 @@
 title: AEDC-TR-87-23  
+Date: 2022-08-03 12:00  
 category: icing tunnels  
 
 ###_"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  

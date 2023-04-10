@@ -1,4 +1,5 @@
 title: NACA-TN-313  
+Date: 2022-06-06 12:00  
 Category: NACA  
 
 ###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_
