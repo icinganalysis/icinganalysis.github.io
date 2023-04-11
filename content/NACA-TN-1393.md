@@ -54,39 +54,39 @@ quantities-used in the calculations. The results, which are shown
 in the following table, are based on a liquld water content of 0.5
 gram per cubic meter and an average drop diameter of 10 microns.
 
-|                 |                  | Resulting percent error (E) |Resulting percent error (E)|
-|-----------------|------------------|-----------------------------|---------------------------|
-|Source of error                  | estimated amount of error|Water content|Drop diameter|
-| Weighing sample 1/8-in. cylinder| 0.02 gram                | 2.6         | 2           |
-| Weighing sample 1-in. cylinder  | 0.03 gram                | 1.0         | 1           |
-| Assumed density of ice  | 0.08 g/cm^3              | 2.5         | 2           |
-| Timing exposure  | 1.5 sec              | 2.4         | 0           |
-| True airspeed| 2.5|1.5|0|
-| Misculaneous errors | ----| 1.0 | 1 |
-| Error due to using "C" distribution for unknown distribution|----| up to 3 | up to 3|
+|                                                              |                           | Resulting percent error (E) | Resulting percent error (E) |
+|--------------------------------------------------------------|---------------------------|-----------------------------|-----------------------------|
+| Source of error                                              | estimated amount of error | Water content               | Drop diameter               |
+| Weighing sample 1/8-in. cylinder                             | 0.02 gram                 | 2.6                         | 2                           |
+| Weighing sample 1-in. cylinder                               | 0.03 gram                 | 1.0                         | 1                           |
+| Assumed density of ice                                       | 0.08 g/cm^3               | 2.5                         | 2                           |
+| Timing exposure                                              | 1.5 sec                   | 2.4                         | 0                           |
+| True airspeed                                                | 2.5                       | 1.5                         | 0                           |
+| Misculaneous errors                                          | ----                      | 1.0                         | 1                           |
+| Error due to using "C" distribution for unknown distribution | ----                      | up to 3                     | up to 3                     |
 
-|Total error|Water content (percent)|Drop diameter (percent)|
-|---|---|---|
-|Maximum total error sum(E)| 14| 9|
-|Estimated resultant error (sum(E^2))^0.5| 5.7| 4.4|
+| Total error                              | Water content (percent) | Drop diameter (percent) |
+|------------------------------------------|-------------------------|-------------------------|
+| Maximum total error sum(E)               | 14                      | 9                       |
+| Estimated resultant error (sum(E^2))^0.5 | 5.7                     | 4.4                     |
 
 Running the file "naca-tn-1393.py" [^4] yields different results, particularly for the 
 'Error due to using "C" distribution curves for unknown distribution' part:
 
-|Source of error|Estimated amount of error|Resultant percent error (E) Water content|Resultant percent error (E) Drop diameter|
-|---|---|---|---|
-|Weighing sample 1/8-in. cylinder|+/-0.02 gram|2.9|2.6|
-|Weighing sample 1-in. cylinder|+/-0.03 gram|0.3|1.1|
-|Assumed density of ice|-0.08 g/cm^3|0.4|0.3|
-|Timing exposure|+/-1.5 seconds|2.6|0.0|
-|True airspeed|+/-2.5 mph|1.5|0.6|
-|Miscellaneous other errors|----|1.0|1|
-|Error due to using "C" distribution curves for unknown distribution|----|7.0|9.9|
+| Source of error                                                     | Estimated amount of error | Resultant percent error (E) Water content | Resultant percent error (E) Drop diameter |
+|---------------------------------------------------------------------|---------------------------|-------------------------------------------|-------------------------------------------|
+| Weighing sample 1/8-in. cylinder                                    | +/-0.02 gram              | 2.9                                       | 2.6                                       |
+| Weighing sample 1-in. cylinder                                      | +/-0.03 gram              | 0.3                                       | 1.1                                       |
+| Assumed density of ice                                              | -0.08 g/cm^3              | 0.4                                       | 0.3                                       |
+| Timing exposure                                                     | +/-1.5 seconds            | 2.6                                       | 0.0                                       |
+| True airspeed                                                       | +/-2.5 mph                | 1.5                                       | 0.6                                       |
+| Miscellaneous other errors                                          | ----                      | 1.0                                       | 1                                         |
+| Error due to using "C" distribution curves for unknown distribution | ----                      | 7.0                                       | 9.9                                       |
 
-|Total error|Water content (percent)|Drop diameter (percent)|
-|---|---|---|
-|Maximum total error (sum(E))|15.8|15.5|
-|Maximum resultant error (sum(E^2)^0.5)|8.2|10.4|
+| Total error                            | Water content (percent) | Drop diameter (percent) |
+|----------------------------------------|-------------------------|-------------------------|
+| Maximum total error (sum(E))           | 15.8                    | 15.5                    |
+| Maximum resultant error (sum(E^2)^0.5) | 8.2                     | 10.4                    |
 
 Part of the challenge of reproducing prior results is the terse descriptions of the differing conditions used describe the line item. 
 For the 'Error due to using "C" distribution curves for unknown distribution' item, 
@@ -162,11 +162,11 @@ of icing conditions has led to the following tentative estimates of
 the most severe icing conditions likely to be encountered in the 
 course of all-weather transport operations in the United States:
 
-|Cloud type|Duration|Liquid water content|Average drop diameter|Temperature|
-|---|---|---|---|---|
-|cumulus|1 minute| 2.0 g/m^3|20 microns|0°F|
-|stratus or stratocumulus|20 minutes or longer|0.8 g/m^3|15 microns|20°F|
-|stratus or stratocumulus|20 minutes or longer|0.5 g/m^3|25 microns|20°F|
+| Cloud type               | Duration             | Liquid water content | Average drop diameter | Temperature |
+|--------------------------|----------------------|----------------------|-----------------------|-------------|
+| cumulus                  | 1 minute             | 2.0 g/m^3            | 20 microns            | 0°F         |
+| stratus or stratocumulus | 20 minutes or longer | 0.8 g/m^3            | 15 microns            | 20°F        |
+| stratus or stratocumulus | 20 minutes or longer | 0.5 g/m^3            | 25 microns            | 20°F        |
 
 
 ###Distance effect

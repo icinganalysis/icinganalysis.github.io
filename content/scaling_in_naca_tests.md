@@ -87,11 +87,11 @@ At 21,000 ft. the air density is about 0.5 that of sea level
 Here are relative values that maintain the K and φ values. 
 There is more than one flight set that corresponds to the test values. 
 
-Relative Value | a | V | Chord | ρ | a<sup>^2</sup> V / C | ρ<sup>^2</sup> V C
----|---|---|---|---|---|---
-Test| 1 | 1| 0.5 | 1 | 2 | 0.5
-Flight 1 | 1 | 2 | 1 | 0.5 | 2 | 0.5
-Flight 2 | 1.41 | 1 | 1 | 0.707 | 2 | 0.5
+| Relative Value | a    | V   | Chord | ρ     | a<sup>^2</sup> V / C | ρ<sup>^2</sup> V C |
+|----------------|------|-----|-------|-------|----------------------|--------------------|
+| Test           | 1    | 1   | 0.5   | 1     | 2                    | 0.5                |
+| Flight 1       | 1    | 2   | 1     | 0.5   | 2                    | 0.5                |
+| Flight 2       | 1.41 | 1   | 1     | 0.707 | 2                    | 0.5                |
 
 The first flight set appears to be what was described in the example, 
 but the flight velocity being twice the test value was not mentioned. 

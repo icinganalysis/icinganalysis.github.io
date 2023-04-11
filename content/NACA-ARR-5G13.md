@@ -149,14 +149,12 @@ An implementation in the Python programming language yielded similar results
 
 Comparison to Table I:  
 
-T, F|P, mm_hg|NACA-ARR-5G13 T_surface, F|Calculated T_surface, F|NACA-ARR-5G13 Ratio, Cp/Cp_wet|Calculated Ratio, Cp/Cp_wet
-----|--------|--------------------------|-----------------------|------------------------------|---------------------------
-0   |760     |19.4                      |19.5                   |0.77                          |0.77                       
-0   |350     |15.8                      |15.8                   |0.62                          |0.62                       
-25  |760     |40.1                      |39.9                   |0.6                           |0.59                       
-25  |350     |35.5                      |35.5                   |0.49                          |0.42                       
-
-
+| T, F | P, mm_hg | NACA-ARR-5G13 T_surface, F | Calculated T_surface, F | NACA-ARR-5G13 Ratio, Cp/Cp_wet | Calculated Ratio, Cp/Cp_wet |
+|------|----------|----------------------------|-------------------------|--------------------------------|-----------------------------|
+| 0    | 760      | 19.4                       | 19.5                    | 0.77                           | 0.77                        |
+| 0    | 350      | 15.8                       | 15.8                    | 0.62                           | 0.62                        |
+| 25   | 760      | 40.1                       | 39.9                    | 0.6                            | 0.59                        |
+| 25   | 350      | 35.5                       | 35.5                    | 0.49                           | 0.42                        |
 
 ##Citations
 

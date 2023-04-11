@@ -73,30 +73,30 @@ the Thermodynamics Group at Lockheed Aircraft Corporation.
 The paper used its own nomenclature. 
 I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^2]. 
 
-Description| symbol | Messinger symbol
----|---|---
-air specific heat at constant pressure | cp | ca
-unit system gravitation factor | gc = 1 kg-m/(N-s^2) | g, "gravitational constant, 32.2 ft./sec.^2 or lbs. per slug"
-heat transfer coefficient| hc| f
-ambient static pressure | p | B, ambient absolute pressure
-mass flux rate of water (mass/unit_area/time) | mw | Rw
-mass flux rate of evaporation (mass/unit_area/time) | me | Rwe
-evaporation fraction | m | m
-freezing fraction | n | n
-ambient water vapor pressure | pv | p∞
-surface water vapor pressure | pvs | psw
-heat transfer (loss) by convection | qc | qc
-heat transfer (loss) by evaporation | qe | qe
-heat transfer (gain) by freezing | qf | qf
-heat transfer (gain) by kinetic heating from drops | qk | qk
-heat transfer (gain) by viscous heating | qv | qv
-heat transfer (loss) by warming drops | qw | qw
-recovery factor | r | r
-ambient air static temperature| ta | t∞
-surface temperature | ts | tse
-latent heat of evaporation | Le | Le
-latent heat of freezing | Lf | Lf
-free stream airspeed | u | V
+| Description                                         | symbol              | Messinger symbol                                              |
+|-----------------------------------------------------|---------------------|---------------------------------------------------------------|
+| air specific heat at constant pressure              | cp                  | ca                                                            |
+| unit system gravitation factor                      | gc = 1 kg-m/(N-s^2) | g, "gravitational constant, 32.2 ft./sec.^2 or lbs. per slug" |
+| heat transfer coefficient                           | hc                  | f                                                             |
+| ambient static pressure                             | p                   | B, ambient absolute pressure                                  |
+| mass flux rate of water (mass/unit_area/time)       | mw                  | Rw                                                            |
+| mass flux rate of evaporation (mass/unit_area/time) | me                  | Rwe                                                           |
+| evaporation fraction                                | m                   | m                                                             |
+| freezing fraction                                   | n                   | n                                                             |
+| ambient water vapor pressure                        | pv                  | p∞                                                            |
+| surface water vapor pressure                        | pvs                 | psw                                                           |
+| heat transfer (loss) by convection                  | qc                  | qc                                                            |
+| heat transfer (loss) by evaporation                 | qe                  | qe                                                            |
+| heat transfer (gain) by freezing                    | qf                  | qf                                                            |
+| heat transfer (gain) by kinetic heating from drops  | qk                  | qk                                                            |
+| heat transfer (gain) by viscous heating             | qv                  | qv                                                            |
+| heat transfer (loss) by warming drops               | qw                  | qw                                                            |
+| recovery factor                                     | r                   | r                                                             |
+| ambient air static temperature                      | ta                  | t∞                                                            |
+| surface temperature                                 | ts                  | tse                                                           |
+| latent heat of evaporation                          | Le                  | Le                                                            |
+| latent heat of freezing                             | Lf                  | Lf                                                            |
+| free stream airspeed                                | u                   | V                                                             |
 
 Calculations here will be in SI units, with the exceptions of:  
 - LWC, g/m^3  
@@ -245,10 +245,10 @@ The python implementation (file messinger.py [^4]) reproduces Figure 10a results
 (Yes, 1000 knots is kind-of high, but that is the range that Messinger used.) 
 
 
-Source              |Ts@V=0, F|V@n=0, knots|V@n=1, knots|Ts@V=1000, F
---------------------|---------|------------|------------|------------
-Messinger Figure 10a|28.2     |185         |587         |66          
-Calculated (Python) |30       |179         |576         |66.1        
+| Source               | Ts@V=0, F | V@n=0, knots | V@n=1, knots | Ts@V=1000, F |
+|----------------------|-----------|--------------|--------------|--------------|
+| Messinger Figure 10a | 28.2      | 185          | 587          | 66           |
+| Calculated (Python)  | 30        | 179          | 576          | 66.1         |
 
 Figure 10b includes the variation of b with airspeed. 
 However, it did not include the water drop catch efficiency beta values, 
@@ -384,26 +384,26 @@ The external heat transfer relationship used was:
 Calculated values agree well with the Messinger Table 1 values, 
 especially considering that we had to infer the water catch efficiency and heat transfer coefficients. 
 
-Run |Airspeed, mph|LWC  |Water drop diameter, micrometer |T_static, F|Messinger calculated n|Python calculated n|Measured T_surface, F|Calculated T_surface, F
-----|-------------|-----|----|-----------|----------------------|-------------------|---------------------|-----------------------
-1   |244          |0.64 |6.8 |3.8        |1                     |1.00               |31                   |31.4                   
-2-A |252          |0.7  |9.7 |1.8        |0.65                  |0.67               |34                   |32.0                   
-2-B |252          |2    |7.6 |1.8        |0.402                 |0.42               |31                   |32.0                   
-2-C |252          |0.26 |10.5|1.8        |1                     |1.00               |27                   |26.5                   
-3   |235          |1.1  |8.5 |6.9        |0.46                  |0.49               |33                   |32.0                   
-4   |226          |0.32 |12  |-0.9       |1                     |1.00               |25                   |27.3                   
-5   |227          |0.27 |20.7|1.7        |0.9                   |0.89               |30                   |32.0                   
-6-A |221          |0.27 |9.8 |2.9        |1                     |1.00               |22                   |24.1                   
-6-B |207          |0.27 |10  |3.8        |1                     |1.00               |21                   |23.8                   
-7   |220          |0.5  |18.2|4.6        |0.535                 |0.57               |32                   |32.0                   
-8   |210          |0.81 |17.1|14.8       |0.237                 |0.27               |33                   |32.0                   
-9   |238          |0.7  |16.4|8.8        |0.35                  |0.38               |33                   |32.0                   
-10  |234          |0.16 |13.8|0.2        |1                     |1.00               |20                   |21.0                   
-11  |228          |0.43 |13.2|17.2       |0.282                 |0.38               |31                   |32.0                   
-12-A|243          |0.17 |8.9 |-1.6       |1                     |1.00               |16                   |16.0                   
-12-B|243          |0.145|10  |-2.9       |1                     |1.00               |18                   |14.7                   
-13  |238          |0.34 |13  |4.5        |0.83                  |0.88               |31                   |32.0                   
-14  |232          |0.34 |16  |12.3       |0.475                 |0.54               |32                   |32.0                   
+| Run  | Airspeed, mph | LWC   | Water drop diameter, micrometer | T_static, F | Messinger calculated n | Python calculated n | Measured T_surface, F | Calculated T_surface, F |
+|------|---------------|-------|---------------------------------|-------------|------------------------|---------------------|-----------------------|-------------------------|
+| 1    | 244           | 0.64  | 6.8                             | 3.8         | 1                      | 1.00                | 31                    | 31.4                    |
+| 2-A  | 252           | 0.7   | 9.7                             | 1.8         | 0.65                   | 0.67                | 34                    | 32.0                    |
+| 2-B  | 252           | 2     | 7.6                             | 1.8         | 0.402                  | 0.42                | 31                    | 32.0                    |
+| 2-C  | 252           | 0.26  | 10.5                            | 1.8         | 1                      | 1.00                | 27                    | 26.5                    |
+| 3    | 235           | 1.1   | 8.5                             | 6.9         | 0.46                   | 0.49                | 33                    | 32.0                    |
+| 4    | 226           | 0.32  | 12                              | -0.9        | 1                      | 1.00                | 25                    | 27.3                    |
+| 5    | 227           | 0.27  | 20.7                            | 1.7         | 0.9                    | 0.89                | 30                    | 32.0                    |
+| 6-A  | 221           | 0.27  | 9.8                             | 2.9         | 1                      | 1.00                | 22                    | 24.1                    |
+| 6-B  | 207           | 0.27  | 10                              | 3.8         | 1                      | 1.00                | 21                    | 23.8                    |
+| 7    | 220           | 0.5   | 18.2                            | 4.6         | 0.535                  | 0.57                | 32                    | 32.0                    |
+| 8    | 210           | 0.81  | 17.1                            | 14.8        | 0.237                  | 0.27                | 33                    | 32.0                    |
+| 9    | 238           | 0.7   | 16.4                            | 8.8         | 0.35                   | 0.38                | 33                    | 32.0                    |
+| 10   | 234           | 0.16  | 13.8                            | 0.2         | 1                      | 1.00                | 20                    | 21.0                    |
+| 11   | 228           | 0.43  | 13.2                            | 17.2        | 0.282                  | 0.38                | 31                    | 32.0                    |
+| 12-A | 243           | 0.17  | 8.9                             | -1.6        | 1                      | 1.00                | 16                    | 16.0                    |
+| 12-B | 243           | 0.145 | 10                              | -2.9        | 1                      | 1.00                | 18                    | 14.7                    |
+| 13   | 238           | 0.34  | 13                              | 4.5         | 0.83                   | 0.88                | 31                    | 32.0                    |
+| 14   | 232           | 0.34  | 16                              | 12.3        | 0.475                  | 0.54                | 32                    | 32.0                    |
 
 Ludlam wrote "These data substantiate the validity of the assumptions made in the theoretical analysis." 
 The data substantiate the surface temperatures calculated, 

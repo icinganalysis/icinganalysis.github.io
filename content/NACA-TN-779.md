@@ -3,7 +3,7 @@ Date: 2022-01-20 12:00
 Category: NACA
 tags: cylinder
 
-> ###"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing .. around a circular cylinder were made"  
+> ###"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing ... around a circular cylinder were made"  
 
 #“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"
 

@@ -174,12 +174,12 @@ so I question his discussion in relation to his "Ludlam limit" values shown in F
 >A comparison of measured icing rates with the envelopes can be illustrated with the following
 examples.
 
-Case|Icing Rate (mm/min)|Horizontal Extent (nmi)|OAT (°C)
----|---|---|---
-A|0.7|10|-6
-B|0.7|5|-6
-C|0.5|15|-3
-D|1.0|8|-5
+| Case | Icing Rate (mm/min) | Horizontal Extent (nmi) | OAT (°C) |
+|------|---------------------|-------------------------|----------|
+| A    | 0.7                 | 10                      | -6       |
+| B    | 0.7                 | 5                       | -6       |
+| C    | 0.5                 | 15                      | -3       |
+| D    | 1.0                 | 8                       | -5       |
 
 >These are plotted in figure 22c where they should be compared with the upper two curves for 0°
 and -10°C. The example icing rates fall well below the probable maximum values represented

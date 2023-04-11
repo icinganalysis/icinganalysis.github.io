@@ -164,23 +164,23 @@ simple aspect-ratio corrections
 However, the Cl_max values with the clean airfoil differ (see the table further below).
 
 The roughness elements for NACA-WR-L-292 had a h/chord ratio of 0.005, 
-and an x/chord location of 0.025 (furthest aft "lumps"). 
+and an x/chord location of 0.025 (the furthest aft "lumps"). 
 While the elements were rough, and applied in a 3D pattern, 
 we will treat them as full span, square-edged protuberances like in NACA-TR-446. 
 We can then interpolate a Cl_max with protuberance value from NACA-TR-446, Figure 13. 
 
-Value                      |NACA-WR-L-292|NACA-TR-446
----                        |---          |---
-Airfoil section             |NACA 0012|NACA 0012
-Aspect ratio               |6:1  |6:1
-Re                         |3.3e6        |3.1e6
-Cl_max clean               |1.32         |1.52
-Protuberance|3D roughness pattern|full span square edged plate
-h/chord|0.005|0.005
-x/chord|0.025|0.025
-Cl_max with protuberance   |0.8          |0.86 (interpolated)
-Cl_max reduction           |-0.52        |-0.66
-Cl_max reduction (fraction)|-0.4         |-0.43
+| Value                       | NACA-WR-L-292        | NACA-TR-446                  |
+|-----------------------------|----------------------|------------------------------|
+| Airfoil section             | NACA 0012            | NACA 0012                    |
+| Aspect ratio                | 6:1                  | 6:1                          |
+| Re                          | 3.3e6                | 3.1e6                        |
+| Cl_max clean                | 1.32                 | 1.52                         |
+| Protuberance                | 3D roughness pattern | full span square edged plate |
+| h/chord                     | 0.005                | 0.005                        |
+| x/chord                     | 0.025                | 0.025                        |
+| Cl_max with protuberance    | 0.8                  | 0.86 (interpolated)          |
+| Cl_max reduction            | -0.52                | -0.66                        |
+| Cl_max reduction (fraction) | -0.4                 | -0.43                        |
 
 As the clean Cl_max values are offset, 
 it is not clear how to compare Cl_max values with protuberances. 
