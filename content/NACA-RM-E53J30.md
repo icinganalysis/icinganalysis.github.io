@@ -1,6 +1,7 @@
 Title: NACA-RM-E53J30  
 Date: 2022-06-22 12:00  
 Category: NACA  
+tags: ice shapes  
 
 ###_"It is desirable to evaluate the effect of sweepback on the shape of the leading-edge ice formations and the associated drag penalties"_  
 

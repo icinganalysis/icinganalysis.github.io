@@ -1,6 +1,7 @@
 Title: NASA-TM-D-2166  
 Date: 2022-06-29 12:00  
 Category: NACA  
+tags: ice shapes  
 
 ###_"this correlation is a first-order approximation of the presently available aerodynamic and icing data for airfoils exposed to icing conditions"_  
 
