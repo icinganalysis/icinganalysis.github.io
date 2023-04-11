@@ -437,9 +437,8 @@ for the most cited aircraft icing publication in the literature with 740 citatio
 
 Messinger made a presentation at the [1969 Aircraft Ice Protection Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md). 
 
-Messinger taught workshops on aircraft icing at the University of Michigan. 
-I saw material from them them many years ago, 
-but I do not have a copy and I have not found it online. 
+Messinger taught a session in the University of Michigan Airplane Icing Information Course [^11] in 1953.  
+It is only available in print (I was able to read a copy through inter-library loan).
 
 ##Notes: 
 
@@ -461,5 +460,6 @@ Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Imp
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^10]:  
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
+[^11]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381    
 
 

@@ -1,5 +1,6 @@
 Title: Diversions
-Category: Diversions
+Category: Diversions  
+Date: 2022-01-15 12:00  
 
 ###Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.
 
