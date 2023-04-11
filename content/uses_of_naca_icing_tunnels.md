@@ -1,6 +1,7 @@
 title: Uses of NACA-Era Icing Wind Tunnels  
 Date: 2022-07-20 12:00  
 category: icing tunnels  
+tags: icing tunnels  
 
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
 _How much of a P-39 can one fit into an icing wind tunnel?_  
