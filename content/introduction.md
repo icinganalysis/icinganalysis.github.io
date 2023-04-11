@@ -107,7 +107,7 @@ That was my only direct link to the NACA era].
 <!--
 ##Or see the [Blog](blog.html) (latest articles first)  
 -->
-##Or see the [archives](archives.html) (most recent articles first)  
+##Or see the [archives](archives.html) for a complete list of articles (most recent first)  
 
 ##[Diversions]({filename}diversions.md) get into the post-NACA era
 
