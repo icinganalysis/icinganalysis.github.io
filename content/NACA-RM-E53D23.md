@@ -1,7 +1,7 @@
 Title: NACA-RM-E53D23   
 Date: 2022-03-22 12:00  
 Category: NACA  
-tags: cylinder  
+tags: cylinder, instruments  
 
 > ###"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"  
 

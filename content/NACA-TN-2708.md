@@ -1,7 +1,7 @@
 Title: NACA-TN-2708 
 Date: 2022-03-08 12:00  
 Category: NACA
-tags: cylinder
+tags: cylinder, rotating multicylinders
 
 ###"...At low airspeeds and with large cylinders, the determination should be relatively good."
 
