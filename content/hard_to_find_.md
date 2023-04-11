@@ -1,5 +1,5 @@
 Title: Hard to find publications  
-Date: 2023-01-15 12:00  
+Date: 2023-01-30 12:00  
 
 ###_"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print." [^1]_  
 
