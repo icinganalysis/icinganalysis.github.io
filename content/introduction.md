@@ -104,7 +104,10 @@ That was my only direct link to the NACA era].
 ###[Icing on Cylinders]({filename}/Icing on Cylinders.md)  
 ###[Icing Thermodynamics]({filename}/thermodynamics.md)
 
-##Or see the [Blog](blog.html) (latest articles first)
+<!--
+##Or see the [Blog](blog.html) (latest articles first)  
+-->
+##Or see the [archives](archives.html) (most recent articles first)  
 
 ##[Diversions]({filename}diversions.md) get into the post-NACA era
 
