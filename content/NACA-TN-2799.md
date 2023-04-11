@@ -33,7 +33,7 @@ wetted surface in forced convection is quite involved and tedious.
 The calculations that often must be made point by point along a surface
 are complex even after the basic variables and ambient conditions have
 been determined. The method of solution customarily performed involves
-several trial-and-error calculations that are intermediate'between the
+several trial-and-error calculations that are intermediate between the
 final answer and the basic factors that define a particular anti-icing
 situation.
 This investigation was conducted at the NACA Lewis laboratory to
@@ -149,20 +149,20 @@ Let us write the equations in (mostly) SI units:
 
 I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^4]. 
 
-Description| symbol | NACA-TN-2799 symbol
----|---|---
-air specific heat at constant pressure | cp | cp
-unit system gravitation factor | gc = 1 kg-m/(N-s^2) | g, acceleration due to gravity, 32.2 ft/sec^2
-heat transfer coefficient| hc| ha
-latent heat of evaporation | Le | L
-mass flux rate of water (mass/unit_area/time) | mw | Mw
-ambient static pressure | p | p
-ambient water vapor pressure | pv | eo
-surface water vapor pressure | pvs | el
-recovery factor | r | R
-ambient air static temperature| ta | to
-surface temperature | ts | ts
-free stream airspeed | u | V
+| Description                                   | symbol              | NACA-TN-2799 symbol                           |
+|-----------------------------------------------|---------------------|-----------------------------------------------|
+| air specific heat at constant pressure        | cp                  | cp                                            |
+| unit system gravitation factor                | gc = 1 kg-m/(N-s^2) | g, acceleration due to gravity, 32.2 ft/sec^2 |
+| heat transfer coefficient                     | hc                  | ha                                            |
+| latent heat of evaporation                    | Le                  | L                                             |
+| mass flux rate of water (mass/unit_area/time) | mw                  | Mw                                            |
+| ambient static pressure                       | p                   | p                                             |
+| ambient water vapor pressure                  | pv                  | eo                                            |
+| surface water vapor pressure                  | pvs                 | el                                            |
+| recovery factor                               | r                   | R                                             |
+| ambient air static temperature                | ta                  | to                                            |
+| surface temperature                           | ts                  | ts                                            |
+| free stream airspeed                          | u                   | V                                             |
 
 Calculations here will be in SI units, with the exceptions of:  
 - LWC, g/m^3  
@@ -194,21 +194,19 @@ Since there is a graphical solution, I guess there is no need for a python imple
 I made one anyway, file "naca_tn_2799.py" [^5]. 
 Values calculated with the file "naca_tn_2799.py" agree well with the example values. 
 
-Value|Calculated, F|Example value, F
------|-------------|----------------
-τ1   |102.3        |102             
-τ2   |41.7         |41.4            
-τ3   |180.6        |179.5           
-τ4   |25.6         |23.5            
-τ5   |-6.7         |-6.8            
+| Value | Calculated, F | Example value, F |
+|-------|---------------|------------------|
+| τ1    | 102.3         | 102              |
+| τ2    | 41.7          | 41.4             |
+| τ3    | 180.6         | 179.5            |
+| τ4    | 25.6          | 23.5             |
+| τ5    | -6.7          | -6.8             |
 
+| Value           | Calculated | Example |
+|-----------------|------------|---------|
+| q, BTU/h-ft^2   | 10453      | 10490   |
+| Mev, lbm/h-ft^2 | 7.21       | 7.32    |
 
-Value          |Calculated|Example
----------------|----------|-------
-q, BTU/h-ft^2  |10453     |10490  
-Mev, lbm/h-ft^2|7.21      |7.32   
-
-    
 ##Conclusions  
 
 >In the preceding derivations, the assumption is made that the

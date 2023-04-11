@@ -153,7 +153,7 @@ The effect of drop size distributions can be included:
 > In the case of a cloud, where the water drops are not of uniform
 size, but instead follow a pattern of size distribution, the rate of
 impingement can be computed if the distribution is known or assumed.
-The rate of water impingement at any po1nt is the sum of all the rates
+The rate of water impingement at any point is the sum of all the rates
 of impingement of the volume of water contained in each drop s1ze.
 Equation (8) then becomes: 
 ![Equation 8](images/naca-tn-1472/Equation8.png) 
@@ -341,7 +341,7 @@ This was (roughly) correlated with water runback rate
 For brevity, we will examine the NACA 0012 test article results (only). 
 
 With measured flight test values for t_surface and heat applied to the heating strips, 
-equations 24 and 25 were used to inferred an external heat transfer coefficient, 
+equations 24 and 25 were used to infer an external heat transfer coefficient, 
 shown in Figure 8 ("H"). 
 
 ![Figure 8a](images/naca-tn-1472/Figure8a.png) 

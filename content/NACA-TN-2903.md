@@ -36,27 +36,26 @@ The results for a flight case of Mach 0.4 are summarized in Figure 4:
 
 A table was included summarizing results at 10,000 ft. altitude:
 
-Inertia parameter K|Cylinder diameter D (in.)|Droplet diameter d (microns)|Dimensionless parameter Phi|(Em_i-Em_c)/Em_c (percent) 
----|---|---|---|---       
-0.5|                1/2                      |3                           |740                        |0.3       
-.5|                 1                        |4                           |1,480                      |.4        
-.5|                 3                        |7                           |4,440                      |.5        
-.5|                 6                        |9                           |8,880                      |.5        
-1|                  1/2                      |4                           |740                        |.6        
-1|                  1                        |5                           |1,480                      |.8        
-1|                  3                        |9                           |4,440                      |.9        
-1|                  6                        |13                          |8,880                      |1.0       
-5|                  1/2                      |9                           |740                        |1.5       
-5|                  1                        |12                          |11480                      |1.9       
-5|                  3                        |21                          |4,440                      |2.1       
-5|                  6                        |30                          |8,880                      |2.3       
-5|                  18                       |50                          |27,650                     |2.8       
-5|                  30                       |70                          |44,400                     |2.9       
-20|                 1/2                      |17                          |740                        |.5        
-20|                 1                        |24                          |1,480                      |.6        
-20|                 3                        |40                          |4,440                      |.7        
-20|                 6                        |60                          |8,880                      |.8        
-
+| Inertia parameter K | Cylinder diameter D (in.) | Droplet diameter d (microns) | Dimensionless parameter Phi | (Em_i-Em_c)/Em_c (percent) |
+|---------------------|---------------------------|------------------------------|-----------------------------|----------------------------|
+| 0.5                 | 1/2                       | 3                            | 740                         | 0.3                        |
+| .5                  | 1                         | 4                            | 1,480                       | .4                         |
+| .5                  | 3                         | 7                            | 4,440                       | .5                         |
+| .5                  | 6                         | 9                            | 8,880                       | .5                         |
+| 1                   | 1/2                       | 4                            | 740                         | .6                         |
+| 1                   | 1                         | 5                            | 1,480                       | .8                         |
+| 1                   | 3                         | 9                            | 4,440                       | .9                         |
+| 1                   | 6                         | 13                           | 8,880                       | 1.0                        |
+| 5                   | 1/2                       | 9                            | 740                         | 1.5                        |
+| 5                   | 1                         | 12                           | 11480                       | 1.9                        |
+| 5                   | 3                         | 21                           | 4,440                       | 2.1                        |
+| 5                   | 6                         | 30                           | 8,880                       | 2.3                        |
+| 5                   | 18                        | 50                           | 27,650                      | 2.8                        |
+| 5                   | 30                        | 70                           | 44,400                      | 2.9                        |
+| 20                  | 1/2                       | 17                           | 740                         | .5                         |
+| 20                  | 1                         | 24                           | 1,480                       | .6                         |
+| 20                  | 3                         | 40                           | 4,440                       | .7                         |
+| 20                  | 6                         | 60                           | 8,880                       | .8                         |
 
 It is noted that:
 > The difference in the trajectories caused by the correction [for compressibility] was less than the probable error of the analog.

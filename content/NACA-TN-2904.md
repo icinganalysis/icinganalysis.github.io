@@ -146,13 +146,13 @@ The assumption that the Beta curves are cosine curves appears to be an approxima
 Langmuir and Blodgett [^2] did not provide Beta curves, but did provide maximum Beta (Beta_o) values. 
 The Beta_o values do not agree well between sources:  
 
-Phi|K|Beta_o|Beta_o|
----|---|---|---|
- -  | - |NACA|Langmuir and Blodgett|
-10000|0.25|_0.057_|0.111|
-10000|1|0.415|0.343|
-10000|3.24|_0.68_|0.580|
-10000|16|0.880|0.832|
+| Phi   | K    | Beta_o  | Beta_o                |
+|-------|------|---------|-----------------------|
+| -     | -    | NACA    | Langmuir and Blodgett |
+| 10000 | 0.25 | _0.057_ | 0.111                 |
+| 10000 | 1    | 0.415   | 0.343                 |
+| 10000 | 3.24 | _0.68_  | 0.580                 |
+| 10000 | 16   | 0.880   | 0.832                 |
 
 ###A difference from Langmuir and Blodgett for drop size distributions calculations
 

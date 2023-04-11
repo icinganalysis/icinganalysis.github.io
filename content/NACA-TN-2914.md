@@ -121,12 +121,12 @@ surface. Assuming a value of the recovery factor of 0.85 and that the
 surface is wet at this point determines toc, in the following way:
 
 
-Mach|Reported pl/po|Python Calculated pl/po|Reported Toc, R|Python Calculated Toc, R
-----|--------------|----------------|---------------|-----------------
-0.4 |0.97          |0.967           |486.6          |486.2            
-0.5 |0.95          |0.949           |483.8          |483.0            
-0.6 |0.929         |0.927           |480            |478.9            
-0.7 |0.902         |0.902           |475.6          |473.7         
+| Mach | Reported pl/po | Python Calculated pl/po | Reported Toc, R | Python Calculated Toc, R |
+|------|----------------|-------------------------|-----------------|--------------------------|
+| 0.4  | 0.97           | 0.967                   | 486.6           | 486.2                    |
+| 0.5  | 0.95           | 0.949                   | 483.8           | 483.0                    |
+| 0.6  | 0.929          | 0.927                   | 480             | 478.9                    |
+| 0.7  | 0.902          | 0.902                   | 475.6           | 473.7                    |
 
 Even though the ratio pl/po calculated agrees well, the temperature values differ by up to 2.1R. 
 
@@ -141,11 +141,11 @@ The values of pressure coefficient Cp and local Mach number Ml
 can be obtained from reference 10 for stream Mach numbers of 0.848 to
 1.500 and are listed as follows:
 
-Mach |Coefficient of pressure|10000 ft. Toc, R|Python Calculated Toc, R|25000 ft. Toc, R|Python Calculated Toc, R|40000 ft. Toc, R|Python Calculated Toc, R
------|-----------------------|----------------|-----------------|----------------|-----------------|----------------|-----------------
-0.848|-0.355                 |460             |459.0            |472.5           |470.8            |484             |482.8            
-0.935|-0.33                  |452             |450.7            |466.5           |465.0            |481.5           |480.3            
-1.11 |-0.045                 |423.5           |423.1            |440             |438.9            |464             |462.3            
+| Mach  | Coefficient of pressure | 10000 ft. Toc, R | Python Calculated Toc, R | 25000 ft. Toc, R | Python Calculated Toc, R | 40000 ft. Toc, R | Python Calculated Toc, R |
+|-------|-------------------------|------------------|--------------------------|------------------|--------------------------|------------------|--------------------------|
+| 0.848 | -0.355                  | 460              | 459.0                    | 472.5            | 470.8                    | 484              | 482.8                    |
+| 0.935 | -0.33                   | 452              | 450.7                    | 466.5            | 465.0                    | 481.5            | 480.3                    |
+| 1.11  | -0.045                  | 423.5            | 423.1                    | 440              | 438.9                    | 464              | 462.3                    |
 
 ##Conclusions
 

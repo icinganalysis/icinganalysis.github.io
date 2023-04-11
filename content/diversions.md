@@ -1,7 +1,7 @@
 Title: Diversions
 Category: Diversions
 
-###Diversions can take us into the post-NACA era of aircraft icing, with perhaps more free-wheeling reviews.
+###Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.
 
 ---
 

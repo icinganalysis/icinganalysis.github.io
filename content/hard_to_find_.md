@@ -13,7 +13,7 @@ _NACA Cleveland library, circa 1945._
 ![
 A two-story library with classic architecture 
 and wooden fluted columns and banisters, 
-filled with many book shelves.
+filled with many bookshelves.
 ](images/book-read-architecture-interior-building-old-144325-pxhere.com.jpg)  
 _Gladestone's Library. Located in Hawarden, Wales, UK. CC0 Public Domain image from https://pxhere.com/en/photo/144325_  
 -->

@@ -18,8 +18,8 @@ The value of the mutlicylinder data for determining drop size distribution is qu
 
 ##Abstract
 
->  Meteorological data from flight observations in icing condi-
-tions during the winter of 1946-47 are presented . Data on liquid
+>  Meteorological data from flight observations in icing conditions 
+during the winter of 1946-47 are presented. Data on liquid
 water content, temperature, and mean-effective drop diameter are
 shown to be consistent with values previously proposed for maximum
 icing conditions. Data on drop-size distribution as obtained by

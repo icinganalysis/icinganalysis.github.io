@@ -11,7 +11,7 @@ tags: instruments
 The meteorological instruments and data from the NACA-era are still used today.  
 
 ##Key Points  
-1. The rotating multicylinder was the primary instrument that determine the values in the current Appendic C icing regulations.  
+1. The rotating multicylinder was the primary instrument that determine the values in the current Appendix C icing regulations.  
 2. Other instruments gave supplementary data, but were calibrated against the rotating multicylinder.  
 3. Later publications document the continuing use of the NACA-era instruments.  
 

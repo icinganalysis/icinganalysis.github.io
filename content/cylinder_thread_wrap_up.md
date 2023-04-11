@@ -111,21 +111,21 @@ The results are compared in tables below.
 The theta_max values for the Breer method may not have been digitized well by me, 
 as they were difficult to discern from the figures. 
  
-Method               |Em   |Beta_max|Theta_max (degrees)
----                  |---  |---     |---
-Test Figure 6.6A     |0.380|0.540   |69.9
-Breer analysis       |0.352|0.520   |81.2
-LEWICE               |0.373|0.556   |81.6
-NACA-TN-2904         |0.397|0.620   |82.0
-Langmuir and Blodgett|0.376|0.540   |81.7
+| Method                | Em    | Beta_max | Theta_max (degrees) |
+|-----------------------|-------|----------|---------------------|
+| Test Figure 6.6A      | 0.380 | 0.540    | 69.9                |
+| Breer analysis        | 0.352 | 0.520    | 81.2                |
+| LEWICE                | 0.373 | 0.556    | 81.6                |
+| NACA-TN-2904          | 0.397 | 0.620    | 82.0                |
+| Langmuir and Blodgett | 0.376 | 0.540    | 81.7                |
 
-Method               |Em   |Beta_max|Theta_max (degrees)
----                  |---  |---     |---
-Test Figure 6.6B     |0.245|0.430   |63.2
-Breer analysis       |0.259|0.445   |69.9
-LEWICE               |0.288|0.480   |79.8
-NACA-TN-2904         |0.308|0.549   |80.9
-Langmuir and Blodgett|0.287|0.461   |80.2
+| Method                | Em    | Beta_max | Theta_max (degrees) |
+|-----------------------|-------|----------|---------------------|
+| Test Figure 6.6B      | 0.245 | 0.430    | 63.2                |
+| Breer analysis        | 0.259 | 0.445    | 69.9                |
+| LEWICE                | 0.288 | 0.480    | 79.8                |
+| NACA-TN-2904          | 0.308 | 0.549    | 80.9                |
+| Langmuir and Blodgett | 0.287 | 0.461    | 80.2                |
 
 While I am inclined to view the Langmuir and Blodgett method as more accurate than the NACA-TN-2904 method, 
 I would like to see more impingement data to determine it with more confidence. 
@@ -175,11 +175,11 @@ assuming a Langmuir distribution.
 
 So, I will use MED when reporting multicylinder results.
 
-Multicylinder Method| MED (micrometer) | LWC (g/m^3)| Best Fit Type
----|---|---|---
-Langmuir and Blodgett (original)| 18.8 | 0.458 | E
-NACA-TN-2904| 21.1 | 0.381 | E
-Langmuir and Blodgett (k_phi_unique)| 21.5 | 0.413 | E
+| Multicylinder Method                 | MED (micrometer) | LWC (g/m^3) | Best Fit Type |
+|--------------------------------------|------------------|-------------|---------------|
+| Langmuir and Blodgett (original)     | 18.8             | 0.458       | E             |
+| NACA-TN-2904                         | 21.1             | 0.381       | E             |
+| Langmuir and Blodgett (k_phi_unique) | 21.5             | 0.413       | E             |
 
 When the distributions determined by the multicylinder methods are run in LEWICE, 
 the measured mass rate values are reproduced well for the Langmuir and Blodgett methods, 
