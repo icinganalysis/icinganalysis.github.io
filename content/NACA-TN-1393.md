@@ -50,7 +50,7 @@ An assessment of the accuracy of the rotating cylinder method is included:
 > The errors involved in calculating the liquid water content
 and mean-effective diameter from the two-cylinder-data have been
 estimated by considering the errors inherent in measuring the
-quantities-used in the calculations.. The results, which are shown
+quantities-used in the calculations. The results, which are shown
 in the following table, are based on a liquld water content of 0.5
 gram per cubic meter and an average drop diameter of 10 microns.
 
