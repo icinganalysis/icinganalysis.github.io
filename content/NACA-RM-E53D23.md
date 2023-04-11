@@ -78,7 +78,7 @@ Table I final result: MVD=13.7 micrometer, LWC=0.30 g/m^3, Langmuir E distributi
 
 Table IV final result: MVD=14.1 micrometer, LWC=0.30 g/m^3, Langmuir E distribution.  
 
-For the implementation of the NACA-TN-2904 impingment data, the analysis yields slightly different best fit results 
+For the implementation of the NACA-TN-2904 impingement data, the analysis yields slightly different best fit results 
 (file naca_rm_e53d23.py in [^3]) (The "RSS" value noted is a measure of the error of the fit).
 
 ![Calculated best fits to the measured cyllinder masses (summarized in the table below)](images/naca-rm-e53d23/NACA-RM-53D23_mvd_lwc.png)
@@ -87,13 +87,13 @@ In the review of [NACA-TN-2904]({filename}NACA-TN-2904.md) impingement results w
 It was also noted that Langmuir and Blodgett had an approximation, which can be corrected. 
 A comparison of results with the different methods is shown below.
 
-Method                     |MVD |LWC |Distribution
----                        |--- |--- |---
-Table I                    |13.7|0.30|Langmuir E
-Table IV                   |14.1|0.30|Langmuir E
-NACA-TN-2904 implementation|14.6|0.28|Langmuir E
-Langmuir implementation    |15.2|0.30|Langmuir D
-Langmuir corrected         |15.2|0.30|Langmuir E
+| Method                      | MVD  | LWC  | Distribution |
+|-----------------------------|------|------|--------------|
+| Table I                     | 13.7 | 0.30 | Langmuir E   |
+| Table IV                    | 14.1 | 0.30 | Langmuir E   |
+| NACA-TN-2904 implementation | 14.6 | 0.28 | Langmuir E   |
+| Langmuir implementation     | 15.2 | 0.30 | Langmuir D   |
+| Langmuir corrected          | 15.2 | 0.30 | Langmuir E   |
 
 Differences in analysis method details can drive MVD and LWC differences 
 in the of 5% to 10%.  This is smaller than the differences drive by possible 
