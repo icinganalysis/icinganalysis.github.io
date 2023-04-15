@@ -77,9 +77,9 @@ should be relatively good.
 The air speeds in this study were all relatively low (a maximum of 33.1 m/s) 
 compared to most of the flight test data we have seen (160 to 230 mph, 70 to 100 m/s), 
 where the water catch efficiency on a 4.5 inch diameter 
-cylinder should have strongly differentiate values based on distribution type, 
+cylinder should have strongly differentiated values based on distribution type, 
 and yet the distribution type determined did not 
-correlate well. Other values, such as LWC and MVD, did correlated well, 
+correlate well. Other values, such as LWC and MVD, did correlate well, 
 indicating that the three instruments received substantially similar exposures to the icing conditions.  
 
 ###The Langmuir drop size distributions were revised
@@ -114,7 +114,7 @@ This is examined in detail in
 ![Table IV. Ratios of Drop Radius to Volume Median Radius Corresponding to Percentile Divisions of Total Liquid Water in Clouds](images/naca-tn-2708/table_iv_corrected_distrbutions.png) 
 
 The revised distributions did not see much use for aviation, 
-as neither of the the NACA publications that cite NACA-TN-2708 use the revised distributions. 
+as neither of the NACA publications that cite NACA-TN-2708 use the revised distributions. 
 (They may have seen some use in meteorological publications [^4]).
 
 > The collection efficiencies corresponding to the revised

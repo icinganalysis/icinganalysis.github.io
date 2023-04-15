@@ -5,18 +5,18 @@ tags: cylinder, natural icing
 
 > ###"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."
 
-#"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
+# "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
 [^1]
 
-##Summary
-The value of the mutlicylinder data for determining drop size distribution is questioned.
+## Summary
+The value of the mutlicylinder data for determining drop size distribution is questioned.  
 
-##Key points
-1. Two methods for determining drop size distributions are compared.
-2. The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.
-3. A temperature effect of icing conditions is noted.
+## Key points  
+1. Two methods for determining drop size distributions are compared.  
+2. The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.  
+3. A temperature effect of icing conditions is noted.  
 
-##Abstract
+## Abstract  
 
 >  Meteorological data from flight observations in icing conditions 
 during the winter of 1946-47 are presented. Data on liquid
