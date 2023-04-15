@@ -20,6 +20,7 @@ A better understanding of the icing atmosphere evolved in parallel with improved
 Reviews in this thread:  
 
 - Meteorology of Icing Clouds  
+
   - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
   - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
     >   review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
@@ -39,6 +40,7 @@ they did not directly affect the icing design values adopted in regulations.
 I will review those in their own thread, to be published at a later date. 
 
 -Porter Perkins  
+
   - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.  
   - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952.  
   - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.  
