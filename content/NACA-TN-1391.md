@@ -152,7 +152,7 @@ the cloud base.
 
 ![Figure 1. Liquid water concentration in clouds formed by adiabatic
 lifting. Cloud base at 948 feet pressure altitude.
-](images%2FNACA-TN-1391%2FFigure%201.png)  
+](/images%2FNACA-TN-1391%2FFigure%201.png)  
 
 >Results and Discussion  
 > Representative temperature, dew-point, liquid water,
@@ -167,7 +167,7 @@ assumption that the value of N measured at the top of the
 cloud is the true value for the entire cloud layer.
 
 ![Figure 3. Meteorological data in noncyclonic stratus clouds.
-](images%2FNACA-TN-1391%2FFigure%203.png)  
+](/images%2FNACA-TN-1391%2FFigure%203.png)  
 
 > Since noncyclonic stratus clouds are formed within
 the surface turbulence layer, the thickness of this layer
@@ -195,7 +195,7 @@ clouds less likely at these temperatures.
 
 ![Figure 4. Conditions to be expected at the top of a 3000-foot 
 cloud layer. Repesenting the probable maximum intensity of icing in 
-noncyclonic stratus clouds.](images%2FNACA-TN-1391%2FFigure%204.png)  
+noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)  
 
 ## CONCLUSIONS  
 >Observations made in noncyclonic winter stratus clouds indicate that if snow is not falling,

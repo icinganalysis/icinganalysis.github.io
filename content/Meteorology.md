@@ -7,7 +7,7 @@ status: draft
 ### _"The maximum icing conditions in which ice-prevention equipment will be expected to provide adequate protection"_  
 
 ![Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
-](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
+](/images%2Fwilliam_lewis_1947%2FFigure%203.png)  
 _from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
 
 Early [Ice Protection Systems]({filename}ice%20protection.md) were designed without detailed 
