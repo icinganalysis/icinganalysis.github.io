@@ -29,7 +29,7 @@ Reviews in this thread:
     - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
         >  review [[in the Icing on Cylinders Thread]({filename}Icing%20on%20Cylinders.md)]: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
     - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  
-        >  review : [NACA-TN-1793]({filename}NACA-TN-1793.md)   
+        >  review : [NACA-TN-1793]({filename}NACA-TN-1793.md)    
     - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
         >  review [[in the Icing on Cylinders Thread]({filename}Icing%20on%20Cylinders.md)]: [NACA-TN-1904]({filename}NACA-TN-1904.md)  
