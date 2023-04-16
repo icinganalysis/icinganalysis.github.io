@@ -3,21 +3,21 @@ Date: 2022-01-29 12:00
 Category: NACA
 tags: cylinder, natural icing
 
-> ###"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"
+> ### "The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"
 
-#“A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
+# “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
 [^1]
 
-##Summary 
+## Summary  
 A multicylinder and other instruments measure natural icing conditions in flight.
 
-##Key points
+## Key points  
 
-1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.
-2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.
-3. Results from agree well with the Python implementation of the cylinder analysis.
-4. "Tentative" values for icing design conditions were determined.
-5. An effect of distance on icing conditions is noted.
+1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.  
+2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.  
+3. Results from agree well with the Python implementation of the cylinder analysis.  
+4. "Tentative" values for icing design conditions were determined.  
+5. An effect of distance on icing conditions is noted.  
 
 ##Abstract
 

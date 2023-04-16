@@ -3,9 +3,9 @@ Date: 2022-03-01 12:00
 Category: NACA
 tags: cylinder, natural icing
 
-> ###"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"
+> ### "... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"  
 
-#"Observations of Icing Conditions Encountered in Flight During 1948" [^1]
+# "Observations of Icing Conditions Encountered in Flight During 1948" [^1]
 
 ##Key points
 
@@ -35,9 +35,9 @@ and more variable near the Pacific coast than in the other parts of
 the United States included in this investigation.
     
 
-##Discussion
+## Discussion
 
-###Variation in liquid water content with distance
+### Variation in liquid water content with distance
 
 Data was gathered in icing clouds in flight, with flight paths that were often not straight lines.
 
@@ -54,7 +54,7 @@ The data were shown in Figure 5.
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
 clouds.](images/naca-tn-1904/Figure5.png)
 
-###Drop size distributions
+### Drop size distributions
 
 Note above _"the conclusion that the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"_ (!)
 
@@ -75,7 +75,7 @@ determination will be found.
 
 Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.
 
-###Multicylinder accuracy
+### Multicylinder accuracy
 
 Figure 7 essentially reproduces Figure 2 of [NACA-RM-A9C09]({filename}NACA-TN-1904.md) [^2], 
 the results of which are largely reproducible as noted in that review.  
@@ -87,7 +87,7 @@ the weight of ice accretions on the rotating cylinders, and +5 degrees in determ
 of the angle of the water imingement (theta_m) on the nonrotating cylinder
 ](images/naca-tn-1904/Figure7.png)
 
-###Citations
+### Citations
 
 NACA-TN-1904 cites 9 publications:
 
@@ -115,16 +115,16 @@ NACA-TN-1904 is cited by 10 publications in the NACA Icing Publications Database
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.
 
-###Related
+### Related
 
 NACA-TN-1904 is cited by the two NACA publications cited in Appendix C of the icing regulations [^5].
 
-- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
-- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.
+- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
 
-See Jeck's [^6] comments about the relationship of liquid water content and distance noted in NACA-TN-1904.
+See Jeck's [^6] comments about the relationship of liquid water content and distance noted in NACA-TN-1904.  
 
-##Notes:
+## Notes:
 [^1]:
 Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
 [^2]: 
