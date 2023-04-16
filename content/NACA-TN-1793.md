@@ -144,9 +144,6 @@ content, mean-effective drop diameter, and temperature previously
 proposed for supercooled layer-type clouds appear to be adequate
 for the Great Lakes and surrounding regions.  
 
-
-
-
 ### NACA-TN-1393 "Tentative" Design Values  
 
 We already saw the values in the [Icing on Cylinders Thread]({filename}Icing%20on%20Cylinders.md). 
