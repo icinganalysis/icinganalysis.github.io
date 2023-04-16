@@ -10,7 +10,7 @@ tags: cylinder, natural icing
 ##Key points
 
 1. The average liquid water content varies over distance traveled in icing.
-2. The value of the multicylinder method for determining drop size distributions is questioned.
+2. The value of the multicylinder method for determining drop size distributions is questioned.  
 
 ##Abstract
 
@@ -33,7 +33,6 @@ that they are of little or no value. The data indicate that
 average and maximum values of drop size are significantly greater
 and more variable near the Pacific coast than in the other parts of
 the United States included in this investigation.
-    
 
 ## Discussion
 
@@ -41,15 +40,45 @@ the United States included in this investigation.
 
 Data was gathered in icing clouds in flight, with flight paths that were often not straight lines.
 
-![Duration discussion](images/naca-tn-1904/duration1.png)
-![Duration discussion continued](images/naca-tn-1904/duration1a.png)
+>It must be emphasized that, due to the small number of cases 
+included in the analysis, the results are not quantitatively accurate. 
+They do, however, give a general idea of the relation between extent 
+and average liquid-water content in icing conditions. Another important 
+factor which affects the validity of these results is the effect 
+of the circling flight paths which were followed in an effort to remain 
+in cumulus clouds. The actual horizontal extent of most of the cumulus 
+clouds investigated was from 1 to 3 miles. The high values of water 
+content recorded for longer distances were due to the practice of 
+circling within clouds or making repeated passes through a single cloud. 
+For this reason, the frequency data foi 10 seconds duration (1/2 mile)
+in cumulus clouds are regarded as representative, the values for 1 minute 
+(3 miles) are subject to some error, but are regarded as approximately
+ representative, while the results for 5 minutes (15 miles) or more are
+ believed to be considerably higher than would be encountered in straight
+ flight.
 
 The data were summarized in a table.
 
-![Conclusion 1](images/naca-tn-1904/conclusion1.png)
-![Conclusion lwc-distance table](images/naca-tn-1904/conclusion%20table.png)
+>1. An analysis of continuous records of liquid-water content 
+obtained with the rotating-disk icing-rate meter, adjusted by comparison 
+with rotating-cylinder data from previous seasons, yields 
+the following values of maximum liquid-water content averaged over 
+various distances. These values are likely to be encountered once 
+in the course of 1000 flights in icing conditions when it is assumed 
+that 5 percent of the flights encounter cumulus clouds.
+
+| Distance along flight path, (miles | Maximum average liquid-water content (g/m^3) |
+|------------------------------------|----------------------------------------------|
+| 0.5                                | 2.2                                          |
+| 1.0                                | 1.9                                          |
+| 2.5                                | 1.6                                          |
+| 5                                  | 1.2                                          |
+| 10                                 | 0.9                                          |
+| 25                                 | 0.7                                          |
+| 60                                 | 0.5                                          |
 
 The data were shown in Figure 5.  
+
 ![Figure 5. Estimated maximum values of average liquid-water content to be expected in 
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
 clouds.](images/naca-tn-1904/Figure5.png)
@@ -62,8 +91,18 @@ This was based on a comparison of maximum drop size a determined by a stationary
 The mean-effective drop diameter is noted as "The amount of water in all of the drops greater than the mean-effective diameter is equal to the ".
 
     γ = (maximum drop size from fixed) / (mean-effective drop diameter from rotating multicylinder)
-    
-![Drop size ratios](images/naca-tn-1904/drop%20size%20ratios.png)
+
+| γ            | A distribution (percentage based on 162 cases) | E distribution (percentage based on 61 cases) |
+|--------------|------------------------------------------------|-----------------------------------------------|
+| < 0.45       | 0                                              | 3.3                                           |
+| 0.45 to 0.56 | 0                                              | 1.6                                           |
+| 0.56 to 0.71 | 2.5                                            | 3.3                                           |
+| 0.71 to 0.89 | 11.7                                           | 29.5                                          |
+| 0.89 to 1.12 | 42.0                                           | 29.5                                          |
+| 1.12 to 1.41 | 23.5                                           | 14.8                                          |
+| 1.41 to 1.78 | 11.7                                           | 8.2                                           |
+| 1.78 to 2.24 | 4.3                                            | 3.3                                           |
+| > 2.24       | 4.3                                            | 6.5                                           |
 
 However, as we saw in [NACA-RM-A9C09]({filename}NACA-RM-A9C09.md) [^2], 
 the error in estimating maximum drop size from maximum impingement limit on a fixed cylinder 
@@ -73,7 +112,7 @@ so the maximum drop size determined may not be so reliable of a value to compare
 In the later NACA-TR-1215 [^3] (of which William Lewis was also an author of) a more nuanced view of the drop size distribution 
 determination will be found.
 
-Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.
+Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.  
 
 ### Multicylinder accuracy
 

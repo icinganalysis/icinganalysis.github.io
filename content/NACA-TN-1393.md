@@ -154,7 +154,7 @@ An "observed distribution" line from "reference 8" forms an increasing "S" curve
 A Langmuir "B" distribution approximates the observed distribution,
 while a Langmuir "E" distriubtion is notable wider.](images/naca-tn-1393/distributions.png)
 
-###"Tentative" Design Values
+### "Tentative" Design Values
 
 > Analysis of the available observational data, supplemented by
 considerations of the physical processes involved in the formation
@@ -168,8 +168,40 @@ course of all-weather transport operations in the United States:
 | stratus or stratocumulus | 20 minutes or longer | 0.8 g/m^3            | 15 microns            | 20°F        |
 | stratus or stratocumulus | 20 minutes or longer | 0.5 g/m^3            | 25 microns            | 20°F        |
 
+The rationale for the stratus values is explained:  
 
-###Distance effect
+> __Maximum continuous icing conditions__  
+> The results of the fore-going discussion of the extent of icing 
+> conditions as related to their intensity suggest a need to define 
+> the maximum icing condition likely to occur over a large enough 
+> area to make it necessary to provide for continuous operation in 
+> this condition. This condition will exist in layer-type clouds 
+> since cumulus clouds are by their nature discontinuous. 
+> The maximum liquid water content observed in layer clouds during 
+> this investigation was-about 0.7 gram per cubic meter, 
+> which is the same as the maximum reported from the Army Air Forces 
+> Ice Research Base at Minneapolis, Minn. These facts and the data in 
+> figure 13 on the relation between liquid water content and duration 
+> of flight in icing conditions suggest that a reasonable estimate of 
+> the maximum water content likely to be encountered for periods of 
+> 20 minutes or longer at a true airspeed of 160 miles per hour 
+> would be approximately 0.8 gram per cubic meter. 
+> Since this condition is expected to occur in layer clouds 
+> (stratocumulus), a reasonable estimate of the concurrent values of 
+> temperature and mean-effective drop diameter was made from an 
+> examination of the data for layer clouds in figures 5 and 8. 
+> The values chosen were 20° F and 15 microns.
+
+For Figure 13 the argument appears to be reasonable:  
+![fig 13 interpretation.](/images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
+
+However, for Figure 5 the choice is not as clear:  
+![fig 5 interpretation](/images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
+
+Also for Figure 8 the logic is not obvious:  
+![fig 8 interpretation.png](/images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)
+
+### Distance effect  
 
 It was noted:
 
@@ -190,8 +222,7 @@ There are several "observed values" data points below the line.
 The airspeed in noted as 150 miles per hour.
 ](images/naca-tn-1393/Distance%20effect.png)
 
-
-##Citations
+## Citations
 
 NACA-TN-1393 cites 11 references.
 
@@ -223,7 +254,7 @@ NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.
 - Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.
 
-##Related Works
+## Related Works
 
 NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 [^7].
 
@@ -233,22 +264,21 @@ NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icin
 
 Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.
 
-##Notes:
+## Notes:  
 [^1]:
-Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.
+Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
 [^2]:
-Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)
-
+Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)  
 [^3]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^5]:
-Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.
+Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
 [^6]:
-[Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)
+[Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)  
 [^7]:
-Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.
+Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.  
 [^8]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)
+[NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^9]:
-Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.
+Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.  

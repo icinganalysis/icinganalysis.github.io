@@ -39,6 +39,36 @@ and climatological regions in various weather conditions is
 therefore required before the design limits for ice-prevention
 systems can be stated with reasonable certainty. 
 > 
+>APPARATUS AND METHOD  
+> 
+>Rotating-Cylinder Measurements  
+>
+>Measurements of liquid water content, mean-effective drop 
+diameter, and drop-size distribution were calculated from the 
+weight of ice collected on each of four rotating aluminum cylinders
+of 1/8, 1/2, 1 1/4, and 3-inch diameters. The procedure used to calculate 
+the desired quantities was similar to that outlined in reference 6, 
+except that a density of 0.8 was assumed for all be deposits 
+in calculating the average cylinder diameter during the exposure 
+period. Because of flight conditions, this procedure was used in 
+place of the more tedious, but slightly more accurate, method of 
+measurement of the thickness of the ice deposited on each cylinder.
+For all computations the velocity in the vicinity of the cylinders. 
+was assumed equal to the true airspeed of the airplane. Once a 
+desired icing condition was encountered, as many runs as possible 
+were made in order to approximate a continuous record of the cloud 
+characteristics.
+>
+>Free Air Temperature  
+> 
+>Flight temperature measurements were made by means of a 
+resistance-bulb thermometer shielded to eliminate radiation effects 
+and direct impact of water. The thermometer was subject to kinetic 
+heating because of the speed of the airplane. Corrections for the 
+kinetic heating were obtained by the procedure outlined in reference 4.  
+> 
+> ...
+> 
 > Comparison of Data with Proposed Design Conditions  
 Tentative estimates of the most severe icing conditions likely
 to be encountered in flight are contained in reference 4. The
@@ -54,7 +84,7 @@ Reference 4 is NACA-TN-1393. We will discuss NACA-TN-1393 further below.
 >Examination
 of table I and figure 1 indicates that these proposed maximum conditions
 were neither equalled nor exceeded during
-the 1947-48 season. Whereas the first cylinder run of ice condltions 
+the 1947-48 season. Whereas the first cylinder run of ice conditions 
 approximates
 the estimated maximum conditions with respect
 to liquid-water content and temperature,
@@ -130,8 +160,8 @@ collection efficiency of 3-inch-diameter cyinder moving at
 200 miles per hour; temperature 15 F; and pressure altitude of 10,000 ft.
 ](/images%2FNACA-TN-1793%2FFigure%204.png)  
 
-> CONCLUSIONS  
-The following general conclusions are based on the observations
+## CONCLUSIONS  
+>The following general conclusions are based on the observations
 gathered during two winter of icing flights from the Lewis laboratory:
 >1. In supercooled layer clouds that exist over the Great Lakes area,
 icing intensities are usually light (based upon the U. S.
@@ -143,57 +173,6 @@ Specifications of maximum  icing conditions in terms of liquid-water
 content, mean-effective drop diameter, and temperature previously
 proposed for supercooled layer-type clouds appear to be adequate
 for the Great Lakes and surrounding regions.  
-
-### NACA-TN-1393 "Tentative" Design Values  
-
-We already saw the values in the [Icing on Cylinders Thread]({filename}Icing%20on%20Cylinders.md). 
-
-> Analysis of the available observational data, supplemented by
-considerations of the physical processes involved in the formation
-of icing conditions has led to the following tentative estimates of
-the most severe icing conditions likely to be encountered in the 
-course of all-weather transport operations in the United States:
-
-| Cloud type               | Duration             | Liquid water content | Average drop diameter | Temperature |
-|--------------------------|----------------------|----------------------|-----------------------|-------------|
-| cumulus                  | 1 minute             | 2.0 g/m^3            | 20 microns            | 0°F         |
-| stratus or stratocumulus | 20 minutes or longer | 0.8 g/m^3            | 15 microns            | 20°F        |
-| stratus or stratocumulus | 20 minutes or longer | 0.5 g/m^3            | 25 microns            | 20°F        |
-
-The rationale for the stratus values is explained:  
-
-> __Maximum continuous icing conditions__  
-> The results of the fore-going discussion of the extent of icing 
-> conditions as related to their intensity suggest a need to define 
-> the maximum icing condition likely to occur over a large enough 
-> area to make it necessary to provide for continuous operation in 
-> this condition. This condition will exist in layer-type clouds 
-> since cumulus clouds are by their nature discontinuous. 
-> The maximum liquid water content observed in layer clouds during 
-> this investigation was-about 0.7 gram per cubic meter, 
-> which is the same as the maximum reported from the Army Air Forces 
-> Ice Research Base at Minneapolis, Minn. These facts and the data in 
-> figure 13 on the relation between liquid water content and duration 
-> of flight in icing conditions suggest that a reasonable estimate of 
-> the maximum water content likely to be encountered for periods of 
-> 20 minutes or longer at a true airspeed of 160 miles per hour 
-> would be approximately 0.8 gram per cubic meter. 
-> Since this condition is expected to occur in layer clouds 
-> (stratocumulus), a reasonable estimate of the concurrent values of 
-> temperature and mean-effective drop diameter was made from an 
-> examination of the data for layer clouds in figures 5 and 8. 
-> The values chosen were 20° F and 15 microns.
-
-For Figure 13 the argument appears to be reasonable:  
-![fig 13 interpretation.](/images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
-
-However, for Figure 5 the choice is not as clear:  
-![fig 5 interpretation](/images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
-
-Also for Figure 8 the logic is not obvious:  
-![fig 8 interpretation.png](/images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)  
-
-
 
 ## Notes  
 

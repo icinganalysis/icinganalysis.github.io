@@ -34,7 +34,7 @@
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-16T07:56:12.888363-07:00">
+        <abbr class="modified" title="2023-04-16T16:04:44.932715-07:00">
                 Updated: Sun 16 April 2023
         </abbr>
 <!---->
@@ -55,7 +55,7 @@
 <h2>Key points</h2>
 <ol>
 <li>The average liquid water content varies over distance traveled in icing.</li>
-<li>The value of the multicylinder method for determining drop size distributions is questioned.</li>
+<li>The value of the multicylinder method for determining drop size distributions is questioned.  </li>
 </ol>
 <h2>Abstract</h2>
 <blockquote>
@@ -82,13 +82,76 @@ the United States included in this investigation.</p>
 <h2>Discussion</h2>
 <h3>Variation in liquid water content with distance</h3>
 <p>Data was gathered in icing clouds in flight, with flight paths that were often not straight lines.</p>
-<p><img alt="Duration discussion" src="images/naca-tn-1904/duration1.png">
-<img alt="Duration discussion continued" src="images/naca-tn-1904/duration1a.png"></p>
+<blockquote>
+<p>It must be emphasized that, due to the small number of cases 
+included in the analysis, the results are not quantitatively accurate. 
+They do, however, give a general idea of the relation between extent 
+and average liquid-water content in icing conditions. Another important 
+factor which affects the validity of these results is the effect 
+of the circling flight paths which were followed in an effort to remain 
+in cumulus clouds. The actual horizontal extent of most of the cumulus 
+clouds investigated was from 1 to 3 miles. The high values of water 
+content recorded for longer distances were due to the practice of 
+circling within clouds or making repeated passes through a single cloud. 
+For this reason, the frequency data foi 10 seconds duration (1/2 mile)
+in cumulus clouds are regarded as representative, the values for 1 minute 
+(3 miles) are subject to some error, but are regarded as approximately
+ representative, while the results for 5 minutes (15 miles) or more are
+ believed to be considerably higher than would be encountered in straight
+ flight.</p>
+</blockquote>
 <p>The data were summarized in a table.</p>
-<p><img alt="Conclusion 1" src="images/naca-tn-1904/conclusion1.png">
-<img alt="Conclusion lwc-distance table" src="images/naca-tn-1904/conclusion%20table.png"></p>
-<p>The data were shown in Figure 5.<br>
-<img alt="Figure 5. Estimated maximum values of average liquid-water content to be expected in 
+<blockquote>
+<ol>
+<li>An analysis of continuous records of liquid-water content 
+obtained with the rotating-disk icing-rate meter, adjusted by comparison 
+with rotating-cylinder data from previous seasons, yields 
+the following values of maximum liquid-water content averaged over 
+various distances. These values are likely to be encountered once 
+in the course of 1000 flights in icing conditions when it is assumed 
+that 5 percent of the flights encounter cumulus clouds.</li>
+</ol>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Distance along flight path, (miles</th>
+<th>Maximum average liquid-water content (g/m^3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5</td>
+<td>2.2</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1.9</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>1.6</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>25</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>60</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<p>The data were shown in Figure 5.  </p>
+<p><img alt="Figure 5. Estimated maximum values of average liquid-water content to be expected in 
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
 clouds." src="images/naca-tn-1904/Figure5.png"></p>
 <h3>Drop size distributions</h3>
@@ -98,14 +161,69 @@ The mean-effective drop diameter is noted as "The amount of water in all of the 
 <div class="highlight"><pre><span></span><code>γ = (maximum drop size from fixed) / (mean-effective drop diameter from rotating multicylinder)
 </code></pre></div>
 
-<p><img alt="Drop size ratios" src="images/naca-tn-1904/drop%20size%20ratios.png"></p>
+<table>
+<thead>
+<tr>
+<th>γ</th>
+<th>A distribution (percentage based on 162 cases)</th>
+<th>E distribution (percentage based on 61 cases)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt; 0.45</td>
+<td>0</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>0.45 to 0.56</td>
+<td>0</td>
+<td>1.6</td>
+</tr>
+<tr>
+<td>0.56 to 0.71</td>
+<td>2.5</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>0.71 to 0.89</td>
+<td>11.7</td>
+<td>29.5</td>
+</tr>
+<tr>
+<td>0.89 to 1.12</td>
+<td>42.0</td>
+<td>29.5</td>
+</tr>
+<tr>
+<td>1.12 to 1.41</td>
+<td>23.5</td>
+<td>14.8</td>
+</tr>
+<tr>
+<td>1.41 to 1.78</td>
+<td>11.7</td>
+<td>8.2</td>
+</tr>
+<tr>
+<td>1.78 to 2.24</td>
+<td>4.3</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td>&gt; 2.24</td>
+<td>4.3</td>
+<td>6.5</td>
+</tr>
+</tbody>
+</table>
 <p>However, as we saw in <a href="/naca-rm-a9c09.html">NACA-RM-A9C09</a> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
 the error in estimating maximum drop size from maximum impingement limit on a fixed cylinder 
 is as large as the error determining the MVD from the multicylinder method, 
 so the maximum drop size determined may not be so reliable of a value to compare with.  </p>
 <p>In the later NACA-TR-1215 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> (of which William Lewis was also an author of) a more nuanced view of the drop size distribution 
 determination will be found.</p>
-<p>Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.</p>
+<p>Also note that the determination of the mean-effective drop diameter (MED) is not disputed, only the distribution determination is disputed.  </p>
 <h3>Multicylinder accuracy</h3>
 <p>Figure 7 essentially reproduces Figure 2 of <a href="/naca-tn-1904.html">NACA-RM-A9C09</a> <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
 the results of which are largely reproducible as noted in that review.  </p>
@@ -181,43 +299,6 @@ of the angle of the water imingement (theta_m) on the nonrotating cylinder
 
             <li><article class="hentry">
                 <header>
-                    <h1><a href="/naca-tn-1424.html" rel="bookmark"
-                           title="Permalink to NACA-TN-1424">NACA-TN-1424</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-01-31T12:00:00-08:00">
-                Published: Mon 31 January 2022
-        </abbr>
-		<br />
-        <abbr class="modified" title="2023-04-15T11:11:44.252927-07:00">
-                Updated: Sat 15 April 2023
-        </abbr>
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> <a href="/tag/natural-icing.html">natural icing</a> </p>-->
-
-</footer><!-- /.post-info -->                <blockquote>
-<h3>"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."</h3>
-</blockquote>
-<h1>"A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"</h1>
-<p><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<h2>Summary</h2>
-<p>The value of the mutlicylinder data for determining drop size …</p>
-                <a class="readmore" href="/naca-tn-1424.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
                     <h1><a href="/naca-tn-1393.html" rel="bookmark"
                            title="Permalink to NACA-TN-1393">NACA-TN-1393</a></h1>
                 </header>
@@ -228,8 +309,8 @@ of the angle of the water imingement (theta_m) on the nonrotating cylinder
                 Published: Sat 29 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-15T16:46:20.960799-07:00">
-                Updated: Sat 15 April 2023
+        <abbr class="modified" title="2023-04-16T15:25:08.929471-07:00">
+                Updated: Sun 16 April 2023
         </abbr>
 <!---->
         <!---->

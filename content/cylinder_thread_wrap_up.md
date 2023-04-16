@@ -303,7 +303,7 @@ a cylinder as an approximation of an airfoil leading edge:
 ###Icing conditions in regulations
 
 The "Aircraft Icing Handbook" [^8] summarizes data used to develop icing regulations. 
-We have reviewed three of these:
+We have reviewed three of these:  
 [NACA-TN-1393]({filename}NACA-TN-1393.md), 
 [NACA-TN-1424]({filename}NACA-TN-1424.md), 
 and [NACA-TN-1904]({filename}NACA-TN-1904.md). 
