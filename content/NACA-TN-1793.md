@@ -1,4 +1,4 @@
-Title: NACA-TN-1393   
+Title: NACA-TN-1793   
 Date: 2023-04-15 12:00  
 Category: NACA  
 tags: meteorology  
