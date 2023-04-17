@@ -174,6 +174,10 @@ content, mean-effective drop diameter, and temperature previously
 proposed for supercooled layer-type clouds appear to be adequate
 for the Great Lakes and surrounding regions.  
 
+## Citations  
+An online search (scholar.google.com) found 15 citations for   
+NACA-TN-1793.  
+
 ## Notes  
 
 [^1]: Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  

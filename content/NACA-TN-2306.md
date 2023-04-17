@@ -243,10 +243,8 @@ We saw the rotating-disk instrument in [NACA-RM-A9C09 Instruments]({filename}NAC
 
 ## Citations  
 
-
 An online search (scholar.google.com) found 19 citations for   
 NACA-TN-2306.  
-
 
 ## Notes  
 
