@@ -227,7 +227,7 @@ water content in layer-type clouds as follows:
 
 The "maximum icing conditions proposed previously" are from [NACA-TN-1393]({filename}NACA-TN-1393.md) [^5].  
 
-## Citations
+## Citations  
 
 NACA-TN-1424 cites 4 publications:
 
