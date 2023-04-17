@@ -391,7 +391,7 @@ We will review those in the upcoming Conclusions of the Icing Meteorology Thread
 NACA-TN-1855 is cited by the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
 
 An online search (scholar.google.com) found 50 citations for   
-NACA-TN-2306.  
+NACA-TN-1855.  
 
 ## Notes  
 

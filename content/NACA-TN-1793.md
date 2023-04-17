@@ -162,14 +162,14 @@ collection efficiency of 3-inch-diameter cyinder moving at
 
 ## CONCLUSIONS  
 >The following general conclusions are based on the observations
-gathered during two winter of icing flights from the Lewis laboratory:
+gathered during two winter of icing flights from the Lewis laboratory:  
 >1. In supercooled layer clouds that exist over the Great Lakes area,
 icing intensities are usually light (based upon the U. S.
 Weather Bureau scale of icing intensity in reporting icing conditions
 at mountain stations) but may occasionally approach an icing rate
-of moderate intensity.
+of moderate intensity.  
 >2. Data collected during the two seasons indicate that the
-Specifications of maximum  icing conditions in terms of liquid-water
+specifications of maximum  icing conditions in terms of liquid-water
 content, mean-effective drop diameter, and temperature previously
 proposed for supercooled layer-type clouds appear to be adequate
 for the Great Lakes and surrounding regions.  
