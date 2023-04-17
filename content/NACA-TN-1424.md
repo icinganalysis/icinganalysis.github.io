@@ -5,8 +5,7 @@ tags: meteorology, cylinders
 
 ### _"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."_  
 
-# "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
-[^1]
+# "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing" [^1]  
 
 ## Summary
 The value of the multicylinder data for determining drop size distribution is questioned.  
@@ -41,7 +40,7 @@ various temperatures.
 >  Over a period of several years, the NACA has conducted research 
 on the prevention of ice formations on aircraft through the use of 
 heat. The present phase of this research is intended to provide a 
-fundamental understanding of the process of:thermal ice prevention and 
+fundamental understanding of the process of thermal ice prevention and 
 thereby promote improvement in the design of thermal ice—prevention
 equipment. The meteorological results of the investigation, up to  
 and including the 1945-46 winter season, have been presented in 
