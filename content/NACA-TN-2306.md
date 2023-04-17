@@ -10,7 +10,7 @@ status: draft
 
 ![Figure 2. Maximum distance flown during 57 icing flights in relation 
 to average measured liquid-water content of supercooled stratiform clouds.
-](images%2FNACA-TN-2306%2FFigure%202.png)  
+](/images%2FNACA-TN-2306%2FFigure%202.png)  
 
 ## Summary  
 Data about the horizontal and vertical extend of icing clouds.  
@@ -129,7 +129,7 @@ multicylinders during straight-line flight.
 ![Figure 1. Cumulative frequency curves of 136 multicylinder observations
 of liquid-water content and mean-effective diameter measured in 
 supercooled stratiform clouds during 22 icing flights.
-](images%2FNACA-TN-2306%2FFigure%201.png)  
+](/images%2FNACA-TN-2306%2FFigure%201.png)  
 
 >Of 74 flights conducted during the four winters for which in-
 flight data are available, 57 flights encountered a trace or more
@@ -161,7 +161,7 @@ approximately 100 miles, and a maximum average concentration of
 
 ![Figure 2. Maximum distance flown during 57 icing flights in relation 
 to average measured liquid-water content of supercooled stratiform clouds.
-](images%2FNACA-TN-2306%2FFigure%202.png)  
+](/images%2FNACA-TN-2306%2FFigure%202.png)  
 
 >Vertical extent of stratiform icing clouds. -   
 The depth of continuous icing clouds is a factor to be considered in 
@@ -192,7 +192,7 @@ Reference 2 is [NACA-TN-1424]({filename}NACA-TN-1424.md)
 
 ![Figure 3. Cumulative frequency of cloud thickness observed during 48 icing 
 flights in supercooled stratiform clouds.
-](images%2FNACA-TN-2306%2FFigure%203.png)  
+](/images%2FNACA-TN-2306%2FFigure%203.png)  
 
 ## Conclusions  
 
