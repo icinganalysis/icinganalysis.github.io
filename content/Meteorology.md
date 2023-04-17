@@ -50,7 +50,7 @@ in the "Meteorology of Icing Clouds" section.
 While the publications are important and useful, 
 they did not directly affect the icing design values adopted in regulations. 
 I will review those in their own thread, to be published at a later date. 
-
+  
 - Porter Perkins  
 
     - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.  

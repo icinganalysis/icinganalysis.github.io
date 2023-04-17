@@ -256,8 +256,6 @@ NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
 
 ## Related Works
 
-NACA-TN-1393 is cited by the three NACA TN's cited in Appendix C of the FAA icing regulations, chapter 25 [^7].
-
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.

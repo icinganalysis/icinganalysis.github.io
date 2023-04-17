@@ -386,6 +386,11 @@ Several of the suggested research tasks would be accomplished over the next
 several years. 
 We will review those in the upcoming Conclusions of the Icing Meteorology Thread. 
 
+## Citations  
+
+NACA-TN-1855 is cited by the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
+
+
 ## Notes  
 
 [^1]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  

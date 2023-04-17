@@ -241,6 +241,13 @@ adiabatic amounts.
   
 We saw the rotating-disk instrument in [NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md)  
 
+## Citations  
+
+
+An online search (scholar.google.com) found 19 citations for   
+NACA-TN-2306.  
+
+
 ## Notes  
 
 [^1]: Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
