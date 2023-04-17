@@ -35,7 +35,7 @@ address immediate icing problems.
 The quote above "The industry has now passed through the experimental stages of heating and anti-icing ..."
 from 1946 was not completely the case, but NACA did move on to 
 more planned scientific and engineering tests and analysis methods development. 
-By the 1950's useful [Engineering Design Manuals.md](Design%20Manuals.md) were available, 
+By the 1950's useful [Engineering Design Manuals]({filename}Design%20Manuals.md) were available, 
 so that every new application did not have to be a major 
 research and development effort. 
 The ADS-4 [Design Manual](ads4.md) published in 1963 was

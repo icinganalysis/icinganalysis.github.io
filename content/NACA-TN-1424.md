@@ -225,7 +225,7 @@ water content in layer-type clouds as follows:
 | 0             | 0.5                                 |
 | -20           | 0.25                                |
 
-The "maximum icing conditions proposed previously" are from [NACA-TN-1393.md]({filename}NACA-TN-1393.md) [^5].  
+The "maximum icing conditions proposed previously" are from [NACA-TN-1393]({filename}NACA-TN-1393.md) [^5].  
 
 ## Citations
 

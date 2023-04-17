@@ -48,7 +48,7 @@ but it does not have the properties of ice-nine in the novel.)
 
 Curiously, Irving Langmuir 
 (of whom we have seen much of in this website, such as in 
-[Mathematical Investigation of Water Droplet Trajectories.md]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)) 
+[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)) 
 is sometimes credited with the discovery about silver iodide. 
 However, Langmuir's own writing credits Vonnegut. 
 Langmuir and Vonnegut at times worked together at the GE research labs. 

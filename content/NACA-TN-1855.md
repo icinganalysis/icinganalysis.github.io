@@ -295,7 +295,7 @@ reference 5, but incorporating all available data, including the
 1947-48 Ames Laboratory observations. These conditions are listed 
 as items 11 to 25, inclusive, in table I.
 ```
-Reference 5 is [NACA-TN-1393.md]({filename}NACA-TN-1393.md).  
+Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 
 ```
 
