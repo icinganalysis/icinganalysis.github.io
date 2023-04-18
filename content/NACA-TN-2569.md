@@ -125,7 +125,7 @@ droplet-size distribution measurements.
 ![Figure 1. Frequency distribution of icing observations for
 various increments of liquid-water content and pressure
 altitude. (Numbers given indicate number of icing conditions
-observed with these conditions.)(/images%2FNACA-TN-2569%2FFigure%201.png)  
+observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%201.png)  
 
 >Bivariate frequency-distribution charts of mean-effective droplet
 diameter as a function of pressure altitude for icing conditions in
@@ -145,12 +145,12 @@ pressure-altitude range of 10,000 to 20,000 feet than in the range of
 ![Figure 2. Frequency distribution of icing observations for various
 increments of mean-effective droplet diameter and pressure altitude.
 (Numbers given indicate number of icing conditions observed with
-these conditions.)(/images%2FNACA-TN-2569%2FFigure%202.png)  
+these conditions.)](/images%2FNACA-TN-2569%2FFigure%202.png)  
 
 ![Figure 3. Frequency distribution of icing observations for various
 increments of liquid-water content and mean-effective droplet
 diameter. (Numbers given indicate number of icing conditions
-observed with these conditions.)(/images%2FNACA-TN-2569%2FFigure%203.png)  
+observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%203.png)  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
 Because the amount of heat required by ice-protection systems of
@@ -193,7 +193,7 @@ total heat requirements.
 observations for various increments of
 temperature and pressure altitude. (Numbers
 given indicate number of icing conditions
-observed with these conditions.)(/images%2FNACA-TN-2569%2FFigure%204.png)  
+observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%204.png)  
 
 >Extent of Icing Condition  
 Although data on horizontal and vertical extent of icing conditions 
@@ -217,7 +217,7 @@ for short distances by the estimated curve, as the liquid-water content
 is usually higher in cumuliform clouds than stratiform clouds.  
 
 ![Figure 5. Maximum horizontal extent of icing encounters in relation 
-to average liquid-water content.(/images%2FNACA-TN-2569%2FFigure%205.png)  
+to average liquid-water content.](/images%2FNACA-TN-2569%2FFigure%205.png)  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
 Because the amount of heat required by ice-protection systems of
@@ -256,7 +256,7 @@ and meteorological conditions are presented in figure 6.
 ![Figure 6. Variations of collection efficiency with droplet diameter
 for a hypothetical,  12-percent thick, low-drag airfoil with a chord 
 length of 15.8 feet for two altitude, temperature, and 
-angle-of-attack conditions.(/images%2FNACA-TN-2569%2FFigure%206.png)  
+angle-of-attack conditions.](/images%2FNACA-TN-2569%2FFigure%206.png)  
 
 >Curves of constant water-collection rates as functions of liquid-water 
 content and droplet size for the two pressure-altitude ranges of
@@ -287,9 +287,12 @@ with a water-collection rate higher than the design rate is only slightly
 higher than that calculated for icing encounters for stratiform clouds
 alone.
 
-![Figure 7.(/images%2FNACA-TN-2569%2FFigure%207.png)  
+![Figure 7. Constant water-collection-rate curves for hypothetical airfoil super-
+imposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207.png)  
 
-![Figure 8.(/images%2FNACA-TN-2569%2FFigure%208.png)  
+![Figure 8. Frequency curves of rate of water collection for a hypothetical,
+12-percent thick, low-drag airfoil with a chord length of 15.8 feet and
+airspeed of 350 miles per hour.](/images%2FNACA-TN-2569%2FFigure%208.png)  
 
 ## Conclusions  
 
