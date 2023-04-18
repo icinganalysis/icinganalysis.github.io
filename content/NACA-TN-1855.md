@@ -19,6 +19,7 @@ Icing conditions for the design of equipment are proposed.
 
 1. Four classes of icing conditions are proposed.  
 2. Recommendations are made by type of equipment as to which class apply.  
+3. This became much of the basis for the later CFR 14 Part 25 Appendix C.  
 
 ## Abstract  
 
