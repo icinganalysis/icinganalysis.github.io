@@ -147,7 +147,10 @@ extents. Hence, classes I, II, and III are ideal for comparison with
 the results which can be obtained from the equiprobability charts
 (figs. 3 to 7) and the relations for horizontal extent (fig. 8).  
 
-![Figure 8.](/images%2FNACA-TN-2738%2FFigure%208.png)  
+![Figure 8. Variation, with horizontal extent, of the factor by which 
+values of liquid-water content from the equiprobability charts should 
+be multiplied to include the effect of horizontal cloud extent 
+for different exceedance probabilities.](/images%2FNACA-TN-2738%2FFigure%208.png)  
 
 >Two groups of icing conditions are chosen as a basis for comparison 
 between the analysis of this report and NACA TN 185. The first group

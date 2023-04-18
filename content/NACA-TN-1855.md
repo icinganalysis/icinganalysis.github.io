@@ -323,10 +323,8 @@ light intensity.
 
 ## Conclusions  
 
-
-     Suggested Continuation of Formative Research 
-       on Conditions Conducive to Icing
-
+> Suggested Continuation of Formative Research on Conditions Conducive to Icing  
+>
 >  1. Extend flight research as required to establish whether the 
 values of table I, which are based on winter flights and confined, 
 for the most part, to northern United States, are representative of 
@@ -354,9 +352,8 @@ lifting and no mixing for the calculation of liquid-water content
 at any level in a cloud.
 
 
-       Suggested Statistical Research on 
-        Conditions Conducive to Icing
-
+> Suggested Statistical Research on Conditions Conducive to Icing  
+>
 >  1. Analyze all available meteorological icing data obtained 
 in flight by statistical procedures to establish, at least
 tentatively, the probability of encountering a specified icing 
