@@ -83,7 +83,7 @@ based on currently available data, and to indicate required further
 research. This report incorporates suggestions advanced by members 
 of the Subcommittee during the meeting. The authors are also 
 indebted to Mr. J. K. Hardy of the Royal Aircraft Establishment, 
-Farnborough, England,for helpful comments which aided materially in 
+Farnborough, England, for helpful comments which aided materially in 
 the preparation of the report.
 > 
 >   GENERAL CLASSES OF FLIGHT ICING CONDITIONS  
