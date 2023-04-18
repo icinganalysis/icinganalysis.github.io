@@ -44,6 +44,7 @@ Reviews in this thread:
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
         >  review : [NACA-TN-2569]({filename}NACA-TN-2569.md)  
     - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+        >  review : [NACA-TN-2738]({filename}NACA-TN-2738.md)  
 
 Several publications by Porter Perkins were included in  
 [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 
