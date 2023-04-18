@@ -122,7 +122,7 @@ to be assigned to each class will be discussed in a later section.
   Horizontal extent: 1/2 mile.3
   Duration at 180 miles per hour: 10 seconds.
 
-3This should not be taken to imply that these conditions are 
+ This should not be taken to imply that these conditions are 
  necessarily limited to areas 1/2 mile in extent. This value was 
  chosen because it is believed that the most severe conditions 
  likely to be encountered are approximately uniform over a distance 
@@ -388,10 +388,9 @@ We will review those in the upcoming Conclusions of the Icing Meteorology Thread
 
 ## Citations  
 
-NACA-TN-1855 is cited by the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
+NACA-TN-1855 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
 
-An online search (scholar.google.com) found 50 citations for   
-NACA-TN-1855.  
+An online search (scholar.google.com) found 50 citations for NACA-TN-1855.  
 
 ## Notes  
 

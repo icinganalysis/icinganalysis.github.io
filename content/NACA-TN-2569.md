@@ -210,7 +210,7 @@ during four winter icing seasons from 1946 to 1950. The curves of figure 5
 are similar and show an inverse relation between average liquid-water 
 content and maximum horizontal extent of icing situations. The
 majority of observations on which the estimated curve is based were
-taken in cuniuliforni clouds, whereas a large majority of observations on
+taken in cumuliform clouds, whereas a large majority of observations on
 which the measured curve is based were in stratiform clouds. This difference 
 probably accounts for the higher liquid-water content indicated
 for short distances by the estimated curve, as the liquid-water content
@@ -218,6 +218,9 @@ is usually higher in cumuliform clouds than stratiform clouds.
 
 ![Figure 5. Maximum horizontal extent of icing encounters in relation 
 to average liquid-water content.](/images%2FNACA-TN-2569%2FFigure%205.png)  
+
+Reference 4 is [NACA-TN-2306]({filename}NACA-TN-2306.md).  
+Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
 Because the amount of heat required by ice-protection systems of
@@ -330,7 +333,7 @@ or less severe conditions.
 
 ## Citations  
 
-NACA-TN-2569 is cited by the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
+NACA-TN-2569 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
 
 An online search (scholar.google.com) found 45 citations for   
 NACA-TN-2529.  
