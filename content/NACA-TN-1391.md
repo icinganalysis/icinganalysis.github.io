@@ -214,6 +214,8 @@ maximum cloud thickness show that the liquid
 water concentration in noncyclonic stratus clouds is not likely
 to exceed 1.5 grams per cubic meter at temperatures below freezing.  
 
+The 1.5 grams per cubic meter limit for stratus clouds is high compared to later data. 
+
 ## Citations  
 
 NACA-TN-1391 cites references [^2] and [^3]. 

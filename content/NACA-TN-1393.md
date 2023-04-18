@@ -19,8 +19,7 @@ A multicylinder and other instruments measure natural icing conditions in flight
 4. "Tentative" values for icing design conditions were determined.  
 5. An effect of distance on icing conditions is noted.  
 
-##Abstract
-
+##Abstract  
 
 >    Data from flight measurements of the meteorological factors
 related to the intensity of icing conditions are presented. The
@@ -128,16 +127,33 @@ expressed as grams per hour per square centimeter of projected area.
 The icing intensity definitions and cylinder water catch calculations from [^2] were used to make Figure 5.
 ![Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight meaasurement values](images/naca-tn-1393/Figure%205.png)
+as well as several flight meaasurement values](images/naca-tn-1393/Figure%205.png)  
+
+>Since the temperature, as well as the liquid water content, is
+of primary importance in the design of thermal systems for Ice protection, 
+the relation between temperature and maximum water content 
+continuous icing conditions should be determined. It has been
+pointed out that in icing conditions of very limited extent, as found 
+in cumulus clouds, very low temperatures may occur with high values 
+of liquid water content. In the case of the more extensive icing 
+conditions in layer clouds, however, a positive relationship appears 
+to exist between temperature and maximum liquid water content. 
+Proposals to define this relationship have been given in references
+6 and 14, and are reproduced in figure 8.  
+
+![Figure 8. Liquid water content as a function of free air temperature. 
+Rotating cyclinder measurements. ](images%2Fnaca-tn-1393%2FFigure%208.png)  
+Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
+Reference 14 is Rodert [^6].  
 
 ###Comparison of impingement results
 
-When I overlaid calculations with the implementation of the cylinder impingement calculations [^6] 
+When I overlaid calculations with the implementation of the cylinder impingement calculations [^5] 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
 
 ![Comparison of Figure 5 to results from the Python tool](images/naca-tn-1393/compare.png)
 
-The code used to make the figure is available in the file "naca-tn-1393.py" [^4].
+The code used to make the figure is available in the file "naca-tn-1393.py" [^7].
 
 ###Illustrating water drop size distributions
 
@@ -272,10 +288,9 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^5]:
 Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
-[^6]:
-[Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)  
+[^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.  
 [^7]:
-Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.  
+[Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)  
 [^8]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^9]:

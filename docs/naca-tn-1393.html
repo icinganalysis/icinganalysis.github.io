@@ -42,8 +42,8 @@
                 Published: Sat 29 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-17T11:41:36.250885-07:00">
-                Updated: Mon 17 April 2023
+        <abbr class="modified" title="2023-04-18T12:49:15.979872-07:00">
+                Updated: Tue 18 April 2023
         </abbr>
 <!---->
         <!---->
@@ -296,12 +296,29 @@ Heavy ice: 12.0 and over grams per square centimeter hour
 <p>The icing intensity definitions and cylinder water catch calculations from <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> were used to make Figure 5.
 <img alt="Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight meaasurement values" src="images/naca-tn-1393/Figure%205.png"></p>
+as well as several flight meaasurement values" src="images/naca-tn-1393/Figure%205.png">  </p>
+<blockquote>
+<p>Since the temperature, as well as the liquid water content, is
+of primary importance in the design of thermal systems for Ice protection, 
+the relation between temperature and maximum water content 
+continuous icing conditions should be determined. It has been
+pointed out that in icing conditions of very limited extent, as found 
+in cumulus clouds, very low temperatures may occur with high values 
+of liquid water content. In the case of the more extensive icing 
+conditions in layer clouds, however, a positive relationship appears 
+to exist between temperature and maximum liquid water content. 
+Proposals to define this relationship have been given in references
+6 and 14, and are reproduced in figure 8.  </p>
+</blockquote>
+<p><img alt="Figure 8. Liquid water content as a function of free air temperature. 
+Rotating cyclinder measurements. " src="images%2Fnaca-tn-1393%2FFigure%208.png"><br>
+Reference 6 is <a href="/drafts/naca-tn-1391.html">NACA-TN-1391</a>.<br>
+Reference 14 is Rodert <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.  </p>
 <h3>Comparison of impingement results</h3>
-<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> 
+<p>When I overlaid calculations with the implementation of the cylinder impingement calculations <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup> 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). </p>
 <p><img alt="Comparison of Figure 5 to results from the Python tool" src="images/naca-tn-1393/compare.png"></p>
-<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.</p>
+<p>The code used to make the figure is available in the file "naca-tn-1393.py" <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.</p>
 <h3>Illustrating water drop size distributions</h3>
 <p>Figure 10 below illustrates a challenge when comparing Langmuir drop size distributions to other, measured distributions. 
 There are 7 bins in a Langmuir distribution.
@@ -457,16 +474,16 @@ The airspeed in noted as 150 miles per hour.
 <p>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p><a href="/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
-<p>Code of Federal Regulations, Title 14 (revised and re-issued annually), Federal Aviation Administration, Washington, D.C. 20591.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p><a href="/implementation-of-cylinder-impingement-correlations-in-python.html">Implementation of cylinder impingement correlations in Python</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:8">
 <p><a href="/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
