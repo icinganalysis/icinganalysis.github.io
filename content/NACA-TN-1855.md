@@ -267,7 +267,7 @@ III - M Continuous, Maximum
 | -22           | 0.04                        | 40                      | 3,000 to 20,000        |
 | -40           | 0.01                        | 40                      | 3,000 to 20,000        |
 
-        Class II-M.- Intermittent, Maximum
+Class II-M.- Intermittent, Maximum
 
 >   The intermittent class of icing conditions is considered to be 
 representative of clouds in which water concentrations about one-half 
@@ -299,9 +299,9 @@ as items 11 to 25, inclusive, in table I.
 Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 
 
-        Class III-M.- Continuous, Maximum
+Class III-M.- Continuous, Maximum
 
-   Conditions in this class, which occur in layer-type clouds, 
+> Conditions in this class, which occur in layer-type clouds, 
 have been discussed in references 5 and 6. Sufficient data are now 
 available to estimate with reasonable accuracy the variation of 
 maximum liquid-water content in layer clouds with both temperature 
@@ -350,8 +350,7 @@ in clouds.
 confirmation or modification of the method of assuming adiabatic 
 lifting and no mixing for the calculation of liquid-water content 
 at any level in a cloud.
-
-
+>
 > Suggested Statistical Research on Conditions Conducive to Icing  
 >
 >  1. Analyze all available meteorological icing data obtained 
