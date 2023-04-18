@@ -12,7 +12,7 @@ status: draft
 presents the locus of all combinations of liquid-water content, drop 
 diameter and temperature depression below freezing having the 
 some probability, Pe, of being exceeded in any single icing 
-encounter.](images%2FNACA-TN-2738%2FFigure%202.png)  
+encounter.](/images%2FNACA-TN-2738%2FFigure%202.png)  
 
 ## Summary  
 The icing design values in NACA-TN-1855 were found to have an exceedance probability Pe=0.001.  
@@ -101,7 +101,7 @@ Data were divided by geographical region.
 
 ![Figure 1. Map of the United States showing approximate 
 boundaries of areas used in the goegraphical classifications 
-of icing data.](images%2FNACA-TN-2738%2FFigure%201.png)  
+of icing data.](/images%2FNACA-TN-2738%2FFigure%201.png)  
 
 >Construction of the equiprobability surfaces.  
 > The procedure used
@@ -113,7 +113,7 @@ Appendix A describes in detail the calculations illustrated in Figure 2.
 presents the locus of all combinations of liquid-water content, drop 
 diameter and temperature depression below freezing having the 
 some probability, Pe, of being exceeded in any single icing 
-encounter.](images%2FNACA-TN-2738%2FFigure%202.png)  
+encounter.](/images%2FNACA-TN-2738%2FFigure%202.png)  
 
 The mathematical functions used to represent the various distributions 
 were chosen mainly on the basis of the empirical criterion of
@@ -147,7 +147,7 @@ extents. Hence, classes I, II, and III are ideal for comparison with
 the results which can be obtained from the equiprobability charts
 (figs. 3 to 7) and the relations for horizontal extent (fig. 8).  
 
-![Figure 8.](images%2FNACA-TN-2738%2FFigure%208.png)  
+![Figure 8.](/images%2FNACA-TN-2738%2FFigure%208.png)  
 
 >Two groups of icing conditions are chosen as a basis for comparison 
 between the analysis of this report and NACA TN 185. The first group
@@ -197,7 +197,7 @@ at very high altitudes.
 ![Table IV. COMPARISON OF WEIGHTED-AVERAGE VALUES OF 
 LIQUID WATER CONTENT FOR LAYER CLOUDS, Pe = 0.001, 
 WITH CORRESPONDING VALUES FOR CONTINUOUS MAXIMUM 
-CONDITIONS LISTED IN NACA TN 1855](images%2FNACA-TN-2738%2FTable%20IV.png)  
+CONDITIONS LISTED IN NACA TN 1855](/images%2FNACA-TN-2738%2FTable%20IV.png)  
 
 >By a procedure similar to that used in the comparisons for the two
 example cases, the correspondence between classes of Icing conditions
@@ -227,7 +227,7 @@ probability analysis indicate that satisfactory ice protection would be
 provided for the vast majority of icing encounters.
 
 ![Table V. CORRESPONDENCE BETWEEN THE EQUIPROBABILITY 
-ANALYSIS AND THE ANALYSIS IN NACA TN 1855](images%2FNACA-TN-2738%2FTable%20V.png)  
+ANALYSIS AND THE ANALYSIS IN NACA TN 1855](/images%2FNACA-TN-2738%2FTable%20V.png)  
 
 > The Partial Probability Charts  
 The partial probability charts essentially provide a rapid means of
@@ -246,10 +246,10 @@ of this probability can be performed with the aid of the partial probability
 charts (fig. 10).
 
 ![Figure 10. Partial probability  charts. 
-(a) Case 1 - Layer clouds, Pacific Coast.](images%2FNACA-TN-2738%2FFigure%2010.png)  
+(a) Case 1 - Layer clouds, Pacific Coast.](/images%2FNACA-TN-2738%2FFigure%2010.png)  
 
 ![Table VI. EXAMPLE PARTIAL PROBABILITY CALCULTIONS FOR 
-PACIFIC COAST CUMULUS CLOUDS](images%2FNACA-TN-2738%2FTable%20VI.png)  
+PACIFIC COAST CUMULUS CLOUDS](/images%2FNACA-TN-2738%2FTable%20VI.png)  
 
 ## Conclusions  
 
