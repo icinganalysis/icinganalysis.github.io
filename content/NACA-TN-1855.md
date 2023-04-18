@@ -115,13 +115,14 @@ component or feature to which the class applies in design considerations.
 The selection of values of the meteorological variables 
 to be assigned to each class will be discussed in a later section.
 
+```text
               Class I
->
->  Designation: Instantaneous.
->  Horizontal extent: 1/2 mile.3
->  Duration at 180 miles per hour: 10 seconds.
->
-> This should not be taken to imply that these conditions are 
+
+  Designation: Instantaneous.
+  Horizontal extent: 1/2 mile.3
+  Duration at 180 miles per hour: 10 seconds.
+
+ This should not be taken to imply that these conditions are 
  necessarily limited to areas 1/2 mile in extent. This value was 
  chosen because it is believed that the most severe conditions 
  likely to be encountered are approximately uniform over a distance 
@@ -130,34 +131,33 @@ to be assigned to each class will be discussed in a later section.
  exceeds 5 miles. Average values of liquid—water content up to
  80 percent of the 1/2—mile maximum may occasionally be expected 
  for distances up to 3 miles.
->
->Characteristic: Very high liquid-water content.
->
->Applicable to: Any part of the airplane, such as guide vanes 
+
+Characteristic: Very high liquid-water content.
+
+Applicable to: Any part of the airplane, such as guide vanes 
       in interior ducting, where the sudden collection 
       of a large mass of supercooled water 
       would be critical.
->
->Example: Induction systems, particularly turbine-engine inlets. 
->
+
+Example: Induction systems, particularly turbine-engine inlets. 
+
          Class II
->
->Designation: Intermittent.
->
->Horizontal extent: 3 miles.
->
->Duration at 180 miles per hour: 1 minute.
->
->Characteristic: High liquid-water content.
->
->Applicable to: Any critical component of the airplane where 
+
+Designation: Intermittent.
+
+Horizontal extent: 3 miles.
+
+Duration at 180 miles per hour: 1 minute.
+
+Characteristic: High liquid-water content.
+
+Applicable to: Any critical component of the airplane where 
       ice accretions, even though slight and of short
       duration, could not be tolerated.
->
->Examples: Induction systems, windshields in any case where 
+
+Examples: Induction systems, windshields in any case where 
     practically continuous visibility was required.
 
-```text
           Class III
 
 Designation: Continuous.
