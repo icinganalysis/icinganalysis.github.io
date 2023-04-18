@@ -115,14 +115,13 @@ component or feature to which the class applies in design considerations.
 The selection of values of the meteorological variables 
 to be assigned to each class will be discussed in a later section.
 
-```text
               Class I
-
-  Designation: Instantaneous.
-  Horizontal extent: 1/2 mile.3
-  Duration at 180 miles per hour: 10 seconds.
-
- This should not be taken to imply that these conditions are 
+>
+>  Designation: Instantaneous.
+>  Horizontal extent: 1/2 mile.3
+>  Duration at 180 miles per hour: 10 seconds.
+>
+> This should not be taken to imply that these conditions are 
  necessarily limited to areas 1/2 mile in extent. This value was 
  chosen because it is believed that the most severe conditions 
  likely to be encountered are approximately uniform over a distance 
@@ -131,32 +130,34 @@ to be assigned to each class will be discussed in a later section.
  exceeds 5 miles. Average values of liquid—water content up to
  80 percent of the 1/2—mile maximum may occasionally be expected 
  for distances up to 3 miles.
-
-Characteristic: Very high liquid-water content.
-
-Applicable to: Any part of the airplane, such as guide vanes 
+>
+>Characteristic: Very high liquid-water content.
+>
+>Applicable to: Any part of the airplane, such as guide vanes 
       in interior ducting, where the sudden collection 
       of a large mass of supercooled water 
       would be critical.
-
-Example: Induction systems, particularly turbine-engine inlets. 
+>
+>Example: Induction systems, particularly turbine-engine inlets. 
+>
          Class II
-
-Designation: Intermittent.
-
-Horizontal extent: 3 miles.
-
-Duration at 180 miles per hour: 1 minute.
-
-Characteristic: High liquid-water content.
-
-Applicable to: Any critical component of the airplane where 
+>
+>Designation: Intermittent.
+>
+>Horizontal extent: 3 miles.
+>
+>Duration at 180 miles per hour: 1 minute.
+>
+>Characteristic: High liquid-water content.
+>
+>Applicable to: Any critical component of the airplane where 
       ice accretions, even though slight and of short
       duration, could not be tolerated.
-
-Examples: Induction systems, windshields in any case where 
+>
+>Examples: Induction systems, windshields in any case where 
     practically continuous visibility was required.
 
+```text
           Class III
 
 Designation: Continuous.
@@ -265,12 +266,11 @@ III - M Continuous, Maximum
 | -22           | 0.04                        | 40                      | 3,000 to 20,000        |
 | -40           | 0.01                        | 40                      | 3,000 to 20,000        |
 
-```text
         Class II-M.- Intermittent, Maximum
 
-   The intermittent class of icing conditions is considered to be 
-representative of clouds in which water concentrations about one- 
-half as severe as those assigned to the instantaneous class would 
+>   The intermittent class of icing conditions is considered to be 
+representative of clouds in which water concentrations about one-half 
+as severe as those assigned to the instantaneous class would 
 be encountered for durations of about five or six times the
 instantaneous class durations. Such conditions can be expected near 
 the tops of cumulus clouds in both summer and winter; however, they 
@@ -280,8 +280,8 @@ from cumulus icing in summer can often be made by a descent to
 warmer altitudes, the winter cumulus conditions have been selected 
 as the basis for the suggested values of the intermittent class 
 icing conditions.
-
-   The selection of values for class II is based partly on the 
+>
+>   The selection of values for class II is based partly on the 
 discussion in reference 5. The values proposed therein are the 
 result of an estimate of the maximum liquid-water content likely 
 to be encountered during winter and the lowest temperature and 
@@ -294,10 +294,9 @@ examination of scatter diagrams similar to figures 5 and 8 of
 reference 5, but incorporating all available data, including the 
 1947-48 Ames Laboratory observations. These conditions are listed 
 as items 11 to 25, inclusive, in table I.
-```
+
 Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 
-```
 
         Class III-M.- Continuous, Maximum
 
@@ -308,7 +307,6 @@ maximum liquid-water content in layer clouds with both temperature
 and drop size. Suggested values are presented as items 31 to 45, 
 inclusive, table I.
 
-```
 Reference 6 is [NACA-TN-1424]({filename}NACA-TN-1424.md).  
 
 For the class "IV - M Freezing Rain":   
@@ -324,11 +322,11 @@ light intensity.
 
 ## Conclusions  
 
-```text
+
      Suggested Continuation of Formative Research 
        on Conditions Conducive to Icing
 
-  1. Extend flight research as required to establish whether the 
+>  1. Extend flight research as required to establish whether the 
 values of table I, which are based on winter flights and confined, 
 for the most part, to northern United States, are representative of 
 conditions everywhere. Conditions for which it would be of immediate  
@@ -342,14 +340,14 @@ since there may be important regional differences in cloud characteristics
 such as the difference in prevailing drop size between 
 central and eastern United States and the Pacific coast area which 
 is indicated in the data taken by the Ames Laboratory.
-
-  2. Obtain flight data on instantaneous values of maximum 
+>
+>  2. Obtain flight data on instantaneous values of maximum 
 liquid—water content, drop size, temperature, and altitude.
-
-  3. Obtain flight data to establish drop—size distribution 
+>
+>  3. Obtain flight data to establish drop—size distribution 
 in clouds.
-
-  4. Obtain necessary data in flight through icing clouds for 
+>
+>  4. Obtain necessary data in flight through icing clouds for 
 confirmation or modification of the method of assuming adiabatic 
 lifting and no mixing for the calculation of liquid-water content 
 at any level in a cloud.
@@ -358,22 +356,20 @@ at any level in a cloud.
        Suggested Statistical Research on 
         Conditions Conducive to Icing
 
-  1. Analyze all available meteorological icing data obtained 
+>  1. Analyze all available meteorological icing data obtained 
 in flight by statistical procedures to establish, at least
 tentatively, the probability of encountering a specified icing 
 condition.
-
-  2. Obtain measurements of liquid—water content, drop diameter 
+>
+>  2. Obtain measurements of liquid—water content, drop diameter 
 (mean effective, at least, and maximum, if possible), temperatures, 
 and altitude during regular military and commercial operations 
 whenever icing conditions are encountered. Time and geographical 
 location should also be recorded in order that the data may be 
 analyzed with reference to the synoptic weather situation.
-```
 
-While there would be some adjustments, 
-the class "II-M Intermittent, Maximum" and "II-M Continuous, Maximum" values 
-are recognizable in the current CFR 14 Part 25 Appendix C icing conditions definitions [^2]. 
+The class "II-M Intermittent, Maximum" and "III-M Continuous, Maximum" values 
+are noted in the current CFR 14 Part 25 Appendix C icing conditions definitions [^2]. 
 
 For the class "IV - M Freezing Rain", a similar requirement was not incorporated into Appendix C. 
 The assumption was apparently that if equipment was protected for other classes of icing, 
@@ -395,5 +391,5 @@ An online search (scholar.google.com) found 50 citations for NACA-TN-1855.
 ## Notes  
 
 [^1]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
-[^2]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]  
+[^2]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^3]: Appendix O to Part 25, https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025  

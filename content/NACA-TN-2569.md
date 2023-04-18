@@ -122,9 +122,9 @@ used extensively. The mean-effective droplet diameter has been employed
 instead. Furthermore, some doubt exists as to the validity of the
 droplet-size distribution measurements.
 
-![Figure 1. Frequency distribution of icing observations for
-various increments of liquid-water content and pressure
-altitude. (Numbers given indicate number of icing conditions
+![Figure 1. Frequency distribution of icing observations for 
+various increments of liquid-water content and pressure 
+altitude. (Numbers given indicate number of icing conditions 
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%201.png)  
 
 >Bivariate frequency-distribution charts of mean-effective droplet
@@ -142,14 +142,14 @@ the over-all average mean-effective droplet diameter is higher in the
 pressure-altitude range of 10,000 to 20,000 feet than in the range of
 0 to 10,000 feet.  
 
-![Figure 2. Frequency distribution of icing observations for various
-increments of mean-effective droplet diameter and pressure altitude.
+![Figure 2. Frequency distribution of icing observations for various 
+increments of mean-effective droplet diameter and pressure altitude. 
 (Numbers given indicate number of icing conditions observed with
 these conditions.)](/images%2FNACA-TN-2569%2FFigure%202.png)  
 
-![Figure 3. Frequency distribution of icing observations for various
-increments of liquid-water content and mean-effective droplet
-diameter. (Numbers given indicate number of icing conditions
+![Figure 3. Frequency distribution of icing observations for various 
+increments of liquid-water content and mean-effective droplet 
+diameter. (Numbers given indicate number of icing conditions 
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%203.png)  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
@@ -189,10 +189,10 @@ designed to cope with the maximum icing conditions anticipated. In
 general, these critical areas do not require a large percentage of the
 total heat requirements.
 
-![Figure 4. requency distribution of icing
-observations for various increments of
-temperature and pressure altitude. (Numbers
-given indicate number of icing conditions
+![Figure 4. requency distribution of icing 
+observations for various increments of 
+temperature and pressure altitude. (Numbers 
+given indicate number of icing conditions 
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%204.png)  
 
 >Extent of Icing Condition  
@@ -256,7 +256,7 @@ at 350 miles per hour. Estimates of the collection efficiency as a
 function of droplet size for such a hypothetical airfoil for two operating 
 and meteorological conditions are presented in figure 6.
 
-![Figure 6. Variations of collection efficiency with droplet diameter
+![Figure 6. Variations of collection efficiency with droplet diameter 
 for a hypothetical,  12-percent thick, low-drag airfoil with a chord 
 length of 15.8 feet for two altitude, temperature, and 
 angle-of-attack conditions.](/images%2FNACA-TN-2569%2FFigure%206.png)  
@@ -290,11 +290,11 @@ with a water-collection rate higher than the design rate is only slightly
 higher than that calculated for icing encounters for stratiform clouds
 alone.
 
-![Figure 7. Constant water-collection-rate curves for hypothetical airfoil super-
-imposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207.png)  
+![Figure 7. Constant water-collection-rate curves for hypothetical airfoil 
+superimposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207.png)  
 
-![Figure 8. Frequency curves of rate of water collection for a hypothetical,
-12-percent thick, low-drag airfoil with a chord length of 15.8 feet and
+![Figure 8. Frequency curves of rate of water collection for a hypothetical, 
+12-percent thick, low-drag airfoil with a chord length of 15.8 feet and 
 airspeed of 350 miles per hour.](/images%2FNACA-TN-2569%2FFigure%208.png)  
 
 ## Conclusions  
@@ -333,10 +333,11 @@ or less severe conditions.
 
 ## Citations  
 
-NACA-TN-2569 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^7].  
+NACA-TN-2569 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^2].  
 
 An online search (scholar.google.com) found 45 citations for   
 NACA-TN-2529.  
 
 ## Notes  
 [^1]: Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+[^2]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
