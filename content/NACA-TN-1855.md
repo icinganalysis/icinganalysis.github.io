@@ -169,8 +169,8 @@ Characteristic: Moderate to low liquid-water content.
 Applicable to: All components of the airplane, that is, every 
       part of the airplane should be examined with 
       the question in mind, "Will this part be 
-      affected seriously by accretions during con- 
-      tinuous flight in icing conditions?"
+      affected seriously by accretions during continuous 
+      flight in icing conditions?"
 
 Example: Wings and tail surfaces.
 
@@ -279,7 +279,7 @@ freezing during winter. Because of this fact, and because escape
 from cumulus icing in summer can often be made by a descent to 
 warmer altitudes, the winter cumulus conditions have been selected 
 as the basis for the suggested values of the intermittent class 
-icing conditions.
+icing conditions.  
 >
 >   The selection of values for class II is based partly on the 
 discussion in reference 5. The values proposed therein are the 
@@ -287,8 +287,8 @@ result of an estimate of the maximum liquid-water content likely
 to be encountered during winter and the lowest temperature and 
 largest drop size likely to occur with the chosen value of water 
 content. In the selection of the values presented in table I, it
-was considered desirable to include several combinations of tempera- 
-ture and drop diameter and to specify for each the probable maximum 
+was considered desirable to include several combinations of temperature 
+and drop diameter and to specify for each the probable maximum 
 liquid-water content. The values selected were determined from an 
 examination of scatter diagrams similar to figures 5 and 8 of 
 reference 5, but incorporating all available data, including the 
