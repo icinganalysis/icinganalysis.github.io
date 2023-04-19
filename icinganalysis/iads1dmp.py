@@ -286,7 +286,7 @@ def integrate_drop(
 ):
     xs = [initial_position]
     vs = [v_drop]
-    u = u_function_of_x(xs[-1], mach_initial)
+    u = u_function_of_x(xs[-1])
     tk = tk_total - u ** 2 / 2 / CP_AIR
     us = [u]
     t_drops = [t_drop]
@@ -328,7 +328,7 @@ def integrate_drop(
         t_total2 = t_total
         if include_t_total_change:
             t_total2 = t_total - qc * number_of_drops_per_unit_mass_dry_air / CP_AIR
-        u2 = u_function_of_x(position2, mach_initial)
+        u2 = u_function_of_x(position2)
         mach2 = calc_mach_from_t_total(u2, t_total2)
         tk2 = t_total2 / (1 + gm1d2 * mach2 ** 2)
         p2 = p_total / (1 + gm1d2 * mach2 ** 2) ** gp1d2gm1
@@ -344,7 +344,7 @@ def integrate_drop(
         lwc2 = number_of_drops_per_unit_mass_dry_air * mass_of_drop2 * G_PER_KG
 
         if position2 > final_position:
-            u = u_function_of_x(final_position, mach_initial)
+            u = u_function_of_x(final_position)
             t_drop2 = t_drops[-1] + (t_drop2 - t_drops[-1]) * (
                 final_position - xs[-1]
             ) / (position2 - xs[-1])
