@@ -8,4 +8,4 @@ website [https://icinganalysis.github.io/](https://icinganalysis.github.io)
 
 __DRAFT__  
 
-python3 -m pip install -e icinganalysis @ git+https://github.com/icinganalysis/icinganalysis.github.io.git  
+python3 -m pip install git+https://github.com/icinganalysis/icinganalysis.github.io.git  
