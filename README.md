@@ -12,7 +12,7 @@ Ensure that you have python 3.7 or greater installed.
 >python3 --version  
 
 Ensure that you have Anaconda version 2021-11 or greater.  
-Otherwise, you will need to have several packages installed (matplotlib, scipy)
+Otherwise, you will need to have several packages installed (matplotlib, scipy, and dependencies)
 
 python3 -m pip install git+https://github.com/icinganalysis/icinganalysis.github.io.git  
 
