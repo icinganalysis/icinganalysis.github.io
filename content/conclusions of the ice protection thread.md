@@ -28,7 +28,7 @@ Ice protection system development continues to address new challenges.
 ## Discussion  
 
 We have seen "the possible methods for overcoming the ice hazard" 
-that were developed in the NACA-era in this [Ice Protection Thread](ice%20protection.md). 
+that were developed in the NACA-era in this [Ice Protection Thread]({filename}ice%20protection.md). 
 The period up to and through WWII (1945) was largely characterized by expeditious tests to 
 address immediate icing problems. 
 
@@ -258,7 +258,7 @@ may still require research and development.
 
 ## Related  
 
-The next thread in the NACA review series is the [Icing Cloud Meteorology Thread](Meteorology.md).  
+The next thread in the NACA review series is the [Icing Cloud Meteorology Thread]({filename}Meteorology.md).  
 
 ## Notes  
 

@@ -50,7 +50,7 @@ the rate of electric charge from the charged water drops impinging
 could be measured, which was proportional to the water mass. 
 
 More information on multicylinder instruments can be found in the 
-[Icing on Cylinders Thread]({filename}/Icing on Cylinders.md).   
+[Icing on Cylinders Thread]({filename}Icing on Cylinders.md).   
 
 Note that:  
 >A part of the method presented in this report has appeared in a
@@ -172,9 +172,9 @@ You can find out more about the drop size distribution designations
 
 We saw similar laments many times about the 
 "lack of other independent methods for checking the results" 
-for drop sizes in the [Icing on Cylinders Thread]({filename}/Icing on Cylinders.md). 
+for drop sizes in the [Icing on Cylinders Thread]({filename}Icing on Cylinders.md). 
 We saw options for measuring drop sizes and size distribution 
-earlier in this [Meteorological Instruments Thread]({filename}/instruments.md),
+earlier in this [Meteorological Instruments Thread]({filename}instruments.md),
 such as the sooted or oiled slide method, 
 or the [water drop camera]({filename}water drop imaging.md) 
 that was also undergoing development at this time (1951). 

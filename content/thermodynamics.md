@@ -61,7 +61,7 @@ evaporation from wet surfaces.
 
 ## Related 
 
-The next thread in the NACA review series is the [Ice Shapes Thread](ice_shapes_thread.md).  
+The next thread in the NACA review series is the [Ice Shapes Thread]({filename}ice_shapes_thread.md).  
 
 ![C-46 Lab Test Article](images/C-46lab.jpg) 
 

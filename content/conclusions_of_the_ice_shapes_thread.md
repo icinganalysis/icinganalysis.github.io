@@ -299,7 +299,7 @@ However, the validation report [^17] used a modified definition for theta:
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
 We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md). 
 
-The next thread in the NACA review series is the [Water Drop Evaporation Thread](water_drop_evaporation_thread.md).  
+The next thread in the NACA review series is the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
 
 ## Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.   

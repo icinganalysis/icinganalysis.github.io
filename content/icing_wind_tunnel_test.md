@@ -71,7 +71,7 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 
 ## Related  
 
-The next thread in the NACA review series is the [Icing Instruments Thread](instruments.md).  
+The next thread in the NACA review series is the [Icing Instruments Thread]({filename}instruments.md).  
 
 ##Notes 
 

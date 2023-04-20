@@ -322,7 +322,7 @@ design tools has largely displaced its use.
 
 ## Related 
 
-The next thread in the NACA review series is the [Ice Shapes Thread](ice_shapes_thread.md).  
+The next thread in the NACA review series is the [Ice Shapes Thread]({filename}ice_shapes_thread.md).  
 
 ## Notes: 
  
