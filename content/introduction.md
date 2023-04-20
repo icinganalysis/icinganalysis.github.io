@@ -96,22 +96,16 @@ and they formed the common language for discussion of icing challenges and solut
 The role of a common language has perhaps passed to “The Aircraft Icing Handbook” [^7], although that is getting dated.
 
 [Side note: I shook hands with one of the NACA publications authors, Porter Perkins, circa 1993. 
-That was my only direct link to the NACA era].
+That was my only direct link to the NACA era].  
 
-> ###"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^2]
+## What to read next  
+There are over 100 articles on this website. 
+If you want to read them in order, start with [Icing on Cylinders]({filename}Icing on Cylinders.md).  
+> ### "The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^2]  
 
-##On to topic threads: 
-###[Icing on Cylinders]({filename}/Icing on Cylinders.md)  
-###[Icing Thermodynamics]({filename}/thermodynamics.md)
+To see all topics and the 100+ article, see [Site Navigation](Reading%20Order.md).  
 
-<!--
-##Or see the [Blog](blog.html) (latest articles first)  
--->
-##Or see the [archives](archives.html) for a complete list of articles (most recent first)  
-
-##[Diversions]({filename}diversions.md) get into the post-NACA era
-
-##Notes:
+## Notes:
 [^1]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^2]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
 [^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  

@@ -24,15 +24,7 @@ RELATIVE_URLS = False
 #)
 MENUITEMS = (
     ('Home', '/index.html'),
-    ('Cylinders', '/icing-on-cylinders.html'),
-    ('Thermodynamics', '/icing-thermodynamics.html'),
-    ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
-    ('Diversions', '/diversions.html'),
-    ('Evaporation', '/water-drop-evaporation.html'),
-    ('Icing Tunnels', '/icing-wind-tunnel-test-thread.html'),
-    ('Instruments', '/meteorological-instruments.html'),
-    ('Ice Protection', '/ice-protection.html'),
-    ('Meteorology', '/meteorology-of-icing-clouds.html'),
+    ('Site Navigation', '/site-navigation-and-suggested-reading-order.html'),
     ('About', '/about.html'),
 )
 

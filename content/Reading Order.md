@@ -1,7 +1,6 @@
 Title: Site Navigation and Suggested Reading Order    
 Date: 2022-07-21 12:00  
 tags: about  
-status: DRAFT
 
 There are over 100 articles on this website. 
 Here is a guide to get to what you are interested in. 
