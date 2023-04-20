@@ -1,5 +1,5 @@
 Title: NACA-TN-1391   
-Date: 2023-04-14 12:00  
+Date: 2023-04-21 12:00  
 Category: NACA  
 tags: meteorology  
 status: draft  
@@ -7,7 +7,6 @@ status: draft
 ### _"liquid water concentration at any point in the cloud may be calculated by considering an air parcel lifted adiabatically from the condensation level"_  
 
 # "Icing Properties of Noncyclonic Winter Stratus Clouds"  
-
 
 ## Summary  
 Adiabatic lift theory is used to estimate the liquid water content of clouds.  
@@ -17,7 +16,7 @@ Adiabatic lift theory is used to estimate the liquid water content of clouds.
 2. Drop size instrumentation was limited to a 4 inch cylinder for maximum drop size.  
 3. "Calculations ... show that the liquid
 water concentration in noncyclonic stratus clouds is not likely
-to exceed 1.5 grams per cubic meter."
+to exceed 1.5 grams per cubic meter."  
 
 ## Abstract
 
