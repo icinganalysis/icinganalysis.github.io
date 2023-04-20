@@ -59,6 +59,7 @@ MENUITEMS = (
     ('Diversions', '/diversions.html'),
     ('Instruments', '/meteorological-instruments.html'),
     ('Meteorology', '/meteorology-of-icing-clouds.html'),
+    ('Ice Protection', '/ice-protection.html'),
     ('About', '/about.html'),
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']
