@@ -1,6 +1,6 @@
 title: Water drop evaporation  
 Date: 2022-05-19 12:00  
-Category: Diversions  
+Category: Diversions, evaporation  
 
 ### _"snow-flakes will form and these will grow by vapor condensation and by evaporation of fog droplets" [^1]_  
 
