@@ -1,4 +1,5 @@
 title: Ice Protection  
+Date: 2023-01-28 12:00  
 tags: ice protection   
 
 ###_"The possible methods for overcoming the ice hazard ..." [^1]_  
