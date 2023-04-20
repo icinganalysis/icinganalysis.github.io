@@ -101,7 +101,7 @@ the mass of one drop times 10a.
 This quantity,
 which is
 designated
-W1OO, represents
+W100, represents
 the liquid
 water concentration
 in grams per cubic meter of a cloud having 100 such drops per
@@ -112,7 +112,7 @@ number of drops per cubic
 centimeter is obtained
 by dividing
 the measured liquid
-water by W1OO.
+water by W100.
 If the size distribution
 is not uniform,
 the calculated
@@ -140,7 +140,7 @@ chart (fig.2) was prepared for a condensation pressure of 850 millibars
 (4,780 ft, pressure altitude).
 The two charts give the same values for liquid water concentration
 to within 0.1 gram per cubic meter for all values of condensation
-temperature below freezing and cloud thickness less than 1OO0 feet.
+temperature below freezing and cloud thickness less than 1000 feet.
 This shows that the actual elevation of the cloud base, or condensation
 level, is of little importance and the significant factors
 are the temperature at the cloud base and the height above
@@ -155,7 +155,7 @@ lifting. Cloud base at 948 feet pressure altitude.
 > Representative temperature, dew-point, liquid water,
 and drop-size data as obtained during four flights
 through non-cyclonic stratus clouds are presented in figure 3. 
-The values of W1OO [largest drop size] obtained from individual
+The values of W100 [largest drop size] obtained from individual
 observations have been plotted and are represented by a faired curve.
 Also presented in figure 3 are the droplet diameters in microns and values
 of N, both of which have been computed from the faired
