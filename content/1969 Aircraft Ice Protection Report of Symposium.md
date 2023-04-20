@@ -1,13 +1,13 @@
 Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium
 Date: 2022-12-13 13:00  
 Category: Diversions
-tags: 
+tags: diversions  
 
-> ###"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people." [^1]
+### _"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people."_ [^1]
 
 ![Fig1](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
 
-##Abstract
+## Abstract
 
 _("Summary" in the orignal)._
 
@@ -46,15 +46,15 @@ supplement other information on the subject since it contains
 current information on the icing environment and aircraft ice
 protection.
 
-##Key points
+## Key points
 
 1. The ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance  
 2. "[Safe operatons of aircraft in icing] should be accomplished through the inherent capability of the aircraft design rather than to rely upon operational restrictions ..."  
 3. This was the first major meeting on aircraft icing since the NACA era.  
 
-##Discussion
+## Discussion
 
-###Agenda
+### Agenda
 
 There is a rather full agenda, and there is something for everyone:  
 ![Table of contents (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 1.png)
@@ -143,7 +143,7 @@ December 24, 1969. It also revised the wording again to nearly the form that it 
 The symposium does not appear to have gotten everyone on the same page (regulators, airlines, manufacturers, etc.) for the forthcoming regulations. 
 Aircraft ice protection was "controversial" both before and after the symposium.
 
-###The first icing meeting in an long time  
+### The first icing meeting in an long time  
 
 In his presentation "Airframe Design for Protection Anti-Icing" Messinger notes that 
 
@@ -156,7 +156,7 @@ Problems which (was disbanded in 1957), it was at least temporarily displaced by
 space age technical activities and budgets before all the necessary answers to
 its problems had become completely evident.
 
-###Predictions  
+### Predictions  
 
 In his presentation "Airframe Design for Protection Anti-Icing" Messinger also notes that 
 
@@ -165,7 +165,7 @@ this presentation was to comb through his file of reference material, and found
 there a prior paper which he presented in 1952 at the S.A.E. National Aeronautics
 Meeting in Los Angeles.
 Design - 1952" (Ref. 1)*.
-The title was "Ice Prevention as Related to Airframe
+The title was "Ice Prevention as Related to Airframe".
 As the title Implies, it was a progress report on the
 state of the art as of that specific time period.
 Except for certain deficiencies
@@ -181,9 +181,9 @@ In the audience was Ramon Wilder, who two presentations
 later would discuss data on the ice shapes for the 747 jumbo jet, 
 which was about to receive certification and enter service.
 
-I have not bee able to find Messinger's 1952 presentation, but I speculate that it was similar to [^3].
+I have not been able to find Messinger's 1952 presentation, but I speculate that it was similar to [^3].
 [^3] is the second most cited of all papers on aircraft icing (cited 733 times [^4]), 
-second only to Langmuir and Blodgett [^5] (cited 740 times [^6]).
+second only to Langmuir and Blodgett [^5] (cited 740 times [^6]).  
  
 Messinger could not resist at least expressing an aspiration, if not a prediction:
 
@@ -209,7 +209,7 @@ I select the following as "must-reads":
 
 These are likely candidates for future [Diversions]({filename}/diversions.md)
 
-##Notes:
+## Notes:
 [^1]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
@@ -222,5 +222,5 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [^6]:
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+investigation+of+water+droplet+trajectories&btnG=  
 [^7]:
-1st AIAA Ice Prediction Workshop Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
+1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
 

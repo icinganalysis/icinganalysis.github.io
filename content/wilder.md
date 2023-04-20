@@ -1,24 +1,24 @@
 Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]  
 Date: 2022-07-06 12:00  
 Category: Diversions  
-tags: ice shapes  
+tags: ice shapes, diversions    
 
-###_"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."_  
+### _"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."_  
 
 ![Figure 25](images/wilder/Figure 25.png)  
 
-#"Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
+# "Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
 
-##Summary 
+## Summary 
 Glaze ice shape correlations for two commercial aircraft airfoils are developed.
 
-##Key Points 
+## Key Points 
 1. Icing wind tunnel tests with two commercial aircraft airfoils were conducted.  
 2. Glaze ice shape correlations were developed.  
 3. Airplane level ice effects are detailed.  
 4. The state of the art in 1969 is documented.  
 
-##A Note
+## A Note
 
 I briefly worked with Ramon Wilder (circa 1991?), 
 but I did not ask him about this particular publication. 
@@ -28,7 +28,7 @@ The next day he came in with a elegant, hand written, 10 page proof, and said
 "That was a little tough. It took me three hours last night!" 
 That was the kind of engineer Ramon was.
 
-##Summary  
+## Summary  
 
 >To determine the need for airfoil ice protection systems and the effects
 of large ice shapes on airplane performance, The Boeing Company has conducted
@@ -89,7 +89,7 @@ Different types of descent profiles are
 considered and operating procedures are discussed to ensure ice shedding
 prior to approach flight conditions.
 
-##Discussion  
+## Discussion  
 
 This is a long publication (75 pages, 40 figures). 
 In the interest of brevity the focus here will be on the ice shape correlations. 
@@ -108,7 +108,7 @@ of commercial aircraft airfoils.
 This gives us a detailed snapshot of at least 
 one airplane manufacturer's "state of the art" for determining ice shapes in 1969.  
 
-###Calculation Procedures  
+### Calculation Procedures  
 
 >Procedures developed for determining the ice cap size by various
 manufacturers are based on calculating the airfoil water catch and adjusting
@@ -231,7 +231,7 @@ test programs.
 in the aircraft industry, the test program and results are of interest and
 will be briefly discussed.
 
-###Ice Accretion Test Setup and Procedure  
+### Ice Accretion Test Setup and Procedure  
 
 >The models used in this study were chosen to represent the type of airfoils
 used on present-day commercial jet aircraft. Cross-sections of these airfoils
@@ -326,7 +326,7 @@ the magnitude of this effect of material properties on ice shape.
 Having worked with aircraft both aluminum and composite leading edge materials, 
 I have not seen a notable effect due to material.
 
-###Theoretical Impingement Characteristics  
+### Theoretical Impingement Characteristics  
 
 >The theoretical impingement characteristics in terms of water drop
 collection efficiency and impingement limits is shown In Figure 20 for the two
@@ -347,7 +347,7 @@ and in the ice shape correlation parameters.
 
 >This is in line with the impingement data as presented in Reference 2.
 
-###Ice Accretion Test Result:
+### Ice Accretion Test Result:
 
 >Correlation of the measured ice cap dimensions was based on the water
 catch parameters which are indicative of the ice thickness. Under conditions
@@ -445,7 +445,7 @@ A detailed example calculation is given, the results of which are shown in Figur
 
 ![Figure 25](images/wilder/Figure 25.png)  
 
-###Performance Penalties
+### Performance Penalties
 
 > In addition to evaluating flight characteristics, airplane performance must 
 also be considered due to the ice effects on drag. Figure 29 shows a typical 
@@ -464,7 +464,7 @@ airport temperature is below the temperature at which the ice will shed.
 
 ![Figure 30](images/wilder/Figure 30.png)  
 
-##Conclusions  
+## Conclusions  
 
 >The determination of the need for airfoil ice protection requires the
 establishment of the effects of large ice accretions on airplane performance. The
@@ -510,7 +510,7 @@ or at least "a thing that you have (probably) never read".
 
 However, see "Related" below. 
 
-##Related  
+## Related  
 
 An online search found 19 citations of this similarly titled publication:   
 Wilder, R. W. "A theoretical and experimental means to predict ice accretion shapes for evaluating aircraft handling and performance characteristics." AGARD Aircraft Icing 20 p(SEE N 79-15036 06-05) (1978).  
@@ -524,6 +524,6 @@ See also the review of the conference where this paper was presented,
 which stated:  
 >"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people.".  
 
-##Notes
+## Notes
 
 [^1]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [https://apps.dtic.mil/sti/pdfs/AD0690469.pdf](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  

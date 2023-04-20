@@ -1,8 +1,14 @@
 Title: Diversions
 Category: Diversions  
+tags: diversions  
 Date: 2022-01-15 12:00  
 
-###Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.
+![Four cartoon depictions of aircraft in icing. 
+The individual images are described in the link below. 
+](images%2Finstructive_illustrations.png)  
+_Four [Instructive Illustrations]({filename}instructive illustrations.md)_.   
+
+### Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.  
 
 ---
 
@@ -10,6 +16,7 @@ Date: 2022-01-15 12:00
 ### [The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md)   
 ### [The Greatest Thing That You Have (Probably) Never Read: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
 ### [Instructive Illustrations]({filename}instructive illustrations.md)  
+### [Out-Sourcing My Work to ChatGPT and DALL-E ;)]({filename}outsourcing.md)  
 
 Candidates (not yet reviewed):
 
