@@ -3,12 +3,17 @@ Date: 2022-07-21 12:00
 tags: about  
 status: DRAFT
 
+There are over 100 articles on this website. 
+Here is a guide to get to what you are interested in. 
+
 ## NACA-era icing publication reviews *   
 
 [* Well, mostly, a few post-NACA era ones are mixed in.]
 
+This is the main focus of the blog.  
+
 This blog was written in "threads" or themes on topics. 
-It is suggested to read the articles in the order below.  
+It is suggested, but not required, to read the articles in the order below.  
 
 - [Introduction]({filename}introduction.md)  
 - [Icing on Cylinders Tread]({filename}Icing on Cylinders.md)  
