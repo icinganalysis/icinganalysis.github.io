@@ -5,7 +5,14 @@ tags: database
 
 > ###"The documents of that period were so old, however, that they were not listed in the modern computerized library search systems" [^1] 
 
-##Summary
+![Several people using a library. 
+Many are seated at tables reading books. 
+There are book shelves, file cabinets for index cards, 
+and a microfische reader.
+](images/GRClibrary1945.png)  
+_NACA Cleveland library, circa 1945._  
+
+## Summary
 210 NACA icing publications were identified, and the references were included in a database.
 
 ---
@@ -271,7 +278,11 @@ The four publications that I could not find copies of are:
 
 Back to the [Introduction](/index.html)  
 
-##Notes:
+## Related  
+
+See also [Hard to Find Publications]({filename}hard_to_find_.md)  
+
+## Notes:
 [^1]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)
 [^2]: [https://ntrs.nasa.gov/](https://ntrs.nasa.gov/)
 [^3]:

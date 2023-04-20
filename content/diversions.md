@@ -8,13 +8,12 @@ The individual images are described in the link below.
 ](images%2Finstructive_illustrations.png)  
 _Four [Instructive Illustrations]({filename}instructive illustrations.md)_.   
 
-### Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.  
-
----
+Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.  
 
 ### [The Greatest Thing That You Have (Probably) Never Read: AC 00-6A]({filename}ac00-6a.md)  
 ### [The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md)   
 ### [The Greatest Thing That You Have (Probably) Never Read: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
+### [A Brief Digression on Units]({filename}brief-digression-on-units.md)  
 ### [Instructive Illustrations]({filename}instructive illustrations.md)  
 ### [Out-Sourcing My Work to ChatGPT and DALL-E ;)]({filename}outsourcing.md)  
 
