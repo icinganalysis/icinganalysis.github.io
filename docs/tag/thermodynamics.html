@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Blast from the Past: NACA Icing Publications - thermodynamics</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/icing-on-cylinders.html">Cylinders</a></li>
+                    <li><a href="/icing-thermodynamics.html">Thermodynamics</a></li>
+                    <li><a href="/ice-shapes-and-their-effects.html">Ice Shapes</a></li>
+                    <li><a href="/diversions.html">Diversions</a></li>
+                    <li><a href="/water-drop-evaporation.html">Evaporation</a></li>
+                    <li><a href="/icing-wind-tunnel-test-thread.html">Icing Tunnels</a></li>
+                    <li><a href="/meteorological-instruments.html">Instruments</a></li>
+                    <li><a href="/ice-protection.html">Ice Protection</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/naca-tn-3024-revisited.html">NACA-TN-3024-revisited</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-06-03T12:00:00-07:00">
+                Published: Fri 03 June 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.765948-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> <a href="/tag/evaporation.html">evaporation</a> </p>-->
+
+</footer><!-- /.post-info --><blockquote>
+<h3><em>"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."</em></h3>
+</blockquote>
+<h1>"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. Motional relationships among air-stream, droplet, and obstacle." src="images/naca-tn-3024/Figure1.png">  </p>
+<h2>Summary</h2>
+<p>Less that 1% of drops evaporate approaching an obstacle for most cases.</p>
+<h2>Key points</h2>
+<ol>
+<li>Equations are detailed for the evaporation of water drops approaching an obstacle.  </li>
+<li>The equations were coded into a python program.  </li>
+<li>Less that 1% of drops evaporate approaching an obstacle for most cases.  </li>
+<li>A water drop that approaches on the stagnation line but does not impinge is predicted to evaporate away. </li>
+</ol>
+<p><a href="/naca-tn-3024.html">NACA-TN-3024</a> was reviewed previously, 
+herein we will concentrate on comparing our own code to the results in NACA-TN-3024.</p>
+<h2>Abstract</h2>
+<blockquote>
+<p>When a closed body or a duct envelope moves through the atmosphere,
+air pressure and temperature rises occur ahead of the body or, under ram
+conditions, within the duct. If cloud water droplets are encountered,
+droplet evaporation will result because of the air-temperature rise and
+the relative velocity between the droplet and stagnating air. It is
+shown that the solution of the steady-state psychrometric equation provides 
+evaporation rates which are the maximum possible when droplets are
+entrained in air moving along stagnation lines under such conditions.
+Calculations are made for a wide variety of water droplet diameters,
+ambient conditions, and flight Mach numbers. Droplet diameter, body
+size, and Mach number effects are found to predominate, whereas wide
+variation in ambient conditions are of relatively small significance in
+the determination of evaporation rates.<br>
+The results are essentially exact for the case of movement of droplets 
+having diameters smaller than about 30 microns along relatively long
+ducts (length at least several feet) or toward large obstacles (wings),
+since disequilibrium effects are then of little significance. Mass losses
+in the case of movement within ducts will often be significant fractions
+(one-fifth to one-half) of original droplet masses, while very small droplets 
+within ducts will often disappear even though the entraining air is
+not fully stagnated. Wing-approach evaporation losses will usually be of
+the order of several percent of original droplet masses.<br>
+Two numerical examples are given of the determination of local evaporation 
+rates and total mass losses in cases involving cloud droplets
+approaching circular cylinders along stagnation lines. The cylinders
+chosen were of 3.95-inch (10.0+ cm) diameter and 39.5-inch 100+ cm)
+diameter. The smaller is representative of icing-rate measurement cylinders, 
+while with the larger will be associated an air-flow field similar
+to that ahead of an airfoil having a leading-edge radius comparable with
+that of the cylinder. It is found that the losses are less than 5 percent. 
+It is concluded that such losses are, in general, very small
+(less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder 
+size); the motional dynamics are such, however, that
+exceptions will occur by reason of failure of very small droplets (moving
+along stagnation lines) to impinge upon obstacle surfaces. In such
+cases, the droplets will evaporate completely.  </p>
+</blockquote>
+<h2>Discussion</h2>
+<blockquote>
+<p>The general literature in the field of evaporation from droplets is
+extensive, but few studies of the particular problem of droplets approaching 
+obstacle under icing conditions have been made. Both Hardy (ref. 4)
+and Langmuir (ref. 5) have considered certain aspects of the question;
+both analyses took into account the fact that the droplet will not, in
+general, be in instantaneous psychrometric equilibrium with its surroundings. 
+In both cases, the conclusion was reached that total evaporative
+losses from droplets actually reaching obstacle surfaces are of the order
+of several percent for the particular sets of conditions of their analyses. 
+In both investigations, however, the ranges of droplet size, air
+temperature and pressure, body size, and flight Mach number were rather
+restricted.</p>
+<p>A complete treatment of the problem would require:
+(1) use of the equations of motion of a droplet of liquid in a (compressible) gas, 
+the equations to take into account in some way changes of
+drag coefficient with Mach number;
+(2) use of the equations governing the dynamic thermal behavior of
+a volatile sphere under quite general conditions of changing heat and
+mass-transfer rate including, in some instances, radiation effects; and
+(3) coverage of wide ranges of obstacle size and shape, droplet
+size, flight Mach number, and flight ambient air conditions.  </p>
+<p>The unavailability of a suitable high-speed calculator made it
+necessary, however, to restrict in some manner the scope of the calculations. </p>
+</blockquote>
+<p>For point (1), we developed compressible flow relationships in 
+<a href="/aedc1dmp.html">"The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iasd1dmp</a>.
+The drag coefficient used is a function of Reynolds number, but not Mach. 
+While the flow Mach numbers considered in NACA-TN-3024 included high values (0.75), 
+the relative drop-to-air Mach values were lower (&lt;0.3), so we will consider
+Mach independence to be "good enough". </p>
+<p>For point (2), we will leave out radiation effects. 
+For large drops, the temperature distribution within a drop caused by dynamic changes may be important, 
+but for smaller drops (&lt;100 micrometer) a constant temperature approximation is "good enough". </p>
+<p>For point (3), we wrote our equations to use a general air speed function as an input, 
+so we just need a unique airspeed function for each "obstacle".</p>
+<p>And fortunately, "a suitable high-speed calculator" is now widely available, 
+the modern personal computer 
+(although mine is an 8-year-old laptop, which some may not count as modern). </p>
+<blockquote>
+<p>Since the subject of droplet evaporation, insofar as aircraft are
+concerned, is of interest chiefly in connection with icing, radiation
+effects could be ignored (since all temperature levels involved are low).
+Further, it was decided to consider that a droplet remains in instantaneous 
+psychrometric equilibrium with its immediate surroundings,
+and its internal temperature was to be taken as uniform. Certain quantitative 
+aspects of this assumption are scrutinized in the body of the report and in appendix B; 
+a qualitative justification of the procedure is,
+however, given here.  </p>
+<p>If evaporation occurs at all, it will occur principally as a result
+of a droplet temperature rise, with which a droplet-surface vapor-pressure
+rise will be concomitant. Therefore, maximum evaporation rates will occur,
+In virtually all cases, in the vicinities of body stagnation points. If,
+now, bodies and flight conditions (wing attitudes, for example) are considered 
+such that air flows in the vicinities of stagnation points are
+essentially symmetrical about such points, then the trajectory of a droplet 
+originally on a stagnation line will essentially coincide with the
+line. For the sake of simplicity, then, let attention be confined to
+histories of droplets moving along such lines. Air temperature and pressure 
+will rise monotonically. The droplet instantaneous position will
+always be ahead of that of the air with which, at an arbitrary previous
+time, it was in contact, although a quasi-static mass-transfer analysis
+does not demand such motion. More importantly, with or without evaporation 
+the interior droplet temperature will always lag behind the rising
+surface temperature, and both the mean droplet temperature and the surface 
+temperature will always be less than the local equilibrium (psychrometric) value; 
+all droplet temperatures will rise monotonically. It is
+possible to conclude that both the actual local time rate of evaporation
+and the actual total loss of liquid will be less than those calculated
+on the basis of psychrometric calculations in the case of stagnation
+streamline droplet motion. It therefore follows that the present quasi-static 
+calculations set upper bounds to the loss rates and total losses
+for motion along stagnation lines.</p>
+</blockquote>
+<p>We will also restrict our analysis to the stagnation line. 
+However, we will not use the "quasi static" assumption, and 
+will use the water drop relative speed, mass transfer, and heat transfer 
+developed in <a href="/aedc1dmp.html">"The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp</a>. </p>
+<p>For the cylinder case in NACA-TN-3024, I used the airspeed calculation from 
+Langmuir and <a href="build_a_1d_drop_motion_simulation.md">"Let's Build a 1D Water Drop Trajectory Simulation"</a> . </p>
+<p>This is incorporated into the file "naca_tn_3024.py" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </p>
+<p>The Mach values calculated herein are similar, 
+but not identical to the values in NACA-TN-3024 Figure 8. 
+NACA-TN-3024 did not describe how the airspeed values were calculated. 
+Presumably, they would be the same as in Langmuir and Blodgett <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, which was referenced. 
+The airspeed calculations herein were from Langmuir and Blodgett, 
+but the values are visibly different. </p>
+<p><img alt="Comparison to Figure 8 Mach values" src="images/naca-tn-3024/naca_tn_3024_mach.png">  </p>
+<p>The evaporation rates compared to Figure 9 values are similar in magnitude, 
+but not in detail. 
+However, either result meets the "less than 1 percent" LWC change. </p>
+<p><img alt="Comparison to Figure 9 LWC change values" src="images/naca-tn-3024/naca_tn_3024_lwc_change.png">  </p>
+<p>The results above were for a water drop that impinges on the obstacle. 
+NACA-TN-3024 considers cases where the drop never impinges:  </p>
+<blockquote>
+<p>Evaporative losses may be as high as several percent in the case
+of small droplets approaching larger obstacles, such as wings, except
+that there is always a possibility that the droplet will never reach the
+airfoil. (In the latter case, it will, of course, evaporate completely
+if it has been approaching along the stagnation line). </p>
+</blockquote>
+<p>To test this I used a case from <a href="build_a_1d_drop_motion_simulation.md">"Let's Build a 1D Water Drop Trajectory Simulation"</a>, 
+where K=0.125, and the drop should theoretically never impinge on the cylinder. 
+This requires a rather small drop for this condition (about 1.5 micrometer diameter).</p>
+<p>I used a final distance for the cylinder of 1e-30 
+(recall that we built the cylinder water drop motion simulation to handle very close approaches, 
+and that we do not have infinite time to wait for a solution.)
+The water drop is predicted to dwell very close to the cylinder:<br>
+<img alt="Simulation time" src="images/naca-tn-3024/naca_tn_3024_time_k0_125.png">  </p>
+<p>The water drop is predicted to be evaporating:<br>
+<img alt="Simulated water drop diameter" src="images/naca-tn-3024/naca_tn_3024_d_drop_k0_125.png">  </p>
+<p>The boundary conditions have essentially stabilized at the end of the time simulation. 
+The local airspeed is essentially zero, so the local static pressure and temperature are constant. 
+As the local static pressure is constant, the local vapor concentration and pressure will be constant. 
+The water drop relative air velocity is essentially zero, so the heat and mass Nusselt numbers are constant at 2. 
+The heat and mass transfer coefficients are inversely proportional to drop diameter, 
+so those values will increase as the drop evaporates further.
+So, the prediction that the drop will eventually evaporate is supported if it does not impinge. </p>
+<h2>Conclusions</h2>
+<p>NACA-TN-3024 stated that the "quasi-static" calculations set an upper bound:</p>
+<blockquote>
+<p>It therefore follows that the present quasi-static 
+calculations set upper bounds to the loss rates and total losses
+for motion along stagnation lines.</p>
+</blockquote>
+<p>The comparison to Figure 9 values above support that conclusion. </p>
+<p>The conclusion of "less than 1 percent" LWC change due to evaporation is supported. </p>
+<p>In the post-NACA era, most sources assume (often tacitly) zero loss due to evaporation of drops approaching an obstacle. </p>
+<p>The basic equations required to do the calculations implemented in iads1dmp.py were available in the NACA era. 
+I was surprised at how what I had to implement in the python code was just "plumbing" to join together the 
+referenced equations and to do the integration, and not new or different equations. 
+The key difference in 1953 was the "unavailability of a suitable high-speed calculator."</p>
+<h2>Citations</h2>
+<p>NACA-TN-3024 cites 16 publications:  </p>
+<ul>
+<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  </li>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  </li>
+<li>Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  </li>
+<li>Hardy, J. K.: Evaporation of Drops of Liquid. Rep. No. Mech. Eng. 1, British R.A.E., Mar. 1947.  </li>
+<li>Langmuir, Irving: The Cooling of Cylinders by Fog Moving at High Velocities. General Electric Co., Mar. 1945.  </li>
+<li>Schmidt, Ernst, and Wenner, Karl: Heat Transfer over the Circumference of a Heated Cylinder in Transverse Flow. NACA-TM-1050, 1943.  </li>
+<li>Frossling, Nils: Uber die Verdiinstung Fallender Tropfen. Gerl. Beitr. Geophys., Bd. 52, Heft 1/2, 1938, pp. 170-216.  </li>
+<li>Homann, F. (D. C. Ipsen, trans.): The Effect of High Viscosity on the Flow Around a Cylinder and Around a Sphere. Rep. No. RE-150-88, Inst. Eng. Res., Univ. Calif., Berkeley (Calif.), July 17, 1951. (Contract NAw-6004.)  </li>
+<li>Kaplan, Carl: The Flow of a Compressible Fluid Past a Sphere. NACA-TN-762, 1940.  </li>
+<li>Goff, John A., and Gratch, Serge: The Saturation Pressure of Water below 600 C. Rep. No. 4546, Thermodynamics Research Lab., Univ. of Pennsylvania, Jan. 1948. (Navy contract NObs-2477.)  </li>
+<li>Williams, Glenn Carber: Heat Transfer, Mass Transfer, and Friction for Spheres. SC. D. Thesis, M.I.T., 1942.  </li>
+<li>Ingebo, Robert D.: Vaporization Rates and Heat-Transfer Coefficients for Pure Liquid Drops. NACA-TN-2368, 1951.  </li>
+<li>Boelter, L. M. K., Cherry, V. H., Johnson, H. A., and Martinelli, R. C.: Heat Transfer Notes. Univ. Calif. Press (Berkeley and Los Angeles), 1948.  </li>
+<li>Dorsey, N. Ernest: Properties of Ordinary Water-Substance. Reinhold Pub. Corp. (New York), 1940.  </li>
+<li>Carslaw, H. S., and Jaeger, J. C.: Conduction of Heat in Solids. Clarendon Press (Oxford), 1947.  </li>
+<li>Jakob, Max: Heat Transfer. Vol. I. John Wiley &amp; Sons, Inc., 1949.  </li>
+</ul>
+<p>NACA-TN-3024 is cited 2 times by publications in the NACA Icing Publications Database <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>:</p>
+<ul>
+<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  </li>
+<li>Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  </li>
+</ul>
+<p>NACA-TN-3024 is cited 6 times in the literature <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.</p>
+<h2>Notes:</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/conclusions-of-the-icing-thermodynamics-thread.html" rel="bookmark"
+                           title="Permalink to Conclusions of the Icing Thermodynamics Thread">Conclusions of the Icing Thermodynamics Thread</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-18T12:00:00-07:00">
+                Published: Wed 18 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:51.539776-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em><strong>"The collection of ice by the cylinders is similar to the collection of ice by airplane components"</strong></em></h3>
+<p><img alt="Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., &quot;Aircraft Ice Protection&quot;, the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at DTIC." src="images/messinger/Figure1.png">  </p>
+<blockquote>
+<p>Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions.  </p>
+</blockquote>
+<h1>Conclusions of the Icing Thermodynamics Thread</h1>
+<h2>Summary</h2>
+<p>Data from the …</p>
+                <a class="readmore" href="/conclusions-of-the-icing-thermodynamics-thread.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/ads-4.html" rel="bookmark"
+                           title="Permalink to ADS-4">ADS-4</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-14T12:00:00-07:00">
+                Published: Sat 14 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.781941-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"these calculations, performed at several span stations, can become unnecessarily tedious"</em></h3>
+<h1>ADS-4, “Engineering Summary of Airframe Icing Technical Data” <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 3-1" src="/images/ads4/Figure3-1.png">  </p>
+<h2>Summary</h2>
+<p>A single thermodynamic control volume is used for anti-ice calculations. </p>
+<h2>Key points</h2>
+<ol>
+<li>Ice shapes are classified (glaze, rime).  </li>
+<li>A …</li></ol>
+                <a class="readmore" href="/ads-4.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-3396.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3396">NACA-TN-3396</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-12T12:00:00-07:00">
+                Published: Thu 12 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.769947-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."</em></h3>
+<h1>"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"</h1>
+<p><img alt="Figure 6" src="images/naca-tn-3396/Figure6.png">  </p>
+<h2>Summary</h2>
+<p>Predictions of the icing limit temperature were "sufficiently accurate …</p>
+                <a class="readmore" href="/naca-tn-3396.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-3104.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3104">NACA-TN-3104</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-09T12:00:00-07:00">
+                Published: Mon 09 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.765948-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"</em></h3>
+</blockquote>
+<h1>"Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="NACA-TN-3104 Figure 2" src="images/NACA-TN-3104/Figure2.png"> </p>
+<h2>Abstract</h2>
+<blockquote>
+<p>An …</p></blockquote>
+                <a class="readmore" href="/naca-tn-3104.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-3045.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3045">NACA-TN-3045</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-04T12:00:00-07:00">
+                Published: Wed 04 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.765948-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"</em></h3>
+<h1>"Analogy Between Mass and Heat Transfer with Turbulent Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 2." src="images/naca-tn-3045/Figure2.png">  </p>
+<h2>Summary</h2>
+<p>For turbulent flow on a flat plate, ke/kh is about 1.1 to …</p>
+                <a class="readmore" href="/naca-tn-3045.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-3024.html" rel="bookmark"
+                           title="Permalink to NACA-TN-3024">NACA-TN-3024</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-02T12:00:00-07:00">
+                Published: Mon 02 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.765948-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."</em></h3>
+</blockquote>
+<h1>"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. Motional relationships among air-stream, droplet, and obstacle." src="images/naca-tn-3024/Figure1.png">  </p>
+<h2>Summary</h2>
+<p>Less that 1% of drops evaporate approaching …</p>
+                <a class="readmore" href="/naca-tn-3024.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/fraser.html" rel="bookmark"
+                           title="Permalink to Fraser">Fraser</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-28T12:00:00-07:00">
+                Published: Thu 28 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.741959-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."</em></h3>
+</blockquote>
+<h1>Fraser, et al., "Thermodynamic …</h1>
+                <a class="readmore" href="/fraser.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-2914.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2914">NACA-TN-2914</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-26T12:00:00-07:00">
+                Published: Tue 26 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.761950-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"</em></h3>
+</blockquote>
+<h1>NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p>and </p>
+<h1>NACA-TN-2914 "A Method for Rapid …</h1>
+                <a class="readmore" href="/naca-tn-2914.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/a-brief-digression-on-unit-systems.html" rel="bookmark"
+                           title="Permalink to A Brief Digression on Unit Systems">A Brief Digression on Unit Systems</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-24T12:00:00-07:00">
+                Published: Sun 24 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.785939-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<p><em>"I'm burning through the sky, yeah<br>
+Two hundred degrees, that's why they call me Mister Fahrenheit<br>
+I'm travelling at the speed of light<br>
+I wanna make a supersonic woman of you"</em><br>
+from Queen, "Don't Stop Me Now"  </p>
+</blockquote>
+<h1>A Brief Digression …</h1>
+                <a class="readmore" href="/a-brief-digression-on-unit-systems.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-2799.html" rel="bookmark"
+                           title="Permalink to NACA-TN-2799">NACA-TN-2799</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-24T12:00:00-07:00">
+                Published: Sun 24 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.757952-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."</em></h3>
+</blockquote>
+<h1>"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing." src="images/naca-tn-2799/Figure1.png"> </p>
+<blockquote>
+<p>Figure 1. - Graphical solution of anti-icing heat and mass …</p></blockquote>
+                <a class="readmore" href="/naca-tn-2799.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/messinger.html" rel="bookmark"
+                           title="Permalink to Messinger">Messinger</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-21T12:00:00-07:00">
+                Published: Thu 21 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:51.487800-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"</em></h3>
+</blockquote>
+<h1>B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., &quot;Aircraft Ice Protection&quot;, the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at DTIC." src="images/messinger/Figure1.png"> </p>
+<blockquote>
+<p>Modes of energy transfer for an unheated airfoil in icing …</p></blockquote>
+                <a class="readmore" href="/messinger.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/ludlam.html" rel="bookmark"
+                           title="Permalink to Ludlam">Ludlam</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-19T12:00:00-07:00">
+                Published: Tue 19 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:51.475806-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"</em></h3>
+</blockquote>
+<p><img alt="Cover" src="images/Ludlam/cover.png"></p>
+<h1>F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<h2>Summary</h2>
+<p>Various "Ludlam Limits" have been implemented, but they …</p>
+                <a class="readmore" href="/ludlam.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tn-1472.html" rel="bookmark"
+                           title="Permalink to NACA-TN-1472">NACA-TN-1472</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-18T12:00:00-07:00">
+                Published: Mon 18 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.753954-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"</em></h3>
+</blockquote>
+<h1>"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
+<p><img alt="Figure 7" src="images/naca-tn-1472/Figure7.png"> </p>
+<h2>Summary</h2>
+<p>Natural icing flight tests with an instrumented test …</p>
+                <a class="readmore" href="/naca-tn-1472.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-tr-831.html" rel="bookmark"
+                           title="Permalink to NACA-TR-831">NACA-TR-831</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-14T12:00:00-07:00">
+                Published: Thu 14 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.773945-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <blockquote>
+<h3><em>"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."</em></h3>
+</blockquote>
+<h1>"An Analysis of the Dissipation of Heat in Conditions of …</h1>
+                <a class="readmore" href="/naca-tr-831.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/icing-thermodynamics.html" rel="bookmark"
+                           title="Permalink to Icing Thermodynamics">Icing Thermodynamics</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-11T12:00:00-07:00">
+                Published: Mon 11 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:51.539776-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage)." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png">  </p>
+<h1>Icing Thermodynamics Thread</h1>
+<p>This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. </p>
+<p>There may be some overlap with ice protection systems, 
+but the systems will not be detailed herein.  </p>
+<h3>NACA-ARR-5G13 …</h3>
+                <a class="readmore" href="/icing-thermodynamics.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/naca-arr-5g13.html" rel="bookmark"
+                           title="Permalink to NACA-ARR-5G13">NACA-ARR-5G13</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-11T12:00:00-07:00">
+                Published: Mon 11 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-04-20T05:51:46.749956-07:00">
+                Updated: Thu 20 April 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<!--<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a> </p>-->
+
+</footer><!-- /.post-info -->                <h3><em>"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"</em></h3>
+<h1>"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of …</h1>
+                <a class="readmore" href="/naca-arr-5g13.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a href="https://historians.social/@icinganalysis">mastodon</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+                <address id="about" class="vcard body">
+                This site does not use cookies.
+                </address><!-- /#about -->
+
+
+                <br /> copyright 2022-2023 by Donald Cook
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
