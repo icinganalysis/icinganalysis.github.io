@@ -57,7 +57,8 @@ MENUITEMS = (
     ('Thermodynamics', '/icing-thermodynamics.html'),
     ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
     ('Diversions', '/diversions.html'),
-    ('Instruments', SITEURL + '/meteorological-instruments.html'),
+    ('Instruments', '/meteorological-instruments.html'),
+    ('Meteorology', '/meteorology-of-icing-clouds.html'),
     ('About', '/about.html'),
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']
