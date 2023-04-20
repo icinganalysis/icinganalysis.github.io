@@ -8,17 +8,17 @@ tags: ice shapes
 ![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
 >from NACA-TN-1598 [^2]  
 
-##Summary 
+## Summary 
 Data from the post-NACA era are used to resolve open questions 
 
-##Key Points  
+## Key Points  
 1. The Ice Shapes and Their Effects thread is summarized.  
 2. Post-NACA era data is used to resolve some open questions.  
 3. Correlations of drag due to ice have limited, "first order" accuracy.  
 
-##Discussion  
+## Discussion  
 
-###Review of the "Ice Shapes and Their Effects" thread so far
+### Review of the "Ice Shapes and Their Effects" thread so far
 
 In this thread, we saw:
 
@@ -44,15 +44,15 @@ A more general correlation of drag due to ice on an airfoil in [NASA-TM-D-2166, 
 
 Glaze ice shape correlations for two commercial aircraft airfoils in [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)  
 
-###Open Questions  
+### Open Questions  
 
 We will look at recent data to address some questions:  
 1. Does leading edge freezing fraction correlate to airfoil ice shape parameters?  
 2. How well do LEWICE results compare to the ice shape drag data?  
 
-###Correlation to freezing fraction 
+### Correlation to freezing fraction 
 
-####NACA-TN-4151
+#### NACA-TN-4151
 
 In the review of NACA-TN-4155, it was noted:
 
@@ -147,7 +147,7 @@ aerodynamic effect of drag due to an ice shape,
 and that the corresponding shape factors (location and height of the ice horn)
 are aerodynamically meaningful.
 
-###Comparison of NASA-TM-83556 [^6] to LEWICE2D [^7] and [NACA-TR-446]({filename}NACA-TR-446.md)  
+### Comparison of NASA-TM-83556 [^6] to LEWICE2D [^7] and [NACA-TR-446]({filename}NACA-TR-446.md)  
 
 In the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md) 
 and [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
@@ -247,9 +247,9 @@ a combination of icing wind tunnel test, wind tunnel test, and
 perhaps flight test are recommended, similar to the methods used in 1969 
 [see [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)]. 
 
-##What is still used today 
+## What is still used today 
 
-###Protuberance effects
+### Protuberance effects
 
 The "protuberance" effect data from NACA-TR-446 in perpetuated in Brumby [^11],
 which in addition to NACA-TR-446 collected several other studies and 
@@ -270,7 +270,7 @@ The "Forward Facing Quarter Round" has been used to represent such ice.
 
 You can find a more detailed discussion in "Iced-airfoil aerodynamics" [^13].  
 
-###Icing conditions parameters  
+### Icing conditions parameters  
 
 As we saw above, the "empirical" icing conditions parameters in NACA-TN-4151 
 anticipated and correlate to equivalent leading edge freezing fraction values. 
@@ -280,7 +280,7 @@ This gets used in NASA/CR-2004-212875 [^14] and NASA/CR-2005-213852 [^15].
 ![NASA/CR-2005-213852 Figure 3](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
 >Figure 3 from NASA/CR-2005-213852.  
 
-###Ice shape parameters
+### Ice shape parameters
 
 While there is no completely agreed upon "standard" set of parameters to describe an ice shape, 
 the values from NACA-TN-4151 Figure 7 get perpetuated in the LEWICE user's manual [^16]
@@ -294,12 +294,14 @@ However, the validation report [^17] used a modified definition for theta:
 
 ![Figure 16 from NASA/CR-1998-208687](images/ice_shapes_wrap_up/LEWICE validation fig 16.png)  
 
-##Related  
+## Related  
 
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
 We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md). 
 
-##Notes  
+The next thread in the NACA review series is the [Water Drop Evaporation Thread](water_drop_evaporation_thread.md).  
+
+## Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.   
 [^2]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
 [^3]: 

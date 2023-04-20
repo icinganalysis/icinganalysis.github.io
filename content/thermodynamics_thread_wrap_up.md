@@ -8,19 +8,19 @@ tags: thermodynamics
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png)  
 > Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions.  
 
-#Conclusions of the Icing Thermodynamics Thread 
+# Conclusions of the Icing Thermodynamics Thread 
 
-##Summary  
+## Summary  
 Data from the post-NACA era are used to resolve open questions 
 
-##Key points  
+## Key points  
 1. The Icing Thermodynamics thread is summarized.  
 2. Post-NACA era data is used to resolve some open questions.  
 3. The "Messinger model" and extended Messinger models are prevalent in current icing analysis.  
 
-##Discussion
+## Discussion
 
-###Review of the Icing Thermodynamics thread so far
+### Review of the Icing Thermodynamics thread so far
 
 In the Icing Thermodynamics thread, we saw:
 
@@ -53,16 +53,16 @@ And programs in the Python programming language are available to reproduce the r
 
 Readers may also be interested in the prior [Icing on Cylinders thread]({filename}Icing on Cylinders.md)  
 
-##Open questions
+## Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions. 
 
 1. Do calculated freezing fractions correspond to observed values? 
 2. Are the water drop evaporation estimates in NACA-TN-3024 accurate? 
 
-##Freezing fractions 
+## Freezing fractions 
 
-###Rotating cylinders
+### Rotating cylinders
 
 We saw in [NACA-TR-1215]({filename}NACA-TR-1215.md) good correspondence between flight test 
 ice mass and calculated ice mass. 
@@ -103,8 +103,7 @@ LEWICE results had fair to poor agreement for the rotating cylinder flight test 
 [Figure 24d is not compared, as the actual flight LWC value is unknown, 
 because all of the cylinders of the multicylinder instrument had unknown degree of limited freezing.]
 
-
-###Non-rotating cylinders
+### Non-rotating cylinders
 
 The theoretical value "freezing fraction" does have some correspondence to measured test values. 
 
@@ -188,7 +187,7 @@ For NASA-CR-2008-215302, the values agree fairly well.
 
 ![NASA/CR—2008-215302 Figure 3 comparison](images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png)  
 
-###LEWICE analysis of non-rotating cylinders 
+### LEWICE analysis of non-rotating cylinders 
 
 For non-rotating cylinders, the results with LEWICE are mixed. 
 
@@ -232,7 +231,7 @@ I view this as validation of Uwe von Glahn's assertion that
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955,
 but it took 50 years to get the measured data. 
 
-###"Ludam Limits"  
+### "Ludam Limits"  
 
 Related to the freezing fraction calculation is the "Ludlam Limit", 
 the maximum water catch rate where all available water is frozen. 
@@ -257,7 +256,7 @@ Also note that for natural icing conditions, NACA-TR-1215 presents a critical va
 that can be predicted, and run-off values, that can only be determined post-test 
 by comparing the various multicylinder values. 
 
-##Water drop evaporation  
+## Water drop evaporation  
 
 I will defer the evaluation of this to a future post in the ["Water Drop Evaporation thread"]({filename}water_drop_evaporation_thread.md). 
 We will put together several pieces from the NACA-era to implement this, 
@@ -272,9 +271,9 @@ For now, I will say that [NACA-TN-3024]({filename}NACA-TN-3024.md)
 is correct in the conclusion that less than 1% of the water mass evaporates, 
 but the details of how one gets there are different. 
 
-##Conclusions  
+## Conclusions  
 
-###Influential authors
+### Influential authors
 
 There was a notable shift in influence from the NACA-era to the post-NACA era. 
 
@@ -303,7 +302,7 @@ is the influence of Langmuir and Blodgett [^5].
 Six of the 14 publications in the Thermodynamics thread cite Langmuir and Blodgett. 
 Recent publications frequently cite Langmuir and Blodgett. 
 
-###Data still used today  
+### Data still used today  
 
 Messinger's model and "extended" Messinger models are used extensively today for icing analysis. 
 The recent publications citing Messinger are too numerous to list here, 
@@ -321,7 +320,11 @@ or at least it has not been deprecated in later design guides such as [^6] and [
 However, the wide availability of LEWICE and other 2D and 3D ice protection 
 design tools has largely displaced its use. 
 
-##Notes: 
+## Related 
+
+The next thread in the NACA review series is the [Ice Shapes Thread](ice_shapes_thread.md).  
+
+## Notes: 
  
 [^1]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  

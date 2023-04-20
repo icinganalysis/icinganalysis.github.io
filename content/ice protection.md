@@ -2,7 +2,7 @@ title: Ice Protection
 Date: 2023-01-28 12:00  
 tags: ice protection   
 
-###_"The possible methods for overcoming the ice hazard ..." [^1]_  
+### _"The possible methods for overcoming the ice hazard ..." [^1]_  
 
 ![Lockheed 12-A. A large, metal constuction,
 low wing, two engine, propeller drive airplane. 
@@ -17,7 +17,7 @@ exhaust discharge at the wing tip.
 ](images/NACA-ACR-A-53/Figure 1.png)  
 _From NACA-ACR-A-53, 1941. [^2]_  
 
-##Introduction  
+## Introduction  
 
 >During the war, more than a hundred cargo planes of the Air Transport Command, 
 flying from bases in India over the Hump to battlefronts in China, crashed
@@ -55,52 +55,52 @@ are not listed in the 132 publications of the
 
 A few selected publications are from the NACA-era, but not from NACA.  
 
-##[Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)      
+## [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)      
 
 _"The removal of ice from a De-Icer surface depends on the true adhesion of ice to rubber..."_  
 
 - Pneumatic boot deicers were the first widely used form of 
 aircraft ice protection, and are still used today.  
         
-##[Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)    
+## [Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)    
 
 _"A demon was operating the throttle."_  
 
 - Carburetor icing has been a known hazard for over 100 years, and
 many protection strategies were studied in the NACA-era.  
 
-##[Engine exhaust heat]({filename}engine exhaust heat.md)  
+## [Engine exhaust heat]({filename}engine exhaust heat.md)  
 
 _"an airplane that will be immune from the dangers of ice accumulation is ... only a matter of technical development."_  
 
 - A robust heat source provided robust ice protection.
 
-##[Combustion heated air and heat transfer coefficients]({filename}Combustion heated air.md)     
+## [Combustion heated air and heat transfer coefficients]({filename}Combustion heated air.md)     
 
 _"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
 - Combustion heated air, independent of the engines, was used on some aircraft.  
 
-##[Compressed air heat]({filename}Compressed air heat.md)  
+## [Compressed air heat]({filename}Compressed air heat.md)  
 
 _"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_  
 
 - Hot engine compressor "bleed" air is used in the jet-era.  
 
    
-##[Electric heat]({filename}electrothermal.md)    
+## [Electric heat]({filename}electrothermal.md)    
 
 _"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_  
 
 - Electric heating is applied to propellers and wings.  
 
-##[Freezing point depressant fluids]({filename}Freezing point depressant.md)  
+## [Freezing point depressant fluids]({filename}Freezing point depressant.md)  
 
 _"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_  
 
 - Freezing point depressant fluids were used widely in the NACA-era.  
 
-##[Windshield Protection]({filename}windshield%20ice%20protection.md)  
+## [Windshield Protection]({filename}windshield%20ice%20protection.md)  
 
 _"ice on the airplane windshield ... is known to be a problem in urgent need of solution."_  
 
@@ -111,7 +111,7 @@ _"ice on the airplane windshield ... is known to be a problem in urgent need of 
 - "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434, 1947.  
 -->
 
-##[Component Tests]({filename}Component Ice Protection.md)  
+## [Component Tests]({filename}Component Ice Protection.md)  
 
 _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
 
@@ -136,7 +136,11 @@ _"The optimum icing protection system for ... any particular aircraft cannot be 
 
 - There are many viable ice protection technologies and strategies to choose from.  
 
-##Notes  
+## Related  
+
+The next thread in the NACA review series is the [Icing Cloud Meteorology Thread](Meteorology.md).  
+
+## Notes  
 
 [^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. [NACA-TN-339]({filename}NACA-TN-339.md), 1930.  
 [^2]: Rodert, Lewis A., McAvoy, William H., and Clousing, Lawrence A.: PRELIMINARY REPORT ON FLIGHT TESTS OF AN AIRPLANE HAVING EXHAUST-HEATED WINGS. [NACA-ACR-A-53]({filename}engine exhaust heat.md), April, 1941.  

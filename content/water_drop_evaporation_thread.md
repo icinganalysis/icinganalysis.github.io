@@ -31,6 +31,10 @@ Effect of humidity on icing tunnel tests
 A more detailed ice detector simulation  
 -->
 
+## Related  
+
+The next thread in the NACA review series is the [Icing WInd Tunnel Test Thread](icing_wind_tunnel_test.md).
+
 ##Notes:
 
 [^1]:

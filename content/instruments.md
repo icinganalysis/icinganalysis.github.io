@@ -82,6 +82,11 @@ _Figure 7 from NACA-TN-2458_
 _Figure 1 from NACA-RM-E51E16_  
 
 
+## Related  
+
+The next thread in the NACA review series is the [Ice Protection Thread](ice%20protection.md).  
+
+
 ##References  
 
 The [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md)

@@ -373,6 +373,7 @@ A version of this post that was presented to the
 SAE AC-9C Aircraft Icing Technology Committee [^12] 
 is [available as a pdf](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf). 
 
+The next thread in the NACA review series is the [Thermodynamics Thread]({filename}thermodynamics.md).  
 
 ##Notes:
 [^1]: 

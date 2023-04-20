@@ -256,6 +256,10 @@ for determining "adequate" ice protection,
 optimal systems for new aircraft configurations and new technologies 
 may still require research and development. 
 
+## Related  
+
+The next thread in the NACA review series is the [Icing Cloud Meteorology Thread](Meteorology.md).  
+
 ## Notes  
 
 [^1]: Draney, John J.: "Heat Recovery Applied to Heating and Anti-Icing of Aircraft". SAE Transactions, Vol. 54, 1946.  

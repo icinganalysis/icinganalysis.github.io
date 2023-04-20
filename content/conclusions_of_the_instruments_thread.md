@@ -3,21 +3,21 @@ Date: 2023-01-08 12:00
 category: NACA  
 tags: instruments  
 
-###_"difficulties with the calibration proved to be more serious than had been anticipated"_ [^1]  
+### _"difficulties with the calibration proved to be more serious than had been anticipated"_ [^1]  
 
 ![Instruments used in NACA publications](images/instruments.png)    
 
-##Summary  
+## Summary  
 The meteorological instruments and data from the NACA-era are still used today.  
 
-##Key Points  
+## Key Points  
 1. The rotating multicylinder was the primary instrument that determine the values in the current Appendix C icing regulations.  
 2. Other instruments gave supplementary data, but were calibrated against the rotating multicylinder.  
 3. Later publications document the continuing use of the NACA-era instruments.  
 
-##Discussion  
+## Discussion  
 
-###NACA-era instruments  
+### NACA-era instruments  
 
 In this [Meteorological Instruments thread]({filename}instruments.md) we saw several instruments and technologies:  
 
@@ -35,7 +35,7 @@ In this [Meteorological Instruments thread]({filename}instruments.md) we saw sev
 - Modified pressure probe  
 - Corona discharge (multicylinder)  
 
-###Instruments used to derive icing requirements  
+### Instruments used to derive icing requirements  
 
 The instruments and flight data from the NACA-era were used to develop 
 the current "Appendix C" icing certification standard [^2]. 
@@ -104,9 +104,9 @@ The NRCC had arrived at a similar instrumentation suite by 1952 [^11].
 
 ![Table 1 of Pettit.](images/K G Pettit/Table of instruments.png)  
 
-###Later comments about NACA-era instruments
+### Later comments about NACA-era instruments
 
-####ADS-4, “Engineering Summary of Airframe Icing Technical Data”, 1964 [^12]  
+#### ADS-4, “Engineering Summary of Airframe Icing Technical Data”, 1964 [^12]  
 
 We see several NACA-era instruments recommended for use in 1964:  
 
@@ -127,7 +127,7 @@ The fixed cylinder is a likely shape to use for "drop size can
 be approximated from extent of impingement on any shape with known 
 impingement characteristics".  
 
-####Review of Icing Criteria; William Lewis in [1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md) [^1]   
+#### Review of Icing Criteria; William Lewis in [1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md) [^1]   
 
 William Lewis summarized icing criteria, such as drop size and LWC values. 
 He had comments on the NACA era instrumentation that was used to measure them.  
@@ -242,7 +242,7 @@ distribution.
 
 The FAA guidance material also still cites Langmuir distributions (AC 20-73A, 2016 [^14]).  
 
-####Aircraft Icing Handbook (1992), Vol. II [^15]  
+#### Aircraft Icing Handbook (1992), Vol. II [^15]  
 
 An example in the Handbook for natural icing flight tests 
 shows several instruments:  
@@ -265,7 +265,7 @@ Otherwise, NACA-era instruments are no longer mentioned for flight tests.
 However, rotating cylinders and the oil slide method are mentioned 
 for calibrating icing wind tunnels and engine test facilities.   
 
-####FAA Technical Center, 2006  
+#### FAA Technical Center, 2006  
 
 A series was published on several instruments for use in flight tests.  
 While they focuses more on what to use now, it has some mentions of NACA-era instruments.  
@@ -275,13 +275,13 @@ While they focuses more on what to use now, it has some mentions of NACA-era ins
 - Cloud Sampling Instruments for Icing Flight Tests: (3) Cloud Droplet Sizers [^18]  
 - Cloud Sampling Instruments for Icing Flight Tests: (4) Large Drop Sizers [^19]  
 
-####"100 years of progress in atmospheric observing systems", 2018 [^20]  
+#### "100 years of progress in atmospheric observing systems", 2018 [^20]  
 
 "100 years of progress in atmospheric observing systems" 
 has Table 2-2, which shows the introductions of several instruments, 
 including many of the icing instruments noted above.  
 
-##Conclusions  
+## Conclusions  
 
 The instruments and flight tests that determined the still current 
 Appendix C icing regulations were completed by 1951. 
@@ -296,6 +296,10 @@ from wide use, and the data does not appear to have influenced the Appendix C re
 
 As we saw in ["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md), 
 cylinder instruments are still used today (although not so much the rotating multicylinder).  
+
+## Related  
+
+The next thread in the NACA review series is the [Ice Protection Thread](ice%20protection.md).  
 
 ##Notes:  
 
