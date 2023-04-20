@@ -67,7 +67,7 @@ paper and extended for a few
 seconds into the air stream with its axis normal to the
 direction of motion.
 A 4 inch-diameter cylinder was chosen
-since it can be used to measure drop diameter8
+since it can be used to measure drop diameters
 from 8 to 35
 microns at speeds from 120 to 200 miles per hour.
 The blueprint
@@ -93,9 +93,7 @@ drops that are present in sufficient quantity to
 affect the blueprint paper and tells nothing directly
 about the size distribution.
 > 
-> 
-<!--
-The quantity
+>The quantity
 used in this report
 to represent
 drop size is
@@ -121,7 +119,6 @@ the calculated
 number of drops will
 be too
 small.
--->
 >
 > METEOROLOGICAL DISCUSSION  
 >
@@ -154,6 +151,7 @@ lifting. Cloud base at 948 feet pressure altitude.
 ](/images%2FNACA-TN-1391%2FFigure%201.png)  
 
 >Results and Discussion  
+> 
 > Representative temperature, dew-point, liquid water,
 and drop-size data as obtained during four flights
 through non-cyclonic stratus clouds are presented in figure 3. 
