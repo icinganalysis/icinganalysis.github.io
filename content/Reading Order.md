@@ -10,10 +10,12 @@ Here is a guide to get to what you are interested in.
 
 [* Well, mostly, a few post-NACA era ones are mixed in.]
 
-This is the main focus of the blog.  
+This is the main focus of the blog, the National Advisory Committee for Aeronautics
+publications on aircraft icing, 1918 to 1958.  
 
 This blog was written in "threads" or themes on topics. 
-It is suggested, but not required, to read the articles in the order below.  
+It is suggested, but not required, 
+to read the articles in the order below.  
 
 - [Introduction]({filename}introduction.md)  
 - [Icing on Cylinders Tread]({filename}Icing on Cylinders.md)  
@@ -27,7 +29,8 @@ It is suggested, but not required, to read the articles in the order below.
 
 ## Other content  
 
-There are also some [Diversions]({filename}diversions.md) that take us into the post-NACA era.  
+There are also some [Diversions]({filename}diversions.md) that take us into the post-NACA era
+(after 1958).  
 
 There is an [About]({filename}about.md) that covers other, 
 miscellaneous topics about the website.  
