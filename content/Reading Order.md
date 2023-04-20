@@ -11,7 +11,7 @@ Here is a guide to get to what you are interested in.
 [* Well, mostly, a few post-NACA era ones are mixed in.]
 
 This is the main focus of the blog, the National Advisory Committee for Aeronautics
-publications on aircraft icing, 1918 to 1958.  
+publications on aircraft icing, 1915 to 1958.  
 
 This blog was written in "threads" or themes on topics. 
 It is suggested, but not required, 
