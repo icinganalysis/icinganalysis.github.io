@@ -1,6 +1,7 @@
 Title: NACA Icing Publications Database    
-Category: NACA
-tags: database
+Category: NACA  
+Date: 2022-01-15 15:00  
+tags: database  
 
 > ###"The documents of that period were so old, however, that they were not listed in the modern computerized library search systems" [^1] 
 
@@ -37,7 +38,7 @@ For example, “Gray, V.” and “Gray, V. H.” were resolved to “Gray, Vern
 For 207 of the 211 NACA icing citations (four publications were not available to follow the citations), 
 the references were added to the database, resulting in 653 unique citations. 
 
-Many of the citations had to be transcribe manually, so there may be still be typos.
+Many of the citations had to be transcribed manually, so there may be still be typos.
 
 The 211 citations are numbered in approximate order of publication (the numbers do not correspond to the numbering in [^1]):  
 

@@ -1,5 +1,6 @@
 Title: Icing on Cylinders   
 Category: NACA
+Date: 2022-01-15 14:00  
 tags: cylinder
 
 > ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
