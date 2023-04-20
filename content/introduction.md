@@ -103,7 +103,7 @@ There are over 100 articles on this website.
 If you want to read them in order, start with [Icing on Cylinders]({filename}Icing on Cylinders.md).  
 > ### "The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^2]  
 
-To see all topics and the 100+ article, see [Site Navigation](Reading%20Order.md).  
+To see all topics and the 100+ article, see [Site Navigation]({filename}Reading%20Order.md).  
 
 ## Notes:
 [^1]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
