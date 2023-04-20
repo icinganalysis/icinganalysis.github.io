@@ -10,7 +10,7 @@ A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publica
   
 ## Discussion
 
-### Publications
+### Publications  
  
 This title was published twice. 
 

@@ -15,7 +15,7 @@ tags: cylinder
 
 <p class="aligncenter">
  <img src="images/naca-tn-2904/Figure15.png" 
- alt="Multicyllnder cloud meters used in comparative study at Mount Washington Observatory"
+ alt="Multicylinder cloud meters used in comparative study at Mount Washington Observatory"
  > 
  <br>
  <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>
