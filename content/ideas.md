@@ -21,7 +21,8 @@ Future topic possibilities include:
 
 - Water drop impingement (there are 20 publications in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
 that I have not yet gotten to).  
-- The University of Michigan 1953 Airplane Icing Information Course    
+- The University of Michigan 1953 Airplane Icing Information Course. 
+A "Greatest Thing That You (Probably) Have Not Read" candidate.      
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf). Weather control, anyone?  
