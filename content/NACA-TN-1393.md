@@ -1,9 +1,15 @@
 Title: NACA-TN-1393    
 Date: 2022-01-29 12:00  
 Category: NACA
-tags: cylinder, natural icing
+tags: cylinder, natural icing, meteorology  
 
-> ### "The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"
+### _"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"_  
+
+![Figure 5: Liquid water content and drop size by rotating cylinder measurement 
+as compared with Weather Bureau scale of icing intensity. 
+This is a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
+Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
+as well as several flight measurement values](images/naca-tn-1393/Figure%205.png)  
 
 # “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
 [^1]
@@ -14,7 +20,7 @@ A multicylinder and other instruments measure natural icing conditions in flight
 ## Key points  
 
 1. The accuracy of multicylinder instruments used to determine liquid water content and median water drop size is assessed.  
-2. An icing intensity index as related to the ice growth rate on a 3 inch diameter cylinder is detailed.  
+2. An icing intensity index as related to the ice growth rate on a 3-inch diameter cylinder is detailed.  
 3. Results from agree well with the Python implementation of the cylinder analysis.  
 4. "Tentative" values for icing design conditions were determined.  
 5. An effect of distance on icing conditions is noted.  
@@ -50,7 +56,7 @@ An assessment of the accuracy of the rotating cylinder method is included:
 and mean-effective diameter from the two-cylinder-data have been
 estimated by considering the errors inherent in measuring the
 quantities-used in the calculations. The results, which are shown
-in the following table, are based on a liquld water content of 0.5
+in the following table, are based on a liquid water content of 0.5
 gram per cubic meter and an average drop diameter of 10 microns.
 
 |                                                              |                           | Resulting percent error (E) | Resulting percent error (E) |
@@ -99,7 +105,7 @@ The results are shown below:
 If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
 the difference in calculated mean effective drop diameter is 7%.
 
-Note also that calculated LWC values differ, except when the assumed and acutal distributions are both Langmuir C. 
+Note also that calculated LWC values differ, except when the assumed and actual distributions are both Langmuir C. 
 As the drop size is different, the collection efficiency is different, 
 and to maintain the same mass the LWC must differ.
 
@@ -107,7 +113,8 @@ and to maintain the same mass the LWC must differ.
 
 Icing intensity definitions from "reference 12" [^5] are included.
 
->  The definition of icing intensity- It is now generally recognized 
+>  The definition of icing intensity- 
+It is now generally recognized 
 that the principal factors determining the intensity of an
 icing condition are the concentration of super-cooled liquid water 
 and the diameter of the drops. In addition, when thermal methods 
@@ -125,9 +132,11 @@ expressed as grams per hour per square centimeter of projected area.
     Heavy ice: 12.0 and over grams per square centimeter hour  
 
 The icing intensity definitions and cylinder water catch calculations from [^2] were used to make Figure 5.
-![Figure 5: a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
-Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight meaasurement values](images/naca-tn-1393/Figure%205.png)  
+![Figure 5: Liquid water content and drop size by rotating cylinder measurement 
+as compared with Weather Bureau scale of icing intensity. 
+This is a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
+Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown, 
+as well as several flight measurement values](images/naca-tn-1393/Figure%205.png)  
 
 ### The effect of temperature  
 
@@ -281,7 +290,7 @@ NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
 
-Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.
+Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.  
 
 ## Notes:  
 [^1]:
