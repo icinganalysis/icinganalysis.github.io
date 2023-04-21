@@ -2,7 +2,7 @@ title: Deicing boots and ice adhesion
 Date: 2023-01-30 12:00  
 tags: ice protection
 
-###_"The removal of ice from a De-Icer surface depends on the true adhesion of ice to rubber..." [^4]_  
+### _"The removal of ice from a De-Icer surface depends on the true adhesion of ice to rubber..." [^4]_  
 
 ![A drawing of a deicing boot for a wing leading edge. 
 Small tubes in the rubber can be inflated to deform the surface and remove ice.

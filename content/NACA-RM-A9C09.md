@@ -3,21 +3,21 @@ Date: 2022-02-22 12:00
 Category: NACA
 tags: cylinder
 
-###"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."
+### "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
 
-#"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
+# "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
 [^1]
 
-##Summary 
+## Summary 
 The multicylinder is the "standard against which other instruments are calibrated"
 
-##Key points  
-1. Nine instruments, including the fixed cylinder and rotating mulitcylinder, are qualitatively assessed.  
+## Key points  
+1. Nine instruments, including the fixed cylinder and rotating multicylinder, are qualitatively assessed.  
 2. "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
 3. The effect of mass measurements errors on multicylinder results were assessed.  
 4. "A reliable method for the measurement of drop-size distribution should be developed"  
 
-##Abstract
+## Abstract
 
 >  The status of instrument suitable for the measurement of the 
 meteorological factors conducive to aircraft icing is reviewed. The
@@ -27,8 +27,8 @@ each factor are suggested.
 
 >  Nine instruments which appear to be the most promising for the 
 procurement of the meteorological data are discussed with respect to 
-the quantities they measure, principle of operation, range and accu-
-racy, duration of a single reading, and advantages and disadvantages 
+the quantities they measure, principle of operation, range and accuracy, 
+duration of a single reading, and advantages and disadvantages 
 associated with their use.  Recommendations are presented for the 
 continued research and development of icing meteorological instruments. 
 
@@ -54,7 +54,7 @@ Accuracy targets were determined:
 
 ![Desired accuracy](images/naca-rm-a9c09/desired_accuracy.png)  
 
-###Rotating Multicylinder
+### Rotating Multicylinder
 
 Depending on the accuracy threshold desired, with the assumed mass measurement variations of 5%, 
 the rotating multicylinder method may be applicable up to 
@@ -76,13 +76,13 @@ Several advantages and disadvantages are listed for rotating multicylinders:
 Note the conclusion: 
 >  **The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so...**
 
-###Fixed Cylinder
+### Fixed Cylinder
 
 Several advantages and disadvantages are listed for the fixed cylinder:
 
 ![Fixed cylinder](images/naca-rm-a9c09/fixed_cylinder_advantages.png)
 
-###Conclusions
+### Conclusions
 
 In the conclusions, several actions are recommended:
 
@@ -129,8 +129,7 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 
 An online search [^4] found NACA-RM-A9C09 cited 13 times.  
 
-
-##Notes:
+## Notes:
 [^1]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
 [^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   

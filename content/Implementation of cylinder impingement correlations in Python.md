@@ -4,7 +4,7 @@ Category: python tools
 tags: cylinder
 
 
-> ###"The equations were found to fit the experimental data over a wider range of values..." [^1]
+> ### "The equations were found to fit the experimental data over a wider range of values..." [^1]  
 
 ##Summary  
 The correlations for water drop impingement on a cylinder from 
