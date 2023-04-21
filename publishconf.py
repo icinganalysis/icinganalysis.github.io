@@ -24,7 +24,7 @@ RELATIVE_URLS = False
 #)
 MENUITEMS = (
     ('Home', '/index.html'),
-    ('Site Navigation', '/site-navigation-and-suggested-reading-order.html'),
+    ('Suggested Reading Order', '/site-navigation-and-suggested-reading-order.html'),
     ('Latest Posts', '/archives.html'),
     ('About', '/about.html'),
 )
