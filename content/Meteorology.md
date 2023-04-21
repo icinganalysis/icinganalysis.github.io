@@ -27,9 +27,7 @@ Reviews in this thread:
 - Meteorology of Icing Clouds  
 
     - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
-      <!--
         >  review : [NACA-TN-1391]({filename}NACA-TN-1391.md)   
-      -->
     - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
       <!--
         >  review : [NACA-TN-1393]({filename}NACA-TN-1393.md)   
