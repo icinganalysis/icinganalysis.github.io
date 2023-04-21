@@ -169,9 +169,9 @@ method was used to define a scale of size distributions as follows:
 >A comparison of the drop—size distribution obtained by the two 
 methods is shown in the following frequency table::
 > 
->                 Number of observations
-           Size distribuation, determined by the ratio of 
-           maximum diameter to mean—effective diameter
+>Number of observations
+>Size distribution, determined by the ratio of 
+>maximum diameter to mean—effective diameter
 
 | *     | A   | B   | C   | D   | E   | Total |
 |-------|-----|-----|-----|-----|-----|-------|
@@ -208,7 +208,8 @@ For methods to assess the water drop concentration around a body, see [^3] and [
 
 Even with the differences in drop size distributions, it was noted in the conclusion that:
 
->   In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable.
+> In spite of the inconsistency it is believed that the data 
+on mean-effective diameters are fairly reliable.
 
 ### A temperature effect on icing conditions  
 
