@@ -12,27 +12,32 @@ A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publica
 
 ### Publications  
  
-This title was published twice. 
+This title was published three times. 
 
 The first was in 1969 in the "Aircraft Ice Protection Report of Symposium" [^1] as 
-"Selected Bibliography of NACA-NASA Unclassified Icing Publications".
-It was not credited, but immediately followed a paper by Vernon Gray.
+"Selected Bibliography of NACA-NASA Unclassified Icing Publications". 
+It was not credited, but immediately followed a paper by Vernon Gray. 
 
-The second publication was in 1981 in NASA-TM-81651 [^2] . 
+The second publication was in 1971 as part of FAA Advisory Circular 20-73 "Aircraft Ice Protection" [^2], as 
+"APPENDIX 2. SELECTED BIBLIOGRAPHY OF UNCLASSIFIED NASA-NACA AIRCRAFT ICING REPORT". 
+It was not otherwise credited. 
+It was not included in the 2006 revision AC 20-73A [^3]. 
+
+The third publication was in 1981 in NASA-TM-81651 [^4]. 
 NASA-TM-81651 includes a reprint of Uwe von Glahn's "The Icing Problem: Current Status of NACA Techniques and Research" 
-from 1955[^3].
+from 1955 [^5]. 
 That is followed by "Selected Bibliography of NACA-NASA Icing Publications", which is again not credited,
 but the "Foreword" attributes it to Uwe von Glahn. 
-The second publication includes the abstracts of all 132 publications.
+The third publication includes the abstracts of all 132 publications.  
 
-The bibliographic lists are substantially similar in the two publications. 
+The bibliographic lists are substantially similar in the publications. 
 Minor differences include different numberings, and some references are updated, such as 
 "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations" 
-was updated from "NASA Memo CCE-169" to "NASA Memo 1-19-59E".
+was updated from "NASA Memo CCE-169" to "NASA Memo 1-19-59E".  
 
 ### Requests for data
 
-In the "Foreword" of [^2], Jack Reimann writes:
+In the "Foreword" of [^4], Jack Reimann writes:  
 
 > In the 1978 Aircraft Icing Workshop the recommendation was
 made that before attacking what appeared to be a new icing problem
@@ -52,7 +57,7 @@ Concurrently, industry and other government organizations requested
 that these reports be reissued. The present report was prepared in 
 response to those requests. 
 
-Note the requests from expert groups for 30+ year-old NACA icing data.
+Note the requests from expert groups for 30+ year-old NACA icing data. 
 
 Also note _"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print."_
 Modern online searches, such as scholar.google.com, commonly miss many
@@ -60,13 +65,13 @@ Modern online searches, such as scholar.google.com, commonly miss many
 Most of the NACA publications are available only as image scans, and some of them of poor quality, 
 from which the text is difficult extract accurately. 
 
-Ironically, the quality of the online version of NASA-TM-81651 [^2] is not good, 
+Ironically, the quality of the online version of NASA-TM-81651 [^4] is not good, 
 so the text was not accurately parsed by computer 
 (numerous manual corrections of scanned text were required to produce the listings below).  
 
 ### Publications not in the NTRS
 
-While most of the NACA publications are available at the NTRS [^4], some are not. The publications that I could not find copies of on the NTRS are:
+While most of the NACA publications are available at the NTRS [^6], some are not. The publications that I could not find copies of on the NTRS are:
 
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
     - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
@@ -327,11 +332,16 @@ Links to reviews are included where applicable.
         > review: [FAA-ADS-4]({filename}ads4.md)  
 
 ## Notes  
-[^1]:
-"Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
-[^2]:
+
+[^1]: "Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", 
+the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  
+Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. 
+I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^2]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf  
+[^3]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. August 16, 2006.https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031  
+[^4]:
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.    
-[^3]: 
+[^5]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. 
 [Reprint included in NASA-TM-81651] 
-[^4]: National Technical Reports Server, https://ntrs.nasa.gov/  
+[^6]: National Technical Reports Server, https://ntrs.nasa.gov/  

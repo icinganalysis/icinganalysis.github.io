@@ -194,7 +194,8 @@ As we will see, this vapor pressure difference between supercooled water
 and ice is of fundamental importance in understanding 
 the behavior of supercooled clouds. 
 
-![Figure 1.png](images%2FVonnegut%2FFigure%201.png)  
+![Figure 1. Vapor pressure of supercooled water and ice 
+at temperatures near 0 C.](images%2FVonnegut%2FFigure%201.png)  
 
 ### Formation and Dissipation of Supercooled Clouds   
 
