@@ -14,7 +14,7 @@ publications on aircraft icing, 1915 to 1958.
 
 There are 132 publications in [The Historical Selected Bibliography of NACA-NASA Icing Publications
 ]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md).
-(Not all of them have been reviewed yet.)  
+(Not all of them have been reviewed yet.)   
 
 This blog was written in "threads" or themes on topics. 
 It is suggested, but not required, 
