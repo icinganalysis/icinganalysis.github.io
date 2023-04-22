@@ -48,6 +48,42 @@ for the time period, and about as much as could be packed into a one-week course
 This constituted the best [Icing Design Manual]({filename}Design%20Manuals.md) 
 available at the time.  
 
+### A precursor  
+
+"Modern Icing Technology" [^2] is the output of a prior seminar on icing information.     
+It is almost an outline or draft for the later Airplane Icing Information course. 
+
+>FOREWORD  
+These notes are the outgrowth of a seminar on icing information 
+given at the University of Michigan in the Fall of 1951. 
+They are intended to be useful to the persons 
+interested in entering the icing field who require a single source 
+where either basic information or suitable references may be found.  
+>
+>This first edition was rather hurriedly put together for use 
+in a seconds seminar in February, 1952. Corrections and suggested 
+additions will be most welcome. 
+
+For being "rather hurriedly put together", 
+this is an extensive resource (153 pages). 
+
+>TABLE OF CONTENTS  
+>I   AN INTRODUCTION TO THE ICING PROBLEM  
+II  TRAJECTORIES OF WATER DROPS AROUND STREAMLINED BODIES  
+III REMOVING THE ICE  
+IV  THE ENERGY TRANSFERS AT AN ICING SURFACE (Analysis of the Separate Modes of Energy Transfer)  
+V   THE ENERGY TRANSFERS AT AN ICING SURFACE (The Complete Energy Balance and Some Applications) 
+VI  THE DESIGN OF A CONTINUOUSLY ANTI-ICED AIR-HEATED WING  
+VII INTERMITTENT HEATING  
+VIII METEOROLOGICAL CONDITIONS FOR DESIGN  
+
+This was the most comprehensive airplane icing education 
+(other than reading every NACA publication on the topic) available in 1952. 
+
+Apparently, all sections were presented by Tribus. 
+
+See [Design Manuals]({filename}Design%20Manuals.md) for more information.  
+
 ### The printed course lectures  
 
 The print copy that I borrowed through inter-library loan 
@@ -57,7 +93,8 @@ or at least an agenda, that is not included.)
 
 From the front piece of Lecture No. 9 we learn that the course was 
 March 30 to April 3, 1953 
-(the week before Easter [April 5, 1953], and possibly coinciding with spring break at the university?). 
+(the week before Easter [April 5, 1953], and 
+possibly coinciding with spring break at the university?). 
 
 The compiled printing is 500+ pages. 
 Some lectures are very information dense, 
@@ -114,11 +151,11 @@ provide an important link in the general studies of the Mechanics of Suspensions
 As Lecture No. 2 largely discusses impingement on cylinders, 
 you can find most of the information in 
 [Langmuir and Blodgett "Mathematical Investigation of Water Droplet Trajectories"
-]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2].  
+]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^3].  
 
 For Lecture No. 4 by Eckert, it is a short summary of convective heat and mass 
-transfer analysis methods. You can find far more by Eckert in his well known 
-"Analysis of Heat and Mass Transfer" text book [^3] (cited over 3000 times).  
+transfer analysis methods. You can find far more by Eckert in his well-known 
+"Analysis of Heat and Mass Transfer" text book [^4] (cited over 3000 times).  
 
 So, if you are waiting for an inter-library loan, 
 you can read these (possibly more accessible) publications 
@@ -131,6 +168,8 @@ possibly because the similar publications get cited instead.
 
 I selected two lectures to review:
 
+- Lecture No. 1, Supercooled Clouds  
+- Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing  
 - [Lecture No. 1, Supercooled Clouds]({filename}Vonnegut.md)  
 - [Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing]({filename}Fraser%20Note%20On%20Flight%20Testing.md)  
 
@@ -170,22 +209,17 @@ even if they were not cited often.
 At a company that I worked at I remember seeing copies of some of the lectures, 
 decades later (Lecture No. 6 by Messinger most frequently). 
 
-## Related  
-
-This earlier publication by Tribus "Modern Icing Technology", 1952, merits reading. 
-We covered it briefly in [Design Manuals]({filename}Design%20Manuals.md). 
-It is sort of a 150-page draft of what is in the later Airplane Icing Information Course. 
-
 ## Notes  
 
 [^1]: University of Michigan. College of Engineering: Airplane icing information course. 
 Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. 
 [U of Michigan catalog listing](https://search.lib.umich.edu/catalog/record/990015261100106381)   
-[^2]:
+[^2]: Tribus, Myron: "Modern Icing Technology" 1952.  https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5  
+[^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. 
 Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. 
 (Contract No. W-33-038-ac-9151 with General Electric Co.)
-[^3]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
+[^4]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
 You can find at copy at [archives.org](https://archive.org/details/analysisofheatma0000ecke/mode/2up)  
 
 
