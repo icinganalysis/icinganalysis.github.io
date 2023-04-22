@@ -19,19 +19,19 @@ The value of the multicylinder data for determining drop size distribution is qu
 ## Abstract  
 
 >  Meteorological data from flight observations in icing conditions 
-during the winter of 1946-47 are presented. Data on liquid
-water content, temperature, and mean-effective drop diameter are
-shown to be consistent with values previously proposed for maximum
-icing conditions. Data on drop-size distribution as obtained by
-the rotating-cylinder method, although consistent with measurements
+during the winter of 1946-47 are presented. Data on liquid 
+water content, temperature, and mean-effective drop diameter are 
+shown to be consistent with values previously proposed for maximum 
+icing conditions. Data on drop-size distribution as obtained by 
+the rotating-cylinder method, although consistent with measurements 
 previously made, were found to be inconsistent with data on drop-size 
-distribution derived from the ratio of the maximum diameter
-to the mean-effective diameter when the maximum diameter was
-calculated from the area of impingement on a stationary cylinder.
-The relation between temperature and maximum liquid water content
-in layer clouds is discussed and estimates are given for the
-highest values of water content to be expected in layer clouds at
-various temperatures.
+distribution derived from the ratio of the maximum diameter 
+to the mean-effective diameter when the maximum diameter was 
+calculated from the area of impingement on a stationary cylinder. 
+The relation between temperature and maximum liquid water content 
+in layer clouds is discussed and estimates are given for the 
+highest values of water content to be expected in layer clouds at 
+various temperatures. 
 
 ## Discussion
  
