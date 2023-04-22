@@ -5,15 +5,13 @@ Tags: University of Michigan Airplane Icing Information Course
 
 # University of Michigan Airplane Icing Information Course [^1]  
 
-### _"Most practical de-icers I ever saw" [^2]_  
-
 ![A cartoon drawing of an airplane in flight, 
 with pilots visible in the flight deck windows. 
 There is snow on the ground below. 
 Mechanical arms are coming out from hatches on the airplane, 
 removing ice from the wing leading edge with ice picks. 
 Caption: "Most practical de-icers I ever saw". Artist: Dick Sha.](/images/most practical de_icers i ever saw.png)  
-_[I do not know of a system built like this one]_  
+_From Lecture No. 8, "Mechanical De-Icing Systems", Loughborough, D. L._  
 
 <!--
 From Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
@@ -96,14 +94,14 @@ any time soon.
 Some lectures are recognizably extracts from other publications, 
 or were in part or in whole published later.  
 
-- Lecture No. 3, Tribus (Tribus, Myron: A new method for calculating water-droplet trajectories about streamlined bodies. 1951. https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7991/bad4036.0001.001.pdf?sequence=5 )
+- Lecture No. 3, Tribus ([Tribus, Myron: A new method for calculating water-droplet trajectories about streamlined bodies. 1951.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7991/bad4036.0001.001.pdf?sequence=5))  
 - Lecture No. 5, Mickley (the later NACA-TN-3208 is much more extensive, 153 pages [!])  
 - Lecture No. 6, Messinger (Messinger, B. L.: [Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed]({filename}messinger.md). Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.)  
 - Lecture No. 7, Neel (later published as NACA-TN-3130)   
 - Lecture No. 8, Orr (Orr, J.L., Milsum, J.H. and Rush, C.K.: “Electro-Thermal De-Icing Systems: Their Design and Control”. NRC NAE Report LR-70, March 1953)  
-- Lecture No. 10, Loughborough (Loughborough, D.L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the Slide 13 "Most practical de-icers I ever saw" figure above.] https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf  )    
-- Lecture No. 12a, Fraser (Fraser, D.: “Meteorological Design Requirements for Icing Protection Systems”. NRC DME Report LR-049, March 1953.)  
-- Lecture No. 13, Morrison (Nicholls, James Arthur, et al. Design of an icing wind tunnel. 1952. https://deepblue.lib.umich.edu/bitstream/handle/2027.42/6805/bac9918.0001.001.pdf?sequence=5)  
+- Lecture No. 10, Loughborough ([Loughborough, D.L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the Slide 13 "Most practical de-icers I ever saw" figure above.]](https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf))    
+- Lecture No. 12a, Fraser ([Fraser, D.: “Meteorological Design Requirements for Icing Protection Systems”. NRC DME Report LR-049, March 1953.](https://nrc-publications.canada.ca/eng/view/ft/?id=5e455b30-e1ea-475d-bbbf-0531592d867d))  
+- Lecture No. 13, Morrison ([Nicholls, James Arthur, et al. Design of an icing wind tunnel. 1952.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/6805/bac9918.0001.001.pdf?sequence=5))  
 
 Lecture No. 2, "The Mechanics of Suspensions" by Edmond Brun, notes:  
 
@@ -121,11 +119,11 @@ provide an important link in the general studies of the Mechanics of Suspensions
 As Lecture No. 2 largely discusses impingement on cylinders, 
 you can find most of the information in 
 [Langmuir and Blodgett "Mathematical Investigation of Water Droplet Trajectories"
-]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^3].  
+]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2].  
 
 For Lecture No. 4 by Eckert, it is a short summary of convective heat and mass 
 transfer analysis methods. You can find far more by Eckert in his well known 
-"Analysis of Heat and Mass Transfer" text book [^4] (cited over 3000 times).
+"Analysis of Heat and Mass Transfer" text book [^3] (cited over 3000 times).  
 
 So, if you are waiting for an inter-library loan, 
 you can read these (possibly more accessible) publications 
@@ -174,8 +172,8 @@ at scholar.google.com.
 
 The course material endured after the initial presentation, 
 even if they were not cited often. 
-At a company that I worked at I remember seeing copies of some of the lectures, decades later 
-(Lecture No. 6 by Messinger most frequently). 
+At a company that I worked at I remember seeing copies of some of the lectures, 
+decades later (Lecture No. 6 by Messinger most frequently). 
 
 ## Related  
 
@@ -185,11 +183,14 @@ It is sort of a 150-page draft of what is in the later Airplane Icing Informatio
 
 ## Notes  
 
-[^1]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381    
-[^2]: Hauger, Harry H. Jr.: Design of Air Heated Intermittent De-Icers. Air Conditioning Desing Engineer, Douglas Aircraft Company, Inc., Lecture No. 9, To be presented in a special program on Airplane Icing Information March 30 - April 3, University of Michigan Airplane Icing Information Course, 1953.  (56 pages)  
-[^3]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-[^4]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
+[^1]: University of Michigan. College of Engineering: Airplane icing information course. 
+Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. 
+[U of Michigan catalog listing](https://search.lib.umich.edu/catalog/record/990015261100106381)   
+[^2]:
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. 
+Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. 
+(Contract No. W-33-038-ac-9151 with General Electric Co.)
+[^3]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
 You can find at copy at [archives.org](https://archive.org/details/analysisofheatma0000ecke/mode/2up)  
 
 
