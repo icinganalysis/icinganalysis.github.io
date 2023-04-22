@@ -7,21 +7,7 @@ Tags: University of Michigan Airplane Icing Information Course
 
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. 
 Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png)  
-> Modes of energy transfer for an unheated airfoil in icing conditions. 
-
-
-![A cartoon drawing of an airplane in flight, 
-with pilots visible in the flight deck windows. 
-There is snow on the ground below. 
-Mechanical arms are coming out from hatches on the airplane, 
-removing ice from the wing leading edge with ice picks. 
-Caption: "Most practical de-icers I ever saw". Artist: Dick Sha.](/images/most practical de_icers i ever saw.png)  
-_From Lecture No. 8, "Mechanical De-Icing Systems", Loughborough, D. L._  
-
-<!--
-From Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
-There is no copyright noted, on the drawing or in the publication.
--->
+_See Lecture No. 6, "Energy Exchanges During Icing", Messinger, Bernard L._   
 
 ## Summary  
 

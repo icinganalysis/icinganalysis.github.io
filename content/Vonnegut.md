@@ -347,6 +347,6 @@ a little larger than those in stratus.
 ## Notes  
 
 [^1]: Vonnegut, Bernard: "Supercooled Clouds" Lecture No. 1 in University of Michigan, College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381    
-[^2]: [scholar.google.com(https://scholar.google.com/scholar?q=b+vonnegut&hl=en&as_sdt=0%2C5&as_ylo=1919&as_yhi=1952)  
+[^2]: [scholar.google.com](https://scholar.google.com/scholar?q=b+vonnegut&hl=en&as_sdt=0%2C5&as_ylo=1919&as_yhi=1952)  
 [^3]: Vonnegut, Kurt: "Cat's Cradle", Holt, Rinehart and Winston, 1963.  
 [^4]: Langmuir Laboratory for Atmospheric Research [Storms Above the Desert](http://langmuir.nmt.edu/Storms_Above/StormsAboveCh3.html)  
