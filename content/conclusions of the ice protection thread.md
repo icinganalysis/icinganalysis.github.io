@@ -98,8 +98,8 @@ but this section of the Aircraft Icing Handbook is largely newer
 (circa 1991) material. 
 
 While not detailed, some NACA-era technologies, 
-[engine exhaust heat](engine%20exhaust%20heat.md) 
-and [combustion heated air](Combustion%20heated%20air.md), 
+[engine exhaust heat]({filename}engine%20exhaust%20heat.md) 
+and [combustion heated air]({filename}Combustion%20heated%20air.md), 
 make cameo appearances.  
 
 >III.6.1 SELECTION CRITERIA  
