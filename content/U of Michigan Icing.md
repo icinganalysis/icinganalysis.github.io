@@ -124,7 +124,7 @@ any time soon.
 ### Similar publications  
 
 Some lectures are recognizably extracts from other publications, 
-or were in part or in whole published later.  
+or were published later in part or in whole.  
 
 - Lecture No. 3, Tribus ([Tribus, Myron: A new method for calculating water-droplet trajectories about streamlined bodies. 1951.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7991/bad4036.0001.001.pdf?sequence=5))  
 - Lecture No. 5, Mickley (the later NACA-TN-3208 is much more extensive, 153 pages [!])  
@@ -137,7 +137,7 @@ or were in part or in whole published later.
 
 Lecture No. 2, "The Mechanics of Suspensions" by Edmond Brun, notes:  
 
->I believe that prior to 1940, the study of trajectories of particle suspensions
+>I believe that prior to 1940, the study of trajectories of particle suspensions 
 had not produced many important reports. 
 The study of airplane icing phenomena in England yielded works by 
 G. I. Taylor and M. Glauert. 
@@ -146,7 +146,7 @@ during the war with some assistants of mine.
 > 
 >Langmuir and Blodgett's work and other recent American studies, 
 among those ones by Myron Tribus, 
-provide an important link in the general studies of the Mechanics of Suspensions. 
+provide an important link in the general studies of the Mechanics of Suspensions.  
 
 As Lecture No. 2 largely discusses impingement on cylinders, 
 you can find most of the information in 
