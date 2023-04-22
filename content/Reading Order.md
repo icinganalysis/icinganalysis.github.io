@@ -12,7 +12,7 @@ Here is a guide to get to what you are interested in.
 This is the main focus of the blog, the National Advisory Committee for Aeronautics
 publications on aircraft icing, 1915 to 1958.  
 
-There are 132 publications in [The Historical Selected Bibliography of NACA-NASA Icing Publications.md
+There are 132 publications in [The Historical Selected Bibliography of NACA-NASA Icing Publications
 ]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md).
 (Not all of them have been reviewed yet.)  
 
