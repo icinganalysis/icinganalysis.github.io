@@ -7,7 +7,7 @@ Here is a guide to get to what you are interested in.
 
 ## NACA-era icing publication reviews *   
 
-[* Well, mostly, a few post-NACA era ones are mixed in.]
+_(* Well, mostly, a few post-NACA era ones are mixed in.)_ 
 
 This is the main focus of the blog, the National Advisory Committee for Aeronautics
 publications on aircraft icing, 1915 to 1958.  
