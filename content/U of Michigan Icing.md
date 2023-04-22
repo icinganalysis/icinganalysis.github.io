@@ -5,6 +5,11 @@ Tags: University of Michigan Airplane Icing Information Course
 
 # University of Michigan Airplane Icing Information Course [^1]  
 
+![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. 
+Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png)  
+> Modes of energy transfer for an unheated airfoil in icing conditions. 
+
+
 ![A cartoon drawing of an airplane in flight, 
 with pilots visible in the flight deck windows. 
 There is snow on the ground below. 
@@ -20,18 +25,19 @@ There is no copyright noted, on the drawing or in the publication.
 
 ## Summary  
 
-13 lectures show the "state of the art" in 1953.  
+Thirteen lectures show the "state of the art" in 1953.  
 
 ## Key Points  
 
 1. Several lectures are extracts of earlier works, or were republished later.  
 2. This was almost an aircraft icing design guide.  
+3. Selected lectures are reviewed.  
 
 ## Abstract  
 
 Since there was no introduction in the bound book copy I read 
-(it simply starts with Lecture 1),
-here is a listing of the lecture titles and authors
+(it simply starts with Lecture 1). 
+Here is a listing of the lecture titles and authors
 (I could not find this seemingly basic information online).  
 
 1. "Supercooled Clouds" Vonnegut, Bernard    
@@ -51,7 +57,10 @@ here is a listing of the lecture titles and authors
 ## Discussion  
 
 The 13 lectures were an almost complete education on aircraft icing design, 
-for the time period, and about as much as could be packed into a one-week course. 
+for the time period, and about as much as could be packed into a one-week course.  
+
+This constituted the best [Icing Design Manual]({filename}Design%20Manuals.md) 
+available at the time.  
 
 ### The printed course lectures  
 
