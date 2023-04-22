@@ -238,7 +238,7 @@ for small deviations, by applying the necessary theoretical corrections
 to the kinetic heating, evaporative loss and other relevant terms.  
 
 ![Figure 1. Basic Severity Diagram. Linear representation of maximum liquid water content vs. temperaure.
-"m" is liquid water content, theta is ambient air temperature.](images%2FFraser%20Flight%2FFig1.jpg)  
+"m" is liquid water content, theta is ambient air temperature.](/images%2FFraser%20Flight%2FFig1.jpg)  
 
 > It is quite probable that the test results will not agree exactly with the theoretical 
 flow curves, not only because of errors in measurement but also because of faults 
@@ -258,7 +258,7 @@ from which it is possible to see the amount by which the performance fails
 to meet or exceeds the design requirement.  
 
 ![Figure 2. Basic Distribution Diagram. Proposed maximum average water content for 
-a given extent of icing. "E" is extent of icing, miles.](images%2FFraser%20Flight%2FFig2.jpg)  
+a given extent of icing. "E" is extent of icing, miles.](/images%2FFraser%20Flight%2FFig2.jpg)  
 
 >If, on the other hand, it is not necessary to meet specific requirements, 
 but to determine the degree of protection, 
