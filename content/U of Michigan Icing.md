@@ -153,9 +153,8 @@ Fraser, Don: Note on the Flight Testing and Assessment of Icing Protection Syste
 
 I selected two lectures to review:
 
-- [Lecture No. 1, Supercooled Clouds](Vonnegut.md)  
-- [Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing](Fraser%20Note%20On%20Flight%20Testing.md)  
-
+- [Lecture No. 1, Supercooled Clouds]({filename}Vonnegut.md)  
+- [Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing]({filename}Fraser%20Note%20On%20Flight%20Testing.md)  
 
 ## Citations  
 
