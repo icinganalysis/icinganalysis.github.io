@@ -79,7 +79,7 @@ values for stratus and stratocumulus clouds are:
 | 0.8                            | 20               | 15                                     |
 | 0.5                            | 20               | 25                                     |
 
-Reference 4 is NACA-TN-1393. We will discuss NACA-TN-1393 further below.  
+Reference 4 is [NACA-TN-1393.md]({filename}NACA-TN-1393.md).  
 
 >Examination
 of table I and figure 1 indicates that these proposed maximum conditions
