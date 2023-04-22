@@ -1,7 +1,7 @@
 Title: Notes on Flight Testing  
 Date: 2023-04-22 14:00
 status: draft  
-Tags: University of Michigan Airplane Icing Information Course  
+Tags: University of Michigan Airplane Icing Information Course, flight test  
 
 ### _"Tests to determine the performance of an icing protection system ... are of little value ... unless they can be subjected to an analytical treatment, and reduced to a generalised form which is applicable to conditions other than those under which the tests were actually made."_  
 

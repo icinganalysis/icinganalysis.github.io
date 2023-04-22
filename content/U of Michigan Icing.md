@@ -48,9 +48,15 @@ for the time period, and about as much as could be packed into a one-week course
 This constituted the best [Icing Design Manual]({filename}Design%20Manuals.md) 
 available at the time.  
 
+I can say that this was the "state of the art" in 1953, 
+as many of the presenters were well-known at the time, 
+several were from NACA or the National Research Council Canada, 
+some were from industry and were actively building the systems described, 
+and some authors (Eckert, Messinger) are still often cited.  
+
 ### A precursor  
 
-"Modern Icing Technology" [^2] is the output of a prior seminar on icing information.     
+"Modern Icing Technology" [^2] is the output of a prior seminar on icing information. 
 It is almost an outline or draft for the later Airplane Icing Information course. 
 
 >FOREWORD  
@@ -221,11 +227,3 @@ Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946.
 (Contract No. W-33-038-ac-9151 with General Electric Co.)
 [^4]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
 You can find at copy at [archives.org](https://archive.org/details/analysisofheatma0000ecke/mode/2up)  
-
-
-
-
-
-
-
-

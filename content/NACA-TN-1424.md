@@ -1,7 +1,7 @@
 Title: NACA-TN-1424  
-Category: NACA
+Category: NACA  
 Date: 2023-04-16 12:00  
-tags: meteorology, cylinders
+tags: meteorology, cylinders  
 
 ### _"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."_  
 
@@ -33,7 +33,7 @@ in layer clouds is discussed and estimates are given for the
 highest values of water content to be expected in layer clouds at
 various temperatures.
 
-##Discussion
+## Discussion
  
 >INTRODUCTION
 >
