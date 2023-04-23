@@ -224,6 +224,6 @@ Lectures presented in a special program at the University of Michigan, Ann Arbor
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. 
 Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. 
-(Contract No. W-33-038-ac-9151 with General Electric Co.)
+(Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^4]: Eckert, E. R. G., and Robert M. Drake Jr. "Analysis of heat and mass transfer." (1972). 
 You can find at copy at [archives.org](https://archive.org/details/analysisofheatma0000ecke/mode/2up)  

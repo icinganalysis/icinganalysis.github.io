@@ -247,7 +247,6 @@ the flow performance curves will have to be adjusted to match the test results.
 
 ### 3.2 m-theta Diagram  
 
-
 >The adjusted flow curves are then transferred to m-theta co-ordinates by using 
 the appropriate values of V and E: E being calculated 
 for a standard droplet-size and distribution. 
@@ -309,6 +308,23 @@ been place on research into the basic theories of icing and of protective system
 supported by tests to determine the fundamental performance parameters. However, 
 sufficient knowledge has been obtained at the moment to enable icing protection 
 performance tests to be made on a fairly sound basis. 
+
+There are some parallels between this publication and NACA-TN-2569. 
+This publication focused on flight tests of protection systems, 
+while NACA-TN-2569 focused on design criteria. 
+However, both had a realization that it was not practical to 
+design protection systems for every conceivable condition. 
+
+NACA-TN-2569 states the motivation for allowing some tolerance to 
+ice protection performance:  
+>the heat required for protection for this [severest] situation is several times that required for the most probable icing condition.  
+
+"Note on Flight Testing..." has the concept of performance deficiency, 
+described above. NACA-TN-2569 describes a similar concept:  
+>The method also illustrates the desirability of exploiting the tolerance
+of various components to small quantities of ice accumulations, because
+the frequency of encounter of icing situations with extremely high ice-collection 
+rates is low.  
 
 ## Notes  
 

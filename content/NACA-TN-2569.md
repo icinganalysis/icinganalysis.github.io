@@ -310,7 +310,9 @@ temperature, and pressure altitude. Therefore, when electing
 values of these parameters as design values, caution should be exercised
 because individual values of these parameters could be selected that,
 when considered alone, appear to be reasonable, but would occur very
-seldom in combination in an icing situation. The proposed method of
+seldom in combination in an icing situation. 
+> 
+>The proposed method of
 selecting design criterions is based upon the collection efficiency of
 the airfoil as a function of droplet size and the frequency of occurrence 
 of icing situations with various liquid-water, contents and mean-effective 

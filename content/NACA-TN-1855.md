@@ -193,12 +193,12 @@ Applicable to: Components of the airplane for which no protection
 Example: Fuselage static—pressure airspeed vents probably 
     would not require protection for Classes I, II, and. 
     III, but might be subject to icing in freezing rain.
+```
 
-
-    SELECTION OF METEOROLOGICAL CONDITIONS 
-       FOR THE FOUR GEBERAL CLASSES
-
-  One of the factors of major importance in the selection of 
+>SELECTION OF METEOROLOGICAL CONDITIONS 
+>FOR THE FOUR GENERAL CLASSES
+>
+>  One of the factors of major importance in the selection of 
 design icing conditions, and the operation of aircraft in these 
 conditions, is the probability of encountering any specified 
 meteorological situation. At the time of the preparation of this report 
@@ -207,8 +207,8 @@ proceeded to a point where estimates of the likelihood of meeting a
 specified icing condition could be stated. Omission of the probability 
 factor from this report was a necessity, therefore, and is not an 
 indication that the subject is of secondary importance.
-
-  In addition to the four general icing classes already defined, 
+>
+>  In addition to the four general icing classes already defined, 
 the icing conditions were further classified into two groups; namely, 
 most probable maximum, and normal or typical. The most probable 
 maximum does not represent the maximum that nature could produce, but 
@@ -219,7 +219,6 @@ tions in the United States. To represent the most probable maximum
 conditions of a class, the letter M was used, for example,
 class I—M, II—M, etc. Similarly, the letter N was used for 
 normal conditions.
-```
 
 ![Table I. RECOMMENDED VALUES OF METEOROLOGICAL FACTORS FOR
 CONSIDERATION OF THE DESIGN OF AIRCRAFT ICE-PREVENTION EQUIPMENT.
