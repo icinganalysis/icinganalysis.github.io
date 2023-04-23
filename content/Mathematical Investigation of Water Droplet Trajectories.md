@@ -71,7 +71,7 @@ A future post will examine the data more thoroughly.
 
 For an assumption, these distributions have taken hold for more than 75 years, 
 and are still cited in recent publications 
-(for example, AC 20-73A [^7] [2016] recommends the use of a Langmuir D distribution). 
+(for example, AC 20-73A [^7] [2006] recommends the use of a Langmuir D distribution). 
 
 >Table IX
 Four Assumed Distributions of Droplet Size

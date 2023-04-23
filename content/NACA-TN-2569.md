@@ -269,8 +269,9 @@ with water-collection rates less than a given value for a given cloud
 type and pressure-altitude range is given by the ratio of the sum of
 the icing encounters in the region below and to the left of a given
 water-collection-rate curve to the total number of icing encounters for
-the given cloud type and pressure-altitude range.
-Cumulative frequency curves of the percentage of icing encounters
+the given cloud type and pressure-altitude range.  
+> 
+>Cumulative frequency curves of the percentage of icing encounters
 with rates of water collection less than a given value for the four
 cloud classifications of figure 7 obtained in the preceding manner are
 presented in figure 8. The water-collection rate increases very rapidly

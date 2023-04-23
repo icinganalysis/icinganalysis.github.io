@@ -340,29 +340,29 @@ central and eastern United States and the Pacific coast area which
 is indicated in the data taken by the Ames Laboratory.
 >
 >  2. Obtain flight data on instantaneous values of maximum 
-liquid—water content, drop size, temperature, and altitude.
+liquid—water content, drop size, temperature, and altitude.  
 >
 >  3. Obtain flight data to establish drop—size distribution 
-in clouds.
+in clouds.  
 >
 >  4. Obtain necessary data in flight through icing clouds for 
 confirmation or modification of the method of assuming adiabatic 
 lifting and no mixing for the calculation of liquid-water content 
-at any level in a cloud.
+at any level in a cloud.  
 >
 > Suggested Statistical Research on Conditions Conducive to Icing  
 >
 >  1. Analyze all available meteorological icing data obtained 
 in flight by statistical procedures to establish, at least
 tentatively, the probability of encountering a specified icing 
-condition.
+condition.  
 >
 >  2. Obtain measurements of liquid—water content, drop diameter 
 (mean effective, at least, and maximum, if possible), temperatures, 
 and altitude during regular military and commercial operations 
 whenever icing conditions are encountered. Time and geographical 
 location should also be recorded in order that the data may be 
-analyzed with reference to the synoptic weather situation.
+analyzed with reference to the synoptic weather situation.  
 
 The class "II-M Intermittent, Maximum" and "III-M Continuous, Maximum" values 
 are noted in the current CFR 14 Part 25 Appendix C icing conditions definitions [^2]. 
