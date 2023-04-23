@@ -309,7 +309,7 @@ supported by tests to determine the fundamental performance parameters. However,
 sufficient knowledge has been obtained at the moment to enable icing protection 
 performance tests to be made on a fairly sound basis. 
 
-There are some parallels between this publication and NACA-TN-2569. 
+There are some parallels between this publication and [NACA-TN-2569]({filename}NACA-TN-2569.md). 
 This publication focused on flight tests of protection systems, 
 while NACA-TN-2569 focused on design criteria. 
 However, both had a realization that it was not practical to 
@@ -325,6 +325,11 @@ described above. NACA-TN-2569 describes a similar concept:
 of various components to small quantities of ice accumulations, because
 the frequency of encounter of icing situations with extremely high ice-collection 
 rates is low.  
+
+<!-- 
+check if NACA-N-2569 is referenced
+add more figures
+-->
 
 ## Notes  
 
