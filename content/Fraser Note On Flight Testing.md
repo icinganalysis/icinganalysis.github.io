@@ -3,6 +3,11 @@ Date: 2023-04-22 14:00
 status: draft  
 Tags: University of Michigan Airplane Icing Information Course, flight test  
 
+<!-- 
+check if NACA-N-2569 is referenced
+add more figures
+-->
+
 ### _"Tests to determine the performance of an icing protection system ... are of little value ... unless they can be subjected to an analytical treatment, and reduced to a generalised form which is applicable to conditions other than those under which the tests were actually made."_  
 
 # Lecture No. 12b, NOTE ON THE FLIGHT TESTING AND ASSESSMENT OF ICING PROTECTION SYSTEMS  
@@ -326,13 +331,7 @@ of various components to small quantities of ice accumulations, because
 the frequency of encounter of icing situations with extremely high ice-collection 
 rates is low.  
 
-<!-- 
-check if NACA-N-2569 is referenced
-add more figures
--->
-
 ## Notes  
 
 [^1]: Fraser, Don: Note on the Flight Testing and Assessment of Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12b, University of Michigan Airplane Icing Information Course, 1953.  (8 pages)  
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages)  
-
