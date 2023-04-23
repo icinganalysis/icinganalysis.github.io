@@ -3,21 +3,21 @@ Date: 2022-02-01 12:00
 Category: Army Air Force
 tags: cylinder
 
-> ###"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."  
+### _"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."_  
 
-##Summary
+## Summary
 Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as an icing instrument is described.
     
-##Key points
+## Key points
 
 1. The Langmuir drop size distributions are defined
 2. The water drop impingement terms E, Beta, K, and Ko are defined
 3. The use of cylinders of different sizes and detailed calculations to determine water drop sizes
 
-##Abstract
+## Abstract
 
 >  Calculations are given of the trajectories of small water droplets 
-moving in air at high velocities across a cylinder.  The calculations were 
+moving in air at high velocities across a cylinder. The calculations were 
 made by means of a differential analyzer (D.A.). A few calculations are
 also given for the case of a sphere and a ribbon.
 
@@ -25,36 +25,36 @@ also given for the case of a sphere and a ribbon.
 the efficiency of deposition of very large numbers of particles were derived from the D. A. data
 on the assumption that all the particles in a given fog were of uniform size.
 
->  The theoretical curves can be used to analyze experimental data . For example, if measurements
+>  The theoretical curves can be used to analyze experimental data. For example, if measurements
 are made of the rate of rime deposition on two or more cylinders under the same fog conditions,
-the cylinders having different radii, a comparison of these data with the theoretical curves pro-
-vides a method of calculating the size of the particles that were collected and the liquid water
+the cylinders having different radii, a comparison of these data with the theoretical curves 
+provides a method of calculating the size of the particles that were collected and the liquid water
 content of the fog.
 
 >  It is known, however, that in general the particles in fogs are not of uniform size. The effect
 which a distribution of particle size has on the results became apparent when measurements
 made with three or more cylinders having different radii were compared with the theoretical
 data. It was usually found that the curvature of the experimental plot was not quite the same
-as that of the theoretical curve . A method was devised for taking into account certain assumed
-distributions of particle size . It was found that the experimental data fitted the theoretical data
+as that of the theoretical curve. A method was devised for taking into account certain assumed
+distributions of particle size. It was found that the experimental data fitted the theoretical data
 much better after this had been done.
 
 >  An example is given of the analysis of experimental data by means of the theoretical curves.
 It is shown that when three or more cylinders are used it is possible to estimate the distribution
 of particle size by graphical methods. The experimental data used in the example were obtained
 by R. M . Cunningham in an airplane. The application of the method is given for the case of data
-taken under other conditions, such as those at the attitude of Mt. Washington [New Hampshire, USA].
+taken under other conditions, such as those at the attitude of Mt. Washington [New Hampshire, USA]. 
 
-##Discussion
+## Discussion
 
 This is not a NACA publication, but it is an important link in the chain of NACA citations. 
 It is an example of important, contemporary work done outside of NACA.
 This is the most cited icing publication that I know of (700+ citations on scholar.google [^4]).
 This reference merits much study, 
-but a this time I will limit the discussion to the pertinent points in the NACA citation chain.
+but at this time I will limit the discussion to the pertinent points in the NACA citation chain. 
  
 
-###A note on publications
+### A note on publications
 This work was published three times, in [^1], [^2], and [^3] (with slightly different titles). 
 The first was a preliminary version, and the second was the final version, which is more extensive. 
 The third appears to be substantially similar to [^2], with a slight change in title.
@@ -62,7 +62,7 @@ Many citations are specifically for [^3].
 
 The images in an online version of [^3] are of poor quality, so selected text and tables were transcribed herein.
 
-###Drop size distribution
+### Drop size distribution
 
 Table IX defines "assumed" water drop size distributions. 
 Reference [^5] clarifies that the "B" distribution comes from, apparently, 
@@ -76,25 +76,25 @@ and are still cited in recent publications
 >Table IX
 Four Assumed Distributions of Droplet Size
 
-|Liquid Water Content Percent|a/ao B|(a/ao)^1.5 C|(a/ao)^2.0 D|(a/ao)^2.5 E|
-|---|---|---|---|---|
-|5 |0.56|0.42|0.31|0.23|
-|10|0.72|0.61|0.52|0.44|
-|20|0.84|0.77|0.71|0.65|
-|30|1.00|1.00|1.00|1.00|
-|20|1.17|1.26|1.37|1.48|
-|10|1.32|1.51|1.74|2.00|
-|5 |1.49|1.81|2.22|2.71|
+| Liquid Water Content Percent | a/ao B | (a/ao)^1.5 C | (a/ao)^2.0 D | (a/ao)^2.5 E |
+|------------------------------|--------|--------------|--------------|--------------|
+| 5                            | 0.56   | 0.42         | 0.31         | 0.23         |
+| 10                           | 0.72   | 0.61         | 0.52         | 0.44         |
+| 20                           | 0.84   | 0.77         | 0.71         | 0.65         |
+| 30                           | 1.00   | 1.00         | 1.00         | 1.00         |
+| 20                           | 1.17   | 1.26         | 1.37         | 1.48         |
+| 10                           | 1.32   | 1.51         | 1.74         | 2.00         |
+| 5                            | 1.49   | 1.81         | 2.22         | 2.71         |
 
 I suspect that most recent citations have been for the drop size distributions and not other aspects,
 but I have not read through 700+ references to confirm this.
 
-###Water drop impingement terms
+### Water drop impingement terms
 
-While [NACA-TN-779]({filename}/NACA-TN-779.md) [^8] presented results as dimensional, this publication put values in non-dimensional terms.
+While [NACA-TN-779]({filename}NACA-TN-779.md) [^8] presented results as dimensional, this publication put values in non-dimensional terms.
 The non-dimensional form allows the tables to be applied to a wide variety of cases.
 
-Large portions will be reproduce here, as the online version freely available is of limited image quality.  
+Large portions will be reproduced here, as the online version freely available is of limited image quality.  
 
 > The quantity β which serves as a measure of the thickness of the rime at
 any point characterized by θ may thus be defined by  
@@ -167,7 +167,7 @@ dimensionless parameter which we shall call φ, defined as follows:
 The definitions of K and Ko above are specific to the cylinder, and the definitions in [^9] 
 are different.
 
-###Multi-cylinder icing instruments
+### Multi-cylinder icing instruments
  
 The water drop collection efficiency E for a given icing condition is a function of water drop size.
 If all of the water freezes, then the mass gathered on different size cylinder can be measured 
@@ -189,16 +189,16 @@ Langmuir compared results from his analysis with those of Kantrowitz [^8].
 > TABLE IV (a)
 Comparison of Kantrovitz [sic] Data with the new Results from the Differential Analyzer (D.A.) Calculations  
 
-|(1) Droplet diam. (mils)|(2) Ks|(3) EM |(4) EM Kantrovitz|(5) Kantrovitz Θm|(6) D.A. Θm|
-|---|---|---|---|---|---|
-|0.32 |0.125|-| 0 | - |0|
-|0.7 |0.619 |0.075 |0.250 |19.0 |44.6|
-|1 |1.26 |0.200 |0.445 |33 |61.8|
-|2 |5.04 |0.520 |0.760 |55.5 |80|
-|4|20.1|0.780 |0.928 |71.5 |87.2|
-|6 |45.4 |0.860 |0.966 |78.5 |88.6|
-|10 |125.9 |0.920 |0.987 |83.5 |89.5|
-|40|2015|0.99 |0.999 |89.0 |89.9|
+| (1) Droplet diam. (mils) | (2) Ks | (3) EM | (4) EM Kantrovitz | (5) Kantrovitz Θm | (6) D.A. Θm |
+|--------------------------|--------|--------|-------------------|-------------------|-------------|
+| 0.32                     | 0.125  | -      | 0                 | -                 | 0           |
+| 0.7                      | 0.619  | 0.075  | 0.250             | 19.0              | 44.6        |
+| 1                        | 1.26   | 0.200  | 0.445             | 33                | 61.8        |
+| 2                        | 5.04   | 0.520  | 0.760             | 55.5              | 80          |
+| 4                        | 20.1   | 0.780  | 0.928             | 71.5              | 87.2        |
+| 6                        | 45.4   | 0.860  | 0.966             | 78.5              | 88.6        |
+| 10                       | 125.9  | 0.920  | 0.987             | 83.5              | 89.5        |
+| 40                       | 2015   | 0.99   | 0.999             | 89.0              | 89.9        |
 
 > Table IV (a) gives comparison of the Kantrovitz data (Restricted Report,
 National Advisory Committee for Aeronautics) with the new data from the
@@ -211,7 +211,7 @@ this is perhaps not the most meaningful comparison.
 See [A Detailed Comparison of Water Drop Impingement Calculations]({filename}/A Detailed Comparison of NACA-TN-779 and Mathematical Investigation of Water Droplet Trajectories.md) for a more detailed comparison.
 
 
-##Citations
+## Citations
 
 This publication has few formal, conventional citations. 
 However, some are mentioned only in passing, such as "Cunningham's data".
@@ -276,26 +276,26 @@ In the NACA Icing Publication Database [^10], it is cited 43 times:
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.
 
-##Related works
+## Related works
 NACA-TN-2708 [^11] has comments on the origins of the Langmuir drop size distributions, and proposes revised values.
 
-##Notes:
+## Notes:
 [^1]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.  
 [^2]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, December 1945 - July 1946, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. Note: some references cite this as "RL-225", but it is RL-224 in this publication.
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, December 1945 - July 1946, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. Note: some references cite this as "RL-225", but it is RL-224 in this publication.  
 [^3]:
-Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^4]:
-"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=". November, 2021
+"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=". November, 2021  
 [^5]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^6]:
-Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.
+Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 [^7]:
-Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016.
+Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016.  
 [^8]:
-Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.
+Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.  
 [^9]:
 Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Icing Handbook. Vol. 1, DOT/FAA/CT-88/8-1. 1991.  
 [^10]:

@@ -220,13 +220,13 @@ The rationale for the stratus values is explained:
 > The values chosen were 20° F and 15 microns.
 
 For Figure 13 the argument appears to be reasonable:  
-![fig 13 interpretation.](/images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
+![fig 13 interpretation.](images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
 
 However, for Figure 5 the choice is not as clear:  
-![fig 5 interpretation](/images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
+![fig 5 interpretation](images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
 
 Also for Figure 8 the logic is not obvious:  
-![fig 8 interpretation.png](/images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)
+![fig 8 interpretation.png](images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)
 
 ### Distance effect  
 
