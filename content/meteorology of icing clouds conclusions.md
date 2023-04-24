@@ -3,8 +3,11 @@ status: draft
 Date: 2023-04-13 12:00  
 Category: NACA  
 
-![Derivation of FAR standards cropped](/images%2FDerivation%20of%20FAR%20standards%20cropped.png)  
-_From Figure 3-1 of the FAA Aircraft Icing Handbook. [^1]_  
+### _There was remarkable progress in the three-year span 1946 through 1949._ 
+
+![Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
+](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
+_from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
 
 ## Discussion  
 
@@ -15,10 +18,10 @@ direct influence on the current icing regulations.
 
 As we saw in the [Conclusions Meteorological Instruments Thread]({filename}conclusions_of_the_instruments_thread.md),
 only a limited number of NACA publications went directly into determining the 
-current Appendix C icing requirements [^2].  
+current Appendix C icing requirements [^1].  
 
 ![Figure 3-1 Derivation of FAR Icing Standards](/images/Derivation of FAR standards.png) 
-[^1]  
+[^2]  
 
 [As we saw in [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
 it is not entirely clear where this figure originally came from.]  
@@ -200,15 +203,14 @@ noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)
 NACA-TN-1393 (1947):  
 
 - 0.8 g/m^3 (no drop size information)  
+![Figure 8. Liquid water content as a function of free air temperature. 
+Rotating cyclinder measurements. ](images%2Fnaca-tn-1393%2FFigure%208.png)  
+Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
+Reference 14 is Rodert [^6].  
 
 Rodert (1946):  
 
-- \>\>2 g/m^3 (no drop size information)  
-
-![Figure 8. Liquid water content as a function of free air temperature. 
-Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
-Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
-Reference 14 is Rodert [^6].  
+- 3.0 g/m^3, 30 micrometer (From Table 2 of [^6])
 
 NACA-TN-1424 (1947): 
 
@@ -226,7 +228,7 @@ In a table sorted by publication order:
 
 | Source         | Year | LWC, g/m^3 |
 |----------------|------|------------|
-| Rodert         | 1946 | >> 2       |
+| Rodert         | 1946 | 3.0        |
 | NACA-TN-1391   | 1947 | 1.5        |
 | NACA-TN-1393   | 1947 | 0.8        |
 | NACA-TN-1424 A | 1947 | 1.0        |
@@ -235,7 +237,8 @@ In a table sorted by publication order:
 
 Different implementations of theory had differing values. 
 By 1949, interpretations of test data had arrived at the 
-values in Appendix C.  
+values in Appendix C. 
+There was remarkable progress in the three-year span 1946 through 1949.  
 
 ### Recent data comparison to Appendix C  
 
@@ -255,8 +258,8 @@ The data and recommendations from the NACA-era have held up remarkably well.
 
 ## Notes
 
-[^1]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1, 1991. [DTIC](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
-[^2]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+[^1]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+[^2]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1, 1991. [DTIC](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 [^3]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing", DOT/FAA/CT-83/21, 1983. [faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
 [^4]: [Appendix O to Part 25](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
 [^5]:
