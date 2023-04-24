@@ -281,7 +281,7 @@ Several factors had come together to make that possible.
 A vital need was recognized. 
 Multiple agencies were coordinated (NACA, Army Air Force, Navy, Weather Bureau, industry, academia). 
 Test aircraft with robust ice protection were available (see [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)). 
-[Improved icing instruments](instruments.md) were being developed. 
+[Improved icing instruments]({filename}instruments.md) were being developed. 
 
 The icing design requirements are another crowning achievement of the NACA-era. 
 
