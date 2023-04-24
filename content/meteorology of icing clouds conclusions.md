@@ -3,7 +3,7 @@ status: draft
 Date: 2023-04-13 12:00  
 Category: NACA  
 
-![Derivation of FAR standards cropped](images%2FDerivation%20of%20FAR%20standards%20cropped.png)  
+![Derivation of FAR standards cropped](/images%2FDerivation%20of%20FAR%20standards%20cropped.png)  
 _From Figure 3-1 of the FAA Aircraft Icing Handbook. [^1]_  
 
 ## Discussion  
@@ -17,7 +17,7 @@ As we saw in the [Conclusions Meteorological Instruments Thread]({filename}concl
 only a limited number of NACA publications went directly into determining the 
 current Appendix C icing requirements [^2].  
 
-![Figure 3-1 Derivation of FAR Icing Standards](images/Derivation of FAR standards.png) 
+![Figure 3-1 Derivation of FAR Icing Standards](/images/Derivation of FAR standards.png) 
 [^1]  
 
 [As we saw in [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
@@ -95,21 +95,21 @@ There is an "estimated probable maximum conditions" line
 from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
 There are several "observed values" data points below the line.
 The airspeed in noted as 150 miles per hour.
-](images/naca-tn-1393/Distance%20effect.png)  
+](/images/naca-tn-1393/Distance%20effect.png)  
 
 To "Distance":  
 
 [NACA-TN-1904]({filename}NACA-TN-1904.md)  
 ![Figure 5. Estimated maximum values of average liquid-water content to be expected in 
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
-clouds.](images/naca-tn-1904/Figure5.png)  
+clouds.](/images/naca-tn-1904/Figure5.png)  
 
 To "Extent":  
 
 [NACA-TN-2306]({filename}NACA-TN-2306.md)  
 ![Figure 2. Maximum distance flown during 57 icing flights in relation 
 to average measured liquid-water content of supercooled stratiform clouds.
-](images%2FNACA-TN-2306%2FFigure%202.png)  
+](/images%2FNACA-TN-2306%2FFigure%202.png)  
 
 This change was not explained. 
 It is not clear if it was editorial, 
@@ -117,7 +117,7 @@ or if some subtle technical difference was implied.
 
 The Appendix C regulation uses "Extent":  
 ![Appendix C Figure 3. Liquid Water Content vs. Cloud Horizontal Extent.
-](images%2FAppendix%20C%20Figure%203.png)  
+](/images%2FAppendix%20C%20Figure%203.png)  
 
 While the nomenclature change may seem to be minor, 
 there is an effect on interpretation of the regulation. 
@@ -160,6 +160,10 @@ Appendix C does not mention drop-size distribution.
 Advisory Circular AC 20-73A does include the Langmuir drop size distributions, 
 and recommends the use of a D distribution. 
 
+While I did not find a further evaluation of adiabatic lift theory, 
+note that the earlier [NACA-TN-1424]({filename}NACA-TN-1424.md) figure 4 (shown further below) 
+compares an ideal calculation to one that assumes 2/3 of the water condenses, 
+and the 2/3 assumption appears to fit data better. 
 Adiabatic lift theory is still used today to estimate maximum cloud liquid water content. 
 However, for the simple implementation, the results are often conservatively high 
 compared to measured data. 
@@ -167,14 +171,69 @@ I suppose that current weather modelling is a much more sophisticated implementa
 of adiabatic lift theory (and a lot of other physics), 
 but it is still challenged to calculate accurate LWC values.  
 
+### Tracking changes in the understanding of LWC values  
+
+As an example of how the understanding of liquid water content (LWC) 
+changed over the NACA-era, we will take an example point from Appendix C Figure 1
+for "Continuous Maximum (Stratiform Clouds)". 
+- Temperature = 32F, MVD = 15 micrometer, LWC = 0.8 g/m^3 (17.4 nmi extent)  
+
+(upper left corner of the envelope).
+
+![AppCfig1.png](/images%2FAppCfig1.png)  
+
+We find similar cases in prior publications:  
+
+NACA-TN-1391 (1947):  
+- LWC = 1.9 g/m^3 (no drop size information) 
+
+![Figure 4. Conditions to be expected at the top of a 3000-foot 
+cloud layer. Repesenting the probable maximum intensity of icing in 
+noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)  
+
+NACA-TN-1393 (1947):  
+- 0.8 g/m^3 (no drop size information)  
+
+Rodert (1946):  
+- \>\>2 g/m^3 (no drop size information)  
+
+![Figure 8. Liquid water content as a function of free air temperature. 
+Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
+Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
+Reference 14 is Rodert [^6].  
+
+NACA-TN-1424 (1947): 
+- Calculation A: 1.0 g/m^3 (no drop size information)  
+- Calculation B: 0.8 g/m^3 (no drop size information)  
+
+![Figure 4.png](/images%2Fnaca-tn-1424%2FFigure%204.png)  
+
+NACA-TN-1855 (1949):  
+- Table 1, III-M Continuous Maximum 0.8 g/m^3, 15 micrometer  
+
+In a table sorted by publication order:  
+
+| Source         | Year | LWC, g/m^3 |
+|----------------|------|------------|
+| Rodert         | 1946 | >> 2       |
+| NACA-TN-1391   | 1947 | 1.9        |
+| NACA-TN-1393   | 1947 | 0.8        |
+| NACA-TN-1424 A | 1947 | 1.0        |
+| NACA-TN-1424 B | 1947 | 0.8        |
+| NACA-TN-1855   | 1949 | 0.8        |
+
+Different implementations of theory had differing values. 
+By 1949, interpretations of test data had arrived at the 
+values in Appendix C.  
+
 ### Recent data comparison to Appendix C  
 
 More recent icing data with more recent instrumentation compares well to the 
 70+ year-old NACA data.  
 
-Figure 1 of Cober and Isaac [^5] is one example. It is copy-righted, but available on-line. 
+Figure 1 of Cober and Isaac [^7] is one example. It is copy-righted, but available on-line. 
 While not every data point is within the Appendix C envelope, 
-the differences have not been large enough to require revising the Appendix C regulation.  
+the differences have not been viewed as large enough to require revising the Appendix C regulation.  
 
 ## Conclusions  
 
@@ -191,5 +250,6 @@ The data and recommendations from the NACA-era have held up remarkably well.
 [^4]: [Appendix O to Part 25](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
 [^5]:
 Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
-[^6]: Cober, Stewart, and Isaac, George: "Estimating Maximum Aircraft Icing Environments Using a Large Database of In-Situ Observations." 44th AIAA Aerospace Sciences Meeting and Exhibit. 2006. [Research Gate](https://www.researchgate.net/profile/George-Isaac-2/publication/242299441_Estimating_Maximum_Aircraft_Icing_Environments_Using_a_Large_Data_Base_of_In_-Situ_Observations/links/5708fac408aea660813582e0/Estimating-Maximum-Aircraft-Icing-Environments-Using-a-Large-Data-Base-of-In-Situ-Observations.pdf)  
+[^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.
+[^7]: Cober, Stewart, and Isaac, George: "Estimating Maximum Aircraft Icing Environments Using a Large Database of In-Situ Observations." 44th AIAA Aerospace Sciences Meeting and Exhibit. 2006. [Research Gate](https://www.researchgate.net/profile/George-Isaac-2/publication/242299441_Estimating_Maximum_Aircraft_Icing_Environments_Using_a_Large_Data_Base_of_In_-Situ_Observations/links/5708fac408aea660813582e0/Estimating-Maximum-Aircraft-Icing-Environments-Using-a-Large-Data-Base-of-In-Situ-Observations.pdf)  
 

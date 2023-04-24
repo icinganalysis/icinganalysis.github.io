@@ -111,7 +111,7 @@ encountered less than 0.5 gram per cubic meter.
 and maximum diameter made during the 1946-47 season are presented 
 in figure 6. It is noted that 50 percent of the observations of 
 mean-effective diameter fall in the relatively narrow range from 
-11.2 to 16.2 Microns; and 90 percent are less than 22 microns. 
+11.2 to 16.2 microns; and 90 percent are less than 22 microns. 
 Fifty percent of the observations of maximum diameter are between 
 12.6 and 20 microns and 90 percent are below 28 microns.  
    These distribution curves indicate that the icing conditions 
@@ -130,9 +130,11 @@ air traffic control procedures.
 
 ### Drops size distributions  
 
-The drop size distributions definitions and cylinder impingement analysis methods from [^2] are used.  
+The drop size distributions definitions and cylinder impingement analysis methods 
+from [^2] are used.  
 
-A comparison of two methods of determining the drop size distribution yielded rather different results.  
+A comparison of two methods of determining the drop size distribution 
+yielded rather different results.  
 
 >Maximum Drop Size and Drop—Size Distribution  
     In the analysis of the test data the fact as noted that, in 

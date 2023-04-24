@@ -98,7 +98,7 @@ of drops in icing clouds from 42 observations in nine flights in the
 specifications: uniform drop-size distribution; cylinder, 3-inch diameter;
 true airspeed 200 miles per hour; 15 F; pressure altitude 10,000 ft.
 (All data points shown obtained by rotating-cylinder method from layer-type clouds.)
-](/images%2FNACA-TN-1793%2FFigure%201.png)  
+](images%2FNACA-TN-1793%2FFigure%201.png)  
 
 >Frequency-Distribution of Meteorological Parameters  
 During the two seasons of ice flights from the Lewis laboratory, 
@@ -118,7 +118,7 @@ per cubic meter.
 > 
 ![Figure 2. Ogive of 93 observations of liquid-water content in 
 icing clouds measured during 31 winter flights during 1946-47 and 1947-48.
-](/images%2FNACA-TN-1793%2FFigure%202.png)  
+](images%2FNACA-TN-1793%2FFigure%202.png)  
 
 >The ogive of drop-size measurements in figure 3 indicates that
 about 90 percent of the measurements of mean-effeative
@@ -127,7 +127,7 @@ the drops in icing clouds were less than 20 microns and 50 percent
 were less than 13 microns.
 
 ![Figure 3. Ogive of drop diameter in icing clouds for 93 observations during 31 flights.
-](/images%2FNACA-TN-1793%2FFigure%203.png)  
+](images%2FNACA-TN-1793%2FFigure%203.png)  
 
 >Because the actual icing intensity observed in flight is related
 to both the concentration of supercooled
@@ -158,7 +158,7 @@ to a 3-inch-diameter cylinder.
 and liquid-water content in icing clouds. Icing rate computation based on 
 collection efficiency of 3-inch-diameter cyinder moving at 
 200 miles per hour; temperature 15 F; and pressure altitude of 10,000 ft.
-](/images%2FNACA-TN-1793%2FFigure%204.png)  
+](images%2FNACA-TN-1793%2FFigure%204.png)  
 
 ## CONCLUSIONS  
 >The following general conclusions are based on the observations

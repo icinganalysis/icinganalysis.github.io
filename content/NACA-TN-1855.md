@@ -222,7 +222,7 @@ normal conditions.
 
 ![Table I. RECOMMENDED VALUES OF METEOROLOGICAL FACTORS FOR
 CONSIDERATION OF THE DESIGN OF AIRCRAFT ICE-PREVENTION EQUIPMENT.
-](/images%2FNACA-TN-1855%2FTable%20I.png)  
+](images%2FNACA-TN-1855%2FTable%20I.png)  
 
 Tabular data for selected classes are provided below:  
 
