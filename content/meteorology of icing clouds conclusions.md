@@ -189,7 +189,7 @@ Liquid Water Content vs. Mean Effective Drop Diameter](/images%2FAppCfig1.png)
 We find similar cases in prior publications:  
 
 NACA-TN-1391 (1947):  
-- LWC = 1.9 g/m^3 (no drop size information) 
+- LWC = 1.5 g/m^3 (no drop size information) 
 
 ![Figure 4. Conditions to be expected at the top of a 3000-foot 
 cloud layer. Repesenting the probable maximum intensity of icing in 
@@ -221,7 +221,7 @@ In a table sorted by publication order:
 | Source         | Year | LWC, g/m^3 |
 |----------------|------|------------|
 | Rodert         | 1946 | >> 2       |
-| NACA-TN-1391   | 1947 | 1.9        |
+| NACA-TN-1391   | 1947 | 1.5        |
 | NACA-TN-1393   | 1947 | 0.8        |
 | NACA-TN-1424 A | 1947 | 1.0        |
 | NACA-TN-1424 B | 1947 | 0.8        |
