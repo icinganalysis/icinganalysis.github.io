@@ -90,7 +90,7 @@ Appendix O of CFR 14 Part 25 [^4].
 
 The nomenclature changed from "Duration":  
 
-[NACA-TN-1393]({filename}NACA-TN-1393.md)
+[NACA-TN-1393]({filename}NACA-TN-1393.md)  
 ![Figure 13:
 A graph of log duration minutes vs. log liquid water content g/m^3.
 There is an "estimated probable maximum conditions" line 
@@ -177,7 +177,8 @@ but it is still challenged to calculate accurate LWC values.
 
 As an example of how the understanding of liquid water content (LWC) 
 changed over the NACA-era, we will take an example point from Appendix C Figure 1
-for "Continuous Maximum (Stratiform Clouds)". 
+for "Continuous Maximum (Stratiform Clouds)".   
+
 - Temperature = 32F, MVD = 15 micrometer, LWC = 0.8 g/m^3 (17.4 nmi extent)  
 
 (upper left corner of the envelope).
@@ -188,7 +189,8 @@ Liquid Water Content vs. Mean Effective Drop Diameter](/images%2FAppCfig1.png)
 
 We find similar cases in prior publications:  
 
-NACA-TN-1391 (1947):  
+[NACA-TN-1391]({filename}NACA-TN-1391.md) (1947):  
+
 - LWC = 1.5 g/m^3 (no drop size information) 
 
 ![Figure 4. Conditions to be expected at the top of a 3000-foot 
@@ -196,9 +198,11 @@ cloud layer. Repesenting the probable maximum intensity of icing in
 noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)  
 
 NACA-TN-1393 (1947):  
+
 - 0.8 g/m^3 (no drop size information)  
 
 Rodert (1946):  
+
 - \>\>2 g/m^3 (no drop size information)  
 
 ![Figure 8. Liquid water content as a function of free air temperature. 
@@ -207,6 +211,7 @@ Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).
 Reference 14 is Rodert [^6].  
 
 NACA-TN-1424 (1947): 
+
 - Calculation A: 1.0 g/m^3 (no drop size information)  
 - Calculation B: 0.8 g/m^3 (no drop size information)  
 
@@ -214,6 +219,7 @@ NACA-TN-1424 (1947):
 in icing clouds.](/images%2Fnaca-tn-1424%2FFigure%204.png)  
 
 NACA-TN-1855 (1949):  
+
 - Table 1, III-M Continuous Maximum 0.8 g/m^3, 15 micrometer  
 
 In a table sorted by publication order:  
