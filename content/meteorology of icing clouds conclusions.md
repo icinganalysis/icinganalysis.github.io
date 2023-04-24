@@ -276,6 +276,15 @@ publications that were completed by 1952.
 
 The data and recommendations from the NACA-era have held up remarkably well. 
 
+There was remarkable progress in the three-year span 1946 through 1949.  
+Several factors had come together to make that possible. 
+A vital need was recognized. 
+Multiple agencies were coordinated (NACA, Army Air Force, Navy, Weather Bureau, industry, academia). 
+Test aircraft with robust ice protection were available (see [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)). 
+[Improved icing instruments](instruments.md) were being developed. 
+
+The icing design requirements are another crowning achievement of the NACA-era. 
+
 ## Notes
 
 [^1]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
