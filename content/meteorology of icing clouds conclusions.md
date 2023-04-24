@@ -6,7 +6,7 @@ Category: NACA
 ### _There was remarkable progress in the three-year span 1946 through 1949._ 
 
 ![Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
-](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
+](/images%2Fwilliam_lewis_1947%2FFigure%203.png)  
 _from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
 
 ## Summary  
@@ -18,7 +18,7 @@ direct influence on the current icing regulations.
 2. The key flight tests and publications were complete by 1952.  
 3. Some engineering judgement went into creating the icing regulation.  
 4. There was remarkable progress in the three-year span 1946 through 1949.  
-5. The data from 1952 compares well to more recent flight test measurements.  
+5. The data from 1949 compares well to more recent flight test measurements.  
 
 ## Discussion  
 
@@ -215,7 +215,8 @@ NACA-TN-1393 (1947):
 
 - 0.8 g/m^3 (no drop size information)  
 ![Figure 8. Liquid water content as a function of free air temperature. 
-Rotating cyclinder measurements. ](images%2Fnaca-tn-1393%2FFigure%208.png)  
+Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
+
 Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
 Reference 14 is Rodert [^6].  
 
