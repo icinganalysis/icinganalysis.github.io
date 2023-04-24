@@ -9,6 +9,17 @@ Category: NACA
 ](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
 _from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
 
+## Summary  
+The most enduring legacy of the NACA publications on icing meteorology is their 
+direct influence on the current icing regulations. 
+
+## Key Points  
+1. NACA publications contributed heavily to the creation of the Appendix C icing regulation.  
+2. The key flight tests and publications were complete by 1952.  
+3. Some engineering judgement went into creating the icing regulation.  
+4. There was remarkable progress in the three-year span 1946 through 1949.  
+5. The data from 1952 compares well to more recent flight test measurements.  
+
 ## Discussion  
 
 The most enduring legacy of the NACA publications on icing meteorology is their 
@@ -210,7 +221,14 @@ Reference 14 is Rodert [^6].
 
 Rodert (1946):  
 
-- 3.0 g/m^3, 30 micrometer (From Table 2 of [^6])
+- 3.0 g/m^3, 30 micrometer (From Table 2 of [^6])  
+
+Rodert notes that:
+> The values given in Table 2 are established by a faired line which has
+> been drawn on a graphical presentation of weather-bureau data. 
+> The faired curve was drawn so as to give values which in all cases
+> exceed the data thus far observed and therefore probable. 
+> Our knowledge of the weather is obviously inadequate.  
 
 NACA-TN-1424 (1947): 
 
