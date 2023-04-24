@@ -157,13 +157,14 @@ NACA-TN-1855 suggested six research task to confirm its recommendations.
 These were largely accomplished in NACA-TN-2738.  
 
 However, I could not find if two of the tasks were accomplished:  
-
->  3. Obtain flight data to establish drop—size distribution 
-in clouds.  
->  4. Obtain necessary data in flight through icing clouds for 
-confirmation or modification of the method of assuming adiabatic 
-lifting and no mixing for the calculation of liquid-water content 
-at any level in a cloud.  
+```
+3. Obtain flight data to establish drop—size distribution 
+   in clouds.  
+4. Obtain necessary data in flight through icing clouds for 
+   confirmation or modification of the method of assuming adiabatic 
+   lifting and no mixing for the calculation of liquid-water content 
+   at any level in a cloud.  
+```
 
 Several instruments were assessed in the NACA-era 
 (see the [Meteorological Instruments Thread]({filename}instruments.md)). 
