@@ -42,7 +42,8 @@ straight-forward, but engineering judgement was applied at several steps along t
 Jeck [^3] discusses the Appendix C drop size boundaries:  
 
 >Origins of the "Icing Envelopes" in FAR-25, Appendix C  
-Information printed on figures 1 and 4 of FAR-25, Appendix C states that
+> 
+>Information printed on figures 1 and 4 of FAR-25, Appendix C states that
 NACA report TN-1855 (Jones and Lewis, 1949) is the source of data for these
 envelopes. Within TN-1855 the reader is referred to two earlier reports,
 TN-1393 (Lewis, 1947) and TN-1424 (Lewis et al., 1947) for the actual data on
@@ -50,8 +51,9 @@ which the "continuous maximum" envelopes are based. Both TN-1393 and TN-1424
 show numerous observations of MVDs in the range 7 to 15 μm. In fact, figure 6
 of TN-1424 contains a probability curve which shows that 50% of the observed
 MVDs are smaller than 13 micrometer! None of these references contain any obvious
-statements that 15 micrometer was viewed as the minimum MVD worth consideration.
-However, such conclusions may have arisen implicitly from the discourse in
+statements that 15 micrometer was viewed as the minimum MVD worth consideration.  
+> 
+>However, such conclusions may have arisen implicitly from the discourse in
 TN-1393 on the subject of icing forecast problems. On page 16 of that report,
 it is proposed that a fixed MVD of 14 μm be assumed for layer clouds in order
 to simplify the problem of specifying icing intensities from a knowledge of
@@ -180,7 +182,9 @@ for "Continuous Maximum (Stratiform Clouds)".
 
 (upper left corner of the envelope).
 
-![AppCfig1.png](/images%2FAppCfig1.png)  
+![Appendix C Figure 1. Continuous Maximum (Stratiform Clouds) 
+Atmospheric Conditions 
+Liquid Water Content vs. Mean Effective Drop Diameter](/images%2FAppCfig1.png)  
 
 We find similar cases in prior publications:  
 
@@ -206,7 +210,8 @@ NACA-TN-1424 (1947):
 - Calculation A: 1.0 g/m^3 (no drop size information)  
 - Calculation B: 0.8 g/m^3 (no drop size information)  
 
-![Figure 4.png](/images%2Fnaca-tn-1424%2FFigure%204.png)  
+![Figure 4. Liquid Water Content as related to temperature 
+in icing clouds.](/images%2Fnaca-tn-1424%2FFigure%204.png)  
 
 NACA-TN-1855 (1949):  
 - Table 1, III-M Continuous Maximum 0.8 g/m^3, 15 micrometer  

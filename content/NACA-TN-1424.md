@@ -1,6 +1,6 @@
 Title: NACA-TN-1424  
 Category: NACA  
-Date: 2023-04-16 12:00  
+Date: 2021-01-31 12:00  
 tags: meteorology, cylinders  
 
 ### _"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."_  
@@ -79,9 +79,11 @@ diameter cylinder at 200 miles per hour as specified, by the
 Weather Bureau for reporting icing intensity from mountain—top 
 observation stations.
 
-![Figure 3.png](images%2Fnaca-tn-1424%2FFigure%203.png)  
+![Figure 3. Liquid Water Content as related to average drop diameter 
+in icing clouds.](images%2Fnaca-tn-1424%2FFigure%203.png)  
 
-![Figure 4.png](images%2Fnaca-tn-1424%2FFigure%204.png)  
+![Figure 4. Liquid Water Content as related to temperature 
+in icing clouds.](images%2Fnaca-tn-1424%2FFigure%204.png)  
 
 >Typical Icing Conditions
 >
@@ -126,7 +128,8 @@ only be determined by an extensive study of the distribution of
 icing conditions in various weather situations and an analysis of 
 air traffic control procedures.
 
-![Figure 6.png](images%2Fnaca-tn-1424%2FFigure%206.png)  
+![Figure 6. Ogives of mean effective diameter and maximum diameter
+of drops in icing clouds.](images%2Fnaca-tn-1424%2FFigure%206.png)  
 
 ### Drops size distributions  
 
