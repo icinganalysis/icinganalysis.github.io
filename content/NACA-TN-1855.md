@@ -1,5 +1,5 @@
 Title: NACA-TN-1855   
-Date: 2023-04-16 12:00  
+Date: 2023-05-03 12:00  
 Category: NACA  
 tags: meteorology  
 status: draft  

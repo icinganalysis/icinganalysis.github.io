@@ -1,6 +1,6 @@
 Title: Conclusions of the Meteorology Thread    
 status: draft  
-Date: 2023-04-13 12:00  
+Date: 2023-05-22 12:00  
 Category: NACA  
 
 ### _There was remarkable progress in the three-year span 1946 through 1949._ 
