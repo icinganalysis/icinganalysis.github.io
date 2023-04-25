@@ -77,6 +77,8 @@ resistance-bulb thermometer shielded to eliminate radiation effects
 and direct impact of water. The thermometer was subject to kinetic 
 heating because of the speed of the airplane. Corrections for the 
 kinetic heating were obtained by the procedure outlined in reference 4.  
+
+Reference 4 is [NACA-TN-1393.md]({filename}NACA-TN-1393.md).  
 > 
 > ...
 > 
@@ -90,8 +92,6 @@ values for stratus and stratocumulus clouds are:
 |--------------------------------|------------------|----------------------------------------|
 | 0.8                            | 20               | 15                                     |
 | 0.5                            | 20               | 25                                     |
-
-Reference 4 is [NACA-TN-1393.md]({filename}NACA-TN-1393.md).  
 
 >Examination 
 of table I and figure 1 indicates that these proposed maximum conditions 

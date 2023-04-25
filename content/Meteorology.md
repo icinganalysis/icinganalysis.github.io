@@ -58,7 +58,11 @@ Reviews in this thread:
       <!--
         >  review : [NACA-TN-2738]({filename}NACA-TN-2738.md)  
       -->
-
+    - Conclusions of the Meteorology of Icing Clouds Thread  
+      <!--
+    - [Conclusions of the Meteorology of Icing Clouds Thread]({filename}meteorology%20of%20icing%20clouds%20conclusions.md)  
+      -->
+    
 Several publications by Porter Perkins were included in  
 [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 
 in the "Meteorology of Icing Clouds" section. 
