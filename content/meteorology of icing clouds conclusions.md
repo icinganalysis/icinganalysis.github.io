@@ -279,7 +279,7 @@ The data and recommendations from the NACA-era have held up remarkably well.
 There was remarkable progress in the three-year span 1946 through 1949.  
 Several factors had come together to make that possible. 
 A vital need was recognized. 
-Multiple agencies were coordinated (NACA, Army Air Force, Navy, Weather Bureau, industry, academia). 
+Multiple agencies were coordinated (NACA, Army Air Force, Weather Bureau, industry, academia). 
 Test aircraft with robust ice protection were available (see [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)). 
 [Improved icing instruments]({filename}instruments.md) were being developed. 
 
