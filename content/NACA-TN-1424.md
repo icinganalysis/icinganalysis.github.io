@@ -42,12 +42,12 @@ on the prevention of ice formations on aircraft through the use of
 heat. The present phase of this research is intended to provide a 
 fundamental understanding of the process of thermal ice prevention and 
 thereby promote improvement in the design of thermal ice—prevention
-equipment. The meteorological results of the investigation, up to  
+equipment. The meteorological results of the investigation, up to 
 and including the 1945-46 winter season, have been presented in 
 reference 1. The present report, which may be regarded as a 
 supplement to reference 1, presents the results of additional 
-flight measurements made during the winter of 1946-47. These data  
-include results of flight observations with the XB-24M and XB-25E  
+flight measurements made during the winter of 1946-47. These data 
+include results of flight observations with the XB-24M and XB-25E 
 airplanes operated by the Flight Propulsion Research Laboratory at 
 Cleveland, as well as the C-46 airplane operated by the Ames 
 Aeronuutical Laboratory, Moffett Field, Calif.
@@ -55,13 +55,13 @@ Aeronuutical Laboratory, Moffett Field, Calif.
 >  Appreciation for cooperation in this investigation is extended 
 to United Air Lines, Inc., the U.S. Weather Bureau, and the Air 
 Materiel Command of the Army Air Forces. In particular, Major 
-James Murray, Air Materiel Command, and Mr. Lyle Reynolds, United  
+James Murray, Air Materiel Command, and Mr. Lyle Reynolds, United 
 Air Lines, who were pilot and copilot, respectively, of the
 C-46 airplane, contributed materially to the research program.
 >
 > APPARATUS AND METHOD
 >
->  The equipment and test methods employed in the research of this  
+>  The equipment and test methods employed in the research of this 
 report were identical to those described in reference 1 with the 
 exception of a few changes discussed in the following paragraphs.
 
@@ -90,8 +90,8 @@ in icing clouds.](images%2Fnaca-tn-1424%2FFigure%204.png)
 >   Estimates of the most severe icing conditions likely to be 
  encountered in the course of all-weather transport operations in 
  the United States have been presented in the foregoing section. 
- Data on typical or average icing conditions and an the relative 
- frequency of various values of liquid water content.and drop size 
+ Data on typical or average icing conditions and the relative 
+ frequency of various values of liquid water content and drop size 
  are also of interest.  
    The highest values of liquid water content measured during each 
  of 21 flights in cumulus clouds, 51 flights in layer-type clouds 

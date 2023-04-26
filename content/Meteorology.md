@@ -31,9 +31,7 @@ Reviews in this thread:
     - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
         >  review : [NACA-TN-1393]({filename}NACA-TN-1393.md)   
     - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
-      <!--
         >  review : [NACA-TN-1424]({filename}NACA-TN-1424.md)  
-      -->
     - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  
       <!--
         >  review : [NACA-TN-1793]({filename}NACA-TN-1793.md)    
