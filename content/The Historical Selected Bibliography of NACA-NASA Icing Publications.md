@@ -194,7 +194,7 @@ Links to reviews are included where applicable.
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
-    - Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949.  
+    - Perkins, Porter J., and Millenson, Morton B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949.  
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948.  
     - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948.  
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948.  
@@ -251,7 +251,7 @@ Links to reviews are included where applicable.
         > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
         > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
-    - Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
+    - Gowan, W. H., Jr., and Mulholland, Donald R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
         > review: [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)  
 
 - Performance Penalties  
