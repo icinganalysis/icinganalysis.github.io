@@ -1,7 +1,7 @@
 Title: NACA-TN-3024-revisited  
 Date: 2022-06-03 12:00  
 Category: NACA  
-tags: thermodynamics, evaporation  
+tags: thermodynamics, evaporation, python tools  
 
 > ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
