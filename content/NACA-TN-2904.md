@@ -3,20 +3,20 @@ Date: 2022-03-20 12:00
 Category: NACA
 tags: cylinder
 
-> ###"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."
+### _"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."_  
 
-#"Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds" [^1]
+# "Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds" [^1]
 
-##Summary
+## Summary
 Detailed water drop impingement analysis (independent of prior analysis) is presented.
 
-##Key points
+## Key points
 1.  Detailed water drop impingement analysis (independent of prior analysis) is presented
 2.  Error estimates are detailed.
 3.  Detailed Beta curves are provided.
 4.  A difference from Langmuir and Blodgett for drop size distributions calculations is noted.
 
-##Abstract
+## Abstract
 > Evaluation of the rotating multicylinder method for the measurement
 of droplet-size distribution, volume-median droplet size, and liquid-water 
 content in clouds shoved that small uncertainties in the basic
@@ -41,18 +41,18 @@ in the determination of the volume-median droplet size are possible if
 the flight speed is 200 miles per hour and the actual volume-median
 droplet diameter in the cloud is 30 microns.
 
-##Discussion
+## Discussion
 
 The online pdf available for this publication is one of the best reproductions in the NACA series, 
 with clear graphics. 
 The 22 by 17 inch version of cylinder water catch efficiency vs K in Figure 6 is beautiful, 
-and this on-line format cannot do full justice to it 
+and this online format cannot do full justice to it 
 (go download the pdf and view it on a large screen). 
 And if you can ever view the original print it is even better.
 
 ![Cylinder collection efficiency Figure 6 of NACA-TN-2904](images/naca-tn-2904/Figure6.png)
 
-###Detailed water drop impingement analysis
+### Detailed water drop impingement analysis
 
 A differential analyzer was used to calculate the water drop trajectories. 
 Appendix A of NACA-TN-2904 provides much detail. 
@@ -93,7 +93,7 @@ its application does not permit wide tolerances in the theoretical data.
 Accuracy was emphasised, and the final results are slightly different than those in [^2]. 
 But it is not clear from the data presented in NACA-TN-2904 that it is more accurate than [^2]. 
  
-###Error estimates
+### Error estimates
 
 The values in Figure 14b agree with this statement from the "Summary", 
 which shows a "possible error" of 70% for the case given:
@@ -111,7 +111,7 @@ which seems large compared to other error estimates.
 Also, the errors have to be in a worst-case stack-up to achieve the 70% difference value. 
 Thus, I would not consider this value to be "typical".
 
-###Beta curves
+### Beta curves
 
 This includes detailed Beta (local impingement efficiency) curves, 
 which may be used to develop a Beta curve for a specific condition. 
@@ -154,7 +154,7 @@ The Beta_o values do not agree well between sources:
 | 10000 | 3.24 | _0.68_  | 0.580                 |
 | 10000 | 16   | 0.880   | 0.832                 |
 
-###A difference from Langmuir and Blodgett for drop size distributions calculations
+### A difference from Langmuir and Blodgett for drop size distributions calculations
 
 As noted in NACA-TN-2904, for drop size distributions Langmuir and Blodgett [^2] used an approximation, 
 using the k\*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
@@ -180,7 +180,7 @@ And even with data from the post-NACA era it is difficult to determine that one 
 substantially more accurate than the other. 
 This will be the subject of a future post. 
 
-##Citations
+## Citations
 
 NACA-TN-2904 cites 15 publications:  
 
@@ -224,11 +224,11 @@ NACA-TN-2904 is cited 19 times in the NACA Icing Publications Database [^4]:
 
 An online search [^5] found 54 citations of NACA-TN-2904.
 
-###Related 
+### Related 
 
-NACA-TR-1215 [^6] "supersedes" NACA-TN-2904. We will see what that means when we review NACA-TR-1215.
+NACA-TR-1215 [^5] "supersedes" NACA-TN-2904. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
-##Notes:  
+## Notes:  
 [^1]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^2]:

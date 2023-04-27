@@ -1,22 +1,22 @@
 Title: A Langmuir B drop size distribution is (almost) a normal distribution   
 Date: 2022-03-14 12:00  
-Category: python tools
-tags: cylinder
+Category: python tools  
+tags: cylinder, python tools  
 
-> ###"Upon comparing this chart with Langmuir's tables (reference 7), it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]
+### _"Upon comparing this chart with Langmuir's tables, it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]_  
 
-##Summary  
+## Summary  
 The Langmuir B drop size distribution is almost a normal distribution.
 
-##Key points
+## Key points
 1. The Langmuir B drop size distribution is almost a normal distribution.  
 2. Perhaps it was originally intended that it be exactly a normal distribution.
 3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
 4. The other Langmuir distributions (C, D, E) do not fit a normal distribution as well.
 
-##Discussion
+## Discussion
 
-###Normal drop size distributions
+### Normal drop size distributions
 
 [Normal distributions](https://en.wikipedia.org/wiki/Normal_distribution) show up many places in nature, 
 so it is not surprising that drop sizes in clouds can approximate a normal distribution.  
@@ -125,9 +125,9 @@ A significant portion of the LWC has negative drop sizes with the broader normal
 
 The code producing the normal fit charts and the comparison tables is available in the file "NACA-TN-2708.py" [^8]
 
-You may find a more general discussion of [NACA-TN-2708]({filename}NACA-TN-2708.md) 
+You may find a more general discussion of NACA-TN-2708 in the review [NACA-TN-2708]({filename}NACA-TN-2708.md). 
 
-##Notes:
+## Notes:
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 [^2]:

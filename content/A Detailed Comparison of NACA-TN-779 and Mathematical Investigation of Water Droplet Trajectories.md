@@ -1,34 +1,34 @@
 Title: A Detailed Comparison of Water Drop Impingement Calculations    
 Date: 2022-01-25 12:00  
-Category: NACA
-tags: cylinder
+Category: NACA  
+tags: cylinder, python tools  
 
-> ###"The discrepancies are of the magnitude to be expected from ... the step by step integration"  
+### _"The discrepancies are of the magnitude to be expected from ... the step by step integration"_  
 
-##Summary
+## Summary
 Water drop impingement calculations on a cylinder from 
 "Mathematical Investigation of Water Droplet Trajectories" [^1]
 and NACA-TN-779 [^2] are compared.
 
-##Key Points
+## Key Points
 1. There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.
 2. When the conditions are revised to match, the comparison with NACA-TN-779 data improves.
 
-##Discussion
+## Discussion
 
-###NACA-TN-779
+### NACA-TN-779
 
-In NACA-TN-779, the water drop impingement on a cylinder 12 inch in diameter, with an airspeed of 200 mph, was analyzed. 
+In [NACA-TN-779]({filename}NACA-TN-779.md), the water drop impingement on a cylinder 12 inch in diameter, 
+with an airspeed of 200 mph, was analyzed. 
 The altitude was not noted. Water drop diameters from 0.002 inch (about 8 micrometer) to 0.1 inch 
 (about 4000 micrometer) were considered, as shown below.
 ![Swept Area](images/naca-tn-779/tn-779-area.png "Swept area cleared of drops")
 
 The “swept area of cleared drops” represents what fraction of the water drops in the 
 forward projected area of the cylinder impinge on the cylinder. 
-In more modern terms, this is the total water impingement efficiency, Em, of reference [^1].  
+In more modern terms, this is the total water impingement efficiency, Em, of reference [^1].
 
-
-###Comparison to NACA-TN-779
+### Comparison to NACA-TN-779
 
 "Mathematical Investigation of Water Droplet Trajectories" includes a comparison to the NACA-TN-779 data 
 ("Kantrovitz" [sic] in Table IV(a)). (see [^1] for an explanation of terms such as φ)
@@ -54,12 +54,12 @@ at conditions that do not correspond.
 For φ = 16000 the Em value is 0.47.
 ![Figure 2](/images/aaf-tr-5418/figure_2_lines.png)
 
-###Correlations Implementation
+### Correlations Implementation
 
 "Mathematical Investigation of Water Droplet Trajectories" [^1] has equations for correlations of the values in Figure 2. 
 Those were implemented in a computer program [^3].
 
-###Conditions Corresponding to NACA-TN-779
+### Conditions Corresponding to NACA-TN-779
 
 When conditions corresponding to NACA-TN-779 conditions are used, the comparison improves. 
 To match conditions well, a value of φ = 6000 is used.
@@ -72,7 +72,7 @@ or perhaps values of the air properties. Nonetheless, there is a fair match.
 
 The python code used to produce the figure is available in the file "naca-tn-779.py". [^4]
 
-##Notes:
+## Notes:
 [^1]:
 [NACA-TN-779]({filename}/NACA-TN-779.md)
 [^2]:  

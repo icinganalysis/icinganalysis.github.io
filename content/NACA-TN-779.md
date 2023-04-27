@@ -3,21 +3,20 @@ Date: 2022-01-20 12:00
 Category: NACA
 tags: cylinder
 
-> ###"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing ... around a circular cylinder were made"  
+### _"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing ... around a circular cylinder were made"_  
 
-#“Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"
+# “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"
 
-
-##Summary 
+## Summary 
 
 Water drop impingement on a cylinder is calculated.
 
-##Key points
+## Key points
 
 1. The effect of aerodynamic heating is predictable
 2. The impingement of water drops on a cylinder is calculated
 
-##Abstract
+## Abstract
 
 >Two topics of interest to persons attempting to apply 
 the heat method of preventing ice formation on aircraft 
@@ -31,10 +30,10 @@ in an air stream around a circular cylinder are given.
 From these calculations, information is obtained on the 
 percentage of the swept area cleared by drops.  
 
-##Discussion
+## Discussion
 
 The first topic experimentally confirms the theory of the aerodynamic heating effect.  This concept will be used extensively in subsequent works (although they may not necessarily cite this technical note).  
-    ![Heating Effect text:  The validity of the preceding 'assumption can be examined for cases where the boundary layer is thin.
+![Heating Effect text:  The validity of the preceding 'assumption can be examined for cases where the boundary layer is thin.
 The total energy per unit mass of an element of mass of the air is u**2/2+J*cp*T, 
 where u is the velocity in the direction of flow;
 J, the mechanical equivalent of heat;
@@ -66,7 +65,7 @@ The “swept area of cleared drops” represents what fraction of the water drop
 forward projected area of the cylinder impinge on the cylinder. 
 In more modern terms, this is the total water impingement efficiency, E, of reference [^6].  
 
-##Citations
+## Citations
 
 NACA-TN-779 cites 6 works, 3 of them are NACA publications.
 
@@ -87,26 +86,26 @@ NACA-TN-779 is cited 7 times in the NACA Icing Publications Database [^7]. All o
 - Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
 
-##Related Works
+## Related Works
 
-There were several later studies of the aerodynamic heating specifically for a cylinder (without ice) in [^8], [^9], and [^10].
+There were several later studies of the aerodynamic heating specifically for a cylinder (without ice) in [^8], [^9], and [^10].  
 
-##Notes:
-[^1]: Kantrowitz, Arthur, Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940.
+## Notes:
+[^1]: Kantrowitz, Arthur: Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940.
 [^2]:
 Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
 [^3]:
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
 [^4]:
-Albrecht, F. Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.
+Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.
 [^5]:
 Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
 [^6]: Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Icing Handbook. Vol. 1, DOT/FAA/CT-88/8-1. 1991.  [Volume 1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]:
-Eckert, E., and Weise, W., The Temperature of Unheated Bodies in a High-Speed Gas Stream, NACA-TM-1000, 1941.
+Eckert, E., and Weise, W.: The Temperature of Unheated Bodies in a High-Speed Gas Stream, NACA-TM-1000, 1941.
 [^9]:
-Eckert, E., and Livingood, John N. B.: Method for Calculation of Heat Transfer in Laminar Region of Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TN-2733, June 1, 1952.
+Eckert, E., and Livingood, John N. B.: Method for Calculation of Heat Transfer in Laminar Region of Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TN-2733, June 1, 1952.  
 [^10]:
-Eckert, E., and Livingood, John N. B.: Method for Calculation of Laminar Heat Transfer in Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TR-1118, Jan. 1, 1953.
+Eckert, E., and Livingood, John N. B.: Method for Calculation of Laminar Heat Transfer in Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TR-1118, Jan. 1, 1953.  

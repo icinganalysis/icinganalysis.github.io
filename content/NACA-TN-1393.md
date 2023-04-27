@@ -67,7 +67,7 @@ gram per cubic meter and an average drop diameter of 10 microns.
 | Assumed density of ice                                       | 0.08 g/cm^3               | 2.5                         | 2                           |
 | Timing exposure                                              | 1.5 sec                   | 2.4                         | 0                           |
 | True airspeed                                                | 2.5                       | 1.5                         | 0                           |
-| Misculaneous errors                                          | ----                      | 1.0                         | 1                           |
+| Miscellaneous errors                                         | ----                      | 1.0                         | 1                           |
 | Error due to using "C" distribution for unknown distribution | ----                      | up to 3                     | up to 3                     |
 
 | Total error                              | Water content (percent) | Drop diameter (percent) |

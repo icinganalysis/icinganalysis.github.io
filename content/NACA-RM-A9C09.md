@@ -3,7 +3,7 @@ Date: 2022-02-22 12:00
 Category: NACA
 tags: cylinder
 
-### "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
+### _"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."_  
 
 # "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
 [^1]
@@ -32,7 +32,7 @@ duration of a single reading, and advantages and disadvantages
 associated with their use.  Recommendations are presented for the 
 continued research and development of icing meteorological instruments. 
 
-##Discussion
+## Discussion  
 
 Nine instruments were assessed:  
 - Rotating Multicylinders  
@@ -100,7 +100,7 @@ data should be continued.
 >  4. A reliable method for the measurement of drop-size distribution 
 should be developed.
 
-##Citations
+## Citations
 
 NACA-RM-A9C09 cites 15 publications:
 
@@ -128,6 +128,11 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^3]:
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.
 
 An online search [^4] found NACA-RM-A9C09 cited 13 times.  
+
+## Related  
+
+The other instruments are reviewed in the Meteorological Instruments thread 
+[NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md).  
 
 ## Notes:
 [^1]:

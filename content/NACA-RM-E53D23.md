@@ -3,21 +3,21 @@ Date: 2022-03-22 12:00
 Category: NACA  
 tags: cylinder, instruments  
 
-> ###"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"  
+### _"The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft"_  
 
-#"Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"[^1]
+# "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"[^1]
 
 ![Figure 1 - Rotating mulicylinder set extended through top of airplane fuselage.](images/naca-rm-e53d23/Figure1.png)
 
-##Summary 
+## Summary 
 Detailed procedures for the use of multicylinders are described.
 
-##Key points  
+## Key points  
 1. Detailed procedures for the in-flight use of multicylinders are described.
 2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.
 3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
 
-##Abstract
+## Abstract
 
 >  The rotating multicylinder method for in-flight determination of
 liquid-water content, droplet size, and droplet-size distribution in
@@ -26,9 +26,9 @@ required, the technique of obtaining data in flight, and detailed methods
 of calculating the results, including necessary charts and tables,
 are presented.
 
-##Discussion
+## Discussion
 
-###Procedures
+### Procedures
 
 A set of rotating cylinders were constructed for use in flight. 
 A picture of the cylinders deployed on an aircraft is shown above. 
@@ -56,7 +56,7 @@ for comparable cylinders and comparable flight and atmospheric conditions
 
 > These basic steps are discussed in detail in subsequent sections.
 
-###Analysis
+### Analysis
 
 The impingement tables from the recently published [NACA-TN-2904]({filename}NACA-TN-2904.md) [^2] 
 were used in the analysis of the measured cylinder data. 
@@ -99,7 +99,7 @@ Differences in analysis method details can drive MVD and LWC differences
 in the of 5% to 10%.  This is smaller than the differences drive by possible 
 +/-5% mass errors analyzed in NACA-TN-2904 (inducing an MVD error of 10% and greater).
 
-##Conclusions
+## Conclusions
 
 The limitations of the multicylinder method were summarized in the Conculsions:
 
@@ -143,7 +143,7 @@ mountain is contained in reference 4.
 "the limitations of the ice accretion rate caused by kinetic heating and heat of fusion" 
 will be discussed in an upcoming review of NACA-TR-1215.
 
-##Citations
+## Citations
 
 NACA-RM-E52D23 cites 6 publications:
 
@@ -164,8 +164,7 @@ NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^5]:
 
 An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^6]. 
 
-
-##Notes:
+## Notes:
 [^1]: Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  

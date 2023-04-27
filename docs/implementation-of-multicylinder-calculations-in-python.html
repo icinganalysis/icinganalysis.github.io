@@ -36,8 +36,8 @@
                 Published: Thu 27 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.745957-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T07:58:18.150599-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -48,11 +48,9 @@
         <!--</address>-->
         <!---->
 <!--<p>In <a href="/category/python-tools.html">python tools</a>.</p>-->
-<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> </p>-->
+<!--<p>tags: <a href="/tag/cylinder.html">cylinder</a> <a href="/tag/python-tools.html">python tools</a> </p>-->
 
-</footer><!-- /.post-info -->      <blockquote>
-<h3>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-</blockquote>
+</footer><!-- /.post-info -->      <h3><em>"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em></h3>
 <h2>Summary</h2>
 <p>The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. </p>
 <h2>Key points</h2>
@@ -62,11 +60,11 @@
 </ol>
 <h2>Discussion</h2>
 <h3>Manual method of drop size analysis</h3>
-<p>By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.</p>
-<p>Some typical multicylinder instruments (from <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>):
-<img alt="Multicyllnder cloud meters used in comparative study at
+<p>By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined. </p>
+<p>Some typical multicylinder instruments (from NACA-TN-2708 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>):
+<img alt="Multicylinder cloud meters used in comparative study at
 Mount Washington Observatory" src="images/naca-tn-2708/figure_1.png"></p>
-<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> provides an example of the mutlicylinder calculations method in 
+<p>"Mathematical Investigation of Water Droplet Trajectories" <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> provides an example of the multicylinder calculations method in 
 the section "Example of the Application of the D.A. Data to Experimental Data".</p>
 <blockquote>
 <p>The method has been revised as a result of the work done with the D.A.
@@ -141,8 +139,8 @@ and the air viscosity can be calculated, the value of drop radius a can be calcu
 <p>From Eq. (12) we obtain a = 8.33μ.</p>
 </blockquote>
 <p>It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
-Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. </p>
-<h1>Code implementation of the multicylinder drop size analysis</h1>
+Estimating the accuracy of the multicylinder method will be a recurring theme in the publications on meteorology and icing instruments. </p>
+<h3>Code implementation of the multicylinder drop size analysis</h3>
 <p>Fortunately, this laborious process is implemented in the file "langmuir_blodgett_multicylinder.py" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. 
 The determination of the best fit Κφ value and distribution type is also automated. 
 When the drop size is calculated with the automated process, the MVD calculated was 16.5 micrometer, 

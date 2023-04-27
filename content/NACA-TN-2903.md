@@ -3,17 +3,17 @@ Date: 2022-03-20 12:00
 Category: NACA
 tags: cylinder
 
-> ###"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."
+### _"For most practical problems involving measurements of droplet impingement on cylinders, the compressibility effect may be ignored."_  
 
-#"Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"
+# "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"
 
-##Summary
+## Summary
 The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible".
 
-##Key points
+## Key points
 1.  The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"
 
-##Abstract
+## Abstract
 > The trajectories of water droplets in a compressible-air flow field
 around a cylinder were computed with a mechanical analog. The results of
 the calculations at approximately the flight critical Mach number were
@@ -24,7 +24,7 @@ The results obtained with the cylinder were extended to airfoils. This
 extension is possible because the incompressible flow fields of both
 cylinders and airfoils are similarly altered by compressibility.
 
-##Discussion
+## Discussion
 
 This is one of the shortest reviews, as the conclusion was quite clear. 
 However, there was a significant amount of computational work on a differential analyzer ("mechanical analog") 
@@ -60,7 +60,7 @@ A table was included summarizing results at 10,000 ft. altitude:
 It is noted that:
 > The difference in the trajectories caused by the correction [for compressibility] was less than the probable error of the analog.
 
-###Conclusions
+### Conclusions
 
 > The following conclusions are based on the calculation of droplet
 trajectories around a cylinder in both an incompressible flow field and
@@ -74,7 +74,7 @@ ignored.
 > 2. The fact that the effect of compressibility on the impinging
 droplet trajectories is negligible also applies to airfoils.
 
-##Citations
+## Citations
 
 NACA-TN-2903 cites 8 publications:
 - Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
@@ -103,11 +103,11 @@ NACA-TN-2903 is cited 13 times in the NACA Icing Publications Database [^3]:
 
 An online search [^4] found 26 citations of NACA-TN-2903.
 
-###Related 
+### Related 
 
-NACA-TR-1215 [^5] "supersedes" NACA-TN-2903. We will see what that means when we review NACA-TR-1215.
+NACA-TR-1215 [^5] "supersedes" NACA-TN-2903. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
-##Notes:  
+## Notes:  
 [^1]: 
 Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
 [^2]: 

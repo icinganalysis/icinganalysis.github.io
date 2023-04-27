@@ -1,28 +1,28 @@
 Title: Implementation of multicylinder calculations in Python   
 Date: 2022-01-27 12:00  
 Category: python tools
-tags: cylinder
+tags: cylinder, python tools
 
-> ###"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]
+### _"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]_  
 
-##Summary  
+## Summary  
 The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. 
 
-##Key points
+## Key points
 1. A manual method of multicylinder calculation is illustrated.
 2. The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"
 
-##Discussion
+## Discussion
 
-###Manual method of drop size analysis
+### Manual method of drop size analysis
 
-By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined.
+By measuring the differential rates of ice collection on cylinders of different sizes the drop median volumetric diameter (MVD) can be determined. 
 
-Some typical multicylinder instruments (from [^1]):
-![Multicyllnder cloud meters used in comparative study at
+Some typical multicylinder instruments (from NACA-TN-2708 [^1]):
+![Multicylinder cloud meters used in comparative study at
 Mount Washington Observatory](images/naca-tn-2708/figure_1.png)
 
-"Mathematical Investigation of Water Droplet Trajectories" [^2] provides an example of the mutlicylinder calculations method in 
+"Mathematical Investigation of Water Droplet Trajectories" [^2] provides an example of the multicylinder calculations method in 
 the section "Example of the Application of the D.A. Data to Experimental Data".
 
 > The method has been revised as a result of the work done with the D.A.
@@ -101,9 +101,9 @@ and the air viscosity can be calculated, the value of drop radius a can be calcu
 > From Eq. (12) we obtain a = 8.33μ.
 
 It seems rather optimistic to report the drop radius to one one-hundredth of a micrometer. 
-Estimating the accuracy of the multicyinder method will be a recurring theme in the publications on meteorology and icing instruments. 
+Estimating the accuracy of the multicylinder method will be a recurring theme in the publications on meteorology and icing instruments. 
 
-#Code implementation of the multicylinder drop size analysis
+### Code implementation of the multicylinder drop size analysis
 
 Fortunately, this laborious process is implemented in the file "langmuir_blodgett_multicylinder.py" [^3]. 
 The determination of the best fit Κφ value and distribution type is also automated. 
@@ -121,7 +121,7 @@ When the more technically correct "unique Κφ value for each drop size bin" met
 
 I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.
 
-##Notes:
+## Notes:
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 [^2]:  

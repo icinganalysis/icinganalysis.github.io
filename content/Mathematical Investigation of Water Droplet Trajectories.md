@@ -48,26 +48,27 @@ taken under other conditions, such as those at the attitude of Mt. Washington [N
 ## Discussion
 
 This is not a NACA publication, but it is an important link in the chain of NACA citations. 
-It is an example of important, contemporary work done outside of NACA.
+It is an example of important, contemporary work done outside NACA.
 This is the most cited icing publication that I know of (700+ citations on scholar.google [^4]).
 This reference merits much study, 
 but at this time I will limit the discussion to the pertinent points in the NACA citation chain. 
- 
 
 ### A note on publications
 This work was published three times, in [^1], [^2], and [^3] (with slightly different titles). 
 The first was a preliminary version, and the second was the final version, which is more extensive. 
-The third appears to be substantially similar to [^2], with a slight change in title.
+The third appears to be substantially similar to [^2], with a slight change in title. 
 Many citations are specifically for [^3].
 
-The images in an online version of [^3] are of poor quality, so selected text and tables were transcribed herein.
+The images in an online version of [^3] are of poor quality, so selected text and tables were transcribed herein. 
 
 ### Drop size distribution
 
 Table IX defines "assumed" water drop size distributions. 
 Reference [^5] clarifies that the "B" distribution comes from, apparently, 
 a single case of drop size measurement in [^6] (apparently by an oil slide method). 
-A future post will examine the data more thoroughly. 
+The post ["A Langmuir B distribution is (almost) a normal distribution"
+]({filename}A%20Langmuir%20B%20distribution%20is%20almost%20a%20normal%20distribution.md) 
+will examine the data more thoroughly. 
 
 For an assumption, these distributions have taken hold for more than 75 years, 
 and are still cited in recent publications 
@@ -104,7 +105,6 @@ any point characterized by θ may thus be defined by
 deposition over the projected area of the cylinder. For this case  
 
      Ε = Y,  (28)  
-
 
 For more current definitions, see [^9].
 
@@ -170,10 +170,11 @@ are different.
 ### Multi-cylinder icing instruments
  
 The water drop collection efficiency E for a given icing condition is a function of water drop size.
-If all of the water freezes, then the mass gathered on different size cylinder can be measured 
+If all the water freezes, then the mass gathered on different size cylinder can be measured 
 and the water drop median size and size distribution inferred.
 
-The "if all the water freezes" assumption will be examined in a future post.
+The "if all the water freezes" assumption will be examined in the 
+[Icing Thermodynamics Thread]({filename}thermodynamics.md).  
 
 > Example of the Application of the D.A. Data to Experimental Data:  
 In the early work that was done before the D.A. study was made, a method
@@ -210,14 +211,13 @@ However, as this is in a section label "φ = 0", and the reference [^8] data is 
 this is perhaps not the most meaningful comparison. 
 See [A Detailed Comparison of Water Drop Impingement Calculations]({filename}/A Detailed Comparison of NACA-TN-779 and Mathematical Investigation of Water Droplet Trajectories.md) for a more detailed comparison.
 
-
 ## Citations
 
 This publication has few formal, conventional citations. 
 However, some are mentioned only in passing, such as "Cunningham's data".
 I have inferred what was meant by these and resolved them to conventional citations.
 
-Note that some of the data from Cunningham and Glauert may be found in [^5].
+Note that some data from Cunningham and Glauert may be found in [^5].
 
 - Wien, W., and Harms, F., eds.: Handbuch der Experimentalphysik. Teil 4, Bd. 2, Akademische Verdagsgesellschaft M.B.H. (Leipzig), 1932.
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.

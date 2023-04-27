@@ -3,20 +3,20 @@ Date: 2022-03-08 12:00
 Category: NACA
 tags: cylinder, instruments
 
-###"...At low airspeeds and with large cylinders, the determination should be relatively good."
+### _"...At low airspeeds and with large cylinders, the determination should be relatively good."_  
 
-#"Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" [^1]
+# "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" [^1]
 
-##Summary
+## Summary
 Multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
 but poor agreement for the distribution type.
 
-##Key points
+## Key points
 1. Three multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
 but poor agreement for the distribution type
 2. The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)
 
-##Abstract
+## Abstract
 
 > Three multicylinder cloud meters, fundamentally similar but differing 
 in important details, were compared in use at the Mount Washington
@@ -39,9 +39,9 @@ of one of the correction-factor graphs heretofore used. The assumption
 of constant ice density in deriving cylinder size was found to be permissible 
 for cylinders 1 inch or more in diameter.
 
-##Discussion
+## Discussion
 
-###Instrument comparisons
+### Instrument comparisons
 
 Three multicylinder instruments were compared over several icing conditions measured at Mount Washington 
 (a weather observatory situated at the top of a mountain). The instruments were similar, but not identical, 
@@ -126,7 +126,7 @@ Successive curves are displaced laterally by amounts indicated on scale along th
 
 These are relatively small adjustments to the Langmuir and Blodgett values. 
 
-##Citations
+## Citations
 
 NACA-TN-2708 cites 17 publications:
 
@@ -153,9 +153,9 @@ NACA-TN-2708 is cited 2 times in the NACA Icing Publications Database [^5]:
 - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
 
-An online search [^4] found 5 more citations, mostly in meteorological publications.
+An online search [^4] found 5 more citations, mostly in meteorological publications.  
 
-##Notes:  
+## Notes:  
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 [^2]:

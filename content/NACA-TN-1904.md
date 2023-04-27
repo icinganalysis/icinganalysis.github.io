@@ -3,16 +3,16 @@ Date: 2022-03-01 12:00
 Category: NACA
 tags: cylinder, natural icing
 
-> ### "... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"  
+### _"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"_  
 
 # "Observations of Icing Conditions Encountered in Flight During 1948" [^1]
 
-##Key points
+## Key points
 
 1. The average liquid water content varies over distance traveled in icing.
 2. The value of the multicylinder method for determining drop size distributions is questioned.  
 
-##Abstract
+## Abstract
 
 >    Meteorological data from flight observations in icing conditions
 during the first 5 months of 1948 are presented. A total of 335
