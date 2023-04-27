@@ -3,21 +3,21 @@ Date: 2022-06-06 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_
+### _"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_
 
-#NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" [^1] 
+# NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" [^1] 
 
 ![Figure 2](images/naca-tn-313/Figure2.png)  
-##Summary  
+## Summary  
 Ice shapes are recorded in flight tests in natural icing conditions.  
 
-##Key Points  
+## Key Points  
 1. Types of ice formations are noted, clear ice (possibly SLD) and rime ice.  
 2. The atmospheric conditions for the types of ice are noted.  
 3. "Oily surface" icephobic substances are tested.  
 4. Procedures for avoiding the most hazardous icing conditions are provided.
 
-##Abstract  
+## Abstract  
 
 >This report describes the atmospheric conditions under
 which ice is deposited upon the exposed parts of airplanes in flight.
@@ -25,7 +25,7 @@ It identifies the formation which is found under different conditions,
 and describes some studies of preventative
 means together with recommendations for avoiding the consequences of the formation.
 
-##Discussion  
+## Discussion  
 
 This is an almost "lost gem" of the NACA-era (cited only 10 times).  
 It features:  
@@ -221,7 +221,7 @@ clouds, or fog, this inversion may be expected as a matter of more frequent occu
 
 ![Figures 5 and 6](images/naca-tn-313/Figures5and6.png)  
 
-###Icephobics tests
+### Icephobics tests
 
 Several potentially protective substances were tested. 
 
@@ -243,7 +243,7 @@ These drops strike the oily
 or greasy material and are, to a certain extent, embedded therein and held, 
 so that they freeze before they have had an opportunity to roll off.
 
-##Conclusions  
+## Conclusions  
 
 >Ice, in the true sense, will only form in a zone of temperatures 
 of unknown, but narrow, width below 32°F when clouds, fog,
@@ -314,7 +314,7 @@ and while temperature inversion may always be expected to complicate the situati
 a selection of temperature by a change
 of altitude should tend to eliminate the hazard.
 
-##Citations  
+## Citations  
 
 NACA-TN-313 cites no references. 
 
@@ -324,10 +324,9 @@ NACA-TN-313 is cited by 2 references in the [NACA Icing Publications Database]({
 
 An online search [^3] found NACA-TN-313 cited by 10 references. 
 
-##Related  
+## Related  
 
 NACA-TN-293 [^4] describes earlier work by the same authors. 
-It is a "lost" publication, as I could find no citations of it. 
 
 One of the 10 references citing NACA-TN-313 was AIAA 2003-21 [^5], 
 which I credit with the post NACA-era revival of interest in NACA-TN-313, 
