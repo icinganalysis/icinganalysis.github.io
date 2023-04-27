@@ -2,12 +2,12 @@ Title: Ice Shapes and Their Effects
 Date: 2022-06-04 12:00  
 Category: NACA  
 
-###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]
+### _"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]
 
 ![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
 >from NACA-TN-1598 [^2]
 
-#Ice Shapes and Their Effects Thread
+# Ice Shapes and Their Effects Thread
 
 This thread will cover ice shapes and the aerodynamic effects of the ice.
 
@@ -15,7 +15,7 @@ This will primarily cover ice shapes on unprotected surfaces.
 
 There are additional publications on ice shapes for deicing systems and propellers that will not be reviewed here. 
 
-##Publications
+## Publications
 
 ###[NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"]({filename}NACA-TN-313.md)  
 >Ice shapes are recorded in flight tests in natural icing conditions.  
@@ -46,8 +46,7 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ###[Conclusions of the "Ice Shapes and Their Effects" thread]({filename}conclusions_of_the_ice_shapes_thread.md)  
 
-
-##Notes  
+## Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
 [^2]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
 
