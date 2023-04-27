@@ -389,7 +389,7 @@ Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whit
 https://software.nasa.gov/software/LEW-18573-1,  
 https://ntrs.nasa.gov/citations/19990021235  
 [^6]: Anon.:"Aircraft Ice Protection", FAA AC 20-73A, https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf  
-[^7]: R. Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.  
+[^7]: Jeck, Richard K: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.  
 [^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
 [^9]: 
