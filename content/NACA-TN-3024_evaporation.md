@@ -3,16 +3,16 @@ Date: 2022-06-03 12:00
 Category: NACA  
 tags: thermodynamics, evaporation, python tools  
 
-> ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
+### _"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
-#"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations [^1]
+# "Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations [^1]
 
 ![Figure 1. Motional relationships among air-stream, droplet, and obstacle.](images/naca-tn-3024/Figure1.png)  
 
-##Summary
+## Summary
 Less that 1% of drops evaporate approaching an obstacle for most cases.
 
-##Key points
+## Key points
 
 1. Equations are detailed for the evaporation of water drops approaching an obstacle.  
 2. The equations were coded into a python program.  
@@ -22,7 +22,7 @@ Less that 1% of drops evaporate approaching an obstacle for most cases.
 [NACA-TN-3024]({filename}NACA-TN-3024.md) was reviewed previously, 
 herein we will concentrate on comparing our own code to the results in NACA-TN-3024.
 
-##Abstract
+## Abstract
 
 > When a closed body or a duct envelope moves through the atmosphere,
 air pressure and temperature rises occur ahead of the body or, under ram
@@ -61,8 +61,7 @@ exceptions will occur by reason of failure of very small droplets (moving
 along stagnation lines) to impinge upon obstacle surfaces. In such
 cases, the droplets will evaporate completely.  
 
-    
-##Discussion
+## Discussion
 
 >The general literature in the field of evaporation from droplets is
 extensive, but few studies of the particular problem of droplets approaching 
@@ -168,7 +167,6 @@ However, either result meets the "less than 1 percent" LWC change.
 
 ![Comparison to Figure 9 LWC change values](images/naca-tn-3024/naca_tn_3024_lwc_change.png)  
 
-
 The results above were for a water drop that impinges on the obstacle. 
 NACA-TN-3024 considers cases where the drop never impinges:  
 >Evaporative losses may be as high as several percent in the case
@@ -198,7 +196,7 @@ The heat and mass transfer coefficients are inversely proportional to drop diame
 so those values will increase as the drop evaporates further.
 So, the prediction that the drop will eventually evaporate is supported if it does not impinge. 
 
-##Conclusions
+## Conclusions
 
 NACA-TN-3024 stated that the "quasi-static" calculations set an upper bound:
 
@@ -217,7 +215,7 @@ I was surprised at how what I had to implement in the python code was just "plum
 referenced equations and to do the integration, and not new or different equations. 
 The key difference in 1953 was the "unavailability of a suitable high-speed calculator."
 
-##Citations
+## Citations
 
 NACA-TN-3024 cites 16 publications:  
 
@@ -245,7 +243,7 @@ NACA-TN-3024 is cited 2 times by publications in the NACA Icing Publications Dat
 
 NACA-TN-3024 is cited 6 times in the literature [^5].
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953  
