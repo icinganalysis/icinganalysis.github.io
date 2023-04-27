@@ -3,23 +3,23 @@ Date: 2022-04-04 12:00
 Category: NACA  
 tags: cylinder  
 
-> ##"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]
+## _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
 
-#Conclusions of the Cylinders Thread 
+# Conclusions of the Cylinders Thread 
 
-##Summary  
+## Summary  
 Data from the post-NACA era are used to resolve open questions 
 
-##Key points
+## Key points
 1. The Cylinders thread is summarized
 2. Post-NACA era data is used to resolve some open questions.
 3. NACA era data that are still used today are summarized
 
-##Discussion
+## Discussion
 
-###Review of the Cylinders thread so far
+### Review of the Cylinders thread so far
 
 In the Cylinders thread, we saw:
 
@@ -40,7 +40,7 @@ In the Cylinders thread, we saw:
 
 And several programs in the Python programming language are available to reproduce the results in several cases [^2]. 
 
-##Open questions
+## Open questions
 
 We will look at some data from the post-NACA era to help resolve these questions. 
 
@@ -48,9 +48,9 @@ We will look at some data from the post-NACA era to help resolve these questions
 2. the accuracy of the multicylinder method
 3. How representative are Langmuir drop size distributions of natural and artificially produced drop size distributions?
 
-##Post-NACA era data
+## Post-NACA era data
 
-###NASA-CR-4257 [^4]
+### NASA-CR-4257 [^4]
 
 This reference certainly merits a more complete review, but for now we will settle for a summary. 
 
@@ -69,7 +69,7 @@ Two cases were measured, at 20.36 and 16.45 MVD.
 
 Detailed drop size distributions were measured using a "Fiber Optics Particle Sizing System". 
 30 bin data were published 
-(although some of the larger drop size bins had zero water, 
+(although some larger drop size bins had zero water, 
 so they are effectively 23 to 27 bin data). 
 They were compared to a Langmuir D distribution.
 (Nozzle pressure ratios corresponding to the cases above).
@@ -78,7 +78,7 @@ They were compared to a Langmuir D distribution.
 
 ![Figure E6](images/nasa-cr-4257/FigureE6_pr0_8_rot.png)
 
-###LEWICE [^5]
+### LEWICE [^5]
 
 This reference also certainly merits a more complete review, but for now we will settle for a summary. 
 
@@ -92,7 +92,7 @@ and seeing where they impinge (not unlike the methods in NACA-TN-779, Langmuir-B
 
 We will use it to get calculated water impingement rate values to compare to other data.
 
-###Comparison of impingement calculation methods
+### Comparison of impingement calculation methods
 
 We can use the detailed drop distribution data from NASA-CR-4257 to calculate water catch rate curves on the cylinder. 
 
@@ -132,7 +132,7 @@ I would like to see more impingement data to determine it with more confidence.
 There is more cylinder test data that I am aware of, but as ice shapes, 
 not direct impingement measurements, so the question may be not completely resolved. 
 
-###Multicylinder method measurement accuracy
+### Multicylinder method measurement accuracy
 
 Alas, cylinders of different diameters were not included in NASA-CR-4257. 
 However, three different cylinder diameters were included in NACA-TN-3338. 
@@ -200,7 +200,7 @@ at least over the range of cylinder sizes used (2, 4, and 6 inch diameter, in th
 
 The comparisons above also add weight to the view that the Langmuir and Blodgett methods are more accurate than those of NACA-TN-2904. 
 
-###A surprise from NACA-TN-3338
+### A surprise from NACA-TN-3338
 
 NACA-TN-3338 presented (at least) three drop distributions to represent the same test drop distribution. 
 While I was sceptical of them, I ran them in LEWICE, 
@@ -219,7 +219,7 @@ relative effects on water catch.
 
 ![Comparison of distributions](images/naca-tn-3338/distributions.png)
 
-#Natural drop size distributions
+### Natural drop size distributions
 
 We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 [^7]. 
 (Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 
@@ -253,9 +253,9 @@ differences in droplet size distributions ...
 A Langmuir distribution representation of an icing condition may not be the actual distribution, 
 but it is a functionally representative distribution. 
 
-##NACA era data that are still used today
+## NACA era data that are still used today
 
-###Langmuir drop size distributions
+### Langmuir drop size distributions
 
 A version of the drop distributions was published in 1944, 
 and the more often cited version was published in 1946. 
@@ -269,7 +269,7 @@ From FAA AC 20-73A, "Aircraft Ice Protection" [^6]:
 
 ![Table I-1](images/ac2073a/LangmuirD.png)
 
-###Terminology 
+### Terminology 
 Many of the terms still in use were in Langmuir and Blodgett:  
  
 ![K terms](images/Mathematical Investigation of Water Droplet Trajectories/K_terms.png)
@@ -278,7 +278,7 @@ From the "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1 [^8]:
 
 ![K terms](images/faa_ct_88_k_terms.png)
 
-###Correlations
+### Correlations
 
 The impingement correlations form Langmuir and Blodgett, 
 and NACA-TN-2904 were summarized 
@@ -291,7 +291,7 @@ Langmuir and Blodgett correlation formulas are also used, as in the from
 
 ![Page A2](images/LTR-LT-92_correlations.png)
 
-###Approximation of an airfoil leading edge 
+### Approximation of an airfoil leading edge 
 
 The "Manual of Scaling Methods" [^10] details the use Langmuir and Blodgett correlations for 
 a cylinder as an approximation of an airfoil leading edge: 
@@ -300,7 +300,7 @@ a cylinder as an approximation of an airfoil leading edge:
 ![equation 3.8](images/Manual of scaling methods/terms2.png) 
 ![Figure 3.3.2](images/Manual of scaling methods/terms3.png) 
 
-###Icing conditions in regulations
+### Icing conditions in regulations
 
 The "Aircraft Icing Handbook" [^8] summarizes data used to develop icing regulations. 
 We have reviewed three of these:  
@@ -328,7 +328,7 @@ NACA-TN-1855 (and others) are cited directly in the US icing regulations:
 
 ![Appendix C Figure 1](images/AppCfig1.png)
 
-###Cylinder icing thermodynamics for icing indication and detection
+### Cylinder icing thermodynamics for icing indication and detection
 
 NACA-TR-1215 studied several flight icing data cases, 
 and found some were affected by not all of the available water freezing. 
@@ -341,7 +341,7 @@ plotted in a different format:
 
 ![Fig. 3](images/LRT-LT-92Fig3.png)
 
-##Conclusion
+## Conclusion
 
 Langmuir was widely acknowledged in the post-NACA era, including by another often cited author of aircraft icing publications 
 (B.L. Messinger, 1969 [^11]):
@@ -367,7 +367,7 @@ distributions as "representative".
 NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
 and is a good introduction to [icing thermodynamics]({filename}/thermodynamics.md). 
 
-##Related
+## Related
 
 A version of this post that was presented to the 
 SAE AC-9C Aircraft Icing Technology Committee [^12] 
@@ -375,7 +375,7 @@ is [available as a pdf](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf
 
 The next thread in the NACA review series is the [Thermodynamics Thread]({filename}thermodynamics.md).  
 
-##Notes:
+## Notes:
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.  
 I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  

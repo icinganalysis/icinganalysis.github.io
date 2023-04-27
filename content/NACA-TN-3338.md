@@ -4,20 +4,20 @@ Category: NACA
 tags: cylinder
 
 
-###>_"a method has been developed ... to determine the droplet size distribution of the impinging cloud"_
+### _"a method has been developed ... to determine the droplet size distribution of the impinging cloud"_  
 
-#"A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" [^1]
+# "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" [^1]
 
-##Summary 
+## Summary 
 A pioneering test method is described, and a drop size measurement analysis is proposed.
 
-##Key points  
+## Key points  
 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
 2. An analysis of test results to determine the water spray drop size distribution is described. 
 3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes.
 4. We see the use of the Icing Research Tunnel for the first time in the Cylinders thread.
 
-##Abstract
+## Abstract
 
 > A dye-tracer technique has been developed whereby the quantity of
 dyed water collected on a blotter-wrapped body exposed to an air stream
@@ -35,9 +35,9 @@ technique require careful control, the methods presented herein should be
 applicable for any wind tunnel provided the humidity of the air stream
 can be maintained near saturation.
 
-##Discussion
+## Discussion
 
-###The spray system
+### The spray system
 
 There is a detailed discussion of a dye and blotter paper method of experimentally 
 determining water drop impingement rates.  
@@ -60,14 +60,14 @@ the same low-air-velocity section of the tunnel.
 
 ![Figure 11](images/naca-tn-3338/Figure11.png)
 
-###The impingement data
+### The impingement data
 
 After a chemical analysis of the dye concentration in the blotter paper 
 the local water catch rates were calculated. 
 
 ![Figure 20](images/naca-tn-3338/Figure20.png)
 
-###The distribution analysis
+### The distribution analysis
 
 The impingement is divided into arbitrary segments, 
 and beta curves corresponding to drop sizes for the impingement limit are 
@@ -136,7 +136,7 @@ section.
 
 ![Figure 23](images/naca-tn-3338/Figure23.png)
 
-###Need an independent measurement of drop sizes
+### Need an independent measurement of drop sizes
 
 > The accuracy of determining droplet size distribution by the use of
 the dye-tracer technique together with theoretical trajectory data could
@@ -166,9 +166,9 @@ Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
 see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md). 
 And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. 
 
-###Icing Research Tunnel
+### Icing Research Tunnel
 
-I note how casually the (then) NACA Lewis Icing Research Tunnel (IRT) is mentioned (now the NASA Glenn IRT). 
+I note how casually the (then) NACA Icing Research Tunnel (IRT) is mentioned (now the NASA Glenn IRT). 
 
 > The experimental studies of droplet
 impingement characteristics on cylinders were conducted in the 6- by
@@ -196,7 +196,7 @@ range of natural icing conditions.
 
 Contrast that to the detail in a post-NACA calibration of the IRT [^6].
 
-##Conclusions
+## Conclusions
 
 > A technique for experimentally determining the impingement 
 characteristics of an arbitrary body and a method whereby the droplet size
@@ -236,7 +236,7 @@ due to the lack of an independent comparison measurement.
 I do not know of data from the NACA era that could clarify the accuracy. 
 We will look at a comparison of post-NACA data at the end of the Cylinders thread.
 
-##Citations
+## Citations
 
 NACA-TN-3338 cites 13 publications:
 
@@ -269,12 +269,12 @@ In the NACA Icing Publication Database [^7], NACA-TN-3338 is cited 10 times:
 
 An online search [^8] found 26 citations of NACA-TN-3338.
 
-##Related  
+## Related  
 
 The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 [^9]. 
 That data did have an independent measurement of the drop size distribution. 
 
-##Notes  
+## Notes  
 [^1]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  

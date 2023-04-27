@@ -3,19 +3,19 @@ Date: 2022-03-24 12:00
 Category: NACA  
 tags: cylinder  
 
-> ###_"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
+### _"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
-#"Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
+# "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
 
-##Summary 
+## Summary 
 Conditions where not all water drops freeze are considered.
 
-##Key points  
+## Key points  
 1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).
 2. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
 3. The terms "freezing fraction" is introduced into the NACA publications.
 
-##Abstract
+## Abstract
 
 >  Evaluation of the rotating multicylinder method for the
 measurement of droplet-size distribution, volume-median droplet
@@ -47,9 +47,9 @@ droplets that do not freeze completely on the cylinders after
 striking them, as well as probable errors in final results caused
 by the inherent insensitivity of the multicylinder method.
 
-##Discussion
+## Discussion
 
-###"supersedes" NACA-TN-2903, NACA-TN-2903, and NACA-RM-E53D23
+### "supersedes" NACA-TN-2903, NACA-TN-2903, and NACA-RM-E53D23
 
 NACA-TR-1215 "supersedes" NACA-TN-2903 [^2], NACA-TN-2903 [^3], and NACA-RM-E53D23 [^4]. 
 Large portions of each of those is reproduced in NACA-TR-1215, 
@@ -66,11 +66,11 @@ So supersede does not appear to mean over-riding or deprecating.
 Rather, NACA-TR-1215 collects them and adds to them.
 
 However, note that the three are conspicuously missing from the references of NACA-TR-1215, 
-(although they appear in a foot note),
+(although they appear in a footnote),
 perhaps implying that there would be no need to look at them again?
 Brun was an author on all four publications. 
 
-###droplets that do not freeze completely
+### droplets that do not freeze completely
 
 The significant part that NACA-TR-1215 adds 
 is the effect of of water drops that do not completely freeze. 
@@ -130,7 +130,7 @@ from which reliable results are unobtainable can
 also be recognized and rejected.
 
 
-###Freezing fraction
+### Freezing fraction
 
 NACA-TR-1215 includes a "freezing fraction" term, I believe for the first time in the NACA series.
 
@@ -200,7 +200,7 @@ If "supersede" was intended to mean "make obsolete", it did not have that effect
 
 The thermodynamics of NACA-TR-1215 are reviewed in more detail in [NACA-TR-1215-Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md).  
 
-##Citations
+## Citations
 
 NACA-TR-1215 cites 37 publications:
 
@@ -251,7 +251,7 @@ NACA-TR-1215 is cited 4 times in the NACA Icing Publications Database [^11]:
 An online search found that NACA-TR-1215 is cited 12 times in the literature [^10]. 
 
 
-##Notes:
+## Notes:
 
 [^1]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
