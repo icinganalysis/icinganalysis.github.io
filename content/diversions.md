@@ -19,6 +19,7 @@ Diversions can take us into the post-NACA era of aircraft icing, with perhaps mo
 
 Candidates (not yet reviewed):
 
+- Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf).  
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf)  
