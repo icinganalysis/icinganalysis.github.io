@@ -1,6 +1,6 @@
 Title: NACA-TN-1424  
 Category: NACA  
-Date: 2021-01-31 12:00  
+Date: 2022-01-31 12:00  
 tags: meteorology, cylinders  
 
 ### _"In spite of the inconsistency it is believed that the data on mean-effective diameters are fairly reliable."_  
