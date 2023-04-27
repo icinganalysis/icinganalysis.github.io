@@ -1,31 +1,31 @@
 Title: NACA-TN-2799  
 Date: 2022-04-24 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, python tools  
 
-> ###_"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."_  
+### _"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."_  
 
-#"Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" [^1]
+# "Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing" [^1]
 
 ![Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.](images/naca-tn-2799/Figure1.png) 
 > Figure 1. - Graphical solution of anti-icing heat and mass transfer from surface subject to impingement and heated above freezing.
 
-##Summary
+## Summary
 Simplified ice protection equations allow graphical solutions.
 
-##Key points
+## Key points
 
 1. Simplified ice protection equations allow graphical solutions.
 2. The effects of varying local surface pressure and velocity are included.
 
-##Abstract
+## Abstract
 
 > Equations expressing the heat transfer and evaporation from wetted
 surfaces during ice prevention have been simplified and regrouped to
 permit solutions by simple graphical means. Working charts for quick
 and accurate anti-icing calculations are also included. 
     
-##Discussion
+## Discussion
 
 > INTRODUCTION
 Solution of the general problem of heat and mass transfer from a
@@ -207,7 +207,7 @@ Values calculated with the file "naca_tn_2799.py" agree well with the example va
 | q, BTU/h-ft^2   | 10453      | 10490   |
 | Mev, lbm/h-ft^2 | 7.21       | 7.32    |
 
-##Conclusions  
+## Conclusions  
 
 >In the preceding derivations, the assumption is made that the
 moisture in the ambient air does not have time to change state during
@@ -246,7 +246,7 @@ over the surface is a feature that will be used in the next publication review i
 [Icing Thermodynamics thread]({filename}thermodynamics.md), NACA-TN-2914,
 although in the compressible flow form.
 
-##Citations
+## Citations
 
 NACA-TN-2799 cites 12 publications:
 
@@ -269,7 +269,7 @@ NACA-TN-2779 is cited once by publications in the NACA Icing Publications Databa
 
 NACA-TN-2799 is cited 6 times in the literature [^7].
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  

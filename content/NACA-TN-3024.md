@@ -5,19 +5,19 @@ tags: thermodynamics
 
 > ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 
-#"Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" [^1]
+# "Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" [^1]
 
 ![Figure 1. Motional relationships among air-stream, droplet, and obstacle.](images/naca-tn-3024/Figure1.png)  
 
-##Summary
+## Summary
 Less that 1% of drops evaporate approaching an obstacle for most cases.
 
-##Key points
+## Key points
 
 1. Equations are detailed for the evaporation of water drops approaching an obstacle.  
 2. Less that 1% of drops evaporate approaching an obstacle for most cases.  
 
-##Abstract
+## Abstract
 
 > When a closed body or a duct envelope moves through the atmosphere,
 air pressure and temperature rises occur ahead of the body or, under ram
@@ -37,12 +37,12 @@ having diameters smaller than about 30 microns along relatively long
 ducts (length at least several feet) or toward large obstacles (wings),
 since disequilibrium effects are then of little significance. Mass losses
 in the case of movement within ducts will often be significant fractions
-(one-fifth to one-half) of original droplet masses, while very small drop-
-lets within ducts will often disappear even though the entraining air is
+(one-fifth to one-half) of original droplet masses, while very small droplets 
+within ducts will often disappear even though the entraining air is
 not fully stagnated. Wing-approach evaporation losses will usually be of
 the order of several percent of original droplet masses.  
-Two numerical examples are given of the determination of local evap-
-oration rates and total mass losses in cases involving cloud droplets
+Two numerical examples are given of the determination of local evaporation 
+rates and total mass losses in cases involving cloud droplets
 approaching circular cylinders along stagnation lines. The cylinders
 chosen were of 3.95-inch (10.0+ cm) diameter and 39.5-inch 100+ cm)
 diameter. The smaller is representative of icing-rate measurement cylinders, 
@@ -50,14 +50,15 @@ while with the larger will be associated an air-flow field similar
 to that ahead of an airfoil having a leading-edge radius comparable with
 that of the cylinder. It is found that the losses are less than 5 percent. 
 It is concluded that such losses are, in general, very small
-(less than 1 percent) in the case of smaller obstacles (of icing-rate-
-measurement-cylinder size); the motional dynamics are such, however, that
+(less than 1 percent) in the case of smaller obstacles 
+>(of icing-rate-measurement-cylinder size); the motional dynamics are such, 
+however, that 
 exceptions will occur by reason of failure of very small droplets (moving
 along stagnation lines) to impinge upon obstacle surfaces. In such
 cases, the droplets will evaporate completely.  
 
     
-##Discussion
+## Discussion
 
 >The general literature in the field of evaporation from droplets is
 extensive, but few studies of the particular problem of droplets approaching 
@@ -124,7 +125,7 @@ This is essentially water drop the equilibrium assumption we saw in Hardy [^2].
 
 The calculations are rather involved, and so they will not be detailed herein. 
 Readers who have read the preceding reviews in the [Icing Thermodynamics thread]({filename}thermodynamics.md) 
-will be well prepared. 
+will be well-prepared. 
 
 The water drop airspeeds relative to the local airspeed were calculated: 
 
@@ -163,23 +164,23 @@ so I think that the "little or no evaporative loss" would apply for most wings.
 In the post-NACA era, most sources assume zero loss due to evaporation of drops approaching an obstacle. 
 
 Reproducing the calculations in python is a non-trivial task, 
-but I am considering a "Let's Build a 1D Water Drop Motion Simulation" project, 
-that would do part of what the AEDC1DMP code mentioned below does.  
+see [NACA-TN-3024 revisited]({filename}NACA-TN-3024_evaporation.md) 
+in the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
 
 <!--
 The results of NACA-TN-3024 are compared to calculations in python in 
 ["Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations]({filename}NACA-TN-3024_evaporation.md).  
 -->
 
-##Related
+## Related
 
 A distant descendant of NACA-TN-3024 (although NACA-TN-3024 is not cited by it) is the AEDC1DMP 
 (Arnold Engineering Development Center 1 Dimensional Multi-Phase) code described in [^3].
 
-I have used the code but I do not have a copy of it, and I do not know where to find it online. 
+I have used the code, but I do not have a copy of it, and I do not know where to find it online. 
 [When I used it years ago, one had to "know someone" to get the code.] 
 
-##Citations
+## Citations
 
 NACA-TN-3024 cites 16 publications:  
 
@@ -207,7 +208,7 @@ NACA-TN-3024 is cited 2 times by publications in the NACA Icing Publications Dat
 
 NACA-TN-3024 is cited 6 times in the literature [^5].
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953  

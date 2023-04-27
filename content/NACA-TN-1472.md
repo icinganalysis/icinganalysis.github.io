@@ -3,17 +3,16 @@ Date: 2022-04-18 12:00
 Category: NACA  
 tags: thermodynamics  
 
-> ###_"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"_  
+### _"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"_  
 
-#"The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" [^1]
+# "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" [^1]
 
 ![Figure 7](images/naca-tn-1472/Figure7.png) 
 
-
-##Summary
+## Summary
 Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.
 
-##Key points
+## Key points
 
 1. Thermodynamic equations for a heated surface with water impingement are detailed. 
 2. Test flights in natural icing conditions measured surface temperature for a heated surface.
@@ -22,8 +21,7 @@ Natural icing flight tests with an instrumented test airfoil are compared to 2D 
 5. "the design of heated wings on a fundamental, wet-air basis now can be undertaken with reasonable
 certainty."
 
-
-##Abstract
+## Abstract
 
 > As a result of a fundamental investigation of the meteorological
 conditions conducive to the formation of ice on aircraft and a study
@@ -45,7 +43,7 @@ surface has been increased to a point where the design of heated wings
 on a fundamental, wet-air basis now can be undertaken with reasonable
 certainty.
     
-##Discussion
+## Discussion
 
 This is one of the longest reviews, as NACA-TN-1472 is long (108 pages) 
 and is densely packed with information. 
@@ -77,7 +75,7 @@ or completely wetted surface exposed to icing conditions may be stated:
 
 ![Equation 1](images/naca-tn-1472/Equation1.png) 
 
-###Heat transfer due to impinging water
+### Heat transfer due to impinging water
 
 The heat transfer due to impinging water is detailed and then simplified (equation 4):
 
@@ -115,7 +113,7 @@ heated region to be provided at the leading edge, while knowledge of
 the distribution of water impingement is required in the calculation
 of the heating requirement in areas where water is striking.
 
-###Rate of water impingement
+### Rate of water impingement
 
 Water-drop impingement characteristics were obtained:
 
@@ -177,7 +175,7 @@ the airfoil. The equation for computing Me, then, is
 ![Equation 11](images/naca-tn-1472/Equation11.png) 
 ![Figure 3](images/naca-tn-1472/Figure3.png) 
 
-###Heat Loss Due to Forced Convection  
+### Heat Loss Due to Forced Convection  
 The unit heat flow from the surface of a body in an air stream
 resulting from convective heat transfer can be expressed:
 ![Equation 12](images/naca-tn-1472/Equation12.png) 
@@ -225,7 +223,7 @@ per hour, however, these equations can be used with small error, since
 the kinetic-temperature rise is low. 
 ![Figure 4](images/naca-tn-1472/Figure4.png) 
 
-###Heat Loss Due to Evaporation of the Water on the Surface 
+### Heat Loss Due to Evaporation of the Water on the Surface 
 >The amount of heat removed from a wetted surface as a result of
 the evaporation of water on that surface can be expressed: 
 ![Equation 20](images/naca-tn-1472/Equation20.png) 
@@ -243,7 +241,7 @@ when the surface is completely wetted. If only partial wetness
 prevails, the value of X must be modified according to the degree
 of wetness
 
-###Total heat loss from a wetted surface 
+### Total heat loss from a wetted surface 
 
 > Summarizing the heat losses due to water impingement, convection,
 and evaporation, equation (1) can be written: 
@@ -253,8 +251,7 @@ and evaporation, equation (1) can be written:
 becomes 
 ![Equation 25](images/naca-tn-1472/Equation25.png) 
 
-
-#Flight tests
+### Flight tests
 
 Detailed test articles were constructed. 
 
@@ -311,8 +308,7 @@ which was reviewed in the [Cylinders thread]({filename}Icing on Cylinders.md).
 
 ![Table I](images/naca-tn-1472/Table1.png) 
 
-
-#Runback water
+### Runback water
 
 The water that runs back on a surface is not usually a uniform sheet of water. 
 The water tends to breakup into rivulets. 
@@ -335,8 +331,7 @@ This was (roughly) correlated with water runback rate
 
 ![Figure 21](images/naca-tn-1472/Figure21.png) 
 
-
-###Analysis results
+### Analysis results
 
 For brevity, we will examine the NACA 0012 test article results (only). 
 
@@ -364,7 +359,7 @@ The portions of the heat transfer can be calculated:
 The python analysis shows similar results: 
 ![Comparison to Figure 26](images/naca-tn-1472/naca_tn_1472_fig26.png)
 
-###Heat transfer coefficients
+### Heat transfer coefficients
 
 For the same airfoil flying at similar conditions, 
 we saw several measurements and estimates of the 
@@ -385,10 +380,10 @@ with toe test section heated indicated that transition had shifted
 forward by a considerable amount. This was noted by a lowering of
 the surface temperature in the region aft of the leading edge. The
 heat distribution had been set previously to produce a constant
-surface temperature in clear air, and only a change in the boundary-
-layer characteristics could cause the evident change in heat-transfer
-coefficient. After the flight, a close examination of the leading-
-edge region of the airfoil revealed small insects stuck to the
+surface temperature in clear air, and only a change in the boundary-layer 
+characteristics could cause the evident change in heat-transfer
+coefficient. After the flight, a close examination of the leading-edge 
+region of the airfoil revealed small insects stuck to the
 surface where they had hit during the flight. The surface was wiped
 clean and during a subsequent flight in clear air it was noted that
 transition had moved back again, as evidenced by the restoration of
@@ -466,7 +461,7 @@ edge of the wing be assumed in the design of thermal ice-prevention
 equipment, especially in view of the fact that a greater amount of
 heat is required for the turbulent-flow condition**.
 
-##Conclusions  
+## Conclusions  
 
 >From the foregoing discussion, it is concluded that the extent
 of knowledge on the meteorology of icing, the impingement of water
@@ -490,54 +485,54 @@ relatively high free-air temperature (20F) will be capable of ice
 prevention at low air temperatures (0F) in icing conditions nearly
 as severe as those upon which the design was based.
 
-##Citations
+## Citations
 
 NACA-TN-1472 cites 26 publications:
 
-- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942.
-- Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.
-- Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.
-- Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.
-- Hardy, J. K.: Protection of Aircraft Against Ice. Rep. No. S.M.E. 3380, British R.A.E., July 1946.
-- Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)
-- Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.
-- Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.
-- Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.
-- Bowers, R. D., ed.: Icing Report by the University of California, Fiscal Year 1946. AAF Tech. Rep. 5529, Section VI, Nov. 6, 1946. (Issued as Boelter's Rep., Univ. of Calif., Dept. of Eng., Aug. 1, 1946.)
-- Bowers, R. D., ed.: Basic Icing Research by General Electric Company, Fiscal Year 1946. AAF Tech. Rep. 5539, Sec. 3, Jan. 1947.
-- Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)
-- Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.
-- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.
-- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.
-- Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
-- Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
-- Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942.
-- Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, University of California, 1947.
-- Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945.
-- Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.
-- Jacobs, Eastman N., Ward, Kenneth P., and Pinkerton, Robert M.: The Characteristics of 78 Related Airfoil Sections from Tests in the Variable—Density Wind Tunnel. NACA-TR-460, 1933.
-- Frick, Charles W., Jr., and McCullough, George B.: Tests of a Heated Low—Drag Airfoil. NACA-ACR-244, Dec. 1942.
-- Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.
-- Gardner, Tracy B.: Investigation of Runback. Air Materiel Command Ice Research Base Rep. No. IRB 46-36-1F, July 1946.
-- Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.
+- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942.  
+- Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.  
+- Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.  
+- Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.  
+- Hardy, J. K.: Protection of Aircraft Against Ice. Rep. No. S.M.E. 3380, British R.A.E., July 1946.  
+- Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+- Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.  
+- Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
+- Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.  
+- Bowers, R. D., ed.: Icing Report by the University of California, Fiscal Year 1946. AAF Tech. Rep. 5529, Section VI, Nov. 6, 1946. (Issued as Boelter's Rep., Univ. of Calif., Dept. of Eng., Aug. 1, 1946.)  
+- Bowers, R. D., ed.: Basic Icing Research by General Electric Company, Fiscal Year 1946. AAF Tech. Rep. 5539, Sec. 3, Jan. 1947.  
+- Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)  
+- Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
+- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
+- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
+- Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
+- Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+- Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942.  
+- Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, University of California, 1947.  
+- Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945.  
+- Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
+- Jacobs, Eastman N., Ward, Kenneth P., and Pinkerton, Robert M.: The Characteristics of 78 Related Airfoil Sections from Tests in the Variable—Density Wind Tunnel. NACA-TR-460, 1933.  
+- Frick, Charles W., Jr., and McCullough, George B.: Tests of a Heated Low—Drag Airfoil. NACA-ACR-244, Dec. 1942.  
+- Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.  
+- Gardner, Tracy B.: Investigation of Runback. Air Materiel Command Ice Research Base Rep. No. IRB 46-36-1F, July 1946.  
+- Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.  
 
 NACA-TN-1472 is cited by 11 publications in the NACA Icing Publications Database [^7]:
 
-- Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.
-- Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.
-- Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.
-- von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.
-- Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.
-- Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.
-- Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952
-- Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.
-- Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.
-- Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)
+- Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+- Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
+- Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
+- von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
+- Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.  
+- Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+- Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952  
+- Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
+- Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
+- Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
 
 NACA-TN-1472 is cited 33 times in the literature [^8].
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  

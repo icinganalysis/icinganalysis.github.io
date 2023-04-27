@@ -3,16 +3,16 @@ Date: 2022-05-12 12:00
 Category: NACA  
 tags: thermodynamics  
 
-###_"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
+### _"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
 
-#"Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"
+# "Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"
 
 ![Figure 6](images/naca-tn-3396/Figure6.png)  
 
-##Summary  
+## Summary  
 Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 
 
-##Key points  
+## Key points  
 
 1. Surface temperatures in icing conditions are challenging to measure.  
 2. Apparently small differences in pressure coefficient and recovery factor values are important at high Mach values. 
@@ -20,7 +20,7 @@ Predictions of the icing limit temperature were "sufficiently accurate" in tests
 4. Thermal conduction in the substrate affects runback ice.  
 5. Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35.    
 
-##Abstract 
+## Abstract 
 
 >Frictional heating resulting from flight at high speeds effectively
 reduces the value of ambient-air temperatures at which ice forms on aircraft 
@@ -43,7 +43,7 @@ determined location of critical regions on the bodies for the
 initial formation of ice and provided sufficient agreement with analytical 
 results to prove their validity.
 
-##Discussion  
+## Discussion  
 
 For brevity, I will focus on the results at Mach 1.35, 
 although results at other Mach values were also presented. 
@@ -69,7 +69,7 @@ construction.
 
 ![Figure 1](images/naca-tn-3396/Figure1.png)  
 
-###Analysis
+###  Analysis
 
 Equations from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^2] were used to calculate the wet surface temperature. 
 
@@ -116,7 +116,7 @@ icing-limit conditions was then used to determine the value of free-stream
 static temperature on the basis of a dry-air adiabatic process to
 be compared with the analytical results of references 1 and 2.
 
-###Results  
+### Results  
 
 >Chordwise Variation of Pressure Distribution  
 Pressure distributions on the models for M0 = 1.35 are shown in
@@ -124,9 +124,9 @@ figure 3.
 
 ![Figure 3](images/naca-tn-3396/Figure3.png)  
 
->Figure 4 shows recovery factor as a function of the chord.wise posi-
-tion for the diamond. airfoil model at values of the free-stream Mach num-
-ber of 0.8 and 1.35. At the lower Mach number condition (fig. 4(a)), the
+>Figure 4 shows recovery factor as a function of the chord-wise position 
+for the diamond. airfoil model at values of the free-stream Mach number 
+of 0.8 and 1.35. At the lower Mach number condition (fig. 4(a)), the
 value of the recovery factor was approximately 0.86 over the front half of
 the model and 0.87 over the rear half. For the supersonic case (fig.
 4(b)), the value of the recovery factor was higher, averaging slightly
@@ -178,7 +178,7 @@ The effect of partial surface wettedness or runback rivulets was noted.
 shoulder it divided into rivulets that frequently missed the thermocouples
 entirely. 
 
-This illustrates some of the difficulties of measuring surface temperatures in icing conditions. 
+This illustrates some difficulties of measuring surface temperatures in icing conditions. 
 Several times I have observed ice on a test article when the thermocouples read something above 0C. 
 
 ![Figure 7c](images/naca-tn-3396/Figure7c.png)  
@@ -276,7 +276,7 @@ edge and at a higher stream temperature if the shock had not been present.
 
 ![Figure 10](images/naca-tn-3396/Figure10.png)  
 
-##Conclusions  
+## Conclusions  
 
 >SUMMARY OF RESULTS  
 The twofold experimental investigations to determine the wet-surface
@@ -305,7 +305,7 @@ While NACA-TN-3396 is not cited often in the literature,
 I recommend that anyone working with runback ice study it closely, 
 in more depth than in this review. 
 
-##Citations  
+## Citations  
 
 NACA-TN-3396 cites 8 publications: 
 
@@ -324,7 +324,7 @@ NACA-TN-3396 is cited once in the NACA Icing Publications Database [^3]:
 
 An online search found that NACA-TN-3396 is cited 2 times in the literature [^4].  
 
-##Notes 
+## Notes 
 
 [^1]: 
 Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955.  

@@ -3,21 +3,21 @@ Date: 2022-05-14 12:00
 Category: NACA  
 tags: thermodynamics  
 
-###_"these calculations, performed at several span stations, can become unnecessarily tedious"_  
+### _"these calculations, performed at several span stations, can become unnecessarily tedious"_  
 
-#ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^1]  
+# ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^1]  
 
 ![Figure 3-1](/images/ads4/Figure3-1.png)  
 
-##Summary
+## Summary
 A single thermodynamic control volume is used for anti-ice calculations. 
 
-##Key points  
+## Key points  
 1. Ice shapes are classified (glaze, rime).  
 2. A single thermodynamic control volume is used for anti-ice calculations.  
 3. NACA icing publications are extensively used.  
 
-##Abstract  
+## Abstract  
 
 >This report provides, in a single reference document, an engineering summary
 of selected technical data on airframe icing conditions, methods of detecting,
@@ -50,7 +50,7 @@ The adequacy of the ice protection system on each type of aircraft must be
 proved in the mission icing environment the design engineer established for the
 aircraft.
 
-##Discussion  
+## Discussion  
 
 ADS-4 was published after the NACA era, but it was included in Uwe von Glahn's ["Selected Bibliography of NACA-NASA Icing Publications"]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md).
 ADS-4 relied heavily on NACA icing publications, 
@@ -64,7 +64,7 @@ Note: the quality of the images from the online document is variable.
 Scanned text often required manual cleanup. 
 I have done some straightening of the images herein. 
 
-###Physics of Ice Collection 
+### Physics of Ice Collection 
 
 >2.1 SUMMARY  
 Ice can form on aircraft forward surfaces during flight through clouds at temperatures below freezing.
@@ -96,7 +96,7 @@ Instead, here is the more legible, original Figure 11 from "The Icing Problem" (
 ![Typical Ice Formations](images/ads4/von Glahn Figure 11.png)  
 
 Perhaps surprisingly, this is one of the few images of ice 
-from all of the NACA icing publications that we have seen so far. 
+from all the NACA icing publications that we have seen so far. 
 
 >Equations and methods of determining ice shapes on unprotected airframe
 components are shown.
@@ -280,7 +280,7 @@ however, the correlations shown are entirely empirical.
 It is believed that the correlations should be further qualified before they are
 used for design purposes. 
 
-###Methods of Ice Protection
+### Methods of Ice Protection
 
 We previously reviewed [NACA-TN-2799]({filename}NACA-TN-2799.md) [^6], 
 and it was noted that it did not include how to determine heat transfer coefficients. 
@@ -416,7 +416,7 @@ Typical values for a wing are from
 
 I believe that what was intended above is "2500 to 5500 BTU/hr.-ft.span". 
 
-##Conclusions
+## Conclusions
 
 From a current perspective, there were surprisingly few ice shapes recorded in the NACA era. 
 There will be considerable development of ice shape test and analysis methods in the post-NACA era. 
@@ -426,7 +426,7 @@ the SAE Aerospace Applied Thermodynamics Manual [^9].
 
 The Aircraft Icing Handbook [^10] incorporates large portions of ADS-4. 
 
-##Citations
+## Citations
 
 Section 2 cites 31 publications, 19 of which are NACA publications. 
 
@@ -484,11 +484,11 @@ Section 3 cites 17 publications, 9 of which are NACA publications.
 
 An online search [^11] found 65 citations of ADS-4 in the literature.  
 
-## See also  
+## Related  
 
 [Design Manuals]({filename}Design%20Manuals.md) discusses ADS-4 and its predecessors. 
 
-##Notes 
+## Notes 
 
 [^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^2]: 

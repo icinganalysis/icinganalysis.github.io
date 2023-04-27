@@ -3,21 +3,21 @@ Date: 2022-04-28 12:00
 Category: NACA    
 tags: thermodynamics  
 
-> ###_"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
+### _"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
 
-#Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
+# Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
 
 ![Figure 1](images/Fraser/Figure1.png) 
 
-##Summary
+## Summary
 The term "freezing fraction" is defined (but probably not the one that you expected). 
 
-##Key points
+## Key points
 
 1. The term "freezing fraction" is defined (but probably not the one that you expected). 
 1. "Ludlam limits" for instruments are calculated.
 
-##Abstract
+## Abstract
 
 > A number of instruments used for determining the supercooled water content of an icing
 cloud depend on measuring the rate of accretion of ice on an unheated body. It has been shown
@@ -35,7 +35,7 @@ it is necessary to use a thermal method of measuring high values of water concen
 that an ice-accretion method must also be employed to distinguish between warm water,
 supercooled water and ice crystals.
     
-##Discussion
+## Discussion
 
 > However, under conditions of high water catch
 and high temperature, and also under conditions
@@ -114,7 +114,7 @@ the liquid state, or included as liquid water in
 the collected ice. 
 
 
-###Appendix
+### Appendix
 >The heat flow equation for the icing surface on a cold
 body, assuming all impinging water freezes, is  
 ![Appendix heat balance](images/Fraser/Appendix_heat_balance.png)  
@@ -199,7 +199,7 @@ which was used to add the "0.1, 450 FPS" line:
 
 ![Detailed comparison of Figure 3](images/Fraser/fraser_figure3_detail.png)  
 
-###Comparison to "Ludlam limit"
+### Comparison to "Ludlam limit"
 
 We now have yet another "Ludam-ish limit" to add to our collection. 
 
@@ -209,7 +209,7 @@ Fraser gives a similar result to Messinger (averaged laminar).
 The chief difference between them is Messinger includes the 1.12 factor on evaporation, 
 while Fraser does not. 
 
-##Citations
+## Citations
 
 Fraser cites 6 publications:  
 
@@ -227,7 +227,7 @@ Fraser is cited by 2 publications in the NACA Icing Publications Database [^5]:
 
 Fraser is cited 31 times in the literature [^6].
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Fraser, D., Rusk, C. K., and Baxter, D.: Thermodynamic Limitations of Ice Accretion Instruments, 1953.  

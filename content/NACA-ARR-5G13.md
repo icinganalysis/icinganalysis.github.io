@@ -1,25 +1,25 @@
 Title: NACA-ARR-5G13  
 Date: 2022-04-11 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, python tools  
 
-###_"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"_
+### _"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"_  
 
-#"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation" [^1]
+# "Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation" [^1]
 
 ![Cover sheet "WARTIME REPORT"](images/naca-arr-5g13/Cover.png)  
 
-##Summary 
+## Summary 
 Psychrometric equations are presented to calculate the thermal effects of 
 evaporation from wet surfaces at high air speeds. 
 
-##Key Points
+## Key Points
 1. The wet surface equilibrium "datum" temperature is defined. 
 2. Psychrometric equations are presented to calculate the thermal effects of 
 evaporation from wet surfaces. 
 3. The calculations are implemented in python code.  
 
-##Abstract
+## Abstract
 
 > A method is given for calculating the temperature of a
 surface wetted either by a pure liquid, such as water, or by
@@ -37,12 +37,12 @@ The psychometric equations,
 used in wet-bulb hygrometry, is deduced in its general form.
 The effect of kinetic heating is included.
 
-##Discussion
+## Discussion
 
 (Note: the image quality of the pdf of NACA-ARR-5G13 did not allow readily capturing the text, 
 so much of this post is images, not searchable text.)
 
-Here we cooperation between NACA and the RAE (Royal Aircraft Establishment), 
+Here we see cooperation between NACA and the RAE (Royal Aircraft Establishment), 
 as author J. K. Hardy was from the RAE, as were several of the references. 
 
 As noted on the coversheet above:
@@ -133,7 +133,7 @@ The rate of water catch is assumed to be adequate to keep the surface wet.
 The heat effect of cold water impinging is not included. 
 
 
-##Results of Calculations 
+## Results of Calculations 
 
 ![Kinetic Temperature of Propeller Blade in Wet Air](images/naca-arr-5g13/Kinetic Temperature of Propeller Blade in Wet Air.png) 
 ![discussion of kinetic temperature](images/naca-arr-5g13/Results_Table_I.png)
@@ -156,7 +156,7 @@ Comparison to Table I:
 | 25   | 760      | 40.1                       | 39.9                    | 0.6                            | 0.59                        |
 | 25   | 350      | 35.5                       | 35.5                    | 0.49                           | 0.42                        |
 
-##Citations
+## Citations
 
 NACA-ARR-5G13 cites 7 references.
 
@@ -181,7 +181,7 @@ NACA-ARR-5G13 is cited 8 times in the NACA Icing Publications Database [^3].
 
 An online search found that NACA-ARR-5G13 is cited 21 times in the literature [^4].  
 
-##Notes:  
+## Notes:  
 [^1]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
 [^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^3]: 

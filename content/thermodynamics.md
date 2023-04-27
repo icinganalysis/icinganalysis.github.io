@@ -3,6 +3,8 @@ Date: 2022-04-11 12:00
 Category: NACA  
 tags: thermodynamics  
 
+### _"ice formation can be redefined in more general terms as a thermodynamic problem"_ [^1] (1936)  
+
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
 
 # Icing Thermodynamics Thread 
@@ -34,7 +36,7 @@ evaporation from wet surfaces.
 ### [NACA-TN-2861, Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow]({filename}NACA-TN-2914.md), and
 ### [NACA-TN-2914, A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions]({filename}NACA-TN-2914.md)
 > The warmest ambient temperature at which ice can accumulate is calculated.  
-1
+
 ###[Fraser, D.: Thermodynamic Limitations of Ice Accretion Instruments]({filename}Fraser.md)  
 > The term "freezing fraction" is defined (but probably not the one that you expected).  
 
@@ -67,4 +69,7 @@ The next thread in the NACA review series is the [Ice Shapes Thread]({filename}i
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
+## Notes  
+[^1]: Hansen, James R.: "The Wind and Beyond. A Documentary Journey into the History of Aerodynamics in America", [NASA-SP-4409 Vol. 2](https://history.nasa.gov/sp4409-vol2-2.pdf), Chapter 3, p. 529, 
+EXTRACTS FROM LETTER DATED APRIL 12, 1936, FROM HONORABLE EDWARD P. WARNER TO DR. J. S. AMES, NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS, 2003.  
 

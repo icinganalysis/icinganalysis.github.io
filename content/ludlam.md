@@ -1,23 +1,23 @@
 Title: Ludlam  
 Date: 2022-04-19 12:00  
 Category: NACA  
-tags: thermodynamics   
+tags: thermodynamics, python tools   
 
-> ###_"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
+### _"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
 
 ![Cover](images/Ludlam/cover.png)
 
-#F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
+# F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
 
-##Summary
+## Summary
 Various "Ludlam Limits" have been implemented, but they produce different results.  
 
-##Key points  
+## Key points  
 1. Calculations are laid out for finding the "critical" LWC where not all available water freezes on a cylinder. 
 2. The critical LWC is often termed the "Ludlam limit", although Ludlam did not use that term. 
 3. Various "Ludlam Limits" have been implemented, but they produce different results. 
 
-##Abstract
+## Abstract
 
 > A method is described for calculating the surface temperature of a slender cylinder 
 which is moved through a supercooled cloud and becomes covered with rime ice. 
@@ -28,18 +28,18 @@ The rotating-cylinder technique of determining water content and drop-size distr
 cannot therefore be used without consideration of the heat economy, 
 and may otherwise lead to large underestimates of water concentration in severe icing conditions. 
     
-##Discussion
+## Discussion
 
 The "heat economy" is, in more recent terminology, the thermodynamic heat balance of ice forming on a cylinder. 
 
 Most of the components we have seen some version of before.
 
 A brief summary of the equations used was presented, 
-but there are either errors or there where addition equations not listed that were used to 
+but there are either errors or there were addition equations not listed that were used to 
 produce the published results. 
 As such (and due to copyright) I will not reproduce them here. 
 
-####Heat transfer due to convection: 
+#### Heat transfer due to convection: 
 
 Heat transfer coefficients were determined with laminar flow, and turbulent flow, correlations for a smooth cylinder. 
 Reynolds number (100000) was used to select between the two. 
@@ -51,7 +51,7 @@ The effect of viscous heating is not included.
 As the analysis is for a rotating cylinder, 
 perhaps the viscous heating was thought to average out to zero over the entire surface. 
 
-####Heat transfer due to evaporation:
+#### Heat transfer due to evaporation:
 
 The entire surface of the cylinder is considered to be available for evaporation. 
 A mass transfer coefficient was presented, k_evap = Nusselt * Dv / d_cylinder, 
@@ -59,7 +59,7 @@ where Dv is the diffusivity of water vapor in air.
 This differs from the k_w term in [NACA-TR-831]({filename}NACA-TR-831.md) [^2].
 I believe that this is an area where what Ludlam implemented is different from what Ludlam described.  
 
-####Heat transfer due to water impingement: 
+#### Heat transfer due to water impingement: 
 
 The rate of water impingement was calculated. 
 The heat due to water impingement is H = water_rate * cp_water * (t_surface - t_ambient).  
@@ -67,13 +67,13 @@ This is similar to other sources, except that the kinetic heating
 due to the impingement of water drops was not included 
 (this is typically a relatively small term). 
 
-####Heat due to water freezing:
+#### Heat due to water freezing:
 
 The heat due to water freezing is H = water_rate * latent_heat_of_freezing.  
 Some other sources include the fact that a small portion of the water has evaporated, 
 leaving a slightly reduced amount of water available to freeze. 
 
-####The heat economy
+#### The heat economy
 
 The terms are evaluated as a surface temperature of 0C, 
 the warmest temperature at which ice can form. 
@@ -84,7 +84,7 @@ By successive approximation,
 the LWC value where the equation is satisfied can be found 
 (the non-linear terms, particularly vapor pressure, prevent direct solution).
 
-###Comparisions
+### Comparisions
 
 This often cited work has been used in many places, but, alas, with varying results. 
 
@@ -111,7 +111,7 @@ There will be more discussion of the large cylinder results
 when we get to the review of NACA-TR-1215 [^4]
 ([NACA-TR-1215]({filename}NACA-TR-1215.md) was reviewed in the Cylinders thread, and will be reviewed again in the Thermodynamics thread). 
  
-####A 0.25 inch diameter cylinder  
+#### A 0.25 inch diameter cylinder  
   
 A cylinder that has been studied in detail is the 0.25 inch (6.35 mm) diameter 
 sensing head of the "Rosemount" ice detector
@@ -155,7 +155,7 @@ A case from Ludlam Figure 1 is similar, but not identical to the comparison case
 Industrious readers may find several more "Ludlam limit" examples, 
 but these are enough to make a point.
 
-###The various "Ludlam limit" methods produce significantly different results. 
+### The various "Ludlam limit" methods produce significantly different results. 
 
 ![Comparison of "Ludlam limit" values](images/Ludlam/ludlam_comparisons_all.png) 
 
@@ -166,10 +166,10 @@ This largely explains why the Mazin LWC results are about 1/2 of the python impl
 which allows evaporation and convection over the entire surface. 
  
 I speculate that Jeck attempted to use Ludlam's published evaporation coefficient 
-which may explain some of the differences. 
+which may explain some differences. 
 
 Jeck's analysis results appear to be outliers, 
-so I question his discussion in relation to his "Ludlam limit" values shown in Figure 22c:
+so I question his discussion in relation to his "Ludlam limit" values shown in Figure 22c:  
 
 >A comparison of measured icing rates with the envelopes can be illustrated with the following
 examples.
@@ -192,7 +192,7 @@ the icing rate exceeds the Ludlam limit for the existing OAT.
 
 There is a Ludlam limit, but probably not the ones that Jeck plotted. 
 
-##Conclusions 
+## Conclusions 
 
 Ludlam was quite correct in noting that rotating cylinders 
 may not freeze all of the impinging water in some cases. 
@@ -204,7 +204,7 @@ With such disparity, the term has lost its meaning.
 
 Whenever someone mentions a "Ludlam limit", be sure to ask "Which one?"
 
-##Citations
+## Citations
 
 Ludlam cites 11 publications:
 
@@ -227,13 +227,13 @@ Ludlam is cited by 3 publications in the NACA Icing Publications Database [^7]:
 
 An online search found that Ludlam is cited 106 times in the literature [^8].  
 
-##Related
+## Related
 
 We will compare cylinder test data 
 when we get to the review of [NACA-TR-1215]({filename}NACA-TR-1215.md) in the Thermodynamics thread, 
 which might help sort out the more useful analysis methods. 
 
-##Notes:  
+## Notes:  
 [^1]: 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
 [^2]: Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  

@@ -3,13 +3,13 @@ Date: 2022-05-09 12:00
 Category: NACA  
 tags: thermodynamics  
 
-> ###_"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"_  
+### _"there has been speculation concerning removing ice during flight in clear air at high altitudes by the process of sublimation"_  
 
-#"Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" [^1]   
+# "Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" [^1]   
 
 ![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
 
-##Abstract  
+## Abstract  
 
 > An experimental investigation was conducted in a 3.84- by 10-inch
 tunnel to determine the mass transfer by sublimation, heat transfer,
@@ -27,10 +27,10 @@ data obtained indicate that sublimation as a means of removing ice
 formations of appreciable thickness is usually too slow to be of mach
 value in the de-icing of aircraft at high altitudes.
 
-##Summary
+## Summary
 Sublimation rates at up to Mach 1.3 are measured. 
 
-##Key points 
+## Key points 
 
 1. "natural ice formations resulting from the impingement
 and freezing of small water droplets on a surface are rarely smooth"  
@@ -40,7 +40,7 @@ thickness is usually too slow to be of much value in aircraft
 de-icing at high altitudes."  
 
 
-##Discussion  
+## Discussion  
 
 Be acquainted with the symbols.
 
@@ -59,8 +59,7 @@ prediction of the rate of sublimation of a smooth ice surface subjected
 to a tangential low-velocity air stream could be made from available
 data. However, natural ice formations resulting from the impingement
 and freezing of small water droplets on a surface are rarely smooth, and
-very little is known of the sublimation rate of rough ice in a high-
-velocity air stream.  
+very little is known of the sublimation rate of rough ice in a high-velocity air stream.  
 
 Note "natural ice formations resulting from the impingement
 and freezing of small water droplets on a surface are **rarely smooth**". 
@@ -81,10 +80,12 @@ ice formed by the condensation of moisture from a humidity-controlled
 air stream on the cold surface of a metal plate most nearly suited the
 requirements.
 
->The study of the heat-transfer process from the iced surface im-
-poses two additional requirements: (1) the transfer of heat must take
+>The study of the heat-transfer process from the iced surface imposes 
+two additional requirements:  
+> (1) the transfer of heat must take
 place without the transfer of mass to avoid interaction of the two
-processes, and (2) the measurement of the temperature of the ice surface 
+processes, and  
+> (2) the measurement of the temperature of the ice surface 
 should be possible. The condensation method of forming the ice
 offers an indirect method for obtaining the surface temperature by
 measurement of the humidity of the air stream under conditions for which
@@ -93,8 +94,8 @@ effect). The ice surface temperature under these conditions is equal
 to the temperature of saturation of the air stream. Thus both the
 additional requirements of the heat-transfer study can be satisfied
 through use of the condensation method of forming the ice. Therefore
-for this investigation ice was caused to form on the cold plate by in-
-creasing the humidity of the air stream by means of steam injection.
+for this investigation ice was caused to form on the cold plate by increasing 
+the humidity of the air stream by means of steam injection.
 When the dew point of the air stream exceeded the surface temperature
 of the cold plate, condensation in the form of a dense frost-like ice
 formation occurred, as shown in figure 3.
@@ -102,8 +103,7 @@ formation occurred, as shown in figure 3.
 ![Figure 3](images/NACA-TN-3104/Figure3.png)  
 
 >The movable probe shown in figure 3 was used for purposes of
-focusing the telescope and aiding in the determination of ice thick-
-ness.
+focusing the telescope and aiding in the determination of ice thickness.
 
 >The heat transferred through the ice or to the bare surface was
 determined from the heat gained by the alcohol flowing through the copper 
@@ -170,7 +170,7 @@ flight in saturated air, especially for the lower-altitude conditions.
 ![Figure 10a](images/NACA-TN-3104/Figure10a.png)  
 ![Figure 10b](images/NACA-TN-3104/Figure10b.png)  
 
-##Conclusions
+## Conclusions
 
 > SUMMARY OF RESULTS  
 The experimental investigation to determine the mass transfer by
@@ -205,7 +205,7 @@ Figure 10a (saturated air) yields about 0.5 lbm/ft^2-hr at -40C,
 and Figure 10b (dry air) yields about 0.6 lbm/ft^2-hr.
 
 
-##Citations  
+## Citations  
 
 NACA-TN-3104 cites 11 publications:  
 
@@ -228,7 +228,7 @@ NACA-TN-3104 is cited 2 times by publications in the NACA Icing Publications Dat
 
 NACA-TN-3104 is cited 33 times in the literature [^4].
 
-##Notes:
+## Notes:
 
 [^1]:
 Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  

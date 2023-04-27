@@ -1,24 +1,24 @@
 Title: NACA-TN-2914  
 Date: 2022-04-26 12:00  
 Category: NACA    
-tags: thermodynamics  
+tags: thermodynamics, python tools  
 
-> ###_"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"_  
+### _"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"_  
 
-#NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" [^1]
+# NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" [^1]
 and 
-#NACA-TN-2914 "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions" [^2]
+# NACA-TN-2914 "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions" [^2]
 
-##Summary
+## Summary
 The warmest ambient temperature at which ice can accumulate is calculated.
 
-##Key points
+## Key points
 
 1. The warmest ambient temperature at which ice can accumulate is calculated.  
 2. Compressibility effects were included. 
 3. Analysis showed good results compared to test data at transonic Mach numbers. 
 
-##Abstract
+## Abstract
 
 NACA-TN-2861: 
 > Calculations have been made for the icing limit of a diamond airfoil 
@@ -40,7 +40,7 @@ method can be applied to both subsonic and supersonic flow. The charts
 presented are for Mach numbers up to 1.8 and pressure altitudes from sea
 level to 45,000 feet.
     
-##Discussion
+## Discussion
 
 This is review includes NACA-TN-2861 and NACA-TN-2914. 
 They have the same authors, and contain much of the same theoretic material. 
@@ -147,7 +147,7 @@ can be obtained from reference 10 for stream Mach numbers of 0.848 to
 | 0.935 | -0.33                   | 452              | 450.7                    | 466.5            | 465.0                    | 481.5            | 480.3                    |
 | 1.11  | -0.045                  | 423.5            | 423.1                    | 440              | 438.9                    | 464              | 462.3                    |
 
-##Conclusions
+## Conclusions
 
 NACA-TN-2861: 
 > SUMMARY OF RESULTS
@@ -168,26 +168,26 @@ condition increases with increasing altitude.
 >3. For the point immediately ahead of the shoulder the minimum
 free-stream temperature corresponding to an ice-free condition remains
 the same or decreases with increasing thickness ratio at a constant
-value of Mach number and altitude. For the point immediately down-
-stream of the shoulder the free-stream temperature corresponding to
+value of Mach number and altitude. For the point immediately down-stream 
+of the shoulder the free-stream temperature corresponding to
 an ice-free condition increases with increasing thickness at a constant
 Mach number and altitude.
 
 NACA-TN-2914 did not have a "conclusions" section.
 
-###Can ice form at T_ambient = 0C?
+### Can ice form at T_ambient = 0C?
 
 An interesting question is can ice form when the ambient static temperature is the melting point of ice, 0C? 
 The calculations from NACA-TN-2914 predict yes, over a range of conditions:
 
 ![Cp values calculated](images/NACA-TN-2914/naca-tn-2914_cp_for_0c.png)  
 
-The the examples in NACA-TN-2914 did not have coefficient of pressure values in this range, 
+The examples in NACA-TN-2914 did not have coefficient of pressure values in this range, 
 but they are not unrealistic for other airfoils at some flight conditions. 
 It is not clear that the location of the coefficient of pressure values would be in the impingement zone, 
 and that the assumption of a fully wet surface would apply. 
 
-##Citations
+## Citations
 
 NACA-TN-2861 cites 11 publications: 
 
@@ -232,7 +232,7 @@ NACA-TN-2861 is cited by 10 publications in the literature [^7].
 
 NACA-TN-2914 is cited by 8 publications in the literature [^8]. 
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  

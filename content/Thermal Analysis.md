@@ -2,7 +2,7 @@ title: Thermal Analysis and Surface Wettedness
 Date: 2023-03-29 12:00
 tags: ice protection   
 
-_"ice formation can be redefined in more general terms as a thermodynamic problem"_ [^1] (1936)  
+### _"ice formation can be redefined in more general terms as a thermodynamic problem"_ [^1] (1936)  
 
 ## Summary  
 The thermal analysis of icing conditions has unique challenges, 

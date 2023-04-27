@@ -1,24 +1,24 @@
 Title: NACA-TR-831 
 Date: 2022-04-14 12:00  
 Category: NACA 
-tags: thermodynamics  
+tags: thermodynamics, python tools  
 
->###_"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."_
+### _"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."_  
 
 #"An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane" [^1] 
 
 
 ![Figure 2](images/NACA-TR-831/Figure2.png) 
 
-##Summary
+## Summary
 Two dimensional heat balance equations for ice protection are detailed. 
 
-##Key points
+## Key points
 1.  Heat balance equations for ice protection are detailed. 
 2.  An assumption about water drop temperature approaching an object is made. 
 3.  A cylinder approximation for an airfoil leading edge is used for water drop impingement. 
 
-##Abstract 
+## Abstract 
 
 > A method is given for calculating the temperature that a
 surface, heated internally by air, will assume in specified 
@@ -34,9 +34,9 @@ calculated. The effect of kinetic heating and the effect of the
 concentration of free water and size of droplet in the cloud are
 demonstrated.
 
-##Discussion 
+## Discussion 
 
-Here we cooperation between NACA and the RAE (Royal Aircraft Establishment), 
+Here we see cooperation between NACA and the RAE (Royal Aircraft Establishment), 
 as author J. K. Hardy was from the RAE, as were several of the references. 
 
 The nomenclature may be challenging, so peruse the symbols used: 
@@ -50,8 +50,8 @@ Hot air from an internal "D" chamber enters a corrugated heat exchanger near the
 The thermal performance calculations are detailed. 
 Large portions are reproduced herein:
 
-> ###THEORETICAL ANALYSIS
-> ###CLEAR AIR  
+> THEORETICAL ANALYSIS  
+> CLEAR AIR  
 In clear air, the equation which gives the balance of the
 flow of heat to and from the surface is  
 > ![Equation 1](images/NACA-TR-831/Equation1.png)  
@@ -74,7 +74,7 @@ In the present analysis, equation (2) has been used throughout.
 A trial calculation has been made using equation (3);
 the results of this calculation will be discussed later.
 
-> ###Equations of heat flow.
+> Equations of heat flow.
 > In conditions of icing, droplets of
 water strike the surface in an area about the stagnation
 point. The rate of dissipation of heat from the area on
@@ -150,7 +150,7 @@ There follows a discussion about the ratio of k_h to k_w.
 The values will differ in later works, but: 
 >In the present calculation the ratio of k_w to k_h has been taken as unity.
 
-###Rate of water catch 
+### Rate of water catch 
 
 A cylinder is used as an approximation of the wing leading edge to 
 calculate impingement (more on [cylinders]({filename}Icing on Cylinders.md)):
@@ -212,9 +212,9 @@ on the size of wing as well as on the size of droplet. The
 extent to which the severity of icing may be reduced by the
 effect of kinetic heating at high speeds is not known. 
 
-###Blown-off water 
+### Blown-off water 
 
-> Blow-off of water.—It is evident from equation (8) that no
+> Blow-off of water. It is evident from equation (8) that no
 account has been taken of the heat carried by water from
 the area of catch to the surface behind this area. The reason
 for the omission is that the water runs back in large drops
@@ -237,7 +237,7 @@ falls to 32' F, if the formation of ice is to be avoided.
 Later works will have different opinions about how much water, 
 if any, is blown off of the surface
 
-###Wet surface
+### Wet surface
 
 > Rate of evaporation.—The calculation of the rate of
 evaporation of water from the surface, when the surface is
@@ -274,7 +274,7 @@ this report it is assumed that the surface is fully wetted.
 The assumption about what fraction of the surface is wet where there is runback water 
 will be revisited in later works. 
 
-###External Heat Transfer Coefficients  
+### External Heat Transfer Coefficients  
 
 There is a discussion about how the external heat transfer coefficients were determined. 
 There had been previous analysis ([^5], [^6], [^7], [^8]) (and [^8] includes the cylinder leading edge approximation).
@@ -312,7 +312,7 @@ extent of the double skin, appeared to be the most satisfactory.
 This value has been used for all other calculations.
 
 > It is difficult to believe that the value of h_a, in the case
-of the. C-46 wing, really is constant. The agreement,
+of the C-46 wing, really is constant. The agreement,
 therefore, between the terminal value, 19.5 Btu per hour,
 square foot, °F, calculated from the data of reference
 5, and the value used in the calculations must be regarded
@@ -320,9 +320,9 @@ as fortuitous.
 
 Efforts will continue in later works to determine internal heat transfer coefficients. 
 
-###Water catch
+### Water catch
 
-###Results  
+### Results  
 
 While the flight conditions where surface temperatures were measured were described as "mild icing", 
 an LWC value of 1.2 g/m^3 was selected [which seems high to me for "mild icing"].
@@ -330,7 +330,7 @@ an LWC value of 1.2 g/m^3 was selected [which seems high to me for "mild icing"]
 > The concentration of free water, for both temperatures, has been taken as 1.2 grams per cubic meter, and the
 size of droplet in the cloud as 10 microns diameter.
 
-None the less, the calculated surface temperatures in Figure 4 are within about 10F of the measured values. 
+Nonetheless, the calculated surface temperatures in Figure 4 are within about 10F of the measured values. 
 Also, the heated air temperatures match well, 
 indicating that the internal and external heat transfer coefficients used yield a match on 
 overall energy balance 
@@ -349,7 +349,7 @@ up to an (ambient) concentration of water of about 0.65 g/m^3.
 Above that value, the surface temperatures take an abrupt drop to a lower value, 
 as there are water drops, that were not completely evaporated, available to impinge. 
 
-##Conclusions 
+## Conclusions 
 
 > It has been shown that the temperature of the surface of
 the wing in conditions of icing can be predicted with considerable 
@@ -401,7 +401,7 @@ These will be continuing challenges for later works, as well as other items note
 
 NACA-TR-831 included most of the components of more recent, 
 2D thermal ice protection thermodynamic analysis. 
-And it raised issues to be investigate further. 
+And it raised issues to be investigated further. 
 So, I view it as a success. 
 
 

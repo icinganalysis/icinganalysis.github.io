@@ -1,26 +1,26 @@
 Title: Messinger  
 Date: 2022-04-21 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, python tools  
 
-> ###_""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"_  
+### _""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"_  
 
-#B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" [^1] 
+# B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" [^1] 
 
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](images/messinger/Figure1.png) 
 > Modes of energy transfer for an unheated airfoil in icing conditions. 
 
-##Summary 
+## Summary 
 The term "freezing fraction" is defined 
 
-##Key points
+## Key points
 
 1. Heat balance equations for a wet surface are presented.  
 2. The term "freezing fraction" is defined  
 3. Example calculations are provided  
 4. Icing wind tunnel test data is provided  
 
-##Abstract
+## Abstract
 
 > The thermal analysis of a heated surface in icing conditions has
 been extensively treated in the literature. Except for the work
@@ -54,12 +54,12 @@ natural and artificial icing conditions are included in the Appendix.
 These data substantiate the validity of the assumptions
 made in the theoretical analysis.
     
-##Discussion
+## Discussion
 
 This paper is one of the most cited aircraft icing publication in the literature 
 and merits close study. 
 
-I am reviewing publication the [Thermodynamics thread]({filename}thermodynamics.md) in order of publication. 
+I am reviewing publications in the [Thermodynamics thread]({filename}thermodynamics.md) in order of publication. 
 I am counting this as published in 1951, as some NACA publications (such as NACA-TN-2861) 
 cite a pre-print of this publication. The journal publication was in 1953. 
 
@@ -69,7 +69,7 @@ in preparation of the curves and to P. J. Valentine for suggestions
 relative to the "freezing fraction" concept. Both are members of
 the Thermodynamics Group at Lockheed Aircraft Corporation.
 
-###Symbols  
+### Symbols  
 The paper used its own nomenclature. 
 I will attempt to standardize (mostly) to the nomenclature of "Manual of Scaling Methods" [^2]. 
 
@@ -171,7 +171,7 @@ So,
     
     qf = Lf * n * mw
 
-Note that all of the impinging water mw is considered to freeze (evaporation is not included). 
+Note that all impinging water mw is considered to freeze (evaporation is not included). 
 
     qv = fc * (r * V**2 / 2 / g / J /cp)  [Messinger nomenclature]  
 
@@ -183,7 +183,7 @@ Similarly,
 
     qk = mw * (u**2 / 2)
 
-###When ts=32F and 0 <= n <= 1
+### When ts=32F and 0 <= n <= 1
 
 (For brevity, we will cover only this case, consult the paper for other cases such as ts<32F, ts>32F).
 
@@ -214,7 +214,7 @@ Unfortunately, Figure 6 is for 20,000 ft. altitude (only),
 and it is not clear how the reader would get solutions 
 graphically for other altitudes. 
 
-###Results
+### Results
 
 Most of the results are in the form of surface temperature "as a function of airspeed",
 as in Figure 10. 
@@ -268,7 +268,7 @@ The resulting surface temperatures with either heat transfer relationship
 match Figure 10b values (not shown) well.  
 ![Surface temperature values for Figure 10b](images/messinger/messinger_fig10b_ts.png) 
 
-###"Datum" temperature
+### "Datum" temperature
 
 Messinger has comments about the "datum temperature" from 
 [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^7]:
@@ -295,7 +295,7 @@ definition of the conductance.
 There is more in that vein, so this marks the beginning of the end of 
 the use of "datum" temperature. 
 
-##Conclusions
+## Conclusions
 
 >At least some ice can collect on an unheated surface
 in normal low-temperature icing conditions at speeds
@@ -350,7 +350,7 @@ As Messinger wrote:
     "... data, obtained in natural icing conditions, would be valuable
     for establishing the validity of the various foregoing assumptions"
 ```    
-##Appendix 
+## Appendix 
 
 Messinger added an appendix with test data.
 
@@ -411,7 +411,7 @@ but the freezing fractions were not measured.
 We will have to look at data from the post-NACA era for freezing fraction measurements. 
 
 
-##Citations
+## Citations
 
 Messinger cites 9 publications:
 
@@ -433,14 +433,14 @@ The single citation is surprising, as this paper is a close second to Langmuir a
 for the most cited aircraft icing publication in the literature with 740 citations [^10]
 (the positions change from time to time, as either paper is often cited by new publications).
 
-###Related
+### Related
 
 Messinger made a presentation at the [1969 Aircraft Ice Protection Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md). 
 
 Messinger taught a session in the University of Michigan Airplane Icing Information Course [^11] in 1953.  
 It is only available in print (I was able to read a copy through inter-library loan).
 
-##Notes: 
+## Notes: 
 
 [^1]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
