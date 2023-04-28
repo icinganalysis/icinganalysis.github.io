@@ -531,8 +531,6 @@ Wilder, R. W. "A theoretical and experimental means to predict ice accretion sha
 
 I could not find this publication online. 
 
-[https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+theoretical+and+experimental+means+to+predict+ice+accretion+shapes+for+evaluating+aircraft+handling+and+performance+characteristics&btnG=  ](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+theoretical+and+experimental+means+to+predict+ice+accretion+shapes+for+evaluating+aircraft+handling+and+performance+characteristics&btnG=  )
-
 See also the review of the conference where this paper was presented, 
 [1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md), 
 which stated:  

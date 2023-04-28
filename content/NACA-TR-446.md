@@ -120,7 +120,7 @@ the leading edge along the upper surface.
 
 This data was for a single, 2D airfoil section at one Reynolds number, 
 but it has been used as a general "map" of the expected effects of aircraft icing 
-[we will see examples at the end of the [Ice Shapes and Their Effect thread]({filename}ice_shapes_thread.md)].
+[we will see examples in the [Conclusions of the Ice Shapes and Their Effect thread]({filename}conclusions_of_the_ice_shapes_thread.md)].
 
 NACA-TR-446 is cited several times in the recent literature in the context of ice shapes on an airfoil. 
 
