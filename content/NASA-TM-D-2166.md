@@ -3,27 +3,27 @@ Date: 2022-06-29 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"this correlation is a first-order approximation of the presently available aerodynamic and icing data for airfoils exposed to icing conditions"_  
+### _"this correlation is a first-order approximation of the presently available aerodynamic and icing data for airfoils exposed to icing conditions"_  
 
-#SAE Preprint No. 225, "Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions"  
+# SAE Preprint No. 225, "Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions"  
 and  
-#NASA-TM-D-2166, "Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils"  
+# NASA-TM-D-2166, "Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils"  
 
 The content of these two publications are almost identical. 
 As NASA-TM-D-2166 is the one that was cited the most, 
 and has a more legible copy available online, 
 I will center the review around it. 
 
-##Summary  
+## Summary  
 A more general correlation of drag due to ice on an airfoil is developed.  
 
-##Key Points  
+## Key Points  
 1. Several airfoils are studied in addition to the NACA 65A004 previously used.  
 2. A more general correlation of drag due to ice on an airfoil is developed.  
 3. For lift, "no systematic relation is readily apparent for a thin, sharp-nosed airfoil
 such as the 65A004 airfoil".  
 
-##Abstract  
+## Abstract  
 
 >An empirical equation is developed by which changes in drag coefficients due to ice formations
 on an NACA 65A004 airfoil may be calculated from known icing and flight conditions;
@@ -45,7 +45,7 @@ additional data on lift and pitching-moment changes
 due to ice are limited to the 65A004 airfoil,
 for which complex trends preclude a general relation scope of this report.
 
-##Discussion
+## Discussion
 
 NASA-TM-D-2166 was published (in 1964) after the end of the NACA-era. 
 However, it is listed in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
@@ -82,7 +82,8 @@ and to extend it to include all the airfoil
 sections for which aerodynamic data in NACA
 icing tunnel conditions are available.
 
-![Figure 1](images/nasa-d-2166/Figure 1.png)  
+![Figure 1. NACA airfoil sections for which aerodynamic data in icing
+conditions is available.](images/nasa-d-2166/Figure 1.png)  
 
 >PREDICTION OF DRAG CHANGES DUE TO ICE ON VARIOUS AIRFOILS  
 Because equation (1) for approximating the drag-coefficient
@@ -122,7 +123,9 @@ The order of agreement shown in figure 7 appears quite satisfactory,
 considering the nature and difficulty of obtaining aerodynamic, impingement, 
 and meteorological data in icing conditions.
 
-![Figure 7](images/nasa-d-2166/Figure 7.png)  
+![Figure 7. Comparison of calculated and measured change in drag coefficient 
+due to ice, delta Cd. (Complete range of NACA airfoil icing data.)
+](images/nasa-d-2166/Figure 7.png)  
 
 >Unfortunately, changes in lift
 and pitching-moment coefficients due to ice
@@ -155,9 +158,11 @@ drag coefficients,
 primarily because of the flow separation from the upper surface 
 starting at an angle of attack of about 4° (ref. 1).
 
-![Figure 8](images/nasa-d-2166/Figure 8.png)  
+![Figure 8. Change in lift coefficient and ptiching moment due to ice on 
+001 airfoil section (related to change in drag).
+](images/nasa-d-2166/Figure 8.png)  
 
-##Conclusions  
+## Conclusions  
 
 >It should be noted in conclusion that this correlation 
 is a first-order approximation 
@@ -172,7 +177,7 @@ and in making flight performance studies in which icing effects must be evaluate
 See "Related" below for a later comparison of icing wind tunnel test data to 
 NASA-TM-D-2166 calculations, illustrating the limitations of "a first-order approximation".
 
-##Citations
+## Citations
 
 SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:  
 
@@ -186,12 +191,15 @@ SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:
 An online search found NASA-TM-D-2166 cited 47 times [^3]. 
 No citations for SAE Preprint 225 were found. 
 
-##Related  
+## Related  
 
 NASA-TM-83556 [^4] compares measured ice drag on a NACA0012 airfoil to NASA-TM-D-2166 ("ref. 1") calculations. 
 Several of the calculated delta Cd values are notably higher than the test values. 
 
-![NASA-TM-83556 Figure 20](images/nasa-tm-83556/Figure 20.png)  
+![NASA-TM-83556 Figure 20. Comparison of measured drag coefficient 
+with values predicted by old correlation (ref. 1) for 
+0012 airfoil over a wide rangeof icing conditions.
+](images/nasa-tm-83556/Figure 20.png)  
 
 Data for the NACA0012 airfoil was not included in the NASA-TM-D-2166 data, 
 but the similar NACA0011 airfoil was included. 
@@ -199,7 +207,7 @@ but the similar NACA0011 airfoil was included.
 We will see more from NASA-TM-83556 in the "Conclusions of the Ice Shapes and Their Effects Thread", 
 and in the upcoming "Icing Wind Tunnel Test Thread".
 
-##Notes:
+## Notes:
 
 [^1]: Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.
 I could not find a download this on the nrts, it is available at 

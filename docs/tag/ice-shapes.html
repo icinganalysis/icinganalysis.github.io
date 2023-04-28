@@ -28,8 +28,8 @@
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T15:04:30.268978-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T18:36:51.515415-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -43,7 +43,9 @@
 <!--<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a> </p>-->
 
 </footer><!-- /.post-info --><h3><em>"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"</em> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-<p><img alt="Figure_14 of NACA-TN-1598" src="images/naca-tn-1598/Figure_14_naca_tn_1598.png">  </p>
+<p><img alt="Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598.png">  </p>
 <blockquote>
 <p>from NACA-TN-1598 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>  </p>
 </blockquote>
@@ -89,7 +91,8 @@ h = 4.35X10-4 τ V_o (w β_m)*0.5 (32-t_o)^0.3   (2)
 </code></pre></div>
 
 <p>LWC (w) and a water catch efficient term (E_m or β_m) are in both, and a temperature difference. </p>
-<p><img alt="Figure 7 from NACA-TN-4151" src="images/naca-tn-4151/Figure 7.png"><br>
+<p><img alt="Figure 7. Representation of ice shape by angle theta and height h.
+" src="images/naca-tn-4151/Figure 7.png"><br>
 <em>Figure 7 from NACA-TN-4151</em> </p>
 <p>We can see elements of a "freezing fraction" calculation from Messinger <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> in equations (1) and (2)
 from above. </p>
@@ -164,7 +167,10 @@ Fortunately, a NACA0012 airfoil was used, as was used in NACA-TR-446.
 There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and NACA-TR-446 (3.1 x10^6).
 The data is at an angle of attack of 4 degrees,
 while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees angle of attack.</p>
-<p><img alt="Figure 10 from NASA-TM-83556" src="images/nasa-tm-83556/Figure 10.png"><br>
+<p><img alt="Figure 10 from NASA-TM-83556. Effect of total temperature on the ice
+shape and drag. (LWC x V x time) = const,; DVM, 20 micrometer; 
+0.053 m chord 0012 airfoil at a 4 degree angle of attack.
+" src="images/nasa-tm-83556/Figure 10.png"><br>
 <em>Figure 10 from NASA-TM-83556</em> </p>
 <p>A Langmuir "D" drop size distribution was used for LEWICE 2D analysis of the conditions in Figure 10.
 LEWICE 2D yields similar, but not identical, ice shapes. 
@@ -195,7 +201,8 @@ and allow extrapolation to larger horn angles (this is a subset of the data in A
 and were found to be of limited accuracy.)</p>
 <p>With either of the very approximate extrapolation of Cd, 
 the estimated effects are different than Figure 10 (b) from above. </p>
-<p><img alt="Figure 10b from NASA-TM-83556" src="images/nasa-tm-83556/Figure 10b.png"></p>
+<p><img alt="Figure 10b from NASA-TM-83556. Section coefficient of drag.
+" src="images/nasa-tm-83556/Figure 10b.png"></p>
 <p><img alt="Calculated Cd values for figure 10 conditions" src="images/nasa-tm-83556/nasa_tm_83556_lewice_comparison_extrapolated_cd.png">  </p>
 <p>With the NACA-TR-446 based extrapolation, the 338 km/h case at -2C is correctly identified 
 as the case with the largest effect, but the other values do not match Figure 10 (b) well. </p>
@@ -212,7 +219,7 @@ or if the LEWICE ice shapes themselves are meaningfully different. </p>
 <p>As I have often seen in icing publications, 
 a phrase like <strong>"Additional work is needed"</strong> <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup> applies here.</p>
 <p>Additional work is ongoing in groups such as the 
-AIAA Ice Prediction Workshop Workshop <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>. 
+AIAA Ice Prediction Workshop <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>. 
 While the ice shape results above were specifically for LEWICE2D, 
 I am not sure that any other currently available code 
 that was presented at the workshop so far
@@ -243,7 +250,8 @@ was recognized as a potential threat to current aircraft.
 Large drop icing can form in area different from smaller drops, 
 and if ice forms aft of a protection system it can produce different shapes. 
 The "Forward Facing Quarter Round" has been used to represent such ice. </p>
-<p><img alt="DOT-FAA-AR-00-14 Figure 7" src="images/DOT-FAA-AR-00-14/Figure 7.png">  </p>
+<p><img alt="DOT-FAA-AR-00-14 Figure 7. Ice Shape Simulation Geometry.
+" src="images/DOT-FAA-AR-00-14/Figure 7.png">  </p>
 <blockquote>
 <p>Figure 7 from DOT/FAA/AR-00/14 <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup>.</p>
 </blockquote>
@@ -252,7 +260,9 @@ The "Forward Facing Quarter Round" has been used to represent such ice. </p>
 <p>As we saw above, the "empirical" icing conditions parameters in NACA-TN-4151 
 anticipated and correlate to equivalent leading edge freezing fraction values. </p>
 <p>This gets used in NASA/CR-2004-212875 <sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup> and NASA/CR-2005-213852 <sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup>.  </p>
-<p><img alt="NASA/CR-2005-213852 Figure 3" src="images/freezing_fractions/NASA_CR_2005_213852_Figure3.png">  </p>
+<p><img alt="NASA/CR-2005-213852 Figure 3. Experimental and Analytical 
+Freezing Fractions Compared. n_o calculated with length d using equation (16) for Nu.
+" src="images/freezing_fractions/NASA_CR_2005_213852_Figure3.png">  </p>
 <blockquote>
 <p>Figure 3 from NASA/CR-2005-213852.  </p>
 </blockquote>
@@ -262,9 +272,11 @@ the values from NACA-TN-4151 Figure 7 get perpetuated in the LEWICE user's manua
 (although the theta=0 reference is shifted),
 and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set,
 at least for 2D characterizations (3D is a matter of ongoing research):  </p>
-<p><img alt="Figure 18 Ice shape parameters from LEWICE manual" src="images/ice_shapes_wrap_up/LEWICE manual figure 18.png">  </p>
+<p><img alt="Figure 18 Ice shape parameters from LEWICE manual. 
+Horn angle definition for THICK." src="images/ice_shapes_wrap_up/LEWICE manual figure 18.png">  </p>
 <p>However, the validation report <sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup> used a modified definition for theta:</p>
-<p><img alt="Figure 16 from NASA/CR-1998-208687" src="images/ice_shapes_wrap_up/LEWICE validation fig 16.png">  </p>
+<p><img alt="Figure 16 from NASA/CR-1998-208687. Max. thickness angle on sample ice shape.
+" src="images/ice_shapes_wrap_up/LEWICE validation fig 16.png">  </p>
 <h2>Related</h2>
 <p>Most of the ice shapes from this thread were produced in icing wind tunnels. 
 We will review these test facilities in the upcoming <a href="/icing-wind-tunnel-test-thread.html">Icing Wind Tunnels Test Thread</a>. </p>
@@ -348,8 +360,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Wed 06 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T15:20:17.732401-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T18:36:51.527415-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -363,7 +375,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
 <!--<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a> <a href="/tag/diversions.html">diversions</a> </p>-->
 
 </footer><!-- /.post-info -->                <h3><em>"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."</em></h3>
-<p><img alt="Figure 25" src="images/wilder/Figure 25.png">  </p>
+<p><img alt="Figure 25. 747 Horizontal stabilizer ice shapes.
+" src="images/wilder/Figure 25.png">  </p>
 <h1>"Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
 <h2>Summary</h2>
 <p>Glaze ice shape correlations for two commercial aircraft airfoils …</p>
@@ -383,8 +396,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Wed 29 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.777943-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T18:36:51.543415-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -417,8 +430,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Mon 27 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.773945-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T14:23:10.454781-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -451,8 +464,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Wed 22 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.749956-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T14:14:28.494741-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -483,8 +496,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Sun 19 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.761950-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T14:08:31.127473-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -515,8 +528,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Tue 14 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.753954-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T18:36:51.535415-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -530,7 +543,10 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
 <!--<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a> </p>-->
 
 </footer><!-- /.post-info -->                <h3><em>"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"</em></h3>
-<p><img alt="Figure 13" src="images/naca-tn-1598/Figure13.png">  </p>
+<p><img alt="Figure 13. Formation of ice on horizontal stabilizer. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)" src="images/naca-tn-1598/Figure13.png">  </p>
 <h1>NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1 …</a></sup></h1>
                 <a class="readmore" href="/naca-tn-1598.html">read more</a>
                 </div><!-- /.entry-content -->
@@ -548,8 +564,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Mon 13 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.773945-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T13:35:02.784294-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -580,8 +596,8 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Wed 08 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.773945-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-27T13:31:24.653659-07:00">
+                Updated: Thu 27 April 2023
         </abbr>
 <!---->
         <!---->
@@ -594,8 +610,10 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
 <!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
 <!--<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a> </p>-->
 
-</footer><!-- /.post-info -->                <h2><em>"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."</em></h2>
-<p><img alt="Figure 11" src="images/naca-tr-446/Figure11.png">  </p>
+</footer><!-- /.post-info -->                <h3><em>"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."</em></h3>
+<p><img alt="Figure 11. Section characteristics for various protuberance positions. 
+Height of protuberance: 0.1025 c (positions indicate by arrows). 
+Coefficient of lift vs. angle of attack." src="images/naca-tr-446/Figure11.png">  </p>
 <h1>NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances" <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h1>
 <h2>Summary</h2>
 <p>"Protuberances" on an airfoil can have …</p>
@@ -615,7 +633,7 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                 Published: Mon 06 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-27T10:18:38.971379-07:00">
+        <abbr class="modified" title="2023-04-27T13:22:24.271748-07:00">
                 Updated: Thu 27 April 2023
         </abbr>
 <!---->

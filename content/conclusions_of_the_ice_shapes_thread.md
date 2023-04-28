@@ -3,9 +3,11 @@ Date: 2022-07-13 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]  
+### _"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]  
 
-![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
+![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
 >from NACA-TN-1598 [^2]  
 
 ## Summary 
@@ -66,7 +68,8 @@ study.
 
 LWC (w) and a water catch efficient term (E_m or β_m) are in both, and a temperature difference. 
 
-![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)  
+![Figure 7. Representation of ice shape by angle theta and height h.
+](images/naca-tn-4151/Figure 7.png)  
 _Figure 7 from NACA-TN-4151_ 
 
 We can see elements of a "freezing fraction" calculation from Messinger [^3] in equations (1) and (2)
@@ -120,7 +123,7 @@ They convey very similar information.
 I view this as further validation of Uwe von Glahn's assertion that 
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955.  
 
-####AEDC-TR-87-23 [^5]
+#### AEDC-TR-87-23 [^5]
 
 AEDC-TR-87-23 (which we will review in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md)) 
 used the drag coefficient Cd as an ice shape similarity indicator
@@ -161,7 +164,10 @@ There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and 
 The data is at an angle of attack of 4 degrees,
 while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees angle of attack.
 
-![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png)  
+![Figure 10 from NASA-TM-83556. Effect of total temperature on the ice
+shape and drag. (LWC x V x time) = const,; DVM, 20 micrometer; 
+0.053 m chord 0012 airfoil at a 4 degree angle of attack.
+](images/nasa-tm-83556/Figure 10.png)  
 _Figure 10 from NASA-TM-83556_ 
 
 A Langmuir "D" drop size distribution was used for LEWICE 2D analysis of the conditions in Figure 10.
@@ -202,7 +208,8 @@ and were found to be of limited accuracy.)
 With either of the very approximate extrapolation of Cd, 
 the estimated effects are different than Figure 10 (b) from above. 
 
-![Figure 10b from NASA-TM-83556](images/nasa-tm-83556/Figure 10b.png)
+![Figure 10b from NASA-TM-83556. Section coefficient of drag.
+](images/nasa-tm-83556/Figure 10b.png)
 
 ![Calculated Cd values for figure 10 conditions](images/nasa-tm-83556/nasa_tm_83556_lewice_comparison_extrapolated_cd.png)  
 
@@ -226,7 +233,7 @@ As I have often seen in icing publications,
 a phrase like __"Additional work is needed"__ [^5] applies here.
 
 Additional work is ongoing in groups such as the 
-AIAA Ice Prediction Workshop Workshop [^10]. 
+AIAA Ice Prediction Workshop [^10]. 
 While the ice shape results above were specifically for LEWICE2D, 
 I am not sure that any other currently available code 
 that was presented at the workshop so far
@@ -265,7 +272,8 @@ Large drop icing can form in area different from smaller drops,
 and if ice forms aft of a protection system it can produce different shapes. 
 The "Forward Facing Quarter Round" has been used to represent such ice. 
 
-![DOT-FAA-AR-00-14 Figure 7](images/DOT-FAA-AR-00-14/Figure 7.png)  
+![DOT-FAA-AR-00-14 Figure 7. Ice Shape Simulation Geometry.
+](images/DOT-FAA-AR-00-14/Figure 7.png)  
 >Figure 7 from DOT/FAA/AR-00/14 [^12].
 
 You can find a more detailed discussion in "Iced-airfoil aerodynamics" [^13].  
@@ -277,7 +285,9 @@ anticipated and correlate to equivalent leading edge freezing fraction values.
 
 This gets used in NASA/CR-2004-212875 [^14] and NASA/CR-2005-213852 [^15].  
 
-![NASA/CR-2005-213852 Figure 3](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+![NASA/CR-2005-213852 Figure 3. Experimental and Analytical 
+Freezing Fractions Compared. n_o calculated with length d using equation (16) for Nu.
+](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
 >Figure 3 from NASA/CR-2005-213852.  
 
 ### Ice shape parameters
@@ -288,11 +298,13 @@ the values from NACA-TN-4151 Figure 7 get perpetuated in the LEWICE user's manua
 and these (with the addition of icing limits) are probably the closest thing we have to a "standard" set,
 at least for 2D characterizations (3D is a matter of ongoing research):  
 
-![Figure 18 Ice shape parameters from LEWICE manual](images/ice_shapes_wrap_up/LEWICE manual figure 18.png)  
+![Figure 18 Ice shape parameters from LEWICE manual. 
+Horn angle definition for THICK.](images/ice_shapes_wrap_up/LEWICE manual figure 18.png)  
 
 However, the validation report [^17] used a modified definition for theta:
 
-![Figure 16 from NASA/CR-1998-208687](images/ice_shapes_wrap_up/LEWICE validation fig 16.png)  
+![Figure 16 from NASA/CR-1998-208687. Max. thickness angle on sample ice shape.
+](images/ice_shapes_wrap_up/LEWICE validation fig 16.png)  
 
 ## Related  
 

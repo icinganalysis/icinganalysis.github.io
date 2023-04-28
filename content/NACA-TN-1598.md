@@ -3,21 +3,24 @@ Date: 2022-06-14 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"_  
+### _"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"_  
 
-![Figure 13](images/naca-tn-1598/Figure13.png)  
+![Figure 13. Formation of ice on horizontal stabilizer. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)](images/naca-tn-1598/Figure13.png)  
 
-#NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight" [^1]  
+# NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight" [^1]  
 
-##Summary
+## Summary
 >Airplane levels effects of icing are measured, and broken into major components.  
 
-##Key Points
+## Key Points
 1. Numerous, excellent quality photos show how icing flight test "should be done".  
 2. Airplane levels effects of icing are measured, and broken into major components. 
 3. "It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice."  
 
-##Abstract  
+## Abstract  
 
 >A flight investigation in natural icing conditions was conducted 
 by the NACA to determine the effect of ice accretion on airplane performance.
@@ -31,10 +34,10 @@ resulted in an increase in parasite drag of the airplane of 81 percent.
 The control response of the airplane in this condition was
 marginal.
 
-##Discussion  
+## Discussion  
 
 This publication looks at the airplane level effects of ice, 
-and then it breaks down down to a major component level. 
+and then it breaks down to a major component level. 
 
 The online version of NACA-TN-1598 has many excellent quality images, 
 several are included here. 
@@ -60,16 +63,20 @@ of the rotating cylinders and a disk-type icing-rate meter is shown
 in figure 2. The principles of operation of these instruments are
 explained in references 3 and 4. Special research equipment
 installed in the airplane is listed in table I.  
-![Figure 1](images/naca-tn-1598/Figure1.png)  
+![Figure 1. Airplane equipped with thermal anti-icing on 
+propellers, wings, empennage, cowling leading edge, fore 
+section of fuselage, and miscellaneous antenna masts.](images/naca-tn-1598/Figure1.png)  
 
-![Table I](images/naca-tn-1598/Table1.png)  
+![Table I. Apparatus used in flight investigation by 
+Cleveland Laboratory.](images/naca-tn-1598/Table1.png)  
 
 You can see more about the ice protection equipment of the XB-25E "Flamin' Maimie" at [https://www.nasa.gov/specials/NACA/#c19](https://www.nasa.gov/specials/NACA/#c19). 
 I would fly in icing conditions in this airplane, unlike the VE-7 from [NACA-TN-313]({filename}NACA-TN-313.md). 
 
 Figure 2 shows a view of the rotating cylinders instrument 
 (which we have seen much of in the [Icing on Cylinders thread]({filename}Icing on Cylinders.md)), and the rotating disk:
-![Figure 2](images/naca-tn-1598/Figure2.png)  
+![Figure 2. Rotating cylinder assembly and disk-type icing 
+rate indicator on top of airplane.](images/naca-tn-1598/Figure2.png)  
 (The line crossing the rotating cylinders is a wire antenna, not an image flaw.)
 
 >Component Icing  
@@ -103,20 +110,38 @@ the inboard-wing panels were relatively small (fig. 11). The size
 of the formation can be judged by the 1-inch reference stripes on
 the wing surface. Some ice was lost from the outboard-wing panels.
 
-![Figure 7](images/naca-tn-1598/Figure7.png)  
+![Figure 7. Formation of ice accumulated on loop-wire antenna fairing. 
+Average liquid icing rate, 4 inches per hour; liquid water-content, 
+0.4 grams per cubic meter; drop size, 17 microns.](images/naca-tn-1598/Figure7.png)  
 
-![Figure 8](images/naca-tn-1598/Figure8.png)  
+![Figure 8. Formation of ice on the antenna mast and instrument-landing-system 
+receiving antennas. Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns.](images/naca-tn-1598/Figure8.png)  
 
-The forward radome, appears to have not retained all of the ice on landing:
-![Figure 9](images/naca-tn-1598/Figure9.png)  
+The forward radome, appears to have not retained all the ice on landing:
+![Figure 9. Formation of ice on nose sectoin of fuselage. Photographs taken on 
+ground following flight through temperatures above freezing for 15 minutes. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns.](images/naca-tn-1598/Figure9.png)  
 
-![Figure 10](images/naca-tn-1598/Figure10.png)  
+![Figure 10. Formation of ice on the cowling. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns.](images/naca-tn-1598/Figure10.png)  
 
-![Figure 11](images/naca-tn-1598/Figure11.png)  
+![Figure 11. Formation of ice on inboard-wing panel of airplane. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)](images/naca-tn-1598/Figure11.png)  
 
-![Figure 12](images/naca-tn-1598/Figure12.png)  
+![Figure 12. Formation of ice on outboard-wing panel showing sections 
+of ice lost by wing flexure. Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)](images/naca-tn-1598/Figure12.png)  
 
-![Figure 13](images/naca-tn-1598/Figure13.png)  
+![Figure 13. Formation of ice on horizontal stabilizer. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)](images/naca-tn-1598/Figure13.png)  
 
 >De-icing the components in the following order resulted in the
 corresponding changes in indicated airspeed at 1400 brake horse-power:  
@@ -125,7 +150,9 @@ Inboard-wing panel, 163 to 166 miles per hour; tail surfaces,
 per hour; engine cowling, 182.5 to 187 miles per hour; and miscellaneous 
 components, 187 to 204 miles per hour. (See fig. 14.)
 
-![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
+![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
 
 >These data were interpreted in terms of parasite drag and are
 shown in figure 15 in percentage of total drag of the ice-free airplane. 
@@ -139,12 +166,13 @@ flying qualities. __It is significant that the control response
 of the airplane approached the point of being marginal when all of
 the airplane except the propeller had accreted ice.__
 
-![Figure 15](images/naca-tn-1598/Figure15.png)  
+![Figure 15. Drag increase associated with icing of individual components.
+](images/naca-tn-1598/Figure15.png)  
 
 So, even if the drag and level flight lift with icing are tolerable, 
 the control response may not be. 
 
-##Conclusions  
+## Conclusions  
 
 >SUMMARY OF RESULTS  
 From a flight investigation to determine the effect of ice
@@ -163,8 +191,7 @@ The control response of the airplane in this condition was marginal.
 >4. The maximum propeller unbalance due to ice formations on
 the propeller blades was 85 ounce-inches.  
 
-
-##Citations  
+## Citations  
 
 NACA-TN-1598 cites 7 publications:  
 
@@ -182,7 +209,7 @@ NACA-TN-1598 is cited once in the [NACA Icing Publications Database]({filename}n
 
 An online search [^3] found 23 citations of NACA-TN-1598. 
 
-##Notes  
+## Notes  
 
 [^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   

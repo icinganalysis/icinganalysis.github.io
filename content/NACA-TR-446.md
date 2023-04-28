@@ -4,20 +4,22 @@ Category: NACA
 tags: ice shapes  
 
 
-##_"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."_
+### _"As regards the lift at higher angles of attack ..., the [effect] becomes increasingly serious as the protuberance approaches a point near the leading edge."_  
 
-![Figure 11](images/naca-tr-446/Figure11.png)  
+![Figure 11. Section characteristics for various protuberance positions. 
+Height of protuberance: 0.1025 c (positions indicate by arrows). 
+Coefficient of lift vs. angle of attack.](images/naca-tr-446/Figure11.png)  
 
 #NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances" [^1]
 
-##Summary
+## Summary
 "Protuberances" on an airfoil can have significant effects on section lift and drag. 
 
-##Key Points
+## Key Points
 1. Position and height of the protuberance are important.  
 2. While icing is not mentioned, later works will apply this data in an icing context. 
 
-##Abstract
+## Abstract
 
 >The drag and interference caused by protuberance
 from the surface of an airfoil have been determined in the
@@ -32,7 +34,7 @@ data on which to base the prediction of the effects of actual
 short-span protuberances. The data may also be applied
 to the design of air brakes and spoilers.
 
-##Discussion  
+## Discussion  
 
 This publication does not mention ice or icing, 
 but it has shaped many perceptions about the effects of ice on an airfoil. 
@@ -41,10 +43,11 @@ The Variable-Density Wind Tunnel was used [^2]
 (which is now on the U.S. National Register of Historic Places [^3]). 
 This pressurized wind tunnel allowed achieving a fairly high Reynolds Number, 
 even if the test article was not large. 
-![NACA-TR-416 Figure 2](images/naca-tr-446/NACA-TR-416Figure2.png)  
+![NACA-TR-416 Figure 2. Diagrammatic longitudinal section of the 
+variable-density wind tunnel.](images/naca-tr-446/NACA-TR-416Figure2.png)  
 
 Sheet-metal "protuberances" were positioned at various locations on the model.  
-![Figure 1](images/naca-tr-446/Figure1.png)  
+![Figure 1. N. A. C. A. 0012 airfoil showing protuberances.](images/naca-tr-446/Figure1.png)  
 
 For NACA-TR-446, tunnel data corrections are explained:
 >Attention should be here called to the fact,
@@ -66,21 +69,26 @@ simple aspect-ratio corrections
 (reference 2) are applied.
 
 The protuberance heights had different effects at one location.  
-![Figure 2](images/naca-tr-446/Figure2.png)  
+![Figure 2. Section characteristics for various protuberance heights. 
+Protuberance on leading edge (position indicated by arrows)](images/naca-tr-446/Figure2.png)  
 
 Different locations had different effects at one protuberance height.  
-![Figure 11](images/naca-tr-446/Figure11.png)  
+![Figure 11. Section characteristics for various protuberance positions. 
+Height of protuberance: 0.1025 c (positions indicate by arrows). 
+Coefficient of lift vs. angle of attack.](images/naca-tr-446/Figure11.png)  
 
 Drag was roughly proportional to protuberance height, but varied by location.  
-![Figure 12](images/naca-tr-446/Figure12.png)  
+![Figure 12. Variations of drag with protuberance height.](images/naca-tr-446/Figure12.png)  
 
 The effects on maximum lift of protuberance height and location were summarized.  
-![Figure 13](images/naca-tr-446/Figure13.png)  
+![Figure 13. Variation of maximum lift with protuberance height. 
+Protuberance on upper surface.](images/naca-tr-446/Figure13.png)  
 
 Fairing the protuberance had some effect.  
-![Figure 23](images/naca-tr-446/Figure23.png)  
+![Figure 23. Effect of fairing 0.005 c protuberance on upper surface, 
+0.05 c behind leading edge (position indicated by arrow)](images/naca-tr-446/Figure23.png)  
 
-##Conclusions  
+## Conclusions  
 
 >The following conclusions of immediate practical
 value may be drawn from the results in regard to the
@@ -120,7 +128,7 @@ The data are also an excellent test for your favorite CFD method,
 to see how high of an angle of attack that you can reproduce test results,
 both with and without a protuberance. 
 
-##Citations
+## Citations
 
 NACA-TR-446 cites 5 references.  
 - Ower, E.: Interference. Roy. Aero. Soc. Jour., July, 1932.  
@@ -138,7 +146,7 @@ NACA-TR-446 is cited 5 times in the [NACA Icing Publications Database]({filename
 
 An online search [^5] found 103 citations of NACA-TR-446, many of them in an icing context. 
 
-##Notes  
+## Notes  
 
 [^1]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  

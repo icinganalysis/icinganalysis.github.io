@@ -3,19 +3,19 @@ Date: 2022-06-22 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"It is desirable to evaluate the effect of sweepback on the shape of the leading-edge ice formations and the associated drag penalties"_  
+### _"It is desirable to evaluate the effect of sweepback on the shape of the leading-edge ice formations and the associated drag penalties"_  
 
-#"Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection" [^1]  
+# "Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection" [^1]  
 
-##Summary  
+## Summary  
 The section drag due to ice on a swept airfoil section is measured. 
 
-##Key Points  
+## Key Points  
 1. "At low rates of water catch, the rate of drag increase for the unheated swept 63A-009 airfoil is approximately 2 1/2 times as great as that of the unswept airfoil of reference 1 for similar icing conditions"  
 2. "In general, the studies showed that icing on a thin swept airfoil will result in more detrimental aerodynamic characteristics than on a thick unswept airfoil."  
 3. "small amounts of runback icing on the upper surface easily induced flow separation"  
 
-##Abstract
+## Abstract
 
 >The effects of primary and runback ice formations on the section
 drag of a 36 0 swept NACA 63A-009 airfoil section with a partial-span
@@ -33,10 +33,10 @@ return almost to the bare-airfoil drag value. A comprehensive study of
 the slat icing and de-icing characteristics was prevented by limitations
 of the heating system and wake interference caused by the slat tracks
 and hot-gas supply duct to the slat. In general, the studies showed
-that icing on a thin swept airfoil will result in more detrimental aero-
-dynamic characteristics than on a thick unswept airfoil.
+that icing on a thin swept airfoil will result in more detrimental aerodynamic 
+characteristics than on a thick unswept airfoil.
 
-##Discussion  
+## Discussion  
 
 This is a relatively long (62 page) publication. 
 In the interest of brevity,
@@ -94,7 +94,8 @@ the airfoil section. The radius of curvature of the tracks is approximately
 34 inches) and the full movement for the slat is over a 16° center
 angle.
 
-![Figure 1](images/naca-rm-e53J30/Figure 1.png)  
+![Figure 1. Installation of swept airfoil with partial-span 
+leading-edge slat 1n icing tunnel.](images/naca-rm-e53J30/Figure 1.png)  
 
 >Heating System
 
@@ -119,7 +120,8 @@ lower surface was heated by an extension of this double-skin configuration.
 The slat tracks were heated by electric heating elements secured
 along both sides of the tracks.  
 
-![Figure 2](images/naca-rm-e53J30/Figure 2.png)  
+![Figure 2. Cutaway drawing of model showing heating passages.
+](images/naca-rm-e53J30/Figure 2.png)  
 
 >The fixed airfoil section behind the slat (downstream) was divided
 into four heating zones because of the location of the two slat tracks
@@ -144,11 +146,21 @@ The drag data are plotted in figure 15 as a function of time
 in icing; the accompanying photographs for the runs at 4° and 7° angles
 of attack are shown in figure 16.  
 
-![Figure 6](images/naca-rm-e53J30/Figure 6.png)  
+![Figure 6. Variation of section drag coefficient with time in icing for unheated 
+airfoil (slat retracted) at a high rate of water catch. Airspeed, 260 miles per 
+hour.](images/naca-rm-e53J30/Figure 6.png)  
 
-![Figure 15](images/naca-rm-e53J30/Figure 15.png)  
+![Figure 15. Effect on section drag coefficient of runback icing 
+incurred with various heating rates 
+as function of time in icing with airfoil leading-edge section continuously heated 
+(slat retracted). Datum air temperature, 25 F.
+](images/naca-rm-e53J30/Figure 15.png)  
 
-![Figure 16b](images/naca-rm-e53J30/Figure 16b.png)  
+![Figure 16b. Concluded. Typical runback icing with high rate of water 
+catch on airfoil with continuously heated leading-edge section (slat 
+retracted). Airspeed, 260 miles per hour; datum air temperature, 
+25 F; liquid-water content, 0.80 gram per cubic meter.
+](images/naca-rm-e53J30/Figure 16b.png)  
 
 
 >At a 4° angle of attack and with a heating rate of 10,300 Btu per
@@ -246,7 +258,10 @@ change in drag coefficient can be determined as a function of heating
 rate, as shown in figure 23. These data are for moderate to high rates
 of water catch and include angles of attack of 4°, 6°, and 7°.
 
-![Figure 23](images/naca-rm-e53J30/Figure23.png)  
+![Figure 23. Average change in section drag coefficient per 
+unit of time as function of heating rate for continuously 
+heated airfoil leading-edge section (slat retracted). 
+Datum air temperature, 25 0 F.](images/naca-rm-e53J30/Figure23.png)  
 
 >Within a reasonable scatter, the data for the standard-airfoil section appear
 to fall on a single curve over most of the range shown. No apparent
@@ -270,7 +285,7 @@ model. It also appears probable that additional data may indicate separate
 curves for each angle of attack, especially at low heating rates
 (less than 5000 Btu/(hr)(ft span)).
 
-##Conclusions  
+## Conclusions  
 
 >SUMMARY OF RESULTS
 The results of a study of the effects of ice formations on the section 
@@ -316,7 +331,7 @@ so this was the best data available at the time.
 
 Tunnel wall corrections (if any) were not discussed. 
 
-##Citations  
+## Citations  
 
 NACA-RM-E53J30 cites 6 publications:
 
@@ -336,7 +351,7 @@ NACA-RM-E53J30 is cited 4 times in the [NACA Icing Publications Database]({filen
 
 An online search [^3] found 14 citations of NACA-RM-E53J30. 
 
-##Notes
+## Notes
 
 [^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   

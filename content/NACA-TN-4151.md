@@ -3,22 +3,22 @@ Date: 2022-06-27 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"_  
+### _"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"_  
 
-#NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"  
+# NACA-TN-4151, "Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil"  
 and  
-#NACA-TN-4155, "Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil"  
+# NACA-TN-4155, "Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil"  
 
 These two publications reference each other, and so are reviewed together. 
 
-##Summary  
+## Summary  
 Correlations are develop between ice shapes, aerodynamic performance, and icing conditions.  
 
-##Key Points  
+## Key Points  
 1. More than 60 ice shapes were measured in an icing wind tunnel for a thin airfoil section.  
 2. Correlations were developed between ice shapes, aerodynamic performance, and icing conditions.  
 
-##Abstract  
+## Abstract  
 
 NACA-TN-4155:  
 
@@ -70,7 +70,7 @@ calculations for angles of attack of 40 or less. Disagreement at higher
 angles of attack was attributed to flow separation from the upper surface
 of the experimental airfoil model.
 
-##Discussion  
+## Discussion  
 
 These two publications have an author in common, were published the same month, and reference each other, and so are reviewed together. 
 NACA-TN-4155 may be thought of as the lab report documenting the icing wind tunnel test results, 
@@ -81,9 +81,9 @@ Readers are encouraged the read the full papers, available at
 [NACA-TN-4151](https://ntrs.nasa.gov/api/citations/19810068588) and 
 [NACA-TN-4155](https://ntrs.nasa.gov/api/citations/19810068589). 
 
-###NACA-TN-4155
+### NACA-TN-4155
 
->[P]ublished aerodynamic data are useful for estimating the performance
+>Published aerodynamic data are useful for estimating the performance
 penalties in icing conditions for large transport and bomber aircraft,
 but are not readily applicable to high-speed high-altitude interceptor
 aircraft because such aircraft generally utilize a very thin airfoil
@@ -118,12 +118,13 @@ leading-edge section that provided for installation of a variety of
 icing protection systems. For this study, however, the removable section
 was constructed of wood and covered with a sheet of 0.010-inch-thick
 neoprene to prevent abrasion of the surface. The leading-edge section
-extended to 27 percent of the chord. The remainder of the airfoil sec-
-tion was constructed of stainless steel and was internally steam heated
+extended to 27 percent of the chord. The remainder of the airfoil section 
+was constructed of stainless steel and was internally steam heated
 to prevent the accumulation of frost due to tunnel-air supersaturation
 and turbulence.
 
-![Figure 1](images/naca-tn-4155/Figure 1.png)  
+![Figure 1. Installation of the NACA 65A004 airfoil in icing tunnel.
+](images/naca-tn-4155/Figure 1.png)  
 
 >All initial values of section lift, drag, and pitching-moment coefficients 
 for the clean airfoil are corrected for tunne1-wall interference
@@ -161,11 +162,16 @@ at the end of the runs (similar to those shown in figs. 6 to 8) and
 depict the ice shapes for only about the forward 7 percent of the airfoil.  
 
 (There are numerous photos of the ice shapes and effects cases, here is only a sample.) 
-![Figure 6a](images/naca-tn-4155/Figure 6a.png)  
+![Figure 6a. Typical variation of ice shape with 
+time in icing. Angle of attack, 2.2 degrees; airspeed, 
+152 knots; water content, 1.45 grams per cubic 
+meter; droplet size, 16.5 microns.](images/naca-tn-4155/Figure 6a.png)  
 
-![Figure 9](images/naca-tn-4155/Figure 9.png)  
+![Figure 9. Variation of section drag coefficient with icing time. 
+Angle of attack, 0 degrees.](images/naca-tn-4155/Figure 9.png)  
 
-![Figure 10c](images/naca-tn-4155/Figure 10c.png)  
+![Figure 10c. Continued. Variation of aerodynamic coefficients with icing time.
+](images/naca-tn-4155/Figure 10c.png)  
 
 >In general, analysis of the aerodynamic data and the ice-formation
 photographs showed that, in icing conditions, changes in the aerodynamic
@@ -178,13 +184,13 @@ can be summarized as follows:
 
 ![Table of effects](images/naca-tn-4155/Table of effects.png)
 
-###NACA-TN-4151
+### NACA-TN-4151
 
 Very briefly, the ice shapes from NACA-TN-4155 were measured and tabulated in Table II,
 which is too extensive to reproduce here. 
 Correlations were then developed. 
 
-###Different coordinates from NACA-TR-446
+## #Different coordinates from NACA-TR-446
 
 The coordinate system of NACA-TR-446 [^3], x/chord and h/chord, 
 were apparently considered.
@@ -197,7 +203,8 @@ chord line. The angle is positive if above the chord line and negative if
 the ice edge falls below the extended chord line. These measurements are
 given in table II for most of the icing runs.
 
-![Figure 7](images/naca-tn-4151/Figure 7.png)  
+![Figure 7. Representation of ice shape by angle theta and height h.
+](images/naca-tn-4151/Figure 7.png)  
 
 >Representation of ice formations by these two dimensions only ignores
 the part of the ice toward and on the lower surface of the airfoil.
@@ -216,7 +223,7 @@ h, thus determines the critical feature of an ice deposit with respect to
 aerodynamic drag; also, θ provides a scale of measurement of the type of
 ice (from rime to glaze).
 
-###Correlations
+### Correlations
 
 >Correlation Between Ice Shape and Icing Conditions  
 
@@ -254,7 +261,8 @@ The expression resulting from the plot in figure 8 is as follows:
 conditions that are generally known or calculable in a flight performance
 study.
 
-![Figure 8](images/naca-tn-4151/Figure 8.png)  
+![Figure 8. Correlation of ice angle with icing conditions and angle of attack.
+](images/naca-tn-4151/Figure 8.png)  
 
 >Ice height. - In a manner similar to that for the angle θ, the ice
 height h was correlated with the various icing conditions, as shown in
@@ -268,7 +276,8 @@ expression
     V_o is airspeed, mph
     β_m is maximum local droplet efficiency
 
-![Figure 9](images/naca-tn-4151/Figure 9.png)  
+![Figure 9. Correlation of ice height with icing conditions.
+](images/naca-tn-4151/Figure 9.png)  
 
 >In equation (2) h varies approximately linearly with icing time
 and velocity. figure 6 shows that the ice weight increased linearly with
@@ -296,7 +305,7 @@ inch-diameter cylinder. These unpublished data substantiate the correlations
 given for ice height and angle, which should be valid over a
 considerable range of body size and shape.
 
->Correlation Between Ice Shape and Drag-Coefficient Changes  
+>Correlation Between Ice Shape and Drag-Coefficient Changes   
 Changes in airfoil drag coefficients due to protuberances are shown
 in reference 10 to vary linearly with protuberance height-to-chord ratio
 in most cases. As discussed previously, and in references 9 and 11,
@@ -312,7 +321,9 @@ by the various ice formations corrected to a common height equal to 1
 percent of chord. These drag-coefficient changes are shown for each angle
 of attack investigated.  
 
-![Figure 10](images/naca-tn-4151/Figure 10.png)  
+![Figure 10. Change in airfoil drag due to ice height of 1-percent chord 
+as a function of ice angle and angle of attack.
+](images/naca-tn-4151/Figure 10.png)  
 
 >Data scatter in figure 10 is again considerable, but mean curves
 for each angle-of-attack condition are readily discernible. The trends
@@ -337,7 +348,10 @@ as to the probable nature of the curves beyond the data limits indicated
 that each curve would probably have a maximum and a minimum value as a
 function of 0.
 
-![Figure 11](images/naca-tn-4151/Figure 11.png)  
+![Figure 11. Comparison of measured changes in drag coefficient 
+due to ice formations with those calculated from empirically 
+determined equation.](images/naca-tn-4151/Figure 11.png)  
+
 >The first bracket of equation (3) accounts for the height-to-chord ratio
 of the ice that acts as a flow spoiler, and the second bracket accounts
 for the ice angle, the angle of attack, and the case wherein ice is formed
@@ -404,9 +418,9 @@ encounters on various flight operations and missions. For these estimates,
 direct and internally consistent calculations can be made with the final
 equation derived in this report.  
 
-##Conclusions  
+## Conclusions  
 
-###NACA-TN-4155 Conclusion: 
+### NACA-TN-4155 Conclusion: 
 
 >SUMMARY OF RESULTS  
 A study of the effect of ice formations on the lift, drag, and
@@ -443,7 +457,7 @@ due to ice were partly attributed to reductions in extent of
 flow separation and partly to lift forces on the ice itself, which at
 times was analogous to a leading-edge flap.  
 
-###NACA-TN-4151 Conclusions:
+### NACA-TN-4151 Conclusions:
 
 >SUMMARY OF RESULTS  
 From an analysis of impingement, ice deposits, and aerodynamic drag
@@ -473,7 +487,7 @@ flow separation from the upper surface of the experimental airfoil model.
 TN 4155 in estimating the effects of icing encounters on flight performance
 for an NACA 65A004 airfoil section.  
 
-##Related  
+## Related  
 
 We can see elements of a "freezing fraction" calculation from Messinger [^4] in equations (1) and (2)
 from above. 
@@ -493,7 +507,7 @@ From Messinger (equations re-arranged), we also see a water catch rate and a tem
 
 However, author Gray used dimensional values, not a dimensionless parameter, in his correlation. 
 
-##Citations  
+## Citations  
 
 NACA-TN-4151 cites 11 publications:
 
@@ -539,7 +553,7 @@ NACA-TN-4155 is cited 3 times in the [NACA Icing Publications Database]({filenam
 
 An online search [^7] found 38 citations of NACA-TN-4155. 
 
-##Notes
+## Notes
 
 [^1]: Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
 [^2]: Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958.  

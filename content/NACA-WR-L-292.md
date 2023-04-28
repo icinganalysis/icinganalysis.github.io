@@ -3,20 +3,20 @@ Date: 2022-06-13 12:00
 Category: NACA  
 tags: ice shapes  
 
-###_"The danger lies, not so much in the higher stalling speed, but more in the possibility that the stall may occur without advance warning to the pilot."_  
+### _"The danger lies, not so much in the higher stalling speed, but more in the possibility that the stall may occur without advance warning to the pilot."_  
 
-#NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil" [^1]
+# NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil" [^1]
 
-##Summary
+## Summary
 Airfoil characteristics with simulated residual ice are measured.
 
-#Key Points  
+## Key Points  
 1. An airline operator survey of ice shapes was conducted.  
 2. A residual ice shape was tested at near full scale.  
 3. A significant reduction in Cl_max values was found.  
 4. Values are compared to NACA-TR-446.
 
-##Abstract
+## Abstract
 > In connection with the general study of icing problems 
 an item of major interest is the effect of ice on
 the aerodynamic characteristics of a wing.
@@ -44,7 +44,7 @@ of the effects which may occur.
 
 ![Figure 1](images/naca-wr-l-292/Figure1.png)  
 
-##Discussion  
+## Discussion  
 
 As this publication is short, the majority of the text will be transcribed here.
 
@@ -65,12 +65,14 @@ over the leading edge of the airfoil (fig. 2).
 The size of the crushed slag was limited to that which would
 pass through a 1/4-inch mesh sieve.
 
-![Figure 2](images/naca-wr-l-292/Figure2.png)  
+![Figure 2. The simulated ice formation on the 
+NACA 0012 airfoil.](images/naca-wr-l-292/Figure2.png)  
 
 Figure 3 shows the
 arrangement and size of the formations on the airfoil.
 
-![Figure 3](images/naca-wr-l-292/Figure3.png)  
+![Figure 3. The size and arrangement of the simulated icd formations
+on the NACA 0012 airfoil.](images/naca-wr-l-292/Figure3.png)  
 
 >The tests were made in the full-scale wind tunnel
 (reference 1) at an air speed of approximately 60 miles
@@ -83,9 +85,11 @@ formation on the aerodynamic characteristics of the airfoil
 are presented in figures 4 and 5.
 The data are fully corrected for all wind-tunnel effects.
 
-![Figure 4](images/naca-wr-l-292/Figure4.png)  
+![Figure 4. Aerodynamic characteristics of the NACA 0012 airfoil as affected 
+by the simulated ice formation.](images/naca-wr-l-292/Figure4.png)  
 
-![Figure 5](images/naca-wr-l-292/Figure5.png)  
+![Figure 5. The increase in stalling speed resulting from the
+simulated ice formation.](images/naca-wr-l-292/Figure5.png)  
 
 >The simulated ice formation reduces the slope of the
 lift curve over the entire useful angle-of-attack range
@@ -126,7 +130,7 @@ worst condition that may occur, the use of the foregoing
 results in making calculations of the probable effect of
 the ice on the range and rate of climb may not be too conservative.
 
-###Comparison to NACA-TR-446  
+### Comparison to NACA-TR-446  
 
 NACA-WR-L-292 and NACA-TR-446 both used NACA 0012 airfoils. 
 Both had span-to-chord ratios of 6, with apparently bare ends.
@@ -198,7 +202,7 @@ of the protuberance shape are a secondary effect.
 
 Regardless of the details, the Cl_max reductions are large for these airfoil sections.
 
-##Citations
+## Citations
 
 NACA-WR-L-292 cites one reference.
 
@@ -211,7 +215,7 @@ NACA-WR-L-292 is cited by two references in the [NACA Icing Publications Databas
 
 An online search [^4] found 25 citations of NACA-WR-L-292.
 
-##Notes
+## Notes
 
 [^1]: May 1938. Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938.  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  

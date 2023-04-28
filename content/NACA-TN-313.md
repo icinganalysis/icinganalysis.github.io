@@ -343,7 +343,7 @@ As we saw above, this was not due to a lack of merit;
 it has a surprising amount of technically innovative material early in the historical development of 
 ice protection technology. 
 
-##Notes  
+## Notes  
 
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
 [^2]:
