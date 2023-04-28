@@ -14,7 +14,7 @@ Several instruments were developed and improved during the NACA-era
 to measure icing conditions. 
 
 Numerous modes of physics were explored, 
-and distant descendants of some of the devices are still used today. 
+and distant descendants of some devices are still used today. 
 
 See also [Icing on cylinders]({filename}Icing on Cylinders.md), and 
 [Calibration of the NACA Icing Wind Tunnels]({filename}calibration_of_naca_icing_tunnels.md).    
