@@ -3,27 +3,28 @@ Date: 2022-12-11 12:00
 Category: NACA  
 tags: instruments  
 
-###"... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"    
+### "... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"    
 
-![Figure 5 from NACA-TN-1397](images/naca-tn-1397/Figure 5.png)  
+![Figure 5 from NACA-TN-1397. Relation of water-drop trajectories to streamline 
+field about symmetrical Joukowsi airfoil 12 percent thick. ](images/naca-tn-1397/Figure 5.png)  
 _Figure 5 from NACA-TN-1397_  
 
-#NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."  [^1]   
+# NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."  [^1]   
   
-#NACA-TN-2476, "An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds." [^2]    
+# NACA-TN-2476, "An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds." [^2]    
 
-#NACA-RM-E52B12, "Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°." [^3]    
+# NACA-RM-E52B12, "Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°." [^3]    
 
-##Summary  
+## Summary  
 Three publications detail water impingement calculations.  
 
-#Key Points  
+## Key Points  
 1. Impingement analysis methods are detailed.  
 2. Data for several airfoils are presented.  
 3. Methods to estimate impingement without the use of a differential analyzer are included.  
 4. An instrument is not described, but the later NACA-TN-3338 does describe drop size distribution measurements.  
 
-##Abstract  
+## Abstract  
 NACA-RM-E52B12 [^3]  
 >The trajectories of droplets in the air flowing past an NACA 65<sub>1</sub>-212
 airfoil at an angle of attack of 4° were determined. The collection
@@ -38,9 +39,9 @@ Altitude (ft)               1000           35,000
 Chord length (ft)           2              20                     
 ```
 
-##Discussion  
+## Discussion  
 
-###Is this an instrument?  
+### Is this an instrument?  
 
 No.
 
@@ -62,15 +63,15 @@ it is interesting.
 I will honor [Uwe von Glahn's categorizations]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 and review these publications in this ["Meteorological Instruments" thread]({filename}instruments.md).  
 
-###Low cost, approximate impingement values  
+### Low cost, approximate impingement values  
 
 A motivation for these three publications was that the use of a 
-differential analyzer was expensive and time consuming. 
+differential analyzer was expensive and time-consuming. 
 The water drop equations of motion are included in all three, 
 were solved using a differential analyzer 
 (for more details see ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md). 
 However, the differential analyzer device was large, 
-expensive, and labor intensive to operate. 
+expensive, and labor-intensive to operate. 
 A large entity (like General Electric) might own one, 
 but they were also available for rent at a few locations.  
 
@@ -88,7 +89,7 @@ and an "equivalent cylinder" method
 to obtain approximate impingement values without the use 
 of a differential analyzer. 
 
-###Airfoils  
+### Airfoils  
 
 NACA-TN-1397 [^1]:  
 >12—percent—thick symmetrical Joukowski profile chosen to
@@ -116,7 +117,7 @@ of 4° was chosen as being representative of low cruise attitude for a
 turbojet-powered aircraft operated under conditions giving a relatively
 large area of droplet impingement on the airfoil.  
 
-###NACA-TN-1397 "equivalent" cylinder analysis  
+### NACA-TN-1397 "equivalent" cylinder analysis  
 
 >The designer of a heated wing, desiring to know the rate and
 area of water impingement on the leading edge in a specified cloud at
@@ -165,10 +166,15 @@ it is apparent that the use of an equivalent cylinder may be subject
 to considerable error when applied to typical icing conditions in
 which large drop-size diameters have been observed.
 
-![Figure 6 from NACA-TN-1397](images/naca-tn-1397/Figure 6.png)  
+![Figure 6 from NACA-TN-1397.Area of drop interception corresponding to drops 
+of different inertia for symmetrical Joukowski airfoil 12 percent thick.
+](images/naca-tn-1397/Figure 6.png)  
 _Figure 6 from NACA-TN-1397_  
 
-![Figure 10 from NACA-TN-1397](images/naca-tn-1397/Figure 10.png)  
+![Figure 10 from NACA-TN-1397. Comparison of rate and area of water-drop impingement 
+on a symmetrical Joukowski airfoil 12 percent thick, 0 degree angle off attack, 
+and a cylinder with radius equal to the airfoil leading-edge radius.
+](images/naca-tn-1397/Figure 10.png)  
 _Figure 10 from NACA-TN-1397_  
 
 The "Conclusions" state:
@@ -181,7 +187,7 @@ microns at speeds of about 200 miles per hour and at an altitude of
 7000 feet.
 ```
 
-###NACA-TN-2476  
+### NACA-TN-2476  
 
 NACA-TN-2476 is long (152 pages), and complex (it cites 38 publications). 
 Frankly, only the most dedicated students of impingement analysis history 
@@ -190,10 +196,11 @@ and today one is unlikely to use the methods detailed therein.
 
 See if you can wrap your thoughts around the "hodographs" presented.  
 
-![Figure 19 from NACA-TN-2476](images/NACA-TN-2476/Figure 19 concluded.png)  
+![Figure 19 from NACA-TN-2476. Completed drop and air hodographs.
+](images/NACA-TN-2476/Figure 19 concluded.png)  
 _Figure 19 from NACA-TN-2476_  
 
-###Mechanical Analog  
+### Mechanical Analog  
 
 NACA-RM-E52B12 mentions a "mechanical analog" used to solve the 
 water drop equations of motion.  
@@ -217,12 +224,12 @@ which was fundamentally a differential
 analyzer constructed for solving the equations of motion (equations (1)
 and (2)).
 
-![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
+![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog](images/naca-tn-2904/Figure15.png)  
 _Figure 15 of NACA-TN-2904_  
 
-##Conclusions  
+## Conclusions  
 
-###Impingement Analysis  
+### Impingement Analysis  
 
 The "Impingement of Cloud Droplets" section of 
 [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
@@ -235,7 +242,7 @@ rates without having to run an expensive analysis.
 Today, one is likely to use analysis methods such as LEWICE [^5] 
 to perform comparable impingement analysis.  
 
-###Inferring a drop size distribution  
+### Inferring a drop size distribution  
 
 In the conclusions of NACA-TN-1397, it was stated:  
 ```text
@@ -254,7 +261,9 @@ for the area near the impingement limits to calculate
 the fraction of total water in that drop size bin. 
 This is then repeated for each size bin. 
 
-![Figure 17](images/naca-tn-3338/Figure17.png)  
+![Figure 17. Typical exerimental impingement rate for cylinder showing 
+arbitrary increments of central angle theta and including contributions 
+of several drop size groups.](images/naca-tn-3338/Figure17.png)  
 _Figure 17 of NACA-TN-3338_  
 
 This method saw limited use for tunnel tests, 
@@ -276,28 +285,7 @@ is that the shape changes as ice accumulates on the surface. This feature
 is of no consequence when the airfoil is used with the dye-tracer technique
 in tunnels.  
 
-<!--
->As mentioned in the INTRODUCTION, the impingement data presented
-herein are also useful in estimating impingement on thick streamlined
-struts. Thick-sectioned struts that are over 15 percent thick probably
-do not differ from Joukouski airfoil sections in any manner that affects
-the collection efficiency appreciably when compared to a Joukowski airfoil
-section of the same thickness ratio. The surface extent of impingement is
-more sensitive than collection efficiency to details of shape (ref. 10).
-As demonstrated in reference 12, if a part of an airfoil section (such as
-the leading-edge region or forward 25-percent region, etc.) has the same
-shape and pressure distribution as its counterpart on another airfoil, the
-impingement on the two parts will be the same even though the other portions 
-of the airfoil sections differ in both shape and pressure
-distribution. On thick-sectioned bodies the distribution is concentrated
-on the leading edge, which eases the problem of estimating the surface 
-impingement.  
-
-The "" 
-[Scaling in NACA tests]({filename}scaling_in_naca_tests.md) 
--->
-
-##Citations  
+## Citations  
 
 NACA-TN-1397 cites six publications.  
 
@@ -408,7 +396,7 @@ NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database
 
 An online search found NACA-RM-E52B12 cited 3 times. [^10]  
 
-##Notes  
+## Notes  
 
 [^1]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^2]: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  

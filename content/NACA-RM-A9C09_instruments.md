@@ -3,23 +3,24 @@ Date: 2022-11-28 12:00
 Category: NACA  
 tags: instruments  
 
-###"This [rotating disk] device should prove very useful in both the formative and statistical investigations."  
+### "This [rotating disk] device should prove very useful in both the formative and statistical investigations."  
 
-#"A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  [^1]  
+# "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  [^1]  
 
-![Figure 6b of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6b.png)  
+![Figure 6b of NACA-RM-E51E16. Rotating-disk type icing-rate meter.
+](images/naca-rm-e51e16/Figure 6b.png)  
 _from NACA-RM-E51E16 [^2]_  
 
-##Summary 
+## Summary 
 "A review ... of meteorological factors conducive to aircraft icing reveals outstanding needs" for icing instrumentation.  
 
-##Key points  
+## Key points  
 1. Nine instruments, based on differing technologies, are qualitatively assessed.  
 2. "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
 3. "This [rotating disk] device should prove very useful in both the formative and statistical investigations."  
 4. "A reliable method for the measurement of drop-size distribution should be developed"  
 
-##Abstract
+## Abstract
 
 >  The status of instrument suitable for the measurement of the 
 meteorological factors conducive to aircraft icing is reviewed. The
@@ -53,9 +54,9 @@ Nine instruments were assessed:
 The cylinder based instruments are discussed in detail in the review ([NACA-RM-A9C09]({filename}NACA-RM-A9C09.md)).  
 
 While the multicylinder is the "standard against which other instruments are calibrated", 
-the other eight instruments will be discuss herein.  
+the other eight instruments will be discussed herein.  
 
-Some of the images in the online version of NACA-RM-A9C09 are of poor quality. 
+Some images in the online version of NACA-RM-A9C09 are of poor quality. 
 I have found clearer, substitute images of the instruments for some cases from 
 other NACA publications.  
 
@@ -80,9 +81,12 @@ The accretion is removed periodically by rotating the cylinder against
 a knife-edge scraper. 
 (See fig. 4 and reference 4.)  
 
-![Figure 3](images/naca-rm-a9c09/Figure 3.png)  
+![Figure 3. Nonrotating, blueprint-paper-covered, 4-inch-diameter cylinder 
+for the measurement of maximum drop diameter in clouds.
+](images/naca-rm-a9c09/Figure 3.png)  
 
-![Figure 4](images/naca-rm-a9c09/Figure 4.png)  
+![Figure 4. Nonrotating 5-inch-diameter cylinder 
+for the measurement of maximum drop diameter in clouds.](images/naca-rm-a9c09/Figure 4.png)  
 
 >Range and accuracy.-  
 As discussed in reference 4, considerable
@@ -127,7 +131,6 @@ by means of a trace on blueprint paper (fig. 3) is more accurate and
 dependable than by visual observation of the ice formation. The
 range of the device is limited only by the practical aspect of the
 maximum cylinder size that can be employed in any projected investigation.
-
 
 ###Rotating-Disk Icing-Rate Meter  
 
@@ -183,10 +186,13 @@ reference 5.
 ><sup>8</sup> data obtained during the 1947-48 icing research flights conducted
 by the Ames Aeronautical Laboratory.
 
-![Figure 5](images/naca-rm-a9c09/Figure 5.png)  
+![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. 
+Note ice-thickness feeler and ice removal scraper behind disk.
+](images/naca-rm-a9c09/Figure 5.png)  
 _[I did not know it was this small.]_  
 
-![Figure 6 of NACA-RM-E51E16](images/naca-rm-e51e16/Figure 6.png)  
+![Figure 6 of NACA-RM-E51E16. Rotating-disk type icing-rate meter.
+](images/naca-rm-e51e16/Figure 6.png)  
 _from NACA-RM-E51E16_  
 
 >Advantages.-  
@@ -209,13 +215,13 @@ ideal determination of maximum instantaneous conditions.
 The rotating-disk icing meter was later used in aircraft icing 
 statistical studies. The flight data obtained in 1948-49 is documented in the later NACA-TN-1904 [^3]. 
 The rotating-disk icing meter was used in conjunction with a multicylinder device, 
-as the it could provide a continuous, higher resolution record of LWC values. 
+as it could provide a continuous, higher resolution record of LWC values. 
 The rotating-disk icing meter reports continuous values averaged over several seconds with about a 12 second lag, 
 while the multicylinder values are averaged over one to several minutes.  
 
 I do not know of a current use of the technology. 
 
-###Capillary Collector  
+### Capillary Collector  
 
 >Principle of operation and description.-  
 A porous head is
@@ -237,7 +243,9 @@ impregnated with methylene blue dye powder. The width of the trace
 on the tape is proportional to the rate of water interception by the
 head. The General Electric instrument is shown in figure 6.
 
-![Figure 6](images/naca-rm-a9c09/Figure 6.png)  
+![Figure 6. The capillary collector for the measurement of liquid-water 
+content in clouds. Photograph reproduced from reference 10 through 
+courtesy of the U. S. Air Force.](images/naca-rm-a9c09/Figure 6.png)  
 _(image quality is poor in the online version of NACA-RM-A9C09, I made my own scan for here.)_  
 
 >Advantages  
@@ -259,7 +267,7 @@ instrument in icing conditions.
 There are some similarities to isokinetic sampling probes, 
 which are currently available commercially.
 
-###Rainbow Recorder  
+### Rainbow Recorder  
 
 >Principle of operation and description.-  
 The instrument is
@@ -295,10 +303,12 @@ Although the instrument is theoretically capable of measuring drop
 size distribution, it is not considered likely that this can be
 achieved in practice.  
 
-![Figure 1 of NACA-TN-1622](images/naca-tn-1622/Figure 1.png)  
+![Figure 1 of NACA-TN-1622. Ray paths, and wave shape of emitted wave 
+near surface of a transparent sphere.](images/naca-tn-1622/Figure 1.png)  
 _from NACA-TN-1622 [^4]_  
 
-![Figure 14 of NACA-TN-1622](images/naca-tn-1622/Figure 14.png)  
+![Figure 14 of NACA-TN-1622. Rainbow recorder installed in C-46 airplane.
+](images/naca-tn-1622/Figure 14.png)  
 _from NACA-TN-1622_  
 
 >Advantages  
@@ -324,8 +334,7 @@ by personnel skilled in electronics.
 
 Some modern drop sizing instruments use the diffraction principle.  
 
-
-###Dew-Point Recorder  
+### Dew-Point Recorder  
 
 >Principle of operation and description.-  
 A representative
@@ -356,12 +365,13 @@ Ames Aeronautical Laboratory has shown that, for the relatively low
 values of liquid-water content associated with icing conditions, the
 required degree of accuracy of temperature measurement is prohibitive.  
 
-![Figure 1 of NACA-TN-1215](images/naca-tn-1215/Figure 1.png)  
+![Figure 1 of NACA-TN-1215. Simplified schematic diagram of NACA dew-point meter circuit.
+](images/naca-tn-1215/Figure 1.png)  
 _from NACA-TN-1215 [^5]_  
 
-![Figure 3 of NACA-TN-1215](images/naca-tn-1215/Figure 3.png)  
+![Figure 3 of NACA-TN-1215. NACA dew-poinst meter for 115-volt alternating current operation.
+](images/naca-tn-1215/Figure 3.png)  
 _from NACA-TN-1215_  
-
 
 >Advantages. The instrument provides a continuous record.
 >1. The instrument operates
@@ -374,11 +384,9 @@ liquid-water content in icing conditions is too great.
 >2. The dew point is not always clearly indicated,
 sometimes confused with the ice point.
 >3. Difficulties are encountered in obtaining a 
-representative sample.
+representative sample.  
 
-
-
-###Visibility Meter  
+### Visibility Meter  
 
 >Principle of operation and description.-  
 Operation is based on
@@ -420,14 +428,18 @@ more desirable quantities to measure.
 "Appreciation is also extended to H. G. Houghton of the Massachusetts Institute of Technology", 
 and is also mentioned in ["Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"]({filename}Langmuir Rising Currents.md) [^6].
  
-![Figure 9](images/naca-rm-a9c09/Figure 9.png)  
+![Figure 9. Visibilty indicator used to determine the ratio of average drop diameter 
+to liquid-water content. Photograph reproduced from reference 13 through courtesy of the 
+U. S. Air Force.](images/naca-rm-a9c09/Figure 9.png)  
 _(image quality is poor in the online version of NACA-RM-A9C09)_  
 
 I do not know of current uses for this technology.  
 
-###Sooted Slides  
+### Sooted Slides  
  
-![Figure 10](images/naca-rm-a9c09/Figure 10.png)  
+![Figure 10. Drop-size sampler employed for exposing soot-coated glass slides to an icing 
+cloud during flight tests. Photograph supplied through courtesy of the 
+U. S. Air Force.](images/naca-rm-a9c09/Figure 10.png)  
 _(image quality is poor in the online version of NACA-RM-A9C09)_  
 
 >Principle of operation and description.-    
@@ -476,23 +488,12 @@ I have performed the manual evaluation of oil slide data
 (about 25 years ago, if that counts as "recent"), 
 and I concur that it is indeed very tedious. 
 
-###Drop Photography  
+### Drop Photography  
  
-![Figure 11](images/naca-rm-a9c09/Figure 11 new.png)  
+![Figure 11. Camera developed from photographing cloud drops during flight. 
+Photograph supplied through courtesy of the National Research Council of Canada.
+](images/naca-rm-a9c09/Figure 11 new.png)  
 _(image quality is poor in the online version of NACA-RM-A9C09, I made my own scan for here.)_  
-
-<!-- 
-Here are some clearer images from the later NACA-RM-E50K01a.  
-
-![Figure 6 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 6.png)  
-_from NACA-RM-E50K01a_  
-
-![Figure 7 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 7.png)  
-_from NACA-RM-E50K01a_  
-
-![Figure 8 from NACA-RM-E50K01a](images/naca-rm-e50k01a/Figure 8.png)  
-_from NACA-RM-E50K01a_  
---->
 
 >Principle of operation and description.-  
 A representative sample
@@ -546,9 +547,9 @@ While I know of no current uses of this particular device,
 the principles are used in several particle optical imaging and sizing 
 devices currently available. 
 Factors now available such as laser light for illumination and automated computer analysis 
-of the images have alleviated some of the challenges to this method. 
+of the images have alleviated some challenges to this method. 
 
-##Conclusions  
+## Conclusions  
 
 >A review of the present status of research on the meteorological
 factors conducive to aircraft icing reveals two outstanding needs:  
@@ -595,7 +596,7 @@ became available decades later. Some of these are direct imaging technologies,
 and may be thought of as distant descendants of the water drop photography from the NACA-era.  
 
 
-##Citations
+## Citations
 
 NACA-RM-A9C09 cites 15 publications:
 
@@ -624,7 +625,7 @@ NACA-RM-A9C09 is cited 4 times in the NACA Icing Publications Database [^7]:
 
 An online search [^8] found NACA-RM-A9C09 cited 13 times.  
 
-##Notes:
+## Notes:
 [^1]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
 [^2]: Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951.  

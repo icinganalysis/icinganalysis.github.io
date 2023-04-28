@@ -3,19 +3,19 @@ Date: 2022-12-15 12:00
 Category: NACA  
 tags: instruments  
 
-###_"Because the charge placed on the droplets is a function of the droplet size, the size spectrum can be determined ..."_ [^1]  
+### _"Because the charge placed on the droplets is a function of the droplet size, the size spectrum can be determined ..."_ [^1]  
 
-#"An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds"
+# "An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds"
 
-##Summary  
+## Summary  
 Electrical charges imparted to water drops allowed easier measurement of impingement on cylinders.  
 
-##Key Points  
+## Key Points  
 1. This was a multicylinder instrument that relied on the differential collection efficiency of different cylinder sizes.  
 2. The measurement of electrical charge allowed easier measurement of impingement rates.  
 3. There does not appear to be further use or development of the instrument.  
 
-##Abstract  
+## Abstract  
 >A flight instrument that uses electric means for measuring the
 droplet-size distribution in above-freezing clouds has been devised and
 given preliminary evaluation in flight. An electric charge is placed
@@ -37,7 +37,7 @@ not change during the exposure time; (3) the readings are instantaneous
 and continuous; (4) the available sensitivity permits the study of
 variations in cloud structures of less than 200 feet in extent.
 
-##Discussion  
+## Discussion  
 
 This method uses the physics of the differential collection efficiency of water drops on
 cylinders of different diameters. 
@@ -76,13 +76,16 @@ region of coronal discharge (fig. 6). The assembly was hung from the
 under side of the fuselage of a twin-engine light-bomber-type airplane
 (fig. 7).
 
-![Figure 7 from NACA-TN-2458](images/NACA-TN-2458/Figure 7.png)  
+![Figure 7 from NACA-TN-2458. Rear view of charged-droplet cloud analyzer 
+mounted on bomb-bay doors of airplane.](images/NACA-TN-2458/Figure 7.png)  
 _Figure 7 from NACA-TN-2458_  
 
 Details of the circuits are not shown, but the device could produce 
 25,000 VDC to charge the water drops entrained in the air flowing through it. 
 
-![Figure 5 from NACA-TN-2458](images/NACA-TN-2458/Figure 5.png)  
+![Figure 5 from NACA-TN-2458. Bottom view of charged-droplet cloud analyzer. 
+Arrows indicate direction of airstream through the channels.
+](images/NACA-TN-2458/Figure 5.png)  
 _Figure 5 from NACA-TN-2458_  
 
 >The cylinder diameters used were 1/8, 1/2, 1, and 3 inches. The
@@ -95,32 +98,41 @@ avoid aerodynamic interference of the cylinders with each other.
 Cylinders of the same diameter where ganged together were spaced
 14 radii from center to center.  
 
-![Figure 6 from NACA-TN-2458](images/NACA-TN-2458/Figure 6.png)  
+![Figure 6 from NACA-TN-2458. Schematic diagram of charged-droplet cloud analyzer.
+](images/NACA-TN-2458/Figure 6.png)  
 _Figure 6 from NACA-TN-2458_  
 
 Flight tests measured the different electrical charges accumulating 
 on the cylinders.  
 
-![Figure 8 from NACA-TN-2458](images/NACA-TN-2458/Figure 8.png)  
+![Figure 8 from NACA-TN-2458. Flight record through stratocumulus clouds. 
+Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch 
+and 1/2-inch cylinders an increase in current is measured downward whereas for the 
+3-inch cylinder an incres in current is measured upward.
+](images/NACA-TN-2458/Figure 8.png)  
 _Figure 8 from NACA-TN-2458_  
 
 The measured charges for each cylinder size were plotted.
 
-![Figure 11 from NACA-TN-2458](images/NACA-TN-2458/Figure 11.png)  
+![Figure 11 from NACA-TN-2458. Electric current measured from cylinders of different 
+size in cumulus cloud. Airplane speed, 200 miles per hour; altitude, 6000 feet.
+](images/NACA-TN-2458/Figure 11.png)  
 _Figure 11 from NACA-TN-2458_  
 
 From the electrical charge values measured on the cylinders 
 (proportional to the water mass impinging),
 the collection efficiency for each cylinder diameter could be calculated.
 
-![Figure 12 from NACA-TN-2458](images/NACA-TN-2458/Figure 12.png)  
+![Figure 12 from NACA-TN-2458. Droplet-inertia parameter as a function of electrical 
+collection efficiency. K-phi, 200; 1/K, for volume-median droplet; 4.0.
+](images/NACA-TN-2458/Figure 12.png)  
 _Figure 12 from NACA-TN-2458_  
 
 From that information the best fit drop size distribution could be calculated. 
 For more details on the multicylinder method calculations, see 
 [Implementation of multicylinder calculations in Python]({filename}/Implementation of multicylinders cylinders.md).  
 
-##Conclusions  
+## Conclusions  
 
 >CONCLUDING REMARKS
 The charged-droplet cloud analyzer is based on a principle that
@@ -164,7 +176,11 @@ distinguish an E distribution from a B distribution. An improvement in
 the instrumentation and technique of measuring the current from the
 cylinders will improve the accuracy.  
 
-![Figure 9 from NACA-TN-2458](images/NACA-TN-2458/Figure 9.png)  
+![Figure 9 from NACA-TN-2458. Flight record through stratocumulus cloud congested 
+with clumps of precipitation. 
+Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch 
+and 1/2-inch cylinders an increase in current is measured downward whereas for the 
+3-inch cylinder an incres in current is measured upward.](images/NACA-TN-2458/Figure 9.png)  
 _Figure 9 from NACA-TN-2458_  
 
 You can find out more about the drop size distribution designations 
@@ -236,7 +252,7 @@ to droplet size distribution.
 
 I do not know of further development or uses of this instrument.  
 
-##Citations  
+## Citations  
 
 NACA-TN-2458 cites 13 publications.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
@@ -258,7 +274,7 @@ NACA-TN-2458 is cited once in the NACA Icing Publications Database [^2]:
 
 An online search found NACA-TN-2458 cited three times. [^3]  
 
-##Notes  
+## Notes  
 
 [^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951.  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
