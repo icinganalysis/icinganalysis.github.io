@@ -36,8 +36,8 @@
                 Published: Wed 25 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.785939-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-28T06:21:03.538638-07:00">
+                Updated: Fri 28 April 2023
         </abbr>
 <!---->
         <!---->
@@ -107,15 +107,15 @@ In theory, for K = 0.125, the drop decelerates enough so that while it does not 
 infinite time is required to reach the cylinder surface. 
 This will require high accuracy very near x = 1 to differentiate if a drop hits or not. </p>
 <p>Equation (23) was recast to use d = x-1, or x = d+1, rather than x. </p>
-<div class="highlight"><pre><span></span><code><span class="nv">ux</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="ss">(</span><span class="nv">d</span><span class="o">+</span><span class="mi">1</span><span class="ss">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="ss">((</span><span class="nv">d</span><span class="o">+</span><span class="mi">1</span><span class="ss">)</span><span class="o">**</span><span class="mi">2</span><span class="ss">)</span><span class="o">**</span><span class="mi">2</span>
-<span class="nv">ux</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">/</span> <span class="ss">(</span><span class="nv">d</span><span class="o">+</span><span class="mi">1</span><span class="ss">)</span><span class="o">**</span><span class="mi">2</span>
-<span class="nv">ux</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">/</span> <span class="ss">(</span><span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">+</span><span class="mi">1</span><span class="ss">)</span>
-<span class="nv">ux</span> <span class="o">=</span> <span class="ss">((</span><span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">+</span><span class="mi">1</span><span class="ss">)</span> <span class="o">-</span> <span class="mi">1</span><span class="ss">)</span> <span class="o">/</span> <span class="ss">(</span><span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">+</span><span class="mi">1</span><span class="ss">)</span>
-<span class="nv">ux</span> <span class="o">=</span> <span class="ss">(</span><span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="ss">)</span> <span class="o">/</span> <span class="ss">(</span><span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">+</span><span class="mi">1</span><span class="ss">)</span>
+<div class="highlight"><pre><span></span><code>    ux = 1 - (d+1)**2 / ((d+1)**2)**2
+    ux = 1 - 1 / (d+1)**2
+    ux = 1 - 1 / (d**2 + 2*d +1)
+    ux = ((d**2 + 2*d +1) - 1) / (d**2 + 2*d +1)
+    ux = (d**2 + 2*d ) / (d**2 + 2*d +1)
 
-<span class="k">for</span> <span class="nv">small</span> <span class="nv">d</span> <span class="nv">values</span>, <span class="nv">d</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="nv">e</span><span class="o">-</span><span class="mi">15</span>: 
-<span class="nv">ux</span> <span class="o">~=</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">/</span> <span class="ss">(</span><span class="mi">2</span><span class="o">*</span><span class="nv">d</span> <span class="o">+</span><span class="mi">1</span><span class="ss">)</span>   <span class="nv">drop</span> <span class="nv">the</span> <span class="nv">d</span><span class="o">**</span><span class="mi">2</span> <span class="nv">terms</span>
-<span class="nv">ux</span> <span class="o">~=</span> <span class="mi">2</span><span class="o">*</span><span class="nv">d</span>              <span class="nv">approximate</span> <span class="nv">the</span> <span class="nv">denominator</span>
+    for small d values, d &lt; 1e-15: 
+    ux ~= 2*d / (2*d +1)   drop the d**2 terms
+    ux ~= 2*d              approximate the denominator
 </code></pre></div>
 
 <p>This may not appear to be much of a change, 
@@ -133,7 +133,8 @@ The predicted drop final position and velocity agree with the expected results o
 no impingement at K = 0.125, and impingement with K = 0.126.</p>
 <p><img alt="Drop final position for values near K=0.125" src="images/build_a_1d_drop_motion_simulation/1d_cyl_shift_near_k_0_125_x_vx.png">  </p>
 <p>To compare results at other values of K, we will use Figure 8 from <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.<br>
-<img alt="Figure 8" src="images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png"> </p>
+<img alt="Figure 8. Velocity v_1 at theta = 0, X = 1 for cylinders with 
+ideal flow." src="images/Mathematical Investigation of Water Droplet Trajectories/Figure8.png"> </p>
 <p>The calculated values are similar, but not identical. 
 To use a phrase from <a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a>:  </p>
 <blockquote>
@@ -145,7 +146,9 @@ To use a phrase from <a href="/mathematical-investigation-of-water-droplet-traje
 Langmuir and Blodgett did not mention considering the drop diameter for impingement detection,
 rather it appears that where the drop mass centroid crosses the cylinder surface is considered impingement. </p>
 <blockquote>
-<p><img alt="Figure 6 from Langmuir and Blodgett." src="images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png"><br>
+<p><img alt="Figure 6 from Langmuir and Blodgett. Trajectories of rime particles 
+deposited on cylinder AC drawn by differential analyzer.
+" src="images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png"><br>
 Figure 6 from <sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  </p>
 </blockquote>
 <p>While the drop diameters are typically small compared to the cylinder diameters, 

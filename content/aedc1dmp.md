@@ -5,9 +5,9 @@ tags: impingement, evaporation
 
 ![iads1dmp velocity](images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png)   
 
-#The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp
+# The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp
 
-##Abstract 
+## Abstract 
 
 The AEDC1DMP calculates the water drop speed and evaporation in an icing wind tunnel. 
 The AEDC1DMP is described in "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" [^1]. 
@@ -31,7 +31,7 @@ that will not be described herein.
 
 Our immediate goal is to find data to use for comparison with the code developed in this post. 
 
-##Discussion  
+## Discussion  
 
 >5.0 EVALUATION OF AEDC1DMP CODE ON REPRESENTATIVE DUCT FLOW CASES  
 5.1 Baseline Case of Ducted. Two-Phase Flow  
@@ -68,7 +68,7 @@ The nominal test conditions are listed below.
 
 ["Load Factor" is the ratio of mass of water drops injected to mass of air, and is proportional to the liquid water content.] 
 
-###The iads1dmp code
+### The iads1dmp code
 
 Our goal is to develop enough capability to predict water drop airspeed, 
 temperature, and evaporation rates. 
@@ -118,7 +118,7 @@ which is a large factor in the more rapid evaporation of the smaller drops.
 
 ![iads1dmp lwc](images/build_a_1d_drop_motion_simulation/iads1dmp_lwc.png)   
 
-##Conclusions
+## Conclusions
 
 Unfortunately, "Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities" 
 did not include actual test data, 
@@ -135,7 +135,7 @@ heat and mass transfer rates for the single drop size cases compared herein.
 We will call this "good enough" to proceed to our next step,
 comparing calculated water drop evaporation rates to those in NACA-TN-3024. 
 
-##Notes:
+## Notes:
 
 This is part of the [Water drop evaporation thread]({filename}water_drop_evaporation_thread.md), 
 which you may want to review if you came here via a direct link. 
