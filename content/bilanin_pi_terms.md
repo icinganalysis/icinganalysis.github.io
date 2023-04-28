@@ -3,20 +3,20 @@ Date: 2022-08-07 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
+### _"An unfortunate fact is that if proposed additional scaling parameters prove to be what is required to conduct improved subscale tests, icing wind tunnel subscale tests are likely to be even more restrictive."_  
 
-#"Proposed Modifications to Ice Accretion/Icing Scaling Theory" [^1]  
+# "Proposed Modifications to Ice Accretion/Icing Scaling Theory" [^1]  
 
-#Summary  
+## Summary  
 Water surface tension is identified as a factor in ice shapes and test similarity.  
 
-#Key points  
+## Key points  
 1. 18 dimensionless Pi-terms were identified.  
 2. "the π method has failed to provide a scaling methodology which can be used to test subscale aerodynamic components"  
 3. "however, does not preclude seeking approximate scaling methodologies"   
 4. Several late studies investigate the role of water surface tension and the Weber number.  
 
-##Abstract
+## Abstract
 
 >The difficulty of conducting full-scale icing tests has long been appreciated. Testing in an icing wind tunnel has
 been undertaken for decades. 
@@ -33,7 +33,7 @@ may need upgrading to more accurately estimate the rate of ice buildup
 on aerodynamic surfaces.
 
 
-##Discussion  
+## Discussion  
 
 This publication identifies water surface tension as a potentially important 
 factor in the formation of ice. 
@@ -41,13 +41,13 @@ The Weber number relates water surface tension to other forces,
 and can describe the flow of water on a surface or the tendency 
 for droplets to breakup. 
 
-###Buckingham-π Analysis of Icing Scaling
+### Buckingham-π Analysis of Icing Scaling
 
 "Straightforward application of the Buckingham-π theory" found 18 dimensionless parameters
 (although vapor pressure was noted as a term not included).
 
 For brevity, I will not enumerate them all here. 
-Some of the terms are familiar, such a Mach and Reynolds numbers. 
+Some terms are familiar, such a Mach and Reynolds numbers. 
 You can see all 18 pi terms in the publication, or in Dillon [^2].
 
 Bilanin summarizes:
@@ -109,7 +109,7 @@ Bilanin then notes:
 approximate scaling methodologies which is the 
 subject of the discussion that follows.  
 
-###Past scaling laws
+### Past scaling laws
 
 There is a review of scaling methods, similar to that in [AEDC-TR-85-30]({filename}aedc_tr_85_30.md) [^4],
 defining A<sub>c</sub> and n in slightly different forms:  
@@ -128,7 +128,7 @@ each be held constant which is what is normally attempted.
 
 [Emphasis in the original]
 
-###Brief evaluation of the data  
+### Brief evaluation of the data  
 
 >The freezing fraction has been computed by several investigators using a
 model proposed by Messinger in 1951 (Ref. 11) [^5]. If
@@ -175,7 +175,7 @@ analytical values at low freezing fractions.
 
 [Emphasis in the original]
 
-###Film dynamics at a stagnation point
+### Film dynamics at a stagnation point
 
 A "zeroth-order expansion" analysis in distance from the stagnation
 point is performed, resulting in 
@@ -226,10 +226,11 @@ as I did not find the photos there.
 There are relevant photos in Olsen [NASA-TM-87184] [^7], 
 that were reproduced in Hansman [^8].
 
-![Figure 2 from AIAA-88-0015](images/AIAA-88-0105/Figure 2.png)  
+![Figure 2 from AIAA-88-0015. Grazing angle photograph of a glaze ice surface
+(courtesy of William Olsen, NASA Lewis Reseach Center).](images/AIAA-88-0105/Figure 2.png)  
 _Figure 2 from Hansman_
 
-###Freezing fraction with film dynamics  
+### Freezing fraction with film dynamics  
 
 There is an interesting reformation of Messinger's freezing fraction equation:  
 
@@ -248,7 +249,7 @@ After some development, the thermal resistance of the water layer is estimated:
 [there is] a 1 to 10 mil film layer [and] the effective heat transfer is reduced
 by 2 to 20%, respectively. 
 
-###Film Beading  
+### Film Beading  
 
 The physics of the water film forming beads is examined, and equations developed. 
 
@@ -273,7 +274,7 @@ dynamics and bead formation.
 ![Figure 16 from AIAA-88-0015](images/AIAA-88-0105/Figure 16.png)  
 _Figure 16 from Hansman_
 
-##Conclusions
+## Conclusions
 
 >It is argued that improve ice accretion scaling may require a better match in Reynolds 
 Number and more accurate consideration of the physics of water film and droplet dynamics on the 
@@ -302,7 +303,7 @@ other speed (water film speed rather than air speed),
 and other densities (water rather than air). 
 Those will be explored in ongoing investigations. 
 
-To very briefly summarize some of the work:
+To very briefly summarize the work:
 
 NASA/CR-2003-211822 [^10] conducted tests and concluded:
 
@@ -330,9 +331,9 @@ for ice shape on unprotected surfaces, and recommend a +/-15% tolerance:
 envelope which includes drop sizes from 15 to 50 μm
 median volume diameter (MVD). 
 
-[We will get to large drop icing in a future post].
+[We will get to large drop icing in [Large Drop Icing Conditions in Icing Wind Tunnels]({filename}large_drop_icing.md)].
   
-##Citations
+## Citations
 
 Bilanin cites 22 publications:
 
@@ -361,7 +362,7 @@ Bilanin cites 22 publications:
 
 An online search [^11] found Bilanin cited by 53 publications.
 
-##Notes  
+## Notes  
 [^1]: Bilanin, Alan J.: Proposed Modifications to Ice Accretion/Icing Scaling Theory. AIAA-88-0203, Janurary, 1983.  
 [^2]: Dillon, Thomas William. An investigation into the effects of modifying the surface tension of the spray water in icing tunnel tests. Diss. Carleton University, 1998. [carleton.ca](https://curve.carleton.ca/system/files/etd/0994c7b1-0e21-43c4-a293-f5feadb3b6bc/etd_pdf/66c0b115102323c8f47f76176c5e98c6/dillon-aninvestigationintotheeffectsofmodifyingthe.pdf)  
 [^3]: Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994.  

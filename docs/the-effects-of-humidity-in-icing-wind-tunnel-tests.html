@@ -36,8 +36,8 @@
                 Published: Tue 16 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-04-20T05:51:46.789937-07:00">
-                Updated: Thu 20 April 2023
+        <abbr class="modified" title="2023-04-28T07:50:03.784093-07:00">
+                Updated: Fri 28 April 2023
         </abbr>
 <!---->
         <!---->
@@ -48,7 +48,7 @@
         <!--</address>-->
         <!---->
 <!--<p>In <a href="/category/icing-tunnels.html">icing tunnels</a>.</p>-->
-<!--<p>tags: <a href="/tag/icing-tunnels.html">icing tunnels</a> </p>-->
+<!--<p>tags: <a href="/tag/icing-tunnels.html">icing tunnels</a> <a href="/tag/python-tools.html">python tools</a> </p>-->
 
 </footer><!-- /.post-info -->      <h3><em>"a condition of supersaturation, which promotes the growth of frost deposits"</em></h3>
 <h2>Summary</h2>
@@ -100,7 +100,9 @@ was held constant and the air temperature varied. <strong>The air was saturated
 at all temperatures prior to sprays</strong> and the velocity was constant;
 therefore, the liquid-water content should also have been approximately
 constant.<br>
-<img alt="Figure 3" src="images/naca-rm-e50i08/Figure 3.png">  </p>
+<img alt="Figure 3. Variation of indicated liquid-water content with air total 
+temperature for constant spray water input. Air velocity, 280 miles per hour; 
+mean droplet diameter, 10-15 microns." src="images/naca-rm-e50i08/Figure 3.png">  </p>
 </blockquote>
 <p>I infer from "The air was saturated at all temperatures prior to sprays" 
 that some effort was made to achieve saturated conditions. </p>
@@ -113,7 +115,8 @@ forward section are caused by impingement upon frost particles. The airfoil
 invariably frosted as soon as water sprays began, <strong>probably because
 of air-stream turbulence and supersaturation of the tunnel air, which is
 not the usual case in flight</strong>.<br>
-<img alt="Figure 4b.png" src="images/naca-rm-e53c27/Figure 4b.png">  </p>
+<img alt="Figure 4b. Characteristic ice deposits with mariginal operation of de-icing system.
+" src="images/naca-rm-e53c27/Figure 4b.png">  </p>
 </blockquote>
 <h4><a href="/naca-tn-2962.html">NACA-TN-2962</a> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></h4>
 <blockquote>
@@ -139,7 +142,8 @@ particles to grow forward into the air stream (fig. 26(c)). These
 feathers increase in size and may reach a length of several inches and
 protrude as much as 1 inch in a direction normal to the air stream
 (fig. 26(d)).<br>
-<img alt="Figure 26" src="images/naca-tn-2962/Figure 26.png">  </p>
+<img alt="Figure 26. Typical frost formation and growth on airfoil afterbody.
+" src="images/naca-tn-2962/Figure 26.png">  </p>
 </blockquote>
 <h4>NACA-RM-E53E07 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></h4>
 <p>[Emphasis added]  </p>
@@ -154,7 +158,9 @@ was covered by a frost-like formation. <strong>This frost icing is believed to
 result from a combination of super saturation in the tunnel</strong> and turbulent 
 deposit of small drops caused by the presence of rough ice formations 
 on the ram-inlet lips.<br>
-<img alt="Figure 6" src="images/naca-rm-e53e07/Figure 6.png">  </p>
+<img alt="Figure 6. Ice formed on ram inlet and carburetor screen at two icing conditions. 
+Airspeed, 180 miles per hour; tunnel-air total temperature, 25 F; angle of attack, 
+0 degree; initial mass-flow ratio, 0.35." src="images/naca-rm-e53e07/Figure 6.png">  </p>
 </blockquote>
 <h3>Water vapor analysis of an icing wind tunnel</h3>
 <p>In the review <a href="/aedc1dmp.html">"The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp"</a> 
@@ -183,7 +189,7 @@ At higher airspeeds, the relative humidity can be much higher.  </p>
 <a href="/bilanin-pi-terms-and-the-weber-number.html">Bilanin's Pi Terms</a>].</p>
 <p>I do not know of a test where different humidity levels were used to 
 measure the effects on ice shapes. </p>
-<p>We will use LEWICE2D to calculated some different ice shapes at different relative humidities. 
+<p>We will use LEWICE2D to calculate some different ice shapes at different relative humidities. 
 LEWICE2D does not predict the formation of frost on the afterbody due to supersaturation 
 (the program was not intended to do so), 
 but it does predict differences in the main, leading edge region ice shape.</p>
@@ -192,24 +198,25 @@ This had an 8-foot chord 65<sub>1</sub>-212 airfoil at 5 degrees angle of attack
 This test did not report an unheated ice shape for this specific condition. 
 It did include "General types of primary ice" in Figure 2. 
 The conditions selected here are probably closest to case (c):</p>
-<p><img alt="Figure 2 of NACA-TN-2962" src="images/naca-tn-2962/Figure 2.png">   </p>
+<p><img alt="Figure 2 of NACA-TN-2962. General types of primary icing observed on airfoil leading edge.
+" src="images/naca-tn-2962/Figure 2.png">   </p>
 <p>At the nominal airspeed of 180 MPH, 
 the effect of supersaturation on the ice shape as calculated by
 LEWICE2D is small.</p>
-<p><img alt="Ice at 180 MPH and T_total=25F" src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_180mph.png">  </p>
+<p><img alt="Ice at 180 MPH and T_total=25F." src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_180mph.png">  </p>
 <p>At the 350 MPH, 
 the effect of supersaturation on the ice shape is small, 
 but more readily discernible than for the 180 MPH case. </p>
-<p><img alt="Ice at 350 MPH and T_total=25F" src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_350mph.png">  </p>
+<p><img alt="Ice at 350 MPH and T_total=25F." src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_350mph.png">  </p>
 <p>It we analyze at higher total temperatures, ice is still predicted 
 (but only about 1 mm ice thickness for this 20 minute long exposure)
 (I have observed ice formation at total air temperatures greater than 0C in an icing wind tunnel). </p>
-<p><img alt="Ice at 180 MPH and T_total=34F" src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_4_5c_180mph.png">  </p>
+<p><img alt="Ice at 180 MPH and T_total=34F." src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_4_5c_180mph.png">  </p>
 <p>At the higher airspeed, ice is predicted to form at a rather warm total air temperature of 40F 
 (I have not observed ice formation at total air temperatures as warm as 40F in an icing wind tunnel). 
 There is a notable difference between the ice shape at 100% relative humidity and the calculated 213% relative humidity
 (the ice shape at 213% relative humidity is barely visible, even on an expanded plot). </p>
-<p><img alt="Ice at 350 MPH and T_total=40F" src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_4_5c_350mph.png">  </p>
+<p><img alt="Ice at 350 MPH and T_total=40F." src="images/naca-tn-2962/naca_tn_2962_humidity_lewice_4_5c_350mph.png">  </p>
 <p>In most cases the effect of supersaturation is small. 
 However, if one is attempting to demonstrate the presence or absence of ice
 at temperature near the maximum for ice formation, 

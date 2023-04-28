@@ -3,13 +3,13 @@ Date: 2022-08-03 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  
+### _"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  
 
 ![Figure 3](images/aedc_tr_87_23/Figure 3.png)  
 
-#"An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" [^1]  
+# "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" [^1]  
 
-##Abstract  
+## Abstract  
 
 >Often, engine icing tests cannot be conducted at conditions that are considered the critical
 test points because of aircraft engine test facility operational constraints or the inability to
@@ -39,7 +39,7 @@ are generally less tolerant to changes in test conditions.)
 >5. The scaling law used herein cannot solely be used to determine tolerances in setting
 test conditions.  
 
-##Discussion  
+## Discussion  
 
 To me, this publication is as much about critical icing conditions selection as it is about 
 icing wind tunnel test ("critical" being the one with large effects).  
@@ -60,7 +60,8 @@ by the particular application. However, this does not prevent using Cd as a simi
 Those ice shapes and others with measure Cd values were plotted versus 
 calculated leading edge freezing fraction (and other parameters).
 
-![Figure 8](images/aedc_tr_87_23/Figure 8.png)  
+![Figure 8. Effect of static air temperature on ice shape drag with lines of constant 
+calculated freezing fraction.](images/aedc_tr_87_23/Figure 8.png)  
 
 This suggests that for this airfoil and this range of conditions, 
 there is a peak effect near a stagnation line freezing fraction of 0.3
@@ -75,7 +76,7 @@ differ slightly from those calculated with the method in the later NASA-CR-2004-
 AEDC-TR-87-23 does not provide detailed example calculations to 
 determine what the differences are. 
 
-##Conclusions  
+## Conclusions  
 
 >CONCLUSIONS
 A study was conducted to investigate the possibility of achieving approximate icing
@@ -108,7 +109,7 @@ test conditions and, hence, affect ice shape.
 >9. Additional work is needed to develop other approaches to ice scaling. The ice
 scaling code employed in this study may be too restrictive.  
 
-###Additional work
+### Additional work
 
 Extensive additional work on scaling was accomplished after AEDC-TR-87-23. 
 However, a subsequent paper, [Bilanin, "Proposed Modifications to Ice Accretion/Icing Scaling Theory"], appears to impose even more restrictions. 
@@ -116,7 +117,7 @@ It would take much further testing and analysis to arrive at
 what I consider to be the "modern" reference method for scaling of unheated ice shapes, 
 NASA/CR-2004-212875. 
 
-###Critical ice shape selection
+### Critical ice shape selection
 
 It is illustrative that the measurements shown in Figure 3 are not 
 numerous enough to capture the peak Cd value with confidence 
@@ -137,7 +138,7 @@ but if you have no other information that might be a good place to start searchi
 
 Not every test measures section Cd with ice. 
 While I can find hundreds (perhaps in the low thousand) of measured ice shapes, 
-I can only thinks of only a few dozen where Cd was measured (most of them herein) (and fewer with Cl measured.)
+I can only think of only a few dozen where Cd was measured (most of them herein) (and fewer with Cl measured.)
 Cd measurements add time and cost to a test. 
 
 There are technical challenges to measuring the section drag with ice with either a force balance or wake pressure survey. 
@@ -151,27 +152,34 @@ Figure 10 of NASA-TM-83556 has probably been influential.
 The ice shapes with the largest Cd values have upper ice "horn" angles of about 45 degrees
 (209 km/h -5C, 338 km/h -2C and -5C). 
 
-![Figure 10 from NASA-TM-83556](images/nasa-tm-83556/Figure 10.png)  
+![Figure 10 from NASA-TM-83556. Effect of total temperature on the ice
+shape and drag. (LWC x V x time) = const,; DVM, 20 micrometer; 
+0.053 m chord 0012 airfoil at a 4 degree angle of attack.
+](images/nasa-tm-83556/Figure 10.png)  
 _Figure 10 from NASA-TM-83556_   
 
-![Figure 7 from NACA-TN-4151](images/naca-tn-4151/Figure 7.png)   
+![Figure 7. Representation of ice shape by angle theta and height h.
+](images/naca-tn-4151/Figure 7.png)  
 _Figure 7 from NACA-TN-4151_  
 
 While it was published well before NACA-TM-83556, 
 the ice shapes from [Wilder]({filename}wilder.md) also have about a 45 degree horn angle: 
 
-![Figure 6 from Wilder](images/wilder/Figure 6.png)  
+![Figure 6. Typical ice shapes for unprotected tail surface 
+from ref. 2.](images/wilder/Figure 6.png)  
 _Figure 6 from Wilder_  
 
 And, even earlier, NACA-TN-4151 had maximum Cd values at an ice horn angle of 
 35 to 60 degrees, depending on the angle of attack, for a completely different (much thinner) airfoil. 
 
-![Figure 10 from NACA-TN-4151](images/naca-tn-4151/Figure 10.png)  
+![Figure 10. Change in airfoil drag due to ice height of 1-percent chord 
+as a function of ice angle and angle of attack.
+](images/naca-tn-4151/Figure 10.png)  
 _Figure 10 from NACA-TN-4151_ 
 
 If nothing else, it appears to be a long ingrained expectation of ice shapes.  
 
-###Setting tolerances
+### Setting tolerances
 
 While the stated subject of the publication was tolerances in icing tunnel tests, 
 it ends up with little practical guidance:  
@@ -190,7 +198,7 @@ In Figure 8 above,
 a 1°F change in static temperature would appear to cause a significant change in Cd near the peak value. 
 It is also not clear if, for example, a +/-10% tolerance on the LWC values is "good enough" or not.  
 
-##Citations  
+## Citations  
 
 AEDC-TR-87-23 cites seven publications:  
 
@@ -207,7 +215,7 @@ An online search [^2] found 7 citations of
 [I view this as under-valued for the excellent technical content it contains, 
 but not quite a "lost gem".]
 
-##Notes
+## Notes
 
 [^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983.  
 [^2]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Look+at+Tolerances+in+Setting+Icing+Test+Conditions+with+Particular+Application+to+Icing+Similitude&btnG=  

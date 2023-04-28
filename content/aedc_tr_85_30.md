@@ -3,20 +3,21 @@ Date: 2022-08-01 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."_  
-![Figure 24c](images/aedc-tr-85-30/Figure 24c.png)  
+### _"It would be beneficial to the icing community if the feasibility of using scale models in these tests could be proven."_  
+![Figure 24c. Airfoil ice accretions, test article size scaling.
+](images/aedc-tr-85-30/Figure 24c.png)  
 
-#"Analysis and Verification of the Icing Scaling Equations" [^1]    
+# "Analysis and Verification of the Icing Scaling Equations" [^1]    
 
-#Summary  
+## Summary  
 An expanded set of icing similarity terms are derived and tested.  
 
-#Key Points  
+## Key Points  
 1. Water drop impingement similarity is simplified using Ko.  
 2. Icing heat transfer similarity terms derived from Messinger are added.  
 3. Tests in an icing wind tunnel validate the selected set of similarity terms.  
 
-##Abstract  
+## Abstract  
 
 >1.1 BACKGROUND  
 
@@ -58,7 +59,7 @@ set of icing scaling equations were found, to write a final computer code that c
 in icing tests.  
 
 >The scaling verification tests were conducted using full- and half-scale circular cylinders
-and full-, 1/3-, and l/6-scale airfoil sections. By applying a postulated scaling method, test
+and full-, 1/3-, and 1/6-scale airfoil sections. By applying a postulated scaling method, test
 conditions that should produce scale ice accretions were calculated using the computer code
 developed for this study. The size and shape of the ice accretions resulting from these test
 conditions were compared with full-scale results to determine the accuracy of the scaling
@@ -66,7 +67,7 @@ method. The objectives of the study were met by identifying a scaling method tha
 scaled ice accretions over a wide range of test conditions and that can be applied to a variety
 of icing testing situations.
 
-##Discussion 
+## Discussion 
 
 This is a long publication (80 pages, 38 figures), so this will be a highly condensed review. 
 
@@ -95,7 +96,7 @@ test facility operator and the aircraft manufacturer.
 
 Several candidate similarity terms are developed. 
 
-###Impingement similarity  
+### Impingement similarity  
 
 Water drop impingement similarity is used, similar to [NACA-RM-E8A27]({filename}scaling_in_naca_tests.md), 
 but rather than separate K and Phi terms, a merged Ko term is used.
@@ -113,7 +114,7 @@ c is chord length
 
 These and λ/λ<sub>s</sub> we saw in [Langmuir and Blodgett]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^2].
 
-###Water exposure similarity
+### Water exposure similarity
 
 >A<sub>c</sub> = LWC(U<sub>∞</sub>)τ / (ρ<sub>w</sub>c)  &nbsp;&nbsp;&nbsp;&nbsp; (16)
 
@@ -126,7 +127,7 @@ U<sub>∞</sub> is free stream air speed
 c is chord length  
 T<sub>s</sub> is air static temperature  
 
-###Freezing similarity  
+### Freezing similarity  
 
 A heat transfer analysis derived from Messinger [^3] was developed.
 
@@ -172,34 +173,37 @@ Table 1 shows prior scaling analysis works.
 It shows that industry and others were actively developing scaling methods 
 at a time when NACA/NASA was not. 
 
-![Table 1](images/aedc-tr-85-30/Table 1.png)  
+![Table 1. Summary of past scaling investigations.](images/aedc-tr-85-30/Table 1.png)  
 
 I have read two of these in the past (but I do not have a copy of them), 
 and I have not found any of these online. 
 It is not surprising that the one from Lockheed Aircraft includes freezing fraction, 
 as Messinger worked there at that time. 
 
-###Icing wind tunnel tests
+### Icing wind tunnel tests
 
 Various methods were tried. 
 
-![Table 2](images/aedc-tr-85-30/Table 2.png)  
+![Table 2. Summary of scaling methods investigated at the AEDC.
+](images/aedc-tr-85-30/Table 2.png)  
 
 The Icing Research Test Cell was used.
 
-![Figure 17](images/aedc-tr-85-30/Figure 17.png)  
+![Figure 17. Iicng research test cell.](images/aedc-tr-85-30/Figure 17.png)  
 
 The method where Ko, Ac, n, Φ, and Θ were held constant 
 performed the best, both for scaling test article size or other parameters.  
 
-![Figure 24a](images/aedc-tr-85-30/Figure 24a.png)  
-![Figure 24b](images/aedc-tr-85-30/Figure 24b.png)  
-![Figure 24c](images/aedc-tr-85-30/Figure 24c.png)  
-![Figure 24d](images/aedc-tr-85-30/Figure 24d.png)  
+![Figure 24a. Comparison of glaze and mixed ice-accretions scaling using Method 4 
+to establish the experimental similitude conditions. 
+a. Cylinder glaze ice accretions, test article size scaling.](images/aedc-tr-85-30/Figure 24a.png)  
+![Figure 24b. Cylinder glaze ice accretions, test parameter scaling.](images/aedc-tr-85-30/Figure 24b.png)  
+![Figure 24c. Airfoil mixed ice accretions, test article size scaling.](images/aedc-tr-85-30/Figure 24c.png)  
+![Figure 24d. Airfoil glaze ice accretions, test article size scaling.](images/aedc-tr-85-30/Figure 24d.png)  
 
->These results have identified a scaling procedure that accurately duplicates the ice-
-accretion profiles. In this scaling method, Ko, Ac, n, Φ, and Θ are held constant. The set of
-verified scaling equations can, therefore, be expressed as follows:
+>These results have identified a scaling procedure that accurately duplicates the 
+ice-accretion profiles. In this scaling method, Ko, Ac, n, Φ, and Θ are held constant. 
+The set of verified scaling equations can, therefore, be expressed as follows:  
 
 >1. (K<sub>o</sub>)<sub>model</sub> = (K<sub>o</sub>)<sub>full-scale</sub>  
 >2. (A<sub>c</sub>)<sub>model</sub> = (A<sub>c</sub>)<sub>full-scale</sub>  
@@ -209,7 +213,7 @@ verified scaling equations can, therefore, be expressed as follows:
 
 >A final version of the icing scaling similitude code, SIMICE, was written to solve the
 above set of verified scaling equations (See AEDC-TR-85-30, Vol. II). The icing test
-parameters that must be determined from thse equations are as follows:
+parameters that must be determined from these equations are as follows:
 
 >1. velocity  
 >2. static pressure  
@@ -229,7 +233,7 @@ examples to be discussed in the following section.
 Note also that some icing wind tunnels do not control pressure. 
 In those cases, the five equations determine the five test parameters. 
 
-##Conclusions  
+## Conclusions  
 
 >8.0 SUMMARY OF RESULTS  
 The objectives of this study were to evaluate the equations governing the ice-accretion
@@ -270,7 +274,7 @@ Depending on the flight reference condition,
 the calculated test condition may be outside of the envelope of 
 MVD-LWC-Airspeed that the facility can produce (a subject not covered in AEDC-TR-85-30).
 
-##Citations
+## Citations
 
 AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendices).  
 
@@ -303,7 +307,7 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 An online search [^4] found 93 citations of "Analysis and Verification of the Icing Scaling Equations"
 (it has been published in various forms). 
 
-##Notes
+## Notes
 
 [^1]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. I (revised), 1985  
 [^2]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  

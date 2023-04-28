@@ -3,19 +3,19 @@ Date: 2022-07-18 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"A spray, which consisted of very small drops, was found to be quite satisfactory"_  
+### _"A spray, which consisted of very small drops, was found to be quite satisfactory"_  
 
-#"Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"  
+# "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"  
 
-##Summary  
+## Summary  
 An early icing wind tunnel and test are described
 
-##Key Points
+## Key Points
 1. An early icing wind tunnel with most of the components of current tunnels is described.  
 2. A test of several coatings to prevent ice is detailed.  
 3. Many of the points noted about icing tunnel test reflect current test experience.  
 
-##Abstract  
+## Abstract  
 
 >This investigation was conducted in the Refrigerated Wind
 Tunnel at Langley Memorial Aeronautical Laboratory, Langley
@@ -30,7 +30,7 @@ effective in preventing the formation of ice on an airfoil model,
 while all insoluble compounds which were tested were found
 to be ineffective.
 
-##Discussion  
+## Discussion  
 
 This is a good introduction to icing wind tunnels, 
 as it illustrates the basic components common to most current icing wind tunnels, 
@@ -60,9 +60,9 @@ apparatus of commercial type (Fig. 3).
 The circulation of the air in the tunnel is maintained by a propeller driven
 by an electric motor.
 
-![Figure 1](images/naca-tn-339/Figure 1.png)  
+![Figure 1. Diagram of refrigerated wind tunnel.](images/naca-tn-339/Figure 1.png)  
 
-![Figure 2](images/naca-tn-339/Figure 2.png)  
+![Figure 2. General view of refrigerated wind tunnel.](images/naca-tn-339/Figure 2.png)  
 
 Most current recirculating-loop icing wind tunnels have the same components:
 fan, turning vanes, converging and diverging sections, refrigeration and a heat exchanger, spray nozzles, and
@@ -75,7 +75,7 @@ A central stream of water is affected by circumferential air jets.
 Adjusting the water pressure and air pressure result in different 
 combinations of drop size and liquid water content. 
 
-![Figure 4](images/naca-tn-339/Figure 4.png)  
+![Figure 4. Spray nozzle tip.](images/naca-tn-339/Figure 4.png)  
 
 >Certain preliminary tests were made in the wind tunnel to
 determine the best form of water spray necessary to produce ice
@@ -132,7 +132,8 @@ The drops adhered
 to the surface, especially at the stagnation point of the leading edge, 
 and froze quite as readily as on the bare wing.
 
-![Figure 7](images/naca-tn-339/Figure 7.png)  
+![Figure 7. Test on heavy oil coating. Heavy spray. Temperature 
+-1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
 
 >Tests on the soluble substances likewise did not show a
 marked preventive tendency.
@@ -159,7 +160,8 @@ However, after the formation had once started, it
 built up rapidly showing apparently that there was too much water
 falling on the surface for the glucose to have much effect.
 
-![Figure 8](images/naca-tn-339/Figure 8.png)  
+![Figure 8. Test on glucose coating. Heavy spray. Temperature 
+-1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
 
 >Assuming that the conditions under which the first series
 of tests was made were too severe and probably not representative 
@@ -183,7 +185,8 @@ at a recorded air temperature of about -0.5 C.
 The formation was collected in about 15 minutes, and though very light, 
 had a characteristic shape and structure.
 
-![Figure 14](images/naca-tn-339/Figure 14.png)  
+![Figure 14. Flight formation on VE-70 airplane. Temperature -0.5 C. 
+Light rain. Average velocity about 80 m.p.h.](images/naca-tn-339/Figure 14.png)  
 
 >The amount of water present in the wind tunnel jet was measured 
 roughly to determine the actual density of the spray used
@@ -200,9 +203,10 @@ for a moderate to heavy rain.
 It is believed that the latter 
 density represents more closely average ice-forming weather conditions.
 
-It is not explained further how the "amount of water present in the wind tunnel jet was measured".  
+It is not explained further how the 
+"amount of water present in the wind tunnel jet was measured".  
 
-##Conclusions  
+## Conclusions  
 
 >Within the scope of these tests which consisted only in investigating 
 the ability of certain substances when applied to
@@ -232,12 +236,12 @@ It is not clear that this particular icing wind tunnel was used for other icing 
 See ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)
 for more information. 
 
-###Icing wind tunnel tests lessons learned
+### Icing wind tunnel tests lessons learned
 
 NACA-TN-339 illustrates some general "lessons learned"
 I have from icing wind tunnel tests. 
 
-####Calibration
+#### Calibration
 
 NACA-TN-339 had the goal   
 
@@ -254,7 +258,7 @@ where perhaps almost any icing condition would do,
 but I have found that the time invested in ensuring 
 calibration to your target environment is time well spent. 
 
-####Spray uniformity  
+#### Spray uniformity  
 
     "A spray which consisted of large drops was found to use excessive
     quantities of water which could not be properly regulated without 
@@ -272,7 +276,7 @@ of the test section.
 
 Different test purposes may have different uniformity requirements.  
 
-####Iteration
+#### Iteration
 
     "Assuming that the conditions under which the first series
     of tests was made were too severe and probably not representative 
@@ -286,7 +290,7 @@ An exception to this may be qualification or certification tests,
 where the conditions are prescribed, 
 and (hopefully) one is just confirming the expected result. 
 
-####Comparison to other test environments  
+#### Comparison to other test environments  
 
     "none of the compounds showed any appreciable preventive action 
     with the heavy spray."  
@@ -298,7 +302,7 @@ or natural icing flight conditions.
 
 Many times I have heard variations on the phrase "But it worked in our lab!"  
 
-####Consider small scale tests
+#### Consider small scale tests
 
 Limited scale icing wind tunnels have similar roles today, 
 testing small components, investigating "icephobics", and research studies. 
@@ -320,7 +324,7 @@ particularly if one wishes to scale results up to a larger scale
 (without larger scale tests). 
 We will cover some of those in a later post in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md). 
 
-##Citations  
+## Citations  
 
 NACA-TN-339 cites 12 publications:
 
@@ -343,7 +347,7 @@ NACA-TN-339 is cited once in the [NACA Icing Publications Database]({filename}na
 
 An online search [^3] found 9 citations of NACA-TN-339.
 
-##Notes  
+## Notes  
 
 [^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   

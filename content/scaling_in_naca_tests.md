@@ -3,19 +3,19 @@ Date: 2022-07-27 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"_
+### _"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"_
 
-#Summary  
+## Summary  
 Early examples of icing test scaling are noted.
 
-#Key Points
+## Key Points
 1. Three publication that mention scaling are reviewed.  
 2. Some challenges with scaling are noted.  
 3. A airfoil design of a full scale leading edge truncated with an aft flap addresses some challenges.  
 
-##Discussion  
+## Discussion  
 
-###NACA-RM-E8A27 "Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System" [^1]  
+### NACA-RM-E8A27 "Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System" [^1]  
 
 This is the earliest example that I have found of using dimensionless water drop impingement terms for 
 test similarity calculations.  
@@ -28,16 +28,19 @@ to the design of internal water-inertia separation inlets is
 included. The analysis is applied specifically to the model
 investigated.  
 The results show that to be effective in separating the free
-water from the air stream in order to prevent screen and stator-
-blade icing, an inlet of this type had a 75-percent ram-pressure
+water from the air stream in order to prevent screen and stator-blade 
+icing, an inlet of this type had a 75-percent ram-pressure
 recovery at the design inlet-velocity ratio in an icing condition.
 For normal nonicing operation, the ram-pressure recovery is comparable 
 to a direct-ram installation The ram-pressure recovery
 and the circumferential uniformity of the mass flow in the inlets
 was relatively independent of angle of attack.
 
-![Figure 2 of NACA-RM-E8A27](images/naca-rm-e8a27/Figure 2.png)  
-![Figure 3 of NACA-RM-E8A27](images/naca-rm-e8a27/Figure 3.png)  
+![Figure 2 of NACA-RM-E8A27. Installation of typical internal water-inertia 
+separation nacelle inlet in icing research tunnel.
+](images/naca-rm-e8a27/Figure 2.png)  
+![Figure 3 of NACA-RM-E8A27. Schematic diagram of internal water-inertia 
+separation nacelle inlet installation.](images/naca-rm-e8a27/Figure 3.png)  
 
 >Extrapolation of model icing investigations to full scale. 
 
@@ -102,7 +105,7 @@ This illustrates a challenge of scaling:
 scaling one dimensional parameter often requires scaling at least one other 
 dimensional parameter (sometimes several) to keep a dimensionless parameter value constant. 
 
-###NACA-RM-E50E03, "Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines" [^3]  
+### NACA-RM-E50E03, "Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines" [^3]  
 
 This considers testing a subscale model at sea level pressure and comparing
 that to flight. 
@@ -121,20 +124,20 @@ achieved with the inertia-separation inlets investigated. Approximately
 remained. In the air passing into the compressor inlet, heavy
 alternate-duct-elbow ice formations caused by secondary inertia
 separation resulted in rapid total-pressure losses and decreases
-in mass flow. The duration in an icing condition for an inertia-
-separation inlet, without local surface heating, was increased
+in mass flow. The duration in an icing condition for an inertia-separation 
+inlet, without local surface heating, was increased
 approximately four times above that for a direct-ram inlet with a
-compressor-inlet screen. For normal nonicing operation, the inertia-
-separation-inlet total-pressure losses were comparable to a direct-
-ram installation. The pressure losses and the circumferential uniformity 
+compressor-inlet screen. For normal nonicing operation, the 
+inertia-separation-inlet total-pressure losses were comparable to a direct-ram 
+installation. The pressure losses and the circumferential uniformity 
 of the mass flow in all the inlets were relatively independent of angle of attack. 
 Use of an inertia-separation inlet
-would in most cases require a larger diameter nacelle than a direct-
-ram inlet in order to obtain an alternate duct sufficiently large
+would in most cases require a larger diameter nacelle than a direct-ram 
+inlet in order to obtain an alternate duct sufficiently large
 to pass the required engine air flow at duct Mach numbers below
 1.0 at the minimum area.
 
->"For full-scale considerations, the alternate-duct
+>For full-scale considerations, the alternate-duct
 area must therefore be increased to an extent that it would pass
 sufficient air to the engine at a reasonable Mach number and pressure loss. 
 This design requirement could be attained with configuration E by 
@@ -142,7 +145,7 @@ increasing the inlet gap about 26 percent and then
 scaling the entire configuration to fit the engine. 
 An increase
 in the inlet gap, however, does not appear to be feasible for good
-water separation." 
+water separation. 
 
 The test demonstrated the feasibility of water separation inlet design, 
 but the specific design tested does not appear to be feasible for flight. 
@@ -150,7 +153,7 @@ but the specific design tested does not appear to be feasible for flight.
 This illustrates another challenge of scaling and test in a ground level, 
 limited Mach range facility. 
 
-###NACA-RM-E56E11, "Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections" [^4]  
+### NACA-RM-E56E11, "Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections" [^4]  
 
 The use of truncated airfoils is described. 
 Keeping a full scale leading edge avoids geometric scaling in test similarity calculations, 
@@ -183,12 +186,14 @@ airfoil. The use of flapped truncated airfoils may permit impingement
 and icing studies to be conducted with full-scale leading-edge sections,
 ranging in size from tip to root sections.
 
-![Figure 2a of NACA-RM-E56E11](images/naca-rm-e56e11/Figure 2a.png)  
-![Figure 2b of NACA-RM-E56E11](images/naca-rm-e56e11/Figure 2b.png)  
+![Figure 2a of NACA-RM-E56E11. Location of trailing-edge flaps on airfoils.
+](images/naca-rm-e56e11/Figure 2a.png)  
+![Figure 2b of NACA-RM-E56E11. Concluded. Location of trailing-edge flaps on airfoils
+](images/naca-rm-e56e11/Figure 2b.png)  
 
 This technique has been refined and is still used today [^5]. 
 
-##Citations  
+## Citations  
 
 NACA-RM-E8A27 cites 4 publications:
 
@@ -214,7 +219,7 @@ NACA-RM-E56E11 cites 5 publications:
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 - Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.  
 
-##Notes
+## Notes
 
 [^1]: von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System. NACA-RM-E8A27, 1948.  
 [^2]: 

@@ -9,9 +9,9 @@ I'm travelling at the speed of light
 I wanna make a supersonic woman of you"_  
 from Queen, "Don't Stop Me Now"  
 
-#A Brief Digression on Unit Systems
+# A Brief Digression on Unit Systems
 
-##Preferred units (primary SI units):
+## Preferred units (primary SI units):
 
     mass: kg
     force: N
@@ -22,13 +22,13 @@ from Queen, "Don't Stop Me Now"
     u: free-stream air speed, m/s
     altitude: pressure altitude, m
     energy: J or N-m
-##Icing specific, entrenched exceptions:  
+## Icing specific, entrenched exceptions:  
 
     d_drop: water drop diameter, micrometer (1e-6 m)
     lwc: liquid water content, g/m^3
     
 
-##A note about mass and force:  
+## A note about mass and force:  
 
 To keep unit consistency in Newton's second law, a unit system constant "gc" is introduced.  
 
@@ -58,7 +58,7 @@ This is slug / ft^3, in disguise.
     
 See an excellent discussion about gc in "Fundamentals of Classical Thermodynamics", Van Wylen and Sonntag, Second Edition, John Wiley and Sons, 1973. 
 
-##A note about thermal energy
+## A note about thermal energy
 
 In SI units, thermal energy and any other energy units are the same. 
 For thermal energy, the Joule "J" is conventionally used. 

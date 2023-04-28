@@ -27,7 +27,7 @@ There are significant icing wind tunnel test method improvements in the post-NAC
 Readers are also encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 
 
-##NACA-Era:
+## NACA-Era:
 
 ### [NACA-TN-339, "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation"]({filename}NACA-TN-339.md)  
 >An early icing wind tunnel and test are described
@@ -73,7 +73,7 @@ NASA-TM-106827, "Methods for Scaling Icing Test Conditions"
 
 The next thread in the NACA review series is the [Icing Instruments Thread]({filename}instruments.md).  
 
-##Notes 
+## Notes 
 
 [^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
 [^2]: Pope, A.: Wind Tunnel Testing. John Wiley and Sons, Inc., New York, 1947.  

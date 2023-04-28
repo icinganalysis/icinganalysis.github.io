@@ -3,21 +3,21 @@ Date: 2022-08-29 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
-###_"effects are scaled appropriately between Appendix C and SLD conditions using the existing scaling methods"_  
+### _"effects are scaled appropriately between Appendix C and SLD conditions using the existing scaling methods"_  
 
 ![Table 1 Interim Guidance](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
 
-##Summary  
+## Summary  
 Icing wind tunnel uses and challenges for large drop icing are discussed.  
 
-##Key points  
+## Key points  
 1. Since 2014, supercooled large drop (SLD) icing has been part of (US) 14 CFR Part 25 icing regulations (Appendix O).  
 2. Physics make current icing wind tunnels challenged to reproduce the freezing rain portion of Appendix O.  
 3. For the "main" leading edge region ice shape, the standard test similarity calculations apply.  
 4. Icing extent limits appear to have unexplained variability in test.  
 5. Ice protection test similarity has not been addressed in detail for SLD conditions.  
 
-##A Very Brief Description of Supercooled Large Drop (SLD) Icing Conditions  
+## A Very Brief Description of Supercooled Large Drop (SLD) Icing Conditions  
 
 I will keep this brief and focused on icing wind tunnels. 
 
@@ -37,8 +37,10 @@ Four different drop size distributions were defined in Figures 2 and 5.
 In general, these are much broader than the Appendix C (assumed) Langmuir D distributions, 
 and have a portion of the water in drop sizes greater than 100 micrometers.  
 
-![Appendix O Figure 2.png](images/nasa-cr-2008-215302/Appendix O Figure 2.png)  
-![Appendix O Figure 5.png](images/nasa-cr-2008-215302/Appendix O Figure 5.png)  
+![Appendix O Figure 2. Appendix O, Freezing Drizzle, Drop Diameter Distributions.
+](images/nasa-cr-2008-215302/Appendix O Figure 2.png)  
+![Appendix O Figure 5. Appendix O, Freezing Rain, Drop Diameter Distributions.
+](images/nasa-cr-2008-215302/Appendix O Figure 5.png)  
 
 Advisory Circular 25-28 [^3] provided (in 2014) "interim guidance" on
 the use of icing wind tunnels for large drop size icing conditions. 
@@ -55,17 +57,18 @@ The case is similar for the use of computing codes (few validated uses),
 so apparently one is left with only flight test in natural icing
 SLD conditions as an option. 
 
-![Table 1 Interim Guidance](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
+![Table 1 Interim Guidance. Assessment of Appendix X Engineering Tool Capabilities.
+](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
 
 [The "Appendix X" referred to in the table became Appendix O, 
 after the table was produced in 2009.]
 
-##Discussion
+## Discussion
 
 Several aspects of physics make similating SLD conditions challenging, 
 particularly for freezing rain.   
 
-###Water drop fall rates  
+### Water drop fall rates  
 
 NACA-TN-712 [^5] identified this effect for large drop sizes. 
 While small drops fall through the air at much less than 1 m/s, 
@@ -73,7 +76,9 @@ large drops can fall at speeds greater than 1 m/s (depending on size).
 For a large test facility, like the IRT, the transit time is 
 on the order of 1 second, so the fall distance is non-trivial for large drops. 
 
-![Figure 1 of NACA-TN-712](images/naca-tn-712/Figure 1.png)  
+![Figure 1 of NACA-TN-712. Illustration showing spray that will give rime ice. 
+If nozzle is raised, large drops will strike model, giving glaze ice.
+](images/naca-tn-712/Figure 1.png)  
 
 Current test facilities have an array of nozzles, 
 not a single nozzle as in NACA-TN-712.
@@ -81,7 +86,7 @@ However, the drops falling, combined with the contraction effect noted below,
 still leads to fewer large drops in the upper areas of the test section, 
 and sorting of drop size vertically in the test section. 
  
-###Water drop trajectory contraction  
+### Water drop trajectory contraction  
 
 Large drops the trajectories tend to contract in the bell mouth 
 upstream of the constant area test section, and continue on that
@@ -93,13 +98,14 @@ You can see 3D analysis examples in Orchard [^6] and Fallast [^7].
 For a freezing drizzle case (not freezing rain) in the NASA IRT [^8], we can see 
 some contraction in the test section water concentration uniformity plots, 
 and this would only get worse for freezing rain conditions.  
-![Figures from 2019 IRT calibration](images/nasa-cr-2008-215302/SLD nozzle comparison.png)  
+![Figures from 2019 IRT calibration. Mod1 Nozzles. Mod1 nozzles between 
+2 <= P_air <= 8 psig (SLD) condition.](images/nasa-cr-2008-215302/SLD nozzle comparison.png)  
 
 However, Breitfuß [^9] describes a different, rotating nozzle design 
 for the RTA Icing Wind Tunnel that apparently helps uniformity
 in the test section for freezing rain conditions. 
 
-###Water drop cooling rates  
+### Water drop cooling rates  
 
 As we saw in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp"]({filename}aedc1dmp.md), 500 micrometer diameter drop size case, 
 the larger drops do not reach equilibrium by the time 
@@ -119,7 +125,7 @@ to verify these results.
 Some attempts have been made to assess this effect by using varying initial temperatures 
 of the water spray to (presumably) achieve different drop temperatures in the test section. 
 
-###Scaling SLD test conditions  
+### Scaling SLD test conditions  
 
 NASA/CR-2008-215302 [^10] looked at scaling SLD conditions in the freezing drizzle size range (not freezing rain). 
 One form of scaling considered was geometric scaling. 
@@ -171,7 +177,7 @@ restrictions on MVD make it impractical to match βo exactly,
 scale MVD should be selected to gain as close a
 match of βo as possible.
 
-###Observed icing limits versus calculated impingement limits
+### Observed icing limits versus calculated impingement limits
 
 NASA/CR-2008-215302 looked at the observed icing limits.  
 
@@ -207,7 +213,8 @@ The results show a strong correlation with βo and an
 independence of model size. Attempts to correlate the
 data with either V or n_o were not successful.
 
->![Figure 16 from NASA/CR-2008-215302](images/nasa-cr-2008-215302/Figure 16.png)  
+>![Figure 16 from NASA/CR-2008-215302. Icing limits recorded in IRT scaling tests. 
+NACA 0012 models at 0 degree angle of attack.](images/nasa-cr-2008-215302/Figure 16.png)  
 
 Note the fairly large scatter in Figure 16. 
 For example, at βo = 0.55, icing limit 
@@ -228,9 +235,9 @@ and so the impingement limit values plotted with
 beta cylinder values match slightly better 
 (or match less poorly). 
 
->![Figure 16 with LEWICE analysis](images/nasa-cr-2008-215302/Figure 16 with LEWICE2D.png)  
+>![Figure 16 with LEWICE analysis.](images/nasa-cr-2008-215302/Figure 16 with LEWICE2D.png)  
 
-###Bimodal drop size distributions  
+### Bimodal drop size distributions  
 
 Potapczuk [^12] looked at using two sets of nozzles (bimodal) to better represent 
 the SLD drop size distributions, and found:   
@@ -253,12 +260,13 @@ discrepancies in mass and volume.
 main ice shape are not well developed nor are methods for
 establishing icing limits along the span of the airfoil or wing.
 
-![Figure 23 from Potapczuk](images/Potapczuk/Figure 23.png)  
+![Figure 23 from Potapczuk. Ice shape profiles for runs EG2819 and EG2820 from 
+center line of 72-inch chord NACA 23012 airfoil model.](images/Potapczuk/Figure 23.png)  
 [EG2819 bimodal, EG2820 monomodal]  
 
 Note also the last trend mentioned on establishing icing limits. 
 
-###Ice protection system icing tunnel testing in SLD  
+### Ice protection system icing tunnel testing in SLD  
 
 As we saw in AIAA-2017-3927, the water catch rate is generally scaled down 
 between altitude reference conditions and near sea level test conditons. 
@@ -267,7 +275,8 @@ However, the large drop conditions that a facility can produce may require a
 fairly high LWC value. 
 In Figure 23 above, the LWC values were fairly high (1.64 g/m^3). 
 The freezing drizzle definitions LWC values, however, are fairly low (up to 0.44 g/m^3):   
-![Figure 1 Appendix O](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
+![Figure 1 Appendix O. Apendix O, Freezing Drizzle, Liquid Water Content.
+](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
 
 This leads to challenges. 
 If one tests at a higher LWC and the resulting water exposure rate than the reference 
@@ -284,7 +293,7 @@ A component of ice protection testing is verifying
 that an adequate extent is protected, and how to deal with the 
 uncertainty of test results is a challenge. 
 
-###Do the aft "feathers" have much of an effect?  
+### Do the aft "feathers" have much of an effect?  
 
 Insana [^13] looked at the effects of digitized ice shapes, 
 obtained at reference and scaled SLD conditions. 
@@ -296,17 +305,20 @@ but for a low Reynolds number (300,000) test.
 
 The ice shapes were digitized from the test cases in NASA/CR-2008-215302 figure 18. 
 For the 1.83 m chord, the icing test Reynolds number was about 6,000,000. 
-![Figure 18](images/nasa-cr-2008-215302/Figure 18.png)  
+![Figure 18. Scaling from 183 to 27 cm chord using constant W_e_l method. V_r, 100 kt.; 
+MVD_r, 170 micrometer.](images/nasa-cr-2008-215302/Figure 18.png)  
 
 The digitized ice shapes were 3D printed on to a small chord model, and 
 tested in an atmospheric wind tunnel. 
 
 The drag was measurably different between the full scale and scaled ice shapes
 (a LEWICE ice shape was also included).  
-![Insana Figure 37](images/nasa-cr-2008-215302/Insana Figure 37.png)  
+![Insana Figure 37. Drag coefficient comparison obtained from a) momentum deficit principle, 
+b) force-based testing for n_o = 0.3 ice accretion cases.
+](images/nasa-cr-2008-215302/Insana Figure 37.png)  
 
 At higher angles of attack, the lift was different.  
-![Insana Figure 35](images/nasa-cr-2008-215302/Insana Figure 35.png)  
+![Insana Figure 35. Lift coefficient comparison for n_o = 0.5 ice accretion cases.](images/nasa-cr-2008-215302/Insana Figure 35.png)  
 
 However, note that the effects of the scaled shape are more detrimental 
 than for the full scale: the drag values are higher for the scaled case, 
@@ -344,7 +356,7 @@ As things often occur in icing research, "more data is needed".
 I would feel more confident about the conclusions if there were more test cases, 
 and if the aerodynamic effects could be measured at a more representative Reynolds number. 
 
-##Conclusions  
+## Conclusions  
 
 "More data is needed" for SLD icing testing, 
 particularly for freezing rain conditions and ice protection testing. 
@@ -352,7 +364,7 @@ Recent developments such as Breitfuß [^9] provide hope for an improvement of th
 AC 25-28 Table 1 "interim guidance" assessment from above of using icing wind tunnel tests 
 for all SLD conditions.  
  
-##Notes
+## Notes
 
 [^1]: 
 Hu, Tao, et al. "Study on airworthiness problems of operating in supercooled large drops icing conditions for transport category airplanes." Procedia Engineering 80 (2014): 467-478. 

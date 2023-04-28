@@ -23,7 +23,7 @@ The majority of the tests were performed in the Icing Research Tunnel (IRT) as N
 The four other tunnels are briefly described in the "Other icing wind tunnel tests" section below. 
 
 I found 37 NACA publications [^1] that discuss use of the NACA Icing Research Tunnel. 
-Foure more publications discuss the use of other icing wind tunnels. 
+Four more publications discuss the use of other icing wind tunnels. 
 
 A wide variety of test articles were used.
 These included (detailed further below):  
@@ -32,7 +32,7 @@ These included (detailed further below):
 - inlet and engine components
 - icing instruments  
 - radomes  
-- several different airfoils, including some with ice protection  
+- several airfoils, including some with ice protection  
 - cylinders  
 
 Test purposes were varied. 
@@ -58,75 +58,81 @@ Some were floor mounted, and others had special purpose mounts.
 The nominal test section was used in most tests.  
 However, some test articles were mounted in the upstream converging section or downstream expansion section. 
 
-###Selected images  
+### Selected images  
 
-![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
+![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium. 
+Plan view of NASA-Lewis Icing Research Tunnel.](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
 _from 1969 Aircraft Ice Protection Report of Symposium [^2]_  
 
-![Figure 1 of NACA-TN-1246](images/naca-tn-1246/Figure 1.png)  
+![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.
+](images/naca-tn-1246/Figure 1.png)  
 
-![Figure 1 of NACA-TN-1134](images/naca-tn-1134/Figure 2.png)  
+![Figure 2 of NACA-TN-1134. Installation of induction-system test 
+setup in icing research tunnel.](images/naca-tn-1134/Figure 2.png)  
 
-![Figure 1 on NACA-RM-E9E12](images/naca-rm-e9e12/Figure 1.png)  
+![Figure 1 of NACA-RM-E9E12. Photograph of model installation in tunnel test section.
+](images/naca-rm-e9e12/Figure 1.png)  
 _from NACA-RM-E9E12_  
 
-![Figure 1 of NACA-RM-E53J30](images/naca-rm-e53J30/Figure 1.png)  
+![Figure 1 of NACA-RM-E53J30. Installation of swept airfoil with partial-span leading-edge 
+slat in icing tunnel.](images/naca-rm-e53J30/Figure 1.png)  
 _from NACA-RM-E53J30_  
 
-![Figure 8](images/naca-tn-339/Figure 8.png)  
+![Figure 8. Test on glucose coating. Heavy spray. Temperature 
+-1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
 
-###Test Articles in the NACA IRT  
+### Test Articles in the NACA IRT  
 
 _(In approximate chronological order)_  
 Note that while NACA-RM-E50K10 was published in 1951, 
 it contains data from a test conducted in 1945. 
 
-Publication | Test Article | Scale Ratio | Portion | Mount 
----|---|---|---|---
-NACA-RM-E50K10a |pneumatic deicer on a 42-inch chord airfoil | 1 | section | From ceiling of contraction 
-NACA-TN-1134 | engine nacelle with carburetor inlet scoop | 1 | half (upper) | floor
-NACA-TN-1246 | engine nacelle with cooling fan| 1| full | pedestal from floor of settling chamber  
-NACA-TN-1520 | modified fuselage with propeller | 1 | full | pedestal mount from floor of settling chamber   
-NACA-TN-1691 | modified fuselage with propeller | 11:15 reduced prop diameter | full | pedestal mount from floor of settling chamber 
-NACA-TN-1586 NACA-TN-1587 NACA-TN-1588 | modified fuselage with propeller | 1 | full | pedestal mount from floor of settling chamber   
-NACA-RM-E8A27 NACA-RM-E8A28 NACA-RM-E8A29 | engine nacelle | 0.5 | full | pedestal 
-NACA-RM-E9EO6 | cascade vanes | 0.67 | 2D section | pedestal from floor 
-NACA-RM-E9E12 | engine nacelle | 0.67 | full | pedestal from floor 
-NACA-TN-1789 | scoop on 8-foot chord airfoil | 1 | section | vertical floor to ceiling 
-NACA-RM-E50I08 | cascade vanes | Full | 2D section | pedestal from floor 
-NACA-RM-E50E03 |  engine nacelle | not stated | full | pedestal from floor 
-NACA-RM-E50H29  | cascade vanes | 2:1 | 2D section | pedestal from floor 
-NACA-TN-2480 | 8-foot chord airfoil | 1 | section | vertical floor to ceiling  
-NACA-RM-E51E16 | NACA pressure-type icing-rate meter and rotating disc instrument | 1 | full | not stated 
-NACA-RM-E51B12 | cascade vanes | Full | 2D section | pedestal from floor 
-NACA-RM-E51J29 |8-foot chord airfoil with internal gas heating |1 |section  | vertical floor to ceiling (turn-table)
-NACA-RM-E51J30 |8-foot chord airfoil with external electric heating |1 |section | vertical floor to ceiling (turn-table) 
-NACA-RM-E53C27 |8-foot chord airfoil with internal gas heating |1 |section | vertical floor to ceiling (turn-table) 
-NACA-TN-2962 | 8-foot chord airfoil with internal gas heating |1 |section | vertical floor to ceiling (turn-table)  
-NACA-RM-E53E07|induction-system air-scoop assembly incorporating a flush alternate inlet | 1 | full | pedestal from floor 
-NACA-RM-E52J31 | radome | 1 | full | pedestal from floor 
-NACA-RM-E53C26 | 82-inch chord swept airfoil with external electric deicers | 1 | section | vertical floor to ceiling (turn-table)
-NACA-RM-E53J30 | 6.9-foot chord swept airfoil with internal heating | 1 | section |  vertical floor to ceiling (turn-table) 
-NACA-RM-E54I03 | swept airfoil | 1 | half | wall turn-table 
-NACA-TN-3338 | 2 and 6 inch diameter cylinders | 1 | end plates | pedestal from ceiling elevator 
-NACA-TN-3564 | 87-inch chord airfoil with pneumatic deicer | 1 | section | vertical floor to ceiling (turn-table) 
-NACA-TN-3839 | several different airfoils | 1 | section | vertical floor to ceiling (turn-table)  
-NACA-RM-E56B23 | 6.9-foot chord swept airfoil with internal heating | 1 | section |  vertical floor to ceiling (turn-table) 
-NACA-RM-E56E11 | different airfoil models | full scale leading edge, aft truncation | section | vertical floor to ceiling (turn-table)  
-NACA-TN-4155 | 6-foot chord airfoil | 1 | section | "cantilevered from the tunnel balance frame by a mounting plate attached to the bottom of the airfoil" 
-NACA-RM-E57G09 | supersonic nose inlet | 1 | full | pedestal from floor  
-NACA-TN-4268 | supersonic nose inlet | 1 | full | pedestal from floor 
+| Publication                               | Test Article                                                              | Scale Ratio                             | Portion      | Mount                                                                                                  |
+|-------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------|--------------|--------------------------------------------------------------------------------------------------------|
+| NACA-RM-E50K10a                           | pneumatic deicer on a 42-inch chord airfoil                               | 1                                       | section      | From ceiling of contraction                                                                            |
+| NACA-TN-1134                              | engine nacelle with carburetor inlet scoop                                | 1                                       | half (upper) | floor                                                                                                  |
+| NACA-TN-1246                              | engine nacelle with cooling fan                                           | 1                                       | full         | pedestal from floor of settling chamber                                                                |
+| NACA-TN-1520                              | modified fuselage with propeller                                          | 1                                       | full         | pedestal mount from floor of settling chamber                                                          |
+| NACA-TN-1691                              | modified fuselage with propeller                                          | 11:15 reduced prop diameter             | full         | pedestal mount from floor of settling chamber                                                          |
+| NACA-TN-1586 NACA-TN-1587 NACA-TN-1588    | modified fuselage with propeller                                          | 1                                       | full         | pedestal mount from floor of settling chamber                                                          |
+| NACA-RM-E8A27 NACA-RM-E8A28 NACA-RM-E8A29 | engine nacelle                                                            | 0.5                                     | full         | pedestal                                                                                               |
+| NACA-RM-E9EO6                             | cascade vanes                                                             | 0.67                                    | 2D section   | pedestal from floor                                                                                    |
+| NACA-RM-E9E12                             | engine nacelle                                                            | 0.67                                    | full         | pedestal from floor                                                                                    |
+| NACA-TN-1789                              | scoop on 8-foot chord airfoil                                             | 1                                       | section      | vertical floor to ceiling                                                                              |
+| NACA-RM-E50I08                            | cascade vanes                                                             | Full                                    | 2D section   | pedestal from floor                                                                                    |
+| NACA-RM-E50E03                            | engine nacelle                                                            | not stated                              | full         | pedestal from floor                                                                                    |
+| NACA-RM-E50H29                            | cascade vanes                                                             | 2:1                                     | 2D section   | pedestal from floor                                                                                    |
+| NACA-TN-2480                              | 8-foot chord airfoil                                                      | 1                                       | section      | vertical floor to ceiling                                                                              |
+| NACA-RM-E51E16                            | NACA pressure-type icing-rate meter and rotating disc instrument          | 1                                       | full         | not stated                                                                                             |
+| NACA-RM-E51B12                            | cascade vanes                                                             | Full                                    | 2D section   | pedestal from floor                                                                                    |
+| NACA-RM-E51J29                            | 8-foot chord airfoil with internal gas heating                            | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E51J30                            | 8-foot chord airfoil with external electric heating                       | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E53C27                            | 8-foot chord airfoil with internal gas heating                            | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-TN-2962                              | 8-foot chord airfoil with internal gas heating                            | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E53E07                            | induction-system air-scoop assembly incorporating a flush alternate inlet | 1                                       | full         | pedestal from floor                                                                                    |
+| NACA-RM-E52J31                            | radome                                                                    | 1                                       | full         | pedestal from floor                                                                                    |
+| NACA-RM-E53C26                            | 82-inch chord swept airfoil with external electric deicers                | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E53J30                            | 6.9-foot chord swept airfoil with internal heating                        | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E54I03                            | swept airfoil                                                             | 1                                       | half         | wall turn-table                                                                                        |
+| NACA-TN-3338                              | 2 and 6 inch diameter cylinders                                           | 1                                       | end plates   | pedestal from ceiling elevator                                                                         |
+| NACA-TN-3564                              | 87-inch chord airfoil with pneumatic deicer                               | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-TN-3839                              | several different airfoils                                                | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E56B23                            | 6.9-foot chord swept airfoil with internal heating                        | 1                                       | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-RM-E56E11                            | different airfoil models                                                  | full scale leading edge, aft truncation | section      | vertical floor to ceiling (turn-table)                                                                 |
+| NACA-TN-4155                              | 6-foot chord airfoil                                                      | 1                                       | section      | "cantilevered from the tunnel balance frame by a mounting plate attached to the bottom of the airfoil" |
+| NACA-RM-E57G09                            | supersonic nose inlet                                                     | 1                                       | full         | pedestal from floor                                                                                    |
+| NACA-TN-4268                              | supersonic nose inlet                                                     | 1                                       | full         | pedestal from floor                                                                                    |
 
-###Other icing wind tunnel tests  
+### Other icing wind tunnel tests  
 
-Publication | Test Article | Scale Ratio | Portion | Mount | Location  
----|---|---|---|---|---
-[NACA-TN-339]({filename}NACA-TN-339.md) | ice prevention coatings on a 3-inch chord airfoil | not stated | section | not stated | Refrigerated Wind Tunnel, Langley, Virginia  
-NACA-TN-712 | anti-icing on a 72-inch chord airfoil | 1 | section | not stated | 7-foot by 10-foot tunnel, Langley, Virginia  
-NACA-TN-2615 | hot wire instrument | 1 | full | not stated | Constructed test facility, Moffett Field, California  
-[NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil | not stated | section | full span wall-to-wall | Transonic tunnel NACA Lewis, Ohio  
+| Publication                               | Test Article                                      | Scale Ratio | Portion | Mount                  | Location                                             |
+|-------------------------------------------|---------------------------------------------------|-------------|---------|------------------------|------------------------------------------------------|
+| [NACA-TN-339]({filename}NACA-TN-339.md)   | ice prevention coatings on a 3-inch chord airfoil | not stated  | section | not stated             | Refrigerated Wind Tunnel, Langley, Virginia          |
+| NACA-TN-712                               | anti-icing on a 72-inch chord airfoil             | 1           | section | not stated             | 7-foot by 10-foot tunnel, Langley, Virginia          |
+| NACA-TN-2615                              | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California |
+| [NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | Transonic tunnel NACA Lewis, Ohio                    |
 
-##References  
+## References  
 
 - von Glahn, Uwe H., and Renner, Clark E.: Development of a Protected Air Scoop for the Reduction of Induction-System Icing. NACA-TN-1134, 1946.  
 - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
@@ -168,15 +174,13 @@ NACA-TN-2615 | hot wire instrument | 1 | full | not stated | Constructed test fa
 - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
-##Related  
+## Related  
 
 The icing water spray calibration of the IRT will be discussed in the next post 
 in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md).  
 
-##Notes  
+## Notes  
 
-[^1]: All of the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
+[^1]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
 [^2]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
-
-Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests: on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.
