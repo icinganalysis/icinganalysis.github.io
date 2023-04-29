@@ -43,7 +43,7 @@ Example: An online search (scholar.google.com) found 15 citations for NACA-TN-17
 
 Some posts may merit more details.  
 
-### Related
+## Related
 
 Something related.  
 
