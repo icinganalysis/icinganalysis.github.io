@@ -9,7 +9,7 @@ tags: cylinder, natural icing, meteorology
 as compared with Weather Bureau scale of icing intensity. 
 This is a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight measurement values](images/naca-tn-1393/Figure%205.png)  
+as well as several flight measurement values](/images/naca-tn-1393/Figure%205.png)  
 
 # “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
 [^1]
@@ -100,7 +100,7 @@ calculated a best fit assuming a Langmuir C distribution.
 This may or may not be what NACA-TN-1393 actually did. 
 The results are shown below:
 
-![Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution](images/naca-tn-1393/naca_tn_1393_error_assuming_c.png)
+![Median Effective Drop Diameter vs. LWC assuming a Langmuir C distribution](/images/naca-tn-1393/naca_tn_1393_error_assuming_c.png)
 
 If the distribution was actually a Langmuir E, but we assumed a Langmuir C, 
 the difference in calculated mean effective drop diameter is 7%.
@@ -136,7 +136,7 @@ The icing intensity definitions and cylinder water catch calculations from [^2] 
 as compared with Weather Bureau scale of icing intensity. 
 This is a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown, 
-as well as several flight measurement values](images/naca-tn-1393/Figure%205.png)  
+as well as several flight measurement values](/images/naca-tn-1393/Figure%205.png)  
 
 ### The effect of temperature  
 
@@ -153,7 +153,7 @@ Proposals to define this relationship have been given in references
 6 and 14, and are reproduced in figure 8.  
 
 ![Figure 8. Liquid water content as a function of free air temperature. 
-Rotating cyclinder measurements. ](images%2Fnaca-tn-1393%2FFigure%208.png)  
+Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
 Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
 Reference 14 is Rodert [^6].  
 
@@ -162,7 +162,7 @@ Reference 14 is Rodert [^6].
 When I overlaid calculations with the implementation of the cylinder impingement calculations [^5] 
 the results agreed quite well (the underlying pdf image of Figure 5 is slightly distorted). 
 
-![Comparison of Figure 5 to results from the Python tool](images/naca-tn-1393/compare.png)
+![Comparison of Figure 5 to results from the Python tool](/images/naca-tn-1393/compare.png)
 
 The code used to make the figure is available in the file "naca-tn-1393.py" [^7].
 
@@ -179,7 +179,7 @@ At the volume median drop diameter the vertical line jumps from 35 to 65 "percen
 Percent of water in drops smaller than d.
 An "observed distribution" line from "reference 8" forms an increasing "S" curve.
 A Langmuir "B" distribution approximates the observed distribution,
-while a Langmuir "E" distriubtion is notable wider.](images/naca-tn-1393/distributions.png)
+while a Langmuir "E" distriubtion is notable wider.](/images/naca-tn-1393/distributions.png)
 
 ### "Tentative" Design Values
 
@@ -220,13 +220,13 @@ The rationale for the stratus values is explained:
 > The values chosen were 20° F and 15 microns.
 
 For Figure 13 the argument appears to be reasonable:  
-![fig 13 interpretation.](images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
+![fig 13 interpretation.](/images%2Fnaca-tn-1393%2Ffig%2013%20interpretation.png)  
 
 However, for Figure 5 the choice is not as clear:  
-![fig 5 interpretation](images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
+![fig 5 interpretation](/images%2Fnaca-tn-1393%2Ffig%205%20interpretation.png)  
 
 Also for Figure 8 the logic is not obvious:  
-![fig 8 interpretation.png](images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)
+![fig 8 interpretation.png](/images%2Fnaca-tn-1393%2Ffig%208%20interpretation.png)
 
 ### Distance effect  
 
@@ -247,7 +247,7 @@ There is an "estimated probable maximum conditions" line
 from 2.8 g/m^3 at 0.7 minutes to 0.38 g/m^3 at 150 minutes.
 There are several "observed values" data points below the line.
 The airspeed in noted as 150 miles per hour.
-](images/naca-tn-1393/Distance%20effect.png)
+](/images/naca-tn-1393/Distance%20effect.png)
 
 ## Citations
 
