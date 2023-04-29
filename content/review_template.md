@@ -1,7 +1,7 @@
 Title: __a_unique_title_that_gets_slugified__  
 Category: __as_applicalble__    
 tags: __at_least_one_about_as_default__  
-status: draft
+status: draft  
 
 ### _"quote from publication"_  
 
