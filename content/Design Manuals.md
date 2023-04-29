@@ -89,9 +89,9 @@ When ice is forming the value of more nearly with the 0.2 power of velocity.
 b changes due to the effect of the distortion of the streamlines. Both the
 water catch and unit thermal conductance will thus be changed in an unpredictable fashion.
 
-![Figure V-10.png](images%2FModern%20Icing%20Technology%2FFigure%20V-10.png)
+![Figure V-10. ](images%2FModern%20Icing%20Technology%2FFigure%20V-10.png)
 
-![Figure V-11.png](images%2FModern%20Icing%20Technology%2FFigure%20V-11.png)  
+![Figure V-11. ](images%2FModern%20Icing%20Technology%2FFigure%20V-11.png)  
 _[The figure appears to be cut off like this in the print copy.]_  
 
 ## Airplane Icing Information Course [^3]  

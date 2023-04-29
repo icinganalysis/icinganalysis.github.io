@@ -2,7 +2,7 @@ Title: Windshield Ice Protection
 Date: 2023-03-06 12:00  
 tags: ice protection   
 
-_"... ice on the airplane windshield, which is known to be a problem in urgent need of solution."_  
+### _"... ice on the airplane windshield, which is known to be a problem in urgent need of solution."_  
 
 ![Figure 14. Sketch based on photographs and flight engineer's notes
 of ice accretions on nose and windshields of C-46 airplane after

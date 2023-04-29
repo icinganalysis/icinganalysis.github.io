@@ -2,23 +2,23 @@ title: Freezing Point Depressant Fluids
 Date: 2023-02-26 12:00  
 tags: ice protection   
 
-_"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_ [^1]  
+### _"Alcohol as a means of protection against ice formation on propeller blades is widely used by commercial air lines on transport airplanes."_ [^1]  
 
 ![Figure 2. A typical propeller alcohol-discharge-nozzle
 installation.](images/NACA-RB-4F06/Figure 2.png)  
 _Figure 2 from NACA-RB-4F06._  
 
-##Summary  
+## Summary  
 
 Freezing point depressant fluids were used widely in the NACA-era.  
 
-#Key points  
+## Key points  
 
 1. The use of freezing point depressant fluids were not pioneered by NACA, NACA studied improvements.  
 2. Analysis methods were developed in the NACA-era.  
 3. Freezing point depressant fluids are still used today.  
 
-##Discussion  
+## Discussion  
 
 This is a technology that was not invented by NACA. 
 NACA studies sought to improve the use of freezing point depressant fluids. 
@@ -33,13 +33,13 @@ In the NACA-era, alcohols were the most widely used.
 Today, for aircraft deicing on the ground, glycols are widely used. 
 (However, we will not detail ground deicing herein.)  
 
-We already saw some of the uses of alcohol as a deicing and ice prevention fluid in 
+We already saw some uses of alcohol as a deicing and ice prevention fluid in 
 [Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md). 
 
 Here, we will detail a study of improving propeller deicing, 
 and a study of calculations to determine how much fluid is required. 
 
-##"An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06 [^1]  
+## "An Investigation of the Characteristics of a Propeller Alcohol Feed Ring", NACA-RB-4F06 [^1]  
 
 By 1941, NACA had airplanes with robust ice protection 
 (see ["Engine Exhaust Heat"]({filename}engine exhaust heat.md)), 
@@ -180,7 +180,7 @@ in 100 hours of flight service.
 >3. The manufacturer's recommendations for
 installation of the feed rings were satisfactory.  
 
-##"Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation", NACA-ARR-5G13 [^2]  
+## "Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation", NACA-ARR-5G13 [^2]  
 
 We saw the calculations wet surface temperatures in the review in the Thermodynamics Thread, 
 [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md).  
@@ -253,7 +253,7 @@ molecular weight as ethyl alcohol is 92 grams per liter of water.
 The excess of ethyl alcohol required to neutralize the refrigerating effect 
 produce by its evaporation, therefore, is 35 percent.  
 
-##See also  
+## See also  
 
 - Smith, E. L.: "The Design of Fluid Anti-Icing Systems". Engine Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 11, University of Michigan Airplane Icing Information Course, 1953.  (32 pages) (includes errata sheet)  
 - Smith, E. L.: "The design of fluid anti-icing systems". National Aeronautical Establishment (Canada) LR-64, 1953. [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=f64c5521-eb28-4569-9ff6-32b038394078)    
@@ -276,20 +276,20 @@ An airplane with a central supply tank and pump feed pipe to wing and empannage 
 There is a control switch in the fight deck.](images/ads4/Figure 3_10.png)  
 _Figure 3-10 from ADS-4._  
 
-##Conclusions  
+## Conclusions  
 
 Freezing point depressant fluids are still used on airplanes today. 
 For the larger jet transports, the use is not common. 
 ADS-4 goes into some of the advantages and disadvantages of 
 fluids versus other protection methods. 
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found citations for   
 NACA-RB-4F06 zero times, and  
 NACA-ARR-5G13 18 times.  
 
-##Notes  
+## Notes  
 
 [^1]: Neel, Carr B: An Investigation of the Characteristics of a Propeller Alcohol Feed Ring. NACA-RB-4F06, NACA-WR-A-50, June, 1941.  
 [^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  

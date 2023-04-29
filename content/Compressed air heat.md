@@ -2,7 +2,7 @@ title: Compressed Air Heat
 Date: 2023-02-13 12:00  
 tags: ice protection  
 
-###_"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_ [^1]  
+### _"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_ [^1]  
 
 ![A jet transport airplane. 
 There are many windows in the passenger cabin, implying may rows of seats. 
@@ -14,11 +14,11 @@ Gross weight, 125,000 pounds; wing span, 158 feet; wing section, NACA 651-212;
 wing taper, 4:1; cruising speed, 500 miles per hour.](images/NACA-TN-2866/Figure 1.png)  
 _From NACA-TN-2866._  
 
-##Summary  
+## Summary  
 
 Compressed air heating becomes common for ice protection in the jet era.  
 
-##Key points  
+## Key points  
 
 1. To support jet engine powered transportation, NACA had several studies of ice protection using compressed air heating.  
 2. Deicing schemes were proposed to reduce the amount of air bled from the engines.  
@@ -26,7 +26,7 @@ Compressed air heating becomes common for ice protection in the jet era.
 recirculating hot air supply, did not see much use.  
 4. Compressed air heating is used widely today for jet powered transports.  
 
-##Discussion  
+## Discussion  
 
 As aviation entered the jet propulsion age, 
 reciprocating-engine exhaust heat was not an option. 
@@ -38,7 +38,7 @@ for ice protection, cabin heating, and other functions.
 Several NACA studies considered using compressed air heating in a 
 deicing mode, rather than anti-icing. 
 
-##NACA-RM-E51J29 [^1]  
+## NACA-RM-E51J29 [^1]  
 
 >INTRODUCTION
 The protection of wings and tail surfaces for high-speed, high-altitude 
@@ -151,7 +151,8 @@ is 3 feet in span and contains most of the instrumentation while the top
 and bottom segments are each 1.5 feet in span. All segments are capable
 of being heated independently for cyclical ice removal.  
 
-![Figure 2.](images/NACA-RM-E51J29/Figure 2.png)  
+![Figure 2. Installation of airfoil model in 6- by 9-foot test section  
+of icing research tunnel.](images/NACA-RM-E51J29/Figure 2.png)  
 
 >The over-all performance of the system for the design condition was
 found to be satisfactory at a gas flow of 800 pounds per hour, a heat-on
@@ -168,7 +169,12 @@ the plenum chamber partition, runback rivulets occasionally froze and
 remained for two or three cycles before the larger accretions were
 removed.
 
-![Figure 3](images/NACA-RM-E51J29/Figure 3.png)  
+![Figure 3. Characteristic ice formations on airfoil leading edge for design operating and 
+icing conditions. Air speed, 280 miles per hour; datum air temperature, 
+-4 F; liquid-water content, 0.6 gram per cubic meter; angle of attack, 
+5 degrees; gas flow, 794 pounds per 
+hour; supply-duct-inlet gas temperature, 500 F; heat-on period, 15 seconds; heat-off 
+period, 260 seconds; total icing time, 30 minutes.](images/NACA-RM-E51J29/Figure 3.png)  
 
 >SUMMARY OF RESULTS  
 The preliminary results obtained in an investigation of cyclical
@@ -194,7 +200,7 @@ Runback and residual ice are limitations of any deicing system.
 If your application has strict limits on runback and residual ice, 
 you might require anti-icing rather than deicing.  
 
-##NACA-TN-2866 [^3]  
+## NACA-TN-2866 [^3]  
 
 >SUMMARY  
 The problems associated with providing icing protection for the
@@ -355,7 +361,7 @@ but let us call this an order of magnitude estimate.]
 It is clear that there was still much technical was development needed to achieve 
 practical compressor bleed air heating for ice protection.  
 
-##Other studies  
+## Other studies  
 
 Several preliminary studies on propeller ice protection are not detailed herein. 
 Largely, the findings were incorporated into the later works reviewed here.  
@@ -380,7 +386,7 @@ The title is pretty descriptive.
 This describes some of the considerations for getting a heat supply 
 to a moving surface, like a leading edge slat. 
 
-##Conclusions  
+## Conclusions  
 
 Compressed air heating did see use in the NACA-era. 
 Two commercial jet transports introduced near the end of the NACA-era, 
@@ -419,14 +425,14 @@ higher than nominal idle setting in icing conditions
 However, there are limits as to how much thrust can be boosted 
 (one still has to be able to land the airplane). 
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found citations for  
 NACA-RM-E51J29 18 times,  
 NACA-TN-2886 19 times, and  
 "Modern Icing Technology" one time.     
 
-##Notes
+## Notes
 
 [^1]: Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952.  
 [^2]: Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.   

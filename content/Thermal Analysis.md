@@ -120,9 +120,11 @@ that employed in the flight investigations. The heated length of the
 test strip extended to 55 percent of the chord length on the left side
 of the airfoil and to 17 percent of the chord length on the right side.
 
-![Figure 1.png](images%2Fnaca-tn-2480%2FFigure%201.png)  
+![Figure 1. Installation of NACA 65,2-016 electrically heated airfoil model in test section 
+of icing-tunnel.](images%2Fnaca-tn-2480%2FFigure%201.png)  
 
-![Figure 2.png](images%2Fnaca-tn-2480%2FFigure%202.png)  
+![Figure 2. Schematic diagram showing construction details of test 
+section of NACA 65,2-016 electrically heated airfoil model.](images%2Fnaca-tn-2480%2FFigure%202.png)  
 
 >Simulated icing conditions were obtained in the test section of
 the tunnel by introducing liquid water into the air stream from eight
@@ -142,7 +144,8 @@ given in table I and defined in reference 4 are arbitrary
 size-frequency distributions based on measurements in natural icing
 with the A distribution denoting droplets of a single size.
 
-![Figure 3.png](images%2Fnaca-tn-2480%2FFigure%203.png)  
+![Figure 3. Water spray system and airfoil model installed in icing-tunnel. 
+Spray system, 48 feet upstream of model.](images%2Fnaca-tn-2480%2FFigure%203.png)  
 
 The spray system was removed for some runs, 
 apparently to reduce free stream turbulence
@@ -161,7 +164,9 @@ Reference 4 is Clark [^4]. As we saw in
 this means that slightly different definitions for the droplet-size distributions 
 were used than the now more familiar Langmuir distributions.  
 
-![Figure 4.png](images%2Fnaca-tn-2480%2FFigure%204.png)  
+![Figure 4. Velocity distribution over NACA 65,2-016 electrically heated airfoil 
+model. Angle of attack, 0°; average Reynolds number N_Re 12x10^6
+](images%2Fnaca-tn-2480%2FFigure%204.png)  
 
 >Surface-Datum Temperature  
 For the flight tests, the experimental surface-datum temperatures
@@ -180,7 +185,10 @@ temperatures were calculated by deducting the temperature depression
 caused by evaporation from an average of the measured clear-air surface-datum 
 temperatures.
 
-![Figure 5.png](images%2Fnaca-tn-2480%2FFigure%205.png)  
+![Figure 5. Comparison of measured with calculated surface-datum temperatures for 
+conditions 10'. Icing tunnel clear-air investigation, spray system 48 feet upstream 
+of NACA 65,2-016 electrically heated airfoil model. Free-stream temperature, 12 F.
+](images%2Fnaca-tn-2480%2FFigure%205.png)  
 
 >Impingement and Evaporation
 Records of the impingement and the water flow over the airfoil
@@ -197,7 +205,9 @@ of impingement were calculated for each condition by use of the water-droplet
 trajectories for a symmetrical, 12-percent-thick Joukowaki
 airfoil. The results of these calculations are given in table II.
 
-![Figure 6.png](images%2Fnaca-tn-2480%2FFigure%206.png)  
+![Figure 6. Typical records of water-droplet impingement and runback on NACA 
+65,2-016 airfoil model in flight and in icing-tunnel.
+](images%2Fnaca-tn-2480%2FFigure%206.png)  
 
 Figure 6 is similar to Figure 15, which we saw earlier 
 in the review of [NACA-TN-1472]({filename}NACA-TN-1472.md).  
@@ -229,7 +239,9 @@ this runback area. The calculated rates of evaporation and the limits
 of runback for each of the flight and the tunnel icing conditions are
 presented in table II.  
 
-![NACA-TN-2480Figure7.png](images%2Fnaca-tn-2480%2FNACA-TN-2480Figure7.png)  
+![NACA-TN-2480 Figure7. Measured percentage of surface area wetted in runback 
+region for three flight and one icing tunnel investigation on NACA 65,2-016 
+airfoil model.](images%2Fnaca-tn-2480%2FNACA-TN-2480Figure7.png)  
 
 >Effect of Tunnel and Spray System in Clear Air  
 The initial heat-transfer measurements in the icing tunnel were
@@ -246,7 +258,9 @@ effect on the location of the minimum convective heat-transfer coefficient,
 which remained at about 8-percent chord, whereas the location
 of the maximum coefficient moved forward from approximately 28- to 24-percent chord.
 
-![Figure 8.png](images%2Fnaca-tn-2480%2FFigure%208.png)  
+![Figure 8. Thermal data obtained in clear air in tunnel. Tunnel heating 
+distribution on NACA 65,2-016 electrically heated airfoil model; spray 
+system removed from tunnel.](images%2Fnaca-tn-2480%2FFigure%208.png)  
 
 >Additional Tunnel Results  
 In addition to the tunnel investigation in which the flight heat
@@ -269,7 +283,10 @@ of the ice formation follows the slope of the theoretical turbulent
 curve from equation (12), but is approximately 18 percent higher
 than the curve obtained in clear air at the same condition.
 
-![Figure 15.png](images%2Fnaca-tn-2480%2FFigure%2015.png)  
+![Figure 15. Thermal data obtained in icing in icing-tunnel. Tunnel heating 
+distribution resulting in uniform surface surface tempeatures in clear air; 
+spary system 48 feet upstream of NACA 65,2-016 electrically heated airfoil model; 
+condition 11'.](images%2Fnaca-tn-2480%2FFigure%2015.png)  
 
 >A comparison of the tunnel results for conditions 10, 10', 11,
 and 11' for both clear air and icing is presented in figure 18. The
@@ -280,7 +297,10 @@ experimental turbulent values agree with each other within approximately
 15 percent, but average about 30 percent larger than the theoretical 
 values from equation (12).
 
-![Figure 18.png](images%2Fnaca-tn-2480%2FFigure%2018.png)  
+![Figure 18. Comparison of heat-transfer characteristics in icing-research tunnel.
+Tunnel heating distribuions resulting in uniform surface temperatures in icing 
+and in clear air with corresponding nonuniform surface temperatures in clear air 
+and in icing. Conditions 10, 10', 11, and 11'.](images%2Fnaca-tn-2480%2FFigure%2018.png)  
 
 >Comparison of Tunnel and Flight Results  
 A comparison of the tunnel and flight results is shown in figure 19 
@@ -302,7 +322,11 @@ conditions (figs. 14(a) and 12(c)) show a scatter of approximately
 agree within 10 percent except for the large peaks caused by the discontinuity 
 of the heat distribution. 
 
-![Figure 19.png](images%2Fnaca-tn-2480%2FFigure%2019.png)  
+![Figure 19. Comparison of heat-transfer characteristics obtained in flight and 
+in icing-research tunnel. Nonuniform surface temperatures, similar chordwise 
+heating distribution, true airspeed, and free-stream temperature; NACA 
+65,2-016 electrically heated airfoil model; conditions 1 and 8.
+](images%2Fnaca-tn-2480%2FFigure%2019.png)  
 
 >SUMMARY OF RESULTS
 The results of the investigation of heat transfer from an airfoil

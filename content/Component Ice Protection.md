@@ -2,7 +2,7 @@ title: Component Icing
 Date: 2023-03-13 12:00  
 tags: ice protection  
 
-_"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
+### _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
 
 ![Figure 1. Typical fuel-vent configuration mounted on NACA 65,2-216 airfoil section in
 test section of icing research tunnel.
@@ -370,7 +370,8 @@ It is up to you to show on your aircraft that they are not a problem.
 And I know that "discoveries" are still sometimes made about the 
 adequacy of components for a particular aircraft on icing flight tests. 
 
-![Figure 2-1.](images%2FFAA%20Handbook%20volume%202%2FFigure%202-1.png)
+![Figure 2-1. Areas of airframe that may require ice protection.
+](images%2FFAA%20Handbook%20volume%202%2FFigure%202-1.png)
 _From Aircraft Icing Handbook, Volume 2 [^4]_  
 
 ## See also  

@@ -36,7 +36,7 @@ as on a bare rubber surface residual ice can persist and grow between deicing cy
 While the initial implementation of this method of ice protection showed promise, 
 an accident in 1937 attributed to icing in flight prompted a call for improvements. 
 
-##Notes on spelling  
+## Notes on spelling  
 
 NACA-era sources tend to use the spelling "de-ice" or "de-icer", 
 while more recently "deice" or "deicer" tends to be used. 
@@ -52,7 +52,7 @@ This explains why the article "an" is used, as in "an NACA 0011 airfoil".
 However, my aerospace colleagues in the late 1980s, 
 including the senior ones, pronounced NACA as a word. 
 
-##NACA-TN-339 "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation" [^1]
+## NACA-TN-339 "Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation" [^1]
 
 NACA had researched several coatings that can reduce ice adhesion, 
 compared to bare rubber or metal
@@ -76,9 +76,10 @@ compared to bare rubber or metal
 However, none of the materials tested lowered ice adhesion enough to shed by 
 aerodynamic forces alone. 
 
-![Figure 7](images/naca-tn-339/Figure 7.png)  
+![Figure 7. Test on heavy oil coating. Heavy spray. Temperature 
+-1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
 
-##NACA-TN-723 "Adhesion of Ice in Its Relation to the De-icing of Airplanes" [^2]  
+## NACA-TN-723 "Adhesion of Ice in Its Relation to the De-icing of Airplanes" [^2]  
 
 >The various possible means of preventing ice adhesion
 on airplane surfaces are critically reviewed.
@@ -129,7 +130,7 @@ as possible.
 This reflects a major NACA effort for the next several years, 
 to develop thermal ice protection systems and conduct full scale flight tests.
 
-##NACA-ACR-A-53 [^3]  
+## NACA-ACR-A-53 [^3]  
 
 A Lockheed 12A was modified by NACA for flight in icing. 
 This included a pneumatic boot on the horizontal stabilizer. 
@@ -159,7 +160,7 @@ stabilizer leading edge throughout the flight.](images/NACA-ACR-A-53/Figure 26.p
 
 We will see more of NACA-ACR-A-53 in a future post on engine-exhaust heating.  
 
-###NACA-RM-E50K10a "Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System" [^4]  
+### NACA-RM-E50K10a "Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System" [^4]  
 
 >Icing and drag investigations were conducted in the NACA Lewis
 icing research tunnel employing a combination thermal-pneumatic de-icer
@@ -170,7 +171,8 @@ aft of the heated area. The entire de-icer extended to approximately
 25 percent of chord.
 ...
 
-![Figure 2](images/NACA-RM-E50K10A/Figure 2.png)  
+![Figure 2. Construction and installation details of thermal-pneumatic 
+de-icer mounted on 42-inch-chord NACA 0018 airfoil.](images/NACA-RM-E50K10A/Figure 2.png)  
 
 >SUMMARY OF RESULTS  
 The following results were obtained from an icing investigation
@@ -195,9 +197,9 @@ I am not aware of this combined system being widely used.
 
 [We may look more at the electro-thermal aspects in a future post.]
 
-##Loughborough "Physics of mechanical removal of ice from aircraft"  
+## Loughborough "Physics of mechanical removal of ice from aircraft"  
 
-Loughborough [^5] [^6] detailed some of the mathematics of ice adhesion and ice shedding from a boot. 
+Loughborough [^5] [^6] detailed some mathematics of ice adhesion and ice shedding from a boot. 
 
 Ice shedding was found to be aided by applying silicone oil to the surface. 
 However, effectiveness dropped off quickly after about 20 deicing cycles.  
@@ -280,7 +282,7 @@ local air velocity over the bare airfoil.
 Also note that the author Bowden is also an author of the later 
 ADS-4 [^8].
   
-##ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^8]  
+## ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^8]  
 
 [ADS-4]({filename}ads4.md) 
 was review previously in the [Thermodynamics Thread]({filename}thermodynamics.md).  

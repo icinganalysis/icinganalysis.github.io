@@ -134,7 +134,7 @@ _"An aircraft engineer can use this report to design adequate ice protection sys
 
 _"The optimum icing protection system for ... any particular aircraft cannot be generally specified; the choice of the optimum system is dependent upon the specific characteristics of the airplane and engine, the flight plan, the probable icing conditions, and the performance requirements of the aircraft."_  
 
-- There are many viable ice protection technologies and strategies to choose from.  
+- There are many, viable ice protection technologies and strategies to choose from.  
 
 ## Related  
 

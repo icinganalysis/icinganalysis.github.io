@@ -2,23 +2,23 @@ Title: Combustion heated air and heat transfer coefficients
 Date: 2023-02-20 12:00  
 tags: ice protection  
 
-###_"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
+### _"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
 ![Figure 2 of NACA-ARR-A506](images/NACA-ARR-A506/Figure 2.png)  
 _Figure 2 of NACA-ARR-A506_  
 
-##Summary  
+## Summary  
 
 Combustion heated air, independent of the engines, was used on some aircraft.  
 
-##Key Points  
+## Key Points  
 
 1. Combustion heaters were developed independently of NACA.  
 2. 38 NACA publications detail technical aspects of aircraft heaters, 
 including many details on heat exchangers, maturing engineering designs.  
 3. Three publications deal with heat transfer for ice protection.  
 
-##Discussion  
+## Discussion  
 
 There were numerous NACA publications on aircraft heaters. 
 For the combustion heaters, air was scooped in, 
@@ -50,7 +50,7 @@ some pertain directly to ice protection:
 These three publications detail aspects of heat transfer 
 that are important to the analysis and design of heated ice protection systems. 
 
-##NACA-WR-W-14 [^1]  
+## NACA-WR-W-14 [^1]  
 
 >SUMMARY  
 >
@@ -155,7 +155,7 @@ airfoil can be obtained from static-pressure
 measurements or, if these data are not available,
 can be estimated from an equation given herein.  
 
-##NACA-TN-1453 [^2]  
+## NACA-TN-1453 [^2]  
 
 >SUMMARY  
 A critical comparison and summary is given of the various methods
@@ -205,7 +205,7 @@ There are numerous pages detailing the boundary layer theories used.
 However, in the end, there is little data to select one method over another, 
 as they yield similar results. 
 
-##NACA-TN-2524 [^3]  
+## NACA-TN-2524 [^3]  
 
 This provides detailed data for use if one wishes to analyze and 
 design double skin passages.  
@@ -263,7 +263,7 @@ various types of entrance (such as are used in actual systems) on the
 heat-transfer and pressure-drop characteristics of the double-skin
 passages.  
 
-##Conclusions  
+## Conclusions  
 
 These publications mark some of the maturation of ice protect 
 from being largely empirical to an engineering discipline 
@@ -287,7 +287,7 @@ and founding Dean of its UCLA Henry Samueli School of Engineering and Applied Sc
 He is also known for the Dittus-Boelter equation. In 1957 he was awarded the ASME Medal. 
 [wikipedia](https://en.wikipedia.org/wiki/Llewellyn_M._K._Boelter)  
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found citations for  
 NACA-WR-W-14 8 times,  
@@ -300,7 +300,7 @@ are cited thousands of times.
 This may be part of the reason these NACA publications are not cited often, 
 as there were many other Boelter publications on heat transfer to cite. 
 
-##Notes  
+## Notes  
 
 [^1]: Martinelli, R. C., Guibert, A. G., Morrin. E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
 [^2]: Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, 1948.  

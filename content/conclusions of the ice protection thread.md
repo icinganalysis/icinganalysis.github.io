@@ -161,8 +161,9 @@ constraint being adequate power available. After the totally integrated system i
 such as cost, weight, reliability, and environmental impact should be considered or reconsidered. It is
 quite possible that any one of these may force a redesign of some of the component systems.  
 
-![Figure 6-1a.png](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1a.png)  
-![Figure 6-1b.png](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1b.png)  
+![Figure 6-1a. System selection flow diagram.
+](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1a.png)  
+![Figure 6-1b. System selection flow diagram (continued).](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1b.png)  
 >...  
 >III.6.4 WEIGHT, ENERGY, AND POWER COMPARISONS  
 Weight, energy and power requirement comparisons for ice protection system on four typical
@@ -172,13 +173,18 @@ For brevity, we will look at the large transport aircraft only
 (there are also figures for small single engine aircraft, 
 small twin engine aircraft, business jet, and rotorcraft).  
 > 
-![Figure 6-5.png](images%2FFAA%20Handbook%20volume%202%2FFigure%206-5.png)  
+![Figure 6-5. Typical jet transport.
+](images%2FFAA%20Handbook%20volume%202%2FFigure%206-5.png)  
 
-![Table 6-7.png](images%2FFAA%20Handbook%20volume%202%2FTable%206-7.png)  
+![Table 6-7. Aircraft Ice Protection System Attributes 
+FAR 25 Large Transport Category Aircraft (250 Passengers)](images%2FFAA%20Handbook%20volume%202%2FTable%206-7.png)  
 
-![Table 6-8 rotated.png](images%2FFAA%20Handbook%20volume%202%2FTable%206-8%20rotated.png)  
+![Table 6-8. Weight Summary - Wing and Tail Systems 
+FAR 25 Large Transport Category Aircraft (250 Passengers)
+](images%2FFAA%20Handbook%20volume%202%2FTable%206-8%20rotated.png)  
 
-![Table 6-9.png](images%2FFAA%20Handbook%20volume%202%2FTable%206-9.png)  
+![Table 6-9. Advantages and Disadvantages of Ice Protection Systems.
+](images%2FFAA%20Handbook%20volume%202%2FTable%206-9.png)  
 
 Looking at Table 6-8, the electrothermal de-icing system is the lightest. 
 However, in Table 6-9, note the asterisk (*) for electrotheral (deicing).  

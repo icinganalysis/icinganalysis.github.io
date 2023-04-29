@@ -2,7 +2,7 @@ title: Carburetor and Induction Systems
 Date: 2023-02-02 12:00  
 tags: ice protection  
 
-###_"A demon was operating the throttle." S. W. Sparrow, 1920. [^1]_  
+### _"A demon was operating the throttle." S. W. Sparrow, 1920. [^1]_  
 
 ![Figure 3. 
 Schematic diagram of throttle and throttle barrel showing air-flow patterns 
@@ -15,12 +15,12 @@ partially obstructing the airflow.
 ](images/NACA-TR-982/Figure 3.png)  
 _From NACA-TR-982._
 
-##Summary  
+## Summary  
 
 Carburetor icing has been a known hazard for over 100 years, and
 many protection strategies were studied in the NACA-era.  
 
-##Key Points  
+## Key Points  
 
 1. Carburetor icing has been a known hazard for over 100 years.  
 2. Part of the hazard can occur in clear air (throttling icing and fuel-evaporation icing).  
@@ -28,7 +28,7 @@ many protection strategies were studied in the NACA-era.
 4. Numerous tests and studies were conducted in the NACA-era.  
 5. Many aircraft today have carburetor protection similar to that developed in the NACA-era.  
 
-##Discussion  
+## Discussion  
 
 The spark ignition, Otto cycle engines 
 commonly used on airplanes in the NACA-era 
@@ -101,7 +101,7 @@ The aim is to call attention to a 'disease' to which aviation engines are subjec
 to describe its symptoms, and to emphasize its seriousness. 
 Methods of prevention or cure can be consigned with safety to those vitally concerned.  
 
-##NACA induction-system icing program, 1941  
+## NACA induction-system icing program, 1941  
 
 _"The NACA induction-system icing program at the National Bureau of Standards was initiated in January 1941. The project is financed jointly by the Army, the Navy, and the National Advisory Committee for Aeronautics."_ [^2]  
 
@@ -123,7 +123,7 @@ Many are not included in [The Historical Selected Bibliography of NACA-NASA Icin
 
 I will briefly review selected publications.  
 
-##The Icing Problem in Aircraft Induction Systems [^2]  
+## The Icing Problem in Aircraft Induction Systems [^2]  
 
 >Heat and alcohol are the most common de-icing mediums, 
 but they offer the disadvantages of loss in power and increased weight. 
@@ -145,7 +145,7 @@ the faster the rate of ice accretion for a given rate of ingestion.
 and small droplet size.  
 >
 
-##"De-Icing of an Aircraft Engine Induction System", NACA-ARR-3H13, 1943. [^4]  
+## "De-Icing of an Aircraft Engine Induction System", NACA-ARR-3H13, 1943. [^4]  
 
 This investigated fluid de-icing and hot air de-icing. 
 Fluids included "Sclox D-I, isopropyl alcohol,
@@ -303,14 +303,14 @@ Configuration E can be protected if an 60 F air temperature is maintained,
 while the other configurations require only a 40 F air temperature.
 ](images/NACA-TR-982/Figure 18.png)  
 
-##Conclusions  
+## Conclusions  
 
 Carburetor icing remains a potential hazard for aviation. 
 Many aircraft that are not intended for flight in icing conditions 
 have carburetor heating to protected against icing in clear air conditions 
 (throttling ice and fuel-evaporation ice).  
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found  
 no citations for "Icing Problems in Aircraft Induction Systems", 
@@ -321,7 +321,7 @@ and 10 citations of NACA-TR-982.
 I view "Icing Problems in Aircraft Induction Systems" and 
 NACA-TN-55 as under-appreciated, "almost lost gems" of the NACA-era.  
 
-##Notes  
+## Notes  
 
 [^1]: Attributed to S. W. Sparrow in 
 "Icing Problems in Aircraft Induction Systems" [^2]. 

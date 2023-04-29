@@ -2,7 +2,7 @@ title: Electrothermal Ice Protection
 Date: 2023-02-20 12:00  
 tags: ice protection  
 
-###_"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_ [^1]   
+### _"... the power required for ice prevention may be excessive for certain applications, although sufficient power for some degree of ice removal may be provided readily."_ [^1]   
 
 ![Figure 12 from NACA-ARR-4A20. Ice formations on the thermal-electric de-icing
 blade shoes installed on a propeller of the XB-17F airplane.
@@ -19,11 +19,11 @@ Unit power to shoe leading edge: 0.79 watts/ sq in.
 ](images/NACA-ARR-4A20/Figure 12.png)  
 _Figure 12 of NACA-ARR-4A20._  
 
-##Summary  
+## Summary  
 
 Electrothermal deicing is studied in the NACA-era.  
 
-##Key Points  
+## Key Points  
 
 1. The power levels required for continuous anti-ice are challenging, so deicing was persued.  
 2. Runback ice and residual ice are challenges for deicing.  
@@ -31,7 +31,7 @@ Electrothermal deicing is studied in the NACA-era.
 4. A chordwise-sequenced zone heating ice shedding strategy was devised.  
 5. The current 787 jet aircraft uses electrothermal heating for wing anti-icing and de-icing.  
 
-##Discussion  
+## Discussion  
 
 The electric powered deicing of propeller blades, 
 as well as wing leading edges, 
@@ -81,7 +81,7 @@ blade shank slip-ring assemblies, and the heated blade shoes
 >In the second set of blade
 shoes manufactured by the Goodrich company, designated as
 shoe type 2, the radial heat distribution was uniform,
-but in the chordwise direction the he at was concentrated
+but in the chordwise direction the heat was concentrated
 over tha leading-edge region (approximately the forward 7
 percnt of the blade chord) of the blade-shoe area.
 This heat distribution was obtained by a change in thickness
@@ -166,7 +166,7 @@ and 90 percent of the blade radius.
 heating supplied to the leading-edge 7-percent chord is
 twice that supplied to the remainder of the blade-shoe area.
 
-##"An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe", NACA-TN-2852 [^3]  
+## "An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe", NACA-TN-2852 [^3]  
 
 >SUMMARY  
 A study has been made of the heat requirement for the cyclic de-icing
@@ -443,7 +443,7 @@ formation while waiting for the last attached areas to melt and shed.
 Ice can be surprisingly strong, with even "thin" ice able to bridge 
 apparently widely spaced contact adhesion points. 
 
-##"De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding", NACA-RM-E53C26 [^6]    
+## "De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding", NACA-RM-E53C26 [^6]    
 
 >Whereas previous NACA investigations of cyclic de-icing have all
 employed, models using the principle of spanwise shedding, the boots
@@ -611,7 +611,7 @@ While a direct comparison was not included,
 chordwise shedding often results in less runback ice 
 than spanwise shedding. 
 
-##Conclusions  
+## Conclusions  
 
 Electrothermal heating is still used today for propeller ice protection. 
 Use for wing ice protection is less common, 
@@ -621,22 +621,22 @@ although the current 787 jet aircraft uses electrotherm wing ice protection
 Electrothermal ice protection is used widely today for many smaller components, 
 including windshields and air data probes. 
 
-##Other Publications  
+## Other Publications  
 
 There are other relevant publications that were not detailed herein.  
 
-###Propeller blades  
+### Propeller blades  
 
 - Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
 - Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948.  
 - Dallas, Thomas, and Ellisman, Carl: Analysis and Preliminary Investigation of Eddy-Current Heating for Icing Protection of Axial-Flow-Compressor Blades. NACA-RM-E9EO6, 1949.  
 
-###Analysis 
+### Analysis 
 
 - Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944.  
 - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found citations for  
 NACA-ACR-4H31 8 times,  
@@ -649,7 +649,7 @@ NACA-RM-E53C26 0 times,
 NACA-TN-2852 4 times, and  
 NACA-TN-3025 0 times.  
 
-##Notes  
+## Notes  
 
 [^1]: Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944.  
 [^2]: Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944.  

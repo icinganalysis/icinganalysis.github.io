@@ -2,24 +2,24 @@ title: Engine Exhaust Heat
 Date: 2023-02-06 12:00  
 tags: ice protection  
 
-###_"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development." [^1]_  
+### _"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development." [^1]_  
 
 ![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images/Figure 24 of NACA-TR-403.png)  
 
-##Summary  
+## Summary  
 
 Practical wing heating designs are developed and proven in natural icing flight tests. 
 
-#Key Points  
+## Key Points  
 
 1. Flight tests were used extensively, as icing wind tunnels were still under development.  
 2. Much detailed development over 10 years was required.  
 3. "Existing data indicate that sufficient heat is available... the problem is one of distribution".   
 4. Design elements were developed that could be used in future compressed air heating.  
 
-##Discussion  
+## Discussion  
 
-##NACA-TR-403 [^1]  
+## NACA-TR-403 [^1]  
 
 > This investigation was conducted by the National
 Advisory Committee for Aeronautics to study the practicability 
@@ -68,10 +68,6 @@ to determine the rates of heat transmission.
 (Thought we were done with [Cylinders]({filename}Icing on Cylinders.md)?)  
 ![Figure 10. Rate of heat transmission for section 1 of airfoil and the cylinder
 (the surface area of both are equal)](images/NACA-TR-403/Figure 10.png)  
-
-<!--
-![Figure 14. ](images/NACA-TR-403/Figure 14.png)  
--->
 
 >A study of the heat transmission from the airfoil reveals 
 that the local transmission is very high at the leading
@@ -152,9 +148,9 @@ heated section to collect the rain water, particularly
 in connection with all-metal wing. The operation
 and efficiency of such slot have been carefully examined. 
 It was found that the efficiency of the slot in
-collecting water is decreased greatly if it location is
-is than one-tenth of the chord length from the lead-
-ing edge. A slot on the lower surface of the wing was
+collecting water is decreased greatly if its location is
+lesss than one-tenth of the chord length from the leading edge. 
+A slot on the lower surface of the wing was
 found to be unnecessary.  
 It is believed that the high-wing monoplane will be
 the most convenient type for the incorporation of 
@@ -172,7 +168,7 @@ described here may be the only application.
 The "... only a matter of technical development" took a decade, 
 as we shall see.
 
-##NACA-TN-712 [^2]  
+## NACA-TN-712 [^2]  
 
 We saw some of NACA-TN-712 previously in the 
 [Icing Wind Tunnel Thread]({filename}icing_wind_tunnel_test.md).  
@@ -266,7 +262,7 @@ accomplished with flight research.
 As such, the next publication, NACA-TN-783, 
 used flight tests for development. 
 
-#NACA-TN-783 [^3]  
+## NACA-TN-783 [^3]  
 
 >SUMMARY  
 The National Advisory Committee for Aeronautics has
@@ -339,7 +335,7 @@ indicated that the heat required for ice prevention may be
 calculated from an equation involving the airplane speed 
 and chord, and teh ambient-air temperature.  
 
-##Detailed design development  
+## Detailed design development  
 
 Several studies were conducted to develop details of the design. 
 
@@ -363,7 +359,7 @@ and distributed outboard along the wing leading edge.](images/NACA-WR-A-39/Figur
 As a full-scale design had been implemented in 1941 by NACA, 
 it does not appear that the Ju 88 design had direct influence on the NACA designs. 
  
-##Full-Scale Flight Tests    
+## Full-Scale Flight Tests    
 
 _"such tests should be conducted as soon as possible" NACA-TN-723, 1939_  
 
@@ -380,7 +376,7 @@ Three full-scale flight tests were performed on three different aircraft.
 
 We will review one of those, NACA-ACR-A-53. 
 
-##NACA-ACR-A-53 [^4]  
+## NACA-ACR-A-53 [^4]  
 
 This publication has many excellent photos.  
 
@@ -495,7 +491,7 @@ The successful test experience with the Lockheed 12A
 would soon be repeated on two other aircraft (B-17 and B-24), 
 using similar exhaust heating designs. 
 
-##Conclusions  
+## Conclusions  
 
 Exhaust heat provided a practical means of ice protection. 
 It saw further use through the 1950s. 
@@ -506,7 +502,7 @@ engine exhaust heat for wing ice protection.
 The coming jet age would require different means of ice protection, 
 which we will review in the upcoming post on compressed air heat. 
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found  
 NACA-TR-403 is cited 14 times,  
