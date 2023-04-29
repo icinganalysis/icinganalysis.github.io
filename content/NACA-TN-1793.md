@@ -6,6 +6,10 @@ status: draft
 
 ### _"Complete information concerning the fundamental physical processes that determine the structure of clouds and cloud systems has necessitated a statistical approach to the problem."_  
 
+![Figure 2. Ogive of 93 observations of liquid-water content in 
+icing clouds measured during 31 winter flights during 1946-47 and 1947-48.
+](images%2FNACA-TN-1793%2FFigure%202%20cropped.png)  
+
 # "Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter"  
 
 ## Summary  
@@ -129,7 +133,7 @@ per cubic meter.
 > 
 ![Figure 2. Ogive of 93 observations of liquid-water content in 
 icing clouds measured during 31 winter flights during 1946-47 and 1947-48.
-](/images%2FNACA-TN-1793%2FFigure%202.png)  
+](images%2FNACA-TN-1793%2FFigure%202.png)  
 
 >The ogive of drop-size measurements in figure 3 indicates that 
 about 90 percent of the measurements of mean-effective 
