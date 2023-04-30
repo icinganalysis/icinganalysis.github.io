@@ -5,7 +5,7 @@ status: draft
 
 ### _"quote from publication"_  
 
-Optional lead-in image (useful for LinkedIn preview view).  
+Optional lead-in image (useful for LinkedIn preview view). Be sure to include alt text. 
 
 # "Nice title"
 
