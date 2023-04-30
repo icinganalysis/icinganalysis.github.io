@@ -12,7 +12,7 @@ icing clouds measured during 31 winter flights during 1946-47 and 1947-48.
 
 # "Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter"  
 
-## Summary   
+## Summary  
 
 Measured icing conditions in 1947-48 were consistent with prior measurements.  
 
