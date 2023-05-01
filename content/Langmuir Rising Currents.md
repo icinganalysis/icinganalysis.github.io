@@ -7,7 +7,7 @@ tags: evaporation
 
 ![Figure 2. Microphotograph of water drops on an oiled-slide ](images/rising_currents/Figure2.png)  
 
-# Irving, Langmuir: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air
+# Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"  
 
 ## Summary 
 Evaporation and condensation rates on water drops are calculated. 
@@ -18,7 +18,7 @@ Evaporation and condensation rates on water drops are calculated.
 2. The drop size measurement by oiled-slide and multicylinder instruments is improved.  
 3. The evaporation rates of stationary water drops is analyzed.  
 
-## Abstact
+## Abstract
 
 As this is an extensive work (130 pages), 
 and as Langmuir did not provide an abstract or introductory summary, 

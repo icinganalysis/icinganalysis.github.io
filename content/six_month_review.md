@@ -67,7 +67,7 @@ Note that both the web content and the python files are under git.
 
 When a computer drive on my laptop crashed, 
 I was quickly able to get back to writing, 
-as there was a complete copy on github.
+as there was a complete copy on GitHub.
 
 The python executable files are available under LGPL license at [icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis) 
 

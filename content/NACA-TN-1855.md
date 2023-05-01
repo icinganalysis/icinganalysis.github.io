@@ -13,13 +13,13 @@ CONSIDERATION OF THE DESIGN OF AIRCRAFT ICE-PREVENTION EQUIPMENT](/images%2FNACA
 
 ## Summary  
 
-Icing conditions for the design of equipment are proposed.  
+Icing conditions for the design of equipment are proposed, which are later part of Appendix C.  
 
 ## Key Points  
 
-1. Four classes of icing conditions are proposed.  
+1. Classes of icing conditions are proposed.  
 2. Recommendations are made by type of equipment as to which class apply.  
-3. This became much of the basis for the later CFR 14 Part 25 Appendix C.  
+3. This became the basis for a large part of the later CFR 14 Part 25 Appendix C.  
 
 ## Abstract  
 
@@ -295,8 +295,7 @@ reference 5, but incorporating all available data, including the
 1947-48 Ames Laboratory observations. These conditions are listed 
 as items 11 to 25, inclusive, in table I.
 
-Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
-
+Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).
 
 Class III-M.- Continuous, Maximum
 
@@ -380,7 +379,7 @@ We will review those in the upcoming Conclusions of the Icing Meteorology Thread
 
 ## Citations  
 
-NACA-TN-1855 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^2].  
+NACA-TN-1855 is one of the three NACA publications cited directly in Appendix C of the FAA icing regulations, part 25 [^2].  
 
 An online search (scholar.google.com) found 50 citations for NACA-TN-1855.  
 

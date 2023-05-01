@@ -301,7 +301,7 @@ evaluations of the envelopes have since been published.
 
 ## Citations  
 
-NACA-TN-2738 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^3].  
+NACA-TN-2738 is one of the three NACA publications cited directly in Appendix C of the FAA icing regulations, part 25 [^3].  
 
 An online search (scholar.google.com) found 38 citations for   
 NACA-TN-2738.  

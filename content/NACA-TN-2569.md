@@ -336,7 +336,7 @@ or less severe conditions.
 
 ## Citations  
 
-NACA-TN-2569 is one of the three NACA TN's cited directly in Appendix C of the FAA icing regulations, chapter 25 [^2].  
+NACA-TN-2569 is one of the three NACA publications cited directly in Appendix C of the FAA icing regulations, part 25 [^2].  
 
 An online search (scholar.google.com) found 45 citations for   
 NACA-TN-2529.  
