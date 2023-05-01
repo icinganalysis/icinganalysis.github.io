@@ -5,7 +5,7 @@ tags: cylinder, natural icing, meteorology
 
 ### _"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"_  
 
-# "Observations of Icing Conditions Encountered in Flight During 1948" [^1]
+# NACA-TN-1904, "Observations of Icing Conditions Encountered in Flight During 1948" [^1]
 
 ## Key points
 
