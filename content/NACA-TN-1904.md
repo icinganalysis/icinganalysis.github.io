@@ -209,6 +209,15 @@ content averaged over
 various distances. These values are likely to be encountered once 
 in the course of 1000 flights in icing conditions when it is assumed 
 that 5 percent of the flights encounter cumulus clouds.  
+>2. Average and maximum values of cloud-drop diameter are significantly 
+larger and more variable near the Pacific coast than in 
+other parts of the United States included in this investigation.  
+>3. A comparison of data on drop-size 
+the rotating-cylinder method with values of maximum drop diameter 
+as determined from the area of impingement on a stationary cylinder 
+indicates that measurements of drop-size distribution made in flight 
+by the rotating-cylinder method, including those presented herein, 
+are so unreliable that they are of little or no value.  
 
 | Distance along flight path, (miles | Maximum average liquid-water content (g/m^3) |
 |------------------------------------|----------------------------------------------|
@@ -219,16 +228,6 @@ that 5 percent of the flights encounter cumulus clouds.
 | 10                                 | 0.9                                          |
 | 25                                 | 0.7                                          |
 | 60                                 | 0.5                                          |
-
->2. Average and maximum values of cloud-drop diameter are significantly 
-larger and more variable near the Pacific coast than in 
-other parts of the United States included in this investigation.  
->3. A comparison of data on drop-size 
-the rotating-cylinder method with values of maximum drop diameter 
-as determined from the area of impingement on a stationary cylinder 
-indicates that measurements of drop-size distribution made in flight 
-by the rotating-cylinder method, including those presented herein, 
-are so unreliable that they are of little or no value.  
 
 ## Citations
 
