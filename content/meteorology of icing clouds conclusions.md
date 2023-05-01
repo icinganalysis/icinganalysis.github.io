@@ -120,7 +120,7 @@ To "Distance":
 1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
 clouds.](/images/naca-tn-1904/Figure5.png)  
 
-To "Extent":  
+To "Extent" (on the X-axis label, however, note that the figure title says "Distance"):  
 
 [NACA-TN-2306]({filename}NACA-TN-2306.md)  
 ![Figure 2. Maximum distance flown during 57 icing flights in relation 
@@ -130,6 +130,16 @@ to average measured liquid-water content of supercooled stratiform clouds.
 This change was not explained. 
 It is not clear if it was editorial, 
 or if some subtle technical difference was implied. 
+The "distance" in the figure title implies to me that 
+"extent" was an editorial choice or error, 
+not a technical, data driven choice. 
+
+NACA-TN-2738 uses "Extent":  
+
+![Figure 8. Variation, with horizontal extent, of the factor by which 
+values of liquid-water content from the equiprobability charts should 
+be multiplied to include the effect of horizontal cloud extent 
+for different exceedance probabilities.](/images%2FNACA-TN-2738%2FFigure%208.png)  
 
 The Appendix C regulation uses "Extent":  
 ![Appendix C Figure 3. Liquid Water Content vs. Cloud Horizontal Extent.
