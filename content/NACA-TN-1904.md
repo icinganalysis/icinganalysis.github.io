@@ -1,7 +1,7 @@
 Title: NACA-TN-1904  
 Date: 2022-03-01 12:00  
 Category: NACA
-tags: cylinder, natural icing
+tags: cylinder, natural icing, meteorology 
 
 ### _"... the rotating-cylinder indications of drop-size distribution are so unreliable that they are of little or no value"_  
 
@@ -11,6 +11,7 @@ tags: cylinder, natural icing
 
 1. The average liquid water content varies over distance traveled in icing.
 2. The value of the multicylinder method for determining drop size distributions is questioned.  
+3. Other flight test instruments are described.  
 
 ## Abstract
 
@@ -126,7 +127,110 @@ the weight of ice accretions on the rotating cylinders, and +5 degrees in determ
 of the angle of the water imingement (theta_m) on the nonrotating cylinder
 ](images/naca-tn-1904/Figure7.png)
 
-### Citations
+### Appendix A  
+
+There is an extensive Appendix A that describes the flight test instruments used. 
+
+> THE CLOUD INDICATOR (heated cylinder)  
+> 
+> It had become apparent during previous years that an instrumental 
+method of supplementing visual observations of the time of entering 
+and leaving clouds, q d the patchy or uniform characteristics of 
+the cloud masses was desirable, The cloud indicator was designed to 
+meet this need. This instrument consists of a heated cylinder 5/8 
+inch in diameter exposed at right angles to the air stream, with a 
+thermocouple installed to measure the surface temperature at the 
+stagnation point. To provide a continuous surface-temperature 
+record, the thermocouple is connected to a self-balancing potentiometer 
+equipped to provide a continuous ink trace of the variations
+in temperature. In use, the heating power supplied to the cylinder
+is adjusted to maintain a surface temperature of from 170 F to
+200 F when flying in clear air. Immediately upon entering a cloud,
+the temperature drops very rapidly, sometimes by as much as 5 F
+in 1 second. Similarly, a rapid rise of temperature is observed
+on leaving a cloud. Small areas of clear air within a cloud and
+variations of cloud density are indicated by irregularities in the
+temperature trace. Figure 6 is an example of the response of this
+instrument during passage through various types of clouds. As indicated 
+in the figure, the instrument is more sensitive to liquid-water drops
+than to snow. Thus, it is possible to identify regions
+containing liquid water in a continuous snow cloud.  
+
+![Figure 6. Typical cloud-indicator records showing response to 
+various cloud types.](images%2Fnaca-tn-1904%2FFigure%206.png)
+> 
+> MAXIMUM-DROPSIZE CYLINDER  
+> 
+> This device, which is described in reference 2, permits the
+determination of the angular extent of ice collected on a stationary
+cylinder 5 inches in diameter. With this information, the diameter
+of the largest drops present in significant quantity can be calculated.
+The angle is measured by visual observation of the edge of the ice
+formation against a scale consisting of white marks spaced at 10'
+intervals on the surface of the cylinder. When the values of maximum 
+drop diameter from the stationary cylinder observations were
+compared with corresponding values of mean-effective diameter, as
+measured by the rotating cylinders, it was noted that in more than
+half the cases the indicated maximum diameter was less than the mean-effective 
+diameter. ...
+
+> THE ROTATING-DISK ICING-RATE METER  
+
+>The rotating-disk icing-rate meter used by the Ames Aeronautical 
+Laboratory is a modification of the instrument developed by the
+Massachusetts Institute of Technology, (See references 8 and 9.)
+The rotating disk, measuring arm, and scraper are essentially the
+same as in the M.I.T. instrument. However, the magnetic method of
+measuring the thickness of ice on the edge of the disk has been
+replaced by a mechanical and optical system. In the Ames instrument, 
+the movement of the measuring arm actuates a mirror which
+causes the image of a lamp filament to move along a slit. A moving
+photographic film which passes beneath the slit provides a continuous 
+record of the position of the measuring arm.
+
+Seven pages detail the calibration and theory of operation, including Figure 10.  
+
+![Figure 10. Illustrative icing-rate meter response curves. 
+A. Response to seven seconds of flight in uniform cloud. 
+B. Response to 12 seconds of flight in uniform cloud. 
+C. Response to 15 seconsds of flight in uniform cloud. 
+D. Response to actual cloud.](images%2Fnaca-tn-1904%2FFigure%2010.png)  
+
+## Conclusions  
+
+>The following conclusions are drawn from an analysis of flight
+data presented herein and in previous reports:  
+>
+>1. An analysis of continuous records of liquid-water content 
+obtained with the rotating-disk icing-rate meter, adjusted by comparison 
+with rotating-cylinder data from previous seasons, yields 
+the following values of maximum liquid-water 
+content averaged over 
+various distances. These values are likely to be encountered once 
+in the course of 1000 flights in icing conditions when it is assumed 
+that 5 percent of the flights encounter cumulus clouds.  
+
+| Distance along flight path, (miles | Maximum average liquid-water content (g/m^3) |
+|------------------------------------|----------------------------------------------|
+| 0.5                                | 2.2                                          |
+| 1.0                                | 1.9                                          |
+| 2.5                                | 1.6                                          |
+| 5                                  | 1.2                                          |
+| 10                                 | 0.9                                          |
+| 25                                 | 0.7                                          |
+| 60                                 | 0.5                                          |
+
+>2. Average and maximum values of cloud-drop diameter are significantly 
+larger and more variable near the Pacific coast than in 
+other parts of the United States included in this investigation.  
+>3. A comparison of data on drop-size 
+the rotating-cylinder method with values of maximum drop diameter 
+as determined from the area of impingement on a stationary cylinder 
+indicates that measurements of drop-size distribution made in flight 
+by the rotating-cylinder method, including those presented herein, 
+are so unreliable that they are of little or no value.  
+
+## Citations
 
 NACA-TN-1904 cites 9 publications:
 
@@ -154,9 +258,9 @@ NACA-TN-1904 is cited by 10 publications in the NACA Icing Publications Database
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.
 
-### Related
+## Related
 
-NACA-TN-1904 is cited by the two NACA publications cited in Appendix C of the icing regulations [^5].
+NACA-TN-1904 is cited by two NACA publications cited in Appendix C of the icing regulations [^5].
 
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
@@ -170,8 +274,8 @@ Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions En
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
 [^3]: 
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-[^4]:
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^4]: 
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: 
 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]   
 [^6]: 

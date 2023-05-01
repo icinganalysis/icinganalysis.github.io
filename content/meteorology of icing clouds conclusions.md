@@ -83,7 +83,7 @@ g/m^3 of LWC when the MVD was an unusually large 50 μm, apparently led the
 author to stress the potential importance of the larger MVDs because of the
 greater collection efficiencies associated with them.  
 
-So, not all of the choices made in creating the current icing standards have had 
+So, not all the choices made in creating the current icing standards have had 
 obvious logic. 
 
 Another choice made in creating the icing standards was not including 
