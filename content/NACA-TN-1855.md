@@ -3,7 +3,7 @@ Date: 2023-05-03 12:00
 Category: NACA  
 tags: meteorology  
 
-# "Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment"  
+# "Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment" [^1]  
 
 ### _"Progress ... has been handicapped by the lack of sufficient data on the meteorological factors."_  
 
