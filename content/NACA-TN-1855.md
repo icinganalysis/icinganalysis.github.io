@@ -2,7 +2,6 @@ Title: NACA-TN-1855
 Date: 2023-05-03 12:00  
 Category: NACA  
 tags: meteorology  
-status: draft  
 
 # "Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment"  
 
