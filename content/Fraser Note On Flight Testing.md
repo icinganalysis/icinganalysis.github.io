@@ -3,14 +3,9 @@ Date: 2023-04-22 14:00
 status: draft  
 Tags: University of Michigan Airplane Icing Information Course, flight test  
 
-<!-- 
-check if NACA-N-2569 is referenced
-add more figures
--->
-
 ### _"Tests to determine the performance of an icing protection system ... are of little value ... unless they can be subjected to an analytical treatment, and reduced to a generalised form which is applicable to conditions other than those under which the tests were actually made."_  
 
-# Lecture No. 12b, NOTE ON THE FLIGHT TESTING AND ASSESSMENT OF ICING PROTECTION SYSTEMS  
+# Lecture No. 12b, "NOTE ON THE FLIGHT TESTING AND ASSESSMENT OF ICING PROTECTION SYSTEMS" [^1]  
 
 ## Summary  
 
@@ -18,7 +13,7 @@ An alternative view of how to correlate icing conditions to ice protection perfo
 
 ## Key Points  
 
-1. The concepts of protection system "failure" vs. "deficiency" are discussed. 
+1. The concepts of protection system "failure" vs. "deficiency" are discussed.  
 2. Diagrams characterize the rate of water catch vs. extent in icing as a key parameter for ice protection.  
 3. Test conditions specifically planned to find the point of failure or deficiency are recommended.  
 
@@ -39,7 +34,20 @@ or any lower, performance.
 This publication addresses several modes of ice protection. 
 For brevity, I will detail the sections about fluid protection systems only. 
 There are interesting comments on thermal anti-ice and deicing 
-that the reader may wish to find in the full publication. 
+that the reader may wish to find in the full publication.  
+
+There are no figures or citations included with Lecture 12b. 
+This was true for two different copies of the 
+Airplane Icing Information Course that I borrowed. 
+I assume that the figures and citation from Lecture 12a [^2], 
+also by Fraser, apply.
+
+However, as we will see below, some figures may not match the text, 
+so perhaps figures were re-labeled. 
+
+There is a copy at the NRC library that has more pages [^3], 
+which might include figures to clear this up. 
+However, it is not available online or through inter-library loan to the USA. 
 
 ### 1.0 INTRODUCTION  
 
@@ -264,6 +272,12 @@ to meet or exceeds the design requirement.
 ![Figure 2. Basic Distribution Diagram. Proposed maximum average water content for 
 a given extent of icing. "E" is extent of icing, miles.](/images%2FFraser%20Flight%2FFig2.jpg)  
 
+Here is a case were the figure does not appear to match the text. 
+The figure is E (extent of icing - miles) vs. m (liquid water conyent), 
+while the text describes E in the text is water catch efficiency. 
+
+Perhaps something like Figure 3 (below) is what was intended.  
+
 >If, on the other hand, it is not necessary to meet specific requirements, 
 but to determine the degree of protection, 
 then the flow curves are shown on an m-theta scatterplot of all the relevant 
@@ -273,6 +287,17 @@ the points may be restricted to measurements of a given duration,
 or for a given altitude band, or a given synoptic meteorological situation, 
 or a geographical region, depending on the operational function 
 of the aircraft and the availability of the necessary meteorological data.  
+
+![Fraser note Figure 3.png](/images%2FFraser%20Flight%2FFraser%20note%20Figure%203x.png)  
+
+Figure 3 does not have flow curves or ice encounter measurements. 
+The later Figure 8 does, so perhaps that is what was intended. 
+
+![Figure 8. Constant Flow Performance Curves for an Alcohol Spray in a 
+Turbine Intake.](/images%2FFraser%20Flight%2FFigure%208.jpg)  
+
+A flow rate of 100 lbm/hr appears to cover most cases, 
+while a flow rate of 200 lbm/hr would cover all cases.  
 
 ### 4.0 ASSESSMENT OF DEGREE OF PROTECTION 
 
@@ -288,6 +313,8 @@ and thus the lowest degree of protection for the whole aircraft could be obtaine
 > The results of such an assessment can be used to decide on modifications the protective system, 
 or to set operational limitations on the aircraft, 
 or for fairly direct comparison with other aircraft and other systems of protection.  
+
+![Fraser note Figure 4.png](/images%2FFraser%20Flight%2FFraser%20note%20Figure%204.png)
 
 ### 5.0 CONCLUSIONS  
 
@@ -314,7 +341,8 @@ supported by tests to determine the fundamental performance parameters. However,
 sufficient knowledge has been obtained at the moment to enable icing protection 
 performance tests to be made on a fairly sound basis. 
 
-There are some parallels between this publication and [NACA-TN-2569]({filename}NACA-TN-2569.md). 
+There are some parallels between this publication and [NACA-TN-2569]({filename}NACA-TN-2569.md)
+(NACA-TN-2569 is referenced by Fraser). 
 This publication focused on flight tests of protection systems, 
 while NACA-TN-2569 focused on design criteria. 
 However, both had a realization that it was not practical to 
@@ -335,3 +363,4 @@ rates is low.
 
 [^1]: Fraser, Don: Note on the Flight Testing and Assessment of Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12b, University of Michigan Airplane Icing Information Course, 1953.  (8 pages)  
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages)  
+[^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems, LR-40, 1953. https://science-catalogue.canada.ca/record=1134925~S6  

@@ -92,8 +92,9 @@ See [Design Manuals]({filename}Design%20Manuals.md) for more information.
 
 ### The printed course lectures  
 
-The print copy that I borrowed through inter-library loan 
-has no introductory material, it simply starts with Lecture No. 1. 
+One print copy that I borrowed through inter-library loan had 
+all thirteen lectures in a large book and 
+had no introductory material, it simply started with Lecture No. 1. 
 (I speculate that there was some kind of introduction at the course,
 or at least an agenda, that is not included.)
 
@@ -110,14 +111,23 @@ There are also errata sheets inserted for two of the lectures.
 The errata sheets are printed differently (mimeograph rather than print), 
 so not all print copies may have the errata. 
 
+Another copy that I borrowed was the individual lectures separately stapled
+and collected in a box. It had errata sheets for some lectures, but
+they were missing for others. 
+(I had to borrow it more than once, 
+as there is too much to really study in a three-week loan.) 
+
+Both copies that I borrowed were in good condition
+(they have not been used much in 70 years).  
+
 ### Copyright Status  
 
 The copyright status for this is ambiguous. 
-The print copy that I borrowed through inter-library loan 
+Either print copy that I borrowed through inter-library loan 
 is not marked as copyrighted, 
 nor are any of the individual lectures. 
 
-However, a librarian told me (paraphrased) that
+However, a librarian told me (paraphrased) that 
 while they would like to make digital copies available, 
 they do not have signed releases from all presenters and authors, 
 so they were not able to do so. 
@@ -212,7 +222,7 @@ at scholar.google.com.
 
 The course material endured after the initial presentation, 
 even if they were not cited often. 
-At a company that I worked at I remember seeing copies of some of the lectures, 
+At a company that I worked at I remember seeing copies of some lectures, 
 decades later (Lecture No. 6 by Messinger most frequently). 
 
 ## Notes  
