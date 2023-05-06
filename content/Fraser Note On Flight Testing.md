@@ -273,7 +273,7 @@ to meet or exceeds the design requirement.
 a given extent of icing. "E" is extent of icing, miles.](/images%2FFraser%20Flight%2FFig2.jpg)  
 
 Here is a case were the figure does not appear to match the text. 
-The figure is E (extent of icing - miles) vs. m (liquid water conyent), 
+The figure is E (extent of icing - miles) vs. m (liquid water content), 
 while the text describes E in the text is water catch efficiency. 
 
 Perhaps something like Figure 3 (below) is what was intended.  
@@ -299,6 +299,8 @@ Turbine Intake.](/images%2FFraser%20Flight%2FFigure%208.jpg)
 A flow rate of 100 lbm/hr appears to cover most cases, 
 while a flow rate of 200 lbm/hr would cover all cases.  
 
+
+
 ### 4.0 ASSESSMENT OF DEGREE OF PROTECTION 
 
 > Suppose Fig. 2 shows the adjusted performance curves for an aircraft component 
@@ -313,8 +315,6 @@ and thus the lowest degree of protection for the whole aircraft could be obtaine
 > The results of such an assessment can be used to decide on modifications the protective system, 
 or to set operational limitations on the aircraft, 
 or for fairly direct comparison with other aircraft and other systems of protection.  
-
-![Fraser note Figure 4.png](/images%2FFraser%20Flight%2FFraser%20note%20Figure%204.png)
 
 ### 5.0 CONCLUSIONS  
 
@@ -359,8 +359,21 @@ of various components to small quantities of ice accumulations, because
 the frequency of encounter of icing situations with extremely high ice-collection 
 rates is low.  
 
+Figure 4 from Fraser [^2] also includes flight data, although on an extent basis. 
+
+![Figure 4. Proposed distribution requirements for water content and extent of icing
+](/images%2FFraser%20Flight%2FFraser%20note%20Figure%204.png)
+
+Later, Jeck [^4] would make similar plots, although with lines of probability 
+(Jeck did not reference Fraser):  
+
+![Figure 26.png](/images%2FJeck%20AR%2000-03%2FFigure%2026.png)  
+
+I plan to eventually review Jeck [^4] in more detail.  
+
 ## Notes  
 
 [^1]: Fraser, Don: Note on the Flight Testing and Assessment of Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12b, University of Michigan Airplane Icing Information Course, 1953.  (8 pages)  
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages)  
-[^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems, LR-40, 1953. https://science-catalogue.canada.ca/record=1134925~S6  
+[^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems, LR-50, 1953. https://science-catalogue.canada.ca/record=1134925~S6  
+[^4]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
