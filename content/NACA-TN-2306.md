@@ -4,7 +4,7 @@ Category: NACA
 tags: meteorology  
 status: draft  
 
-### _"collection of data indicating the maximum extent, severity, and frequency of conditions"_  
+### _"the collection of data indicating the maximum extent, severity, and frequency of conditions"_  
 
 # "Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds"  
 
@@ -201,7 +201,7 @@ The following results were obtained from data taken during
 74 flights in search of icing conditions over the northern regions
 of the United States east of the Rocky Mountain area with measurements 
 in the Great Lakes area predominating:  
-> 1. Observations of liquid-water concentrations and. mean-effective
+> 1. Observations of liquid-water concentrations and mean-effective
 droplet sizes obtained during flight in stratiform clouds at altitudes
 below 10,000 feet during the 1948-49 and 1949-50 winters were in substantial 
 agreement with values previously reported. Some slight differences 
@@ -215,7 +215,7 @@ average liquid-water content of 0.30 gram per cubic meter over
 a distance of approximately 200 miles.  
 > 3. The maximum vertical depth of multiple layer supercooled
 stratiform clouds observed in flight predominantly over level terrain
-was aproximately 6500 feet, whereas 80 percent of the icing conditions 
+was approximately 6500 feet, whereas 80 percent of the icing conditions 
 was less than 4000 feet in vertical extent. The average thickness 
 of supercooled cloud layers so far observed is about 3000 feet.
 The maximum observed thickness of any one cloud layer was 3500 feet
@@ -245,7 +245,26 @@ We saw the rotating-disk instrument in [NACA-RM-A9C09 Instruments]({filename}NAC
 
 An online search (scholar.google.com) found 19 citations for NACA-TN-2306.  
 
+NACA-TN-2306 focussed part of its study on icing in 
+stratiform clouds at altitudes below 10,000 feet. 
+For more recent data on icing conditions below 10,000 feet, 
+see Jeck [^2] and Masters [^3]. Jeck cites NACA-TN-2306. 
+Masters does not cite NACA-TN-2306, but does cite Jeck. 
+Figure 6 from Masters compares the data to Appendix C:   
+
+![Figure 6.](/images%2FMasters%20CT83-22%2FFigure%206.png)  
+
+Figure 7 from Masters plots a duration (nmi) effect on LWC. 
+However, the unconventional plot obscures the peak LWC values for durations other than 6 nmi
+(the end points are visible), 
+so it is difficult to compare to NACA-TN-2306 Figure 2 above.  
+
+![Figure 7.png](/images%2FMasters%20CT83-22%2FFigure%207.png)  
+
 ## Notes  
 
 [^1]: Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
-
+[^2]: Jeck, Richard K.: A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep. DOT/FAA/CT-83/21 137 (1983). 
+[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
+[^3]: Masters, Charles O.: A new characterization of supercooled clouds below 10,000 feet AGL. US Dept. of Transportation Report DOT. FAA/CT-83/22, 1983. 
+[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-22.pdf)  
