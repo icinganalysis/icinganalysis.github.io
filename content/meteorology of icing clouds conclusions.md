@@ -7,7 +7,7 @@ Category: NACA
 
 ![Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
 ](/images%2Fwilliam_lewis_1947%2FFigure%203.png)  
-_from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
+_from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, 1947. [^1]_  
 
 ## Summary  
 The most enduring legacy of the NACA publications on icing meteorology is their 
@@ -29,10 +29,10 @@ direct influence on the current icing regulations.
 
 As we saw in the [Conclusions Meteorological Instruments Thread]({filename}conclusions_of_the_instruments_thread.md),
 only a limited number of NACA publications went directly into determining the 
-current Appendix C icing requirements [^1].  
+current Appendix C icing requirements [^3].  
 
 ![Figure 3-1 Derivation of FAR Icing Standards](/images/Derivation of FAR standards.png) 
-[^2]  
+[^3]  
 
 [As we saw in [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
 it is not entirely clear where this figure originally came from.]  
@@ -53,7 +53,7 @@ straight-forward, but engineering judgement was applied at several steps along t
 
 ### Some comments on the regulations  
 
-Jeck [^3] discusses the Appendix C drop size boundaries:  
+Jeck [^4] discusses the Appendix C drop size boundaries:  
 
 >Origins of the "Icing Envelopes" in FAR-25, Appendix C  
 > 
@@ -98,7 +98,7 @@ then performance might be adequate in freezing rain.
 Status pressure ports were the 
 only equipment listed to be considered against freezing rain. 
 It was not until 2014 that freezing rain requirements were incorporated into the new 
-Appendix O of CFR 14 Part 25 [^4].  
+Appendix O of CFR 14 Part 25 [^5].  
 
 ### Change from "Duration" to "Distance" to "Extent" in icing  
 
@@ -145,6 +145,13 @@ The Appendix C regulation uses "Extent":
 ![Appendix C Figure 3. Liquid Water Content vs. Cloud Horizontal Extent.
 ](/images%2FAppendix%20C%20Figure%203.png)  
 
+The various distance effects are hard to directly compare, 
+as some are shown as a liquid-water content values, 
+and some as a liquid-water content factors. 
+Also, linear, log-linear, and log-log plots are used. 
+Perhaps in a future post (maybe even a thread) we will sort through all that, 
+but for now I will say that they are surprising similar in some regards. 
+
 While the nomenclature change may seem to be minor, 
 there is an effect on interpretation of the regulation. 
 AC 20-73 describes an assumption about an extended duration (45 minute) 
@@ -189,8 +196,8 @@ and recommends the use of a D distribution.
 
 While I did not find a further evaluation of adiabatic lift theory, 
 note that the earlier [NACA-TN-1424]({filename}NACA-TN-1424.md) figure 4 (shown further below) 
-compares an ideal calculation to one that assumes 2/3 of the water condenses, 
-and the 2/3 assumption appears to fit data better. 
+compares an ideal calculation to one that assumes 1/2 or 2/3 of the water condenses, 
+and the 1/2 assumption appears to fit layer-type cloud data better. 
 Adiabatic lift theory is still used today to estimate maximum cloud liquid water content. 
 However, for the simple implementation, the results are often conservatively high 
 compared to measured data. 
@@ -229,11 +236,11 @@ NACA-TN-1393 (1947):
 Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
 
 Reference 6 is [NACA-TN-1391]({filename}NACA-TN-1391.md).  
-Reference 14 is Rodert [^6].  
+Reference 14 is Rodert [^7].  
 
 Rodert (1946):  
 
-- 3.0 g/m^3, 30 micrometer (From Table 2 of [^6])  
+- 3.0 g/m^3, 30 micrometer (From Table 2 of [^7])  
 
 Rodert notes that:
 > The values given in Table 2 are established by a faired line which has
@@ -270,12 +277,14 @@ By 1949, interpretations of test data had arrived at the
 values in Appendix C. 
 There was remarkable progress in the three-year span 1946 through 1949.  
 
+For yet another data point from 1947, see the Conclusions below.  
+
 ### Recent data comparison to Appendix C  
 
 More recent icing data with more recent instrumentation compares well to the 
 70+ year-old NACA data.  
 
-Figure 1 of Cober and Isaac [^7] is one example. It is copy-righted, but available on-line. 
+Figure 1 of Cober and Isaac [^8] is one example. It is copy-righted, but available on-line. 
 While not every data point is within the Appendix C envelope, 
 the differences have not been viewed as large enough to require revising the Appendix C regulation.  
 
@@ -285,8 +294,60 @@ The current Appendix C icing regulations are largely based on NACA flight tests 
 publications that were completed by 1952. 
 
 The data and recommendations from the NACA-era have held up remarkably well. 
+The Continuous Maximum Icing part of Appendix C has not been revised since CAR 4b [^9] 
+was published in 1955, and later incorporated into Appendix C [^2].  
 
-There was remarkable progress in the three-year span 1946 through 1949.  
+In 1947, William Lewis wrote [^1]:  
+>
+> The meteorological conditions conducive to aircraft icing 
+which are considered to be of most interest to the designer of 
+thermal ice-prevention equipment are summarized in table I. The 
+two cases are selected of "most probable maximum" and "typical or 
+normal" icing conditions. The drop-size distribution has not been 
+specified in the table but may be considered uniform for these 
+conditions. In addition to the two conditions specified in the 
+table, however, the designer should give consideration to the 
+possibility of encountering drop sizes larger than 35 microns, 
+although with corresponding low liquid-water content.  
+> 
+>As a general conclusion, it is believed that the meteorological 
+factors of icing conditions have been sufficiently defined to allow 
+the design of thermal ice-prevention equipment on a fundamental 
+wet-air basis.  
+> 
+![Lewis Table I. Icing Conditions Anticipated in All-Weather Operations
+](/images%2Fwilliam_lewis_1947%2FLewis%20Table%20I.png)  
+
+We can compare the Continuous Maximum values from Table I to Appendix C, Figure 3 values:  
+
+| Temperature, F | Drop diameter, micrometer | Lewis Most Probable Continuous Maximum LWC, g/m^3 | Appendix C Figure 3 LWC, g/m^3 |
+|----------------|---------------------------|---------------------------------------------------|--------------------------------|
+| 20             | 15                        | 0.8                                               | 0.67  (0.8 @ 32F)              |
+| 20             | 25                        | 0.5                                               | 0.37  (0.5 @ 32F)              |
+| 0              | 15                        | 0.5                                               | 0.34                           |
+| -20            | 15                        | 0.25                                              | 0.21                           |
+
+They are not identical, but I would call them "close enough" to be 
+"to be of most interest to the designer of thermal ice-prevention equipment" 
+(having designed and tested several thermal systems myself), 
+particularly if one had been using the value from Rodert in 1946 [^7] of 3 g/m^3. 
+
+As William Lewis said in 1969 [^10]:  
+>In conclusion, we have reviewed the icing criteria used in the design and 
+certification of transport aircraft. Although these standards are now 
+twenty years old, they are generally consistent with data that have become 
+available since their adoption. Since these criteria have stood the test 
+of use, and since the total of experience with existing aircraft is more 
+comprehensive than any data collecting program, it is suggested that future 
+changes in criteria be based primarily on operating experiences rather than 
+on meteorological data. 
+
+So far, operating experiences have not required a change to Appendix C Continuous Maximum Icing
+(However, the new Appendix O was published in 2014 [^5], and recall Lewis's note in 1947 
+"the designer should give consideration to the possibility of encountering drop 
+sizes larger than 35 microns").  
+
+There was remarkable progress in the three-year span 1946 through 1949. 
 Several factors had come together to make that possible. 
 A vital need was recognized. 
 Multiple agencies were coordinated (NACA, Army Air Force, Weather Bureau, industry, academia). 
@@ -297,12 +358,17 @@ The icing design requirements are another crowning achievement of the NACA-era.
 
 ## Notes
 
-[^1]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
-[^2]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1, 1991. [DTIC](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
-[^3]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing", DOT/FAA/CT-83/21, 1983. [faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
-[^4]: [Appendix O to Part 25](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
-[^5]:
+[^1]: Lewis, William: "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.    
+[^2]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+[^3]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1, 1991. [DTIC](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
+[^4]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing", DOT/FAA/CT-83/21, 1983. [faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
+[^5]: [Appendix O to Part 25](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
+[^6]:
 Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
-[^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.
-[^7]: Cober, Stewart, and Isaac, George: "Estimating Maximum Aircraft Icing Environments Using a Large Database of In-Situ Observations." 44th AIAA Aerospace Sciences Meeting and Exhibit. 2006. [Research Gate](https://www.researchgate.net/profile/George-Isaac-2/publication/242299441_Estimating_Maximum_Aircraft_Icing_Environments_Using_a_Large_Data_Base_of_In_-Situ_Observations/links/5708fac408aea660813582e0/Estimating-Maximum-Aircraft-Icing-Environments-Using-a-Large-Data-Base-of-In-Situ-Observations.pdf)  
+[^7]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.
+[^8]: Cober, Stewart, and Isaac, George: "Estimating Maximum Aircraft Icing Environments Using a Large Database of In-Situ Observations." 44th AIAA Aerospace Sciences Meeting and Exhibit. 2006. [Research Gate](https://www.researchgate.net/profile/George-Isaac-2/publication/242299441_Estimating_Maximum_Aircraft_Icing_Environments_Using_a_Large_Data_Base_of_In_-Situ_Observations/links/5708fac408aea660813582e0/Estimating-Maximum-Aircraft-Icing-Environments-Using-a-Large-Data-Base-of-In-Situ-Observations.pdf)  
+[^9]:
+"AIRPLANE AIRWORTHINESS - TRANSPORT CATEGORIES MISCELLANEOUS AMENDMENTS", Civil Air Regulations Amendment 4b-2, July, 1955. 
+[stacheair.com](http://www.stacheair.com/data/At%20Work%209B%20Repair%20Station%20CD/Data%20Info/CAR%27s/CAR%20Part%20%204b/PDF/Part%2004b-02.pdf)  
+[^10]: Lewis, William: "Review of Icing Criteria", in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 

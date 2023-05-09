@@ -297,9 +297,7 @@ The later Figure 8 does, so perhaps that is what was intended.
 Turbine Intake.](/images%2FFraser%20Flight%2FFigure%208.jpg)  
 
 A flow rate of 100 lbm/hr appears to cover most cases, 
-while a flow rate of 200 lbm/hr would cover all cases.  
-
-
+while a flow rate of 200 lbm/hr would cover all cases.
 
 ### 4.0 ASSESSMENT OF DEGREE OF PROTECTION 
 
@@ -325,7 +323,8 @@ encountered, or, conversely, icing conditions can be adjusted, by simulation,
 to suit the rate of protection   
 (c) The flow of icing protection can be measured  
 (d) The performance characteristics or the protective system are understood and known.   
-5.2 If these conditions are met, it should be possible to extrapolate from the results 
+> 
+>5.2 If these conditions are met, it should be possible to extrapolate from the results 
 of a few icing encounters to obtain the ultimate performance of the system.  
 > 
 > 5.3 It should also be possible to obtain a quantitative assessment of the degree of 
