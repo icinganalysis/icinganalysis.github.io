@@ -37,13 +37,9 @@ Reviews in this thread:
     - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
         >  review : [NACA-TN-1855]({filename}NACA-TN-1855.md)  
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
-      <!--
         >  review : [NACA-TN-1904]({filename}NACA-TN-1904.md)  
-      -->
     - Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
-      <!--
         >  review : [NACA-TN-2306]({filename}NACA-TN-2306.md)  
-      -->
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
       <!--
         >  review : [NACA-TN-2569]({filename}NACA-TN-2569.md)  

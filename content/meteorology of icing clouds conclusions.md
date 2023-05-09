@@ -148,7 +148,8 @@ The Appendix C regulation uses "Extent":
 The various distance effects are hard to directly compare, 
 as some are shown as a liquid-water content values, 
 and some as a liquid-water content factors. 
-Also, linear, log-linear, and log-log plots are used. 
+Also, linear, log-linear, and log-log plots are used, 
+with different units for distance or duration. 
 Perhaps in a future post (maybe even a thread) we will sort through all that, 
 but for now I will say that they are surprising similar in some regards. 
 

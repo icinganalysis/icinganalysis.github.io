@@ -2,7 +2,6 @@ Title: NACA-TN-2306
 Date: 2023-05-10 12:00  
 Category: NACA  
 tags: meteorology  
-status: draft  
 
 ### _"the collection of data indicating the maximum extent, severity, and frequency of conditions"_  
 
@@ -24,7 +23,8 @@ Data about the horizontal and vertical extend of icing clouds.
 ## Abstract  
 
 > SUMMARY
-Liquid-water content, droplet size, and temperature data measured 
+> 
+>Liquid-water content, droplet size, and temperature data measured 
 during 22 flights in predominantly stratiform clouds through the
 1948-49 and the 1949-50 winters are presented. Several icing encounters 
 were of greater severity than those previously measured over the
@@ -53,7 +53,8 @@ occasionally exceeded the calculated maximum quantity of liquid water.
 ## Discussion  
 
 > INTRODUCTION  
-One phase of the icing research program conducted at the NACA
+> 
+>One phase of the icing research program conducted at the NACA
 Lewis laboratory consisted of supplementing laboratory icing studies
 with research flights in supercooled clouds. The meteorological
 aspects of icing research included (1) development and testing of
@@ -64,7 +65,8 @@ expected to provide protection, and (3) application of flight experience
 and meteorological data to the development of forecasting
 techniques usable in flight planning and navigation to avoid potentially 
 hazardous conditions.  
-Sufficient in-flight measurements of icing conditions have been
+> 
+>Sufficient in-flight measurements of icing conditions have been
 made by the NACA and other organizations to provide tentative design
 criterions for thermal anti-icing systems (reference 1). The meteorological 
 data accumulated by the Lewis laboratory during the
@@ -82,25 +84,31 @@ weather conditions.
 Reference 1 is [NACA-TN-1855]({filename}NACA-TN-1855.md).  
 
 ## APPARATUS AND METHOD  
+>
 >The airplanes used for research flights In icing conditions
 were bomber-type aircraft equipped with thermal anti-icing systems.
 Icing instruments Installed on the airplanes for the 1948-49 winter
 were similar to those described in reference 3. The following
 Instruments, designed to provide Improved and more complete measurements 
 of meteorological data, were used. during the 1949-50 winter:  
+> 
 >1. Rotating multicylinders consisting of five cylinders each
 2 inches in length with diameters of 1/8, 1/2, 1, 3, and 4 inches
 with integral flanges and transition segments designed to reduce end
 effects and to provide two-dimensional flow around the cylinders  
+>
 >2. Impingement recorder consisting of a 6-inch-diameter cylinder 
 around which a movable water-sensitive tape was exposed for
 2 to 6 seconds; the maximum-effective droplet diameter was calculated 
 from the observed extent of impingement  
+>
 >3. Cloud detector consisting of an electrically heated metallic
 probe for indicating presence of liquid water by measuring and recording 
 temperature fluctuations caused by evaporation of impinging
 water  
+>
 >4. Three rotating-disk icing-rate meters installed for comparison and developmental tests  
+>
 >5. Shielded thermocouples for continuous recording of free-air temperature  
 >
 >The continuously recording icing-rate meters were calibrated
@@ -153,7 +161,8 @@ sections of the United States reported in reference 4 indicates
 substantial agreement throughout the range of maximum values encountered 
 irrespective of the diverse geographical areas and predominantly
 different cloud types explored.  
-Inspection of figure 2 indicates that liquid-water concentrations 
+> 
+>Inspection of figure 2 indicates that liquid-water concentrations 
 as high as 1.30 grams per cubic meter existed over a horizontal 
 distance of 15 miles, 0.70 gram per cubic meter for a distance of 
 approximately 100 miles, and a maximum average concentration of 
@@ -164,7 +173,8 @@ to average measured liquid-water content of supercooled stratiform clouds.
 ](/images%2FNACA-TN-2306%2FFigure%202.png)  
 
 >Vertical extent of stratiform icing clouds. -   
-The depth of continuous icing clouds is a factor to be considered in 
+> 
+>The depth of continuous icing clouds is a factor to be considered in 
 flight navigation to reduce the rate of ice accretion, particularly with 
 unprotected aircraft. In order to provide information on the average
 and the maximum vertical extent of continuous or nearly continuous
@@ -197,22 +207,26 @@ flights in supercooled stratiform clouds.
 ## Conclusions  
 
 > SUMMARY OF RESULTS  
-The following results were obtained from data taken during
+> 
+>The following results were obtained from data taken during
 74 flights in search of icing conditions over the northern regions
 of the United States east of the Rocky Mountain area with measurements 
 in the Great Lakes area predominating:  
+> 
 > 1. Observations of liquid-water concentrations and mean-effective
 droplet sizes obtained during flight in stratiform clouds at altitudes
 below 10,000 feet during the 1948-49 and 1949-50 winters were in substantial 
 agreement with values previously reported. Some slight differences 
 existed, which were attributed to measuring techniques and
 emphasis upon obtaining data in more severe conditions.  
+> 
 > 2. Comparison of average liquid-water contents with horizontal
 extent of the icing clouds indicated that values up to approximately
 1.30 grams per cubic meter existed over a distance of 15 miles,
 0.70 gram per cubic meter for a distance of 100 miles, and a maximum 
 average liquid-water content of 0.30 gram per cubic meter over
 a distance of approximately 200 miles.  
+> 
 > 3. The maximum vertical depth of multiple layer supercooled
 stratiform clouds observed in flight predominantly over level terrain
 was approximately 6500 feet, whereas 80 percent of the icing conditions 
@@ -221,19 +235,23 @@ of supercooled cloud layers so far observed is about 3000 feet.
 The maximum observed thickness of any one cloud layer was 3500 feet
 and is in approximate agreement with observations over other geographical 
 areas of the United States.  
+> 
 > 4. In stratiform clouds existing at subfreezing temperatures
 below 10,000 feet, icing conditions could be expected if no precipitation 
 were reported by ground observing stations over the
 cloud area. Conversely, continuous icing rarely occurred when most
 observing stations over the area were reporting measurable precipitation 
 (except in the case of freezing rain).  
+> 
 > 5. In low-level clouds, the most probable icing area associated
 with an extratropical cyclonic disturbance was located in the northwest 
 and the southwest quadrants of the low-pressure area. Icing
 conditions occasionally existed in clouds below 10,000 feet near
 the periphery of precipitation areas.  
+> 
 > 6. The average liquid-water content as measured by multicylinders
 did not exceed two-thirds of the theoretical maximum values.  
+> 
 > 7. Maximum values of icing severity measured with the rotating-disk 
 icing-rate meter indicated that localized regions might accumulate 
 liquid-water concentrations equal to or in excess of the
