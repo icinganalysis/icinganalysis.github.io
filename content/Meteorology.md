@@ -57,7 +57,7 @@ Several publications by Porter Perkins were included in
 in the "Meteorology of Icing Clouds" section. 
 While the publications are important and useful, 
 they did not directly affect the icing design values adopted in regulations. 
-I will review those in their own thread, to be published at a later date.  
+I will review those in their own thread, to be published at a later date. 
 Perkins was quite productive during his career at NACA and NASA. 
   
 - Porter Perkins  
