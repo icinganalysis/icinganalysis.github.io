@@ -8,6 +8,9 @@ status: draft
 
 ### _"the heat required for protection for this [severest] situation is several times that required for the most probable icing condition."_  
 
+![Figure 7. Constant water-collection-rate curves for hypothetical airfoil 
+superimposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207%20cropped.png)  
+
 ## Summary  
 By allowing some ice to accumulate in severe icing conditions, the peak energy requirements for ice protection can be reduced.  
 
@@ -23,12 +26,14 @@ designed for approximately the severest ice-collection rates expected."
 ## Abstract  
 
 >SUMMARY  
+>
 Data from various sources on the observed values of meteorological 
 variables, liquid-water content, mean-effective droplet size, and temperature, 
 which are pertinent to aircraft icing, are summarized; and a
 method is proposed for the selection of design criterions for ice-protection 
 equipment.  
-The data are divided according to two broad cloud types, namely,
+> 
+>The data are divided according to two broad cloud types, namely,
 stratiform and cumuliform clouds, because the physical dimensions, the
 formation and development processes, the frequency of encounter, and
 the severity of icing conditions are very different for the two cloud
@@ -37,7 +42,8 @@ of occurrence of observed icing conditions according to two of
 the pertinent meteorological variables. The summarized data indicate
 that statistical relations exist between liquid-water content, mean-effective 
 droplet diameter, temperature, and pressure altitude.  
-The proposed method of selecting values of liquid-water content
+> 
+>The proposed method of selecting values of liquid-water content
 and mean-effective droplet diameter as design criterions for ice-protection 
 equipment is based upon the collection efficiency of an airfoil 
 as a function of droplet size and the frequency of occurrence of
@@ -59,22 +65,25 @@ This is a fairly long publication (33 pages).
 For brevity, only the comments about icing in stratiform clouds will be detailed.  
 
 > INTRODUCTION  
-For several years research has been conducted on the prevention
-and removal of ice formations caused by supercooled clouds on components
-of aircraft by the addition of heat to the vulnerable components. In
-order to evaluate the heat requirements of an ice-prevention system that
-provides adequate protection against icing caused by supercooled clouds,
-the rate at which supercooled liquid cloud droplets are collected by
+> 
+>For several years research has been conducted on the prevention 
+and removal of ice formations caused by supercooled clouds on components 
+of aircraft by the addition of heat to the vulnerable components. In 
+order to evaluate the heat requirements of an ice-prevention system that 
+provides adequate protection against icing caused by supercooled clouds, 
+the rate at which supercooled liquid cloud droplets are collected by 
 each portion of the surface of the airplane, the probable maximum duration, 
-and the frequency of occurrence of various icing conditions must
-be known. The evaluation of these unknowns requires the following
-information about supercooled clouds: (1) liquid-water content,
-(2) droplet diameter and droplet-size distribution, (3) air temperature
-and pressure, (4) horizontal and vertical extent of icing situations,
-and (5) frequency of occurrence of icing conditions of a given 
-description.  
-Incomplete information concerning the fundamental physical processes 
-that determine the structure of clouds and cloud systems has
+and the frequency of occurrence of various icing conditions must 
+be known. The evaluation of these unknowns requires the following 
+information about supercooled clouds:  
+> (1) liquid-water content,  
+> (2) droplet diameter and droplet-size distribution,  
+> (3) air temperature and pressure,  
+> (4) horizontal and vertical extent of icing situations, and  
+> (5) frequency of occurrence of icing conditions of a given description.  
+> 
+>Incomplete information concerning the fundamental physical processes 
+that determine the structure of clouds and cloud systems has 
 necessitated an experimental and statistical approach to the definition
 of the important features of an icing cloud. Flights have been made by
 the NACA and other agencies with instrumented aircraft through supercooled 
@@ -84,7 +93,8 @@ icing conditions. As a result
 of these instrumented flights, a considerable accumulation of 
 meteorological data pertinent to the icing
 problem has been obtained and published.  
-As part of the NACA Lewis laboratory icing-research program, this
+> 
+>As part of the NACA Lewis laboratory icing-research program, this
 report summarizes the existing meteorological data from various sources
 and proposes a method of selecting design criterions for ice-protection
 equipment. The data are summarized in such a manner as to give the
@@ -101,7 +111,8 @@ selection of design criterions for ice-protection equipment for a hypothetical,
 15.8 feet.
 
 >Cloud Droplet Diameter as Function of Pressure Altitude  
-A component or an airfoil of an aircraft in flight through a
+> 
+>A component or an airfoil of an aircraft in flight through a
 cloud usually does not intercept all the droplets in its path, because
 some of the droplets are deflected around the airfoil by the air flow.
 The percentage of droplets intercepted depends on; among other factors,
@@ -153,7 +164,8 @@ diameter. (Numbers given indicate number of icing conditions
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%203.png)  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
-Because the amount of heat required by ice-protection systems of
+> 
+>Because the amount of heat required by ice-protection systems of
 high-speed jet aircraft to evaporate all the intercepted supercooled
 water from the vulnerable components is often very large, it may be
 necessary to design ice-protection equipment for some components for
@@ -163,6 +175,7 @@ necessary if the probability of encountering the severest icing
 condition is very low and the heat required for protection for this
 situation is several times that required for the most probable icing
 condition.  
+>
 > This approach to ice-protection equipment design may be feasible,
 because severe icing situations are usually those with high liquid-water
 content and therefore generally of short horizontal extent (fig. 5);
@@ -196,7 +209,8 @@ given indicate number of icing conditions
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%204.png)  
 
 >Extent of Icing Condition  
-Although data on horizontal and vertical extent of icing conditions 
+>
+>Although data on horizontal and vertical extent of icing conditions 
 are limited, sufficient data have been obtained to indicate the
 order of magnitude of these icing variables. 
 The maximum horizontal extent of icing situations with a given
@@ -223,7 +237,8 @@ Reference 4 is [NACA-TN-2306]({filename}NACA-TN-2306.md).
 Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
-Because the amount of heat required by ice-protection systems of
+> 
+>Because the amount of heat required by ice-protection systems of
 high-speed jet aircraft to evaporate all the intercepted supercooled
 water from the vulnerable components is often very large, it may be
 necessary to design ice-protection equipment for some components for
@@ -301,7 +316,8 @@ airspeed of 350 miles per hour.](/images%2FNACA-TN-2569%2FFigure%208.png)
 ## Conclusions  
 
 >CONCLUDING REMARKS  
-Data on the range of values of the meteorological variables pertinent 
+> 
+>Data on the range of values of the meteorological variables pertinent 
 to the aircraft icing problem have been summarized and a method
 has been proposed for the selection of design criterions for ice-protection 
 equipment of the continuous heat type that evaporates the
@@ -338,9 +354,8 @@ or less severe conditions.
 
 NACA-TN-2569 is one of the three NACA publications cited directly in Appendix C of the FAA icing regulations, part 25 [^2].  
 
-An online search (scholar.google.com) found 45 citations for   
-NACA-TN-2529.  
+An online search (scholar.google.com) found 45 citations for NACA-TN-2529.  
 
 ## Notes  
 [^1]: Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
-[^2]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+[^2]: 14 CFR 25 Appendix C (updated periodically) [www.ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
