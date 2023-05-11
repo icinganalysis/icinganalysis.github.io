@@ -384,6 +384,6 @@ An online search (scholar.google.com) found 50 citations for NACA-TN-1855.
 
 ## Notes  
 
-[^1]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+[^1]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
 [^2]: 14 CFR 25 Appendix C (updated periodically) [Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^3]: Appendix O to Part 25, [Appendix O](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
