@@ -233,8 +233,10 @@ is usually higher in cumuliform clouds than stratiform clouds.
 ![Figure 5. Maximum horizontal extent of icing encounters in relation 
 to average liquid-water content.](/images%2FNACA-TN-2569%2FFigure%205.png)  
 
-Reference 4 is [NACA-TN-2306]({filename}NACA-TN-2306.md).  
-Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
+Reference 4 is [NACA-TN-2306]({filename}NACA-TN-2306.md). 
+Reference 5 is [NACA-TN-1393]({filename}NACA-TN-1393.md). 
+One may note that the "Measured" data in Figure 5 is the same as 
+"Envelope of maximum..." in Figure 2 of NACA-TN-2306.  
 
 >SELECTION OF METEOROLOGICAL FACTORS FOR ICE-PROTECTION-SYSTEM DESIGN  
 > 
