@@ -4,7 +4,7 @@ Category: NACA
 tags: meteorology  
 status: draft  
 
-# "A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment"  
+# "A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment" [^1]  
 
 ### _"the heat required for protection for this [severest] situation is several times that required for the most probable icing condition."_  
 
