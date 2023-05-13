@@ -45,7 +45,7 @@ This gets processed by Pelican (see below) as html:
 <h2><a href="https://daringfireball.net/projects/markdown/">Markdown</a></h2>
 ```
 
-## [Pelican]({filename}Using pelican.md)  
+## Pelican  
 
 I use the pelican static website generator.  
 [blog.getpelican.com](https://blog.getpelican.com/)  
@@ -117,6 +117,8 @@ Anchor links also work between pages:
 > [Conclusions of Icing on Cylinders Drop Size Distributions]({filename}cylinder_thread_wrap_up.md#drop_size_distributions)  
 
 ## PyCharm 
+
+[jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)  
 
 I use the PyCharm IDE (interactive development environment) as a markdown editor, 
 as an interface to git, and for pushing to GitHub. 
