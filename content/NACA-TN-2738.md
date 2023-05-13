@@ -15,24 +15,31 @@ some probability, Pe, of being exceeded in any single icing
 encounter.](/images%2FNACA-TN-2738%2FFigure%202.png)  
 
 ## Summary  
+
 The icing design values in NACA-TN-1855 were found to have an exceedance probability Pe=0.001.  
 
 ## Key Points  
+
 1. A rigorous probability analysis of the considerable icing flight test data was conducted.  
 2. The icing design values in NACA-TN-1855 were found to have an exceedance probability Pe=0.001.  
 
 ## Abstract  
->SUMMARY
-Meteorological icing data obtained in flight in the United States
+
+>SUMMARY  
+> 
+>Meteorological icing data obtained in flight in the United States
 are analyzed statistically and methods are developed for the determination of:  
-(1) the various simultaneous combinations of the three basic
+> 
+>(1) the various simultaneous combinations of the three basic
 icing parameters (liquid-water content, drop diameter, and temperature)
 which would have equal probability of being exceeded in flight in any
 random icing encounter; and  
-(2) the probability of exceeding any specified group of 
+>
+>(2) the probability of exceeding any specified group of 
 values of liquid-water content associated simultaneously
 with temperature and drop-diameter values lying within specified ranges.  
-The methods are particularly useful in the design of anti-icing equipment 
+>
+>The methods are particularly useful in the design of anti-icing equipment 
 intended to operate through the United States, to define simultaneous 
 combinations of the meteorological variables which could be
 encountered, and to ascertain the effectiveness of the equipment in
@@ -46,14 +53,16 @@ the world.
 This report is long (94 pages), so many details are not covered herein.  
 
 >INTRODUCTION  
-The program of research in aircraft ice prevention which has been
+> 
+>The program of research in aircraft ice prevention which has been
 conducted by the NACA during the past several years has been directed
 primarily toward the development of practical methods for the design of
 thermal ice-prevention equipment for various airplane components. Since
 a rational ice-prevention design requires a knowledge of the physical
 characteristics of icing conditions, an important phase of the research
 program has been an investigation of the meteorological conditions conducive to icing.  
-__The severity of an encounter with icing, conditions is determined
+> 
+>__The severity of an encounter with icing, conditions is determined
 principally by four factors; namely, the liquid-water content, the
 diameter of the drops, the temperature, and the horizontal extent of the
 conditions.__ The meteorological investigation has, therefore, been concerned 
@@ -61,7 +70,8 @@ with obtaining measurements of these quantities in a wide variety
 of natural icing conditions in order to establish the range and relative 
 frequency of occurrence of various values, and combinations of
 values, of these quantities.    
-During the period 1945 through 1948, a considerable amount of data
+> 
+>During the period 1945 through 1948, a considerable amount of data
 was collected by the Ames and Lewis Laboratories. These results, and
 discussions of various phases of the investigation, have been reported
 in references 1 through 4. All of these results, together with similar
@@ -79,16 +89,18 @@ and qualitative way__.
 Reference 1 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 Reference 2 is [NACA-TN-1424]({filename}NACA-TN-1424.md).  
 Reference 3 is [NACA-TN-1904]({filename}NACA-TN-1904.md).  
-Reference 4 is [NACA-TN-1793]({filename}NACA-TN-1793.md).
+Reference 4 is [NACA-TN-1793]({filename}NACA-TN-1793.md).  
 Reference 5 is [NACA-TN-1855]({filename}NACA-TN-1855.md).  
 
 > In this report, the available data obtained in icing flights in the
 United States are analyzed statistically and the results are presented
 graphically in two forms.  
+> 
 > In the first form, the results are plotted to
 show the various combinations of liquid-water content, drop diameter,
 and ambient-air temperature which have equal probability of being
 exceeded.  
+> 
 > In the second form, plots are presented to determine the
 probability of exceeding any specified value of liquid-water content
 under the condition that the value is associated simultaneously with
@@ -104,6 +116,7 @@ boundaries of areas used in the goegraphical classifications
 of icing data.](/images%2FNACA-TN-2738%2FFigure%201.png)  
 
 >Construction of the equiprobability surfaces.  
+> 
 > The procedure used
 in the construction of equiprobability surfaces ... is illustrated in appendix A.  
  
@@ -115,7 +128,7 @@ diameter and temperature depression below freezing having the
 some probability, Pe, of being exceeded in any single icing 
 encounter.](/images%2FNACA-TN-2738%2FFigure%202.png)  
 
-The mathematical functions used to represent the various distributions 
+>The mathematical functions used to represent the various distributions 
 were chosen mainly on the basis of the empirical criterion of
 goodness of fit, although theoretical considerations also were given
 considerable weight, particularly in the selection of a function to
@@ -138,7 +151,8 @@ variables recommended, however, were lacking in one respect, namely, the
 probability of occurrence of these particular combinations. Fortunately,
 with the aid of the equiprobability curves, some indication of these
 probabilities can be obtained when corresponding meteorological conditions are compared.  
-Four classes of icing conditions are presented in NACA TN 1855:
+> 
+>Four classes of icing conditions are presented in NACA TN 1855:
 I, instantaneous; II intermittent; III, continuous; and IV, freezing
 rain. All classes, except IV, are subdivided into two types of icing
 conditions, maximum and normal, and are confined to icing conditions
@@ -172,8 +186,9 @@ the various combinations of temperature and drop diameter given in
 table I of NACA TN 1855 for class II-M and III-M conditions, respectively.
 The three values of liquid-water content obtained from figures 3, 5,
 and 7 corresponding to class III-M were averaged by weighting the values
-according to the horizontal extent of the region to which they apply.
-The three regions (fig. 1) have area ratios of about 1/8, 2/8, and 5/8
+according to the horizontal extent of the region to which they apply.  
+> 
+>The three regions (fig. 1) have area ratios of about 1/8, 2/8, and 5/8
 for the Pacific coast, plateau, and eastern regions, respectively; and
 these area ratios were used to weight the values of liquid-water content
 from the equiprobability charts so that the resulting average values
@@ -214,8 +229,9 @@ example cases, the correspondence between classes of Icing conditions
 represented by the equiprobability charts and other classes of conditions
 presented in NACA TN 185 could be ascertained approximately. The correspondence 
 for these classes of conditions, and also for the two example
-cases, are shown in table V.
-An inspection of table V reveals a consistency between the classes
+cases, are shown in table V.  
+> 
+>An inspection of table V reveals a consistency between the classes
 of design values recommended in NACA TN 1855 and specific values of
 exceedance probabilities. Only the instantaneous maximum icing condition 
 (Pe = 0.0001) appears to be incongruous with the maximum conditions
@@ -240,7 +256,8 @@ provided for the vast majority of icing encounters.
 ANALYSIS AND THE ANALYSIS IN NACA TN 1855](/images%2FNACA-TN-2738%2FTable%20V.png)  
 
 > The Partial Probability Charts  
-The partial probability charts essentially provide a rapid means of
+> 
+>The partial probability charts essentially provide a rapid means of
 determining the approximate probability of exceeding any specified group
 of values of liquid-water content associated simultaneously with temperature 
 and drop-diameter values lying within specified ranges. Thus, if
@@ -264,7 +281,8 @@ PACIFIC COAST CUMULUS CLOUDS](/images%2FNACA-TN-2738%2FTable%20VI.png)
 ## Conclusions  
 
 >CONCLUDING REMARKS  
-The equiprobability surfaces and marginal probability calculation
+> 
+>The equiprobability surfaces and marginal probability calculation
 charts presented herein provide, for the United States, a representation
 of the data now available on the meteorological factors responsible for
 aircraft icing, expressed In terms of the probability of exceeding
@@ -296,6 +314,7 @@ icing values in NACA-TN-1855 represent something close to a more rigorously
 determined equiprobability surface with Pe=0.001. 
 
 Jeck [^2] comments about NACA-TN-2738 ([5] in Jeck):  
+
 >Although the original data collection flights were only in winter and spring icing conditions over
 parts of the United States, the existing curves appear to represent all-season stratiform and
 convective icing conditions (excluding freezing rain and freezing drizzle) for the United States
@@ -310,8 +329,7 @@ evaluations of the envelopes have since been published.
 
 NACA-TN-2738 is one of the three NACA publications cited directly in Appendix C of the FAA icing regulations, part 25 [^3].  
 
-An online search (scholar.google.com) found 38 citations for   
-NACA-TN-2738.  
+An online search (scholar.google.com) found 38 citations for NACA-TN-2738.  
 
 ## Notes  
 
