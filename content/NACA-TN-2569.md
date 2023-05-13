@@ -29,35 +29,35 @@ designed for approximately the severest ice-collection rates expected."
 >
 >Data from various sources on the observed values of meteorological 
 variables, liquid-water content, mean-effective droplet size, and temperature, 
-which are pertinent to aircraft icing, are summarized; and a
+which are pertinent to aircraft icing, are summarized; and a 
 method is proposed for the selection of design criterions for ice-protection 
 equipment.  
 > 
->The data are divided according to two broad cloud types, namely,
-stratiform and cumuliform clouds, because the physical dimensions, the
-formation and development processes, the frequency of encounter, and
-the severity of icing conditions are very different for the two cloud
+>The data are divided according to two broad cloud types, namely, 
+stratiform and cumuliform clouds, because the physical dimensions, the 
+formation and development processes, the frequency of encounter, and 
+the severity of icing conditions are very different for the two cloud 
 types. The data are summarized in such a manner as to give the frequency 
-of occurrence of observed icing conditions according to two of
-the pertinent meteorological variables. The summarized data indicate
+of occurrence of observed icing conditions according to two of 
+the pertinent meteorological variables. The summarized data indicate 
 that statistical relations exist between liquid-water content, mean-effective 
 droplet diameter, temperature, and pressure altitude.  
 > 
->The proposed method of selecting values of liquid-water content
+>The proposed method of selecting values of liquid-water content 
 and mean-effective droplet diameter as design criterions for ice-protection 
 equipment is based upon the collection efficiency of an airfoil 
-as a function of droplet size and the frequency of occurrence of
-icing situations with various liquid-water-contents and mean-effective
-droplet diameters. The method provides a convenient means of calculating
-the percentage of icing encounters in which the water-collection rate
+as a function of droplet size and the frequency of occurrence of 
+icing situations with various liquid-water-contents and mean-effective 
+droplet diameters. The method provides a convenient means of calculating 
+the percentage of icing encounters in which the water-collection rate 
 exceeds the design rate for the ice-protection equipment and also illustrates 
-the desirability of sometimes designing ice-protection equipment
-for water-collection rates which are less than the maximum rate
+the desirability of sometimes designing ice-protection equipment 
+for water-collection rates which are less than the maximum rate 
 expected. The method is illustrated by the selection of design criterions 
-for ice-protection equipment for a hypothetical, 12-percent
-thick, low-drag airfoil with a chord length of 15.8 feet; however, the
-method may be employed for any airfoil provided the collection efficiency
-is known.
+for ice-protection equipment for a hypothetical, 12-percent 
+thick, low-drag airfoil with a chord length of 15.8 feet; however, the 
+method may be employed for any airfoil provided the collection efficiency 
+is known.  
 
 ## Discussion  
 
@@ -268,7 +268,7 @@ presented in reference 11.
 be presented by means of an example. Assume that the probability of
 encountering an icing situation with a given rate of water interception
 is desired for a hypothetical, 12-percent thick, low-drag airfoil with
-a chord length of 15.8 feet for a climb condition from O to 20,000 feet
+a chord length of 15.8 feet for a climb condition from 0 to 20,000 feet
 at 350 miles per hour. Estimates of the collection efficiency as a
 function of droplet size for such a hypothetical airfoil for two operating 
 and meteorological conditions are presented in figure 6.
