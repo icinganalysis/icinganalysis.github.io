@@ -36,7 +36,7 @@
                 Published: Sat 13 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-13T10:29:43.705515-07:00">
+        <abbr class="modified" title="2023-05-13T11:49:46.900177-07:00">
                 Updated: Sat 13 May 2023
         </abbr>
 <!---->
@@ -71,7 +71,7 @@ Also, I do not plan to monetize my blog.
 If I had different needs, I might have made other choices. </p>
 <h2><a href="https://daringfireball.net/projects/markdown/">Markdown</a></h2>
 <p>Posts are written in the Markdown syntax. 
-This saves me from having to deal with raw HTML. 
+This saves me from having to deal with raw HTML (most of the time). 
 The posts are also easily human-readable in the Markdown format
 (where html is barely readable). 
 Included is a Markdown table formatter that I find useful. </p>
@@ -127,9 +127,10 @@ otherwise pelican defaults to the generated blog.html.  </p>
 </code></pre></div>
 
 <blockquote>
-<p><a href="#metadata">link to Metadata</a>  </p>
+<p><a href="#metadata">link to Metadata</a>  <em>(Does not work here)</em>  </p>
 </blockquote>
-<p>But with the flavor of Markdown that comes with Pelican, one needs to put an anchor in the header:  </p>
+<p>But with the flavor of Markdown that comes with Pelican, 
+one needs fall back to html and put an anchor in the header:  </p>
 <div class="highlight"><pre><span></span><code><span class="gu">### &lt;a name=&quot;site-navigation&quot;&gt;&lt;/a&gt; Site navigation</span>
 
 [<span class="nt">link to Site Navigation</span>](<span class="na">#site-navigation</span>)
@@ -246,7 +247,9 @@ and I have often forgotten to change it back. </p>
 <h2>Git</h2>
 <p>PyCharm also includes integration with git, 
 with git commands available as quick key combinations, 
-such as ctrl-k for commit, and shift-ctrl-k for push. </p>
+such as ctrl-k for commit, and shift-ctrl-k for push. 
+crtl-alt-a adds a file or directory to versioning. 
+That covers 99% of what I need in git.  </p>
 <h2>Working with GitHub</h2>
 <p>GitHub serves several functions. 
 It is a central repository that allows one to freely share code. 

@@ -152,6 +152,13 @@ values of liquid-water content from the equiprobability charts should
 be multiplied to include the effect of horizontal cloud extent 
 for different exceedance probabilities.](/images%2FNACA-TN-2738%2FFigure%208.png)  
 
+Note that the "Liquid Water Content Factor, F" is 1 at 10 miles for layer clouds.
+
+Appendix C has a similar figure 3. However, the "Liquid Water Content Factor, F" 
+is equal to 1 at 17.4 nmi (20 miles). Note that NACA-TN-2738 is cited on figure 3.  
+![Appendix C Figure 3. Liquid Water Content vs. Cloud Horizontal Extent.
+](/images%2FAppendix%20C%20Figure%203.png)  
+
 >Two groups of icing conditions are chosen as a basis for comparison 
 between the analysis of this report and NACA TN 185. The first group
 consists of icing conditions selected from the probability analysis for

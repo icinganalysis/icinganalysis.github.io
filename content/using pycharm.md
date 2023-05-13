@@ -30,7 +30,7 @@ If I had different needs, I might have made other choices.
 ## [Markdown](https://daringfireball.net/projects/markdown/)  
 
 Posts are written in the Markdown syntax. 
-This saves me from having to deal with raw HTML. 
+This saves me from having to deal with raw HTML (most of the time). 
 The posts are also easily human-readable in the Markdown format
 (where html is barely readable). 
 Included is a Markdown table formatter that I find useful. 
@@ -100,9 +100,11 @@ Some flavors of Markdown let you use headers as internal link anchors
 
 [link to Metadata](#metadata)
 ```
-> [link to Metadata](#metadata)  
+> [link to Metadata](#metadata)  _(Does not work here)_  
 
-But with the flavor of Markdown that comes with Pelican, one needs to put an anchor in the header:  
+But with the flavor of Markdown that comes with Pelican, 
+one needs fall back to html and put an anchor in the header:  
+
 ```markdown
 ### <a name="site-navigation"></a> Site navigation
 
@@ -207,6 +209,8 @@ and I have often forgotten to change it back.
 PyCharm also includes integration with git, 
 with git commands available as quick key combinations, 
 such as ctrl-k for commit, and shift-ctrl-k for push. 
+crtl-alt-a adds a file or directory to versioning. 
+That covers 99% of what I need in git.  
 
 ## Working with GitHub  
 
