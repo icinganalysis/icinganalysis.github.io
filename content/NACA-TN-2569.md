@@ -203,7 +203,7 @@ designed to cope with the maximum icing conditions anticipated. In
 general, these critical areas do not require a large percentage of the
 total heat requirements.
 
-![Figure 4. requency distribution of icing 
+![Figure 4. Frequency distribution of icing 
 observations for various increments of 
 temperature and pressure altitude. (Numbers 
 given indicate number of icing conditions 
