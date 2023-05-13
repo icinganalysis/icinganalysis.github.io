@@ -3,10 +3,12 @@ status: draft
 Date: 2023-04-22 12:00
 Tags: University of Michigan Airplane Icing Information Course  
 
+### _Thirteen lectures show the "state of the art" in 1953._  
+
 # University of Michigan Airplane Icing Information Course [^1]  
 
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. 
-Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).](/images/messinger/Figure1.png)  
+Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.](/images/messinger/Figure1.png)  
 _See Lecture No. 6, "Energy Exchanges During Icing", Messinger, Bernard L._   
 
 ## Summary  
@@ -15,8 +17,8 @@ Thirteen lectures show the "state of the art" in 1953.
 
 ## Key Points  
 
-1. Several lectures are extracts of earlier works, or were republished later.  
-2. This was almost an aircraft icing design guide.  
+1. This was the best aircraft icing design guide available at the time.  
+2. Several lectures are extracts of earlier works, or were republished later.  
 3. Selected lectures are reviewed.  
 
 ## Abstract  
@@ -37,13 +39,13 @@ Here is a listing of the lecture titles and authors
 9. "Design of Air Heated Intermittent De-Icers", Hauger, Harry H. Jr.  
 10. "Mechanical De-Icing Systems", Loughborough, D. L.  
 11. "The Design of Fluid Anti-Icing Systems", Smith, E. L.  
-12. "Meteorological Design Requirements for Icing Protection Systems", and "Note on the Flight Testing and Assessment of Icing Protection Systems" Fraser, Don   
-13. "Icing Simulation", Morrison, R. B., Nicholls, James A.
+12. "Meteorological Design Requirements for Icing Protection Systems", and "Note on the Flight Testing and Assessment of Icing Protection Systems", Fraser, Don   
+13. "Icing Simulation", Morrison, R. B., Nicholls, James A.  
 
 ## Discussion  
 
 The 13 lectures were an almost complete education on aircraft icing design, 
-for the time period, and about as much as could be packed into a one-week course.  
+for the time period, and about as much as could be packed into a one-week course. 
 
 This constituted the best [Icing Design Manual]({filename}Design%20Manuals.md) 
 available at the time.  
@@ -53,6 +55,13 @@ as many of the presenters were well-known at the time,
 several were from NACA or the National Research Council Canada, 
 some were from industry and were actively building the systems described, 
 and some authors (Eckert, Messinger) are still often cited.  
+
+The icing conditions are discussed to some degree in several lectures, 
+particularly Lecture 1 and Lecture 12a. 
+They show that icing conditions were still a matter of debate in 1953, 
+even though as we saw in the [Meteorology of Icing Clouds Thread](Meteorology.md), 
+all the major publications that went into the later Appendix C icing 
+regulation were available before 1953. 
 
 ### A precursor  
 
@@ -93,10 +102,10 @@ See [Design Manuals]({filename}Design%20Manuals.md) for more information.
 ### The printed course lectures  
 
 One print copy that I borrowed through inter-library loan had 
-all thirteen lectures in a large book and 
+all thirteen lectures in a large book, and it 
 had no introductory material, it simply started with Lecture No. 1. 
 (I speculate that there was some kind of introduction at the course,
-or at least an agenda, that is not included.)
+or at least an agenda, that is not included.) 
 
 From the front piece of Lecture No. 9 we learn that the course was 
 March 30 to April 3, 1953 
@@ -107,17 +116,18 @@ The compiled printing is 500+ pages.
 Some lectures are very information dense, 
 so I view five days as intense, "a drink out of a fire hose". 
 
-There are also errata sheets inserted for two of the lectures. 
+There are also errata sheets inserted for some lectures. 
 The errata sheets are printed differently (mimeograph rather than print), 
 so not all print copies may have the errata. 
 
 Another copy that I borrowed was the individual lectures separately stapled
 and collected in a box. It had errata sheets for some lectures, but
 they were missing for others. 
-(I had to borrow it more than once, 
-as there is too much to really study in a three-week loan.) 
 
-Both copies that I borrowed were in good condition
+I had to borrow print copies more than once, 
+as there is too much to really study in a three-week loan. 
+
+Both print copies that I borrowed were in good condition
 (they have not been used much in 70 years).  
 
 ### Copyright Status  
@@ -142,14 +152,15 @@ any time soon.
 Some lectures are recognizably extracts from other publications, 
 or were published later in part or in whole.  
 
-- Lecture No. 3, Tribus ([Tribus, Myron: A new method for calculating water-droplet trajectories about streamlined bodies. 1951.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7991/bad4036.0001.001.pdf?sequence=5))  
-- Lecture No. 5, Mickley (the later NACA-TN-3208 is much more extensive, 153 pages [!])  
-- Lecture No. 6, Messinger (Messinger, B. L.: [Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed]({filename}messinger.md). Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.)  
-- Lecture No. 7, Neel (later published as NACA-TN-3130)   
-- Lecture No. 8, Orr (Orr, J.L., Milsum, J.H. and Rush, C.K.: “Electro-Thermal De-Icing Systems: Their Design and Control”. NRC NAE Report LR-70, March 1953)  
-- Lecture No. 10, Loughborough ([Loughborough, D.L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the Slide 13 "Most practical de-icers I ever saw" figure above.]](https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf))    
-- Lecture No. 12a, Fraser ([Fraser, D.: “Meteorological Design Requirements for Icing Protection Systems”. NRC DME Report LR-049, March 1953.](https://nrc-publications.canada.ca/eng/view/ft/?id=5e455b30-e1ea-475d-bbbf-0531592d867d))  
-- Lecture No. 13, Morrison ([Nicholls, James Arthur, et al. Design of an icing wind tunnel. 1952.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/6805/bac9918.0001.001.pdf?sequence=5))  
+- Lecture No. 3, Tribus: Tribus, Myron: A new method for calculating water-droplet trajectories about streamlined bodies. 1951. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7991/bad4036.0001.001.pdf?sequence=5)  
+- Lecture No. 5, Mickley: the later NACA-TN-3208 is much more extensive, 153 pages [!] [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084056)  
+- Lecture No. 6, Messinger: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. [review]({filename}messinger.md)  
+- Lecture No. 7, Neel: later published as NACA-TN-3130 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068602) 
+- Lecture No. 8, Orr: Orr, J.L., Milsum, J.H. and Rush, C.K.: “Electro-Thermal De-Icing Systems: Their Design and Control”. NRC NAE Report LR-70, March 1953  
+- Lecture No. 10, Loughborough: Loughborough, D.L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34. [us.archive.org](https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf)  (Unfortunately, this does not include the Slide 13 ["Most practical de-icers I ever saw" figure]({filename}instructive%20illustrations.md).)  
+- Lecture No. 12a, Fraser: Fraser, D.: “Meteorological Design Requirements for Icing Protection Systems”. NRC DME Report LR-049, March 1953. [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/ft/?id=5e455b30-e1ea-475d-bbbf-0531592d867d)  
+- Lecture No. 12b, Fraser: Fraser, D.: “Note on the flight testing and assessment of icing protection systems”. NRC DME Report LR-050, March 1953. [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=2523bd38-26e6-4d8e-a7a1-529bd1b03b36) [Note that this has figures that are missing from print copies.]  
+- Lecture No. 13, Morrison: Nicholls, James Arthur, et al. Design of an icing wind tunnel. 1952.[lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/6805/bac9918.0001.001.pdf?sequence=5) 
 
 Lecture No. 2, "The Mechanics of Suspensions" by Edmond Brun, notes:  
 
@@ -166,8 +177,8 @@ provide an important link in the general studies of the Mechanics of Suspensions
 
 As Lecture No. 2 largely discusses impingement on cylinders, 
 you can find most of the information in 
-[Langmuir and Blodgett "Mathematical Investigation of Water Droplet Trajectories"
-]({filename}Mathematical Investigation of Water Droplet Trajectories.md) [^3].  
+Langmuir and Blodgett "Mathematical Investigation of Water Droplet Trajectories" [^3]. 
+[review]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
 
 For Lecture No. 4 by Eckert, it is a short summary of convective heat and mass 
 transfer analysis methods. You can find far more by Eckert in his well-known 
@@ -182,12 +193,15 @@ possibly because the similar publications get cited instead.
 
 ### Reviews  
 
-I selected two lectures to review:
+I selected two of the shorter lectures to review:  
 
-- Lecture No. 1, Supercooled Clouds  
-- Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing  
+- Lecture No. 1, Supercooled Clouds [review coming soon]  
+- Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing [review coming soon]  
+
+<!--
 - [Lecture No. 1, Supercooled Clouds]({filename}Vonnegut.md)  
 - [Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing]({filename}Fraser%20Note%20On%20Flight%20Testing.md)  
+-->
 
 ### Lectures citations  
 
@@ -230,7 +244,7 @@ decades later (Lecture No. 6 by Messinger most frequently).
 [^1]: University of Michigan. College of Engineering: Airplane icing information course. 
 Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. 
 [U of Michigan catalog listing](https://search.lib.umich.edu/catalog/record/990015261100106381)   
-[^2]: [Tribus, Myron: "Modern Icing Technology" 1952.](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
+[^2]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. 
 Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. 

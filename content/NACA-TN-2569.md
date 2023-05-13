@@ -27,7 +27,7 @@ designed for approximately the severest ice-collection rates expected."
 
 >SUMMARY  
 >
-Data from various sources on the observed values of meteorological 
+>Data from various sources on the observed values of meteorological 
 variables, liquid-water content, mean-effective droplet size, and temperature, 
 which are pertinent to aircraft icing, are summarized; and a
 method is proposed for the selection of design criterions for ice-protection 

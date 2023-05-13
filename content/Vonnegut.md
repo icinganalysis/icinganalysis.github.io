@@ -8,9 +8,11 @@ Tags: University of Michigan Airplane Icing Information Course, clouds, meteorol
 # SUPERCOOLED CLOUDS [^1]  
 
 ## Summary  
+
 Several aspect of icing clouds physics are discussed. 
 
 ## Key Points  
+
 1. Supercooling and nucleation rates are key to the formation of icing clouds.   
 2. Vapor pressure differences of liquid water and ice play a role.   
 3. Tips are given for recognizing supercooled clouds.  
@@ -22,7 +24,7 @@ This includes a theoretical understanding of the physics of icing clouds,
 but also practical tips, such as how to identify supercooled icing clouds in flight.  
 
 While this is not a long lecture (11 pages), 
-I left out below for brevity items such as the artificial seeding of clouds, 
+I left out of this review for brevity items such as the artificial seeding of clouds, 
 which is only tangentially related to aircraft icing, 
 although I will briefly discuss that here. 
 
@@ -38,12 +40,15 @@ The discovery about silver iodide seeding is dated as 1946.
 Vonnegut is credited with hundreds of publications before 1953 [^2] (and many more after) 
 so Vonnegut was well known in 1953 when he presented this lecture. 
 
-Some may recall that a form of ice "ice-nine" was a science fiction plot element in the novel Cat's Cradle [^3].  
+Some may recall that a form of ice "ice-nine" 
+was a science fiction plot element in the novel Cat's Cradle [^3], 
+but there will be no spoilers here.  
+
 > "There are several ways," Dr. Breed said to me, "in which certain liquids can crystallize - 
 > can freeze - several ways in which their atoms can stack and lock in an orderly, rigid way."  
 
 (One can only imagine the conversations the brothers had to inspire "ice-nine". 
-There is a form of ice, [Ice IX](https://en.wikipedia.org/wiki/Ice_IX), 
+There is a real form of ice, [Ice IX](https://en.wikipedia.org/wiki/Ice_IX), 
 but it does not have the properties of ice-nine in the novel.)  
 
 Curiously, Irving Langmuir 
@@ -52,10 +57,10 @@ Curiously, Irving Langmuir
 is sometimes credited with the discovery about silver iodide. 
 However, Langmuir's own writing credits Vonnegut. 
 Langmuir and Vonnegut at times worked together at the GE research labs. 
-Langmuir later conducted much research into cloud seeding.
-(You can learn more of Langmuir's and Vonnegut's collaborations at [^4].)
+Langmuir later conducted much research into cloud seeding. 
+You can learn more of Langmuir's and Vonnegut's collaborations at [^4].
 
-On to the lecture, which begins with "Ice Clouds and Supercooled Clouds"
+On to the lecture, which begins with "Ice Clouds and Supercooled Clouds" 
 (it has no other introductory material).  
 
 ### Ice Clouds and Supercooled Clouds  
@@ -114,27 +119,6 @@ is known as spontaneous or homogeneous nucleation.
 
 ### Heterogeneous Nucleation and Aircraft Icing  
 
-> The initiation of crystal growth, or nucleation, of supercooled liquids 
-becomes much more complicated when foreign substances are present. 
-In general, the presence of the walls of a container 
-or suspended solid particles increases the likelihood 
-of nucleation at any temperature and, therefore, 
-reduces the extent to which a liquid can be supercooled. 
-The effectiveness of a foreign surface in starting crystal growth 
-appears to be greater the more closely the crystal structure 
-of the surface resembles that of the crystal phase which must be started. 
-In the case of supercooled water, silver iodide 7, whose crystal structure 
-is very close to that of ice, appears to be one of 
-the most effective nucleating agents. 
-Practically all solid surfaces increase the nucleation 
-of ice formation to a greater or lesser degree. 
-The initiation of the freezing of supercooled water in contact 
-with a solid surface appears to be greatly increased 
-by some kinds of mechanical agitation. 
-For example, rubbing two surfaces together in supercooled water 
-can cause crystallization at a temperature of only minus one or two degrees 
-centigrade.  
-> 
 > An airplane, flying through a supercooled cloud, 
 collides with the supercooled cloud droplets 
 and becomes wet with a thin continuous layer of supercooled water. 
@@ -234,38 +218,6 @@ and in specially purified atmospheres indicate that at -40°C.
 the rate of spontaneous nucleation becomes enormously rapid 
 and supercooled water cannot exist. 
 
-...
-
-> Despite these apparent contradictions, 
-the author feels that the great bulk of present data makes 
-it safe to assume generally that supercooled clouds do not exist below -40°C. 
-When clouds are carried to this temperature or form at this temperature, 
-they are probably converted to ice almost instantly. 
-These crystals can then fall into and mix with warmer portions 
-of the cloud which may be below. 
-Although it is not unusual to have the atmosphere sufficiently clean 
-that supercooled clouds can exist down to -40°C., 
-it is usually found that there are natural particles 
-in the atmosphere in small concentrations 
-that can cause occasional ice crystals to form in clouds 
-at temperatures as high as -12°C. 
-
-...
-
-> This theory, now generally accepted, 
-explains the formation of snowflakes on the basis 
-of the evaporation of supercooled cloud droplets 
-and the condensation of the moisture on relatively fewer ice crystals. 
-In addition to the mechanisms outlined above, 
-ice crystals frequently enter supercooled clouds by falling down 
-from ice crystal clouds at high altitudes or by mixing from nearby ice crystal clouds. 
-Supercooled clouds can, of course, dissipate without any ice formation process 
-in the same way that clouds do above freezing. 
-For example, the cloud can dissipate by evaporation in warm or dry air, 
-it is probable that it can also dissipate through the formation 
-of rain or drizzle by one of several different mechanisms of rain formation 
-which do not involve the formation of ice crystals.  
-
 ### Recognition of Ice Clouds and Supercooled Clouds  
 
 > Supercooled clouds look very much the same as ordinary non-supercooled clouds. 
@@ -342,11 +294,45 @@ conditions can sometimes exist over wide areas for many hours
 without dissipating as snow. The measurements made by Lewis (16) and others show that 
 the drop diameter in both stratus and cumulus type supercooled clouds ranges from 
 a few microns to about 30 microns with cumulus clouds on the average having drops 
-a little larger than those in stratus. 
+a little larger than those in stratus.  
+
+## Conclusions  
+
+A few of the observations are dated, 
+but in general this lecture holds up well after 70 years. 
+
+If you want up-to-date information, the University of Kansas 
+"Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" 
+course offers much more information in this vein. 
+This course has been offered for decades (I think it was 1993 when I attended), 
+and has been a "rite of passage" for many of us working in aircraft icing 
+(as I imagine the University of Michigan Airplane Icing Information Course may have been 
+circa 1953). 
+
+## Citations  
+
+I did not find citations of this lecture.  
+
+As we saw above, Vonnegut's works has been cited hundreds of times, 
+and this short publication may have received little notice 
+beyond the attendees of the Airplane Icing Information Course.  
+
+Vonnegut cites 19 references, reference 8 is a NACA publication:  
+
+- Dorsch, R. G., and Hacker, P. T. : Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.  
+
+There is reference 16 by William Lewis, who wrote several of the NACA publications:  
+
+- Lewis, William: Compendium of Meteorology, American Meteorological Society, pp. 1197, 1023, 1951.  
+
+And reference 17 by Irving Langmuir:  
+
+- Langmuir, Irving: Project Cirrus Occasional No. 23, June 1, 1950.  
 
 ## Notes  
 
-[^1]: Vonnegut, Bernard: "Supercooled Clouds" Lecture No. 1 in University of Michigan, College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381    
+[^1]: Vonnegut, Bernard: "Supercooled Clouds" Lecture No. 1 in University of Michigan, College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)    
 [^2]: [scholar.google.com](https://scholar.google.com/scholar?q=b+vonnegut&hl=en&as_sdt=0%2C5&as_ylo=1919&as_yhi=1952)  
 [^3]: Vonnegut, Kurt: "Cat's Cradle", Holt, Rinehart and Winston, 1963.  
-[^4]: Langmuir Laboratory for Atmospheric Research [Storms Above the Desert](http://langmuir.nmt.edu/Storms_Above/StormsAboveCh3.html)  
+[^4]: Langmuir Laboratory for Atmospheric Research, Storms Above the Desert, [langmuir.nmt.edu](http://langmuir.nmt.edu/Storms_Above/StormsAboveCh3.html)  
+[^5]: Course detail: Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification, [www.enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060)  
