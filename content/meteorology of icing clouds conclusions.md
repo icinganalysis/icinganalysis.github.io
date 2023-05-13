@@ -78,7 +78,7 @@ to be expected concurrently with continuous maximum LWCs of 0.8 g/m3. The
 authors then point out that LWCs of 0.5 g/m3 along with MVDs of 25 μm should
 be considered as a definite probability in layer clouds too. These
 conclusions, coupled with a recollection (page 7 of TN-1393) that severe icing
-was observed on the windshield of their C-46 research aircraft with only O.15
+was observed on the windshield of their C-46 research aircraft with only 0.15
 g/m^3 of LWC when the MVD was an unusually large 50 μm, apparently led the
 author to stress the potential importance of the larger MVDs because of the
 greater collection efficiencies associated with them.  
@@ -168,6 +168,20 @@ The distance traveled during a 45-minute hold for a large transport
 would be much greater than 17.4 nautical miles, 
 resulting in a Liquid Water Content Factor of less than 1, 
 but the recommendation above is to use a value of 1 anyway.  
+
+### Drop size distributions  
+
+The accuracy of the multicylinder instrument for determining drop size distribution was 
+questioned several times (see, for example, [NACA-TN-1904.md]({filename}NACA-TN-1904.md)).
+
+I have not seen direct comparisons between a multicylinder and more current instruments 
+that can provided detailed drop size spectrum data.  
+
+The multicylinder instrument drop size distribution determination depends on natural icing 
+distributions to be something like the idealized Langmuir drop size distributions. 
+For at least some cases, this is true. See [Conclusions of Icing on Cylinders]({filename}cylinder_thread_wrap_up.md#drop_size_distributions).  
+
+Nonetheless, advisory material still suggests the use of Langmuir distributions [^6].   
 
 ### NACA-TN-1855 suggested research tasks  
 

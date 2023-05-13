@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Using Python, Pelican, and PyCharm as my publishing tools</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="Summary I use Markdown, Pelican, PyCharm, git and GitHub in my web publishing tool chain. Introduction In The Old Days, one might edit html files..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                    <li><a href="/archives.html">Latest Posts</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/using-python-pelican-and-pycharm-as-my-publishing-tools.html" rel="bookmark"
+           title="Permalink to Using Python, Pelican, and PyCharm as my publishing tools">Using Python, Pelican, and PyCharm as my publishing tools</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-04-29T12:00:00-07:00">
+                Published: Sat 29 April 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-05-13T10:25:00.865447-07:00">
+                Updated: Sat 13 May 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<!---->
+
+</footer><!-- /.post-info -->      <h2>Summary</h2>
+<p>I use Markdown, Pelican, PyCharm, git and GitHub in my web publishing tool chain.</p>
+<h2>Introduction</h2>
+<p>In The Old Days, one might edit html files on a simple text editor, 
+ftp them to a host site, and then view the rendered results. 
+You can still do that if you really want to. 
+One did not need to be concerned with nuances such as CSS and 
+SSL certificates. </p>
+<p>There are now many other options. 
+Below is the tool chain that I have adopted for blogging. </p>
+<p>I have modest requirements. 
+My blog gets a few hundred hits a week, sometimes a few thousand. 
+I do not need interactive features like sign-ups or comments
+(I get feed back through other social media). 
+I am not interested in SEO (search engine optimization). 
+I do not want to track users and set cookies. 
+I do not want advertisements on my site. 
+Also, I do not plan to monetize my blog. 
+If I had different needs, I might have made other choices. </p>
+<h2><a href="https://daringfireball.net/projects/markdown/">Markdown</a></h2>
+<p>Posts are written in the Markdown syntax. 
+This saves me from having to deal with raw HTML. 
+The posts are also easily human-readable in the Markdown format
+(where html is barely readable). 
+Included is a Markdown table formatter that I find useful. </p>
+<p>As an example, the header above in Markdown:  </p>
+<div class="highlight"><pre><span></span><code><span class="gu">## [Markdown](https://daringfireball.net/projects/markdown/)</span>
+</code></pre></div>
+
+<p>This gets processed by Pelican (see below) as html:  </p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://daringfireball.net/projects/markdown/&quot;</span><span class="p">&gt;</span>Markdown<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+</code></pre></div>
+
+<h2><a href="/drafts/using-pelican-as-my-static-website-generator.html">Pelican</a></h2>
+<p>I use the pelican static website generator.<br>
+<a href="https://blog.getpelican.com/">blog.getpelican.com</a>  </p>
+<p>I selected it partly because it is written in python, and I was already familiar with python. 
+In addition to processing Markdown as shown above, 
+it integrates the separate webpages in to a navigable whole. </p>
+<p>Static sites offer many advantages. They are written mainly in HTML, with some CSS styling. 
+This enables many low or no cost hosting options. 
+However, they do not offer interactive features such as sign-ups and comments. </p>
+<h3>Metadata</h3>
+<p>In addition to the Markdown content, a file has metadata that 
+helps Pelican generate the website navigation. </p>
+<p>"Title:" gives the post a filename.html 
+(indirectly, as the "Title:" gets sluggified to the filename). 
+Optionally, you can define the slug directly, such as "Slug: my-super-post". 
+Note that the slug must be unique, or you will get errors when the static site is built. </p>
+<p>A "Date:" is the publishing date. 
+There are also "Tags:", 
+and a "Status:". 
+A post starts with "Status: draft", and that is changed to 
+"Status: published" when a post is ready to publish 
+(or delete the status line, depending on publishconf.py settings).  </p>
+<h3><a name="site-navigation"></a> Site navigation</h3>
+<p>Pelican assumes that you want a chronological blog. 
+I have added pages that provide navigation other than chronological 
+<a href="https://icinganalysis.com/site-navigation-and-suggested-reading-order.html">Site Navigation and Suggested Reading Order</a>. 
+I also set my introduction page to be index.html (save_as: index.html), 
+otherwise pelican defaults to the generated blog.html.  </p>
+<p>I set the menu items in the publishconf.py file:  </p>
+<div class="highlight"><pre><span></span><code><span class="n">MENUITEMS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="p">(</span><span class="s1">&#39;Home&#39;</span><span class="p">,</span> <span class="s1">&#39;/index.html&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;Suggested Reading Order&#39;</span><span class="p">,</span> <span class="s1">&#39;/site-navigation-and-suggested-reading-order.html&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;Latest Posts&#39;</span><span class="p">,</span> <span class="s1">&#39;/archives.html&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;About&#39;</span><span class="p">,</span> <span class="s1">&#39;/about.html&#39;</span><span class="p">),</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Some flavors of Markdown let you use headers as internal link anchors</p>
+<div class="highlight"><pre><span></span><code><span class="gu">### Metadata  </span>
+
+[<span class="nt">link to Metadata</span>](<span class="na">#metadata</span>)
+</code></pre></div>
+
+<blockquote>
+<p><a href="#metadata">link to Metadata</a>  </p>
+</blockquote>
+<p>But with the flavor of Markdown that comes with Pelican, one needs to put an anchor in the header:  </p>
+<div class="highlight"><pre><span></span><code><span class="gu">### &lt;a name=&quot;site-navigation&quot;&gt;&lt;/a&gt; Site navigation</span>
+
+[<span class="nt">link to Site Navigation</span>](<span class="na">#site-navigation</span>)
+</code></pre></div>
+
+<blockquote>
+<p><a href="#site-navigation">link to Site Navigation</a>  </p>
+</blockquote>
+<p>Anchor links also work between pages:  </p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">Conclusions of Icing on Cylinders Drop Size Distributions</span>](<span class="na">{filename}cylinder_thread_wrap_up.md#drop_size_distributions</span>)
+</code></pre></div>
+
+<blockquote>
+<p><a href="/conclusions-of-the-cylinder-thread.html#drop_size_distributions">Conclusions of Icing on Cylinders Drop Size Distributions</a>  </p>
+</blockquote>
+<h2>PyCharm</h2>
+<p>I use the PyCharm IDE (interactive development environment) as a markdown editor, 
+as an interface to git, and for pushing to GitHub. 
+I was already familiar with the PyCharm editor and git, 
+which made the transitions to blog editing easier. 
+If I was not already familiar, I might have made another choice. </p>
+<p>Here are some nuances and limitations I have noticed. </p>
+<h3>Markdown in PyCharm</h3>
+<p>There is support for Markdown files and editing. 
+A preview of the rendered page is available. </p>
+<p>However, there are several flavors of Markdown, and the flavor used for the 
+preview is slightly different from the flavor used by Pelican, 
+the static site generator that I use. 
+Pelican can provide a local server, so you can see what the rendered files in 
+a browser window. The preview and the browser view may not be identical. </p>
+<h3>Pelican path considerations</h3>
+<p>Pelican generally integrates well PyCharm, but there are some considerations. </p>
+<p>To create a link to another page of the website, one includes 
+{filename} in the path: </p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">Welcome</span>](<span class="na">{filename}introduction.md</span>)  
+</code></pre></div>
+
+<blockquote>
+<p><a href="/">Welcome</a>  </p>
+</blockquote>
+<p>This allows Pelican to resolve the path, whether the 
+page has "status: draft" or otherwise. </p>
+<p>PyCharm attempts to create links for internal pages by simply 
+copying the filename2.md from the "Project" view, and pasting 
+it in filename1.md. However, it does not include the {filename} 
+part, and I have made many publishing errors due to this. </p>
+<p>One advantage of the copy-and-paste method is that PyCharm converts 
+characters to a web-portable format. Characters such as space " " 
+get converted to "%20". For GitHub Pages hosting (see below) the 
+portable format has not been an issue, 
+but it might be for other hosting options. </p>
+<h3>Images and drafts</h3>
+<p>Drafts are valuable to see what a post will look like before it is published. 
+Either python or Pelican can provide a local server. 
+Pelican save pages with "status: draft" in a /docs/drafts folder. </p>
+<p>One nuance for viewing draft posts is how the path to images is defined. </p>
+<div class="highlight"><pre><span></span><code>![airplane_banner_colorized](images%2Fairplane_banner_colorized.png)
+</code></pre></div>
+
+<p><img alt="airplane_banner_colorized" src="images%2Fairplane_banner_colorized.png"></p>
+<div class="highlight"><pre><span></span><code>![airplane_banner_colorized2](/images%2Fairplane_banner_colorized.png)
+</code></pre></div>
+
+<p><img alt="airplane_banner_colorized2" src="/images%2Fairplane_banner_colorized.png"></p>
+<p>Depending on how the post is viewed, an initial '/' affects whether the 
+image is reachable:  </p>
+<table>
+<thead>
+<tr>
+<th>Production posts</th>
+<th>images</th>
+<th>/images</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Production server from /</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Draft posts</th>
+<th>images</th>
+<th>/images</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Production server from /drafts</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>local server</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>PyCharm preview</td>
+<td>yes</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<p>I generally do not verify images in the preview. 
+Sometimes, I do take a peak in the PyCharm preview by temporarily adding /images, 
+but this is not a "best practice", as it does not work for drafts on the production server, 
+and I have often forgotten to change it back. </p>
+<h2>Git</h2>
+<p>PyCharm also includes integration with git, 
+with git commands available as quick key combinations, 
+such as ctrl-k for commit, and shift-ctrl-k for push. </p>
+<h2>Working with GitHub</h2>
+<p>GitHub serves several functions. 
+It is a central repository that allows one to freely share code. 
+It also provides a server for static websites, 
+<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub pages</a>, 
+such as this one <a href="https://icinganalysis.github.io">icinganalysis.github.io</a>. 
+It also integrates well with other website servers, such as the mirror site 
+<a href="https://icinganalysis.com/">icinganalysis.com</a>. </p>
+<p>The GitHub Pages service provides several details, 
+such as a default URL (icinganalysis.github.io), 
+and an SSL certificate for https service. </p>
+<p>Once credentials are set up, one can push to GitHub with ctrl-shift-k. 
+Website changes are usually visibly to the world within about four minutes. </p>
+<p>GitHub can also process Markdown format files using <a href="https://jekyllrb.com/">Jekyll</a>. 
+However, I have turned that off by placing a .nojekyll file in the directory. </p>
+<p>While I have not used it, GitHub Pages offers an option to use a custom URL
+(see "Why have a mirror site?" below).  </p>
+<p>Neither the local server nor the PyCharm preview can check if a file 
+is properly pushed to GitHub 
+(although PyCharm issues a notice if a push fails, 
+it does not check the path considerations noted above). 
+So, be sure to check the production server view. </p>
+<p>It is not uncommon (about 25% of the time) that when I push changes to 
+GitHub that I get an error message such as:  </p>
+<blockquote>
+<p>[icinganalysis/icinganalysis.github.io] Run cancelled: pages build and deployment - gh-pages  </p>
+</blockquote>
+<p>There is usually no fault that I can find in my files, 
+so it appears to be GitHub load related (the free tier of service may not get prioritized). 
+I can manually re-run the deployment from my GitHub account, and the website updates properly. </p>
+<h2>Why have a mirror site?</h2>
+<p>As GitHub has a no-cost tier of service, one may wonder why a mirror site is desirable.  </p>
+<p>One reason is to have a custom URL (although GitHub Pages offers an option to use one), 
+<a href="https://icinganalysis.com/">icinganalysis.com</a>, 
+which is stable if I choose to change the hosting site. </p>
+<p>Another is that while GitHub currently has a no-cost account level that meet my needs, 
+that may not continue forever. 
+By having a mirror site, I have already worked out how to host a site elsewhere, 
+and can easily react to changes.  </p>
+<p>I selected <a href="https://cloud.digitalocean.com/login">DigitalOcean</a> as the host. 
+DigitalOcean also provides the SSL certificate. 
+I partly chose it because I was already familiar with it. 
+However, there are many other, comparable hosts sites. 
+I "own" the URL (not really, one rents one with yearly renewal fees), 
+so I can host it wherever is convenient. </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a href="https://historians.social/@icinganalysis">mastodon</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies. <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+                copyright 2022-2023 by Donald Cook
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

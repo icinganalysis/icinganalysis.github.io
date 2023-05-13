@@ -219,7 +219,7 @@ relative effects on water catch.
 
 ![Comparison of distributions](images/naca-tn-3338/distributions.png)
 
-### Natural drop size distributions
+### <a name="drop_size_distributions"></a> Natural drop size distributions
 
 We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 [^7]. 
 (Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 

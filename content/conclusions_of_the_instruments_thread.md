@@ -198,7 +198,7 @@ Vol. 63, 1959.
 
 It would appear that the use of the multicylinder was waning by 1969.  
 
-####DOT/FAA/CT-83/21, "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing" (1983) [^13]  
+#### <a name="ct_83_21"></a> DOT/FAA/CT-83/21, "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing" (1983) [^13]  
 
 This had comments (in 1983) about the multicylinder, rotating-disk probe, and cloud indicator:    
 > In 1952, after the NACA researchers became aware of the seriousness
