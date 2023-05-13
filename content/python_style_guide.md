@@ -1,15 +1,14 @@
 title: Python coding style guide  
 Date: 2022-04-21 13:00  
 category: Python  
-tags: python  
+tags: python tools 
 
 ![Python logo](images/python-logo-master-v3-TM.png)
 
 For the [Thermodynamics tread]({filename}thermodynamics.md) and on, I will be using this style guide. 
 Previous code may eventually be upgraded to this.
 
-
-#Python target version:  
+# Python target version:  
 
 Target python version 3.7, and the corresponding [Anaconda stack](https://www.anaconda.com/) (version 2021-11). 
 Avoid modules with deprecation warnings (there are not many of them).
@@ -20,7 +19,7 @@ The goal is to be applicable for all 3.7+ uses.
 
 Code should be portable, and not use operating system specific functions. 
 
-#General guidelines
+# General guidelines
 
 - simple
     - use simple functions over classes
@@ -60,17 +59,17 @@ Code should be portable, and not use operating system specific functions.
     - limit file lengths to less than 1000 lines of code
         - while number of lines of code is a crude measure of complexity, it is adequate in many cases
 
-#Version control
+# Version control
 
 [Git](https://git-scm.com/) is used. 
 
 Code is available at [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)
 
-#License
+# License
 
 The code is available under the [LGPL license](https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE)
 
-#Verification
+# Verification
 
 There are not yet any unit tests. They would probably be good idea. 
 
@@ -79,14 +78,14 @@ At the moment, the verification is out-sourced to the validation
 However, this may miss edge-cases, 
 and coincidences where one error offsets another error.
 
-#Validation  
+# Validation  
 
 Code will have a comparison to test and NACA analysis data, 
 which illustrate the degree of agreement. 
  
 Users may determine if the degree of agreement is adequate for their use case. 
 
-#The Zen of Python [https://peps.python.org/pep-0020/](https://peps.python.org/pep-0020/)
+# The Zen of Python [https://peps.python.org/pep-0020/](https://peps.python.org/pep-0020/)
 
 > Beautiful is better than ugly.  
 Explicit is better than implicit.  
