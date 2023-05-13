@@ -1,5 +1,5 @@
 Title: Using Python, Pelican, and PyCharm as my publishing tools  
-Date: 2023-04-29 12:00  
+Date: 2023-05-13 12:00  
 status: draft  
 
 ## Summary  
