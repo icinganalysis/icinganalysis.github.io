@@ -15,11 +15,12 @@ superimposed on frequency distribution of icing observations](/images%2FNACA-TN-
 By allowing some ice to accumulate in severe icing conditions, the peak energy requirements for ice protection can be reduced.  
 
 ## Key Points  
-1. "A total of 305 traverses of cumuliform clouds by P-61C airplanes were made in icing conditions,
+1. The altitude and temperature boundaries for Continuous Maximum Icing are establish that are later used in Appendix C.  
+2. "A total of 305 traverses of cumuliform clouds by P-61C airplanes were made in icing conditions,
 and on no occasion did ice accumulate before the end of a traverse to
 such an extent as to make safe flight impossible."  
-2. "the heat required for protection for this [severest] situation is several times that required for the most probable icing condition."  
-3. "Ice-protection equipment for some critical
+3. "the heat required for protection for this [severest] situation is several times that required for the most probable icing condition."  
+4. "Ice-protection equipment for some critical
 aircraft components, such as turbine-engine inlets, should, however, be
 designed for approximately the severest ice-collection rates expected."  
 
@@ -207,6 +208,12 @@ observations for various increments of
 temperature and pressure altitude. (Numbers 
 given indicate number of icing conditions 
 observed with these conditions.)](/images%2FNACA-TN-2569%2FFigure%204.png)  
+
+The boundaries implied on Figure 4 eventually become the boundaries of 
+Continuous Maximum Icing in Figure 2 of Appendix C [^2]. 
+Note that NACA-TN-2569 is cited on the figure:  
+
+![Appendix C Figure 2.png](/images%2FAppendix%20C%20Figure%202.png)
 
 >Extent of Icing Condition  
 >
