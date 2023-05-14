@@ -90,12 +90,12 @@ covered one of the most cited icing publications of all time
 
 Four topic threads had Conclusions posts that summarized the thread, 
 and traced uses to the current era.  
->- [Conclusions of the Icing on Cylinders Thread]({filename}cylinder_thread_wrap_up.md)  
->- [Conclusions of the Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md)  
->- [Conclusions of the Ice Shapes and Their Effects Thread]({filename}conclusions_of_the_ice_shapes_thread.md)  
->- [Conclusions of the Meteorological Instruments Thread]({filename}conclusions_of_the_instruments_thread.md)  
+>- [Conclusions of the Icing on Cylinders Thread]({filename}Conclusions of the Cylinder Thread.md)  
+>- [Conclusions of the Thermodynamics Thread]({filename}Conclusions of the Icing Thermodynamics Thread.md)  
+>- [Conclusions of the Ice Shapes and Their Effects Thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
+>- [Conclusions of the Meteorological Instruments Thread]({filename}Conclusions of the Meteorological Instruments Thread.md)  
 
-The [Icing Wind Tunnel Test Thread]({filename}icing_wind_tunnel_test.md) 
+The [Icing Wind Tunnel Test Thread]({filename}Icing Wind Tunnel Test Thread.md) 
 covered something that the 132 publications did not directly include, 
 the NACA-era Lewis Icing Research Tunnel (IRT) and other tunnels, and their uses. 
 This included 11 reviews, several from the post-NACA era:

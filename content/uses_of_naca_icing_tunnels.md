@@ -177,7 +177,7 @@ it contains data from a test conducted in 1945.
 ## Related  
 
 The icing water spray calibration of the IRT will be discussed in the next post 
-in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md).  
+in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.md).  
 
 ## Notes  
 

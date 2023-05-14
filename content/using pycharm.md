@@ -114,9 +114,9 @@ one needs fall back to html and put an anchor in the header:
 
 Anchor links also work between pages:  
 ```markdown
-[Conclusions of Icing on Cylinders Drop Size Distributions]({filename}cylinder_thread_wrap_up.md#drop_size_distributions)
+[Conclusions of Icing on Cylinders Drop Size Distributions]({filename}Conclusions of the Cylinder Thread.md#drop_size_distributions)
 ```
-> [Conclusions of Icing on Cylinders Drop Size Distributions]({filename}cylinder_thread_wrap_up.md#drop_size_distributions)  
+> [Conclusions of Icing on Cylinders Drop Size Distributions]({filename}Conclusions of the Cylinder Thread.md#drop_size_distributions)  
 
 ## PyCharm 
 

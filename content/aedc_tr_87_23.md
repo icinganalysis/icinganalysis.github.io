@@ -65,7 +65,7 @@ calculated freezing fraction.](images/aedc_tr_87_23/Figure 8.png)
 
 This suggests that for this airfoil and this range of conditions, 
 there is a peak effect near a stagnation line freezing fraction of 0.3
-[see also the discussion in [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}conclusions_of_the_ice_shapes_thread.md)]. 
+[see also the discussion in [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)]. 
 Slightly different values of freezing fraction would put one in the regions to either side of steep slopes,
 where a small difference in freezing fraction equals a large difference in Cd. 
 Thus it is hard to determine a universal "close enough" tolerance on freezing fraction 

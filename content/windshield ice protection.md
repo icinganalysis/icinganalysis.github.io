@@ -64,7 +64,7 @@ tests of the electrically heated model were made
 in the N.A.C.A. 7- by 3-foot ice tunnel. 
 
 We saw the N.A.C.A. 7- by 3-foot ice tunnel 
-in the [Icing Wind Tunnel Test Thread]({filename}icing_wind_tunnel_test.md) 
+in the [Icing Wind Tunnel Test Thread]({filename}Icing Wind Tunnel Test Thread.md) 
 (not to be confused with the later NACA [Cleveland] Icing Research Tunnel).  
 
 >Electrically Heated Tunnel Model  

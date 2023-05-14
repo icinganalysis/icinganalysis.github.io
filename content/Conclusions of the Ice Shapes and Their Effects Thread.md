@@ -82,7 +82,7 @@ From Messinger (equations re-arranged), we also see a water catch rate and a tem
     n = ((hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * cpw * (ts - ta)) 
           -(hc * (r * u**2 / 2 / cp))-(mw * (u**2 / 2))) / (Lf * mw)
 
-In the [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
+In the [Conclusions of the Icing Thermodynamics Thread]({filename}Conclusions of the Icing Thermodynamics Thread.md) 
 it was noted that 
 [NASA/CR-2005-213852](https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf)  
 treated the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature 
@@ -125,7 +125,7 @@ I view this as further validation of Uwe von Glahn's assertion that
 
 #### AEDC-TR-87-23 [^5]
 
-AEDC-TR-87-23 (which we will review in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md)) 
+AEDC-TR-87-23 (which we will review in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md)) 
 used the drag coefficient Cd as an ice shape similarity indicator
 (and skipped over the ice shape details):  
 
@@ -152,13 +152,13 @@ are aerodynamically meaningful.
 
 ### Comparison of NASA-TM-83556 [^6] to LEWICE2D [^7] and [NACA-TR-446]({filename}NACA-TR-446.md)  
 
-In the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md) 
-and [Conclusions of the Icing Thermodynamics Thread]({filename}thermodynamics_thread_wrap_up.md) 
+In the [Conclusions of the Cylinder Thread]({filename}Conclusions of the Cylinder Thread.md) 
+and [Conclusions of the Icing Thermodynamics Thread]({filename}Conclusions of the Icing Thermodynamics Thread.md) 
 comparisons to LEWICE 2D were made. 
 
 We will do so again here, using data from NASA-TM-83556 where 
 the drag due to ice shapes was measured. 
-(We will review this data in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md)).
+(We will review this data in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md)).
 Fortunately, a NACA0012 airfoil was used, as was used in NACA-TR-446. 
 There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and NACA-TR-446 (3.1 x10^6).
 The data is at an angle of attack of 4 degrees,
@@ -309,7 +309,7 @@ However, the validation report [^17] used a modified definition for theta:
 ## Related  
 
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
-We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md). 
+We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md). 
 
 The next thread in the NACA review series is the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
 

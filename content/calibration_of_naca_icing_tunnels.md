@@ -58,7 +58,7 @@ If nozzle is raised, large drops will strike model, giving glaze ice.
 ](images/naca-tn-712/Figure 1.png)  
 
 [There will be a discussion of this figure when we get to "Large Drop Icing" 
-in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md)]
+in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.md)]
 
 >The range of control over the formation of ice was
 such that a simulation of all typical ice formations
@@ -182,7 +182,7 @@ This figure is from a presentation by William Lewis [^5].
 drop diameter in icing clouds.](images/william_lewis_1947/Figure 3.png)  
 
 This had advanced by 1949 to something close to our current understanding. 
-As mentioned in the [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
+As mentioned in the [Conclusions of the Cylinder Thread]({filename}Conclusions of the Cylinder Thread.md), 
 the current icing regulations environment definition was largely determined by a few NACA publications, 
 NACA-TN-1855 [^6] being one of them. 
 Readers may recognize the values of "II-M Intermittent Maximum"

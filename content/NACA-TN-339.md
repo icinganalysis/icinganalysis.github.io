@@ -322,7 +322,7 @@ and then test at a larger scale facility.
 However, there are challenges, 
 particularly if one wishes to scale results up to a larger scale 
 (without larger scale tests). 
-We will cover some of those in a later post in the [Icing Wind Tunnel Test thread]({filename}icing_wind_tunnel_test.md). 
+We will cover some of those in a later post in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.md). 
 
 ## Citations  
 

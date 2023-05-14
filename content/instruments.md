@@ -58,7 +58,7 @@ See also [Icing on cylinders]({filename}Icing on Cylinders.md), and
 ### [Modified pressure probe]({filename}modified pressure probe.md)    
 >- NACA-RM-E51E16  
 
-### [Conclusions of NACA Icing Instruments]({filename}conclusions_of_the_instruments_thread.md)  
+### [Conclusions of NACA Icing Instruments]({filename}Conclusions of the Meteorological Instruments Thread.md)  
 
 ### _Possible additions_  
 

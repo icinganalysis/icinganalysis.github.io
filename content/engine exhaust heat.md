@@ -171,7 +171,7 @@ as we shall see.
 ## NACA-TN-712 [^2]  
 
 We saw some of NACA-TN-712 previously in the 
-[Icing Wind Tunnel Thread]({filename}icing_wind_tunnel_test.md).  
+[Icing Wind Tunnel Thread]({filename}Icing Wind Tunnel Test Thread.md).  
 Here, we will discuss the ice protection aspects. 
 
 >SUMMARY

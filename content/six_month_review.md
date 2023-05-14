@@ -174,7 +174,7 @@ Again, I thank my readers.
 
 I plan to continue posting.
 
-For the upcoming [Icing Wind Tunnels Test Thread]({filename}icing_wind_tunnel_test.md) 
+For the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md) 
 I will be trying something a little different, 
 grouping several publications into a single topic review, 
 and including more post NACA-era information. 

@@ -44,7 +44,7 @@ the current "Appendix C" icing certification standard [^2].
 
 [^3]  
 
-[As we saw in ["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md), 
+[As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions of the Cylinder Thread.md), 
 it is not entirely clear where this figure originally came from.]  
 
 The instruments from the individual NACA publications were:  
@@ -294,7 +294,7 @@ Significant amounts of airline flight icing data were obtained.
 However, questions about the calibration apparently kept that data 
 from wide use, and the data does not appear to have influenced the Appendix C regulations. 
 
-As we saw in ["Conclusions of the Cylinder Thread"]({filename}cylinder_thread_wrap_up.md), 
+As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions of the Cylinder Thread.md), 
 cylinder instruments are still used today (although not so much the rotating multicylinder).  
 
 ## Related  

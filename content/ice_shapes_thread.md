@@ -44,7 +44,7 @@ There are additional publications on ice shapes for deicing systems and propelle
 ### [Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
 >Glaze ice shape correlations for two commercial aircraft airfoils are developed.
 
-### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}conclusions_of_the_ice_shapes_thread.md)  
+### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
 
 ## Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  

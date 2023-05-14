@@ -1,4 +1,4 @@
-Title: Conclusions of the Meteorology Thread    
+Title: Conclusions of the Meteorology of Icing Clouds Thread    
 status: draft  
 Date: 2023-05-22 12:00  
 Category: NACA  
@@ -27,14 +27,14 @@ direct influence on the current icing regulations.
 
 ### Icing Regulations and NACA publications  
 
-As we saw in the [Conclusions Meteorological Instruments Thread]({filename}conclusions_of_the_instruments_thread.md),
+As we saw in the [Conclusions Meteorological Instruments Thread]({filename}Conclusions of the Meteorological Instruments Thread.md),
 only a limited number of NACA publications went directly into determining the 
 current Appendix C icing requirements [^3].  
 
 ![Figure 3-1 Derivation of FAR Icing Standards](/images/Derivation of FAR standards.png) 
 [^3]  
 
-[As we saw in [Conclusions of the Cylinder Thread]({filename}cylinder_thread_wrap_up.md), 
+[As we saw in [Conclusions of the Cylinder Thread]({filename}Conclusions of the Cylinder Thread.md), 
 it is not entirely clear where this figure originally came from.]  
 
 Thus, by the time [NACA-TN-2738]({filename}NACA-TN-2738.md) was published in 1952, 
@@ -179,7 +179,7 @@ that can provided detailed drop size spectrum data.
 
 The multicylinder instrument drop size distribution determination depends on natural icing 
 distributions to be something like the idealized Langmuir drop size distributions. 
-For at least some cases, this is true. See [Conclusions of Icing on Cylinders]({filename}cylinder_thread_wrap_up.md#drop_size_distributions).  
+For at least some cases, this is true. See [Conclusions of Icing on Cylinders]({filename}Conclusions of the Cylinder Thread.md#drop_size_distributions).  
 
 Nonetheless, advisory material still suggests the use of Langmuir distributions [^6].   
 
