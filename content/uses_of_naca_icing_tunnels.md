@@ -6,14 +6,14 @@ tags: icing tunnels
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
 _How much of a P-39 can one fit into an icing wind tunnel?_  
 
-# Summary  
+## Summary  
 A wide variety of test articles were used in the NACA-era Icing Research Tunnel (IRT)  
 
-##Key Points  
+## Key Points  
 1. 37 publications were found describing the use of the IRT.  
 2. A wide variety of test articles were used in the NACA-era Icing Research Tunnel  
 
-##Discussion  
+## Discussion  
 
 Readers are encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 

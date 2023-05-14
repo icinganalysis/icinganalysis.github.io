@@ -355,8 +355,12 @@ including the "more precisely" calculated NACA-TN-2904.
 
 The bulk of the flight data that icing regulations were developed from were from multicylinder instruments, 
 the data of which was processed with methods from Langmuir and Blodgett. 
-This quote from NACA-RM-E53D53 over-states the situation a bit, but it was not far from the reality of the time:
+This quote from NACA-RM-E53D53 over-states the situation a bit, but it was not far from the reality of the time:  
+
 > The meteorological data obtained with the multicylinder method are the only data available for the design of ice-protection equipment for aircraft
+
+I call the development of the rotating multicylinder instrument a crowning achievement of the 
+NACA-era.  
 
 Much effort went into estimating the potential errors of the multicylinder method, 
 particularly identifying the distribution type (A, B, C, D, E).
@@ -364,7 +368,7 @@ As shown in examples above, calculated impingement values were affected to a lim
 extent by the use of a C or an E distribution, supporting the continued use of the 
 distributions as "representative". 
 
-NACA-TR-1215 was important in identifying cases were all of the available water may not freeze, 
+NACA-TR-1215 was important in identifying cases were all the available water may not freeze, 
 and is a good introduction to [icing thermodynamics]({filename}/thermodynamics.md). 
 
 ## Related

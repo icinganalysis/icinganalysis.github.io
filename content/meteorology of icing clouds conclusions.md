@@ -158,10 +158,10 @@ there is an effect on interpretation of the regulation.
 AC 20-73 describes an assumption about an extended duration (45 minute) 
 hold in icing. 
 
-> Another use is to estimate ice buildups on unprotected surfaces during a 45-minute hold. For the
-45-minute hold discussed in section 8 of this AC, use the LWC from Figure 1 of 14 CFR part 25,
-Appendix C at full value. Guidance for the 45-minute hold assumes the conservative case when
-the holding pattern remains within 17.4 nm and the LWC is changed from that shown in Figure 1
+> Another use is to estimate ice buildups on unprotected surfaces during a 45-minute hold. For the 
+45-minute hold discussed in section 8 of this AC, use the LWC from Figure 1 of 14 CFR part 25, 
+Appendix C at full value. Guidance for the 45-minute hold assumes the conservative case when 
+the holding pattern remains within 17.4 nm and the LWC is changed from that shown in Figure 1 
 of 14 CFR part 25, Appendix C.  
 
 The distance traveled during a 45-minute hold for a large transport 
@@ -247,6 +247,7 @@ noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)
 NACA-TN-1393 (1947):  
 
 - 0.8 g/m^3 (no drop size information)  
+
 ![Figure 8. Liquid water content as a function of free air temperature. 
 Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
 
@@ -257,7 +258,8 @@ Rodert (1946):
 
 - 3.0 g/m^3, 30 micrometer (From Table 2 of [^7])  
 
-Rodert notes that:
+Rodert notes that:  
+
 > The values given in Table 2 are established by a faired line which has
 > been drawn on a graphical presentation of weather-bureau data. 
 > The faired curve was drawn so as to give values which in all cases
