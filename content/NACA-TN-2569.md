@@ -2,7 +2,6 @@ Title: NACA-TN-2569
 Date: 2023-05-15 12:00  
 Category: NACA  
 tags: meteorology  
-status: draft  
 
 # "A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment" [^1]  
 

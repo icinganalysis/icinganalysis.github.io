@@ -45,11 +45,14 @@ determining water drop impingement rates.
 The (then) NACA Lewis Icing Research Tunnel (IRT) (now NASA Glenn) was used in the test. 
 Cylinder test articles were constructed. 
 
-![Figure 9](images/naca-tn-3338/Figure9.png)
+![Figure 9. Typical installation of cylinder (4-inch diameter), 
+with blotter paper attached, in 6- by 9-foot test section of 
+icing research tunnel (looking downstream).](images/naca-tn-3338/Figure9.png)  
 
 After the blotter paper was exposed to water spray with dye in it, the paper was analyzed for dye concentration. 
 
-![Figure 12](images/naca-tn-3338/Figure12.png)
+![Figure 12. Typical blotter record from cylinder with punched segments removed for 
+colormetric analysis after exposure to dyed-water cloud.](images/naca-tn-3338/Figure12.png)  
 
 Special nozzles with fast acting solenoids were used, but the spray part was the same as the usual IRT nozzles. 
 
@@ -58,14 +61,15 @@ in the main icing spray system of the icing tunnel and are located in
 the same low-air-velocity section of the tunnel.
 
 
-![Figure 11](images/naca-tn-3338/Figure11.png)
+![Figure 11. Cross section of air-water atomizing nozzle assembly.](images/naca-tn-3338/Figure11.png)  
 
 ### The impingement data
 
 After a chemical analysis of the dye concentration in the blotter paper 
 the local water catch rates were calculated. 
 
-![Figure 20](images/naca-tn-3338/Figure20.png)
+![Figure 20. Experimental local water impingement rates for three cylinder sizes. 
+Airspeed, 175 miles per hour.](images/naca-tn-3338/Figure20.png)  
 
 ### The distribution analysis
 
@@ -74,17 +78,23 @@ and beta curves corresponding to drop sizes for the impingement limit are
 constricted and summed to yield an approximate total beta curve. 
 Fractions of total water content for each segment are determined during the process. 
 
-![Figure 17](images/naca-tn-3338/Figure17.png)
+![Figure 17.Typical experimental impingement rate for 
+cylinder showing arbitrary increments of central 
+angle theta and including contributions of several 
+droplet size groups.](images/naca-tn-3338/Figure17.png)  
 
 The values from each group or segment are plotted, 
 and a "faired" curve through them is manually produced. 
 
-![Figure 18](images/naca-tn-3338/Figure18.png)
+![Figure 18. Block- and faired-type droplet size distributions as specified 
+by limit of impingement theta_m on cylinder and cumulative liquid-water content w.
+](images/naca-tn-3338/Figure18.png)  
 
 The cylinder angle theta values can be translated into drop impingement limits and plotted. 
 (Note that drop radius "a" is used here, not diameter) 
 
-![Figure 21](images/naca-tn-3338/Figure21.png)
+![Figure 21. Droplet size distribution obtained from experimental impingement rates 
+on cylinders (based on theoretical trajectories from reference 1).](images/naca-tn-3338/Figure21.png)  
 
 It is not surprising that the curves tend to flat-line at low drop sizes. 
 The drop radii for K=0.125, where impingement would be zero, are noted on the figure as "ac".
@@ -98,9 +108,10 @@ assumed cosine relationship as in NACA-TN-2904 [^2].
 > ![Beta=pi/2*Em/Theta_m*cos(pi/2*Theta/Theta_m)](images/naca-tn-2904/beta_cos.png)
 
 
-![Figure 22](images/naca-tn-3338/Figure22.png)
+![Figure 22. Droplet size distribution obtained from experimental impingement rates 
+on cylinders (based on theoretical trajectories from reference 2).](images/naca-tn-3338/Figure22.png)  
 
-The results from Figure 22 were set aside in favor of the NACA-TN-2904 method results from Figure 21.
+The results from Figure 22 were set aside in favor of the NACA-TN-2904 method results from Figure 21.  
 
 > The differences noted (between
 figs. 21 and 22) are again caused by the differences inherent in the
@@ -134,7 +145,9 @@ results of this interpretation of the data are shown in figure 23; the
 reasoning underlying this interpretation is presented in the DISCUSSION
 section.
 
-![Figure 23](images/naca-tn-3338/Figure23.png)
+![Figure 23. Final evaluation of droplet size distribution for three spray 
+conditions based on experimental impingement rates of cylinders and an 
+aspirating device (based on theoretical trajectories from refernce 1).](images/naca-tn-3338/Figure23.png)  
 
 ### Need an independent measurement of drop sizes
 
@@ -163,8 +176,8 @@ if care is taken in both the sample collection and the processing of the samples
 [I have used the oiled-slide method and other drop sizing instruments in natural icing flight tests].  
 
 Langmuir chose to use oiled-slide data to develop the Langmuir distributions,
-see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md). 
-And NACA-TN-3338 also chose to make comparision to a Langmuir distribution. 
+see ["A Langmuir B drop size distribution is (almost) a normal distribution"]({filename}A%20Langmuir%20B%20distribution%20is%20almost%20a%20normal%20distribution.md).  
+And NACA-TN-3338 also chose to make comparisons to a Langmuir distribution. 
 
 ### Icing Research Tunnel
 
@@ -185,7 +198,7 @@ as even if the spray parts of the nozzles were similar,
 installation details can cause differences in the spray cloud. 
 And NACA-TN-3338 reported three candidate distributions, without data to select which is the best one.
 
-The IRT merits further review. 
+The IRT merits further review (see the [Icing Wind Tunnel Test Thread](Icing%20Wind%20Tunnel%20Test%20Thread.md)). 
 For now, I will note that calibration of the tunnel in the NACA era was a challenge, 
 in part due to limited instrumentation.
 Author von Glahn of NACA-TN-3338 was an author of NACA-RM-E51B12 [^5], which noted the use of multicylinders 
@@ -194,7 +207,7 @@ in the calibration of the icing tunnel:
 were measured by the rotating-multicylinder method and were in the
 range of natural icing conditions. 
 
-Contrast that to the detail in a post-NACA calibration of the IRT [^6].
+Contrast that to the detail in a post-NACA calibration of the IRT [^6].  
 
 ## Conclusions
 
@@ -275,25 +288,26 @@ The dye-tracer technique will be used in the post-NACA era, see NACA-CR-4257 [^9
 That data did have an independent measurement of the drop size distribution. 
 
 ## Notes  
-[^1]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+
+[^1]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^3]: 
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
-[^4]: 
+[^4]:
 Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
-https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf  
+[asme.org](https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf)  
 [^5]: 
 von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
 [^6]: 
 Ide, Robert F., Oldenberg, John R.:"Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
-https://apps.dtic.mil/sti/pdfs/ADA392590.pdf
+[dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA392590.pdf)  
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&btnG=)  
 [^9]: 
 Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Whitmer, L.: "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three- Dimensional Bodies," NASA-CR-4257, Nov. 1989.
-https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf  
+[www.wichita.edu](https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf)  
 
 

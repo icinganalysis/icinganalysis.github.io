@@ -286,6 +286,7 @@ Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Wat
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, December 1945 - July 1946, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. Note: some references cite this as "RL-225", but it is RL-224 in this publication.  
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
+[books.google.com](https://books.google.com/books?hl=en&lr=&id=mJySYM32cHUC&oi=fnd&pg=PA11&dq=Katherine+Blodgett+icing&ots=QYP5gFyEiz&sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&q=Katherine%20Blodgett%20icing&f=false)  
 [^4]:
 "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=". November, 2021  
 [^5]:

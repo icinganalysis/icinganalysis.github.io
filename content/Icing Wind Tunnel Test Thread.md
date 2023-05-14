@@ -13,8 +13,7 @@ there was no reference for using icing wind tunnels that I could find,
 and I cannot think of a current publication that provides comprehensive guidance 
 (there are publications that cover specific aspects, as we shall see in the thread). 
 
-This thread will not by itself correct that problem, 
-but it will summarize uses, 
+This thread will not by itself correct that problem, but it will summarize uses, 
 and perhaps provide some guidance by examples. 
 
 As there are numerous NACA publications (40+) that describe specific icing wind tunnel tests,
@@ -26,6 +25,10 @@ There are significant icing wind tunnel test method improvements in the post-NAC
 
 Readers are also encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 
+
+The NACA Cleveland (now NASA Glenn) Icing Research Tunnel has an enduring legacy. 
+The ASME recognized the Icing Research Tunnel as an 
+"International Historic Mechanical Engineering Landmark" in 1987 [^3]. 
 
 ## NACA-Era:
 
@@ -77,6 +80,8 @@ The next thread in the NACA review series is the [Icing Instruments Thread]({fil
 
 [^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
 [^2]: Pope, A.: Wind Tunnel Testing. John Wiley and Sons, Inc., New York, 1947.  
+[^3]: Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
+https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf  
 
 
 

@@ -51,7 +51,7 @@ in cumulus clouds. The actual horizontal extent of most of the cumulus
 clouds investigated was from 1 to 3 miles. The high values of water 
 content recorded for longer distances were due to the practice of 
 circling within clouds or making repeated passes through a single cloud. 
-For this reason, the frequency data foi 10 seconds duration (1/2 mile)
+For this reason, the frequency data for 10 seconds duration (1/2 mile)
 in cumulus clouds are regarded as representative, the values for 1 minute 
 (3 miles) are subject to some error, but are regarded as approximately
  representative, while the results for 5 minutes (15 miles) or more are

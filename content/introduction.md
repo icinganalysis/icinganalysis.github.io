@@ -3,8 +3,7 @@ Category: NACA
 Date: 2022-01-15 12:00  
 tags: introduction
 URL:
-save_as: index.html
-
+save_as: index.html  
 
 > ###“If you want to go somewhere, it’s best to find someone who has already been there” Robert Kiyosaki
 
@@ -44,7 +43,7 @@ And more details:
 - a detailed discussion, including key figures  
 - [executable Python code](https://github.com/icinganalysis/icinganalysis.github.io) (in some cases) to reproduce the results [^1]  
 - how the publication got used, and where it is cited  
-- where to find the publication (most, but not not all, are on the [NASA NTRS site](https://ntrs.nasa.gov))  
+- where to find the publication (most, but not all, are on the [NASA NTRS site](https://ntrs.nasa.gov))  
 
 Check back often, I am adding more articles regularly.
 
@@ -64,7 +63,7 @@ Reference [^2] lists 132 publications, in 16 categories of topics, from “Meteo
 Some readers may be interested in less technical, [more general histories]({filename}/more general info.md) 
 of the NACA/NASA efforts to improve the safety of flight in icing conditions.
 
-##The NACA publications on aircraft icing have an enduring legacy.
+## The NACA publications on aircraft icing have an enduring legacy.
 
 One indication of the contemporary importance of the NACA efforts was 
 the National Aeronautic Association 1946 Collier Trophy award to Lewis Rodert of NACA 
