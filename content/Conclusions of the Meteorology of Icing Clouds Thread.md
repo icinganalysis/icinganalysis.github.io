@@ -27,14 +27,14 @@ direct influence on the current icing regulations.
 
 ### Icing Regulations and NACA publications  
 
-As we saw in the [Conclusions Meteorological Instruments Thread]({filename}Conclusions of the Meteorological Instruments Thread.md),
+As we saw in the [Conclusions Meteorological Instruments Thread]({filename}Conclusions%20of%20the%20Meteorological%20Instruments%20Thread.md),
 only a limited number of NACA publications went directly into determining the 
 current Appendix C icing requirements [^3].  
 
 ![Figure 3-1 Derivation of FAR Icing Standards](/images/Derivation of FAR standards.png) 
 [^3]  
 
-[As we saw in [Conclusions of the Cylinder Thread]({filename}Conclusions of the Cylinder Thread.md), 
+[As we saw in [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md), 
 it is not entirely clear where this figure originally came from.]  
 
 Thus, by the time [NACA-TN-2738]({filename}NACA-TN-2738.md) was published in 1952, 
@@ -179,7 +179,7 @@ that can provided detailed drop size spectrum data.
 
 The multicylinder instrument drop size distribution determination depends on natural icing 
 distributions to be something like the idealized Langmuir drop size distributions. 
-For at least some cases, this is true. See [Conclusions of Icing on Cylinders]({filename}Conclusions of the Cylinder Thread.md#drop_size_distributions).  
+For at least some cases, this is true. See [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md#drop_size_distributions).  
 
 Nonetheless, advisory material still suggests the use of Langmuir distributions [^6].   
 
@@ -220,7 +220,7 @@ I suppose that current weather modelling is a much more sophisticated implementa
 of adiabatic lift theory (and a lot of other physics), 
 but it is still challenged to calculate accurate LWC values.  
 
-### Tracking changes in the understanding of LWC values  
+### <a name="tracking-lwc-values"></a> Tracking changes in the understanding of LWC values  
 
 As an example of how the understanding of liquid water content (LWC) 
 changed over the NACA-era, we will take an example point from Appendix C Figure 1
@@ -246,7 +246,7 @@ noncyclonic stratus clouds.](/images%2FNACA-TN-1391%2FFigure%204.png)
 
 NACA-TN-1393 (1947):  
 
-- 0.8 g/m^3 (no drop size information)  
+- 0.8 g/m^3 (no drop size information, estimated for 20 minute (53 mile) distance)  
 
 ![Figure 8. Liquid water content as a function of free air temperature. 
 Rotating cyclinder measurements. ](/images%2Fnaca-tn-1393%2FFigure%208.png)  
@@ -256,7 +256,7 @@ Reference 14 is Rodert [^7].
 
 Rodert (1946):  
 
-- 3.0 g/m^3, 30 micrometer (From Table 2 of [^7])  
+- 3.0 g/m^3, 30 micrometer (From Table 2 of [^7], distance not noted)  
 
 Rodert notes that:  
 
@@ -268,26 +268,26 @@ Rodert notes that:
 
 NACA-TN-1424 (1947): 
 
-- Calculation A: 1.0 g/m^3 (no drop size information)  
-- Calculation B: 0.8 g/m^3 (no drop size information)  
+- Calculation A: 1.0 g/m^3 (no drop size information, duration or distance not noted)  
+- Calculation B: 0.8 g/m^3 (no drop size information, duration or distance not noted)  
 
 ![Figure 4. Liquid Water Content as related to temperature 
 in icing clouds.](/images%2Fnaca-tn-1424%2FFigure%204.png)  
 
 NACA-TN-1855 (1949):  
 
-- Table 1, III-M Continuous Maximum 0.8 g/m^3, 15 micrometer  
+- Table 1, III-M Continuous Maximum 0.8 g/m^3, 15 micrometer, distance not noted  
 
 In a table sorted by publication order:  
 
-| Source         | Year | LWC, g/m^3 |
-|----------------|------|------------|
-| Rodert         | 1946 | 3.0        |
-| NACA-TN-1391   | 1947 | 1.5        |
-| NACA-TN-1393   | 1947 | 0.8        |
-| NACA-TN-1424 A | 1947 | 1.0        |
-| NACA-TN-1424 B | 1947 | 0.8        |
-| NACA-TN-1855   | 1949 | 0.8        |
+| Source         | Year | LWC, g/m^3     |
+|----------------|------|----------------|
+| Rodert         | 1946 | 3.0            |
+| NACA-TN-1391   | 1947 | 1.5            |
+| NACA-TN-1393   | 1947 | 0.8 (53 miles) |
+| NACA-TN-1424 A | 1947 | 1.0            |
+| NACA-TN-1424 B | 1947 | 0.8            |
+| NACA-TN-1855   | 1949 | 0.8            |
 
 Different implementations of theory had differing values. 
 By 1949, interpretations of test data had arrived at the 

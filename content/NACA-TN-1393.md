@@ -205,7 +205,7 @@ The rationale for the stratus values is explained:
 > this condition. This condition will exist in layer-type clouds 
 > since cumulus clouds are by their nature discontinuous. 
 > The maximum liquid water content observed in layer clouds during 
-> this investigation was-about 0.7 gram per cubic meter, 
+> this investigation was about 0.7 gram per cubic meter, 
 > which is the same as the maximum reported from the Army Air Forces 
 > Ice Research Base at Minneapolis, Minn. These facts and the data in 
 > figure 13 on the relation between liquid water content and duration 

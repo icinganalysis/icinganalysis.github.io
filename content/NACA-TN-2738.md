@@ -1,12 +1,11 @@
 Title: NACA-TN-2738   
-Date: 2023-05-18 12:00  
+Date: 2023-05-17 12:00  
 Category: NACA  
 tags: meteorology  
-status: draft  
 
 # "A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States"  
 
-### _"During the period 1945 through 1948, a considerable amount of [icing] data was collected"_  
+### _"the probability analysis presented does provide an indication, heretofore unavailable, of the combinations of icing conditions having equal probability"_  
 
 ![Figure 2. Graphical presentation of the equiprobabilty surface which 
 presents the locus of all combinations of liquid-water content, drop 
@@ -50,7 +49,7 @@ the world.
 
 ## Discussion  
 
-This report is long (94 pages), so many details are not covered herein.  
+This report is extensive (94 pages), so many details are not covered herein.  
 
 >INTRODUCTION  
 > 
@@ -167,6 +166,11 @@ be multiplied to include the effect of horizontal cloud extent
 for different exceedance probabilities.](/images%2FNACA-TN-2738%2FFigure%208.png)  
 
 Note that the "Liquid Water Content Factor, F" is 1 at 10 miles for layer clouds.
+
+How the values in Figure 8 were determined is not described. 
+The other factors key (LWC, drops size, temperature) have figures 
+11 through 26 that describe them in detail, but the "Liquid Water Content Factor, F" 
+is not detailed. 
 
 Appendix C has a similar figure 3. However, the "Liquid Water Content Factor, F" 
 is equal to 1 at 17.4 nmi (20 miles). Note that NACA-TN-2738 is cited on figure 3.  
