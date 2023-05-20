@@ -1,7 +1,7 @@
 Title: Messinger  
 Date: 2022-04-21 12:00  
 Category: NACA  
-tags: thermodynamics, python tools  
+tags: thermodynamics, python  
 
 ### _""freezing-fraction" denotes the proportion of the impinging liquid which freezes in the impingement region"_  
 

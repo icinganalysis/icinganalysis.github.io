@@ -1,7 +1,7 @@
 title: Python coding style guide  
 Date: 2022-04-21 13:00  
 category: Python  
-tags: python tools 
+tags: python 
 
 ![Python logo](images/python-logo-master-v3-TM.png)
 

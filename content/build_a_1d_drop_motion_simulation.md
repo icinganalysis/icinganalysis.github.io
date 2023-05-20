@@ -1,7 +1,7 @@
 Title: Let's Build a 1D Water Drop Trajectory Simulation  
 Date: 2022-05-25 12:00  
 category: Diversions  
-tags: impingement, evaporation, python tools    
+tags: impingement, evaporation, python    
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)  
 

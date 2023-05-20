@@ -1,7 +1,7 @@
 Title: A Detailed Comparison of Water Drop Impingement Calculations    
 Date: 2022-01-25 12:00  
 Category: NACA  
-tags: cylinder, python tools  
+tags: cylinder, python  
 
 ### _"The discrepancies are of the magnitude to be expected from ... the step by step integration"_  
 

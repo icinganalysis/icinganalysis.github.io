@@ -1,7 +1,7 @@
 Title: NACA-ARR-5G13  
 Date: 2022-04-11 12:00  
 Category: NACA  
-tags: thermodynamics, python tools  
+tags: thermodynamics, python  
 
 ### _"A method is given for calculating the temperature of a surface wetted ... by a pure liquid, such as water"_  
 

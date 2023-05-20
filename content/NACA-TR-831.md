@@ -1,7 +1,7 @@
 Title: NACA-TR-831 
 Date: 2022-04-14 12:00  
 Category: NACA 
-tags: thermodynamics, python tools  
+tags: thermodynamics, python  
 
 ### _"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."_  
 

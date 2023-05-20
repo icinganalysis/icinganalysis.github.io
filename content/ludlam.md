@@ -1,7 +1,7 @@
 Title: Ludlam  
 Date: 2022-04-19 12:00  
 Category: NACA  
-tags: thermodynamics, python tools   
+tags: thermodynamics, python   
 
 ### _"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
 

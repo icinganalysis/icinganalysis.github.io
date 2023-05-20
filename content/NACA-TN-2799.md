@@ -1,7 +1,7 @@
 Title: NACA-TN-2799  
 Date: 2022-04-24 12:00  
 Category: NACA  
-tags: thermodynamics, python tools  
+tags: thermodynamics, python  
 
 ### _"Solution of the heat and mass transfer from a wetted surface is quite involved and tedious."_  
 

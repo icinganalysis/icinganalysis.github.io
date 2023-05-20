@@ -1,7 +1,7 @@
 Title: NACA-TR-1215 Thermodynamics
 Date: 2022-05-11 12:00  
 Category: NACA  
-tags: cylinder, python tools  
+tags: cylinder, python  
 
 ### _"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
