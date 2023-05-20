@@ -2,7 +2,7 @@ Title: Conclusions of the Meteorology of Icing Clouds Thread
 status: draft  
 Date: 2023-05-22 12:00  
 Category: NACA  
-tags: meteorology
+tags: meteorology  
 
 ### _There was remarkable progress in the three-year span 1946 through 1949._ 
 
@@ -16,6 +16,7 @@ The most enduring legacy of the NACA publications on icing meteorology is their
 direct influence on the current icing regulations. 
 
 ## Key Points  
+
 1. NACA publications contributed heavily to the creation of the Appendix C icing regulation.  
 2. The key flight tests and publications were complete by 1952.  
 3. Some engineering judgement went into creating the icing regulation.  
