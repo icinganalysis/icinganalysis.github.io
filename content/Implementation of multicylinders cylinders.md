@@ -1,7 +1,7 @@
 Title: Implementation of multicylinder calculations in Python   
 Date: 2022-01-27 12:00  
 Category: python
-tags: cylinder, python
+tags: cylinders, python
 
 ### _"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]_  
 

@@ -1,7 +1,7 @@
 Title: Implementation of cylinder impingement correlations in Python   
 Date: 2022-01-23 12:00  
 Category: python  
-tags: cylinder, python  
+tags: cylinders, python  
 
 > ### "The equations were found to fit the experimental data over a wider range of values..." [^1]  
 

@@ -1,7 +1,7 @@
 Title: NACA-TN-779    
 Date: 2022-01-20 12:00  
 Category: NACA
-tags: cylinder
+tags: cylinders
 
 ### _"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing ... around a circular cylinder were made"_  
 

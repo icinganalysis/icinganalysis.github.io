@@ -1,7 +1,7 @@
 Title: A Langmuir B drop size distribution is (almost) a normal distribution   
 Date: 2022-03-14 12:00  
 Category: python  
-tags: cylinder, python  
+tags: cylinders, python  
 
 ### _"Upon comparing this chart with Langmuir's tables, it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]_  
 

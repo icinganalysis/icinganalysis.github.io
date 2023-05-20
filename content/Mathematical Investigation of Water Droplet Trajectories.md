@@ -1,7 +1,7 @@
 Title: "Mathematical Investigation of Water Droplet Trajectories"    
 Date: 2022-02-01 12:00  
 Category: Army Air Force
-tags: cylinder
+tags: cylinders
 
 ### _"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."_  
 

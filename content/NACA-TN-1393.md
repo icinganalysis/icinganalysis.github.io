@@ -1,7 +1,7 @@
 Title: NACA-TN-1393    
 Date: 2022-01-29 12:00  
 Category: NACA
-tags: cylinder, natural icing, meteorology  
+tags: cylinders, natural icing, meteorology  
 
 ### _"The rotating-cylinder method of measuring liquid water content is generally regarded as being the most accurate and dependable procedure thus far developed"_  
 

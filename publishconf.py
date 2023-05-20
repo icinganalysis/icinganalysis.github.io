@@ -10,6 +10,7 @@ from pelicanconf import *
 SITEURL = ''
 # SITEURL = 'https://icinganalysis.github.io'
 RELATIVE_URLS = False
+SUMMARY_MAX_LENGTH = 150
 #MENUITEMS = (
 #    ('Home', SITEURL + '/index.html'),
 #    ('Cylinders', SITEURL + '/icing-on-cylinders.html'),
