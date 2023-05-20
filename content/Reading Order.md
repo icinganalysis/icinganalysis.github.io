@@ -21,11 +21,11 @@ It is suggested, but not required,
 to read the articles in the order below.  
 
 - [Introduction]({filename}introduction.md)  
-- [Icing on Cylinders Thread]({filename}Icing on Cylinders.md)  
-- [Thermodynamics Thread]({filename}thermodynamics.md)  
+- [Icing on Cylinders Thread]({filename}Icing%20on%20Cylinders.md)  
+- [Icing Thermodynamics Thread]({filename}thermodynamics.md)  
 - [Ice Shapes Thread]({filename}ice_shapes_thread.md)  
 - [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md)  
-- [Icing Wind Tunnel Test Thread]({filename}Icing Wind Tunnel Test Thread.md).  
+- [Icing Wind Tunnel Test Thread]({filename}Icing%20Wind%20Tunnel%20Test%20Thread.md).  
 - [Meteorological Instruments Thread]({filename}instruments.md)  
 - [Ice Protection Thread]({filename}ice%20protection.md)  
 - [Meteorology of Icing Clouds Thread]({filename}Meteorology.md)  
