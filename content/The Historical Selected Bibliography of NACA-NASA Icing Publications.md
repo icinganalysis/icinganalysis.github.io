@@ -97,10 +97,15 @@ Links to reviews are included where applicable.
 - Meteorology of Icing Clouds  
 
     - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+        > review: [NACA-TN-2738]({filename}NACA-TN-2738.md)  
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+        > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
     - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+        > review: [NACA-TN-1855]({filename}NACA-TN-1855.md)  
     - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  
+        > review: [NACA-TN-1793]({filename}NACA-TN-1793.md)  
     - Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
+        > review: [NACA-TN-2306]({filename}NACA-TN-2306.md)  
     - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
         > review: [NACA-TN-1391]({filename}NACA-TN-1391.md)  
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
@@ -276,6 +281,7 @@ Links to reviews are included where applicable.
 - Windshield Ice Protection  
 
     - Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
+        > review: [windshield ice protection.md]({filename}windshield%20ice%20protection.md)  
     - Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955.  
 
 - Cooling Fan Ice Protection  

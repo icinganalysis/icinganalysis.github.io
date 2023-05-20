@@ -102,7 +102,7 @@ it is worth modifying the test installation to give a controllable rate.
 > *For definitions of "deficiency" and "failure", 
 see author's paper on "Meteorological Design Conditions for Icing Protection Systems" [^2]. 
 
->> From "Meteorological Design Conditions for Icing Protection Systems":  
+>> ### From "Meteorological Design Conditions for Icing Protection Systems":  
 >> 
 >> 5.0 PERFORMANCE CHARACTERISTICS OF VARIOUS SYSTEMS AND COMPONENTS  
 >> 
@@ -185,7 +185,7 @@ about 95% of the cases. A marked reduction in protection flow yields relatively
 few more cases of complete ice protection.
 
 ![Figure 7. Constant water-collection-rate curves for hypothetical airfoil 
-superimposed on frequency distribution of icing observations](images%2FNACA-TN-2569%2FFigure%207.png)  
+superimposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207.png)  
 
 However, the effects of the cases where complete ice protection need to be assessed 
 to determine if these are acceptable "deficiencies" or unacceptable failures. 
@@ -235,14 +235,10 @@ of various components to small quantities of ice accumulations, because
 the frequency of encounter of icing situations with extremely high ice-collection 
 rates is low.  
 
-<!--
-NACA-TN-2738 probabilities?
--->
-
 Later, Jeck [^4] made plots of the probability of exceeding 
 liquid water content levels (Jeck did not reference Fraser):  
 
-![Figure 26.png](images%2FJeck%20AR%2000-03%2FFigure%2026.png)  
+![Figure 26.png](/images%2FJeck%20AR%2000-03%2FFigure%2026.png)  
 
 I plan to eventually review Jeck [^4] in more detail. 
 (Jeck's works merit an entire thread devoted to them.) 
