@@ -26,9 +26,9 @@ to read the articles in the order below.
 - [Ice Shapes Thread]({filename}ice_shapes_thread.md)  
 - [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md)  
 - [Icing Wind Tunnel Test Thread]({filename}Icing Wind Tunnel Test Thread.md).  
-- [Icing Instruments Thread]({filename}instruments.md)  
+- [Meteorological Instruments Thread]({filename}instruments.md)  
 - [Ice Protection Thread]({filename}ice%20protection.md)  
-- [Icing Cloud Meteorology Thread]({filename}Meteorology.md)  
+- [Meteorology of Icing Clouds Thread]({filename}Meteorology.md)  
 
 ## Other content  
 
