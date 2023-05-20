@@ -1,7 +1,7 @@
 Title: University of Michigan Airplane Icing Information Course, 1953  
 status: draft  
 Date: 2023-04-22 12:00
-Tags: University of Michigan Airplane Icing Information Course  
+Tags: Airplane Icing Information Course  
 
 ### _Thirteen lectures show the "state of the art" in 1953._  
 
