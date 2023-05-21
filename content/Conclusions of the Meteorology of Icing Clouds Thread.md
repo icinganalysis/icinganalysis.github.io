@@ -1,5 +1,4 @@
 Title: Conclusions of the Meteorology of Icing Clouds Thread    
-status: draft  
 Date: 2023-05-22 12:00  
 Category: NACA  
 tags: meteorology  
