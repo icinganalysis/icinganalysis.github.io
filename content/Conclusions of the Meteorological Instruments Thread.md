@@ -44,7 +44,7 @@ the current "Appendix C" icing certification standard [^2].
 
 [^3]  
 
-[As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions of the Cylinder Thread.md), 
+[As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md), 
 it is not entirely clear where this figure originally came from.]  
 
 The instruments from the individual NACA publications were:  
@@ -127,7 +127,7 @@ The fixed cylinder is a likely shape to use for "drop size can
 be approximated from extent of impingement on any shape with known 
 impingement characteristics".  
 
-#### Review of Icing Criteria; William Lewis in [1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md) [^1]   
+#### Review of Icing Criteria; William Lewis in [1969 Aircraft Ice Protection Report of Symposium]({filename}1969%20Aircraft%20Ice%20Protection%20Report%20of%20Symposium.md) [^1]   
 
 William Lewis summarized icing criteria, such as drop size and LWC values. 
 He had comments on the NACA era instrumentation that was used to measure them.  
@@ -146,7 +146,7 @@ research instrument and a very meager amount of data. Meanwhile, the
 Lewis Laboratory began with the development of a __very simple cyclic icing
 rate meter__.  
  
-[The [modified pressure probe described in NACA-RM-E51E16]({filename}modified pressure probe.md)].  
+[The [modified pressure probe described in NACA-RM-E51E16]({filename}modified%20pressure%20probe.md)].  
  
 >Problems were encountered with the calibration, but since the
 device was so well adapted to automatic operation, arrangements were made
@@ -294,7 +294,7 @@ Significant amounts of airline flight icing data were obtained.
 However, questions about the calibration apparently kept that data 
 from wide use, and the data does not appear to have influenced the Appendix C regulations. 
 
-As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions of the Cylinder Thread.md), 
+As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md), 
 cylinder instruments are still used today (although not so much the rotating multicylinder).  
 
 ## Related  
@@ -307,8 +307,8 @@ The next thread in the NACA review series is the [Ice Protection Thread](ice%20p
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]: "Airworthiness Standards: Transport Category Airplanes," U.S. Department of Transportation,
 Federal Aviation Administration, Federal Aviation Regulations, FAR Part 25, Washington, D.C.  
-[^3]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
-Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
+[^3]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 [^4]: Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947.  
 [^5]: Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.  
 [^6]: Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
@@ -316,18 +316,18 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^8]: Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  
 [^9]: Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
 [^10]: Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
-[^11]: Pettit, K. G.: "'The Rockcliffe Ice Wagon' and its role in Canadian icing research." Publ. R. Met. Soc. Canad. Branch, Toronto 2 (1951). http://cmosarchives.ca/RMS/r0205.pdf  
+[^11]: Pettit, K. G.: "'The Rockcliffe Ice Wagon' and its role in Canadian icing research." Publ. R. Met. Soc. Canad. Branch, Toronto 2 (1951). [cmosarchives.ca](http://cmosarchives.ca/RMS/r0205.pdf)  
 [^12]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^13]: Jeck, R.: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep." Transportation Rep. DOT/FAA/CT-83/21 137 (1983).  
 [^14]: Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016.  
-[^15]: Heinrich, A., et al. Aircraft Icing Handbook. Volume 2. GATES LEARJET CORP WICHITA KS, 1991. https://apps.dtic.mil/sti/citations/ADA238040  
+[^15]: Heinrich, A., et al. Aircraft Icing Handbook. Volume 2. GATES LEARJET CORP WICHITA KS, 1991. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA238040)  
 [^16]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (1) Icing Rate Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/29, 2006. 
-http://www.tc.faa.gov/its/worldpac/techrpt/artn06-29.pdf  
+[tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/artn06-29.pdf)  
 [^17]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (2) Cloud Water Concentration Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/30, 2006. 
-http://www.tc.faa.gov/its/worldpac/techrpt/artn06-30.pdf  
+[tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/artn06-30.pdf)  
 [^18]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (3) Cloud Droplet Sizers. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/31, 2006. 
-https://www.tc.faa.gov/its/worldpac/techrpt/artn06-31.pdf
+[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/artn06-31.pdf)
 [^19]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (4) Large Drop Sizers.  US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/32, 2006. 
-https://www.tc.faa.gov/its/worldpac/techrpt/artn06-32.pdf  
+[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/artn06-32.pdf)  
 [^20]: Stith, Jeffrey L., et al. "100 years of progress in atmospheric observing systems." Meteorological Monographs 59 (2018): 2-1.  
-https://journals.ametsoc.org/view/journals/amsm/59/1/amsmonographs-d-18-0006.1.xml    
+[ametsoc.org](https://journals.ametsoc.org/view/journals/amsm/59/1/amsmonographs-d-18-0006.1.xml)    

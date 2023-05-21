@@ -326,7 +326,9 @@ I have not found where the figure was originally from.
 
 NACA-TN-1855 (and others) are cited directly in the US icing regulations: 
 
-![Appendix C Figure 1](images/AppCfig1.png)
+![Appendix C Figure 1. Continuous Maximum (Stratiform Clouds) 
+Atmospheric Conditions 
+Liquid Water Content vs. Mean Effective Drop Diameter](/images%2FAppCfig1.png)  
 
 ### Cylinder icing thermodynamics for icing indication and detection
 
