@@ -1,6 +1,5 @@
 Title: University of Michigan Airplane Icing Information Course, 1953  
-status: draft  
-Date: 2023-04-22 12:00
+Date: 2023-05-24 12:00
 Tags: Airplane Icing Information Course  
 
 ### _Thirteen lectures show the "state of the art" in 1953._  
@@ -17,7 +16,7 @@ Thirteen lectures show the "state of the art" in 1953.
 
 ## Key Points  
 
-1. This was the best aircraft icing design guide available at the time.  
+1. This was the best aircraft icing training and design guide available at the time.  
 2. Several lectures are extracts of earlier works, or were republished later.  
 3. Selected lectures are reviewed.  
 

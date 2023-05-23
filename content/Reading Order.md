@@ -17,6 +17,7 @@ There are 132 publications in [The Historical Selected Bibliography of NACA-NASA
 (Not all of them have been reviewed yet.)   
 
 This blog was written in "threads" or themes on topics. 
+Threads will have links to several articles. 
 It is suggested, but not required, 
 to read the articles in the order below.  
 
@@ -29,6 +30,7 @@ to read the articles in the order below.
 - [Meteorological Instruments Thread]({filename}instruments.md)  
 - [Ice Protection Thread]({filename}ice%20protection.md)  
 - [Meteorology of Icing Clouds Thread]({filename}Meteorology.md)  
+- [University of Michigan Airplane Icing Information Course Thread]({filename}U%20of%20Michigan%20Icing.md)  
 
 ## Other content  
 
