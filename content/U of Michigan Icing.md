@@ -4,8 +4,6 @@ Tags: Airplane Icing Information Course
 
 ### _Thirteen lectures show the "state of the art" in 1953._  
 
-# University of Michigan Airplane Icing Information Course [^1]  
-
 ![Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. 
 Image from Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.](/images/messinger/Figure1.png)  
 _See Lecture No. 6, "Energy Exchanges During Icing", Messinger, Bernard L._   
@@ -22,7 +20,7 @@ Thirteen lectures show the "state of the art" in 1953.
 
 ## Abstract  
 
-Since there was no introduction in the bound book copy I read 
+Since there was no introduction in the bound book copy [^1] I read 
 (it simply starts with Lecture 1). 
 Here is a listing of the lecture titles and authors
 (I could not find this seemingly basic information online).  
