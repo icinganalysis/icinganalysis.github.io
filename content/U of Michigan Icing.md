@@ -58,7 +58,7 @@ and some authors (Eckert, Messinger) are still often cited.
 The icing conditions are discussed to some degree in several lectures, 
 particularly Lecture 1 and Lecture 12a. 
 They show that icing conditions were still a matter of debate in 1953, 
-even though as we saw in the [Meteorology of Icing Clouds Thread](Meteorology.md), 
+even though as we saw in the [Meteorology of Icing Clouds Thread]({filename}Meteorology.md), 
 all the major publications that went into the later Appendix C icing 
 regulation were available before 1953. 
 
