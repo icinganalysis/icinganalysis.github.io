@@ -1,6 +1,5 @@
 Title: Supercooled Clouds    
-Date: 2023-04-22 13:00
-status: draft  
+Date: 2023-05-25 13:00
 Tags: Airplane Icing Information Course, clouds, meteorology  
 
 ### _"If the [ice] crystal is exceedingly small, rather than growing, it may melt."_  
@@ -302,7 +301,7 @@ A few of the observations are dated,
 but in general this lecture holds up well after 70 years. 
 
 If you want up-to-date information, the University of Kansas 
-"Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" 
+"Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" [^5] 
 course offers much more information in this vein. 
 This course has been offered for decades (I think it was 1993 when I attended), 
 and has been a "rite of passage" for many of us working in aircraft icing 

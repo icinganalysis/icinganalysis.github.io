@@ -192,7 +192,8 @@ possibly because the similar publications get cited instead.
 
 I selected two of the shorter lectures to review:  
 
-- Lecture No. 1, Supercooled Clouds [review coming soon]  
+- Lecture No. 1, Supercooled Clouds [Review]({filename}Vonnegut.md)  
+  
 - Lecture No. 12b, Note on the Flight Testing and Assessment of Icing Protection Systems On Flight Testing [review coming soon]  
 
 I will also include a short discussion:  
