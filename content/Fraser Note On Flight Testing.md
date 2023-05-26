@@ -1,5 +1,5 @@
 Title: Notes on Flight Testing  
-Date: 2023-04-22 14:00
+Date: 2023-05-30 12:00
 status: draft  
 Tags: Airplane Icing Information Course, flight test  
 
@@ -39,8 +39,8 @@ There are no figures or citations included with Lecture 12b.
 This was true for two different printed copies of the 
 Airplane Icing Information Course that I borrowed. 
 Both copies were in good shape with no obviously missing pages. 
-There is a copy of a similar (copyrighted, but freely available) 
-report with the same title at the NRC library that has the figures [^3]. 
+There is a copy of a similar report with the same title at the NRC library 
+that has the figures [^3] (copyrighted, but freely available). 
 However, I am not going to show the figures here. 
 
 ### 1.0 INTRODUCTION  
@@ -103,6 +103,7 @@ it is worth modifying the test installation to give a controllable rate.
 see author's paper on "Meteorological Design Conditions for Icing Protection Systems" [^2]. 
 
 >> ### From "Meteorological Design Conditions for Icing Protection Systems":  
+>> [Emphasis added.]  
 >> 
 >> 5.0 PERFORMANCE CHARACTERISTICS OF VARIOUS SYSTEMS AND COMPONENTS  
 >> 
@@ -110,17 +111,17 @@ see author's paper on "Meteorological Design Conditions for Icing Protection Sys
 to various protective systems and aircraft components, 
 it is necessary to discuss the performance and failure or deficiency characteristics 
 of each system. 
-In normal engineering parlance, failure is a fairly definite condition, 
-from which there is no recovery. 
+**In normal engineering parlance, failure is a fairly definite condition, 
+from which there is no recovery.** 
 Therefore when using the word in connection with an icing protection system 
 it should signify that the system has ceased to be effective 
 for the remainder of the icing encounter. 
 Owing to the variety of behaviour of various systems, 
 it is necessary to define failure for each system.  
 >> 
->> However, protection may cease to be effective for a while in severe icing conditions 
+>> **However, protection may cease to be effective for a while in severe icing conditions 
 and then recover completely or partially when the icing severity is reduced. 
-In such a case the system could be called "deficient".  
+In such a case the system could be called "deficient".**  
 >> 
 >>The following examples contain mention of the performance, failure, 
 and deficiency characteristics of various systems applied to various components. 
@@ -247,5 +248,5 @@ I plan to eventually review Jeck [^4] in more detail.
 
 [^1]: Fraser, Don: Note on the Flight Testing and Assessment of Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12b, University of Michigan Airplane Icing Information Course, 1953.  (8 pages)  
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages)  
-[^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems, LR-50, 1953. https://science-catalogue.canada.ca/record=1134925~S6 (11 pages)  
+[^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems. LR-50, 1953. [science-catalogue.canada.ca](https://science-catalogue.canada.ca/record=1134925~S6) (11 pages)  
 [^4]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
