@@ -175,7 +175,7 @@ provide an important link in the general studies of the Mechanics of Suspensions
 As Lecture No. 2 largely discusses impingement on cylinders, 
 you can find most of the information in 
 Langmuir and Blodgett "Mathematical Investigation of Water Droplet Trajectories" [^3]. 
-[review]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
+[review]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
 
 For Lecture No. 4 by Eckert, it is a short summary of convective heat and mass 
 transfer analysis methods. You can find far more by Eckert in his well-known 
