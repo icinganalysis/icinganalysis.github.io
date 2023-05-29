@@ -1,6 +1,5 @@
 Title: Notes on Flight Testing  
 Date: 2023-05-30 12:00
-status: draft  
 Tags: Airplane Icing Information Course, flight test  
 
 ### _"Tests to determine the performance of an icing protection system ... are of little value ... unless they can be subjected to an analytical treatment, and reduced to a generalised form which is applicable to conditions other than those under which the tests were actually made."_  
