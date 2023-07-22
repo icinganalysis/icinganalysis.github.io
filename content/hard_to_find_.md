@@ -15,6 +15,10 @@ I can usually get even rare and obscure publications
 through inter-library loan from my public library, 
 but these were reported as having no loanable copies available.  
 
+I have tried the many excellent search tips at 
+[Gwern's Internet Search Tips](https://gwern.net/search), 
+and now I am at the "request help" stage.
+
 I would appreciate any help anyone can offer 
 finding them as loanable print copies or digitally.  
 
