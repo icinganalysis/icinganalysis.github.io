@@ -1,4 +1,4 @@
-title: Out-Sourcing My Work to ChatGPT and DALL-E ;)  
+title: Out-Sourcing My Work to ChatGPT and DALL-E  
 Date: 2023-01-22 12:00  
 tags: humor, diversions    
 
