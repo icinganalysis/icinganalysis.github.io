@@ -1,6 +1,9 @@
 title: Six Month Review of Blast from the Past: NACA Icing Publications    
 Date: 2022-07-13 12:00  
 
+### _"You can't connect the dots looking forward; you can only connect them looking backwards."_ 
+_Attributed to Steve Jobs._  
+
 ![Figure 8 of NACA-TN-339. Test on glucose coating. Heavy spray. Temperature -1 degree C.
 Air speed 70 mph.](images/naca-tn-339/Figure 8.png)  
 _One of the earliest icing wind tunnel tests on surface coatings to prevent ice, NACA-TN-339, 1929. Sometimes, there is a learning curve._  

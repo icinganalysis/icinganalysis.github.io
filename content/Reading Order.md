@@ -2,6 +2,11 @@ Title: Site Navigation and Suggested Reading Order
 Date: 2022-07-21 12:00  
 tags: about  
 
+### _"There is no order in the world around us, we must adapt ourselves to the requirements of chaos instead."_ 
+_Attributed to Kurt Vonnegut. For some more information about Kurt and his brother Bernard, see [Supercooled Clouds]({filename}Vonnegut.md)._  
+
+## Summary  
+
 There are over 100 articles on this website. 
 Here is a guide to get to what you are interested in. 
 
