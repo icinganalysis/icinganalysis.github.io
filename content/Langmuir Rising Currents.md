@@ -187,7 +187,7 @@ that this condition is strictly fulfilled, but rough analysis indicates that the
 effects we are looking for are not very sensitive to moderate changes in the
 distribution function. We shall, therefore, assume that the distribution function 
 remains constant. In any given time interval the fraction of the particles
-that disappears should then vary inversely in proportion to the life t of the
+that disappears should then vary inversely in proportion to the life-time of the
 droplets of average size.
 
 >It is possible to develop this theory to cover also growth of water droplets
