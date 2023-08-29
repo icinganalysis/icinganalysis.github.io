@@ -5,6 +5,9 @@ tags: about
 ### _"There is no order in the world around us, we must adapt ourselves to the requirements of chaos instead."_ 
 _Attributed to Kurt Vonnegut. For some more information about Kurt and his brother Bernard, see [Supercooled Clouds]({filename}Vonnegut.md)._  
 
+![A stack of old, hardcover books.](images%2Fstack_of_books.jpeg) 
+_From [pexels.com](https://www.pexels.com/photo/book-book-stack-books-literature-1976971/), "free to use" license._
+
 ## Summary  
 
 There are over 100 articles on this website. 
