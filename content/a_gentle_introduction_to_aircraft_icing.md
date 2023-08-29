@@ -2,11 +2,14 @@ Title: A Gentle Introduction to Aircraft Icing
 Date: 2022-11-25 13:00  
 tags: about
 
+## Summary 
 
 This website was written with people in mind (engineers, aerodynamicists) who already know something about aircraft and aircraft icing.  
 
 To make it a little more understandable to others, I summarize here the assumed 
 common knowledge, with a few of the key technical terms. 
+
+## Discussion
 
 Airplanes require lift from the wings in order to fly. 
 This lift is produced due to details of the air flowing over the well-shaped wing. 
@@ -35,7 +38,7 @@ Water drop size is measured by the drop diameter,
 usually in micrometers (one millionth of a meter).  
 The water drops are typically are small, typically around 20 micrometers
 (a human hair is roughly 100 micrometers in diameter). 
-Not all of the water drops in a cloud are the same size, 
+Water drops in a cloud are not all the same size, 
 so a term MVD (median volumetric diameter) is used to describe  an "average" drop size. 
 Temperature is also important. 
 

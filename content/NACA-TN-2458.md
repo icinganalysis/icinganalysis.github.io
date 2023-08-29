@@ -8,6 +8,7 @@ tags: instruments
 # "An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds"
 
 ## Summary  
+
 Electrical charges imparted to water drops allowed easier measurement of impingement on cylinders.  
 
 ## Key Points  

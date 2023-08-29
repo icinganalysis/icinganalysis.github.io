@@ -11,7 +11,8 @@ tags: thermodynamics, python
 ![Figure 2](images/NACA-TR-831/Figure2.png) 
 
 ## Summary
-Two dimensional heat balance equations for ice protection are detailed. 
+
+Two-dimensional heat balance equations for ice protection are detailed. 
 
 ## Key points
 1.  Heat balance equations for ice protection are detailed. 

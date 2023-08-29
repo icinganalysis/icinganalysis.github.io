@@ -41,6 +41,7 @@ In the Icing Thermodynamics thread, we saw:
 - A distillation of the NACA-era thermodynamics to one control volume [ADS-4]({filename}ads4.md)  
 
 And programs in the Python programming language are available to reproduce the results in several cases [^2].  
+
 - naca_arr_5g13.py  
 - naca_tn_1472.py
 - ludlam.py  
@@ -216,7 +217,7 @@ which does not include separation,
 but other flow features, such as surface pressure coefficient and 
 heat transfer coefficients, may be more sensitive. 
 
-###Airfoil leading edge approximated as a cylinder
+### Airfoil leading edge approximated as a cylinder
 
 [NASA/CR-2005-213852](https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf)  
 
@@ -264,7 +265,7 @@ similar to [NACA-TN-3024]({filename}NACA-TN-3024.md),
 but without the equilibrium assumption.  
 We require post-NACA era data to validate the model. 
 Once we have a water drop motion simulation, 
-we can can get the differential airspeed values 
+we can get the differential airspeed values 
 needed to calculate the water drop heat and mass transfer. 
 
 For now, I will say that [NACA-TN-3024]({filename}NACA-TN-3024.md) 

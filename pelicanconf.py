@@ -46,20 +46,15 @@ CACHE_CONTENT = True
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
-SUMMARY_MAX_LENGTH = 40
+SUMMARY_MAX_LENGTH = 150
 
 # DIRECT_TEMPLATES = ['blog', 'index']
 # PAGINATED_TEMPLATES = ['blog']
 INDEX_SAVE_AS = 'blog.html'
 MENUITEMS = (
-    ('Home', '/'),
-    ('Cylinders', '/icing-on-cylinders.html'),
-    ('Thermodynamics', '/icing-thermodynamics.html'),
-    ('Ice Shapes', '/ice-shapes-and-their-effects.html'),
-    ('Diversions', '/diversions.html'),
-    ('Instruments', '/meteorological-instruments.html'),
-    ('Meteorology', '/meteorology-of-icing-clouds.html'),
-    ('Ice Protection', '/ice-protection.html'),
+    ('Home', '/index.html'),
+    ('Suggested Reading Order', '/site-navigation-and-suggested-reading-order.html'),
+    ('Latest Posts', '/archives.html'),
     ('About', '/about.html'),
 )
 THEME_TEMPLATES_OVERRIDES = ['/home/theepdinker/PycharmProjects/icinganalysis.github.io/notmyidea/templates']

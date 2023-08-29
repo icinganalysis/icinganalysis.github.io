@@ -7,6 +7,8 @@ _from NACA-TN-1246_
 
 ### _"Icing wind tunnels can simulate natural icing with water-spray and refrigeration systems ... to permit safe, convenient and relatively inexpensive testing."_ [^1]  
 
+## Summary
+
 While there were extensive publications on how to use aerodynamic wind tunnels in the NACA-era 
 (for example, Pope's "Wind Tunnel Testing" [^2]), 
 there was no reference for using icing wind tunnels that I could find, 

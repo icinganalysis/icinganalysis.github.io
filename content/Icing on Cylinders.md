@@ -3,7 +3,7 @@ Category: NACA
 Date: 2022-01-15 14:00  
 tags: cylinders
 
-## _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
+### _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)  
 
@@ -15,13 +15,19 @@ tags: cylinders
 
 <p class="aligncenter">
  <img src="images/naca-tn-2904/Figure15.png" 
- alt="Multicylinder cloud meters used in comparative study at Mount Washington Observatory"
+ alt="Water-drop-trajectory analog."
  > 
  <br>
  <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>
  <br>
  <em>(from NACA-TN-2904) </em>
 </p>
+
+## Summary 
+
+The cylinder has a wide range of current uses in aviation
+
+## Abstract 
 
 The cylinder has a wide range of current uses in aviation:  
 - Meteorological instruments for flight and icing wind tunnel tests  

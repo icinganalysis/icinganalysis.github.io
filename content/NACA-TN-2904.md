@@ -5,9 +5,19 @@ tags: cylinders
 
 ### _"Many data points were carefully calculated in order to determine precisely the rate of droplet impingement on the surface of a right circular cylinder."_  
 
+![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled "Input Chart". 
+The second operator turns another input chart crank. 
+Another cylinder is labeled "Droplet Trajectories". 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+](images/naca-tn-2904/Figure15.png)  
+
 # "Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds" [^1]
 
 ## Summary
+
 Detailed water drop impingement analysis (independent of prior analysis) is presented.
 
 ## Key points
@@ -64,7 +74,14 @@ with all the pertinent computations involved for a representative trajectory are
 In Figure 15 below, two investigators turn the input cranks to produce output rotation on the pen plotter in the middle. 
 _(Unfortunately, their names were not recorded in NACA-TN-2904.)_
 
-![Water-drop-trajectory analog.](images/naca-tn-2904/Figure15.png)
+![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled "Input Chart". 
+The second operator turns another input chart crank. 
+Another cylinder is labeled "Droplet Trajectories". 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+](images/naca-tn-2904/Figure15.png)  
 
 Several mechanical analog integrators are connected to perform the calculations. 
 

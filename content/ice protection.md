@@ -17,6 +17,10 @@ exhaust discharge at the wing tip.
 ](images/NACA-ACR-A-53/Figure 1.png)  
 _From NACA-ACR-A-53, 1941. [^2]_  
 
+## Summary  
+
+Numerous methods were tested to find effective aircraft ice protection in the NACA-era.
+
 ## Introduction  
 
 >During the war, more than a hundred cargo planes of the Air Transport Command, 
@@ -43,7 +47,7 @@ _Excerpts from George W. Gray, Chapter 14,
 reprinted in "The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007.
 [http://history.nasa.gov/sp4409-vol2.pdf](http://history.nasa.gov/sp4409-vol2.pdf)_  
 
-Numerous methods were tested to find effective aircraft ice protection in the NACA-era.  
+## Discussion  
 
 In addition to developing components and systems, 
 test and analysis methods were developed. 

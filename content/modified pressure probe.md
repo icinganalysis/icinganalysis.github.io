@@ -3,21 +3,21 @@ Date: 2023-01-03 12:00
 Category: NACA  
 tags: instruments  
 
-###_"A measure of the concentration of liquid water in a supercooled cloud is of considerable value in determining the severity of aircraft icing conditions"_  
+### _"A measure of the concentration of liquid water in a supercooled cloud is of considerable value in determining the severity of aircraft icing conditions"_  
 
-#"A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight"  
+# "A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight"  
 [^1] 
 
-##Summary  
+## Summary  
 An instrument for automatically recording the occurrence of icing and liquid water content values is described.  
 
-##Key Points  
+## Key Points  
 1. The instrument relied on the plugging of holes exposed to icing, which made a measurable pressure difference.  
 2. The instrument was cyclically deiced with electric heating.  
 3. Data was recorded on film that was later processed.  
 4. The instrument was used on numerous flights.  
 
-##Abstract  
+## Abstract  
 
 >An instrument for recording and indicating the frequency and
 intensity of aircraft icing conditions has been developed by the NACA
@@ -46,7 +46,7 @@ of icing rate and airspeed provide a means of obtaining values of
 cloud liquid-water content based on the multicylinder method for
 measuring supercooled cloud quantities.
 
-##Discussion  
+## Discussion  
 
 The publication is succinct, 
 and the online version has good quality scanned images.  
@@ -77,7 +77,7 @@ period. The rate of icing thus measured is a function of cloud
 liquid-water content and air velocity. In order to obtain cloud
 liquid-water content, the air velocity is measured simultaneously with
 the heat-off or icing period.  
-![Figure 1](images/naca-rm-e51e16/Figure 1.png)  
+![Figure 1. Principle of operation of NACA pressure-type icing-rate meter.](images/naca-rm-e51e16/Figure 1.png)  
 
 >An NACA flight-type film recorder is used to record continuously
 the duration of the heat-off or icing period, the heat-on or de-icing
@@ -92,7 +92,7 @@ flashing of a light parallel with the heating circuit; thus, the time
 between flashes can be used as an indication of the icing intensity.
 Another light on this panel indicates the operation of the recorder,
 and a third light indicates when the recording film is exhausted.  
-![Figure 2](images/naca-rm-e51e16/Figure 2.png)  
+![Figure 2. NACA pressure-type icing-rate meter.](images/naca-rm-e51e16/Figure 2.png)  
 
 >The ice-collecting unit (close-up in fig. 3) is a "U"-shape tubular
 construction with 10 small total-pressure holes (0.014-in. diain.)
@@ -106,7 +106,7 @@ on the left side of the fuselage ahead of the propeller plane of a
 twin-engine research aircraft. The "U"-shape unit is mounted normal to
 the air stream with the total-pressure holes in the small tube on the
 upstream side.  
-![Figure 3](images/naca-rm-e51e16/Figure 3.png)  
+![Figure 3. Ice collecting element of NACA pressure-type icing rate meter mounted on fuselage of research aircraft.](images/naca-rm-e51e16/Figure 3.png)  
 
 >The pressure-type meter was calibrated in the tunnel for rate of
 Icing by varying the liquid-water content and the velocity of the air
@@ -128,7 +128,7 @@ the disk-type meter varies between 12 percent at the low icing rate to
 in the calibration of about ±14 percent at the low icing rates to
 ±26 percent at the high icing rates. No effects of air temperature on
 the icing-rate calibration were noted between 0° and 20° F.  
-![Figure 7](images/naca-rm-e51e16/Figure 7.png)  
+![Figure 7. Calibration of pressure-type icing-rate meter against rotating-disk type icing-rate meter in NACA icing research tunnel.](images/naca-rm-e51e16/Figure 7.png)  
 
 >The differential-pressure records shown in figure 10 were taken
 at both a high and low icing rate to show the variation in the
@@ -138,7 +138,7 @@ heat-off line can be used as a direct measure of the icing rate
 provided the speed of the film travel is known. The heat-on or de-icing 
 period does not change appreciably with icing rate but is
 affected more by air temperature and velocity.  
-![Figure 10](images/naca-rm-e51e16/Figure 10.png)  
+![Figure 10. Typical records of differential pressure for several cycles of pressure-type icing-rate meter showing relation to icing rate indications as recorded on data film.](images/naca-rm-e51e16/Figure 10.png)  
 
 >TYPICAL DATA
 After the development and calibration of the instrument, arrangements 
@@ -153,9 +153,9 @@ particular icing encounter. Values of liquid-water content can be
 obtained from the icing rate said airspeed records using the calibration
 previously, described. Each film roll usually contains several encounters 
 in sequence, which must be correlated with the pilot's log.  
-![Figure 12](images/naca-rm-e51e16/Figure 12.png)  
+![Figure 12. Portion of data film from pressure-type icing-rate meter obtained during routine airline flight operations.](images/naca-rm-e51e16/Figure 12.png)  
 
-##Conclusions  
+## Conclusions  
 
 >An instrument for recording and indicating the frequency and
 intensity of aircraft icing conditions has been developed by the NACA
@@ -181,7 +181,7 @@ However, this seemingly valuable data saw surprisingly limited use,
 something that we will soon look at in the 
 "Conclusions of the Meteorological Instruments Thread". 
 
-##Citations  
+## Citations  
 
 NACA-RM-E51E16 cites three publications.  
 

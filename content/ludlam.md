@@ -5,7 +5,8 @@ tags: thermodynamics, python
 
 ### _"The rotating-cylinder technique of determining water content and drop-size distribution cannot therefore be used without consideration of the heat economy"_  
 
-![Cover](images/Ludlam/cover.png)
+![Cover page. Shorter Contributions. 
+The Heat Economy of a Rimed Cylinder.](images/Ludlam/cover.png)
 
 # F. H. Ludlam, "The Heat Economy of a Rimed Cylinder" [^1]
 

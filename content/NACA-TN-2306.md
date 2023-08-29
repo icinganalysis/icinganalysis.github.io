@@ -12,6 +12,7 @@ to average measured liquid-water content of supercooled stratiform clouds.
 ](/images%2FNACA-TN-2306%2FFigure%202.png)  
 
 ## Summary  
+
 Data about the horizontal and vertical extend of icing clouds.  
 
 ## Key Points
@@ -22,8 +23,6 @@ Data about the horizontal and vertical extend of icing clouds.
 
 ## Abstract  
 
-> SUMMARY
-> 
 >Liquid-water content, droplet size, and temperature data measured 
 during 22 flights in predominantly stratiform clouds through the
 1948-49 and the 1949-50 winters are presented. Several icing encounters 

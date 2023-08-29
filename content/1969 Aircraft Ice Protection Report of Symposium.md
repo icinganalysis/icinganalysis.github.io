@@ -5,11 +5,13 @@ tags: diversions
 
 ### _"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people."_ [^1]
 
-![Fig1](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
+![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
+
+## Summary  
+
+The state of the art in 1969 of aircraft icing is documented in 16 presentations.
 
 ## Abstract
-
-_("Summary" in the orignal)._
 
 > The subject of aircraft ice protection has provoked much controversy
 and discourse among theorists, designers, laboratory and test
@@ -58,7 +60,7 @@ protection.
 
 There is a rather full agenda, and there is something for everyone:  
 ![Table of contents (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 1.png)
-![Table of contents 2 (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 1.png)
+![Table of contents 2 (text reproduced below)](images/1969 Aircraft Ice Protection Report of Symposium/table of contents 2.png)
 
 Here is the Table of Content text transcribed, to be legible and searchable:
 > TABLE OF CONTENTS  
@@ -81,7 +83,7 @@ Ice Protection Systems, Commercial Maintenance Experience; R. H. Johnson
 Airline Operational Experience in Icing Airlines Environment.; Capt. Paul A. Soderlind, Northwest  
 Appendix I - List of Attendees  
 
-###Introductory remarks
+### Introductory remarks
 
 > Mr. Stephen H. Rolle; Chief, Propulsion Branch, Engineering and
 Manufacturing Division, in his capacity as symposium chairman,

@@ -11,6 +11,7 @@ tags: meteorology
 superimposed on frequency distribution of icing observations](/images%2FNACA-TN-2569%2FFigure%207%20cropped.png)  
 
 ## Summary  
+
 By allowing some ice to accumulate in severe icing conditions, the peak energy requirements for ice protection can be reduced.  
 
 ## Key Points  
@@ -25,8 +26,6 @@ designed for approximately the severest ice-collection rates expected."
 
 ## Abstract  
 
->SUMMARY  
->
 >Data from various sources on the observed values of meteorological 
 variables, liquid-water content, mean-effective droplet size, and temperature, 
 which are pertinent to aircraft icing, are summarized; and a 

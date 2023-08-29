@@ -9,7 +9,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content=""I'm burning through the sky, yeah Two hundred degrees, that's why they call me Mister Fahrenheit I'm travelling at the speed of light I wanna make a supersonic woman of..." />
+        <meta name="description" content=""I'm burning through the sky, yeah. Two hundred degrees, that's why they call me Mister Fahrenheit. I'm travelling at the speed of light." from Queen, "Don't Stop Me Now"...." />
 </head>
 
 <body id="index" class="home">
@@ -36,8 +36,8 @@
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-22T14:23:22.794998-07:00">
-                Updated: Mon 22 May 2023
+        <abbr class="modified" title="2023-08-29T12:21:54.074602-07:00">
+                Updated: Tue 29 August 2023
         </abbr>
 <!---->
         <!---->
@@ -48,30 +48,44 @@
         <!--</address>-->
         <!---->
 <!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a><br> <a href="/tag/about.html">about</a><br> <a href="/tag/diversions.html">diversions</a><br> </p>
-</footer><!-- /.post-info -->      <blockquote>
-<p><em>"I'm burning through the sky, yeah<br>
-Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-I'm travelling at the speed of light<br>
-I wanna make a supersonic woman of you"</em><br>
-from Queen, "Don't Stop Me Now"  </p>
-</blockquote>
-<h1>A Brief Digression on Unit Systems</h1>
+<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a><br> <a href="/tag/about.html">about</a><br> <a href="/tag/diversions.html">diversions</a><br> <a href="/tag/python.html">python</a><br> </p>
+</footer><!-- /.post-info -->      <h3><em>"I'm burning through the sky, yeah. Two hundred degrees, that's why they call me Mister Fahrenheit. I'm travelling at the speed of light."</em></h3>
+<p><em>from Queen, "Don't Stop Me Now"</em>.  </p>
+<p><img alt="The interior of a modified B-29 bomber used to determine what conditions cause ice to form on wings and aircraft surfaces. 
+An investigator wearing headphones, an oxygen mask, a fur-lined leather jacket, and stylish patterned pants is seated in front of scale. 
+There are also several dial gauges." src="images/b_29_icing_measurement.png">
+<em>Standard weights and other measurements in use. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em>  </p>
+<h2>Summary</h2>
+<p>The unit system used herein is detailed. </p>
 <h2>Preferred units (primary SI units):</h2>
-<div class="highlight"><pre><span></span><code><span class="n">mass</span><span class="o">:</span><span class="w"> </span><span class="n">kg</span><span class="w"></span>
-<span class="n">force</span><span class="o">:</span><span class="w"> </span><span class="n">N</span><span class="w"></span>
-<span class="n">length</span><span class="o">:</span><span class="w"> </span><span class="n">m</span><span class="w"></span>
-<span class="n">tk</span><span class="o">:</span><span class="w"> </span><span class="n">temperature</span><span class="o">,</span><span class="w"> </span><span class="n">K</span><span class="w"></span>
-<span class="n">time</span><span class="o">:</span><span class="w"> </span><span class="n">seconds</span><span class="o">,</span><span class="w"> </span><span class="n">s</span><span class="w"></span>
-<span class="n">p</span><span class="o">:</span><span class="w"> </span><span class="n">air</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">pressure</span><span class="o">,</span><span class="w"> </span><span class="n">Pa</span><span class="w"> </span><span class="o">(</span><span class="n">N</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="o">)</span><span class="w"></span>
-<span class="n">u</span><span class="o">:</span><span class="w"> </span><span class="n">free</span><span class="o">-</span><span class="n">stream</span><span class="w"> </span><span class="n">air</span><span class="w"> </span><span class="n">speed</span><span class="o">,</span><span class="w"> </span><span class="n">m</span><span class="o">/</span><span class="n">s</span><span class="w"></span>
-<span class="n">altitude</span><span class="o">:</span><span class="w"> </span><span class="n">pressure</span><span class="w"> </span><span class="n">altitude</span><span class="o">,</span><span class="w"> </span><span class="n">m</span><span class="w"></span>
-<span class="n">energy</span><span class="o">:</span><span class="w"> </span><span class="n">J</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">N</span><span class="o">-</span><span class="n">m</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>    mass: kg
+    force: N
+    length: m
+    tk: temperature, K
+    time: seconds, s
+    p: air static pressure, Pa (N/m^2)
+    u: free-stream air speed, m/s
+    altitude: pressure altitude, m
+    energy: J or N-m
 </code></pre></div>
 
 <h2>Icing specific, entrenched exceptions:</h2>
-<div class="highlight"><pre><span></span><code><span class="n">d_drop</span><span class="o">:</span><span class="w"> </span><span class="n">water</span><span class="w"> </span><span class="n">drop</span><span class="w"> </span><span class="n">diameter</span><span class="o">,</span><span class="w"> </span><span class="n">micrometer</span><span class="w"> </span><span class="o">(</span><span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">6</span><span class="w"> </span><span class="n">m</span><span class="o">)</span><span class="w"></span>
-<span class="n">lwc</span><span class="o">:</span><span class="w"> </span><span class="n">liquid</span><span class="w"> </span><span class="n">water</span><span class="w"> </span><span class="n">content</span><span class="o">,</span><span class="w"> </span><span class="n">g</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">3</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>    d_drop: water drop diameter, micrometer (1e-6 m)
+    lwc: liquid water content, g/m^3
+</code></pre></div>
+
+<h2>The NACA publications systems of units</h2>
+<p>The units in the NACA publications vaguely follow "US Customary" units, 
+although there are often exceptions:</p>
+<div class="highlight"><pre><span></span><code>    mass: g, kg, lbm, slug
+    force: N, lbf
+    length: micron, inch, foot, mile, nautical mile
+    temperature: F, R
+    time: s, hour
+    air static pressure, lbf/in^2 (although commonly listed as a pressure altitude, ft.)
+    free-stream air speed: mph, knots (nmi/hour), ft/s
+    pressure altitude: ft
+    energy: BTU, lbf-ft
 </code></pre></div>
 
 <h2>A note about mass and force:</h2>
@@ -79,9 +93,9 @@ from Queen, "Don't Stop Me Now"  </p>
 <p>Force = mass * acceleration / gc</p>
 <p>In SI units gc = 1 kg-m/(N-s^2)<br>
 N = kg * m/s^2 / (kg-m/N-s^2) = N  </p>
-<p>As the value is 1, gc might not be explicitly be included in calculations in SI units,
+<p>As the value is 1, gc might not be explicitly be included in calculations in SI units, 
 but it is always implicitly there.</p>
-<p>In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2).<br>
+<p>In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2). 
 It must be explicitly included in any calculation involving force, mass and acceleration. </p>
 <p>The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this,
 by making the gc value numerically 1, so if it is omitted it has no apparent effect.  </p>
@@ -107,6 +121,35 @@ Herein, the IT BTU is used.</p>
 </code></pre></div>
 
 <p>In the NACA publications, this is commonly rounded to 778.</p>
+<h2>Calculations in python</h2>
+<p>The file 
+<a href="https://github.com/icinganalysis/icinganalysis.github.io/blob/main/icinganalysis/units_helpers.py">units_helpers.py</a> 
+has many unit conversion from the NACA units to and from the standard units above. </p>
+<p>Using named conversions helps readability and maintainability, 
+by avoiding uncertainty of why certain values appear.</p>
+<div class="highlight"><pre><span></span><code><span class="n">u</span> <span class="o">=</span> <span class="n">v</span> <span class="o">/</span> <span class="mf">2.2369</span>  <span class="c1"># Why this value?</span>
+
+<span class="n">u</span> <span class="o">=</span> <span class="n">units_helpers</span><span class="o">.</span><span class="n">mph_to_ms</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>  <span class="c1"># Clearer</span>
+</code></pre></div>
+
+<p>It is recommended to convert to standard units as soon as a value is input. 
+If output in non-standard units is desired, the conversion should happen just before output. 
+This keeps internal calculations in the preferred unit system.</p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>From <a href="https://commons.wikimedia.org/wiki/File:Instrumentation_in_A-29_-_GPN-2000-001450.jpg">commons.wikimedia.org</a>. 
+The description reads: "Recording high altitude flight data in a flying laboratory at the Aircraft Engine Research Laboratory of the National Advisory Committee for Aeronautics, Cleveland, Ohio, now known as the John H. Glenn Research Center at Lewis Field. The aircraft is a modified B-29 bomber manufactured by Boeing, and backbone of the World War II effort. It was used to determine what conditions cause ice to form on wings and aircraft surfaces."
+The date is given as May 11, 1944. 
+While the text is not explicit, I speculate that this illustrates ice samples from a rotating cylinder instrument being weighed (I don't know what else would be weighed in flight). 
+I also speculate that the photo was staged on the ground, as the manometers (glass tubes partially filled with fluid) are all reading zero. 
+Also, note a "PARACHUTE" is available, in case something goes wrong. 
+I have not found this photo in a NACA publication.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
     </div><!-- /.entry-content -->
 
   </article>

@@ -5,6 +5,8 @@ tags: cylinders
 
 ### _"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
+![Figure 24. Example illustrating effect of run-off on multi-cylinder data.](images/naca-tr-1215/Figure24.png)
+
 # "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
 
 ## Summary 
@@ -15,7 +17,7 @@ Conditions where not all water drops freeze are considered.
 2. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
 3. The terms "freezing fraction" is introduced into the NACA publications.
 
-## Abstract
+## Abstract 
 
 >  Evaluation of the rotating multicylinder method for the
 measurement of droplet-size distribution, volume-median droplet
@@ -76,7 +78,7 @@ The significant part that NACA-TR-1215 adds
 is the effect of of water drops that do not completely freeze. 
 Building on the work of Ludlam [^5] and others, an analysis method was detailed in Appendix F.
 
-![Assumptions](images/naca-tr-1215/Assumptions.png)
+![Six detailed assumptions about ice formation on a cylinder.](images/naca-tr-1215/Assumptions.png)
 
 A detailed explanation of the equations in Appendix F is quite involved, 
 and will be deferred to a possible, future thread on thermodynamics. 
@@ -108,7 +110,7 @@ smaller than the effect of discontinuities (gaps) in the cloud.
 Figure 24 shows cases where the cylinder masses are well below the critical line (a),
 some masses are affected (b and c), and all cylinders (d).  
 
-![Figure 24](images/naca-tr-1215/Figure24.png)
+![Figure 24. Example illustrating effect of run-off on multi-cylinder data.](images/naca-tr-1215/Figure24.png)
 
 Data affected by run-off may still be useful in some circumstances:
 
@@ -128,7 +130,6 @@ possible the attainment of satisfactory results in many cases
 in which one or two cylinders are affected by run-off. Observations 
 from which reliable results are unobtainable can
 also be recognized and rejected.
-
 
 ### Freezing fraction
 
@@ -150,7 +151,7 @@ even though it was contemporaneous, at least for the later NACA works.
 Messinger is the second most cited of any aircraft icing publication that I know of, 
 second only to Langmuir and Blodgett [^9] (732 citations versus 741 [^9]).
 
-#Conclusions
+## Conclusions
 
 The often noted laments about the limitations of the multicylinder method 
 are repeated yet again, 

@@ -5,6 +5,9 @@ tags: thermodynamics, python
 
 ### _"The effects of frictional heating were analyzed to determine the conditions under which ice formations can be prevented"_  
 
+![Figure 6 of NACA-TN-3396. Diamond airfoil model in tunnel, 
+showing ice formed at Mach 1.35 on top surface behind shoulder.](images/naca-tn-3396/Figure6.png)  
+
 # NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" [^1]
 and 
 # NACA-TN-2914 "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions" [^2]
@@ -20,7 +23,6 @@ The warmest ambient temperature at which ice can accumulate is calculated.
 
 ## Abstract
 
-NACA-TN-2861: 
 > Calculations have been made for the icing limit of a diamond airfoil 
 at zero angle of attack in terms of the stream Mach number, stream
 temperature, and pressure altitude. The icing limit is defined as a
@@ -30,7 +32,8 @@ The results show that the point most likely to ice on the airfoil
 lies immediately behind the shoulder and is subject to possible icing
 at Mach numbers as high as 1.4.
 
-NACA-TN-2914: 
+_NACA-TN-2861_
+
 > The effects of existing frictional heating were analyzed to determine 
 the conditions under which ice formations on aircraft surfaces can
 be prevented. A method is presented for rapidly determining by means
@@ -39,7 +42,9 @@ which will maintain an ice-free surface in an icing cloud. The
 method can be applied to both subsonic and supersonic flow. The charts
 presented are for Mach numbers up to 1.8 and pressure altitudes from sea
 level to 45,000 feet.
-    
+
+_NACA-TN-2914_     
+
 ## Discussion
 
 This is review includes NACA-TN-2861 and NACA-TN-2914. 

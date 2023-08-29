@@ -2,10 +2,15 @@ title: Out-Sourcing My Work to ChatGPT and DALL-E ;)
 Date: 2023-01-22 12:00  
 tags: humor, diversions    
 
+### _"ChatGPT may produce inaccurate information about people, places, or facts"_  
+_From https://chat.openai.com/ ChatGPT August 3 Version (2023)._  
+
 ![A metal-construction, low-wing, single engine, propeller driven airplane in flight.
 The passenger cabin is rather boxy for an airplane. 
 Smoke trails aft of the airplane.
 ](images/DALLE An airplane from 1946 flying with engine exhaust heat ice protection.png)  
+
+## Summary 
 
 The image was generated with [DALL-E 2](https://openai.com/dall-e-2/) with the prompt 
 "An airplane from 1946 flying with engine exhaust heat ice protection". 
@@ -42,6 +47,7 @@ but I could not find anything about it being used for icing research.
 
 At least it got the dates for NACA correct.  
 
-I hope that my typical post is at least a little better than this.  
+I hope that my typical post is at least a little better than this. 
+See ["Engine Exhaust Heat"]({filename}engine exhaust heat.md) for a review that a human wrote for comparison. 
 
  

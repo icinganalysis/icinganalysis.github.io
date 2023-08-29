@@ -9,10 +9,12 @@ A diagram of air ducts leading from four engines to manifolds and
 wing ice protection ducts. ](images%2Fads4%2FFigure%204-2.2%20rotated.png)  
 _Figure 4.2-2 of ADS-4._  
 
-## Summary
-- The knowledge of aircraft icing matured to produce engineering design manuals.  
+## Summary  
+
+The knowledge of aircraft icing matured to produce engineering design manuals.  
 
 ## Key Points  
+
 1. NACA publications contributed heavily to later design manuals.  
 2. Extensive design publications distilling research into practical methods appeared in the 1950s.  
 3. I do not know of a comprehensive design resource for some recent topics such as 3D design and analysis.  
@@ -315,12 +317,12 @@ ADS-4 has been used for decades, and is a crowning achievement of the NACA-era.
 
 ## Notes  
 
-[^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
-[^2]: Tribus, Myron: "Modern Icing Technology" 1952.  https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5  
-[^3]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381  
+[^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+[^2]: Tribus, Myron: "Modern Icing Technology" 1952.  [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
+[^3]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)  
 [^4]: "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
-[^5]: "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  https://apps.dtic.mil/sti/citations/AD0090156    
-[^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [AIR1168/4C](https://www.sae.org/standards/content/air1168/4/))  
+[^5]: "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0090156)    
+[^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))  
 [^7]:
-1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
-[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
+1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, [icepredictionworkshop.wordpress.com](https://icepredictionworkshop.wordpress.com/)  
+[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  

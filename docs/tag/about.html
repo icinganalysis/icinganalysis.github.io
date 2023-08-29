@@ -37,8 +37,8 @@
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-22T14:23:22.798998-07:00">
-                Updated: Mon 22 May 2023
+        <abbr class="modified" title="2023-08-29T12:48:27.864203-07:00">
+                Updated: Tue 29 August 2023
         </abbr>
 <!---->
         <!---->
@@ -50,9 +50,14 @@
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
 <p>tags: <a href="/tag/about.html">about</a><br> </p>
-</footer><!-- /.post-info -->                <p><img alt="Figure15. Multicylinder cloud meters used in comparative study 
-at Mount Washington Observatory
-" src="images%2Fnaca-tn-2904%2FFigure15.png"><br>
+</footer><!-- /.post-info -->                <p><img alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled &quot;Input Chart&quot;. 
+The second operator turns another input chart crank. 
+Another cylinder is labeled &quot;Droplet Trajectories&quot;. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+" src="images/naca-tn-2904/Figure15.png"><br>
 <em>From NACA-TN-2904</em>  </p>
 <p>I have made this blog up as I went along. 
 I have a general plan to cover all 132 icing publications in the 
@@ -85,8 +90,8 @@ A translation to English is available at <a href="https://apps.dtic.mil/sti/pdfs
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-22T14:23:22.794998-07:00">
-                Updated: Mon 22 May 2023
+        <abbr class="modified" title="2023-08-27T18:58:15.836590-07:00">
+                Updated: Sun 27 August 2023
         </abbr>
 <!---->
         <!---->
@@ -98,9 +103,11 @@ A translation to English is available at <a href="https://apps.dtic.mil/sti/pdfs
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
 <p>tags: <a href="/tag/about.html">about</a><br> </p>
-</footer><!-- /.post-info -->                <p>This website was written with people in mind (engineers, aerodynamicists) who already know something about aircraft and aircraft icing.  </p>
+</footer><!-- /.post-info -->                <h2>Summary</h2>
+<p>This website was written with people in mind (engineers, aerodynamicists) who already know something about aircraft and aircraft icing.  </p>
 <p>To make it a little more understandable to others, I summarize here the assumed 
 common knowledge, with a few of the key technical terms. </p>
+<h2>Discussion</h2>
 <p>Airplanes require lift from the wings in order to fly. 
 This lift is produced due to details of the air flowing over the well-shaped wing. </p>
 <p>Ice may form on airplanes in flight in certain weather conditions. 
@@ -109,7 +116,7 @@ Measurements of lift are often expressed as the coefficient of lift (Cl)
 and drag as the coefficient of drag (Cd). </p>
 <p>To limit the effects of ice in flight, some aircraft (and nearly every commercial airliner) 
 has ice protection on parts of the wing and other aircraft surfaces. 
-This protection is often heating …</p>
+This protection is …</p>
                 <a class="readmore" href="/a-gentle-introduction-to-aircraft-icing.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
@@ -180,8 +187,8 @@ to read the articles in the order below.  </p>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-22T14:23:22.794998-07:00">
-                Updated: Mon 22 May 2023
+        <abbr class="modified" title="2023-08-29T12:21:54.074602-07:00">
+                Updated: Tue 29 August 2023
         </abbr>
 <!---->
         <!---->
@@ -192,38 +199,41 @@ to read the articles in the order below.  </p>
         <!--</address>-->
         <!---->
 <!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a><br> <a href="/tag/about.html">about</a><br> <a href="/tag/diversions.html">diversions</a><br> </p>
-</footer><!-- /.post-info -->                <blockquote>
-<p><em>"I'm burning through the sky, yeah<br>
-Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-I'm travelling at the speed of light<br>
-I wanna make a supersonic woman of you"</em><br>
-from Queen, "Don't Stop Me Now"  </p>
-</blockquote>
-<h1>A Brief Digression on Unit Systems</h1>
+<p>tags: <a href="/tag/thermodynamics.html">thermodynamics</a><br> <a href="/tag/about.html">about</a><br> <a href="/tag/diversions.html">diversions</a><br> <a href="/tag/python.html">python</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"I'm burning through the sky, yeah. Two hundred degrees, that's why they call me Mister Fahrenheit. I'm travelling at the speed of light."</em></h3>
+<p><em>from Queen, "Don't Stop Me Now"</em>.  </p>
+<p><img alt="The interior of a modified B-29 bomber used to determine what conditions cause ice to form on wings and aircraft surfaces. 
+An investigator wearing headphones, an oxygen mask, a fur-lined leather jacket, and stylish patterned pants is seated in front of scale. 
+There are also several dial gauges." src="images/b_29_icing_measurement.png">
+<em>Standard weights and other measurements in use. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em>  </p>
+<h2>Summary</h2>
+<p>The unit system used herein is detailed. </p>
 <h2>Preferred units (primary SI units):</h2>
-<div class="highlight"><pre><span></span><code><span class="n">mass</span><span class="o">:</span><span class="w"> </span><span class="n">kg</span><span class="w"></span>
-<span class="n">force</span><span class="o">:</span><span class="w"> </span><span class="n">N</span><span class="w"></span>
-<span class="n">length</span><span class="o">:</span><span class="w"> </span><span class="n">m</span><span class="w"></span>
-<span class="n">tk</span><span class="o">:</span><span class="w"> </span><span class="n">temperature</span><span class="o">,</span><span class="w"> </span><span class="n">K</span><span class="w"></span>
-<span class="n">time</span><span class="o">:</span><span class="w"> </span><span class="n">seconds</span><span class="o">,</span><span class="w"> </span><span class="n">s</span><span class="w"></span>
-<span class="n">p</span><span class="o">:</span><span class="w"> </span><span class="n">air</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">pressure</span><span class="o">,</span><span class="w"> </span><span class="n">Pa</span><span class="w"> </span><span class="o">(</span><span class="n">N</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="o">)</span><span class="w"></span>
-<span class="n">u</span><span class="o">:</span><span class="w"> </span><span class="n">free</span><span class="o">-</span><span class="n">stream</span><span class="w"> </span><span class="n">air</span><span class="w"> </span><span class="n">speed</span><span class="o">,</span><span class="w"> </span><span class="n">m</span><span class="o">/</span><span class="n">s</span><span class="w"></span>
-<span class="n">altitude</span><span class="o">:</span><span class="w"> </span><span class="n">pressure</span><span class="w"> </span><span class="n">altitude</span><span class="o">,</span><span class="w"> </span><span class="n">m</span><span class="w"></span>
-<span class="n">energy</span><span class="o">:</span><span class="w"> </span><span class="n">J</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">N</span><span class="o">-</span><span class="n">m</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>    mass: kg
+    force: N
+    length: m
+    tk: temperature, K
+    time: seconds, s
+    p: air static pressure, Pa (N/m^2)
+    u: free-stream air speed, m/s
+    altitude: pressure altitude, m
+    energy: J or N-m
 </code></pre></div>
 
 <h2>Icing specific, entrenched exceptions:</h2>
-<div class="highlight"><pre><span></span><code><span class="n">d_drop</span><span class="o">:</span><span class="w"> </span><span class="n">water</span><span class="w"> </span><span class="n">drop</span><span class="w"> </span><span class="n">diameter</span><span class="o">,</span><span class="w"> </span><span class="n">micrometer</span><span class="w"> </span><span class="o">(</span><span class="mi">1</span><span class="n">e</span><span class="o">-</span><span class="mi">6</span><span class="w"> </span><span class="n">m</span><span class="o">)</span><span class="w"></span>
-<span class="n">lwc</span><span class="o">:</span><span class="w"> </span><span class="n">liquid</span><span class="w"> </span><span class="n">water</span><span class="w"> </span><span class="n">content</span><span class="o">,</span><span class="w"> </span><span class="n">g</span><span class="o">/</span><span class="n">m</span><span class="o">^</span><span class="mi">3</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code>    d_drop: water drop diameter, micrometer (1e-6 m)
+    lwc: liquid water content, g/m^3
 </code></pre></div>
 
-<h2>A note about mass and force:</h2>
-<p>To keep unit consistency in Newton's second law, a unit system constant "gc" is introduced.  </p>
-<p>Force = mass * acceleration / gc</p>
-<p>In SI units gc = 1 kg-m/(N-s^2)<br>
-N = kg * m/s^2 / (kg-m/N-s^2) = N  </p>
-<p>As the value …</p>
+<h2>The NACA publications systems of units</h2>
+<p>The units in the NACA publications vaguely follow "US Customary" units, 
+although there are often exceptions:</p>
+<div class="highlight"><pre><span></span><code>    mass: g, kg, lbm, slug
+    force: N, lbf
+    length: micron, inch, foot, mile, nautical mile
+    temperature: F, R
+    time: s, hour
+    air static pressure, lbf …</code></pre></div>
                 <a class="readmore" href="/a-brief-digression-on-unit-systems.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>

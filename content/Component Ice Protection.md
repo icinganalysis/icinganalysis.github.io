@@ -370,7 +370,10 @@ It is up to you to show on your aircraft that they are not a problem.
 And I know that "discoveries" are still sometimes made about the 
 adequacy of components for a particular aircraft on icing flight tests. 
 
-![Figure 2-1. Areas of airframe that may require ice protection.
+![Figure 2-1. Areas of airframe that may require ice protection. 
+Areas include wing leading edges, propellers, windshield, radome,
+essential instruments, auxilliary air inlets, engine air inlets, 
+and empennage leading edges.
 ](images%2FFAA%20Handbook%20volume%202%2FFigure%202-1.png)
 _From Aircraft Icing Handbook, Volume 2 [^4]_  
 

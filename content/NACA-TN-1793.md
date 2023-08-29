@@ -84,7 +84,7 @@ and direct impact of water. The thermometer was subject to kinetic
 heating because of the speed of the airplane. Corrections for the
 kinetic heating were obtained by the procedure outlined in reference 4.  
 
-Reference 4 is [NACA-TN-1393.md]({filename}NACA-TN-1393.md).  
+Reference 4 is [NACA-TN-1393]({filename}NACA-TN-1393.md).  
 >
 > ...
 > 
@@ -243,7 +243,7 @@ An online search (scholar.google.com) found 15 citations for NACA-TN-1793.
 
 [^1]: Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)  
 [^2]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.  I could not locate this on the NTRS. It is available at [core.ac.uk](https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^3]: Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001.  
-[^4]: Anon.: "Aircraft Inflight Icing Terminology.", APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS, SAE ARP5624, 2013 https://www.sae.org/standards/content/arp5624/  
+[^4]: Anon.: "Aircraft Inflight Icing Terminology.", APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS, SAE ARP5624, 2013 [www.sae.org](https://www.sae.org/standards/content/arp5624/)  
 

@@ -5,6 +5,8 @@ tags: cylinders, python
 
 ### _"... the effect on final results of droplets that do not freeze completely on the cylinders"_  
 
+![Figure 24. Examples illustrating effect of run-off on multicylinder data.](images/naca-tr-1215/Figure24.png)
+
 # "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method" [Thermodynamics topics] [^1]
 
 ## Summary 
@@ -86,7 +88,7 @@ and then all equations are combined in F10 to predict the
 Figure 24 shows cases where the cylinder masses are well below the critical line (a),
 some masses are affected (b and c), and all cylinders are affected (d).  
 
-![Figure 24](images/naca-tr-1215/Figure24.png)
+![Figure 24. Examples illustrating effect of run-off on multicylinder data.](images/naca-tr-1215/Figure24.png)
 
 Also shown in Figure 24 is a "run-off" line:  
 > For observations in discontinuous clouds, points representing 

@@ -2,9 +2,14 @@ Title: Ideas for future posts
 Date: 2023-04-20 12:00  
 tags: about  
 
-![Figure15. Multicylinder cloud meters used in comparative study 
-at Mount Washington Observatory
-](images%2Fnaca-tn-2904%2FFigure15.png)  
+![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled "Input Chart". 
+The second operator turns another input chart crank. 
+Another cylinder is labeled "Droplet Trajectories". 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+](images/naca-tn-2904/Figure15.png)  
 _From NACA-TN-2904_  
 
 I have made this blog up as I went along. 

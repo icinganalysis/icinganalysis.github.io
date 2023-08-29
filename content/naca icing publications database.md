@@ -15,8 +15,7 @@ _NACA Cleveland library, circa 1945._
 ## Summary
 210 NACA icing publications were identified, and the references were included in a database.
 
----
-
+## Discussion
 
 I have assembled a database of 210 NACA-NASA[*]({filename}non-naca.md) icing publications. 132 were cited in “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1]. 
 I also identified 78 additional NACA icing publications in the NTRS [^2] that were not cited in [^1]. 
@@ -28,7 +27,7 @@ For the database, the citations were updated to a consistent format similar to M
 The document identifiers such as “NACA TN 1907” were updated to the format used in the NTRS, 
 such as “NACA-TN-1907”.
 
-Some of the publications were written concurrently with other publications, so the citation 
+Some publications were written concurrently with other publications, so the citation 
 has an incomplete document identifier, such as 
 “Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane” 
 cited as “NACA ARR” in NACA-ARR-5A03. 

@@ -24,8 +24,6 @@ The icing design values in NACA-TN-1855 were found to have an exceedance probabi
 
 ## Abstract  
 
->SUMMARY  
-> 
 >Meteorological icing data obtained in flight in the United States
 are analyzed statistically and methods are developed for the determination of:  
 > 

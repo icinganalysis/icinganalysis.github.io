@@ -44,13 +44,13 @@ in the extensive [Icing Thermodynamic thread]({filename}thermodynamics.md),
 and other reviews:  
 
 - "An Investigation of Aircraft Heaters VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings", NACA-WR-W-14, Mar. 1943.  
-    > review:  [Combustion heated air](Combustion%20heated%20air.md)  
+    > review:  [Combustion heated air]({filename}Combustion%20heated%20air.md)  
 - "An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane", NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
     > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
 - "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions", NACA-TN-1472, 1947.  
     > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
 - "An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils", NACA-TN-1453, 1948.   
-    > review:  [Combustion heated air](Combustion%20heated%20air.md)  
+    > review:  [Combustion heated air]({filename}Combustion%20heated%20air.md)  
 - "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow", NACA-TN-2861, 1953.  
     > review: [NACA-TN-2861]({filename}NACA-TN-2914.md)  
 - "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", NACA-TN-2914, 1953.  
@@ -412,7 +412,7 @@ EXTRACTS FROM LETTER DATED APRIL 12, 1936, FROM HONORABLE EDWARD P. WARNER TO DR
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 [^5]: 
 Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984.
-[^6]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
+[^6]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^7]: Wright, William. User's manual for LEWICE version 3.2. No. E-15537. 2008. NASA/CR—2008-214255 [ntsr](https://ntrs.nasa.gov/api/citations/20080048307/downloads/20080048307.pdf)  
-[^8]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [AIR1168/4C](https://www.sae.org/standards/content/air1168/4/))  
+[^8]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))  
 

@@ -1,8 +1,11 @@
 title: Six Month Review of Blast from the Past: NACA Icing Publications    
 Date: 2022-07-13 12:00  
 
-![Figure 8](images/naca-tn-339/Figure 8.png)  
+![Figure 8 of NACA-TN-339. Test on glucose coating. Heavy spray. Temperature -1 degree C.
+Air speed 70 mph.](images/naca-tn-339/Figure 8.png)  
 _One of the earliest icing wind tunnel tests on surface coatings to prevent ice, NACA-TN-339, 1929. Sometimes, there is a learning curve._  
+
+## Summary
 
 I have been posting for about six months now, 
 so it is time to review how it is going.  
@@ -14,9 +17,11 @@ I started out with the statement ["I make selected NACA publications easily acce
 By some measures, I have been achieving that, 
 and I welcome your opinions of how well I am doing. 
 
-##Things that work
+## Discussion  
 
-###Interest in the topic  
+## Things that work
+
+### Interest in the topic  
 
 I presented ["NACA Publications on Aircraft Icing: Cylinders"](https://icinganalysis.github.io/images/cylinder_thread_wrap_up/SAE%20presentation%20Cook.pdf) 
 to the SAE AC-9C Aircraft Icing Technology Committee and it was well received. 
@@ -30,7 +35,7 @@ One post went "viral", by my modest standards, with 4000+ views (and still adds 
 I suppose it is a well known title in aircraft icing, 
 and people want to see it summarized. 
 
-###LinkedIn
+### LinkedIn
 
 I usually post a link to the latest post on my website on LinkedIn. 
 I thought that LinkedIn would be just one of several ways of getting my posts noticed, 
@@ -55,7 +60,7 @@ but each post typically gets some (and thank you for the likes).
 I am not sure how much the hash tags (typically #icinganalysis and #aircrafticing) 
 contribute to views. 
 
-###Git and Github
+### Git and Github
 
 I am glad that I used a file tracking system from the start. 
 I used git (although there are others). 
@@ -79,12 +84,12 @@ I do have a domain name, icinganalysis.com,
 which currently re-directs to icinganalysis.github.io, 
 so I could start using that as the main link. 
 
-##Things that sort-of work
+## Things that sort-of work
 
-###Progress on the 132 Historic NACA Icing Publications 
+### Progress on the 132 Historic NACA Icing Publications 
 
 To date, I have posted 56 reviews, but only 26 of the from the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
-That puts me on a three year trajectory to review them all. 
+That puts me on a three-year trajectory to review them all. 
 (I am not sure that I will get there.) 
 
 I my defense, the other reviews were pertinent topics, 
@@ -94,7 +99,7 @@ and some of them generated much interest
 and [Irving Langmuir, "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air"]({filename}Langmuir Rising Currents.md) 
 the three most popular posts, each with over 1000 views). 
 
-###Searchability
+### Searchability
 
 Searchability is part of accessibility. 
 If someone cannot find the information, it is not very useful. 
@@ -104,7 +109,7 @@ When I search "Selected bibliography of NACA-NASA aircraft icing publications" o
 shows up on the first page 
 (your experience may be different, as search engines may tailor results to users). 
 This was one of my goals, to make this readily available in a legible form, 
-and machine readable (if you count HTML).
+and machine-readable (if you count HTML).
 
 However, if I search "NACA-TN-1904", my review at [NACA-TN-1904 "Observations of Icing Conditions Encountered in Flight During 1948"]({filename}/NACA-TN-1904.md) 
 shows on the first page of duckduckgo.com, but on google.com 
@@ -135,9 +140,9 @@ I have tried other tools stacks for other websites,
 and this is the one that has worked best for me
 (they all have advantages and challenges). 
 
-##Things that have not worked (yet)
+## Things that have not worked (yet)
 
-###Interest in the python code files
+### Interest in the python code files
 
 Github tracks how often a repository is cloned, 
 and [mine](https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis) has been cloned a few times. 
@@ -157,7 +162,7 @@ and no one noticed
 Oh well, I hold out hope that there will be more interest when 
 we get to icing wind tunnel test similarity. 
 
-###Other media and feedback
+### Other media and feedback
 
 I made a separate email account for icinganalysis, and no one has commented through that. 
 
@@ -168,7 +173,7 @@ mostly from authors who are kindly willing to share their papers.
 
 There have been some kind text comments on LinkedIn, but not many comments of any sort. 
 
-##Conclusion
+## Conclusion
 
 Again, I thank my readers. 
 

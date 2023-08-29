@@ -9,6 +9,8 @@ tags: thermodynamics
 
 # Icing Thermodynamics Thread 
 
+## Summary
+
 This thread will focus on the use of thermodynamic heat and mass balance for icing and ice protection calculations. 
 
 There may be some overlap with ice protection systems, 

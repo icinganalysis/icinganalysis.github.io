@@ -140,16 +140,16 @@ e. Will two or more types of ice protection system be needed? Often propellers a
 windscreens are de-iced or anti-iced by electric resistance heaters while aerodynamic
 surfaces are pneumatic boot or hot gas de-iced. Many other combinations occur. This may
 increase inspection and maintenance complexity.  
->f. Other considerations which sometimes apply include:
->  1. Run-back icing concerns
->  2. Aerodynamic smoothness requirements
->  3. Maintenance requirements
->  4. Installation costs and time, if the system is being retrofitted
->  5. Confidence in the selected system based on previous experience in similar applications
->  6. Electromagnetic interference concerns
->  7. Environmental impact concerns
->  8. Certification difficulties anticipated  
->  9. Redundancy requirements  
+>f. Other considerations which sometimes apply include:  
+>>  1. Run-back icing concerns  
+>>  2. Aerodynamic smoothness requirements  
+>>  3. Maintenance requirements  
+>>  4. Installation costs and time, if the system is being retrofitted  
+>>  5. Confidence in the selected system based on previous experience in similar applications  
+>>  6. Electromagnetic interference concerns  
+>>  7. Environmental impact concerns  
+>>  8. Certification difficulties anticipated   
+>>  9. Redundancy requirements  
 
 The "other considerations" are often difficult to quantify, 
 but they can be critical to your system selection. 

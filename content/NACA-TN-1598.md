@@ -12,8 +12,9 @@ Average icing rate, 4 inches per hour; liquid-water content,
 
 # NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight" [^1]  
 
-## Summary
->Airplane levels effects of icing are measured, and broken into major components.  
+## Summary  
+
+Airplane levels effects of icing are measured, and broken into major components.  
 
 ## Key Points
 1. Numerous, excellent quality photos show how icing flight test "should be done".  

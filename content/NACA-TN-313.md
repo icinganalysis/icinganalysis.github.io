@@ -7,7 +7,8 @@ tags: ice shapes
 
 # NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" [^1] 
 
-![Figure 2](images/naca-tn-313/Figure2.png)  
+![Figure 2. Sketches of ice formation on wings and wires. (From notes and sketches on numerous flights.)](images/naca-tn-313/Figure2.png)  
+
 ## Summary  
 Ice shapes are recorded in flight tests in natural icing conditions.  
 
@@ -84,7 +85,7 @@ in constant readiness and at such times as suitable conditions
 appeared probable, flights were made, during which observations
 and notes were taken.
 
-![Figure 1](images/naca-tn-313/Figure1.png)  
+![Figure 1. VE-7 airplane.](images/naca-tn-313/Figure1.png)  
 
 [Frankly, I would not be brave enough to fly that in icing conditions, 
 with all of the wires, struts, etc. that are potential ice collection surfaces.]
@@ -131,7 +132,7 @@ It will be noted that ice in this form has a
 definite tendency to mushroom or to enlarge its frontal area at
 the very front of the formation.
 
-![Figure 2](images/naca-tn-313/Figure2.png)  
+![Figure 2. Sketches of ice formation on wings and wires. (From notes and sketches on numerous flights.)](images/naca-tn-313/Figure2.png)  
 
 >An important observation which has been frequently confirmed is illustrated in Figure 3.
 At temperatures below. the zone directly below 32°F, that is, at temperatures as low as
@@ -146,7 +147,7 @@ In this latter case the formation is pure white, opaque, and granular in texture
 It is, in fact, snow of very fine flake size or more truly, since it lacks flake design, 
 a collection of tiny ice pellets, which have but little cohesion or adhesion.
 
-![Figure 3](images/naca-tn-313/Figure3.png)  
+![Figure 3. Sketches of ice formation on wings and wires. (From notes and sketches on numerous flights.](images/naca-tn-313/Figure3.png)  
 
 >The formation of either the clear ice or rime ice upon an
 airplane produces danger from two
@@ -204,7 +205,7 @@ about 7500 feet.
 Figure 4 appears to describe a supercooled large drop (SLD) icing scenario,
 where a temperature inversion allows rain formation aloft, 
 which then falls through a colder layer that cools the drops below 0C (32F). 
-![Figure 4](images/naca-tn-313/Figure4.png)  
+![Figure 4. Illustrating t condition of temperature inversion encountered during tests.](images/naca-tn-313/Figure4.png)  
 
 >Figures 5 and 6 illustrate a formation which was obtained upon this flight.
 No deposit of any form whatsoever  was observed at any other altitude or condition other than
@@ -219,7 +220,9 @@ into a lower, colder stratum need not necessarily be considered an exception to 
 When in the conditions of rain,
 clouds, or fog, this inversion may be expected as a matter of more frequent occurrence.
 
-![Figures 5 and 6](images/naca-tn-313/Figures5and6.png)  
+![Figures 5 and 6. Ice formations onwing of VE-7 airplane at 31 degree F. 
+The deposit was accumulated during a twenty minute flight through light 
+rain at an altitude of 600-800 feet. Approximate thickness of ice, 3/16 inch.](images/naca-tn-313/Figures5and6.png)  
 
 ### Icephobics tests
 

@@ -3,21 +3,21 @@ Date: 2022-05-04 12:00
 Category: NACA  
 tags: thermodynamics  
 
-###_"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"_   
+### _"The evaporative cooling of surfaces by air streams at high speed is of considerable interest"_   
 
-#"Analogy Between Mass and Heat Transfer with Turbulent Flow" [^1]
+# "Analogy Between Mass and Heat Transfer with Turbulent Flow" [^1]
 
-![Figure 2.](images/naca-tn-3045/Figure2.png)  
+![Figure 2. Simplified picture of turbulent exchange.](images/naca-tn-3045/Figure2.png)  
 
-##Summary
+## Summary
 For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.
 
-##Key points
+## Key points
 
 1. For turbulent flow on a flat plate, ke/kh is about 1.1 to 1.05.  
 2. The result applies at Mach numbers up to 1.5.
 
-##Abstract  
+## Abstract  
 
 >An analysis of combined heat and mass transfer from a flat plate has
 been made in terms of Prandtl's simplified physical concept of the turbulent 
@@ -30,7 +30,7 @@ the particular case of water evaporating into air, the ratio of mass-transfer
 coefficient to heat-transfer coefficient is found to be slightly
 greater than unity.
 
-##Discussion 
+## Discussion 
 
 This will get heavily into boundary layer theory, so be acquainted with the symbols.
 
@@ -52,7 +52,7 @@ boundary layer is quite similar to that originally presented by Prandtl,
 which assumed a turbulent region and a laminar sublayer wherein the velocity 
 increased linearly with distance from the surface.
 
-![Figure 1.](images/naca-tn-3045/Figure1.png)  
+![Figure 1. Velocity profile for analysis.](images/naca-tn-3045/Figure1.png)  
 
 Terms for heat and mass transfer are developed. 
 
@@ -88,15 +88,15 @@ for values of ReL equal to 100, 158, and 300 at a constant value of
 n = 7 indicate that the effect of changes in ReL is so small as to be
 negligible.
 
-
-![Figure 3.](images/naca-tn-3045/Figure3.png)  
+![Figure 3. Variation of ratio of mass-transfer coefficient to heat-transfer coefficient 
+as a function of Reynolds number based on boundary layer thickness.](images/naca-tn-3045/Figure3.png)  
 
 > From an over-all standpoint, it would therefore be expected that the
 ratio ke/kh can be taken as approximately 1.05 regardless of whether or
 not the flow is transitional with values of n of the order of 4 or fully
 turbulent with values of n equal to or greater than 7.
 
-##Conclusions
+## Conclusions
 
 >CONCLUSIONS  
 An analysis of combined heat and mass transfer from a flat plate has
@@ -114,7 +114,7 @@ occur, that is, 1.5.
 
 Many recent sources just use 1.12 as the value of ke/kh, as we have seen previously. 
 
-##Citations
+## Citations
 
 NACA-TN-3045 cites 5 publications:  
 
@@ -131,7 +131,7 @@ NACA-TN-3045 is cited 2 times by publications in the NACA Icing Publications Dat
 
 NACA-TN-3045 is cited 4 times in the literature [^3].
 
-##Notes  
+## Notes  
 [^1]: 
 Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
 [^2]: 

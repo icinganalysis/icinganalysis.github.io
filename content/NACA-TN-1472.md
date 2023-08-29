@@ -7,9 +7,11 @@ tags: thermodynamics
 
 # "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions" [^1]
 
-![Figure 7](images/naca-tn-1472/Figure7.png) 
+![Figure 7. Cut-away view of the NACA 652-016 electrically heated airfoil model
+showing construction details.](images/naca-tn-1472/Figure7.png) 
 
-## Summary
+## Summary  
+
 Natural icing flight tests with an instrumented test airfoil are compared to 2D thermodynamic calculations.
 
 ## Key points

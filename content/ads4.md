@@ -7,7 +7,10 @@ tags: thermodynamics
 
 # ADS-4, “Engineering Summary of Airframe Icing Technical Data” [^1]  
 
-![Figure 3-1](/images/ads4/Figure3-1.png)  
+![Figure 3-1. Areas of Airframe that May Require Ice Protection. 
+Areas include wing leading edges, propellers, windshield, radome,
+essential instruments, auxilliary air inlets, engine air inlets, 
+and empennage leading edges.](images/ads4/Figure3-1.png)  
 
 ## Summary
 A single thermodynamic control volume is used for anti-ice calculations. 
@@ -152,7 +155,7 @@ It may be seen that a flight speed of 300 kt. will produce a 32 F datum temperat
 ambient, but that at 0 F a speed of 485 knots is needed.
 This graph may be used as a guide in determining whether a particular combination of flight speed and 
 ambient temperature is likely to represent a potential icing problem.  
-![Figure 2-31](images/ads4/Figure2-31.png)  
+![Figure 2-31. Datum Temperature as a Function of Flight Speed and Ambient Temperature.](images/ads4/Figure2-31.png)  
 
 >An exact account of the heat balance on an unheated, insulated icing surface
 way be found in Ref. 2-27.
@@ -168,7 +171,8 @@ liquid form (n = 0).
 part of the water catch that freezes in the region where it impinges.) At the
 higher speeds, the equilibrium surface temperature is not greatly different from
 the "datum" temperature.
-![Figure 2-32](images/ads4/Figure2-32.png)  
+![Figure 2-32. Equilibrium Surface Temperature versus Free Stream Velocity 
+for 10,000 ft. Altitude. (Ref 2-27).](images/ads4/Figure2-32.png)  
 
 Ref. 2-27 is [Messinger]({filename}messinger.md) [^4]. 
 
@@ -189,13 +193,16 @@ A correlation of ice shape is shown in Figures 2-33
 through 2-35 in terms of liquid water content, ambient temperature and flight
 speed.
 
-![Figure 2-33](images/ads4/Figure2-33.png)  
-![Figure 2-34](images/ads4/Figure2-34.png)  
-![Figure 2-35](images/ads4/Figure2-35.png)  
+![Figure 2-33. Ice Shape Types as a Function of Speed and Ambient 
+Temperatures for Liquid Water Content of 0.2 g/m^3.](images/ads4/Figure2-33.png)  
+![Figure 2-34. Ice Shape Types as a Function of Speed and Ambient 
+Temperatures for Liquid Water Content of 0.5 g/m^3.](images/ads4/Figure2-34.png)  
+![Figure 2-35. Ice Shape Types as a Function of Speed and Ambient 
+Temperatures for Liquid Water Content of 1.0 g/m^3.](images/ads4/Figure2-35.png)  
 
 The file "ads4_freezing_fraction.py" [^5] reproduces the values well:
 
-![Figure 2-35 calculated values](images/ads4/ADS-4_figure2-35.png)  
+![Figure 2-35 calculated values.](images/ads4/ADS-4_figure2-35.png)  
 
 >This correlation was obtained from an analysis by Dickey (Ref. 2-28),
 using the "freezing fraction" concept developed by Messinger (Ref. 2-27).
@@ -255,7 +262,8 @@ This is
 particularly true for thin airfoils at low angle of attack (See Ref. 2-29).
 This factor should be considered in predicting ice shapes on unheated airfoils.
 
-![Figure 2-36](images/ads4/Figure2-36.png)  
+![Figure 2-36. Typical Rime and Glaze Ice Deposits on a 65A004 Airfoil 
+at 2 degree Angle of Attack (from NACA TN 4151, Ref. 2-29).](images/ads4/Figure2-36.png)  
 
 The image quality of Figures 2-37 to 2-40 are so poor that they are not worth reproducing here. 
 
@@ -305,7 +313,10 @@ de-icers, fluid freezing point depressants, and thermal-hot gas and thermal-elec
 This section of the report will describe the various ice protection systems
 and will present methods of determining the requirements placed on the systems 
 to provide a particular degree of ice protection.
-![Figure 3-1](images/ads4/Figure3-1.png)  
+![Figure 3-1. Areas of Airframe that May Require Ice Protection. 
+Areas include wing leading edges, propellers, windshield, radome,
+essential instruments, auxilliary air inlets, engine air inlets, 
+and empennage leading edges.](images/ads4/Figure3-1.png)  
 
 >3.5 THERMAL ANTI-ICING   
 3.5.1 DESCRIPTION -  
@@ -340,8 +351,8 @@ ice protection and the effects of ice accretion on the aircraft.
 REQUIREMENTS - Equations expressing heat transfer and evaporation
 from wetted surfaces during icing encounters have been used to develop a graphical solution for the determination of heat required for anti-icing (Ref. 3-4).
 Figures 3-18a and 3-18b are presented for this purpose.
-![Figure 3-18a](images/ads4/Figure3-18a.png)  
-![Figure 3-18b](images/ads4/Figure3-18b.png)  
+![Figure 3-18a. Graphical Solutions of Anti-icing Heat and Mass Transfer From a Surface Subject to Impingement and Heat Above Freezing (Ref. 3-4)](images/ads4/Figure3-18a.png)  
+![Figure 3-18b. Graphical Solutions of Anti-icing Heat and Mass Transfer From a Surface Subject to Impingement and Heat Above Freezing (Ref. 3-4)](images/ads4/Figure3-18b.png)  
 
 "Ref. 3-4" was reviewed previously at [NACA-TN-2799]({filename}NACA-TN-2799.md) [^6].  
 
@@ -382,7 +393,7 @@ used to enter Figures 3-18a and 3-18b to determine the anti-icing heat requireme
 This assumption of an average value of heat transfer coefficient has a
 percentage of error in the same order of magnitude as the assumptions made
 in the meteorological variables.  
->![Figure 3-19](images/ads4/Figure3-19.png)  
+>![Figure 3-19. Typical External Heat Transfer Coefficients for Cylinder and Flat Plate.](images/ads4/Figure3-19.png)  
 
 In many situations, "engineering judgement" would have to be applied 
 to find the "average value assumed" of disparate values like those shown above. 
@@ -392,18 +403,19 @@ the heated area per foot of span for each spanwise position (see Section 2 and
 the example in Section 4). For a completely evaporative system, the rate of
 evaporation of water (Mev) must equal the rate of water catch (Mw). With this
 knowledge, the following equation may be solved for
->![Figure 3-19](images/ads4/tau3.png)  
+>![Equation 3.5.1 for Tau_3](images/ads4/tau3.png)  
 >where K is the surface wettness fraction which is assumed to be 1.0 in the
 impingement region and 0.20 to 0.25 beyond the impingement region.
 
 While it is not cited by ADS-4, I believe that the 0.2 to 0.25 surface wettedness value came from 
 NACA-TN-2480 [^8], Figure 7:  
 
-![Figure 3-19](images/ads4/NACA-TN-2480Figure7.png)  
+![Figure 7 of NACA-TN-2480. Measured percentage of surface area wetted in runback region for 
+three flight and one icing tunnel investigation on NACA 652-016 airfoil model.](images/ads4/NACA-TN-2480Figure7.png)  
 
 >With τ3,
 Figure 3-18b is entered with po to find ts.
-![Figure 3-19](images/ads4/Equation3_5_2.png)  
+![Equation 3.5.2 for q/h_a.](images/ads4/Equation3_5_2.png)  
 If designing for a running wet system, the surface temperature (ts) is
 assumed to be some value above freezing (such as 35F, and
 τ3 is found graphically. The next steps are the graphical solution for τ1 through τ5 using Figures

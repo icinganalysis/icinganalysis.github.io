@@ -7,6 +7,11 @@ tags: cylinders, natural icing, meteorology
 
 # NACA-TN-1904, "Observations of Icing Conditions Encountered in Flight During 1948" [^1]
 
+## Summary
+
+Meteorological data from flight observations in icing conditions
+during the first 5 months of 1948 are presented.
+
 ## Key points
 
 1. The average liquid water content varies over distance traveled in icing.

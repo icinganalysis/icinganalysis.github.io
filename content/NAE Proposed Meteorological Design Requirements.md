@@ -7,7 +7,7 @@ tags: Airplane Icing Information Course
 This is one of the shortest post that I have written, 
 as it is more outlining a mystery, that I have not yet sorted out, than a full review.  
 
-## Discussion  
+## Summary  
 
 In [Conclusions of the Meteorology of Icing Clouds Thread]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md#tracking-lwc-values), 
 there is a time-line of how the NACA understanding of the icing conditions evolved, 
@@ -18,6 +18,8 @@ In Canada, icing research was also being performed by the National Aeronautical 
 Here, we will compare what was published in the 
 University of Michigan Airplane Icing Information Course, in 1953,
 to NACA data and the later Appendix C.
+
+## Discussion 
 
 ### Smith, E. L.: "The Design of Fluid Anti-Icing Systems" (NAE) [^1]  
 
@@ -35,13 +37,13 @@ prediction to be made of the maximum total quantity of fluid required for a give
 flight.
 
 ![Smith Figure 15. Proposed Meteorological Design Requirements 
-for Aircraft Anti-Icing Equipment.](/images%2FFraser%20Flight%2FSmith%20Figure%2015.png)  
+for Aircraft Anti-Icing Equipment.](images%2FFraser%20Flight%2FSmith%20Figure%2015.png)  
 
 ### Fraser, Don: "Meteorological Design Requirements for Icing Protection Systems" (NAE) [^2]  
 
 Fraser compares the NAE definition to the NACA values: 
 
-![Figure 12. Comparison of Proposed and NACA Design Requirements.](/images%2FFraser%20Flight%2FFigure%2012.png)  
+![Figure 12. Comparison of Proposed and NACA Design Requirements.](images%2FFraser%20Flight%2FFigure%2012.png)  
 
 Drop size information is given in Section 4.4. 
 Figure 11b is referenced (not included here) which indicates the use of 
@@ -64,7 +66,7 @@ for "Continuous Maximum (Stratiform Clouds)" (upper left corner of the envelope)
 
 ![Appendix C Figure 1. Continuous Maximum (Stratiform Clouds) 
 Atmospheric Conditions 
-Liquid Water Content vs. Mean Effective Drop Diameter](/images%2FAppCfig1.png)  
+Liquid Water Content vs. Mean Effective Drop Diameter](images%2FAppCfig1.png)  
 
 The differing MVD value for the NAE definition makes this a bit of a strained, 
 "apples and oranges" comparison, but I will also include the Appendix C 

@@ -1,9 +1,11 @@
 Title: "Mathematical Investigation of Water Droplet Trajectories"    
-Date: 2022-02-01 12:00  
+Date: 2022-01-21 12:00  
 Category: Army Air Force
 tags: cylinders
 
 ### _"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."_  
+
+![Figure 6. Trajectories of rim particles deposited on cylinder AC drawn by differential analyzer.](images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png)  
 
 ## Summary
 Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as an icing instrument is described.

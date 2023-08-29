@@ -1,4 +1,4 @@
-Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder [^1]  
+Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium, Ramon Wilder  
 Date: 2022-07-06 12:00  
 Category: Diversions  
 tags: ice shapes, diversions    

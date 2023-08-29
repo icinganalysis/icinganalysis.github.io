@@ -10,6 +10,8 @@ tags: instruments
 ![Figure 6 from NACA-RM-E51E16. Rotating-disk type icing-rate meter.
 ](images/naca-rm-e51e16/Figure 6b.png)  
 
+## Summary  
+
 Several instruments were developed and improved during the NACA-era 
 to measure icing conditions. 
 

@@ -9,7 +9,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content="For the Thermodynamics tread and on, I will be using this style guide. Previous code may eventually be upgraded to this. Python target version: Target python version 3.7,..." />
+        <meta name="description" content="Python coding style guide Summary For the Thermodynamics tread and on, I will be using this style guide. Previous code may eventually be upgraded to this. Python target..." />
 </head>
 
 <body id="index" class="home">
@@ -36,8 +36,8 @@
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-05-22T14:23:25.699019-07:00">
-                Updated: Mon 22 May 2023
+        <abbr class="modified" title="2023-08-27T07:57:10.813598-07:00">
+                Updated: Sun 27 August 2023
         </abbr>
 <!---->
         <!---->
@@ -49,17 +49,19 @@
         <!---->
 <!--<p>In <a href="/category/python.html">Python</a>.</p>-->
 <p>tags: <a href="/tag/python.html">python</a><br> </p>
-</footer><!-- /.post-info -->      <p><img alt="Python logo" src="images/python-logo-master-v3-TM.png"></p>
+</footer><!-- /.post-info -->      <p><img alt="Python programming logo. Two stylized, interlocking snakes with the word python." src="images/python-logo-master-v3-TM.png"></p>
+<h1>Python coding style guide</h1>
+<h2>Summary</h2>
 <p>For the <a href="/icing-thermodynamics.html">Thermodynamics tread</a> and on, I will be using this style guide. 
 Previous code may eventually be upgraded to this.</p>
-<h1>Python target version:</h1>
+<h2>Python target version:</h2>
 <p>Target python version 3.7, and the corresponding <a href="https://www.anaconda.com/">Anaconda stack</a> (version 2021-11). 
 Avoid modules with deprecation warnings (there are not many of them).
 This is a balance between current installations and future-proofing. 
 The goal is to be applicable for all 3.7+ uses. </p>
 <p>(Note: 3.10 is the latest available version, as of April 2022).</p>
 <p>Code should be portable, and not use operating system specific functions. </p>
-<h1>General guidelines</h1>
+<h2>General guidelines</h2>
 <ul>
 <li>
 <p>simple</p>
@@ -128,22 +130,22 @@ The goal is to be applicable for all 3.7+ uses. </p>
 </ul>
 </li>
 </ul>
-<h1>Version control</h1>
+<h2>Version control</h2>
 <p><a href="https://git-scm.com/">Git</a> is used. </p>
 <p>Code is available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">https://github.com/icinganalysis/icinganalysis.github.io</a></p>
-<h1>License</h1>
+<h2>License</h2>
 <p>The code is available under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a></p>
-<h1>Verification</h1>
+<h2>Verification</h2>
 <p>There are not yet any unit tests. They would probably be good idea. </p>
 <p>At the moment, the verification is out-sourced to the validation 
 ("If it works, it works"). 
 However, this may miss edge-cases, 
 and coincidences where one error offsets another error.</p>
-<h1>Validation</h1>
+<h2>Validation</h2>
 <p>Code will have a comparison to test and NACA analysis data, 
 which illustrate the degree of agreement. </p>
 <p>Users may determine if the degree of agreement is adequate for their use case. </p>
-<h1>The Zen of Python <a href="https://peps.python.org/pep-0020/">https://peps.python.org/pep-0020/</a></h1>
+<h2>The Zen of Python <a href="https://peps.python.org/pep-0020/">https://peps.python.org/pep-0020/</a></h2>
 <blockquote>
 <p>Beautiful is better than ugly.<br>
 Explicit is better than implicit.<br>

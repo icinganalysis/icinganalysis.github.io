@@ -5,9 +5,13 @@ tags: icing tunnels
 
 ### _"drag coefficient (Cd) was used as an index of similitude by quantitatively indicating how much the shape or ice surface changed"_  
 
-![Figure 3](images/aedc_tr_87_23/Figure 3.png)  
+![Figure 3. Effect of Freezing Fracton on Ice Shapes Drag; Airfoil NACA 0012 with 21 inch Chord at 14.7 psia Total Pressure.](images/aedc_tr_87_23/Figure 3.png)  
 
 # "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude" [^1]  
+
+## Summary 
+
+An investigation into which icing conditions parameters affect icing similtiude as measured by aerodynamic drag effects. 
 
 ## Abstract  
 

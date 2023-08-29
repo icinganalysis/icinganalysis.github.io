@@ -4,6 +4,10 @@ Category: NACA
 tags: cylinders
 
 ### _"In order to provide qualitative information ..., numerical calculations of the drop paths in air flowing ... around a circular cylinder were made"_  
+![Graph of swept area cleared of drops, percent vs. log drop diameter inch, forming an "S" type curve, 
+with data points dia=0.0007, 0.001, 0.002, 0.004, 0.006, 0.01, 0.04 
+and swept area cleared percent= 14, 20, 52, 78, 86, 92, 99
+](images/naca-tn-779/tn-779-area.png "Swept area cleared of drops")
 
 # “Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing"
 
@@ -33,7 +37,7 @@ percentage of the swept area cleared by drops.
 ## Discussion
 
 The first topic experimentally confirms the theory of the aerodynamic heating effect.  This concept will be used extensively in subsequent works (although they may not necessarily cite this technical note).  
-![Heating Effect text:  The validity of the preceding 'assumption can be examined for cases where the boundary layer is thin.
+![Heating Effect text:  The validity of the preceding assumption can be examined for cases where the boundary layer is thin.
 The total energy per unit mass of an element of mass of the air is u**2/2+J*cp*T, 
 where u is the velocity in the direction of flow;
 J, the mechanical equivalent of heat;

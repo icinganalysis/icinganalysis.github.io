@@ -7,7 +7,7 @@ tags: thermodynamics
 
 # Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
 
-![Figure 1](images/Fraser/Figure1.png) 
+![Figure 1. Calculated Ludlam lines for 1/8 inch diamter rotating cylinder.](images/Fraser/Figure1.png) 
 
 ## Summary
 The term "freezing fraction" is defined (but probably not the one that you expected). 

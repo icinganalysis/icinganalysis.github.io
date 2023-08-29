@@ -42,7 +42,7 @@ As a consequence of the limited test program the results
 are not general and only indicate the order and magnitude
 of the effects which may occur.
 
-![Figure 1](images/naca-wr-l-292/Figure1.png)  
+![Figure 1. Ice remaining on deicer and engine cowling.](images/naca-wr-l-292/Figure1.png)  
 
 ## Discussion  
 

@@ -7,7 +7,7 @@ tags: ice shapes
 
 # NACA-TN-2962, "Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection" [^1]  
 
-![Figure 2](images/naca-tn-2962/Figure 2.png)  
+![Figure 2. General types of primary icing observed on airfoil leading edge.](images/naca-tn-2962/Figure 2.png)  
 
 ## Summary  
 The drag due to ice shapes (including runback) are measured over a range of conditions. 

@@ -5,10 +5,14 @@ tags: ice shapes
 
 ### _"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"_ [^1]
 
-![Figure_14 of NACA-TN-1598](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
+![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
 >from NACA-TN-1598 [^2]
 
 # Ice Shapes and Their Effects Thread
+
+## Summary 
 
 This thread will cover ice shapes and the aerodynamic effects of the ice.
 

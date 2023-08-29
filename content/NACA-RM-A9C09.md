@@ -5,10 +5,14 @@ tags: cylinders
 
 ### _"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."_  
 
+![Figure 2. Calculated error in the measurement of mena-effective drop diameter with four 
+rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](images/naca-rm-a9c09/cylinder_accuracy.png)
+
 # "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
 [^1]
 
 ## Summary 
+
 The multicylinder is the "standard against which other instruments are calibrated"
 
 ## Key points  
@@ -52,7 +56,7 @@ While there is much of interest here, we focus on the cylinders.
 
 Accuracy targets were determined:
 
-![Desired accuracy](images/naca-rm-a9c09/desired_accuracy.png)  
+![Table of Desired accuracy](images/naca-rm-a9c09/desired_accuracy.png)  
 
 ### Rotating Multicylinder
 
@@ -60,13 +64,14 @@ Depending on the accuracy threshold desired, with the assumed mass measurement v
 the rotating multicylinder method may be applicable up to 
 median effective drop diameters of 20 to 45 micrometers with the "A" set of cylinders:
 
-![Accuracy of measurements with cylinders](images/naca-rm-a9c09/cylinder_accuracy.png)
+![Figure 2. Calculated error in the measurement of mena-effective drop diameter with four 
+rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](images/naca-rm-a9c09/cylinder_accuracy.png)
 
 There were few details given on how these values were determined. 
 Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at [^2] for details. 
 In the figure below, it appears the the variance was over-estimated for larger drop size cases for cylinder set A. 
 
-![Accuracy of measurements with cylinders](images/naca-rm-a9c09/naca_rm_a9c09_fig2_comparison.png)
+![Comparison of computations of the accuracy of measurements with cylinders](images/naca-rm-a9c09/naca_rm_a9c09_fig2_comparison.png)
 
 Several advantages and disadvantages are listed for rotating multicylinders:
 

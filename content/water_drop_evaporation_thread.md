@@ -8,7 +8,9 @@ Category: Diversions, evaporation
 
 ## A "mini-thread" on the evaporation of water drops  
 
-This thread will have a mix of NACA-era and post-NACA era data. 
+## Summary
+
+This thread will have a mix of NACA-era and post-NACA era data on water drop evaporation. 
 
 ## Topics:
 

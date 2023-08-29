@@ -7,7 +7,8 @@ tags: thermodynamics
 
 # "Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"
 
-![Figure 6](images/naca-tn-3396/Figure6.png)  
+![Figure 6. Diamond airfoil model in tunnel, 
+showing ice formed at Mach 1.35 on top surface behind shoulder.](images/naca-tn-3396/Figure6.png)  
 
 ## Summary  
 Predictions of the icing limit temperature were "sufficiently accurate" in tests at Mach 1.35. 

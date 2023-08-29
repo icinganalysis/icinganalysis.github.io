@@ -1,5 +1,5 @@
 Title: Meteorology of Icing Clouds   
-Date: 2023-04-20 12:00  
+Date: 2023-04-20 13:00  
 Category: NACA  
 tags: meteorology  
 
@@ -9,10 +9,14 @@ tags: meteorology
 ](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
 _from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
 
+## Summary  
+
 Early [Ice Protection Systems]({filename}ice%20protection.md) were designed without detailed 
 knowledge of icing conditions in clouds. 
 While successful designs were accomplished with extensive iteration and flight test, 
 more optimal design is only possible if the conditions are known beforehand.  
+
+## Discussion  
 
 >Progress ... has been handicapped by the lack of sufficient data on the meteorological factors.  
 >_NACA-TN-1855, 1949._  

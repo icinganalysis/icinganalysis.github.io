@@ -7,9 +7,13 @@ tags: flight in icing, humor, diversions
 The individual images are described in detail below. 
 ](images%2Finstructive_illustrations.png)  
 
+## Summary  
+
 While icing weather is a serious topic for aircraft, 
 several sources have used [debatably] humorous,
 instructive illustrations of the hazards.   
+
+## Discussion  
 
 ### Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled) [^1]  
 

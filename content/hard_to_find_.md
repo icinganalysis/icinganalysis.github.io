@@ -11,9 +11,13 @@ and a microfische reader.
 ](images/GRClibrary1945.png)  
 _NACA Cleveland library, circa 1945._  
 
+## Summary  
+
 I can usually get even rare and obscure publications 
 through inter-library loan from my public library, 
 but these were reported as having no loanable copies available.  
+
+## Discussion  
 
 I have tried the many excellent search tips at 
 [Gwern's Internet Search Tips](https://gwern.net/search), 
