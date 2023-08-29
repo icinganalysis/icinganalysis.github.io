@@ -14,6 +14,8 @@ Some machine parts are labeled with the differential equations of motion being s
 ](images/naca-tn-2904/Figure15.png)  
 _From NACA-TN-2904_  
 
+## Summary  
+
 I have made this blog up as I went along. 
 I have a general plan to cover all 132 icing publications in the 
 ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
