@@ -3,9 +3,9 @@ Date: 2022-04-21 13:00
 category: Python  
 tags: python 
 
-![Python programming logo. Two stylized, interlocking snakes with the word python.](images/python-logo-master-v3-TM.png)
+### _"Beautiful is better than ugly."_  
 
-# Python coding style guide
+![Python programming logo. Two stylized, interlocking snakes with the word python.](images/python-logo-master-v3-TM.png)
 
 ## Summary
 

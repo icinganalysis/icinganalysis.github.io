@@ -3,6 +3,8 @@ Date: 2022-07-20 12:00
 category: icing tunnels  
 tags: icing tunnels  
 
+### _"Icing wind tunnels can simulate natural icing with water-spray and refrigeration systems ... to permit safe, convenient and relatively inexpensive testing."_ [^1]  
+
 ![P-39 in the Icing Research Tunnel](images/naca-tn-1246/icing-research-tunnel.jpg)  
 _How much of a P-39 can one fit into an icing wind tunnel?_  
 
@@ -22,7 +24,7 @@ There were five icing wind tunnels used by NACA.
 The majority of the tests were performed in the Icing Research Tunnel (IRT) as NACA Lewis. 
 The four other tunnels are briefly described in the "Other icing wind tunnel tests" section below. 
 
-I found 37 NACA publications [^1] that discuss use of the NACA Icing Research Tunnel. 
+I found 37 NACA publications [^2] that discuss use of the NACA Icing Research Tunnel. 
 Four more publications discuss the use of other icing wind tunnels. 
 
 A wide variety of test articles were used.
@@ -62,7 +64,7 @@ However, some test articles were mounted in the upstream converging section or d
 
 ![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium. 
 Plan view of NASA-Lewis Icing Research Tunnel.](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
-_from 1969 Aircraft Ice Protection Report of Symposium [^2]_  
+_from 1969 Aircraft Ice Protection Report of Symposium [^3]_  
 
 ![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.
 ](images/naca-tn-1246/Figure 1.png)  
@@ -181,6 +183,7 @@ in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.m
 
 ## Notes  
 
-[^1]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
-[^2]:
+[^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf)   
+[^2]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
+[^3]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  

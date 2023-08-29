@@ -8,7 +8,7 @@ tags: thermodynamics, python
 #"An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane" [^1] 
 
 
-![Figure 2](images/NACA-TR-831/Figure2.png) 
+![Figure 2. Measured temperatures at wing station 159 during flight in C-46 airplane.](images/NACA-TR-831/Figure2.png) 
 
 ## Summary
 

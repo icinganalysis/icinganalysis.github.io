@@ -3,6 +3,8 @@ Date: 2022-05-31 12:00
 category: Diversions  
 tags: impingement, evaporation, python 
 
+### _"The third part of the study comprised some numerical computations of two-phase, dilute, air and entrained water particle flows, using a new version of the AEDC one-dimensional, multiphase flow code, AEDC1DMP."_  
+
 ![Water drop velocities in an icing wind tunnel calculated with the iads1dmp code.](images/build_a_1d_drop_motion_simulation/iads1dmp_velocity.png)   
 
 # The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp

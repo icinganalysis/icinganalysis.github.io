@@ -3,6 +3,7 @@ Date: 2023-01-22 12:00
 tags: humor, diversions    
 
 ### _"ChatGPT may produce inaccurate information about people, places, or facts"_  
+
 _From https://chat.openai.com/ ChatGPT August 3 Version (2023)._  
 
 ![A metal-construction, low-wing, single engine, propeller driven airplane in flight.
