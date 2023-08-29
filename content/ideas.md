@@ -2,6 +2,8 @@ Title: Ideas for future posts
 Date: 2023-04-20 12:00  
 tags: about  
 
+### _"... Before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's."_ [^1]
+
 ![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
 Two investigators operate a large mechanical computer. 
 One is seated turning a crank attached to a large cylinder labeled "Input Chart". 
@@ -32,3 +34,7 @@ A translation to English is available at [DTIC](https://apps.dtic.mil/sti/pdfs/A
 
 If you particularly like one of those, or have a suggestion of your own, 
 please contact me (contact options shown below under "social").  
+
+## Notes
+
+[^1]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  

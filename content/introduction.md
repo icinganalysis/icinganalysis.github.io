@@ -5,7 +5,7 @@ tags: introduction
 URL:
 save_as: index.html  
 
-> ###“If you want to go somewhere, it’s best to find someone who has already been there” Robert Kiyosaki
+> ### “If you want to go somewhere, it’s best to find someone who has already been there” Robert Kiyosaki
 
 <style>
 .aligncenter {
@@ -50,7 +50,7 @@ Check back often, I am adding more articles regularly.
 
 ## The history of NACA icing publications
 
-> ###"... Before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^2]
+> ### "... Before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^2]
 
 The (United States) National Advisory Committee for Aeronautics (NACA) was formed in 1915, 
 and operated until 1958, when it was replaced by the National Aeronautics and Space Administration (NASA). 
