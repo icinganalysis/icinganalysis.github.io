@@ -2,7 +2,7 @@ Title: A Gentle Introduction to Aircraft Icing
 Date: 2022-11-25 13:00  
 tags: about
 
-### _"Icing is as close to pure witchcraft engineering as you can get"_  
+### _"Icing is as close to pure witchcraft engineering as you can get."_  
 _Thomas S. on LinkedIn._
 
 ![Ice on a NASA airplane from a research flight test.](images%2FIcing_on_a_plane.jpg)
