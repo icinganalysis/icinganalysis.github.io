@@ -42,7 +42,8 @@ Technical terms that describe an icing condition are the liquid water content
 which in the mass of all of the water drops in a cubic meter of air
 (units are typically grams/cubic meter or g/m^3). 
 Water drop size is measured by the drop diameter, 
-usually in micrometers (one millionth of a meter).  
+usually in micrometers (one millionth of a meter). 
+
 The water drops are typically are small, typically around 20 micrometers
 (a human hair is roughly 100 micrometers in diameter). 
 Water drops in a cloud are not all the same size, 
