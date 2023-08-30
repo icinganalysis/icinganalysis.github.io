@@ -5,7 +5,7 @@ tags: about
 ### _"Icing is as close to pure witchcraft engineering as you can get."_  
 _Thomas S. on LinkedIn._
 
-![Ice on a NASA airplane from a research flight test.](images%2FIcing_on_a_plane.jpg)
+![Ice on a NASA airplane from a research flight test.](images%2FIcing_on_a_plane.jpg)  
 _Ice on a NASA airplane from a research flight test._  
 _From [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Icing_on_a_plane.jpg)._
 
