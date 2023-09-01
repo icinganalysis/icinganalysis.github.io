@@ -176,14 +176,14 @@ but the recommendation above is to use a value of 1 anyway.
 ### Drop size distributions  
 
 The accuracy of the multicylinder instrument for determining drop size distribution was 
-questioned several times (see, for example, [NACA-TN-1904.md]({filename}NACA-TN-1904.md)).
+questioned several times (see, for example, [NACA-TN-1904]({filename}NACA-TN-1904.md)).
 
 I have not seen direct comparisons between a multicylinder and more current instruments 
 that can provided detailed drop size spectrum data.  
 
 The multicylinder instrument drop size distribution determination depends on natural icing 
 distributions to be something like the idealized Langmuir drop size distributions. 
-For at least some cases, this is true. See [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md#drop_size_distributions).  
+For at least some cases, this is true. See [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md).  
 
 Nonetheless, advisory material still suggests the use of Langmuir distributions [^7].   
 

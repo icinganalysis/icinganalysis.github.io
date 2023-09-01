@@ -286,7 +286,7 @@ NACA-RM-A54I23 cites 11 references:
 - Fraser, D.: Analysis of Meteorological Design Requirements for Icing Protection Systems. University of Michigan Airplane Icing Information Course, Lecture No. l2a, 1953.  
 
 NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^5]:  
-- Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, [FAA-ADS-4](ads4.md), 1964.    
+- Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, [FAA-ADS-4]({filename}ads4.md), 1964.    
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
 
 An online search [^8] found NACA-RM-A54I23 cited 22 times.   

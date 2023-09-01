@@ -299,7 +299,7 @@ cylinder instruments are still used today (although not so much the rotating mul
 
 ## Related  
 
-The next thread in the NACA review series is the [Ice Protection Thread](ice%20protection.md).  
+The next thread in the NACA review series is the [Ice Protection Thread]({filename}ice%20protection.md).  
 
 ##Notes:  
 
