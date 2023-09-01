@@ -92,7 +92,7 @@ except in the selection of the recovery factor value.
 Note also that an impingement rate is not calculated. 
 So, the water drop size and liquid water content values do not have to be known. 
 It is assumed that there is enough water to wet the entire surface. 
-The is no partial surface wettedness as was considered in [NACA-TN-2799](NACA-TN-2799.md) [^4]. 
+The is no partial surface wettedness as was considered in [NACA-TN-2799]({filename}NACA-TN-2799.md) [^4]. 
 
 The term tl/tcl... may be determined from a pressure coefficient, 
 or a local Mach number:

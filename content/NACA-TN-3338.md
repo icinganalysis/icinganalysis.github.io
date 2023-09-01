@@ -198,7 +198,7 @@ as even if the spray parts of the nozzles were similar,
 installation details can cause differences in the spray cloud. 
 And NACA-TN-3338 reported three candidate distributions, without data to select which is the best one.
 
-The IRT merits further review (see the [Icing Wind Tunnel Test Thread](Icing%20Wind%20Tunnel%20Test%20Thread.md)). 
+The IRT merits further review (see the [Icing Wind Tunnel Test Thread]({filename}Icing%20Wind%20Tunnel%20Test%20Thread.md)). 
 For now, I will note that calibration of the tunnel in the NACA era was a challenge, 
 in part due to limited instrumentation.
 Author von Glahn of NACA-TN-3338 was an author of NACA-RM-E51B12 [^5], which noted the use of multicylinders 

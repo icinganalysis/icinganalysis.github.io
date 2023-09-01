@@ -281,7 +281,7 @@ Links to reviews are included where applicable.
 - Windshield Ice Protection  
 
     - Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
-        > review: [windshield ice protection.md]({filename}windshield%20ice%20protection.md)  
+        > review: [windshield ice protection]({filename}windshield%20ice%20protection.md)  
     - Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955.  
 
 - Cooling Fan Ice Protection  

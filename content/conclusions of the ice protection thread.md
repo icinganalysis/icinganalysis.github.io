@@ -15,7 +15,7 @@ Figure 12. Three-quarter rear view of airplane, showing location
 of air discharge louvers in the wing upper surface and
 exhaust discharge at the wing tip.
 ](images/NACA-ACR-A-53/Figure 1.png)
-_From [NACA-ACR-A-53](engine%20exhaust%20heat.md), 1941._  
+_From [NACA-ACR-A-53]({filename}engine%20exhaust%20heat.md), 1941._  
 
 ## Summary  
 Ice protection system development continues to address new challenges.  
@@ -38,12 +38,12 @@ more planned scientific and engineering tests and analysis methods development.
 By the 1950's useful [Engineering Design Manuals]({filename}Design%20Manuals.md) were available, 
 so that every new application did not have to be a major 
 research and development effort. 
-The ADS-4 [Design Manual](ads4.md) published in 1963 was
+The ADS-4 [Design Manual]({filename}ads4.md) published in 1963 was
 a crowning achievement of the NACA-era
 (ADS-4 was published after the NACA era, 
 but it was included in Uwe von Glahn's ["Selected Bibliography of NACA-NASA Icing Publications"]({filename}The Historical Selected Bibliography of NACA-NASA Icing Publications.md)).  
 
-[NACA-TR-403](engine%20exhaust%20heat.md) said in 1931: 
+[NACA-TR-403]({filename}engine%20exhaust%20heat.md) said in 1931: 
 >"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development."    
 
 The prediction above and the "destiny" noted below of all-weather aircraft had thus been achieved:  
@@ -66,7 +66,7 @@ While the design methods in ADS-4 may yield an "adequate" ice protection system,
 it may not be optimal. 
 Systems have been developed since the NACA-era, such as electro-impulse de-icing or EIDI, 
 and ice phobics have long been studied
-(90+ years, see [NACA-TN-313](NACA-TN-313) and [NACA-TN-339](NACA-TN-339.md)), 
+(90+ years, see [NACA-TN-313]({filename}NACA-TN-313.md) and [NACA-TN-339]({filename}NACA-TN-339.md)), 
 and may yet see improvements.  
 
 Also, ice protection is being applied to aircraft other than the 

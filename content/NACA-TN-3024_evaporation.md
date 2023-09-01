@@ -148,7 +148,7 @@ will use the water drop relative speed, mass transfer, and heat transfer
 developed in ["The AEDC 1-Dimensional Multi-Phase code (AEDC1DMP) and the iads1dmp]({filename}aedc1dmp.md). 
 
 For the cylinder case in NACA-TN-3024, I used the airspeed calculation from 
-Langmuir and ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md) . 
+Langmuir and ["Let's Build a 1D Water Drop Trajectory Simulation"]({filename}build_a_1d_drop_motion_simulation.md) . 
 
 This is incorporated into the file "naca_tn_3024.py" [^2]. 
 
@@ -175,7 +175,7 @@ that there is always a possibility that the droplet will never reach the
 airfoil. (In the latter case, it will, of course, evaporate completely
 if it has been approaching along the stagnation line). 
 
-To test this I used a case from ["Let's Build a 1D Water Drop Trajectory Simulation"](build_a_1d_drop_motion_simulation.md), 
+To test this I used a case from ["Let's Build a 1D Water Drop Trajectory Simulation"]({filename}build_a_1d_drop_motion_simulation.md), 
 where K=0.125, and the drop should theoretically never impinge on the cylinder. 
 This requires a rather small drop for this condition (about 1.5 micrometer diameter).
 

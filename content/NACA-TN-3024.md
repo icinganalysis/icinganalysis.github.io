@@ -167,10 +167,8 @@ Reproducing the calculations in python is a non-trivial task,
 see [NACA-TN-3024 revisited]({filename}NACA-TN-3024_evaporation.md) 
 in the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
 
-<!--
 The results of NACA-TN-3024 are compared to calculations in python in 
 ["Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions" Evaporation calculations]({filename}NACA-TN-3024_evaporation.md).  
--->
 
 ## Related
 

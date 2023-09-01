@@ -199,7 +199,7 @@ indicator, altimeter, and temperature indicator.
 
 Results from these instruments agreed approximately with other instruments, 
 and yielded something close to the expected normal or Langmuir drop size distributions
-(see ["A Langmuir B distribution is (almost) a normal distribution.md"]({filename}A Langmuir B distribution is almost a normal distribution.md)). 
+(see ["A Langmuir B distribution is (almost) a normal distribution"]({filename}A Langmuir B distribution is almost a normal distribution.md)). 
 
 Water drop photography had only limited contributions to icing research in the NACA-era. 
 

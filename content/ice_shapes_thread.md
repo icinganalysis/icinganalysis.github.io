@@ -51,6 +51,11 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
 
+## Related  
+
+The next thread in the series is the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
+
+
 ## Notes  
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
 [^2]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
