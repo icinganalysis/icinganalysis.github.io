@@ -384,7 +384,11 @@ Multiple agencies were coordinated (NACA, Army Air Force, Weather Bureau, indust
 Test aircraft with robust ice protection were available (see [Engine Exhaust Heat]({filename}engine%20exhaust%20heat.md)). 
 [Improved icing instruments]({filename}instruments.md) were being developed. 
 
-The icing design requirements are another crowning achievement of the NACA-era. 
+The icing design requirements are another crowning achievement of the NACA-era.  
+
+## Related  
+
+The next thread in the NACA review series is the [University of Michigan Airplane Icing Information Course]({filename}U%20of%20Michigan%20Icing.md).  
 
 ## Notes
 
