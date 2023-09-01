@@ -14,7 +14,7 @@ Water surface tension is identified as a factor in ice shapes and test similarit
 1. 18 dimensionless Pi-terms were identified.  
 2. "the π method has failed to provide a scaling methodology which can be used to test subscale aerodynamic components"  
 3. "however, does not preclude seeking approximate scaling methodologies"   
-4. Several late studies investigate the role of water surface tension and the Weber number.  
+4. Several later studies investigate the role of water surface tension and the Weber number.  
 
 ## Abstract
 
