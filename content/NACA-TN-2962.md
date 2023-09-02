@@ -516,8 +516,8 @@ An online search [^4] found 48 citations of NACA-TN-2962.
 
 #Notes  
 
-[^1]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
+[^1]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586).  
 [^2]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
 [^3]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
-[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+and+Frost+Formations+on+Drag+of+NACA+651-212+Airfoil+for+Various+Modes+of+Thermal+Ice+Protection&btnG=  
+[^4]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+and+Frost+Formations+on+Drag+of+NACA+651-212+Airfoil+for+Various+Modes+of+Thermal+Ice+Protection&btnG=)  
 

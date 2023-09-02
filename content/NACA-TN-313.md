@@ -323,7 +323,7 @@ NACA-TN-313 cites no references.
 
 NACA-TN-313 is cited by 2 references in the [NACA Icing Publications Database]({filename}naca icing publications database.md) [^2]:    
 - Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests: on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
-- Geer, William C., and Scott, Merit: The Prevention of the Ice Hazard on Airplanes. NACA-TN-345, July, 1930. Available at [https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes](https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes)   
+- Geer, William C., and Scott, Merit: The Prevention of the Ice Hazard on Airplanes. NACA-TN-345, July, 1930. Available at [abbottaerospace.com](https://www.abbottaerospace.com/downloads/naca-tn-345-the-prevention-of-the-ice-hazard-on-airplanes)   
 
 An online search [^3] found NACA-TN-313 cited by 10 references. 
 
@@ -351,7 +351,7 @@ ice protection technology.
 [^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
 [^2]:
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)  
-[^3]: https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en  
+[^3]: [scholar.google.com](https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en)  
 [^4]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929.  
-[^5]: Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf) .  
+[^5]: Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [flightopsresearch.org](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf) .  
 This is a candidate for "The Greatest Thing That You Have (Probably) Never Read" series in [Diversions]({filename}diversions.md).  

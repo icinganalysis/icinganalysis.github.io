@@ -212,6 +212,6 @@ An online search [^3] found 23 citations of NACA-TN-1598.
 
 ## Notes  
 
-[^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
+[^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605).  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
-[^3]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+Ice+Formations+on+Airplane+Performance+in+Level+Cruising+Flight&btnG=  
+[^3]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+Ice+Formations+on+Airplane+Performance+in+Level+Cruising+Flight&btnG=)  
