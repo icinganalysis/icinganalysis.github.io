@@ -1,7 +1,7 @@
 Title: Conclusions of the Icing Thermodynamics Thread   
 Date: 2022-05-18 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, conclusions  
 
 ### _**"The collection of ice by the cylinders is similar to the collection of ice by airplane components"**_
 
@@ -136,15 +136,15 @@ There are several sources of ice measurements on non-rotating cylinders.
 
 [AEDC-TR-85-30](https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2) 
 
-![AEDC-TR-85-30 Figure 21](images/freezing_fractions/AEDC_TR_85_30_Figure21.png)  
+![AEDC-TR-85-30 Figure 21. Comparison of rime, mixed, and glaze ice-accretion scaling using Method 1 to establish the experimental similitude conditions.](images/freezing_fractions/AEDC_TR_85_30_Figure21.png)  
 
 [NASA-TM-107141](https://ntrs.nasa.gov/api/citations/19960012178/downloads/19960012178.pdf) 
 
-![NASA-TM-107141 Figure 10](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
+![NASA-TM-107141 Figure 10. Constant-We Scaling Applied to Cylinders. Case 2 in Table I.](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
 
 [NASA/CR—2008-215302](https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf)  
 
-![NASA/CR—2008-215302 Figure 3](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
+![NASA/CR—2008-215302 Figure 3. Effect of Surfactant and Velocity on Appendix C Ice Shapes 2 . Vertical Cylinders Tested in the NASA Glenn IRT.](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
 
 The ice thickness at the leading edge was measured from the figures. 
 From that, an ice growth rate can be calculated: 
@@ -226,7 +226,8 @@ This treats the airfoil leading edge as a cylinder with a diameter equal to twic
 The freezing fraction values agree well at higher values, 
 but at lower values the scatter is greater than the +/-10% region shown. 
 
-![NASA/CR-2005-213852 Figure 3](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+![NASA/CR-2005-213852 Figure 3. Expiremental and analytical freezing fractions compared. 
+n_a calculated with length d using equation (16) for Nu.](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
 
 I view this as validation of Uwe von Glahn's assertion that 
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955,
@@ -333,11 +334,12 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^3]: 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
 [^4]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at [core.ac.uk](https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^5]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
 [^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated)  
-[^7]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
-Also note that there was a perhaps little known update in 1993: https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
+[^7]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)   
+Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
+
 
 

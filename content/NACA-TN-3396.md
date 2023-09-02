@@ -87,8 +87,8 @@ air was conditioned to the desired values of temperature and pressure at
 the tunnel test section.  
 A sensitive dewpoint meter was used to determine the frostpoint temperature 
 of a continuous sample of air from the tunnel plenum chamber.
-An air-atomizing spray nozzle, located approximately 18 inches up-
-stream of the model as shown in figure 2, was used to provide local
+An air-atomizing spray nozzle, located approximately 18 inches up-stream 
+> of the model as shown in figure 2, was used to provide local
 values of the liquid-water content of the air from 0.5 to 7.0 grams per
 cubic meter at the model.
 
@@ -123,7 +123,7 @@ be compared with the analytical results of references 1 and 2.
 Pressure distributions on the models for M0 = 1.35 are shown in
 figure 3. 
 
-![Figure 3](images/naca-tn-3396/Figure3.png)  
+![Figure 3/ Pressure distribution for diamond and circular-arc airfoil models at free-stream Mach number of 1.35.](images/naca-tn-3396/Figure3.png)  
 
 >Figure 4 shows recovery factor as a function of the chord-wise position 
 for the diamond. airfoil model at values of the free-stream Mach number 
@@ -133,7 +133,7 @@ the model and 0.87 over the rear half. For the supersonic case (fig.
 4(b)), the value of the recovery factor was higher, averaging slightly
 greater than 0.88 over the front surface and approximately 0.89 for the
 rear surface.  
-![Figure 4](images/naca-tn-3396/Figure4.png)  
+![Figure 4. Variation of recovery factor with chordwise position on diamond airfoil for two values of free-stream Mach number.](images/naca-tn-3396/Figure4.png)  
 
 Leading edge roughness affects the recovery factor:
 
@@ -148,7 +148,8 @@ a function of the distance from the leading edge, showing that almost
 fully turbulent flow exists at the midchord position without roughness.
 
 
-![Figure 5c](images/naca-tn-3396/Figure5c.png)  
+![Figure 5c. Variation of recovery factor with chordwise position on circular-arc airfoil. 
+(c) Effect of roughness at leading edge at free-stream Mach number of 1.35 axid pressure altitude of 30,000 feet.](images/naca-tn-3396/Figure5c.png)  
 
 A recovery factor value to be used for wet conditions was estimated. 
 
@@ -182,9 +183,13 @@ entirely.
 This illustrates some difficulties of measuring surface temperatures in icing conditions. 
 Several times I have observed ice on a test article when the thermocouples read something above 0C. 
 
-![Figure 7c](images/naca-tn-3396/Figure7c.png)  
+![Figure 7c. Surface temperatures on diamond airfoil at icing limit. 
+(C)c) Free-stream Mach number, 1.35; pressure altitude, 25,000 feet. 
+Free-stream static teiiperature t0 (exp.), -49.8° F; t0, (ref. 2), -45.9° F.](images/naca-tn-3396/Figure7c.png)  
 
-![Figure 7e](images/naca-tn-3396/Figure7e.png)  
+![Figure 7e. Surface temperatures on diamond airfoil at icing limit. 
+(e) Free-stream Mach number, 1.35; pressure altitude, 35,000 feet. 
+Free-stream static temperature t0 (exp.), -28.9° F; t0, (ref. 2), -22.8° F.](images/naca-tn-3396/Figure7e.png)  
 
 Differences in measured and theoretical temperatures were discussed:
 
@@ -209,7 +214,7 @@ toward the shoulder. Thus, the point on the surface for which the icing-
 limit definition applies is the rearward extremity of the ice formation.
 Figure 8 shows the change in the rearward extent of the icing for two air
 temperatures at two pressure altitudes.  
-![Figure 8](images/naca-tn-3396/Figure8.png)  
+![Figure 8. Rearward extent of ice formation on front face of diamond airfoil for two values of stagnation (plenum air) temperature at pressure altitudes of 25,000 and 30,000 feet and  free-streamMach number of 1.35.](images/naca-tn-3396/Figure8.png)  
 > For each of the stream conditions
 shown, the calculated surface temperature indicates that the region just
 ahead of the shoulder should be more susceptible to icing than any other
@@ -243,7 +248,7 @@ any increase in temperature as a function of chordwise position aft
 of the midchord position mist be considered to be caused by an 
 incompletely wet surface at the thermocouples.
 
-![Figure 9](images/naca-tn-3396/Figure9.png)  
+![Figure 9. Variation of measured wet-surface temperature on circular-arc airfoil for several values of liquid-water content at two Mach number conditions.](images/naca-tn-3396/Figure9.png)  
 
 >Surface temperature and icing limit. - Figure 10 presents measured
 surface temperatures obtained with the circular-arc airfoil, together
@@ -275,7 +280,7 @@ reflected-shock intersection and the slope of the calculated surface temperature
 curve indicate that the ice might have formed nearer the trailing
 edge and at a higher stream temperature if the shock had not been present. 
 
-![Figure 10](images/naca-tn-3396/Figure10.png)  
+![Figure 10. Surface temperatures on circular-arc airfoil at icing limit.](images/naca-tn-3396/Figure10.png)  
 
 ## Conclusions  
 
@@ -328,10 +333,10 @@ An online search found that NACA-TN-3396 is cited 2 times in the literature [^4]
 ## Notes 
 
 [^1]: 
-Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955.  
+Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084131).  
 [^2]: 
 Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
 [^3]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^4]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Icing+Limit+and+Wet-Surface+Temperature+Variation+for+Two+Airfoil+Shapes+under+Simulate+High-Speed+Flight+Conditions&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Icing+Limit+and+Wet-Surface+Temperature+Variation+for+Two+Airfoil+Shapes+under+Simulate+High-Speed+Flight+Conditions&btnG=)  
