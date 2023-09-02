@@ -384,7 +384,7 @@ The next thread in the NACA review series is the [Thermodynamics Thread]({filena
 ## Notes:
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.  
-I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
+I could not locate this on the NTRS. It is available at [core.ac.uk](https://core.ac.uk/reader/42858720) (circa August, 2023)  
 [^2]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
@@ -392,21 +392,20 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whitier, L.,:
 "An Experimental Method for Measuring" Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies", NASA-CR-4257, DOT/FAA/CT-87/22, 1987.  
 [^5]: 
-https://software.nasa.gov/software/LEW-18573-1,  
-https://ntrs.nasa.gov/citations/19990021235  
-[^6]: Anon.:"Aircraft Ice Protection", FAA AC 20-73A, https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf  
+[software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1), [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
+[^6]: Anon.:"Aircraft Ice Protection", FAA AC 20-73A, [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 [^7]: Jeck, Richard K: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds", FAA-RD-80-24, May, 1980.  
-[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) https://apps.dtic.mil/sti/pdfs/ADA238039.pdf .  
+[^8]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://apps.dtic.mil/sti/pdfs/ADA276499.pdf  
 [^9]: 
 Stallabrass, J. R.:"An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement", LTR-LT-92, November, 1978.  
 [^10]: 
-Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+Anderson, David N., Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)    
 [^11]:
 Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 
 It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
-[^12]: More information at https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C  
+[^12]: More information at [sae.org](https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C)  
 

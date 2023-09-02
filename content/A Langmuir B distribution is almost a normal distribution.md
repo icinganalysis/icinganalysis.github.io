@@ -135,7 +135,7 @@ Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid 
 [^3]: 
 [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
 [^4]:
-https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution  
+[Normal distribution at en.wikipedia.org](https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution)  
 [^5]:
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 [^6]:

@@ -95,7 +95,7 @@ NACA-TN-779 is cited 7 times in the NACA Icing Publications Database [^7]. All o
 There were several later studies of the aerodynamic heating specifically for a cylinder (without ice) in [^8], [^9], and [^10].  
 
 ## Notes:
-[^1]: Kantrowitz, Arthur: Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940.
+[^1]: Kantrowitz, Arthur: Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535).
 [^2]:
 Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
 [^3]:

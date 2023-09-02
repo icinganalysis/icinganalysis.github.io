@@ -15,7 +15,13 @@ tags: cylinders
 
 <p class="aligncenter">
  <img src="images/naca-tn-2904/Figure15.png" 
- alt="Water-drop-trajectory analog."
+ alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled 'Input Chart'. 
+The second operator turns another input chart crank. 
+Another cylinder is labeled 'Droplet Trajectories'. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. "
  > 
  <br>
  <em>Calculating water drop trajectories with a <a href="https://en.wikipedia.org/wiki/Differential_analyser">differential analyzer</a> analog </em>

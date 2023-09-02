@@ -14,4 +14,4 @@ Here are references that include more general information on the NACA era and ai
 
 "The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
 (Especially the "Heat Against Ice" excerpt, p. 506-518.)  
-[http://history.nasa.gov/sp4409-vol2.pdf](http://history.nasa.gov/sp4409-vol2.pdf)  
+[history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  

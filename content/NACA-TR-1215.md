@@ -255,7 +255,7 @@ An online search found that NACA-TR-1215 is cited 12 times in the literature [^1
 ## Notes:
 
 [^1]:
-Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
+Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697).  
 [^2]:
 Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
 [^3]:
@@ -271,11 +271,11 @@ Messinger, B.L.: “Equilibrium Temperature of an Un-heated Icing Surface as a F
 [^8]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^9]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=  
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Un-heated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
+["Mathematical..." scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=)  
+["Equilibrium..." scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Un-heated+Icing+Surface+as+a+Function+of+Airspeed&btnG=)  
 [^10]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Cloud+Droplets+and+Procedure+for+Measuring+Liquid-Water+Content+and+Droplet+Sizes+in+Supercooled+Clouds+by+Rotating+Multicylinder+Method.+NACA-TR-1215%2C+1955.+%28Supersedes+NACA+TN%E2%80%99s+2903%2C+2904%2C+and+NACA-RM-E53D23%29++&btnG=  
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TR-1215&btnG=  
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=  
+["Impingement..." scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Cloud+Droplets+and+Procedure+for+Measuring+Liquid-Water+Content+and+Droplet+Sizes+in+Supercooled+Clouds+by+Rotating+Multicylinder+Method.+NACA-TR-1215%2C+1955.+%28Supersedes+NACA+TN%E2%80%99s+2903%2C+2904%2C+and+NACA-RM-E53D23%29++&btnG=)  
+[NACA-TR-1215 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TR-1215&btnG=)  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=)  
 [^11]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  

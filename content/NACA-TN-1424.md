@@ -107,7 +107,7 @@ for cumulus clouds and 0.28 gram per cubic meter for layer clouds.
 per cubic meter and 90 percent of the flights in layer clouds 
 encountered less than 0.5 gram per cubic meter.  
 
-![Figure 5.png](images%2Fnaca-tn-1424%2FFigure%205.png)  
+![Figure 5. Ogives of maximum liquid water content per flight.](images%2Fnaca-tn-1424%2FFigure%205.png)  
 
 >   Ogives plotted from observations of mean-effective diameter 
 and maximum diameter made during the 1946-47 season are presented 
@@ -282,7 +282,7 @@ Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concent
 [^5]:
 Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.   
 [^6]:
-search in December, 2021: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-1424&btnG=  
+Search in December, 2021 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-1424&btnG=).  
 [^7]:
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)  
-[^8]: 14 CFR 25 Appendix C (updated periodically) [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025]  
+[^8]: 14 CFR 25 Appendix C (updated periodically) [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  

@@ -7,7 +7,7 @@ tags: cylinders, instruments
 
 # "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"[^1]
 
-![Figure 1 - Rotating mulicylinder set extended through top of airplane fuselage.](images/naca-rm-e53d23/Figure1.png)
+![Figure 1 - Rotating multicylinder set extended through top of airplane fuselage.](images/naca-rm-e53d23/Figure1.png)
 
 ## Summary 
 Detailed procedures for the use of multicylinders are described.
@@ -62,7 +62,7 @@ The impingement tables from the recently published [NACA-TN-2904]({filename}NACA
 were used in the analysis of the measured cylinder data. 
 
 The data in Tables I and IV provide an actual measured flight data case. 
-This case is different from some of the other examples that we have seen, 
+This case is different from other examples that we have seen, 
 as the final outer diameter of the iced cylinder was not measured, 
 but was calculated from an assumed ice density (850 kg/m^3).
 
@@ -165,7 +165,7 @@ NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^5]:
 An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^6]. 
 
 ## Notes:
-[^1]: Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
+[^1]: Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068900).  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^3]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
@@ -174,5 +174,5 @@ Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Acc
 [^5]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^6]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E53D23&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E53D23&btnG=)  
 

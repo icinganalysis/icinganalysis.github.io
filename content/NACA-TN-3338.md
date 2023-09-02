@@ -247,7 +247,7 @@ the droplet size distribution.
 The accuracy of the various drop distributions shown above are unknown, 
 due to the lack of an independent comparison measurement. 
 I do not know of data from the NACA era that could clarify the accuracy. 
-We will look at a comparison of post-NACA data at the end of the Cylinders thread.
+We will look at a comparison of post-NACA data in the [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md).
 
 ## Citations
 
