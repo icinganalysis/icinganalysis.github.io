@@ -305,4 +305,3 @@ Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Ici
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)  
 [^11]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
-
