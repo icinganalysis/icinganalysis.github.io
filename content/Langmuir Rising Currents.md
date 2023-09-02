@@ -269,4 +269,4 @@ Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 [^2]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
 [^3]: 
-https://scholar.google.com/scholar?cites=16453079719584137883&as_sdt=5,48&sciodt=0,48&hl=en  
+[scholar.google.com](https://scholar.google.com/scholar?cites=16453079719584137883&as_sdt=5,48&sciodt=0,48&hl=en)  
