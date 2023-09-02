@@ -36,8 +36,8 @@
                 Published: Mon 18 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-08-29T13:05:54.613389-07:00">
-                Updated: Tue 29 August 2023
+        <abbr class="modified" title="2023-09-02T07:01:39.140445-07:00">
+                Updated: Sat 02 September 2023
         </abbr>
 <!---->
         <!---->
@@ -176,7 +176,8 @@ by the ratio of Yo to s, or:
 <p>Using values of C obtained from figure 2, the weight of water impingement
 at any point on the surface can be calculated from equation (7).</p>
 </blockquote>
-<p><img alt="Figure 2" src="images/naca-tn-1472/Figure2.png"> </p>
+<p><img alt="Figure 2. Calculated water-drop impingement distribution over the surface of a 12 percent thick symmetrical Joukowski airfoil used to approximate the contour of a NACA 0012 section at 0 degree angle of attack. 
+Free-stream Reynolds number of drop, Rd, 95.05" src="images/naca-tn-1472/Figure2.png"> </p>
 <p><img alt="Equation 7" src="images/naca-tn-1472/Equation7.png"> </p>
 <p>The effect of drop size distributions can be included: </p>
 <blockquote>
@@ -206,7 +207,8 @@ where Yolimit is the value of Yo for which drops of a particular
 K value just miss the airfoil, and Ymax is the maximum ordinate of
 the airfoil. The equation for computing Me, then, is 
 <img alt="Equation 11" src="images/naca-tn-1472/Equation11.png"> 
-<img alt="Figure 3" src="images/naca-tn-1472/Figure3.png"> </p>
+<img alt="Figure 3. Calculated water-drop collection officiencey for a 12 percent thick symmetrical Joukowski airfoil used to approximate the contour of a NACA 0012 section at 0 degree angle of attack. 
+Free-stream Reynolds number of drop, Rd, 95.05" src="images/naca-tn-1472/Figure3.png"> </p>
 </blockquote>
 <h3>Heat Loss Due to Forced Convection</h3>
 <p>The unit heat flow from the surface of a body in an air stream
@@ -253,7 +255,7 @@ this simplification in the calculation of kinetic-temperature rise of
 airfoil surfaces in clouds are not known. Below speeds of 200 miles
 per hour, however, these equations can be used with small error, since
 the kinetic-temperature rise is low. 
-<img alt="Figure 4" src="images/naca-tn-1472/Figure4.png"> </p>
+<img alt="Figure 4. Ratio of saturated- to dry-adiabatic lapse rates as a function of temperature and pressure altitude." src="images/naca-tn-1472/Figure4.png"> </p>
 </blockquote>
 <h3>Heat Loss Due to Evaporation of the Water on the Surface</h3>
 <blockquote>
@@ -309,9 +311,9 @@ stations gave an indication of the heat flow into the model interior.
 These thermocouples were connected to the same recording potentiometers 
 used to record surface temperatures.</p>
 </blockquote>
-<p><img alt="C-46 Lab Test Article" src="images/C-46lab.jpg"> </p>
+<p><img alt="C-46 Lab Test Article. A test airfoil section with many wires." src="images/C-46lab.jpg"> </p>
 <p>Flight tests in natural icing were conducted. </p>
-<p><img alt="NACA_1947_conference_Neel_figure1" src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png"> </p>
+<p><img alt="NACA 1947 conference Neel figure 1. A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail." src="images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png">  </p>
 <blockquote>
 <p>TEST PROCEDURE<br>
 The test airplane was flown into natural-icing conditions over
@@ -349,27 +351,31 @@ wrapped around the leading edge of the model, they illustrate the
 pattern that the water assumes in striking the airfoil and flowing
 aft. The records were obtained during icing conditions 11, 13, and
 14, table II.
-<img alt="Figure15" src="images/naca-tn-1472/Figure15.png"> </p>
+<img alt="Figure 15. Typical data records showing area of drop impingement on the NACA 652-016 airfoil model, and traces of water flow aft of the region of impingement." src="images/naca-tn-1472/Figure15.png"> </p>
 </blockquote>
 <p>This was (roughly) correlated with water runback rate 
 (although a constant value of about 0.25 would fit the data as well, IMHO).</p>
-<p><img alt="Figure 21" src="images/naca-tn-1472/Figure21.png"> </p>
+<p><img alt="Figure 21. Measured percent of surface wetness as a function of rate of chordwise water flow aft of the region of water-drop impingement for the 652-016 airfoil." src="images/naca-tn-1472/Figure21.png"> </p>
 <h3>Analysis results</h3>
 <p>For brevity, we will examine the NACA 0012 test article results (only). </p>
 <p>With measured flight test values for t_surface and heat applied to the heating strips, 
 equations 24 and 25 were used to infer an external heat transfer coefficient, 
 shown in Figure 8 ("H"). </p>
-<p><img alt="Figure 8a" src="images/naca-tn-1472/Figure8a.png"> </p>
+<p><img alt="Figure 8a. Thermal data obtained with the NACA 0012 electrically heated airfoil model." src="images/naca-tn-1472/Figure8a.png"> </p>
 <p>A python implementation (file "naca_tn_1472.py" <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>) found similar values. </p>
 <p><img alt="Python analysis of figure 8a conditions" src="images/naca-tn-1472/naca_tn_1472_fig8a.png"></p>
 <p>The analysis can be used to determine surface temperatures from the heating and heat transfer coefficients 
 (rather than determining heat transfer coefficients for the surface temperatures and heating, as above). 
 A set of heat transfer coefficients was used: 
-<img alt="Figure 25" src="images/naca-tn-1472/Figure25.png"> </p>
+<img alt="Figure 25. Measured convective heat-transfer coefficient and estimated turbulent coefficient assumng transition starting at 5 percent S/C for the NACA 0012 airfoil model. 
+Pressure altitude, 12000 ft. True airspeed, 170 mph." src="images/naca-tn-1472/Figure25.png"> </p>
 <p>NACA-TN-1472 did not show the surface temperatures, here are the python analysis results.
 <img alt="Surface temperatures" src="images/naca-tn-1472/naca_tn_1472_fig26_t_surface.png"> </p>
 <p>The portions of the heat transfer can be calculated: 
-<img alt="Figure 26" src="images/naca-tn-1472/Figure26.png"> </p>
+<img alt="Figure 26. Assumed total heat-flow distribution and calculated convective heat loss from an NACA 0012 heated airfoil for determining extent of heated area required for evaporation of all impinging water. 
+Pressure altitude, 12000 ft. True airspeed, 170 mph. Liquid-water content, 0.5 grams per cubic meter. 
+Drop-size distribution, E. Mean-effective drop size, 25 microns. Free-air temperature, 20 degrees F.
+Airfoil chord length, 8 ft." src="images/naca-tn-1472/Figure26.png"> </p>
 <p>The python analysis shows similar results: 
 <img alt="Comparison to Figure 26" src="images/naca-tn-1472/naca_tn_1472_fig26.png"></p>
 <h3>Heat transfer coefficients</h3>
@@ -545,7 +551,7 @@ as severe as those upon which the design was based.</p>
 <hr>
 <ol>
 <li id="fn:1">
-<p>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947 <a href="https://ntrs.nasa.gov/citations/19810068709">ntrs.nasa.gov</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
 <p>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
@@ -566,7 +572,7 @@ as severe as those upon which the design was based.</p>
 <p><a href="/naca-icing-publications-database.html">NACA Icing Publications Database</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:8">
-<p>https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&amp;btnG=&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p><a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&amp;btnG=">scholar.google.com</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

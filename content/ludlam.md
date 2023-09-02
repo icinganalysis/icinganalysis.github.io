@@ -91,8 +91,7 @@ This often cited work has been used in many places, but, alas, with varying resu
 
 A python implementation was made (file "ludlam.py" at [^3]). 
 The python implementation was intended to be as straight-forward as possible. 
-Differences from Ludlam are:
-- evaporation calculation  
+Differences from Ludlam include the evaporation calculation  
 
 Ludlam did not include the air pressures, which are necessary for the calculation, 
 so those were calculated 
@@ -138,7 +137,8 @@ Jeck cited Ludlam, but did not provide details of the implementation.
 Jeck presented results as "Ludlam limit" icing rates on the cylinder, 
 as shown in Figure 22c below, 
 
-![Jeck Figure 22c](images/Ludlam/JeckFigure22c.png) 
+![Jeck Figure 22c. APPENDIX C (CONTINUOUS MAXIMUM) IN TERMS OF ICING RATE ON A 1/4-inch DIAMETER CYLINDER AT 150 kt TAS IN A DISTANCE-BASED FORMAT
+(These curves show the dependence of maximum probable icing rate on temperature and averaging distance for MVD = 15 mm, as represented by the current design envelopes).](images/Ludlam/JeckFigure22c.png) 
 
 which may readily be converted to an LWC value using the continuity equation. 
 
@@ -251,5 +251,5 @@ Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Co
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Heat+Economy+of+a+Rimed+Cylinder&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Heat+Economy+of+a+Rimed+Cylinder&btnG=)  
 

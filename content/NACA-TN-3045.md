@@ -133,9 +133,9 @@ NACA-TN-3045 is cited 4 times in the literature [^3].
 
 ## Notes  
 [^1]: 
-Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
+Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724).  
 [^2]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^3]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Analogy+Between+Mass+and+Heat+Transfer+with+Turbulent+Flow&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Analogy+Between+Mass+and+Heat+Transfer+with+Turbulent+Flow&btnG=)  
 

@@ -49,7 +49,7 @@ Reviews in this thread:
     - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
         >  review : [NACA-TN-2738]({filename}NACA-TN-2738.md)  
     - Conclusions of the Meteorology of Icing Clouds Thread  
-        >  review : [Conclusions of the Meteorology of Icing Clouds Thread.md]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
+        >  review : [Conclusions of the Meteorology of Icing Clouds Thread]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
     
 Several publications by Porter Perkins were included in  
 [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 

@@ -3,7 +3,7 @@ Date: 2022-04-28 12:00
 Category: NACA    
 tags: thermodynamics  
 
-### _"[LWC] limits have been calculated for a rotating cylinder.., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
+### _"[LWC] limits have been calculated for a rotating cylinder..., and the results show that rotating cylinder measurements are of limited usefulness and may, in fact, prove entirely misleading as regards both water content and droplet size."_  
 
 # Fraser, et al., "Thermodynamic Limitations of Ice Accretion Instruments" [^1]
 
@@ -22,8 +22,8 @@ The term "freezing fraction" is defined (but probably not the one that you expec
 > A number of instruments used for determining the supercooled water content of an icing
 cloud depend on measuring the rate of accretion of ice on an unheated body. It has been shown
 by Ludlam that, since only part of the supercooled water freezes on impact, and the rest
-cannot always be frozen by the limited convective and evaporative heat losses which are avail-
-able, there are limiting water contents beyond which such methods of measurement are unreliable. 
+cannot always be frozen by the limited convective and evaporative heat losses which are available, 
+there are limiting water contents beyond which such methods of measurement are unreliable. 
 These limits have been calculated for a rotating cylinder at normal and high flight
 speeds, and the results show that rotating cylinder measurements are of limited usefulness and
 may, in fact, prove entirely misleading as regards both water content and droplet size. 
@@ -39,8 +39,8 @@ supercooled water and ice crystals.
 
 > However, under conditions of high water catch
 and high temperature, and also under conditions
-of high flight speed, the heat balance of a small-
-scale body becomes such that only part of the water 
+of high flight speed, the heat balance of a small-scale 
+> body becomes such that only part of the water 
 is retained as ice, the rest running or blowing
 off in the liquid state.  
 This is well-known to be a limitation of such
@@ -77,8 +77,7 @@ At any given speed, temperature and pressure
 there is an upper limit to the latter amount,
 which will depend on the conduction from the
 icing surface. Thus the limiting amount of
-water that can be totally frozen after impinge-
-ment on the body is
+water that can be totally frozen after impingement on the body is
 
 ![Equation 2](images/Fraser/equation2.png) 
 
@@ -92,8 +91,8 @@ More generally, equation 2 is:
     ml = freezing_fraction * m + mc         (2)
 
 >Up to this limit, the amount of ice collected
-by the body is the same as the amount of super-
-cooled water impinging on it. If the amount
+by the body is the same as the amount of super-cooled 
+> water impinging on it. If the amount
 of impinging water, m, is greater than this limit,
 ml the only additional ice formed is that fraction 
 which freezes on impact. So that if m > ml
@@ -113,7 +112,6 @@ where freezing fraction is the fraction of impinging water that is frozen (mi / 
 the liquid state, or included as liquid water in
 the collected ice. 
 
-
 ### Appendix
 >The heat flow equation for the icing surface on a cold
 body, assuming all impinging water freezes, is  
@@ -121,7 +119,7 @@ body, assuming all impinging water freezes, is
 >For the specific case of a rotating, non-conducting cylinder, 
 with surface temperature at 0°C, and fully wetted,
 the equation simplifies to 
-![Appendix heat balance simlified](images/Fraser/appendix_simplified.png)  
+![Appendix heat balance simplified](images/Fraser/appendix_simplified.png)  
 >where q is measured in CHU/hr. (The term CHU denotes 
 a centigrade heat unit which is the heat required to
 raise one lb of water through one degree Celsius.) 
@@ -240,4 +238,4 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^5]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^6]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Thermodynamic+Limitations+of+Ice+Accretion+Instruments&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Thermodynamic+Limitations+of+Ice+Accretion+Instruments&btnG=)  

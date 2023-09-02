@@ -232,10 +232,10 @@ NACA-TN-3104 is cited 33 times in the literature [^4].
 ## Notes:
 
 [^1]:
-Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
+Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725).  
 [^2]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^3]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^4]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Experimental+Investigation+of+Sublimation+of+Ice+at+Subsonic+and+Supersonic+Speeds+and+its+Relation+to+Heat+Transfer&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Experimental+Investigation+of+Sublimation+of+Ice+at+Subsonic+and+Supersonic+Speeds+and+its+Relation+to+Heat+Transfer&btnG=)  

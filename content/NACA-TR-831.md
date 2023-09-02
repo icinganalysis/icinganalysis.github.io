@@ -5,8 +5,7 @@ tags: thermodynamics, python
 
 ### _"It has been shown that the temperature of the surface of the wing in conditions of icing can be predicted with considerable exactitude from the temperatures measured in clear air."_  
 
-#"An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane" [^1] 
-
+# "An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane" [^1] 
 
 ![Figure 2. Measured temperatures at wing station 159 during flight in C-46 airplane.](images/NACA-TR-831/Figure2.png) 
 
@@ -452,4 +451,4 @@ Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from
 [^9]:
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^10]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&btnG=)  

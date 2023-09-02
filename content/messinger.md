@@ -257,7 +257,7 @@ or the heat transfer coefficients assumed for the cylinder.
 So, we will use the Langmuir and Blodgett [^5] relationships to get beta values.  
 ![Beta values for Figure 10b](images/messinger/messinger_fig10b_beta.png) 
 
-We will used the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^6]. 
+We will use the heat transfer coefficients relationships from [Ludlam]({filename}ludlam.md) [^6]. 
 
 ![HC values for Figure 10b](images/messinger/messinger_fig10b_hcs.png) 
 
@@ -410,7 +410,6 @@ The data substantiate the surface temperatures calculated,
 but the freezing fractions were not measured. 
 We will have to look at data from the post-NACA era for freezing fraction measurements. 
 
-
 ## Citations
 
 Messinger cites 9 publications:
@@ -445,7 +444,7 @@ It is only available in print (I was able to read a copy through inter-library l
 [^1]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^2]: 
-Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)    
 [^3]: 
 Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
 [^4]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)   
@@ -459,7 +458,7 @@ Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Imp
 [^9]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^10]:  
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=  
-[^11]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. https://search.lib.umich.edu/catalog/record/990015261100106381    
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=)  
+[^11]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)    
 
 

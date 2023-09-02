@@ -145,7 +145,8 @@ by the ratio of Yo to s, or:
 > Using values of C obtained from figure 2, the weight of water impingement
 at any point on the surface can be calculated from equation (7).
 
-![Figure 2](images/naca-tn-1472/Figure2.png) 
+![Figure 2. Calculated water-drop impingement distribution over the surface of a 12 percent thick symmetrical Joukowski airfoil used to approximate the contour of a NACA 0012 section at 0 degree angle of attack. 
+Free-stream Reynolds number of drop, Rd, 95.05](images/naca-tn-1472/Figure2.png) 
 
 ![Equation 7](images/naca-tn-1472/Equation7.png) 
 
@@ -175,7 +176,8 @@ efficiency is defined as:
 K value just miss the airfoil, and Ymax is the maximum ordinate of
 the airfoil. The equation for computing Me, then, is 
 ![Equation 11](images/naca-tn-1472/Equation11.png) 
-![Figure 3](images/naca-tn-1472/Figure3.png) 
+![Figure 3. Calculated water-drop collection officiencey for a 12 percent thick symmetrical Joukowski airfoil used to approximate the contour of a NACA 0012 section at 0 degree angle of attack. 
+Free-stream Reynolds number of drop, Rd, 95.05](images/naca-tn-1472/Figure3.png) 
 
 ### Heat Loss Due to Forced Convection  
 The unit heat flow from the surface of a body in an air stream
@@ -223,7 +225,7 @@ this simplification in the calculation of kinetic-temperature rise of
 airfoil surfaces in clouds are not known. Below speeds of 200 miles
 per hour, however, these equations can be used with small error, since
 the kinetic-temperature rise is low. 
-![Figure 4](images/naca-tn-1472/Figure4.png) 
+![Figure 4. Ratio of saturated- to dry-adiabatic lapse rates as a function of temperature and pressure altitude.](images/naca-tn-1472/Figure4.png) 
 
 ### Heat Loss Due to Evaporation of the Water on the Surface 
 >The amount of heat removed from a wetted surface as a result of
@@ -281,11 +283,11 @@ stations gave an indication of the heat flow into the model interior.
 These thermocouples were connected to the same recording potentiometers 
 used to record surface temperatures.
 
-![C-46 Lab Test Article](images/C-46lab.jpg) 
+![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg) 
 
 Flight tests in natural icing were conducted. 
 
-![NACA_1947_conference_Neel_figure1](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png) 
+![NACA 1947 conference Neel figure 1. A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail.](images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
 
 >TEST PROCEDURE  
 The test airplane was flown into natural-icing conditions over
@@ -326,12 +328,12 @@ wrapped around the leading edge of the model, they illustrate the
 pattern that the water assumes in striking the airfoil and flowing
 aft. The records were obtained during icing conditions 11, 13, and
 14, table II.
-![Figure15](images/naca-tn-1472/Figure15.png) 
+![Figure 15. Typical data records showing area of drop impingement on the NACA 652-016 airfoil model, and traces of water flow aft of the region of impingement.](images/naca-tn-1472/Figure15.png) 
 
 This was (roughly) correlated with water runback rate 
 (although a constant value of about 0.25 would fit the data as well, IMHO).
 
-![Figure 21](images/naca-tn-1472/Figure21.png) 
+![Figure 21. Measured percent of surface wetness as a function of rate of chordwise water flow aft of the region of water-drop impingement for the 652-016 airfoil.](images/naca-tn-1472/Figure21.png) 
 
 ### Analysis results
 
@@ -341,7 +343,7 @@ With measured flight test values for t_surface and heat applied to the heating s
 equations 24 and 25 were used to infer an external heat transfer coefficient, 
 shown in Figure 8 ("H"). 
 
-![Figure 8a](images/naca-tn-1472/Figure8a.png) 
+![Figure 8a. Thermal data obtained with the NACA 0012 electrically heated airfoil model.](images/naca-tn-1472/Figure8a.png) 
 
 A python implementation (file "naca_tn_1472.py" [^5]) found similar values. 
 
@@ -350,13 +352,17 @@ A python implementation (file "naca_tn_1472.py" [^5]) found similar values.
 The analysis can be used to determine surface temperatures from the heating and heat transfer coefficients 
 (rather than determining heat transfer coefficients for the surface temperatures and heating, as above). 
 A set of heat transfer coefficients was used: 
-![Figure 25](images/naca-tn-1472/Figure25.png) 
+![Figure 25. Measured convective heat-transfer coefficient and estimated turbulent coefficient assumng transition starting at 5 percent S/C for the NACA 0012 airfoil model. 
+Pressure altitude, 12000 ft. True airspeed, 170 mph.](images/naca-tn-1472/Figure25.png) 
 
 NACA-TN-1472 did not show the surface temperatures, here are the python analysis results.
 ![Surface temperatures](images/naca-tn-1472/naca_tn_1472_fig26_t_surface.png) 
 
 The portions of the heat transfer can be calculated: 
-![Figure 26](images/naca-tn-1472/Figure26.png) 
+![Figure 26. Assumed total heat-flow distribution and calculated convective heat loss from an NACA 0012 heated airfoil for determining extent of heated area required for evaporation of all impinging water. 
+Pressure altitude, 12000 ft. True airspeed, 170 mph. Liquid-water content, 0.5 grams per cubic meter. 
+Drop-size distribution, E. Mean-effective drop size, 25 microns. Free-air temperature, 20 degrees F.
+Airfoil chord length, 8 ft.](images/naca-tn-1472/Figure26.png) 
 
 The python analysis shows similar results: 
 ![Comparison to Figure 26](images/naca-tn-1472/naca_tn_1472_fig26.png)
@@ -537,7 +543,7 @@ NACA-TN-1472 is cited 33 times in the literature [^8].
 ## Notes: 
 
 [^1]: 
-Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
+Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068709).  
 [^2]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
 [^3]: Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 [^4]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
@@ -548,4 +554,4 @@ Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley an
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&btnG=)  

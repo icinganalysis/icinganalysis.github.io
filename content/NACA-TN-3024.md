@@ -172,11 +172,13 @@ The results of NACA-TN-3024 are compared to calculations in python in
 
 ## Related
 
+We will revisit NACA-TN-3024 later in the Evaporation thread in the review [NACA-TN-3024_evaporation]({filename}NACA-TN-3024_evaporation.md).  
+
 A distant descendant of NACA-TN-3024 (although NACA-TN-3024 is not cited by it) is the AEDC1DMP 
 (Arnold Engineering Development Center 1 Dimensional Multi-Phase) code described in [^3].
 
 I have used the code, but I do not have a copy of it, and I do not know where to find it online. 
-[When I used it years ago, one had to "know someone" to get the code.] 
+[When I used it years ago, one had to "know someone" to get the code.]  
 
 ## Citations
 
@@ -209,12 +211,12 @@ NACA-TN-3024 is cited 6 times in the literature [^5].
 ## Notes: 
 
 [^1]: 
-Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953  
+Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068865)  
 [^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
 [^3]: 
-Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, https://apps.dtic.mil/sti/pdfs/ADA364922.pdf  
+Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA364922.pdf)  
 [^4]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^5]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&btnG=)  
 
