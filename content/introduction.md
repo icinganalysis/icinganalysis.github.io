@@ -116,4 +116,3 @@ To see all topics and the 100+ articles, see [Site Navigation]({filename}Reading
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 [^8]: [https://ntrs.nasa.gov/](https://ntrs.nasa.gov)  
 (Note: I have not been able to find a few of the publications at the ntrs, but I have found most of the missing ones with more general internet searches)  
-
