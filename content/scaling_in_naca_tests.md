@@ -228,4 +228,4 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [^4]: 
 von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
 [^5]: Fujiwara, Gustavo EC, et al. "A hybrid airfoil design method for icing wind tunnel tests." 5th AIAA atmospheric and space environments conference. 2013.
-available at http://icing.ae.illinois.edu/papers/13/AIAA-2013-2826.pdf  
+available at [icing.ae.illinois.edu](http://icing.ae.illinois.edu/papers/13/AIAA-2013-2826.pdf)  

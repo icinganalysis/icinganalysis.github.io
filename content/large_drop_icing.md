@@ -37,10 +37,8 @@ Four different drop size distributions were defined in Figures 2 and 5.
 In general, these are much broader than the Appendix C (assumed) Langmuir D distributions, 
 and have a portion of the water in drop sizes greater than 100 micrometers.  
 
-![Appendix O Figure 2. Appendix O, Freezing Drizzle, Drop Diameter Distributions.
-](images/nasa-cr-2008-215302/Appendix O Figure 2.png)  
-![Appendix O Figure 5. Appendix O, Freezing Rain, Drop Diameter Distributions.
-](images/nasa-cr-2008-215302/Appendix O Figure 5.png)  
+![Appendix O Figure 2. Appendix O, Freezing Drizzle, Drop Diameter Distributions.](images/nasa-cr-2008-215302/Appendix O Figure 2.png)  
+![Appendix O Figure 5. Appendix O, Freezing Rain, Drop Diameter Distributions.](images/nasa-cr-2008-215302/Appendix O Figure 5.png)  
 
 Advisory Circular 25-28 [^3] provided (in 2014) "interim guidance" on
 the use of icing wind tunnels for large drop size icing conditions. 
@@ -57,8 +55,7 @@ The case is similar for the use of computing codes (few validated uses),
 so apparently one is left with only flight test in natural icing
 SLD conditions as an option. 
 
-![Table 1 Interim Guidance. Assessment of Appendix X Engineering Tool Capabilities.
-](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
+![Table 1 Interim Guidance. Assessment of Appendix X Engineering Tool Capabilities.](images/nasa-cr-2008-215302/Table 1 Interim Guidance.png)  
 
 [The "Appendix X" referred to in the table became Appendix O, 
 after the table was produced in 2009.]
@@ -76,9 +73,7 @@ large drops can fall at speeds greater than 1 m/s (depending on size).
 For a large test facility, like the IRT, the transit time is 
 on the order of 1 second, so the fall distance is non-trivial for large drops. 
 
-![Figure 1 of NACA-TN-712. Illustration showing spray that will give rime ice. 
-If nozzle is raised, large drops will strike model, giving glaze ice.
-](images/naca-tn-712/Figure 1.png)  
+![Figure 1 of NACA-TN-712. Illustration showing spray that will give rime ice. If nozzle is raised, large drops will strike model, giving glaze ice.](images/naca-tn-712/Figure 1.png)  
 
 Current test facilities have an array of nozzles, 
 not a single nozzle as in NACA-TN-712.
@@ -98,8 +93,7 @@ You can see 3D analysis examples in Orchard [^6] and Fallast [^7].
 For a freezing drizzle case (not freezing rain) in the NASA IRT [^8], we can see 
 some contraction in the test section water concentration uniformity plots, 
 and this would only get worse for freezing rain conditions.  
-![Figures from 2019 IRT calibration. Mod1 Nozzles. Mod1 nozzles between 
-2 <= P_air <= 8 psig (SLD) condition.](images/nasa-cr-2008-215302/SLD nozzle comparison.png)  
+![Figures from 2019 IRT calibration. Mod1 Nozzles. Mod1 nozzles between 2 <= P_air <= 8 psig (SLD) condition.](images/nasa-cr-2008-215302/SLD nozzle comparison.png)  
 
 However, Breitfuß [^9] describes a different, rotating nozzle design 
 for the RTA Icing Wind Tunnel that apparently helps uniformity
@@ -213,8 +207,7 @@ The results show a strong correlation with βo and an
 independence of model size. Attempts to correlate the
 data with either V or n_o were not successful.
 
->![Figure 16 from NASA/CR-2008-215302. Icing limits recorded in IRT scaling tests. 
-NACA 0012 models at 0 degree angle of attack.](images/nasa-cr-2008-215302/Figure 16.png)  
+>![Figure 16 from NASA/CR-2008-215302. Icing limits recorded in IRT scaling tests. NACA 0012 models at 0 degree angle of attack.](images/nasa-cr-2008-215302/Figure 16.png)  
 
 Note the fairly large scatter in Figure 16. 
 For example, at βo = 0.55, icing limit 
@@ -260,8 +253,7 @@ discrepancies in mass and volume.
 main ice shape are not well developed nor are methods for
 establishing icing limits along the span of the airfoil or wing.
 
-![Figure 23 from Potapczuk. Ice shape profiles for runs EG2819 and EG2820 from 
-center line of 72-inch chord NACA 23012 airfoil model.](images/Potapczuk/Figure 23.png)  
+![Figure 23 from Potapczuk. Ice shape profiles for runs EG2819 and EG2820 from center line of 72-inch chord NACA 23012 airfoil model.](images/Potapczuk/Figure 23.png)  
 [EG2819 bimodal, EG2820 monomodal]  
 
 Note also the last trend mentioned on establishing icing limits. 
@@ -275,8 +267,7 @@ However, the large drop conditions that a facility can produce may require a
 fairly high LWC value. 
 In Figure 23 above, the LWC values were fairly high (1.64 g/m^3). 
 The freezing drizzle definitions LWC values, however, are fairly low (up to 0.44 g/m^3):   
-![Figure 1 Appendix O. Apendix O, Freezing Drizzle, Liquid Water Content.
-](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
+![Figure 1 Appendix O. Apendix O, Freezing Drizzle, Liquid Water Content.](images/nasa-cr-2008-215302/Figure 1 Appendix O.png)  
 
 This leads to challenges. 
 If one tests at a higher LWC and the resulting water exposure rate than the reference 
@@ -305,17 +296,14 @@ but for a low Reynolds number (300,000) test.
 
 The ice shapes were digitized from the test cases in NASA/CR-2008-215302 figure 18. 
 For the 1.83 m chord, the icing test Reynolds number was about 6,000,000. 
-![Figure 18. Scaling from 183 to 27 cm chord using constant W_e_l method. V_r, 100 kt.; 
-MVD_r, 170 micrometer.](images/nasa-cr-2008-215302/Figure 18.png)  
+![Figure 18. Scaling from 183 to 27 cm chord using constant W_e_l method. V_r, 100 kt.; MVD_r, 170 micrometer.](images/nasa-cr-2008-215302/Figure 18.png)  
 
 The digitized ice shapes were 3D printed on to a small chord model, and 
 tested in an atmospheric wind tunnel. 
 
 The drag was measurably different between the full scale and scaled ice shapes
 (a LEWICE ice shape was also included).  
-![Insana Figure 37. Drag coefficient comparison obtained from a) momentum deficit principle, 
-b) force-based testing for n_o = 0.3 ice accretion cases.
-](images/nasa-cr-2008-215302/Insana Figure 37.png)  
+![Insana Figure 37. Drag coefficient comparison obtained from a) momentum deficit principle, b) force-based testing for n_o = 0.3 ice accretion cases.](images/nasa-cr-2008-215302/Insana Figure 37.png)  
 
 At higher angles of attack, the lift was different.  
 ![Insana Figure 35. Lift coefficient comparison for n_o = 0.5 ice accretion cases.](images/nasa-cr-2008-215302/Insana Figure 35.png)  

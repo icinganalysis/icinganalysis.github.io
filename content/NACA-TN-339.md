@@ -132,8 +132,7 @@ The drops adhered
 to the surface, especially at the stagnation point of the leading edge, 
 and froze quite as readily as on the bare wing.
 
-![Figure 7. Test on heavy oil coating. Heavy spray. Temperature 
--1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
+![Figure 7. Test on heavy oil coating. Heavy spray. Temperature -1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
 
 >Tests on the soluble substances likewise did not show a
 marked preventive tendency.
@@ -160,8 +159,7 @@ However, after the formation had once started, it
 built up rapidly showing apparently that there was too much water
 falling on the surface for the glucose to have much effect.
 
-![Figure 8. Test on glucose coating. Heavy spray. Temperature 
--1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
+![Figure 8. Test on glucose coating. Heavy spray. Temperature -1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
 
 >Assuming that the conditions under which the first series
 of tests was made were too severe and probably not representative 
@@ -185,8 +183,7 @@ at a recorded air temperature of about -0.5 C.
 The formation was collected in about 15 minutes, and though very light, 
 had a characteristic shape and structure.
 
-![Figure 14. Flight formation on VE-70 airplane. Temperature -0.5 C. 
-Light rain. Average velocity about 80 m.p.h.](images/naca-tn-339/Figure 14.png)  
+![Figure 14. Flight formation on VE-70 airplane. Temperature -0.5 C. Light rain. Average velocity about 80 m.p.h.](images/naca-tn-339/Figure 14.png)  
 
 >The amount of water present in the wind tunnel jet was measured 
 roughly to determine the actual density of the spray used
@@ -349,9 +346,9 @@ An online search [^3] found 9 citations of NACA-TN-339.
 
 ## Notes  
 
-[^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
+[^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
 [^3]: 
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Refrigerated+Wind+Tunnel+Tests+on+Surface+Coatings+for+Preventing+Ice+Formation&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Refrigerated+Wind+Tunnel+Tests+on+Surface+Coatings+for+Preventing+Ice+Formation&btnG=)  
 
 

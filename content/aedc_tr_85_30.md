@@ -313,5 +313,5 @@ An online search [^4] found 93 citations of "Analysis and Verification of the Ic
 [^2]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^3]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^4]: 
-https://scholar.google.com/scholar?cites=10637640011419881117&as_sdt=5,48&sciodt=0,48&hl=en  
+[scholar.google.com](https://scholar.google.com/scholar?cites=10637640011419881117&as_sdt=5,48&sciodt=0,48&hl=en)  
 

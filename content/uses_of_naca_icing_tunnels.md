@@ -62,26 +62,20 @@ However, some test articles were mounted in the upstream converging section or d
 
 ### Selected images  
 
-![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium. 
-Plan view of NASA-Lewis Icing Research Tunnel.](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
+![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium. Plan view of NASA-Lewis Icing Research Tunnel.](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
 _from 1969 Aircraft Ice Protection Report of Symposium [^3]_  
 
-![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.
-](images/naca-tn-1246/Figure 1.png)  
+![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.](images/naca-tn-1246/Figure 1.png)  
 
-![Figure 2 of NACA-TN-1134. Installation of induction-system test 
-setup in icing research tunnel.](images/naca-tn-1134/Figure 2.png)  
+![Figure 2 of NACA-TN-1134. Installation of induction-system test setup in icing research tunnel.](images/naca-tn-1134/Figure 2.png)  
 
-![Figure 1 of NACA-RM-E9E12. Photograph of model installation in tunnel test section.
-](images/naca-rm-e9e12/Figure 1.png)  
+![Figure 1 of NACA-RM-E9E12. Photograph of model installation in tunnel test section.](images/naca-rm-e9e12/Figure 1.png)  
 _from NACA-RM-E9E12_  
 
-![Figure 1 of NACA-RM-E53J30. Installation of swept airfoil with partial-span leading-edge 
-slat in icing tunnel.](images/naca-rm-e53J30/Figure 1.png)  
+![Figure 1 of NACA-RM-E53J30. Installation of swept airfoil with partial-span leading-edge slat in icing tunnel.](images/naca-rm-e53J30/Figure 1.png)  
 _from NACA-RM-E53J30_  
 
-![Figure 8. Test on glucose coating. Heavy spray. Temperature 
--1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
+![Figure 8. Test on glucose coating. Heavy spray. Temperature -1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 8.png)  
 
 ### Test Articles in the NACA IRT  
 
@@ -127,12 +121,12 @@ it contains data from a test conducted in 1945.
 
 ### Other icing wind tunnel tests  
 
-| Publication                               | Test Article                                      | Scale Ratio | Portion | Mount                  | Location                                             |
-|-------------------------------------------|---------------------------------------------------|-------------|---------|------------------------|------------------------------------------------------|
-| [NACA-TN-339]({filename}NACA-TN-339.md)   | ice prevention coatings on a 3-inch chord airfoil | not stated  | section | not stated             | Refrigerated Wind Tunnel, Langley, Virginia          |
-| NACA-TN-712                               | anti-icing on a 72-inch chord airfoil             | 1           | section | not stated             | 7-foot by 10-foot tunnel, Langley, Virginia          |
-| NACA-TN-2615                              | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California |
-| [NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | Transonic tunnel NACA Lewis, Ohio                    |
+| Publication                                                             | Test Article                                      | Scale Ratio | Portion | Mount                  | Location                                             |
+|-------------------------------------------------------------------------|---------------------------------------------------|-------------|---------|------------------------|------------------------------------------------------|
+| [NACA-TN-339]({filename}NACA-TN-339.md)                                 | ice prevention coatings on a 3-inch chord airfoil | not stated  | section | not stated             | Refrigerated Wind Tunnel, Langley, Virginia          |
+| NACA-TN-712                                                             | anti-icing on a 72-inch chord airfoil             | 1           | section | not stated             | 7-foot by 10-foot tunnel, Langley, Virginia          |
+| NACA-TN-2615 (included in [Heated Probes]({filename}Heated%20Probes.md) | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California |
+| [NACA-TN-3396]({filename}NACA-TN-3396.md)                               | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | Transonic tunnel NACA Lewis, Ohio                    |
 
 ## References  
 
