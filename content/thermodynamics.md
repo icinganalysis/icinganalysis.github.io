@@ -67,9 +67,9 @@ evaporation from wet surfaces.
 
 The next thread in the NACA review series is the [Ice Shapes Thread]({filename}ice_shapes_thread.md).  
 
-![C-46 Lab Test Article](images/C-46lab.jpg) 
+![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg) 
 
-![NACA-TN-3104 Figure 2](images/NACA-TN-3104/Figure2.png) 
+![NACA-TN-3104 Figure 2. Schematic diagram of apparatus for sublimation, heat-transfer, and skin-friction studies of ice on a flat plate.](images/NACA-TN-3104/Figure2.png) 
 
 ## Notes  
 [^1]: Hansen, James R.: "The Wind and Beyond. A Documentary Journey into the History of Aerodynamics in America", [NASA-SP-4409 Vol. 2](https://history.nasa.gov/sp4409-vol2-2.pdf), Chapter 3, p. 529, 

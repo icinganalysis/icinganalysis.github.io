@@ -258,10 +258,8 @@ change in drag coefficient can be determined as a function of heating
 rate, as shown in figure 23. These data are for moderate to high rates
 of water catch and include angles of attack of 4°, 6°, and 7°.
 
-![Figure 23. Average change in section drag coefficient per 
-unit of time as function of heating rate for continuously 
-heated airfoil leading-edge section (slat retracted). 
-Datum air temperature, 25 0 F.](images/naca-rm-e53J30/Figure23.png)  
+![Figure 23. Average change in section drag coefficient per unit of time as function of heating rate for continuously heated airfoil leading-edge section (slat retracted). 
+Datum air temperature, 25 degree F.](images/naca-rm-e53J30/Figure23.png)  
 
 >Within a reasonable scatter, the data for the standard-airfoil section appear
 to fall on a single curve over most of the range shown. No apparent
@@ -353,9 +351,9 @@ An online search [^3] found 14 citations of NACA-RM-E53J30.
 
 ## Notes
 
-[^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954.  
+[^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972).  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
-[^3]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+Formations+on+Section+Drag+of+Swept+NACA+63A-009+Airfoil+with+Partial-Span+Leading-Edge+Slat+for+Various+Modes+of+Thermal+Ice+Protection&btnG=  
+[^3]: [](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+Formations+on+Section+Drag+of+Swept+NACA+63A-009+Airfoil+with+Partial-Span+Leading-Edge+Slat+for+Various+Modes+of+Thermal+Ice+Protection&btnG=)  
 
 
 

@@ -7,8 +7,7 @@ tags: thermodynamics
 
 # "Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer" [^1]   
 
-![NACA-TN-3104 Figure 2. Schematic diagram of apparatus for sublimation, heat-transfer, 
-and skin-friction studies of ice on a flat plate.](images/NACA-TN-3104/Figure2.png) 
+![NACA-TN-3104 Figure 2. Schematic diagram of apparatus for sublimation, heat-transfer, and skin-friction studies of ice on a flat plate.](images/NACA-TN-3104/Figure2.png) 
 
 ## Abstract  
 

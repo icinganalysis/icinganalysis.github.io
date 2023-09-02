@@ -555,10 +555,10 @@ An online search [^7] found 38 citations of NACA-TN-4155.
 
 ## Notes
 
-[^1]: Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
-[^2]: Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958.  
+[^1]: Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588).  
+[^2]: Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589).  
 [^3]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
 [^4]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
-[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Correlations+Among+Ice+Measurements%2C+Impingement+Rates%2C+Icing+Conditions+and+Drag+Coefficients+for+an+Unswept+NACA+65A004+Airfoil.&btnG=  
-[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Aerodynamic+Effects+Caused+by+Icing+of+an+Unswept+NACA+65A004+Airfoil&btnG=   
+[^6]: [NACA-TN-4151 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Correlations+Among+Ice+Measurements%2C+Impingement+Rates%2C+Icing+Conditions+and+Drag+Coefficients+for+an+Unswept+NACA+65A004+Airfoil.&btnG=)  
+[^7]: [NACA-TN-4155 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Aerodynamic+Effects+Caused+by+Icing+of+an+Unswept+NACA+65A004+Airfoil&btnG=)   

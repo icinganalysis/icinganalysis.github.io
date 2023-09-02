@@ -396,4 +396,5 @@ NACA-RM-E52J31 6 times.
 [^1]: Mack, Pamela E.: From engineering science to big science: the NACA and NASA Collier Trophy research project winners. No. NASA/SP-1998-4219. 1998. [Chapter 2. Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html).  
 [^2]: Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
 [^3]: Lewis,James P., and Blade, Robert J.: "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953.  
-[^4]: Heinrich, A., et al. Aircraft Icing Handbook. Volume 2. GATES LEARJET CORP WICHITA KS, DOT/FAA/CT-88/8-2, 1991. https://apps.dtic.mil/sti/citations/ADA238040  
+[^4]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  

@@ -320,7 +320,8 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^12]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^13]: Jeck, R.: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep." Transportation Rep. DOT/FAA/CT-83/21 137 (1983).  
 [^14]: Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016.  
-[^15]: Heinrich, A., et al. Aircraft Icing Handbook. Volume 2. GATES LEARJET CORP WICHITA KS, 1991. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA238040)  
+[^15]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 [^16]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (1) Icing Rate Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/29, 2006. 
 [tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/artn06-29.pdf)  
 [^17]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (2) Cloud Water Concentration Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/30, 2006. 

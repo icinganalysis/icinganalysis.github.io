@@ -141,7 +141,7 @@ _from NACA-TN-339_
 _How much of a P-39 can one fit in an icing wind tunnel?_  
 _from NACA-TN-1246_  
 
-![C-46 Lab Test Article](images/C-46lab.jpg)  
+![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg) 
 _Test article under construction for the C-46 airplane in the banner image above._  
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)

@@ -104,7 +104,8 @@ Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.
 [^5]:
 Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
-[^6]: Heinrich, A.; Ross, R.; Zumwalt, G.; Provorse, J.; Padmanabhan, V.: Aircraft Icing Handbook. Vol. 1, DOT/FAA/CT-88/8-1. 1991.  [Volume 1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+[^6]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^8]:

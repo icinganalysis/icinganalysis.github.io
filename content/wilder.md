@@ -5,8 +5,7 @@ tags: ice shapes, diversions
 
 ### _"The upper surface [ice] horn acts as a spoiler, increasing drag, and reducing lift."_  
 
-![Figure 25. 747 Horizontal stabilizer ice shapes.
-](images/wilder/Figure 25.png)  
+![Figure 25. 747 Horizontal stabilizer ice shapes.](images/wilder/Figure 25.png)  
 
 # "Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
 
@@ -184,8 +183,7 @@ trial
 and error which contains the calculated theoretical cross-sectional
 area. 
 
-![Figure 6. Typical ice shapes for unprotected tail surface 
-from ref. 2.](images/wilder/Figure 6.png)  
+![Figure 6. Typical ice shapes for unprotected tail surface from ref. 2.](images/wilder/Figure 6.png)  
 
 >The above calculation procedues only approximate the actual ice shape
 since accurate ice accretion data for most airfoils is not available. 
@@ -196,8 +194,7 @@ size on collection efficiency and cloud liquid water content. This
 calculation will generally show that the maximum catch rate will occur with
 20 to 25 micron droplets.
 
-![Figure 7. Effect of drop size on water catch parameters 
-holding flight speeds.](images/wilder/Figure 7.png)  
+![Figure 7. Effect of drop size on water catch parameters holding flight speeds.](images/wilder/Figure 7.png)  
 
 >A correlation of measured ice shapes from icing tunnel tests with
 theoretical impingement parameters has been reported in Reference
@@ -220,8 +217,7 @@ and ice angles with theoretical impingement parameters. Use of these
 relationships allows the direct determination of ice shapes adjusted for any
 given icing and flight condition as well as for size and sweep of the airfoil.
 
-![Figure 8. Correlation of ice height with theoretical impingement 
-unswept 4 percent thick airfoil.](images/wilder/Figure 8.png)  
+![Figure 8. Correlation of ice height with theoretical impingement unswept 4 percent thick airfoil.](images/wilder/Figure 8.png)  
 
 >The revised 737 inboard wing and 747 tail surface ice shapes have been
 determined from these data. These shapee show good agreement with the
@@ -252,11 +248,9 @@ Figure 10, bounded to the inner surface of the leading edge. The thermocouples
 were used to monitor the leading edge surface temperature during icing
 runs and the heater pads were used to assist in removing ice samples.
 
-![Figure 9. Airfoil cross-section streamwise direction.
-](images/wilder/Figure 9.png)  
+![Figure 9. Airfoil cross-section streamwise direction.](images/wilder/Figure 9.png)  
 
-![Figure 10. Ice accretions test models BAC 450 and 
-BAC 470.](images/wilder/Figure 10.png)  
+![Figure 10. Ice accretions test models BAC 450 and BAC 470.](images/wilder/Figure 10.png)  
 
 >Icing conditions in the tunnel were obtained and measured according to
 previously established techniques and calibrations. Icing cloud factors
@@ -310,11 +304,9 @@ Figures 18 and 19.
 ](images/wilder/Figure 17.png)  
 [Years later, these plaster casts had been dispersed and kept on desks as "trophies".]  
 
-![Figure 18. Glaze ice shape BAC 470 airfoil side view.
-](images/wilder/Figure 18.png)  
+![Figure 18. Glaze ice shape BAC 470 airfoil side view.](images/wilder/Figure 18.png)  
 
-![Figure 19. Glaze ice shape BAC 470 airfoil frontal view.
-](images/wilder/Figure 19.png)  
+![Figure 19. Glaze ice shape BAC 470 airfoil frontal view.](images/wilder/Figure 19.png)  
 
 >The separations were most prominent in the glaze ice formations and became
 larger
@@ -405,11 +397,9 @@ These factors are empirical for the range of the
 test data or from 0 to 4.5 degrees. However, some extrapolation beyond
 these limits is felt to be valid and within the accuracy of the test data.
 
-![Figure 22. Ice shape correlation curves BAC 470 airfoil.
-](images/wilder/Figure 22.png)  
+![Figure 22. Ice shape correlation curves BAC 470 airfoil.](images/wilder/Figure 22.png)  
 
-![Figure 23. Ice shape correlation curves BAC 450 airfoil.
-](images/wilder/Figure 23.png)  
+![Figure 23. Ice shape correlation curves BAC 450 airfoil.](images/wilder/Figure 23.png)  
 
 >These curves define the ice thicknesses, but not their relative positions.
 The angles, which the upper and lower pinnacle dimensions are with the geometric
@@ -454,8 +444,7 @@ blunt highly cambered BAC 470 airfoil.
 
 A detailed example calculation is given, the results of which are shown in Figure 25.
 
-![Figure 25. 747 Horizontal stabilizer ice shapes.
-](images/wilder/Figure 25.png)  
+![Figure 25. 747 Horizontal stabilizer ice shapes.](images/wilder/Figure 25.png)  
 
 ### Performance Penalties
 
@@ -472,11 +461,9 @@ weight decrease can com out of payload. This performance penalty has been
 assessed anytime icing conditions enroute are anticipated, and the destination 
 airport temperature is below the temperature at which the ice will shed. 
 
-![Figure 29. Effect of ice on low speed drag polars - 25 degree flaps - 
-all engines operating.](images/wilder/Figure 29.png)  
+![Figure 29. Effect of ice on low speed drag polars - 25 degree flaps - all engines operating.](images/wilder/Figure 29.png)  
 
-![Figure 30. Effect of ice on approach and landing climb gradient - 
-7000 ft. altitude, 40 F day.](images/wilder/Figure 30.png)  
+![Figure 30. Effect of ice on approach and landing climb gradient - 7000 ft. altitude, 40 F day.](images/wilder/Figure 30.png)  
 
 ## Conclusions  
 
@@ -538,4 +525,4 @@ which stated:
 
 ## Notes
 
-[^1]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [https://apps.dtic.mil/sti/pdfs/AD0690469.pdf](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^1]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  

@@ -4,17 +4,10 @@ category: Ice Protection, conclusions
 
 ### _"The industry has now passed through the experimental stages of heating and anti-icing ..." (1946) [^1]_   
 
-![Lockheed 12-A. A large, metal constuction,
-low wing, two engine, propeller drive airplane. 
-The tail has three vertical fins. 
-Figure 1. Lockheed 12-A airplane. 
-Alterations were made to a standard
-commercial model which include provisions for heating the
-wings with exhaust gas, and the windshield with heated air.
-Figure 12. Three-quarter rear view of airplane, showing location
-of air discharge louvers in the wing upper surface and
-exhaust discharge at the wing tip.
-](images/NACA-ACR-A-53/Figure 1.png)
+![Lockheed 12-A. A large, metal construction, low wing, two engine, propeller drive airplane. 
+The tail has three vertical fins. Figure 1. Lockheed 12-A airplane. 
+Alterations were made to a standard commercial model which include provisions for heating the wings with exhaust gas, and the windshield with heated air.
+Figure 12. Three-quarter rear view of airplane, showing location of air discharge louvers in the wing upper surface and exhaust discharge at the wing tip.](images/NACA-ACR-A-53/Figure 1.png)
 _From [NACA-ACR-A-53]({filename}engine%20exhaust%20heat.md), 1941._  
 
 ## Summary  
@@ -161,8 +154,7 @@ constraint being adequate power available. After the totally integrated system i
 such as cost, weight, reliability, and environmental impact should be considered or reconsidered. It is
 quite possible that any one of these may force a redesign of some of the component systems.  
 
-![Figure 6-1a. System selection flow diagram.
-](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1a.png)  
+![Figure 6-1a. System selection flow diagram.](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1a.png)  
 ![Figure 6-1b. System selection flow diagram (continued).](images%2FFAA%20Handbook%20volume%202%2FFigure%206-1b.png)  
 >...  
 >III.6.4 WEIGHT, ENERGY, AND POWER COMPARISONS  
@@ -173,18 +165,14 @@ For brevity, we will look at the large transport aircraft only
 (there are also figures for small single engine aircraft, 
 small twin engine aircraft, business jet, and rotorcraft).  
 > 
-![Figure 6-5. Typical jet transport.
-](images%2FFAA%20Handbook%20volume%202%2FFigure%206-5.png)  
+![Figure 6-5. Typical jet transport.](images%2FFAA%20Handbook%20volume%202%2FFigure%206-5.png)  
 
 ![Table 6-7. Aircraft Ice Protection System Attributes 
 FAR 25 Large Transport Category Aircraft (250 Passengers)](images%2FFAA%20Handbook%20volume%202%2FTable%206-7.png)  
 
-![Table 6-8. Weight Summary - Wing and Tail Systems 
-FAR 25 Large Transport Category Aircraft (250 Passengers)
-](images%2FFAA%20Handbook%20volume%202%2FTable%206-8%20rotated.png)  
+![Table 6-8. Weight Summary - Wing and Tail Systems FAR 25 Large Transport Category Aircraft (250 Passengers)](images%2FFAA%20Handbook%20volume%202%2FTable%206-8%20rotated.png)  
 
-![Table 6-9. Advantages and Disadvantages of Ice Protection Systems.
-](images%2FFAA%20Handbook%20volume%202%2FTable%206-9.png)  
+![Table 6-9. Advantages and Disadvantages of Ice Protection Systems.](images%2FFAA%20Handbook%20volume%202%2FTable%206-9.png)  
 
 Looking at Table 6-8, the electrothermal de-icing system is the lightest. 
 However, in Table 6-9, note the asterisk (*) for electrotheral (deicing).  
@@ -244,7 +232,7 @@ A video produced by Ultra Electronics gives an overview of the wing ice protecti
 An article describes some of the details of the electronic controls.  
 [MDE Semiconductor, Inc. TVS Diode Clamp Devices Provide Protection to Boeing 787 Dreamliner’s Unique Electro-thermal Wing De-icing System](https://mdesemiconductor.com/mde-semiconductor-inc-tvs-diode-clamp-devices-provide-protection-to-boeing-787-dreamliners-unique-electro-thermal-wing-de-icing-system/)  
 
-![C-46 Lab Test Article](images/C-46lab.jpg)  
+![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg) 
 _The 787 electrothermal system?
 No, but it does have a lot of wires. 
 (C-46 Lab Flight Test Article.)_  
@@ -270,4 +258,5 @@ The next thread in the NACA review series is the [Icing Cloud Meteorology Thread
 
 [^1]: Draney, John J.: "Heat Recovery Applied to Heating and Anti-Icing of Aircraft". SAE Transactions, Vol. 54, 1946.  
 [^2]: Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
-[^3]: “Aircraft Icing Handbook, Volume 2.” DOT/FAA/CT-88/8-2 (1991) https://apps.dtic.mil/sti/citations/ADA238040 .  
+[^3]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) .  
+Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
