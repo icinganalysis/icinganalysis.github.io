@@ -69,7 +69,7 @@ The original version of the impingement calculation with a drop size distributio
 [^1]:  
 [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
 [^2]:
-Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: https://www.anaconda.com/  
+Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: [](https://www.anaconda.com/)  
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^4]: Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.
 
