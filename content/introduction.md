@@ -106,7 +106,7 @@ If you want to read them in order, start with [Icing on Cylinders]({filename}Ici
 To see all topics and the 100+ articles, see [Site Navigation]({filename}Reading%20Order.md).  
 
 ## Notes:
-[^1]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^1]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^2]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
 [^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
 [^4]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  

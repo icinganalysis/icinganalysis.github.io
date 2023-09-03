@@ -141,4 +141,4 @@ Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. B
 [^6]:
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^7]: Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
-[^8]: [https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[^8]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  

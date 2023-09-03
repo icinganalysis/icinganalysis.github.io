@@ -234,7 +234,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 [^3]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^4]: 
-[https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^5]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^6]: 

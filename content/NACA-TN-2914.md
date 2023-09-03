@@ -248,7 +248,7 @@ Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Am
 [^4]: 
 Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 [^5]: 
-[https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)   
 [^7]: 

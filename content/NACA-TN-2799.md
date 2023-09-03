@@ -279,7 +279,7 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^4]: 
 Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
 [^5]: 
-[https://github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
+[github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
 [^7]: 
