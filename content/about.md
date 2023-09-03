@@ -19,3 +19,7 @@ Author: [Donald E. Cook]({filename}donald-cook.md)
 [One Year Review]({filename}one%20year%20review.md)  
 
 [Ideas for Future Posts]({filename}ideas.md)  
+
+The web content is hosted at two, mirrored sites:
+[icinganalysis.github.io](https://icinganalysis.github.io/)  
+[icinganalysis.com](https://icinganalysis.com/)  
