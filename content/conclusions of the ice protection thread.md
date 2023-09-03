@@ -3,6 +3,7 @@ Date: 2023-04-06 12:00
 Category: NACA  
 tags: conclusions, ice protection  
  
+
 ### _"The industry has now passed through the experimental stages of heating and anti-icing ..." (1946) [^1]_   
 
 ![Lockheed 12-A. A large, metal construction, low wing, two engine, propeller drive airplane. 
