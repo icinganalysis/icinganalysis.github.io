@@ -354,6 +354,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
 		.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
 		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+		.social a[type$='rss+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
 		.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
 		.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
 		.social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
