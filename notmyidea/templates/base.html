@@ -53,18 +53,13 @@
         {% endif %}
         {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
                 <div class="social">
-                        <h2>{{ SOCIAL_WIDGET_NAME | default('social') }}</h2>
+                        <h2>social</h2>
                         <ul>
-                            {% if FEED_ALL_ATOM %}
-                            <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            {% endif %}
-                            {% if FEED_ALL_RSS %}
-                            <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate">rss feed</a></li>
-                            {% endif %}
 
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
                         </ul>
                 </div><!-- /.social -->
         {% endif %}
