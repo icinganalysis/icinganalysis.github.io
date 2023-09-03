@@ -30,7 +30,7 @@ MENUITEMS = (
     ('About', '/about.html'),
 )
 
-FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_RSS = 'https://icinganalysis.github.io/feeds/all.rss.xml'
 
 FEED_ALL_ATOM = ''
 CATEGORY_FEED_ATOM = ''
