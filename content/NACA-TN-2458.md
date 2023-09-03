@@ -77,16 +77,13 @@ region of coronal discharge (fig. 6). The assembly was hung from the
 under side of the fuselage of a twin-engine light-bomber-type airplane
 (fig. 7).
 
-![Figure 7 from NACA-TN-2458. Rear view of charged-droplet cloud analyzer 
-mounted on bomb-bay doors of airplane.](images/NACA-TN-2458/Figure 7.png)  
+![Figure 7 from NACA-TN-2458. Rear view of charged-droplet cloud analyzer mounted on bomb-bay doors of airplane.](images/NACA-TN-2458/Figure 7.png)  
 _Figure 7 from NACA-TN-2458_  
 
 Details of the circuits are not shown, but the device could produce 
 25,000 VDC to charge the water drops entrained in the air flowing through it. 
 
-![Figure 5 from NACA-TN-2458. Bottom view of charged-droplet cloud analyzer. 
-Arrows indicate direction of airstream through the channels.
-](images/NACA-TN-2458/Figure 5.png)  
+![Figure 5 from NACA-TN-2458. Bottom view of charged-droplet cloud analyzer. Arrows indicate direction of airstream through the channels.](images/NACA-TN-2458/Figure 5.png)  
 _Figure 5 from NACA-TN-2458_  
 
 >The cylinder diameters used were 1/8, 1/2, 1, and 3 inches. The
@@ -99,34 +96,25 @@ avoid aerodynamic interference of the cylinders with each other.
 Cylinders of the same diameter where ganged together were spaced
 14 radii from center to center.  
 
-![Figure 6 from NACA-TN-2458. Schematic diagram of charged-droplet cloud analyzer.
-](images/NACA-TN-2458/Figure 6.png)  
+![Figure 6 from NACA-TN-2458. Schematic diagram of charged-droplet cloud analyzer.](images/NACA-TN-2458/Figure 6.png)  
 _Figure 6 from NACA-TN-2458_  
 
 Flight tests measured the different electrical charges accumulating 
 on the cylinders.  
 
-![Figure 8 from NACA-TN-2458. Flight record through stratocumulus clouds. 
-Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch 
-and 1/2-inch cylinders an increase in current is measured downward whereas for the 
-3-inch cylinder an incres in current is measured upward.
-](images/NACA-TN-2458/Figure 8.png)  
+![Figure 8 from NACA-TN-2458. Flight record through stratocumulus clouds. Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch and 1/2-inch cylinders an increase in current is measured downward whereas for the 3-inch cylinder an incres in current is measured upward.](images/NACA-TN-2458/Figure 8.png)  
 _Figure 8 from NACA-TN-2458_  
 
 The measured charges for each cylinder size were plotted.
 
-![Figure 11 from NACA-TN-2458. Electric current measured from cylinders of different 
-size in cumulus cloud. Airplane speed, 200 miles per hour; altitude, 6000 feet.
-](images/NACA-TN-2458/Figure 11.png)  
+![Figure 11 from NACA-TN-2458. Electric current measured from cylinders of different size in cumulus cloud. Airplane speed, 200 miles per hour; altitude, 6000 feet.](images/NACA-TN-2458/Figure 11.png)  
 _Figure 11 from NACA-TN-2458_  
 
 From the electrical charge values measured on the cylinders 
 (proportional to the water mass impinging),
 the collection efficiency for each cylinder diameter could be calculated.
 
-![Figure 12 from NACA-TN-2458. Droplet-inertia parameter as a function of electrical 
-collection efficiency. K-phi, 200; 1/K, for volume-median droplet; 4.0.
-](images/NACA-TN-2458/Figure 12.png)  
+![Figure 12 from NACA-TN-2458. Droplet-inertia parameter as a function of electrical collection efficiency. K-phi, 200; 1/K, for volume-median droplet; 4.0.](images/NACA-TN-2458/Figure 12.png)  
 _Figure 12 from NACA-TN-2458_  
 
 From that information the best fit drop size distribution could be calculated. 
@@ -177,11 +165,7 @@ distinguish an E distribution from a B distribution. An improvement in
 the instrumentation and technique of measuring the current from the
 cylinders will improve the accuracy.  
 
-![Figure 9 from NACA-TN-2458. Flight record through stratocumulus cloud congested 
-with clumps of precipitation. 
-Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch 
-and 1/2-inch cylinders an increase in current is measured downward whereas for the 
-3-inch cylinder an incres in current is measured upward.](images/NACA-TN-2458/Figure 9.png)  
+![Figure 9 from NACA-TN-2458. Flight record through stratocumulus cloud congested with clumps of precipitation. Trace of fourth cylinder too faint to reproduce in this figure. For the 1/8-inch and 1/2-inch cylinders an increase in current is measured downward whereas for the 3-inch cylinder an incres in current is measured upward.](images/NACA-TN-2458/Figure 9.png)  
 _Figure 9 from NACA-TN-2458_  
 
 You can find out more about the drop size distribution designations 
@@ -277,7 +261,7 @@ An online search found NACA-TN-2458 cited three times. [^3]
 
 ## Notes  
 
-[^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951.  
+[^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068730).  
 [^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^3]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2458&btnG=  
+[^3]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2458&btnG=)  
 

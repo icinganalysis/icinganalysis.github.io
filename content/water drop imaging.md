@@ -88,17 +88,13 @@ The figures in each of the publications provides an overview of each method.
 
 ### NACA-RM-E50K01a Flight Camera  
 
-![Figure 7 from NACA-RM-E50K01a. Droplet-camera mounted on an airplane.
-](images/naca-rm-e50k01a/Figure 7.png)  
+![Figure 7 from NACA-RM-E50K01a. Droplet-camera mounted on an airplane.](images/naca-rm-e50k01a/Figure 7.png)  
 _Figure 7 from NACA-RM-E50K01a_  
 
-![Figure 6 from NACA-RM-E50K01a. General view of droplet camera.
-](images/naca-rm-e50k01a/Figure 6.png)  
+![Figure 6 from NACA-RM-E50K01a. General view of droplet camera.](images/naca-rm-e50k01a/Figure 6.png)  
 _Figure 6 from NACA-RM-E50K01a_  
 
-![Figure 8 from NACA-RM-E50K01a. Photographs of cloud droplets taken in flight 
-with droplet camera. Portions are from several negatives and enlarged approximately 
-3 times.](images/naca-rm-e50k01a/Figure 8.png)  
+![Figure 8 from NACA-RM-E50K01a. Photographs of cloud droplets taken in flight with droplet camera. Portions are from several negatives and enlarged approximately 3 times.](images/naca-rm-e50k01a/Figure 8.png)  
 _Figure 8 from NACA-RM-E50K01a_
 
 ### NACA-RM-E51G05 Cascade Impactor  
@@ -106,16 +102,13 @@ _Figure 8 from NACA-RM-E50K01a_
 ![Figure 1 from NACA-RM-E51G05. Cascade impactor.](images/NACA-RM-E51G05/Figure 1.png)  
 _Figure 1 from NACA-RM-E51G05_  
 
-![Figure 2 from NACA-RM-E51G05. Diffuser to reduce incoming airspeed.
-](images/NACA-RM-E51G05/Figure 2.png)  
+![Figure 2 from NACA-RM-E51G05. Diffuser to reduce incoming airspeed.](images/NACA-RM-E51G05/Figure 2.png)  
 _Figure 2 from NACA-RM-E51G05_  
 
-![Figure 4 from NACA-RM-E51G05. Photomicrographs of slides exposed in impactor during 
-flight made on January 6, 1950; X164.](images/NACA-RM-E51G05/Figure 4.png)  
+![Figure 4 from NACA-RM-E51G05. Photomicrographs of slides exposed in impactor during flight made on January 6, 1950; X164.](images/NACA-RM-E51G05/Figure 4.png)  
 _Figure 4 from NACA-RM-E51G05_  
 
-![Figure 10 from NACA-RM-E51G05. Comparison of data obtained simultaneously by camera 
-and impactor in flight.](images/NACA-RM-E51G05/Figure 10.png)  
+![Figure 10 from NACA-RM-E51G05. Comparison of data obtained simultaneously by camera and impactor in flight.](images/NACA-RM-E51G05/Figure 10.png)  
 _Figure 10 from NACA-RM-E51G05_  
 
 ### NACA-TN-3592 Oil-Stream  
@@ -131,12 +124,10 @@ _Figure 3 from NACA-TN-3592_
 ](images/NACA-TN-3592/Figure 8.png)  
 _Figure 8 from NACA-TN-3592_  
 
-![Figure 9 from NACA-TN-3592. Droplet size distributions for three spray conditions obtained 
-by aeroscope and dye-tracer technique (ref. 24) in icing research tunnel.
-](images/NACA-TN-3592/Figure 9.png)  
+![Figure 9 from NACA-TN-3592. Droplet size distributions for three spray conditions obtained by aeroscope and dye-tracer technique (ref. 24) in icing research tunnel.](images/NACA-TN-3592/Figure 9.png)  
 _Figure 9 from NACA-TN-3592_  
 
-##Conclusions  
+## Conclusions  
 
 NACA-RM-E50K01a: 
 >A camera designed for use in flight has been developed by the
@@ -278,13 +269,13 @@ An online search found NACA-TN-3592 cited 6 times [^8].
 
 ## Notes  
 
-[^1]: McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951.  
-[^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951.  
-[^3]: Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
+[^1]: McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460).  
+[^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731).  
+[^3]: Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735).  
 [^4]: Langmuir, Irving: [Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I.]({filename}Langmuir Rising Currents.md) Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^6]:  https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E50K01a&btnG=  
-[^7]:  https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51G05&btnG=   
-[^8]:  https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-3592&btnG= 
+[^6]:  [NACA-RM-E50K01a scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E50K01a&btnG=)  
+[^7]:  [NACA-RM-E51G05 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51G05&btnG=)   
+[^8]:  [NACA-RTN-3592 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-3592&btnG= )
  
  

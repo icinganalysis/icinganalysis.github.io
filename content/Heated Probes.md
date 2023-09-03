@@ -77,8 +77,7 @@ and sensed LWC values could lag on the order of 20 seconds in rapidly changing c
 ![Figure 1 from NACA-RM-E50J12a. NACA liquid-water-content meter.](images/naca-rm-e50j12a/Figure 1.png)  
 _Figure 1 from NACA-RM-E50J12a_  
 
-![Figure 2 from NACA-RM-E50J12a. Construction details of NACA liquid-water-content meter.
-](images/naca-rm-e50j12a/Figure 2.png)  
+![Figure 2 from NACA-RM-E50J12a. Construction details of NACA liquid-water-content meter.](images/naca-rm-e50j12a/Figure 2.png)  
 _Figure 2 from NACA-RM-E50J12a_  
 
 The later implementations used smaller diameter wires, which had better response time. 
@@ -86,22 +85,17 @@ The later implementations used smaller diameter wires, which had better response
 ![Figure 1 from NACA-TN-2615. Wire loops tested.](images/naca-tn-2615/Figure 1.png)  
 _Figure 1 from NACA-TN-2615_  
 
-![Figure 1 from NACA-RM-A54I23. Sensing element of flight model of heated-wire instrument.
-](images/NACA-RM-A54I23/Figure 1.png)  
+![Figure 1 from NACA-RM-A54I23. Sensing element of flight model of heated-wire instrument.](images/NACA-RM-A54I23/Figure 1.png)  
 _Figure 1 from NACA-RM-A54I23_  
 
 A cloud duct was constructed for some development tests.  
-![Figure 4 from NACA-TN-2615. General view of cloud duct showing blower and water-spray 
-setup used in tests of heated wires.](images/naca-tn-2615/Figure 4.png)  
+![Figure 4 from NACA-TN-2615. General view of cloud duct showing blower and water-spray setup used in tests of heated wires.](images/naca-tn-2615/Figure 4.png)  
 _Figure 4 from NACA-TN-2615_  
 
 The method was also calibrated in the NACA Icing Research Tunnel against other instruments that we have seen before 
 (multicylinders and the icing-rate meter [[rotating disk]({filename}NACA-RM-A9C09_instruments.md)]).
 
-![Figure 4 from NACA-RM-E50J12a. Calibration of NACA liquid-water-content meter using 
-rotating multicylinders and icing-rate meter. Air temperature, 20 F; velocity, 
-175 miles per hour; air density, 0.77 pond per cubic foot; clean air surface 
-temperature of heated element, 485 F.](images/naca-rm-e50j12a/Figure 4.png)  
+![Figure 4 from NACA-RM-E50J12a. Calibration of NACA liquid-water-content meter using rotating multicylinders and icing-rate meter. Air temperature, 20 F; velocity, 175 miles per hour; air density, 0.77 pond per cubic foot; clean air surface temperature of heated element, 485 F.](images/naca-rm-e50j12a/Figure 4.png)  
 _Figure 4 from NACA-RM-E50J12a_  
 
 Flight tests were conducted, along with other instruments. 
@@ -130,10 +124,7 @@ in an upcoming post).
 
 The implementation using a small diameter wire had a response time on the order of one second
 to changes in LWC values. 
-![Figure 12a from NACA-RM-A54I23. Measurements of liquid-water-content variations 
-through cumulus clouds as obtained with NACA heated-wire icing-severity instrument 
-during United Air Lines Convair 340 tests. (see figure 13 for locations of counters.)
-](images/NACA-RM-A54I23/Figure 12a.png)  
+![Figure 12a from NACA-RM-A54I23. Measurements of liquid-water-content variations through cumulus clouds as obtained with NACA heated-wire icing-severity instrument during United Air Lines Convair 340 tests. (see figure 13 for locations of counters.)](images/NACA-RM-A54I23/Figure 12a.png)  
 _Figure 12a from NACA-RM-A54I23_  
 
 The measure maximum LWC values corresponded well to predicted values. 
@@ -143,8 +134,7 @@ The measure maximum LWC values corresponded well to predicted values.
 values of liquid-water content likely to be encountered in Pacific
 coast cumulus clouds. ...
 
-![Table of LWC values from NACA-RM-A54I23
-](images/NACA-RM-A54I23/Table of LWC values.png)  
+![Table of LWC values from NACA-RM-A54I23](images/NACA-RM-A54I23/Table of LWC values.png)  
 _Table of LWC values from NACA-RM-A54I23_  
 
 >The agreement is seen to be very good throughout the entire cloud.
@@ -197,8 +187,7 @@ in the figure, the instrument is more sensitive to liquid-water
 drops than to snow. Thus, it is possible to identify regions
 containing liquid water in a continuous snow cloud.   
 
-![Figure 6 of NACA-TN-1904. Typical cloud-indicators records showing 
-response to various cloud types.](images/naca-tn-1904/Figure 6.png)  
+![Figure 6 of NACA-TN-1904. Typical cloud-indicators records showing response to various cloud types.](images/naca-tn-1904/Figure 6.png)  
 
 Unfortunately, NACA-TN-1904 does not provide a picture of the instrument, 
 nor a reference with further detail 
@@ -292,11 +281,11 @@ NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^5]:
 An online search [^8] found NACA-RM-A54I23 cited 22 times.   
 
 ## Notes  
-[^1]: Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
-[^2]: Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
-[^3]: Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
+[^1]: Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068728).  
+[^2]: Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068727).  
+[^3]: Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068734).  
 [^4]: Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
 [^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^6]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=  
-[^7]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=  
-[^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=  
+[^6]: [NACA-RM-E50J12a scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=)  
+[^7]: [NACA-TN-2615 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=)  
+[^8]: [NACA-RM-A54I23 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=)  

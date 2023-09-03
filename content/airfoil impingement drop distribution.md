@@ -5,8 +5,7 @@ tags: instruments
 
 ### "... it is believed that a comparison of the water-drop impingement over several different airfoils ... is of interest"    
 
-![Figure 5 from NACA-TN-1397. Relation of water-drop trajectories to streamline 
-field about symmetrical Joukowsi airfoil 12 percent thick. ](images/naca-tn-1397/Figure 5.png)  
+![Figure 5 from NACA-TN-1397. Relation of water-drop trajectories to streamline field about symmetrical Joukowsi airfoil 12 percent thick. ](images/naca-tn-1397/Figure 5.png)  
 _Figure 5 from NACA-TN-1397_  
 
 # NACA-TN-1397, "A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud."  [^1]   
@@ -166,15 +165,10 @@ it is apparent that the use of an equivalent cylinder may be subject
 to considerable error when applied to typical icing conditions in
 which large drop-size diameters have been observed.
 
-![Figure 6 from NACA-TN-1397.Area of drop interception corresponding to drops 
-of different inertia for symmetrical Joukowski airfoil 12 percent thick.
-](images/naca-tn-1397/Figure 6.png)  
+![Figure 6 from NACA-TN-1397.Area of drop interception corresponding to drops of different inertia for symmetrical Joukowski airfoil 12 percent thick.](images/naca-tn-1397/Figure 6.png)  
 _Figure 6 from NACA-TN-1397_  
 
-![Figure 10 from NACA-TN-1397. Comparison of rate and area of water-drop impingement 
-on a symmetrical Joukowski airfoil 12 percent thick, 0 degree angle off attack, 
-and a cylinder with radius equal to the airfoil leading-edge radius.
-](images/naca-tn-1397/Figure 10.png)  
+![Figure 10 from NACA-TN-1397. Comparison of rate and area of water-drop impingement on a symmetrical Joukowski airfoil 12 percent thick, 0 degree angle off attack, and a cylinder with radius equal to the airfoil leading-edge radius.](images/naca-tn-1397/Figure 10.png)  
 _Figure 10 from NACA-TN-1397_  
 
 The "Conclusions" state:
@@ -196,8 +190,7 @@ and today one is unlikely to use the methods detailed therein.
 
 See if you can wrap your thoughts around the "hodographs" presented.  
 
-![Figure 19 from NACA-TN-2476. Completed drop and air hodographs.
-](images/NACA-TN-2476/Figure 19 concluded.png)  
+![Figure 19 from NACA-TN-2476. Completed drop and air hodographs.](images/NACA-TN-2476/Figure 19 concluded.png)  
 _Figure 19 from NACA-TN-2476_  
 
 ### Mechanical Analog  
@@ -398,17 +391,16 @@ An online search found NACA-RM-E52B12 cited 3 times. [^10]
 
 ## Notes  
 
-[^1]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
-[^2]: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
-[^3]: Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.  
+[^1]: Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
+[^2]: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677).  
+[^3]: Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679).  
 [^4]: von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 [^5]: 
-https://software.nasa.gov/software/LEW-18573-1,  
-https://ntrs.nasa.gov/citations/19990021235  
+[software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1), [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)    
 [^6]: Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
 [^7]: 
 [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^8]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=  
-[^9]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Method+Permitting+Rapid+Determination+of+the+Area%2C+Rate%2C+and+Distribution+of+Water-Drop+Impingement+on+an+Airfoil+of+Arbitrary+Section+at+Subsonic+Speeds&btnG=  
-[^10]:https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Water+Droplets+on+an+NACA+651-212+Airfoil+at+an+Angle+of+Attack+of+4&btnG=  
+[^8]: [NACA-TN-1397 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=)  
+[^9]: [NACA-TN-2476 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Method+Permitting+Rapid+Determination+of+the+Area%2C+Rate%2C+and+Distribution+of+Water-Drop+Impingement+on+an+Airfoil+of+Arbitrary+Section+at+Subsonic+Speeds&btnG=)  
+[^10]: [NACA-RM-E52B12 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Water+Droplets+on+an+NACA+651-212+Airfoil+at+an+Angle+of+Attack+of+4&btnG=)  
 
