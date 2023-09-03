@@ -28,7 +28,7 @@ finding them as loanable print copies or digitally.
 
 ## Could only find at google books    
 
-- NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17, 18 1954 https://books.google.com/books?id=bsxQAAAAYAAJ  
+- NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17, 18 1954 [books.google.com](https://books.google.com/books?id=bsxQAAAAYAAJ)  
 
 ## Recently made available online  
 

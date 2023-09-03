@@ -329,7 +329,7 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 I could not find a download for this on the nrts, it is available at 
 [https://archive.org/details/nasa_techdoc_19810068590](https://archive.org/details/nasa_techdoc_19810068590).  
 [^10]:
-1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
+1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, [icepredictionworkshop.wordpress.com](https://icepredictionworkshop.wordpress.com/)  
 [^11]: Brumby RE. Wing Surface Roughness – Cause & Effect. D.C. Flight Approach, Jan. 1979. pp. 2-7.  
 [^12]: Bragg, Michael B., and Eric Loth. Effects of large-droplet ice accretion on airfoil and wing aerodynamics and control. ILLINOIS UNIV AT URBANA DEPT OF AERONAUTICAL AND ASTRONAUTICAL ENGINEERING, 2000. DOT/FAA/AR-00/14,
 available at [tc.faa](http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf)  

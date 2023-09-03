@@ -218,11 +218,11 @@ Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 19
 Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001.  
 [^3]:
 Messinger, B. L.: "Equilibrium Temperature of an Unheated Icing Surface as a Function of Air Speed", J. Aeronaut. Sci., 20, 29-41, 1953.  
-[^4]: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Air+Speed&btnG=  
+[^4]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Air+Speed&btnG=)  
 [^5]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^6]:
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+investigation+of+water+droplet+trajectories&btnG=  
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Mathematical+investigation+of+water+droplet+trajectories&btnG=)  
 [^7]:
 1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, https://icepredictionworkshop.wordpress.com/  
 
