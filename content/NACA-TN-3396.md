@@ -6,6 +6,7 @@ tags: thermodynamics
 ### _"into the transonic and supersonic regimes, the frictional heating becomes of considerable importance to icing."_  
 
 # "Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions"
+[^1]
 
 ![Figure 6. Diamond airfoil model in tunnel, 
 showing ice formed at Mach 1.35 on top surface behind shoulder.](images/naca-tn-3396/Figure6.png)  
