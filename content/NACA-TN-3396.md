@@ -329,7 +329,7 @@ NACA-TN-3396 is cited once in the NACA Icing Publications Database [^3]:
 
 - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955  
 
-An online search found that NACA-TN-3396 is cited 2 times in the literature [^4].  
+An online search found that NACA-TN-3396 is cited 3 times in the literature [^4].  
 
 ## Notes 
 

@@ -319,7 +319,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	/* Social */
 	#extras .social {
 		float: right;
-		max-width: 200px;
+		max-width: 240px;
 	}
 
 	#extras div[class='social'] a {

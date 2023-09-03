@@ -9,7 +9,9 @@
 */
 
 /* Imports */
+/*
 @import url("reset.css");
+*/
 @import url("pygment.css");
 @import url("typogrify.css");
 @import url("fonts.css");
@@ -39,9 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-family: arial, serif;
 }
-
+/*
+    font-family: 'Yanone Kaffeesatz', arial, serif;
+*/
 h3, h4, h5, h6 { margin-top: .8em; }
 
 hr { border: 2px solid #EEEEEE; }
@@ -317,9 +321,10 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; max-width: 185px;}
 
 	/* Social */
+
 	#extras .social {
 		float: right;
-		max-width: 200px;
+		max-width: 300px;
 	}
 
 	#extras div[class='social'] a {
@@ -327,6 +332,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 		background-position: 3px 6px;
 		padding-left: 25px;
 	}
+
 
 		/* Icons */
 		.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
@@ -355,7 +361,6 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 		.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 		.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 		.social a[href*='historians.social'] {background-image: url('../images/icons/mastodon.png');}
-
 /*
 	About
 *****************/
