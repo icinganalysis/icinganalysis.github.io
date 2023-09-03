@@ -1,6 +1,6 @@
 Title: Design Manuals  
 Date: 2023-04-03 12:00  
-category: Ice Protection  
+category: ice protection  
 
 ### _"An aircraft engineer can use this report to design adequate ice protection systems for any type aircraft for any flight mission profile."_ [^1]  
 
