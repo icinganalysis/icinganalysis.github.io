@@ -7,8 +7,6 @@ tags: cylinders, conclusions
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
 
-# Conclusions of the Cylinders Thread 
-
 ## Summary  
 Data from the post-NACA era are used to resolve open questions 
 
