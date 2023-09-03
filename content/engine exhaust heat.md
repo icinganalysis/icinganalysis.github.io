@@ -66,16 +66,13 @@ this slot may not be essential.
 Wind tunnel tests were conducted with a cylinder and an airfoil section 
 to determine the rates of heat transmission.  
 (Thought we were done with [Cylinders]({filename}Icing on Cylinders.md)?)  
-![Figure 10. Rate of heat transmission for section 1 of airfoil and the cylinder
-(the surface area of both are equal)](images/NACA-TR-403/Figure 10.png)  
+![Figure 10. Rate of heat transmission for section 1 of airfoil and the cylinder (the surface area of both are equal)](images/NACA-TR-403/Figure 10.png)  
 
 >A study of the heat transmission from the airfoil reveals 
 that the local transmission is very high at the leading
 edge and that it decreases rapidly to a minimum value
 at a point located about 30 per cent back along the chord.  
-![Figure 15. Rate of heat transmission along chord or Clark Y airroil at
-various angles or attack. Velocity = 85 mph. The curves are based on
-average values obtained for each section.](images/NACA-TR-403/Figure 15.png)  
+![Figure 15. Rate of heat transmission along chord or Clark Y airroil at various angles or attack. Velocity = 85 mph. The curves are based on average values obtained for each section.](images/NACA-TR-403/Figure 15.png)  
 
 >The model wing and the boiler were
 mounted on a Fairchild monoplane a shown
@@ -211,22 +208,9 @@ Rime ice formed only
 along or near a stagnation-pressure region.
 Other significant data are given on the sketches of figures 5 and 6.  
 
-![Figure 5. Glaze ice on plain wing. 
-Ice is visible in a photo of the test model 
-near the tunnel centerline, 
-but not at the edges near the tunnel walls.
-There is also a wing model leading edge 
-with ice sketched on it.
-At the leading edge, the ice is 1/8 inch thick.
-Near the 10% chord location, 
-some formations are about 3/4 inch thick.
-A notation reads: Tunnel velocity 80 mph, 
-Tunnel temperature 25 F.
-](images/naca-tn-712/Figure 5.png)  
+![Figure 5. Glaze ice on plain wing. Ice is visible in a photo of the test model near the tunnel centerline, but not at the edges near the tunnel walls. There is also a wing model leading edge with ice sketched on it.At the leading edge, the ice is 1/8 inch thick. Near the 10% chord location, some formations are about 3/4 inch thick. A notation reads: Tunnel velocity 80 mph, Tunnel temperature 25 F.](images/naca-tn-712/Figure 5.png)  
 
-![Figure 6. Rime ice on a plain wing. 
-The ice is confined to an area near the leading edge. 
-The ice is 11/16 inch thick at the leading edge.](images/naca-tn-712/Figure 6.png)  
+![Figure 6. Rime ice on a plain wing. The ice is confined to an area near the leading edge. The ice is 11/16 inch thick at the leading edge.](images/naca-tn-712/Figure 6.png)  
 
 >CONCLUSIONS
 For the spray conditions existing during the tests,
@@ -285,45 +269,25 @@ uniform distribution of heat can be secured.
 
 This publication has some excellent photos.  
 
-![Figure 1. General view of XBM airplane, showing wing heated by hot air,and
-motion-picture camera mounted above and in front of model.](images/NACA-TN-783/Figure 1.png)  
+![Figure 1. General view of XBM airplane, showing wing heated by hot air, and motion-picture camera mounted above and in front of model.](images/NACA-TN-783/Figure 1.png)  
 
-![Figure 2 a. Model wing heated by exhaust tube and mounted on XBM airplane
-for flight tests.
-Figure 2 b. Model wing in construct1on showing exhaust tube along interior
-of lead1ng edge.](images/NACA-TN-783/Figure 2.png)  
+![Figure 2 a. Model wing heated by exhaust tube and mounted on XBM airplanefor flight tests. Figure 2 b. Model wing in construct1on showing exhaust tube along interior of lead1ng edge.](images/NACA-TN-783/Figure 2.png)  
 
 Two different means of providing the heat were considered 
 (figures 3 and 4).
 
-![Figure 3. Set-up of wing heated by exhaust tube, showing path of exhaust gas and air through
-the model and the location of skin-temperature thermocouples, x .](images/NACA-TN-783/Figure 3.png)    
+![Figure 3. Set-up of wing heated by exhaust tube, showing path of exhaust gas and air through the model and the location of skin-temperature thermocouples, x .](images/NACA-TN-783/Figure 3.png)    
 
-![Figure 4. Set-up of wing heated by hot air, showing path of heated air through the model and
-the location of skin-temperature thermocouples.](images/NACA-TN-783/Figure 4.png)    
+![Figure 4. Set-up of wing heated by hot air, showing path of heated air through the model and the location of skin-temperature thermocouples.](images/NACA-TN-783/Figure 4.png)    
 
 ![Figure 5a. Wing, heated by hot air, mounted on XBK airplane for flight tests.](images/NACA-TN-783/Figure 5a.png)  
 
 A water-spray system, similar to that in NACA-TR-403, 
 was used in some cases to provide water drops.  
 
-![Figure 5(b). Spray nozzles in operation.
-Figure 6. Model wing with
-ice along
-trailing edge.
-The quantity
-of heat
-required for
-prevention of
-ice over rest
-of model was
-reduced to the
-minimum.](images/NACA-TN-783/Figure 5b and 6.png)  
+![Figure 5(b). Spray nozzles in operation.Figure 6. Model wing with ice along trailing edge. The quantity of heat required for prevention of ice over rest of model was reduced to the minimum.](images/NACA-TN-783/Figure 5b and 6.png)  
 
-![Figure 7. Nature of ice formation on model wing prior to application
-of heat.
-Figure 8. Large piece of ice being blown away less than 10 seconds
-after hot air was admitted to the wing.](images/NACA-TN-783/Figure 7 and 8.png)  
+![Figure 7. Nature of ice formation on model wing prior to application of heat. Figure 8. Large piece of ice being blown away less than 10 seconds after hot air was admitted to the wing.](images/NACA-TN-783/Figure 7 and 8.png)  
 
 >CONCLUSIONS  
 >1. A wing with an exhaust-gas tube running spanwise 
@@ -349,12 +313,8 @@ A Ju 88 airplane with exhaust heating was "obtained" by NACA in 1942
 
 The overall design layout is similar to that used in NACA flight tests described below. 
 
-![Figure 2. Air-heated wing anti-icing equipment
-on the Ju 88 airplane, showing the path followed
-by the air. 
-The air enters through the engine nacelle, 
-is heated through an exhaust-to-air heat exchanger,
-and distributed outboard along the wing leading edge.](images/NACA-WR-A-39/Figure 2.png)   
+![Figure 2. Air-heated wing anti-icing equipment on the Ju 88 airplane, showing the path followed
+by the air. The air enters through the engine nacelle, is heated through an exhaust-to-air heat exchanger, and distributed outboard along the wing leading edge.](images/NACA-WR-A-39/Figure 2.png)   
 
 As a full-scale design had been implemented in 1941 by NACA, 
 it does not appear that the Ju 88 design had direct influence on the NACA designs. 
@@ -389,81 +349,32 @@ including an exhaust gas-heated pitot-static head,
 hot-air-heated windshield, and an inflatable 
 de-icer of recent design, were also tested...
 
-![Lockheed 12-A. A large, metal constuction,
-low wing, two engine, propeller drive airplane. 
-The tail has three vertical fins. 
-Figure 1. Lockheed 12-A airplane. 
-Alterations were made to a standard
-commercial model which include provisions for heating the
-wings with exhaust gas, and the windshield with heated air.
-Figure 12 . 
-Three-quarter rear view of airplane, showing location
-of air discharge louvers in the wing upper surface and
-exhaust discharge at the wing tip.
-](images/NACA-ACR-A-53/Figure 1.png)  
+![Lockheed 12-A. A large, metal constuction, low wing, two engine, propeller drive airplane. The tail has three vertical fins.  Figure 1. Lockheed 12-A airplane. Alterations were made to a standard commercial model which include provisions for heating the wings with exhaust gas, and the windshield with heated air. Figure 12 .  Three-quarter rear view of airplane, showing location of air discharge louvers in the wing upper surface and exhaust discharge at the wing tip.](images/NACA-ACR-A-53/Figure 1.png)  
 
 The overall air flow went something like this (although with different venting): 
 
 ![Figure I-8 from Modern Icing Technology](images/Modern Icing Technology/Figure I-8.png)  
 _Figure I-8 from Modern Icing Technology. [^5]_  
 
-![Figure 2. Exhaust tail pipe showing "Y" and valve systems. When the
-valve over the normal discharge opening closes, a butterfly
-valve in the elbow opens permitting the exhaust gas to
-pass through the wing heating tube.
-Figure 3. Exhaust wing heating tube and wing leading edge shown
-disassembled.](images/NACA-ACR-A-53/Figure 2 and 3.png)  
+![Figure 2. Exhaust tail pipe showing "Y" and valve systems. When the valve over the normal discharge opening closes, a butterfly valve in the elbow opens permitting the exhaust gas to pass through the wing heating tube. Figure 3. Exhaust wing heating tube and wing leading edge shown disassembled.](images/NACA-ACR-A-53/Figure 2 and 3.png)  
 
-![Figure 6. The wing tip and tip shroud.
-The exhaust discharges from 
-the opening at the left. A curved sheet metal cover, 
-that has an opening that faces downstream. 
-Figure 7.The normal exhaust discharge opening and clapper valve.
-This valve is closed in varying degrees, depending on
-the amount of wing heating desired.](images/NACA-ACR-A-53/Figure 6 and 7.png)
+![Figure 6. The wing tip and tip shroud. The exhaust discharges from the opening at the left. A curved sheet metal cover, that has an opening that faces downstream. Figure 7.The normal exhaust discharge opening and clapper valve. This valve is closed in varying degrees, depending on the amount of wing heating desired.](images/NACA-ACR-A-53/Figure 6 and 7.png)
   
 The exhaust heated pitot tube and the wing exhaust vent 
 are shown in Figure 18.
 
-![Figure 18. The exhaust heated pitot static head. 
-A tube that projects forward from the wing leading edge. 
-Figure 19. Goodrich inflatable de-icers on the Lockheed 12-A tail
-surfaces. Rubber surfaces on the horizontal stabilizer leading edge.](images/NACA-ACR-A-53/Figure 18 and 19.png)  
+![Figure 18. The exhaust heated pitot static head. A tube that projects forward from the wing leading edge.  Figure 19. Goodrich inflatable de-icers on the Lockheed 12-A tail surfaces. Rubber surfaces on the horizontal stabilizer leading edge.](images/NACA-ACR-A-53/Figure 18 and 19.png)  
 
-![Figure 21. A photograph taken on an icing flight during which ice was prevented on the airplane
-wing and pitot-static head oy the use of exhaust heating. Ice on the tell-tale
-strut gives an indicatlon of the nature of the icing conditions.
-Data: Airspeed, 140 mph; altitude, 8,000 to 13,000 feet; Cumulus-Nimbus Clouds;
-air temperature -10 F to 22 F; air moderately to severely rough; types of ice rime,
-glaze, and snow slush; Estimated rate of icing 6 to 7 inches per hour. 
-The flight was made between Tacoma, Washington, and the Pacific coast.
-The ice on the indicator appears to be 0.5 inch thick.](images/NACA-ACR-A-53/Figure 21.png)  
+![Figure 21. A photograph taken on an icing flight during which ice was prevented on the airplane wing and pitot-static head oy the use of exhaust heating. Ice on the tell-tale strut gives an indicatlon of the nature of the icing conditions. Data: Airspeed, 140 mph; altitude, 8,000 to 13,000 feet; Cumulus-Nimbus Clouds; air temperature -10 F to 22 F; air moderately to severely rough; types of ice rime, glaze, and snow slush; Estimated rate of icing 6 to 7 inches per hour. The flight was made between Tacoma, Washington, and the Pacific coast. The ice on the indicator appears to be 0.5 inch thick.](images/NACA-ACR-A-53/Figure 21.png)  
 
 >Ice was removed from the horizontal stabilizer
 by the inflatable de-icer under certain icing conditions,
 although other icing conditions the ice was only
 partially removed.
 
-![Figure 26. A photograph of the de-icer on the Lockheed tail 
-which was taken a few minutes
-after the photo graph shown in figure 25.
-Residual ice remained on the
-stabilizer leading edge throughout the flight.](images/NACA-ACR-A-53/Figure 26.png)  
+![Figure 26. A photograph of the de-icer on the Lockheed tail which was taken a few minutes after the photo graph shown in figure 25. Residual ice remained on the stabilizer leading edge throughout the flight.](images/NACA-ACR-A-53/Figure 26.png)  
 
-![Figure 20. 
-Ice formation on the tell-tale strut; wing and pitot-
-static head protected from ice formation by the use
-of exhaust heating.
-Data: Airspeed, 140 m. p. h.; altitude, 10,000 to
-12,000 feet; Cumulus clouds; air temperature, 20 to
-26 F.; air, moderately rough; rime ice formation;
-estimated rate of icing, 7 inches/hour.
-The flight
-was made in the vicinity of Moffett Field, Calif.
-Figure 27. A view of the Lockheed tail surface and radio antenna
-showing a formation on the wire resulting from a
-light rime icing condition. The wire antenna is
-visibly thickened by ice in places. ](images/NACA-ACR-A-53/Figure 27.png)  
+![Figure 20. Ice formation on the tell-tale strut; wing and pitot-static head protected from ice formation by the use of exhaust heating. Data: Airspeed, 140 m. p. h.; altitude, 10,000 to 12,000 feet; Cumulus clouds; air temperature, 20 to 26 F.; air, moderately rough; rime ice formation; estimated rate of icing, 7 inches/hour. The flight was made in the vicinity of Moffett Field, Calif. Figure 27. A view of the Lockheed tail surface and radio antenna showing a formation on the wire resulting from a light rime icing condition. The wire antenna is visibly thickened by ice in places. ](images/NACA-ACR-A-53/Figure 27.png)  
 
 >Important factors in the design of exhaust-heating
 equipment, in addition to the degree of ice protection
@@ -529,7 +440,7 @@ compressed air heating systems.
 Also, detailed natural icing flight test accounts are always instructive
 (NACA-TR-403, NACA-TN-783, NACA-ACR-A-53, NACA-WR-A-7, NACA-ARR-4B02). 
 
-##Notes
+## Notes
 
 [^1]: Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
 [^2]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939.  

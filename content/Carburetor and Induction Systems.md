@@ -4,15 +4,7 @@ tags: ice protection
 
 ### _"A demon was operating the throttle." S. W. Sparrow, 1920. [^1]_  
 
-![Figure 3. 
-Schematic diagram of throttle and throttle barrel showing air-flow patterns 
-and throttling ice. 
-A butterfly valve plate angled to allow some airflow past it. 
-Ice is forming on the edges of the valve plate, 
-as well as on the throttle barrel walls 
-downstream of the valve plate, 
-partially obstructing the airflow.
-](images/NACA-TR-982/Figure 3.png)  
+![Figure 3. Schematic diagram of throttle and throttle barrel showing air-flow patterns and throttling ice. A butterfly valve plate angled to allow some airflow past it. Ice is forming on the edges of the valve plate, as well as on the throttle barrel walls downstream of the valve plate, partially obstructing the airflow.](images/NACA-TR-982/Figure 3.png)  
 _From NACA-TR-982._
 
 ## Summary  
@@ -52,7 +44,7 @@ The earliest report is a paper published in 1920 by S. W. Sparrow,
 then of the National Bureau of Standards, in which he described 
 the phenomena and pointed out that many unexplained airplane crashes
 almost certainly could be attributed to this cause. 
-He describe the icing action as giving the pilot the impression that: 
+He described the icing action as giving the pilot the impression that: 
 "A demon was operating the throttle." [^2]  
 
 ## "Airplane Crashes: Engine Troubles. A Possible Explanation". S. W. Sparrow, NACA-TN-55, 1921. [^3]  
@@ -156,7 +148,7 @@ deicing. Alternatively,
 introducing enough hot air to raise the intake temperature to 
 80 F was effective. 
 
-##"Icing-Protection Requirements for Reciprocating-Engine Induction Systems", NACA-TR-982, 1950. [^5]  
+## "Icing-Protection Requirements for Reciprocating-Engine Induction Systems", NACA-TR-982, 1950. [^5]  
 
 This publication serves as an excellent summary of the previous decade of studies.  
 
@@ -204,20 +196,9 @@ difficulties, the pilot must be familiar with the aspect of
 induction-system icing if proper protection is to be promptly
 applied with most protective systems now in use.
 
-![Figure 1. Typical induction system. 
-Each have an inlet air scoop, exhausted heated hot air valve, 
-screen, air-meter, throttle body, fuel nozzle, contracting adapter, 
-inlet elbow, turning vanes, and a supercharger. 
-(a) has an offset air scoop, (b) has a leading edge scoop, 
-and (c) has an undercowl scoop.
-](images/NACA-TR-982/Figure 1.png) 
+![Figure 1. Typical induction system. Each have an inlet air scoop, exhausted heated hot air valve, screen, air-meter, throttle body, fuel nozzle, contracting adapter, inlet elbow, turning vanes, and a supercharger. (a) has an offset air scoop, (b) has a leading edge scoop, and (c) has an undercowl scoop.](images/NACA-TR-982/Figure 1.png) 
 
-![Figure 2. 
-Conventional light-airplane induction system. 
-This starts with a cowl leading edge inlet air filter, and a 
-bypass valve that can mix in air heated by exhaust air
-to the carburetor.
-](images/NACA-TR-982/Figure 2.png) 
+![Figure 2. Conventional light-airplane induction system. This starts with a cowl leading edge inlet air filter, and a bypass valve that can mix in air heated by exhaust air to the carburetor.](images/NACA-TR-982/Figure 2.png) 
 
 >Representative limiting curve of serious and visible icing
 are plotted on the basis of carburetor-air temperature with
@@ -228,26 +209,16 @@ to the ratio of water vapor and air, for convenience the
 liquid-water content has also been included in the humidity-
 ratio term herein.  
 
-![Figure 13. Representative limits of visible and 
-serious icing in engine induction system.
-Carburetor deck pressure 28.86 inches mercury absolute.
-](images/NACA-TR-982/Figure 13.png) 
+![Figure 13. Representative limits of visible and serious icing in engine induction system. Carburetor deck pressure 28.86 inches mercury absolute.](images/NACA-TR-982/Figure 13.png) 
 
-![Figure 14. Carburctor-engine configurations A to K 
-used in determining induction-system icing characteristics.
-](images/NACA-TR-982/Figure 14.png) 
+![Figure 14. Carburctor-engine configurations A to K used in determining induction-system icing characteristics.](images/NACA-TR-982/Figure 14.png) 
 
 >An induction system incorporating features to reduce the
 intake of free water into the system, to prevent throttling
 icing, and to eliminate fuel-evaporation icing is illustrated
 in figure 21.  
 
-![Figure 21. Schematic diagram of induction system 
-incorporating ice-protection features.
-Features include water-excluding inlet, 
-speed density metering and cylinder-fuel injection, 
-oil-heated throttles and throttle body, 
-and submerged inlet elbow.](images/NACA-TR-982/Figure 21.png)  
+![Figure 21. Schematic diagram of induction system incorporating ice-protection features. Features include water-excluding inlet, speed density metering and cylinder-fuel injection, oil-heated throttles and throttle body, and submerged inlet elbow.](images/NACA-TR-982/Figure 21.png)  
 
 >Elimination of impact ice. Impact icing can be prevented
 if the free water is eliminated from the air that contacts or
@@ -295,13 +266,7 @@ injection device is stationary (reference 18). The use of
 impeller fuel injection limit icing to throttling and impact
 type that occur below 40° F (fig. 18).
 
-![Figure 18. Icing characteristics obtained with two systems having impeller fuel 
-injection (configurations G and H) compared with system having 
-fuel discharge below throttle
-(configuration E). 
-Configuration E can be protected if an 60 F air temperature is maintained,
-while the other configurations require only a 40 F air temperature.
-](images/NACA-TR-982/Figure 18.png)  
+![Figure 18. Icing characteristics obtained with two systems having impeller fuel injection (configurations G and H) compared with system having fuel discharge below throttle(configuration E). Configuration E can be protected if an 60 F air temperature is maintained, while the other configurations require only a 40 F air temperature.](images/NACA-TR-982/Figure 18.png)  
 
 ## Conclusions  
 

@@ -4,9 +4,7 @@ tags: ice protection
 
 ### _"The removal of ice from a De-Icer surface depends on the true adhesion of ice to rubber..." [^4]_  
 
-![A drawing of a deicing boot for a wing leading edge. 
-Small tubes in the rubber can be inflated to deform the surface and remove ice.
-](images/ads4/Figure 3_2.png)  
+![A drawing of a deicing boot for a wing leading edge. Small tubes in the rubber can be inflated to deform the surface and remove ice.](images/ads4/Figure 3_2.png)  
 _Image from “Engineering Summary of Airframe Icing Technical Data” ADS-4, 1963._    
 
 ##Summary
@@ -24,7 +22,7 @@ aircraft ice protection, and are still used today.
 
 As detailed in ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 the “expanding rubber sheet” or “ice-removing overshoe”
-for ice protection was developed independently from NACA in the 1930s, 
+for ice protection was developed independently of NACA in the 1930s, 
 and was the first widely used method of aircraft ice protection. 
 Small passages within the rubber could be periodically inflated to shed ice (typically once every two minutes). 
 While some "inter-cycle" ice forms, the maximum amount of ice is limited, if all is working properly. 
@@ -76,8 +74,7 @@ compared to bare rubber or metal
 However, none of the materials tested lowered ice adhesion enough to shed by 
 aerodynamic forces alone. 
 
-![Figure 7. Test on heavy oil coating. Heavy spray. Temperature 
--1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
+![Figure 7. Test on heavy oil coating. Heavy spray. Temperature -1 C. Airspeed 70 m.p.h.](images/naca-tn-339/Figure 7.png)  
 
 ## NACA-TN-723 "Adhesion of Ice in Its Relation to the De-icing of Airplanes" [^2]  
 
@@ -94,9 +91,7 @@ possibly for certain small areas such as windshields, radio
 masts, etc., the use of de-icing or adhesion-preventing
 liquids will provide the best means of protection.
 
-![Figure 1. Metal blocks held togther by ice for tensile strength tests. 
-Figure 2. Failure of specimen in tension. 
-Failure occured in ice and not at the ice-metal surface.](images/NACA-TN-723/Figures 1 and 2.png)  
+![Figure 1. Metal blocks held togther by ice for tensile strength tests. Figure 2. Failure of specimen in tension. Failure occured in ice and not at the ice-metal surface.](images/NACA-TN-723/Figures 1 and 2.png)  
 
 >CONCLUSIONS  
 The most important conclusions drawn from the present
@@ -152,11 +147,7 @@ the ice accretion remaining on the leading edge of the
 stabilizer after the inflatable de-icer had been operated
 during one flight. 
 
-![Figure 26. A photograph of the de-icer on the Lockheed tail 
-which was taken a few minutes
-after the photo graph shown in figure 25.
-Residual ice remained on the
-stabilizer leading edge throughout the flight.](images/NACA-ACR-A-53/Figure 26.png)  
+![Figure 26. A photograph of the de-icer on the Lockheed tail which was taken a few minutes after the photo graph shown in figure 25. Residual ice remained on the stabilizer leading edge throughout the flight.](images/NACA-ACR-A-53/Figure 26.png)  
 
 We will see more of NACA-ACR-A-53 in a future post on engine-exhaust heating.  
 
@@ -171,8 +162,7 @@ aft of the heated area. The entire de-icer extended to approximately
 25 percent of chord.
 ...
 
-![Figure 2. Construction and installation details of thermal-pneumatic 
-de-icer mounted on 42-inch-chord NACA 0018 airfoil.](images/NACA-RM-E50K10A/Figure 2.png)  
+![Figure 2. Construction and installation details of thermal-pneumatic de-icer mounted on 42-inch-chord NACA 0018 airfoil.](images/NACA-RM-E50K10A/Figure 2.png)  
 
 >SUMMARY OF RESULTS  
 The following results were obtained from an icing investigation
@@ -224,17 +214,9 @@ spanwise inflatable tubes and the other having chordwise tubes.
 NACA-TN-3564 investigated the de-icing performance of a pneumatic de-icer, 
 and the drag caused by the boot in different inflation configurations.  
 
-![A test airfoil mounted on a vertical axis in an icing wind tunnel, with a pneumatic de-icer covering part of the leading edge. 
-A man stands next to it, viewing the leading edge. 
-The caption reads: 
-"Figure 1. Installation of pneumatic de-icer on the NACA 0011 airfoil model in 6 by 9 foot icing research tunnel. (a) Spawise-tube de-icier, lower surface. "
-](images/NACA-TN-3564/Figure 1a.png)  
+![A test airfoil mounted on a vertical axis in an icing wind tunnel, with a pneumatic de-icer covering part of the leading edge. A man stands next to it, viewing the leading edge. The caption reads:"Figure 1. Installation of pneumatic de-icer on the NACA 0011 airfoil model in 6 by 9 foot icing research tunnel. (a) Spawise-tube de-icier, lower surface. "](images/NACA-TN-3564/Figure 1a.png)  
 
-![A cross-section drawing of a de-icing boot on an airfoil. 
-The tubes are about one inch wide, and every-other tube is inflated. 
-There is a note: "Boot thickness, 0.1 inch".
-The caption reads: "Figure 3. Sketch of spanwise-tube de-icer showing tube locations (dimensions in inches)".
-](images/NACA-TN-3564/Figure 3b.png)  
+![A cross-section drawing of a de-icing boot on an airfoil. The tubes are about one inch wide, and every-other tube is inflated. There is a note: "Boot thickness, 0.1 inch".The caption reads: "Figure 3. Sketch of spanwise-tube de-icer showing tube locations (dimensions in inches)".](images/NACA-TN-3564/Figure 3b.png)  
   
 Findings are summarized:  
   
@@ -290,22 +272,14 @@ was review previously in the [Thermodynamics Thread]({filename}thermodynamics.md
 ADS-4 has a section discussion mechanical deicing systems, 
 and examples of the application to aircraft. 
 
-![A drawing of a deicing boot for a wing leading edge. 
-Small tubes in the rubber can be inflated to deform the surface and remove ice.
-](images/ads4/Figure 3_2.png)  
+![A drawing of a deicing boot for a wing leading edge. Small tubes in the rubber can be inflated to deform the surface and remove ice.](images/ads4/Figure 3_2.png)  
 
-![Figure 4.1-12. Line diagram of Pneumatic Boot De-Icing System for Wings and Empennage of Aircraft "A".
-Each wing has 9 foot by 10 inch coverage (divided into two separate de-icers).
-The hozontal stabilizer has two 5.5 foot by 5 inchde-icers, 
-and the vertical fin has a 6 foot by 5 inch de-icer. 
-All segments are connected by pneumatic lines.  
-Total de-icer protected area: 22.1 sq. ft. 
-Total area including tapered edge: 28.0 sq. ft.](images/ads4/Figure 4.1_12.png)  
+![Figure 4.1-12. Line diagram of Pneumatic Boot De-Icing System for Wings and Empennage of Aircraft "A". Each wing has 9 foot by 10 inch coverage (divided into two separate de-icers). The horizontal stabilizer has two 5.5 foot by 5 inchde-icers, and the vertical fin has a 6 foot by 5 inch de-icer. All segments are connected by pneumatic lines. Total de-icer protected area: 22.1 sq. ft. Total area including tapered edge: 28.0 sq. ft.](images/ads4/Figure 4.1_12.png)  
 
 ADS-4 trained at least one generation (if not several) 
 of engineers on aircraft icing (myself included).  
 
-##Conclusions  
+## Conclusions  
   
 Pneumatic deicing boots are still used today on many aircraft. 
 More recent implementations use synthetic elastomers rather than natural rubber, 
@@ -314,7 +288,7 @@ However, for higher airspeed aircraft such as jets,
 rain and dust erosion are challenges to the durability of the 
 elastomer surface, and other forms of ice protection are more common.  
 
-##Citations  
+## Citations  
 
 An online search (scholar.google.com) found  
 9 citations of NACA-TN-339,  
@@ -332,7 +306,7 @@ and 64 for ADS-4.
 [^2]: Rothrick, A. M., Selden, R.: Adhesion of Ice in Its Relation to the De-icing of Airplanes. NACA-TN-723, 1939.  
 [^3]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941.  
 [^4]: Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
-[^5]: Loughborough, D. L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the instructive Slide 13 "Most practical de-icers I ever saw" figure in the next Loughborough citation.] https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf    
+[^5]: Loughborough, D. L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the instructive Slide 13 "Most practical de-icers I ever saw" figure in the next Loughborough citation.] [us.archive.org](https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf)    
 [^6]: Loughborough, D. L.: Mechanical De-Icing Systems, (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  (58 pages)    
 [^7]: Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
 [^8]: Bowden, D. T, et. al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
