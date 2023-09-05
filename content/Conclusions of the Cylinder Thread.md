@@ -3,7 +3,7 @@ Date: 2022-04-04 12:00
 Category: NACA  
 tags: cylinders, conclusions  
 
-## _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
+# _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
 
 ![Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](images/cylinder with flow lines.png)
 
