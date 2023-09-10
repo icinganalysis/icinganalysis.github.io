@@ -348,7 +348,7 @@ ice protection technology.
 
 ## Notes  
 
-[^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
+[^1]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081134)    
 [^2]:
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)  
 [^3]: [scholar.google.com](https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en)  
