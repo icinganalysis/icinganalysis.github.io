@@ -2,6 +2,8 @@ Title: About
 Date: 2022-01-15 12:00  
 tags: about  
 
+![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. 'TEST' is emblazened on the tail.](images%2Fairplane_banner_colorized.png)  
+
 This site is still under development.
 
 Do not expect the site content, structure, nor links to be stable.  
