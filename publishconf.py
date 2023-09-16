@@ -24,7 +24,7 @@ SUMMARY_MAX_LENGTH = 150
 #    ('About', SITEURL + '/about.html'),
 #)
 MENUITEMS = (
-    ('Home', '/index.html'),
+    ('Welcome', '/index.html'),
     ('Suggested Reading Order', '/site-navigation-and-suggested-reading-order.html'),
     ('Latest Posts', '/archives.html'),
     ('About', '/about.html'),

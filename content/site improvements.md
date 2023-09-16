@@ -10,7 +10,7 @@ _Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames"
 
 ## Summary  
 
-Since I started ["Blast from the Past: NACA Icing Publications"](https://icinganalysis.com) 
+Since I started ["Blast from the Past: NACA Icing Publications"]({filename}introduction.md) 
 20 months ago, I have made over 100 posts. 
 I have extensively revised some, and made improvements to all of them, so it is time to repost them. 
 
@@ -18,10 +18,10 @@ I will be posting links and short summaries to them in the original sequence on 
 at a rate of three per week (about the pace that I originally posted them), so it will take almost a year to cycle through them. 
 And I do plan on also creating new posts.  
 
-If you want to read at you own pace, you can go to the [Latest Posts](https://icinganalysis.com/archives.html) 
+If you want to read at you own pace, you can go to the [Latest Posts](/archives.html) 
 tab at the top of the page for the complete list of posts. 
 
-And there is now a link if you use [RSS](https://icinganalysis.com/feeds/all.rss.xml).  
+And there is now a link if you use [RSS](/feeds/all.rss.xml).  
 
 ## Notes  
 
