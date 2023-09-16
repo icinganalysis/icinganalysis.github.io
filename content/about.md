@@ -10,15 +10,17 @@ Do not expect the site content, structure, nor links to be stable.
 
 Author: [Donald E. Cook]({filename}donald-cook.md)  
 
-[Web publishing tools]({filename}web publishing tools.md)  
-
-[Python programming style guide]({filename}python_style_guide.md)  
+[Welcome]({filename}introduction.md)  
 
 [A Gentle Introduction to Aircraft Icing]({filename}a_gentle_introduction_to_aircraft_icing.md)  
 
 [Six Month Review]({filename}six_month_review.md)  
 
 [One Year Review]({filename}one%20year%20review.md)  
+
+[Web publishing tools]({filename}web%20publishing%20tools.md)  
+
+[Python programming style guide]({filename}python_style_guide.md)  
 
 [Ideas for Future Posts]({filename}ideas.md)  
 
