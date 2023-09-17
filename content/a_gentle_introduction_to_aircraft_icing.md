@@ -5,9 +5,14 @@ tags: about, introduction
 ### _"Icing is as close to pure witchcraft engineering as you can get."_  
 _Thomas S. on LinkedIn._
 
-![Ice on a NASA airplane from a research flight test.](images%2FIcing_on_a_plane.jpg)  
-_Ice on a NASA airplane from a research flight test._  
-_From [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Icing_on_a_plane.jpg)._
+![Figure 13 of NACA-TN-1598. Formation of ice on horizontal stabilizer.
+Average icing rate, 4 inches per hour; liquid-water content,
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are
+1 in. wide)](images/naca-tn-1598/Figure13.png)
+_Figure 13 of [NACA-TN-1598]({filename}NACA-TN-1598.md). Formation of ice from flight on horizontal stabilizer.
+Average icing rate, 4 inches per hour; liquid-water content,
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are
+1 inch wide, indicating an ice thickness of about 2 inches.)_  
 
 ## Summary 
 
