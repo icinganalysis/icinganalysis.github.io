@@ -23,6 +23,7 @@ def solve_minimize_f(
 
     :param f: Function to minimize value for
     :param bounds: defined bounds of function, uses 'bounded' solution method if bounds, otherwise default method
+    :param tolerance: allowed absolute tolerance of the solution
     :return: solution value, or float('nan') if a successful solution cannot be found
     """
     x = float("nan")
@@ -38,7 +39,6 @@ def solve_minimize_f(
             diff = f(solution.x)
             if diff <= tolerance:
                 x = solution.x
-                # print('tolerance', abs(diff), tolerance, abs(diff) > tolerance)
         else:
             x = solution.x
     return x
