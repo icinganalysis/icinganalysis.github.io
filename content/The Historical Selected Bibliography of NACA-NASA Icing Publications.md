@@ -5,7 +5,7 @@ Category: NACA
 ### "... the recommendation was made that before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^1]
 
 ![NACA-TN-1691 cover page. NACA Advisory Committee for Aeronautics. Technical Not3 No. 1691. Icing and Deicing of a Propeller with Internal Electric Blade Heaters.](images%2FNACA-TN-1691%20cover.png)  
-_The cover page of NACA-TN-1691. The covers were often this orange or yellow, with some in blue._  
+_The cover page of NACA-TN-1691. The original covers were often this orange or yellow, with some in beige or blue._  
 
 ## Summary
 
