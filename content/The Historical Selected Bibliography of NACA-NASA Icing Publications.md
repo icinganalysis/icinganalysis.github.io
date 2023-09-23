@@ -7,11 +7,11 @@ Category: NACA
 ![NACA-TN-2569 cover page.NACA Advisory Committee for Aeronautics. Technical Note 2569. A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. Lewis Flight Propulsion Laboratory, Cleveland, Ohio. November, 1951](images%2FNACA-TN-2569%2FNACA-TN-2569%20cover%20page.png)
 _The cover page of NACA-TN-2569. The original covers were often this orange or yellow, with some in beige or blue. If you find an original print now the color is probably rather faded._  
 
-## Summary
+## Summary  
 
 A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 16 categories.
   
-## Discussion
+## Discussion  
 
 ### Publications  
  
