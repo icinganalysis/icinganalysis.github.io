@@ -72,6 +72,10 @@ Ironically, the quality of the online version of NASA-TM-81651 [^4] is not good,
 so the text was not accurately parsed by computer 
 (numerous manual corrections of scanned text were required to produce the listings below).  
 
+![The NACA Technical Report Server.](images%2FThe%20NACA%20Technical%20Report%20Server.png)
+_The NACA Technical Report Server, circa 1999. From [NASA/TM-1999-209127](https://ntrs.nasa.gov/api/citations/19990035925/downloads/19990035925.pdf). 
+This has been superseded by the [NTRS](https://ntrs.nasa.gov/) [^6]._  
+
 ### Publications not in the NTRS  
 
 While most of the NACA publications are available at the NTRS [^6], some are not. The publications that I could not find copies of on the NTRS are:  
