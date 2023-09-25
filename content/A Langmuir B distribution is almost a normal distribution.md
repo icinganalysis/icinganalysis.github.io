@@ -6,9 +6,11 @@ tags: cylinders, python
 ### _"Upon comparing this chart with Langmuir's tables, it was found that his selections of the representative radii for the various sub-divisions of the volume were in error." [^1]_  
 
 ## Summary  
+
 The Langmuir B drop size distribution is almost a normal distribution.
 
-## Key points
+## Key points  
+
 1. The Langmuir B drop size distribution is almost a normal distribution.  
 2. Perhaps it was originally intended that it be exactly a normal distribution.
 3. The proposed alternatives in NACA-TN-2708 appears to have larger errors, rather than correcting errors.
@@ -127,13 +129,14 @@ The code producing the normal fit charts and the comparison tables is available 
 
 You may find a more general discussion of NACA-TN-2708 in the review [NACA-TN-2708]({filename}NACA-TN-2708.md). 
 
-## Notes:
+## Notes  
+
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
 [^2]:
 Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 [^3]: 
-[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
+[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
 [^4]:
 [Normal distribution at en.wikipedia.org](https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution)  
 [^5]:

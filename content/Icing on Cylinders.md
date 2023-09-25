@@ -75,7 +75,7 @@ Some typical multicylinder meteorological instruments (from NACA-TN-2708):
 >   1. The effect of aerodynamic heating is predictable  
 >   2. Water drop impingement on a cylinder is calculated  
 
-### ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
+### ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
 >   1. The Langmuir drop size distributions are defined  
 >   2. The water drop impingement terms E, Beta, K, and Ko are defined  
 >   3. The use of cylinders of different sizes and detailed calculations to determine water drop sizes  
