@@ -379,7 +379,8 @@ is [available as a pdf](images/cylinder_thread_wrap_up/SAE presentation Cook.pdf
 
 The next thread in the NACA review series is the [Thermodynamics Thread]({filename}thermodynamics.md).  
 
-## Notes:
+## Notes  
+
 [^1]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955, reprinted in Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981.  
 I could not locate this on the NTRS. It is available at [core.ac.uk](https://core.ac.uk/reader/42858720) (circa August, 2023)  

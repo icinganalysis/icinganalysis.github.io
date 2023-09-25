@@ -8,10 +8,12 @@ tags: cylinders
 
 # "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution" [^1]
 
-## Summary 
+## Summary  
+
 A pioneering test method is described, and a drop size measurement analysis is proposed.
 
 ## Key points  
+
 1. A dye-tracer blotter-paper water drop impingement measurement technique is described. 
 2. An analysis of test results to determine the water spray drop size distribution is described. 
 3. The analysis method accuracy is unknown due to the lack of an independent measurement of drop sizes.
@@ -147,7 +149,7 @@ section.
 
 ![Figure 23. Final evaluation of droplet size distribution for three spray 
 conditions based on experimental impingement rates of cylinders and an 
-aspirating device (based on theoretical trajectories from refernce 1).](images/naca-tn-3338/Figure23.png)  
+aspirating device (based on theoretical trajectories from reference 1).](images/naca-tn-3338/Figure23.png)  
 
 ### Need an independent measurement of drop sizes
 
@@ -300,10 +302,10 @@ Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH
 [^5]: 
 von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
 [^6]: 
-Ide, Robert F., Oldenberg, John R.:"Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
+Ide, Robert F., Oldenberg, John R.: "Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
 [dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA392590.pdf)  
 [^7]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+dye-tracer+technique+for+experimentally+obtaining+impingement+characteristics+of+arbitrary+bodies+and+a+method+for+determining+droplet+size+distribution&btnG=)  
 [^9]: 

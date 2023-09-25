@@ -9,10 +9,12 @@ tags: cylinders, instruments
 
 ![Figure 1 - Rotating multicylinder set extended through top of airplane fuselage.](images/naca-rm-e53d23/Figure1.png)
 
-## Summary 
+## Summary  
+
 Detailed procedures for the use of multicylinders are described.
 
 ## Key points  
+
 1. Detailed procedures for the in-flight use of multicylinders are described.
 2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.
 3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
@@ -164,7 +166,8 @@ NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^5]:
 
 An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^6]. 
 
-## Notes:
+## Notes  
+
 [^1]: Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068900).  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
@@ -172,7 +175,7 @@ Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cyli
 [^4]:
 Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
 [^5]:
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^6]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E53D23&btnG=)  
 

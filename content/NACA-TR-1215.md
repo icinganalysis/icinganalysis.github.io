@@ -9,10 +9,12 @@ tags: cylinders
 
 # "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
 
-## Summary 
+## Summary  
+
 Conditions where not all water drops freeze are considered.
 
 ## Key points  
+
 1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).
 2. Conditions where not all water drops freeze on the multicylinder instrument are considered. 
 3. The terms "freezing fraction" is introduced into the NACA publications.
@@ -249,10 +251,9 @@ NACA-TR-1215 is cited 4 times in the NACA Icing Publications Database [^11]:
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 
-An online search found that NACA-TR-1215 is cited 12 times in the literature [^10]. 
+An online search found that NACA-TR-1215 is cited 12 times in the literature [^10].
 
-
-## Notes:
+## Notes  
 
 [^1]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697).  
@@ -278,4 +279,4 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [NACA-TR-1215 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TR-1215&btnG=)  
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=)  
 [^11]:
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
