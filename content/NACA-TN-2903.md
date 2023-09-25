@@ -7,13 +7,16 @@ tags: cylinders
 
 # "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"
 
-## Summary
+## Summary  
+
 The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible".
 
-## Key points
+## Key points  
+
 1.  The effect of the compressibility of air on the water-drop impingement calculations is found to be "negligible"
 
-## Abstract
+## Abstract  
+
 > The trajectories of water droplets in a compressible-air flow field
 around a cylinder were computed with a mechanical analog. The results of
 the calculations at approximately the flight critical Mach number were
@@ -109,13 +112,14 @@ An online search [^4] found 26 citations of NACA-TN-2903.
 
 NACA-TR-1215 [^5] "supersedes" NACA-TN-2903. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
-## Notes:  
+## Notes  
+
 [^1]: 
 Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601).  
 [^2]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^3]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^4]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-2903&btnG=)  
 [^5]: 

@@ -20,13 +20,15 @@ Some machine parts are labeled with the differential equations of motion being s
 
 Detailed water drop impingement analysis (independent of prior analysis) is presented.
 
-## Key points
+## Key points  
+
 1.  Detailed water drop impingement analysis (independent of prior analysis) is presented
 2.  Error estimates are detailed.
 3.  Detailed Beta curves are provided.
 4.  A difference from Langmuir and Blodgett for drop size distributions calculations is noted.
 
-## Abstract
+## Abstract  
+
 > Evaluation of the rotating multicylinder method for the measurement
 of droplet-size distribution, volume-median droplet size, and liquid-water 
 content in clouds shoved that small uncertainties in the basic
@@ -245,7 +247,8 @@ An online search [^5] found 54 citations of NACA-TN-2904.
 
 NACA-TR-1215 [^5] "supersedes" NACA-TN-2904. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
-## Notes:  
+## Notes  
+
 [^1]: 
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).  
 [^2]:
@@ -253,7 +256,7 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [^3]: 
 von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 [^4]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^5]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=)  
 [^6]:
