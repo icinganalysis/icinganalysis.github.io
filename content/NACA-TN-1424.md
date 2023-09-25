@@ -7,10 +7,12 @@ tags: meteorology, cylinders
 
 # "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing" [^1]  
 
-## Summary
+## Summary  
+
 The value of the multicylinder data for determining drop size distribution is questioned.  
 
 ## Key points  
+
 1. Two methods for determining drop size distributions are compared.  
 2. The difference in water drop concentration around an aircraft body is proposed as an explanation for results from the two methods.  
 3. A temperature effect of icing conditions is noted.  
@@ -269,7 +271,7 @@ NACA-TN-1424 is cited by the three NACA publications cited in Appendix C of the 
 - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.
 
-## Notes:  
+## Notes  
 
 [^1]:
 Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)  
