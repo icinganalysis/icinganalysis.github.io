@@ -23,7 +23,8 @@ and NACA-TN-779 [^2] are compared.
 In [NACA-TN-779]({filename}NACA-TN-779.md), the water drop impingement on a cylinder 12 inch in diameter, 
 with an airspeed of 200 mph, was analyzed. 
 The altitude was not noted. Water drop diameters from 0.002 inch (about 8 micrometer) to 0.1 inch 
-(about 4000 micrometer) were considered, as shown below.
+(about 4000 micrometer) were considered, as shown below.  
+
 ![Figure 4. Swept area cleared of drops.](images/naca-tn-779/tn-779-area.png "Swept area cleared of drops")
 
 The “swept area of cleared drops” represents what fraction of the water drops in the 
