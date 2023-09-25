@@ -9,12 +9,13 @@ tags: cylinders, natural icing, meteorology
 as compared with Weather Bureau scale of icing intensity. 
 This is a graph of Mean effective drop diameter in microns vs. Liquid water content in g/m^3. 
 Lines for the intensity values 1, 6, and 12 g/cm^2-h are shown,
-as well as several flight measurement values](/images/naca-tn-1393/Figure%205.png)  
+as well as several flight measurement values](images/naca-tn-1393/Figure%205.png)  
 
 # “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
 [^1]
 
 ## Summary  
+
 A multicylinder and other instruments measure natural icing conditions in flight.
 
 ## Key points  
@@ -292,7 +293,8 @@ NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
 
 Also, see Jeck's comments [^9] on the distance curve in NACA-TN-1393.  
 
-## Notes:  
+## Notes  
+
 [^1]:
 Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)  
 [^2]:
@@ -304,8 +306,8 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
 [^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.  
 [^7]:
-[Implementation of cylinder impingement correlations in Python]({filename}Implementation of cylinder impingement correlations in Python.md)  
+[Implementation of cylinder impingement correlations in Python]({filename}Implementation%20of%20cylinder%20impingement%20correlations%20in%20Python.md)  
 [^8]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[naca icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^9]:
 Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008.  
