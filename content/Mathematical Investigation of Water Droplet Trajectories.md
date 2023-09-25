@@ -7,7 +7,8 @@ tags: cylinders
 
 ![Figure 6. Trajectories of rim particles deposited on cylinder AC drawn by differential analyzer.](images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png)  
 
-## Summary
+## Summary  
+
 Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as an icing instrument is described.
     
 ## Key points
@@ -278,10 +279,12 @@ In the NACA Icing Publication Database [^10], it is cited 43 times:
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.
 
-## Related works
+## Related works  
+
 NACA-TN-2708 [^11] has comments on the origins of the Langmuir drop size distributions, and proposes revised values.
 
-## Notes:
+## Notes  
+
 [^1]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.  
 [^2]:

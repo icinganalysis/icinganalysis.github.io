@@ -7,11 +7,13 @@ tags: cylinders, instruments
 
 # "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method" [^1]
 
-## Summary
+## Summary  
+
 Multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
 but poor agreement for the distribution type.
 
-## Key points
+## Key points  
+
 1. Three multicylinder instruments had good agreement for liquid water content and median effective drop diameter, 
 but poor agreement for the distribution type
 2. The Langmuir drop size distributions were revised (but the revised versions were not widely adopted)
@@ -155,7 +157,8 @@ NACA-TN-2708 is cited 2 times in the NACA Icing Publications Database [^5]:
 
 An online search [^4] found 5 more citations, mostly in meteorological publications.  
 
-## Notes:  
+## Notes  
+
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732).  
 [^2]:
@@ -165,6 +168,6 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 [^4]: An online search found 5 more citations, mostly in meteorological publications.
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-2708&btnG=), January, 2022.  
 [^5]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 
 
