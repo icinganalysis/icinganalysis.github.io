@@ -11,7 +11,8 @@ Water drop impingement calculations on a cylinder from
 "Mathematical Investigation of Water Droplet Trajectories" [^1]
 and NACA-TN-779 [^2] are compared.
 
-## Key Points
+## Key Points  
+
 1. There are differences in conditions in Table IV(a) of "Mathematical Investigation of Water Droplet Trajectories" compared to NACA-TN-779.
 2. When the conditions are revised to match, the comparison with NACA-TN-779 data improves.
 
@@ -53,7 +54,8 @@ It is not clear what was intended by comparing results from one method with resu
 at conditions that do not correspond.
 
 For φ = 16000 the Em value is 0.47.
-![Figure 2](/images/aaf-tr-5418/figure_2_lines.png)
+
+![Figure 2 from Mathematical Investigation of Water Drop Trajectories. Efficiency of rime deposition on cylinders with ideal fluid flow.](images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2Ffigure_2_lines.png)  
 
 ### Correlations Implementation
 
@@ -65,18 +67,19 @@ Those were implemented in a computer program [^3].
 When conditions corresponding to NACA-TN-779 conditions are used, the comparison improves. 
 To match conditions well, a value of φ = 6000 is used.
 
-If [^2] was correct in that the value φ = 16000 for the NACA-TN-779 conditions, 
+If "Mathematical Investigation of Water Droplet Trajectories" [^2] was correct in that the value φ = 16000 for the NACA-TN-779 conditions, 
 then there appears to be some difference in the initial conditions for the integration, 
 or perhaps values of the air properties. Nonetheless, there is a fair match.
 
-![Comparison to NACA-TN-779](images/Implementation of cylinder impingement correlations in Python/comparison_to_NACA-TN-779.png)
+![Comparison to NACA-TN-779](images/Implementation of cylinder impingement correlations in Python/comparison_to_NACA-TN-779.png)  
 
 The python code used to produce the figure is available in the file "naca-tn-779.py". [^4]
 
-## Notes:
+## Notes  
+
 [^1]:
-[NACA-TN-779]({filename}/NACA-TN-779.md)
+[NACA-TN-779]({filename}/NACA-TN-779.md)  
 [^2]:  
-[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)
-[^3]: [Implementation of cylinder impingement correlations in Python]({filename}/Implementation of cylinder impingement correlations in Python.md)
+[Mathematical Investigation of Water Droplet Trajectories](Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
+[^3]: [Implementation of cylinder impingement correlations in Python]({filename}/Implementation of cylinder impingement correlations in Python.md)  
 [^4]: [github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
