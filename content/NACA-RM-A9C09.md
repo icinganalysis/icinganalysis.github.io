@@ -5,8 +5,7 @@ tags: cylinders
 
 ### _"The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."_  
 
-![Figure 2. Calculated error in the measurement of mena-effective drop diameter with four 
-rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](images/naca-rm-a9c09/cylinder_accuracy.png)
+![Figure 2. Calculated error in the measurement of mena-effective drop diameter with four rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](images/naca-rm-a9c09/cylinder_accuracy.png)  
 
 # "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"  
 [^1]
@@ -16,6 +15,7 @@ rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](
 The multicylinder is the "standard against which other instruments are calibrated"
 
 ## Key points  
+
 1. Nine instruments, including the fixed cylinder and rotating multicylinder, are qualitatively assessed.  
 2. "The [multicylinder] method has assumed the position of a standard against which other instruments are calibrated, and is apt to remain so..."  
 3. The effect of mass measurements errors on multicylinder results were assessed.  
@@ -69,7 +69,7 @@ rotating cylinders, and maximum drop diameter with one non-rotating cylinder. ](
 
 There were few details given on how these values were determined. 
 Some inference was required to largely reproduce the values, see the file naca_rm_a9c09.py at [^2] for details. 
-In the figure below, it appears the the variance was over-estimated for larger drop size cases for cylinder set A. 
+In the figure below, it appears that the variance was over-estimated for larger drop size cases for cylinder set A. 
 
 ![Comparison of computations of the accuracy of measurements with cylinders](images/naca-rm-a9c09/naca_rm_a9c09_fig2_comparison.png)
 
@@ -139,10 +139,11 @@ An online search [^4] found NACA-RM-A9C09 cited 13 times.
 The other instruments are reviewed in the Meteorological Instruments thread 
 [NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md).  
 
-## Notes:
+## Notes  
+
 [^1]:
 Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068733).  
 [^2]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[naca icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^4]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Review+of+Instruments+Developed+for+the+Measurement+of+the+Meteorological+Factors+Conducive+to+Aircraft+Icing&btnG=)  
