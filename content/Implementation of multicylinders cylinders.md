@@ -6,13 +6,15 @@ tags: cylinders, python
 ### _"This effect would be expected if the droplets were of non-uniform size, since the largest droplets could reach the largest collector while those of average size could not." [^1]_  
 
 ## Summary  
+
 The calculations to determine drop median volumetric diameter with a multicylinder instrument are implemented in Python. 
 
-## Key points
+## Key points  
+
 1. A manual method of multicylinder calculation is illustrated.
 2. The drop median effect diameter is reproduced well from a multicylinder example in "Mathematical Investigation of Water Droplet Trajectories"
 
-## Discussion
+## Discussion  
 
 ### Manual method of drop size analysis
 
@@ -123,7 +125,7 @@ I will consider this implementation to be "good enough", but we will look for mo
 
 ## Notes:
 [^1]: 
-Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
+Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732)   
 [^2]:  
 [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
