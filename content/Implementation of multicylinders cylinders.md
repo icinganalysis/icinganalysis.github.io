@@ -123,7 +123,8 @@ When the more technically correct "unique Κφ value for each drop size bin" met
 
 I will consider this implementation to be "good enough", but we will look for more comparison data in other publications.
 
-## Notes:
+## Notes  
+
 [^1]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732)   
 [^2]:  
