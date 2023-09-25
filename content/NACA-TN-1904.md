@@ -73,15 +73,15 @@ various distances. These values are likely to be encountered once
 in the course of 1000 flights in icing conditions when it is assumed 
 that 5 percent of the flights encounter cumulus clouds.
 
-| Distance along flight path, (miles | Maximum average liquid-water content (g/m^3) |
-|------------------------------------|----------------------------------------------|
-| 0.5                                | 2.2                                          |
-| 1.0                                | 1.9                                          |
-| 2.5                                | 1.6                                          |
-| 5                                  | 1.2                                          |
-| 10                                 | 0.9                                          |
-| 25                                 | 0.7                                          |
-| 60                                 | 0.5                                          |
+| Distance along flight path, (miles) | Maximum average liquid-water content (g/m^3) |
+|-------------------------------------|----------------------------------------------|
+| 0.5                                 | 2.2                                          |
+| 1.0                                 | 1.9                                          |
+| 2.5                                 | 1.6                                          |
+| 5                                   | 1.2                                          |
+| 10                                  | 0.9                                          |
+| 25                                  | 0.7                                          |
+| 60                                  | 0.5                                          |
 
 The data were shown in Figure 5.  
 
@@ -161,8 +161,7 @@ in the figure, the instrument is more sensitive to liquid-water drops
 than to snow. Thus, it is possible to identify regions
 containing liquid water in a continuous snow cloud.  
 
-![Figure 6. Typical cloud-indicator records showing response to 
-various cloud types.](images%2Fnaca-tn-1904%2FFigure%206.png)
+![Figure 6. Typical cloud-indicator records showing response to various cloud types.](images%2Fnaca-tn-1904%2FFigure%206.png)  
 > 
 > MAXIMUM-DROPSIZE CYLINDER  
 > 
@@ -224,15 +223,15 @@ indicates that measurements of drop-size distribution made in flight
 by the rotating-cylinder method, including those presented herein, 
 are so unreliable that they are of little or no value.  
 
-| Distance along flight path, (miles | Maximum average liquid-water content (g/m^3) |
-|------------------------------------|----------------------------------------------|
-| 0.5                                | 2.2                                          |
-| 1.0                                | 1.9                                          |
-| 2.5                                | 1.6                                          |
-| 5                                  | 1.2                                          |
-| 10                                 | 0.9                                          |
-| 25                                 | 0.7                                          |
-| 60                                 | 0.5                                          |
+| Distance along flight path, (miles) | Maximum average liquid-water content (g/m^3) |
+|-------------------------------------|----------------------------------------------|
+| 0.5                                 | 2.2                                          |
+| 1.0                                 | 1.9                                          |
+| 2.5                                 | 1.6                                          |
+| 5                                   | 1.2                                          |
+| 10                                  | 0.9                                          |
+| 25                                  | 0.7                                          |
+| 60                                  | 0.5                                          |
 
 ## Citations
 
@@ -271,7 +270,8 @@ NACA-TN-1904 is cited by two NACA publications cited in Appendix C of the icing 
 
 See Jeck's [^6] comments about the relationship of liquid water content and distance noted in NACA-TN-1904.  
 
-## Notes:
+## Notes  
+
 [^1]:
 Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)  
 [^2]: 
