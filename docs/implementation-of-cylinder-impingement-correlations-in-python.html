@@ -37,8 +37,8 @@
                 Published: Sun 23 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-09-23T10:14:50.176521-07:00">
-                Updated: Sat 23 September 2023
+        <abbr class="modified" title="2023-09-25T11:36:59.175829-07:00">
+                Updated: Mon 25 September 2023
         </abbr>
 <!---->
         <!---->
@@ -81,7 +81,7 @@ of interest in aviation.</p>
 from dimensional values, such as airspeed, drop size, and cylinder diameter. 
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.</p>
-<p><img alt="comparison to Table XI values" src="images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
+<p><img alt="Comparison to Table XI values of cylinder water catch efficiency Em to acceleration parameter 1/K." src="images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png"></p>
 <h3>A subtlety about implementing drop size distributions</h3>
 <p>As noted in NACA-TN-2904 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, for drop size distributions Langmuir and Blodgett used an approximation, 
 using the k*phi value for the MVD for every drop size bin when calculating the weighted Em value. 
@@ -95,11 +95,11 @@ A comparison to Table XI values verifies that the "k*phi value for the MVD" meth
 
 <p>Both methods were implemented herein. 
 There are only a small differences between values calculated with the two implementations. </p>
-<p><img alt="comparison of two implementations" src="images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
+<p><img alt="Comparison of two implementations for values of cylinder water catch efficiency Em to acceleration parameter 1/K." src="images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png"></p>
 <p>I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.</p>
 <p>The original version of the impingement calculation with a drop size distribution will be used from here on unless noted otherwise. </p>
-<h2>Notes:</h2>
+<h2>Notes</h2>
 <div class="footnote">
 <hr>
 <ol>

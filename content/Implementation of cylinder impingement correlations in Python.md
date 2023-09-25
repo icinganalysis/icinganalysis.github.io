@@ -40,7 +40,7 @@ from dimensional values, such as airspeed, drop size, and cylinder diameter.
 The Langmuir drop size distributions are implemented. 
 The calculated cylinder water catch efficiency Em values compare to Table XI values quite well.
 
-![comparison to Table XI values](images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png)
+![Comparison to Table XI values of cylinder water catch efficiency Em to acceleration parameter 1/K.](images/Implementation of cylinder impingement correlations in Python/calculation_verification_table_XI_k_phi=1000_log.png)
 
 ### A subtlety about implementing drop size distributions
 
@@ -58,16 +58,17 @@ A comparison to Table XI values verifies that the "k\*phi value for the MVD" met
 Both methods were implemented herein. 
 There are only a small differences between values calculated with the two implementations. 
 
-![comparison of two implementations](images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
+![Comparison of two implementations for values of cylinder water catch efficiency Em to acceleration parameter 1/K.](images/Implementation of cylinder impingement correlations in Python/compare_em_distribution_with_and_without_k_phi_mvd_k_phi=1000.png)
 
 I doubt that the approximation was a source of any significant errors in analysis using the 
 Langmuir-Blodgett methods.
 
 The original version of the impingement calculation with a drop size distribution will be used from here on unless noted otherwise. 
 
-## Notes:
-[^1]:  
-[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
+## Notes  
+
+[^1]: 
+[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
 [^2]:
 Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: [](https://www.anaconda.com/)  
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
