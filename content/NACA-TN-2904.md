@@ -197,7 +197,7 @@ It is not clear from the data presented in NACA-TN-2904 that its method is more 
 I do not know of contemporaneous data that could resolve which method is more accurate.
 And even with data from the post-NACA era it is difficult to determine that one method is 
 substantially more accurate than the other. 
-This will be the subject of a future post. 
+This will be a subject covered in the upcoming [Conclusions of the Cylinder Thread]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md). 
 
 ## Citations
 
