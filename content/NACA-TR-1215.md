@@ -83,7 +83,7 @@ Building on the work of Ludlam [^5] and others, an analysis method was detailed 
 ![Six detailed assumptions about ice formation on a cylinder.](images/naca-tr-1215/Assumptions.png)
 
 A detailed explanation of the equations in Appendix F is quite involved, 
-and will be deferred to a possible, future thread on thermodynamics. 
+and will be deferred to the thread on thermodynamics, [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md). 
 
 To put the analysis results in terms useful for multicylinder analysis, 
 the ambient liquid water content is split into the portions that freeze, evaporate, 
