@@ -85,7 +85,7 @@ For the implementation of the NACA-TN-2904 impingement data, the analysis yields
 
 ![Calculated best fits to the measured cyllinder masses (summarized in the table below)](images/naca-rm-e53d23/NACA-RM-53D23_mvd_lwc.png)
 
-In the review of [NACA-TN-2904]({filename}NACA-TN-2904.md) impingement results were compared to Langmuir and Blodgett [^]. 
+In the review of [NACA-TN-2904]({filename}NACA-TN-2904.md) impingement results were compared to Langmuir and Blodgett [^4]. 
 It was also noted that Langmuir and Blodgett had an approximation, which can be corrected. 
 A comparison of results with the different methods is shown below.
 
@@ -141,7 +141,7 @@ and the effects of yaw, ice density, and other factors on the reliability
 of data and the reproducibility of measurements for conditions on a
 mountain is contained in reference 4.
 
-"(ref.6)" is Fraser [^4], and the 
+"(ref.6)" is Fraser [^5], and the 
 "the limitations of the ice accretion rate caused by kinetic heating and heat of fusion" 
 will be discussed in an upcoming review of NACA-TR-1215.
 
@@ -156,7 +156,7 @@ NACA-RM-E52D23 cites 6 publications:
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.
 - Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.
 
-NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^5]:
+NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^6]:
 
 - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.
@@ -164,7 +164,7 @@ NACA-RM-E53D23 is cited 5 times in the NACA Icing Publications Database [^5]:
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.
 
-An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^6]. 
+An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^7]. 
 
 ## Notes  
 
@@ -173,9 +173,11 @@ An online search found that NACA-RM-E53D23 is cited 8 times in the literature [^
 Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^4]:
-Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418 and as Dept. of Commerce Pub. PB No. 27565.)  
 [^5]:
+Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
+[^6]:
 [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
-[^6]: 
+[^7]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E53D23&btnG=)  
 
