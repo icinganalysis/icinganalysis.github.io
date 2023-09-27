@@ -32,6 +32,7 @@ If it grows much, I may have to move to a newsletter service provider.
 
 If there is abusive of the list (such as reply to all with spam, uncivil comments, 
 excessive self-promotion [save that for social media, where it is expected], etc.) I will remove yor from the list. 
+Also, human only accounts, please. If I identify a bot account, I will remove it.
 
 To unsubscribe, send an email with "unsubscribe" in the subject line.  
 
