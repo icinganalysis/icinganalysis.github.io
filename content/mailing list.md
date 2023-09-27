@@ -15,7 +15,7 @@ I have an email list of those who would like to receive notice of the latest pos
 and other site-related news. 
 <!--email_off-->
 An advantage of the email notification is early notifications of new posts. 
-To enroll, email BlastFromThePastEmailList@proton.me 
+To enroll, email <a "href="mailto:BlastFromThePastEmailList@proton.me">BlastFromThePastEmailList@proton.me</a> 
 with "enroll" in the subject line. There is no charge to enroll. 
 <!--/email_off-->
 Another advantage of enrolling in the mailing list is access to the secret* blog drafts that are in-work, 
