@@ -17,7 +17,7 @@ and other site-related news.
 An advantage of the email notification is early notifications of new posts. 
 To enroll, email BlastFromThePastEmailList@proton.me 
 with "enroll" in the subject line. There is no charge to enroll. 
-<!--/email_on-->
+<!--/email_off-->
 Another advantage of enrolling in the mailing list is access to the secret* blog drafts that are in-work, 
 before the public sees them.
 
