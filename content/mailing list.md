@@ -67,7 +67,7 @@ One of the earliest publications I have reviewed (1929), with eye-catching sketc
 
 Upcoming posts:
 
-The reposting of revised posts continues on Mastodon @icinganalysis@histodons.social https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
 (You can find them at [Latest Posts](https://icinganalysis.com/archives.html) if you cannot wait)
 9/29: A Detailed Comparison of Water Drop Impingement Calculations
 10/2: Implementation of multicylinder calculations in Python
