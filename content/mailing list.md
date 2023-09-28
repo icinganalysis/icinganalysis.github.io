@@ -11,7 +11,7 @@ _From [NACA-TN-313]({filename}NACA-TN-313.md), 1929. [^2]_
 
 ## Summary  
 
-I have an email list of those who would like to receive notice of the latest posts 
+I have a mail list of those who would like to receive notice of the latest posts 
 and other site-related news. 
 <!--email_off-->
 An advantage of the email notification is early notifications of new posts. 
@@ -107,6 +107,9 @@ To unsubscribe: send an email with "unsubscribe" in the subject line to BlastFro
 Opinions are those of the author, and not any current or former employers.
 copyright 2023 by Donald Cook
 ```
+
+
+<a href="https://stats.sender.net/forms/dygqRa/view">Sign up!</a> (via sender.net)
 
 ## Notes  
 
