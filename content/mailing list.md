@@ -4,7 +4,9 @@ Category: NACA
 tags: about  
 status: draft
 
-### _"The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”" [^1]_  
+### _“The greatest of all our problems is ice.”_  
+
+_"The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”" [^1]_  
 
 ![Figure 2 from NACA-TN-313. Sketches of ice formation on wings and wires. (From notes and sketches on numerous flights.)](/images/naca-tn-313/Figure2.png)  
 _From [NACA-TN-313]({filename}NACA-TN-313.md), 1929. [^2]_  
