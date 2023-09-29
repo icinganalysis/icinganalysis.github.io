@@ -45,7 +45,10 @@ A commenter on LinkedIn pointed me to Kelley Johnson's 1940 "Wing Loading, Icing
 #6: NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" https://icinganalysis.com/naca-tn-313.html
 One of the earliest publications I have reviewed, with eye-catching sketches and a great quote.
 - Upcoming posts:
-The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn). 9/29: A Detailed Comparison of Water Drop Impingement Calculations 10/2: Implementation of multicylinder calculations in Python 10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn). 
+9/29: A Detailed Comparison of Water Drop Impingement Calculations 
+10/2: Implementation of multicylinder calculations in Python 
+10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
 - Quote of the week: 'The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”'
 
 Boiler plate:
