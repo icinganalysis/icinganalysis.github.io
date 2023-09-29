@@ -38,7 +38,7 @@ Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
 Site Improvements https://icinganalysis.com/site-improvements.html
 - What is in work:
 Porter Perkins thread draft
-https://icinganalysis.com/drafts/porter-perkins.html
+<<link for subscribers only>>
 - Interesting finds:
 A commenter on LinkedIn pointed me to Kelley Johnson's 1940 "Wing Loading, Icing and Associated Aspects of Modern Transport Design" https://arc.aiaa.org/doi/abs/10.2514/8.10478. I might add this to the Ice Shapes and Their Effects thread on the blog.
 - Most popular posts (so far...):
