@@ -1,5 +1,5 @@
 title: The Blast from the Past Mailing List  
-Date: 2022-09-28 12:00  
+Date: 2022-09-30 12:00  
 Category: NACA  
 tags: about  
 status: draft
@@ -13,12 +13,13 @@ _From [NACA-TN-313]({filename}NACA-TN-313.md), 1929. [^2]_
 
 ## Summary  
 
-To sign up for the newsletter: <a href="https://stats.sender.net/forms/dygqRa/view">Sign up!</a> (via sender.net)
+To subscribe to the newsletter: <a href="https://stats.sender.net/forms/dygqRa/view">Subscribe!</a> (via sender.net)
 
 ## Discussion  
 
-I have a newsletter those who would like to receive notice of the latest posts 
-and other site-related news. Another advantage of enrolling in the mailing list is access to the secret* blog drafts that are in-work, 
+I have an email newsletter those who would like to receive notice of the latest posts 
+and other site-related news, which you can receive regardless of the weather. 
+Another advantage of subscribing to the newsletter is access to the secret* blog drafts that are in-work, 
 before the public sees them.
 
 [* Well, not so secret if one is acquainted with github.]
@@ -73,7 +74,7 @@ What is in work:
 Porter Perkins thread draft <<link for subscribers only>>
 ```
 
-To sign up: <a href="https://stats.sender.net/forms/dygqRa/view">Sign up!</a> (via sender.net)
+To subscribe to the newsletter: <a href="https://stats.sender.net/forms/dygqRa/view">Subscribe!</a> (via sender.net)
 
 ## Notes  
 
