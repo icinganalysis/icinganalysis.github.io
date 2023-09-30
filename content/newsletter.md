@@ -15,8 +15,8 @@ To subscribe to the newsletter: <a href="https://stats.sender.net/forms/dygqRa/v
 
 ## Discussion  
 
-I have an email newsletter those who would like to receive notice of the latest posts 
-and other site-related news, which you can receive regardless of the weather. 
+I have an email newsletter with the latest posts and other site-related news, 
+which you can receive regardless of the weather. 
 Another advantage of subscribing to the newsletter is access to the secret* blog drafts that are in-work, 
 before the public sees them. There is no cost to subscribe. 
 
