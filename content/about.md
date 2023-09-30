@@ -24,6 +24,8 @@ Author: [Donald E. Cook]({filename}donald-cook.md)
 
 [Ideas for Future Posts]({filename}ideas.md)  
 
+[The Blast from the Past Newsletter]({filename}newsletter.md)  
+
 The web content is hosted at two, mirrored sites:
 [icinganalysis.github.io](https://icinganalysis.github.io/)  
 [icinganalysis.com](https://icinganalysis.com/)  

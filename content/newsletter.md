@@ -1,6 +1,6 @@
 title: The Blast from the Past Newsletter  
 Date: 2023-09-30 12:00  
-tags: about  
+tags: about, newsletter  
 
 ### _“The greatest of all our problems is ice.”_  
 
