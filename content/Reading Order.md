@@ -12,11 +12,6 @@ and a microfische reader.
 ](images/GRClibrary1945.png)  
 _NACA Cleveland library, circa 1945._  
 
-<!--
-![A stack of old, hardcover books.](images%2Fstack_of_books.jpeg) 
-_From [pexels.com](https://www.pexels.com/photo/book-book-stack-books-literature-1976971/), "free to use" license._
--->
-
 ## Summary  
 
 There are over 100 articles on this website. 
@@ -63,4 +58,7 @@ compact chronological listing of articles.
 The [blog](/blog.html) is a more detailed chronological listing of articles.  
 
 You can also see a listing of article [tags](/tags.html).  
+
+You can subscribe to the newsletter in the link in the "social" section below. 
+[More information about the newsletter.]({filename}newsletter.md)  
  
