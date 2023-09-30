@@ -17,7 +17,7 @@ To sign up for the newsletter: <a href="https://stats.sender.net/forms/dygqRa/vi
 
 ## Discussion  
 
-I have a mail list of those who would like to receive notice of the latest posts 
+I have a newsletter those who would like to receive notice of the latest posts 
 and other site-related news. Another advantage of enrolling in the mailing list is access to the secret* blog drafts that are in-work, 
 before the public sees them.
 
@@ -25,38 +25,52 @@ before the public sees them.
 
 Typical publishing time-line:  
 
-- email list subscribers may view drafts  
+- email newsletter, subscribers may view drafts  
 - post at [icinganalysis.github.io](https://icinganalysis.github.io) and [icinganalysis.com](https://icinganalysis.com) (mirrored sites) (simultaneous [RSS](https://icinganalysis.com/feeds/all.rss.xml) update)  
-- email notifications  
-- post notice at mastodon [historians.social/@icinganalysis](https://historians.social/@icinganalysis)  
+- post notice at mastodon [historians.social/@icinganalysis](https://historians.social/@icinganalysis)   
 - post notice on [LinkedIn](https://www.linkedin.com/in/donald-cook-96204316a/)  
 
-## Sample email content  
+## Sample newsletter content  
 
 ```text
 Welcome to the "Blast from the Past" Newsletter!
 Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
-- Latest post:
-Site Improvements https://icinganalysis.com/site-improvements.html
-- What is in work:
-Porter Perkins thread draft
-<<link for subscribers only>>
-- Interesting finds:
-A commenter on LinkedIn pointed me to Kelley Johnson's 1940 "Wing Loading, Icing and Associated Aspects of Modern Transport Design" https://arc.aiaa.org/doi/abs/10.2514/8.10478. I might add this to the Ice Shapes and Their Effects thread on the blog.
-- Most popular posts (so far...):
+
+Latest post: Site Improvements https://icinganalysis.com/site-improvements.html
+
+Interesting finds: 
+
+A commenter on LinkedIn pointed me to Kelley Johnson's 1940 "Wing Loading, Icing and Associated Aspects of Modern Transport Design"
+https://arc.aiaa.org/doi/abs/10.2514/8.10478. I might add this to the Ice Shapes and Their Effects thread on the blog.
+
+Most popular posts (so far...):
+
 #6: NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" https://icinganalysis.com/naca-tn-313.html
 One of the earliest publications I have reviewed, with eye-catching sketches and a great quote.
-- Upcoming posts:
-The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn). 
-9/29: A Detailed Comparison of Water Drop Impingement Calculations 
-10/2: Implementation of multicylinder calculations in Python 
-10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
-- Quote of the week: 'The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”'
 
-Boiler plate:
-This is deliberately in plain text to not clog your in-basket.
-Blast from the Past: NACA Icing Publications https://icinganalysis.com
-Opinions are those of the author, and not any current or former employers.
+Upcoming posts:
+
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+9/29: A Detailed Comparison of Water Drop Impingement Calculations
+10/2: Implementation of multicylinder calculations in Python
+
+Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+The SAE AC9C Aircraft Icing Technology Committee meeting is October 23 to 26, 2023.
+https://standardsworks.sae.org/standards-committees/ac-9c-aircraft-icing-technology-committee#meetings
+
+Quote of the week: 
+
+“The greatest of all our problems is ice.”
+'The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”'
+via https://ntrs.nasa.gov/citations/20020066162
+
+What is in work:
+
+Porter Perkins thread draft <<link for subscribers only>>
 ```
 
 To sign up: <a href="https://stats.sender.net/forms/dygqRa/view">Sign up!</a> (via sender.net)
