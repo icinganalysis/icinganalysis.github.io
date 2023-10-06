@@ -4,7 +4,7 @@ tags: ice protection
 
 ### _"The possible methods for overcoming the ice hazard ..." [^1]_  
 
-![Lockheed 12-A. A large, metal constuction,
+![Lockheed 12-A. A large, metal construction,
 low wing, two engine, propeller drive airplane. 
 The tail has three vertical fins. 
 Figure 1. Lockheed 12-A airplane. 
