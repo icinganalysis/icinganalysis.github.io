@@ -80,7 +80,7 @@ and beta curves corresponding to drop sizes for the impingement limit are
 constricted and summed to yield an approximate total beta curve. 
 Fractions of total water content for each segment are determined during the process. 
 
-![Figure 17.Typical experimental impingement rate for 
+![Figure 17. Typical experimental impingement rate for 
 cylinder showing arbitrary increments of central 
 angle theta and including contributions of several 
 droplet size groups.](images/naca-tn-3338/Figure17.png)  

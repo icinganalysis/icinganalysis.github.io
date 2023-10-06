@@ -1,0 +1,134 @@
+title: Water Drop Impingement on Surfaces  
+category: impingement  
+Date: 2023-09-24 12:00  
+tags: impingement  
+status: draft
+
+# DRAFT
+
+### _"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"_  [^1]  
+
+![Figure 7 of NACA-TN-3689. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees.](/images%2FNACA-TN-3689%2FFigure%207.png)  
+_Figure 7 of NACA-TN-3689._ [^2]  
+
+## Summary  
+
+Water-drop impingement quantification is key to aircraft ice protection design.  
+
+## Introduction  
+
+Part of designing for aircraft icing is determining how much ice the airplane can accumulate. 
+For ice protection systems, determining how much water that might freeze hits a surface is a key detail. 
+
+An important effect is that the airflow around a surface such as a wing airfoil deflects water-drops, 
+so that all of the water-drops in the frontal area view will not hit the surface.
+
+Water-drop impingement quantification methods were developed to assess how many drops can hit where on a surface. 
+Direct test methods involved the use of blotter paper to absorb water drops on a surface. 
+Mathematical analysis of the paths individual water drops were developed. 
+However, any method was involved and resource intensive. 
+So, extensive libraries of water-drop impingement data for several airfoils and conditions were collected into design manuals. 
+
+Other surfaces (non-airfoils) were also included (more than half of the publications in this category), 
+as noted in the rest of the quote from above: 
+
+_"As part of a comprehensive research program concerning the problem
+of ice prevention on aircraft, an investigation of the impingement of
+cloud droplets on airfoils, aerodynamic bodies, and other aircraft 
+components has been undertaken by the NACA Lewis laboratory. The 
+investigation includes a study of cloud-droplet impingement on low-drag airfoils
+(refs. 1 to 3) and on cylinders (refs. 4 and 5). Previous investigators
+have calculated the water-droplet trajectories for cylinders (refs. 6 to 9) and for Joukowski airfoils (refs. 10 and 11). For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet
+impingement data are needed for aircraft components, including the curved
+sections or elbows in air-intake ducts."_  
+[^1]  
+
+The importance of this task is shown by noting that of the 16 categories identified in 
+[The Historical Selected Bibliography of NACA-NASA Icing Publications.md]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
+the largest category is "Impingement of Cloud Droplets" with 15 publications 
+(tied with "Wing Ice Protection"). 
+Almost 20% of the 132 publications in the "Selected Bibliography" were specifically about water-drop impingement. 
+
+There were also important additional publications included below. 
+
+## Discussion  
+
+We have extensively reviewed the impingement of water drops in the [Icing on Cylinders thread]({filename}Icing%20on%20Cylinders.md), 
+so that will not be repeated here. However, we are never far from cylinders in the NACA-era, 
+so they will come up in some publications here.
+
+### Reviews  
+
+Method of Water Drop Impingement Quantification [To be reviewed]  
+
+Bodies of revolution [To be reviewed]  
+
+- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
+    > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
+- Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
+- Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  
+- Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
+- Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
+- Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
+- Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
+
+Inlets and ducts [To be reviewed]  
+
+- Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
+- Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
+- Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
+- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
+
+Other surfaces [To be reviewed]  
+
+- Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  
+- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+    > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
+- Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
+    > review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
+
+Dye Tracer test technique [To be reviewed]  
+
+- von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
+- Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
+- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+    > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
+- Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
+- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
+
+Airfoils [To be reviewed]  
+
+- Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
+- Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-A905, 1949.  
+- Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
+- Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  
+- Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
+
+Other [To be reviewed]  
+
+- Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
+    > review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
+- Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
+    > review: [NACA-TN-2903]({filename}NACA-TN-2903.md)  
+- von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
+    > review: [Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
+
+A Tentative Identification of Water Drop Trajectory Investigators [To be reviewed]  
+
+Conclusions of the Water Drop Impingement thread [To be reviewed]  
+
+## Notes  
+
+[^1]: Gelder, Thomas F., Smyers, William H., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3689, December, 1956.  
+[^2]: Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
+
+
+
+
+
+
+
+
