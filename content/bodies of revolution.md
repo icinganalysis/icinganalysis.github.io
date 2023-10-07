@@ -37,6 +37,8 @@ given by Lamb (ref. 3).
 
 ![Figure 2. Prolate Elliptic Coodinate System.](/images%2FNACA-TN-3099%2FFigure%202.png)  
 
+### Impingement  
+
 Water-drop trajectories could then be calculated. 
 Results were presented in several forms. 
 Dimensionless parameters similar to the in 
@@ -85,7 +87,7 @@ in percent in figure 12. Integration of this curve gives a weighted
 value of r0^2,tan
 equal to 0.000425; whereas, the value based on the
 volume-median droplet size is 0.00031 (fig. 6).  
-> 
+ 
 ![Figure 6.png](/images%2FNACA-TN-3099%2FFigure%206.png)  
 
 Some results may be applied for similar, but not identical, bodies.
