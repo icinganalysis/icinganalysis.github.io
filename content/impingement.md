@@ -4,12 +4,12 @@ Date: 2023-09-24 12:00
 tags: impingement  
 status: draft
 
-# DRAFT
+# DRAFT  
 
 ### _"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"_  [^1]  
 
-![Figure 7 of NACA-TN-3689. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees.](images%2FNACA-TN-3689%2FFigure%207.png)  
-_Figure 7 of NACA-TN-3689._ [^2]  
+![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick.](/images%2Fnaca-tn-1397%2FFigure%205.png)  
+_Figure 5 of NACA-TN-1397_  
 
 ## Summary  
 
