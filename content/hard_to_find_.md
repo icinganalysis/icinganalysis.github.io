@@ -54,6 +54,7 @@ I have found one-line references to these, but no on-line sources
 
 - Chandler, H. C., Jr.: Survey of Aircraft Anti-icing Equipment. NACA restricted report, Feb. 27, 1942.  
 - Howlett, D. P.: Ice Detectors. (paper presented at 1961 Aircraft Ice Protection Conference, D. Napier & Son, Ltd.)  
+- Torgeson, W. L., and Abramson, A. E.: A Study of Heat Requirements for Anti-Icing Radome Shapes with Dry and Wet Surfaces. WADC Tech.  Rep. 53-284, Wright Air Dev. Center, Wright-Patterson Air Force Base, Sept. 1953. (Contract AF 33(6l6)-85, RDO No. 664-802.)  
 
 ## On a list of restricted/classified NASA reports  
 
