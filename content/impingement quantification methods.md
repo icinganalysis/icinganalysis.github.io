@@ -8,7 +8,7 @@ status: draft
 
 ### _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"_  
 
-![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick.](images%2Fnaca-tn-1397%2FFigure%205.png)  
+![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick.](/images%2Fnaca-tn-1397%2FFigure%205.png)  
 _Figure 5 of NACA-TN-1397_  
 
 ## Summary  
@@ -30,7 +30,7 @@ many of which are complex values to 6 digits that require manual table look-ups 
 And many trajectory calculations are required to determine "the distribution of water impingement over that area". 
 So, access to a differential analyzer could greatly increase the number of analyses accomplished.  
 
-![Table II. COMPUTATION OF A WATER-DROP TRAJECTORY (Ru^2 = 9.15 x 10^3; K = 0.0581)](images%2Fnaca-tn-1397%2FTable%20II.png)  
+![Table II. COMPUTATION OF A WATER-DROP TRAJECTORY (Ru^2 = 9.15 x 10^3; K = 0.0581)](/images%2Fnaca-tn-1397%2FTable%20II.png)  
 _Table II from NACA-TN-1397 (part 1 of 4)._  
 
 A differential analyzer was a potentially general purpose computer, 
@@ -44,7 +44,7 @@ The second operator turns another input chart crank.
 Another cylinder is labeled "Droplet Trajectories". 
 There are many shafts and gears visible in the machine. 
 Some machine parts are labeled with the differential equations of motion being solved. 
-](images/naca-tn-2904/Figure15.png)  
+](/images/naca-tn-2904/Figure15.png)  
 _Figure 15 of NACA-TN-2904. 
 Yes, I have used this figure a lot, as it is one of the best of the hundreds I have viewed from the NACA-era.
 There will be a tentative identification of these investigators later in this thread._  
@@ -58,7 +58,7 @@ This more or less directly measured the rate of water impingement on a surface.
 It did not and could not measure individual water drop trajectories. 
 
 ![Figure 20. Experimental local water impingement rates for three cylinder sizes. 
-Airspeed, 175 miles per hour.](images/naca-tn-3338/Figure20.png)  
+Airspeed, 175 miles per hour.](/images/naca-tn-3338/Figure20.png)  
 _Figure 20 from NACA-TN-3338._  
 
 A limitation was that the drop size distribution produced by the icing tunnel spray nozzles was not well known at the time, 
@@ -69,7 +69,7 @@ See the [Calibration of the NACA Icing Tunnels thread]({filename}calibration_of_
 ![Figure 17. Typical experimental impingement rate for 
 cylinder showing arbitrary increments of central 
 angle theta and including contributions of several 
-droplet size groups.](images/naca-tn-3338/Figure17.png)  
+droplet size groups.](/images/naca-tn-3338/Figure17.png)  
 _Figure 17 from NACA-TN-3338._  
 
 ### Techniques
