@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Water Drop Impingement Quantification</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="DRAFT "One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                <nav><ul>
+                    <li><a href="/index.html">Welcome</a></li>
+                    <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                    <li><a href="/archives.html">Latest Posts</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/water-drop-impingement-quantification.html" rel="bookmark"
+           title="Permalink to Water Drop Impingement Quantification">Water Drop Impingement Quantification</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-10-05T12:00:00-07:00">
+                Published: Thu 05 October 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-10-07T09:14:22.430959-07:00">
+                Updated: Sat 07 October 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/impingement.html">impingement</a>.</p>-->
+<p>tags: <a href="/tag/impingement.html">impingement</a><br> </p>
+</footer><!-- /.post-info -->      <h1>DRAFT</h1>
+<h3><em>"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"</em></h3>
+<p><img alt="Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick." src="images%2Fnaca-tn-1397%2FFigure%205.png"><br>
+<em>Figure 5 of NACA-TN-1397</em>  </p>
+<h2>Summary</h2>
+<p>Several methods were used to quantify the water-drop impingement on a surface, such as a wing. </p>
+<h2>Discussion</h2>
+<p>We already saw in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a> calculations made for impingement on a cylinder. 
+The technique was expanded in NACA-TN-1397 to include Joukowski type airfoils. 
+This allowed a transformation of the flow solution around a cylinder to be mapped into airfoil coordinates, 
+and then used to solve for water drop trajectory calculations, similar to those used for cylinders. </p>
+<p>NACA-TN-1397 said one could calculate "the trajectory a single drop without the utilization of a differential analyzer". 
+We saw the differential analyzer in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>, 
+in particular detail in <a href="/naca-tn-2904.html">NACA-TN-2904</a>. 
+However, the example given (Table II) has 32 columns with 37 rows of values (over 1000 values total), 
+many of which are complex values to 6 digits that require manual table look-ups and subsequent calculation. 
+And many trajectory calculations are required to determine "the distribution of water impingement over that area". 
+So, access to a differential analyzer could greatly increase the number of analyses accomplished.  </p>
+<p><img alt="Table II. COMPUTATION OF A WATER-DROP TRAJECTORY (Ru^2 = 9.15 x 10^3; K = 0.0581)" src="images%2Fnaca-tn-1397%2FTable%20II.png"><br>
+<em>Table II from NACA-TN-1397 (part 1 of 4).</em>  </p>
+<p>A differential analyzer was a potentially general purpose computer, 
+that could be re-arranged to perform different integrations. 
+The "Water-drop-trajectory analog" was, apparently, purpose-built to solve the drop trajectory differential equations only. </p>
+<p><img alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled &quot;Input Chart&quot;. 
+The second operator turns another input chart crank. 
+Another cylinder is labeled &quot;Droplet Trajectories&quot;. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+" src="images/naca-tn-2904/Figure15.png"><br>
+<em>Figure 15 of NACA-TN-2904. 
+Yes, I have used this figure a lot, as it is one of the best of the hundreds I have viewed from the NACA-era.
+There will be a tentative identification of these investigators later in this thread.</em>  </p>
+<p>With enough clever physics, math, and algebra, some geometries yield a closed-form solution for drop trajectories, 
+at least in potential flow conditions. 
+NACA-TR-1159 has examples for a wedge in supersonic flow with an attached shock wave. </p>
+<p>We saw the dye-tracer test technique in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>. 
+This more or less directly measured the rate of water impingement on a surface. 
+It did not and could not measure individual water drop trajectories. </p>
+<p><img alt="Figure 20. Experimental local water impingement rates for three cylinder sizes. 
+Airspeed, 175 miles per hour." src="images/naca-tn-3338/Figure20.png"><br>
+<em>Figure 20 from NACA-TN-3338.</em>  </p>
+<p>A limitation was that the drop size distribution produced by the icing tunnel spray nozzles was not well known at the time, 
+and the dye tracer method itself was used to better estimate the distribution, 
+so that dye tracer test results could be more accurately assessed (<a href="/naca-tn-3338.html">NACA-TN-3338</a>). 
+See the <a href="/calibration-of-the-naca-icing-wind-tunnels.html">Calibration of the NACA Icing Tunnels thread</a> for how drop size measurement techniques progressed.</p>
+<p><img alt="Figure 17. Typical experimental impingement rate for 
+cylinder showing arbitrary increments of central 
+angle theta and including contributions of several 
+droplet size groups." src="images/naca-tn-3338/Figure17.png"><br>
+<em>Figure 17 from NACA-TN-3338.</em>  </p>
+<h3>Techniques</h3>
+<h3>Joukowski transformation</h3>
+<ul>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  </li>
+</ul>
+<h3>Differential Analyzer</h3>
+<ul>
+<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  </li>
+<li>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.<br>
+    &gt; review: <a href="/naca-tn-2904.html">NACA-TN-2904</a>  </li>
+<li>Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.<br>
+    &gt; review: <a href="/naca-tn-2903.html">NACA-TN-2903</a>  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.</li>
+<li>Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.</li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
+<li>Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  </li>
+<li>Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  </li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
+<li>Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  </li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  </li>
+<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
+<li>Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  </li>
+<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
+<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)<br>
+    &gt; review: <a href="/naca-tr-1215.html">NACA-TR-1215</a>, <a href="/naca-tr-1215-thermodynamics.html">NACA-TR-1215 Thermodynamics</a>  </li>
+<li>Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  </li>
+</ul>
+<h3>Closed-form solution</h3>
+<ul>
+<li>Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  </li>
+</ul>
+<h3>Dye Tracer</h3>
+<ul>
+<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.<br>
+    &gt; review: <a href="/naca-tn-3338.html">NACA-TN-3338</a>  </li>
+<li>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.<br>
+    &gt; review: <a href="/scaling-in-naca-icing-wind-tunnel-tests.html">Scaling in NACA tests</a>  </li>
+<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  </li>
+<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  </li>
+<li>Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  </li>
+</ul>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies. <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+                copyright 2022-2023 by Donald Cook
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
