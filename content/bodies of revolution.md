@@ -135,7 +135,7 @@ in general the effect of rotation appeared to be negligible up to 1200 rpm.
 ![Figure 11. Comparison of experimental and theoretical local impingement efficiencies 
 for ellipsoid of fineness ratio of 3.0 at four droplet diameters and zero angle of attack.](/images%2FNACA-TN-4092%2FFigure%2011.png)  
 
-The effect of angle of attack were also measured (not detailed herein).  
+The effects of angle of attack were also measured (not detailed herein).  
 
 ## Conclusions
 
