@@ -45,9 +45,7 @@ sections or elbows in air-intake ducts."_
 
 The importance of this "investigation of the impingement" is shown by noting that of the 16 categories identified in 
 [The Historical Selected Bibliography of NACA-NASA Icing Publications.md]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
-the largest category is "Impingement of Cloud Droplets" with 15 publications 
-(tied with "Wing Ice Protection"). 
-Almost 20% of the 132 publications in the "Selected Bibliography" were specifically about water-drop impingement. 
+the largest category is "Impingement of Cloud Droplets" with 25 publications (out of 132 total publications). 
 
 There were also important additional publications included below. 
 
@@ -59,7 +57,7 @@ so they will come up in some publications here.
 
 ### Reviews  
 
-[Methods of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)
+[Methods of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)  
 
 Bodies of revolution [To be reviewed]  
 
@@ -82,8 +80,8 @@ Shadow zones and concentration zones [To be reviewed]
 Inlets and ducts [To be reviewed]  
 
 - Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
-- Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
 - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
+- Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
 Dye Tracer test technique [To be reviewed]  
@@ -105,7 +103,7 @@ Airfoils [To be reviewed]
 - Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
-- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.
+- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 
 Other Surfaces [To be reviewed]  
 
