@@ -161,10 +161,10 @@ between the experimental and theoretical impingement characteristics.
 
 From scholar.google.com:  
 
-NACA-TN-3099 29  
+NACA-TN-3099 29 citations  
 NACA-TN-3147 (google could not find any)  
-NACA-TN-3587 1  
-NACA-TN-4092 18
+NACA-TN-3587 1 citation  
+NACA-TN-4092 18 citations  
 
 ## Notes
 
