@@ -59,13 +59,13 @@ so they will come up in some publications here.
 
 ### Reviews  
 
-Method of Water Drop Impingement Quantification [To be reviewed]  
-
-[impingement quantification methods]({filename}impingement%20quantification%20methods.md)
+[Method of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)
 
 Bodies of revolution [To be reviewed]  
 
+<!--
 [bodies of revolution.md]({filename}bodies%20of%20revolution.md)  
+-->
 
 - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
 - Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  
