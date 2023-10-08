@@ -1,6 +1,6 @@
 title: Water Drop Impingement on Surfaces  
 category: impingement  
-Date: 2023-09-24 12:00  
+Date: 2023-10-08 12:00  
 tags: impingement  
 status: draft
 
@@ -72,7 +72,7 @@ Bodies of revolution [To be reviewed]
 - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
 
-Non-impingement: the shadow zone [To be reviewed]  
+Shadow zones and concentration zones [To be reviewed]  
 
 - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
     > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
