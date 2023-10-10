@@ -166,6 +166,10 @@ NACA-TN-3147 (google could not find any)
 NACA-TN-3587 1 citation  
 NACA-TN-4092 18 citations  
 
+## Related  
+
+This is part of the [Water Drop Impingement on Surfaces thread]({filename}impingement.md).  
+
 ## Notes
 
 [^1]: Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
