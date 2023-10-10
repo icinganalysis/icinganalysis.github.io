@@ -1,0 +1,59 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Site Improvements https://icinganalysis.com/site-improvements.html
+
+- Interesting finds:
+
+A commenter on LinkedIn pointed me to Kelley Johnson's 1940 "Wing Loading, Icing and Associated Aspects of Modern Transport Design" https://arc.aiaa.org/doi/abs/10.2514/8.10478. I might add this to the Ice Shapes and Their Effects thread on the blog.
+
+- Most popular posts (so far...):
+
+#6: NACA-TN-313, "The Formation of Ice upon Airplanes in Flight" https://icinganalysis.com/naca-tn-313.html
+One of the earliest publications I have reviewed, with eye-catching sketches and a great quote.
+
+- Upcoming posts:
+
+The reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+9/29: A Detailed Comparison of Water Drop Impingement Calculations
+10/2: Implementation of multicylinder calculations in Python
+10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
+10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"
+10/6: NACA-TN-1424, "A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing"
+10/11: The Historical Selected Bibliography of NACA-NASA Icing Publications
+10/13: NACA-RM-A9C09, "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"
+10/16: The Greatest Thing That You Have (Probably) Never Read: AC 00-6A
+10/18: NACA-TN-1904, "Observations of Icing Conditions Encountered in Flight During 1948"
+10/20: NACA-TN-2708, "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/...
+
+The SAE AC9C Aircraft Icing Technology Committee meeting is October 23 to 26, 2023.
+https://standardsworks.sae.org...
+
+- Quote of the week:
+
+“the greatest of all our problems is ice.”
+
+'The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”'
+
+via https://ntrs.nasa.gov/citation...
+
+- What is in work:
+
+Porter Perkins thread draft https://icinganalysis.com/draf...
+Public Domain image of the week:
+
+https://icinganalysis.com/images/naca-tn-2904/Figure15.png
+#AltText: Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer.
+One is seated turning a crank attached to a large cylinder labeled "Input Chart".
+The second operator turns another input chart crank.
+Another cylinder is labeled "Droplet Trajectories".
+There are many shafts and gears visible in the machine.
+Some machine parts are labeled with the differential equations of motion being solved.
