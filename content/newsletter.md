@@ -18,7 +18,7 @@ To subscribe to the newsletter: <a href="https://stats.sender.net/forms/dygqRa/v
 I have an email newsletter with the latest posts and other site-related news, 
 which you can receive regardless of the weather. 
 Another advantage of subscribing to the newsletter is access to the secret* blog drafts that are in-work, 
-before the public sees them. There is no cost to subscribe. 
+before the public sees them, and access to the secret* newsletter archives. There is no cost to subscribe. 
 
 _[* Well, not so secret if one is acquainted with github.]_
 
