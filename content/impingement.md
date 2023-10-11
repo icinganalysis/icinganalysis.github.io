@@ -1,15 +1,14 @@
-title: Water Drop Impingement on Surfaces  
+title: Water Drop Impingement on Surfaces 
 category: impingement  
-Date: 2023-10-12 12:00  
+Date: 2023-10-11 12:00  
 tags: impingement  
-status: draft
-
-# DRAFT  
 
 ### _"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"_  [^1]  
 
 ![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick.](/images%2Fnaca-tn-1397%2FFigure%205.png)  
 _Figure 5 of NACA-TN-1397_  
+
+# Water Drop Impingement on Surfaces Thread
 
 ## Summary  
 
@@ -59,7 +58,11 @@ so they will come up in some publications here.
 
 ## Reviews  
 
+### Methods of Water Drop Impingement Quantification [To be reviewed]  
+
+<!--
 ### [Methods of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)  
+-->
 
 > _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area."_  
 
