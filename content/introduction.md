@@ -36,7 +36,6 @@ I have read thousands of pages so that you do not have to.
 I summarize each paper for you with:  
 - a quote from the paper  
 - a one-line summary  
-- key points  
 - the Abstract (in searchable text form, not just a pdf image)  
 
 And more details:  
