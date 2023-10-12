@@ -11,7 +11,7 @@ _NACA-TR-1317._
 _From NACA-TR-1317._  
 
 # NACA-TR-1317, "Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1.0 and 0.7."  
-and 
+and  
 # NACA-TN-4268, "Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions."  
 
 ## Summary  
@@ -212,6 +212,13 @@ and will be further reviewed later in this thread.
 At a company I worked at we had an internal design manual that cataloged dozens 
 of impingement analysis for several inlets. The results were similar to Figure 4 above, 
 all with the same general trends, but there were differences in the details. 
+
+## Citations  
+
+From scholar.google.com:
+
+NACA-TR-1317: 8 citations  
+NACA-TN-4268: 12 citations  
 
 ## Related  
 
