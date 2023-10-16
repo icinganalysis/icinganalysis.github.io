@@ -23,14 +23,14 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/water-drop-impingement-on-surfaces.html">Water Drop Impingement on Surfaces</a></h1>
+                    <h1 class="entry-title"><a href="/methods-of-water-drop-impingement-quantification.html">Methods of Water Drop Impingement Quantification</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2023-10-11T12:00:00-07:00">
-                Published: Wed 11 October 2023
+        <abbr class="published" title="2023-10-16T15:00:00-07:00">
+                Published: Mon 16 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-12T13:56:08.961592-07:00">
-                Updated: Thu 12 October 2023
+        <abbr class="modified" title="2023-10-16T14:24:07.509905-07:00">
+                Updated: Mon 16 October 2023
         </abbr>
 <!---->
         <!---->
@@ -42,7 +42,137 @@
         <!---->
 <!--<p>In <a href="/category/impingement.html">impingement</a>.</p>-->
 <p>tags: <a href="/tag/impingement.html">impingement</a><br> </p>
-</footer><!-- /.post-info --><h3><em>"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</footer><!-- /.post-info --><h3><em>"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"</em></h3>
+<p><em>From NACA-TN-1397.</em>  </p>
+<p><img alt="Figure 7 of NACA-TN-3689. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees." src="/images%2FNACA-TN-3689%2FFigure%207.png"><br>
+<em>From NACA-TN-3689.</em>    </p>
+<h2>Summary</h2>
+<p>Several methods were used to quantify the water-drop impingement on a surface, such as a wing. </p>
+<h2>Discussion</h2>
+<p>We already saw in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a> calculations made for impingement on a cylinder. 
+The technique was expanded in NACA-TN-1397 to include Joukowski type airfoils. 
+This allowed a transformation of the flow solution around a cylinder to be mapped into airfoil coordinates, 
+and then used to solve for water drop trajectory calculations, similar to those used for cylinders. </p>
+<p>NACA-TN-1397 said one could calculate "the trajectory a single drop without the utilization of a differential analyzer". 
+We saw the differential analyzer in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>, 
+in particular detail in <a href="/naca-tn-2904.html">NACA-TN-2904</a>. 
+However, the example given (Table II) has 32 columns with 37 rows of values (over 1000 values total), 
+many of which are complex values to 6 digits that require manual table look-ups and subsequent calculation. 
+And many trajectory calculations are required to determine "the distribution of water impingement over that area". 
+So, access to a differential analyzer could greatly increase the number of analyses accomplished.  </p>
+<p><img alt="Table II. COMPUTATION OF A WATER-DROP TRAJECTORY (Ru^2 = 9.15 x 10^3; K = 0.0581)" src="/images%2Fnaca-tn-1397%2FTable%20II.png"><br>
+<em>Table II from NACA-TN-1397 (part 1 of 4).</em>  </p>
+<p>A differential analyzer was a potentially general purpose computer, 
+that could be re-arranged to perform different integrations. 
+The "Water-drop-trajectory analog" was, apparently, purpose-built to solve the drop trajectory differential equations only. </p>
+<p><img alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labeled &quot;Input Chart&quot;. 
+The second operator turns another input chart crank. 
+Another cylinder is labeled &quot;Droplet Trajectories&quot;. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labeled with the differential equations of motion being solved. 
+" src="/images/naca-tn-2904/Figure15.png"><br>
+<em>Figure 15 of NACA-TN-2904. 
+Yes, I have used this figure a lot, as it is one of the best of the hundreds I have viewed from the NACA-era.
+There will be a tentative identification of these investigators later in this thread.</em>  </p>
+<p>With enough clever physics, math, and algebra, some geometries yield a closed-form solution for drop trajectories, 
+at least in potential flow conditions. 
+NACA-TR-1159 has examples for a wedge in supersonic flow with an attached shock wave. </p>
+<p>We saw the dye-tracer test technique in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>. 
+This more or less directly measured the rate of water impingement on a surface. 
+It did not and could not measure individual water drop trajectories. </p>
+<p><img alt="Figure 20. Experimental local water impingement rates for three cylinder sizes. 
+Airspeed, 175 miles per hour." src="/images/naca-tn-3338/Figure20.png"><br>
+<em>Figure 20 from NACA-TN-3338.</em>  </p>
+<p>A limitation was that the drop size distribution produced by the icing tunnel spray nozzles was not well known at the time, 
+and the dye tracer method itself was used to better estimate the distribution, 
+so that dye tracer test results could be more accurately assessed (<a href="/naca-tn-3338.html">NACA-TN-3338</a>). 
+See the <a href="/calibration-of-the-naca-icing-wind-tunnels.html">Calibration of the NACA Icing Tunnels thread</a> for how drop size measurement techniques progressed.</p>
+<p><img alt="Figure 17. Typical experimental impingement rate for 
+cylinder showing arbitrary increments of central 
+angle theta and including contributions of several 
+droplet size groups." src="/images/naca-tn-3338/Figure17.png"><br>
+<em>Figure 17 from NACA-TN-3338.</em>  </p>
+<h3>Techniques</h3>
+<h3>Joukowski transformation</h3>
+<ul>
+<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  </li>
+</ul>
+<h3>Differential Analyzer</h3>
+<ul>
+<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  </li>
+<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  </li>
+<li>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.<br>
+    &gt; review: <a href="/naca-tn-2904.html">NACA-TN-2904</a>  </li>
+<li>Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.<br>
+    &gt; review: <a href="/naca-tn-2903.html">NACA-TN-2903</a>  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.</li>
+<li>Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.</li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
+<li>Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  </li>
+<li>Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  </li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
+<li>Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  </li>
+<li>Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  </li>
+<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
+<li>Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  </li>
+<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)<br>
+    &gt; review: <a href="/naca-tr-1215.html">NACA-TR-1215</a>, <a href="/naca-tr-1215-thermodynamics.html">NACA-TR-1215 Thermodynamics</a>  </li>
+<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
+<li>Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  </li>
+</ul>
+<h3>Closed-form solution</h3>
+<ul>
+<li>Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  </li>
+</ul>
+<h3>Dye Tracer</h3>
+<ul>
+<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.<br>
+    &gt; review: <a href="/naca-tn-3338.html">NACA-TN-3338</a>  </li>
+<li>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.<br>
+    &gt; review: <a href="/scaling-in-naca-icing-wind-tunnel-tests.html">Scaling in NACA tests</a>  </li>
+<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  </li>
+<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  </li>
+<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  </li>
+<li>Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  </li>
+</ul>
+<h2>Related</h2>
+<p>This is part of the <a href="/water-drop-impingement-on-surfaces.html">Water Drop Impingement on Surfaces thread</a>.  </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/water-drop-impingement-on-surfaces.html" rel="bookmark"
+                           title="Permalink to Water Drop Impingement on Surfaces">Water Drop Impingement on Surfaces</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-10-11T12:00:00-07:00">
+                Published: Wed 11 October 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2023-10-16T14:25:59.929974-07:00">
+                Updated: Mon 16 October 2023
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/impingement.html">impingement</a>.</p>-->
+<p>tags: <a href="/tag/impingement.html">impingement</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 <p><img alt="Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick." src="/images%2Fnaca-tn-1397%2FFigure%205.png"><br>
 <em>Figure 5 of NACA-TN-1397</em>  </p>
 <h1>Water Drop Impingement on Surfaces Thread</h1>
@@ -55,163 +185,10 @@ For ice protection systems, determining how much water that might freeze hits a 
 so that all of the water-drops in the frontal area view will not hit the surface.</p>
 <p>Water-drop impingement quantification methods were developed to assess how many drops can hit where on a surface. 
 Direct test methods involved the use of blotter paper to absorb water drops on a surface. 
-Mathematical analysis of the paths individual water drops were developed. 
-However, any method was involved and resource intensive. 
-So, extensive libraries of water-drop impingement data for several airfoils and conditions were collected into design manuals. </p>
-<p>Other surfaces (non-airfoils) were also included (more than half of the publications in this category), 
-as noted in the rest of the quote from above: </p>
-<p><em>"As part of a comprehensive research program concerning the problem
-of ice prevention on aircraft, an investigation of the impingement of
-cloud droplets on airfoils, aerodynamic bodies, and other aircraft 
-components has been undertaken by the NACA Lewis laboratory. The 
-investigation includes a study of cloud-droplet impingement on low-drag airfoils
-(refs. 1 to 3) and on cylinders (refs. 4 and 5). Previous investigators
-have calculated the water-droplet trajectories for cylinders (refs. 6 to 9) 
-and for Joukowski airfoils (refs. 10 and 11). 
-For a complete appraisal of the problem of ice prevention on aircraft, 
-further water-droplet impingement data are needed for aircraft components, 
-including the curved sections or elbows in air-intake ducts."</em><br>
-<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>  </p>
-<p>The importance of this "investigation of the impingement" is shown by noting that of the 16 categories identified in 
-<a href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">The Historical Selected Bibliography of NACA-NASA Icing Publications.md</a>, 
-the largest category is "Impingement of Cloud Droplets" with 25 publications (out of 132 total publications). </p>
-<p>There were also important additional publications included below. </p>
-<h2>Discussion</h2>
-<p>We have extensively reviewed the impingement of water drops in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>, 
-so that will not be repeated here. However, we are never far from cylinders in the NACA-era, 
-so they will come up in some publications here.</p>
-<h2>Reviews</h2>
-<h3>Methods of Water Drop Impingement Quantification [To be reviewed]</h3>
-<!--
-10/17
-### [Methods of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)  
--->
-
-<blockquote>
-<p><em>"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area."</em>  </p>
-</blockquote>
-<h3>Bodies of revolution [To be reviewed]</h3>
-<!--
-10/19
-[bodies of revolution.md]({filename}bodies%20of%20revolution.md)  
--->
-<blockquote>
-<p><em>"The presence of radomes and instruments that are sensitive to water films or ice formations in the nose section of all-weather aircraft and missiles necessitates a knowledge of the droplet impingement characteristics of bodies of revolution."</em>  </p>
-</blockquote>
-<ul>
-<li>Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  </li>
-<li>Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  </li>
-<li>Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  </li>
-<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  </li>
-</ul>
-<h3>Shadow zones and concentration zones [To be reviewed]</h3>
-<!--
-10/24
--->
-<blockquote>
-<p><em>"... local concentration factors should be considered when choosing the location of devices that protrude into the stream from aircraft fuselages or missiles, or when determining anti-icing heat requirements for the protection of these devices."</em>  </p>
-</blockquote>
-<ul>
-<li>Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.<br>
-    &gt; review: <a href="/naca-tn-1424.html">NACA-TN-1424</a>  </li>
-<li>Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  </li>
-<li>Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  </li>
-</ul>
-<h3>Engine Inlets [To be reviewed]</h3>
-<!--
-10/26
--->
-
-<blockquote>
-<p><em>"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"</em>  </p>
-</blockquote>
-<ul>
-<li>Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  </li>
-<li>Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  </li>
-</ul>
-<h3>Elbows and ducts [To be reviewed]</h3>
-<!--
-10/31
--->
-
-<blockquote>
-<p><em>"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."</em>  </p>
-</blockquote>
-<ul>
-<li>Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  </li>
-<li>Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  </li>
-</ul>
-<h3>Dye Tracer test technique [To be reviewed]</h3>
-<!--
-11/01
--->
-
-<ul>
-<li>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  </li>
-<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  </li>
-<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.<br>
-    &gt; review: <a href="/naca-tn-3338.html">NACA-TN-3338</a>  </li>
-<li>Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  </li>
-<li>Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  </li>
-</ul>
-<h3>Airfoils [To be reviewed]</h3>
-<!--
-11/07
--->
-
-<ul>
-<li>Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  </li>
-<li>Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-A905, 1949.  </li>
-<li>Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  </li>
-<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  </li>
-<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  </li>
-<li>Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  </li>
-<li>Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  </li>
-<li>Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  </li>
-<li>Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  </li>
-</ul>
-<h3>Other Surfaces [To be reviewed]</h3>
-<!--
-11/9
--->
-
-<ul>
-<li>Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.<br>
-    &gt; review: <a href="/naca-tn-2904.html">NACA-TN-2904</a>  </li>
-<li>Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.<br>
-    &gt; review: <a href="/naca-tn-2903.html">NACA-TN-2903</a>  </li>
-<li>von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.<br>
-    &gt; review: <a href="/naca-tn-3338.html">NACA-TN-3338</a>  </li>
-<li>Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)<br>
-    &gt; review: <a href="/naca-tr-1215.html">NACA-TR-1215</a>, <a href="/naca-tr-1215-thermodynamics.html">NACA-TR-1215 Thermodynamics</a>  </li>
-<li>Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  </li>
-<li>von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.<br>
-    &gt; review: <a href="/scaling-in-naca-icing-wind-tunnel-tests.html">Scaling in NACA tests</a>  </li>
-</ul>
-<h3>A Tentative Identification of Water Drop Trajectory Investigators [To be reviewed]</h3>
-<!--
-11/14
--->
-
-<h3>Conclusions of the Water Drop Impingement thread [To be reviewed]</h3>
-<!--
-11/16
--->
-
-<h2>Notes</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+Mathematical analysis of the paths individual water drops were developed …</p>
+                <a class="readmore" href="/water-drop-impingement-on-surfaces.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -225,8 +202,8 @@ so they will come up in some publications here.</p>
                 Published: Sat 30 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-10T12:23:32.380810-07:00">
-                Updated: Tue 10 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -269,8 +246,8 @@ before the public sees them, and access to the secret* newsletter archives. Ther
                 Published: Sat 16 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.105430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.833913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -310,8 +287,8 @@ tab at the top of the page for the complete list of …</p>
                 Published: Wed 31 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.025257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -358,8 +335,8 @@ It is observed …</p></blockquote>
                 Published: Tue 30 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -403,8 +380,8 @@ and if the flow of protection or the icing severity can be …</p></blockquote>
                 Published: Thu 25 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -454,8 +431,8 @@ the author and presenter Bernard Vonnegut:  </p>
                 Published: Wed 24 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -508,8 +485,8 @@ Here is a listing of the lecture titles and authors
                 Published: Mon 22 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -558,8 +535,8 @@ only a limited number of NACA publications went directly into determining the �
                 Published: Wed 17 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -611,8 +588,8 @@ values of liquid-water content …</p></blockquote>
                 Published: Mon 15 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -655,8 +632,8 @@ aircraft components, such as …</li></ol>
                 Published: Wed 10 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -708,8 +685,8 @@ of …</p></blockquote>
                 Published: Wed 03 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -759,8 +736,8 @@ data …</p></blockquote>
                 Published: Mon 01 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -813,8 +790,8 @@ Great Lakes …</p></blockquote>
                 Published: Fri 21 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -867,8 +844,8 @@ free-water …</p></blockquote>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -918,8 +895,8 @@ This helped put the data on a sound scientific basis. </p>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.041259-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -978,8 +955,8 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Thu 06 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1031,8 +1008,8 @@ so that …</p>
                 Published: Mon 03 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1082,8 +1059,8 @@ all of the design manuals heavily …</p>
                 Published: Sat 01 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.097430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.825912-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1170,8 +1147,8 @@ decreased lift pushing down, and increased weight pulling down." src="images/For
                 Published: Wed 29 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1216,8 +1193,8 @@ practical tests of actual ice deposit …</p></blockquote>
                 Published: Mon 13 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1269,8 +1246,8 @@ of ice on the total aircraft.
                 Published: Mon 06 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1325,8 +1302,8 @@ conducting a program of …</p></blockquote>
                 Published: Sun 26 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1376,8 +1353,8 @@ Today, for aircraft deicing on the …</p>
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1430,8 +1407,8 @@ as well as data needed for analysis
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.037258-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1493,8 +1470,8 @@ However …</p>
                 Published: Mon 13 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1550,8 +1527,8 @@ for ice protection, cabin heating, and other functions. </p>
                 Published: Mon 06 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.037258-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1601,8 +1578,8 @@ study has been made …</p></blockquote>
                 Published: Thu 02 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1649,8 +1626,8 @@ These could be affect by ice …</p>
                 Published: Mon 30 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1697,8 +1674,8 @@ While some "inter-cycle" ice forms, the maximum amount …</p>
                 Published: Mon 30 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-07T09:53:29.632824-07:00">
-                Updated: Sat 07 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.041259-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1751,8 +1728,8 @@ finding them as loanable print copies or digitally.  </p>
                 Published: Sat 28 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-06T13:36:35.669236-07:00">
-                Updated: Fri 06 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.041259-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1807,8 +1784,8 @@ If dangerous icing conditions are inadvertently encountered …</p></blockquote>
                 Published: Sun 22 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1852,8 +1829,8 @@ I have no idea what the orange thing (ribbon and bow?) is on the wing.   </p>
                 Published: Fri 13 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1907,8 +1884,8 @@ I wrote 33 reviews. <br>
                 Published: Sun 08 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -1970,8 +1947,8 @@ the current "Appendix C" icing certification standard <sup id="fnref:2"><a class
                 Published: Tue 03 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2018,8 +1995,8 @@ this type is needed to provide pertinent meteorological …</p></blockquote>
                 Published: Thu 15 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2065,8 +2042,8 @@ the droplet size, the size spectrum …</p></blockquote>
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.989253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2112,8 +2089,8 @@ Technical papers were presented by government research and test …</p></blockqu
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2156,8 +2133,8 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Sun 11 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2204,8 +2181,8 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Thu 08 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2250,8 +2227,8 @@ faster than other technologies available in the NACA-era.  </li>
                 Published: Sun 04 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2298,8 +2275,8 @@ In NACA-TN-3592, water drops were captured in an oil stream exposed to the ambie
                 Published: Mon 28 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2346,8 +2323,8 @@ values for the desired and acceptable accuracy of measurement for …</p></block
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2394,8 +2371,8 @@ The ice changes the shape of the wing …</p>
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.097430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.825912-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2497,8 +2474,8 @@ and distant descendants of some devices are still used today. </p>
                 Published: Mon 29 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2543,8 +2520,8 @@ AC 25-28 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> desc
                 Published: Sun 21 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2590,8 +2567,8 @@ the previous set of tests conducted in NRCC Altitude Icing Wind Tunnel where …
                 Published: Tue 16 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.037258-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2639,8 +2616,8 @@ any surplus vapor above this value will condense as liquid water. </p>
                 Published: Wed 10 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.025257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2693,8 +2670,8 @@ here and scaling methods considered are applicable …</p></blockquote>
                 Published: Sun 07 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2740,8 +2717,8 @@ Scaling laws governing these tests …</p></blockquote>
                 Published: Wed 03 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2783,8 +2760,8 @@ content (LWC), median volume diameter (MVD), pressure (P)], could …</p></block
                 Published: Mon 01 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2833,8 +2810,8 @@ and aircraft components for system certification would be to conduct …</p></bl
                 Published: Wed 27 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.105430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.833913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2881,8 +2858,8 @@ to the design …</p></blockquote>
                 Published: Sun 24 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2928,8 +2905,8 @@ and producing a water drop spray that is uniform "enough". </p>
                 Published: Thu 21 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-16T14:28:03.606489-07:00">
+                Updated: Mon 16 October 2023
         </abbr>
 <!---->
         <!---->
@@ -2981,8 +2958,8 @@ to read the articles in the order below.  </p>
                 Published: Wed 20 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3026,8 +3003,8 @@ The four other tunnels are briefly described in the "Other …</p>
                 Published: Mon 18 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.677331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3077,8 +3054,8 @@ effective in preventing the formation …</p></blockquote>
                 Published: Fri 15 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3121,8 +3098,8 @@ Instead …</p>
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3174,8 +3151,8 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.105430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.833913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3222,8 +3199,8 @@ to the SAE AC-9C Aircraft Icing Technology Committee and it was well received. <
                 Published: Wed 06 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3271,8 +3248,8 @@ That was the …</p>
                 Published: Wed 29 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.025257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3320,8 +3297,8 @@ such as the 65A004 airfoil".  </li>
                 Published: Mon 27 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.677331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3369,8 +3346,8 @@ the …</p></blockquote>
                 Published: Wed 22 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3411,8 +3388,8 @@ the …</p></blockquote>
                 Published: Sun 19 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.013255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3457,8 +3434,8 @@ over …</p></blockquote>
                 Published: Tue 14 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3507,8 +3484,8 @@ ice formation on the propeller blades was 19 percent. During
                 Published: Mon 13 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.025257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3556,8 +3533,8 @@ At the request of the N.A.C.A. a questionnaire …</p></blockquote>
                 Published: Wed 08 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3608,8 +3585,8 @@ span of the airfoil. The results provide …</p></blockquote>
                 Published: Mon 06 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.677331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3661,8 +3638,8 @@ It features:<br>
                 Published: Sat 04 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.041259-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3718,8 +3695,8 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Fri 03 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.673331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3766,8 +3743,8 @@ conditions, within the duct. If cloud water …</p></blockquote>
                 Published: Tue 31 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3809,8 +3786,8 @@ of the research …</p></blockquote>
                 Published: Wed 25 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3858,8 +3835,8 @@ especially to be familiar with the …</p>
                 Published: Mon 23 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3908,8 +3885,8 @@ reached from the foregoing parts of this report:</p>
                 Published: Thu 19 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -3973,8 +3950,8 @@ A more detailed ice detector simulation
                 Published: Wed 18 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4025,8 +4002,8 @@ A more detailed ice detector simulation
                 Published: Sat 14 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4081,8 +4058,8 @@ Key technical …</p></blockquote>
                 Published: Thu 12 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.677331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4132,8 +4109,8 @@ bodies …</p></blockquote>
                 Published: Wed 11 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4182,8 +4159,8 @@ mechanical analog constructed for the study …</p></blockquote>
                 Published: Mon 09 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.673331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4226,8 +4203,8 @@ the ratio of sublimation …</p></blockquote>
                 Published: Wed 04 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.673331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4274,8 +4251,8 @@ Schmidt number of the diffusing fluid in the …</p></blockquote>
                 Published: Mon 02 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.013255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4325,8 +4302,8 @@ entrained in …</p></blockquote>
                 Published: Thu 28 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.997253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4371,8 +4348,8 @@ there are limiting …</p></blockquote>
                 Published: Tue 26 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.013255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4422,8 +4399,8 @@ The …</p></blockquote>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.689332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.033257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4485,8 +4462,8 @@ although there are often exceptions:</p>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4540,8 +4517,8 @@ The calculations that often must be made point by point along …</p></blockquot
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.105430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.833913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4596,8 +4573,8 @@ The goal is to be applicable for all 3.7+ uses. </p>
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4650,8 +4627,8 @@ In this paper, a complete analysis of the temperature …</p></blockquote>
                 Published: Tue 19 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4698,8 +4675,8 @@ and found to be usually less than the …</p></blockquote>
                 Published: Mon 18 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4748,8 +4725,8 @@ equations for calculating the rate of heat transfer from airfoils …</p></block
                 Published: Thu 14 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.025257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4796,8 +4773,8 @@ for a section of the …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4847,8 +4824,8 @@ quantity of alcohol …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.837914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4895,8 +4872,8 @@ evaporation from wet surfaces.  </p>
                 Published: Mon 04 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4945,8 +4922,8 @@ evaporation from wet surfaces.  </p>
                 Published: Fri 25 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-06T09:05:17.272694-07:00">
-                Updated: Fri 06 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.017256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -4991,8 +4968,8 @@ in order to obtain local collection efficiencies …</p></blockquote>
                 Published: Thu 24 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5041,8 +5018,8 @@ compressible flow fields around a cylinder were performed on a …</p></blockquo
                 Published: Tue 22 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5093,8 +5070,8 @@ are presented.</p>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.013255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5140,8 +5117,8 @@ extension is …</p></blockquote>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.013255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5195,8 +5172,8 @@ distributions and are a source of large errors in the determination …</p></blo
                 Published: Mon 14 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.993253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5243,8 +5220,8 @@ following …</p></blockquote>
                 Published: Tue 08 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.669331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5292,8 +5269,8 @@ spurious ice catch …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.009255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5342,8 +5319,8 @@ of …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5386,8 +5363,8 @@ The speed at which the airplane may stall at may decrease due to the effects of 
                 Published: Tue 22 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5435,8 +5412,8 @@ each …</p></blockquote>
                 Published: Tue 01 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5479,8 +5456,8 @@ It …</p>
                 Published: Mon 31 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5528,8 +5505,8 @@ previously made, were found to be …</p></blockquote>
                 Published: Sat 29 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.665331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.005255-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5581,8 +5558,8 @@ clouds of various types …</p></blockquote>
                 Published: Thu 27 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5628,8 +5605,8 @@ the section "Example of the Application of the D.A. Data to Experimental Data".<
                 Published: Tue 25 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.653331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:45.989253-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5677,8 +5654,8 @@ In more modern terms, this …</p>
                 Published: Sun 23 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5725,8 +5702,8 @@ as this includes the third party modules matplotlib, numpy, and scipy …</p>
                 Published: Fri 21 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.661331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5772,8 +5749,8 @@ the efficiency of deposition of very large …</p></blockquote>
                 Published: Thu 20 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.681332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.021256-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5826,8 +5803,8 @@ percentage of the swept area cleared …</p></blockquote>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5875,8 +5852,8 @@ such as “NACA-TN-1907”.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.657331-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.001254-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5942,8 +5919,8 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.101430-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.829913-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -5979,8 +5956,8 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.685332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.029257-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -6023,8 +6000,8 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.037258-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -6070,8 +6047,8 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:21.693332-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:46.037258-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -6121,8 +6098,8 @@ MS Engineering University of Wisconsin  </p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-02T13:57:27.109431-07:00">
-                Updated: Mon 02 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.841914-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->
@@ -6177,8 +6154,8 @@ There is also a mirror site <a href="https://icinganalysis.com/">icinganalysis.c
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-12T14:03:48.721083-07:00">
-                Updated: Thu 12 October 2023
+        <abbr class="modified" title="2023-10-15T19:31:51.825912-07:00">
+                Updated: Sun 15 October 2023
         </abbr>
 <!---->
         <!---->

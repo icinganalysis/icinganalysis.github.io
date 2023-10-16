@@ -43,6 +43,7 @@ to read the articles in the order below.
 - [Ice Protection Thread]({filename}ice%20protection.md)  
 - [Meteorology of Icing Clouds Thread]({filename}Meteorology.md)  
 - [University of Michigan Airplane Icing Information Course Thread]({filename}U%20of%20Michigan%20Icing.md)  
+- [Water Drop Impingement on Surfaces]({filename}impingement.md)  
 
 ## Other content  
 

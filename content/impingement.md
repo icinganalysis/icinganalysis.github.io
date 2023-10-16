@@ -58,12 +58,7 @@ so they will come up in some publications here.
 
 ## Reviews  
 
-### Methods of Water Drop Impingement Quantification [To be reviewed]  
-
-<!--
-10/17
 ### [Methods of Water Drop Impingement Quantification]({filename}impingement%20quantification%20methods.md)  
--->
 
 > _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area."_  
 
