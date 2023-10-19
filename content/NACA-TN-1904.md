@@ -86,7 +86,7 @@ that 5 percent of the flights encounter cumulus clouds.
 The data were shown in Figure 5.  
 
 ![Figure 5. Estimated maximum values of average liquid-water content to be expected in 
-1000 flights encountering icing, assuming that 5 percent of flights encounter cumulous
+1000 flights encountering icing, assuming that 5 percent of flights encounter cumulus
 clouds.](images/naca-tn-1904/Figure5.png)
 
 ### Drop size distributions
