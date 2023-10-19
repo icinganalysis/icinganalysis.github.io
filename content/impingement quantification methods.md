@@ -6,8 +6,8 @@ tags: impingement
 ### _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"_  
 _From NACA-TN-1397._  
 
-![Figure 7 of NACA-TN-3689. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees.](/images%2FNACA-TN-3689%2FFigure%207.png)  
-_From NACA-TN-3689._    
+![Figure 7 of NACA-TN-3839. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees.](/images%2FNACA-TN-3839%2FFigure%207.png)  
+_From NACA-TN-3839._    
 
 ## Summary  
 

@@ -1,8 +1,7 @@
 title: Bodies of Revolution    
 category: impingement  
-Date: 2023-10-19 12:00  
+Date: 2023-10-18 19:00  
 tags: impingement  
-status: draft
 
 ### _"The presence of radomes and instruments that are sensitive to water films or ice formations in the nose section of all-weather aircraft and missiles necessitates a knowledge of the droplet impingement characteristics of bodies of revolution."_  
 [^1]
@@ -84,11 +83,11 @@ multiplying Re_O med by d/dmed and Kmed by (d/dmed)^2 and are used
 to obtain r0^2,tan (fig. 6) for each droplet size. The values of
 r0^2,tan for this example are plotted as a function of cumulative volume
 in percent in figure 12. Integration of this curve gives a weighted
-value of r0^2,tan
+value of r0^2,tan 
 equal to 0.000425; whereas, the value based on the
 volume-median droplet size is 0.00031 (fig. 6).  
  
-![Figure 6.png](/images%2FNACA-TN-3099%2FFigure%206.png)  
+![Figure 6. Square of starting ordinate of tangent trajectory as function of inertia parameter.](/images%2FNACA-TN-3099%2FFigure%206.png)  
 
 Some results may be applied for similar, but not identical, bodies.
 

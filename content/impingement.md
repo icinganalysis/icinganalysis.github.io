@@ -62,12 +62,8 @@ so they will come up in some publications here.
 
 > _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area."_  
 
-### Bodies of revolution [To be reviewed]  
+### [Bodies of revolution]({filename}bodies%20of%20revolution.md)  
 
-<!--
-10/19
-[bodies of revolution.md]({filename}bodies%20of%20revolution.md)  
--->
 > _"The presence of radomes and instruments that are sensitive to water films or ice formations in the nose section of all-weather aircraft and missiles necessitates a knowledge of the droplet impingement characteristics of bodies of revolution."_  
 
 - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
@@ -112,6 +108,7 @@ so they will come up in some publications here.
 -->
 
 - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
+    > review: [Scaling in NACA Icing Wind Tunnel Tests](scaling_in_naca_tests.md)  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
     > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
