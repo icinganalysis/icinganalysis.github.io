@@ -1,0 +1,58 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Site Improvements https://icinganalysis.com/site-improvements.html
+
+- Interesting finds:
+
+NACA-RM-54L29, METEOROLOGICAL PROBLEMS ASSOCIATED WITH TURBOJET-AIRCRAFT OPERATIONS, 1955.
+Includes some items about icing.
+
+- Most popular posts (so far...):
+
+#5: Thermal Analysis and Surface Wettedness (NACA-TN-2480) https://icinganalysis.com/naca-tn-313.html
+Maybe the under-appreciated effects of surface wettedness are finally getting some attention, or people liked the quote:
+"ice formation can be redefined in more general terms as a thermodynamic problem".
+
+- Upcoming posts:
+
+The reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+10/11: The Historical Selected Bibliography of NACA-NASA Icing Publications
+10/13: NACA-RM-A9C09, "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"
+10/16: The Greatest Thing That You Have (Probably) Never Read: AC 00-6A
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/...
+
+The SAE AC9C Aircraft Icing Technology Committee meeting is October 23 to 26, 2023.
+https://standardsworks.sae.org...
+
+- Quote of the week:
+
+"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"
+NACA-TN-1397
+
+- What is in work:
+
+Porter Perkins thread draft https://icinganalysis.com/drafts/porter-perkins.html
+Water-drop impingement thread https://icinganalysis.com/drafts/water-drop-impingement-on-surfaces.html
+I might start publishing the Water-drop impingement thread this week or next
+(I like to have most of a thread drafted before starting to publish, to make sure it all flows together).
+
+- Public Domain image of the week:
+
+https://icinganalysis.com/images/NACA-ACR-A-53/Figure%201.png
+
+#AltText: Lockheed 12-A. A large, metal construction, low wing, two engine, propeller drive airplane.
+The tail has three vertical fins.
+Figure 1. Lockheed 12-A airplane.
+Alterations were made to a standard commercial model which include provisions for heating the
+wings with exhaust gas, and the windshield with heated air.
+Figure 12. Three-quarter rear view of airplane, showing location
+of air discharge louvers in the wing upper surface and exhaust discharge at the wing tip.
+
+From NACA-ACR-A-53, 1941.
