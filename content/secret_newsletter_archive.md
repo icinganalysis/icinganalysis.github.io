@@ -27,5 +27,3 @@ Links contained are not updated.
 [10-16-2023](/secret_newsletter_archive%2F10-16-2023.txt)  
 [10-23-2023](/secret_newsletter_archive%2F10-23-2023.txt)  
 
-
-
