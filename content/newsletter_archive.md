@@ -1,7 +1,6 @@
 title: Newsletter Archive 
 Date: 2023-09-30 12:00  
 tags: about, newsletter  
-status: draft  
 
 ![Several people using a library. 
 Many are seated at tables reading books. 
