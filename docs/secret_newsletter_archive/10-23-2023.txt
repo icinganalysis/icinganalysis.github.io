@@ -42,3 +42,7 @@ Engine Inlets (to be published 10/26) https://icinganalysis.com/drafts/impingeme
 https://icinganalysis.com/images%2FNACA-TN-4268%2FFigure%201.png
 
 #AltText: Figure 1 of NACA-TN-4268. Supersonic-nose-inlet model installed in the test section of the 6- by 9-foot NACA Lewis icing tunnel.
+
+- The secret newsletter archive
+
+Subscribers may now view the newsletter archives at https://icinganalysis.com/secret-newsletter-archive.html
