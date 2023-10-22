@@ -123,7 +123,7 @@ so they will come up in some publications here.
 These have been reviewed elsewhere, as indicated below.
 
 - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
-    > review: [Scaling in NACA Icing Wind Tunnel Tests](scaling_in_naca_tests.md)  
+    > review: [Scaling in NACA Icing Wind Tunnel Tests]({filename}scaling_in_naca_tests.md)  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
     > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  

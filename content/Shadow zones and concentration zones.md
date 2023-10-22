@@ -49,7 +49,7 @@ and NACA-TN-3410 details an ellipsoid of fineness ratio 10, and includes compari
 These have many similarities to the analyses in [Bodies of Revolution]({filename}bodies%20of%20revolution.md), 
 so readers may wish to review that before proceeding here.
 
-[NACA-TN-1424](NACA-TN-1424.md) mentioned that the results from multicylinder instruments might be affected by 
+[NACA-TN-1424]({filename}NACA-TN-1424.md) mentioned that the results from multicylinder instruments might be affected by 
 the airplane body deflecting water-drop trajectories, and giving distorted values along the length of the instrument 
 protruding out from the airplane body. NACA-TN-3153 and NACA-TN-3410 give a way of assessing water drop 
 concentrations off of the airplane body. 
@@ -76,7 +76,7 @@ surface of the aircraft.
 ![Figure 1a. Ice formation on B-25 aircraft after flight at 200 mph through supercooled clouds. 
 (a) Side view of ice on 1 inch thick icing-rate-meter support rods.](/images%2FNACA-TN-3153%2FFigure%201a.png)  
 
-[We saw the icing rate meter in the review [NACA-RM-A9C09 instruments](NACA-RM-A9C09_instruments.md).]  
+[We saw the icing rate meter in the review [NACA-RM-A9C09 instruments]({filename}NACA-RM-A9C09_instruments.md).]  
 
 ![Figure 1b. Front view of ice on 1-inch-thick icing-rate-meter support rods.](/images%2FNACA-TN-3153%2FFigure%201b.png)  
 

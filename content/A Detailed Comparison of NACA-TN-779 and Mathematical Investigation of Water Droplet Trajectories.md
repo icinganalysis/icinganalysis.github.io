@@ -81,6 +81,6 @@ The python code used to produce the figure is available in the file "naca-tn-779
 [^1]:
 [NACA-TN-779]({filename}/NACA-TN-779.md)  
 [^2]:  
-[Mathematical Investigation of Water Droplet Trajectories](Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
+[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
 [^3]: [Implementation of cylinder impingement correlations in Python]({filename}/Implementation of cylinder impingement correlations in Python.md)  
 [^4]: [github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io)  
