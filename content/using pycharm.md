@@ -204,6 +204,14 @@ Sometimes, I do take a peak in the PyCharm preview by temporarily adding /images
 but this is not a "best practice", as it does not work for drafts on the production server, 
 and I have often forgotten to change it back. 
 
+## Things that are still manual  
+
+Deleting drafts after publishing.  
+
+## Common errors 
+
+Forgetting to include {filename} in an internal link. 
+
 ## Git   
 
 PyCharm also includes integration with git, 
