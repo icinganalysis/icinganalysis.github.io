@@ -5,7 +5,7 @@ tags: impingement
 
 ### _"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"_  [^1]  
 
-![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowki airfoil 12 percent thick.](/images%2Fnaca-tn-1397%2FFigure%205.png)  
+![Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowski airfoil 12 percent thick.](/images%2Fnaca-tn-1397%2FFigure%205.png)  
 _Figure 5 of NACA-TN-1397_  
 
 # Water Drop Impingement on Surfaces Thread
