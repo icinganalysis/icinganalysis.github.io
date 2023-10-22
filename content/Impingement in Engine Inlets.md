@@ -206,8 +206,7 @@ tunnel impingement data to flight conditions is given in reference 22.
 Reference 24 is NACA-RM-E56E11, 
 "Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections", 
 which was briefly reviewed in 
-[Scaling in NACA tests]({filename}scaling_in_naca_tests.md), 
-and will be further reviewed later in this thread.  
+[Scaling in NACA tests]({filename}scaling_in_naca_tests.md).  
 
 At a company I worked at we had an internal design manual that cataloged dozens 
 of impingement analysis for several inlets. The results were similar to Figure 4 above, 
