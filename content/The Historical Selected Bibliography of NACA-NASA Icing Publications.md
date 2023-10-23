@@ -186,10 +186,10 @@ Links to reviews are included where applicable.
     - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
-    <!--  - > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md) -->  
+        > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
     - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  
     - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
-    <!--  - > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md) -->  
+        > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)   
     - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
         > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
     - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
