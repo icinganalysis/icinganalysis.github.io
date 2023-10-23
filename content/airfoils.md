@@ -47,15 +47,15 @@ of the same series.
 Several airfoils were analyzed and tested for water-drop impingement in the NACA-era. 
 The airfoil sections are summarized below. 
 
-NACA-TN-1397 [^2] Joukowski 12% symmetric AOA=0 
+NACA-TN-1397 [^2] Joukowski 12% symmetric AOA=0  
 NACA-RM-A905 [^3] Joukowksi 15% symmetric, includes camber case  
 NACA-TN-2931 [^4] NACA 651-212, includes swept cases, includes swept cylinder  
-NACA-TN-2952 [^5] NACA 651-212, 651-208
+NACA-TN-2952 [^5] NACA 651-212, 651-208  
 NACA-TN-3047 [^6] NACA 65A004, 651-212, 651-208  
-NACA-TR-1159 [^7] Symmetrical double-wedge
-NACA-TN-3155 [^8] NACA 65A004
-NACA-TN-3586 [^9] NACA 65A004
-NACA-TN-3839 [^1] Joukowski 0015, NACA 632-015, 652-216, 651-212, 651-206, includes swept cases
+NACA-TR-1159 [^7] Symmetrical double-wedge  
+NACA-TN-3155 [^8] NACA 65A004  
+NACA-TN-3586 [^9] NACA 65A004  
+NACA-TN-3839 [^1] Joukowski 0015, NACA 632-015, 652-216, 651-212, 651-206, includes swept cases  
 NACA-TN-4035 [^10] Joukowski 36.5%  
 
 We will review two of the publications here, NACA-TN-2931 and NACA-TN-3839. 
