@@ -2,7 +2,6 @@ title: Shadow Zones and Concentration Zones
 category: impingement  
 Date: 2023-10-24 12:00  
 tags: impingement  
-status: draft
 
 ### _"... local concentration factors should be considered when choosing the location of devices that protrude into the stream from aircraft fuselages or missiles, or when determining anti-icing heat requirements for the protection of these devices."_  
 

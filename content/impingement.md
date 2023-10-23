@@ -71,14 +71,12 @@ so they will come up in some publications here.
 - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
 
-### Shadow zones and concentration zones [To be reviewed]  
-<!--
-10/24
--->
+### [Shadow zones and concentration zones]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
+
 > _"... local concentration factors should be considered when choosing the location of devices that protrude into the stream from aircraft fuselages or missiles, or when determining anti-icing heat requirements for the protection of these devices."_  
 
 - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
-    > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
+    > previous review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
 - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
 - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
 
@@ -123,9 +121,9 @@ so they will come up in some publications here.
 These have been reviewed elsewhere, as indicated below.
 
 - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
-    > review: [Scaling in NACA Icing Wind Tunnel Tests]({filename}scaling_in_naca_tests.md)  
+    > previous review: [Scaling in NACA Icing Wind Tunnel Tests]({filename}scaling_in_naca_tests.md)  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
-    > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
+    > previous review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
@@ -136,16 +134,16 @@ These have been reviewed elsewhere, as indicated below.
 -->
 
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
-    > review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
+    > previous review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
-    > review: [NACA-TN-2903]({filename}NACA-TN-2903.md)  
+    > previous review: [NACA-TN-2903]({filename}NACA-TN-2903.md)  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
-    > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
+    > previous review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
-    > review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
+    > previous review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  
 - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
-    > review: [Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
+    > previous review: [Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
 
 ### A Tentative Identification of Water Drop Trajectory Investigators [To be reviewed]  
 <!--
