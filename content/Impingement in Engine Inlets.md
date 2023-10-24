@@ -208,6 +208,8 @@ Reference 24 is NACA-RM-E56E11,
 which was briefly reviewed in 
 [Scaling in NACA tests]({filename}scaling_in_naca_tests.md).  
 
+Reference 22 is NACA-TN-3839, which we will see in the upcoming "Impingement on Airfoils".
+
 At a company I worked at we had an internal design manual that cataloged dozens 
 of impingement analysis for several inlets. The results were similar to Figure 4 above, 
 all with the same general trends, but there were differences in the details. 
