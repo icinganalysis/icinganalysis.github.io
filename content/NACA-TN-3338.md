@@ -141,7 +141,7 @@ obtained with the aspirator are summarized as follows:
 ![LWC Table from page 24](images/naca-tn-3338/LWC_table_page_24.png)
 
 > Because of the cylinder-size trend for droplet radii less than 
-approximately 6 microns (fig. 21), a straight line was faired between a 6
+approximately 6 microns (fig. 21), a straight line was faired between at 6
 microns and the tabulated value of wt for each pressure ratio. The
 results of this interpretation of the data are shown in figure 23; the
 reasoning underlying this interpretation is presented in the DISCUSSION
