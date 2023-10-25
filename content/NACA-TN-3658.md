@@ -77,6 +77,8 @@ This may be approximated as a ribbon with height equal to the disk thickness.
 ![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. Note ice-thickness feeler and ice removal scraper behind disk.](/images%2Fnaca-rm-a9c09%2FFigure%205.png)
 _Figure 5 of NACA-RM-A9C09. Rotating disk for the measurement of liquid-water content in icing clouds._  
 
+### Comparisons to the ribbon analysis from [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
+
 >Trajectory calculations based on ideal two-dimensional flow about a
 ribbon (ref. 11), which is essentially a rectangle of zero chord, have
 been used as an approximation to obtain the impingement on rectangular
