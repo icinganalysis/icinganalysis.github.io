@@ -80,10 +80,7 @@ so they will come up in some publications here.
 - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954.  
 - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
 
-### Engine Inlets [To be reviewed]  
-<!--
-10/26
--->
+### [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
 
 >  _"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"_  
 
