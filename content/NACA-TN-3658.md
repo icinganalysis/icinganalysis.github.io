@@ -60,10 +60,8 @@ of rectangular cross section would also be useful in estimating the collection e
 meter (refs. 7 to 9) and the rectangular bars used to measure the spray
 distribution in an icing wind tunnel (ref. 10).
 
-In the 
-[Icing on Cylinders thread]({filename}Icing%20on%20Cylinders.md), we saw  
-[NACA-TN-3338]({filename}NACA-TN-3338.md), 
-which includes Figure 10:
+In the [Icing on Cylinders thread]({filename}Icing%20on%20Cylinders.md),
+we saw[NACA-TN-3338]({filename}NACA-TN-3338.md), which includes Figure 10:  
 
 >A square grid made up of 1/8- by 1/2- by 24-inch bar stock held
 ribbons which were used for measuring cloud uniformity and was mounted
@@ -73,8 +71,7 @@ in the tunnel test section as shown in figure 10.
 
 Similar grids are still used today in the calibration of icing wind tunnels.  
 
-We saw the rotating disk icing rate meter in 
-[NACA-RM-A9C09 Instruments](NACA-RM-A9C09_instruments.md). 
+We saw the rotating disk icing rate meter in [NACA-RM-A9C09 Instruments](NACA-RM-A9C09_instruments.md). 
 This may be approximated as a ribbon with height equal to the disk thickness. 
 
 ![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. Note ice-thickness feeler and ice removal scraper behind disk.](/images%2Fnaca-rm-a9c09%2FFigure%205.png)
