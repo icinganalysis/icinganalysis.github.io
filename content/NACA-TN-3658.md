@@ -6,7 +6,7 @@ status: draft
 
 ### _"the ideal flow field ahead of a ribbon is not a very satisfactory representation of the actual flow field in front of a rectangular body"_  
 
-![Figure 1. Comparison of two-dimensional flow fields. (a) Ideal flow arout a ribbon. (b) Estimate flow about a rectangle. (c) Ideal flow about a rectangular half body. (d) Comparison of ideal flow about a ribbon and and rectangular half body.](images%2FNACA-TN-3658%2FFigure%201.png)  
+![Figure 1. Comparison of two-dimensional flow fields. (a) Ideal flow arout a ribbon. (b) Estimate flow about a rectangle. (c) Ideal flow about a rectangular half body. (d) Comparison of ideal flow about a ribbon and and rectangular half body.](/images%2FNACA-TN-3658%2FFigure%201.png)  
 
 # NACA-TN-3658, "Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field" [^1]  
 
@@ -69,7 +69,7 @@ which includes Figure 10:
 ribbons which were used for measuring cloud uniformity and was mounted
 in the tunnel test section as shown in figure 10.
 
-![Figure 10 of NACA-TN-3338. Installation of grid uses for mounting ribbons to measure uniformity of spray cloud in 6- by 9-foot test section of icing tunnel (looking downstream).](images%2Fnaca-tn-3338%2FFigure%2010.png)  
+![Figure 10 of NACA-TN-3338. Installation of grid uses for mounting ribbons to measure uniformity of spray cloud in 6- by 9-foot test section of icing tunnel (looking downstream).](/images%2Fnaca-tn-3338%2FFigure%2010.png)  
 
 Similar grids are still used today in the calibration of icing wind tunnels.  
 
@@ -77,7 +77,7 @@ We saw the rotating disk icing rate meter in
 [NACA-RM-A9C09 Instruments](NACA-RM-A9C09_instruments.md). 
 This may be approximated as a ribbon with height equal to the disk thickness. 
 
-![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. Note ice-thickness feeler and ice removal scraper behind disk.](images%2Fnaca-rm-a9c09%2FFigure%205.png)
+![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. Note ice-thickness feeler and ice removal scraper behind disk.](/images%2Fnaca-rm-a9c09%2FFigure%205.png)
 _Figure 5 of NACA-RM-A9C09. Rotating disk for the measurement of liquid-water content in icing clouds._  
 
 >Trajectory calculations based on ideal two-dimensional flow about a
@@ -127,7 +127,7 @@ and to simplify the presentation of the results. They apply to the motion
 of droplets in a plane perpendicular to the edges of the rectangular
 half body in the system of rectangular coordinates shown in figure 2.
 
-![Figure 2. Coordinate system and notation for droplet trajectory calculations.](images%2FNACA-TN-3658%2FFigure%202.png)  
+![Figure 2. Coordinate system and notation for droplet trajectory calculations.](/images%2FNACA-TN-3658%2FFigure%202.png)  
 
 Reference 4 is [NACA-TN-2904]({filename}NACA-TN-2904.md).  
 
@@ -144,7 +144,7 @@ for use in determining values of K and Re 0 in terms of air speed, altitude,
 body size, and droplet diameter in practical units are presented
 in reference 13.
 
-![Figure 4. Local impingement efficiency at stagnation calculated from equation (20).](images%2FNACA-TN-3658%2FFigure%204.png)  
+![Figure 4. Local impingement efficiency at stagnation calculated from equation (20).](/images%2FNACA-TN-3658%2FFigure%204.png)  
 
 In the end, the difference between the ribbon and the semi-infinite rectangle are small.  
 
@@ -170,7 +170,7 @@ edge have a relatively small effect on the trajectories.
 
 ![Table III. COMPARISON OF COLLECTION EFFICIENCY E AND STAGNATION-
 LINE IMPINGEMENT EFFICIENCY β0, FOR RECTANGLE AND CORRESPONDING
-DATA FOR RIBBON FROM REFERENCE 11 (LANGMUIR).](images%2FNACA-TN-3658%2FTable%20III.png)  
+DATA FOR RIBBON FROM REFERENCE 11 (LANGMUIR).](/images%2FNACA-TN-3658%2FTable%20III.png)  
 
 ## Conclusions  
 
