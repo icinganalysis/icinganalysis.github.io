@@ -1,8 +1,7 @@
 title: Impingement in Engine Inlets  
 category: impingement  
-Date: 2023-10-26 12:00  
+Date: 2023-10-25 13:00  
 tags: impingement  
-status: draft
 
 ### _"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"_  
 _NACA-TR-1317._  
