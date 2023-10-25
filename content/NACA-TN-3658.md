@@ -24,7 +24,7 @@ water impingement are presented.
 
 ## Discussion  
 
-We have already seen most of the titles in this topic:  
+We have already seen most of the titles on the "Impingement on Other Surfaces" topic:  
 
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
     > previous review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
@@ -39,7 +39,7 @@ We have already seen most of the titles in this topic:
 
 So, we will devote this review to the title that we have not yet seen, NACA-TN-3658.
 
-Why would anyone care about impingement on a ribbon or rectangle? 
+Why would anyone studying aircraft icing care about impingement on a ribbon or rectangle? 
 They seem to be a rather non-aerodynamic surfaces. 
 
 > Among the general body shapes of interest is that of a
