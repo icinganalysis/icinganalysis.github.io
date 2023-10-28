@@ -61,7 +61,7 @@ meter (refs. 7 to 9) and the rectangular bars used to measure the spray
 distribution in an icing wind tunnel (ref. 10).
 
 In the [Icing on Cylinders thread]({filename}Icing%20on%20Cylinders.md),
-we saw[NACA-TN-3338]({filename}NACA-TN-3338.md), which includes Figure 10:  
+we saw [NACA-TN-3338]({filename}NACA-TN-3338.md), which includes Figure 10:  
 
 >A square grid made up of 1/8- by 1/2- by 24-inch bar stock held
 ribbons which were used for measuring cloud uniformity and was mounted
