@@ -12,7 +12,7 @@ The second operator turns another input chart crank.
 Another cylinder is labeled "Droplet Trajectories". 
 There are many shafts and gears visible in the machine. 
 Some machine parts are labeled with the differential equations of motion being solved. 
-](images/naca-tn-2904/Figure15.png)  
+](/images/naca-tn-2904/Figure15.png)  
 _Figure 15 of NACA-TN-2904_  
 
 ## Summary  
