@@ -169,9 +169,10 @@ velocity in the normal plane U_s cos γ. As before, the
 z-component is constant throughout the flow field, being simply the
 projection of the free-stream velocity upon the z-axis U_s sin γ.
 
-![Figure 3.png](/images%2FNACA-TN-2931%2FFigure%203.png)
+![Figure 3. Droplet trajectories in vicinity of circular
+cylinder at 30° yaw. Inertia parameter Kn, 2.78 freestream Reynolds number Re0,n, 100.](/images%2FNACA-TN-2931%2FFigure%203.png)
 
-![Figure 4.png](/images%2FNACA-TN-2931%2FFigure%204.png)
+![Figure 4. Geometry applicable to yawed wing.](/images%2FNACA-TN-2931%2FFigure%204.png)
 
 >When the swept wing is at a free-stream angle of attack α_s
 (fig. 4), the effective angle of attack in the normal plane, to a close
