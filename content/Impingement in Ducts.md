@@ -1,4 +1,4 @@
-title: Impingement in Elbows Ducts  
+title: Impingement in Elbow Ducts  
 category: impingement  
 Date: 2023-10-31 12:00  
 tags: impingement  
