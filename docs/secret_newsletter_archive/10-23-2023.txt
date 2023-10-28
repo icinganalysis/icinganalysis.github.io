@@ -17,7 +17,7 @@ https://www.thisdayinaviation.com/11-february-1939/
 
 - Upcoming re-posts:
 
-The relentless reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+The relentless reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
 10/23: "A Langmuir B drop size distribution is (almost) a normal distribution"
 10/25: NACA-TN-2904 "Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds"
 10/27: NACA-TN-2903 "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"

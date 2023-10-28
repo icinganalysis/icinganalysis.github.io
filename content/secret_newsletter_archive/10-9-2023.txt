@@ -18,7 +18,7 @@ Maybe the under-appreciated effects of surface wettedness are finally getting so
 
 - Upcoming posts:
 
-The reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
 10/11: The Historical Selected Bibliography of NACA-NASA Icing Publications
 10/13: NACA-RM-A9C09, "A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing"
 10/16: The Greatest Thing That You Have (Probably) Never Read: AC 00-6A

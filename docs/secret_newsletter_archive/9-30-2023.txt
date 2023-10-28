@@ -16,7 +16,7 @@ One of the earliest publications I have reviewed, with eye-catching sketches and
 
 - Upcoming posts:
 
-The reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
 9/29: A Detailed Comparison of Water Drop Impingement Calculations
 10/2: Implementation of multicylinder calculations in Python
 10/4: NACA-TN-1393, “A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes"

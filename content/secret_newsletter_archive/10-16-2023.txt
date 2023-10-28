@@ -26,7 +26,7 @@ https://standardsworks.sae.org/standards-committees/ac-9c-aircraft-icing-technol
 
 - Upcoming posts:
 
-The reposting of revised posts continues on Mastodon https://historians.socia/@icinganalysis (and, less reliably, on LinkedIn).
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
 10/16 The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)
 10/17 New! Methods of Water Drop Impingement Quantification (see draft link below)
 10/18 NACA-TN-1904, "Observations of Icing Conditions Encountered in Flight During 1948"
