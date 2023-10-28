@@ -50,8 +50,13 @@ Selected publications with Brun as lead author:
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
 
 I have not found biographies of either investigator. 
-Here are listings from worldcat.org of their publications (the listings on ntrs are rather incomplete for these authors). 
+Here are listings from worldcat.org of their publications 
+(the listings on ntrs.nasa.gov are rather incomplete for these authors). 
 
 Hellen Gallager: [worldcat.org](https://www.worldcat.org/search?q=au=%22Gallagher%2C%20Helen%20M.%22)  
 
 Dorthea Vogt: [worldcat.org](https://www.worldcat.org/search?q=au=%22Vogt%2C%20Dorothea%20E.%22)  
+
+## Related  
+
+This is part of the [Water Drop Impingement on Surfaces thread]({filename}impingement.md).  
