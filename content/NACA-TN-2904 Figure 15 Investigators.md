@@ -1,5 +1,6 @@
 Title: A Tentative Identification of Water Drop Trajectory Investigators  
 Date: 2023-04-28 12:00  
+tags: impingement  
 status: draft  
 
 ## NACA-TN-2094 and investigators operating the water-drop-trajectory analog  
@@ -21,15 +22,20 @@ I speculate that these investigators are
 Helen M. Gallagher, and Dorothea E. Vogt. 
 (I do not know which name goes with which individual). 
 While neither Gallager nor Vogt is credited in NACA-TN-2904, 
-it is possible that they contributed to the analysis. 
+it is possible that they contributed to the analysis, 
+as they did in several other water-drop trajectory publications. 
 
 ## Discussion  
+
+Yes, I have used this figure a lot, as it is one of the best of the hundreds I have viewed from the NACA-era. 
+This image is also notable in that of the hundreds of NACA-era documents that I have read, 
+this is the only one where the people appear to be women. 
 
 I have not been able to find photos of Gallager or Vogt for comparison
 (and photos of any NACA-era authors are hard to find). 
 In this photo the individuals are not at good angles for identification anyway. 
 
-The rationale is that Gallager or Vogt collaborated on other publications with Rinaldo Brun as lead author.  
+The rationale for the identification is that Gallager or Vogt collaborated on other publications with Rinaldo Brun as lead author.  
 The publications are before and after NACA-TN-2904.  
 
 Selected publications with Brun as lead author:  
@@ -43,5 +49,9 @@ Selected publications with Brun as lead author:
 - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954.  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
 
-This image is also notable in that of the hundreds of NACA-era documents that I have read, 
-this is the only one where the people appear to be women. 
+I have not found biographies of either investigator. 
+Here are listings from worldcat.org of their publications (the listings on ntrs are rather incomplete for these authors). 
+
+Hellen Gallager: [worldcat.org](https://www.worldcat.org/search?q=au=%22Gallagher%2C%20Helen%20M.%22)  
+
+Dorthea Vogt: [worldcat.org](https://www.worldcat.org/search?q=au=%22Vogt%2C%20Dorothea%20E.%22)  
