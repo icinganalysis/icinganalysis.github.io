@@ -139,7 +139,7 @@ is 0.0051; therefore, the probable error involved in using the equations
 to determine y0 is ±0.0034 based on the assumption that the results from
 the trajectories are absolutely correct. The dimensionless parameters
 Re0 and K are defined in equations (3) and (4). Equations and graphs
-for use in determining values of K and Re 0 in terms of air speed, altitude, 
+for use in determining values of K and Re_0 in terms of air speed, altitude, 
 body size, and droplet diameter in practical units are presented
 in reference 13.
 
@@ -157,7 +157,7 @@ a great difference in velocity in the immediate vicinity of the edge.
 (Velocity is inversely proportional to streamline spacing.) In spite of
 the difference in the flow fields, however, the differences in collection
 efficiency of the ribbon and rectangle are only moderate. The maximum 
-difference in table III is 0.099 at K = 2 and 0 = 10,000, and the
+difference in table III is 0.099 at K = 2 and φ = 10,000, and the
 average difference for all values in table III is 0.026. These facts
 suggest that-the results obtained using the ideal flow ahead of the rectangular 
 half body are likely to be a fairly good approximation to the
@@ -183,7 +183,7 @@ inertia parameter K and the free-stream droplet Reynolds number Re_0
 Equation (17) gives the local impingement efficiency 13 as a function of
 distance from the centerline of the rectangle in terms of the following
 three parameters: (1) the collection efficiency E, (2) the impingement
-efficiency at the centerline 0, and (3) the impingement distribution
+efficiency at the centerline β0, and (3) the impingement distribution
 index n.  
 These parameters may be determined from K and Re_0 by means of
 empirical equations (19), (20), and (21).  
