@@ -51,7 +51,7 @@ Selected publications with Brun as lead author:
 
 I have not found biographies of either investigator. 
 Here are listings from worldcat.org of their publications 
-(the listings on ntrs.nasa.gov are rather incomplete for these authors). 
+(the listings on ntrs.nasa.gov are incomplete for these authors). 
 
 Hellen Gallager: [worldcat.org](https://www.worldcat.org/search?q=au=%22Gallagher%2C%20Helen%20M.%22)  
 

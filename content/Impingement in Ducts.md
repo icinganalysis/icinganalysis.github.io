@@ -176,6 +176,14 @@ elbows with long radii of curvature, because the streamlines in
 this region are approximately equidistant at all points throughout the
 elbow.
 
+Some inlet duct applications provide ice protection for the duct. 
+Here is an example from reference [^3]: 
+
+![Figure 150. Engine Inlet Anti-Icing System Schematic (Running Wet Protection).](images%2FAD-771%20182%2FFigure%20150.png)  
+
+Even though water-drops may impinge on only a limited area of the duct, 
+this design provides heating for the entire duct. 
+
 ## Citations  
 
 From scholar.google.com:  
@@ -195,3 +203,4 @@ This is part of the [Water Drop Impingement on Surfaces thread]({filename}imping
 
 [^1]: Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
 [^2]: Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
+[^3]: Werner, J. B. Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973.  
