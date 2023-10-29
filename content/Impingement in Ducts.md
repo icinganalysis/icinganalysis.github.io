@@ -203,5 +203,5 @@ This is part of the [Water Drop Impingement on Surfaces thread]({filename}imping
 
 [^1]: Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
 [^2]: Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
-[^3]: Werner, J. B. Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973.  
+[^3]: Werner, J. B. Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0771182.pdf)  
 (This is a candidate for ["The Greatest Thing That You Have (Probably) Never Read"](diversions.md).)  
