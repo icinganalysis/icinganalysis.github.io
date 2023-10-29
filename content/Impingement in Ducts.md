@@ -181,8 +181,11 @@ Here is an example from reference [^3]:
 
 ![Figure 150. Engine Inlet Anti-Icing System Schematic (Running Wet Protection).](images%2FAD-771%20182%2FFigure%20150.png)  
 
-Even though water-drops may impinge on only a limited area of the duct, 
-this design provides heating for the entire duct. 
+Even though water-drops may impinge on only a limited area of the duct for a particular case 
+(combination of altitude, airspeed, drop size, flow rate, etc.), 
+the potential impingement area for a range of cases may be large. 
+This design provides heating for the entire duct, 
+which removes the impingement analysis uncertainty for extent, but perhaps not intensity. 
 
 ## Citations  
 
@@ -204,4 +207,4 @@ This is part of the [Water Drop Impingement on Surfaces thread]({filename}imping
 [^1]: Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
 [^2]: Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
 [^3]: Werner, J. B. Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0771182.pdf)  
-(This is a candidate for ["The Greatest Thing That You Have (Probably) Never Read"](diversions.md).)  
+(This is a candidate for ["The Greatest Thing That You Have (Probably) Never Read"]({filename}diversions.md).)  
