@@ -176,7 +176,7 @@ elbows with long radii of curvature, because the streamlines in
 this region are approximately equidistant at all points throughout the
 elbow.
 
-Some inlet duct applications provide ice protection for the duct. 
+Some inlet duct applications provide ice protection. 
 Here is an example from reference [^3]: 
 
 ![Figure 150. Engine Inlet Anti-Icing System Schematic (Running Wet Protection).](images%2FAD-771%20182%2FFigure%20150.png)  
