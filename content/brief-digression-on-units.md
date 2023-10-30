@@ -11,7 +11,7 @@ An investigator wearing headphones, an oxygen mask, a fur-lined leather jacket, 
 There are also several dial gauges.](images/b_29_icing_measurement.png)
 _Standard weights and other measurements in use. [^1]_  
 
-## Summary
+## Summary  
 
 The unit system used herein is detailed. 
 
@@ -116,6 +116,9 @@ u = units_helpers.mph_to_ms(v)  # Clearer
 It is recommended to convert to standard units as soon as a value is input. 
 If output in non-standard units is desired, the conversion should happen just before output. 
 This keeps internal calculations in the preferred unit system.
+
+![Table A-4 of WADC TR 54-313. Conversion Factors.](images%2FWADC%2054-313%2FTable%20A-4%20rotated.png)
+_From [WADC TR 54-313]({filename}Design%20Manuals.md)._  
 
 ## Notes  
 
