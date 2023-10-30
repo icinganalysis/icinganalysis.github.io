@@ -119,7 +119,7 @@ This keeps internal calculations in the preferred unit system.
 
 ![Table A-4 of WADC TR 54-313. Conversion Factors.](images%2FWADC%2054-313%2FTable%20A-4%20rotated.png)
 _From [WADC TR 54-313]({filename}Design%20Manuals.md)._  
-
+ 
 ## Notes  
 
 [^1]: From [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Instrumentation_in_A-29_-_GPN-2000-001450.jpg). 
