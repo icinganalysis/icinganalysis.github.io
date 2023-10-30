@@ -179,7 +179,7 @@ elbow.
 Some inlet duct applications provide ice protection. 
 Here is an example from reference [^3]: 
 
-![Figure 150. Engine Inlet Anti-Icing System Schematic (Running Wet Protection).](images%2FAD-771%20182%2FFigure%20150.png)  
+![Figure 150. Engine Inlet Anti-Icing System Schematic (Running Wet Protection).](/images%2FAD-771%20182%2FFigure%20150.png)  
 
 Even though water-drops may impinge on only a limited area of the duct for a particular case 
 (combination of altitude, airspeed, drop size, flow rate, etc.), 
