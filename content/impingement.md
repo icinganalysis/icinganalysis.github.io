@@ -87,11 +87,7 @@ so they will come up in some publications here.
 - Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
-### Elbows and ducts [To be reviewed]  
-<!--
-10/31
-[Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
--->
+### [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
 
 >  _"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."_  
 
