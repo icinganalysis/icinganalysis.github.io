@@ -2,7 +2,6 @@ title: Impingement in Elbow Ducts
 category: impingement  
 Date: 2023-10-31 12:00  
 tags: impingement  
-status: draft
 
 ### _"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."_  
 _From NACA-TN-2999._ [^1]  

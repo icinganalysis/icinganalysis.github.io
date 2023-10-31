@@ -90,6 +90,7 @@ so they will come up in some publications here.
 ### Elbows and ducts [To be reviewed]  
 <!--
 10/31
+[Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
 -->
 
 >  _"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."_  
@@ -100,6 +101,7 @@ so they will come up in some publications here.
 ### Airfoils [To be reviewed]  
 <!--
 11/02
+[Airfoils]({filename}airfoils.md)  
 -->
 
 - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
@@ -131,6 +133,7 @@ These have been reviewed elsewhere, as indicated below.
 ### Other Surfaces [To be reviewed]  
 <!--
 11/7
+[Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
 -->
 
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
@@ -148,6 +151,7 @@ These have been reviewed elsewhere, as indicated below.
 ### A Tentative Identification of Water Drop Trajectory Investigators [To be reviewed]  
 <!--
 11/9
+[A Tentative Identification of Water Drop Trajectory Investigators]({filename}NACA-TN-2904%20Figure%2015%20Investigators.md)  
 -->
 
 ### Conclusions of the Water Drop Impingement thread [To be reviewed]  
