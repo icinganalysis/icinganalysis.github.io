@@ -53,7 +53,7 @@ method. The objectives of the study were met by identifying a scaling method tha
 scaled ice accretions over a wide range of test conditions and that can be applied to a variety
 of icing testing situations.
 
-###Impingement similarity
+### Impingement similarity
 
 >K = 2/9 ρ<sub>w</sub>r<sub>d</sub><sup>2</sup>U<sub>∞</sub>/(μ<sub>a</sub>c) &nbsp;&nbsp;&nbsp;&nbsp; (3)
 
