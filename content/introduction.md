@@ -24,7 +24,7 @@ Like excavating a lost city, many surprises, answers to problems,
 road maps, and confirmations can be found in the work of the National Advisory Committee for Aeronautics (NACA). 
 This treasure trove of data can help you today. 
 
-Why care about aircraft icing?  If ice forms on a plane during flight, it can hazardous. 
+Why care about aircraft icing?  If ice forms on a plane during flight, it can be hazardous. 
 Engineers research the weather conditions aircraft will encounter and work to ensure that 
 they can navigate them safely. 
 
@@ -57,7 +57,7 @@ Several of the publications relate to aircraft icing and ice protection,
 and they were key to establishing safe aircraft design and operating procedures.
 
 The NACA publications cover a wide range of aircraft icing topics. 
-Reference [^2] lists 132 publications, in 16 categories of topics, from “Meteorology of Icing Clouds” to “Wing Ice Protection”. 
+The "Selected Bibliography of NACA-NASA Aircraft Icing Publications" [^2] lists 132 publications, in 16 categories of topics, from “Meteorology of Icing Clouds” to “Wing Ice Protection”. 
 
 Some readers may be interested in less technical, [more general histories]({filename}/more general info.md) 
 of the NACA/NASA efforts to improve the safety of flight in icing conditions.
@@ -106,7 +106,7 @@ To see all topics and the 100+ articles, see [Site Navigation]({filename}Reading
 
 ## Notes:
 [^1]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
-[^2]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
+[^2]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
 [^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
 [^4]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^5]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
