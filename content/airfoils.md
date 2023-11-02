@@ -2,7 +2,6 @@ title: Impingement on Airfoils
 category: impingement  
 Date: 2023-11-02 12:00  
 tags: impingement  
-status: draft
 
 ### _"Although the airfoils used in these studies were a rather ad hoc collection of shapes and sizes, this report makes these data generally available and correlates the data as much as possible."_  
 
