@@ -139,7 +139,7 @@ is primarily in the z-direction.
 
 ![Figure 1. Coordinate system for circular cylinder at yaw angle γ.](/images%2FNACA-TN-2931%2FFigure%201.png)  
 
-![Figure 2. Streamlines aroung a 30°-yawed cylinder.](/images%2FNACA-TN-2931%2FFigure%202.png)  
+![Figure 2. Streamlines around a 30°-yawed cylinder.](/images%2FNACA-TN-2931%2FFigure%202.png)  
 
 >Sample Droplet Trajectories About Yawed Cylinder  
 Three-dimensional droplet trajectories were calculated for a yawed
