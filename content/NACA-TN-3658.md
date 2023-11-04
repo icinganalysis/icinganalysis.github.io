@@ -12,7 +12,7 @@ status: draft
 
 ## Summary  
 
-Water-drop impingement on rectangular body is calculated.  
+Water-drop impingement on a rectangular body is calculated.  
 
 ## Abstract  
 
