@@ -5,7 +5,7 @@ status: draft
 
 ### _"It is thus desirable to have an economical method for solving the basic water droplet trajectory equations for an arbitrary airfoil."_ [^1]  
 
-![Figure 83. Ko Approximation for Representing Em](images%2FAD-771%20182%2FFigure%2083.png)  
+![Figure 83. Ko Approximation for Representing Em](/images%2FAD-771%20182%2FFigure%2083.png)  
 
 # The Use of Ko for Impingement Correlations  
 
@@ -23,7 +23,7 @@ the "Ko" modified water drop inertia parameter.
 ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md) [^3] 
 defined a term Ko (see the link for definitions of other terms):  
 
-![Equation 40. Ko for a cylinder. Ko - 1/8 = lambda/lambda_s * (K - 1/8) ](images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2Fequation40.png)  
+![Equation 40. Ko for a cylinder. Ko - 1/8 = lambda/lambda_s * (K - 1/8) ](/images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2Fequation40.png)  
 
 Ko is not given a name, it is only defined in relation to K:
 
@@ -45,7 +45,7 @@ values into good agreement with the observed values, for all values of φ. The
 correction was therefore included in the procedure for calculating Em.
 
 >For Κ in the range from 0.125 to 1.1;
-![Equation 33.](images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2FEquation33.png)  
+![Equation 33.](/images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2FEquation33.png)  
 
 ### "Determination of drop trajectories by means of an extension of Stokes' Law" (1952) [^4]  
 
@@ -65,13 +65,13 @@ solution of (1) and (2) were in good agreement with values
 resulting from calculations based on Ko', an adjusted value of K, and Stokes'
 Law, where (for flow around a cylinders):
 
-![Equation 5.](images%2FDetermination%20of%20drop%20trajectories%2FEquation%205.png)  
+![Equation 5.](/images%2FDetermination%20of%20drop%20trajectories%2FEquation%205.png)  
 
 >λ is the distance a droplet will travel if projected into still air with an
 initial velocity of U when the drag coefficient follows values given in reference 1.   
 λ/λs is obtained from:
 
-![Equation 6.](images%2FDetermination%20of%20drop%20trajectories%2FEquation%206.png)  
+![Equation 6.](/images%2FDetermination%20of%20drop%20trajectories%2FEquation%206.png)  
 
 >λ/λs is therefore an average value of CDR/24 for a drop projected into still
 air with an initial velocity U and final velocity zero. If, for the case of
@@ -79,7 +79,7 @@ still air, Eqs. (a) and (2) are solved by using an average value of CDR/24K, the
 is a K for which we can apply Stokes' Law and obtain the same trajectory.
 Ko is defined by:
 
-![Equation 7 and 8.](images%2FDetermination%20of%20drop%20trajectories%2FEquation%207%20and%208.png)  
+![Equation 7 and 8.](/images%2FDetermination%20of%20drop%20trajectories%2FEquation%207%20and%208.png)  
 
 >If this adjustment of K is extended to the case of a varying air velocity field, 
 the curves of Figures 1-20 result.  
@@ -89,7 +89,7 @@ reports, only one curve is then necessary.
 
 Here we will look at the Em curves (only). There are also curves for Beta_max and impingement limits.
 
-![Figure 1. Cylinder Em vs. Ko.](images%2FDetermination%20of%20drop%20trajectories%2FFigure%201.png)  
+![Figure 1. Cylinder Em vs. Ko.](/images%2FDetermination%20of%20drop%20trajectories%2FFigure%201.png)  
 
 The values are similar for most values of Ko. 
 However, for example at K=0.4, the spread in values (about 0.06 Em) are approaching the individual values
@@ -97,19 +97,19 @@ However, for example at K=0.4, the spread in values (about 0.06 Em) are approach
 
 A later publication, "Ice Protection Investigation for Advanced Rotary-Wing Aircraft" [^1], 
 does show an example of a selected "mean line" Ko approximation.  
-![Figure 83. Ko Approximation for Representing Em](images%2FAD-771%20182%2FFigure%2083.png)  
+![Figure 83. Ko Approximation for Representing Em](/images%2FAD-771%20182%2FFigure%2083.png)  
 
 Two of the airfoils from the review [Impingement on Airfoils]({filename}airfoils.md) were analysed:  
 
-![Figure 4. NACA 652-015 Airfoil Symmetrical 15% Thick, 4 degree angle of attack, Em vs. Ko.](images%2FDetermination%20of%20drop%20trajectories%2FFigure%204.png)  
+![Figure 4. NACA 652-015 Airfoil Symmetrical 15% Thick, 4 degree angle of attack, Em vs. Ko.](/images%2FDetermination%20of%20drop%20trajectories%2FFigure%204.png)  
 
-![Figure 7. Joukowski Airfoil Symmetrical 15% Thick, 4 degree angle of attack, Em vs. Ko.](images%2FDetermination%20of%20drop%20trajectories%2FFigure%207.png)  
+![Figure 7. Joukowski Airfoil Symmetrical 15% Thick, 4 degree angle of attack, Em vs. Ko.](/images%2FDetermination%20of%20drop%20trajectories%2FFigure%207.png)  
 
 The Ko approximation works well for both of those airfoils.  
 
 Remember the ribbon from [Impingement on Other Surfaces (NACA-TN-3658)]({filename}NACA-TN-3658.md)?  
 
-![Figure 20. Ribbon Em vs. Ko.](images%2FDetermination%20of%20drop%20trajectories%2FFigure%2020.png)  
+![Figure 20. Ribbon Em vs. Ko.](/images%2FDetermination%20of%20drop%20trajectories%2FFigure%2020.png)  
 
 Fortunately, most applications for a ribbon will be "thin", so that Ko is likely to be high, 
 and the Ko approximation rather good.  
@@ -123,11 +123,11 @@ where Tribus presented "A new method for calculating water-droplet trajectories 
 
 [NACA-TN-3839]({filename}airfoils.md) used Ko to "correlate to the extent possible" experimental results for different airfoils.  
 
-![Figure 12. Experimental total collection efficiency of six unswept airfoils at 0° angle of attack.](images%2Fnaca-tn-3839%2FFigure%2012.png)  
+![Figure 12. Experimental total collection efficiency of six unswept airfoils at 0° angle of attack.](/images%2Fnaca-tn-3839%2FFigure%2012.png)  
 
 We see the same data replotted in [ADS-4, “Engineering Summary of Airframe Icing Technical Data”]({filename}ads4.md) [^5]:  
 
-![Figure 2-8. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](images%2Fads4%2FFigure%202-8.png)  
+![Figure 2-8. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](/images%2Fads4%2FFigure%202-8.png)  
 
 Unfortunately, ADS-4 does not cite "Determination of drop trajectories by means of an extension of Stokes' Law", 
 nor any work by Tribus. 
@@ -136,11 +136,11 @@ and a publication that I have not been able to find [^6].
 
 The same figure (renumbered) appears in the FAA Aircraft Icing Handbook [^7].
 
-![Figure 2-17. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](images%2FFAA%20Handbook%20volume%201%2FFigure%202-17.png)
+![Figure 2-17. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-17.png)
 
 Figure 2-7 shows similar use of Ko in ADS-4 for theoretical Em values, which cover a broader range of Ko values:  
 
-![Figure 2-7. Collection efficiency versus Ko for airfoils - Theoretical data at 0 angle of attack.](images%2Fads4%2FFigure%202-7.png)  
+![Figure 2-7. Collection efficiency versus Ko for airfoils - Theoretical data at 0 angle of attack.](/images%2Fads4%2FFigure%202-7.png)  
 
 ### Digital Computing  
 
@@ -199,15 +199,15 @@ increasing airfoil thickness for larger Ko.
 
 ![Figure 2.4. Ko BASED ON MVD FOR SEVERAL CHORD SIZES.
 For 5.58 foot chord airfoil, 20 micrometer drop size and 220 KTAS airspeed, the Ko value is close to 0.01.
-There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](images%2FFAA%20Handbook%20volume%201%2FFigure%202.4.png)  
+There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202.4.png)  
 
-![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](images%2FFAA%20Handbook%20volume%201%2FFigure%202-60.png)  
+![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-60.png)  
 
-![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](images%2FFAA%20Handbook%20volume%201%2FFigure%202-61.png)  
+![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-61.png)  
 
-![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](images%2FFAA%20Handbook%20volume%201%2FFigure%202-62.png)  
+![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-62.png)  
 
-![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](images%2FFAA%20Handbook%20volume%201%2FFigure%202-63.png)  
+![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-63.png)  
 
 I will emphasize: 
 
@@ -225,7 +225,7 @@ by the maximum airfoil thickness, "d", is called Em, the efficiency of
 water catch. Figure 81 depicts the droplet trajectories around a 2-D
 airfoil at an angle of attack α.  
 
-![Figure 81. Water Droplet Trajectories in an Airfoil Flow Field and Illustration of Impingement Terminology.](images%2FAD-771%20182%2FFigure%2081.png)  
+![Figure 81. Water Droplet Trajectories in an Airfoil Flow Field and Illustration of Impingement Terminology.](/images%2FAD-771%20182%2FFigure%2081.png)  
 
 The block labeled "WATER" is the amount of water that will strike the airfoil. 
 A thinner airfoil might have a water catch efficiency near one, 
