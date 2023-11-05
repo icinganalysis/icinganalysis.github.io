@@ -44,7 +44,7 @@ was found that the following small correction would bring the calculated
 values into good agreement with the observed values, for all values of φ. The
 correction was therefore included in the procedure for calculating Em.
 
->For Κ in the range from 0.125 to 1.1;
+>For Κ in the range from 0.125 to 1.1;  
 ![Equation 33.](/images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2FEquation33.png)  
 
 ### "Determination of drop trajectories by means of an extension of Stokes' Law" (1952) [^4]  
@@ -87,7 +87,7 @@ An examination of the curves suggests that for each body, instead
 of a wide spread of curves as shown in the Guibert and Langmuir and Blodgett
 reports, only one curve is then necessary.  
 
-Here we will look at the Em curves (only). There are also curves for Beta_max and impingement limits.
+Here we will look at the Em curves (only). There are also curves for βmax and impingement limits.  
 
 ![Figure 1. Cylinder Em vs. Ko.](/images%2FDetermination%20of%20drop%20trajectories%2FFigure%201.png)  
 
@@ -236,9 +236,21 @@ but both airfoils would catch nearly the same amount of water.
 projected airfoil height at α, not the maximum airfoil thickness at α=0. 
 However, this does not affect the point illustrated.)
 
+Why is Em of such interest?
+
+[Emphasis added.]  
+>Presentation of Tribus' data using the Ko parameter showed the close grouping 
+of data points instead of the usual family of curves. A mean line
+through the Ko curves showed that the deviations in efficiency of water
+catch and limits of ice impingement were generally about 10 percent or
+less. (Exceptions were Em data for the cylinder and ribbon at low Ko
+values for which the deviations from the mean line were higher than 10
+percent.) 
+__This is accurate enough for most preliminary calculations involving the heat requirements for anti-icing an airfoil.__  
+
 As we saw previously in the [Icing Wind Tunnel Test Thread]({filename}Icing%20Wind%20Tunnel%20Test%20Thread.md), 
 the ["Manual of Scaling Methods"](NASA-CR-2004-212875.md) [^10] uses 
-Ko correlations for a cylinder to approximately the impingement on an airfoil. 
+Ko correlations for a cylinder to approximately the impingement on an airfoil, particularly for βmax. 
 This provides "an economical method for solving the basic water droplet trajectory" 
 for a use where a lot of detail is not required. 
 
