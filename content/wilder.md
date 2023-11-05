@@ -22,9 +22,9 @@ Glaze ice shape correlations for two commercial aircraft airfoils are developed.
 
 I briefly worked with Ramon Wilder (circa 1991?), 
 but I did not ask him about this particular publication. 
-I (a much junior engineer) did off-handedly ask him once about a certain heat conduction equation. 
+I (a much junior engineer) asked him off-handedly about a certain heat conduction equation. 
 He said "I'll get back to you." 
-The next day he came in with a elegant, hand written, 10 page proof, and said 
+The next day he came in with an elegant, hand-written, 10 page proof, and said 
 "That was a little tough. It took me three hours last night!" 
 That was the kind of engineer Ramon was.
 

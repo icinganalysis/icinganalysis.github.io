@@ -21,6 +21,8 @@ The text is available here a few weeks after publication.
 Links contained are not updated.
 
 [9-30-2023](/newsletter_archive%2F9-30-2023.txt)
+[10-9-2023](/newsletter_archive%2F10-9-2023.txt)  
+
 
 
 
