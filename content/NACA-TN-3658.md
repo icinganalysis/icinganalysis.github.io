@@ -1,8 +1,7 @@
 title: Impingement on Other Surfaces    
 category: impingement  
-Date: 2023-11-04 12:00  
+Date: 2023-11-07 12:00  
 tags: impingement  
-status: draft
 
 ### _"the ideal flow field ahead of a ribbon is not a very satisfactory representation of the actual flow field in front of a rectangular body"_  
 

@@ -122,11 +122,7 @@ These have been reviewed elsewhere, as indicated below.
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
     > previous review: [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
 
-### Other Surfaces [To be reviewed]  
-<!--
-11/7
-[Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
--->
+### [Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
 
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953.  
     > previous review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  

@@ -26,4 +26,6 @@ Links contained are not updated.
 [10-9-2023](/secret_newsletter_archive%2F10-9-2023.txt)  
 [10-16-2023](/secret_newsletter_archive%2F10-16-2023.txt)  
 [10-23-2023](/secret_newsletter_archive%2F10-23-2023.txt)  
+[10-30-2023](/secret_newsletter_archive%2F10-30-2023.txt)  
+[11-6-2023](/secret_newsletter_archive%2F11-6-2023.txt)  
 
