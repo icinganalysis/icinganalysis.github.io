@@ -5,7 +5,7 @@ tags: impingement
 
 ### _"the ideal flow field ahead of a ribbon is not a very satisfactory representation of the actual flow field in front of a rectangular body"_  
 
-![Figure 1. Comparison of two-dimensional flow fields. (a) Ideal flow arout a ribbon. (b) Estimate flow about a rectangle. (c) Ideal flow about a rectangular half body. (d) Comparison of ideal flow about a ribbon and and rectangular half body.](/images%2FNACA-TN-3658%2FFigure%201.png)  
+![Figure 1. Comparison of two-dimensional flow fields. (a) Ideal flow about a ribbon. (b) Estimate flow about a rectangle. (c) Ideal flow about a rectangular half body. (d) Comparison of ideal flow about a ribbon and and rectangular half body.](/images%2FNACA-TN-3658%2FFigure%201.png)  
 
 # NACA-TN-3658, "Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field" [^1]  
 
