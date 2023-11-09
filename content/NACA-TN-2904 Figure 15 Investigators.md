@@ -1,7 +1,6 @@
 Title: A Tentative Identification of Water Drop Trajectory Investigators  
 Date: 2023-11-09 12:00  
 tags: impingement  
-status: draft  
 
 ## NACA-TN-2094 and investigators operating the water-drop-trajectory analog  
 

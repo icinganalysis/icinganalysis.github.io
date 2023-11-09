@@ -136,11 +136,7 @@ These have been reviewed elsewhere, as indicated below.
 - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
     > previous review: [Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
 
-### A Tentative Identification of Water Drop Trajectory Investigators [To be reviewed]  
-<!--
-11/9
-[A Tentative Identification of Water Drop Trajectory Investigators]({filename}NACA-TN-2904%20Figure%2015%20Investigators.md)  
--->
+### [A Tentative Identification of Water Drop Trajectory Investigators]({filename}NACA-TN-2904%20Figure%2015%20Investigators.md)  
 
 ### Conclusions of the Water Drop Impingement thread [To be reviewed]  
 <!--
