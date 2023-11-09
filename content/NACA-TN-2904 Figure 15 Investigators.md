@@ -6,11 +6,11 @@ tags: impingement
 
 ![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
 Two investigators operate a large mechanical computer. 
-One is seated turning a crank attached to a large cylinder labeled "Input Chart". 
+One is seated turning a crank attached to a large cylinder labelled "Input Chart". 
 The second operator turns another input chart crank. 
-Another cylinder is labeled "Droplet Trajectories". 
+Another cylinder is labelled "Droplet Trajectories". 
 There are many shafts and gears visible in the machine. 
-Some machine parts are labeled with the differential equations of motion being solved. 
+Some machine parts are labelled with the differential equations of motion being solved. 
 ](/images/naca-tn-2904/Figure15.png)  
 _Figure 15 of NACA-TN-2904_  
 
