@@ -278,6 +278,10 @@ In the NACA literature, I found six citations of "Determination ...":
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
 
+## Related  
+
+This is the conclusion of the [Water Drop Impingement on Surfaces thread]({filename}impingement.md).  
+
 ## Notes  
 
 [^1]: Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0771182.pdf)  
