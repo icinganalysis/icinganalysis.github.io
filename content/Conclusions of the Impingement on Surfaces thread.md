@@ -11,7 +11,7 @@ tags: impingement
 >The use of a modified water droplet inertia parameter Ko permits consolidation 
 into only a few graphs of most of the published water drop trajectory
 data. [^1]
-
+ 
 To paraphrase [NACA-TN-3839]({filename}airfoils.md) [^2], the studies in this Impingement on Surfaces thread 
 "were a rather ad hoc collection of shapes and sizes". 
 One unifying parameter emerged to correlate the results, 
