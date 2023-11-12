@@ -138,10 +138,7 @@ These have been reviewed elsewhere, as indicated below.
 
 ### [A Tentative Identification of Water Drop Trajectory Investigators]({filename}NACA-TN-2904%20Figure%2015%20Investigators.md)  
 
-### Conclusions of the Water Drop Impingement thread [To be reviewed]  
-<!--
-11/14
--->
+### [Conclusions of the Impingement on Surfaces thread]({filename}Conclusions%20of%20the%20Impingement%20on%20Surfaces%20thread.md)  
 
 ## Notes  
 

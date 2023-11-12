@@ -1,7 +1,6 @@
 Title: Conclusions of the Impingement on Surfaces thread  
-Date: 2023-11-14 12:00  
+Date: 2023-11-13 12:00  
 tags: impingement  
-status: draft  
 
 ### _"It is thus desirable to have an economical method for solving the basic water droplet trajectory equations for an arbitrary airfoil."_ [^1]  
 
