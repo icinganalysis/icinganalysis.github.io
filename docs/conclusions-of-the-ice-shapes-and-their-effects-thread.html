@@ -10,7 +10,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content=""an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils" 1 <img alt="Figure_14 of NACA-TN-1598. Airspeed..." />
+        <meta name="description" content=""an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils" 1 from NACA-TN-1598 2 Summary Data from the..." />
 </head>
 
 <body id="index" class="home">
@@ -37,8 +37,8 @@
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-11-05T10:32:14.244927-08:00">
-                Updated: Sun 05 November 2023
+        <abbr class="modified" title="2023-11-29T15:14:31.368778-08:00">
+                Updated: Wed 29 November 2023
         </abbr>
 <!---->
         <!---->
@@ -105,10 +105,10 @@ h = 4.35X10-4 τ V_o (w β_m)*0.5 (32-t_o)^0.3   (2)
 <p>We can see elements of a "freezing fraction" calculation from Messinger <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> in equations (1) and (2)
 from above. </p>
 <p>From Messinger (equations re-arranged), we also see a water catch rate and a temperature difference:</p>
-<div class="highlight"><pre><span></span><code>mw = LWC * β * V_o  or mw = LWC * E_m / length * V_o
+<div class="highlight"><pre><span></span><code>mw = LWC <span class="gs">* β *</span> V_o  or mw = LWC <span class="gs">* E_m / length *</span> V_o
 
-n = ((hc * (ts - ta)) + (Le * hc * 0.7 / cp * (pvs - pv) / p) + (mw * cpw * (ts - ta)) 
-      -(hc * (r * u**2 / 2 / cp))-(mw * (u**2 / 2))) / (Lf * mw)
+n = ((hc <span class="gs">* (ts - ta)) + (Le *</span> hc <span class="gs">* 0.7 / cp *</span> (pvs - pv) / p) + (mw <span class="gs">* cpw *</span> (ts - ta)) 
+      -(hc <span class="gs">* (r *</span> u**2 / 2 / cp))-(mw <span class="gs">* (u*</span>*2 / 2))) / (Lf * mw)
 </code></pre></div>
 
 <p>In the <a href="/conclusions-of-the-icing-thermodynamics-thread.html">Conclusions of the Icing Thermodynamics Thread</a> 
@@ -121,7 +121,7 @@ We will use that here. </p>
 the leading edge equivalent cylinder freezing fractions were calculated. 
 A Langmuir "D" drop size distribution was assumed. </p>
 <p>A fitting function of the form </p>
-<div class="highlight"><pre><span></span><code>A * freezing_fraction + B * aoa + C = theta_upper_horn_measured
+<div class="highlight"><pre><span></span><code>A <span class="gs">* freezing_fraction + B *</span> aoa + C = theta_upper_horn_measured
 </code></pre></div>
 
 <p>was used to determine the best fit coefficient values of A and B and C. </p>
@@ -131,7 +131,7 @@ A Langmuir "D" drop size distribution was assumed. </p>
 has a better fit. </p>
 <p>A similar fit was made for ice height with the addition 
 of a water catch term:</p>
-<div class="highlight"><pre><span></span><code>A * freezing_fraction * water_catch + B * aoa + C = theta_upper_horn_measured
+<div class="highlight"><pre><span></span><code>A <span class="gs">* freezing_fraction *</span> water_catch + B * aoa + C = theta_upper_horn_measured
 </code></pre></div>
 
 <p><img alt="calculated fit of ice heights" src="images/ice_shapes_wrap_up/ffcyl hs fit.png">  </p>
@@ -362,9 +362,11 @@ available at <a href="http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf">tc
                             <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
                             <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
                             <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
                             <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
                             <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
                             <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+https://bsky.app/profile/icinganalysis.bsky.social
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->

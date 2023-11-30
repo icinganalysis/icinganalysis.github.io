@@ -37,8 +37,8 @@
                 Published: Thu 28 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2023-10-18T05:32:21.851351-07:00">
-                Updated: Wed 18 October 2023
+        <abbr class="modified" title="2023-11-29T15:14:31.368778-08:00">
+                Updated: Wed 29 November 2023
         </abbr>
 <!---->
         <!---->
@@ -125,9 +125,9 @@ water that can be totally frozen after impingement on the body is</p>
 <p>Fraser is using a unit system where 
 cpw = 1 cal/g-C, L_freeze = 80 cal/g.</p>
 <p>More generally, equation 2 is:</p>
-<div class="highlight"><pre><span></span><code>freezing_fraction = cpw * (t_surface-t_ambient) / L_freeze
+<div class="highlight"><pre><span></span><code>freezing_fraction = cpw <span class="gs">* (t_surface-t_ambient) / L_freeze</span>
 
-ml = freezing_fraction * m + mc         (2)
+<span class="gs">ml = freezing_fraction *</span> m + mc         (2)
 </code></pre></div>
 
 <blockquote>
@@ -139,8 +139,8 @@ ml the only additional ice formed is that fraction
 which freezes on impact. So that if m &gt; ml</p>
 </blockquote>
 <p><img alt="Equations 3 and 4" src="images/Fraser/equations3and4.png"> </p>
-<div class="highlight"><pre><span></span><code>mi = freezing_fraction * m + mc          (3)
-mi = ml + freezing_fraction * (m - ml)   (4)
+<div class="highlight"><pre><span></span><code>mi = freezing_fraction <span class="gs">* m + mc          (3)</span>
+<span class="gs">mi = ml + freezing_fraction *</span> (m - ml)   (4)
 freezing_fraction = (mi - ml) / (m - ml)
 </code></pre></div>
 
@@ -174,33 +174,33 @@ Examining the individual terms:—</p>
 Ratio_molecular_masses = 0.662
 cp = 0.24 CHU/g
 
-1550 = L_evap * Ratio_molecular_masses / cp
-1550 = 598 * 0.622 / 0.24
+1550 = L_evap <span class="gs">* Ratio_molecular_masses / cp</span>
+<span class="gs">1550 = 598 *</span> 0.622 / 0.24
 </code></pre></div>
 
 <p>So the "1.12" factor was not included. </p>
 <p>In our unit system: </p>
-<div class="highlight"><pre><span></span><code>qf = wcr * L_freeze
-wcr = E * LWC / g_per_kg * u / pi 
-qk = wcr * u**2 / 2
-qv = hc * r * u**2 / (2 * cp)
-qw = cwp * wcr * (t_surface - t_ambient)
-qc = hc * (t_surface - t_ambient)
-qe = hc * L_evaporation * 0.622 / cp * (es - eo) / p
-hc = 0.24 * re**0.6 * k_air / d_cylinder
-L_freeze = 334640 J/kg
-L_Eevap = 2500900 J/kg
-cp = 1000 J/kg-K
-cpw = 4168 J/kg-K
+<div class="highlight"><pre><span></span><code>qf = wcr <span class="gs">* L_freeze</span>
+<span class="gs">wcr = E *</span> LWC / g_per_kg <span class="gs">* u / pi </span>
+<span class="gs">qk = wcr *</span> u**2 / 2
+qv = hc <span class="gs">* r *</span> u**2 / (2 <span class="gs">* cp)</span>
+<span class="gs">qw = cwp *</span> wcr <span class="gs">* (t_surface - t_ambient)</span>
+<span class="gs">qc = hc *</span> (t_surface - t_ambient)
+qe = hc <span class="gs">* L_evaporation *</span> 0.622 / cp <span class="gs">* (es - eo) / p</span>
+<span class="gs">hc = 0.24 *</span> re**0.6 <span class="gs">* k_air / d_cylinder</span>
+<span class="gs">L_freeze = 334640 J/kg</span>
+<span class="gs">L_Eevap = 2500900 J/kg</span>
+<span class="gs">cp = 1000 J/kg-K</span>
+<span class="gs">cpw = 4168 J/kg-K</span>
 
-E * LWC / g_per_kg * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2)
-= hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p)
+<span class="gs">E *</span> LWC / g_per_kg <span class="gs">* u / pi *</span> (L_freeze - cpw <span class="gs">* (ts - to) + u*</span>*2 / 2)
+= hc <span class="gs">* ((ts - to) - u*</span>*2 / (2 <span class="gs">* cp) + L_evaporation *</span> 0.622 / cp <span class="gs">* (es - eo) / p)</span>
 
-LWC / g_per_kg * E * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2)
-= hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p)
+<span class="gs">LWC / g_per_kg *</span> E <span class="gs">* u / pi *</span> (L_freeze - cpw <span class="gs">* (ts - to) + u*</span>*2 / 2)
+= hc <span class="gs">* ((ts - to) - u*</span>*2 / (2 <span class="gs">* cp) + L_evaporation *</span> 0.622 / cp <span class="gs">* (es - eo) / p)</span>
 
-LWC = hc * ((ts - to) - u**2 / (2 * cp) + L_evaporation * 0.622 / cp * (es - eo) / p) 
-      / (g_per_kg * E * u / pi * (L_freeze - cpw * (ts - to) + u**2 / 2))
+<span class="gs">LWC = hc *</span> ((ts - to) - u**2 / (2 <span class="gs">* cp) + L_evaporation *</span> 0.622 / cp <span class="gs">* (es - eo) / p) </span>
+<span class="gs">      / (g_per_kg *</span> E <span class="gs">* u / pi *</span> (L_freeze - cpw <span class="gs">* (ts - to) + u*</span>*2 / 2))
 </code></pre></div>
 
 <blockquote>
@@ -291,9 +291,11 @@ while Fraser does not. </p>
                             <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
                             <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
                             <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
                             <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
                             <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
                             <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+https://bsky.app/profile/icinganalysis.bsky.social
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->
