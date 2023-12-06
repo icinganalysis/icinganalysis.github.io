@@ -9,7 +9,7 @@ tags: thermodynamics
 
 ![Figure 3-1. Areas of Airframe that May Require Ice Protection. 
 Areas include wing leading edges, propellers, windshield, radome,
-essential instruments, auxilliary air inlets, engine air inlets, 
+essential instruments, auxiliary air inlets, engine air inlets, 
 and empennage leading edges.](images/ads4/Figure3-1.png)  
 
 ## Summary

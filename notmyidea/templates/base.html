@@ -68,6 +68,25 @@
         {% endif %}
         </section><!-- /#extras -->
 
+
+        {% if article and article.rights %}
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                This site does not use cookies. <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+CC-BY-NC-SA 4.0 by Donald Cook
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="31"; alt="CC-BY-NC-SA 4.0" />
+</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+        {% else %}
+
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 This site does not use cookies. <br />
@@ -78,6 +97,7 @@
                 <a rel="me" href="https://historians.social/@icinganalysis"></a>
 
         </footer><!-- /#contentinfo -->
+        {% endif %}
 <link rel="shortcut icon" href="{{ SITEURL }}/images/favicon.ico?v=2" />
 {% include 'analytics.html' %}
 {% include 'disqus_script.html' %}
