@@ -12,13 +12,9 @@ _From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is 
 
 # DRAFT
 
-Several publications by Porter Perkins were included in  
-[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 
-in the "Meteorology of Icing Clouds" section. 
-While the publications are important and useful, 
-they did not directly affect the icing design values adopted in regulations. 
-I will review those in their own thread, to be published at a later date.  
-Perkins was quite productive during his career at NACA and NASA. 
+## Summary  
+
+Porter Perkins was quite productive during his career at NACA and NASA, publishing works on a variet of topics. 
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
@@ -41,6 +37,12 @@ Perkins was quite productive during his career at NACA and NASA.
     > review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
 
 ## Meteorology  
+
+Several publications by Porter Perkins were included in  
+[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 
+in the "Meteorology of Icing Clouds" section. 
+While the publications are important and useful, 
+they did not directly affect the icing design values adopted in regulations. 
 
 - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. https://ntrs.nasa.gov/citations/19810068858  
 - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. https://ntrs.nasa.gov/citations/19810068855  
