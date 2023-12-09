@@ -1,1 +1,3 @@
+{% if article and not article.header %}
 {% if article.tags %}<p>tags: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a><br> {% endfor %}</p>{% endif %}
+{% endif %}

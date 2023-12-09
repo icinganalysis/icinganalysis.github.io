@@ -85,7 +85,7 @@ evolved over time.
 \* I note this because it implies that they had enough confidence in the control systems and prior calibrations so that 
 conditions could be set just by the spray control parameters.
 
-####LWC calibration methods: 
+#### LWC calibration methods: 
 
 1946 NACA-TN-1134 free-water sampling rake  
 1947 NACA-TN-1246 rotating multicylinders  

@@ -21,25 +21,32 @@
 <body id="index" class="home">
 {% include 'github.html' %}
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
-                <nav><ul>
-                {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% if DISPLAY_PAGES_ON_MENU -%}
-                {% for pg in pages %}
-                    <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
-                {% endfor %}
+                {% if article and article.header %}
+                        <h1><a href="/drafts/the-basics.html">{{ article.header }}</a></h1>
+                {% else %}
+                        <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                        <nav><ul>
+                        {% for title, link in MENUITEMS %}
+                            <li><a href="{{ link }}">{{ title }}</a></li>
+                        {% endfor %}
+                        {% if DISPLAY_PAGES_ON_MENU -%}
+                        {% for pg in pages %}
+                            <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
+                        {% endfor %}
+                        {% endif %}
+                        {% if DISPLAY_CATEGORIES_ON_MENU -%}
+                        {% for cat, null in categories %}
+                            <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                        {% endfor %}
+                        {% endif %}
+                        </ul></nav>
                 {% endif %}
-                {% if DISPLAY_CATEGORIES_ON_MENU -%}
-                {% for cat, null in categories %}
-                    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-                {% endif %}
-                </ul></nav>
         </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
+
+        {% if article and not article.header %}
+
         <section id="extras" class="body">
         {% if LINKS %}
                 <div class="blogroll">
@@ -68,13 +75,22 @@
         {% endif %}
         </section><!-- /#extras -->
 
+        {% endif %}
+
 
         {% if article and article.rights %}
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
+
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
                 This site does not use cookies. <br />
                 Opinions are those of the author, and not any current or former employers.  <br />
-CC-BY-NC-SA 4.0 by Donald Cook
+CC-BY-NC-SA 4.0 by <a  href=/donald-cook.html>Donald Cook</a>
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="31"; alt="CC-BY-NC-SA 4.0" />
 </a>
