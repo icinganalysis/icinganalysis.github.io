@@ -14,7 +14,7 @@ _From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is 
 
 ## Summary  
 
-Porter Perkins was quite productive during his career at NACA and NASA, publishing works on a variet of topics. 
+Porter Perkins was quite productive during his career at NACA and NASA, publishing works on a variety of topics. 
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
