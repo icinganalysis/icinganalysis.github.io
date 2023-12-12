@@ -112,6 +112,11 @@ one needs fall back to html and put an anchor in the header:
 ```
 > [link to Site Navigation](#site-navigation)  
 
+There is an alternative style that does not use html:  
+```markdown
+### Site navigation {: site-navigation }
+```
+
 Anchor links also work between pages:  
 ```markdown
 [Conclusions of Icing on Cylinders Drop Size Distributions]({filename}Conclusions of the Cylinder Thread.md#drop_size_distributions)

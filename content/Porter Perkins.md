@@ -2,19 +2,43 @@ Title: Porter Perkins
 Date: 2023-04-20 12:00  
 Category: NACA  
 status: draft  
-tags: Porter Perkins, propellers, airships, flight safety   
+tags: Porter Perkins, propellers, meteorology, airships, flight safety   
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of ... icing on airplane performance became increasingly important"_ (1948)  
 [^1]
 
 ![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
+
 _From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is Porter Perkins._   
 
 # DRAFT
 
 ## Summary  
 
-Porter Perkins was quite productive during his career at NACA and NASA, publishing works on a variety of topics. 
+Porter Perkins published on icing topics for over 50 years while at NACA, NASA, and other groups. 
+
+## Biographies and Memorials  
+
+From 1997:  
+>Porter J. Perkins is a senior aerospace engineer working in
+aviation safety as manager of airworthiness of research flight
+activity at the Lewis Research Center of the U.S. National
+Aeronautics and Space Administration (NASA), Cleveland,
+Ohio, U.S. He has specialized in research on aircraft icing for
+more than 25 years. His in-flight measurements to characterize
+icing clouds were later incorporated into U.S. icing protection
+certification standards. He has authored or co-authored more
+than 25 reports in the field of aircraft icing, and continues to
+participate in icing research flights. Perkins is an associate
+fellow of the American Institute of Aeronautics and Astronautics (AIAA).
+
+from Protection Against Icing: A Comprehensive Overview, Flight Safety Digest, Vol. 16 No. 6/7/8/9, June-September 1997. [flightsafety.org](https://flightsafety.org/fsd/fsd_jun-sep97.pdf)  
+
+He is named on the Smithsonian Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
+
+Memorials have named him "The Father of Icing" ([findagrave.com](https://www.findagrave.com/memorial/223638554/porter-jewett-perkins)) ([obits.cleveland.com](https://obits.cleveland.com/us/obituaries/cleveland/name/porter-perkins-obituary?id=7948722)).  
+
+## Publications  
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
@@ -38,22 +62,16 @@ Porter Perkins was quite productive during his career at NACA and NASA, publishi
 
 ## Meteorology  
 
-Several publications by Porter Perkins were included in  
-[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md) 
-in the "Meteorology of Icing Clouds" section. 
-While the publications are important and useful, 
-they did not directly affect the icing design values adopted in regulations. 
-
-- Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. https://ntrs.nasa.gov/citations/19810068858  
-- Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. https://ntrs.nasa.gov/citations/19810068855  
-- Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. https://ntrs.nasa.gov/citations/19930088875  
-- Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957. https://ntrs.nasa.gov/citations/19810068859  
-- Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. https://ntrs.nasa.gov/citations/19810068857  
-- Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up  
+- Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068858)  
+- Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)  
+- Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)  
+- Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068859)  
+- Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
+- Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [ntrs.nasa.gov](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
 ## Airships  
 
-- Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. https://ntrs.nasa.gov/citations/19810068595  
+- Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
 
 ## Flight Safety  
 
@@ -61,4 +79,9 @@ they did not directly affect the icing design values adopted in regulations.
 - Perkins, Porter, and William Rieke. "Aircraft icing problems-After 50 years." 31st Aerospace Sciences Meeting, AIAA-93-0392. 1993. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1993-392)   
 - Perkins, P. and Ranaudo, R., "Contending with Airframe Icing," SAE Technical Paper 2002-01-1518, 2002 [sae.org](https://www.sae.org/publications/technical-papers/content/2002-01-1518/) 
 [jstor.org](https://www.jstor.org/stable/44718410)  
+
+# Books  
+
+- In-Flight Icing Paperback – January 1, 2001, by Porter J. Perkins, Sporty's Pilot Shop (I have not been able to find a copy of this)  
+
 
