@@ -2,7 +2,7 @@ Title: Porter Perkins
 Date: 2023-04-20 12:00  
 Category: NACA  
 status: draft  
-tags: Porter Perkins, propellers, meteorology, airships, flight safety   
+tags: Porter Perkins, propellers, instruments, meteorology, airships, flight safety   
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of ... icing on airplane performance became increasingly important"_ (1948)  
 [^1]
