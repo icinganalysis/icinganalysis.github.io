@@ -561,7 +561,7 @@ distributions.
 References were cited at scholar.google.com these many times:  
 
 NACA-RM-E51D18: 5  
-NACA-RM-E52J06: 4
+NACA-RM-E52J06: 4  
 NACA-RM-E55F28a: 2  
 NACA-TN-3984: 10  
 NACA-TN-4314: 4  
