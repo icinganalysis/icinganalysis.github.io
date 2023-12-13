@@ -19,7 +19,6 @@ Porter Perkins published on icing topics for over 50 years while at NACA, NASA, 
 
 ## Biographies and Memorials  
 
-From 1997:  
 >Porter J. Perkins is a senior aerospace engineer working in
 aviation safety as manager of airworthiness of research flight
 activity at the Lewis Research Center of the U.S. National
@@ -34,13 +33,17 @@ fellow of the American Institute of Aeronautics and Astronautics (AIAA).
 
 from Protection Against Icing: A Comprehensive Overview, Flight Safety Digest, Vol. 16 No. 6/7/8/9, June-September 1997. [flightsafety.org](https://flightsafety.org/fsd/fsd_jun-sep97.pdf)  
 
-He is included on the Smithsonian Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
+He is included on the Smithsonian Institute Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
 
 Memorials have named him "The Father of Icing" ([findagrave.com](https://www.findagrave.com/memorial/223638554/porter-jewett-perkins)) ([obits.cleveland.com](https://obits.cleveland.com/us/obituaries/cleveland/name/porter-perkins-obituary?id=7948722)).  
 
 ## Publications  
 
 I could find only 19 publications, not the "more than 25" mentioned in the biography above.  
+
+Several publications on instruments have been reviewed previously, and Perkins used, developed, and improved them.  
+
+Other publications are reviewed in the sections below.  
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
@@ -62,7 +65,7 @@ I could find only 19 publications, not the "more than 25" mentioned in the biogr
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
     > review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
 
-## Meteorology  
+## [Meteorology]({filename}perkins%20meteorology.md)  
 
 - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068858)  
 - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)  
