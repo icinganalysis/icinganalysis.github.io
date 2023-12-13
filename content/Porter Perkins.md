@@ -37,6 +37,10 @@ He is included on the Smithsonian Institute Air and Space Museum Wall of Honor (
 
 Memorials have named him "The Father of Icing" ([findagrave.com](https://www.findagrave.com/memorial/223638554/porter-jewett-perkins)) ([obits.cleveland.com](https://obits.cleveland.com/us/obituaries/cleveland/name/porter-perkins-obituary?id=7948722)).  
 
+As is said in the [Welcome Post]({filename}introduction.md), I once shook hands with Porter Perkins, circa 1993. 
+I also saw and heard him at a few meetings. 
+That was my only direct link to the NACA era.  
+
 ## Publications  
 
 I could find only 19 publications, not the "more than 25" mentioned in the biography above.  
