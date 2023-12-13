@@ -9,7 +9,7 @@ tags: Porter Perkins, propellers, meteorology, airships, flight safety
 
 ![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 
-_From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is Porter Perkins._   
+_From [NACA-TN-1586]({filename}perkins%20propellers.md), 1948. I believe that this is Porter Perkins._   
 
 # DRAFT
 
@@ -34,11 +34,13 @@ fellow of the American Institute of Aeronautics and Astronautics (AIAA).
 
 from Protection Against Icing: A Comprehensive Overview, Flight Safety Digest, Vol. 16 No. 6/7/8/9, June-September 1997. [flightsafety.org](https://flightsafety.org/fsd/fsd_jun-sep97.pdf)  
 
-He is named on the Smithsonian Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
+He is included on the Smithsonian Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
 
 Memorials have named him "The Father of Icing" ([findagrave.com](https://www.findagrave.com/memorial/223638554/porter-jewett-perkins)) ([obits.cleveland.com](https://obits.cleveland.com/us/obituaries/cleveland/name/porter-perkins-obituary?id=7948722)).  
 
 ## Publications  
+
+I could find only 19 publications, not the "more than 25" mentioned in the biography above.  
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
@@ -82,6 +84,7 @@ Memorials have named him "The Father of Icing" ([findagrave.com](https://www.fin
 
 ## Books  
 
-- In-Flight Icing Paperback – January 1, 2001, by Porter J. Perkins, Sporty's Pilot Shop (I have not been able to find a copy of this)  
+- Perkins, Porter J., "In-Flight Icing", Paperback – January 1, 2001. Sporty's Pilot Shop 
+(I have not been able to find a copy of this)  
 
 

@@ -30,13 +30,6 @@ finding them as loanable print copies or digitally.
 
 - NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17, 18 1954 [books.google.com](https://books.google.com/books?id=bsxQAAAAYAAJ)  
 
-## Recently made available online  
-
-- Elliot, H. W.: Cloud Droplet Camera. Published by National Research Council of Canada, Ottawa, 1947 [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=96afb7f7-b81c-4a3f-b754-3ee7d93e7233)    
-- Smith, E. L.: The design of fluid anti-icing systems. National Aeronautical Establishment (Canada) LR-64, 1953. [nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=f64c5521-eb28-4569-9ff6-32b038394078)    
-- [Fraser, D.: “Meteorological Design Requirements for Icing Protection Systems”. NRC DME Report LR-049, March 1953.](https://nrc-publications.canada.ca/eng/view/ft/?id=5e455b30-e1ea-475d-bbbf-0531592d867d))  
-- [Fraser, D.: “Note on the flight testing and assessment of icing protection systems”. NRC DME Report LR-050, March 1953.](https://nrc-publications.canada.ca/eng/view/object/?id=2523bd38-26e6-4d8e-a7a1-529bd1b03b36))  
-
 ## Might be available online soon  
 
 - Orr, J.L., Milsum, J.H. and Rush, C.K.: “Electro-Thermal De-Icing Systems: Their Design and Control”. NRC NAE Report LR-70, March 1953.  
@@ -75,6 +68,6 @@ https://www.governmentattic.org/25docs/NASAtechRpts1980older_2017.pdf
 
 ## Notes  
 
-[^1]:
+[^1]: 
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.    
 
