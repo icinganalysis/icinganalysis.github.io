@@ -1,5 +1,5 @@
 Title: Airships  
-Date: 12-14-23 12:00  
+Date: 2023-12-16 12:00  
 Category: NACA  
 tags: airships, Porter Perkins  
 status: draft  
@@ -48,7 +48,16 @@ of such conditions is very infrequent in coastal areas and virtually impossible
 
 One of my mentors once told me (with a rich Texas drawl), "A blimp don't gather no ice". 
 Well, true enough for typical cloud drop sizes (10 to 50 micrometer in diameter), 
-but falling rain and snow are threats to airships.
+but freezing rain and snow are threats to airships.
+
+As we saw in the review [Bodies of Revolution]({filename}bodies%20of%20revolution.md), 
+very large bodies can have zero impingement of small drops. 
+This is the case for an airship moving through a typical cloud. 
+Several of the publications in [Bodies of Revolution]({filename}bodies%20of%20revolution.md) 
+are referenced in NACA-TN-4220. 
+
+As we saw in the review [Component Ice Protection]({filename}Component%20Ice%20Protection.md), 
+the smaller components (propellers, instruments, etc.) may require ice protection.  
 
 Here we will see flight tests results. 
 There are also rather detailed appendices analyzing the of threat of freezing rain that are not detailed herein. 
