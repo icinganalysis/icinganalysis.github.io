@@ -87,7 +87,7 @@ Other publications are reviewed in the sections below.
 - Perkins, Porter J., and William J. Rieke. "Tailplane icing and aircraft performance degradation." Accident Prevention (1992). [flightsafety.org](https://www.flightsafety.org/ap/ap_feb92.pdf)  
 - Perkins, Porter, and William Rieke. "Aircraft icing problems-After 50 years." 31st Aerospace Sciences Meeting, AIAA-93-0392. 1993. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1993-392)   
 - Perkins, P. and Ranaudo, R., "Contending with Airframe Icing," SAE Technical Paper 2002-01-1518, 2002 [sae.org](https://www.sae.org/publications/technical-papers/content/2002-01-1518/) 
-[jstor.org](https://www.jstor.org/stable/44718410)  
+[jstor.org](https://www.jstor.org/stable/44718410) [can be viewed at no cost with registration]  
 
 ## Books  
 

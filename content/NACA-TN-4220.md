@@ -13,7 +13,7 @@ status: draft
 
 ## Summary  
 
-Icing threats to lighter-than-air airships are assessed.  
+Icing threats to airships are assessed.  
 
 ## Abstract  
 
@@ -53,8 +53,6 @@ but freezing rain and snow are threats to airships.
 As we saw in the review [Bodies of Revolution]({filename}bodies%20of%20revolution.md), 
 very large bodies can have zero impingement of small drops. 
 This is the case for an airship moving through a typical cloud. 
-Several of the publications in [Bodies of Revolution]({filename}bodies%20of%20revolution.md) 
-are referenced in NACA-TN-4220. 
 
 As we saw in the review [Component Ice Protection]({filename}Component%20Ice%20Protection.md), 
 the smaller components (propellers, instruments, etc.) may require ice protection.  
