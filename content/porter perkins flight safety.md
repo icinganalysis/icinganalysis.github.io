@@ -49,7 +49,7 @@ tailplane stall caused by ice accretions also has been
 studied by the Swedish-Soviet Working Group in the
 Field of Flight Safety.
 > 
->![Ice can form on tailplanes and antennas faster than on wings.](images%2FAccident%20Prevention%20Feb%201992%2FScreenshot%20from%202023-12-16%2007-50-51.png)
+>![Ice can form on tailplanes and antennas faster than on wings.](/images%2FAccident%20Prevention%20Feb%201992%2FScreenshot%20from%202023-12-16%2007-50-51.png)
 
 >Ice accretion shape is a result of the rate of freezing on
 the surface. Low temperatures and droplet impingement
@@ -210,14 +210,14 @@ It classifies ice shapes not in just the usually three types (rime, glaze, and m
 
 Some figures came from Perkin's earlier works, reviewed in [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md): 
 
-![Figure 9. Cumulative distribution of depth of icing-cloud layer.](images%2FNASA%20Memo%201-19-59E%2FFigure%209.png)  
+![Figure 9. Cumulative distribution of depth of icing-cloud layer.](/images%2FNASA%20Memo%201-19-59E%2FFigure%209.png)  
 _Figure 9 of NASA-MEMO-1-19-59, reused as Figure 6._  
 
 ![Figure 8. Cumulative distribution of distance flown in icing during an encounter.](/images%2FNASA%20Memo%201-19-59E%2FFigure%208.png)  
 _Figure 8 of NASA-MEMO-1-19-59, reused as Figure 7._  
 
 ![Figure 5. Vertical distribution of liquid-water content measured on January 4, 1951 over a distance of 20 miles
-during descent through a dense, supercooled stratiform cloud layer. Temperature measured at cloud top and base, 17 and 28 F, respectively.](images%2FNACA-RM-E51D18%2FFigure%205.png)  
+during descent through a dense, supercooled stratiform cloud layer. Temperature measured at cloud top and base, 17 and 28 F, respectively.](/images%2FNACA-RM-E51D18%2FFigure%205.png)  
 _Figure 5 from NACA-RM-51D18, reused as Figure 8._  
 
 ## Conclusions  
