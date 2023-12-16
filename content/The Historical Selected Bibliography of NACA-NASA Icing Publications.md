@@ -118,13 +118,31 @@ Links to reviews are included where applicable.
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
         > review: [NACA-TN-1904]({filename}NACA-TN-1904.md)  
     - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
-        > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
+          - > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
     - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952.  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
     - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
     - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958.  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
     - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957.  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
     - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up  
+<!--
+        > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
 
 - Fundamental Properties of Water  
 
@@ -230,11 +248,20 @@ Links to reviews are included where applicable.
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Perkins, Porter J., and Millenson, Morton B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949.  
   <!--
-        > review: [NACA-RM-E9C17]({filename}perkins%20propellers.md#NACA-RM-E9C17)  
+        > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md#NACA-RM-E9C17)  
   -->
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948.  
+  <!--
+        > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
+  -->
     - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948.  
+  <!--
+        > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
+  -->
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948.  
+  <!--
+        > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
+  -->
     - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
     - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
@@ -364,6 +391,9 @@ Links to reviews are included where applicable.
     - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [Reprint included in NASA-TM-81651]  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  
+<!--
+          - > review: [Airships](NACA-TN-4220.md)  
+-->
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  

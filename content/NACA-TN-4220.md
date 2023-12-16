@@ -1,5 +1,5 @@
 Title: Airships  
-Date: 23-12-10 12:00  
+Date: 12-14-23 12:00  
 Category: NACA  
 tags: airships, Porter Perkins  
 status: draft  
@@ -172,4 +172,5 @@ NACA-TN-4220 cites several of the publications in [Bodies of Revolution]({filena
 This is part of the [Porter Perkins]({filename}Porter%20Perkins.md) series.  
 
 ## Notes  
+
 [^1]: Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  

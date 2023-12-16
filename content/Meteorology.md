@@ -59,6 +59,9 @@ they did not directly affect the icing design values adopted in regulations.
 I will review those in their own thread, to be published at a later date. 
 Perkins was quite productive during his career at NACA and NASA. 
   
+<!--
+[Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
+-->
 - Porter Perkins  
 
     - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.  
