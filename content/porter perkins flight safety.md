@@ -49,8 +49,7 @@ tailplane stall caused by ice accretions also has been
 studied by the Swedish-Soviet Working Group in the
 Field of Flight Safety.
 > 
->![Ice can form on tailplanes and antennas faster than on wings.](/images%2FAccident%20Prevention%20Feb%201992%2FScreenshot%20from%202023-12-16%2007-50-51.png)
-
+>![Ice can form on tailplanes and antennas faster than on wings.](/images%2FAccident%20Prevention%20Feb%201992%2FFigure%20tailplane.png)  
 >Ice accretion shape is a result of the rate of freezing on
 the surface. Low temperatures and droplet impingement
 rates (water concentration X velocity), along with small
