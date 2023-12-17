@@ -26,7 +26,8 @@ Two areas are discussed, the gas heating of propellers, and the measurement of t
 - Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948. [^3]  
 
 >SUMMARY  
-An investigation to determine the effectiveness of icing protection 
+> 
+>An investigation to determine the effectiveness of icing protection 
 afforded by air-heating hollow steel unpartitioned propeller
 blades has been conducted In the NACA Cleveland icing research tunnel.
 The propeller used was a production model modified with blade shank
@@ -87,7 +88,8 @@ for 50-percent partitioned and 47 percent for unpartitioned blades.
 ![NACA-TN-1588 Figure 3. Chordwise thermocoouple locations.](/images%2FNACA-TN-1586%2FNACA-TN-1588%20Figure%203.png)
 
 >CONCLUSIONS  
-The high heat-exchanger effectiveness associated with the
+> 
+>The high heat-exchanger effectiveness associated with the
 25-percent partitioned blades and the lower heat-input rate required
 as compared to the unpartitioned and 50-percent partitioned blades
 indicate that partitioning the cavity at approximately 25-percent.
@@ -107,7 +109,8 @@ _"Measurement of propeller thrust during icing conditions is essential to determ
 - An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949. [^4]  
 
 >SUMMARY  
-A lightweight instrument that utilizes resistance-wire electric
+> 
+>A lightweight instrument that utilizes resistance-wire electric
 strain gages to measure propeller-shaft thrust has been developed.
 A wind-tunnel investigation on a propeller installed, on a single-engine 
 pursuit airplane showed that the instrument gave a reliable
@@ -116,7 +119,8 @@ within its calibrated range. No attempt was made to determine the
 relation of indicated shaft thrust to net propeller thrust.
 > 
 >INTRODUCTION  
-Measurement of propeller thrust during icing conditions is
+>
+>Measurement of propeller thrust during icing conditions is
 essential to determine the aerodynamic effects of Ice formations
 on propellers or to evaluate the effectiveness of ice-protection
 methods. An investigation in the 16-foot tunnel at the NACA
@@ -127,7 +131,8 @@ obtained from propeller thrust measurements with and without ice
 protection during icing conditions. Other conditions being equal,
 the net change in thrust caused by ice formations is indicated by
 a change in propeller-shaft thrust.  
-An investigation of propeller-icing effects and various systems
+> 
+>An investigation of propeller-icing effects and various systems
 of thermal ice protection has been made under simulated icing conditions 
 in the icing research tunnel at the NACA Lewis laboratory.
 The need for an accurate device to measure propeller thrust and
@@ -149,7 +154,8 @@ described in reference 2.
 ![Figure 10. Effect of static weight of propeller on calibration of NACA electric thrust meter.](/images%2FNACA-RM-E9C17%2FFigure%2010.png)  
 
 >CONCLUSIONS  
-Results of a tunnel investigation of the electric propeller-shaft 
+> 
+>Results of a tunnel investigation of the electric propeller-shaft 
 thrust meter installed on a single-engine pursuit airplane
 show that the meter reliably indicates propeller-shaft thrust
 with an accuracy of ±2 percent within its calibrated range. Measurement 
@@ -167,6 +173,7 @@ Such experiences were valuable in my career.
 ## Citations  
 
 scholar.google.com found the publications cited:  
+
 NACA-TN-1586 7 times  
 NACA-TN-1587 6 times  
 NACA-TN-1588 zero times  

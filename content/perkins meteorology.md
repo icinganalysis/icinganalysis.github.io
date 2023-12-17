@@ -33,6 +33,7 @@ NASA Memo 1-19-59E, which will be reviewed at length.
 This describes the use of the rotating-disk-type icing-rate meter.  
 
 > SUMMARY  
+> 
 > Flight icing-rate data obtained in a dense and abnormally deep
 > supercooled stratiform cloud system indicated the existence of
 > liquid-water contents generally exceeding values in amount and extent
@@ -50,6 +51,7 @@ This describes the use of the rotating-disk-type icing-rate meter.
 > the condition.  
 
 > APPARATUS AND PROCEDURE  
+> 
 > The meteorological instrumentation on the research aircraft permitted
 > continuous measurements of liquid-water content during flight
 > and, in addition, made available data concerning the vertical variation
@@ -72,6 +74,7 @@ This describes the use of the rotating-disk-type icing-rate meter.
 The data from this are included in the later NASA Memo 1-19-59E. 
 
 > SUMMARY  
+> 
 > Icing data collected on routine operations by four DC-4-type aircraft
 > equipped with NACA pressure-type icing-rate meters are presented
 > as preliminary information obtained from a statistical icing data program
@@ -80,6 +83,7 @@ The data from this are included in the later NASA Memo 1-19-59E.
 > greater scale to provide large quantities of data from many air routes
 > in the United States and overseas. Areas not covered by established air
 > routes are also being included in the survey.  
+> 
 > The four aircraft which collected the data presented in this report
 > were operated by United Air Lines over a transcontinental route from
 > January through May, 1951. An analysis of the pressure-type icing-rate
@@ -103,12 +107,14 @@ The data from this are included in the later NASA Memo 1-19-59E.
 The data from this are included in the later NASA Memo 1-19-59E. 
 
 > SUMMARY  
+> 
 > A statistical survey and a preliminary analysis are made of icing
 > data collected from scheduled flights over the United States and Canada
 > from November 1951 to June 1952 by airline aircraft equipped with NACA
 > pressure-type icing-rate meters. This interim report presents information
 > obtained from a continuing program sponsored by the NACA with the cooperation
 > of the airlines.  
+> 
 > An analysis of over 600 icing encounters logged by three airlines
 > operating in the United States, one operating in Canada and one operating
 > up the coast to Alaska, is presented. The icing conditions encountered
@@ -182,6 +188,7 @@ ice calculated for two encounters extending about 150 miles.
 The data from this are included in the later NASA Memo 1-19-59E. 
 
 > SUMMARY  
+> 
 > A statistical study is made of icing data reported from weather
 > reconnaissance aircraft flown by Air Weather Service (USAF). The weather
 > missions studied were flown at fixed flight levels of 500 millibars
@@ -189,12 +196,14 @@ The data from this are included in the later NASA Memo 1-19-59E.
 > Atlantic, and Arctic Oceans. This report is presented as part of a program
 > conducted by the NACA to obtain extensive icing statistics relevant
 > to aircraft design and operation.  
+> 
 > The thousands of in-flight observations recorded over a 2- to 4-year
 > period provide reliable statistics on icing encounters for the specific
 > areas, altitudes, and seasons included in the data. The relative frequencies
 > of icing occurrence are presented, together with the estimated
 > icing probabilities and the relation of these probabilities to the
 > frequencies of flight in clouds and cloud temperatures.  
+> 
 > The results show that aircraft operators can expect icing probabilities
 > to vary widely throughout the year from near zero in the cold Arctic
 > areas in winter up to 7 percent in areas where greater cloudiness and
@@ -257,6 +266,7 @@ relation known to exist through previous experience and research.
 The data from this are included in the later NASA Memo 1-19-59E. 
 
 > SUMMARY  
+> 
 > Data and analyses are presented on the relative frequencies of
 > occurrence and severity of icing cloud layers encountered by jet aircraft
 > in the climb and descent phases of flights to high altitudes. Fighter-interceptor
@@ -265,11 +275,13 @@ The data from this are included in the later NASA Memo 1-19-59E.
 > installed for a 1-year period. The project was part of an extensive
 > program conducted by the NACA to collect Icing cloud data for evaluating
 > the icing problem relevant to routine operations.  
+> 
 > The average frequency of occurrence of icing was found to be about
 > 5 percent of the number of climbs and descents during 1 year of operations
 > The icing encounters were predominantly in the low and middle
 > cloud layers, decreasing above 15,000 feet to practically none above
 > 25,000 feet.  
+> 
 > The greatest thickness of ice that would accumulate on any aircraft
 > component (as indicated by the accretion on a small object) was measured
 > with the icing meters. The ice thicknesses on a small sensing probe
@@ -362,18 +374,21 @@ containing very high water contents.
 ## NASA Memo 1-19-59E "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations", 1959 [^6]  
 
 > SUMMARY  
+> 
 > An extensive program was conducted to obtain icing-cloud statistics
 > needed in aircraft design and operation. The data were collected during
 > routine flights of airline end United States Air Force aircraft.
 > Pressure-sensitive icing meters were installed on 72 service aircraft
 > flown by several different cooperating organizations along domestic and
 > overseas airways and over wilde areas of the Pacific and Arctic oceans.  
+> 
 > The results of this survey are summarized in tabular form and as
 > frequency distributions of the measured icing-cloud parameters.
 > Distributions are given for cloud liquid-water content, distance traveled in
 > icing, depth of an icing-cloud layer, temperature of icing clouds, and
 > a reference measure of the total ice accretion (thickness) resulting
 > from over-all exposure to the cloud system.  
+> 
 > Data were received from 3200 icing-cloud encounters recorded over
 > several icing seasons. Statistical presentation of these data required
 > defining a unit of cloud system length, particularly for conditions of
@@ -391,7 +406,9 @@ containing very high water contents.
 > 10 percent of the encounters.
 
 > RESULTS AND DISCUSSION  
+> 
 > Air Routes and Areas Covered in Survey  
+> 
 > The approximate location of the air routes and areas over which the
 > icing-cloud data were collected are indicated on a northern hemisphere
 > map in figure 5. Data from United States and overseas airways were received
@@ -426,6 +443,7 @@ containing very high water contents.
 (1) 0.3 Gram per cubic meter exceeded in approximately 33 percent of the intervals  
 (2) 0.6 Gram per cubic meter exceeded in 10 percent of the intervals  
 (3) 1.1 Grams per cubic meter exceeded in 1 percent of the intervals  
+> 
 > These results are lower than preliminary values published in an interim
 > report (ref. 3). The data presently reported are considered more reliable
 > because they are based on a larger sampling of data, and on improved
@@ -443,15 +461,17 @@ containing very high water contents.
 ![Figure 8. Cumulative distribution of distance flown in icing during an encounter.](/images%2FNASA%20Memo%201-19-59E%2FFigure%208.png)  
 
 > APPENDIX B  
+> 
 > CALIBRATION OF ICING METERS  
+> 
 > The operation of the icing meter was most seriously effected when
 > a so-called runoff condition occurred. This condition, which affects
 > all ice-collecting instruments, is defined as a surface effect where the
-> impinging water fails to freeze Immediately because the surface temperature
+> impinging water fails to freeze immediately because the surface temperature
 > has been elevated to the freezing point by the latent heat of fusion.
-> The extent to which thls occurs depends on the heat balance on the
+> The extent to which this occurs depends on the heat balance on the
 > surface, which is a function primarily of the impingement rate, droplet
-> slze, air temperature, airspeed, and altitude. If these conditions are
+> size, air temperature, airspeed, and altitude. If these conditions are
 > such that the surface temperature remains below freezing, the ice continues
 > to build up. When the surface approaches the freezing point,
 > however, less ice will form and the excess water runs along the surface
@@ -464,6 +484,7 @@ containing very high water contents.
 > icing rate to an icing rate corresponding to the water impingement rate
 > is plotted against air temperature. The indicated rate is a calculated
 > value assuming a constant ice thickness for the indicated icing times.
+> 
 > The data points of figure 12 show that during runoff this rate can approach
 > values 50 percent higher than the icing rate prior to runoff.
 > The readings are erratic, which makes any correction factors difficult
@@ -483,13 +504,14 @@ containing very high water contents.
 
 > In order to evaluate these assumptions, calculated water contents
 > from the icing rate indications were compared with two other methods of
-> measuring water content, rotating multieylinders (described in ref. 6)
+> measuring water content, rotating multicylinders (described in ref. 6)
 > and an aeroscope {described in ref. 7). The multicylinder method is
 > based on the principle that cylinders of different sizes collect different
 > quantities of lce per unit frontal area, whereas the aeroscope collects
 > and measures the individual cloud droplets though an oil medium
 > and photographic technique. For the comparison studies these units were
-> mounted in the proximity of two ice-sensing probes in an alrcraft installation.
+> mounted in the proximity of two ice-sensing probes in an aircraft installation.
+> 
 > Simultaneous exposures to natural icing clouds were made
 > with all instruments. The results are shown in figure 14 as separate
 > comparisons of the icing meters with each method. Each data point in
@@ -513,9 +535,11 @@ containing very high water contents.
 ![Figure 14.png](/images%2FNASA%20Memo%201-19-59E%2FFigure%2014.png)  
 
 > SUMMARY OF RESULTS  
+> 
 > An extensive program of collecting icing-cloud data with instrumented
 > airline and U. S. Air Force aircraft during routine flights has provided
 > the following results:  
+> 
 >1. Icing-cloud systems contained voids of varying length which resulted 
 in separated periods of continuous ice buildup within a given
 system. For convenience, voids in the clouds exceeding 10 minutes of
@@ -523,10 +547,12 @@ flight were not measured. This limitation defined a unit of cloud-system
 length called an icing encounter. Statistical values of many of
 the icing parameters were based on measurements taken within this unit
 of icing-cloud length.  
+>
 >2. A total of 3200 icing encounters were recorded by the cooperative 
 organizations along airways within the United States, across the
 North Atlantic, along the Pacific air route to Alaska and Japan, and
 over wide arcas of the Pacific and Arctic oceans.  
+>
 >3. The following statistics were derived from frequency distributions 
 of the measured icing parameters:  
 (a) Liquid-water content (averaged over 1-minute intervals of ice buildup):  
@@ -549,6 +575,7 @@ of the measured icing parameters:
 (1) Colder than -12° C in approximately 33 percent of icing encounters  
 (2) Colder than -20° C in 10 percent of icing encounters  
 (3) Colder than -32° C in 1 percent of icing encounters  
+>
 >4. The frequency distribution of liquid-water content showed a mean
 of 0.25 gram per cubic meter and a mode of 0.15 gram per cubic meter.
 The water contents of this distribution were about two-thirds of those

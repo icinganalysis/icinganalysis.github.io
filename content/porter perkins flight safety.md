@@ -35,6 +35,7 @@ on the horizontal stabilizer of these aircraft.
 There was a coordinated effort to reduce risks due to tailplane icing: 
 
 >Stall Can Be Caused by Ice On Tail Surfaces  
+> 
 >A joint U.S. National Aeronautics and Space
 Administration (NASA)/FAA International
 Tailplane Icing Workshop to address this
@@ -64,7 +65,8 @@ protuberances (“double-horn” ice formation) facing the
 airstream either side of the airflow center or stagnation
 line. This type of ice formation is usually described as
 glaze ice.  
-Ice shapes are of extreme importance because the contour,
+> 
+>Ice shapes are of extreme importance because the contour,
 roughness and location of the
 ice formation on the various
 aircraft components can significantly deteriorate aerodynamic performance. Glaze
@@ -127,7 +129,8 @@ situation at the horizontal tail.
 ## "Aircraft icing problems-After 50 years.", 1993 [^2]  
 
 >Abstract  
-Although solutions to the aircraft icing
+> 
+>Although solutions to the aircraft icing
 phenomenon have been pursued for over 50
 years, involving thousands of people, resulting in
 the availability of improved ice protection
@@ -156,7 +159,8 @@ understood the serious nature of the situation
 and had applied appropriate corrective action.
 
 >Concluding Remarks  
-Although this paper may seem to imply that
+> 
+>Although this paper may seem to imply that
 a portion of the aviation community has been
 somewhat complacent when dealing with the
 icing hazard, we recognize that the overwhelming
@@ -165,7 +169,8 @@ the hazards of aircraft icing. As a result,
 accidents due to icing have been extremely rare
 over the years, and can be further reduced by
 emphasis on education and training.  
-In addition, pilots can be aided by further
+> 
+>In addition, pilots can be aided by further
 improvements in ice detection/protection to
 counter the rare severe conditions that can be
 encountered which exceed the capability of
@@ -174,7 +179,8 @@ present ice protection systems.
 ## "Contending with Airframe Icing", 2002  
 
 >ABSTRACT  
-Pilots need to be aware, under certain icing conditions,
+> 
+>Pilots need to be aware, under certain icing conditions,
 of the limitations of ice protection on their particular
 aircraft. FAA certification for flight into known icing does
 not ensure complete safety of flight in all icing
@@ -190,14 +196,16 @@ measure a wide range of icing conditions in which the
 performance losses and flying qualities of the aircraft
 were determined. These results are described in this
 paper.  
-Also, a number of accidents associated with icing have
+> 
+>Also, a number of accidents associated with icing have
 been reviewed providing insight into the catastrophic
 results from particular ice contamination that can form
 on different types of aircraft. How these situations say
 may be recognized and possible action taken before the
 aircraft becomes uncontrollable are included in this
 paper.  
-Although ice protection has not significantly improved
+>
+>Although ice protection has not significantly improved
 over the years, better meteorological information is now
 available for both pre-flight and in-flight planning.
 The 'weather channel' concept can be made available in
@@ -232,6 +240,18 @@ the air transport system as a whole (regulators, airline, manufacturers, pilots,
 did not entirely realize the importance of those conditions until an accident in 1994 [^4]. 
 The official accident reports are not easy to read [^5] [^6], but are highly recommended. 
 That accident set a number of efforts into effect, including new regulations [^7].
+
+## Citations  
+
+References were cited at scholar.google.com these many times:  
+
+Tailplane icing and aircraft performance degradation: 1  
+Aircraft icing problems-After 50 years: 12  
+Contending with Airframe Icing: 0  
+
+## Related  
+
+This is part of the [Porter Perkins]({filename}Porter%20Perkins.md) series.  
 
 ## Notes  
 
