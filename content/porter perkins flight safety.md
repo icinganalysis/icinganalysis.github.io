@@ -154,24 +154,6 @@ could have been prevented if the flight crews
 understood the serious nature of the situation
 and had applied appropriate corrective action.
 
->Concluding Remarks  
-> 
->Although this paper may seem to imply that
-a portion of the aviation community has been
-somewhat complacent when dealing with the
-icing hazard, we recognize that the overwhelming
-majority of cockpit crews have skillfully overcome
-the hazards of aircraft icing. As a result,
-accidents due to icing have been extremely rare
-over the years, and can be further reduced by
-emphasis on education and training.  
-> 
->In addition, pilots can be aided by further
-improvements in ice detection/protection to
-counter the rare severe conditions that can be
-encountered which exceed the capability of
-present ice protection systems.  
-
 [Side note: I believe I was at the presentation of this paper in 1993.]  
 
 ## "Contending with Airframe Icing", 2002  
@@ -194,21 +176,6 @@ measure a wide range of icing conditions in which the
 performance losses and flying qualities of the aircraft
 were determined. These results are described in this
 paper.  
-> 
->Also, a number of accidents associated with icing have
-been reviewed providing insight into the catastrophic
-results from particular ice contamination that can form
-on different types of aircraft. How these situations say
-may be recognized and possible action taken before the
-aircraft becomes uncontrollable are included in this
-paper.  
->
->Although ice protection has not significantly improved
-over the years, better meteorological information is now
-available for both pre-flight and in-flight planning.
-The 'weather channel' concept can be made available in
-the cockpit to aid in determining enroute and destination
-conditions.  
 
 Figure 1, "Various Ice Accretion Shapes Observed In Icing Research Flight Program", is quite interesting, but copyrighted, so it will not be reprinted here. 
 It classifies ice shapes not in just the usually three types (rime, glaze, and mixed), but into ten types.  
