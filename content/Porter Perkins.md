@@ -89,7 +89,7 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 
 - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
 
-## [Ice shapes and Ice Protection](Porter%20Perkins%20Ice%20Shapes%20and%20Ice%20Protection.md)  
+## [Ice shapes and Ice Protection]({filename}Porter%20Perkins%20Ice%20Shapes%20and%20Ice%20Protection.md)  
 
 - Ranaudo, R. ,J.; Mikkelsen, K. L.; McKnight, R. C. and Perkins, P. J. Jr., "Performance Degradation of a Typical Twin Engine Commuter Type Aircraft in Measured Natural Icing Conditions," NASA TM 83564 and AIAA-84-0179, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19840005105)  
 - Mikkelsen, K. L., McKnight, R. C., Ranaudo, R. J. and Perkins, P. J. Jr., "Icing Flight Research: Aerodynamic Effects of Ice and Ice Shape Documentation with Stereo Photography," NASA TM 86906 or AIAA-85-0468, 1985. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850009740)  
