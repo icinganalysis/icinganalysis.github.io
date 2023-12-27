@@ -14,7 +14,6 @@ Three publications on flight safety by Porter Perkins are reviewed.
 These publications are copyrighted. 
 The first one, however, has a reuse license, and so much of the discussion will center on it.
 
-
 ## "Tailplane icing and aircraft performance degradation" 1992 [^1]  
 
 Ice on the tailplane (horizontal stabilizer) was identified as a risk on some aircraft:  
