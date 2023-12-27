@@ -156,7 +156,7 @@ and had applied appropriate corrective action.
 
 [Side note: I believe I was at the presentation of this paper in 1993.]  
 
-## "Contending with Airframe Icing", 2002  
+## "Contending with Airframe Icing", 2002 [^3]  
 
 >ABSTRACT  
 > 
