@@ -95,9 +95,7 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 - Mikkelsen, K. L., McKnight, R. C., Ranaudo, R. J. and Perkins, P. J. Jr., "Icing Flight Research: Aerodynamic Effects of Ice and Ice Shape Documentation with Stereo Photography," NASA TM 86906 or AIAA-85-0468, 1985. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850009740)  
 - Perkins, P., Otis Hastings, and William Rieke. "Thin, lightweight, electrothermal ice protection-New technology supplementing existing ice protection." 34th Aerospace Sciences Meeting and Exhibit, AIAA-96-0391. 1996. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1996-391)  
 
-## Icing Severity Probability   
-
-[Reproducing NACA-TN-2738 calculations]({filename}Reproducing%20NACA-TN-2738%20calculations.md)
+## [Icing Severity Probability, Reproducing NACA-TN-2738 calculations]({filename}Reproducing%20NACA-TN-2738%20calculations.md)  
 
 ## [Flight Safety]({filename}porter%20perkins%20flight%20safety.md)  
 
