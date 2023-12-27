@@ -107,6 +107,6 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 ## Books  
 
 - Perkins, Porter J., "In-Flight Icing", Paperback – January 1, 2001. Sporty's Pilot Shop 
-(I have not been able to find a copy of this)  
+(I have not been able to find a copy of this)   
 
 
