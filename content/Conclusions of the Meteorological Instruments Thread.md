@@ -139,7 +139,7 @@ Unfortunately, the difficulties involved in the measurement of cloud
 parameters proved so formidable that neither attempt was completely
 successful. The Ames Laboratory developed a heated-wire instrument for
 measuring liquid water content that provided excellent in flight, in the
-hands of research personnel. However, it was to complicated for automatic
+hands of research personnel. However, it was too complicated for automatic
 operation; and reduction of data was a complex and difficult procedure,
 therefore, it was never used extensively. The net result was an excellent
 research instrument and a very meager amount of data. Meanwhile, the

@@ -5,10 +5,6 @@ tags: Porter Perkins, flight safety
 
 ### _"Most, if not all of the recent accidents on record having icing as the probable cause could have been prevented if the flight crews understood the serious nature of the situation and had applied appropriate corrective action."_ [^2]   
 
-<!--
-### _"our knowledge of aircraft icing and the penalties associated with it has not changed substantially in the last forty to fifty years"_  
--->
-
 ## Summary  
 
 Three publications on flight safety by Porter Perkins are reviewed.  
@@ -96,7 +92,8 @@ is very high. It is high also because of
 the downwash over the tail created by the
 extended flaps. This will increase the angle
 of attack of the stabilizer even more.  
-This situation is where tailplane ice can cause trouble. A
+> 
+>This situation is where tailplane ice can cause trouble. A
 small amount of ice contamination on the leading edge of
 the horizontal stabilizer can interfere with the airflow on
 the underside of the stabilizer because it may be working
@@ -175,6 +172,8 @@ improvements in ice detection/protection to
 counter the rare severe conditions that can be
 encountered which exceed the capability of
 present ice protection systems.  
+
+[Side note: I believe I was at the presentation of this paper in 1993.]  
 
 ## "Contending with Airframe Icing", 2002  
 

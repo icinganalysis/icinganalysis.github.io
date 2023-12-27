@@ -2,7 +2,7 @@ Title: Porter Perkins
 Date: 2023-12-14 12:00  
 Category: NACA  
 status: draft  
-tags: Porter Perkins, propellers, instruments, meteorology, airships, flight safety   
+tags: Porter Perkins, propellers, instruments, meteorology, airships, ice shapes, ice protection, flight safety   
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of ... icing on airplane performance became increasingly important"_ (1948)  
 [^1]
@@ -43,11 +43,18 @@ That was my only direct link to the NACA era.
 
 ## Publications  
 
-I could find only 19 publications, not the "more than 25" mentioned in the biography above.  
+I could find only 22 publications, not the "more than 25" mentioned in the biography above. 
+Searching is difficult, as his name is in three forms on ntrs.nasa.gov, at least two forms on scholar.google.com, 
+and likewise at other sources (such as P. Perkins, P. J. Perkins, Porter J. Perkins, P. J. Jr Perkins, etc.)  
 
 Several publications on instruments have been reviewed previously, and Perkins used, developed, and improved them.  
 
 Other publications are reviewed in the sections below.  
+
+Several of the publications had co-authors. 
+In this series on Porter Perkins I will make comments about things assuming that Perkins either wrote them, 
+or had an editorial hand in their inclusions. 
+This may not be accurate in all cases, but it is difficult to sort out which co-author wrote what.  
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
@@ -81,6 +88,16 @@ Other publications are reviewed in the sections below.
 ## [Airships, NACA-TN-4220]({filename}NACA-TN-4220.md)
 
 - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
+
+## [Ice shapes and Ice Protection](Porter%20Perkins%20Ice%20Shapes%20and%20Ice%20Protection.md)  
+
+- Ranaudo, R. ,J.; Mikkelsen, K. L.; McKnight, R. C. and Perkins, P. J. Jr., "Performance Degradation of a Typical Twin Engine Commuter Type Aircraft in Measured Natural Icing Conditions," NASA TM 83564 and AIAA-84-0179, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19840005105)  
+- Mikkelsen, K. L., McKnight, R. C., Ranaudo, R. J. and Perkins, P. J. Jr., "Icing Flight Research: Aerodynamic Effects of Ice and Ice Shape Documentation with Stereo Photography," NASA TM 86906 or AIAA-85-0468, 1985. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850009740)  
+- Perkins, P., Otis Hastings, and William Rieke. "Thin, lightweight, electrothermal ice protection-New technology supplementing existing ice protection." 34th Aerospace Sciences Meeting and Exhibit, AIAA-96-0391. 1996. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1996-391)  
+
+## Icing Severity Probability  
+
+[Reproducing NACA-TN-2738 calculations]({filename}Reproducing%20NACA-TN-2738%20calculations.md)
 
 ## [Flight Safety]({filename}porter%20perkins%20flight%20safety.md)  
 

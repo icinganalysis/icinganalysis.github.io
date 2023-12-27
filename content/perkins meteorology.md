@@ -28,6 +28,17 @@ The first several publications are only briefly described,
 as their major results are incorporated into the final publication, 
 NASA Memo 1-19-59E, which will be reviewed at length. 
 
+Note that NACA-RM-E52J06 outlines the need for data from broader sources, that is a theme in these publications:
+
+>The majority of the research flights into icing conditions were
+made by attempting to select weather conditions, flight paths, and altitudes, 
+which would yield heavy or continuous icing. Multiple traverses
+were often made when such conditions were found. It is impossible,
+therefore, to determine from this information the extent or frequency
+of specified icing conditions that would be encountered during normal
+flight operations such as those experienced by airlines on routine
+schedules.
+
 ## NACA-RM-E51D18, "Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content", 1951 [^1]  
 
 This describes the use of the rotating-disk-type icing-rate meter.  
@@ -99,6 +110,40 @@ The data from this are included in the later NASA Memo 1-19-59E.
 > icing information being provided by this expanded program should afford
 > a sound basis for ice-protection-system design by defining the important
 > meteorological parameters of the icing cloud.  
+> 
+> INTRODUCTION  
+> 
+>The meteorological phase of the icing research program conducted
+by the NACA has been previously confined to research flights into icing
+conditions. These in-flight measurements of the meteorological quantities 
+associated with aircraft icing (summarized in reference 1) have
+been limited to a relatively small number of flights over confined sections 
+of the country and have thus provided only tentative design
+criteria for ice-protection systems.  
+> 
+>The majority of the research flights into icing conditions were
+made by attempting to select weather conditions, flight paths, and altitudes, 
+which would yield heavy or continuous icing. Multiple traverses
+were often made when such conditions were found. It is impossible,
+therefore, to determine from this information the extent or frequency
+of specified icing conditions that would be encountered during normal
+flight operations such as those experienced by airlines on routine
+schedules. Additional data are needed to substantiate or to modify the
+ice-protection-system design conditions in order that all-weather protective 
+designs can be accomplished with the lowest possible penalties
+in terms of performance and payload. Statistical icing data obtained
+from routine operations could serve both as a basis for optimum design
+of ice-protection systems and as an aid to the operator in prescribing
+flight-control procedures, such as preferred altitudes, which would
+avoid or minimize hazardous icing conditions.  
+> 
+>With the realization of this need for additional information, the
+NACA Lewis laboratory has initiated a program in cooperation with the
+major airlines and the United States Air Force to obtain measured icing
+data encountered during routine operations. These data include measurements 
+of icing rate, liquid-water content computed from icing rate and
+airspeed, temperature, duration of icing, observations of the geographic
+location, type of ice, and effect of icing on the aircraft
 
 ![Figure 9. Cumulative frequency of average and maximum liquid-water content calculated from icing rates in 44 icing encounters measured by icing-rate meters installed on airline aircraft.](/images%2FNACA-RM-E52J06%2FFigure%209.png)  
 
@@ -455,6 +500,8 @@ containing very high water contents.
 
 ![Figure 7. Cumulative distribution of mesaured and calculated liqid-water content in icing clouds.](/images%2FNASA%20Memo%201-19-59E%2FFigure%207.png)  
 
+The "calculated" line is based on ideal adiabatic lift theory, briefly described in Appendix D.  
+
 "ref. 1" is NACA-TN-2738. 
 "ref. 3" is NACA-RM-E55F28a.  
 
@@ -532,7 +579,9 @@ containing very high water contents.
 > indications and those of two other methods of measuring water content
 > in icing clouds.
 
-![Figure 14.png](/images%2FNASA%20Memo%201-19-59E%2FFigure%2014.png)  
+![Figure 14. In-flight comparison with aeroscope and multicylinder liquid-water content.](/images%2FNASA%20Memo%201-19-59E%2FFigure%2014.png)  
+_Note that some conditions are noted as "large drop size"._
+
 
 > SUMMARY OF RESULTS  
 > 
@@ -597,6 +646,8 @@ NASA Memo 1-19-59E: 5
 ## Related  
 
 This is part of the [Porter Perkins]({filename}Porter%20Perkins.md) series.  
+
+For other reviews on meteorology, see [Meteorology of Icing Clouds]({filename}Meteorology.md).  
 
 ## Notes 
 

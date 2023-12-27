@@ -7,7 +7,7 @@ tags: cylinders
 
 ![Figure 24. Example illustrating effect of run-off on multi-cylinder data.](images/naca-tr-1215/Figure24.png)
 
-# "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. "[^1]
+# "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method." [^1]
 
 ## Summary  
 
