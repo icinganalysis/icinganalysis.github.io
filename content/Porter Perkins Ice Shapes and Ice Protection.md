@@ -307,17 +307,6 @@ prevent icing to extend the conductive matrix
 forward under the inactive rear portion of the
 pneumatic boot.
 
->Conclusions
->
->Ice protection behind the conventional pneumatic
-boots has been successfully demonstrated using
-a new design of a very lightweight electrothermal
-conductive matrix laminate. Full scale tests in
-the NASA Icing Research Wind Tunnel revealed
-fast deicing at low power densities (less than 2
-watts per square inch at -3° C., and only 6 watts
-per square inch at -13° C.)
-
 ## Conclusions  
 
 Perkins' career spanned the NACA and NASA eras. 
