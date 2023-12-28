@@ -66,8 +66,8 @@ Arrows show decreases thrust, decreases lift, increases weight, increases drag.]
 ## Notes  
 
 [^1]:
-Anon.: Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled), FAA, issued April, 1975, cancelled 2016. https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268  
+Anon.: Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled), FAA, issued April, 1975, cancelled 2016. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)  
 [^2]: Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
 [^3]: Anon., Air Command Weather Manual (Canada), CFACM 2-70, May 22, 2001.  
-[^4]: https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm  
+[^4]: [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 [^5]: Von Hardenberg, Paul: Introduction to Aircraft Icing and NASA’s Approach to Understanding It. March 29, 2022. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220005049)  
