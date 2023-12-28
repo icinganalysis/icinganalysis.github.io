@@ -57,6 +57,12 @@ with stylized human forces of reduced thrust pushing aft,
 increased drag pulling aft, 
 decreased lift pushing down, and increased weight pulling down.](images/Force_Icing.png)  
 
+### NASA - Introduction to Aircraft Icing [^5]  
+
+![Impact on Aerodynamic Performance. 
+A cartoon of an airplane and a pilot in an open cockpit. 
+Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hadenrberg%20ice%20effects.png)
+
 ## Notes  
 
 [^1]:
@@ -64,3 +70,4 @@ Anon.: Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Ca
 [^2]: Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
 [^3]: Anon., Air Command Weather Manual (Canada), CFACM 2-70, May 22, 2001.  
 [^4]: https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm  
+[^5]: Von Hardenberg, Paul: ntroduction to Aircraft Icing and NASA’s Approach to Understanding It. March 29, 2022. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220005049)  
