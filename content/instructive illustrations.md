@@ -33,6 +33,8 @@ Mechanical arms are coming out from hatches on the airplane,
 removing ice from the wing leading edge with ice picks. 
 Caption: "Most practical de-icers I ever saw". Artist: Dick Sha.](images/most practical de_icers i ever saw.png)  
 
+See also [University of Michigan Airplane Icing Information Course, 1953]({filename}U%20of%20Michigan%20Icing.md).
+
 <!--
 From Loughborough, D. L.:"Mechanical De-Icing Systems", (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  
 There is no copyright noted, on the drawing or in the publication.
@@ -59,7 +61,7 @@ decreased lift pushing down, and increased weight pulling down.](images/Force_Ic
 
 ### NASA - Introduction to Aircraft Icing [^5]  
 
-![Impact on Aerodynamic Performance. A cartoon of an airplane and a pilot in an open cockpit, with at arrow on their helmet indicating up. Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hardenberg%20ice%20effects.png)  
+![Impact on Aerodynamic Performance. A cartoon of an airplane and a pilot in an open cockpit, with at arrow on their helmet indicating up. There are repair patches on the aiprlane wings and body. Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hardenberg%20ice%20effects.png)  
 
 ## Notes  
 
