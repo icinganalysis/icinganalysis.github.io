@@ -61,7 +61,7 @@ decreased lift pushing down, and increased weight pulling down.](images/Force_Ic
 
 ![Impact on Aerodynamic Performance. 
 A cartoon of an airplane and a pilot in an open cockpit. 
-Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hadenrberg%20ice%20effects.png)
+Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hadenrberg%20ice%20effects.png)  
 
 ## Notes  
 
