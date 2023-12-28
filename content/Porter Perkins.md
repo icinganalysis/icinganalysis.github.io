@@ -5,13 +5,10 @@ status: draft
 tags: Porter Perkins, propellers, instruments, meteorology, airships, ice shapes, ice protection, flight safety, probability   
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of ... icing on airplane performance became increasingly important"_ (1948)  
-[^1]
 
 ![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 
 _From [NACA-TN-1586]({filename}perkins%20propellers.md), 1948. I believe that this is Porter Perkins._   
-
-# DRAFT
 
 ## Summary  
 
