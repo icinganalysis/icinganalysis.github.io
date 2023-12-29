@@ -1,0 +1,60 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Water Drop Impingement on Surfaces https://icinganalysis.com/water-drop-impingement-on-surfaces.html
+
+- Oddity of the week
+
+fogquest.org posted https://fogquest.org/wp-content/uploads/2022/10/Langmuir-and-Blodgett-1945-and-1946-Paper-Transcription-NACA-Icing.pdf,
+a version of the post https://icinganalysis.com/mathematical-investigation-of-water-droplet-trajectories.html, and somehow lost the copyright notice when doing so.
+Oh well, they appear to be a non-profit, so I will limit my whining to the newsletter.
+
+- Most popular posts (so far...):
+
+#4: NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight" https://icinganalysis.com/naca-tn-1598.html
+"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+The SAE AC9C Aircraft Icing Technology Committee meeting is October 23 to 26, 2023.
+https://standardsworks.sae.org/standards-committees/ac-9c-aircraft-icing-technology-committee#meetings
+
+- Upcoming posts:
+
+The reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+10/16 The Greatest Thing That You Have (Probably) Never Read: AC 00-6A (Cancelled)
+10/17 New! Methods of Water Drop Impingement Quantification (see draft link below)
+10/18 NACA-TN-1904, "Observations of Icing Conditions Encountered in Flight During 1948"
+10/20 NACA-TN-2708, "Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method"
+
+- Quote of the week:
+
+"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"
+NACA-TN-1397
+
+- What is in work:
+
+Porter Perkins thread draft https://icinganalysis.com/drafts/porter-perkins.html
+Methods of Water Drop Impingement Quantification https://icinganalysis.com/drafts/methods-of-water-drop-impingement-quantification.html
+
+- Public Domain image of the week:
+
+https://icinganalysis.com/images/b_29_icing_measurement.png
+
+#AltText: The interior of a modified B-29 bomber used to determine what conditions cause ice to form on wings and aircraft surfaces.
+An investigator wearing headphones, an oxygen mask, a fur-lined leather jacket, and stylish patterned pants is seated in front of scale.
+There are also several dial gauges.
+
+Original from https://commons.wikimedia.org/wiki/File:Instrumentation_in_A-29_-_GPN-2000-001450.jpg.
+The description reads: "Recording high altitude flight data in a flying laboratory at the Aircraft Engine Research Laboratory of the National Advisory Committee for Aeronautics, Cleveland, Ohio, now known as the John H. Glenn Research Center at Lewis Field. The aircraft is a modified B-29 bomber manufactured by Boeing, and backbone of the World War II effort. It was used to determine what conditions cause ice to form on wings and aircraft surfaces."
+The date is given as May 11, 1944.
+While the text is not explicit, I speculate that this illustrates ice samples from a rotating cylinder instrument being weighed (I don't know what else would be weighed in flight).
+I also speculate that the photo was staged on the ground, as the manometers (glass tubes partially filled with fluid) are all reading zero.
+Also, note a "PARACHUTE" is available, in case something goes wrong.
+I have not found this photo in a NACA publication.
+Used for https://icinganalysis.com/a-brief-digression-on-unit-systems.html

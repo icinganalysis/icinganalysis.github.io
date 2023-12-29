@@ -1,0 +1,54 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Impingement on Airfoils https://icinganalysis.github.io/impingement-on-airfoils.html
+
+- Interesting finds:
+
+Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. 1973. https://apps.dtic.mil/sti/pdfs/AD0771182.pdf
+This is a candidate for "The Greatest Thing That You Have (Probably) Never Read".
+It is providing much material for the upcoming "Conclusions of the Impingement on Surfaces Thread".
+
+- Most popular posts (so far...):
+
+#1: A Gentle Introduction to Aircraft Icing https://icinganalysis.com/a-gentle-introduction-to-aircraft-icing.html
+I would like to say that it was my concise, instructional prose that made this popular,
+but really it was probably the sensational quote (thanks, Thomas S.!) and things went viral (by my modest standards).
+
+- Upcoming re-posts:
+
+The relentless reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+
+11/6:  Conclusions of the Cylinder Thread
+11/8:  Icing Thermodynamics Thread
+11/10: NACA-ARR-5G13, "Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers close December 13 for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+- Quote of the week
+
+"The brief instructions accompanying the set of graphs in Appendix C are noncommittal in describing how these curves are to be applied."
+From DOT/FAA/AR-07/4, "Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications",
+discussing the Appendix C icing requirements.
+
+- What is in work:
+
+11/7 Impingement on Other Surfaces  https://icinganalysis.com/drafts/impingement-on-other-surfaces.html
+11/9 A Tentative Identification of Water Drop Trajectory Investigators  https://icinganalysis.com/drafts/a-tentative-identification-of-water-drop-trajectory-investigators.html
+
+- Public Domain image of the week
+
+https://www.nasa.gov/image-article/icing-research-tunnel-4/
+I might subtitle this one "We may have over-done it!".
+I would also describe this as atypical, or completely non-representative, of in-flight icing.
+I heard a third-hand rumor that the investigators knew this was not a very representative over-all condition,
+but they were interested in ice on one component fairly far aft, and this was the result.
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/...

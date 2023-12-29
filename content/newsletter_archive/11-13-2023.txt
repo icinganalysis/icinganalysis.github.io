@@ -1,0 +1,57 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+A Tentative Identification of Water Drop Trajectory Investigators https://icinganalysis.com/a-tentative-identification-of-water-drop-trajectory-investigators.html
+
+- Other popular posts (so far...):
+
+We have been through #6 to #1, so I will note other popular posts.
+
+The Historical Selected Bibliography of NACA-NASA Icing Publications https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html
+The other on-line sources are pdfs, which when scanned produce errors.
+I made this available on-line as searchable text, with several corrections made by hand.
+
+- Upcoming re-posts:
+
+The relentless reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+
+11/13: NACA-ARR-5G13, "Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers close December 13 for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+- Quote of the week
+
+"This paper summarizes some of the techniques used in NACA programs to solve aircraft icing problems and indicate
+the scope of the data available for the design of aircraft icing protection systems."
+
+Uwe Von Glahn, "THE ICING PROBLEM - CURRENT STATUS of NACA TECHNIQUES AND RESEARCH", 1955.
+Reprinted in NASA-TM-81651 https://ntrs.nasa.gov/citations/19820003180
+
+- What is in work:
+
+11/14 Conclusions of the Impingement on Surfaces thread https://icinganalysis.com/drafts/conclusions-of-the-impingement-on-surfaces-thread.html
+
+- Public Domain image of the week
+
+https://nara.getarchive.net/media/jet-acoustics-branch-uwe-von-glahn-chief-3374b8
+After authoring many of the NACA publications on icing,
+Uwe von Glahn went on to NASA to become the Jet Acoustics Branch chief engineer.
+There are some photos of people in the NACA icing publications, none of them identified,
+and I have not found one that appears to be von Glahn.
+
+- A pause in publishing
+
+The newsletter and new posts will pause, probably until January 2024.
+Reposting of revised posts will continue on Mastodon https://historians.social/@icinganalysis
+as it is automated.
+You do not need an account on mastodon to see them, just follow the link.
+You can also use RSS https://historians.social/@icinganalysis.rss
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/...

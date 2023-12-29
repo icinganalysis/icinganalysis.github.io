@@ -1,0 +1,48 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Bodies of Revolution https://icinganalysis.com/bodies-of-revolution.html
+
+- Interesting finds:
+
+An accident of an experimental Lockheed XP-38, attributed to carburetor icing, 1939.
+https://www.thisdayinaviation.com/11-february-1939/
+
+- Most popular posts (so far...):
+
+#3: "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air" https://icinganalysis.com/super-cooled-water-droplets-in-rising-currents-of-cold-saturated-air.html
+"It is possible to develop this theory to cover also growth of water droplets during the adiabatic expansion of a rising mass of saturated air."
+
+- Upcoming re-posts:
+
+The relentless reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+10/23: "A Langmuir B drop size distribution is (almost) a normal distribution"
+10/25: NACA-TN-2904 "Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds"
+10/27: NACA-TN-2903 "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+- Quote of the week:
+
+"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"
+NACA-TR-1317
+
+- What is in work:
+
+Shadow Zones and Concentration Zones (to be published 10/24) https://icinganalysis.com/drafts/shadow-zones-and-concentration-zones.html
+Engine Inlets (to be published 10/26) https://icinganalysis.com/drafts/impingement-in-engine-inlets.html
+
+- Public Domain image of the week:
+
+https://icinganalysis.com/images%2FNACA-TN-4268%2FFigure%201.png
+
+#AltText: Figure 1 of NACA-TN-4268. Supersonic-nose-inlet model installed in the test section of the 6- by 9-foot NACA Lewis icing tunnel.
+
+- The secret newsletter archive
+
+Subscribers may now view the newsletter archives at https://icinganalysis.com/***

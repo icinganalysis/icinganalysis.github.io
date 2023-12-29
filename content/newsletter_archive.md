@@ -22,6 +22,11 @@ Links contained are not updated.
 
 [9-30-2023](/newsletter_archive%2F9-30-2023.txt)  
 [10-9-2023](/newsletter_archive%2F10-9-2023.txt)   
+[10-16-2023](/newsletter_archive%2F10-16-2023.txt)   
+[10-23-2023](/newsletter_archive%2F10-23-2023.txt)   
+[10-30-2023](/newsletter_archive%2F10-30-2023.txt)   
+[11-06-2023](/newsletter_archive%2F11-06-2023.txt)   
+[11-13-2023](/newsletter_archive%2F11-13-2023.txt)   
 
 
 
