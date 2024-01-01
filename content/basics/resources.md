@@ -75,7 +75,7 @@ handbook:
 See the "Big Three above"  
 
 Also see the post on [Design Manuals]({filename}..%2FDesign%20Manuals.md), 
-and the SAE AC-9C documents below.  
+and the [SAE AC-9C](http://profiles.sae.org/teaac9c/) documents below.  
 
 ## Icing regulations  
 
@@ -106,9 +106,11 @@ for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive s
 
 [NASA/CR-2004-212875 "Manual of Scaling Methods"](https://ntrs.nasa.gov/citations/20040042486) 
 has much information on scaling test conditions, 
-and some more general information. 
+and some more general information.  
 
-Some SAE documents provide information on the calibration of icing wind tunnels. 
+Some SAE documents provide information on the calibration of icing wind tunnels.
+- [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/)  
+- [Icing Wind Tunnel Interfacility Comparison Tests(STABILIZED Oct 2018) AIR5666A](https://www.sae.org/standards/content/air5666a/)  
 
 ## [The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
 
