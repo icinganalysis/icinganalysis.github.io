@@ -7,7 +7,7 @@ status: draft
 _The NACA Technical Reports Server, circa 1999. From [NASA/TM-1999-209127](https://ntrs.nasa.gov/api/citations/19990035925/downloads/19990035925.pdf). 
 This has been superseded by the NASA Technical Reports Server [ntrs.nasa.gov](https://ntrs.nasa.gov/)._  
 
-## Celebrating the NACA Technical Report Server  
+## Celebrating the NACA Technical Reports Server  
 
 Dust off your Netscape Navigator browser [^1] and research like it's 1999!  
 
