@@ -9,6 +9,8 @@ This has been superseded by the NASA Technical Reports Server [ntrs.nasa.gov](ht
 
 Dust off your Netscape Navigator browser [^1] and research like it's 1999!  
 
+Or, experience the archived version for December, 1998, at [web.archive.org](https://web.archive.org/web/19981212015823/http://naca.larc.nasa.gov/).  
+
 ## Notes  
 
 [^1]: Hmm, it appears that [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator) has not been supported since 2008. 
