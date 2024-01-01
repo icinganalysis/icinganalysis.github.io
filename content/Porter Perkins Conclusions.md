@@ -180,14 +180,21 @@ For now, note that Figure 3 cites [NACA-TN-2738]({filename}NACA-TN-2738.md)  [^1
 However, NACA-TN-2738 cites [NACA-TN-1904]({filename}NACA-TN-1904.md) [^12] as the source for its data. 
 If one does some arithmetic with the NACA-TN-1904 values, 
 one can get values along the Appendix C Figure 3 curve. 
+The Figure 3 "F" value can be calculated:  
+
+>F = (LWC at distance) / (LWC at 17.4 nmi)
+
+Note that NACA-TN-1904 used log(LWC) in the plot, 
+while Appendix C used linear "F".
+
 Jeck [^13] notes that the NACA-TN-2738 curve was "extrapolated anonymously" 
 (reference [^13] provides a good, but not quite complete, story of Appendix C Figure 3).  
 
 ![Appendix C Icing Derivation of Figure 3](/images%2FAppendix%20C%20Icing%20Derivation%20Figure%203.png)  
 
-So far, we have no values that appear to be derived from a publication by Porter Perkins. 
+So far, we have no values that were derived from a publication by Porter Perkins. 
 
-What is left that could have been contributed?  
+What is left that he could have been contributed?  
 
 NACA-RM-E52J06 [^8] noted that:  
 
