@@ -74,7 +74,8 @@ so the text was not accurately parsed by computer
 
 ![The NACA Technical Report Server.](images%2FThe%20NACA%20Technical%20Report%20Server.png)  
 _The NACA Technical Report Server, circa 1999. From [NASA/TM-1999-209127](https://ntrs.nasa.gov/api/citations/19990035925/downloads/19990035925.pdf). 
-This has been superseded by the [NTRS](https://ntrs.nasa.gov/) [^6]._  
+This has been superseded by the [NTRS](https://ntrs.nasa.gov/) [^6].  
+Experience the archived version for December, 1998, at [web.archive.org](https://web.archive.org/web/19981212015823/http://naca.larc.nasa.gov/)_  
 
 ### Publications not in the NTRS  
 
