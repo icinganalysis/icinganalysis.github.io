@@ -12,5 +12,6 @@ This has been superseded by the NASA Technical Reports Server [ntrs.nasa.gov](ht
 Dust off your Netscape Navigator browser and research like it's 1999!  
 
 ## Notes  
-[^1:] Hmm, it appears that [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator) has not been supported since 2008. 
+
+[^1]: Hmm, it appears that [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator) has not been supported since 2008. 
 Oh well, just use [firefox](https://www.mozilla.org/en-US/firefox/new/) then.  
