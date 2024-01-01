@@ -1,5 +1,5 @@
 Title: Porter Perkins Ice Shapes and Ice Protection   
-Date: 2023-12-14 12:00  
+Date: 2024-01-15 17:00  
 status: draft  
 tags: Porter Perkins, ice shapes, ice protection  
 
@@ -220,8 +220,8 @@ temperature, and extent of the icing cloud and
 of the ice accretions such as ice type, shape,
 icing rate, and reference total accretion.  
 Aircraft performance can then be associated with
-these parameters or displayed with more familir
-criteria such as FAR 25 appendixC icing certification requirements.  
+these parameters or displayed with more familiar
+criteria such as FAR 25 appendix C icing certification requirements.  
 >
 >Glaze icing, which generally occurs at total
 air temperatures just below freezing, results in

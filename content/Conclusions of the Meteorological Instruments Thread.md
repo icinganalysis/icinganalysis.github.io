@@ -294,6 +294,14 @@ Significant amounts of airline flight icing data were obtained.
 However, questions about the calibration apparently kept that data 
 from wide use, and the data does not appear to have influenced the Appendix C regulations. 
 
+The Supercooled Cloud Database used in DOT/FAA/AR-07/4 [^21] includes more recent ("modern") measurements 
+as well as NACA-era measurements. 
+Jeck [^21] notes that:  
+
+>Analyses have shown that the NACA data and
+modern data compared favorably with each other in the determination of LWC and MVD even
+though the measuring techniques were radically different.  
+
 As we saw in ["Conclusions of the Cylinder Thread"]({filename}Conclusions%20of%20the%20Cylinder%20Thread.md), 
 cylinder instruments are still used today (although not so much the rotating multicylinder).  
 
@@ -332,3 +340,4 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/artn06-32.pdf)  
 [^20]: Stith, Jeffrey L., et al. "100 years of progress in atmospheric observing systems." Meteorological Monographs 59 (2018): 2-1.  
 [ametsoc.org](https://journals.ametsoc.org/view/journals/amsm/59/1/amsmonographs-d-18-0006.1.xml)    
+[^21]: Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  

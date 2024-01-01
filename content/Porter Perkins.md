@@ -1,5 +1,5 @@
 Title: Porter Perkins   
-Date: 2023-12-14 12:00  
+Date: 2024-01-15 12:00  
 Category: NACA  
 status: draft  
 tags: Porter Perkins, propellers, instruments, meteorology, airships, ice shapes, ice protection, flight safety, probability   
@@ -8,11 +8,11 @@ tags: Porter Perkins, propellers, instruments, meteorology, airships, ice shapes
 
 ![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 
-_From [NACA-TN-1586]({filename}perkins%20propellers.md), 1948. I believe that this is Porter Perkins._   
+_From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is Porter Perkins, circa 1946._   
 
 ## Summary  
 
-Porter Perkins published on icing topics for over 50 years while at NACA, NASA, and other groups. 
+Porter Perkins published on icing topics for over 50 years while at NACA, NASA, and other groups.  
 
 ## Biographies and Memorials  
 
@@ -28,7 +28,7 @@ than 25 reports in the field of aircraft icing, and continues to
 participate in icing research flights. Perkins is an associate
 fellow of the American Institute of Aeronautics and Astronautics (AIAA).
 
-from Protection Against Icing: A Comprehensive Overview, Flight Safety Digest, Vol. 16 No. 6/7/8/9, June-September 1997. [flightsafety.org](https://flightsafety.org/fsd/fsd_jun-sep97.pdf)  
+_from Protection Against Icing: A Comprehensive Overview, Flight Safety Digest, Vol. 16 No. 6/7/8/9, June-September 1997. [flightsafety.org](https://flightsafety.org/fsd/fsd_jun-sep97.pdf)_  
 
 He is included on the Smithsonian Institute Air and Space Museum Wall of Honor ([airandspace.si.edu](https://airandspace.si.edu/support/wall-of-honor/mr-porter-j-perkins-bs-aero)).  
 
@@ -40,7 +40,7 @@ That was my only direct link to the NACA era.
 
 ## Publications  
 
-I could find only 22 publications, not the "more than 25" mentioned in the biography above. 
+I could find only 24 publications, not the "more than 25" mentioned in the biography above. 
 Searching is difficult, as his name is in three forms on ntrs.nasa.gov, at least two forms on scholar.google.com, 
 and likewise at other sources (such as P. Perkins, P. J. Perkins, Porter J. Perkins, P. J. Jr Perkins, etc.)  
 
@@ -55,10 +55,10 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 
 ## [Propellers]({filename}perkins%20propellers.md)  
 
-- Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. https://ntrs.nasa.gov/citations/19810068619  
-- Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948. https://ntrs.nasa.gov/citations/19810068620  
-- Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948. https://ntrs.nasa.gov/citations/19810068621  
-- Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949. https://ntrs.nasa.gov/citations/19810068736  
+- Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)  
+- Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068620)  
+- Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068621)  
+- Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068736)  
 
 ## Instruments (previously reviewed) {: #instruments } 
 
@@ -82,7 +82,7 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
 - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [ntrs.nasa.gov](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
-## [Airships, NACA-TN-4220]({filename}NACA-TN-4220.md)
+## [Airships, NACA-TN-4220]({filename}NACA-TN-4220.md)  
 
 - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
 
@@ -92,18 +92,23 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 - Mikkelsen, K. L., McKnight, R. C., Ranaudo, R. J. and Perkins, P. J. Jr., "Icing Flight Research: Aerodynamic Effects of Ice and Ice Shape Documentation with Stereo Photography," NASA TM 86906 or AIAA-85-0468, 1985. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850009740)  
 - Perkins, P., Otis Hastings, and William Rieke. "Thin, lightweight, electrothermal ice protection-New technology supplementing existing ice protection." 34th Aerospace Sciences Meeting and Exhibit, AIAA-96-0391. 1996. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1996-391)  
 
-## [Icing Severity Probability, Reproducing NACA-TN-2738 calculations]({filename}Reproducing%20NACA-TN-2738%20calculations.md)  
+## Icing Severity Probability  
+
+- [Reproducing NACA-TN-2738 calculations]({filename}Reproducing%20NACA-TN-2738%20calculations.md)  
 
 ## [Flight Safety]({filename}porter%20perkins%20flight%20safety.md)  
 
 - Perkins, Porter J., and William J. Rieke. "Tailplane icing and aircraft performance degradation." Accident Prevention (1992). [flightsafety.org](https://www.flightsafety.org/ap/ap_feb92.pdf)  
 - Perkins, Porter, and William Rieke. "Aircraft icing problems-After 50 years." 31st Aerospace Sciences Meeting, AIAA-93-0392. 1993. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1993-392)   
-- Perkins, P. and Ranaudo, R., "Contending with Airframe Icing," SAE Technical Paper 2002-01-1518, 2002 [sae.org](https://www.sae.org/publications/technical-papers/content/2002-01-1518/) 
+- Perkins, P. and Ranaudo, R., "Contending with Airframe Icing," SAE Technical Paper 2002-01-1518, 2002. [sae.org](https://www.sae.org/publications/technical-papers/content/2002-01-1518/), 
 [jstor.org](https://www.jstor.org/stable/44718410) [can be viewed at no cost with registration]  
 
 ## Books  
 
 - Perkins, Porter J., "In-Flight Icing", Paperback – January 1, 2001. Sporty's Pilot Shop 
-(I have not been able to find a copy of this)   
+(I have not been able to find a copy of this; 
+https://search.worldcat.org/title/54401515 lists libraries with it, but my local library said "no loanable copies".)   
 
+## [Conclusions of the Porter Perkins Series]({filename}Porter%20Perkins%20Conclusions.md)  
 
+- Three areas of his continuing legacy are discussed.  

@@ -1,5 +1,5 @@
 Title: Propeller publications by Porter Perkins  
-Date: 23-12-10 12:00  
+Date: 2024-01-15 13:00  
 Category: NACA
 tags: propellers, Porter Perkins 
 status: draft
@@ -8,7 +8,7 @@ status: draft
 [^1]
 
 ![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
-_I believe that this is Porter Perkins_    
+_I believe that this is Porter Perkins, circa 1946._    
 
 ## Summary  
 
@@ -191,4 +191,4 @@ This is part of the [Porter Perkins]({filename}Porter%20Perkins.md) series.
 [^1]: Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)  
 [^2]: Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068620)  
 [^3]: Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068621)  
-[^4]: Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068736).  
+[^4]: Perkins, Porter J., and Millenson, M. B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068736).  

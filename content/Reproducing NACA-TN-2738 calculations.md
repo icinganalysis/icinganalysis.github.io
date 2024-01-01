@@ -1,5 +1,5 @@
 Title: Reproducing NACA-TN-2738 Calculations     
-Date: 2023-12-14 12:00  
+Date: 2024-01-15 18:00  
 status: draft  
 tags: Porter Perkins, ice shapes, ice protection, probability  
 
