@@ -108,7 +108,7 @@ for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive s
 has much information on scaling test conditions, 
 and some more general information.  
  
-Some SAE documents provide information on the calibration of icing wind tunnels.  
+Some SAE documents provide information on the calibration of icing wind tunnels.   
 
 - [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/)  
 - [Icing Wind Tunnel Interfacility Comparison Tests(STABILIZED Oct 2018) AIR5666A](https://www.sae.org/standards/content/air5666a/)  
