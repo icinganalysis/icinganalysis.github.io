@@ -17,7 +17,7 @@ Most of the resources are online and available at no cost.
 Some are copyrighted, and available for purchase or online access rental. 
 Your local library can get most of them for you through inter-library loan. 
 
-## The Big Three  
+## The Big Three {: #ADS4 }  
 
 These total to over 800 pages (over 1200 if one counts all three volumes of DOT/FAA/CT-88/8), 
 but they can give you broad exposure to aircraft icing technology. 
@@ -50,7 +50,7 @@ I do not know of a pdf file that integrates the two into one.
 
 And, of course, the [Blast from the Past: NACA Icing Publications](https://icinganalysis.com/) blog. 
 
-## Aviation Weather and Icing   
+## Aviation Weather and Icing {: #FAA-H-8083-28 }   
 
 [Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
 Chapter 20 covers icing. This consolidates some prior publications:    
@@ -72,18 +72,18 @@ handbook:
 
 ## Design Guides  
 
-See the "Big Three above"  
+See the ["Big Three"](#ADS4) above.  
 
 Also see the post on [Design Manuals]({filename}..%2FDesign%20Manuals.md), 
-and the [SAE AC-9C](http://profiles.sae.org/teaac9c/) documents below.  
+and the [SAE AC-9C documents](#sae-ac9c) below.  
 
 ## Icing regulations  
 
-[Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)
+[Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 
 [Appendix O](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
-## SAE AC-9C 
+## SAE AC-9C {: #sae-ac9c }  
 
 The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
 Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://profiles.sae.org/teaac9c/).  
@@ -97,7 +97,7 @@ The "APPENDIX B. NOMENCLATURE" section is particularly useful.
  
 [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
-Also see "Aviation Weather Handbook, FAA-H-8083-28" further above. 
+Also see ["Aviation Weather Handbook, FAA-H-8083-28"](#FAA-H-8083-28) further above. 
 
 ## Icing Wind Tunnel Test  
 
@@ -134,7 +134,7 @@ This five-day course is periodically offered at geographically diverse sites.
 
 Some commercial computational fluid dynamics (CFD) packages that include icing simulation capabilities offer training.   
 
-## Terminology  
+## Terminology  {: #terminology }  
 
 There are lists of terminology available in addition to ADS-4 and DOT/FAA/CT-88/8 listed above. 
 

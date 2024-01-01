@@ -9,8 +9,8 @@ rights: CC-BY-NC-SA 4.0
 
 ## Introduction  
 
-These terms are taken largely from ADS-4, with updates and additions. 
-See the [Resources]({filename}resources.md) for other, more extensive terms lists.
+These terms are taken largely from [ADS-4]({filename}resources.md#ADS4), with updates and additions. 
+See the [Resources]({filename}resources.md#terminology) for other, more extensive terms lists.
 
 ## Selected Aircraft Icing Terms  
 

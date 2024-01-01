@@ -114,7 +114,7 @@ one needs fall back to html and put an anchor in the header:
 
 There is an alternative style that does not use html:  
 ```markdown
-### Site navigation {: site-navigation }
+### Site navigation {: #site-navigation }
 ```
 
 Anchor links also work between pages:  
