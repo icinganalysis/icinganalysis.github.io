@@ -1,4 +1,4 @@
-Title: Twenty Five Years of the NTRS      
+Title: 25 Years of the NTRS      
 Date: 2024-01-02 12:00  
 tags: ntrs, diversions    
 status: draft  
