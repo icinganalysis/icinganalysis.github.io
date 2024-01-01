@@ -9,7 +9,7 @@ This has been superseded by the NASA Technical Reports Server [ntrs.nasa.gov](ht
 
 ## Celebrating the NACA Technical Report Server  
 
-Dust off your Netscape Navigator browser and research like it's 1999!  
+Dust off your Netscape Navigator browser [^1] and research like it's 1999!  
 
 ## Notes  
 
