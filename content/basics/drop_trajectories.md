@@ -1,11 +1,11 @@
 Title: The Motions of Water Drops    
 header: The Basics of Aircraft Icing
-Date: 2023-12-2 12:00  
+Date: 2024-01-2 12:00  
 tags: basics  
 status: draft  
 rights: CC-BY-NC-SA 4.0
 
-# DRAFT
+## DRAFT
 
 Calculating the amount of water that hits or impinges on the surface 
 of an airplane as it flies through a cloud 

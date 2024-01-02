@@ -88,6 +88,15 @@ and the [SAE AC-9C documents](#sae-ac9c) below.
 The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
 Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://profiles.sae.org/teaac9c/).  
 
+## Thermodynamics of Freezing  
+
+[Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.](https://arc.aiaa.org/doi/10.2514/8.2520) [Payment or institutional access required]  
+
+Chapter V of ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) 
+has much of the same material, available at no cost.  
+
+[Blog review of "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
+
 ## Advisory Circulars (AC)  
 
 While you may not be involved in aircraft certification, these can be more general aircraft icing resources. 
