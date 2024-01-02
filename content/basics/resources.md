@@ -1,6 +1,6 @@
 Title: Resources    
 header: The Basics of Aircraft Icing
-Date: 2023-12-2 12:00  
+Date: 2024-01-2 12:00  
 tags: basics  
 status: draft  
 
@@ -70,7 +70,7 @@ handbook:
 • AC 00-57, Hazardous Mountain Winds.
 ```
 
-## Design Guides  
+## Design Guides {: #design-guides }  
 
 See the ["Big Three"](#ADS4) above.  
 
@@ -99,7 +99,7 @@ The "APPENDIX B. NOMENCLATURE" section is particularly useful.
 
 Also see ["Aviation Weather Handbook, FAA-H-8083-28"](#FAA-H-8083-28) further above. 
 
-## Icing Wind Tunnel Test  
+## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
 
 As noted in the post [Icing Wind Tunnel Test Thread](https://icinganalysis.com/icing-wind-tunnel-test-thread.html), 
 for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive source of information for their use. 
@@ -107,7 +107,11 @@ for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive s
 [NASA/CR-2004-212875 "Manual of Scaling Methods"](https://ntrs.nasa.gov/citations/20040042486) 
 has much information on scaling test conditions, 
 and some more general information.  
- 
+
+The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
+
+<a name="sae-icing-tunnel"></a> 
+
 Some SAE documents provide information on the calibration of icing wind tunnels.   
 
 - [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/)  
@@ -117,12 +121,16 @@ Some SAE documents provide information on the calibration of icing wind tunnels.
 
 132 NACA icing publications in 16 categories that are still relevant today. 
 
-## NASA  
+## NASA {: #nasa }  
 
 [NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
 A rather good review for anyone, not just beginners. 
 
 The [NTRS - NASA Technical Reports Server](https://ntrs.nasa.gov) has nearly all NASA (and NACA!) publications available. 
+
+The NASA-provided [Icing Research Softwer (LEWICE, LEWICE 3D)](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+
+The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
 
 ## Courses  
 
