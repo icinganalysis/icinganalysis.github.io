@@ -70,4 +70,3 @@ Chapter 2 in particular. This has more figures of impingement correlation figure
 
 This is part of [The Basics]({filename}basics.md) series.  
 
-
