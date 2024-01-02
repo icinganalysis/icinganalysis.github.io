@@ -11,7 +11,7 @@ The bad news is that these comprise thousands of pages of reading.
 
 A few experts that I know have confessed that they have not read all of 
 what I consider to be "The Big Three", let alone everything listed here. 
-So, you can probably get by not reading everything here. 
+So, you can probably get by not reading everything. 
 
 Most of the resources are online and available at no cost. 
 Some are copyrighted, and available for purchase or online access rental. 

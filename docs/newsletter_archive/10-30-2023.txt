@@ -1,0 +1,59 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest post:
+
+Impingement in Engine Inlets https://icinganalysis.com/impingement-in-engine-inlets.html
+Shadow Zones and Concentration Zones https://icinganalysis.com/shadow-zones-and-concentration-zones.html
+
+- Interesting finds:
+
+Royal Aeronautical Society Aerodynamic Reports 1946-1957 are now online. These over-lap much of the NACA-era.
+I have not found any icing-specific reports yet.
+https://raes.soutron.net/Portal/Default/en-GB/SearchResults
+
+- Most popular posts (so far...):
+
+#2: B. L. Messinger, "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed" https://icinganalysis.com/messinger.html
+A well-known publication (virtual tie with "Mathematical Investigation..." for most citations of any icing publication).
+
+- Upcoming re-posts:
+
+The relentless reposting of revised posts continues on Mastodon https://historians.social/@icinganalysis (and, less reliably, on LinkedIn).
+
+10/30/23: NACA-RM-E53D23, "Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method"
+11/1/23: NACA-TR-1215, "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method."
+11/3/23: NACA-TN-3338, "A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution"
+
+- Upcoming Aircraft Icing Events:
+
+Submissions for papers open October 3, and close December 13, for the AIAA Aviation Forum, July 29 to August 2, 2024, so get typing!
+https://www.aiaa.org/aviation/presentations-papers/call-for-papers#atmospheric-and-space-environments
+
+- Quote of the week
+
+"There are several ways," Dr. Breed said to me,
+"in which certain liquids can crystallize - can freeze - several ways in which their atoms can stack and lock in an orderly, rigid way."
+see https://icinganalysis.com/supercooled-clouds.html
+
+- What is in work:
+
+Elbows and Ducts (to be published 10/31) https://icinganalysis.com/drafts/impingement-in-elbow-ducts.html
+Airfoils (to be published 11/02) https://icinganalysis.com/drafts/impingement-on-airfoils.html
+
+- Public Domain (?) image of the week
+
+A post on Quora https://www.quora.com/Why-dont-commercial-airplanes-require-de-icing-fluid-to-prevent-ice-from-building-up-during-landing
+had an over-the-top detailed response that included this image, among others
+https://icinganalysis.com/images/multiple%20heaters.jpeg
+(Combustion Heaters for the win! https://icinganalysis.com/combustion-heated-air-and-heat-transfer-coefficients.html)
+I have tried to contact the author, but have had no response.
+Reverse image search did not find where it came from originally.
+I supposed this also counts as a "Find of the week".
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/...
+
+While I will not generally update links in the archived newsletters (it would be a Sisyphean task),
+I did correct a typo in the link to Mastodon https://historians.social/@icinganalysis .

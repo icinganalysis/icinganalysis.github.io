@@ -12,6 +12,7 @@ tags: instruments
 An instrument for automatically recording the occurrence of icing and liquid water content values is described.  
 
 ## Key Points  
+
 1. The instrument relied on the plugging of holes exposed to icing, which made a measurable pressure difference.  
 2. The instrument was cyclically deiced with electric heating.  
 3. Data was recorded on film that was later processed.  
@@ -175,6 +176,10 @@ rate and airspeed provide a means of calculating cloud liquid-water
 content based on the multicylinder method for measuring supercooled
 cloud quantities.  
 
+The instrument was later used, and described in NASA TM 83564 [^4],
+as the "Pressure-type Icing Rate and Accretion Meter (PIRAM)".  
+<!--(see [Porter Perkins Ice Shapes and Ice Protection]({filename}Porter%20Perkins%20Ice%20Shapes%20and%20Ice%20Protection.md)),-->
+
 The instrument was used to survey icing conditions along commercial airline routes [^2], [^3]. 
 Data from hundreds of flights where measured. 
 However, this seemingly valuable data saw surprisingly limited use, 
@@ -189,7 +194,7 @@ NACA-RM-E51E16 cites three publications.
 - Clark, Victor F.: The Multicylinder Method. The Mount Washington Monthly Res. Bull., vol. II, no. 6, June 1946.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 
-NACA-RM-E51E16 is cited by 10 publications in the NACA Icing Publications Database [^4]:  
+NACA-RM-E51E16 is cited by 10 publications in the NACA Icing Publications Database [^5]:  
 
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952.  
@@ -202,12 +207,13 @@ NACA-RM-E51E16 is cited by 10 publications in the NACA Icing Publications Databa
 - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1957.  
 - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958.  
 
-An online search found NACA-RM-E51E16 cited by 18 publications [^5].  
+An online search found NACA-RM-E51E16 cited by 18 publications [^6].  
 
 ##Notes
 
 [^1]: Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729).  
 [^2]: Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952.  
 [^3]: Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.  
-[^4]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
-[^5]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51E16&btnG=)     
+[^4]: Ranaudo, R. ,J.; Mikkelsen, K. L.; McKnight, R. C. and Perkins, P. J. Jr., "Performance Degradation of a Typical Twin Engine Commuter Type Aircraft in Measured Natural Icing Conditions," NASA TM 83564 and AIAA-84-0179, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19840005105)  
+[^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^6]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51E16&btnG=)     

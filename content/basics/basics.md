@@ -88,7 +88,7 @@ and then you will have to try your
 One might find other resources with online searches, but I have only included links that I am familiar with. 
 
 ## Studying The Basics  
-
+ 
 It is suggested that you read the concepts in the order below. 
 
 Note that when a term introduced it is capitalized in quotes, such as "Glaze Ice". 
