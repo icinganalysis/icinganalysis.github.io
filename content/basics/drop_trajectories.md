@@ -40,6 +40,7 @@ The water collection efficiency can also be zero for some cases
 (such as very small water drops, a very large object, and a low airspeed). 
 
 Collection efficiency is the ratio of the area of impingement to the frontal area:  
+
 ![Figure II-3. Graphical representation of parameters used in trajectory work.](..%2Fimages%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
 _from ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
 
