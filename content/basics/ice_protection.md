@@ -20,7 +20,7 @@ The most commonly used for is thermal ice protection,
 which provides heat to the area to be protected. 
 
 Thermal ice protection with enough heating provides "Anti-Icing", 
-which prevents the formation of ice by evaporating all of the impingeing water. 
+which prevents the formation of ice by evaporating all of the impinging water. 
 This can be a demanding amount of power for large areas.  
 
 At lower power, "Running Wet" protection prevents ice over the heated area, 
