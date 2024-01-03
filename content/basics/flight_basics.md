@@ -19,6 +19,9 @@ Effects of ice:
 ![structural ice.png](/images%2Fac00-6a%2Fstructural%20ice.png)  
 _from [Aviation Weather For Pilots and Flight Operations Personnel, AC 00-6A (Cancelled)](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
+![structural ice.png](/images/ac00-6a/structural%20ice.png)  
+
+
 The lift an airfoil can produce is affected by the "Angle of Attack" of the wing with respect to the air motion over it. 
 The coefficient of lift (Cl) is a non-dimensional measure of lift, and is proportional to lift. 
 Lift data for airfoils is commonly plotted as a function of angle of attack. 
