@@ -24,7 +24,7 @@ spontaneously, without an outside influence, and the cloud
 can become ice crystals rather than liquid water drops. 
 
 A scenario at a weather front that can produce supercooled icing conditions:  
-![Figure 20-1.png](..%2Fimages%2FFAA-H-8083-28%2FFigure%2020-1.png)  
+![Figure 20-1.png](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
 _from [FAA-H-8083-28, "Aviation Weather Handbook"](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
 
 The disturbance of most interest to aircraft icing is when a supercooled 
@@ -42,7 +42,7 @@ Other factors also have to be specified, such as temperature and altitude,
 for a complete definition. 
 
 A definition of icing conditions:  
-![AppCfig1.png](..%2Fimages%2FAppCfig1.png)  
+![AppCfig1.png](/images%2FAppCfig1.png)  
 _[from Part 25 Appendix C (1964)](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)_  
 
 "Continuous Maximum Icing Conditions" are for stratiform or layer-type clouds, 
