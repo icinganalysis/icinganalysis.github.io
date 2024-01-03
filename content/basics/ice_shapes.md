@@ -32,7 +32,7 @@ _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/d
 These types of ice can have varying effects on lift and drag. 
 
 The [FAA-H-8083-28]({filename}resources.md#FAA-H-8083-28), "Aviation Weather Handbook" says of clear or glaze 
-ice can be the most hazardous form:
+ice can be the most hazardous form:  
 
 >__Clear icing is a more hazardous ice type for many reasons.__ 
 It tends to form horns near the top and bottom of the airfoils’ 
