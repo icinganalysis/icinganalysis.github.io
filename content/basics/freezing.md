@@ -32,7 +32,7 @@ This can be related to the over-all character of ice shapes.
 
 Terms of the Messinger heat balance:  
 
-![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](..%2Fimages%2Fmessinger%2FFigure1.png)  
+![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](/images%2Fmessinger%2FFigure1.png)  
 _from ["Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf)_  
 
 ## Resources  
