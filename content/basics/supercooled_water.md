@@ -26,7 +26,7 @@ can become ice crystals rather than liquid water drops.
 A scenario at a weather front that can produce supercooled icing conditions:  
 ![Figure 20-1.png](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
 _from [FAA-H-8083-28, "Aviation Weather Handbook"](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
-
+ 
 The disturbance of most interest to aircraft icing is when a supercooled 
 water drop impinges on the surface of an aircraft moving through the cloud. 
 The water freezes on the aircraft surface and forms ice shapes. 
