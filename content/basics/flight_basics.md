@@ -16,7 +16,7 @@ which is then likely to not be as efficient at producing lift.
 Drag can also increase. 
 
 Effects of ice:  
-![structural ice.png](..%2Fimages%2Fac00-6a%2Fstructural%20ice.png)  
+![structural ice.png](/images%2Fac00-6a%2Fstructural%20ice.png)  
 _from [Aviation Weather For Pilots and Flight Operations Personnel, AC 00-6A (Cancelled)](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
 The lift an airfoil can produce is affected by the "Angle of Attack" of the wing with respect to the air motion over it. 
@@ -30,7 +30,7 @@ If the angle of attack is not reduced to re-establish adequate lift,
 the airplane can descend rapidly, and this is a hazardous condition. 
 
 The general effect of ice on lift:  
-![Figure 3-5.png](..%2Fimages%2FAC-91-74B%2FFigure%203-5.png)  
+![Figure 3-5.png](/images%2FAC-91-74B%2FFigure%203-5.png)  
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 To some extent, increasing angle of attack can off-set the effects of ice. 
