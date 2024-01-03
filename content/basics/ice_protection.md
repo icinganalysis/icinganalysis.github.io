@@ -12,7 +12,7 @@ Several areas of the airplane may require ice protection:
 ![Figure 3-1. Areas of Airframe that May Require Ice Protection. 
 Areas include wing leading edges, propellers, windshield, radome,
 essential instruments, auxiliary air inlets, engine air inlets, 
-and empennage leading edges.](..%2Fimages/ads4/Figure3-1.png)  
+and empennage leading edges.](/images/ads4/Figure3-1.png)  
 _from [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865) (1963)_  
 
 There are several forms of ice protection used on airplanes. 
