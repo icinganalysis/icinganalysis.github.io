@@ -50,7 +50,7 @@ Ice shape can be related to the calculated freezing fraction
 >Clear ice (or glaze ice) is a glossy, clear, or translucent ice formed by the relatively slow freezing of large, 
 supercooled water droplets. Clear icing conditions exist more often in an environment with warmer 
 temperatures, higher liquid water contents, and larger droplets.
- 
+
 Calculations to relate ice shape to freezing fraction have many variables. 
 Here is a figure that summarizes the effects of some variables
 (n is calculated freezing fraction):  
