@@ -15,18 +15,18 @@ ice shapes tend to produce "Glaze Ice" shapes with "horns".
 The nomenclature varies by domain. 
 Pilot training materials generally note this type of ice as "Clear Ice". 
 
-![Figure 3-1.png](..%2Fimages%2FAC-91-74B%2FFigure%203-1.png)   
+![Figure 3-1.png](/images%2FAC-91-74B%2FFigure%203-1.png)   
 
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 At colder temperatures, the ice appears milky and opaque, and is termed "Rime Ice".
 
-![Figure 3-3.png](..%2Fimages%2FAC-91-74B%2FFigure%203-3.png)  
+![Figure 3-3.png](/images%2FAC-91-74B%2FFigure%203-3.png)  
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 At temperatures in between, "Mixed Ice" can form.
 
-![Figure 3-4.png](..%2Fimages%2FAC-91-74B%2FFigure%203-4.png)  
+![Figure 3-4.png](/images%2FAC-91-74B%2FFigure%203-4.png)  
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 These types of ice can have varying effects on lift and drag. 
@@ -55,7 +55,7 @@ Calculations to relate ice shape to freezing fraction have many variables.
 Here is a figure that summarizes the effects of some variables
 (n is calculated freezing fraction):  
 
-![Figure 2-81.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
+![Figure 2-81.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
 _from [The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) (1991)_  
 
 Note that at high enough airspeeds, there is a wide range of 
