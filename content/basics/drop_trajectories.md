@@ -26,7 +26,7 @@ There is no simple way to directly visualize water drop trajectories.
 
 Streamlines and water drop trajectories around a cylinder 
 (airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):  
-![Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](..%2Fimages%2Fcylinder%20with%20flow%20lines.png)  
+![Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images%2Fcylinder%20with%20flow%20lines.png)  
 _from NACA-TN-2903, 1953._  
 
 As water drop trajectories diverge around an object, 
@@ -41,7 +41,7 @@ The water collection efficiency can also be zero for some cases
 
 Collection efficiency is the ratio of the area of impingement to the frontal area:  
 
-![Figure II-3. Graphical representation of parameters used in trajectory work.](..%2Fimages%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
+![Figure II-3. Graphical representation of parameters used in trajectory work.](/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
 _from ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
 
 The water drops do not impinge everywhere on a surface, they tend to 
