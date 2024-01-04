@@ -106,7 +106,7 @@ The "APPENDIX B. NOMENCLATURE" section is particularly useful.
  
 [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
-Also see ["Aviation Weather Handbook, FAA-H-8083-28"](#FAA-H-8083-28) further above. 
+Also see ["Aviation Weather Handbook, FAA-H-8083-28"](#FAA-H-8083-28) further above.
 
 ## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
 
@@ -141,7 +141,25 @@ The NASA-provided [Icing Research Softwer (LEWICE, LEWICE 3D)](https://www1.grc.
 
 The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
 
+"Airframe and Engine Icing" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
+> This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  
+
+"Introduction to Aircraft Icing and NASA's Approach to Understanding It" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220014029)  
+>This presentation provides an introduction to aircraft icing and describes NASA’s approach to understanding it. The presentation covers various topics on icing. A general overview of different types of icing is provided, which includes airframe icing, jet engine icing, and rotorcraft icing. The presentation discusses NASA’s approach to studying the various forms of aircraft icing, which includes conducting flight tests, performing ground-based icing wind tunnel tests, and developing computational tools that simulate the icing physics. An overview on the future of aviation and icing is provided. The presentation is largely high level, but also provides some technical icing physics discussion.  
+
+## Weather  
+
+[aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
+See "AIRMETS" that can include icing conditions, as well as other current weather data.  
+
 ## Courses  
+
+"ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
+>Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
+>In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
+> 
+I am not sure that I agree with all of this statement (large drop size icing was noted in the NACA-era and included in NACA-TN-1855):  
+>Did you know?   The icing envelopes developed in the 1940s by NACA (NASA's predecessor) were intended to cover most naturally-occurring conditions.  We have learned, however, that it is possible to encounter clouds with that have significantly greater amounts of liquid water or larger droplet sizes, and that cover larger areas. Several accidents in recent years are thought to have occurred after encounters with conditions that exceed the "standard" envelopes.  
 
 The [NASA Aircraft Icing Training](https://aircrafticing.grc.nasa.gov/) 
 is focussed on pilots needs. 

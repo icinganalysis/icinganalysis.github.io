@@ -13,18 +13,18 @@ The shape of the ice depends on details of the flight and icing conditions.
 At warmer temperatures (about -10C to 0C, depending on airspeed and other factors), 
 ice shapes tend to produce "Glaze Ice" shapes with "horns". 
 The nomenclature varies by domain. 
-Pilot training materials generally note this type of ice as "Clear Ice". 
+Pilot training materials generally note this type of ice as "Clear Ice".  
 
 ![Figure 3-1.png](/images%2FAC-91-74B%2FFigure%203-1.png)   
 
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
-At colder temperatures, the ice appears milky and opaque, and is termed "Rime Ice".
+At colder temperatures, the ice appears milky and opaque, and is termed "Rime Ice".  
 
 ![Figure 3-3.png](/images%2FAC-91-74B%2FFigure%203-3.png)  
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
-At temperatures in between, "Mixed Ice" can form.
+At temperatures in between, "Mixed Ice" can form.  
 
 ![Figure 3-4.png](/images%2FAC-91-74B%2FFigure%203-4.png)  
 _from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  

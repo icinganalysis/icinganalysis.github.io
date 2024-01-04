@@ -56,8 +56,18 @@ safe flight through icing conditions.
 
 ## Resources  
 
+"ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
+>Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
+>In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
+
 [NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
 A good review for anyone, not just beginners. 
+
+Airframe and Engine Icing [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
+> This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  
+
+[aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
+See "AIRMETS" that can include icing conditions, as well as other current weather data.  
 
 ## Related  
 
