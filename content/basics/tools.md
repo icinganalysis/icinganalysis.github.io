@@ -31,6 +31,9 @@ To simulate in-flight icing conditions,
 and water spray to produce drop sizes similar to those in nature
 (some do not have refrigeration, and wait for a day with cold enough weather for testing).
 
+![Common Research Model, CRM, in the Icing Research Tunnel](..%2Fimages%2FNASA%2FIRT%20CRM%20ice.png)  
+_from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
+
 ![Figure 1-2.png](/images%2FFAA%20Handbook%20volume%202%2FFigure%201-2.png)
 _The NASA Icing Research Tunnel (IRT), from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
 
