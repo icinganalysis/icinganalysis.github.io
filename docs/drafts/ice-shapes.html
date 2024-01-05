@@ -10,7 +10,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content="DRAFT As ice accumulates on a wing, it changes the shape of the airfoil. The shape of the ice depends on details of the flight and icing conditions. At warmer temperatures..." />
+        <meta name="description" content="DRAFT As ice accumulates on a wing, it changes the shape of the airfoil. The ice that forms is sometimes called an "Ice accretion" in the literature. The shape of the ice..." />
 </head>
 
 <body id="index" class="home">
@@ -31,8 +31,8 @@
                 Published: Tue 02 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-01-04T11:45:32.665112-08:00">
-                Updated: Thu 04 January 2024
+        <abbr class="modified" title="2024-01-05T10:40:01.480516-08:00">
+                Updated: Fri 05 January 2024
         </abbr>
 <!---->
         <!---->
@@ -46,17 +46,18 @@
 
 </footer><!-- /.post-info -->      <h2>DRAFT</h2>
 <p>As ice accumulates on a wing, it changes the shape of the airfoil. 
+The ice that forms is sometimes called an <a href="/drafts/terminology.html#ice-accretion">"Ice accretion"</a> in the literature. 
 The shape of the ice depends on details of the flight and icing conditions.  </p>
-<p>At warmer temperatures (about -10C to 0C, depending on airspeed and other factors), 
-ice shapes tend to produce "Glaze Ice" shapes with "horns". 
+<p>At warmer temperatures (about -10°C to 0°C, depending on airspeed and other factors), 
+ice shapes tend to produce <a href="/drafts/terminology.html#glaze-ice">"Glaze Ice"</a> shapes with "horns". 
 The nomenclature varies by domain. 
 Pilot training materials generally note this type of ice as "Clear Ice".  </p>
 <p><img alt="Figure 3-1.png" src="/images%2FAC-91-74B%2FFigure%203-1.png">   </p>
 <p><em>from <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf">Pilot Guide: Flight in Icing Conditions, AC 91-74B</a></em>  </p>
-<p>At colder temperatures, the ice appears milky and opaque, and is termed "Rime Ice".  </p>
+<p>At colder temperatures, the ice appears milky and opaque, and is termed <a href="/drafts/terminology.html#rime-ice">"Rime Ice"</a>.  </p>
 <p><img alt="Figure 3-3.png" src="/images%2FAC-91-74B%2FFigure%203-3.png"><br>
 <em>from <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf">Pilot Guide: Flight in Icing Conditions, AC 91-74B</a></em>  </p>
-<p>At temperatures in between, "Mixed Ice" can form.  </p>
+<p>At temperatures in between, <a href="/drafts/terminology.html#mixed-ice">"Mixed Ice"</a> can form.  </p>
 <p><img alt="Figure 3-4.png" src="/images%2FAC-91-74B%2FFigure%203-4.png"><br>
 <em>from <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf">Pilot Guide: Flight in Icing Conditions, AC 91-74B</a></em>  </p>
 <p>These types of ice can have varying effects on lift and drag. </p>
@@ -73,6 +74,13 @@ that it is occurring. It can be difficult to remove since it can
 spread beyond the deicing or anti-icing equipment, although in 
 most cases, it is removed nearly completely by deicing devices.</p>
 </blockquote>
+<p>Aircraft features smaller than wings, 
+such as engine components, antennas, and air data probes, 
+generally have a high collection efficiency, regardless of drop size, 
+and can have ice accreations that are a large fraction of the 
+feature size. </p>
+<p><img alt="Figure V-13. BASIC FORMS OF ICE ACCRETION ON TURBO-JET GUIDE VANES." src="/images%2FModern%20Icing%20Technology%2FFigure%20V-13.png"><br>
+_From <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5">"Modern Icing Technology" (1952)</a> _</p>
 <p>Ice shape can be related to the calculated freezing fraction
 ("relatively slow freezing"): </p>
 <blockquote>
@@ -80,12 +88,35 @@ most cases, it is removed nearly completely by deicing devices.</p>
 supercooled water droplets. Clear icing conditions exist more often in an environment with warmer 
 temperatures, higher liquid water contents, and larger droplets.</p>
 </blockquote>
+<p>For liquid water to freeze, heat must flow out of the water. 
+A term for the amount of heat is the <a href="/drafts/terminology.html#latent-heat">"Latent Heat of Fusion"</a>. 
+The latent heat value is about 334 kJ/kg. 
+This is much higher than the energy required to cool the water by 1°C (1 kJ/kg). </p>
+<p>While supercooled water drops in the atmosphere are below 0°C, 
+the latent heat release and other energy sources tend to raise an aircraft surface temperature to 0°C 
+when water drop impinge on the surface and freeze. </p>
+<p>The <a href="/drafts/terminology.html#messinger">"Messinger Heat Balance"</a> (from Bernard Messinger in 1951)
+considers several ways heat enters and leaves a surface in flight with water on it. 
+A large term is the latent heat of freezing. 
+Convection heat transfer (the transfer of heat from the surface to the atmosphere due to the motion of air) is a factor considered.
+Water on the surface can evaporate, and the <a href="/drafts/terminology.html#evaporation">"Evaporation"</a> rate is sensitive to air pressure. 
+Evaporation greatly aids the freezing process, 
+as the latent heat of evaporation is almost seven times (2256 kJ/kg) that of the latent heat of freezing, 
+and in opposite sense (freezing produces heat to be removed, evaporation results in cooling). 
+Much detailed data, including the <a href="/drafts/terminology.html#water-catch">"Water catch"</a> rate, 
+is required to perform the Messinger heat balance. </p>
+<p>One term that the Messinger heat balance produces is a <a href="/drafts/terminology.html#freezing-fraction">"Freezing Fraction"</a>, 
+the fraction of impinging water that freezes. 
+This can be related to the over-all character of ice shapes. </p>
+<p>Terms of the Messinger heat balance:  </p>
+<p><img alt="Figure 1. Icing energy heat balance from a presentation by Bernard Messinger." src="/images%2Fmessinger%2FFigure1.png"><br>
+<em>from <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">"Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service</a></em>  </p>
 <p>Calculations to relate ice shape to freezing fraction have many variables. 
 Here is a figure that summarizes the effects of some variables
 (n is calculated freezing fraction):  </p>
 <p><img alt="Figure 2-81.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png"><br>
 <em>from <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">The Aircraft Icing Handbook, DOT/FAA/CT-88/8</a> (1991)</em>  </p>
-<p>Note that at high enough airspeeds, there is a wide range of 
+<p>Note that at a high enough airspeed, there is a wide range of 
 temperatures that are predicted to not result in ice 
 (n = freezing fraction = 0).  </p>
 <h2>Resources</h2>
@@ -95,7 +126,12 @@ Also note that there was a perhaps little known update in 1993: <a href="https:/
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.</p>
+<p><a href="https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook">Aviation Weather Handbook, FAA-H-8083-28</a>  </p>
 <p><a href="/ice-shapes-and-their-effects.html">Blog series "Ice Shapes and Their Effects"</a>  </p>
+<p><a href="https://arc.aiaa.org/doi/10.2514/8.2520">Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.</a> [Payment or institutional access required]  </p>
+<p>Chapter V of <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5">"Modern Icing Technology" (1952)</a> 
+has much of the same material as Messinger "Equilibrium Temperature ...", available at no cost.  </p>
+<p><a href="/messinger.html">Blog review of Messinger "Equilibrium Temperature ..."</a>  </p>
 <h2>Related</h2>
 <p>This is part of <a href="/drafts/the-basics.html">The Basics</a> series.  </p>
     </div><!-- /.entry-content -->

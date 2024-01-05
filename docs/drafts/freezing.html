@@ -10,7 +10,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content="DRAFT For liquid water to freeze, heat must flow out of the water. A term for the amount of heat is the "Latent Heat of Fusion". The latent heat value is about 334 kJ/kg...." />
+        <meta name="description" content="DRAFT The water that causes most aircraft in-flight icing is small drops in clouds. Average drop sizes are typically 10 to 50 micrometers in diameter (for comparison, a..." />
 </head>
 
 <body id="index" class="home">
@@ -31,8 +31,8 @@
                 Published: Tue 02 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-01-02T18:19:53.000349-08:00">
-                Updated: Tue 02 January 2024
+        <abbr class="modified" title="2024-01-05T09:44:31.829699-08:00">
+                Updated: Fri 05 January 2024
         </abbr>
 <!---->
         <!---->
@@ -45,33 +45,89 @@
 <!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
 
 </footer><!-- /.post-info -->      <h2>DRAFT</h2>
-<p>For liquid water to freeze, heat must flow out of the water. 
-A term for the amount of heat is the "Latent Heat of Fusion". 
-The latent heat value is about 334 kJ/kg. 
-This is much higher than the energy required to cool the water by 1°C (1 kJ/kg). </p>
-<p>While supercooled water drops in the atmosphere are below 0°C, 
-the latent heat release and other energy sources tend to raise an aircraft surface temperature to 0°C 
-when water drop impinge on the surface and freeze. </p>
-<p>The "Messinger Heat Balance" (from Bernard Messinger in 1951)
-considers several ways heat enters and leaves a surface in flight with water on it. 
-A large term is the latent heat of freezing. 
-Convection heat transfer (the transfer of heat from the surface to the atmosphere due to the motion of air) is a factor considered.
-Water on the surface can evaporate, and the evaporation rate is sensitive to air pressure. 
-Evaporation greatly aids the freezing process, 
-as the latent heat of evaporation is almost seven times (2256 kJ/kg) that of the latent heat of freezing, 
-and in opposite sense (freezing produces heat to be removed, evaporation results in cooling). 
-Much detailed data, including the water catch rate, is required to perform the Messinger heat balance. </p>
-<p>One term that the Messing heat balance produces is a "Freezing Fraction", 
-the fraction of impinging water that freezes. 
-This can be related to the over-all character of ice shapes. </p>
-<p>Terms of the Messinger heat balance:  </p>
-<p><img alt="Figure 1. Icing energy heat balance from a presentation by Bernard Messinger." src="/images%2Fmessinger%2FFigure1.png"><br>
-<em>from <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">"Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service</a></em>  </p>
+<p>The water that causes most aircraft in-flight icing is small drops in clouds. 
+Average drop sizes are typically 10 to 50 micrometers in diameter
+(for comparison, a human hair is about 50 to 100 micrometers in diameter).</p>
+<p>Calculating the amount of water that hits or impinges on the surface 
+of an airplane as it flies through a cloud 
+is an important step that is required to calculate ice shapes, 
+and to determine the amount of ice protection required.</p>
+<p>Air flow around an airfoil in flight can be idealized as streamlines, 
+which may be parallel far from an object, but bend around an object close to it. 
+Mathematical models are available to calculate streamlines. 
+Streamlines can be visualized in a wind tunnel using smoke traces 
+(a source that makes a thin line of smoke that shows how the airflow bends). </p>
+<p>Water drops tend to follow streamlines far from an object, 
+but due to their momentum, diverge from streamlines near an object. 
+Calculations of the paths of water drops, termed "Water Drop Trajectories", 
+are in some ways more complicated than the air flow calculations. 
+There is no simple way to directly visualize water drop trajectories. </p>
+<p>Streamlines and water drop trajectories around a cylinder 
+(airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):<br>
+<img alt="Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="/images%2Fcylinder%20with%20flow%20lines.png"><br>
+<em>from NACA-TN-2903, 1953.</em>  </p>
+<p>As water drop trajectories diverge around an object, 
+not all drops in the frontal view of the object impinge on the object. 
+The fraction of water drops that do impinge is termed the "Water Collection Efficiency". 
+Once drops impinge on a surface they tend to remain on the surface. 
+The water collection efficiency can vary widely, 
+depending on factors such as the water drop size and object size, airspeed, 
+air pressure, and others. 
+The water collection efficiency can also be zero for some cases 
+(such as very small water drops, a very large object, and a low airspeed). </p>
+<p>Collection efficiency is the ratio of the area of impingement to the frontal area:  </p>
+<p><img alt="Figure II-3. Graphical representation of parameters used in trajectory work." src="/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png"> <br>
+<em>from <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5">"Modern Icing Technology" (1952)</a></em>  </p>
+<p>The water drops do not impinge everywhere on a surface, they tend to 
+only hit near the leading edge. The limits of where they hit is termed 
+"Impingement Limits". These can vary with conditions details such as airspeed and drop size.</p>
+<p>In a particular cloud, not all water drops are the same size. 
+The "Langmuir Drop Size Distributions" describe an idealized approximation of 
+how the drop sizes vary in a cloud about an average or median drop size. 
+It has seven bins, each with a representative drop size and fraction of the 
+total water content in the cloud. </p>
+<p>Much study has been done on the conditions that cause icing on an aircraft in flight. 
+The data were collected into graphs in design documents and certification requirements. 
+They give expected values for intensity or concentration of supercooled water in g/m^3 
+("Liquid Water Content" or "LWC"), 
+and mean or average drop size 
+("Mean Effective Drop Diameter" "MED" or "Median Volumetric Diameter" "MVD"). 
+Other factors also have to be specified, such as temperature and altitude, 
+for a complete definition. </p>
+<p>A definition of icing conditions:<br>
+<img alt="AppCfig1.png" src="/images%2FAppCfig1.png"><br>
+<em><a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">from Part 25 Appendix C (1964)</a></em>  </p>
+<p>"Continuous Maximum Icing Conditions" are for stratiform or layer-type clouds, 
+which can extend for several miles.  </p>
+<p>"Intermittent Maximum Icing Conditions" are for cumuliform  or "storm" type clouds, 
+which extend over a lesser distance, but have more intense icing conditions.  </p>
+<p>Regulations cover large drop icing conditions, 
+termed "Appendix O", were published in 2014. 
+These have lWC values and extents roughly comparable to Continuous Maximum Icing Conditions, 
+but have larger drop sizes. There are four detailed conditions definitions. 
+The "Freezing Drizzle" definition includes drop sizes over 200 micrometers. 
+The "Freezing Rain" definition includes drop sizes over 1000 micrometers. 
+The larger drops can cause icing in locations where Appendix C 
+size drops do not reach. </p>
 <h2>Resources</h2>
-<p><a href="https://arc.aiaa.org/doi/10.2514/8.2520">Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.</a> [Payment or institutional access required]  </p>
-<p>Chapter V of <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5">"Modern Icing Technology" (1952)</a> 
-has much of the same material, available at no cost.  </p>
+<p><a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">Appendix C</a></p>
+<p><a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420">Appendix O</a>  </p>
+<p><a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">The Aircraft Icing Handbook, DOT/FAA/CT-88/8</a>, 
+Chapter 1, Section 1 in particular.<br>
+Also note that there was a perhaps little known update in 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a> The update contains only the updated pages. 
+This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
+but not so well in the digital age. 
+I do not know of a pdf file that integrates the two into one.  </p>
 <p><a href="/messinger.html">Blog review of "Equilibrium Temperature ..."</a>  </p>
+<p><a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">The Aircraft Icing Handbook, DOT/FAA/CT-88/8</a>, 
+Volume 1, Chapter 1, Section 2.2.1 in particular. Note that much of that section is in the 
+perhaps little known update from 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a>. 
+The update contains only the updated pages. 
+This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
+but not so well in the digital age. 
+I do not know of a pdf file that integrates the two into one.  </p>
+<p><a href="https://apps.dtic.mil/sti/citations/AD0608865">“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963</a><br>
+Chapter 2 in particular. This has more figures of impingement correlation figures than DOT/FAA/CT-88/8.</p>
 <h2>Related</h2>
 <p>This is part of <a href="/drafts/the-basics.html">The Basics</a> series.  </p>
     </div><!-- /.entry-content -->

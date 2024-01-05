@@ -7,7 +7,7 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT  
  
-"Glaze ice" formed in flight on an airplane:  
+["Glaze Ice"]({filename}Nomenclature.md#glaze-ice)  formed in flight on an airplane:  
 ![Figure 13. Formation of ice on horizontal stabilizer. 
 Average icing rate, 4 inches per hour; liquid-water content, 
 0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
@@ -17,7 +17,6 @@ _from [NACA-TN-1598 (1948)](https://ntrs.nasa.gov/citations/19810068605)_
 ## TODO  
  
 - Add more images, "a picture for everything"  
-- Note resources for each concept, not just a big pile at the end  
 
 ## Summary  
 
@@ -91,7 +90,7 @@ One might find other resources with online searches, but I have only included li
  
 It is suggested that you read the concepts in the order below. 
 
-Note that when a term introduced it is capitalized in quotes, such as "Glaze Ice". 
+Note that when a term introduced it is capitalized in quotes, such as ["Glaze Ice"]({filename}Nomenclature.md#glaze-ice). 
 Terms are defined in context in the sections below, 
 and there is a [Terminology]({filename}Nomenclature.md) section available.  
 
@@ -101,15 +100,11 @@ Each concept has a resources section, with specific further reading on the conce
 
 - [Flight basics]({filename}flight_basics.md)  
 
-- [Supercooled water]({filename}supercooled_water.md)  
-
-- [The motion of water drops]({filename}drop_trajectories.md)  
-
-- [Freezing]({filename}freezing.md)  
+- [Water Drops]({filename}water_drops.md)  
 
 - [Ice shapes]({filename}ice_shapes.md)  
 
-- [Ice protection]({filename}ice_protection.md)
+- [Ice protection]({filename}ice_protection.md)  
 
 - [Tools]({filename}tools.md)  
 

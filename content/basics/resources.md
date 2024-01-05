@@ -6,12 +6,12 @@ status: draft
 
 ## Introduction  
 
-The good news is that these comprise thousands of pages of reading. 
+The good news is that these comprise thousands of pages of reading.  
 The bad news is that these comprise thousands of pages of reading. 
 
 A few experts that I know have confessed that they have not read all of 
 what I consider to be "The Big Three", let alone everything listed here. 
-So, you can probably get by not reading everything. 
+So, you can probably get along by not reading everything. 
 
 Most of the resources are online and available at no cost. 
 Some are copyrighted, and available for purchase or online access rental. 
@@ -29,12 +29,16 @@ If I had to pick only one, it would be DOT/FAA/CT-88/8.
 
 [Ice, Frost, and Rain Protection, AIR1168/4](https://www.sae.org/standards/content/air1168/4/)  
 
-[The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+[The Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
+Also note that there are 3 volumes:  
+"Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
+"Aircraft Icing Handbook Volume 3", DOT/FAA/C-88/8-3. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA2380410)  
+Some pages in Volume 3 are affected by the update noted above. 
 
 ## History  
 
@@ -48,27 +52,10 @@ I do not know of a pdf file that integrates the two into one.
 (Especially the "Heat Against Ice" excerpt, p. 506-518.)  
 [history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  
 
+[The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
+132 NACA icing publications in 16 categories that are still relevant today. 
+
 And, of course, the [Blast from the Past: NACA Icing Publications](https://icinganalysis.com/) blog. 
-
-## Aviation Weather and Icing {: #FAA-H-8083-28 }   
-
-[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
-Chapter 20 covers icing. This consolidates some prior publications:    
-```text
-This handbook consolidates the weather information from the following 
-advisory circulars (AC) into one source document. By doing this, 
-the Federal Aviation Administration (FAA) intends to streamline access
-to the FAA’s weather documentation for users of the National Airspace 
-System (NAS). The following ACs will remain in effect, but they will 
-eventually be cancelled at a later date following the publication of this
-handbook:
-• AC 00-6, Aviation Weather.
-• AC 00-24, Thunderstorms.
-• AC 00-30, Clear Air Turbulence Avoidance.
-• AC 00-45, Aviation Weather Services.
-• AC 00-54, Pilot Windshear Guide.
-• AC 00-57, Hazardous Mountain Winds.
-```
 
 ## Design Guides {: #design-guides }  
 
@@ -87,6 +74,7 @@ and the [SAE AC-9C documents](#sae-ac9c) below.
 
 The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
 Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://profiles.sae.org/teaac9c/).  
+[Payment or institutional access required to access documents.]
 
 ## Thermodynamics of Freezing  
 
@@ -106,7 +94,24 @@ The "APPENDIX B. NOMENCLATURE" section is particularly useful.
  
 [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
-Also see ["Aviation Weather Handbook, FAA-H-8083-28"](#FAA-H-8083-28) further above.
+<a name="FAA-H-8083-28"></a>
+[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+Chapter 20 covers icing. This consolidates some prior publications:    
+```text
+This handbook consolidates the weather information from the following 
+advisory circulars (AC) into one source document. By doing this, 
+the Federal Aviation Administration (FAA) intends to streamline access
+to the FAA’s weather documentation for users of the National Airspace 
+System (NAS). The following ACs will remain in effect, but they will 
+eventually be cancelled at a later date following the publication of this
+handbook:
+• AC 00-6, Aviation Weather.
+• AC 00-24, Thunderstorms.
+• AC 00-30, Clear Air Turbulence Avoidance.
+• AC 00-45, Aviation Weather Services.
+• AC 00-54, Pilot Windshear Guide.
+• AC 00-57, Hazardous Mountain Winds.
+```
 
 ## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
 
@@ -123,12 +128,8 @@ The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/faciliti
 
 Some SAE documents provide information on the calibration of icing wind tunnels.   
 
-- [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/)  
-- [Icing Wind Tunnel Interfacility Comparison Tests(STABILIZED Oct 2018) AIR5666A](https://www.sae.org/standards/content/air5666a/)  
-
-## [The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
-
-132 NACA icing publications in 16 categories that are still relevant today. 
+- [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
+- [Icing Wind Tunnel Interfacility Comparison Tests(STABILIZED Oct 2018) AIR5666A](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
 
 ## NASA {: #nasa }  
 
@@ -157,9 +158,11 @@ See "AIRMETS" that can include icing conditions, as well as other current weathe
 "ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
 >Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
 >In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
-> 
+
+<!--
 I am not sure that I agree with all of this statement (large drop size icing was noted in the NACA-era and included in NACA-TN-1855):  
 >Did you know?   The icing envelopes developed in the 1940s by NACA (NASA's predecessor) were intended to cover most naturally-occurring conditions.  We have learned, however, that it is possible to encounter clouds with that have significantly greater amounts of liquid water or larger droplet sizes, and that cover larger areas. Several accidents in recent years are thought to have occurred after encounters with conditions that exceed the "standard" envelopes.  
+-->
 
 The [NASA Aircraft Icing Training](https://aircrafticing.grc.nasa.gov/) 
 is focussed on pilots needs. 
@@ -178,7 +181,7 @@ There are lists of terminology available in addition to ADS-4 and DOT/FAA/CT-88/
 ["Aircraft Ice Protection," AC 20-73A](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 The "APPENDIX B. NOMENCLATURE" section is particularly useful. 
 
-[SAE ARP5624, Aircraft Inflight Icing Terminology](https://www.sae.org/standards/content/arp5624/)  
+[SAE ARP5624, Aircraft Inflight Icing Terminology](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required]  
 The "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" is especially recommended.  
 
 ## More Recent Publications  

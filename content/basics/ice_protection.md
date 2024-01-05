@@ -19,19 +19,19 @@ There are several forms of ice protection used on airplanes.
 The most commonly used for is thermal ice protection, 
 which provides heat to the area to be protected. 
 
-Thermal ice protection with enough heating provides "Anti-Icing", 
+Thermal ice protection with enough heating provides ["Anti-Icing"]({filename}Nomenclature.md#anti-icing), 
 which prevents the formation of ice by evaporating all of the impinging water. 
 This can be a demanding amount of power for large areas.  
 
-At lower power, "Running Wet" protection prevents ice over the heated area, 
+At lower power, ["Running Wet"]({filename}Nomenclature.md#running-wet) protection prevents ice over the heated area, 
 but may not evaporate all of the water, which can freeze further aft of the heated area 
-and form "Runback Ice". 
+and form ["Runback Ice"]({filename}Nomenclature.md#runback-ice). 
 Analysis and test is required to show that the runback ice is acceptable. 
 
-The thermal protection may be intermittently turned on to provide "Deice" protection. 
+The thermal protection may be intermittently turned on to provide ["De-icing"]({filename}Nomenclature.md#deicing) protection. 
 Analysis and test is required to show that ice that forms while the system is not on is acceptable. 
 
-On some jet aircraft, a portion of the wing span is protected
+On some aircraft, a portion of the wing span is protected 
 (not the entire span). This minimizes the heating power required. 
 Analysis and test is required to show that the ice in unprotected areas is acceptable.
 
@@ -44,6 +44,17 @@ Another form of protection is deformation of the surface so that ice breaks off.
 This can be applied through pneumatic pressure, or electro-mechanical actuators. 
 
 Each form of ice protection has advantages and disadvantages. 
-Different airplane sizes and design flight lengths may favor one form 
+Different airplane sizes, power sources, and flight profiles may favor one form 
 over another. Complex trade studies are conducted in the design 
 of new aircraft to determine the least costly form of ice protection to use. 
+
+![Table 5-7.png](..%2Fimages%2FFAA%20Handbook%20volume%202%2FTable%205-7.png)  
+_Ice protection trade study data for one aircraft. From DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
+
+## Related  
+
+This is part of [The Basics]({filename}basics.md) series.  
+
+## Resources  
+
+"Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  

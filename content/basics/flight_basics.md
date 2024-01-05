@@ -19,7 +19,7 @@ Effects of ice:
 ![structural ice.png](/images%2Fac00-6a%2Fstructural%20ice.png)  
 _from [Aviation Weather For Pilots and Flight Operations Personnel, AC 00-6A (Cancelled)](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
-The lift an airfoil can produce is affected by the "Angle of Attack" of the wing with respect to the air motion over it. 
+The lift an airfoil can produce is affected by the ["Angle of Attack"]({filename}Nomenclature.md#angle-of-attack) of the wing with respect to the air motion over it. 
 The coefficient of lift (Cl) is a non-dimensional measure of lift, and is proportional to lift. 
 Lift data for airfoils is commonly plotted as a function of angle of attack. 
 Lift generally increases with angle of attack. 
@@ -37,7 +37,7 @@ To some extent, increasing angle of attack can off-set the effects of ice.
 However, the margin to stall conditions is reduced. 
 In extreme cases, this is hazardous.
 
-Increasing airspeed (the speed at which the airplane flies relative to the air) can increase lift. 
+Increasing ["Airspeed"]({filename}Nomenclature.md#airspeed) (the speed at which the airplane flies relative to the air) can increase lift. 
 Stall speed is a term for an airspeed that may induce a stall, 
 as the angle of attack would have to be increased to the maximum level to maintain flight. 
 With ice on a wing, a higher airspeed can partially off-set the effects of ice. 
@@ -52,7 +52,28 @@ Ice can collect on control surface balance horns and affect the balance,
 or jamb the motion of the control surface. 
 
 Ice protection systems can counter-act these effects and enable 
-safe flight through icing conditions. 
+safe flight through icing conditions.
+
+Air temperature in the atmosphere tends to decrease with altitude. 
+Air with moisture as water drops and ["Vapor"]({filename}Nomenclature.md#vapor) can rise and cool, 
+from a temperature above 0°C (32°F) to below 0°C. 
+This is how many icing clouds form. 
+
+The water drops in an icing cloud are liquid at a temperature at or below 0°C (32°F), 
+in what is termed a ["Supercooled"]({filename}Nomenclature.md#supercooled) state. 
+Almost any disturbance can lead to freezing of the drops. 
+Fairly often (more than half of colder clouds) this happens 
+spontaneously, without an outside influence, and the cloud 
+can become ice crystals rather than liquid water drops. 
+
+A scenario at a weather front that can produce supercooled icing conditions:  
+![Figure 20-1.png](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
+_from [FAA-H-8083-28, "Aviation Weather Handbook"](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
+ 
+The disturbance of most interest to aircraft icing is when a supercooled 
+water drop impinges on the surface of an aircraft moving through the cloud. 
+The water freezes on the aircraft surface and forms ice shapes. 
+This can affect the aerodynamic performance of the aircraft.  
 
 ## Resources  
 
@@ -68,6 +89,9 @@ Airframe and Engine Icing [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/201900
 
 [aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
 See "AIRMETS" that can include icing conditions, as well as other current weather data.  
+
+[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+Chapter 20 covers icing. 
 
 ## Related  
 
