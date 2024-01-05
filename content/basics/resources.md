@@ -138,7 +138,7 @@ A rather good review for anyone, not just beginners.
 
 The [NTRS - NASA Technical Reports Server](https://ntrs.nasa.gov) has nearly all NASA (and NACA!) publications available. 
 
-The NASA-provided [Icing Research Softwer (LEWICE, LEWICE 3D)](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+The NASA-provided [Icing Research Software (LEWICE, LEWICE 3D)](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 
 The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
 
