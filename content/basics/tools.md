@@ -7,9 +7,6 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT
 
-![Figure 1-2.png](/images%2FFAA%20Handbook%20volume%202%2FFigure%201-2.png)
-_The NASA Icing Research Tunnel (IRT), from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
-
 Aircraft designs for flight in icing are improved and proven effective by several tools, 
 including analysis, icing wind tunnel test, and flight test in icing conditions. 
 
@@ -28,13 +25,23 @@ To simulate in-flight icing conditions,
 and water spray to produce drop sizes similar to those in nature
 (some do not have refrigeration, and wait for a day with cold enough weather for testing).
 
+![Figure 1-2.png](/images%2FFAA%20Handbook%20volume%202%2FFigure%201-2.png)
+_The NASA Icing Research Tunnel (IRT), from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
+
 Flight tests are used to determine that ice protection systems operate as intended. 
 Flight tests may be conducted using artificial ice shapes.
 
-As a final proof that everything works as intended, flight tests in natural icing conditions are conducted. 
-
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](/images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
 _ A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 Jun 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
+
+As a final proof that everything works as intended, flight tests in natural icing conditions are conducted. 
+ 
+Glaze Ice formed in flight on an airplane:  
+![Figure 13. Formation of ice on horizontal stabilizer. 
+Average icing rate, 4 inches per hour; liquid-water content, 
+0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
+1 in. wide)](/images/naca-tn-1598/Figure13.png)  
+_from [NACA-TN-1598 (1948)](https://ntrs.nasa.gov/citations/19810068605)_  
 
 ## Resources  
 
