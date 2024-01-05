@@ -56,7 +56,10 @@ In a particular cloud, not all water drops are the same size.
 The ["Langmuir Drop Size Distributions"]({filename}Nomenclature.md#langmuir-distribution) describe an idealized approximation of 
 how the drop sizes vary in a cloud about an average or median drop size. 
 It has seven bins, each with a representative drop size and fraction of the 
-total water content in the cloud. 
+total water content in the cloud.  
+
+![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
+_from  [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 Much study has been done on the conditions that cause icing on an aircraft in flight. 
 The data were collected into graphs in design documents and certification requirements. 

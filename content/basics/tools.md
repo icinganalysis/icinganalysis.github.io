@@ -13,13 +13,13 @@ including analysis, icing wind tunnel test, and flight test in icing conditions.
 Design handbooks have charts and tables that can be used to perform analyses for 
 aircraft icing and ice protection. 
 
-![Figure 2-47.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
+![Figure 2-47.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
 _from [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 There are computerized icing analysis tools available from NASA, and from commercial vendors. 
 There is also "bespoke" software created for special purposes. 
 
-![LEWICE3D. LEWICE3D prediction of collection efficiency (color contours) and the resulting ice shape (at discrete cuts) along a wing.](..%2Fimages%2FNASA%2FLEWICE3D.png)  
+![LEWICE3D. LEWICE3D prediction of collection efficiency (color contours) and the resulting ice shape (at discrete cuts) along a wing.](/images%2FNASA%2FLEWICE3D.png)  
 _from "Glenn Research Center Software" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)_  
 
 A wind tunnel is a large tube with a fan to produce air flow at a calibrated airspeed. 
@@ -31,7 +31,7 @@ To simulate in-flight icing conditions,
 and water spray to produce drop sizes similar to those in nature
 (some do not have refrigeration, and wait for a day with cold enough weather for testing).
 
-![Common Research Model, CRM, in the Icing Research Tunnel](..%2Fimages%2FNASA%2FIRT%20CRM%20ice.png)  
+![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
 
 Flight tests are used to determine that ice protection systems operate as intended. 
