@@ -29,7 +29,7 @@ If I had to pick only one, it would be DOT/FAA/CT-88/8.
 
 [Ice, Frost, and Rain Protection, AIR1168/4](https://www.sae.org/standards/content/air1168/4/)  
 
-[The Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+The [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
