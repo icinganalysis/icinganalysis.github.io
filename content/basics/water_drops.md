@@ -8,8 +8,11 @@ rights: CC-BY-NC-SA 4.0
 ## DRAFT
 
 The water that causes most aircraft in-flight icing is small drops in clouds. 
-Average drop sizes are typically 10 to 50 micrometers in diameter
+Average drop sizes are typically 10 to 50 ["Micrometers"]({filename}Nomenclature.md#micrometer) (μm) in diameter
 (for comparison, a human hair is about 50 to 100 micrometers in diameter).
+
+![drop sizes.png](/images%2Fdrop%20sizes.png)  
+_Typical drop sizes, approximately to scale. Public Domain by Donald Cook._  
 
 Calculating the amount of water that hits or impinges on the surface 
 of an airplane as it flies through a cloud 
@@ -43,7 +46,7 @@ air pressure, and others.
 The water collection efficiency can also be zero for some cases 
 (such as very small water drops, a very large object, and a low airspeed). 
 
-Collection efficiency is the ratio of the area of impingement to the frontal area:  
+Collection efficiency is the ratio of the area of impingement to the frontal area (Em or Percentage Catch in the figure below):  
 
 ![Figure II-3. Graphical representation of parameters used in trajectory work.](/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
 _from ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  

@@ -36,7 +36,23 @@ On some aircraft, a portion of the wing span is protected
 Analysis and test is required to show that the ice in unprotected areas is acceptable.
 
 The heat sources commonly used are electrical heating (often for smaller components), 
-or hot compressed air from jet engines. 
+or hot compressed air from jet engines.  
+
+Typical electro-thermal ice protection:  
+
+![Figure 2-2. Cross sections of typical electrical heaters.](/images%2FFAA%20Handbook%20volume%202%2FFigure%202-2.png)  
+_from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
+
+![Figure 2-3. Electro-thermal wing anti-ice system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%202-3.png)  
+_from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
+
+Typical hot-air ice protection:  
+
+![Figure 5-8. Typical hot-air anti-icing system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-8.png)  
+_from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
+
+![Figure 5-26. Wing parallel flow single skin system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-26.png)  
+_from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
 Other forms of ice protection include fluids that are freezing point depressants, 
 such as glycol (similar to the anti-freeze used in automobiles). 

@@ -52,7 +52,7 @@ and can have ice accreations that are a large fraction of the
 feature size. 
 
 ![Figure V-13. BASIC FORMS OF ICE ACCRETION ON TURBO-JET GUIDE VANES.](/images%2FModern%20Icing%20Technology%2FFigure%20V-13.png)  
-_From ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) _
+_From ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_
 
 Ice shape can be related to the calculated freezing fraction
 ("relatively slow freezing"): 

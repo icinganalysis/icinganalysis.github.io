@@ -99,7 +99,7 @@ Sometimes termed "freezing point", but that does not account for supercooled liq
 <a name="messinger">__Messinger heat balance__</a>: A thermodynamic model of the freezing of water. 
 Named after Bernard Messinger, who published it circa 1951.
   
-Micrometer: One millionth of a meter. Sometimes called "micron" in older literature.  
+<a name="micrometer">__Micrometer__</a> (μm): One millionth of a meter. Sometimes called "micron" in older literature.  
   
 <a name="rime-ice">__Rime ice__</a>: Milky white, low-density ice formed at low temperatures with a
 relatively streamlined shape; also referred to as spearhead and knife-edge
