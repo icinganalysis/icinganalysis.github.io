@@ -51,8 +51,8 @@ Control surfaces such as ailerons can be less effective with ice on the wing lea
 Ice can collect on control surface balance horns and affect the balance, 
 or jamb the motion of the control surface. 
 
-Ice protection systems can counter-act these effects and enable 
-safe flight through icing conditions.
+[Ice protection systems]({filename}ice_protection.md) can counter-act these effects and enable 
+safe flight through icing conditions.  
 
 Air temperature in the atmosphere tends to decrease with altitude. 
 Air with moisture as water drops and ["Vapor"]({filename}Nomenclature.md#vapor) can rise and cool, 

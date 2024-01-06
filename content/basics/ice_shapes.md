@@ -61,6 +61,12 @@ Ice shape can be related to the calculated freezing fraction
 supercooled water droplets. Clear icing conditions exist more often in an environment with warmer 
 temperatures, higher liquid water contents, and larger droplets.
 
+Ice shapes on swept wings can have complex "lobster tail" shapes:  
+
+![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
+_from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
+
+
 For liquid water to freeze, heat must flow out of the water. 
 A term for the amount of heat is the ["Latent Heat of Fusion"]({filename}Nomenclature.md#latent-heat). 
 The latent heat value is about 334 kJ/kg. 
