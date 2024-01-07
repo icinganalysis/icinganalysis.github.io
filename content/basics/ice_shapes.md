@@ -1,11 +1,11 @@
 Title: Ice Shapes    
-header: The Basics of Aircraft Icing
+header: The Basics of Aircraft Icing  
 Date: 2024-01-2 12:00  
 tags: basics  
 status: draft  
-rights: CC-BY-NC-SA 4.0
+rights: CC-BY-NC-SA 4.0  
 
-## DRAFT
+## DRAFT  
 
 As ice accumulates on a wing, it changes the shape of the airfoil. 
 The ice that forms is sometimes called an ["Ice accretion"]({filename}Nomenclature.md#ice-accretion) in the literature. 
@@ -43,29 +43,21 @@ larger than that caused by rime ice. Since it is clear and
 difficult to see, the pilot may not be able to quickly recognize 
 that it is occurring. It can be difficult to remove since it can 
 spread beyond the deicing or anti-icing equipment, although in 
-most cases, it is removed nearly completely by deicing devices.
+most cases, it is removed nearly completely by deicing devices.  
 
 Aircraft features smaller than wings, 
 such as engine components, antennas, and air data probes, 
 generally have a high collection efficiency, regardless of drop size, 
-and can have ice accreations that are a large fraction of the 
+and can have ice accretions that are a large fraction of the 
 feature size. 
 
 ![Figure V-13. BASIC FORMS OF ICE ACCRETION ON TURBO-JET GUIDE VANES.](/images%2FModern%20Icing%20Technology%2FFigure%20V-13.png)  
 _From ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_
 
-Ice shape can be related to the calculated freezing fraction
-("relatively slow freezing"): 
-
->Clear ice (or glaze ice) is a glossy, clear, or translucent ice formed by the relatively slow freezing of large, 
-supercooled water droplets. Clear icing conditions exist more often in an environment with warmer 
-temperatures, higher liquid water contents, and larger droplets.
-
 Ice shapes on swept wings can have complex "lobster tail" shapes:  
 
 ![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
-
 
 For liquid water to freeze, heat must flow out of the water. 
 A term for the amount of heat is the ["Latent Heat of Fusion"]({filename}Nomenclature.md#latent-heat). 
@@ -90,6 +82,13 @@ is required to perform the Messinger heat balance.
 One term that the Messinger heat balance produces is a ["Freezing Fraction"]({filename}Nomenclature.md#freezing-fraction), 
 the fraction of impinging water that freezes. 
 This can be related to the over-all character of ice shapes. 
+
+Here, freezing fraction ("relatively slow freezing") is related to ice type: 
+
+>Clear ice (or glaze ice) is a glossy, clear, or translucent ice formed by the relatively slow freezing of large, 
+supercooled water droplets. Clear icing conditions exist more often in an environment with warmer 
+temperatures, higher liquid water contents, and larger droplets.  
+>_from [AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 Terms of the Messinger heat balance:  
 
