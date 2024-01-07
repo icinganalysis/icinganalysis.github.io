@@ -12,7 +12,7 @@ Average drop sizes are typically 10 to 50 ["Micrometers"]({filename}Nomenclature
 (for comparison, a human hair is about 50 to 100 micrometers in diameter).
 
 ![drop sizes.png](/images%2Fdrop%20sizes.png)  
-_Typical drop sizes, approximately to scale. Public Domain by Donald Cook._  
+_Typical drop sizes, approximately proportional. Public Domain by Donald Cook._  
 
 Calculating the amount of water that hits or impinges on the surface 
 of an airplane as it flies through a cloud 
