@@ -1,0 +1,37 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Big News:
+
+Switched from copyright to CC BY-NC-SA 4.0 license on the website.
+
+- Latest post:
+
+Revised icinganalysis.com/instructive-illustrations.html to include a new addition to the honor roll.
+
+- What is in work:
+
+The Porter Perkins series is almost done https://icinganalysis.com/drafts/porter-perkins.html,
+will start publishing in mid-January.
+
+- Latest finds / Public Domain Image of the Week:
+
+NACA + NASA Timeline
+https://www.nasa.gov/wp-content/uploads/2023/07/naca-nasa-aero-contributions-timeline.pdf :
+
+    This two-sided poster highlights key aeronautics research and flight test achievements from 1957 through NASA's 50th anniversary year in 2008.
+    Side 1: NACA: Solving Decades of Aviation Challenges
+
+(There is a side-two about something else.)
+Three mentions of ice or icing:
+
+    1927: Theodore Theodorsen and W.C. Clay begin research on aircraft anti-icing.
+    1936-1945: Thermal Ice Prevention Systems at NACA were created to investigate effective counter-measures to the problems of ice formation on aircraft
+    1946: Collier Trophy to Lewis A. Rodert for helping to develop and deploy a practical ice-prevention system for aircraft
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/secret-newsletter-archive.html .
+The public may view them a few weeks after they are published at https://icinganalysis.com/newsletter-archive.html
+
+CC BY-NC-SA 4.0 by Donald Cook icinganalysis.com
