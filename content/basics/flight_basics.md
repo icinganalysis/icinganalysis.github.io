@@ -93,6 +93,10 @@ See "AIRMETS" that can include icing conditions, as well as other current weathe
 [Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
 Chapter 20 covers icing. 
 
+"Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
+Includes icing intensity definitions. 
+>Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
+
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  
