@@ -26,6 +26,12 @@ and now I am at the "request help" stage.
 I would appreciate any help anyone can offer 
 finding them as loanable print copies or digitally.  
 
+## Recently made available  
+
+- Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR No. 3E29, May 1943  
+I requested it through [airsciences.org.uk](https://airsciences.org.uk/archive-rae-reports-on-microfilm/) and they sent me a scanned pdf copy 
+(not sharable, so you will have to request your own copy).  
+
 ## Could only find at google books    
 
 - NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17, 18 1954 [books.google.com](https://books.google.com/books?id=bsxQAAAAYAAJ)  
@@ -58,13 +64,12 @@ unless one has a security clearance and a "need to know".
 (Must be some really good info to still be restricted 80+ years later.)  
 
 However, I have seen copies of some other publications that are on this list, 
-so things may have changed and they might someday be available.  
+so things may have changed, and they might someday be available.  
 
 https://www.governmentattic.org/25docs/NASAtechRpts1980older_2017.pdf  
 
 - Rodert: Design Outline of Anti-icing Equipment Employing Heated Air, NACA ARR, 1942.  
 - Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS)  
-- Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR No. 3E29, May 1943  
 
 ## Notes  
 

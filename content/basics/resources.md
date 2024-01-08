@@ -151,7 +151,11 @@ The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc
 ## Weather  
 
 [aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
-See "AIRMETS" that can include icing conditions, as well as other current weather data.  
+Live feed of weather information, see "AIRMETS" that can include icing conditions, as well as other current weather data.  
+
+"Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
+>Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
+
 
 ## Courses  
 
