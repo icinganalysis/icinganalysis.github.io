@@ -101,16 +101,8 @@ size drops do not reach.
 [Appendix O](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
 [The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
-Chapter 1, Section 1 in particular.  
+Chapter 1, Sections 1 and 2.2.1 in particular.  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf) The update contains only the updated pages. 
-This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
-but not so well in the digital age. 
-I do not know of a pdf file that integrates the two into one.  
-
-[The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
-Volume 1, Chapter 1, Section 2.2.1 in particular. Note that much of that section is in the 
-perhaps little known update from 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf). 
-The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
