@@ -17,7 +17,7 @@ See the [Resources]({filename}resources.md#terminology) for other, more extensiv
 __Airfoil chord__: the longest line possible between the leading edge and trailing edge of an airfoil. 
 
 <a name="airspeed">__Airspeed__</a>: The speed of the aircraft through the air. Sometimes measured in knots (nautical mile per hour) or KTAS. 
-A nautical mile is about 6076 feet or 1852 m. 
+A nautical mile is about 6076 feet or 1852 m, or 1.15 statute ("standard") miles. 
   
 <a name="angle-of-attack">__Angle of attack__</a>: Angle between airfoil chord and line of flight.  
   
