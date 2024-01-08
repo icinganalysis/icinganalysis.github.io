@@ -105,7 +105,7 @@ Each concept has a resources section, with specific further reading on the conce
 
 - [Ice shapes]({filename}ice_shapes.md)  
 
-- [Ice protection]({filename}ice_protection.md)  
+- [Ice protection]({filename}basics_ice_protection.md)  
 
 - [Tools]({filename}tools.md)  
 

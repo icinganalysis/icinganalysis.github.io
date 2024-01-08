@@ -14,7 +14,7 @@ See the [Resources]({filename}resources.md#terminology) for other, more extensiv
 
 ## Selected Aircraft Icing Terms  
 
-Airfoil chord: the longest line possible between the leading edge and trailing edge of an airfoil. 
+__Airfoil chord__: the longest line possible between the leading edge and trailing edge of an airfoil. 
 
 <a name="airspeed">__Airspeed__</a>: The speed of the aircraft through the air. Sometimes measured in knots (nautical mile per hour) or KTAS. 
 A nautical mile is about 6076 feet or 1852 m. 
@@ -79,7 +79,7 @@ who proposed several distributions circa 1945.
 <a name="liquid-water-content">__Liquid water content__<a/>: Water contained as free moisture in a volume of air
 (does not include water in vapor form). Typically measured in g/m^3 (grams per cubic meter). 
 
-Local collection rate: Mass of impinging water per unit time and per unit
+__Local collection rate__: Mass of impinging water per unit time and per unit
 area at a given location.  
 
 <a name="medd">__Mean effective drop diameter (MED)__</a>: Half the volume of water in a given sample
@@ -93,7 +93,7 @@ the characteristics of both rime and glaze (or clear) ice.
 that half the volume of water in a given sample of air is contained in large
 drops, half in small drops. Functionally interchangeable with MED.  
 
-Melting point of ice: The temperature at which ice melts at normal pressures, 0°C or 32°F. 
+__Melting point of ice__: The temperature at which ice melts at normal pressures, 0°C or 32°F. 
 Sometimes termed "freezing point", but that does not account for supercooled liquid water.  
 
 <a name="messinger">__Messinger heat balance__</a>: A thermodynamic model of the freezing of water. 

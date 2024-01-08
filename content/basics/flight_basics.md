@@ -51,7 +51,7 @@ Control surfaces such as ailerons can be less effective with ice on the wing lea
 Ice can collect on control surface balance horns and affect the balance, 
 or jamb the motion of the control surface. 
 
-[Ice protection systems]({filename}ice_protection.md) can counter-act these effects and enable 
+[Ice protection systems]({filename}basics_ice_protection.md) can counter-act these effects and enable 
 safe flight through icing conditions.  
 
 Air temperature in the atmosphere tends to decrease with altitude. 
@@ -91,11 +91,10 @@ Airframe and Engine Icing [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/201900
 See "AIRMETS" that can include icing conditions, as well as other current weather data.  
 
 [Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
-Chapter 20 covers icing. 
+Chapter 20 covers icing.  
 
 "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 Includes icing intensity definitions. 
->Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
 
 ## Related  
 
