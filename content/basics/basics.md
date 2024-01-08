@@ -17,6 +17,7 @@ _from [NACA-TN-1598 (1948)](https://ntrs.nasa.gov/citations/19810068605)_
 ## TODO  
  
 - Add more images, "a picture for everything"  
+- Add a few more topics, in keeping with "the least that you need to know" philosophy  
 
 ## Summary  
 

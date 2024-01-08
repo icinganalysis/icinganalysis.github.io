@@ -47,7 +47,7 @@ New regulations ("Appendix O") were published in 2014 [^3].
 
 ![Appendix O icing conditions running back on wing surface of an aircraft.](/images%2FAppendix%20O%20runback%20FAA.png)  
 _from FAA "In-Flight Icing", [faa.gov/nextgen](https://www.faa.gov/nextgen/programs/weather/awrp/ifi)_  
-
+ 
 Readers may note a 20-year interval between the accident and new regulations. 
 There were intermediate actions, such as Airworthiness Directive being published, 
 and much basic research into icing and the effects of ice shapes. 

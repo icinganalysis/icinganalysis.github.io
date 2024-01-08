@@ -25,11 +25,11 @@ However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was upda
 
 If I had to pick only one, it would be DOT/FAA/CT-88/8.  
 
-[Engineering Summary of Airframe Icing Technical Data, ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
+"Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 
-[Ice, Frost, and Rain Protection, AIR1168/4](https://www.sae.org/standards/content/air1168/4/)  
+"Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-The [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+The "Aircraft Icing Handbook"," DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
@@ -78,9 +78,9 @@ Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://prof
 
 ## Thermodynamics of Freezing  
 
-[Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.](https://arc.aiaa.org/doi/10.2514/8.2520) [Payment or institutional access required]  
+Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. [arc.aiaa.org](https://arc.aiaa.org/doi/10.2514/8.2520) [Payment or institutional access required]  
 
-Chapter V of ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) 
+Chapter V of "Modern Icing Technology" (1952) [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) 
 has much of the same material, available at no cost.  
 
 [Blog review of "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
@@ -89,13 +89,13 @@ has much of the same material, available at no cost.
 
 While you may not be involved in aircraft certification, these can be more general aircraft icing resources. 
 
-["Aircraft Ice Protection," AC 20-73A](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+"Aircraft Ice Protection," AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 The "APPENDIX B. NOMENCLATURE" section is particularly useful. 
  
-[Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
+Pilot Guide: Flight in Icing Conditions, AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
 <a name="FAA-H-8083-28"></a>
-[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+Aviation Weather Handbook, FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
 Chapter 20 covers icing. This consolidates some prior publications:    
 ```text
 This handbook consolidates the weather information from the following 
@@ -118,11 +118,11 @@ handbook:
 As noted in the post [Icing Wind Tunnel Test Thread](https://icinganalysis.com/icing-wind-tunnel-test-thread.html), 
 for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive source of information for their use. 
 
-[NASA/CR-2004-212875 "Manual of Scaling Methods"](https://ntrs.nasa.gov/citations/20040042486) 
+NASA/CR-2004-212875 "Manual of Scaling Methods" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)  
 has much information on scaling test conditions, 
 and some more general information.  
 
-The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
+The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)  
 
 <a name="sae-icing-tunnel"></a> 
 
@@ -133,14 +133,14 @@ Some SAE documents provide information on the calibration of icing wind tunnels.
 
 ## NASA {: #nasa }  
 
-[NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
+NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics [www1.grc.nasa.gov](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
 A rather good review for anyone, not just beginners. 
 
-The [NTRS - NASA Technical Reports Server](https://ntrs.nasa.gov) has nearly all NASA (and NACA!) publications available. 
+The NTRS - NASA Technical Reports Server [ntrs.nasa.gov](https://ntrs.nasa.gov) has nearly all NASA (and NACA!) publications available. 
 
-The NASA-provided [Icing Research Software (LEWICE, LEWICE 3D)](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+The NASA-provided Icing Research Software (LEWICE, LEWICE 3D) [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 
-The NASA [Icing Research [wind] Tunnel (IRT)](https://www1.grc.nasa.gov/facilities/irt/)  
+The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)  
 
 "Airframe and Engine Icing" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
 > This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  
@@ -159,16 +159,11 @@ See "AIRMETS" that can include icing conditions, as well as other current weathe
 >Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
 >In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
 
-<!--
-I am not sure that I agree with all of this statement (large drop size icing was noted in the NACA-era and included in NACA-TN-1855):  
->Did you know?   The icing envelopes developed in the 1940s by NACA (NASA's predecessor) were intended to cover most naturally-occurring conditions.  We have learned, however, that it is possible to encounter clouds with that have significantly greater amounts of liquid water or larger droplet sizes, and that cover larger areas. Several accidents in recent years are thought to have occurred after encounters with conditions that exceed the "standard" envelopes.  
--->
+The NASA Aircraft Icing Training [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/) 
+>A course primarily intended for pilots who fly aircraft certified for flight into icing. With an operational focus, this course provides tools pilots can use to deal with in-flight icing.   
 
-The [NASA Aircraft Icing Training](https://aircrafticing.grc.nasa.gov/) 
-is focussed on pilots needs. 
-
-[University of Kansas: Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060)  
-This five-day course is periodically offered at geographically diverse sites. 
+University of Kansas: Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification [enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060)  
+>This course covers the meteorology and physics of aircraft icing. Topics include forecasting, finding and avoiding icing conditions, designing and evaluating ice protection systems, and certification of aircraft for flight into known icing conditions.   
 
 Some commercial computational fluid dynamics (CFD) packages that include icing simulation capabilities offer training.   
 
@@ -176,12 +171,12 @@ Some commercial computational fluid dynamics (CFD) packages that include icing s
 
 There are lists of terminology available in addition to ADS-4 and DOT/FAA/CT-88/8 listed above. 
 
-[NASA Aircraft Icing Training: Glossary](https://aircrafticing.grc.nasa.gov/documents/AircraftIcing_Glossary.pdf)  
+NASA Aircraft Icing Training: Glossary [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/documents/AircraftIcing_Glossary.pdf)  
 
-["Aircraft Ice Protection," AC 20-73A](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+"Aircraft Ice Protection," AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 The "APPENDIX B. NOMENCLATURE" section is particularly useful. 
 
-[SAE ARP5624, Aircraft Inflight Icing Terminology](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required]  
+SAE ARP5624, Aircraft Inflight Icing Terminology [sae.org](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required]  
 The "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" is especially recommended.  
 
 ## More Recent Publications  
