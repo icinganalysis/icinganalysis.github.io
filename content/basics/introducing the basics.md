@@ -116,7 +116,7 @@ A digital file or online access would have been far better.
 The limits of "fair use" may not be clear in some circumstances. 
 There may be interesting figures that you apparently cannot re-use. 
 Sometimes, the images were originally in the public domain, but are not noted as so.
-(For example, see ["Contending with Airframe Icing"]({filename}/../porter%20perkins%20flight%20safety.md#perkins-2002).)  
+(For example, see ["Contending with Airframe Icing"]({filename}../porter%20perkins%20flight%20safety.md#perkins-2002).)  
 
 In this series I will use the Creative Commons 
 [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
