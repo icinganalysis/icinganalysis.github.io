@@ -108,7 +108,7 @@ but not so well in the digital age.
 I do not know of a pdf file that integrates the two into one.  
 
 “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
-Chapter 2 in particular. This has more figures of impingement correlation figures than DOT/FAA/CT-88/8.
+Chapter 2 in particular. This has more figures of impingement correlation than DOT/FAA/CT-88/8.
 
 ## Related  
 
