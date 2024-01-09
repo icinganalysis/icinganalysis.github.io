@@ -41,7 +41,7 @@ Flight tests may be conducted using artificial ice shapes.
 _ A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
 Flight test is one way of determining the effects of ice on the performance of the aircraft.  
-
+ 
 ![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
 various components of airplane. Total airspeed loss, 41 miles per hour, 
 from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
