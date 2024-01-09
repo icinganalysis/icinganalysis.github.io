@@ -49,7 +49,7 @@ The water collection efficiency can also be zero for some cases
 Collection efficiency is the ratio of the area of impingement to the frontal area (Em or Percentage Catch in the figure below):  
 
 ![Figure II-3. Graphical representation of parameters used in trajectory work.](/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
-_from ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
+_from "Modern Icing Technology" 1952 [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
 
 The water drops do not impinge everywhere on a surface, they tend to 
 only hit near the leading edge. The limits of where they hit is termed 

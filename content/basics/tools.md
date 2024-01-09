@@ -38,7 +38,7 @@ Flight tests are used to determine that ice protection systems operate as intend
 Flight tests may be conducted using artificial ice shapes.
 
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](/images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
-_ A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
+_A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
 Flight test is one way of determining the effects of ice on the performance of the aircraft.  
  
