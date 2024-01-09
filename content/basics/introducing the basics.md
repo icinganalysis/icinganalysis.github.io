@@ -164,6 +164,11 @@ they are not focussed on beginning learners.
 - "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 >Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoar frost in that the latter results from the deposition of water vapor.  
 
+- "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
+>During icing certification potential icing threats are evaluated through analyses and tests to
+ensure the aircraft can operate safely in icing conditions. 
+
+
 ### Scope
 
 I have started with a limited scope: ["The Basics"]({filename}basics.md), 

@@ -34,11 +34,16 @@ and water spray to produce drop sizes similar to those in nature
 ![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
 
-Flight tests are used to determine that ice protection systems operate as intended. 
-Flight tests may be conducted using artificial ice shapes.
+Flight tests are used to determine that ice protection systems operate as intended.  
 
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](/images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
 _A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
+
+Flight tests may be conducted using artificial ice shapes.  
+![artificial ice shapes.png](..%2Fimages%2FFAA%20introduction%20to%20certification%2Fartificial%20ice%20shapes.png)  
+_"The above picture is of artificial ice shapes (shown in red) on the unprotected areas of the wing
+leading edges and also simulated runback ice behind the protected leading edges."_
+_from "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)_  
 
 Flight test is one way of determining the effects of ice on the performance of the aircraft.  
  
@@ -65,6 +70,8 @@ The NASA-provided [Icing Research Software (LEWICE, LEWICE 3D)](https://www1.grc
 [Icing wind tunnel]({filename}resources.md#icing-wind-tunnel) resources. 
 
 [Design Guides]({filename}resources.md#design-guides) resources.
+
+"Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
 
 ## Related  
 

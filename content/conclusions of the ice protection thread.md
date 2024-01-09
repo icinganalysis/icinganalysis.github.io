@@ -234,7 +234,7 @@ A video produced by Ultra Electronics gives an overview of the wing ice protecti
 An article describes some of the details of the electronic controls.  
 [MDE Semiconductor, Inc. TVS Diode Clamp Devices Provide Protection to Boeing 787 Dreamliner’s Unique Electro-thermal Wing De-icing System](https://mdesemiconductor.com/mde-semiconductor-inc-tvs-diode-clamp-devices-provide-protection-to-boeing-787-dreamliners-unique-electro-thermal-wing-de-icing-system/)  
 
-![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg) 
+![C-46 Lab Test Article. A test airfoil section with many wires.](images/C-46lab.jpg)  
 _The 787 electrothermal system?
 No, but it does have a lot of wires. 
 (C-46 Lab Flight Test Article.)_  

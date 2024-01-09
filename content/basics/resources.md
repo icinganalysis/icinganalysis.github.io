@@ -86,14 +86,18 @@ has much of the same material, available at no cost.
 
 [Blog review of "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
 
-## Advisory Circulars (AC)  
+## FAA  
 
 While you may not be involved in aircraft certification, these can be more general aircraft icing resources. 
 
-"Aircraft Ice Protection," AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+"Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
+>During icing certification potential icing threats are evaluated through analyses and tests to
+ensure the aircraft can operate safely in icing conditions. 
+
+"Aircraft Ice Protection" AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 The "APPENDIX B. NOMENCLATURE" section is particularly useful. 
  
-Pilot Guide: Flight in Icing Conditions, AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
+"Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
 <a name="FAA-H-8083-28"></a>
 Aviation Weather Handbook, FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
