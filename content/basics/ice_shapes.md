@@ -115,15 +115,15 @@ This worked fine when one printed the pages, punched holes, and manually substit
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.
 
-[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+"Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
 
-[Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
+""Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
 [Blog series "Ice Shapes and Their Effects"]({filename}..%2Fice_shapes_thread.md)  
 
-[Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.](https://arc.aiaa.org/doi/10.2514/8.2520) [Payment or institutional access required]  
+Messinger, B. L.: "Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. [arc.aiaa.org](https://arc.aiaa.org/doi/10.2514/8.2520) [Payment or institutional access required]  
 
-Chapter V of ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) 
+Chapter V of "Modern Icing Technology" (1952) [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5) 
 has much of the same material as Messinger "Equilibrium Temperature ...", available at no cost.  
 
 [Blog review of Messinger "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
