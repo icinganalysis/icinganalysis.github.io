@@ -34,7 +34,7 @@ There is no simple way to directly visualize water drop trajectories.
 Streamlines and water drop trajectories around a cylinder 
 (airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):  
 ![Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images%2Fcylinder%20with%20flow%20lines.png)  
-_from NACA-TN-2903, 1953._  
+_from NACA-TN-2903, 1953. [blog post]({filename}..%2FNACA-TN-2903.md)_  
 
 As water drop trajectories diverge around an object, 
 not all drops in the frontal view of the object impinge on the object. 
@@ -62,7 +62,7 @@ It has seven bins, each with a representative drop size and fraction of the
 total water content in the cloud.  
 
 ![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
-_from  [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+_from  "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 Much study has been done on the conditions that cause icing on an aircraft in flight. 
 The data were collected into graphs in design documents and certification requirements. 

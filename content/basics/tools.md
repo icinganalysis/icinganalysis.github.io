@@ -14,7 +14,7 @@ Design handbooks have charts and tables that can be used to perform analyses for
 aircraft icing and ice protection. 
 
 ![Figure 2-47.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
-_from [Aircraft Icing Handbook, DOT/FAA/CT-88/8-1](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+_from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 There are computerized icing analysis tools available from NASA, and from commercial vendors. 
 There is also "bespoke" software created for special purposes. 

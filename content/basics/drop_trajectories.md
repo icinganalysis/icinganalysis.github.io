@@ -27,7 +27,7 @@ There is no simple way to directly visualize water drop trajectories.
 Streamlines and water drop trajectories around a cylinder 
 (airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):  
 ![Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images%2Fcylinder%20with%20flow%20lines.png)  
-_from NACA-TN-2903, 1953._  
+_from "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body". NACA-TN-2903, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)_  
 
 As water drop trajectories diverge around an object, 
 not all drops in the frontal view of the object impinge on the object. 
