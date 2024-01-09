@@ -43,11 +43,11 @@ Some pages in Volume 3 are affected by the update noted above.
 
 ## History  
 
-[Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames](https://history.nasa.gov/SP-4219/Chapter2.html)
+Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames [history.nasa.gov](https://history.nasa.gov/SP-4219/Chapter2.html)
 
-["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)
+"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20020066162)
 
-["Bringing the Future Within Reach: the NASA John H. Glenn Research Center"](https://history.nasa.gov/SP-2016-627.pdf)  
+"Bringing the Future Within Reach: the NASA John H. Glenn Research Center" [history.nasa.gov](https://history.nasa.gov/SP-2016-627.pdf)  
 
 "The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
 (Especially the "Heat Against Ice" excerpt, p. 506-518.)  
@@ -56,7 +56,7 @@ Some pages in Volume 3 are affected by the update noted above.
 [The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
 132 NACA icing publications in 16 categories that are still relevant today. 
 
-And, of course, the [Blast from the Past: NACA Icing Publications](https://icinganalysis.com/) blog. 
+And, of course, the "Blast from the Past: NACA Icing Publications" [icinganalysis.com](https://icinganalysis.com/) blog. 
 
 ## Design Guides {: #design-guides }  
 
@@ -67,9 +67,9 @@ and the [SAE AC-9C documents](#sae-ac9c) below.
 
 ## Icing regulations  
 
-[Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 
-[Appendix O](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
+Appendix O [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
 ## SAE AC-9C {: #sae-ac9c }  
 
