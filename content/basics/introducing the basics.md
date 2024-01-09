@@ -84,48 +84,12 @@ A major short-coming of the ["Big Three" resources]({filename}resources.md#ads4)
 (ADS-4, SAE AIR 1168/4, DOT/FAA/CT-88/8) are that there are few photographic images, 
 and the images are not well reproduced in the online, digital versions. 
 Images are key for introducing concepts, they are truly "worth a thousand words"
-(and no one would be likely to actually read those extra 1000 words).  
+(and no one would actually read those extra 1000 words).  
 
 So, The Basics are image-rich. 
 All images are Public Domain, so you can reuse them as you choose. 
 
-### Aircraft icing training classes available  
-
-Some formal training is available.
-
-- University of Kansas "Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" [enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060) 
->This course covers the meteorology and physics of aircraft icing. Topics include forecasting, finding and avoiding icing conditions, designing and evaluating ice protection systems, and certification of aircraft for flight into known icing conditions.  
-  
-- NASA Aircraft Icing Training [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/)  
->A course primarily intended for pilots who fly aircraft certified for flight into icing. With an operational focus, this course provides tools pilots can use to deal with in-flight icing.   
-
-- "ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
->Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
->In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
-
-Some commercial computational fluid dynamics (CFD) packages that include icing simulation capabilities 
-offer training (I have attended one of them). 
-While these are useful tools, they are a subset of the required knowledge 
-(CFD ≠ Aerodynamics ≠ Aircraft Icing).  
-
-![icing-aerodynamics-cfd.png](..%2Fimages%2Ficing-aerodynamics-cfd.png)  
-_Public domain image by Donald Cook_  
-
-While formal training may be essential for many applications, 
-they are not focussed on beginning learners.  
-
-## Some other introductions  
-
-- "Airframe and Engine Icing" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
-> This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  
-
-- "Introduction to Aircraft Icing and NASA's Approach to Understanding It" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220014029)  
->This presentation provides an introduction to aircraft icing and describes NASA’s approach to understanding it. The presentation covers various topics on icing. A general overview of different types of icing is provided, which includes airframe icing, jet engine icing, and rotorcraft icing. The presentation discusses NASA’s approach to studying the various forms of aircraft icing, which includes conducting flight tests, performing ground-based icing wind tunnel tests, and developing computational tools that simulate the icing physics. An overview on the future of aviation and icing is provided. The presentation is largely high level, but also provides some technical icing physics discussion.  
-
-- "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
->Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoar frost in that the latter results from the deposition of water vapor.  
-
-### Access  
+### Broad Access  
 
 There are many excellent resources that are copyrighted. 
 Unfortunately, this may limit access in ways other than just the money required to obtain them. 
@@ -158,13 +122,47 @@ In this series I will use the Creative Commons
 [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
 This allows reuse (the SA part, see the license for details.)  
 
-All images in The Basics are Public Domain.  
-
 The use of online, public domain [resources]({filename}resources.md) is prioritized. 
 Some selected copyrighted, non-free resources are also noted. 
 
 The Basics is an online resource. This allows wide access, at low to no-cost. 
 This also allows the use of search engines. 
+
+### Aircraft icing training classes available  
+
+When you have completed The Basics, some more formal training is available.  
+
+- University of Kansas "Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" [enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060) 
+>This course covers the meteorology and physics of aircraft icing. Topics include forecasting, finding and avoiding icing conditions, designing and evaluating ice protection systems, and certification of aircraft for flight into known icing conditions.  
+  
+- NASA Aircraft Icing Training [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/)  
+>A course primarily intended for pilots who fly aircraft certified for flight into icing. With an operational focus, this course provides tools pilots can use to deal with in-flight icing.   
+
+- "ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
+>Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
+>In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
+
+Some commercial computational fluid dynamics (CFD) packages that include icing simulation capabilities 
+offer training (I have attended one of them). 
+While these are useful tools, they are a subset of the required knowledge 
+(CFD ≠ Aerodynamics ≠ Aircraft Icing).  
+
+![icing-aerodynamics-cfd.png](..%2Fimages%2Ficing-aerodynamics-cfd.png)  
+_Public domain image by Donald Cook_  
+
+While formal training may be essential for many applications, 
+they are not focussed on beginning learners.  
+
+## Some other introductions  
+
+- "Airframe and Engine Icing" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
+> This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  
+
+- "Introduction to Aircraft Icing and NASA's Approach to Understanding It" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220014029)  
+>This presentation provides an introduction to aircraft icing and describes NASA’s approach to understanding it. The presentation covers various topics on icing. A general overview of different types of icing is provided, which includes airframe icing, jet engine icing, and rotorcraft icing. The presentation discusses NASA’s approach to studying the various forms of aircraft icing, which includes conducting flight tests, performing ground-based icing wind tunnel tests, and developing computational tools that simulate the icing physics. An overview on the future of aviation and icing is provided. The presentation is largely high level, but also provides some technical icing physics discussion.  
+
+- "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
+>Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoar frost in that the latter results from the deposition of water vapor.  
 
 ### Scope
 
