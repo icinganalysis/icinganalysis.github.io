@@ -42,7 +42,7 @@ The water collection efficiency can also be zero for some cases
 Collection efficiency is the ratio of the area of impingement to the frontal area:  
 
 ![Figure II-3. Graphical representation of parameters used in trajectory work.](/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
-_from ["Modern Icing Technology" (1952)](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
+_from "Modern Icing Technology" (1952) [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
 
 The water drops do not impinge everywhere on a surface, they tend to 
 only hit near the leading edge. The limits of where they hit is termed 
@@ -56,7 +56,7 @@ total water content in the cloud.
 
 ## Resources  
 
-[The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
 Volume 1, Chapter 1, Section 2.2.1 in particular. Note that much of that section is in the 
 perhaps little known update from 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf). 
 The update contains only the updated pages. 
@@ -64,7 +64,7 @@ This worked fine when one printed the pages, punched holes, and manually substit
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
 
-[“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963](https://apps.dtic.mil/sti/citations/AD0608865)  
+“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 Chapter 2 in particular. This has more figures of impingement correlation figures than DOT/FAA/CT-88/8.
 
 ## Related  
