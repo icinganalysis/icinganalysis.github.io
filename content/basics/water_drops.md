@@ -96,18 +96,18 @@ size drops do not reach.
 
 ## Resources  
 
-[Appendix C](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)
+Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)
 
-[Appendix O](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
+Appendix O [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
-[The Aircraft Icing Handbook, DOT/FAA/CT-88/8](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
 Chapter 1, Sections 1 and 2.2.1 in particular.  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf) The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
 
-[“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963](https://apps.dtic.mil/sti/citations/AD0608865)  
+“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 Chapter 2 in particular. This has more figures of impingement correlation figures than DOT/FAA/CT-88/8.
 
 ## Related  
