@@ -80,7 +80,7 @@ You can also better determine which areas you want to explore further.
 
 ### Lots of images  
 
-A major short-coming of the ["Big Three" resources]({filename}resources.md#ads4)
+A major short-coming of the ["Big Three" resources]({filename}resources.md#ADS4)
 (ADS-4, SAE AIR 1168/4, DOT/FAA/CT-88/8) are that there are few photographic images, 
 and the images are not well reproduced in the online, digital versions. 
 Images are key for introducing concepts, they are truly "worth a thousand words"
