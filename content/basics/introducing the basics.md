@@ -78,6 +78,17 @@ and form more productive online search queries.
 
 You can also better determine which areas you want to explore further. 
 
+### Lots of images  
+
+A major short-coming of the ["Big Three" resources]({filename}resources.md#ads4)
+(ADS-4, SAE AIR 1168/4, DOT/FAA/CT-88/8) are that there are few photographic images, 
+and the images are not well reproduced in the online, digital versions. 
+Images are key for introducing concepts, they are truly "worth a thousand words"
+(and no one would be likely to actually read those extra 1000 words).  
+
+So, The Basics are image-rich. 
+All images are Public Domain, so you can reuse them as you choose. 
+
 ### Aircraft icing training classes available  
 
 Some formal training is available.
