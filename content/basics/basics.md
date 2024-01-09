@@ -12,7 +12,7 @@ rights: CC-BY-NC-SA 4.0
 Average icing rate, 4 inches per hour; liquid-water content, 
 0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
 1 in. wide)](/images/naca-tn-1598/Figure13.png)  
-_from [NACA-TN-1598 (1948)](https://ntrs.nasa.gov/citations/19810068605)_  
+_from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight." NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
  
 ## TODO  
  
