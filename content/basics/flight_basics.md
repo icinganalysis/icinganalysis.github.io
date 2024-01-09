@@ -17,7 +17,7 @@ Drag can also increase.
 
 Effects of ice:  
 ![structural ice.png](/images%2Fac00-6a%2Fstructural%20ice.png)  
-_from [Aviation Weather For Pilots and Flight Operations Personnel, AC 00-6A (Cancelled)](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
+_from "Aviation Weather For Pilots and Flight Operations Personnel", AC 00-6A (Cancelled) [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
 The lift an airfoil can produce is affected by the ["Angle of Attack"]({filename}Nomenclature.md#angle-of-attack) of the wing with respect to the air motion over it. 
 The coefficient of lift (Cl) is a non-dimensional measure of lift, and is proportional to lift. 
@@ -31,7 +31,7 @@ the airplane can descend rapidly, and this is a hazardous condition.
 
 The general effect of ice on lift:  
 ![Figure 3-5.png](/images%2FAC-91-74B%2FFigure%203-5.png)  
-_from [Pilot Guide: Flight in Icing Conditions, AC 91-74B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
+_from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 To some extent, increasing angle of attack can off-set the effects of ice. 
 However, the margin to stall conditions is reduced. 
@@ -68,7 +68,7 @@ can become ice crystals rather than liquid water drops.
 
 A scenario at a weather front that can produce supercooled icing conditions:  
 ![Figure 20-1.png](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
-_from [FAA-H-8083-28, "Aviation Weather Handbook"](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
+_from "Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
  
 The disturbance of most interest to aircraft icing is when a supercooled 
 water drop impinges on the surface of an aircraft moving through the cloud. 
@@ -81,7 +81,7 @@ This can affect the aerodynamic performance of the aircraft.
 >Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
 >In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
 
-[NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
+"NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/)  
 A good review for anyone, not just beginners. 
 
 Airframe and Engine Icing [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20190025413)    
@@ -90,7 +90,7 @@ Airframe and Engine Icing [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/201900
 [aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
 See "AIRMETS" that can include icing conditions, as well as other current weather data.  
 
-[Aviation Weather Handbook, FAA-H-8083-28](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+"Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
 Chapter 20 covers icing.  
 
 "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
