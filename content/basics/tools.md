@@ -45,7 +45,7 @@ Flight test is one way of determining the effects of ice on the performance of t
 ![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
 various components of airplane. Total airspeed loss, 41 miles per hour, 
 from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
-_from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
+_from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight." NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
 
 As a final proof that everything works as intended, flight tests in natural icing conditions are conducted.  
  
@@ -54,7 +54,7 @@ Glaze Ice formed in flight on an airplane:
 Average icing rate, 4 inches per hour; liquid-water content, 
 0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
 1 in. wide)](/images/naca-tn-1598/Figure13.png)  
-_from [NACA-TN-1598 (1948)](https://ntrs.nasa.gov/citations/19810068605)_  
+_from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight." NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
 
 ## Resources  
 
