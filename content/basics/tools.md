@@ -38,9 +38,16 @@ Flight tests are used to determine that ice protection systems operate as intend
 Flight tests may be conducted using artificial ice shapes.
 
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](/images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
-_ A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 Jun 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
+_ A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
-As a final proof that everything works as intended, flight tests in natural icing conditions are conducted. 
+Flight test is one way of determining the effects of ice on the performance of the aircraft.  
+
+![Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour.](images/naca-tn-1598/Figure_14_naca_tn_1598.png)  
+_from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
+
+As a final proof that everything works as intended, flight tests in natural icing conditions are conducted.  
  
 Glaze Ice formed in flight on an airplane:  
 ![Figure 13. Formation of ice on horizontal stabilizer. 

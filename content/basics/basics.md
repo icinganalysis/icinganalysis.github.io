@@ -7,7 +7,7 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT  
  
-["Glaze Ice"]({filename}Nomenclature.md#glaze-ice)  formed in flight on an airplane:  
+["Glaze Ice"]({filename}Nomenclature.md#glaze-ice) formed in flight on an airplane:  
 ![Figure 13. Formation of ice on horizontal stabilizer. 
 Average icing rate, 4 inches per hour; liquid-water content, 
 0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
