@@ -147,7 +147,7 @@ offer training (I have attended one of them).
 While these are useful tools, they are a subset of the required knowledge 
 (CFD ≠ Aerodynamics ≠ Aircraft Icing).  
 
-![icing-aerodynamics-cfd.png](..%2Fimages%2Ficing-aerodynamics-cfd.png)  
+![icing-aerodynamics-cfd.png](/images%2Ficing-aerodynamics-cfd.png)  
 _Public domain image by Donald Cook_  
 
 While formal training may be essential for many applications, 
