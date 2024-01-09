@@ -523,6 +523,10 @@ See also the review of the conference where this paper was presented,
 which stated:  
 >"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people".  
 
+See also  
+Laeschka, Boris; Jesse, R. : "Determination of Ice Shapes and Their Effects on the Aerodynamic Performance Characteristics for the Unprotected Tail of the A 300", 1974. [icas.org](http://www.icas.org/ICAS_ARCHIVE/ICAS1974/Page%20409%20Laschka_Jesse.pdf)  
+for another ice shape evaluation of a jet transport. 
+
 ## Notes
 
 [^1]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
