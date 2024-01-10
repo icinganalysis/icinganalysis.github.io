@@ -40,9 +40,8 @@ Flight tests are used to determine that ice protection systems operate as intend
 _A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
 Flight tests may be conducted using artificial ice shapes.  
-![artificial ice shapes.png](/images%2FFAA%20introduction%20to%20certification%2Fartificial%20ice%20shapes.png)  
-_"The above picture is of artificial ice shapes (shown in red) on the unprotected areas of the wing
-leading edges and also simulated runback ice behind the protected leading edges."_
+![The above picture is of artificial ice shapes (shown in red) on the unprotected areas of the wing
+leading edges and also simulated runback ice behind the protected leading edges.](/images%2FFAA%20introduction%20to%20certification%2Fartificial%20ice%20shapes.png)  
 _from "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)_  
 
 Flight test is one way of determining the effects of ice on the performance of the aircraft.  
