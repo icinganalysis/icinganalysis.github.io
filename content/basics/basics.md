@@ -29,7 +29,7 @@ The Basics acquaint you with the specialized terminology and concepts of aircraf
 This is intended for engineers, scientists, and administrators newly interested in aircraft icing, 
 or for those familiar with some but not all aspects of aircraft icing. 
 
-The Basics assume little knowledge of aircraft, and do not require higher math skills 
+The Basics assume little knowledge of aircraft, and do not require math skills 
 (there are only a few numbers that give ranges of typical values). 
 The Basics are short and minimal, "the least that you need to know". 
 Once you are oriented with the concepts and terms, you will be better able to 
