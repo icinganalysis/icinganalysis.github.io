@@ -59,6 +59,12 @@ such as glycol (similar to the anti-freeze used in automobiles).
 Another form of protection is deformation of the surface so that ice breaks off. 
 This can be applied through pneumatic pressure, or electro-mechanical actuators. 
 
+The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-2  [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf) includes: 
+
+>It should be noted that there is no one best system for
+use on all types of aircraft and each aircraft represents an independent design problem for ice
+protection.
+
 Each form of ice protection has advantages and disadvantages. 
 Different airplane sizes, power sources, and flight profiles may favor one form 
 over another. Complex trade studies are conducted in the design 
@@ -74,3 +80,5 @@ This is part of [The Basics]({filename}basics.md) series.
 ## Resources  
 
 "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
+
+Blog series on [Ice Protection]({filename}..%2Fice%20protection.md)  
