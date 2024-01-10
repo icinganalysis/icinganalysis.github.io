@@ -16,6 +16,8 @@ The Basics seek to facilitate initial learning about aircraft icing by:
 - maximizing reuse  
 - maximizing access  
 
+Other sources may not do these well.
+
 ## Background  
 
 ### My learning experience    

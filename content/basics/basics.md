@@ -60,7 +60,7 @@ I believe that there are no conflicts here with that formal training.
 If there are conflicts, follow your formal training, 
 and please let me know so that I can correct things. 
 
-However, there are documents on those topics that contain some 
+However, there are documents on those topics that contain 
 more general information, and excerpts from those will be used here.  
 
 ## License  
