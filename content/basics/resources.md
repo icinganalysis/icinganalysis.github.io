@@ -39,7 +39,8 @@ I do not know of a pdf file that integrates the two into one.
 Also note that there are 3 volumes:  
 "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
 "Aircraft Icing Handbook Volume 3", DOT/FAA/C-88/8-3. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA2380410)  
-Some pages in Volume 3 are affected by the update noted above.
+Some pages in Volume 3 are affected by the update noted above.  
+Also see the ["Electronic Aircraft Icing Handbook"](#EAIHBK) below for format updates for parts of DOT/FAA/CT-88/8-2.  
 
 ## History  
 
@@ -90,43 +91,43 @@ has much of the same material, available at no cost.
 
 While you may not be involved in aircraft certification, these can be more general aircraft icing resources. 
 
-"Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
+- "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
 >During icing certification potential icing threats are evaluated through analyses and tests to
 ensure the aircraft can operate safely in icing conditions. 
 
-"Aircraft Ice Protection" AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+- "Aircraft Ice Protection" AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
 The "APPENDIX B. NOMENCLATURE" section is particularly useful. 
  
-"Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
+- "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)  
 
-<a name="FAA-H-8083-28"></a>
-Aviation Weather Handbook, FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
-Chapter 20 covers icing. This consolidates some prior publications:    
-```text
-This handbook consolidates the weather information from the following 
+<a name="FAA-H-8083-28"></a>  
+
+- Aviation Weather Handbook, FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)  
+Chapter 20 covers icing. This consolidates some prior publications:  
+>This handbook consolidates the weather information from the following 
 advisory circulars (AC) into one source document. By doing this, 
 the Federal Aviation Administration (FAA) intends to streamline access
 to the FAA’s weather documentation for users of the National Airspace 
 System (NAS). The following ACs will remain in effect, but they will 
 eventually be cancelled at a later date following the publication of this
-handbook:
-• AC 00-6, Aviation Weather.
-• AC 00-24, Thunderstorms.
-• AC 00-30, Clear Air Turbulence Avoidance.
-• AC 00-45, Aviation Weather Services.
-• AC 00-54, Pilot Windshear Guide.
-• AC 00-57, Hazardous Mountain Winds.
-```
+handbook:  
+• AC 00-6, Aviation Weather.  
+• AC 00-24, Thunderstorms.  
+• AC 00-30, Clear Air Turbulence Avoidance.  
+• AC 00-45, Aviation Weather Services.  
+• AC 00-54, Pilot Windshear Guide.  
+• AC 00-57, Hazardous Mountain Winds.  
 
-"Electronic Aircraft Icing Handbook"  
+<a name="EAIHBK"></a>  
+
+- "Electronic Aircraft Icing Handbook"  
+This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods", 
+as well as files for analyzing water drop spectrum data, and a database of icing references circa 2007.  
 This is mentioned in "Aircraft Ice Protection" AC 20-73A [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf), 
 but I could not find it on a current FAA website. 
-You can view the version from 2008 at 
+You can view the version from 2007 at 
 [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
 >This web page contains basic information on aircraft icing. Information placed on this page can be used to update or supplement information in the existing Aircraft Icing Handbook (AIHB). Update material can be printed out and inserted in the AIHB. The files on this page are referenced to those sections of the AIHB which they update or supplement, but are self-contained, not requiring consultation of the AIHB for their use. When appropriate the text information on this site is accompanied by spreadsheet or other files intended to enhance the value of the information to users.  
-
-This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods", 
-as well as files for analyzing water drop spectrum data, and a database of icing references circa 2008.  
 
 ## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
 
