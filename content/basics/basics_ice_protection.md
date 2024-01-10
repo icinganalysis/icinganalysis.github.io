@@ -1,4 +1,4 @@
-Title: Ice Protection Basics       
+Title: Ice Protection   
 header: The Basics of Aircraft Icing
 Date: 2024-01-15 16:00  
 tags: basics  
