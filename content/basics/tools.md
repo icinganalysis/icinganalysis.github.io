@@ -40,7 +40,7 @@ Flight tests are used to determine that ice protection systems operate as intend
 _A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
 Flight tests may be conducted using artificial ice shapes.  
-![artificial ice shapes.png](..%2Fimages%2FFAA%20introduction%20to%20certification%2Fartificial%20ice%20shapes.png)  
+![artificial ice shapes.png](/images%2FFAA%20introduction%20to%20certification%2Fartificial%20ice%20shapes.png)  
 _"The above picture is of artificial ice shapes (shown in red) on the unprotected areas of the wing
 leading edges and also simulated runback ice behind the protected leading edges."_
 _from "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)_  
@@ -53,7 +53,7 @@ from 204 to 163 miles per hour.](/images/naca-tn-1598/Figure_14_naca_tn_1598.png
 _from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight." NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
 
 As a final proof that everything works as intended, flight tests in natural icing conditions are conducted.  
- 
+
 Glaze Ice formed in flight on an airplane:  
 ![Figure 13. Formation of ice on horizontal stabilizer. 
 Average icing rate, 4 inches per hour; liquid-water content, 
