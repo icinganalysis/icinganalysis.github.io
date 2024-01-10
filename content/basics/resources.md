@@ -44,7 +44,7 @@ Also see the ["Electronic Aircraft Icing Handbook"](#EAIHBK) below for format up
 
 ## History  
 
-Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames [history.nasa.gov](https://history.nasa.gov/SP-4219/Chapter2.html)
+"Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames" [history.nasa.gov](https://history.nasa.gov/SP-4219/Chapter2.html)
 
 "We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20020066162)
 
@@ -144,8 +144,8 @@ The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc
 
 Some SAE documents provide information on the calibration of icing wind tunnels.   
 
-- [Calibration and Acceptance of Icing Wind Tunnels ARP5905](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
-- [Icing Wind Tunnel Interfacility Comparison Tests(STABILIZED Oct 2018) AIR5666A](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
+- Calibration and Acceptance of Icing Wind Tunnels ARP5905 [www.sae.org](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
+- Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A [www.sae.org](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
 
 ## NASA {: #nasa }  
 
