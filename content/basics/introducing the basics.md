@@ -127,8 +127,22 @@ This allows reuse (the SA part, see the license for details.)
 The use of online, public domain [resources]({filename}resources.md) is prioritized. 
 Some selected copyrighted, non-free resources are also noted. 
 
+### Online resource  
+
 The Basics is an online resource. This allows wide access, at low to no-cost. 
 This also allows the use of search engines. 
+
+However, links to online resources will inevitably suffer "link rot". 
+I have kept similar lists of recsources for years.
+I have tried to select sources that are likely to be stable. 
+Some links from ntrs.nasa.gov have worked for years, and dtic.mil for even longer. 
+
+The fate of the "Electronic Aircraft Icing Handbook" is cautionary. 
+An apparently endorsed online resource (mentioned in AC 20-73A 
+[faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)), 
+it is now only available at [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm).  
+
+I do plan to curate the links for a while. 
 
 ### Aircraft icing training classes available  
 
@@ -168,10 +182,9 @@ they are not focussed on beginning learners.
 
 - "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
 >During icing certification potential icing threats are evaluated through analyses and tests to
-ensure the aircraft can operate safely in icing conditions. 
+ensure the aircraft can operate safely in icing conditions.  
 
-
-### Scope
+## Scope
 
 I have started with a limited scope: ["The Basics"]({filename}basics.md), 
 which is as an introduction to terms and concepts. 

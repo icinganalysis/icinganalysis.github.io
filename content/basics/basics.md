@@ -18,6 +18,7 @@ _from "Effects of Ice Formations on Airplane Performance in Level Cruising Fligh
  
 - Add more images, "a picture for everything"  
 - Add a few more topics, in keeping with "the least that you need to know" philosophy  
+- Add in tags? Or leave as is?
 
 ## Summary  
 
@@ -114,3 +115,7 @@ Each concept has a resources section, with specific further reading on the conce
 - [Terminology]({filename}Nomenclature.md)
 
 - [Resources]({filename}resources.md)  
+
+## Related  
+
+[Blog post of some rationale for The Basics]({filename}introducing%20the%20basics.md)  
