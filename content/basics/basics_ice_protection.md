@@ -73,10 +73,6 @@ of new aircraft to determine the least costly form of ice protection to use.
 ![Table 5-7.png](/images%2FFAA%20Handbook%20volume%202%2FTable%205-7.png)  
 _Ice protection trade study data for one aircraft. From DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
 
-## Related  
-
-This is part of [The Basics]({filename}basics.md) series.  
-
 ## Resources  
 
 "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
@@ -87,3 +83,8 @@ This is part of [The Basics]({filename}basics.md) series.
 This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods". 
 
 Blog series on [Ice Protection]({filename}..%2Fice%20protection.md)  
+
+## Related  
+
+This is part of [The Basics]({filename}basics.md) series.  
+ 
