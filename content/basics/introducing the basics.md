@@ -144,7 +144,8 @@ it is now only available at [web.archive.org](https://web.archive.org/web/200708
 
 I do plan to curate the links for a while. 
 
-You may find an archived version of icinganalysis.com at [web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/).
+You may find an archived version of icinganalysis.com at [web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/)
+(it even saves externally linked pages!).  
 
 ### Aircraft icing training classes available  
 
@@ -186,7 +187,7 @@ they are not focussed on beginning learners.
 >During icing certification potential icing threats are evaluated through analyses and tests to
 ensure the aircraft can operate safely in icing conditions.  
 
-## Scope
+## Scope  
 
 I have started with a limited scope: ["The Basics"]({filename}basics.md), 
 which is as an introduction to terms and concepts. 
