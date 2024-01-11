@@ -144,6 +144,8 @@ it is now only available at [web.archive.org](https://web.archive.org/web/200708
 
 I do plan to curate the links for a while. 
 
+You may find an archived version of icinganalysis.com at [web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/).
+
 ### Aircraft icing training classes available  
 
 When you have completed The Basics, some more formal training is available.  
