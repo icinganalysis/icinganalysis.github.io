@@ -2,9 +2,8 @@ Title: Meteorology publications by Porter Perkins
 Date: 2024-01-15 14:00  
 Category: NACA  
 tags: meteorology, Porter Perkins  
-status: draft  
 
-### _"Statistical values that represent the meteorlogical and climatic variations, which are associated with icing, will indicate what to expect in normal flight operations." [^6]_  
+### _"Statistical values that represent the meteorological and climatic variations, which are associated with icing, will indicate what to expect in normal flight operations." [^6]_  
 
 ![Figure 1. Location of ice-sensing probe on fighter-interceptor aircraft.](/images%2FNACA-TN-4314%2FFigure%201.png)  
 _From NACA-TN-4314._  

@@ -1,6 +1,5 @@
 Title: Porter Perkins Ice Shapes and Ice Protection   
 Date: 2024-01-15 17:00  
-status: draft  
 tags: Porter Perkins, ice shapes, ice protection  
 
 ### _"An approach to characterizing the severity of an icing encounter is to relate that encounter to the frequency of its occurrence."_ [^1]  

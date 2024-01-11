@@ -44,6 +44,7 @@ to read the articles in the order below.
 - [Meteorology of Icing Clouds Thread]({filename}Meteorology.md)  
 - [University of Michigan Airplane Icing Information Course Thread]({filename}U%20of%20Michigan%20Icing.md)  
 - [Water Drop Impingement on Surfaces]({filename}impingement.md)  
+- [Porter Perkins series]({filename}Porter%20Perkins.md)  
 
 ## Other content  
 

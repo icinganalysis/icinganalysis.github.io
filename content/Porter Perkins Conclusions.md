@@ -1,11 +1,10 @@
 Title: Conclusions of the Porter Perkins Series   
 Date: 2024-01-15 21:00  
-status: draft  
 tags: Porter Perkins, instruments, meteorology, ice shapes, ice protection, flight safety, conclusions  
 
 ### _"our knowledge of aircraft icing and the penalties associated with it has not changed substantially in the last forty to fifty years"_ [^1]  
 
-![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
+![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation. A tall, lean man with a distinctively tall nose inspects the propeller.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 
 _From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is Porter Perkins, circa 1946._   
 

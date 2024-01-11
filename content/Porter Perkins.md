@@ -1,12 +1,11 @@
 Title: Porter Perkins   
-Date: 2024-01-15 12:00  
+Date: 2024-01-11 12:00  
 Category: NACA  
-status: draft  
 tags: Porter Perkins, propellers, instruments, meteorology, airships, ice shapes, ice protection, flight safety, probability   
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of ... icing on airplane performance became increasingly important"_ (1948)  
 
-![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
+![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation. A tall, lean man with a distinctively tall nose inspects the propeller.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 
 _From [NACA-TN-1586]({filename}perkins%20propellers.md). I believe that this is Porter Perkins, circa 1946._   
 
@@ -43,6 +42,9 @@ That was my only direct link to the NACA era.
 I could find only 24 publications, not the "more than 25" mentioned in the biography above. 
 Searching is difficult, as his name is in three forms on ntrs.nasa.gov, at least two forms on scholar.google.com, 
 and likewise at other sources (such as P. Perkins, P. J. Perkins, Porter J. Perkins, P. J. Jr Perkins, etc.)  
+
+Sixteen of his NACA publications are in [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
+so he contributed to more than 10% of the 132 titles listed. 
 
 Several publications on instruments have been reviewed previously, and Perkins used, developed, and improved them.  
 

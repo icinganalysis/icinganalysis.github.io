@@ -1,6 +1,5 @@
 Title: Porter Perkins Flight Safety Publications   
 Date: 2024-01-15 20:00  
-status: draft  
 tags: Porter Perkins, flight safety, probability   
 
 ### _"Most, if not all of the recent accidents on record having icing as the probable cause could have been prevented if the flight crews understood the serious nature of the situation and had applied appropriate corrective action."_ [^2]   

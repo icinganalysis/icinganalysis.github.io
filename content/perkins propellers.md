@@ -2,12 +2,11 @@ Title: Propeller publications by Porter Perkins
 Date: 2024-01-15 13:00  
 Category: NACA
 tags: propellers, Porter Perkins 
-status: draft
 
 ### _"As the demand for all-weather protection on aircraft for unimpaired and continuous commercial and military service developed, the detrimental effects of propeller icing on airplane performance became increasingly important"_  
 [^1]
 
-![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation.](/images%2FNACA-TN-1586%2FFigure%201.png)  
+![Figure 1. Tunnel installation of hollow steel air-heated propeller for icing investigation. A tall, lean man with a distinctively tall nose inspects the propeller.](/images%2FNACA-TN-1586%2FFigure%201.png)  
 _I believe that this is Porter Perkins, circa 1946._    
 
 ## Summary  

@@ -1,6 +1,5 @@
 Title: Reproducing NACA-TN-2738 Calculations     
 Date: 2024-01-15 18:00  
-status: draft  
 tags: Porter Perkins, ice shapes, ice protection, probability  
 
 ### _"In view of the number and complexity of the possible sources of error, it is not possible at this time to make a reliable estimate of the total accuracy"_ [^3]  
