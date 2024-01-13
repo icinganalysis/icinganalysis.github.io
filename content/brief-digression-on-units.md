@@ -53,6 +53,7 @@ although there are often exceptions:
     energy: BTU, lbf-ft
 ```
 
+<a name="slug"></a>  
 ## A note about mass and force:  
 
 To keep unit consistency in Newton's second law, a unit system constant "gc" is introduced.  
@@ -67,7 +68,7 @@ but it is always implicitly there.
 
 In "US customary" units, gc = 32.174 lbm-ft/(lbf-s^2). 
 It must be explicitly included in any calculation involving force, mass and acceleration. 
- 
+
 The archaic mass unit "slug" was sometimes used (1 slug = 32.174 lbm) to help "alleviate" this,
 by making the gc value numerically 1, so if it is omitted it has no apparent effect.  
 
