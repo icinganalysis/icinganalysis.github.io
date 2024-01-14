@@ -168,6 +168,19 @@ def calc_n_unlimited(tk, p, u, hc, wcr, r=0.875):
     return n
 
 
+def calc_heat_terms_unlimited(tk, p, u, hc, wcr, r=0.875):
+    qc = calc_qc(tk, hc)
+    qe = calc_qe(tk, p, hc)
+    qv = calc_qv(u, hc, r)
+    qk = calc_qk(u, wcr)
+    qw = calc_qw(tk, wcr)
+    q_partial_sum = qc + qe + qw - qk - qv
+    n = q_partial_sum / (wcr * L_FREEZING)
+    qfreeze = n*wcr * L_FREEZING
+
+    return qc, qe, qv, qk, qw, qfreeze, n
+
+
 def calc_ts_n(tk, p, u, hc, wcr, r=0.875, t_surface=273.15):
     n = calc_n_unlimited(tk, p, u, hc, wcr, r)
     if 0 <= n <= 1:

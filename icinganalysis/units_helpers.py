@@ -82,6 +82,8 @@ T_0C_K = 273.15  # 0C in K, also the melting point of ice at standard pressure
 T_0F_R = 459.67  # 0F in R
 PSI_PER_PA = 1.450377319e-4
 LBF_PER_N = 4.4482216153
+GC_IMPERIAL = 32.174  # lbm-ft/(lbf-s^2)
+LBM_PER_SLUG = 32.174
 
 
 def tf_to_k(tf):
