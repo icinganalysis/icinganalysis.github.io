@@ -921,4 +921,67 @@ if __name__ == "__main__":
     plt.ylim(0)
     plt.legend()
 
+    plt.figure()
+    plt.plot(ts_measureds, ts_calcs, '+')
+    plt.plot((16, 34), (15, 34))
+
+    plt.figure()
+    for (
+        run,
+        ttotal,
+        lwc,
+        n,
+        n_calc,
+        tsm,
+        ts_calc,
+        tf,
+        twet,
+        n_calc2,
+        ts_calc2,
+        n_calc_turb,
+        ts_calc_turb,
+        n_calc_turb_wet,
+        ts_calc_turb_wet,
+        ts,
+        hc,
+        hc_turb,
+    ) in d_rows:
+        (line,) = plt.plot(tsm, tsm, "+", ms=14)
+        plt.plot(tsm, ts, "^", fillstyle="none", c=line.get_color(), ms=12)
+        plt.plot(tsm, ts_calc, "o", fillstyle="none", c=line.get_color(), ms=12)
+        plt.plot(tsm, ts_calc2, "s", fillstyle="none", c=line.get_color(), ms=12)
+        plt.plot((tsm, tsm), (ts_calc, ts_calc2), ":", c=line.get_color())
+        plt.text(tsm, tsm + 0.05, run)
+    plt.plot([], [], "+", c="k", ms=14, label="Measured (run ID noted)")
+    plt.plot(
+        [], [], "^", fillstyle="none", c="k", ms=12, label="Calculated (Messinger)"
+    )
+    plt.plot(
+        [],
+        [],
+        "o",
+        fillstyle="none",
+        c="k",
+        ms=12,
+        label="Calculated (Python) (using T_static)",
+    )
+    plt.plot(
+        [],
+        [],
+        "s",
+        fillstyle="none",
+        c="k",
+        ms=12,
+        label="Calculated (Python) (using T_wet)",
+    )
+    plt.plot((15, 35), (15, 35), ':')
+    plt.xlabel("Tsurface measured, F")
+    plt.xlim(14, 36)
+    plt.xticks((15, 20, 25, 30, 35))
+    plt.ylabel("Tsurface, F")
+    plt.ylim(14, 36)
+    plt.yticks((15, 20, 25, 30, 35))
+    plt.legend()
+    plt.savefig("messinger_table1_ts_ts.png")
+
     plt.show()
