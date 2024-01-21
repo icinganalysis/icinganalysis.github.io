@@ -2,7 +2,7 @@ Title: Airships
 Date: 2024-01-15 16:00  
 Category: NACA  
 tags: airships, Porter Perkins  
-
+ 
 ### _"a 2-hour flight in ... a mixture of wet snow and freezing rain ... produced no adverse effects on the operation of the airship."_  
  
 ![Figure 5a. Location of snow catch observed on airship envelope. 
