@@ -28,6 +28,9 @@ but may not evaporate all of the water, which can freeze further aft of the heat
 and form ["Runback Ice"]({filename}Nomenclature.md#runback-ice). 
 Analysis and test is required to show that the runback ice is acceptable. 
 
+![runback nasa.png](..%2Fimages%2Fbasics%2Frunback%20nasa.png)
+_From "Evaluation of Alternative Altitude Scaling Methods for Thermal Ice Protection System in NASA Icing Research Tunnel" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20170007301)_  
+
 The thermal protection may be intermittently turned on to provide ["De-icing"]({filename}Nomenclature.md#deicing) protection. 
 Analysis and test is required to show that ice that forms while the system is not on is acceptable. 
 
