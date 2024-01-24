@@ -29,7 +29,7 @@ Water drops tend to follow streamlines far from an object,
 but due to their momentum, diverge from streamlines near an object. 
 Calculations of the paths of water drops, termed water ["Drop Trajectories"]({filename}Nomenclature.md#drop-trajectory), 
 are in some ways more complicated than the air flow calculations. 
-There is no simple way to directly visualize water drop trajectories. 
+There is no simple way to directly visualize water drop trajectories in experiments. 
 
 Streamlines and water drop trajectories around a cylinder 
 (airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):  
@@ -38,7 +38,8 @@ _from "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compre
 
 As water drop trajectories diverge around an object, 
 not all drops in the frontal view of the object impinge on the object. 
-The fraction of water drops that do impinge is termed the water ["Collection Efficiency"]({filename}Nomenclature.md#collection-efficiency). 
+The fraction of water drops that do impinge is termed the water 
+["Collection Efficiency"]({filename}Nomenclature.md#collection-efficiency). 
 Once drops impinge on a surface they tend to remain on the surface. 
 The water collection efficiency can vary widely, 
 depending on factors such as the water drop size and object size, airspeed, 
@@ -74,7 +75,7 @@ Other factors also have to be specified, such as temperature and altitude,
 for a complete definition. 
 
 Part of the definition of ["Appendix C"]({filename}Nomenclature.md#appendix-c) icing conditions:  
-![AppCfig1.png](/images%2FAppCfig1.png)  
+![Appendix C Figure 1. Continuous maximum (stratiform clouds) atmospheric conditions. Liquid water content vs. mean effective drop diameter.](/images%2FAppCfig1.png)  
 _from Part 25 Appendix C (1964) [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)_  
 
 ["Continuous Maximum Icing Conditions"]({filename}Nomenclature.md#continuous-max) 
