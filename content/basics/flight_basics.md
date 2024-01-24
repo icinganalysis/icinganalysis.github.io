@@ -20,8 +20,13 @@ Effects of ice:
 _from "Aviation Weather For Pilots and Flight Operations Personnel", AC 00-6A (Cancelled) [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
 The lift an airfoil can produce is affected by the ["Angle of Attack"]({filename}Nomenclature.md#angle-of-attack) of the wing with respect to the air motion over it. 
+
+![The chord is the longest line from the airfoil trailing edge to the leading edge. 
+Angle of attack is the angle between the chord and the line of flight. 
+The airfoil rotates with the aircraft when the angle of attack is increased.](/images%2Fbasics%2Fangle-of-attack.png)  
+_Public domain image by Donald Cook._  
+
 The coefficient of lift (Cl) is a non-dimensional measure of lift, and is proportional to lift. 
-Lift data for airfoils is commonly plotted as a function of angle of attack. 
 Lift generally increases with angle of attack. 
 However, at some angle, the maximum lift is reached, 
 and higher angles produce less lift. 
@@ -29,8 +34,7 @@ This is termed stall.
 If the angle of attack is not reduced to re-establish adequate lift, 
 the airplane can descend rapidly, and this is a hazardous condition. 
 
-The general effect of ice on lift:  
-![Figure 3-5.png](/images%2FAC-91-74B%2FFigure%203-5.png)  
+![Figure 3-5. Effects of structural ice.](/images%2FAC-91-74B%2FFigure%203-5.png)  
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 To some extent, increasing angle of attack can off-set the effects of ice. 
