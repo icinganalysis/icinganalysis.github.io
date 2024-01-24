@@ -13,7 +13,7 @@ including analysis, icing wind tunnel test, and flight test in icing conditions.
 Design handbooks have charts and tables that can be used to perform analyses for 
 aircraft icing and ice protection. 
 
-![Figure 2-47.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
+![Figure 2-47. Airfoil profiles for impingement parameter plots in Figures 2-48 through 2-59.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
 _from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 There are computerized icing analysis tools available from NASA, and from commercial vendors. 
@@ -31,7 +31,7 @@ To simulate in-flight icing conditions,
 and water spray to produce drop sizes similar to those in nature
 (some do not have refrigeration, and wait for a day with cold enough weather for testing).
 
-![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
+![Common Research Model, CRM, in the Icing Research Tunnel.](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
 
 Flight tests are used to determine that ice protection systems operate as intended.  
