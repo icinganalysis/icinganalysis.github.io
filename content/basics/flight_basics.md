@@ -71,12 +71,12 @@ This is how many icing clouds form.
 The water drops in an icing cloud are liquid at a temperature at or below 0°C (32°F), 
 in what is termed a ["Supercooled"]({filename}Nomenclature.md#supercooled) state. 
 Almost any disturbance can lead to freezing of the drops. 
-Fairly often (more than half of colder clouds) this happens 
+Often (more than half of colder clouds) this happens 
 spontaneously, without an outside influence, and the cloud 
 can become ice crystals rather than liquid water drops. 
 
 A scenario at a weather front that can produce supercooled icing conditions:  
-![Figure 20-1.png](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
+![Figure 20-1. Icing with fronts.](/images%2FFAA-H-8083-28%2FFigure%2020-1.png)  
 _from "Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook)_  
  
 The disturbance of most interest to aircraft icing is when a supercooled 
