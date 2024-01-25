@@ -181,7 +181,9 @@ Some commercial computational fluid dynamics (CFD) packages that include icing s
 
 ## Terminology  {: #terminology }  
 
-There are lists of terminology available in addition to ADS-4 and DOT/FAA/CT-88/8 listed above. 
+See a selected list of terms at [Terminology]({filename}Nomenclature.md).  
+
+There are other lists of terminology available in addition to those in ADS-4 and DOT/FAA/CT-88/8 listed above. 
 
 NASA Aircraft Icing Training: Glossary [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/documents/AircraftIcing_Glossary.pdf)  
 
