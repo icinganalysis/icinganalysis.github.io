@@ -246,5 +246,5 @@ for the topics above there is ample formal training available.
 I believe that there are no conflicts here with that formal training. 
 If there are conflicts, follow your formal training, 
 and please let me know so that I can correct things. 
-
+ 
 ## On to [The Basics]({filename}basics.md)   
