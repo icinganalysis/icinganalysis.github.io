@@ -75,9 +75,8 @@ This can be applied through pneumatic pressure, or electro-mechanical actuators.
 
 The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-2  [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf) includes: 
 
->It should be noted that there is no one best system for
-use on all types of aircraft and each aircraft represents an independent design problem for ice
-protection.
+>It should be noted that there is no one best system for use on all types of aircraft 
+> and each aircraft represents an independent design problem for ice protection.
 
 Each form of ice protection has advantages and disadvantages. 
 Different airplane sizes, power sources, and flight profiles may favor one form 
