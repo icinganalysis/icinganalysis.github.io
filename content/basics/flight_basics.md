@@ -7,6 +7,8 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT
 
+### Effects of icing in flight  
+
 Airplanes can fly because engines produce thrust that propels it forward, 
 and wings produce lift to counteract weight. 
 
@@ -41,7 +43,8 @@ To some extent, increasing angle of attack can off-set the effects of ice.
 However, the margin to stall conditions is reduced. 
 In extreme cases, this is hazardous.
 
-Increasing ["Airspeed"]({filename}Nomenclature.md#airspeed) (the speed at which the airplane flies relative to the air) can increase lift. 
+Increasing ["Airspeed"]({filename}Nomenclature.md#airspeed) 
+(the speed at which the airplane flies relative to the air) can increase lift. 
 Stall speed is a term for an airspeed that may induce a stall, 
 as the angle of attack would have to be increased to the maximum level to maintain flight. 
 With ice on a wing, a higher airspeed can partially off-set the effects of ice. 
