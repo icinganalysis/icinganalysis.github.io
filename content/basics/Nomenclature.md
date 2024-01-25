@@ -18,7 +18,7 @@ See [figure]({filename}flight_basics.md#angle-of-attack-and-chord).
 <a name="airspeed">__Airspeed__</a>: The speed of the aircraft through the air. Sometimes measured in knots (nautical mile per hour) or KTAS. 
 A nautical mile is about 6076 feet or 1852 m, or 1.15 statute ("standard") miles. 
   
-<a name="angle-of-attack">__Angle of attack__</a>: Angle between airfoil chord and line of flight.  
+<a name="angle-of-attack">__Angle of attack__</a>: Angle between airfoil chord and line of flight. 
 See [figure]({filename}flight_basics.md#angle-of-attack-and-chord).  
   
 <a name="anti-icing">__Anti-icing__</a>: The prevention of ice formation on airframe surfaces. The use of heat is the most common means of anti-icing.  
