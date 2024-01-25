@@ -59,7 +59,8 @@ I have learned the value of having the same core concepts and vocabulary.
 
 (And, if anyone does not think that having common concepts and vocabulary are important, 
 read "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" from 
-SAE ARP5624, Aircraft Inflight Icing Terminology [sae.org](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required])  
+SAE ARP5624, Aircraft Inflight Icing Terminology 
+[sae.org](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required])  
 
 So, The Basics will focus on core concepts and vocabulary, 
 with many images to illustrate them. 
@@ -125,7 +126,8 @@ In this series I will use the Creative Commons
 This allows reuse (the SA part, see the license for details.)  
 
 The use of online, public domain [resources]({filename}resources.md) is prioritized. 
-Some selected copyrighted, non-free resources are also noted. 
+Some selected copyrighted, non-free resources are also noted, 
+where I have not been able to find adequate public domain substitutes. 
 
 ### Online resource  
 
@@ -207,7 +209,6 @@ I may eventually add "Intermediate" topics, which required mathematics and compu
 
 - Using handbook design and analysis methods  
 - Using computerized icing analysis tools  
-- Icing wind tunnel test similarity  
 - Preliminary ice protection system sizing  
 
 "Advanced" topics require more experience and judgement, 

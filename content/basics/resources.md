@@ -1,13 +1,13 @@
 Title: Resources    
 header: The Basics of Aircraft Icing
 Date: 2024-01-15 18:00  
-tags: basics  
+tags: basics, resources  
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
 ## Introduction  
 
-The good news is that these comprise thousands of pages of reading.  
+The good news is that these resources comprise thousands of pages of reading.  
 The bad news is that these comprise thousands of pages of reading. 
 
 A few experts that I know have confessed that they have not read all of 
@@ -16,7 +16,7 @@ So, you can probably get along by not reading everything.
 
 Most of the resources are online and available at no cost. 
 Some are copyrighted, and available for purchase or online access rental. 
-Your local library can get most of them for you through inter-library loan. 
+Your local library may be able to borrow some of them for you through inter-library loan. 
 
 ## The Big Three {: #ADS4 }  
 
@@ -42,23 +42,6 @@ Also note that there are 3 volumes:
 Some pages in Volume 3 are affected by the update noted above.  
 Also see the ["Electronic Aircraft Icing Handbook"](#EAIHBK) below for format updates for parts of DOT/FAA/CT-88/8-2.  
 
-## History  
-
-"Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames" [history.nasa.gov](https://history.nasa.gov/SP-4219/Chapter2.html)
-
-"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20020066162)
-
-"Bringing the Future Within Reach: the NASA John H. Glenn Research Center" [history.nasa.gov](https://history.nasa.gov/SP-2016-627.pdf)  
-
-"The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
-(Especially the "Heat Against Ice" excerpt, p. 506-518.)  
-[history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  
-
-[The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
-132 NACA icing publications in 16 categories that are still relevant today. 
-
-And, of course, the "Blast from the Past: NACA Icing Publications" [icinganalysis.com](https://icinganalysis.com/) blog. 
-
 ## Design Guides {: #design-guides }  
 
 See the ["Big Three"](#ADS4) above.  
@@ -66,17 +49,13 @@ See the ["Big Three"](#ADS4) above.
 Also see the post on [Design Manuals]({filename}..%2FDesign%20Manuals.md), 
 and the [SAE AC-9C documents](#sae-ac9c) below.  
 
-## Icing regulations  
-
-Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
-
-Appendix O [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
-
 ## SAE AC-9C {: #sae-ac9c }  
 
 The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
 Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://profiles.sae.org/teaac9c/).  
 [Payment or institutional access required to access documents.]
+
+See also some SAE documents listed below in [icing wind tunnels](#sae-icing-tunnel)
 
 ## Thermodynamics of Freezing  
 
@@ -86,6 +65,12 @@ Chapter V of "Modern Icing Technology" (1952) [deepblue.lib.umich.edu](https://d
 has much of the same material, available at no cost.  
 
 [Blog review of "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
+
+## Icing regulations  
+
+Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+
+Appendix O [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
 ## FAA  
 
@@ -129,23 +114,13 @@ You can view the version from 2007 at
 [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
 >This web page contains basic information on aircraft icing. Information placed on this page can be used to update or supplement information in the existing Aircraft Icing Handbook (AIHB). Update material can be printed out and inserted in the AIHB. The files on this page are referenced to those sections of the AIHB which they update or supplement, but are self-contained, not requiring consultation of the AIHB for their use. When appropriate the text information on this site is accompanied by spreadsheet or other files intended to enhance the value of the information to users.  
 
-## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
+## Weather  
 
-As noted in the post [Icing Wind Tunnel Test Thread](https://icinganalysis.com/icing-wind-tunnel-test-thread.html), 
-for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive source of information for their use. 
+[aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
+Live feed of weather information, see "AIRMETS" that can include icing conditions, as well as other current weather data.  
 
-NASA/CR-2004-212875 "Manual of Scaling Methods" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)  
-has much information on scaling test conditions, 
-and some more general information.  
-
-The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)  
-
-<a name="sae-icing-tunnel"></a> 
-
-Some SAE documents provide information on the calibration of icing wind tunnels.   
-
-- Calibration and Acceptance of Icing Wind Tunnels ARP5905 [www.sae.org](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
-- Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A [www.sae.org](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
+"Icing" training page: [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
+>Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
 
 ## NASA {: #nasa }  
 
@@ -164,14 +139,31 @@ The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc
 "Introduction to Aircraft Icing and NASA's Approach to Understanding It" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220014029)  
 >This presentation provides an introduction to aircraft icing and describes NASA’s approach to understanding it. The presentation covers various topics on icing. A general overview of different types of icing is provided, which includes airframe icing, jet engine icing, and rotorcraft icing. The presentation discusses NASA’s approach to studying the various forms of aircraft icing, which includes conducting flight tests, performing ground-based icing wind tunnel tests, and developing computational tools that simulate the icing physics. An overview on the future of aviation and icing is provided. The presentation is largely high level, but also provides some technical icing physics discussion.  
 
-## Weather  
+## Icing Wind Tunnel Test {: #icing-wind-tunnel }  
 
-[aviationweather.gov](https://aviationweather.gov/gfa/#gairmet)  
-Live feed of weather information, see "AIRMETS" that can include icing conditions, as well as other current weather data.  
+As noted in the post [Icing Wind Tunnel Test Thread](https://icinganalysis.com/icing-wind-tunnel-test-thread.html), 
+for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive source of information for their use. 
 
-"Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
->Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
+NASA/CR-2004-212875 "Manual of Scaling Methods" [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)  
+has much information on scaling test conditions, 
+and some more general information.  
 
+The NASA Icing Research [wind] Tunnel (IRT) [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)  
+
+A test report that is relatively recent and detailed is 
+NASA/TM-2016-219137 
+"Ice-Accretion Test Results for Three Large-Scale Swept-Wing Models in the NASA Icing Research Tunnel" 
+[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20160011353). 
+While it is aimed more at research, and is not a step-by-step, "how to" document, 
+it does illustrate several concepts, 
+including test article design and test condition similarity to flight conditions. 
+
+<a name="sae-icing-tunnel"></a> 
+
+Some SAE documents provide information on the calibration of icing wind tunnels.   
+
+- Calibration and Acceptance of Icing Wind Tunnels ARP5905 [www.sae.org](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
+- Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A [www.sae.org](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
 
 ## Courses  
 
@@ -199,6 +191,23 @@ The "APPENDIX B. NOMENCLATURE" section is particularly useful.
 SAE ARP5624, Aircraft Inflight Icing Terminology [sae.org](https://www.sae.org/standards/content/arp5624/) [Payment or institutional access required]  
 The "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" is especially recommended.  
 
+## History  
+
+"Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames" [history.nasa.gov](https://history.nasa.gov/SP-4219/Chapter2.html)
+
+"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20020066162)
+
+"Bringing the Future Within Reach: the NASA John H. Glenn Research Center" [history.nasa.gov](https://history.nasa.gov/SP-2016-627.pdf)  
+
+"The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
+(Especially the "Heat Against Ice" excerpt, p. 506-518.)  
+[history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  
+
+[The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
+132 NACA icing publications in 16 categories that are still relevant today. 
+
+And, of course, the "Blast from the Past: NACA Icing Publications" [icinganalysis.com](https://icinganalysis.com/) blog. 
+
 ## More Recent Publications  
 
 Much has been published since the DOT/FAA/CT-88/8 Aircraft Icing Handbook, 
@@ -207,7 +216,7 @@ Publishing an extensive bibliography now would be impractical (on this or almost
 given the current pace of new information. 
 
 Online searches may be the best solution in these times. 
-Once you are grounded in the basics, 
+Once you are grounded in The Basics, 
 you will know the terminology and be able to better shape you search inquiries. 
 
 ## Related  
