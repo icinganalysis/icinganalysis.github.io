@@ -5,8 +5,6 @@ tags: basics
 status: draft  
 rights: CC-BY-NC-SA 4.0
 
-## DRAFT  
-
 ## Introduction  
 
 These terms are taken largely from [ADS-4]({filename}resources.md#ADS4), with updates and additions. 
@@ -15,11 +13,13 @@ See the [Resources]({filename}resources.md#terminology) for other, more extensiv
 ## Selected Aircraft Icing Terms  
 
 __Airfoil chord__: the longest line possible between the leading edge and trailing edge of an airfoil. 
+See [figure]({filename}flight_basics.md#angle-of-attack-and-chord).  
 
 <a name="airspeed">__Airspeed__</a>: The speed of the aircraft through the air. Sometimes measured in knots (nautical mile per hour) or KTAS. 
 A nautical mile is about 6076 feet or 1852 m, or 1.15 statute ("standard") miles. 
   
 <a name="angle-of-attack">__Angle of attack__</a>: Angle between airfoil chord and line of flight.  
+See [figure]({filename}flight_basics.md#angle-of-attack-and-chord).  
   
 <a name="anti-icing">__Anti-icing__</a>: The prevention of ice formation on airframe surfaces. The use of heat is the most common means of anti-icing.  
   
@@ -32,7 +32,8 @@ It defines conditions for freezing drizzle and freezing rain.
   
 <a name="collection-efficiency">__Collection efficiency__</a>: The ratio of actual water collection rate to the water
 catch rate when water drop paths are straight lines. Also termed catch efficiency.   
-  
+See [figure]({filename}water_drops.md#figure-collection-efficiency).  
+
 <a name="continuous-max">__Continuous Maximum Icing__</a>: Icing category defined in Appendix C for "Stratiform Clouds", commonly used for 
 design of wing, empennage, and windshield ice protection on transport 
 aircraft.  
@@ -41,7 +42,8 @@ aircraft.
   
 <a name="deicing">__De-icing__</a>: The removal of ice that has formed on airframe surfaces.
 
-<a name="drop-trajectory">__Drop trajectory__</a>: The path of a water drop with respect to an airfoil.  
+<a name="drop-trajectory">__Drop trajectory__</a>: The path of a water drop with respect to an airfoil. 
+See [figure]({filename}water_drops.md#figure-water-drop-trajectories).  
 
 <a name="evaporation">__Evaporation__</a>: The process where liquid water turns to water vapor.  
 
@@ -57,7 +59,7 @@ surfaces.
 <a name="glaze-ice">__Glaze ice__</a>: Clear ice with rapid growth rate and characteristic "double horn"
 or "mushroom" formation. (This term is also used by pilots to describe a
 smooth film of ice covering leading edges at temperatures just below
-the melting point of ice.)  
+the melting point of ice.) See [figure]({filename}ice_shapes.md#figure-glaze-ice).   
 
 <a name="ice-accretion">__Ice accretion__</a>: A growth or buildup of ice; an ice formation. 
 
@@ -71,7 +73,7 @@ clouds having high liquid water content for short times.
 
 <a name="langmuir-distribution">__Langmuir drop size distribution__</a>: A seven-bin drop size distribution defining at representative drop size for each bin, 
 and a fraction of the total water content of a cloud, something like a normal or "bell" curve. Named after Iring Langmuir, 
-who proposed several distributions circa 1945.  
+who proposed several distributions circa 1945. See [figure]({filename}water_drops.md#figure-langmuir).
 
 <a name="latent-heat">__Latent heat__</a>: The exchange of heat required for water to change from liquid to solid ice 
 (latent heat of fusion or freezing), or from liquid to vapor (latent heat of evaporation). 
@@ -87,7 +89,7 @@ of air is contained in larger drops, half in smaller drops.
 Functionally interchangeable with MVD.  
 
 <a name="mixed-ice">__Mixed Ice__</a>: Simultaneous appearance of rime and clear ice or an ice formation that has
-the characteristics of both rime and glaze (or clear) ice.  
+the characteristics of both rime and glaze (or clear) ice. See [figure]({filename}ice_shapes.md#figure-mixed-ice).  
   
 <a name="mvd">__Median volumetric diameter (MVD)__</a>: drop diameter defined by the condition
 that half the volume of water in a given sample of air is contained in large
@@ -97,17 +99,17 @@ __Melting point of ice__: The temperature at which ice melts at normal pressures
 Sometimes termed "freezing point", but that does not account for supercooled liquid water.  
 
 <a name="messinger">__Messinger heat balance__</a>: A thermodynamic model of the freezing of water. 
-Named after Bernard Messinger, who published it circa 1951.
+Named after Bernard Messinger, who published it circa 1951. See [figure]({filename}ice_shapes.md#figure-messinger).  
   
 <a name="micrometer">__Micrometer__</a> (μm): One millionth of a meter. Sometimes called "micron" in older literature.  
   
 <a name="rime-ice">__Rime ice__</a>: Milky white, low-density ice formed at low temperatures with a
 relatively streamlined shape; also referred to as spearhead and knife-edge
-ice.  
+ice. See [figure]({filename}ice_shapes.md#figure-rime-ice).  
   
 <a name="runback-ice">__Runback ice__</a>: Ice accumulated aft of the protected region, resulting from the
 water running back area freezing (may be found with partially evaporative
-anti-icing systems and with de-icing systems).  
+anti-icing systems and with de-icing systems). See [figure]({filename}basics_ice_protection.md#figure-runback-ice). 
   
 <a name="running-wet">__Running wet__</a>: A condition at which an airframe surface is maintained above
 32°F (by a heating anti-icing system) so that impinging water drops will not

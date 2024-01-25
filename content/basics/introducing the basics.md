@@ -105,7 +105,8 @@ However, even with rather low "friction" for getting material, it was under-used
 In general, each user was expected to get their own copy for use, 
 and that was often even friction to prevent use. 
 
-While I am an advocate for the use of the documents published by the [SAE AC-9C Aircraft Icing Technology committee](http://profiles.sae.org/teaac9c/) 
+While I am an advocate for the use of the documents published by the 
+[SAE AC-9C Aircraft Icing Technology committee](http://profiles.sae.org/teaac9c/) 
 (I have been a member of the committee), 
 I feel that the copyright has limited the knowledge of the documents' existence, 
 as well as their use.  

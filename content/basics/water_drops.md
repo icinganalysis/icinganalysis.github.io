@@ -22,6 +22,8 @@ how the drop sizes vary in a cloud about an average or median drop size.
 It has seven bins, each with a representative drop size and fraction of the 
 total water content in the cloud.  
 
+<a name="figure-langmuir"></a>
+
 ![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
 _from  "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
@@ -44,6 +46,8 @@ Calculations of the paths of water drops, termed water ["Drop Trajectories"]({fi
 are in some ways more complicated than the air flow calculations. 
 There is no simple way to directly visualize water drop trajectories in experiments. 
 
+<a name="figure-water-drop-trajectories"></a>
+
 Streamlines and water drop trajectories around a cylinder 
 (airflow is from left to right, or, alternatively, the cylinder is moving from right to left through stationary air and water drops):  
 ![Figure 1 of NACA-TN-2903, a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder](/images%2Fcylinder%20with%20flow%20lines.png)  
@@ -58,7 +62,9 @@ The water collection efficiency can vary widely,
 depending on factors such as the water drop size and object size, airspeed, 
 air pressure, and others. 
 The water collection efficiency can also be zero for some cases 
-(such as very small water drops, a very large object, and a low airspeed). 
+(such as very small water drops, a very large object, and a low airspeed).
+
+<a name="figure-collection-efficiency"></a>
 
 Collection efficiency is the ratio of the area of impingement to the frontal area (Em or Percentage Catch in the figure below):  
 

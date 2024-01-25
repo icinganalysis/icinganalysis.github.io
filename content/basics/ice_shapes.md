@@ -13,6 +13,7 @@ As ice accumulates on a wing, it changes the shape of the airfoil.
 The ice that forms is sometimes called an ["Ice accretion"]({filename}Nomenclature.md#ice-accretion) in the literature. 
 The shape of the ice depends on details of the flight and icing conditions.  
 
+<a name="figure-glaze-ice"></a>
 At warmer temperatures (about -10°C to 0°C, depending on airspeed and other factors), 
 ice shapes tend to produce ["Glaze Ice"]({filename}Nomenclature.md#glaze-ice) shapes with "horns". 
 The nomenclature varies by domain. 
@@ -22,11 +23,13 @@ Pilot training materials generally note this type of ice as "Clear Ice".
 
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
+<a name="figure-rime-ice"></a>
 At colder temperatures, the ice appears milky and opaque, and is termed ["Rime Ice"]({filename}Nomenclature.md#rime-ice).  
 
 ![Figure 3-3.png](/images%2FAC-91-74B%2FFigure%203-3.png)  
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
+<a name="figure-mixed-ice"></a>
 At temperatures in between, ["Mixed Ice"]({filename}Nomenclature.md#mixed-ice) can form.  
 
 ![Figure 3-4.png](/images%2FAC-91-74B%2FFigure%203-4.png)  
@@ -94,6 +97,7 @@ supercooled water droplets. Clear icing conditions exist more often in an enviro
 temperatures, higher liquid water contents, and larger droplets.  
 >_from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
+<a name="figure-messinger"></a>
 Terms of the Messinger heat balance:  
 
 ![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](/images%2Fmessinger%2FFigure1.png)  

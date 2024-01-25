@@ -22,7 +22,8 @@ Effects of ice:
 _from "Aviation Weather For Pilots and Flight Operations Personnel", AC 00-6A (Cancelled) [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
 
 The lift an airfoil can produce is affected by the ["Angle of Attack"]({filename}Nomenclature.md#angle-of-attack) of the wing with respect to the air motion over it. 
- 
+
+<a name="angle-of-attack-and-chord"></a> 
 ![The chord is the longest line from the airfoil trailing edge to the leading edge. 
 Angle of attack is the angle between the chord and the line of flight. 
 The airfoil rotates with the aircraft when the angle of attack is increased.](/images%2Fbasics%2Fangle-of-attack.png)  
