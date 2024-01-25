@@ -5,13 +5,13 @@ status: draft
 
 ## Summary  
 
-The Basics introduce core concepts and vocabulary of aircraft icing with images.  
+The Basics introduce core concepts and vocabulary of aircraft icing with images, "the least that you need to know".  
 
 ## Discussion  
 
 The Basics seek to facilitate initial learning about aircraft icing by:  
 
-- be focussed on the needs of beginning learners  
+- focus on the needs of beginning learners  
 - readily connecting to other resources for further learning  
 - maximizing reuse  
 - maximizing access  
@@ -19,6 +19,10 @@ The Basics seek to facilitate initial learning about aircraft icing by:
 Other sources may not do these well.
 
 ## Background  
+
+One of the most-read posts that I have written was 
+[A Gentle Introduction to Aircraft Icing]({filename}..%2Fa_gentle_introduction_to_aircraft_icing.md), 
+so I think that there is interest in this topic.  
 
 ### My learning experience    
 
@@ -72,8 +76,8 @@ Beginners cannot be expected to sort out the nuances,
 or find the few, most applicable terms from a list of 500+ terms. 
 
 In keeping with the "least that you need to know" philosophy, 
-approximately 50 terms were selected from ADS-4 with a few updates
-(such as ["Appendix O"]({filename}Nomenclature.md#appendix-o)).  
+approximately 50 terms were selected for the [Terminoology]({filename}Nomenclature.md) section from ADS-4 
+with a few updates (such as ["Appendix O"]({filename}Nomenclature.md#appendix-o)).  
 
 With the core concepts and vocabulary, 
 you can then be better able to ask questions of experts, 
@@ -150,6 +154,14 @@ I do plan to curate the links for a while.
 You may find an archived version of icinganalysis.com at [web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/)
 (it even saves externally linked pages!).  
 
+## Focus  
+
+To keep the focus on learners, 
+The Basics are a largely separate website from "Blast from the Past: NACA Icing Publications" 
+[icinganalysis.com](https://icinganalysis.com/). 
+"Blast from the Past" is more focussed on what was historically done, 
+while The Basics are focussed on what to do today. 
+
 ### Aircraft icing training classes available  
 
 When you have completed The Basics, some more formal training is available.  
@@ -216,7 +228,6 @@ I may eventually add "Intermediate" topics, which required mathematics and compu
 and I might not get to writing them any time soon:  
 
 - Icing Wind Tunnel Testing  
-- Developing and extending analysis and test methods  
 - Practical design trade-offs  
 - Quantifying precision, accuracy, uncertainty, and "goodness"  
 
