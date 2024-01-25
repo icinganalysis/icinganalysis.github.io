@@ -76,7 +76,7 @@ Beginners cannot be expected to sort out the nuances,
 or find the few, most applicable terms from a list of 500+ terms. 
 
 In keeping with the "least that you need to know" philosophy, 
-approximately 50 terms were selected for the [Terminoology]({filename}Nomenclature.md) section from ADS-4 
+approximately 50 terms were selected for the [Terminology]({filename}Nomenclature.md) section from ADS-4 
 with a few updates (such as ["Appendix O"]({filename}Nomenclature.md#appendix-o)).  
 
 With the core concepts and vocabulary, 
