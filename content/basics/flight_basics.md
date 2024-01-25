@@ -58,6 +58,8 @@ or jamb the motion of the control surface.
 [Ice protection systems]({filename}basics_ice_protection.md) can counter-act these effects and enable 
 safe flight through icing conditions.  
 
+### Icing weather  
+
 Air temperature in the atmosphere tends to decrease with altitude. 
 Air with moisture as water drops and ["Vapor"]({filename}Nomenclature.md#vapor) can rise and cool, 
 from a temperature above 0°C (32°F) to below 0°C. 
