@@ -7,6 +7,8 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT  
 
+### Types of ice shapes  
+
 As ice accumulates on a wing, it changes the shape of the airfoil. 
 The ice that forms is sometimes called an ["Ice accretion"]({filename}Nomenclature.md#ice-accretion) in the literature. 
 The shape of the ice depends on details of the flight and icing conditions.  
@@ -58,6 +60,8 @@ Ice shapes on swept wings can have complex "lobster tail" shapes:
 
 ![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
+
+### The thermodynamics of freezing  
 
 For liquid water to freeze, heat must flow out of the water. 
 A term for the amount of heat is the ["Latent Heat of Fusion"]({filename}Nomenclature.md#latent-heat). 

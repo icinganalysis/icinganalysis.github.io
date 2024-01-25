@@ -7,12 +7,25 @@ rights: CC-BY-NC-SA 4.0
 
 ## DRAFT
 
+### The size of water drops in clouds  
+
 The water that causes most aircraft in-flight icing is small drops in clouds. 
 Average drop sizes are typically 10 to 50 ["Micrometers"]({filename}Nomenclature.md#micrometer) (μm) in diameter
 (for comparison, a human hair is about 50 to 100 micrometers in diameter).
 
 ![drop sizes.png](/images%2Fdrop%20sizes.png)  
 _Typical drop sizes, approximately proportional. Public Domain by Donald Cook._  
+
+In a particular cloud, not all water drops are the same size. 
+The ["Langmuir Drop Size Distributions"]({filename}Nomenclature.md#langmuir-distribution) describe an idealized approximation of 
+how the drop sizes vary in a cloud about an average or median drop size. 
+It has seven bins, each with a representative drop size and fraction of the 
+total water content in the cloud.  
+
+![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
+_from  "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+
+### The impingement of water drops on aircraft surfaces  
 
 Calculating the amount of water that hits or impinges on the surface 
 of an airplane as it flies through a cloud 
@@ -56,14 +69,7 @@ The water drops do not impinge everywhere on a surface, they tend to
 only hit near the leading edge. The limits of where they hit is termed 
 ["Impingement Limits"]({filename}Nomenclature.md#impingement-limits). These can vary with conditions details such as airspeed and drop size.
 
-In a particular cloud, not all water drops are the same size. 
-The ["Langmuir Drop Size Distributions"]({filename}Nomenclature.md#langmuir-distribution) describe an idealized approximation of 
-how the drop sizes vary in a cloud about an average or median drop size. 
-It has seven bins, each with a representative drop size and fraction of the 
-total water content in the cloud.  
-
-![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
-_from  "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+### Characterizing the icing atmospheric conditions  
 
 Much study has been done on the conditions that cause icing on an aircraft in flight. 
 The data were collected into graphs in design documents and certification requirements. 

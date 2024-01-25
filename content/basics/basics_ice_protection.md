@@ -15,6 +15,8 @@ essential instruments, auxiliary air inlets, engine air inlets,
 and empennage leading edges.](/images/ads4/Figure3-1.png)  
 _from [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865) (1963)_  
 
+### Forms of ice protection  
+
 There are several forms of ice protection used on airplanes. 
 The most commonly used for is thermal ice protection, 
 which provides heat to the area to be protected. 
@@ -39,6 +41,8 @@ On some aircraft, a portion of the wing span is protected
 (not the entire span). This minimizes the heating power required. 
 Analysis and test is required to show that the ice in unprotected areas is acceptable.
 
+### Electrothermal heating  
+
 The heat sources commonly used are electrical heating (often for smaller components), 
 or hot compressed air from jet engines.  
 
@@ -50,6 +54,8 @@ _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA23804
 ![Figure 2-3. Electro-thermal wing anti-ice system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%202-3.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
+### Hot air heating  
+
 Typical hot-air ice protection:  
 
 ![Figure 5-8. Typical hot-air anti-icing system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-8.png)  
@@ -58,10 +64,14 @@ _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA23804
 ![Figure 5-26. Wing parallel flow single skin system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-26.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
+### Other forms of ice protection  
+
 Other forms of ice protection include fluids that are freezing point depressants, 
 such as glycol (similar to the anti-freeze used in automobiles). 
 Another form of protection is deformation of the surface so that ice breaks off. 
 This can be applied through pneumatic pressure, or electro-mechanical actuators. 
+
+### Design selection of the form of ice protection  
 
 The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-2  [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf) includes: 
 
