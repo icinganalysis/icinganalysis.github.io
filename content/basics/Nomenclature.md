@@ -31,7 +31,7 @@ that defines large drop icing conditions used for certification of large transpo
 It defines conditions for freezing drizzle and freezing rain.  
   
 <a name="collection-efficiency">__Collection efficiency__</a>: The ratio of actual water collection rate to the water
-catch rate when water drop paths are straight lines. Also termed catch efficiency.   
+catch rate when water drop paths are straight lines. Also termed catch efficiency. 
 See [figure]({filename}water_drops.md#figure-collection-efficiency).  
 
 <a name="continuous-max">__Continuous Maximum Icing__</a>: Icing category defined in Appendix C for "Stratiform Clouds", commonly used for 
