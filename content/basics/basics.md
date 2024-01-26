@@ -116,6 +116,17 @@ Each concept has a resources section, with specific further reading on the conce
 
 - [Resources]({filename}resources.md)  
 
+## Possible future additions  
+
+I may eventually add "Intermediate" topics, which required mathematics and computer skills: 
+
+- Using handbook design and analysis methods  
+
+- Using computerized icing analysis tools  
+
+- Preliminary ice protection system sizing  
+
+
 ## Related  
 
-[Blog post of some rationale for The Basics]({filename}introducing%20the%20basics.md)  
+[Blog post of rationale for The Basics]({filename}introducing%20the%20basics.md)  
