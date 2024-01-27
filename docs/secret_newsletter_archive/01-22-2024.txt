@@ -1,0 +1,36 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest posts:
+
+The Porter Perkins series has started https://icinganalysis.com/drafts/porter-perkins.html
+Propellers https://icinganalysis.com/propeller-publications-by-porter-perkins.html
+Meteorology https://icinganalysis.com/meteorology-publications-by-porter-perkins.html
+
+- What is in work:
+
+Airships https://icinganalysis.com/airships.html
+
+Does the world need Yet Another Introduction to Aircraft Icing (YAItAI)?
+Why not, see a draft at https://icinganalysis.com/drafts/the-basics.html
+
+- Latest finds:
+
+"Electronic Aircraft Icing Handbook"
+This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods",
+as well as files for analyzing water drop spectrum data, and a database of icing references circa 2007.
+This is mentioned in "Aircraft Ice Protection" AC 20-73A https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf,
+but I could not find it on a current FAA website.
+You can view the version from 2008 at
+https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm
+
+- Public Domain Image of the Week:
+
+NACA-TN-4220 Figure 5a. Location of snow catch observed on airship envelope.
+(a) Snow distributed along top of envelope following 2-hour flight in light to moderate snow at -2 to -6 C.
+https://icinganalysis.com/images%2FNACA-TN-4220%2FFigure%205a.png
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/secret-newsletter-archive.html
+The public may view them a few weeks after they are published at https://icinganalysis.com/newsletter-archive.html
