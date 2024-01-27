@@ -16,7 +16,7 @@ as there is much interruption paging back and forth between sources.
 Here, the two sources are merged for easier reading. 
 The cited references are also noted inline here. 
 
-Note that the equation figures have AltText that may aid all readers, 
+The equation are provided as both figures and text, 
 as the online digital reproductions are of poor quality in some cases. 
 
 The term "standard computational model" has not seen wide use. 
@@ -80,9 +80,13 @@ Let M"Imp denote the mass flux per unit time due to impinging water droplets,
 M"Run in and M"Run out denote mass flow per unit area per unit time into and out of the control
 volume due to liquid run back, and M"ice denote the mass of ice formed per unit area per unit time.
 Then the mass balance for the control volume is:  
+>M"Ice = M"Ice + M"Runin - M"Runout - M"Evap  
+
 ![Equation 2-33 corrected. M"Ice = M"Ice + M"Runin - M"Runout - M"Evap](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-33%20corrected.png)   
 
 The term M"Imp is given by:  
+>M"Imp = V∞ LWC β
+
 ![Equation 2-34. M"Imp = V∞ LWC β](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-34.png)  
 V∞ is the freestream velocity. However, if the local velocity at the edge of the boundary layer is
 available, that velocity should be used rather than the freestream velocity. This procedure is followed,
@@ -90,8 +94,12 @@ for example, in the ice accretion code LEWICE. β is the local collection effici
 volume.  
 
 It is convenient to define a term M"Incoming by:  
+>M"Incoming = M"Imp + M"Runin  
+
 ![Equation 2-35. M"Incoming = M"Imp + M"Runin](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-35.png)  
 Then the freezing fraction n for the control volume is defined by:  
+> n = M"Ice / M"Incoming
+
 ![Equation 2-36. n = M"Ice / M"Incoming](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-36.png)  
 where M"ice is the incoming mass which freezes.  
 
@@ -101,40 +109,58 @@ The energy balance for a control volume on the surface can be formulated as foll
 First, the main heat source terms (those that release heat into the control volume) are given.  
 
 Let Q"Freeze denote the freezing of the incoming water. Then  
+>Q"Freeze = n M"Incoming Lf  
+
 ![Equation 2-37. Q"Freeze = n M"Incoming Lf](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-37.png)  
 where Lf is the heat of fusion.
 
 Let Q"AeroHeat denote the aerodynamic heating. Then  
+>Q"AeroHeat = hc rc V∞^2 / (2 CpAir)
+
 ![Equation 2-38. Q"AeroHeat = hc rc V∞^2 / (2 CpAir)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-38.png)  
 where hc is the local heat transfer coefficient, rc is a recovery factor, and CpAir
 is the specific heat of air.  
 
 Let Q"DropletK.E. denote the kinetic energy of the incoming droplets. Then:
+>Q"DropletKE = M"Imp V∞^2 / 2
+
 ![Equation 2-39. Q"DropletKE = M"Imp V∞^2 / 2](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-39.png)  
 
 Let Q"IceCool denote the cooling of the ice to the surface temperature TSurf. Then  
+>Q"IceCool = n M"ice (Tf - Tsurf)  
+
 ![Equation 2-40. Q"IceCool = n M"ice (Tf - Tsurf)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-40.png)  
 where Tf is the ice/water equilibrium temperature (32 F). Note that if n < 1, TSurf = Tf and so this term equals 0.
 
 Define Q"Source by:  
+>Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool
+
 ![Equation 2-41. Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-41.png)  
 
 Next, the main heat sink terms (those that remove heat from the control volume) are given.
 
 Let Q"conv denote the convective cooling term. Then  
+>Q"Conv = hc (Tsurf - T∞)  
+
 ![Equation 2-42. Q"Conv = hc (Tsurf - T∞)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-42.png)  
 where T∞ is the freestream temperature. If the local temperature at the edge of the boundary layer
 is available, that temperature should be used in this term rather than the freestream temperature. This
 is also done in LEWICE.  
 
 Note: The term Q"Conv is often defined by  
+>Q"Conv = hc (Tsurf - Tr)  
+
 ![Equation 42b. Q"Conv = hc (Tsurf - Tr)](/images%2FFAA%20Handbook%20volume%201%2FEquation%2042b.png)  
 where the "recovery temperature" Tr is given by  
+> Tr = T∞ + hc rc V∞^2 / (2 CpAir)  
+
 ![Equation 42c. Tr = T∞ + hc rc V∞^2 / (2 CpAir)](/images%2FFAA%20Handbook%20volume%201%2FEquation%2042c.png)  
 In this formulation the term Q"AeroHeat is omitted from equation (2-41). In subsequent calculations
 in this section, Q"AeroHeat is retained and equation (2-42) is used to calculate Q"Conv.  
 
 Let Q"DropWarm denote the droplet warming term. Then  
+>Q"DropWarm = M"Imp Cw (TSurf - T∞)  
+
 ![Equation 2-43. Q"DropWarm = M"Imp Cw (TSurf - T∞)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-43.png)  
 where Cw is the specific heat of water.  
 
@@ -142,33 +168,52 @@ Let Q"Evap denote the heat loss due to evaporation. There are a variety of formu
 term. The approach used here is based on reference 2-44 and 2-U1 and employs the form of the Reynolds analogy. 
 
 M"Evap is given by  
+>M"Evap = g ΔB  
+
 ![Equation 2-44. M"Evap = g ΔB](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-44.png)  
 where g is the mass transfer coefficient and ΔB is the evaporative driving potential dependent on the
 vapor concentration difference between the surface and the edge of the boundary layer.
 These quantities are given by:  
+> g = hc / CpAir (Pr/Sc)^0.667  
+
 ![Equation 2-45. g = hc / CpAir (Pr/Sc)^0.667](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-45.png)  
+>ΔB = B1 / B2  
+
 ![Equation 2-46. ΔB = B1 / B2](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-46.png)  
+> B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)  
+
 ![Equation 2-47a. B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47a.png)  
+>B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)  
+
 ![Equation 2-47b. B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47b.png)  
+
 The Prandtl number Pr, Schmidt number Sc, and specific heat of air Cp air should be evaluated at the
 film temperature (To + Tsurf)/2. PV,surf is the vapor pressure at the surface and Pv,∞ is the free
 stream vapor pressure. The equations assume that Po and To the free stream pressure and temperature
 at the edge of the boundary layer are available; if they are not, the corresponding freestream values
 are used. 0.622 is the ratio of the molecular weight of water to that of dry air. The heat loss due to
 evaporation is now given by:  
+> Q"evap = M"Evap Lv  
+
 ![Equation 2-48. Q"evap = M"Evap Lv](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-48.png)  
 Lv is the heat of vaporization.  
 
 If the freezing fraction is equal to 1 and the surface temperature Tsurf is to be computed, then
 Q"Evap should be replaced by the heat loss due to sublimation, denoted by Q"Subl. This is given by  
+>Q"Subl = M"Subl Ls  
+
 ![Equation 2-49. Q"Subl = M"Subl Ls](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-49.png)  
 where M"Subl denotes the mass flux due to sublimation per unit time and Ls denotes the heat of
 sublimation. In some programs, M"Subl is computed using the same formulas as M"Evap. 
 
 Define Q"Sink by:  
+>Q"Sink = Q"conv + Q"DropWarm + Q"Evap  
+
 ![Equation 2-50. Q"Sink = Q"conv + Q"DropWarm + Q"Evap](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-50.png)  
 
 The energy balance equation is:  
+>Q"Source + Q"Sink = 0  
+
 ![Equation 2-51. Q"Source + Q"Sink = 0](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-51.png)  
 
 The control volume freezing fraction is calculated as follows: Assume that the equilibrium
