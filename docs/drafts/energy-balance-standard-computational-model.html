@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Energy Balance "Standard Computational Model"</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1, defines a "standard computational model" for the ice accretion process. Note that the relevant sections in..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/energy-balance-standard-computational-model.html" rel="bookmark"
+           title="Permalink to Energy Balance "Standard Computational Model"">Energy Balance "Standard Computational Model"</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-01-28T12:00:00-08:00">
+                Published: Sun 28 January 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-01-27T08:29:54.112120-08:00">
+                Updated: Sat 27 January 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p>The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1, defines a "standard computational model" for the ice accretion process.  </p>
+<p>Note that the relevant sections in DOT/FAA/CT-88/8-1, 1991 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a> 
+were affected by the perhaps little known update in 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a>.  </p>
+<p>Several errors and omissions were corrected in the update, so it is essential to consult the update. 
+As the update only include certain affected pages, it makes it difficult to read this section 
+as there is much interruption paging back and forth between sources. 
+Here, the two sources are merged for easier reading. 
+The cited references are also noted inline here. </p>
+<p>Note that the equation figures have AltText that may aid all readers, 
+as the online digital reproductions are of poor quality in some cases. </p>
+<p>The term "standard computational model" has not seen wide use. 
+Most recent literature refers to the "Messinger Model" or "Modified Messinger Model". 
+That may or may not mean the "standard computational model" presented here. 
+As noted below for calculating evaporation:  </p>
+<blockquote>
+<p>There are a variety of formulations of this term.  </p>
+</blockquote>
+<p>That could also apply to several of the terms in the model.  </p>
+<p>The "merged text" section below is from DOT/FAA/CT-88/8-1, 
+but I have not used the usual quote block formatting to make it more readable.</p>
+<h3>The merged text</h3>
+<p>2.2.2.4 Physical Modeling of Ice Accretion Process  </p>
+<p>The physical modeling of aircraft icing consists of (1) the modeling of the trajectories and
+impingement of the supercooled water droplets and (2) the modeling of the behavior of the liquid
+water formerly in the droplets once it is on a surface of the aircraft. Part (1) has been presented
+above; the basic assumptions and equations go back to reference 2-2 and are widely accepted;
+discussion centers on the formulation of numerical procedures. Part (2), which will now be discussed,
+remains controversial. There exists what might be called a "standard computational model" which is
+incorporated in various forms in a number of computer codes, the most widely used of which is
+probably LEWICE (reference 2-39), developed under the direction of NASA Lewis Research Center.</p>
+<p>However, a number of questions have been raised as to how accurately this model actually depicts the
+surface behavior of the liquid water. NASA-Lewis (reference 2-40) has initiated efforts to "formulate
+either changes to the existing model or an alternate model in order to see if ice shape predictions can
+be improved." (However, LEWICE can presently give useful ice shape predictions for a fairly wide
+range of conditions when used in conjunction with an appropriate roughness correlation; see the
+discussion in Chapter IV, Section 2.) This section begins with a presentation of the standard
+computational model; this is followed by a brief survey of the major criticisms of that model.  </p>
+<p>The standard model assumes that if air temperature is not low enough for impinging droplets to
+freeze upon impact, then the droplets are absorbed into a thin water film which flows away from the
+stagnation line (or point). As it flows, it is cooled mainly by convection to the airstream until it
+freezes, thus gradually changing the surface shape.  </p>
+<p>This model is formulated computationally by dividing the airfoil surface into segments, and
+associating a control volume with each segment. The water entering a control volume has two sources:
+(1) water droplets impinging on the surface segment; (2) water "running back" from an adjacent
+control volume closer to the stagnation point. (This "run back" water consists of all water which
+entered the adjacent control volume but did not freeze.) An energy balance analysis is applied to each
+control volume to determine the freezing fraction n, the fraction of the incoming water which freezes
+for that control volume. If n = 1, then all incoming water freezes. If n &lt; 1, then a fraction 1-n does
+not freeze. This water will in turn run back into the adjacent control volume further away from the
+stagnation point.  </p>
+<p>The mass and energy balance analyses for a given control volume will now be presented in some
+detail. The energy balance analysis was given its classic formulation by Messinger (reference 2-41),
+whose work drew on earlier work by Tribus (reference 2-42). The presentation and notation used
+here is based on reference 2-43.  </p>
+<p>The mass balance for a control volume on the surface can be formulated as follows (figure 2-73).  </p>
+<p><img alt="Figure 2-73. Control volume mass balance for an ice surface." src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-73.png">  </p>
+<p>Let M"Imp denote the mass flux per unit time due to impinging water droplets,
+M"Run in and M"Run out denote mass flow per unit area per unit time into and out of the control
+volume due to liquid run back, and M"ice denote the mass of ice formed per unit area per unit time.
+Then the mass balance for the control volume is:<br>
+<img alt="Equation 2-33 corrected. M&quot;Ice = M&quot;Ice + M&quot;Runin - M&quot;Runout - M&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-33%20corrected.png">   </p>
+<p>The term M"Imp is given by:<br>
+<img alt="Equation 2-34. M&quot;Imp = V∞ LWC β" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-34.png"><br>
+V∞ is the freestream velocity. However, if the local velocity at the edge of the boundary layer is
+available, that velocity should be used rather than the freestream velocity. This procedure is followed,
+for example, in the ice accretion code LEWICE. β is the local collection efficiency for the control
+volume.  </p>
+<p>It is convenient to define a term M"Incoming by:<br>
+<img alt="Equation 2-35. M&quot;Incoming = M&quot;Imp + M&quot;Runin" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-35.png"><br>
+Then the freezing fraction n for the control volume is defined by:<br>
+<img alt="Equation 2-36. n = M&quot;Ice / M&quot;Incoming" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-36.png"><br>
+where M"ice is the incoming mass which freezes.  </p>
+<p>The energy balance for a control volume on the surface can be formulated as follows (figure 2-74).<br>
+<img alt="Figure 2-74. Modes of energy transfer for an accreting ice surface." src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-74.png">  </p>
+<p>First, the main heat source terms (those that release heat into the control volume) are given.  </p>
+<p>Let Q"Freeze denote the freezing of the incoming water. Then<br>
+<img alt="Equation 2-37. Q&quot;Freeze = n M&quot;Incoming Lf" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-37.png"><br>
+where Lf is the heat of fusion.</p>
+<p>Let Q"AeroHeat denote the aerodynamic heating. Then<br>
+<img alt="Equation 2-38. Q&quot;AeroHeat = hc rc V∞^2 / (2 CpAir)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-38.png"><br>
+where hc is the local heat transfer coefficient, rc is a recovery factor, and CpAir
+is the specific heat of air.  </p>
+<p>Let Q"DropletK.E. denote the kinetic energy of the incoming droplets. Then:
+<img alt="Equation 2-39. Q&quot;DropletKE = M&quot;Imp V∞^2 / 2" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-39.png">  </p>
+<p>Let Q"IceCool denote the cooling of the ice to the surface temperature TSurf. Then<br>
+<img alt="Equation 2-40. Q&quot;IceCool = n M&quot;ice (Tf - Tsurf)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-40.png"><br>
+where Tf is the ice/water equilibrium temperature (32 F). Note that if n &lt; 1, TSurf = Tf and so this term equals 0.</p>
+<p>Define Q"Source by:<br>
+<img alt="Equation 2-41. Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-41.png">  </p>
+<p>Next, the main heat sink terms (those that remove heat from the control volume) are given.</p>
+<p>Let Q"conv denote the convective cooling term. Then<br>
+<img alt="Equation 2-42. Q&quot;Conv = hc (Tsurf - T∞)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-42.png"><br>
+where T∞ is the freestream temperature. If the local temperature at the edge of the boundary layer
+is available, that temperature should be used in this term rather than the freestream temperature. This
+is also done in LEWICE.  </p>
+<p>Note: The term Q"Conv is often defined by<br>
+<img alt="Equation 42b. Q&quot;Conv = hc (Tsurf - Tr)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%2042b.png"><br>
+where the "recovery temperature" Tr is given by<br>
+<img alt="Equation 42c. Tr = T∞ + hc rc V∞^2 / (2 CpAir)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%2042c.png"><br>
+In this formulation the term Q"AeroHeat is omitted from equation (2-41). In subsequent calculations
+in this section, Q"AeroHeat is retained and equation (2-42) is used to calculate Q"Conv.  </p>
+<p>Let Q"DropWarm denote the droplet warming term. Then<br>
+<img alt="Equation 2-43. Q&quot;DropWarm = M&quot;Imp Cw (TSurf - T∞)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-43.png"><br>
+where Cw is the specific heat of water.  </p>
+<p>Let Q"Evap denote the heat loss due to evaporation. There are a variety of formulations of this
+term. The approach used here is based on reference 2-44 and 2-U1 and employs the form of the Reynolds analogy. </p>
+<p>M"Evap is given by<br>
+<img alt="Equation 2-44. M&quot;Evap = g ΔB" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-44.png"><br>
+where g is the mass transfer coefficient and ΔB is the evaporative driving potential dependent on the
+vapor concentration difference between the surface and the edge of the boundary layer.
+These quantities are given by:<br>
+<img alt="Equation 2-45. g = hc / CpAir (Pr/Sc)^0.667" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-45.png"><br>
+<img alt="Equation 2-46. ΔB = B1 / B2" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-46.png"><br>
+<img alt="Equation 2-47a. B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47a.png"><br>
+<img alt="Equation 2-47b. B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47b.png"><br>
+The Prandtl number Pr, Schmidt number Sc, and specific heat of air Cp air should be evaluated at the
+film temperature (To + Tsurf)/2. PV,surf is the vapor pressure at the surface and Pv,∞ is the free
+stream vapor pressure. The equations assume that Po and To the free stream pressure and temperature
+at the edge of the boundary layer are available; if they are not, the corresponding freestream values
+are used. 0.622 is the ratio of the molecular weight of water to that of dry air. The heat loss due to
+evaporation is now given by:<br>
+<img alt="Equation 2-48. Q&quot;evap = M&quot;Evap Lv" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-48.png"><br>
+Lv is the heat of vaporization.  </p>
+<p>If the freezing fraction is equal to 1 and the surface temperature Tsurf is to be computed, then
+Q"Evap should be replaced by the heat loss due to sublimation, denoted by Q"Subl. This is given by<br>
+<img alt="Equation 2-49. Q&quot;Subl = M&quot;Subl Ls" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-49.png"><br>
+where M"Subl denotes the mass flux due to sublimation per unit time and Ls denotes the heat of
+sublimation. In some programs, M"Subl is computed using the same formulas as M"Evap. </p>
+<p>Define Q"Sink by:<br>
+<img alt="Equation 2-50. Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-50.png">  </p>
+<p>The energy balance equation is:<br>
+<img alt="Equation 2-51. Q&quot;Source + Q&quot;Sink = 0" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-51.png">  </p>
+<p>The control volume freezing fraction is calculated as follows: Assume that the equilibrium
+temperature, Tsurf, is Tf. With this assumption, all quantities in the energy balance except n can be
+evaluated. Now solve for n. If the calculation yields a value of n between 0 and 1 inclusive, the
+calculation is complete. If n is calculated to be larger than 1, assume that n = 1 and that the excess
+over 1 was because Tsurf is actually smaller than Tf. So set n equal to 1 in the energy balance
+equation, which is now solved iteratively (since several quantities depend on Tsurf) for Tsurf. If n
+is calculated to be smaller than 0, similar reasoning leads to setting n equal to 0 and solving iteratively
+for Tsurf, which will now be larger than Tf.  </p>
+<p>A major source of uncertainty in calculating n using this equation arises from the uncertainty in
+the computation of the heat transfer coefficient h. If n is calculated in the stagnation region of a
+cylinder, it is common to use the heat transfer correlation for a smooth cylinder (given, for example,
+in reference 2-45).  </p>
+<p>If n is to be calculated in the stagnation region of an airfoil, the same correlation
+is sometimes used with radius equal to the radius of curvature of the airfoil. As the ice accretes, the
+shape changes and the surface roughness also changes, perhaps increasing dramatically. This can have
+a profound effect on the heat transfer coefficient.   </p>
+<p>Airfoil ice accretion codes must include an algorithm to calculate the heat transfer coefficient
+over the entire airfoil (See Chapter IV, Section 2). If it is a time-stepping code such as LEWICE, it
+must be able to calculate the heat transfer coefficient for an iced airfoil. An integral boundary layer
+method is typically used (See references 2-39 and 2-46). These methods generally include roughness
+terms, but a standard method for describing ice roughness has not yet been developed. NASA Lewis
+has conducted experiments to determine heat transfer coefficient distributions for ice shapes
+(references 2-47, 2-48). This data is essential to evaluate heat transfer coefficient algorithms. it
+appears that all existing algorithms introduce substantial uncertainty into the calculation.  </p>
+<p>[See the original for the rest of the text.]</p>
+<h2>References</h2>
+<p>2-2 Langmuir. I. and Blodgett, K., "A Mathematical Investigation of Water Droplet Trajectories," AAFTR 5418, February 1946. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=mJySYM32cHUC&amp;oi=fnd&amp;pg=PA11&amp;dq=Katherine+Blodgett+icing&amp;ots=QYP5gFyEiz&amp;sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&amp;q=Katherine%20Blodgett%20icing&amp;f=false">books.google.com</a>   </p>
+<p>2-39 Ruff, G. A. and Berkowitz, B. M., "Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE)," NASA CR 185129. <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a>  </p>
+<p>2-40 Shaw, R. J., "NASA's Aircraft Icing Analysis Program," NASA TM 88791, Sept. 1986. <a href="https://ntrs.nasa.gov/citations/19920013862">ntrs.nasa.gov</a>  </p>
+<p>2-41 Messinger, B. L., "Equilibrium Temperature ef an Unheated Surface as a Function of Airspeed," Journal of Aeronautical Sciences, January 1953 (Vol. 20, No. 1). <a href="https://arc.aiaa.org/doi/10.2514/8.2520">arc.aiaa.org</a> [payment or institutional access required]  </p>
+<p>2-42 Tribus, M.V., et. al., "Analysis of Heat Transfer over a Small Cylinder in Icing Conditions on Mount Washington," American Society of Mechanical Engineers Transactions, Vol. 70, 1949, pp. 871-876. <a href="https://asmedigitalcollection.asme.org/fluidsengineering/article-abstract/70/8/971/1152987/Analysis-of-Heat-Transfer-Over-a-Small-Cylinder-in?redirectedFrom=fulltext">asme.org</a> [payment or institutional access required]    </p>
+<p>2-43 "An experimental and theoretical study of the ice accretion process during artificial and natural icing conditions" DOT/FAA/CT-87/17 <a href="https://ntrs.nasa.gov/citations/19880011759">ntrs.nasa.gov</a>  </p>
+<p>2-44 Analysis and Verification of the Icing Scaling Equations <a href="https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf">AEDC-TR-85-30 Vol. 1 (Revised)</a>  </p>
+<p>2-45 Kreith, F., Principles of Heat Transfer, Intext Educational Publishers, New York, 1973, third edition <a href="https://archive.org/details/principlesofheat0000krei_n7j4">archive.org</a> [online borrowing with registration]  </p>
+<p>2-U1 Sogin, H. H., "A Design Manual for Thermal Anti-icing Systems". ADC Technical Report 54-313, Dec. 1954. <a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD090156.xhtml">ntrl.ntis.gov</a>    </p>
+<p>2-46 Makkonen, L., "Heat Transfer and Icing of a Rough Cylinder," Cold Regions Science Vol. 10, 1985, pp. 105-116. <a href="https://www.cambridge.org/core/journals/annals-of-glaciology/article/effect-of-roughness-on-the-rate-of-ice-accretion-on-a-cylinder/B110D4683F3D3AE616A0D2ADB70076FB">cambridge.org</a>  </p>
+<p>2-47 Van Fossen, G. J.; Simoneau, R. J.; Olsen, W. A.; and Shaw, R. J., "Heat Transfer
+Distributions around Nominal Ice Accretion Shapes Formed on a Cylinder in the NASA
+Lewis Icing Research Tunnel," NASA TM 83557, Jan. 1984. <a href="https://ntrs.nasa.gov/citations/19840006395">ntrs.nasa.gov</a>  </p>
+<p>2-48 Poinsatte, P. E.; Van Fowsen, G. J.; and DeWitt, K. J., "Convective Heat Transfer
+Measurements from a NACA 0012 Airfoil in Flight and in the NASA Lewis Icing
+Research Tunnel," NASA TM 102448, Jan. 1990. <a href="https://ntrs.nasa.gov/citations/19900004434">ntrs.nasa.gov</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
