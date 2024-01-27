@@ -25,10 +25,11 @@ That may or may not mean the "standard computational model" presented here.
 As noted below for calculating evaporation:  
 >There are a variety of formulations of this term.  
 
-That could also apply to several of the terms in the model.  
+That could also apply to several of the terms in the model. 
+"Modified Messinger Model" could mean about anything, you would need to look at the details.  
 
 The "merged text" section below is from DOT/FAA/CT-88/8-1, 
-but I have not used the usual quote block formatting to make it more readable.
+but to make it more readable I have not used the usual quote block formatting.  
 
 ### The merged text  
 
