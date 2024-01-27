@@ -32,7 +32,6 @@ def calc_air_viscosity(tk):
     :param tk: temperature, K
     :return: dynamic viscosity of air, Pa-s (N-s/m^2)
     """
-
     return 2.48e-7 * tk ** 0.7542  # equ. (13)
 
 
