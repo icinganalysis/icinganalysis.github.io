@@ -118,14 +118,13 @@ Each concept has a resources section, with specific further reading on the conce
 
 ## Possible future additions  
 
-I may eventually add "Intermediate" topics, which required mathematics and computer skills: 
+I may eventually add "Intermediate" topics, which required mathematics and computer skills:  
 
 - Using handbook design and analysis methods  
 
 - Using computerized icing analysis tools  
 
 - Preliminary ice protection system sizing  
-
 
 ## Related  
 
