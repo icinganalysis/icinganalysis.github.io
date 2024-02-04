@@ -1,0 +1,30 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest posts:
+
+Airships https://icinganalysis.com/airships.html
+Porter Perkins Ice Shapes and Ice Protection https://icinganalysis.com/porter-perkins-ice-shapes-and-ice-protection.html
+
+- What is in work:
+
+Reproducing NACA-TN-2738 Calculations https://icinganalysis.com/reproducing-naca-tn-2738-calculations.html
+
+Does the world need Yet Another Introduction to Aircraft Icing (YAItAI)?
+Why not, see a draft at https://icinganalysis.com/drafts/the-basics.html
+
+- Latest finds:
+
+Thermodynamics is a grade 6-8 subject:
+"What is thermodynamics?" https://www.grc.nasa.gov/WWW/K-12/airplane/thermo.html [Impressive!].
+
+- Public Domain Image of the Week:
+
+https://www.nasa.gov/image-detail/amf-grc-1950-c-25291/
+Camera Installation on a Beach AT-11
+"Researchers at the National Advisory Committee for Aeronautics (NACA) Lewis Flight Propulsion Laboratory conducted an extensive investigation into the composition of clouds and their effect on aircraft icing. The researcher in this photograph is installing cameras on a Beach AT-11 Kansan in order to photograph water droplets during flights through clouds. The twin engine AT-11 was the primary training aircraft for World War II bomber crews. The NACA acquired this aircraft in January 1946, shortly after the end of the war. The NACA Lewis’ icing research during the war focused on the resolution of icing problems for specific military aircraft. In 1947 the laboratory broadened its program and began systematically measuring and categorizing clouds and water droplets. The three main thrusts of the Lewis icing flight research were the development of better instrumentation, the accumulation of data on ice buildup during flight, and the measurement of droplet sizes in clouds. The NACA researchers developed several types of measurement devices for the icing flights, including modified cameras. The National Research Council of Canada experimented with high-speed cameras with a large magnification lens to photograph the droplets suspended in the air. In 1951 NACA Lewis developed and flight tested their own camera with a magnification of 32. The camera, mounted to an external strut, could be used every five seconds as the aircraft reached speeds up to 150 miles per hour. The initial flight tests through cumulus clouds demonstrated that droplet size distribution could be studied."
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/secret-newsletter-archive.html
+The public may view them a few weeks after they are published at https://icinganalysis.com/newsletter-archive.html
