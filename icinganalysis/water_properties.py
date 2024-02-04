@@ -6,6 +6,7 @@ from scipy.interpolate import interp1d
 from scipy.optimize import minimize_scalar
 
 WATER_SPECIFIC_HEAT = 4220  # J/kg-K
+ICE_SPECIFIC_HEAT = 2050  # J/kg-K
 L_FREEZING = 334640  # J/kg (A.20)
 L_EVAPORATION = 2500900  # J/kg
 RATIO_MOLECULAR_WEIGHTS = 0.622  # water to air
