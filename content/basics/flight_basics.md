@@ -94,7 +94,6 @@ be affected, including flameouts. Research into HIWC conditions continues as of 
 >  
 > From "Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook).  
 
-
 ![Schematic drawing of the internal passages of a pitot tube with ice obtructing, with text: FIGURE 96.
  Internal pitot tube icing. It renders airspeed indicator unreliable.](/images/ac00-6a/pitot%20icing.png)  
 _From Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled), 1975. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
