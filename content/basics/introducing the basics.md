@@ -1,5 +1,5 @@
 Title: Introducing The Basics of Aircraft Icing     
-Date: 2024-01-15 11:00  
+Date: 2024-02-12 11:00  
 tags: basics, training, about  
 status: draft  
 
