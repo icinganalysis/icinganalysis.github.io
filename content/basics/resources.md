@@ -122,9 +122,7 @@ Live feed of weather information, see "AIRMETS" that can include icing condition
 "Icing" training page: [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 >Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  
 
-
-"Ice Crystal Icing Briefing" [flightsafety.org](https://flightsafety.org/wp-content/uploads/2018/11/Bravin-ICI_FSF_Bravin_20181023.pdf)
-
+"Ice Crystal Icing Briefing" [flightsafety.org](https://flightsafety.org/wp-content/uploads/2018/11/Bravin-ICI_FSF_Bravin_20181023.pdf)  
 
 ## NASA {: #nasa }  
 
