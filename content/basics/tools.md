@@ -33,9 +33,10 @@ Artificially produced ice shapes (often 3D printed) may be adhered to airplane m
 To simulate in-flight icing conditions, 
 ["Icing Wind Tunnels"]({filename}Nomenclature.md#icing-wind-tunnel) often use refrigeration to reach air temperatures below the melting point of ice, 
 and water spray to produce drop sizes similar to those in nature
-(some do not have refrigeration, and wait for a day with cold enough weather for testing).
+(some do not have refrigeration, and wait for a day with cold enough weather for testing).  
 
-![Common Research Model, CRM, in the Icing Research Tunnel.](/images%2FNASA%2FIRT%20CRM%20ice.png)  
+![Common Research Model, CRM, in the Icing Research Tunnel. 
+Two researchers observe glaze "lobster tail" ice on the leading edge of a test airfoil.](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
 
 ### Flight tests

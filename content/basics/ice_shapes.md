@@ -17,20 +17,21 @@ ice shapes tend to produce ["Glaze Ice"]({filename}Nomenclature.md#glaze-ice) sh
 The nomenclature varies by domain. 
 Pilot training materials generally note this type of ice as "Clear Ice".  
 
-![Figure 3-1.png](/images%2FAC-91-74B%2FFigure%203-1.png)   
+![Figure 3-1. Clear or glaze ice forms on the leading edge of an airfoil, sometimes following the contour of the airfoil. 
+Sometimes prominent "horns" also form.](/images%2FAC-91-74B%2FFigure%203-1.png)   
 
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 <a name="figure-rime-ice"></a>
 At colder temperatures, the ice appears milky and opaque, and is termed ["Rime Ice"]({filename}Nomenclature.md#rime-ice).  
 
-![Figure 3-3.png](/images%2FAC-91-74B%2FFigure%203-3.png)  
+![Figure 3-3. Rime ice forms on the leading edge of an airfoil.](/images%2FAC-91-74B%2FFigure%203-3.png)  
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 <a name="figure-mixed-ice"></a>
 At temperatures in between, ["Mixed Ice"]({filename}Nomenclature.md#mixed-ice) can form.  
 
-![Figure 3-4.png](/images%2FAC-91-74B%2FFigure%203-4.png)  
+![Figure 3-4. Mixed ice forms on the leading edge of an airfoil](/images%2FAC-91-74B%2FFigure%203-4.png)  
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 These types of ice can have varying effects on lift and drag. 
@@ -59,7 +60,8 @@ _From "Modern Icing Technology", 1952 [deepblue.lib.umich.edu](https://deepblue.
 
 Ice shapes on swept wings can have complex "lobster tail" shapes:  
 
-![Common Research Model, CRM, in the Icing Research Tunnel](/images%2FNASA%2FIRT%20CRM%20ice.png)  
+![Common Research Model, CRM, in the Icing Research Tunnel. 
+Two researchers observe glaze "lobster tail" ice on the leading edge of a test airfoil.](/images%2FNASA%2FIRT%20CRM%20ice.png)  
 _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.nasa.gov](https://www1.grc.nasa.gov/facilities/irt/)_  
 
 ### The thermodynamics of freezing  
@@ -105,7 +107,8 @@ Calculations to relate ice shape to freezing fraction have many variables.
 Here is a figure that summarizes the effects of some variables
 (n is calculated freezing fraction):  
 
-![Figure 2-81.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
+![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0.2 g/m^3.
+Based on stagnation line of a 2 inch diameter cylinder, 15 micrometer drop size, and 5000 ft. altitude.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
 _from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) (1991)_  
 
 Note that at a high enough airspeed, there is a wide range of 

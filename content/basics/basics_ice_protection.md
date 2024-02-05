@@ -82,7 +82,7 @@ Different airplane sizes, power sources, and flight profiles may favor one form
 over another. Complex trade studies are conducted in the design 
 of new aircraft to determine the least costly form of ice protection to use. 
 
-![Table 5-7.png](/images%2FFAA%20Handbook%20volume%202%2FTable%205-7.png)  
+![Table 5-7.](/images%2FFAA%20Handbook%20volume%202%2FTable%205-7.png)  
 _Ice protection trade study data for one aircraft. From DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
 
 ## Resources  

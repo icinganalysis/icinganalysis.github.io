@@ -11,7 +11,7 @@ The water that causes most aircraft in-flight icing is small drops in clouds.
 Average drop sizes are typically 10 to 50 ["Micrometers"]({filename}Nomenclature.md#micrometer) (μm) in diameter
 (for comparison, a human hair is about 50 to 100 micrometers in diameter).
 
-![drop sizes.png](/images%2Fdrop%20sizes.png)  
+![Typical water drop sizes. Icing clouds are typically in the 10 to 50 micrometer diameter range. Drizzle is 100 micrometers and up, while rain is typically 1000 micrometers.](/images%2Fdrop%20sizes.png)  
 _Typical drop sizes, approximately proportional. Public Domain by Donald Cook._  
 
 In a particular cloud, not all water drops are the same size. 

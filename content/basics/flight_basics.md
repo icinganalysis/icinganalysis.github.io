@@ -85,7 +85,7 @@ The water freezes on the aircraft surface and forms ice shapes.
 This can affect the aerodynamic performance of the aircraft.  
 
 Ice crystals from clouds can also affect aircraft. These do not usually cause ice on the wing leadinge edge, 
-but can accumulate in small passages, such as those in airspeed instruments and some engine components.
+but can accumulate in small passages, such as those in air data instruments and some engine components.  
 
 >High Ice Water Content (HIWC) is a relatively new icing hazard, at least from the standpoint of research
 and understanding. HIWC refers to high-altitude ice crystals, which may exist in the tops and anvils of
