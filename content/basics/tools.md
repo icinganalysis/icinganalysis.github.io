@@ -5,8 +5,6 @@ tags: basics, flight test, icing tunnels, natural icing
 status: draft  
 rights: CC-BY-NC-SA 4.0
 
-## DRAFT
-
 Aircraft designs for flight in icing are improved and proven effective by several tools, 
 including analysis, icing wind tunnel test, and flight test in icing conditions. 
 
@@ -84,3 +82,21 @@ The NASA-provided [Icing Research Software (LEWICE, LEWICE 3D)](https://www1.grc
 
 This is part of [The Basics]({filename}basics.md) series.  
 
+
+### The Basics concepts  
+
+- [Flight basics]({filename}flight_basics.md)  
+
+- [Water Drops]({filename}water_drops.md)  
+
+- [Ice shapes]({filename}ice_shapes.md)  
+
+- [Ice protection]({filename}basics_ice_protection.md)  
+
+- [Tools]({filename}tools.md)  
+
+### Additional Material  
+
+- [Terminology]({filename}Nomenclature.md)
+
+- [Resources]({filename}resources.md)  

@@ -4,8 +4,6 @@ Date: 2024-01-15 16:00
 tags: basics  
 status: draft  
 rights: CC-BY-NC-SA 4.0
-
-# DRAFT
  
 Several areas of the airplane may require ice protection: 
 
@@ -101,4 +99,22 @@ Blog series on [Ice Protection]({filename}..%2Fice%20protection.md)
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  
+
+### The Basics concepts  
+
+- [Flight basics]({filename}flight_basics.md)  
+
+- [Water Drops]({filename}water_drops.md)  
+
+- [Ice shapes]({filename}ice_shapes.md)  
+
+- [Ice protection]({filename}basics_ice_protection.md)  
+
+- [Tools]({filename}tools.md)  
+
+### Additional Material  
+
+- [Terminology]({filename}Nomenclature.md)
+
+- [Resources]({filename}resources.md)  
  

@@ -5,8 +5,6 @@ tags: basics, flight in icing
 status: draft  
 rights: CC-BY-NC-SA 4.0
 
-## DRAFT
-
 ### Effects of icing in flight  
 
 Airplanes can fly because engines produce thrust that propels it forward, 
@@ -37,7 +35,8 @@ This is termed stall.
 If the angle of attack is not reduced to re-establish adequate lift, 
 the airplane can descend rapidly, and this is a hazardous condition. 
 
-![Figure 3-5. Lift curve.](/images%2FAC-91-74B%2FFigure%203-5.png)  
+![Figure 3-5. Lift curve. Without ice, an airfoil can produce more lift with increasing angle of attack, up to a point. 
+With ice, the maximum lift is lower, and occurs at a lower angle of attack.](/images%2FAC-91-74B%2FFigure%203-5.png)  
 _from "Pilot Guide: Flight in Icing Conditions", AC 91-74B [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf)_  
 
 To some extent, increasing angle of attack can off-set the effects of ice. 
@@ -85,6 +84,21 @@ water drop impinges on the surface of an aircraft moving through the cloud.
 The water freezes on the aircraft surface and forms ice shapes. 
 This can affect the aerodynamic performance of the aircraft.  
 
+Ice crystals from clouds can also affect aircraft. These do not usually cause ice on the wing leadinge edge, 
+but can accumulate in small passages, such as those in airspeed instruments and some engine components.
+
+>High Ice Water Content (HIWC) is a relatively new icing hazard, at least from the standpoint of research
+and understanding. HIWC refers to high-altitude ice crystals, which may exist in the tops and anvils of
+cumulonimbus clouds and thunderstorms. Under certain HIWC conditions, turbine engine performance can
+be affected, including flameouts. Research into HIWC conditions continues as of the writing of this section.  
+>  
+> From "Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook).  
+
+
+![Schematic drawing of the internal passages of a pitot tube with ice obtructing, with text: FIGURE 96.
+ Internal pitot tube icing. It renders airspeed indicator unreliable.](/images/ac00-6a/pitot%20icing.png)  
+_From Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Cancelled), 1975. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
+
 ## Resources  
 
 "ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
@@ -106,9 +120,29 @@ Chapter 20 covers icing.
 "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 Includes icing intensity definitions. 
 
+"Ice Crystal Icing Briefing" [flightsafety.org](https://flightsafety.org/wp-content/uploads/2018/11/Bravin-ICI_FSF_Bravin_20181023.pdf)  
+
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  
+
+### The Basics concepts  
+
+- [Flight basics]({filename}flight_basics.md)  
+
+- [Water Drops]({filename}water_drops.md)  
+
+- [Ice shapes]({filename}ice_shapes.md)  
+
+- [Ice protection]({filename}basics_ice_protection.md)  
+
+- [Tools]({filename}tools.md)  
+
+### Additional Material  
+
+- [Terminology]({filename}Nomenclature.md)
+
+- [Resources]({filename}resources.md)  
 
 
 

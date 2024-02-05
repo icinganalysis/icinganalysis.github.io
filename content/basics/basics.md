@@ -4,8 +4,6 @@ Date: 2024-01-2 12:00
 tags: basics  
 status: draft  
 rights: CC-BY-NC-SA 4.0
-
-## DRAFT  
  
 ["Glaze Ice"]({filename}Nomenclature.md#glaze-ice) formed in flight on an airplane:  
 ![Figure 13. Formation of ice on horizontal stabilizer. 
@@ -13,12 +11,6 @@ Average icing rate, 4 inches per hour; liquid-water content,
 0.4 grams per cubic meter; drop size, 17 microns. (Painted stripes are 
 1 in. wide)](/images/naca-tn-1598/Figure13.png)  
 _from "Effects of Ice Formations on Airplane Performance in Level Cruising Flight." NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)_  
- 
-## TODO  
- 
-- Add more images, "a picture for everything"  
-- Add a few more topics, in keeping with "the least that you need to know" philosophy  
-- Add in tags? Or leave as is?
 
 ## Summary  
 
@@ -40,7 +32,7 @@ The [Resources section]({filename}resources.md) has many options for further stu
 
 ## Some limitations  
 
-This is marked "DRAFT" as there may yet be many revisions and additions. 
+The Basics are a work in progress, as there may yet be many revisions and additions. 
 However, it may be useful "as is" to some readers.  
 
 These basics concepts by themselves will not make you a qualified aircraft design engineer, 
