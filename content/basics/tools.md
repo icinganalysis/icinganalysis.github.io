@@ -71,18 +71,17 @@ _from "Effects of Ice Formations on Airplane Performance in Level Cruising Fligh
 
 Chapter IV of "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
 
+[Design Guides]({filename}resources.md#design-guides) resources.
+
 The NASA-provided [Icing Research Software (LEWICE, LEWICE 3D)](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 
 [Icing wind tunnel]({filename}resources.md#icing-wind-tunnel) resources. 
-
-[Design Guides]({filename}resources.md#design-guides) resources.
 
 "Introduction to Icing Certification" [faa.gov](https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf)  
 
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  
-
 
 ### The Basics concepts  
 
