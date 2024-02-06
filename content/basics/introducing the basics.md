@@ -96,7 +96,7 @@ Images are key for introducing concepts, they are truly "worth a thousand words"
 So, The Basics are image-rich. 
 All images are Public Domain, so you can reuse them as you choose. 
 
-### Broad Access  
+### Broad Access and Reuse  
 
 There are many excellent resources that are copyrighted. 
 Unfortunately, this may limit access in ways other than just the money required to obtain them. 
@@ -139,8 +139,11 @@ where I have not been able to find adequate public domain substitutes.
 The Basics is an online resource. This allows wide access, at low to no-cost. 
 This also allows the use of search engines. 
 
+Online resources can be readily updated to correct errors,
+incorporate new information, and expand the scope.
+
 However, links to online resources will inevitably suffer "link rot". 
-I have kept similar lists of recsources for years.
+I have kept similar lists of resources for years.
 I have tried to select sources that are likely to be stable. 
 Some links from ntrs.nasa.gov have worked for years, and dtic.mil for even longer. 
 
@@ -185,7 +188,7 @@ While these are useful tools, they are a subset of the required knowledge
 _Public domain image by Donald Cook_  
 
 While formal training may be essential for many applications, 
-they are not focussed on beginning learners.  
+they are not typically focussed on beginning learners.  
 
 ## Some other introductions  
 
