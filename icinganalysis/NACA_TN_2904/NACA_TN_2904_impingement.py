@@ -51,6 +51,7 @@ zs = [data_figure_9[_]["theta"] for _ in data_figure_9]
 
 _theta_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
                                               kind='linear',
+                                              # kind='cubic',
                                               )
 
 
@@ -1017,7 +1018,7 @@ if __name__ == "__main__":
         inv_ks = plt.np.logspace(-3, log10(8))
         ems = [calc_em_naca_tn_2904_from_figure6_data(1 / _, k_phi * _) for _ in inv_ks]
         plt.plot(inv_ks, ems, "-", c=line.get_color())
-        ems = [langmuir_blodgett_table_ii.calc_em(1 / _, k_phi * _) for _ in inv_ks]
+        ems = [float(langmuir_blodgett_table_ii.calc_em(1 / _, k_phi * _)) for _ in inv_ks]
         plt.plot(inv_ks, ems, ":", c=line.get_color())
     plt.plot(
         [], [], "-", c="k", label="Calculated with\nNACA-TR-1215 Figure 4 correlations"
