@@ -1,4 +1,4 @@
-Title: Energy Balance "Standard Computational Model"    
+Title: __Energy Balance "Standard Computational Model"    
 header: The Basics: Intermediate Topics  
 Date: 2024-01-28 12:00  
 tags: intermediate topics, thermodynamics   
