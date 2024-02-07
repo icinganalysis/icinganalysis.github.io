@@ -170,9 +170,6 @@ Some SAE documents provide information on the calibration of icing wind tunnels.
 
 ## SKYbrary  
 
-I would have considered extracting more information from this excellent resource, 
-but it is copyrighted.  
-
 [skybrary.aero](https://skybrary.aero/)  
 >SKYbrary is an electronic repository of safety knowledge related to flight operations, air traffic management (ATM) and aviation safety in general. It is also a portal, a common entry point, that enables users to access the safety data made available on the websites of various aviation organisations - regulators, service providers, industry.  
 >SKYbrary content development priorities have been focused on:  
