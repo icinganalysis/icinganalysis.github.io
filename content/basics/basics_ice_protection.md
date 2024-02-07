@@ -96,6 +96,9 @@ This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection M
 
 Blog series on [Ice Protection]({filename}..%2Fice%20protection.md)  
 
+[skybrary.aero Chapter 15 Ice and Rain Protection pdf](https://skybrary.aero/sites/default/files/bookshelf/4452.pdf) 
+Has many pictures of ice protection system components.  
+
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  

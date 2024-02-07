@@ -121,6 +121,9 @@ Includes icing intensity definitions.
 
 "Ice Crystal Icing Briefing" [flightsafety.org](https://flightsafety.org/wp-content/uploads/2018/11/Bravin-ICI_FSF_Bravin_20181023.pdf)  
 
+[skybrary.aero/operational-issues/weather](https://skybrary.aero/operational-issues/weather)  
+Has an "icing" subcategory.  
+
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  

@@ -167,6 +167,26 @@ Some SAE documents provide information on the calibration of icing wind tunnels.
 - Calibration and Acceptance of Icing Wind Tunnels ARP5905 [www.sae.org](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
 - Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A [www.sae.org](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
 
+
+## SKYbrary  
+
+I would have considered extracting more information from this excellent resource, 
+but it is copyrighted.  
+
+[skybrary.aero](https://skybrary.aero/)  
+>SKYbrary is an electronic repository of safety knowledge related to flight operations, air traffic management (ATM) and aviation safety in general. It is also a portal, a common entry point, that enables users to access the safety data made available on the websites of various aviation organisations - regulators, service providers, industry.  
+>SKYbrary content development priorities have been focused on:  
+    Who: Flight Operations and Air Traffic Management
+    Where: Globally
+    What: Operational Risks
+    Aviation sector: Commercial Air Transport
+
+[skybrary.aero/operational-issues/weather](https://skybrary.aero/operational-issues/weather)  
+Has an "icing" subcategory.   
+
+[Chapter 15 Ice and Rain Protection pdf](https://skybrary.aero/sites/default/files/bookshelf/4452.pdf) 
+Has many pictures of ice protection system components.  
+
 ## Courses  
 
 "ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
