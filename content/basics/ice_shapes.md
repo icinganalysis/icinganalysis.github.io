@@ -137,6 +137,8 @@ has much of the same material as Messinger "Equilibrium Temperature ...", availa
 
 [Blog review of Messinger "Equilibrium Temperature ..."]({filename}..%2Fmessinger.md)  
 
+[skybrary.aero article: "Ice Formation on Aircraft"](https://skybrary.aero/articles/ice-formation-aircraft)  
+
 ## Related  
 
 This is part of [The Basics]({filename}basics.md) series.  

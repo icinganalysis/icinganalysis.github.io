@@ -184,6 +184,8 @@ but it is copyrighted.
 [skybrary.aero/operational-issues/weather](https://skybrary.aero/operational-issues/weather)  
 Has an "icing" subcategory.   
 
+[Article: "Ice Formation on Aircraft"](https://skybrary.aero/articles/ice-formation-aircraft)  
+
 [Chapter 15 Ice and Rain Protection pdf](https://skybrary.aero/sites/default/files/bookshelf/4452.pdf) 
 Has many pictures of ice protection system components.  
 
