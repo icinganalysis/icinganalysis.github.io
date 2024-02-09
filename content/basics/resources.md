@@ -30,7 +30,7 @@ If I had to pick only one, it would be DOT/FAA/CT-88/8.
 
 - "Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-- The "Aircraft Icing Handbook"," DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+- The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
 The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
@@ -52,7 +52,7 @@ and the [SAE AC-9C documents](#sae-ac9c) below.
 ## SAE AC-9C {: #sae-ac9c }  
 
 The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
-Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](http://profiles.sae.org/teaac9c/).  
+Aerospace Recommended Practices, and Aerospace Standards [SAE AC-9C](https://standardsworks.sae.org/standards-committees/ac-9c-aircraft-icing-technology-committee#published).  
 [Payment or institutional access required to access documents.]
 
 See also some SAE documents listed below in [icing wind tunnels](#sae-icing-tunnel)
@@ -166,7 +166,6 @@ Some SAE documents provide information on the calibration of icing wind tunnels.
 
 - Calibration and Acceptance of Icing Wind Tunnels ARP5905 [www.sae.org](https://www.sae.org/standards/content/arp5905a/) [Payment or institutional access required]  
 - Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A [www.sae.org](https://www.sae.org/standards/content/air5666a/) [Payment or institutional access required]  
-
 
 ## SKYbrary  
 
