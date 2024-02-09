@@ -126,17 +126,17 @@ There may be interesting figures that you apparently cannot re-use.
 Sometimes, the images were originally in the public domain, but are not noted as so.
 (For example, see ["Contending with Airframe Icing"]({filename}../porter%20perkins%20flight%20safety.md#perkins-2002).)  
 
-In this series I will use the Creative Commons 
+This series uses the Creative Commons 
 [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
-This allows reuse (the SA part, see the license for details.)  
+This allows reuse (the SA or "Share Alike" part, see the license for details.)  
 
 The use of online, public domain [resources]({filename}resources.md) is prioritized. 
 Some selected copyrighted, non-free resources are also noted, 
-where I have not been able to find adequate public domain substitutes. 
+where I have not found adequate public domain substitutes. 
 
 ### Online resource  
 
-The Basics is an online resource. This allows wide access, at low to no-cost. 
+The Basics is an online resource. This allows wide access, at low- to no-cost. 
 This also allows the use of search engines. 
 
 Online resources can be readily updated to correct errors,
