@@ -184,7 +184,7 @@ offer training (I have attended one of them).
 While these are useful tools, they are a subset of the required knowledge 
 (CFD ≠ Aerodynamics ≠ Aircraft Icing).  
 
-![icing-aerodynamics-cfd.png](/images%2Ficing-aerodynamics-cfd.png)  
+![A Venn diagram with The Basics as a subset of Icing, and overlapping a little with Aerodynamics.](/images%2Ficing-aerodynamics-cfd.png)  
 _Public domain image by Donald Cook_  
 
 While formal training may be essential for many applications, 
@@ -221,7 +221,8 @@ While The Basics assume little prior knowledge,
 they assume that you are interested in further learning about aircraft icing. 
 They are not aimed at the general-public.
 
-I may eventually add "Intermediate" topics, which required mathematics and computer skills: 
+"Intermediate" topics, which required mathematics and computer skills. 
+These are in-work, but not yet available:  
 
 - Using handbook design and analysis methods  
 - Using computerized icing analysis tools  
