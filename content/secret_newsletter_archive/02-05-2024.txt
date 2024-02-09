@@ -1,0 +1,29 @@
+Welcome to the "Blast from the Past" Newsletter!
+Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
+
+- Latest posts:
+
+Reproducing NACA-TN-2738 Calculations https://icinganalysis.com/reproducing-naca-tn-2738-calculations.html
+(this one had more comments than I expected).
+
+Porter Perkins Flight Safety Publications https://icinganalysis.github.io/porter-perkins-flight-safety-publications.html
+(This had fewer comments than I had expected).
+
+Conclusions of the Porter Perkins Series
+https://icinganalysis.github.io/conclusions-of-the-porter-perkins-series.html
+
+- What is in work:
+
+Does the world need Yet Another Introduction to Aircraft Icing (YAItAI)?
+Why not, see a draft at https://icinganalysis.com/drafts/the-basics.html
+
+- Public Domain Image of the Week:
+
+https://www.nasa.gov/image-detail/grc-1953-c-31685/
+Boeing R4D‒6 Skytrain Aircraft Outfitted with Icing Research Equipment
+"The National Advisory Committee for Aeronautics (NACA) Lewis Flight Propulsion Laboratory acquired two Boeing R4D‒6 Skytrain aircraft in the fall of 1946 to assist the icing research program and serve as general utility aircraft. The Boeing aircraft was a modified military version of the Douglas DC‒3 transport aircraft that included a reinforced floor and enlarged cargo door. The US military requisitioned almost all of the DC‒3 aircraft being produced in 1939 when World War II broke out in Europe. The military versions were referred to as C‒47s. The army called them Gooney Birds, the British called them Dakotas, and the Navy referred to them as Skytrains. The R4D‒6 included two-speed superchargers, auxiliary fuel tanks, and improved heaters. Icing research at NACA Lewis during the war focused on the resolution of icing problems for specific military aircraft. In 1947 the laboratory broadened its program and began systematically measuring and categorizing clouds and water droplets. Lewis’ three main areas of icing flight research were the development of better instrumentation, the accumulation of data on ice buildup during flight, and the measurement of droplet sizes in clouds. The Skytrains joined a North American F‒62E Twin Mustang, North American XB‒25E Mitchell, and Consolidated B‒24M Liberator in the NACA’s icing work. Neil Armstrong was an NACA Lewis pilot for about five months in 1955. The Skytrain was his primary vehicle during that period. In addition to the icing research, the Skytrains performed a variety of support roles at Lewis. In the early 1960s Lewis pilots took the aircraft to Wallops Island to film launches of Aerobee research missiles and assist the Marine Corps helicopter team with the recovery of the payloads from the sea. Lewis utilized the Skytrains for nearly 20 years before transferring them in March 1965."
+
+- The secret newsletter archive
+
+Subscribers may view the newsletter archives at https://icinganalysis.com/secret-newsletter-archive.html
+The public may view them a few weeks after they are published at https://icinganalysis.com/newsletter-archive.html
