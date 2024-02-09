@@ -108,9 +108,10 @@ Each concept has a resources section, with specific further reading on the conce
 
 - [Resources]({filename}resources.md)  
 
-## Possible future additions  
+## Future additions  
 
-I may eventually add "Intermediate" topics, which required mathematics and computer skills:  
+"Intermediate" topics, which required mathematics and computer skills, 
+are in-work, but are not yet available:  
 
 - Using handbook design and analysis methods  
 
