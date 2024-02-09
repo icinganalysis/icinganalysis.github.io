@@ -140,7 +140,8 @@ The Basics is an online resource. This allows wide access, at low- to no-cost.
 This also allows the use of search engines. 
 
 Online resources can be readily updated to correct errors,
-incorporate new information, and expand the scope.
+incorporate new information, and expand the scope. 
+The Basics are a work in progress, and may have changes and additions. 
 
 However, links to online resources will inevitably suffer "link rot". 
 I have kept similar lists of resources for years.
