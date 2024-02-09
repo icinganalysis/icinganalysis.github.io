@@ -7,7 +7,7 @@ rights: CC-BY-NC-SA 4.0
 
 ## Summary 
 
-After [The Basics]({filename}basics.md), you are ready for Intermediate level topics:  
+After [The Basics]({filename}basics.md), you are ready for Intermediate level aircraft icing topics:  
 
 - Using handbook analysis methods  
 - Using computerized icing analysis tools  
