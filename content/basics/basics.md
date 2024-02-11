@@ -78,7 +78,7 @@ Like any online resource, there may be "link rot" after that date,
 and then you will have to try your 
 [favorite search engine](https://duckduckgo.com) to find where it moved to.  
 
-One might find other resources with online searches, but I have only included links that I am familiar with. 
+You might find other resources with online searches, but I have only included links that I am familiar with. 
 
 ## Studying The Basics  
  
