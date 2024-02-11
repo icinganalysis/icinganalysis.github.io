@@ -2,6 +2,11 @@ Title: Introducing The Basics of Aircraft Icing
 Date: 2024-02-12 11:00  
 tags: basics, training, about  
 
+### _"The least that you need to know"_  
+
+![A Venn diagram with The Basics as a subset of Icing, and overlapping a little with Aerodynamics.](/images%2Ficing-aerodynamics-cfd.png)  
+_Public domain image by Donald Cook_  
+
 ## Summary  
 
 The Basics introduce core concepts and vocabulary of aircraft icing with images, "the least that you need to know".  
