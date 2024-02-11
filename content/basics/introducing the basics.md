@@ -159,9 +159,8 @@ it is now only available at [web.archive.org](https://web.archive.org/web/200708
 
 I do plan to curate the links for a while. 
 
-You may find an archived version of icinganalysis.com at 
-[web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/)
-(it even saves externally linked pages!).  
+You may find an archived version of icinganalysis.com, including The Basics series, at 
+[web.archive.org](https://web.archive.org/web/20240211160008/https://icinganalysis.com/).  
 
 ## Focus  
 
