@@ -110,7 +110,7 @@ Each concept has a resources section, with specific further reading on the conce
 
 ## Future additions  
 
-"Intermediate" topics, which required mathematics and computer skills, 
+"Intermediate" topics, which require mathematics and computer skills, 
 are in-work, but are not yet available:  
 
 - Using handbook design and analysis methods  

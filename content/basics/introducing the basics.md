@@ -163,8 +163,8 @@ You may find an archived version of icinganalysis.com at [web.archive.org](https
 To keep the focus on learners, 
 The Basics are a largely separate website from "Blast from the Past: NACA Icing Publications" 
 [icinganalysis.com](https://icinganalysis.com/). 
-"Blast from the Past" is more focussed on what was historically done, 
-while The Basics are focussed on what to do today. 
+"Blast from the Past" focus more on what was historically done, 
+while The Basics focus on what to do today. 
 
 ### Aircraft icing training classes available  
 
