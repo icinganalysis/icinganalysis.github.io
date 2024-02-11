@@ -155,7 +155,8 @@ it is now only available at [web.archive.org](https://web.archive.org/web/200708
 
 I do plan to curate the links for a while. 
 
-You may find an archived version of icinganalysis.com at [web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/)
+You may find an archived version of icinganalysis.com at 
+[web.archive.org](https://web.archive.org/web/20240111025250/https://icinganalysis.com/)
 (it even saves externally linked pages!).  
 
 ## Focus  
@@ -222,7 +223,7 @@ While The Basics assume little prior knowledge,
 they assume that you are interested in further learning about aircraft icing. 
 They are not aimed at the general-public.
 
-"Intermediate" topics, which required mathematics and computer skills. 
+"Intermediate" topics, which require mathematics and computer skills. 
 These are in-work, but not yet available:  
 
 - Using handbook design and analysis methods  
