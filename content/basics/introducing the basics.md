@@ -170,7 +170,7 @@ while The Basics are focussed on what to do today.
 
 When you have completed The Basics, some more formal training is available.  
 
-- University of Kansas "Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" [enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060) 
+- University of Kansas "Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification" [enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060)  
 >This course covers the meteorology and physics of aircraft icing. Topics include forecasting, finding and avoiding icing conditions, designing and evaluating ice protection systems, and certification of aircraft for flight into known icing conditions.  
   
 - NASA Aircraft Icing Training [aircrafticing.grc.nasa.gov](https://aircrafticing.grc.nasa.gov/)  

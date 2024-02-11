@@ -13,11 +13,20 @@ After [The Basics]({filename}basics.md), you are ready for Intermediate level ai
 - Using computerized icing analysis tools  
 - Preliminary ice protection system sizing  
 
-## Discussion  
+### Prerequisite: Select your toolset  
 
-### Every analysis is an approximation  
+You are encouraged to run code to reproduce the examples used here. 
+By doing so, you can build your personal and software capabilities and skills.  
 
-And we can also say that every test is an approximation:  
+Example calculations are provided here in the Python programming language, 
+and using the NASA-provided LEWICE code. 
+
+There are several reasons why you may choose to use a different toolset. 
+See [Analysis Toolset]({filename}intermediate_toolset.md) for more details and options.
+
+## Every analysis is an approximation  
+
+We can also say that every test is an approximation:  
 
 > In these procedures, simplifying assumptions are required to
 make analyses possible, imperfect simulations are required, and demonstration tests are not always
@@ -29,12 +38,12 @@ conservativeness required in design, analysis, and test to compensate for uncert
 Whether an analysis or test is "good enough" requires experience and engineering judgement. 
 Seeing many comparisons between analysis and test can help give the experience required to make informed judgements. 
 Also, experience informs what type of simplifying assumptions are likely to be valid, 
-if the assumptions are reliably "conservative" 
+if the assumptions are to be reliably "conservative" 
 (will give results that are predictably too high or too low, 
 depending on which direction is considered "conservative").  
 
 The examples here will show where credible methods yield similar, 
-but not identical, results. 
+but not identical, results.  
 
 ## Intermediate level topics  
 
