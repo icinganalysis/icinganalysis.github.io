@@ -2,7 +2,6 @@ Title: Flight
 header: The Basics of Aircraft Icing
 Date: 2024-02-12 13:00  
 tags: basics, flight in icing  
-status: draft  
 rights: CC-BY-NC-SA 4.0
 
 ### Effects of icing in flight  

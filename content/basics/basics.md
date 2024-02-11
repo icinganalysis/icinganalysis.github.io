@@ -2,7 +2,6 @@ Title: The Basics
 header: The Basics of Aircraft Icing
 Date: 2024-02-12 12:00  
 tags: basics  
-status: draft  
 rights: CC-BY-NC-SA 4.0
  
 ["Glaze Ice"]({filename}Nomenclature.md#glaze-ice) formed in flight on an airplane:  

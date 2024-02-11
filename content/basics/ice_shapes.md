@@ -2,10 +2,9 @@ Title: Ice Shapes
 header: The Basics of Aircraft Icing  
 Date: 2024-02-12 15:00  
 tags: basics, ice shapes, thermodynamics  
-status: draft  
 rights: CC-BY-NC-SA 4.0  
 
-### Types of ice shapes  
+### Types of ice shapes   
 
 As ice accumulates on a wing, it changes the shape of the airfoil. 
 The ice that forms is sometimes called an ["Ice accretion"]({filename}Nomenclature.md#ice-accretion) in the literature. 
