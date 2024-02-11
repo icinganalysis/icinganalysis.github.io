@@ -223,7 +223,7 @@ While The Basics assume little prior knowledge,
 they assume that you are interested in further learning about aircraft icing. 
 They are not aimed at the general-public.
 
-"Intermediate" topics, which require mathematics and computer skills. 
+"Intermediate" topics require mathematics and computer skills. 
 These are in-work, but not yet available:  
 
 - Using handbook design and analysis methods  
