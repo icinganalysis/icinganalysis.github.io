@@ -30,8 +30,9 @@ Your company, institution, or customer may have policies on which kinds of softw
 required, encouraged, discouraged, or prohibited. 
 You may have signed an agreement that any 
 software you developed on paid time is someone else's property. 
+Your company may decide to start or stop paying for the licence for a particular piece of software.
 
-However, you may not work at the same place your entire career, 
+You might not work at the same place your entire career, 
 so consider having a portable toolset. 
 
 ### Bespoke analysis  
