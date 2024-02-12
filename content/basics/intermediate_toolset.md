@@ -28,6 +28,7 @@ you will build your personal and software capabilities and skills.
 Your toolset at a particular time may not be entirely your choice. 
 Your company, institution, or customer may have policies on which kinds of software are 
 required, encouraged, discouraged, or prohibited. 
+Some codes have by-country use restrictions. 
 You may have signed an agreement that any 
 software you developed on paid time is someone else's property. 
 Your company may decide to start or stop paying for the licence for a particular piece of software.
