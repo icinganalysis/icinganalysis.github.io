@@ -21,7 +21,7 @@ By doing so, you can build your personal and software capabilities and skills.
 Example calculations are provided here in the Python programming language, 
 and using the NASA-provided LEWICE code. 
 
-There are several reasons why you may choose to use a different toolset. 
+There are several reasons why you might choose to use a different toolset. 
 See [Analysis Toolset]({filename}intermediate_toolset.md) for more details and options.
 
 ## Every analysis is an approximation  

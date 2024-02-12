@@ -65,7 +65,7 @@ For any software that you use, you should be familiar with the license.
 I have found the python programming language to be the most productive, portable, 
 interoperable, and reusable option of those that I have used 
 (C, Fortran, Java, Javascript, Matlab, spreadsheets with code extensions, and a few others). 
-However, you may opt for (or be mandated to use) a different toolset.
+However, you might opt for (or be mandated to use) a different toolset.
 (For the few cases where high performance computation is really required, I use FORTRAN.)
 
 If you opt for a different toolset, some example input files are provided in a .csv format, 
@@ -73,7 +73,7 @@ which any toolset can presumably read.
 
 ### Computational Fluid Dynamics (CFD) analysis with icing capabilities  
 
-Examples are included here using the NASA-provided LEWICE analysis tool. 
+Examples are included here using the NASA-provided LEWICE analysis tool (the two-dimensional analysis version). 
 An advantage of LEWICE is that most analyses run quickly (on the order of minutes or less), 
 even on lower capability platforms (such as my 10-year-old laptop). 
 
@@ -115,3 +115,5 @@ Also, the results may not be exactly the same as the examples, and are not neces
 
 The handbook analysis methods and bespoke code are still used today, 
 as in many situations they yield accurate enough results in much less time than more complex methods.  
+
+<!-- navigation patch -->
