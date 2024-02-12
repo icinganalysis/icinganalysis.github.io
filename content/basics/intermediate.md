@@ -10,7 +10,7 @@ rights: CC-BY-NC-SA 4.0
 After [The Basics]({filename}basics.md), you are ready for Intermediate level aircraft icing topics:  
 
 - Using handbook analysis methods  
-- Using computerized icing analysis tools  
+- Using computer icing analysis tools  
 - Preliminary ice protection system sizing  
 
 ### Prerequisite: Select your toolset  
@@ -86,33 +86,6 @@ conventional choice is not always obvious
 I was initially hired as a thermal analyst (decades ago), 
 and once they found out that I also knew some physics of drops they asked 
 "Can you run this LEWICE program?"
-
-
-
-### Yes to 1D and 2D analysis, no to 3D here  
-
-Three-dimensional (3D) analysis offers many challenges. 
-Surface geometry files have several formats. 
-Creating a quality 3D analysis grid is often "half the battle" for achieving a reliable result. 
-Output files from computational fluid dynamics (CFD) analysis can be very large, 
-and even larger with water drop trajectory data is included. 
-Displaying and interpreting 3D data can be difficult. 
-
-As this series is about icing, we will focus on that, 
-and use 1D and 2D analysis that illustrate the principles. 
-1D and 2D geometry should be tractable for anyone with an engineering, math, or science background. 
-You will have to go somewhere else to learn the 3D geometry skills. 
-
-### Potential flow is good enough  
-
-Different CFD programs have different approximations for modeling (RANS, DES, etc.). 
-The cases for icing calculations where those make a significant difference are few and far between. 
-The examples here will use LEWICE with the default potential flow solver. 
-
-A case where those differing approximations might make a difference is calculating the aerodynamic effects of ice. 
-I would describe the current state of the art for that, with any solver, as very approximate. 
-It is hard enough to get an accurate result without ice, let alone with ice. 
-We will not delve further into that topic here.  
 -->
 
 
