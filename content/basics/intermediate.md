@@ -52,7 +52,7 @@ but not identical, results.
 - skill: use correlations to calculate water drop impingement on a surface
     - [DOT/FAA/CT-88-1 Examples 2-1 through 2.4]({filename}intermediate_water_catch_examples.md)  
 - skill: use equations of motion to calculate water drop impingement  
-    - [Computerized Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md): Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)    
+    - [Computer Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md): Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)    
 
 ### ice formation  
 

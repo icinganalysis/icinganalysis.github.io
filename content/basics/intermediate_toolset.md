@@ -17,7 +17,7 @@ and using the NASA-provided LEWICE code.
 You are highly encouraged to perform the analysis described in the examples (and not just read the examples). 
 Some examples can be accomplished with hand calculations, while other require computational capabilities. 
 
-You need to select your toolset.
+You need to select your toolset. 
 
 ### Consider your current and future uses  
 
@@ -88,15 +88,22 @@ There several other commercial icing analysis tools available,
 but the cost of a license may be prohibitive to beginners (some offer student licenses). 
 The computing hardware performance requirements may be challenging 
 (they run well on a high-performance cloud computing system, but not so much on my 10-year-old laptop). 
-These tools are, in general, fundamentally 3D based. 
+These tools are, in general, fundamentally 3D based.  
+
+### Two-dimensional analysis (only) is used here  
+
+There are situations where three-dimensional tools have clear advantages. 
+The examples from the Aircraft Icing Handbook are two-dimensional. 
+So, two-dimensional analysis is adequate for those cases.  
+
+It is beyond this scope to explain how to use the wide variety of 3D codes now available. 
 
 ### Select the right tool for the task  
 
 You might have access to a three-dimensional computational fluid dynamics code 
 with icing simulation capabilities. If so, you are encouraged to try it on the examples here. 
 You will have to use some creative constraints to run the equivalent 2D cases here. 
-You may find that much time is required to set up the analysis and extract 
-results in a format similar to the examples. 
+You may find that much time is required to set up the analysis. 
 Also, the results may not be exactly the same as the examples, and are not necessarily more accurate. 
 
 The handbook analysis methods and bespoke code are still used today, 
