@@ -59,7 +59,7 @@ but not identical, results.
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
 - skill: calculate ice shapes  
-    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)    
+    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 
 ### ice protection  
 
@@ -76,7 +76,6 @@ comparison of analysis to test
 reverse engineering/inferring values  
 simplifying problems  
 estimation  
-every calculation is an estimate or approximation  
 Python for the win!  
 
 >the characteristic length used in the calculation of Ko is a matter of convention and the
