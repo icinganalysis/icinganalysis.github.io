@@ -21,13 +21,18 @@ You need to select your toolset.
 
 ### Consider your current and future uses  
 
+A toolset is an investment of your time and resources. 
 By performing the calculation of the examples used here, 
 you will build your personal and software capabilities and skills.  
 
+Your toolset at a particular time may not be entirely your choice. 
 Your company, institution, or customer may have policies on which kinds of software are 
 required, encouraged, discouraged, or prohibited. 
 You may have signed an agreement that any 
-software you developed on paid time is someone else's property.
+software you developed on paid time is someone else's property. 
+
+However, you may not work at the same place your entire career, 
+so consider having a portable toolset. 
 
 ### Bespoke analysis  
 
@@ -107,4 +112,4 @@ You may find that much time is required to set up the analysis.
 Also, the results may not be exactly the same as the examples, and are not necessarily more accurate. 
 
 The handbook analysis methods and bespoke code are still used today, 
-as in many situation they yield accurate enough results in much less time than more complex methods.  
+as in many situations they yield accurate enough results in much less time than more complex methods.  
