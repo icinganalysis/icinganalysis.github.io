@@ -1,7 +1,7 @@
 Title: __Analysis Toolset    
 header: The Basics: Intermediate Topics  
-Date: 2024-01-28 12:00  
-tags: intermediate topics, analysis tools   
+Date: 2024-03-04 13:00  
+tags: intermediate topics, analysis tools, Python, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
@@ -62,11 +62,11 @@ The LGPL license is not entirely unique in this respect,
 as I have seen similar language for some commercial software. 
 For any software that you use, you should be familiar with the license. 
 
-I have found the python programming language to be the most productive, portable, 
+I have found the Python programming language to be the most productive, portable, 
 interoperable, and reusable option of those that I have used 
 (C, Fortran, Java, Javascript, Matlab, spreadsheets with code extensions, and a few others). 
 However, you might opt for (or be mandated to use) a different toolset.
-(For the few cases where high performance computation is really required, I use FORTRAN.)
+(For the few cases where high performance computation is really required, I use FORTRAN. [^1])
 
 If you opt for a different toolset, some example input files are provided in a .csv format, 
 which any toolset can presumably read. 
@@ -114,6 +114,10 @@ You may find that much time is required to set up the analysis.
 Also, the results may not be exactly the same as the examples, and are not necessarily more accurate. 
 
 The handbook analysis methods and bespoke code are still used today, 
-as in many situations they yield accurate enough results in much less time than more complex methods.  
+as in many situations they yield accurate enough results in much less time than more complex methods.
+
+## Notes
+
+[^1]: Yes, the old-school, capitalized [FORTRAN 77](https://en.wikipedia.org/wiki/Fortran#FORTRAN_77)  
 
 <!-- navigation patch -->

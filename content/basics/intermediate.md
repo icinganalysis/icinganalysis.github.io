@@ -1,6 +1,6 @@
 Title: Intermediate Level   
 header: The Basics: Intermediate Topics  
-Date: 2024-01-28 12:00  
+Date: 2024-03-04 12:00  
 tags: intermediate topics,  
 status: draft  
 rights: CC-BY-NC-SA 4.0  
@@ -21,7 +21,7 @@ By doing so, you can build your personal and software capabilities and skills.
 Example calculations are provided here in the Python programming language, 
 and using the NASA-provided LEWICE code. 
 
-There are several reasons why you might choose to use a different toolset. 
+There are several reasons why you might use a different toolset. 
 See [Analysis Toolset]({filename}intermediate_toolset.md) for more details and options.
 
 ## Every analysis is an approximation  
@@ -66,6 +66,10 @@ but not identical, results.
 - Skill: calculate heat required for thermal ice protection  
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/), and compare to the handbook values.  
+
+## Related  
+
+Back to [The Basics]({filename}basics.md).  
 
 <!--
 
