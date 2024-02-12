@@ -13,7 +13,7 @@ After [The Basics]({filename}basics.md), you are ready for Intermediate level ai
 - Using computer icing analysis tools  
 - Preliminary ice protection system sizing  
 
-### Prerequisite: Select your toolset  
+## Prerequisite: Select your toolset  
 
 You are encouraged to run code to reproduce the examples used here. 
 By doing so, you can build your personal and software capabilities and skills.  
