@@ -84,6 +84,7 @@ PSI_PER_PA = 1.450377319e-4
 LBF_PER_N = 4.4482216153
 GC_IMPERIAL = 32.174  # lbm-ft/(lbf-s^2)
 LBM_PER_SLUG = 32.174
+W_PER_KW = 1000
 
 
 def tf_to_k(tf):
