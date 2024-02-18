@@ -3,32 +3,23 @@ Reviews of the NACA-era aircraft icing publications, 1915 to 1958.
 
 - Latest posts:
 
-The Porter Perkins series has started https://icinganalysis.com/drafts/porter-perkins.html
-Propellers https://icinganalysis.com/propeller-publications-by-porter-perkins.html
-Meteorology https://icinganalysis.com/meteorology-publications-by-porter-perkins.html
+Does the world need Yet Another Introduction to Aircraft Icing (YAItAI)?
+The Basics: Flight basics https://icinganalysis.com/flight.html
 
 - What is in work:
 
-Airships https://icinganalysis.com/airships.html
-
-Does the world need Yet Another Introduction to Aircraft Icing (YAItAI)?
-Why not, see a draft at https://icinganalysis.com/drafts/the-basics.html
+The Intermediate level of The Basics is in the draft stage
+http://icinganalysis.com/drafts/__intermediate-level.html
 
 - Latest finds:
 
-"Electronic Aircraft Icing Handbook"
-This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods",
-as well as files for analyzing water drop spectrum data, and a database of icing references circa 2007.
-This is mentioned in "Aircraft Ice Protection" AC 20-73A https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf,
-but I could not find it on a current FAA website.
-You can view the version from 2008 at
-https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm
+"Determination of Ice Shapes and Their Effect on the Aerodynamic Characteristics for the Unprotected Tail of the A300"
+https://www.icas.org/ICAS_ARCHIVE/ICAS1974/Page%20409%20Laschka_Jesse.pdf
 
-- Public Domain Image of the Week:
+- Public Domain? Image of the Week:
 
-NACA-TN-4220 Figure 5a. Location of snow catch observed on airship envelope.
-(a) Snow distributed along top of envelope following 2-hour flight in light to moderate snow at -2 to -6 C.
-https://icinganalysis.com/images%2FNACA-TN-4220%2FFigure%205a.png
+ASME Landmarks, #117 Icing Research Tunnel, NASA Lewis Research Center
+https://www.asme.org/about-asme/engineering-history/landmarks/117-icing-research-tunnel
 
 - The secret newsletter archive
 
