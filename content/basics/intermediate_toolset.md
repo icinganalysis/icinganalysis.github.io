@@ -59,7 +59,7 @@ LIBRARY IS WITH YOU.  SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME
 THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
 The LGPL license is not entirely unique in this respect, 
-as I have seen similar language for some commercial software. 
+as I have seen similar language for other software, including LEWICE. 
 For any software that you use, you should be familiar with the license. 
 
 I have found the Python programming language to be the most productive, portable, 
@@ -115,6 +115,16 @@ Also, the results may not be exactly the same as the examples, and are not neces
 
 The handbook analysis methods and bespoke code are still used today, 
 as in many situations they yield accurate enough results in much less time than more complex methods.
+
+## Resources  
+
+LEWICE software [grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+
+User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
+
+Validation Results for LEWICE 2.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
+
+Validation Results for LEWICE 3.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
 
 ## Notes
 
