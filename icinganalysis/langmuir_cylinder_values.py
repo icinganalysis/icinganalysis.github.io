@@ -271,6 +271,14 @@ def calc_ko_cylinder(tk, p, u, drop_diameter_micrometer, d_cylinder):
     return ko
 
 
+def calc_ko_d2(tk, p, u, drop_diameter_micrometer, d_cylinder):
+    re_drop = calc_re(tk, p, u, drop_diameter_micrometer / MICROMETERS_PER_METER)
+    lambda_lambda_s = calc_lambda_lambda_s(re_drop)
+    k = calc_k(tk, u, drop_diameter_micrometer, d_cylinder)
+    ko = lambda_lambda_s * k
+    return ko
+
+
 # fmt: off
 delta_em_interpolator = interp1d(  # Table V em, delta_em values
     (0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5),
