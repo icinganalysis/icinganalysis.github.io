@@ -10,14 +10,14 @@ tags: cylinders, conclusions
 ## Summary  
 Data from the post-NACA era are used to resolve open questions 
 
-## Key points
+## Key points  
 1. The Cylinders thread is summarized
 2. Post-NACA era data is used to resolve some open questions.
 3. NACA era data that are still used today are summarized
 
-## Discussion
+## Discussion   
 
-### Review of the Cylinders thread so far
+### Review of the Cylinders thread so far  
 
 In the Cylinders thread, we saw:
 
@@ -93,6 +93,7 @@ We will use it to get calculated water impingement rate values to compare to oth
 ### Comparison of impingement calculation methods
 
 We can use the detailed drop distribution data from NASA-CR-4257 to calculate water catch rate curves on the cylinder. 
+Note that the midpoint of the drop bin size boundaries is used for the representative drop size of the bin.  
 
 The NACA-TN-2904 method tends to give higher values for both the maximum Beta value 
 and the total water catch Em value, compared to the test and to the other analysis methods. 
