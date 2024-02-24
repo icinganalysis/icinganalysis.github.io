@@ -108,23 +108,23 @@ The Breer method trends slightly lower.
 
 The results are compared in tables below. 
 The theta_max values for the Breer method may not have been digitized well by me, 
-as they were difficult to discern from the figures. 
- 
-| Method                | Em    | Beta_max | Theta_max (degrees) |
-|-----------------------|-------|----------|---------------------|
-| Test Figure 6.6A      | 0.380 | 0.540    | 69.9                |
-| Breer analysis        | 0.352 | 0.520    | 81.2                |
-| LEWICE                | 0.373 | 0.556    | 81.6                |
-| NACA-TN-2904          | 0.397 | 0.620    | 82.0                |
-| Langmuir and Blodgett | 0.376 | 0.540    | 81.7                |
+as they were difficult to discern from the figures.
 
-| Method                | Em    | Beta_max | Theta_max (degrees) |
-|-----------------------|-------|----------|---------------------|
-| Test Figure 6.6B      | 0.245 | 0.430    | 63.2                |
-| Breer analysis        | 0.259 | 0.445    | 69.9                |
-| LEWICE                | 0.288 | 0.480    | 79.8                |
-| NACA-TN-2904          | 0.308 | 0.549    | 80.9                |
-| Langmuir and Blodgett | 0.287 | 0.461    | 80.2                |
+| Method             | Em   |Beta_max|Theta_max|
+|--------------------|------|---     |---|
+| Test Figure 6.6A   | 0.380 |0.540   |69.9|
+| Breer              | 0.352 |0.520   |81.2|
+| LEWICE             |0.345|0.522   |81.0|
+| NACA-TN-2904       | 0.367 |0.586   |82.0|
+|  Langmuir-Blodgett | 0.347 |0.508   |81.6|
+
+|Method           |Em   |Beta_max|Theta_max|
+|---              |---  |---     |---      |
+|Test Figure 6.6B |0.245|0.430   |63.2     |
+|Breer            |0.259|0.445   |69.9     |
+|LEWICE           |0.256|0.439   |80.0     |
+|NACA-TN-2904     |0.273|0.504   |80.9     |
+|Langmuir-Blodgett|0.254|0.423   |79.9     |
 
 While I am inclined to view the Langmuir and Blodgett method as more accurate than the NACA-TN-2904 method, 
 I would like to see more impingement data to determine it with more confidence. 
