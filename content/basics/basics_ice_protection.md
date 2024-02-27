@@ -1,9 +1,9 @@
 Title: Ice Protection Basics   
 header: The Basics of Aircraft Icing
-Date: 2024-01-15 16:00  
+Date: 2024-02-12 16:00  
 tags: basics  
 rights: CC-BY-NC-SA 4.0
- 
+
 Several areas of the airplane may require ice protection: 
 
 ![Figure 3-1. Areas of Airframe that May Require Ice Protection. 

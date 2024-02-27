@@ -44,7 +44,7 @@ Here are the computed ice shapes:
 
 ![lewice2d_example2_2_ice_tf_m25.png](..%2Fimages%2Fbasics%2Flewice2d_example2_2_ice_tf_m25.png)  
 
-The ice calculated at -22F agrees well with the ice thickness from the handbook.  
+The ice calculated at -22F agrees well with the ice thickness from the handbook example.  
 
 ```text
 Method                          Leading edge ice thick, inch
@@ -53,4 +53,16 @@ Standard Computational Model    0.393
 LEWICE -4F                      0.32
 LEWICE -22F                     0.39
 ```
+
+## A partial explanation  
+
+The integral boundary layer method implementation used in LEWICE typically calculates low values of 
+heat transfer coefficient near the stagnation line. In this case, the value is zero.  
+
+![lewice2d_example2_2_htc_tf_-4.png](..%2F..%2Ficinganalysis%2Flewice%2FNACA0012_impingement%2Flewice2d_example2_2_htc_tf_-4.png)
+
+As such, LEWICE treats the stagnation line as a special case, 
+
+
+![lewice2d_example2_2_ff_tf_-4.png](..%2F..%2Ficinganalysis%2Flewice%2FNACA0012_impingement%2Flewice2d_example2_2_ff_tf_-4.png)
 
