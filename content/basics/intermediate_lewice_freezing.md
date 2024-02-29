@@ -78,24 +78,18 @@ so we will assume the same value as example 2-4.
 
 ![Table 2-5 to 2-8 LEWICE 300 s prt1.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%20300%20s%20prt1.png)  
 
-The results do not appear to agree well.  
+The results do not appear to agree well. 
+Many of the LEWICE results are that the freezing fraction is 1, 
+while the Table 2-5 to 2-8 values show a range of results.  
 
 ## A partial explanation  
 
-The integral boundary layer method implementation used in LEWICE typically calculates low values of 
-heat transfer coefficient near the stagnation line. In this case, the reported value is zero.  
+The integral boundary layer method implementation used in LEWICE has results that agree reasonably well 
+with the stagnation line results from the Standard Computational Model. 
+So, differing heat transfer coefficient values are only a small component in the differences. 
+Here is the Table 2-5-a case at -8C temperature:  
 
-![lewice2d_example2_2_htc_tf_-4.png](..%2F..%2Ficinganalysis%2Flewice%2FNACA0012_impingement%2Flewice2d_example2_2_htc_tf_-4.png)  
-
-As such, LEWICE treats the stagnation line as a special case
-(see subroutine stagf in the LEWICE source file ice.f, if you have access to it). 
-The results may not be what you intuitively expected.  
-
-![lewice2d_example2_2_ff_tf_-4.png](..%2F..%2Ficinganalysis%2Flewice%2FNACA0012_impingement%2Flewice2d_example2_2_ff_tf_-4.png)  
-
-![Table 2-5 LEWICE -8C htc zoom.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20-8C%20htc%20zoom.png)
-
-![Table 2-5 LEWICE -8C ff with near.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20-8C%20ff%20with%20near.png)
+![Table 2-5 LEWICE -8C htc full scale.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)  
 
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
 
@@ -108,12 +102,8 @@ The LEWICE implementation adds a heat term to the Messinger heat balance for con
 
 While the manual is not explicit, this is a transient heat term that changes with time
 (you have to review the code to get the details). 
-So, the time step used affects the analysis. 
+The time step used affects the analysis. 
 
-A longer icing time reduces, but does not eliminate, the transient effect.  
 
-![Table 2-5 to 2-8 LEWICE 3000 s.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%203000%20s.png)  
 
-![Table 2-5 to 2-8 LEWICE 300 s near le.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%20300%20s%20near%20le.png)
 
-![Table 2-5 to 2-8 LEWICE 3000 s near le.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%203000%20s%20near%20le.png)  
