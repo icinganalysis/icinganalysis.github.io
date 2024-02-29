@@ -76,7 +76,7 @@ LEWICE -22F                     0.39
 The icing time was not specified, 
 so we will assume the same value as example 2-4.  
 
-![Table 2-5 to 2-8 LEWICE 300 s.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%20300%20s.png)  
+![Table 2-5 to 2-8 LEWICE 300 s prt1.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%20300%20s%20prt1.png)  
 
 The results do not appear to agree well.  
 
