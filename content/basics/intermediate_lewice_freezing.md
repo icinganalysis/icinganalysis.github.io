@@ -91,18 +91,30 @@ Here is the Table 2-5-a case at -8C temperature:
 
 ![Table 2-5 LEWICE -8C htc full scale.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)  
 
+However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  
+ 
+![Table 2-5 LEWICE beta.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20beta.png)  
+
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
 
 >The icing model, which was first developed by Messinger, is used to calculate the ice growth rate at each point on the surface of the geometry.  
 
 The LEWICE implementation adds a heat term to the Messinger heat balance for conduction to the surface where ice is forming
-(the first term in the equation below):  
+(the unnamed, first term in the equation below):  
 
-![16_2_1 energy balance.png](..%2Fimages%2FLEWICE%20manual%2F16_2_1%20energy%20balance.png)  
+![21_17_2 Energy Balance Equation Requirements.png](..%2Fimages%2Fbasics%2F21_17_2%20Energy%20Balance%20Equation%20Requirements.png)  
 
 While the manual is not explicit, this is a transient heat term that changes with time
 (you have to review the code to get the details). 
 The time step used affects the analysis. 
+
+## Resources  
+
+User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
+Note that a "manual.pdf" file comes with the LEWICE software distribution (apparently for version 3.0), 
+and a file "Lew32manual_changes.doc". 
+I find it easier to just use the Version 3.2 manual.  
+
 
 
 
