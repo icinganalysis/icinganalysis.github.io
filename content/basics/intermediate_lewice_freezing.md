@@ -82,7 +82,7 @@ The results do not appear to agree well.
 Many of the LEWICE results are that the freezing fraction is 1, 
 while the Table 2-5 to 2-8 values show a range of results.  
 
-## A partial explanation  
+## A partial explanation of differences in reported freezing fraction  
 
 The integral boundary layer method implementation used in LEWICE has results that agree reasonably well 
 with the stagnation line results from the Standard Computational Model. 
