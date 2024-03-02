@@ -5,6 +5,12 @@ tags: intermediate topics, ice shape, LEWICE
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
+![Figure 4.8: Identification of the control volume used to formulate the thermodynamic equation  
+a. Single control volume on the icing surface.  
+b. Thermodynamic control volumes over each segment defining the body geometry  
+](..%2Fimages%2Fbasics%2FLEWICE%20control%20volumes.png)  
+_from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
+
 ## Summary  
 
 ## Prerequisites  
@@ -15,6 +21,9 @@ You need to select a computerized tool to work with.
 See [Analysis Toolset]({filename}intermediate_toolset.md) 
 for obtaining LEWICE, and some other options.  
 
+If you have chosen to use LEWICE, but you have not run it before, see 
+[LEWICE Quick Start]({filename}LEWICE%20quickstart.md).  
+
 ## Introduction  
 
 We will compare energy balance terms and freezing rates calculated with the 
@@ -24,7 +33,7 @@ The values found by differing methods are generally similar, but rarely identica
 
 ## Aircraft Icing Handbook Example 2-4  
 
->The mass of ice accretion on the NACA 0012 section will be calculated. Using the same flight
+>The mass of ice accretion on the NACA 0012 section will be calculated. Using the same flight 
 conditions as Example 2-1. and the droplet size distribution and value from Example 2-3:  
 
 ```text
