@@ -81,6 +81,8 @@ LEWICE is directly available for "U.S. Release Only".
 There are other, similar non-commercial tools, some with similar by-country restrictions, 
 that presumably yield similar results.  
 
+<a name="LewInt">
+
 If you are not in the U.S.A., for LEWICE consider LewInt, which has a broader licensing agreement, 
 from [americankestrelco.com](https://americankestrelco.com/LewInt.html):  
 >LewInt integrates the ice accretion code LEWICE (version 3.2.2) with American Kestrel's user interface, icing analysis tools, and automated plotting. LEWICE 3.2.2 is a validated ice accretion code developed by NASA Glenn Research Center.  
