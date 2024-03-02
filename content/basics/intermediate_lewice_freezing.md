@@ -15,22 +15,12 @@ You need to select a computerized tool to work with.
 See [Analysis Toolset]({filename}intermediate_toolset.md) 
 for obtaining LEWICE, and some other options.  
 
-I make several comments here about some unique features of the LEWICE code. 
-Some readers may consider these to be quirks, unexpected behaviors, or bugs. 
-However, do not interpret these comments as recommending against the use of LEWICE. 
-LEWICE is the most well characterized code available, 
-and the LEWICE validation report shows that the behaviors do not have noticeable 
-negative effects in the overall ice shape agreement. 
-They are more evident for "edge cases", such as when comparing stagnation line values. 
+## Introduction  
 
-It is a testament to NASA that the LEWICE code and source code are publicly available
-(at least in the USA), so you can investigate the reasons for unexpected behaviors.  
+We will compare energy balance terms and freezing rates calculated with the 
+Standard Computational Model and LEWICE (or the tool that you have selected).  
 
-I have used commercial codes. 
-While they may not have the identical behaviors detailed here, 
-they have their own unexpected behaviors. 
-You generally cannot access the source code, 
-and the developers may or may not be able to explain the behaviors.  
+The values found by differing methods are generally similar, but rarely identical. 
 
 ## Aircraft Icing Handbook Example 2-4  
 
@@ -81,6 +71,19 @@ so we will assume the same value as example 2-4.
 The results do not appear to agree well. 
 Many of the LEWICE results are that the freezing fraction is 1, 
 while the Table 2-5 to 2-8 values show a range of results.  
+
+## Freezing rates  
+
+While the freezing fraction is a non-dimensional term, 
+freezing rate is a dimensional term (kg/m^2-s). 
+
+The freezing rate can be used to calculate ice thickness, 
+and with a multiple control volume analysis, ice shapes. 
+
+Results from LEWICE and the Standard Computational Model are compared below. 
+General trends agree, but the values may have large differences. 
+
+![LEWICE SCM freeze rate comparison.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FLEWICE%20SCM%20freeze%20rate%20comparison.png)  
 
 ## A partial explanation of differences in reported freezing fraction  
 

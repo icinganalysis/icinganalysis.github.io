@@ -58,8 +58,14 @@ but not identical, results.
 
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
+    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 - skill: calculate ice shapes  
     - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+
+### Using icing conditions definitions  
+
+- skill: use the Appendix C icing envelopes  
+  - Identify conditions that yield the maximum freezing rate for given geometries and flight conditions   
 
 ### ice protection  
 
