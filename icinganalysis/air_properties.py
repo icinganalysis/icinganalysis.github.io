@@ -16,6 +16,8 @@ SPECIFIC_HEAT_AIR = 1000  # J/kg-K
 GAMMA_AIR = 1.401
 R_AIR = 287.05  # J/kg-K
 MOLECULAR_MASS = 0.0289647  # kg/mol
+P_std = 101325  # Pa
+TK_std = 288.15  # K
 
 
 def calc_air_thermal_conductivity(tk):
@@ -40,9 +42,9 @@ def calc_air_density(tk, p):
 
 
 def calc_pressure(altitude):
-    p = 101325 * (1 - 2.25577e-5 * altitude) ** 5.25588
+    p = P_std * (1 - 2.25577e-5 * altitude) ** 5.25588
     return p
 
 
 def calc_altitude(pressure):
-    return (1 - (pressure / 101325) ** (1 / 5.25588)) / 2.25577e-5
+    return (1 - (pressure / P_std) ** (1 / 5.25588)) / 2.25577e-5

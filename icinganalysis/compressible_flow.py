@@ -214,6 +214,32 @@ def get_t_p_u_mach_local_from(p_local, t, p, u):
     return t_local, p_local, u_local, mach_local
 
 
+def calc_eas(u, p, po=air_properties.P_std):
+    tas = u
+    eas = tas * (p/po)**0.5
+    return eas
+
+
+def calc_eas_from(tas, p, po=air_properties.P_std):
+    eas = tas * (p/po)**0.5
+    return eas
+
+
+def calc_tas_from(eas, p, po=air_properties.P_std):
+    tas = eas / (p/po)**0.5
+    return tas
+
+
+def calc_qc(mach, p):
+    qc = p*((1+0.2*mach**2)**3.5-1)
+    return qc
+
+
+def calc_mach_from(qc, p):
+    mach = (5*(qc/p+1)**(2/7)-1)**0.5
+    return mach
+
+
 if __name__ == "__main__":
     tk = 273.15
     c = (air_properties.GAMMA_AIR * air_properties.R_AIR * tk) ** 0.5
