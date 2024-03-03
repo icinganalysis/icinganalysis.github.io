@@ -66,7 +66,7 @@ The water collection efficiency can also be zero for some cases
 The trajectories of water-drops that impinge are used to calculate the collection efficiency, 
 which is the ratio of the area of impingement to the frontal area (Em in the figure below). 
 
-![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiecncy.](/images/basics/LEWICE%201990%20Figure%204.2.png)  
+![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiecncy.](/images/basics/LEWICE%201990%20Figure%204_2.png)  
 _from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
 
 The water drops do not impinge everywhere on a surface, they tend to 
