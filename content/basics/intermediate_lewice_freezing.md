@@ -75,7 +75,8 @@ LEWICE -22F                     0.39
 The icing time was not specified, 
 so we will assume the same value as example 2-4.  
 
-![Table 2-5 to 2-8 LEWICE 300 s prt1.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20to%202-8%20LEWICE%20300%20s%20prt1.png)  
+![Table 2-5 to 2-8 LEWICE 60 s prt1.png](/images/basics/Table%202-5%20to%202-8%20LEWICE%2060%20s%20prt1.png)  
+_Public Domain by Donald Cook._  
 
 The results do not appear to agree well. 
 Many of the LEWICE results are that the freezing fraction is 1, 
@@ -90,9 +91,9 @@ The freezing rate can be used to calculate ice thickness,
 and with a multiple control volume analysis, ice shapes. 
 
 Results from LEWICE and the Standard Computational Model are compared below. 
-General trends agree, but the values may have large differences. 
+General trends agree, but the values may have large differences.  
 
-![LEWICE SCM freeze rate comparison.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FLEWICE%20SCM%20freeze%20rate%20comparison.png)  
+![LEWICE SCM freeze rate comparison.png](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)
 
 ## A partial explanation of differences in reported freezing fraction  
 
@@ -101,16 +102,17 @@ with the stagnation line results from the Standard Computational Model.
 So, differing heat transfer coefficient values are only a small component in the differences. 
 Here is the Table 2-5-a case at -8C temperature:  
 
-![Table 2-5 LEWICE -8C htc full scale.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)  
+![Table 2-5 LEWICE -8C htc full scale.png](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)
 
 However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  
- 
-![Table 2-5 LEWICE beta.png](..%2F..%2Ficinganalysis%2Flewice%2Fhandbook_20cm_cylinder%2FTable%202-5%20LEWICE%20beta.png)  
+
+![Table 2-5 LEWICE beta.png](/images/basics/Table%202-5%20LEWICE%20beta.png)  
 
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
 
 >The icing model, which was first developed by Messinger, is used to calculate the ice growth rate at each point on the surface of the geometry.  
 
+However, it actually uses a modified Messinger method. 
 The LEWICE implementation adds a heat term to the Messinger heat balance for conduction to the surface where ice is forming
 (the unnamed, first term in the equation below):  
 

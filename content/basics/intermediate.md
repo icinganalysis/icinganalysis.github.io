@@ -5,12 +5,13 @@ tags: intermediate topics,
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
-![Figure 2-71. Effect of total temperature on the ice shape.](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-71%20crop.png)  
+![Figure 2-71. Effect of total temperature on the ice shape.](/images/FAA%20Handbook%20volume%201%2FFigure%202-71%20crop.png)  
 _From "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
-## Summary 
+## Summary  
 
-After [The Basics]({filename}basics.md), you are ready for Intermediate level aircraft icing topics:  
+After [The Basics]({filename}basics.md), 
+you are ready for Intermediate level aircraft icing topics:  
 
 - Using handbook analysis methods  
 - Using computer icing analysis tools  
@@ -25,7 +26,7 @@ Example calculations are provided here in the Python programming language,
 and using the NASA-provided LEWICE code. 
 
 There are several reasons why you might use a different toolset. 
-See [Analysis Toolset]({filename}intermediate_toolset.md) for more details and options.
+See [Analysis Toolset]({filename}intermediate_toolset.md) for more details and options.  
 
 ## Every analysis is an approximation  
 
@@ -61,7 +62,7 @@ but not identical, results.
 
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
-    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+    - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 - skill: calculate ice shapes  
     - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 

@@ -63,10 +63,11 @@ The water collection efficiency can also be zero for some cases
 
 <a name="figure-collection-efficiency"></a>
 
-Collection efficiency is the ratio of the area of impingement to the frontal area (Em or Percentage Catch in the figure below):  
+The trajectories of water-drops that impinge are used to calculate the collection efficiency, 
+which is the ratio of the area of impingement to the frontal area (Em in the figure below). 
 
-![Figure II-3. Graphical representation of parameters used in trajectory work.](/images%2FModern%20Icing%20Technology%2FFigure%20II-3.png)   
-_from "Modern Icing Technology" 1952 [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)_  
+![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiecncy.](..%2Fimages%2Fbasics%2FLEWICE%201990%20Figure%204.2.png)  
+_from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
 
 The water drops do not impinge everywhere on a surface, they tend to 
 only hit near the leading edge. The limits of where they hit is termed 

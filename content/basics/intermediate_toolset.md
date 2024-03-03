@@ -3,7 +3,17 @@ header: The Basics: Intermediate Topics
 Date: 2024-03-04 13:00  
 tags: intermediate topics, analysis tools, Python, LEWICE   
 status: draft  
-rights: CC-BY-NC-SA 4.0  
+rights: CC-BY-NC-SA 4.0
+
+![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labelled "Input Chart". 
+The second operator turns another input chart crank. 
+Another cylinder is labelled "Droplet Trajectories". 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labelled with the differential equations of motion being solved. 
+](/images/naca-tn-2904/Figure15.png)  
+_Figure 15 of NACA-TN-2904 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606)._  
 
 ## Summary  
 
@@ -98,6 +108,8 @@ but the cost of a license may be prohibitive to beginners (some offer student li
 The computing hardware performance requirements may be challenging 
 (they run well on a high-performance cloud computing system, but not so much on my 10-year-old laptop). 
 These tools are, in general, fundamentally 3D based.  
+
+If you select LEWICE, but have not used it before, see [LEWICE Quick Start]({filename}LEWICE%20quickstart.md).  
 
 ### Two-dimensional analysis (only) is used here  
 
