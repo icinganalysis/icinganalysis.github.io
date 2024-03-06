@@ -214,19 +214,19 @@ def get_t_p_u_mach_local_from(p_local, t, p, u):
     return t_local, p_local, u_local, mach_local
 
 
-def calc_eas(u, p, po=air_properties.P_std):
+def calc_eas(u, p, t, po=air_properties.P_std, to=air_properties.TK_std):
     tas = u
-    eas = tas * (p/po)**0.5
+    eas = tas * (p*to/(po*t))**0.5
     return eas
 
 
-def calc_eas_from(tas, p, po=air_properties.P_std):
-    eas = tas * (p/po)**0.5
+def calc_eas_from(tas, p, t, po=air_properties.P_std, to=air_properties.TK_std):
+    eas = tas * (p*to/(po*t))**0.5
     return eas
 
 
-def calc_tas_from(eas, p, po=air_properties.P_std):
-    tas = eas / (p/po)**0.5
+def calc_tas_from(eas, p, t, po=air_properties.P_std, to=air_properties.TK_std):
+    tas = eas / (p*to/(po*t))**0.5
     return tas
 
 
