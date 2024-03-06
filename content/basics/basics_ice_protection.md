@@ -18,8 +18,10 @@ There are several forms of ice protection used on airplanes.
 The most commonly used for is thermal ice protection, 
 which provides heat to the area to be protected. 
 
-Thermal ice protection with enough heating provides ["Anti-Icing"]({filename}Nomenclature.md#anti-icing), 
-which prevents the formation of ice by evaporating all of the impinging water. 
+Thermal ice protection provides ["Anti-Icing"]({filename}Nomenclature.md#anti-icing) protection.
+Anti-icing with enough heating to
+prevent the formation of ice by evaporating all of the impinging water is termed 
+["Fully evaporative anti-icing"]({filename}Nomenclature.md#fully-evaporative-anti-icing). 
 This can be a demanding amount of power for large areas.  
 
 At lower power, ["Running Wet"]({filename}Nomenclature.md#running-wet) protection prevents ice over the heated area, 

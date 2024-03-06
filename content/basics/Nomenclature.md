@@ -46,6 +46,8 @@ See [figure]({filename}water_drops.md#figure-water-drop-trajectories).
 
 <a name="evaporation">__Evaporation__</a>: The process where liquid water turns to water vapor.  
 
+<a name="fully-evaporative-anti-icing">__Fully evaporative anti-icing__</a>: Anti-icing with sufficient power to prevention of ice formation on airframe surfaces.    
+
 <a name="freezing-drizzle">__Freezing Drizzle__</a>: Drizzle size water drops at temperature slightly below freezing and characterized
 by relatively large water drops that may freeze in contact with airframe surfaces.  
 
