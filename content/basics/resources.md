@@ -186,7 +186,7 @@ Has many pictures of ice protection system components.
 
 ## Courses  
 
-"ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?enroll=true&cID=33)  
+"ALC-33: Inflight Icing" [faasafety.gov](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=33)  
 >Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?  
 >In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  
 
