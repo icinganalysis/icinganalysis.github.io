@@ -69,7 +69,11 @@ but not identical, results.
 ### Using icing conditions definitions  
 
 - skill: use the Appendix C icing envelopes  
-  - Identify conditions that yield the maximum freezing rate for given geometries and flight conditions   
+  - Identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
+
+### Introduction to accuracy and variance  
+
+
 
 ### ice protection  
 
