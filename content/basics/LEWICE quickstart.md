@@ -210,15 +210,15 @@ Also see the commercially available [LewInt]({filename}intermediate_toolset.md#L
 
 ## Resources  
 
-User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
+User's Manual for LEWICE Version 3.2, NASA/CR-2008-214255 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
 Note that a "manual.pdf" file comes with the LEWICE software distribution (apparently for version 3.0), 
 and a file "Lew32manual_changes.doc". 
 I find it easier to just use the Version 3.2 manual.  
 
-Validation Results for LEWICE 2.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
+Validation Results for LEWICE 2.0, NASA/CR-1999-208690 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
 The current version of LEWICE is 3.2.3. 
 However, the validation is re-run for each release, 
 and the report for version 2.0 is still applicable.
 
-Validation Results for LEWICE 3.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
+Validation Results for LEWICE 3.0, NASA/CR-2005-213561 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
 Includes data for large drop size icing conditions.  
