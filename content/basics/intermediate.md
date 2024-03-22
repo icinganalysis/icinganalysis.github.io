@@ -69,6 +69,10 @@ but not identical, results.
 ### Using icing conditions definitions  
 
 - skill: use the Appendix C icing envelopes  
+  - search within Appendix C for highest water exposure conditions  
+
+
+
   - Identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
 
 ### Introduction to accuracy and variance  
