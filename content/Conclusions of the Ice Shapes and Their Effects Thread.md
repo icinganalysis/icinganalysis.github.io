@@ -160,9 +160,9 @@ We will do so again here, using data from NASA-TM-83556 where
 the drag due to ice shapes was measured. 
 (We will review this data in more detail in the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md)).
 Fortunately, a NACA0012 airfoil was used, as was used in NACA-TR-446. 
-There is a fair chord Reynolds number match between this (2.2 to 3.6 x10^6) and NACA-TR-446 (3.1 x10^6).
+There is not a chord Reynolds number match between this (2.2 to 3.6 x10^6) and NACA-TR-446 (3.1 x10^7).
 The data is at an angle of attack of 4 degrees,
-while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees angle of attack.
+while the NACA-TR-446 data is at Cl=0.5, which is at approximately 4 degrees angle of attack.  
 
 ![Figure 10 from NASA-TM-83556. Effect of total temperature on the ice
 shape and drag. (LWC x V x time) = const,; DVM, 20 micrometer; 
@@ -341,5 +341,5 @@ Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messin
 [^16]: 
 Wright, William. User's manual for LEWICE version 3.2. No. E-15537. 2008. NASA/CR—2008-214255 [ntrs](https://ntrs.nasa.gov/api/citations/20080048307/downloads/20080048307.pdf)  
 [^17]: 
-Wright, William B. A Summary of Validation Results for LEWICE 2.0. No. E-11467. 1998.  NASA/CR-1998-208687  [researchgate](https://www.researchgate.net/profile/William-Wright-23/publication/24286769_A_summary_of_validation_results_for_LEWICE_20/links/0c96051dc1c80ad31a000000/A-summary-of-validation-results-for-LEWICE-20.pdf)  
+Wright, William B. A Summary of Validation Results for LEWICE 2.0. 1998.  NASA/CR-1998-208687 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990017993)    
 
