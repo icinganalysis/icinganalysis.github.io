@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Computer Freezing Rate Analysis Tools Examples</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) ntrs.nasa.gov Summary Prerequisites You need to complete the Aircraft Icing..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/computer-freezing-rate-analysis-tools-examples.html" rel="bookmark"
+           title="Permalink to Computer Freezing Rate Analysis Tools Examples">Computer Freezing Rate Analysis Tools Examples</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-15T20:00:00-07:00">
+                Published: Mon 15 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-03-26T12:32:18.785468-07:00">
+                Updated: Tue 26 March 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="Figure 4.8: Identification of the control volume used to formulate the thermodynamic equation  
+a. Single control volume on the icing surface.  
+b. Thermodynamic control volumes over each segment defining the body geometry  
+" src="/images%2Fbasics%2FLEWICE%20control%20volumes.png"><br>
+<em>from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a></em>  </p>
+<h2>Summary</h2>
+<h2>Prerequisites</h2>
+<p>You need to complete the <a href="/drafts/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>You need to select a computerized tool to work with. 
+See <a href="/drafts/analysis-toolset.html">Analysis Toolset</a> 
+for obtaining LEWICE, and some other options.  </p>
+<p>If you have chosen to use LEWICE, but you have not run it before, see the 
+<a href="/drafts/lewice-quick-start.html">LEWICE Quick Start</a>.  </p>
+<h2>Introduction</h2>
+<p>We will compare energy balance terms and freezing rates calculated with the 
+Standard Computational Model and LEWICE (or the tool that you have selected).  </p>
+<p>The values found by differing methods are generally similar, but rarely identical. </p>
+<h2>Aircraft Icing Handbook Example 2-4</h2>
+<blockquote>
+<p>The mass of ice accretion on the NACA 0012 section will be calculated. Using the same flight 
+conditions as Example 2-1. and the droplet size distribution and value from Example 2-3:  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Airfoil                         c = 3.1 foot chord NACA 0012  
+Flight Speed:                   V = 200 kt  
+Airfoil projected height:       h = 0.12 at alpha = 0  
+Liquid Water Content:           LWC = 0.4 g/m^3
+Ambient Temperature:            T = -4 F
+Collection efficiency:          E = 0.24  
+Maximum impingement efficiency: Beta_max = 0.65  
+Icing time:                     tau = 5 minutes  
+</code></pre></div>
+
+<p>The LEWICE analysis at the nominal -4F does not predict complete freezing 
+at the leading edge:  </p>
+<p><img alt="lewice2d_example2_2_thick_tf_-4" src="/images%2Fbasics%2Flewice2d_example2_2_thick_tf_-4.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>Here is the result at a colder temperature (-22F):  </p>
+<p><img alt="lewice2d_example2_2_thick_tf_m22" src="/images%2Fbasics%2Flewice2d_example2_2_thick_tf_m22.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>Here are the computed ice shapes:</p>
+<p><img alt="lewice2d_example2_2_ice_tf_m25" src="/images%2Fbasics%2Flewice2d_example2_2_ice_tf_m25.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>The ice calculated at -22F agrees well with the ice thickness from the handbook example.  </p>
+<div class="highlight"><pre><span></span><code>Method                          Leading edge ice thick, inch
+Handbook                        0.39
+Standard Computational Model    0.393
+LEWICE -4F                      0.32
+LEWICE -22F                     0.39
+</code></pre></div>
+
+<h2>20 cm diameter cylinder example</h2>
+<p>The icing time was not specified, 
+so we will assume the same value as example 2-4.  </p>
+<p><img alt="Table 2-5 to 2-8 LEWICE 60 s prt1" src="/images/basics/Table%202-5%20to%202-8%20LEWICE%2060%20s%20prt1.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>The results do not appear to agree well. 
+Many of the LEWICE results are that the freezing fraction is 1, 
+while the Table 2-5 to 2-8 values show a range of results.  </p>
+<h2>Freezing rates</h2>
+<p>While the freezing fraction is a non-dimensional term, 
+freezing rate is a dimensional term (kg/m^2-s). </p>
+<p>The freezing rate can be used to calculate ice thickness, 
+and with a multiple control volume analysis, ice shapes. </p>
+<p>Results from LEWICE and the Standard Computational Model are compared below. 
+General trends agree, but the values may have large differences.  </p>
+<p><img alt="LEWICE SCM freeze rate comparison." src="/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png">
+<em>Public Domain by Donald Cook.</em>  </p>
+<h2>A partial explanation of differences in reported freezing fraction</h2>
+<p>The integral boundary layer method implementation used in LEWICE has results that agree reasonably well 
+with the stagnation line results from the Standard Computational Model. 
+So, differing heat transfer coefficient values are only a small component in the differences. 
+Here is the Table 2-5-a case at -8C temperature:  </p>
+<p><img alt="Table 2-5 LEWICE -8C htc full scale" src="/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png">
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  </p>
+<p><img alt="Table 2-5 LEWICE beta" src="/images/basics/Table%202-5%20LEWICE%20beta.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<p>The LEWICE manual <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a> states:  </p>
+<blockquote>
+<p>The icing model, which was first developed by Messinger, is used to calculate the ice growth rate at each point on the surface of the geometry.  </p>
+</blockquote>
+<p>However, it actually uses a modified Messinger method. 
+The LEWICE implementation adds a heat term to the Messinger heat balance for conduction to the surface where ice is forming
+(the unnamed, first term in the equation below):  </p>
+<p><img alt="21_17_2 Energy Balance Equation Requirements" src="/images%2Fbasics%2F21_17_2%20Energy%20Balance%20Equation%20Requirements.png">  </p>
+<p>While the manual is not explicit, this is a transient heat term that changes with time
+(you have to review the code to get the details). 
+The time step used affects the analysis, even for the first ice layer, 
+which starts with at clean surface.  </p>
+<h2>Conclusions</h2>
+<p>While the examples here are for LEWICE, 
+you are likely to also find differences between analytic values for the heat balance terms and 
+the results from any other computer icing simulation. 
+The implementation details, which are sometimes not well documented, 
+can lead to non-trivial differences.  </p>
+<h2>Resources</h2>
+<p>User's Manual for LEWICE Version 3.2 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a><br>
+Note that a "manual.pdf" file comes with the LEWICE software distribution (apparently for version 3.0), 
+and a file "Lew32manual_changes.doc". 
+I find it easier to just use the Version 3.2 manual.  </p>
+<h2>Related</h2>
+<p>Back to <a href="/drafts/intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

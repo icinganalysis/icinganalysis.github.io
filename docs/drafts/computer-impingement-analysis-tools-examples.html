@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Computer Impingement Analysis Tools Examples</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) ntrs.nasa.gov Prerequisites You need to complete the Aircraft Icing Handbook..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/computer-impingement-analysis-tools-examples.html" rel="bookmark"
+           title="Permalink to Computer Impingement Analysis Tools Examples">Computer Impingement Analysis Tools Examples</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-15T18:00:00-07:00">
+                Published: Mon 15 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-03-26T12:19:19.063409-07:00">
+                Updated: Tue 26 March 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="LEWICE 1990 Figure 4.2. Definition of total and local collection efficiency." src="/images%2Fbasics%2FLEWICE%201990%20Figure%204_2.png"><br>
+<em>from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a></em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to complete the <a href="/drafts/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>You need to select a computerized tool to work with. 
+See <a href="/drafts/analysis-toolset.html">Analysis Toolset</a> 
+for obtaining LEWICE, and some other options.  </p>
+<h2>Aircraft Icing Handbook Example 2-2</h2>
+<blockquote>
+<p>Example 2-2<br>
+This example illustrates the estimation of the impingement parameters E, β, h, Su and SL
+using graphical data (reference 2-12). The graphical data is all presented with Ko as the independent
+variable. Much data is available in this form.  </p>
+<p>The conditions of Example 2-1 for a NACA 0012 airfoil are assumed: thus Ko = 0.05. It also is
+assumed for simplicity that the angle of attack, α, is 0 degrees. From figure 2-11, E, the total
+impingement efficiency, is estimated to be 0.23 for these conditions. So about 23 percent of the water
+in the projected frontal area of the airfoil, with height h = .120c (found using figure 2-12), impinges
+on the airfoil. The maximum impingement efficiency for Ko = 0.05 and a = 0 degrees is estimated
+from figure 2-13 to be β_max = 0.68. At a = 0 degrees, the upper and lower limits of impingement are
+identical. From figure 2-14 at Ko = 0.05, SU = SL = .04. Therefore, water droplets will impinge on
+the airfoil leading edge only back approximately 4 percent of chord. (Note that this example assumes
+a "monodispersed" cloud, that is, a cloud in which all the droplets are of the same size. More realistic
+approaches are discussed in the following section.)</p>
+</blockquote>
+<h2>Aircraft Icing Handbook Example 2-3</h2>
+<blockquote>
+<p>This example is a repetition of Example 2-2 except that this time the impingement parameters
+will be found using the entire droplet spectrum. It is assumed that the droplet median volume
+diameter (MVD) is 20 im (the droplet size used in Example 2-2) and the cloud droplet spectrum can
+be represented by a Langmuir D distribution. The droplet sizes representing the seven size bins in
+the distribution are calculated using table I-1 (discussed in Section 1.2.6). Table 2-1 shows the droplet
+sizes δ, the proportion δ_v of total droplet volume associated with each δ, and also the values of Re, 
+K, and Ko for each δ. </p>
+</blockquote>
+<p><img alt="Table 2-1.png" src="/images%2FFAA%20Handbook%20volume%201%2FTable%202-1.png">  </p>
+<blockquote>
+<p>Using these values of Ko and figure 2-11, a value E(δ) is associated with each
+δ, as shown in the third column of table 2-2. Note that equation 2-23 can also be written as  </p>
+</blockquote>
+<p><img alt="Equation 2-25.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-25.png">  </p>
+<blockquote>
+<p>Thus E is calculated as an average value of the E(δ) weighted by volume using the Δv's. Table 2-2
+shows that a value E = 0.24 is obtained, little different from the value E = 0.23 for the MVD. This
+is well within the accuracy of reading numbers from the figure.  </p>
+</blockquote>
+<p><img alt="Table 2-2.png" src="/images%2FFAA%20Handbook%20volume%201%2FTable%202-2.png">  </p>
+<blockquote>
+<p>Considering this droplet size distribution and using equation 2-21, β_max can be calculated for a
+surface length location of S = 0 (stagnation point). For the special case of a symmetric airfoil at zero
+degrees angle of attack, where β_max occurs at S = 0 for all Ko, equation 2-21 can be used directly to
+determine β_max. In table 2-2 the calculation of β_max at S = 0 is summarized in the last two colum's,
+obtained from figure 2-11. Here again the value of β_max = 0.65 is close to the value for the MVD
+droplet size, where β_max = 0.68.</p>
+<p>The maximum limits can be found from Ko,max and figure 2-14. For the 44.4 micron droplet size,
+Ko,max =0.176 and from the figure SU = SL = 0.11, or 11 percent of the chord length.
+Estimates of the size of a pneumatic ice protection boot have been made by using an MVD of 20
+microns and twice that diameter (40 microns) to determine the maximum extent of significant droplet
+catch. This comes to about 10% of the airfoil chord on the critical upper surface.
+Ten percent coverage of the upper surface is consistent with statistical measurements of upper surface icing made
+in the USSR (reference 2-13). </p>
+<p>Comparison of Example 2-2 and 2-3 suggests that, except for the limits of impingement.
+impingement parameters calculated using the MVD may give a reasonably good approximation to those
+calculated over an entire droplet distribution. </p>
+<p>This property of the MVD supplies the main
+justification for its wide use as the "representative" droplet size for a supercooled cloud in the study
+of aircraft icing. The error introduced in impingement calculations by its use rather than use of the
+full droplet spectrum is discussed in reference 2-14 and 2-15.  </p>
+</blockquote>
+<p>A solution using LEWICE is detailed here. 
+The details of other methods may differ, 
+but most impingement analysis programs use similar inputs. </p>
+<p>For the airfoil definition, 
+the LEWICE software distribution includes an example with a NACA0012 airfoil file 
+NACA0012.XYD.  </p>
+<p>This example solution used the default potential flow solver included with LEWICE 
+(LEWICE does have the option to include an externally determined flow solution). 
+With the default potential flow solver, 
+the surface grid is automatically determined (so no explicit, user-directed griding step is required).  </p>
+<p>A file case.inp defines icing conditions and other inputs. 
+Values are in metric units, see the manual that was included with the LEWICE software distribution for full details. 
+Some default values are explicitly included below, such as DSMN. </p>
+<div class="highlight"><pre><span></span><code>Aircraft Icing Handbook Example 2-3
+&amp;LEW20
+ITIMFL =  1
+TSTART =  0.0
+TSTOP  =  300.0
+IBOD   =  1
+IFLO   =  1
+DSMN   =  0.000400
+NPL    =  24
+RHOP   =  1000.000000
+IGRID  =  0
+IBOE   =  0
+IDEICE =  0
+IHTC   =  0
+&amp;END
+&amp;DIST
+FLWC   =  0.05000, 0.10000, 0.20000, 0.30000, 0.20000, 0.10000, 0.05000
+DPD    =  6.20000, 10.40000, 14.20000, 20.00000, 27.40000, 34.80000, 44.40000
+&amp;END
+&amp;ICE1
+CHORD  =  0.9449
+AOA    =  0.000
+VINF   =  102.89
+LWC    =  0.500
+TINF   =  241.483
+PINF   =  69681.6
+RH     =  100.0
+SREF   =  1
+&amp;END
+&amp;LPRNT
+FPRT   =  2
+HPRT   =  2
+BPRT   =  1
+EPRT   =  2
+MPRT   =  2
+TPRT   =  2
+IDBF   =  0
+KWARN  =  0
+&amp;END
+&amp;RDATA
+&amp;END
+&amp;BOOT
+&amp;END
+</code></pre></div>
+
+<p>For a Langmuir distribution, the user includes in the input file data for the 7 bins in the
+FLWC (bin fraction of total liquid water content) and DPD (bin drop diameter in micrometers) values: </p>
+<div class="highlight"><pre><span></span><code>FLWC   =  0.05000, 0.10000, 0.20000, 0.30000, 0.20000, 0.10000, 0.05000
+DPD    =  6.20000, 10.40000, 14.20000, 20.00000, 27.40000, 34.80000, 44.40000
+</code></pre></div>
+
+<p>LEWICE outputs numerous result files. The one of interest here is beta.dat. 
+The distribution weighted-average calculation is automatically included. </p>
+<p>LEWICE does not directly report the Em value. 
+You can calculate that by using the Aircraft Icing Handbook equations 2-16 and 2-18.  </p>
+<p><img alt="Equation 2-16" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png">  </p>
+<p><img alt="Equation 2-18" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png"></p>
+<p>The Beta curve was numerically integrated. </p>
+<p><img alt="lewice2d_example2_2_beta_tf_15" src="/images%2Fbasics%2Flewice2d_example2_2_beta_tf_15.png"></p>
+<p>The LEWICE results are similar to the Handbook values, 
+but not exactly the same.  </p>
+<div class="highlight"><pre><span></span><code>Example 2-3      Handbook  LEWICE
+Em               0.24      0.251
+Beta_max         0.65      0.642
+Su/c (and Sl/c)  0.10      0.10
+</code></pre></div>
+
+<h2>Resources</h2>
+<p>"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a><br>
+Also note that there was a perhaps little known update in 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a><br>
+The update contains only the updated pages. 
+This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
+but not so well in the digital age. </p>
+<p><a href="/drafts/aircraft-icing-handbook-merged-sections.html">Aircraft Icing Handbook Merged Sections</a> 
+merges some affected sections from the handbook and the update.  </p>
+<p>The NASA-provided Icing Research Software (LEWICE, LEWICE 3D) <a href="https://www1.grc.nasa.gov/aeronautics/icing/software/">www1.grc.nasa.gov</a>  </p>
+<h2>References (Handbook format)</h2>
+<p>2-2 Langmuir. I. and Blodgett, K., "A Mathematical Investigation of Water Droplet Trajectories," AAFTR 5418, February 1946. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=mJySYM32cHUC&amp;oi=fnd&amp;pg=PA11&amp;dq=Katherine+Blodgett+icing&amp;ots=QYP5gFyEiz&amp;sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&amp;q=Katherine%20Blodgett%20icing&amp;f=false">books.google.com</a>   </p>
+<p>2-12 Bragg, M. B. and Gregorek, G. M., "An Analytical Evaluation of the Icing Properties of Several Low and Medium Speed Airfoils," AIAA Paper No. 83-109, January 1983. <a href="https://arc.aiaa.org/doi/10.2514/6.1983-109">arc.aiaa.org</a>  </p>
+<p>2-13 Trunov, 0., "Icing of Aircraft and the Means of Preventing It," English Translation, FTD-M7-65-490, p. 105, 1965.</p>
+<p>2-14 Chang, H-P; Frost, W; Shaw, R. J.; and Kimble, K. R., "Influence of Multidrop Size Distribution on Icing Collection Efficiency," AIAA-83-0100, paper presented at the 21st Aerospace Scienzes Meeting, Jan. 1983. <a href="https://arc.aiaa.org/doi/10.2514/6.1983-110">arc.aiaa.org</a>  </p>
+<p>2-15 Papadakis, M.; Elangovan, R.; Freund, Jr., 0. A.; Breer, M.; Zumwalt, G. W..; and Whitmer, L., "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies," NASA CR 4257, DOT/FAA/CT-87/22, November 1989. <a href="https://ntrs.nasa.gov/citations/19900067654">ntrs.nasa.gov</a>  </p>
+<h2>Related</h2>
+<p>Back to <a href="/drafts/intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
