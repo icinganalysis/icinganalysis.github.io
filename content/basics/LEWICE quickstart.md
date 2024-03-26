@@ -6,7 +6,7 @@ status: draft
 rights: CC-BY-NC-SA 4.0  
 
 ![LEWICE Ice Shape for Example Case 1. A 2D profile of an airfoil with a calculated ice shape 
-and an ice shape measured in an icing  wind tunnel test.](..%2Fimages%2Fbasics%2FLEWICE%20manual%20example%201.png)  
+and an ice shape measured in an icing  wind tunnel test.](/images%2Fbasics%2FLEWICE%20manual%20example%201.png)  
 _from User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)_  
 
 ## Summary  
