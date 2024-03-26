@@ -49,7 +49,7 @@ Note that the relevant sections in DOT/FAA/CT-88/8-1, 1991 [apps.dtic.mil](https
 were affected by the perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf). 
 The text here is from the updated version. 
 
-"Merged" text from the 1991 and 1193 update is available at 
+"Merged" text from the 1991 and 1993 update is available at 
 [Aircraft Icing Handbook Merged Sections]({filename}intermediate_merged_handbook.md)
 
 There are other sources with comparable information, 
