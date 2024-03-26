@@ -1,6 +1,6 @@
-Title: __Aircraft Icing Handbook Merged Sections      
+Title: Aircraft Icing Handbook Merged Sections      
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 17:00  
+Date: 2024-04-15 18:00  
 tags: intermediate topics, aircraft icing handbook   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
@@ -620,3 +620,8 @@ Lewis Icing Research Tunnel," NASA TM 83557, Jan. 1984. [ntrs.nasa.gov](https://
 2-48 Poinsatte, P. E.; Van Fowsen, G. J.; and DeWitt, K. J., "Convective Heat Transfer
 Measurements from a NACA 0012 Airfoil in Flight and in the NASA Lewis Icing
 Research Tunnel," NASA TM 102448, Jan. 1990. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900004434)  
+
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
+

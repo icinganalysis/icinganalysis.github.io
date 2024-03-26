@@ -1,6 +1,6 @@
 Title: Intermediate Level   
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 12:00  
+Date: 2024-04-15 12:00  
 tags: intermediate topics,  
 status: draft  
 rights: CC-BY-NC-SA 4.0  
@@ -14,7 +14,7 @@ After [The Basics]({filename}basics.md),
 you are ready for Intermediate level aircraft icing topics:  
 
 - Using handbook analysis methods  
-- Using computer icing analysis tools  
+- Using computer icing analysis tools to produce ice shapes  
 - Preliminary ice protection system sizing  
 
 ## Prerequisite: Select your toolset  
@@ -49,7 +49,8 @@ depending on which direction is considered "conservative").
 The examples here will show where credible methods yield similar, 
 but not identical, results.  
 
-## Intermediate level topics  
+<a name="intermediate-topics"></a>  
+## Intermediate level topics   
 
 ### water drop impingement  
 
@@ -62,22 +63,20 @@ but not identical, results.
 
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
-    - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
 - skill: calculate ice shapes  
-    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+    - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+
+### Introduction to accuracy and variance  
+
+- skill: quantify ice shape differences
+    - [Introduction to Variations]({filename}intermediate_variance.md) calculate the expected difference between calculated ice shapes versus test,
+and estimate the range of effects   
 
 ### Using icing conditions definitions  
 
 - skill: use the Appendix C icing envelopes  
-  - search within Appendix C for highest water exposure conditions  
-
-
-
-  - Identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
-
-### Introduction to accuracy and variance  
-
-
+  - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
+  - identify candidate "worst case" ice shapes  
 
 ### ice protection  
 
@@ -85,29 +84,16 @@ but not identical, results.
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/), and compare to the handbook values.  
 
+## Items specifically deferred to the Expert Level  
+
+- 3D analysis (including swept wings)  
+- Icing wind tunnel tests  
+- Wind tunnel tests with simulated ice shapes   
+- Runback ice  
+
 ## Related  
 
 Back to [The Basics]({filename}basics.md).  
-
-<!--
-
- 
-Other Skills  
-
-comparison of analysis to test  
-reverse engineering/inferring values  
-simplifying problems  
-estimation  
-Python for the win!  
-
->the characteristic length used in the calculation of Ko is a matter of convention and the
-conventional choice is not always obvious
-
-
-I was initially hired as a thermal analyst (decades ago), 
-and once they found out that I also knew some physics of drops they asked 
-"Can you run this LEWICE program?"
--->
 
 
 

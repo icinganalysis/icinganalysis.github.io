@@ -1,11 +1,11 @@
-Title: __Aircraft Icing Handbook Energy Balance Examples    
+Title: Aircraft Icing Handbook Energy Balance Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 15:00  
+Date: 2024-04-15 19:00  
 tags: intermediate topics, thermodynamics   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
-![dot_faa_ct_88_8_1_fig_2-81.png](/images/basics/dot_faa_ct_88_8_1_fig_2-81.png)  
+![dot_faa_ct_88_8_1_fig_2-81](/images/basics/dot_faa_ct_88_8_1_fig_2-81.png)  
 _Public Domain by Donald Cook._  
 
 ## Prerequisites  
@@ -37,7 +37,7 @@ Internally, the code uses (mostly) SI units
 There are unit conversion functions in the python code. 
 Values here are reported in the handbook units.
 
-## Table 2-5 Example  
+## Aircraft Icing Handbook Table 2-5 Example  
 
 >Dependence of freezing fraction on meteorological and flight variables  
 > 
@@ -73,7 +73,7 @@ increasing T. Note that figure 2-75a, with a relatively large LWC of .7 and star
 temperature of -26 C, exhibits a much slower rate of decrease in n than does figure 2-75b, which
 has a LWC of .1 and starts from a much higher temperature of -6 C.  
 
-![Figure 2-75.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-75.png)  
+![Figure 2-75. FREEZING FRACTION VS AMBIENT TEMPERATURE T FOR A CIRCULAR CYLINDER WITH DIAMETER 20 CM.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-75.png)  
 
 >Table 2-5a shows the relative contributions to the energy balance of the main heat source and
 heat sink terms for condition (a) as T increases. For the source terms, the relative contribution of
@@ -132,27 +132,28 @@ I assumed a "Langmuir A" distribution (single or mono-dispersed drop size).
 The method of determining the leading edge stagnation line water catch β value is not defined in the handbook text. 
 For the calculations here, the cylinder line from Figure 2-43 is used.  
 
-![Figure 2-43.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-43.png)  
+![Figure 2-43.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-43.png)  
 
 Note that the characteristic length used to calculate Ko is the cylinder radius or diameter / 2.  
 
-![Table 2-3.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FTable%202-3.png)
+![Table 2-3. CHARACTERISTIC LENGTHS FOR SEVERAL BODIES FOR CALCULATION OF Ko.](/images%2FFAA%20Handbook%20volume%201%2FTable%202-3.png)
 
 Equations 2-6, and 2-8 are used to calculate Ko.  
 
-![Equation 2-6.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-6.png)  
+![Equation 2-6](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-6.png)  
 
-![Equation 2-8.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-8.png)  
+![Equation 2-8](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-8.png)  
 
 Note that equation 2-10 could also be used.  
  
-![Equation 2-10.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-10.png)  
+![Equation 2-10](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-10.png)  
 
 For the freezing fraction values, the comparison is "good", 
 but the results from Table 2-8b (having higher airspeeds) have an offset.
 The handbook values are "reference", and the values calculated with the python program are "calculated":  
 
-![dot_faa_ct_88_8_1_cylinder_n.png](/images/basics/dot_faa_ct_88_8_1_cylinder_n.png)  
+![dot_faa_ct_88_8_1_cylinder_n](/images/basics/dot_faa_ct_88_8_1_cylinder_n.png)  
+_Public Domain by Donald Cook._  
 
 The percentages of the heat sources and sinks are similar, but not identical, to the values listed in the handbook ("reference"). 
 Some cases, like 2-5-b at -2C, have some differences greater than 10%, 
@@ -216,12 +217,12 @@ Case   TC  V  MVD  n          %qv    %qf     %qk   %qc    %qe    %qw
 I also ran this with a Langmuir D distribution (not shown). 
 The results were very similar. 
 
-## Figure 2-81  
+## Aircraft Icing Handbook Figure 2-81  
 
 Figure 2-81 (and 2-82) show calculated cylinder stagnation line freezing fraction related to ice type:
 glaze 0 < n < 0.66, intermediate 0.66 < n < 1, rime n = 1.
 
-![Figure 2-81. Ice shpae types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3.](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
+![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
 
 The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81.  
 
@@ -247,4 +248,6 @@ However, after we have tried this example using LEWICE, there will be further di
 
 2-45 Kreith, F., Principles of Heat Transfer, Intext Educational Publishers, New York, 1973, third edition [archive.org](https://archive.org/details/principlesofheat0000krei_n7j4) [online borrowing with registration]  
 
-<!-- navigation patch -->
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  

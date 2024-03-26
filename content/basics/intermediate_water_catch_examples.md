@@ -1,11 +1,11 @@
-Title: __Aircraft Icing Handbook Water Catch Examples    
+Title: Aircraft Icing Handbook Water Catch Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 14:00  
+Date: 2024-03-04 17:00  
 tags: intermediate topics, water catch   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
-![Example 2-3 Em.png](/images%2Fbasics%2FExample%202-3%20Em.png)  
+![Graph of water catch efficiency Em versus Ko for a cylinder.](/images%2Fbasics%2FExample%202-3%20Em.png)  
 _Public Domain by Donald Cook._
 
 ## Introduction  
@@ -73,7 +73,7 @@ Droplet Size:         d = 20 microns
 >First find the air density and viscosity.
 From the pressure altitude, P = 1455.6 psf (10.109 psi). Solve for the air density using
 
-![Example 2-1 rho.png](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20rho.png)  
+![Example 2-1 rho](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20rho.png)  
 
 For information on the archaic unit "slug", 
 see [A Brief Digression on Unit Systems]({filename}..%2Fbrief-digression-on-units.md#slug).  
@@ -89,16 +89,16 @@ This gives a result that is about 3.5% different from the viscosity equation use
 [Langmuir]({filename}..%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md), 
 which is a better approximation (using η for viscosity):   
 
-![equation 13. ](/images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2Fequation13.png)    
+![equation13 for mu.](/images%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories%2Fequation13.png)  
 
 >Now calculate Re and K.  
 In these units Re is given by  
 > 
-![Example 2-1 re.png](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20re.png)
+![Example 2-1 re](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20re.png)
 
 >In these units K is given by:  
  
-![Example 2-1 k.png](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20k.png)
+![Example 2-1 k](/images%2FFAA%20Handbook%20volume%201%2FExample%202-1%20k.png)
 
 >If Langmuir and Blodgett's graphical method is used, the problem is completed by using figure 2-2.
 which shows that for Re = 126.8 the range parameter is approximately equal to .32. Then  
@@ -332,5 +332,6 @@ Reader are encouraged to perform the impingement limit calculations noted in Exa
 
 2-15 Papadakis, M.; Elangovan, R.; Freund, Jr., 0. A.; Breer, M.; Zumwalt, G. W..; and Whitmer, L., "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies," NASA CR 4257, DOT/FAA/CT-87/22, November 1989. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900067654)  
 
+## Related  
 
-<!-- navigation patch -->
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  

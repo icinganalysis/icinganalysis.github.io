@@ -1,6 +1,6 @@
-Title: __Computer Freezing Rate Analysis Tools Examples    
+Title: Computer Freezing Rate Analysis Tools Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 16:00  
+Date: 2024-04-15 20:00  
 tags: intermediate topics, ice shape, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
@@ -8,7 +8,7 @@ rights: CC-BY-NC-SA 4.0
 ![Figure 4.8: Identification of the control volume used to formulate the thermodynamic equation  
 a. Single control volume on the icing surface.  
 b. Thermodynamic control volumes over each segment defining the body geometry  
-](..%2Fimages%2Fbasics%2FLEWICE%20control%20volumes.png)  
+](/images%2Fbasics%2FLEWICE%20control%20volumes.png)  
 _from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
 
 ## Summary  
@@ -21,7 +21,7 @@ You need to select a computerized tool to work with.
 See [Analysis Toolset]({filename}intermediate_toolset.md) 
 for obtaining LEWICE, and some other options.  
 
-If you have chosen to use LEWICE, but you have not run it before, see 
+If you have chosen to use LEWICE, but you have not run it before, see the 
 [LEWICE Quick Start]({filename}LEWICE%20quickstart.md).  
 
 ## Introduction  
@@ -50,15 +50,18 @@ Icing time:                     tau = 5 minutes
 The LEWICE analysis at the nominal -4F does not predict complete freezing 
 at the leading edge:  
 
-![lewice2d_example2_2_thick_tf_-4.png](..%2Fimages%2Fbasics%2Flewice2d_example2_2_thick_tf_-4.png)
+![lewice2d_example2_2_thick_tf_-4](/images%2Fbasics%2Flewice2d_example2_2_thick_tf_-4.png)  
+_Public Domain by Donald Cook._  
 
 Here is the result at a colder temperature (-22F):  
 
-![lewice2d_example2_2_thick_tf_m22.png](..%2Fimages%2Fbasics%2Flewice2d_example2_2_thick_tf_m22.png)  
+![lewice2d_example2_2_thick_tf_m22](/images%2Fbasics%2Flewice2d_example2_2_thick_tf_m22.png)  
+_Public Domain by Donald Cook._  
 
 Here are the computed ice shapes:
 
-![lewice2d_example2_2_ice_tf_m25.png](..%2Fimages%2Fbasics%2Flewice2d_example2_2_ice_tf_m25.png)  
+![lewice2d_example2_2_ice_tf_m25](/images%2Fbasics%2Flewice2d_example2_2_ice_tf_m25.png)  
+_Public Domain by Donald Cook._  
 
 The ice calculated at -22F agrees well with the ice thickness from the handbook example.  
 
@@ -75,7 +78,7 @@ LEWICE -22F                     0.39
 The icing time was not specified, 
 so we will assume the same value as example 2-4.  
 
-![Table 2-5 to 2-8 LEWICE 60 s prt1.png](/images/basics/Table%202-5%20to%202-8%20LEWICE%2060%20s%20prt1.png)  
+![Table 2-5 to 2-8 LEWICE 60 s prt1](/images/basics/Table%202-5%20to%202-8%20LEWICE%2060%20s%20prt1.png)  
 _Public Domain by Donald Cook._  
 
 The results do not appear to agree well. 
@@ -93,7 +96,8 @@ and with a multiple control volume analysis, ice shapes.
 Results from LEWICE and the Standard Computational Model are compared below. 
 General trends agree, but the values may have large differences.  
 
-![LEWICE SCM freeze rate comparison.png](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)
+![LEWICE SCM freeze rate comparison.](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)
+_Public Domain by Donald Cook._  
 
 ## A partial explanation of differences in reported freezing fraction  
 
@@ -102,11 +106,13 @@ with the stagnation line results from the Standard Computational Model.
 So, differing heat transfer coefficient values are only a small component in the differences. 
 Here is the Table 2-5-a case at -8C temperature:  
 
-![Table 2-5 LEWICE -8C htc full scale.png](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)
+![Table 2-5 LEWICE -8C htc full scale](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)
+_Public Domain by Donald Cook._  
 
 However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  
 
-![Table 2-5 LEWICE beta.png](/images/basics/Table%202-5%20LEWICE%20beta.png)  
+![Table 2-5 LEWICE beta](/images/basics/Table%202-5%20LEWICE%20beta.png)  
+_Public Domain by Donald Cook._  
 
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
 
@@ -116,11 +122,20 @@ However, it actually uses a modified Messinger method.
 The LEWICE implementation adds a heat term to the Messinger heat balance for conduction to the surface where ice is forming
 (the unnamed, first term in the equation below):  
 
-![21_17_2 Energy Balance Equation Requirements.png](..%2Fimages%2Fbasics%2F21_17_2%20Energy%20Balance%20Equation%20Requirements.png)  
+![21_17_2 Energy Balance Equation Requirements](/images%2Fbasics%2F21_17_2%20Energy%20Balance%20Equation%20Requirements.png)  
 
 While the manual is not explicit, this is a transient heat term that changes with time
 (you have to review the code to get the details). 
-The time step used affects the analysis. 
+The time step used affects the analysis, even for the first ice layer, 
+which starts with at clean surface.  
+
+## Conclusions  
+
+While the examples here are for LEWICE, 
+you are likely to also find differences between analytic values for the heat balance terms and 
+the results from any other computer icing simulation. 
+The implementation details, which are sometimes not well documented, 
+can lead to non-trivial differences.  
 
 ## Resources  
 
@@ -129,6 +144,9 @@ Note that a "manual.pdf" file comes with the LEWICE software distribution (appar
 and a file "Lew32manual_changes.doc". 
 I find it easier to just use the Version 3.2 manual.  
 
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
 
 
 

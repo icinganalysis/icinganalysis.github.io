@@ -1,11 +1,11 @@
-Title: __Computer Impingement Analysis Tools Examples    
+Title: Computer Impingement Analysis Tools Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 16:00  
+Date: 2024-04-15 18:00  
 tags: intermediate topics, water catch, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
 
-![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiecncy.](..%2Fimages%2Fbasics%2FLEWICE%201990%20Figure%204.2.png)  
+![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiency.](/images%2Fbasics%2FLEWICE%201990%20Figure%204_2.png)  
 _from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
 
 ## Prerequisites  
@@ -16,7 +16,7 @@ You need to select a computerized tool to work with.
 See [Analysis Toolset]({filename}intermediate_toolset.md) 
 for obtaining LEWICE, and some other options.  
 
-## Example 2-2  
+## Aircraft Icing Handbook Example 2-2  
                                        
 >Example 2-2  
 This example illustrates the estimation of the impingement parameters E, β, h, Su and SL
@@ -34,7 +34,7 @@ the airfoil leading edge only back approximately 4 percent of chord. (Note that 
 a "monodispersed" cloud, that is, a cloud in which all the droplets are of the same size. More realistic
 approaches are discussed in the following section.)
 
-## Example 2-3  
+## Aircraft Icing Handbook Example 2-3  
 
 >This example is a repetition of Example 2-2 except that this time the impingement parameters
 will be found using the entire droplet spectrum. It is assumed that the droplet median volume
@@ -158,13 +158,14 @@ The distribution weighted-average calculation is automatically included.
 LEWICE does not directly report the Em value. 
 You can calculate that by using the Aircraft Icing Handbook equations 2-16 and 2-18.  
 
-![Equation 2-16.png](/Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png)  
 
-![Equation 2-18.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png)
+![Equation 2-16](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png)  
+
+![Equation 2-18](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png)
 
 The Beta curve was numerically integrated. 
 
-![lewice2d_example2_2_beta_tf_15.png](/images%2Fbasics%2Flewice2d_example2_2_beta_tf_15.png)
+![lewice2d_example2_2_beta_tf_15](/images%2Fbasics%2Flewice2d_example2_2_beta_tf_15.png)
 
 The LEWICE results are similar to the Handbook values, 
 but not exactly the same.  
@@ -201,4 +202,6 @@ The NASA-provided Icing Research Software (LEWICE, LEWICE 3D) [www1.grc.nasa.gov
 
 2-15 Papadakis, M.; Elangovan, R.; Freund, Jr., 0. A.; Breer, M.; Zumwalt, G. W..; and Whitmer, L., "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies," NASA CR 4257, DOT/FAA/CT-87/22, November 1989. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900067654)  
 
-<!-- navigation patch -->
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  

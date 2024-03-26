@@ -1,6 +1,6 @@
-Title: __Analysis Toolset    
+Title: Analysis Toolset    
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 13:00  
+Date: 2024-04-15 13:00  
 tags: intermediate topics, analysis tools, Python, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0
@@ -144,4 +144,6 @@ Validation Results for LEWICE 3.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citation
 
 [^1]: Yes, the old-school, capitalized [FORTRAN 77](https://en.wikipedia.org/wiki/Fortran#FORTRAN_77)  
 
-<!-- navigation patch -->
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  

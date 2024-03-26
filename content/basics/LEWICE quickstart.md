@@ -1,6 +1,6 @@
-Title: __LEWICE Quick Start      
+Title: LEWICE Quick Start      
 header: The Basics: Intermediate Topics  
-Date: 2024-03-04 16:00  
+Date: 2024-04-15 14:00  
 tags: intermediate topics, ice shape, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  
@@ -222,3 +222,7 @@ and the report for version 2.0 is still applicable.
 
 Validation Results for LEWICE 3.0, NASA/CR-2005-213561 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
 Includes data for large drop size icing conditions.  
+
+## Related  
+
+Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
