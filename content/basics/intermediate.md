@@ -57,14 +57,14 @@ but not identical, results.
 - skill: use correlations to calculate water drop impingement on a surface  
     - [DOT/FAA/CT-88-1 Examples 2-1 through 2.4]({filename}intermediate_water_catch_examples.md)  
 - skill: use equations of motion to calculate water drop impingement  
-    - [Computer Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md): Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)    
+    - [Computer Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md): Run a 2D simulation, such as LEWICE    
 
 ### ice formation  
 
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
 - skill: calculate ice shapes  
-    - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/)  
+    - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE  
 
 ### Introduction to accuracy and variance  
 
@@ -82,7 +82,7 @@ and estimate the range of effects
 
 - Skill: calculate heat required for thermal ice protection  
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
-    - Run a 2D simulation, such as LEWICE [www1.grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/software/), and compare to the handbook values.  
+    - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
 
 ## Items specifically deferred to the Expert Level  
 
