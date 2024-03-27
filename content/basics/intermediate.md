@@ -52,14 +52,14 @@ but not identical, results.
 <a name="intermediate-topics"></a>  
 ## Intermediate level topics   
 
-### water drop impingement  
+### Water drop impingement  
 
 - skill: use correlations to calculate water drop impingement on a surface  
     - [DOT/FAA/CT-88-1 Examples 2-1 through 2.4]({filename}intermediate_water_catch_examples.md)  
 - skill: use equations of motion to calculate water drop impingement  
     - [Computer Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md): Run a 2D simulation, such as LEWICE    
 
-### ice formation  
+### Ice formation  
 
 - skill: calculate freezing rates  
     - [DOT/FAA/CT-88/8-1 heat balance examples]({filename}intermediate_heat_balance_examples.md)  
@@ -78,13 +78,13 @@ and estimate the range of effects
   - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
   - identify candidate "worst case" ice shapes  
 
-### ice protection  
+### Ice protection  
 
 - Skill: calculate heat required for thermal ice protection  
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
 
-## Items specifically deferred to the Expert Level  
+## Items specifically deferred to the (yet to be written) Expert Level  
 
 - 3D analysis (including swept wings)  
 - Icing wind tunnel tests  
