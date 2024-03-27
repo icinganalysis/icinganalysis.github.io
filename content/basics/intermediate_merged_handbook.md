@@ -256,10 +256,10 @@ of the airfoil leading edge ΔYo is the proportion of liquid mass crossing the Y
 segment which ultimately strikes the airfoil.  
 
 Figure 2-7 illustrates the definition of the local impingement (or collection) efficiency β at an
-arbitrary point P on the airfoil. 
+arbitrary point P on the airfoil.  
 
 ![Figure 2-7.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-7.png)  
- 
+  
 Let P lie between the points of impact on the airfoil surface of two
 droplet trajectories. The mass of water droplets between the two trajectories a distance SYo apart in
 the free stream (at the Y-axis) is distributed over a length δS on the airfoil surface. Letting
