@@ -240,7 +240,7 @@ Let h be the projected frontal height of the airfoil; note that this is a functi
 total impingement (or collection) efficiency E is defined as the ratio of the freestream impingement
 width ΔYo to the projected frontal height h, i.e.,
 
-![Equation 2-16.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png)  
+![Equation 2-16.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png)  
 
 E is the proportion of liquid mass crossing the Y-axis within the frontal projection of the airfoil and
 ultimately striking the airfoil.  
