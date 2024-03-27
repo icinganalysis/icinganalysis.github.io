@@ -75,8 +75,8 @@ and estimate the range of effects
 ### Using icing conditions definitions  
 
 - skill: use the Appendix C icing envelopes  
-  - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
-  - identify candidate "worst case" ice shapes  
+    - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
+    - identify candidate "worst case" ice shapes  
 
 ### Ice protection  
 
