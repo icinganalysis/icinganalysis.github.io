@@ -89,7 +89,7 @@ and estimate the range of effects
 - 3D analysis (including swept wings)  
 - Icing wind tunnel tests  
 - Runback ice  
-- Heat transfer coefficients
+- Heat transfer coefficients  
 
 ## Related  
 

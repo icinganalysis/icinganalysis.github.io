@@ -140,10 +140,10 @@ Validation Results for LEWICE 2.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citation
 
 Validation Results for LEWICE 3.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
 
-## Notes
-
-[^1]: Yes, the old-school, capitalized [FORTRAN 77](https://en.wikipedia.org/wiki/Fortran#FORTRAN_77)  
-
 ## Related  
 
 Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
+
+## Notes
+
+[^1]: Yes, the old-school, capitalized [FORTRAN 77](https://en.wikipedia.org/wiki/Fortran#FORTRAN_77)  
