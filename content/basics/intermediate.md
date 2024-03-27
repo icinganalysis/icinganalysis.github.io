@@ -80,7 +80,7 @@ and estimate the range of effects
 
 ### Ice protection  
 
-- Skill: calculate heat required for thermal ice protection  
+- skill: calculate heat required for thermal ice protection  
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
 
