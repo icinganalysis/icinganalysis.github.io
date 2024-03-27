@@ -55,6 +55,7 @@ case1.xyd <return>
 >>- if any warning messages appear, type  
 Y <return>  
 to continue the simulation.  
+>
 >5) copy output data files to the proper directory  
 copy *.dat case1  
 
