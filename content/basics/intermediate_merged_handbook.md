@@ -258,7 +258,7 @@ segment which ultimately strikes the airfoil.
 Figure 2-7 illustrates the definition of the local impingement (or collection) efficiency β at an
 arbitrary point P on the airfoil. 
 
-![Figure 2-7.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-7.png)  
+![Figure 2-7.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-7.png)  
 
 Let P lie between the points of impact on the airfoil surface of two
 droplet trajectories. The mass of water droplets between the two trajectories a distance SYo apart in
@@ -266,16 +266,16 @@ the free stream (at the Y-axis) is distributed over a length δS on the airfoil 
 δS approach 0 in such a way that P always falls between the impact points of the two trajectories, the
 local impingement efficiency 0 at P is defined in the limit by the derivative
 
-![Equation 2-17.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-17.png)  
+![Equation 2-17.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-17.png)  
 
 The maximum value assumed by β anywhere on the airfoil surface is denoted by βmax. Note also that  
 
-![Equation 2-18.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png)
+![Equation 2-18.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png)
 
 The impingement efficiency curve or β-curve is a plot of β on the vertical axis versus S on the
 horizontal axis. This is illustrated in figure 2-8. 
 
-![Figure 2-8.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-8.png)  
+![Figure 2-8.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-8.png)  
 
 The β-curve can be calculated numerically as
 follows: First, find the upper and lower tangent trajectories. These are ordinarily approximated
@@ -283,12 +283,12 @@ numerically by finding upper and lower trajectories which pass within a small pr
 of the airfoil without actually striking it. Second, calculate a set of trajectories between the upper and
 lower trajectories (figure 2-9). 
 
-![Figure 2-9.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-9.png)  
+![Figure 2-9.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-9.png)  
 
 There is a Y value and associated S value for each trajectory. Third,
 fit a Y vs. S curve to the points (S, Y), as shown in figure 2-10. 
 
-![Figure 2-10.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FFigure%202-10.png)  
+![Figure 2-10.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-10.png)  
 
 Fourth, approximate the derivatives
 to the Y vs. S curve at a set of points; these derivatives are the as. Fifth, fit a β-curve to the points
@@ -301,7 +301,7 @@ three-dimensional tube of water droplets starting at infinity with some area, A,
 freestream, and impinging on a body over some surface area, As. Then, the local impingement
 efficiency, β, is the limit, as As approaches zero, of A divided by As  
 
-![Equation 2-19.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-19.png)  
+![Equation 2-19.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-19.png)  
 
 Discussions of three-dimensional impingement calculations can be found in references 2-11 and 2-5.  
 
@@ -314,7 +314,7 @@ the droplet spectrum. In calculations with experimental data, this leads to taki
 by volume, with the droplet spectrum represented by a histogram. Terms computed over the droplet
 spectrum are sometimes indicated by writing a bar above them.  
 
-![Equation 2-20.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-20.png)  
+![Equation 2-20.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-20.png)  
 
 Here β_bar is called the droplet spectrum local impingement (or collection) efficiency at the surface
 position specified by S. The ph[r]ase "droplet spectrum" is ordinarily suppressed, since this is the
@@ -325,24 +325,24 @@ droplet diameter, δ. In equation 2-20, the derivative of this curve, dv/dδ, ap
 of the droplet size, δ, and, of course, the assumed cloud droplet distribution. Usually β and dv/dS are
 not known as continuous functions of δ and equation 2-20 is then represented as a summation
 
-![Equation 2-21.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-21.png)  
+![Equation 2-21.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-21.png)  
 
 Equation 2-21 is summed over N discrete droplet sizes representing the midpoints of N droplet size
 bins. (For example, δi = 6.5 μm for a bin for droplets with diameters from 5 to 8 μm.)
 The droplet spectrum (or overall) impingement (or collection) efficiency E for an airfoil or body
 is defined in a similar way for a droplet size distribution:  
 
-![Equation 2-22.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-22.png)  
+![Equation 2-22.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-22.png)  
 
 Here ΔYo(δ) is the initial Y difference for the tangent trajectories for a droplet of diameter δ. As in
 the case of β, one usually knows ΔYo (δ) for a discrete number of droplet sizes. Equation 2-22 can
 therefore be written as the sum  
 
-![Equation 2-23.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-23.png)  
+![Equation 2-23.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-23.png)  
 
 Note that a droplet spectrum (or overall) ΔYo may also be defined as  
 
-![Equation 2-24.png](..%2Fimages%2FFAA%20Handbook%20volume%201%2FEquation%202-24.png)  
+![Equation 2-24.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-24.png)  
 
 The limits of impingement depend not on the entire droplet spectrum but only on the largest
 droplets present in the spectrum. Let δmax denote the largest drop diameter present in the spectrum
