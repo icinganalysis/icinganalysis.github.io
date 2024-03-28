@@ -1,7 +1,7 @@
-from icinganalysis import water_properties
-from icinganalysis import air_properties
+from icinganalysis import air_properties, simple_csv_reader
 from icinganalysis import compressible_flow
 from icinganalysis import units_helpers
+from icinganalysis import water_properties
 from icinganalysis.intermediate import cylinder_beta_max_from_figure_2_43
 from icinganalysis.langmuir_cylinder_values import calc_ko_d2
 
@@ -263,7 +263,6 @@ def calc_energy_and_mass_balance(
 
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
-    import simple_csv_reader
 
     f = r"tables_2_5_to_8.csv"
 

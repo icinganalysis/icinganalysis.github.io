@@ -1,11 +1,11 @@
+from icinganalysis import air_properties, simple_csv_reader
+from icinganalysis import compressible_flow
 from icinganalysis import units_helpers
-from icinganalysis import air_properties
+from icinganalysis.intermediate import standard_computational_model
 from icinganalysis.langmuir_cylinder_values import (
     langmuir_lwc_fractions,
     get_mids,
 )
-from icinganalysis import compressible_flow
-from icinganalysis.intermediate import standard_computational_model
 
 hc_calc_method = standard_computational_model.calc_hc_o_cylinder_from
 
@@ -65,7 +65,6 @@ def calc_cylinder_standard_computational_model_with_distribution(
 
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
-    import simple_csv_reader
 
     # DOT/FAA/CT-88/8-1
     f = r"tables_2_5_to_8.csv"
