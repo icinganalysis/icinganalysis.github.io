@@ -2,7 +2,7 @@ from icinganalysis import water_properties
 from icinganalysis import air_properties
 from icinganalysis import compressible_flow
 from icinganalysis import units_helpers
-from icinganalysis import cyl_beta2_43
+from icinganalysis.intermediate import cylinder_beta_max_from_figure_2_43
 from icinganalysis.langmuir_cylinder_values import calc_ko_d2
 
 
@@ -277,7 +277,7 @@ if __name__ == "__main__":
     for case, u, mvd, lwc, tc, n, pqv, pqf, pqk, pqc, pqe, pqw in vs:
         t = units_helpers.tc_to_k(tc)
         hc = calc_hc_o_cylinder_from(u, t, diameter, p)
-        beta = cyl_beta2_43.get_beta(calc_ko_d2(t, p, u, mvd, diameter))
+        beta = cylinder_beta_max_from_figure_2_43.get_beta(calc_ko_d2(t, p, u, mvd, diameter))
         cp = 1
         mach = compressible_flow.calc_mach(u, t)
         po = p * (0.7 * cp * mach**2 + 1)

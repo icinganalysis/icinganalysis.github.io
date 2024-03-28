@@ -4,8 +4,8 @@ from icinganalysis.langmuir_cylinder_values import (
     langmuir_lwc_fractions,
     get_mids,
 )
-from icinganalysis.intermediate import standard_computational_model
 from icinganalysis import compressible_flow
+from icinganalysis.intermediate import standard_computational_model
 
 hc_calc_method = standard_computational_model.calc_hc_o_cylinder_from
 
@@ -23,7 +23,12 @@ def calc_cylinder_beta_max_standard_computational_model_with_distribution(
     for r, w in zip(d_mids, langmuir_lwc_fractions):
         ko = standard_computational_model.calc_ko_d2(t, p, u, r * mvd, diameter)
         if ko == ko and ko > 0:  # Filter out 'nan' and unrealistic Ko values
-            beta += w * max(0, standard_computational_model.cyl_beta2_43.get_beta(ko))
+            beta += w * max(
+                0,
+                standard_computational_model.cylinder_beta_max_from_figure_2_43.get_beta(
+                    ko
+                ),
+            )
     return beta
 
 
