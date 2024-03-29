@@ -20,18 +20,19 @@ However, they can be important "stepping stones" to build more complex capabilit
 
 Code written in the python programming language is available via 
 [github.com/icinganalysis](https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis), 
-file "basics_water_catch_calculations.py" (and associated files) for the solutions, 
+file "intermeadiate/basics_water_catch_calculations.py" (and associated files) for the solutions, 
 under the [LGPL license](https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE). 
 Internally, the code uses (mostly) SI units 
-(see [A Brief Digression on Unit Systems]({filename}..%2Fbrief-digression-on-units.md) for details). 
+(see [A Brief Digression on Unit Systems]({filename}..%2Fbrief-digression-on-units.md)for details). 
 There are unit conversion functions in the python code. 
 Values here are reported in the handbook units. 
 
 You are encouraged to use the provided code, 
 or to start building your own library of such calculations 
 (that will be far more instructional than just reading this text). 
-The examples here may not seem very useful, 
-but they provide quick and easy checks for more complex calculations, 
+The methods in the examples here may not seem very useful, 
+given the current availability of more complex computing tools, 
+but they provide quick and easy checks for those more complex calculations, 
 that I have used for decades. 
 They are also building blocks used to construct more complex calculations, 
 such as those in the "Manual of Scaling Methods" NASA/CR-2004-212875, 2004 [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf).  
@@ -318,7 +319,8 @@ fraction difference  :+0.008 (calc-reference)/reference
 
 ## Exercises 
 
-Reader are encouraged to perform the impingement limit calculations noted in Example 2-2 and Example 2-3.  
+Reader are encouraged to perform the impingement limit calculations noted in Example 2-2 and Example 2-3. 
+This will require programming data from the appropriate figures.  
 
 ## References (Handbook format)  
 

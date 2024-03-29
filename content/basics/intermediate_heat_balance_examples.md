@@ -30,7 +30,7 @@ The energy examples in the handbook are less detailed than the ones we previousl
 The "Standard Computational Model" is implemented here in the python programming language 
 and is available via 
 [github.com/icinganalysis](https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis), 
-file "table_2_5.py" (and associated files) for the solutions, 
+file "intermeadiate/table_2_5.py" (and associated files) for the solutions, 
 under the [LGPL license](https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE). 
 Internally, the code uses (mostly) SI units 
 (see [A Brief Digression on Unit Systems]({filename}..%2Fbrief-digression-on-units.md) for details). 
@@ -224,7 +224,8 @@ glaze 0 < n < 0.66, intermediate 0.66 < n < 1, rime n = 1.
 
 ![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
 
-The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81.  
+The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81
+(file "intermediate/figure_2_81.py").  
 
 The method of determining the leading edge stagnation line water catch β value is not defined in the handbook text. 
 For the calculations here, the cylinder line from Figure 2-43 is used.  
