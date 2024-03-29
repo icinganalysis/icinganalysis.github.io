@@ -1,11 +1,18 @@
+from io import StringIO
 from scipy.interpolate import interp1d
 import numpy as np
 import csv
 import matplotlib.pyplot as plt
 
-f = r"figure_2_12_ko_beta.csv"
+figure_2_12_ko_beta = """0.01, 0.33
+0.02, 0.49
+0.05, 0.68
+0.1, 0.79
+0.2, 0.865
+0.5, 0.93
+1, 0.96"""
 
-with open(f, "r") as fd:
+with StringIO(figure_2_12_ko_beta) as fd:
     lines = [[float(_) for _ in line] for line in list(csv.reader(fd))]
 kos, betas = list(zip(*lines))
 __kb_interpolate = interp1d(

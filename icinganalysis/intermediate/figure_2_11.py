@@ -1,12 +1,23 @@
+from io import StringIO
 from scipy.interpolate import interp1d
 import numpy as np
 import matplotlib.pyplot as plt
 
 f = r"figure_2_11_ko_em.csv"
 
+figure_2_11_ko_em = """0.01, 0.045
+0.015, 0.073
+0.02, 0.1
+0.03, 0.15
+0.05, 0.235
+0.1, 0.365
+0.2, 0.52
+0.5, 0.705
+1, 0.82"""
+
 import csv
 
-with open(f, "r") as fd:
+with StringIO(figure_2_11_ko_em) as fd:
     lines = [[float(_) for _ in line] for line in list(csv.reader(fd))]
 kos, ems = list(zip(*lines))
 __ke_interpolate = interp1d(

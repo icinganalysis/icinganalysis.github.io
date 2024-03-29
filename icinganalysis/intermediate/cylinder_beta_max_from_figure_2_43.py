@@ -1,9 +1,25 @@
+
+from io import StringIO
 import numpy as np
 from scipy.interpolate import interp1d
 
 from icinganalysis import simple_csv_reader
 
-header, rows = simple_csv_reader.simple_csv_reader(r'cyl_beta2-43.csv')
+figure_2_43_data = """ko, cyl_beta
+0.075, 0.0
+0.105, 0.12
+0.2, 0.295
+0.5, 0.54
+1, 0.695
+2, 0.815
+4, 0.895
+10, 0.945
+100, 0.99
+"""
+
+
+# header, rows = simple_csv_reader.simple_csv_reader(r'cyl_beta2-43.csv')
+header, rows = simple_csv_reader.simple_csv_reader_file_descriptor(StringIO(figure_2_43_data))
 columns = list(zip(*rows))
 d = {k: v for k, v in zip(header, columns)}
 
