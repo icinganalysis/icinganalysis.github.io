@@ -97,7 +97,7 @@ if __name__ == "__main__":
     alt = 16000
     tn, tx = get_continuous_maximum_t_min_t_max(alt)
     print(tn, tx)
-    plt.plot((alt, alt), (tn, tx), "+", ms=10, label="Interplotated Tmin, Tmax")
+    plt.plot((alt, alt), (tn, tx), "+", ms=10, label="Interpolated Tmin, Tmax")
     plt.plot()
     plt.xlim(0)
     plt.ylim(-30)
