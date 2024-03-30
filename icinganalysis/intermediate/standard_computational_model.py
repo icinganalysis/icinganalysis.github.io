@@ -24,9 +24,9 @@ def calc_m_imp(u, lwc, beta):
 def calc_t_film(t, t_surface=T_MP):
     """
 
-    :param t:
-    :param t_surface:
-    :return:
+    :param t: air temperature (outside of boundary layer)
+    :param t_surface: surface temperature
+    :return: film temperature
     """
     t_film = (t + t_surface) / 2
     # return t_surface
@@ -188,7 +188,7 @@ def calc_q_ice_cool(n, m_imp, t_surf=T_MP):
     return q_ice_cool
 
 
-def calc_m_evap(t, p, hc, u, t_surf=T_MP, po=None, to=None):
+def calc_m_evap(t, p, hc, t_surf=T_MP, po=None, to=None):
     if po is None:
         po = p
     if to is None:
@@ -237,7 +237,7 @@ def calc_energy_and_mass_balance(
     q_drop_ke = calc_q_drop_ke(m_imp, u)
     q_conv = calc_q_conv(hc, t, t_surf)
     q_drop_warm = calc_q_drop_warm(m_imp, t, t_surf)
-    m_evap = calc_m_evap(t, p, hc, u, t_surf, po, to)
+    m_evap = calc_m_evap(t, p, hc, t_surf, po, to)
     m_evap = min(m_incoming, m_evap)
     q_evap = calc_q_evap(m_evap)
     q_sink = q_conv + q_drop_warm + q_evap
