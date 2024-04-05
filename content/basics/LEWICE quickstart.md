@@ -1,6 +1,6 @@
 Title: LEWICE Quick Start      
 header: The Basics: Intermediate Topics  
-Date: 2024-04-15 14:00  
+Date: 2024-04-8 14:00  
 tags: intermediate topics, ice shape, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  

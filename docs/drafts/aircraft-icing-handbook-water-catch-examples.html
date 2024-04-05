@@ -27,12 +27,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2024-03-04T17:00:00-08:00">
-                Published: Mon 04 March 2024
+        <abbr class="published" title="2024-04-08T15:00:00-07:00">
+                Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-03-26T13:31:10.622829-07:00">
-                Updated: Tue 26 March 2024
+        <abbr class="modified" title="2024-04-05T10:27:21.518095-07:00">
+                Updated: Fri 05 April 2024
         </abbr>
 <!---->
         <!---->
@@ -54,17 +54,18 @@ This may limit the direct reuse of the equations. </p>
 However, they can be important "stepping stones" to build more complex capabilities. </p>
 <p>Code written in the python programming language is available via 
 <a href="https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis">github.com/icinganalysis</a>, 
-file "basics_water_catch_calculations.py" (and associated files) for the solutions, 
+file "intermeadiate/basics_water_catch_calculations.py" (and associated files) for the solutions, 
 under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a>. 
 Internally, the code uses (mostly) SI units 
-(see <a href="/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a> for details). 
+(see <a href="/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a>for details). 
 There are unit conversion functions in the python code. 
 Values here are reported in the handbook units. </p>
 <p>You are encouraged to use the provided code, 
 or to start building your own library of such calculations 
 (that will be far more instructional than just reading this text). 
-The examples here may not seem very useful, 
-but they provide quick and easy checks for more complex calculations, 
+The methods in the examples here may not seem very useful, 
+given the current availability of more complex computing tools, 
+but they provide quick and easy checks for those more complex calculations, 
 that I have used for decades. 
 They are also building blocks used to construct more complex calculations, 
 such as those in the "Manual of Scaling Methods" NASA/CR-2004-212875, 2004 <a href="https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf">ntrs</a>.  </p>
@@ -309,7 +310,8 @@ fraction difference  :+0.008 (calc-reference)/reference
 </code></pre></div>
 
 <h2>Exercises</h2>
-<p>Reader are encouraged to perform the impingement limit calculations noted in Example 2-2 and Example 2-3.  </p>
+<p>Reader are encouraged to perform the impingement limit calculations noted in Example 2-2 and Example 2-3. 
+This will require programming data from the appropriate figures.  </p>
 <h2>References (Handbook format)</h2>
 <p>2-2 Langmuir. I. and Blodgett, K., "A Mathematical Investigation of Water Droplet Trajectories," AAFTR 5418, February 1946. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=mJySYM32cHUC&amp;oi=fnd&amp;pg=PA11&amp;dq=Katherine+Blodgett+icing&amp;ots=QYP5gFyEiz&amp;sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&amp;q=Katherine%20Blodgett%20icing&amp;f=false">books.google.com</a>   </p>
 <p>2-12 Bragg, M. B. and Gregorek, G. M., "An Analytical Evaluation of the Icing Properties of Several Low and Medium Speed Airfoils," AIAA Paper No. 83-109, January 1983. <a href="https://arc.aiaa.org/doi/10.2514/6.1983-109">arc.aiaa.org</a>  </p>

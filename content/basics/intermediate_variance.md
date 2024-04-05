@@ -1,6 +1,6 @@
 Title: Introduction to Variations         
 header: Intermediate Level    
-Date: 2024-04-15 21:00  
+Date: 2024-04-8 20:00  
 tags: intermediate topics,  
 status: draft  
 rights: CC-BY-NC-SA 4.0  

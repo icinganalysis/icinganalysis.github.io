@@ -1,6 +1,6 @@
 Title: Computer Impingement Analysis Tools Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-04-15 18:00  
+Date: 2024-04-8 17:00  
 tags: intermediate topics, water catch, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  

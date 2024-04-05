@@ -1,6 +1,6 @@
 Title: Computer Freezing Rate Analysis Tools Examples    
 header: The Basics: Intermediate Topics  
-Date: 2024-04-15 20:00  
+Date: 2024-04-08 19:00  
 tags: intermediate topics, ice shape, LEWICE   
 status: draft  
 rights: CC-BY-NC-SA 4.0  

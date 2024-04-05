@@ -27,12 +27,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2024-04-15T19:00:00-07:00">
-                Published: Mon 15 April 2024
+        <abbr class="published" title="2024-04-08T18:00:00-07:00">
+                Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-03-26T12:29:24.169591-07:00">
-                Updated: Tue 26 March 2024
+        <abbr class="modified" title="2024-04-05T10:36:54.106037-07:00">
+                Updated: Fri 05 April 2024
         </abbr>
 <!---->
         <!---->
@@ -44,7 +44,7 @@
         <!---->
 <!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
 
-</footer><!-- /.post-info -->      <p><img alt="dot_faa_ct_88_8_1_fig_2-81" src="/images/basics/dot_faa_ct_88_8_1_fig_2-81.png"><br>
+</footer><!-- /.post-info -->      <p><img alt="Ice shape types as a function of airspeed and ambient temperature for a liquid water content of 0.2 g/m^3." src="/images/basics/dot_faa_ct_88_8_1_fig_2-81.png"><br>
 <em>Public Domain by Donald Cook.</em>  </p>
 <h2>Prerequisites</h2>
 <p>To learn the energy terms and equations, readers should first review the 
@@ -64,7 +64,7 @@ As noted for calculating evaporation:  </p>
 <p>The "Standard Computational Model" is implemented here in the python programming language 
 and is available via 
 <a href="https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis">github.com/icinganalysis</a>, 
-file "table_2_5.py" (and associated files) for the solutions, 
+file "intermeadiate/table_2_5.py" (and associated files) for the solutions, 
 under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a>. 
 Internally, the code uses (mostly) SI units 
 (see <a href="/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a> for details). 
@@ -230,7 +230,8 @@ The results were very similar. </p>
 <p>Figure 2-81 (and 2-82) show calculated cylinder stagnation line freezing fraction related to ice type:
 glaze 0 &lt; n &lt; 0.66, intermediate 0.66 &lt; n &lt; 1, rime n = 1.</p>
 <p><img alt="Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3." src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png">  </p>
-<p>The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81.  </p>
+<p>The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81
+(file "intermediate/figure_2_81.py").  </p>
 <p>The method of determining the leading edge stagnation line water catch β value is not defined in the handbook text. 
 For the calculations here, the cylinder line from Figure 2-43 is used.  </p>
 <p>A Langmuir A drop size distribution was assumed. 
