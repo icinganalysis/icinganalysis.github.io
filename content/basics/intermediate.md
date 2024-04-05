@@ -18,6 +18,9 @@ you are ready for Intermediate level aircraft icing topics:
 - Using computer icing analysis tools to produce ice shapes  
 - Preliminary ice protection system sizing  
 
+The Intermediate Level is a work in progress, as there may yet be many revisions and additions. 
+However, it may be useful "as is" to some readers. 
+
 ## Prerequisite: Select your toolset  
 
 You are encouraged to run code to reproduce the examples used here. 
