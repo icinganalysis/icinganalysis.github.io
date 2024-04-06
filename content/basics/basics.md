@@ -107,16 +107,20 @@ Each concept has a resources section, with specific further reading on the conce
 
 - [Resources]({filename}resources.md)  
 
-## Future additions  
+## After The Basics  
 
-"Intermediate" topics, which require mathematics and computer skills, 
-are in-work, but are not yet available:  
+[Intermediate Level Topics]({filename}intermediate.md) require mathematics and computer skills.  
 
-- Using handbook design and analysis methods  
-
-- Using computerized icing analysis tools  
-
+- Using handbook analysis methods  
+- Using computer icing analysis tools to produce ice shapes  
 - Preliminary ice protection system sizing  
+
+Items specifically deferred to the (yet to be written) Expert Level  
+
+- 3D analysis (including swept wings)  
+- Icing wind tunnel tests  
+- Runback ice  
+- Heat transfer coefficients  
 
 ## Related  
 
