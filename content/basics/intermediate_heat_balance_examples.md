@@ -132,7 +132,7 @@ I assumed a "Langmuir A" distribution (single or mono-dispersed drop size).
 The method of determining the leading edge stagnation line water catch β value is not defined in the handbook text. 
 For the calculations here, the cylinder line from Figure 2-43 is used.  
 
-![Figure 2-43.png](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-43.png)  
+![Figure 2-43. Impingement efficiency at the stagnation line for several bodies.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-43.png)  
 
 Note that the characteristic length used to calculate Ko is the cylinder radius or diameter / 2.  
 
