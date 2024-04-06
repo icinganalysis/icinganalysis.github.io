@@ -11,8 +11,6 @@ b. Thermodynamic control volumes over each segment defining the body geometry
 ](/images%2Fbasics%2FLEWICE%20control%20volumes.png)  
 _from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011627)_  
 
-## Summary  
-
 ## Prerequisites  
 
 You need to complete the [Aircraft Icing Handbook Water Catch Examples]({filename}intermediate_water_catch_examples.md).  
