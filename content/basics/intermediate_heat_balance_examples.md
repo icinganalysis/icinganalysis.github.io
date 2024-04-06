@@ -2,7 +2,6 @@ Title: Aircraft Icing Handbook Energy Balance Examples
 header: The Basics: Intermediate Topics  
 Date: 2024-04-8 18:00  
 tags: intermediate topics, thermodynamics   
-status: draft  
 rights: CC-BY-NC-SA 4.0  
 
 ![Ice shape types as a function of airspeed and ambient temperature for a liquid water content of 0.2 g/m^3.](/images/basics/dot_faa_ct_88_8_1_fig_2-81.png)  

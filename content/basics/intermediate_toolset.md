@@ -2,7 +2,6 @@ Title: Analysis Toolset
 header: The Basics: Intermediate Topics  
 Date: 2024-04-8 13:00  
 tags: intermediate topics, analysis tools, Python, LEWICE   
-status: draft  
 rights: CC-BY-NC-SA 4.0
 
 ![Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.

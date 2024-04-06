@@ -2,7 +2,6 @@ Title: LEWICE Quick Start
 header: The Basics: Intermediate Topics  
 Date: 2024-04-8 14:00  
 tags: intermediate topics, ice shape, LEWICE   
-status: draft  
 rights: CC-BY-NC-SA 4.0  
 
 ![LEWICE Ice Shape for Example Case 1. A 2D profile of an airfoil with a calculated ice shape 

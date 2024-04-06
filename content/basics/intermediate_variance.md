@@ -1,8 +1,7 @@
 Title: Introduction to Variations         
 header: Intermediate Level    
 Date: 2024-04-8 20:00  
-tags: intermediate topics,  
-status: draft  
+tags: intermediate topics, ice shapes, LEWICE  
 rights: CC-BY-NC-SA 4.0  
 
 ![Figure R-21. Comparison of Drop Impingement and Ice Accretion Code Results With Experimental Ice

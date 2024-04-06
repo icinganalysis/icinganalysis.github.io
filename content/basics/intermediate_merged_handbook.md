@@ -2,7 +2,6 @@ Title: Aircraft Icing Handbook Merged Sections
 header: The Basics: Intermediate Topics  
 Date: 2024-04-15 16:00  
 tags: intermediate topics, aircraft icing handbook   
-status: draft  
 rights: CC-BY-NC-SA 4.0  
 
 ![FIRST UPDATE OF AIRCRAFT ICING HANDBOOK.](..%2Fimages%2FFAA%20Handbook%20volume%201%2FUpdate.png)  

@@ -23,7 +23,953 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/resources.html">Resources</a></h1>
+                    <h1 class="entry-title"><a href="/aircraft-icing-handbook-merged-sections.html">Aircraft Icing Handbook Merged Sections</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2024-04-15T16:00:00-07:00">
+                Published: Mon 15 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.784813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info --><p><img alt="FIRST UPDATE OF AIRCRAFT ICING HANDBOOK." src="..%2Fimages%2FFAA%20Handbook%20volume%201%2FUpdate.png">  </p>
+<h2>Introduction</h2>
+<p>The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1, 1991 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a> 
+had a perhaps little known update in 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a>.  </p>
+<p>Several errors and omissions were corrected in the update, so it is essential to consult the update. </p>
+<p>As the update only include certain affected pages, it makes it difficult to read 
+as there is much interruption paging back and forth between sources. 
+Here, selected sections of the two sources are merged for easier reading. </p>
+<p>The reproduction quality of the online sources is variable, 
+and parts of the update are barely legible. 
+Here, the text is used (not just scanned images of text). 
+In some cases, I have included text of the equations. </p>
+<p>Some readers may prefer the online web formatting over the pdf formatting. 
+The figures are included inline, again to reduce paging back and forth. 
+The cited references are also noted here. Links to online sources are provided, where available. </p>
+<p>The merged texts are provided as a learning aid, they are not the authoritative source. 
+You still have to consult both original source versions of the handbook to check for correctness 
+and completeness of the merging done here. 
+Not all sections have been merged.  </p>
+<p>The merged sections here do not use the block quote formatting to improve readability. </p>
+<h3 id="water-drop-trajectory-equations">Water drop trajectories (transcribed text from DOT/FAA/CT-88/8-1 (updated 1993))</h3>
+<p>2.2.1.1 Droplet Trajectory Equation  </p>
+<p>(Section 2.2.1.1 and 2.2.1.2 are based primarily on reference 2-1, which draws heavily on the basic
+treatment of droplet trajectories presented in reference 2-2.)  </p>
+<p>The liquid water content of supercooled clouds rarely exceeds 1.0 grams of liquid water per
+cubic meter of air. This means that a cloud is rarely more than one-millionth liquid water by volume.
+Due to this low concentration of water droplets in the freestream, the flow way be considered
+uncoupled, meaning that the influence of the droplets on the flowfield can be neglected. </p>
+<p>Supercooled water droplets in the atmosphere usually have diameters of less than 60 microns and
+experience Reynolds numbers small enough to permit their treatment as essentially spherical.
+(Although this is the universal computational practice, it has been argued that a droplet experiencing
+large accelerations in the vicinity of an ice accretion may assume a non-spherical shape which would
+alter its coefficient of drag and hence its trajectory (reference 2-3).)  </p>
+<p>Consider the trajectory of a single droplet approaching a body. The droplet trajectory equation
+is obtained by applying Newton's Second Law, F = ma, to the droplet. This equation can be expressed
+as</p>
+<p><img alt="Equation 2-1.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-1.png"></p>
+<p>where x is the position vector of the droplet, t is time (the acceleration a is of course equal to the
+second derivative of x with respect to time), P is the pressure gradient term, M. is the apparent mass
+term, mg is the gravity force or "settling" term, B is the Bassett (unsteady) history force, and D is the
+drag force. The forces P and Ma are ordinarily neglected because the density of the particle (water
+droplet) is much greater that of the fluid (air) and the force mg can be neglected because of the very
+small mass of supercooled water droplets.  </p>
+<p>The force B accounts for the deviation of the flow pattern around the particle from that of steady
+state and represents the effect of the history of the motion on the instantaneous force (reference 2-4).
+It is essentially a correction to the drag term for an accelerating sphere. An accelerating sphere
+experiences a lower drag coefficient since it takes the flowfield some finite time to respond to the
+changing velocity and droplet Reynolds number.  </p>
+<p>The term is significant if the particle density is of the same order as that of the fluid 
+(which is not the case here), or if the particle experiences "large"
+accelerations. Droplets experience their largest accelerations when in the leading edge region of an
+airfoil, and the accelerations are larger yet if "glaze horns" are present. Norment (reference 2-5),
+using the work of Keim (reference 2-6) and Crowe (reference 2-7), has argued that for the icing
+problem the accelerations experienced by the droplets are not large enough for the Bassett term to be
+significant. Lozowski and Oleskiw (reference 2-8) included the Bassett term in the droplet trajectory
+equation used in their droplet trajectory and impingement code (Chapter IV, Section 2). They state
+that their results suggest that "in most cases ... the term may be ignored without severely affecting the
+accuracy of the calculations" (reference 2-8, p. 11). The Bassett force will be neglected in the rest 
+of this discussion.  </p>
+<p>The drag term, D, can be expressed as  </p>
+<p><img alt="Equation 2-2.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-2.png">  </p>
+<p>u is the local flowfield velocity vector, S is the cross sectional area of the sphere (or the projected
+frontal area of the sphere), and CD is the drag coefficient. Note that the drag is evaluated using the
+velocity of the droplet with respect to the local airstream; this is sometimes called the "slip velocity."
+All the terms on the right hand side of equation 2-1 other than D are now dropped and equation
+2-2 is used to substitute for D; this yields</p>
+<p><img alt="Equation 2-3.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-3.png">  </p>
+<p>where the equation has been divided by the mass m of the droplet, δ is the droplet diameter, and<br>
+ρw is droplet density and ρa is the air density. </p>
+<p>A standard drag curve (figure 2-1) for a sphere has been established by bringing together
+experimental results from many sources (reference 2-9). Only a limited range of this curve need be
+fit for supercooled water droplets, since the relevant droplet Reynolds numbers rarely exceed 500.
+A number of different fits are available, some of which are discussed in reference 2-1.  </p>
+<p><img alt="Figure 2-1.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-1.png">  </p>
+<p>2.2.1.2 Modified Droplet Inertia Parameter  {: #modified-drop-inertia-parameter }  </p>
+<p>Equation (2-3) will now be nondimensionalized in order to introduce the inertia parameter K and
+modified inertia parameter Ko (both further discussed in Chapter IV, Section 2). Letting x and y be
+the components of the vector x, define the nondimensional variables x<em> = x/c, y</em> = y/c, t* = t/(c/Vinf), 
+where c is a characteristic length, t is time, and Vinf is the freestream airspeed. If the
+asterisks are suppressed after the equation is suitably rearranged, the nondimensional equation is  </p>
+<p><img alt="Equation 2-4.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-4.png">  </p>
+<p>Now x_bar is the dimensionless droplet position vector, V_bar is the dimensionless local flowfield velocity
+vector, t is nondimensional time, Rel is the local relative droplet Reynolds number given by</p>
+<p><img alt="Equation 2-5.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-5.png">  </p>
+<p>(μs is the viscosity of air) and K is the droplet inertia parameter given by  </p>
+<p><img alt="Equation 2-6.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-6.png">  </p>
+<p>It can be seen from equation (2-4) that the trajectory depends upon K and CDRel/24. But CDRel/24
+can be shown (reference 2-2) to depend approximately upon Re, the free stream droplet Reynolds
+number which is given by</p>
+<p><img alt="Equation 2-7.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-7.png">  </p>
+<p>Therefore the droplet trajectory depends approximately upon Re and K only.  </p>
+<p>Langmuir and Blodgett (reference 2-2) combined Re and K into a single parameter Ko, referred
+to as the modified inertia parameter, as follows:  </p>
+<p><img alt="Equation 2-8.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-8.png"></p>
+<p>The quantity in brackets, referred to as the range parameter, is the ratio of the trajectory distance of
+a droplet in still air, with an initial Reynolds number of Re and gravity neglected, divided by the
+trajectory distance if the drag is assumed to obey Stokes Jaw. Using numerical methods, they obtained
+a graph giving the range parameter as a function of Re (figure 2-2).  </p>
+<p><img alt="Figure 2-2.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-2.png">  </p>
+<p>Bragg (reference 2-10) has interpreted Ko by rewriting Equation 2-4 as  </p>
+<p><img alt="Equation 2-9.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-9.png">  </p>
+<p>If some suitable average of the term in brackets on the left can be found over the entire trajectory,
+the droplet path becomes a function of just this single variable. Under typical icing conditions K.
+can be interpreted as such an average. Bragg also derived the following expression:  </p>
+<p><img alt="Equation 2-10.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-10.png">  </p>
+<p>Equation 2-10 is shown in reference 2-1 to be within 1 percent of Langmuir's calculated values until
+Re approaches 1000 (much larger than the values for supercooled cloud droplets), where Langmuir's
+values diverge.  </p>
+<p>The approximate similarity parameter Ko has been introduced here because of its wide use in
+icing calculations. As shall be seen, it greatly simplifies the presentation of droplet impingement data.
+Ko will be further discussed in Chapter IV, Section 2, where ice scaling is addressed and where
+experimental and computational evidence will be presented in support of the use of Ko.</p>
+<p>Ko can be interpreted as relating the importance of droplet inertia to the importance of droplet
+drag forces. For small values of Ko, drag predominates and the droplet tends to follow the flow
+streamlines until very close to the body. If Ko is small enough (approximately .005), the droplet acts approximately
+as a flow tracer. For large values of Ko, droplet inertia predominates and the droplet departs
+considerably from the flow streamlines as the body is approached. If Ko is large enough (approximately 1.0). the
+droplet trajectory is approximately a straight line that intersects the body. Figure 2-3 shows
+trajectories for two droplets approaching an airfoil, one with a diameter of 5 μm and Ko = .011 and
+the other with a diameter of 50 μm and Ko = .467. The trajectories were computed with the computer
+code LEWICE, which is discussed in Chapter IV, Section 2. Four chord lengths in front of the airfoil,
+the two trajectories are coincident (not shown in figure); however, they diverge dramatically in the
+vicinity of the airfoil due to the large difference in Ko between the two drops.  </p>
+<p><img alt="Figure 2-3.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-3.png">  </p>
+<p>Bragg (reference 2-10) has derived another trajectory similarity parameter, K_bar, for which he has
+given a theoretical justification but which, nonetheless, has not as yet been widely adopted by other
+workers. Ko and K_bar are closely related and, differing by a constant factor if a simpe drag law is used
+in deriving Ko. Bragg shows that K_bar is given approximately by  </p>
+<p><img alt="Equation 2-11.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-11.png">  </p>
+<p>It follows that since Ko approximates K_bar, Ko is approximately proportional to δ^5/3, to V^1/3, and to
+1/c.  </p>
+<p>Figure 2-4 illustrates graphically values assumed by Ko under the range of MVDs and velocities
+that would ordinarily be experienced by a general aviation aircraft. The bottom panel is for a chord
+size representative of a full scale wing and the middle panel is for a chord size representative of a full
+scale horizontal stabilizer, both for a general aviation aircraft, while the top panel is for a chord size
+(6 inches) representative of an airfoil model. (Much research has been done with models of
+approximately this size, although larger models are generally preferred in tunnels which can
+accommodate them.)  </p>
+<p><img alt="Figure 2-4.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-4.png">  </p>
+<p>Comparison among the three panels shows that Ko is a strong function of chord size. In fact,
+the largest value of Ko for a full scale wing is approximately equal to the smallest value of Ko for
+the model. Examination of any one of the three panels shows that Ko varies strongly with MVD but
+much more weakly with aircraft velocity. All these observations are in accordance with equation 2-11. 
+The reader may find it useful to refer back to this figure when studying the graphs presented
+later in which the impingement parameters E and β_max (defined in the next section) are presented as
+functions of Ko.  </p>
+<p>Figure 2-5 is constructed in the same manner, but using typical maximum droplet diameters
+rather than MVDs. It is interesting to note that the contrast among the three panels is now more
+pronounced due to the strong sensitivity of Ko to droplet diameter. Now the largest values of Ko even</p>
+<p><img alt="Figure 2-5.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-5.png"></p>
+<p>for a full scale horizontal stabilizer are substantially smaller than the smallest values of Ko for the
+model. This figure may be useful in interpreting the later graphs in which the impingement
+parameters Su and SL (defined in the next section) are presented as functions of Ko.</p>
+<p>2.2.1.3 Droplet Impingement Parameters  </p>
+<p>Several impingement parameters can be defined to characterize the impingement properties of
+an airfoil or cylinder with respect to the cloud it encounters.  </p>
+<p>Figure 2-6 illustrates the definition of the impingement parameters Su, SL, ΔYo, h, and E for
+an airfoil in a supercooled cloud. </p>
+<p><img alt="figure 2-6 redrawn.png" src="/images%2FFAA%20Handbook%20volume%201%2Ffigure%202-6%20redrawn.png"><br>
+<em>Figure 2-6 redrawn. Public domain by Donald Cook.</em>  </p>
+<p>Let S denote arc length measured along the airfoil surface.
+It is conventional to take S = 0 at the leading edge, and that is done here (although the reader should note
+that it is sometimes convenient to take S = 0 at the stagnation point instead). S is defined to be
+positive on the upper surface and negative on the lower surface. SU and SL are defined to be the
+upper and lower limits of droplet impingement on the airfoil and are determined by the upper and
+lower tangent droplet trajectories. Define a Y-axis that is perpendicular to the freestream velocity
+and far enough in front of the airfoil (at least several chords) so that the flow is essentially
+undisturbed by the presence of the airfoil; then the droplet trajectories can be taken initially to be
+parallel to one another and to the freestream flow lines. The droplet trajectory which strikes the
+airfoil at its leading edge intersects the Y-axis at a point which is taken to be Y = 0. The upper
+tangent trajectory intersects the Y-axis at a point YU and the lower tangent droplet trajectory
+intersects it at a point YL. Let ΔYo = Yu-YL; refer to this as the "freestream impingement width."
+Let h be the projected frontal height of the airfoil; note that this is a function of angle of attack. The
+total impingement (or collection) efficiency E is defined as the ratio of the freestream impingement
+width ΔYo to the projected frontal height h, i.e.,</p>
+<p><img alt="Equation 2-16.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png">  </p>
+<p>E is the proportion of liquid mass crossing the Y-axis within the frontal projection of the airfoil and
+ultimately striking the airfoil.  </p>
+<p>In equation (2-16), E is a dimensionless quantity, but ΔYo and h are not. However, it is
+customary to nondimensionalize the latter two quantities by dividing them by the chord length c. A
+different notation is not ordinarily introduced for nondimensional ΔYo and h; in instances where the
+meaning may not be clear from the context, it is explicitly noted if the dimensional or nondimensional
+quantity is meant. Tables and graphs are available giving nondimensional ΔYo and h as functions of
+Ko and angle of attack α for some airfoils. Nondimensional ΔYo can be interpreted as follows:
+consider a segment of the Y-axis of length equal to one chord and centered at the projected position
+of the airfoil leading edge ΔYo is the proportion of liquid mass crossing the Y-axis within the
+segment which ultimately strikes the airfoil.  </p>
+<p>Figure 2-7 illustrates the definition of the local impingement (or collection) efficiency β at an
+arbitrary point P on the airfoil.  </p>
+<p><img alt="Figure 2-7.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-7.png">  </p>
+<p>Let P lie between the points of impact on the airfoil surface of two
+droplet trajectories. The mass of water droplets between the two trajectories a distance SYo apart in
+the free stream (at the Y-axis) is distributed over a length δS on the airfoil surface. Letting
+δS approach 0 in such a way that P always falls between the impact points of the two trajectories, the
+local impingement efficiency 0 at P is defined in the limit by the derivative</p>
+<p><img alt="Equation 2-17.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-17.png">  </p>
+<p>The maximum value assumed by β anywhere on the airfoil surface is denoted by βmax. Note also that  </p>
+<p><img alt="Equation 2-18.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png"></p>
+<p>The impingement efficiency curve or β-curve is a plot of β on the vertical axis versus S on the
+horizontal axis. This is illustrated in figure 2-8. </p>
+<p><img alt="Figure 2-8.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-8.png">  </p>
+<p>The β-curve can be calculated numerically as
+follows: First, find the upper and lower tangent trajectories. These are ordinarily approximated
+numerically by finding upper and lower trajectories which pass within a small prescribed distance e
+of the airfoil without actually striking it. Second, calculate a set of trajectories between the upper and
+lower trajectories (figure 2-9). </p>
+<p><img alt="Figure 2-9.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-9.png">  </p>
+<p>There is a Y value and associated S value for each trajectory. Third,
+fit a Y vs. S curve to the points (S, Y), as shown in figure 2-10. </p>
+<p><img alt="Figure 2-10.png" src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-10.png">  </p>
+<p>Fourth, approximate the derivatives
+to the Y vs. S curve at a set of points; these derivatives are the as. Fifth, fit a β-curve to the points
+(S, β). Some researchers omit step three and simply approximate βi for (Si, Yi) by the ratio (Yi+1 -
+Yi)/(Si+1 - Si), and then fit the β-curve to the points (Si, β).  </p>
+<p>As noted, equations 2-16 and 2-17 are for the two-dimensional planar case. The local
+impingement efficiency, β, can be calculated for the three-dimensional case by considering a
+three-dimensional tube of water droplets starting at infinity with some area, A, perpendicular to the
+freestream, and impinging on a body over some surface area, As. Then, the local impingement
+efficiency, β, is the limit, as As approaches zero, of A divided by As  </p>
+<p><img alt="Equation 2-19.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-19.png">  </p>
+<p>Discussions of three-dimensional impingement calculations can be found in references 2-11 and 2-5.  </p>
+<p>2.2.1.4 Droplet Size Distribution Effects  </p>
+<p>The discussion thus far has proceeded as though clouds consisted of droplets of a single size
+("monodispersed" clouds). All actual clouds, whether in the atmosphere or the wind tunnel, possess
+a spectrum of droplet sizes. This is taken into account in the definition of 0 and E by integrating over
+the droplet spectrum. In calculations with experimental data, this leads to taking averages weighted
+by volume, with the droplet spectrum represented by a histogram. Terms computed over the droplet
+spectrum are sometimes indicated by writing a bar above them.  </p>
+<p><img alt="Equation 2-20.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-20.png">  </p>
+<p>Here β_bar is called the droplet spectrum local impingement (or collection) efficiency at the surface
+position specified by S. The ph[r]ase "droplet spectrum" is ordinarily suppressed, since this is the
+meaning carried by the bar, some authors use the term "overall" rather than "droplet spectrum." The
+integral limits are the minimum and maximum droplet diameter in the cloud. In general, a droplet
+size distribution is described by v, the cumulative volume of water in the cloud as a function of
+droplet diameter, δ. In equation 2-20, the derivative of this curve, dv/dδ, appears. It is a function
+of the droplet size, δ, and, of course, the assumed cloud droplet distribution. Usually β and dv/dS are
+not known as continuous functions of δ and equation 2-20 is then represented as a summation</p>
+<p><img alt="Equation 2-21.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-21.png">  </p>
+<p>Equation 2-21 is summed over N discrete droplet sizes representing the midpoints of N droplet size
+bins. (For example, δi = 6.5 μm for a bin for droplets with diameters from 5 to 8 μm.)
+The droplet spectrum (or overall) impingement (or collection) efficiency E for an airfoil or body
+is defined in a similar way for a droplet size distribution:  </p>
+<p><img alt="Equation 2-22.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-22.png">  </p>
+<p>Here ΔYo(δ) is the initial Y difference for the tangent trajectories for a droplet of diameter δ. As in
+the case of β, one usually knows ΔYo (δ) for a discrete number of droplet sizes. Equation 2-22 can
+therefore be written as the sum  </p>
+<p><img alt="Equation 2-23.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-23.png">  </p>
+<p>Note that a droplet spectrum (or overall) ΔYo may also be defined as  </p>
+<p><img alt="Equation 2-24.png" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-24.png">  </p>
+<p>The limits of impingement depend not on the entire droplet spectrum but only on the largest
+droplets present in the spectrum. Let δmax denote the largest drop diameter present in the spectrum
+(or the midpoint of the bin containing the largest droplets), and let Ko,max denote the modified inertia
+parameter calculated using δmax. The maximum limits of impingement may be found from plots of
+Su and SL as a function of Ko_max, and angle of attack α.</p>
+<p>[Several sections not included]</p>
+<h3 id="standard-computational-model">Energy Balance "Standard Computational Model" (transcribed text from DOT/FAA/CT-88/8-1 (updated 1993))</h3>
+<p>2.2.2.4 Physical Modeling of Ice Accretion Process  </p>
+<p>The physical modeling of aircraft icing consists of (1) the modeling of the trajectories and
+impingement of the supercooled water droplets and (2) the modeling of the behavior of the liquid
+water formerly in the droplets once it is on a surface of the aircraft. Part (1) has been presented
+above; the basic assumptions and equations go back to reference 2-2 and are widely accepted;
+discussion centers on the formulation of numerical procedures. Part (2), which will now be discussed,
+remains controversial. There exists what might be called a "standard computational model" which is
+incorporated in various forms in a number of computer codes, the most widely used of which is
+probably LEWICE (reference 2-39), developed under the direction of NASA Lewis Research Center.</p>
+<p>However, a number of questions have been raised as to how accurately this model actually depicts the
+surface behavior of the liquid water. NASA-Lewis (reference 2-40) has initiated efforts to "formulate
+either changes to the existing model or an alternate model in order to see if ice shape predictions can
+be improved." (However, LEWICE can presently give useful ice shape predictions for a fairly wide
+range of conditions when used in conjunction with an appropriate roughness correlation; see the
+discussion in Chapter IV, Section 2.) This section begins with a presentation of the standard
+computational model; this is followed by a brief survey of the major criticisms of that model.  </p>
+<p>The standard model assumes that if air temperature is not low enough for impinging droplets to
+freeze upon impact, then the droplets are absorbed into a thin water film which flows away from the
+stagnation line (or point). As it flows, it is cooled mainly by convection to the airstream until it
+freezes, thus gradually changing the surface shape.  </p>
+<p>This model is formulated computationally by dividing the airfoil surface into segments, and
+associating a control volume with each segment. The water entering a control volume has two sources:
+(1) water droplets impinging on the surface segment; (2) water "running back" from an adjacent
+control volume closer to the stagnation point. (This "run back" water consists of all water which
+entered the adjacent control volume but did not freeze.) An energy balance analysis is applied to each
+control volume to determine the freezing fraction n, the fraction of the incoming water which freezes
+for that control volume. If n = 1, then all incoming water freezes. If n &lt; 1, then a fraction 1-n does
+not freeze. This water will in turn run back into the adjacent control volume further away from the
+stagnation point.  </p>
+<p>The mass and energy balance analyses for a given control volume will now be presented in some
+detail. The energy balance analysis was given its classic formulation by Messinger (reference 2-41),
+whose work drew on earlier work by Tribus (reference 2-42). The presentation and notation used
+here is based on reference 2-43.  </p>
+<p>The mass balance for a control volume on the surface can be formulated as follows (figure 2-73).  </p>
+<p><img alt="Figure 2-73. Control volume mass balance for an ice surface." src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-73.png">  </p>
+<p>Let M"Imp denote the mass flux per unit time due to impinging water droplets,
+M"Run in and M"Run out denote mass flow per unit area per unit time into and out of the control
+volume due to liquid run back, and M"ice denote the mass of ice formed per unit area per unit time.
+Then the mass balance for the control volume is:  </p>
+<blockquote>
+<p>M"Ice = M"Ice + M"Runin - M"Runout - M"Evap  </p>
+</blockquote>
+<p><img alt="Equation 2-33 corrected. M&quot;Ice = M&quot;Ice + M&quot;Runin - M&quot;Runout - M&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-33%20corrected.png">   </p>
+<p>The term M"Imp is given by:  </p>
+<blockquote>
+<p>M"Imp = V∞ LWC β</p>
+</blockquote>
+<p><img alt="Equation 2-34. M&quot;Imp = V∞ LWC β" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-34.png"><br>
+V∞ is the freestream velocity. However, if the local velocity at the edge of the boundary layer is
+available, that velocity should be used rather than the freestream velocity. This procedure is followed,
+for example, in the ice accretion code LEWICE. β is the local collection efficiency for the control
+volume.  </p>
+<p>It is convenient to define a term M"Incoming by:  </p>
+<blockquote>
+<p>M"Incoming = M"Imp + M"Runin  </p>
+</blockquote>
+<p><img alt="Equation 2-35. M&quot;Incoming = M&quot;Imp + M&quot;Runin" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-35.png"><br>
+Then the freezing fraction n for the control volume is defined by:  </p>
+<blockquote>
+<p>n = M"Ice / M"Incoming</p>
+</blockquote>
+<p><img alt="Equation 2-36. n = M&quot;Ice / M&quot;Incoming" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-36.png"><br>
+where M"ice is the incoming mass which freezes.  </p>
+<p>The energy balance for a control volume on the surface can be formulated as follows (figure 2-74).<br>
+<img alt="Figure 2-74. Modes of energy transfer for an accreting ice surface." src="/images%2FFAA%20Handbook%20volume%201%2FFigure%202-74.png">  </p>
+<p>First, the main heat source terms (those that release heat into the control volume) are given.  </p>
+<p>Let Q"Freeze denote the freezing of the incoming water. Then  </p>
+<blockquote>
+<p>Q"Freeze = n M"Incoming Lf  </p>
+</blockquote>
+<p><img alt="Equation 2-37. Q&quot;Freeze = n M&quot;Incoming Lf" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-37.png"><br>
+where Lf is the heat of fusion.</p>
+<p>Let Q"AeroHeat denote the aerodynamic heating. Then  </p>
+<blockquote>
+<p>Q"AeroHeat = hc rc V∞^2 / (2 CpAir)</p>
+</blockquote>
+<p><img alt="Equation 2-38. Q&quot;AeroHeat = hc rc V∞^2 / (2 CpAir)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-38.png"><br>
+where hc is the local heat transfer coefficient, rc is a recovery factor, and CpAir
+is the specific heat of air.  </p>
+<p>Let Q"DropletK.E. denote the kinetic energy of the incoming droplets. Then:</p>
+<blockquote>
+<p>Q"DropletKE = M"Imp V∞^2 / 2</p>
+</blockquote>
+<p><img alt="Equation 2-39. Q&quot;DropletKE = M&quot;Imp V∞^2 / 2" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-39.png">  </p>
+<p>Let Q"IceCool denote the cooling of the ice to the surface temperature TSurf. Then  </p>
+<blockquote>
+<p>Q"IceCool = n M"ice (Tf - Tsurf)  </p>
+</blockquote>
+<p><img alt="Equation 2-40. Q&quot;IceCool = n M&quot;ice (Tf - Tsurf)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-40.png"><br>
+where Tf is the ice/water equilibrium temperature (32 F). Note that if n &lt; 1, TSurf = Tf and so this term equals 0.</p>
+<p>Define Q"Source by:  </p>
+<blockquote>
+<p>Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool</p>
+</blockquote>
+<p><img alt="Equation 2-41. Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-41.png">  </p>
+<p>Next, the main heat sink terms (those that remove heat from the control volume) are given.</p>
+<p>Let Q"conv denote the convective cooling term. Then  </p>
+<blockquote>
+<p>Q"Conv = hc (Tsurf - T∞)  </p>
+</blockquote>
+<p><img alt="Equation 2-42. Q&quot;Conv = hc (Tsurf - T∞)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-42.png"><br>
+where T∞ is the freestream temperature. If the local temperature at the edge of the boundary layer
+is available, that temperature should be used in this term rather than the freestream temperature. This
+is also done in LEWICE.  </p>
+<p>Note: The term Q"Conv is often defined by  </p>
+<blockquote>
+<p>Q"Conv = hc (Tsurf - Tr)  </p>
+</blockquote>
+<p><img alt="Equation 42b. Q&quot;Conv = hc (Tsurf - Tr)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%2042b.png"><br>
+where the "recovery temperature" Tr is given by  </p>
+<blockquote>
+<p>Tr = T∞ + hc rc V∞^2 / (2 CpAir)  </p>
+</blockquote>
+<p><img alt="Equation 42c. Tr = T∞ + hc rc V∞^2 / (2 CpAir)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%2042c.png"><br>
+In this formulation the term Q"AeroHeat is omitted from equation (2-41). In subsequent calculations
+in this section, Q"AeroHeat is retained and equation (2-42) is used to calculate Q"Conv.  </p>
+<p>Let Q"DropWarm denote the droplet warming term. Then  </p>
+<blockquote>
+<p>Q"DropWarm = M"Imp Cw (TSurf - T∞)  </p>
+</blockquote>
+<p><img alt="Equation 2-43. Q&quot;DropWarm = M&quot;Imp Cw (TSurf - T∞)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-43.png"><br>
+where Cw is the specific heat of water.  </p>
+<p>Let Q"Evap denote the heat loss due to evaporation. There are a variety of formulations of this
+term. The approach used here is based on reference 2-44 and 2-U1 and employs the form of the Reynolds analogy. </p>
+<p>M"Evap is given by  </p>
+<blockquote>
+<p>M"Evap = g ΔB  </p>
+</blockquote>
+<p><img alt="Equation 2-44. M&quot;Evap = g ΔB" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-44.png"><br>
+where g is the mass transfer coefficient and ΔB is the evaporative driving potential dependent on the
+vapor concentration difference between the surface and the edge of the boundary layer.
+These quantities are given by:  </p>
+<blockquote>
+<p>g = hc / CpAir (Pr/Sc)^0.667  </p>
+</blockquote>
+<p><img alt="Equation 2-45. g = hc / CpAir (Pr/Sc)^0.667" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-45.png">  </p>
+<blockquote>
+<p>ΔB = B1 / B2  </p>
+</blockquote>
+<p><img alt="Equation 2-46. ΔB = B1 / B2" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-46.png">  </p>
+<blockquote>
+<p>B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)  </p>
+</blockquote>
+<p><img alt="Equation 2-47a. B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47a.png">  </p>
+<blockquote>
+<p>B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)  </p>
+</blockquote>
+<p><img alt="Equation 2-47b. B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-47b.png">  </p>
+<p>The Prandtl number Pr, Schmidt number Sc, and specific heat of air Cp air should be evaluated at the
+film temperature (To + Tsurf)/2. PV,surf is the vapor pressure at the surface and Pv,∞ is the free
+stream vapor pressure. The equations assume that Po and To the free stream pressure and temperature
+at the edge of the boundary layer are available; if they are not, the corresponding freestream values
+are used. 0.622 is the ratio of the molecular weight of water to that of dry air. The heat loss due to
+evaporation is now given by:  </p>
+<blockquote>
+<p>Q"evap = M"Evap Lv  </p>
+</blockquote>
+<p><img alt="Equation 2-48. Q&quot;evap = M&quot;Evap Lv" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-48.png"><br>
+Lv is the heat of vaporization.  </p>
+<p>If the freezing fraction is equal to 1 and the surface temperature Tsurf is to be computed, then
+Q"Evap should be replaced by the heat loss due to sublimation, denoted by Q"Subl. This is given by  </p>
+<blockquote>
+<p>Q"Subl = M"Subl Ls  </p>
+</blockquote>
+<p><img alt="Equation 2-49. Q&quot;Subl = M&quot;Subl Ls" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-49.png"><br>
+where M"Subl denotes the mass flux due to sublimation per unit time and Ls denotes the heat of
+sublimation. In some programs, M"Subl is computed using the same formulas as M"Evap. </p>
+<p>Define Q"Sink by:  </p>
+<blockquote>
+<p>Q"Sink = Q"conv + Q"DropWarm + Q"Evap  </p>
+</blockquote>
+<p><img alt="Equation 2-50. Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-50.png">  </p>
+<p>The energy balance equation is:  </p>
+<blockquote>
+<p>Q"Source + Q"Sink = 0  </p>
+</blockquote>
+<p><img alt="Equation 2-51. Q&quot;Source + Q&quot;Sink = 0" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-51.png">  </p>
+<p>The control volume freezing fraction is calculated as follows: Assume that the equilibrium
+temperature, Tsurf, is Tf. With this assumption, all quantities in the energy balance except n can be
+evaluated. Now solve for n. If the calculation yields a value of n between 0 and 1 inclusive, the
+calculation is complete. If n is calculated to be larger than 1, assume that n = 1 and that the excess
+over 1 was because Tsurf is actually smaller than Tf. So set n equal to 1 in the energy balance
+equation, which is now solved iteratively (since several quantities depend on Tsurf) for Tsurf. If n
+is calculated to be smaller than 0, similar reasoning leads to setting n equal to 0 and solving iteratively
+for Tsurf, which will now be larger than Tf.  </p>
+<p>A major source of uncertainty in calculating n using this equation arises from the uncertainty in
+the computation of the heat transfer coefficient h. If n is calculated in the stagnation region of a
+cylinder, it is common to use the heat transfer correlation for a smooth cylinder (given, for example,
+in reference 2-45).  </p>
+<p>If n is to be calculated in the stagnation region of an airfoil, the same correlation
+is sometimes used with radius equal to the radius of curvature of the airfoil. As the ice accretes, the
+shape changes and the surface roughness also changes, perhaps increasing dramatically. This can have
+a profound effect on the heat transfer coefficient.   </p>
+<p>Airfoil ice accretion codes must include an algorithm to calculate the heat transfer coefficient
+over the entire airfoil (See Chapter IV, Section 2). If it is a time-stepping code such as LEWICE, it
+must be able to calculate the heat transfer coefficient for an iced airfoil. An integral boundary layer
+method is typically used (See references 2-39 and 2-46). These methods generally include roughness
+terms, but a standard method for describing ice roughness has not yet been developed. NASA Lewis
+has conducted experiments to determine heat transfer coefficient distributions for ice shapes
+(references 2-47, 2-48). This data is essential to evaluate heat transfer coefficient algorithms. it
+appears that all existing algorithms introduce substantial uncertainty into the calculation.  </p>
+<h2>References (Handbook format)</h2>
+<p>2-1 Bragg, M. B., "Rime Ice Accretion and Its Effect on Airfoil Performance," Ph.D. dissertation, The Ohio State University, 1981, and NASA CR 165599, March 1982. <a href="https://ntrs.nasa.gov/citations/19820016290">ntrs.nasa.gov</a>  </p>
+<p>2-2 Langmuir. I. and Blodgett, K., "A Mathematical Investigation of Water Droplet Trajectories," AAFTR 5418, February 1946. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=mJySYM32cHUC&amp;oi=fnd&amp;pg=PA11&amp;dq=Katherine+Blodgett+icing&amp;ots=QYP5gFyEiz&amp;sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&amp;q=Katherine%20Blodgett%20icing&amp;f=false">books.google.com</a>   </p>
+<p>2-3 Norment, unpublished.  </p>
+<p>2-4 Rudinger, G., "Flow of Solid Particles in Gases," ADARDograph No. 222, 1967, pp. 55-86. <a href="https://archive.org/details/DTIC_ADA034264">archive.org</a>  </p>
+<p>2-5 Norment, H.G., "Calculation of Water Drop Trajectories to and About Arbitrary Three-Dimensional Bodies in Potential Airflow," NASA CR 3291, 1980. <a href="https://ntrs.nasa.gov/citations/19800019801">ntrs.nasa.gov</a>  </p>
+<p>2-6 Keim, S. R., "Fluid Resistance to Cylinders in Accelerated Motion," J. Hydraulics Div. Proc. Amer. Soc. Civil Eng., Vol 6, 1956, paper 1113. <a href="https://ascelibrary.org/doi/10.1061/JYCEAJ.0000053">ascelibrary.org</a>  </p>
+<p>2-7 Crowe, C. T.; Nicholls, J. A.; and Morrison, R. B., "Drag Coefficients of Inert and Burning Particles Accelerating in Gas Streams," Ninth Symposium (int'l) on Combustion, Academic Press, 1963, pp. 395-405. <a href="https://www.sciencedirect.com/science/article/pii/S008207846380048X">sciencedirect.com</a>  </p>
+<p>2-8 Lozowski, E. P. and Oleskiw, M. M., "Computer Modeling of Time--Dependent Rime Icing in the Atmosphere," CRREL 83-2, Jan. 1983. <a href="https://apps.dtic.mil/sti/pdfs/ADA126404.pdf">apps.dtic.mil</a>  </p>
+<p>2-9 Schlichting, H., Boundary Layer Theory, McGraw Hill, New York, 4th Edition, 1960.    </p>
+<p>2-10 Bragg, M. B., "A Similarity Analysis of the Droplet Trajectory Equation," AIAA Journal, Vol. 20, No. 12, December 1982, pp. 1681-1686. <a href="https://arc.aiaa.org/doi/10.2514/3.8004">arc.aiaa.org</a>  </p>
+<p>2-11 Kim, J.J., "Particle Trajectory Computation on a 3-Dimensional Engine Inlet," NASA CR 175023 (DOT-FAA.-CT-86-1), January 1986 <a href="https://ntrs.nasa.gov/citations/19860010908">ntrs.nasa.gov</a>   </p>
+<p>2-12 Bragg, M. B. and Gregorek, G. M., "An Analytical Evaluation of the Icing Properties of Several Low and Medium Speed Airfoils," AIAA Paper No. 83-109, January 1983. <a href="https://arc.aiaa.org/doi/10.2514/6.1983-109">arc.aiaa.org</a>  </p>
+<p>2-14 Chang, H-P; Frost, W; Shaw, R. J.; and Kimble, K. R., "Influence of Multidrop Size Distribution on Icing Collection Efficiency," AIAA-83-0100, paper presented at the 21st Aerospace Scienzes Meeting, Jan. 1983. <a href="https://arc.aiaa.org/doi/10.2514/6.1983-110">arc.aiaa.org</a>  </p>
+<p>2-15 Papadakis, M.; Elangovan, R.; Freund, Jr., 0. A.; Breer, M.; Zumwalt, G. W..; and Whitmer, L., "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies," NASA CR 4257, DOT/FAA/CT-87/22, November 1989. <a href="https://ntrs.nasa.gov/citations/19900067654">ntrs.nasa.gov</a>  </p>
+<p>2-39 Ruff, G. A. and Berkowitz, B. M., "Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE)," NASA CR 185129, 1990. <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a>  </p>
+<p>2-40 Shaw, R. J., "NASA's Aircraft Icing Analysis Program," NASA TM 88791, Sept. 1986. <a href="https://ntrs.nasa.gov/citations/19920013862">ntrs.nasa.gov</a>  </p>
+<p>2-41 Messinger, B. L., "Equilibrium Temperature ef an Unheated Surface as a Function of Airspeed," Journal of Aeronautical Sciences, January 1953 (Vol. 20, No. 1). <a href="https://arc.aiaa.org/doi/10.2514/8.2520">arc.aiaa.org</a> [payment or institutional access required]  </p>
+<p>2-42 Tribus, M.V., et. al., "Analysis of Heat Transfer over a Small Cylinder in Icing Conditions on Mount Washington," American Society of Mechanical Engineers Transactions, Vol. 70, 1949, pp. 871-876. <a href="https://asmedigitalcollection.asme.org/fluidsengineering/article-abstract/70/8/971/1152987/Analysis-of-Heat-Transfer-Over-a-Small-Cylinder-in?redirectedFrom=fulltext">asme.org</a> [payment or institutional access required]    </p>
+<p>2-43 "An experimental and theoretical study of the ice accretion process during artificial and natural icing conditions" DOT/FAA/CT-87/17 <a href="https://ntrs.nasa.gov/citations/19880011759">ntrs.nasa.gov</a>  </p>
+<p>2-44 Analysis and Verification of the Icing Scaling Equations <a href="https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf">AEDC-TR-85-30 Vol. 1 (Revised)</a>  </p>
+<p>2-45 Kreith, F., Principles of Heat Transfer, Intext Educational Publishers, New York, 1973, third edition <a href="https://archive.org/details/principlesofheat0000krei_n7j4">archive.org</a> [online borrowing with registration]  </p>
+<p>2-U1 Sogin, H. H., "A Design Manual for Thermal Anti-icing Systems". ADC Technical Report 54-313, Dec. 1954. <a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD090156.xhtml">ntrl.ntis.gov</a>    </p>
+<p>2-46 Makkonen, L., "Heat Transfer and Icing of a Rough Cylinder," Cold Regions Science Vol. 10, 1985, pp. 105-116. <a href="https://www.cambridge.org/core/journals/annals-of-glaciology/article/effect-of-roughness-on-the-rate-of-ice-accretion-on-a-cylinder/B110D4683F3D3AE616A0D2ADB70076FB">cambridge.org</a>  </p>
+<p>2-47 Van Fossen, G. J.; Simoneau, R. J.; Olsen, W. A.; and Shaw, R. J., "Heat Transfer
+Distributions around Nominal Ice Accretion Shapes Formed on a Cylinder in the NASA
+Lewis Icing Research Tunnel," NASA TM 83557, Jan. 1984. <a href="https://ntrs.nasa.gov/citations/19840006395">ntrs.nasa.gov</a>  </p>
+<p>2-48 Poinsatte, P. E.; Van Fowsen, G. J.; and DeWitt, K. J., "Convective Heat Transfer
+Measurements from a NACA 0012 Airfoil in Flight and in the NASA Lewis Icing
+Research Tunnel," NASA TM 102448, Jan. 1990. <a href="https://ntrs.nasa.gov/citations/19900004434">ntrs.nasa.gov</a>  </p>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/introduction-to-variations.html" rel="bookmark"
+                           title="Permalink to Introduction to Variations">Introduction to Variations</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T20:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.772813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure R-21. Comparison of Drop Impingement and Ice Accretion Code Results With Experimental Ice
+Accretion Produced in the NASA IRT (V = 135.8 kts, T S = -15.8°C, LWC = 1.16 g/m 3 ,
+MVD = 50.0 ȝm, icing duration = 517.1 s, GLC305-836-23 airfoil model
+chord = 0.9144 m) (Reference R21)." src="/images%2Fac2073a%2FFigure%20R-21.png"><br>
+<em>From AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>.</em>  </p>
+<h2>Summary</h2>
+<ul>
+<li>Different methods (test, analysis methods) can yield different ice shapes for the same conditions  </li>
+<li>Measurements of ice shape parameters characterize the differences   </li>
+<li>What is "too large" of a difference depends on unique factors for a particular case  </li>
+<li>Engineering judgment is required to navigate the differences  </li>
+</ul>
+<h2>Discussion</h2>
+<h3>A method to characterize ice shapes</h3>
+<p>"Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a> 
+lists ice shape parameters that can be used to compare ice shapes:  </p>
+<blockquote>
+<p>Applicants may use the lists of ice shape and water catch evaluation parameters in tables R-1 and
+R-2, ranked against their adverse airplane effects, to compare simulated and natural ice shapes.
+These lists are from SAE ARP5903 (Reference R20). </p>
+<p>Table R-1. Ranking of Ice Shape Evaluation Parameters</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Parameter</th>
+<th>Units</th>
+<th>Conservatism criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Upper (suction surface) horn height</td>
+<td></td>
+<td>Equal or greater horn peak thickness (height)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Upper Horn Angle</td>
+<td>degree</td>
+<td>Criticality of location …</td></tr></tbody></table>
+                <a class="readmore" href="/introduction-to-variations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/computer-freezing-rate-analysis-tools-examples.html" rel="bookmark"
+                           title="Permalink to Computer Freezing Rate Analysis Tools Examples">Computer Freezing Rate Analysis Tools Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T19:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.804813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure 4.8: Identification of the control volume used to formulate the thermodynamic equation  
+a. Single control volume on the icing surface.  
+b. Thermodynamic control volumes over each segment defining the body geometry  
+" src="/images%2Fbasics%2FLEWICE%20control%20volumes.png"><br>
+<em>from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a></em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to complete the <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>You need to select a computerized tool to work with. 
+See <a href="/analysis-toolset.html">Analysis Toolset</a> 
+for obtaining LEWICE, and some other options.  </p>
+<p>If you have chosen to use LEWICE, but you have not run it before, see the 
+<a href="/lewice-quick-start.html">LEWICE Quick Start</a>.  </p>
+<h2>Introduction</h2>
+<p>We will compare energy balance terms and freezing rates calculated with the 
+Standard Computational Model and LEWICE (or the tool that you have selected).  </p>
+<p>The values found by differing methods are generally similar, but rarely identical. </p>
+<h2>Aircraft Icing Handbook Example 2-4</h2>
+<blockquote>
+<p>The mass of ice accretion on the NACA 0012 section will be calculated. Using the same flight 
+conditions as Example 2-1. and the droplet size distribution and value from Example 2-3:  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Airfoil                         c = 3.1 foot chord NACA 0012  
+Flight …</code></pre></div>
+                <a class="readmore" href="/computer-freezing-rate-analysis-tools-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/aircraft-icing-handbook-energy-balance-examples.html" rel="bookmark"
+                           title="Permalink to Aircraft Icing Handbook Energy Balance Examples">Aircraft Icing Handbook Energy Balance Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T18:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.796813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Ice shape types as a function of airspeed and ambient temperature for a liquid water content of 0.2 g/m^3." src="/images/basics/dot_faa_ct_88_8_1_fig_2-81.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>To learn the energy terms and equations, readers should first review the 
+<a href="/aircraft-icing-handbook-merged-sections.html#standard-computational-model">"Standard Computational Model"</a>, 
+which combines the applicable sections original DOT/FAA/CT-88/8-1 and the update into one text. </p>
+<h2>Introduction</h2>
+<p>The term "standard computational model" has not seen wide use. 
+Most recent literature refers to the "Messinger Model" or "Modified Messinger Model". 
+That may or may not mean the "standard computational model" presented here. 
+As noted for calculating evaporation:  </p>
+<blockquote>
+<p>There are a variety of formulations of this term.  </p>
+</blockquote>
+<p>That could also apply to several of the terms in the model. 
+"Modified Messinger Model" could mean about anything, you would need to look at the details.  </p>
+<p>The energy examples in the handbook are less detailed than the ones we previously saw for impingement. </p>
+<p>The "Standard Computational Model" is implemented here in the python programming language 
+and is available via 
+<a href="https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis">github.com/icinganalysis</a>, 
+file …</p>
+                <a class="readmore" href="/aircraft-icing-handbook-energy-balance-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/computer-impingement-analysis-tools-examples.html" rel="bookmark"
+                           title="Permalink to Computer Impingement Analysis Tools Examples">Computer Impingement Analysis Tools Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T17:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.836813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="LEWICE 1990 Figure 4.2. Definition of total and local collection efficiency." src="/images%2Fbasics%2FLEWICE%201990%20Figure%204_2.png"><br>
+<em>from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a></em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to complete the <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>You need to select a computerized tool to work with. 
+See <a href="/analysis-toolset.html">Analysis Toolset</a> 
+for obtaining LEWICE, and some other options.  </p>
+<h2>Aircraft Icing Handbook Example 2-2</h2>
+<blockquote>
+<p>Example 2-2<br>
+This example illustrates the estimation of the impingement parameters E, β, h, Su and SL
+using graphical data (reference 2-12). The graphical data is all presented with Ko as the independent
+variable. Much data is available in this form.  </p>
+<p>The conditions of Example 2-1 for a NACA 0012 airfoil are assumed: thus Ko = 0.05. It also is
+assumed for simplicity that the angle of attack, α, is 0 degrees. From figure 2-11, E, the total
+impingement efficiency, is estimated to be 0.23 for these conditions. So about 23 percent of the water …</p></blockquote>
+                <a class="readmore" href="/computer-impingement-analysis-tools-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/aircraft-icing-handbook-water-catch-examples.html" rel="bookmark"
+                           title="Permalink to Aircraft Icing Handbook Water Catch Examples">Aircraft Icing Handbook Water Catch Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T15:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.792813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Graph of water catch efficiency Em versus Ko for a cylinder." src="/images%2Fbasics%2FExample%202-3%20Em.png"><br>
+<em>Public Domain by Donald Cook.</em>  </p>
+<h2>Introduction</h2>
+<p>The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1, provides examples of two-dimensional water catch rates for the ice accretion process. </p>
+<p>The Handbook uses something like "US Customary" or "Engineering" units in the calculations. 
+This may limit the direct reuse of the equations. </p>
+<p>These calculations can be reasonably accomplished through hand calculations, or a spreadsheet. 
+However, they can be important "stepping stones" to build more complex capabilities. </p>
+<p>Code written in the python programming language is available via 
+<a href="https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis">github.com/icinganalysis</a>, 
+file "intermeadiate/basics_water_catch_calculations.py" (and associated files) for the solutions, 
+under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a>. 
+Internally, the code uses (mostly) SI units 
+(see <a href="/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a> for details). 
+There are unit conversion functions in the python code. 
+Values here are reported in the handbook units. </p>
+<p>You are encouraged to run the provided code, 
+or to start building your own library of such calculations …</p>
+                <a class="readmore" href="/aircraft-icing-handbook-water-catch-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/lewice-quick-start.html" rel="bookmark"
+                           title="Permalink to LEWICE Quick Start">LEWICE Quick Start</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T14:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.828813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="LEWICE Ice Shape for Example Case 1. A 2D profile of an airfoil with a calculated ice shape 
+and an ice shape measured in an icing  wind tunnel test." src="/images%2Fbasics%2FLEWICE%20manual%20example%201.png"><br>
+<em>from User's Manual for LEWICE Version 3.2 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a></em>  </p>
+<h2>Summary</h2>
+<p>The "least that you need to know" to start using LEWICE, 
+the NASA-provided icing simulation tool.  </p>
+<h2>Prerequisites</h2>
+<p>See <a href="/analysis-toolset.html">Analysis Toolset</a> 
+for how to obtain LEWICE.  </p>
+<h2>Introduction</h2>
+<p>Decades ago there was training available for using LEWICE. 
+I do not know of recent training. 
+You are largely on your own, with the manual and supporting material. </p>
+<p>This certainly does not contain complete information,
+but it will help you get started in the basics of running LEWICE.  </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual provides these instructions:  </p>
+<blockquote>
+<p>3.1.<br>
+LEWICE Quick Start Guide<br>
+This section is intended for users unfamiliar with LEWICE and/or DOS Shell commands.
+The commands below (indented bold lines) should be typed at the C:\ prompt in a DOS Shell
+window on a Windows machine. Alternatively, the user can use the Windows interface for any
+of the commands shown. Windows …</p></blockquote>
+                <a class="readmore" href="/lewice-quick-start.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/analysis-toolset.html" rel="bookmark"
+                           title="Permalink to Analysis Toolset">Analysis Toolset</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T13:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.764813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labelled &quot;Input Chart&quot;. 
+The second operator turns another input chart crank. 
+Another cylinder is labelled &quot;Droplet Trajectories&quot;. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labelled with the differential equations of motion being solved. 
+" src="/images/naca-tn-2904/Figure15.png"><br>
+<em>Figure 15 of NACA-TN-2904 <a href="https://ntrs.nasa.gov/citations/19930083606">ntrs.nasa.gov</a>.</em>  </p>
+<h2>Summary</h2>
+<p>You will have to choose a toolset to perform the example analyses. </p>
+<p>Example calculations are provided in the Python programming language, 
+and using the NASA-provided LEWICE code. </p>
+<h2>Introduction</h2>
+<p>You are highly encouraged to perform the analysis described in the examples (and not just read the examples). 
+Some examples can be accomplished with hand calculations, while other require computational capabilities. </p>
+<p>You need to select your toolset. </p>
+<h3>Consider your current and future uses</h3>
+<p>A toolset is an investment of your time and resources. 
+By performing the calculation of the examples used here, 
+you will build your personal and software capabilities and skills.  </p>
+<p>Your toolset at a particular time may not be entirely your choice. 
+Your company, institution, or customer may have policies on which kinds of software are 
+required, encouraged, discouraged, or prohibited. 
+Some codes have by-country use restrictions. 
+You may have signed an …</p>
+                <a class="readmore" href="/analysis-toolset.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/aircraft-icing-intermediate-level.html" rel="bookmark"
+                           title="Permalink to Aircraft Icing Intermediate Level">Aircraft Icing Intermediate Level</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T12:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.816813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure 2-71. Effect of total temperature on the ice shape." src="/images/FAA%20Handbook%20volume%201%2FFigure%202-71%20crop.png"><br>
+<em>From "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a></em>  </p>
+<h2>Summary</h2>
+<p>After <a href="/the-basics.html">The Basics</a>, 
+you are ready for Intermediate level aircraft icing topics:  </p>
+<ul>
+<li>Using handbook analysis methods  </li>
+<li>Using computer icing analysis tools to produce ice shapes  </li>
+<li>Preliminary ice protection system sizing  </li>
+</ul>
+<p>The Intermediate Level is a work in progress, as there may yet be many revisions and additions. 
+However, it may be useful "as is" to some readers. </p>
+<h2>Prerequisite: Select your toolset</h2>
+<p>You are encouraged to run code to reproduce the examples used here. 
+By doing so, you can build your personal and software capabilities and skills.  </p>
+<p>Example calculations are provided here in the Python programming language, 
+and using the NASA-provided LEWICE code. </p>
+<p>There are several reasons why you might use a different toolset. 
+See <a href="/analysis-toolset.html">Analysis Toolset</a> for more details and options.  </p>
+<h2>Every analysis is an approximation</h2>
+<p>We can also say that every test is an approximation:  </p>
+<blockquote>
+<p>In these …</p></blockquote>
+                <a class="readmore" href="/aircraft-icing-intermediate-level.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/resources.html" rel="bookmark"
+                           title="Permalink to Resources">Resources</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2024-02-12T18:00:00-08:00">
                 Published: Mon 12 February 2024
@@ -42,7 +988,7 @@
         <!---->
 <!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
 
-</footer><!-- /.post-info --><h2>Introduction</h2>
+</footer><!-- /.post-info -->                <h2>Introduction</h2>
 <p>The good news is that these resources comprise thousands of pages of reading.<br>
 The bad news is that these comprise thousands of pages of reading. </p>
 <p>A few experts that I know have confessed that they have not read all of 
@@ -54,202 +1000,10 @@ Your local library may be able to borrow some of them for you through inter-libr
 <h2 id="ADS4">The Big Three</h2>
 <p>These total to over 800 pages (over 1200 if one counts all three volumes of DOT/FAA/CT-88/8), 
 but they can give you broad exposure to aircraft icing technology. 
-However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was updated in 1993).  </p>
-<p>If I had to pick only one, it would be DOT/FAA/CT-88/8.  </p>
-<ul>
-<li>
-<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
-</li>
-<li>
-<p>"Ice, Frost, and Rain Protection", AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>  </p>
-</li>
-<li>
-<p>The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a><br>
-Also note that there was a perhaps little known update in 1993: <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a><br>
-The update contains only the updated pages. 
-This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
-but not so well in the digital age. 
-I do not know of a pdf file that integrates the two into one.<br>
-Also note that there are 3 volumes:<br>
-"Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. <a href="https://apps.dtic.mil/sti/pdfs/ADA238040.pdf">apps.dtic.mil</a><br>
-"Aircraft Icing Handbook Volume 3", DOT/FAA/C-88/8-3. <a href="https://apps.dtic.mil/sti/citations/ADA2380410">apps.dtic.mil</a><br>
-Some pages in Volume 3 are affected by the update noted above.<br>
-Also see the <a href="#EAIHBK">"Electronic Aircraft Icing Handbook"</a> below for format updates for parts of DOT/FAA/CT-88/8-2.  </p>
-</li>
-</ul>
-<h2 id="design-guides">Design Guides</h2>
-<p>See the <a href="#ADS4">"Big Three"</a> above.  </p>
-<p>Also see the post on <a href="/design-manuals.html">Design Manuals</a>, 
-and the <a href="#sae-ac9c">SAE AC-9C documents</a> below.  </p>
-<h2 id="sae-ac9c">SAE AC-9C</h2>
-<p>The Aircraft Icing Technology Technical Committee publishes Aerospace Information Reports, 
-Aerospace Recommended Practices, and Aerospace Standards <a href="https://standardsworks.sae.org/standards-committees/ac-9c-aircraft-icing-technology-committee#published">SAE AC-9C</a>.<br>
-[Payment or institutional access required to access documents.]</p>
-<p>See also some SAE documents listed below in <a href="#sae-icing-tunnel">icing wind tunnels</a></p>
-<h2>Thermodynamics of Freezing</h2>
-<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. <a href="https://arc.aiaa.org/doi/10.2514/8.2520">arc.aiaa.org</a> [Payment or institutional access required]  </p>
-<p>Chapter V of "Modern Icing Technology" (1952) <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5">deepblue.lib.umich.edu</a> 
-has much of the same material, available at no cost.  </p>
-<p><a href="/messinger.html">Blog review of "Equilibrium Temperature ..."</a>  </p>
-<h2>Icing regulations</h2>
-<p>Appendix C <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">ecfr.gov</a>  </p>
-<p>Appendix O <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420">ecfr.gov</a>  </p>
-<h2>FAA</h2>
-<p>While you may not be involved in aircraft certification, these can be more general aircraft icing resources. </p>
-<ul>
-<li>
-<p>"Introduction to Icing Certification" <a href="https://www.faa.gov/sites/faa.gov/files/2022-11/Intro_to_Icing_Certification.pdf">faa.gov</a>  </p>
-<blockquote>
-<p>During icing certification potential icing threats are evaluated through analyses and tests to
-ensure the aircraft can operate safely in icing conditions. </p>
-</blockquote>
-</li>
-<li>
-<p>"Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a><br>
-The "APPENDIX B. NOMENCLATURE" section is particularly useful. </p>
-</li>
-<li>
-<p>"Pilot Guide: Flight in Icing Conditions", AC 91-74B <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf">faa.gov</a>  </p>
-</li>
-</ul>
-<p><a name="FAA-H-8083-28"></a>  </p>
-<ul>
-<li>Aviation Weather Handbook, FAA-H-8083-28 <a href="https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook">faa.gov</a><br>
-Chapter 20 covers icing. This consolidates some prior publications:  <blockquote>
-<p>This handbook consolidates the weather information from the following 
-advisory circulars (AC) into one source document. By doing this, 
-the Federal Aviation Administration (FAA) intends to streamline access
-to the FAA’s weather documentation for users of the National Airspace 
-System (NAS). The following ACs will remain in effect, but they will 
-eventually be cancelled at a later date following the publication of this
-handbook:<br>
-• AC 00-6, Aviation Weather.<br>
-• AC 00-24, Thunderstorms.<br>
-• AC 00-30, Clear Air Turbulence Avoidance.<br>
-• AC 00-45, Aviation Weather Services.<br>
-• AC 00-54, Pilot Windshear Guide.<br>
-• AC 00-57, Hazardous Mountain Winds.  </p>
-</blockquote>
-</li>
-</ul>
-<p><a name="EAIHBK"></a>  </p>
-<ul>
-<li>"Electronic Aircraft Icing Handbook"<br>
-This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods", 
-as well as files for analyzing water drop spectrum data, and a database of icing references circa 2007.<br>
-This is mentioned in "Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>, 
-but I could not find it on a current FAA website. 
-You can view the version from 2007 at 
-<a href="https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm">web.archive.org</a>  <blockquote>
-<p>This web page contains basic information on aircraft icing. Information placed on this page can be used to update or supplement information in the existing Aircraft Icing Handbook (AIHB). Update material can be printed out and inserted in the AIHB. The files on this page are referenced to those sections of the AIHB which they update or supplement, but are self-contained, not requiring consultation of the AIHB for their use. When appropriate the text information on this site is accompanied by spreadsheet or other files intended to enhance the value of the information to users.  </p>
-</blockquote>
-</li>
-</ul>
-<h2>Weather</h2>
-<p><a href="https://aviationweather.gov/gfa/#gairmet">aviationweather.gov</a><br>
-Live feed of weather information, see "AIRMETS" that can include icing conditions, as well as other current weather data.  </p>
-<p>"Icing" training page: <a href="https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm">weather.gov</a>  </p>
-<blockquote>
-<p>Icing, in general, is any deposit or coating of ice on an object, caused by the impingement and freezing of liquid (usually supercooled) hydrometeors; to be distinguished from hoarfrost in that the latter results from the deposition of water vapor.  </p>
-</blockquote>
-<p>"Ice Crystal Icing Briefing" <a href="https://flightsafety.org/wp-content/uploads/2018/11/Bravin-ICI_FSF_Bravin_20181023.pdf">flightsafety.org</a>  </p>
-<h2 id="nasa">NASA</h2>
-<p>NASA Glenn Beginners Guide to Aeronautics: Guide to Aerodynamics <a href="https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/learn-about-aerodynamics/">www1.grc.nasa.gov</a><br>
-A rather good review for anyone, not just beginners. </p>
-<p>The NTRS - NASA Technical Reports Server <a href="https://ntrs.nasa.gov">ntrs.nasa.gov</a> has nearly all NASA (and NACA!) publications available. </p>
-<p>The NASA-provided Icing Research Software (LEWICE, LEWICE 3D) <a href="https://www1.grc.nasa.gov/aeronautics/icing/software/">www1.grc.nasa.gov</a>  </p>
-<p>The NASA Icing Research [wind] Tunnel (IRT) <a href="https://www1.grc.nasa.gov/facilities/irt/">www1.grc.nasa.gov</a>  </p>
-<p>"Airframe and Engine Icing" <a href="https://ntrs.nasa.gov/citations/20190025413">ntrs.nasa.gov</a>    </p>
-<blockquote>
-<p>This is both a presented version of NASA's in-flight icing training aids, and a brief discussion of NASA Glenn's two icing-capable facilities that simulate the airframe and engine icing environments.  </p>
-</blockquote>
-<p>"Introduction to Aircraft Icing and NASA's Approach to Understanding It" <a href="https://ntrs.nasa.gov/citations/20220014029">ntrs.nasa.gov</a>  </p>
-<blockquote>
-<p>This presentation provides an introduction to aircraft icing and describes NASA’s approach to understanding it. The presentation covers various topics on icing. A general overview of different types of icing is provided, which includes airframe icing, jet engine icing, and rotorcraft icing. The presentation discusses NASA’s approach to studying the various forms of aircraft icing, which includes conducting flight tests, performing ground-based icing wind tunnel tests, and developing computational tools that simulate the icing physics. An overview on the future of aviation and icing is provided. The presentation is largely high level, but also provides some technical icing physics discussion.  </p>
-</blockquote>
-<h2 id="icing-wind-tunnel">Icing Wind Tunnel Test</h2>
-<p>As noted in the post <a href="https://icinganalysis.com/icing-wind-tunnel-test-thread.html">Icing Wind Tunnel Test Thread</a>, 
-for icing wind tunnels, unlike regular wind tunnels, there is no comprehensive source of information for their use. </p>
-<p>NASA/CR-2004-212875 "Manual of Scaling Methods" <a href="https://ntrs.nasa.gov/citations/20040042486">ntrs.nasa.gov</a><br>
-has much information on scaling test conditions, 
-and some more general information.  </p>
-<p>The NASA Icing Research [wind] Tunnel (IRT) <a href="https://www1.grc.nasa.gov/facilities/irt/">www1.grc.nasa.gov</a>  </p>
-<p>A test report that is relatively recent and detailed is 
-NASA/TM-2016-219137 
-"Ice-Accretion Test Results for Three Large-Scale Swept-Wing Models in the NASA Icing Research Tunnel" 
-<a href="https://ntrs.nasa.gov/citations/20160011353">ntrs.nasa.gov</a>. 
-While it is aimed more at research, and is not a step-by-step, "how to" document, 
-it does illustrate several concepts, 
-including test article design and test condition similarity to flight conditions. </p>
-<p><a name="sae-icing-tunnel"></a> </p>
-<p>Some SAE documents provide information on the calibration of icing wind tunnels.   </p>
-<ul>
-<li>Calibration and Acceptance of Icing Wind Tunnels ARP5905 <a href="https://www.sae.org/standards/content/arp5905a/">www.sae.org</a> [Payment or institutional access required]  </li>
-<li>Icing Wind Tunnel Interfacility Comparison Tests (STABILIZED Oct 2018) AIR5666A <a href="https://www.sae.org/standards/content/air5666a/">www.sae.org</a> [Payment or institutional access required]  </li>
-</ul>
-<h2>SKYbrary</h2>
-<p><a href="https://skybrary.aero/">skybrary.aero</a>  </p>
-<blockquote>
-<p>SKYbrary is an electronic repository of safety knowledge related to flight operations, air traffic management (ATM) and aviation safety in general. It is also a portal, a common entry point, that enables users to access the safety data made available on the websites of various aviation organisations - regulators, service providers, industry.<br>
-SKYbrary content development priorities have been focused on:<br>
-    Who: Flight Operations and Air Traffic Management<br>
-    Where: Globally<br>
-    What: Operational Risks<br>
-    Aviation sector: Commercial Air Transport  </p>
-</blockquote>
-<p><a href="https://skybrary.aero/operational-issues/weather">skybrary.aero/operational-issues/weather</a><br>
-Has an "icing" subcategory.   </p>
-<p><a href="https://skybrary.aero/articles/ice-formation-aircraft">Article: "Ice Formation on Aircraft"</a>  </p>
-<p><a href="https://skybrary.aero/sites/default/files/bookshelf/4452.pdf">Chapter 15 Ice and Rain Protection pdf</a> 
-Has many pictures of ice protection system components.  </p>
-<h2>Courses</h2>
-<p>"ALC-33: Inflight Icing" <a href="https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=33">faasafety.gov</a>  </p>
-<blockquote>
-<p>Despite improvements in equipment and forecast technique, inflight icing is a contributing factor in accidents and incidents each year.  What are the reasons for these encounters, and what can you as a pilot do to safely manage the risk associated with icing?<br>
-In this course you will learn that water does not always freeze at 32° F. or 0° C. You’ll discover which temperatures are most conducive to clear, rime, and mixed icing, and how water content and droplet size relates to icing severity. You may discover that the de-ice or anti-ice equipment on your aircraft cannot always provide adequate protection. You will find tools for evaluating icing conditions before flight, and you'll have the opportunity to understand and learn how to avoid or, if necessary, recover from roll upset and tail stalls caused by structural ice.  </p>
-</blockquote>
-<p>The NASA Aircraft Icing Training <a href="https://aircrafticing.grc.nasa.gov/">aircrafticing.grc.nasa.gov</a> </p>
-<blockquote>
-<p>A course primarily intended for pilots who fly aircraft certified for flight into icing. With an operational focus, this course provides tools pilots can use to deal with in-flight icing.   </p>
-</blockquote>
-<p>University of Kansas: Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification <a href="https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&amp;courseId=AERO0060">enrole.com</a>  </p>
-<blockquote>
-<p>This course covers the meteorology and physics of aircraft icing. Topics include forecasting, finding and avoiding icing conditions, designing and evaluating ice protection systems, and certification of aircraft for flight into known icing conditions.   </p>
-</blockquote>
-<p>Some commercial computational fluid dynamics (CFD) packages that include icing simulation capabilities offer training.   </p>
-<h2 id="terminology">Terminology</h2>
-<p>See a selected list of terms at <a href="/terminology.html">Terminology</a>.  </p>
-<p>There are other lists of terminology available in addition to those in ADS-4 and DOT/FAA/CT-88/8 listed above. </p>
-<p>NASA Aircraft Icing Training: Glossary <a href="https://aircrafticing.grc.nasa.gov/documents/AircraftIcing_Glossary.pdf">aircrafticing.grc.nasa.gov</a>  </p>
-<p>"Aircraft Ice Protection," AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a><br>
-The "APPENDIX B. NOMENCLATURE" section is particularly useful. </p>
-<p>SAE ARP5624, Aircraft Inflight Icing Terminology <a href="https://www.sae.org/standards/content/arp5624/">sae.org</a> [Payment or institutional access required]<br>
-The "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" is especially recommended.  </p>
-<h2>History</h2>
-<p>"Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames" <a href="https://history.nasa.gov/SP-4219/Chapter2.html">history.nasa.gov</a></p>
-<p>"We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety <a href="https://ntrs.nasa.gov/citations/20020066162">ntrs.nasa.gov</a></p>
-<p>"Bringing the Future Within Reach: the NASA John H. Glenn Research Center" <a href="https://history.nasa.gov/SP-2016-627.pdf">history.nasa.gov</a>  </p>
-<p>"The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
-(Especially the "Heat Against Ice" excerpt, p. 506-518.)<br>
-<a href="http://history.nasa.gov/sp4409-vol2.pdf">history.nasa.gov</a>  </p>
-<p><a href="https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html">The Historical Selected Bibliography of NACA-NASA Icing Publications</a><br>
-132 NACA icing publications in 16 categories that are still relevant today. </p>
-<p>And, of course, the "Blast from the Past: NACA Icing Publications" <a href="https://icinganalysis.com/">icinganalysis.com</a> blog. </p>
-<h2>More Recent Publications</h2>
-<p>Much has been published since the DOT/FAA/CT-88/8 Aircraft Icing Handbook, 
-of which Volume III includes an extensive bibliography. 
-Publishing an extensive bibliography now would be impractical (on this or almost any topic), 
-given the current pace of new information. </p>
-<p>Online searches may be the best solution in these times. 
-Once you are grounded in The Basics, 
-you will know the terminology and be able to better shape you search inquiries. </p>
-<h2>Related</h2>
-<p>This is part of <a href="/the-basics.html">The Basics</a> series.  </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was …</p>
+                <a class="readmore" href="/resources.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>

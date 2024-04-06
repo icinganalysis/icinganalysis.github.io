@@ -2,7 +2,6 @@ Title: Computer Impingement Analysis Tools Examples
 header: The Basics: Intermediate Topics  
 Date: 2024-04-8 17:00  
 tags: intermediate topics, water catch, LEWICE   
-status: draft  
 rights: CC-BY-NC-SA 4.0  
 
 ![LEWICE 1990 Figure 4.2. Definition of total and local collection efficiency.](/images%2Fbasics%2FLEWICE%201990%20Figure%204_2.png)  
