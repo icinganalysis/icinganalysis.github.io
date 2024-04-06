@@ -94,7 +94,7 @@ and with a multiple control volume analysis, ice shapes.
 Results from LEWICE and the Standard Computational Model are compared below. 
 General trends agree, but the values may have large differences.  
 
-![LEWICE SCM freeze rate comparison.](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)
+![LEWICE SCM freeze rate comparison.](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)  
 _Public Domain by Donald Cook._  
 
 ## A partial explanation of differences in reported freezing fraction  
