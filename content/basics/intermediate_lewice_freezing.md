@@ -104,12 +104,12 @@ with the stagnation line results from the Standard Computational Model.
 So, differing heat transfer coefficient values are only a small component in the differences. 
 Here is the Table 2-5-a case at -8C temperature:  
 
-![Table 2-5 LEWICE -8C htc full scale](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)
+![Table 2-5 LEWICE -8C htc full scale](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)  
 _Public Domain by Donald Cook._  
 
 However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  
 
-![Table 2-5 LEWICE beta](/images/basics/Table%202-5%20LEWICE%20beta.png)  
+![Table 2-5 LEWICE beta](/images/basics/Table%202-5%20LEWICE%20beta.png)   
 _Public Domain by Donald Cook._  
 
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
