@@ -166,6 +166,7 @@ You can calculate that by using the Aircraft Icing Handbook equations 2-16 and 2
 The Beta curve was numerically integrated. 
 
 ![lewice2d_example2_2_beta_tf_15](/images%2Fbasics%2Flewice2d_example2_2_beta_tf_15.png)
+_Public Domain by Donald Cook_  
 
 The LEWICE results are similar to the Handbook values, 
 but not exactly the same.  
