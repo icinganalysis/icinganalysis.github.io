@@ -75,13 +75,13 @@ but not identical, results.
     - [Introduction to Variations]({filename}intermediate_variance.md) calculate the expected difference between calculated ice shapes versus test,
 and estimate the range of effects   
 
-### Using icing conditions definitions  
+### Using icing conditions definitions [in work]  
 
 - skill: use the Appendix C icing envelopes  
     - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
     - identify candidate "worst case" ice shapes  
 
-### Ice protection  
+### Ice protection [in work]  
  
 - skill: calculate heat required for thermal ice protection  
     - DOT/FAA/CT-88/8-1 5.3.1.1 Wing Hot Air Anti-icing calculation  
