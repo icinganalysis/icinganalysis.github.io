@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>LEWICE Quick Start</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="from User's Manual for LEWICE Version 3.2 ntrs.nasa.gov Summary The "least that you need to know" to start using LEWICE, the NASA-provided icing simulation tool...." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/lewice-quick-start.html" rel="bookmark"
+           title="Permalink to LEWICE Quick Start">LEWICE Quick Start</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T14:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-06T08:53:26.828813-07:00">
+                Updated: Sat 06 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="LEWICE Ice Shape for Example Case 1. A 2D profile of an airfoil with a calculated ice shape 
+and an ice shape measured in an icing  wind tunnel test." src="/images%2Fbasics%2FLEWICE%20manual%20example%201.png"><br>
+<em>from User's Manual for LEWICE Version 3.2 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a></em>  </p>
+<h2>Summary</h2>
+<p>The "least that you need to know" to start using LEWICE, 
+the NASA-provided icing simulation tool.  </p>
+<h2>Prerequisites</h2>
+<p>See <a href="/analysis-toolset.html">Analysis Toolset</a> 
+for how to obtain LEWICE.  </p>
+<h2>Introduction</h2>
+<p>Decades ago there was training available for using LEWICE. 
+I do not know of recent training. 
+You are largely on your own, with the manual and supporting material. </p>
+<p>This certainly does not contain complete information,
+but it will help you get started in the basics of running LEWICE.  </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual provides these instructions:  </p>
+<blockquote>
+<p>3.1.<br>
+LEWICE Quick Start Guide<br>
+This section is intended for users unfamiliar with LEWICE and/or DOS Shell commands.
+The commands below (indented bold lines) should be typed at the C:\ prompt in a DOS Shell
+window on a Windows machine. Alternatively, the user can use the Windows interface for any
+of the commands shown. Windows XP refers to a DOS Shell window as a “Command Prompt”
+and can be accessed from the Program menu under the “Accessories” submenu.<br>
+1) Create a directory on the hard drive to store output<br>
+md lewice<br>
+2) Insert the LEWICE CD-ROM and copy all files from this disk to the lewice directory as
+described in the Installation Procedure.<br>
+3) Inside the lewice directory, make additional directories for each run<br>
+md case1<br>
+4) Run LEWICE<br>
+lewice <return>  </p>
+<blockquote>
+<ul>
+<li>program will prompt for input file name. Enter the following:<br>
+case1.inp <return>  </li>
+<li>after printing a copyright notice, the program will prompt for a geometry file name. Enter
+the following:<br>
+case1.xyd <return>  </li>
+<li>if any warning messages appear, type<br>
+Y <return><br>
+to continue the simulation.  </li>
+</ul>
+</blockquote>
+<p>5) copy output data files to the proper directory<br>
+copy *.dat case1  </p>
+</blockquote>
+<p>You are not likely to have the "CD-ROM" source of LEWICE. 
+You are more likely to have received a zipped file. </p>
+<p>The output file "final1.dat" is the final ice shape, 
+which is what many users are interested in. </p>
+<h2>Usage tips</h2>
+<p>Pay attention to warnings. 
+They usually indicate something that you can and should fix, 
+rather than just typing 'Y' and continuing. </p>
+<p>It is convenient to create a link to the LEWICE executable, 
+so that it can be run from any directory without typing a long path name. </p>
+<blockquote>
+<p>linux: ln -s {full path to LEWICE executable} /LEWICE  </p>
+</blockquote>
+<h3>Input files</h3>
+<p>Use the default settings, unless you have a good reason to use another value. 
+Running with the defaults will result in the output file "final1.dat", 
+the final ice shape, 
+which is what many users are interested in. 
+You can conveniently use the default by omitting the term from the case.inp file, 
+but I often include the explicit value, so that it is obvious what was used. 
+The particularly applies for ITIMFL 
+(use ITMIFL = 1, unless you have a good reason not to).  </p>
+<blockquote>
+<p>8.3.1. ITIMFL<br>
+Default Value: ITIMFL = 1<br>
+ITIMFL is a flag indicating whether LEWICE will use automatic time stepping or will use a
+user-defined number of time steps. If ITIMFL = 0 then the number of time steps will remain as
+input by the user in the IFLO variable. If ITIMFL = 1 then the time step will be calculated based
+on the accumulation parameter. In either case, the time steps are of equal length throughout the
+run. When ITIMFL = 1, the minimum number of time steps is calculated internally in the
+program by the following procedure...  </p>
+</blockquote>
+<p>However, it is possible to over-do the defaults. 
+The minimum input file that will run:</p>
+<div class="highlight"><pre><span></span><code>&amp;LEW20
+&amp;END
+&amp;DIST
+&amp;END
+&amp;ICE1
+&amp;END
+&amp;LPRNT
+&amp;END
+&amp;RDATA
+&amp;END
+&amp;BOOT
+&amp;END
+</code></pre></div>
+
+<p>The output from running this may not mean much, as all default values are used. </p>
+<p>You should have explicit values in the &amp;LEW20 block, 
+the &amp;DIST block, and the &amp;ICE1 block.</p>
+<p>Here is a more meaningful input file, that runs Example 2-4 from the Aircraft Icing Handbook 
+with a Langmuir D drop size distribution, with the geometry file 
+/lewice/version3.2.3/BATCH/inputs/shapes/NACA0012.XYD:  </p>
+<div class="highlight"><pre><span></span><code>AIHB Example 2-4
+&amp;LEW20
+TSTOP  =  300.0
+&amp;END
+&amp;DIST
+FLWC   =  0.05, 0.10, 0.20, 0.30, 0.20, 0.10, 0.05
+DPD    =  6.2, 10.4, 14.2, 20.0, 27.4, 34.8, 44.4
+&amp;END
+&amp;ICE1
+CHORD  =  0.9449
+AOA    =  0.
+VINF   =  102.89
+LWC    =  0.5
+TINF   =  253.15
+PINF   =  69681.6
+&amp;END
+&amp;LPRNT
+&amp;END
+&amp;RDATA
+&amp;END
+&amp;BOOT
+&amp;END
+</code></pre></div>
+
+<p>LEWICE can optionally produce several large, detailed output files 
+(45 MB may or may not count as "very large" on your computing system, 
+it was in the Windows XP era). 
+You may not need all of them, so choose carefully before setting values 
+in the $LRPT namelist, 
+particularly TPRT, which controls the water drop trajectory reporting.  </p>
+<blockquote>
+<p>6.11. Printer Flags<br>
+Output files from LEWICE can be very large. If all of this information is not needed, the user
+can save a great deal of disk space by not generating individual files or by reducing the amount
+of information which is sent to those files. Example Case 2 illustrates this effect. As listed in this
+example, the case produces 3.3 MB of output. If all of the printer flags are activated, the output
+will exceed 45 MB...</p>
+</blockquote>
+<h2>Next steps</h2>
+<h3>Read the material that comes with the software</h3>
+<p>The distribution comes with a "TRAINING" folder, 
+the contents of which you are encouraged to read. </p>
+<p>The distribution comes with a "REPORTS" folder. 
+You are encouraged to read them, particularly "datarpt.pdf",
+which has Validation Results for LEWICE 2.0 
+(also available at <a href="https://ntrs.nasa.gov/citations/19990021235">ntrs.nasa.gov</a>). 
+This quantifies the differences between LEWICE ice shape analysis and test results, 
+for over 100 test cases 
+(there are some repeated results of the tests, so there are hundreds of ice tracings.) </p>
+<p>(The current version of LEWICE is 3.2.3. 
+However, the validation is re-run for each release, 
+and the report for version 2.0 is still applicable.)</p>
+<h3>Consider automation</h3>
+<p>You are encouraged to run you first several analyses using the manual methods described. 
+However, you may soon discover that some parts of this are repetitious, 
+and are good candidates for automation. </p>
+<p>I have written a script that automate steps such as converting 
+domain units (KTAS or MPH, altitude in feet, etc.) to the units used in the LEWICE
+and to make the input file, 
+as has almost every analyst that I know that has run LEWICE for more than a few cases. </p>
+<p>Processing the output files is also another candidate for automation. 
+The file formats are often unique, and may require processing for subsequent use
+(such as plotting dimensional quantities, not just s/c).  </p>
+<p>The LEWICE manual describes a LewCon or LEWICE Console program, 
+but it is only available for Windows (I have not used it).   </p>
+<blockquote>
+<p>Our goal was to improve LEWICE’s usability by creating a user interface that would
+automatically generate LEWICE input from a spreadsheet and automatically put LEWICE output
+into spreadsheets with charts. Additionally, this user interface would automatically convert units
+(as LEWICE only accepts input in certain units) and offer several output options. This program
+will be called the “LEWICE Console”...</p>
+<p>These capabilities are just the beginning for the LEWICE Console...</p>
+</blockquote>
+<p>Also see the commercially available <a href="/analysis-toolset.html#LewInt">LewInt</a>.    </p>
+<h2>Resources</h2>
+<p>User's Manual for LEWICE Version 3.2, NASA/CR-2008-214255 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a><br>
+Note that a "manual.pdf" file comes with the LEWICE software distribution (apparently for version 3.0), 
+and a file "Lew32manual_changes.doc". 
+I find it easier to just use the Version 3.2 manual.  </p>
+<p>Validation Results for LEWICE 2.0, NASA/CR-1999-208690 <a href="https://ntrs.nasa.gov/citations/19990021235">ntrs.nasa.gov</a><br>
+The current version of LEWICE is 3.2.3. 
+However, the validation is re-run for each release, 
+and the report for version 2.0 is still applicable.</p>
+<p>Validation Results for LEWICE 3.0, NASA/CR-2005-213561 <a href="https://ntrs.nasa.gov/citations/20050160961">ntrs.nasa.gov</a><br>
+Includes data for large drop size icing conditions.  </p>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
