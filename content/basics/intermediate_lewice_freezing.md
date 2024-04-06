@@ -145,7 +145,3 @@ I find it easier to just use the Version 3.2 manual.
 ## Related  
 
 Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
-
-
-
-
