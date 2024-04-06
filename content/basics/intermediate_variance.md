@@ -263,7 +263,7 @@ Linear interpolation was used.
 
 The tested protuberance locations are shown, 
 and a LEWICE upper horn tolerance box drawn around that "horn". 
-The LEWICE angular position tolerance is +/- 16 degrees, 
+The LEWICE angular position tolerance is +/- 16 degrees (average difference from experiment), 
 so the size of the tolerance box varies with distance from the center of curvature. 
 It was also assumed that the maximum ice thickness equals the potential accumulation 
 (equation 3 of NASA/CR-1999-208690), 
@@ -305,7 +305,7 @@ you can determine an allowed ice shape tolerance.
 For LEWICE, you can compare that to the expected shape differences. 
 
 There are other performance parameters (drag, moment, etc.) of interest 
-that may have different from the lift trends noted above.
+that may be different from the lift trends noted above.
 
 For other tools, I have not seen the variations as well-defined as for LEWICE. 
 

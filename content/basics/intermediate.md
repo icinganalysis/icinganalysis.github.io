@@ -72,7 +72,7 @@ but not identical, results.
 
 ### Introduction to accuracy and variance  
 
-- skill: quantify ice shape differences
+- skill: quantify ice shape differences  
     - [Introduction to Variations]({filename}intermediate_variance.md) calculate the expected difference between calculated ice shapes versus test,
 and estimate the range of effects   
 
