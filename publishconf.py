@@ -27,6 +27,7 @@ MENUITEMS = (
     ('Welcome', '/index.html'),
     ('Suggested Reading Order', '/site-navigation-and-suggested-reading-order.html'),
     ('Latest Posts', '/archives.html'),
+    ('The Basics', '/the-basics.html'),
     ('About', '/about.html'),
 )
 
