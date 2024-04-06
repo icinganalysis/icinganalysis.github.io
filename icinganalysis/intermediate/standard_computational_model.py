@@ -318,7 +318,9 @@ if __name__ == "__main__":
     from io import StringIO
     import matplotlib.pyplot as plt
 
-    header, vs = simple_csv_reader.simple_csv_reader_file_descriptor(StringIO(tables_2_5_to_8))
+    header, vs = simple_csv_reader.simple_csv_reader_file_descriptor(
+        StringIO(tables_2_5_to_8)
+    )
 
     p = air_properties.calc_pressure(0)
     diameter = 0.2  # m, 20 cm
@@ -328,7 +330,9 @@ if __name__ == "__main__":
     for case, u, mvd, lwc, tc, n, pqv, pqf, pqk, pqc, pqe, pqw in vs:
         t = units_helpers.tc_to_k(tc)
         hc = calc_hc_o_cylinder_from(u, t, diameter, p)
-        beta = cylinder_beta_max_from_figure_2_43.get_beta(calc_ko_d2(t, p, u, mvd, diameter))
+        beta = cylinder_beta_max_from_figure_2_43.get_beta(
+            calc_ko_d2(t, p, u, mvd, diameter)
+        )
         cp = 1
         mach = compressible_flow.calc_mach(u, t)
         po = p * (0.7 * cp * mach**2 + 1)

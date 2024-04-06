@@ -1,4 +1,3 @@
-
 from io import StringIO
 import numpy as np
 from scipy.interpolate import interp1d
@@ -18,16 +17,19 @@ figure_2_43_data = """ko, cyl_beta
 """
 
 
-# header, rows = simple_csv_reader.simple_csv_reader(r'cyl_beta2-43.csv')
-header, rows = simple_csv_reader.simple_csv_reader_file_descriptor(StringIO(figure_2_43_data))
+header, rows = simple_csv_reader.simple_csv_reader_file_descriptor(
+    StringIO(figure_2_43_data)
+)
 columns = list(zip(*rows))
 d = {k: v for k, v in zip(header, columns)}
 
-lkos = np.log(d['ko'])
-_beta_interp_extrapolate = interp1d(lkos, d['cyl_beta'],
-                                    bounds_error=False, fill_value='extrapolate')
-_beta_interp = interp1d(lkos, d['cyl_beta'],
-                        bounds_error=False, fill_value=float('nan'))
+lkos = np.log(d["ko"])
+_beta_interp_extrapolate = interp1d(
+    lkos, d["cyl_beta"], bounds_error=False, fill_value="extrapolate"
+)
+_beta_interp = interp1d(
+    lkos, d["cyl_beta"], bounds_error=False, fill_value=float("nan")
+)
 
 
 def get_beta_extrapolate(ko):
@@ -39,4 +41,3 @@ def get_beta(ko):
     b = _beta_interp(np.log(ko))
     b = max(0, b)
     return b
-

@@ -120,7 +120,9 @@ if __name__ == "__main__":
     import matplotlib.pyplot as plt
 
     # DOT/FAA/CT-88/8-1
-    header, vs = simple_csv_reader.simple_csv_reader_file_descriptor(StringIO(tables_2_5_to_8))
+    header, vs = simple_csv_reader.simple_csv_reader_file_descriptor(
+        StringIO(tables_2_5_to_8)
+    )
 
     p = air_properties.calc_pressure(0)
     diameter = 0.2
