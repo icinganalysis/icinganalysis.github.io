@@ -264,8 +264,3 @@ For other tools, I have not seen the variations as well-defined as for LEWICE.
 ## Related  
 
 Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
- 
-
-
-
-
