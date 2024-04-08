@@ -1,5 +1,5 @@
 Title: Introduction to Variations         
-header: Intermediate Level    
+header: Intermediate Level   
 Date: 2024-04-8 20:00  
 tags: intermediate topics, ice shapes, LEWICE  
 rights: CC-BY-NC-SA 4.0  
@@ -56,68 +56,21 @@ Accretion limits are defined:
 
 ### Differences in ice shapes between test and analysis  
 
-The most detailed comparison data to date is based on the 
-slightly different, prior definition in NASA-CR-1999-208690 "Validation Results for LEWICE 2.0" 
-[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235):  
+The most detailed comparison data to date is NASA/TM-2008-215174 [nrts.nasa.gov](https://ntrs.nasa.gov/citations/20080041518).  
 
-![Figure 16. Max. Thickness Angle on Sample Ice Shape.](/images%2FNASA-CR-1999-208690%2FFigure%2016.png)  
+>Figure 7 shows the comparison for the lower and upper ice horns while figure 8 shows the
+comparison for lower and upper horn angle. The comparison of SLD shapes to experiment shows
+approximately the same difference as for standard ice shapes. For the experimental ice shapes, the upper
+and lower horns were selected manually rather than allowing THICK to automatically select the largest
+feature. This process was used due to the high variability of the experimental ice shapes. THICK often
+has trouble locating the correct horn locations without manual intervention. Running THICK
+automatically on each shape produced the code values for horn thickness and horn angle. This was done
+to save time in the analysis and was justified on the basis that the code results are smoother and an
+automated process could be used. However, it is possible that THICK did not select the correct horn
+locations for all cases.  
+> ![Figures 7 and 8. Lower and upper horn height and angle variations.](..%2Fimages%2FNASA-TM-2008-215174%2FFigures%207%20and%208.png)  
 
->Max. Ice Thickness (Horns)  
-> 
->The details of the ice thickness calculation were
-presented in the section on Description of Comparison Method. 
-As discussed in this section, the measurement of a max. thickness is not necessarily the
-thickness of a glaze ice horn. Where the ice shape
-does have a glaze ice horn, the max. thickness does
-give the horn thickness. In order to compare different
-conditions with different chord lengths and accretion
-conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation 
-thickness as given in Equation 3.  
-> ![Equation 3.](/images%2FNASA-CR-1999-208690%2FEquation%203.png)  
-> Figure 19 shows the dimensionless difference in
-ice thickness for the three ice thickness measurements made in this report. 
-Results are presented for
-the variation of tunnel repeatability, spanwise variability, 
-tracing error as well as for the overall experimental error and for LEWICE. 
-This figure shows that
-the max. thicknesses can be measured to within 5%
-and that the average difference between LEWICE
-and the experimental average value is 11% for max.
-thickness.  
-
-![Figure 19. Variation of Ice Thickness Compared to Average Experimental Value.](/images%2FNASA-CR-1999-208690%2FFigure%2019.png)  
-
->Angle at Max. Thickness (Horn Angle)  
-> 
->As described earlier, the horn angle was measured 
-with respect to a horizontal line which goes
-through the center of the inscribed cylinder at the
-leading edge. This angle was measured for all ice
-shapes whether or not they fit the classical definition
-of having a glaze ice horn. Many experimental ice
-shapes were in the form of distributed roughness
-with several peaks which can cause a large amount
-of scatter in the experimental results shown.  
-> 
->Figure 21 shows the variation between the max.
-thickness angle for LEWICE and for the experimental
-average value as well as the variation for individual
-experimental ice shapes to the same average using
-the categories described earlier. Results are presented in degrees. 
-This figure shows that the variation in the experimental
-data is 6 degrees for the
-upper angle, 10 degrees for the lower angle and 13
-degrees for the difference between these angles. The
-LEWICE difference from the experimental average
-are 16 degrees for the upper angle, 30 degrees for
-the lower angle and 33 degrees for the angle difference.  
-![Figure 21. Variation of Angle at Max. Thickness Compared to Average Experimental Value.](/images%2FNASA-CR-1999-208690%2FFigure%2021.png)  
-
-An overall average of the difference factors was proposed. 
-However, this has not seen wide adoption, so it is not detailed here. 
-There is a figure of a comparison example that approximates the average differences. 
-
-![Figure 25. Example of Ice Shape Prediction at Average %Difference in Experimental Data.](/images%2FNASA-CR-1999-208690%2FFigure%2025.png)  
+I read the differences as 20% for upper height and 26 degrees for upper horn angle.  
 
 LEWICE (2D) is the only code that I know of that has been characterized to this level of detail.  
 
