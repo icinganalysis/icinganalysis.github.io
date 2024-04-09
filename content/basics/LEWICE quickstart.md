@@ -223,6 +223,8 @@ and the report for version 2.0 is still applicable.
 Validation Results for LEWICE 3.0, NASA/CR-2005-213561 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
 Includes data for large drop size icing conditions.  
 
+Comparison of LEWICE and GlennICE in the SLD Regime, NASA/TM-2008-215174 [nrts.nasa.gov](https://ntrs.nasa.gov/citations/20080041518)  
+
 ## Related  
 
 Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  

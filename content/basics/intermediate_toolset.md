@@ -135,9 +135,9 @@ LEWICE software [grc.nasa.gov](https://www1.grc.nasa.gov/aeronautics/icing/softw
 
 User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
 
-Validation Results for LEWICE 2.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
-
 Validation Results for LEWICE 3.0 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20050160961)  
+
+Comparison of LEWICE and GlennICE in the SLD Regime NASA/TM-2008-215174 [nrts.nasa.gov](https://ntrs.nasa.gov/citations/20080041518)  
 
 ## Related  
 
