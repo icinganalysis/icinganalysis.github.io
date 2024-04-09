@@ -215,11 +215,14 @@ Linear interpolation was used.
 
 The tested protuberance locations are shown, 
 and a LEWICE upper horn tolerance box drawn around that "horn". 
-The LEWICE angular position tolerance is +/- 16 degrees (average difference from experiment), 
+The LEWICE angular position tolerance is +/- 26 degrees (average difference from experiment), 
 so the size of the tolerance box varies with distance from the center of curvature. 
 It was also assumed that the maximum ice thickness equals the potential accumulation 
 (equation 3 of NASA/CR-1999-208690), 
-which determines the ice height tolerance (+/- 11% of the potential accumulation). 
+which determines the ice height tolerance (+/- 20% of the potential accumulation).  
+
+![Equation 3.](/images%2FNASA-CR-1999-208690%2FEquation%203.png)  
+
 The actual ice horn height is typically less than the potential accumulation 
 (but can also be greater), 
 so the height tolerance depicted is not accurate for all cases; 
