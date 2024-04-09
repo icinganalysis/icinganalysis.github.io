@@ -70,7 +70,7 @@ but not identical, results.
     - [Run a 2D simulation]({filename}intermediate_lewice_freezing.md), such as LEWICE  
 
 ### Introduction to accuracy and variance  
-
+ 
 - skill: quantify ice shape differences  
     - [Introduction to Variations]({filename}intermediate_variance.md) calculate the expected difference between calculated ice shapes versus test,
 and estimate the range of effects   
