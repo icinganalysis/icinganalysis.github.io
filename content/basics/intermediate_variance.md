@@ -68,7 +68,7 @@ automatically on each shape produced the code values for horn thickness and horn
 to save time in the analysis and was justified on the basis that the code results are smoother and an
 automated process could be used. However, it is possible that THICK did not select the correct horn
 locations for all cases.  
-> ![Figures 7 and 8. Lower and upper horn height and angle variations.](..%2Fimages%2FNASA-TM-2008-215174%2FFigures%207%20and%208.png)  
+> ![Figures 7 and 8. Lower and upper horn height and angle variations.](/images%2FNASA-TM-2008-215174%2FFigures%207%20and%208.png)  
 
 I read the differences as 20% for upper height and 26 degrees for upper horn angle.  
 
