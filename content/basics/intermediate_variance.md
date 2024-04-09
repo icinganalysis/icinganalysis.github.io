@@ -71,7 +71,7 @@ locations for all cases.
 > ![Figures 7 and 8. Lower and upper horn height and angle variations.](/images%2FNASA-TM-2008-215174%2FFigures%207%20and%208.png)  
  
 I read the differences as 20% for upper height and 26 degrees for upper horn angle.  
-  
+
 LEWICE (2D) is the only code that I know of that has been characterized to this level of detail.  
 
 Note that the characterization method and data are largely for two-dimensional geometries. 
