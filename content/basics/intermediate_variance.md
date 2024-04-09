@@ -235,11 +235,6 @@ For the protuberance at the X/C = 0 location,
 neither the location nor the thickness tolerance would have a large effect, 
 with the interpolated Cl values close to the nominal 0.87. 
 
-For the X/C = 0.05 location, the Cl values range from 0.42 to 0.70 about the nominal 0.5 value. 
-However, I reviewed dozens of NACA0012 ice tracings, 
-and I did not find one with an ice "horn" back as far as X/C = 0.05, 
-so this may not be a very applicable comparison.  
-
 The data from DOT/FAA/AR-00-14 for the effect of protuberances on the 23102m airfoil 
 is further described in Lee, 2001 [icing.ae.illinois.edu](http://icing.ae.illinois.edu/papers/01/sam%20lee%20phd%20dissertation.pdf). 
 We can use that data to make a plot similar to that for the NACA0012 airfoil. 
