@@ -10,7 +10,7 @@ figure_2_12_ko_beta = """0.01, 0.33
 0.1, 0.79
 0.2, 0.865
 0.5, 0.93
-1, 0.96"""
+1, 0.96"""  # NACA0012 at AOA=0
 
 with StringIO(figure_2_12_ko_beta) as fd:
     lines = [[float(_) for _ in line] for line in list(csv.reader(fd))]
