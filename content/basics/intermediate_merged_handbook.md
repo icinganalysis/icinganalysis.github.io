@@ -4,7 +4,7 @@ Date: 2024-04-08 16:00
 tags: intermediate topics, aircraft icing handbook   
 rights: CC-BY-NC-SA 4.0  
 
-![FIRST UPDATE OF AIRCRAFT ICING HANDBOOK.](..%2Fimages%2FFAA%20Handbook%20volume%201%2FUpdate.png)  
+![FIRST UPDATE OF AIRCRAFT ICING HANDBOOK.](/images%2FFAA%20Handbook%20volume%201%2FUpdate.png)  
 
 ## Introduction  
 
