@@ -74,6 +74,33 @@ def calc_vapor_p(tk):  # (A.8) and (A.9)
     return pv
 
 
+def calc_vapor_p_ice(tk):  # (A.10)
+    dt = tk - 273.15
+    pv = 610.92 + (
+        dt
+        * (
+            50.347
+            + (
+                dt
+                * (
+                    1.8860
+                    + (
+                        dt
+                        * (
+                            4.1762e-2
+                            + (
+                                dt
+                                * (5.8247e-4 + (dt * (4.8388e-6 + (dt * (1.8388e-8)))))
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+    return pv
+
+
 def calc_diffusivity_water_vapor(tk, p):  # (A.4)
     return 2.11e-5 * (tk / 273.15) ** 1.94 * 101320 / p
 
