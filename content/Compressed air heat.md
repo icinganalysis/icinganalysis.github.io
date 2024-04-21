@@ -429,7 +429,7 @@ However, there are limits as to how much thrust can be boosted
 
 An online search (scholar.google.com) found citations for  
 NACA-RM-E51J29 18 times,  
-NACA-TN-2886 19 times, and  
+NACA-TN-2866 19 times, and  
 "Modern Icing Technology" one time.     
 
 ## Notes
