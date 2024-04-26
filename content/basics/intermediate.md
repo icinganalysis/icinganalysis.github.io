@@ -84,6 +84,7 @@ and estimate the range of effects
 ### Ice protection [in work]  
  
 - skill: calculate heat required for thermal ice protection  
+    - Anti-ice calculation theory  
     - ADS-4 "Aircraft A" Wing Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
 
@@ -97,6 +98,3 @@ and estimate the range of effects
 ## Related  
 
 Back to [The Basics]({filename}basics.md).  
-
-
-
