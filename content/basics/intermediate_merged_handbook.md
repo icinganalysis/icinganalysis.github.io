@@ -402,7 +402,7 @@ Let M"Imp denote the mass flux per unit time due to impinging water droplets,
 M"Run in and M"Run out denote mass flow per unit area per unit time into and out of the control
 volume due to liquid run back, and M"ice denote the mass of ice formed per unit area per unit time.
 Then the mass balance for the control volume is:  
->M"Ice = M"Ice + M"Runin - M"Runout - M"Evap  
+>M"Ice = M"Imp + M"Runin - M"Runout - M"Evap  
 
 ![Equation 2-33 corrected. M"Ice = M"Ice + M"Runin - M"Runout - M"Evap](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-33%20corrected.png)   
 
