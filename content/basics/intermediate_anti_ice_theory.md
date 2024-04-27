@@ -1,6 +1,6 @@
 Title: Anti-Ice Heating Calculations Theory      
 header: The Basics: Intermediate Topics  
-Date: 2024-04-15 21:00  
+Date: 2024-04-29 12:00  
 tags: intermediate topics, analysis tools, anti-ice   
 status: draft  
 rights: CC-BY-NC-SA 4.0
