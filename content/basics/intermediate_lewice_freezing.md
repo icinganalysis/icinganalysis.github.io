@@ -48,17 +48,17 @@ The LEWICE analysis at the nominal -4F does not predict complete freezing
 at the leading edge:  
 
 ![lewice2d_example2_2_thick_tf_-4](/images%2Fbasics%2Flewice2d_example2_2_thick_tf_-4.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 Here is the result at a colder temperature (-22F):  
 
 ![lewice2d_example2_2_thick_tf_m22](/images%2Fbasics%2Flewice2d_example2_2_thick_tf_m22.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 Here are the computed ice shapes:
 
 ![lewice2d_example2_2_ice_tf_m25](/images%2Fbasics%2Flewice2d_example2_2_ice_tf_m25.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 The ice calculated at -22F agrees well with the ice thickness from the handbook example.  
 
@@ -76,7 +76,7 @@ The icing time was not specified,
 so we will assume the same value as example 2-4.  
 
 ![Table 2-5 to 2-8 LEWICE 60 s prt1](/images/basics/Table%202-5%20to%202-8%20LEWICE%2060%20s%20prt1.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 The results do not appear to agree well. 
 Many of the LEWICE results are that the freezing fraction is 1, 
@@ -94,7 +94,7 @@ Results from LEWICE and the Standard Computational Model are compared below.
 General trends agree, but the values may have large differences.  
 
 ![LEWICE SCM freeze rate comparison.](/images/basics/LEWICE%20SCM%20freeze%20rate%20comparison.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ## A partial explanation of differences in reported freezing fraction  
 
@@ -104,12 +104,12 @@ So, differing heat transfer coefficient values are only a small component in the
 Here is the Table 2-5-a case at -8C temperature:  
 
 ![Table 2-5 LEWICE -8C htc full scale](/images/basics/Table%202-5%20LEWICE%20-8C%20htc%20full%20scale.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 However, the stagnation line (S=0) Beta value differs from that calculated using the Standard Computational Model:  
 
 ![Table 2-5 LEWICE beta](/images/basics/Table%202-5%20LEWICE%20beta.png)   
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 The LEWICE manual [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307) states:  
 

@@ -5,7 +5,7 @@ tags: intermediate topics, water catch
 rights: CC-BY-NC-SA 4.0  
 
 ![Graph of water catch efficiency Em versus Ko for a cylinder.](/images%2Fbasics%2FExample%202-3%20Em.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ## Introduction  
 
@@ -181,15 +181,15 @@ and is left to the reader as a recommended exercise.
 Example 2-2 may be solved graphically:  
 
 ![Example 2-2 graphical solution using Figure 2-11.](/images%2Fbasics%2FFigure%202-11%20Em.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 The figure can also be digitized and solved programmatically:  
 
 ![Example 2-2 solution using a digitized version of Figure 2-11.](/images%2Fbasics%2FExample%202-2%20Em.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ![Example 2-2 beta.png](/images%2Fbasics%2FExample%202-2%20beta.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ### Example 2-3  
 
@@ -259,15 +259,15 @@ The calculated E and β values differ slightly from the Table 2-2 values.
 Here we can illustrate the weighted average solution.  
 
 ![Example 2-3 Em.png](/images%2Fbasics%2FExample%202-3%20Em.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 If we zoom in we can see that the weighted average Em value is not necessarily on the curve developed for single drop sizes:  
 
 ![Example 2-3 Em zoom.png](/images%2Fbasics%2FExample%202-3%20Em%20zoom.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ![Example 2-3 beta.png](/images%2Fbasics%2FExample%202-3%20beta.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ### Example 2-4  
 

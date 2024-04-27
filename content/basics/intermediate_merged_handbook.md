@@ -223,7 +223,7 @@ Figure 2-6 illustrates the definition of the impingement parameters Su, SL, ΔYo
 an airfoil in a supercooled cloud. 
 
 ![figure 2-6 redrawn.png](/images%2FFAA%20Handbook%20volume%201%2Ffigure%202-6%20redrawn.png)  
-_Figure 2-6 redrawn. Public domain by Donald Cook._  
+_Figure 2-6 redrawn. Public domain image by Donald Cook._  
  
 Let S denote arc length measured along the airfoil surface.
 It is conventional to take S = 0 at the leading edge, and that is done here (although the reader should note

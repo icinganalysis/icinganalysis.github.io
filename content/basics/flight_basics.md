@@ -18,7 +18,7 @@ Effects of ice:
 
 ![Effects of structural ice.](/images%2Fac00-6a%2Fstructural_ice_cropped.png)
 _Adapted from "Aviation Weather For Pilots and Flight Operations Personnel", AC 00-6A (Cancelled) [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22268)_  
-_Public domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 Note that "Aviation Weather Handbook", FAA-H-8083-28 [faa.gov](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook) states:  
 

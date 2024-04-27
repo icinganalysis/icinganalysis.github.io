@@ -11,7 +11,7 @@ Average drop sizes are typically 10 to 50 ["Micrometers"]({filename}Nomenclature
 (for comparison, a human hair is about 50 to 100 micrometers in diameter).
 
 ![Typical water drop sizes. Icing clouds are typically in the 10 to 50 micrometer diameter range. Drizzle is 100 micrometers and up, while rain is typically 1000 micrometers.](/images%2Fdrop%20sizes.png)  
-_Typical drop sizes, approximately proportional. Public Domain by Donald Cook._  
+_Typical drop sizes, approximately proportional. Public domain image by Donald Cook._  
 
 In a particular cloud, not all water drops are the same size. 
 The ["Langmuir Drop Size Distributions"]({filename}Nomenclature.md#langmuir-distribution) describe an idealized approximation of 

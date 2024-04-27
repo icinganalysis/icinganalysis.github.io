@@ -5,7 +5,7 @@ tags: intermediate topics, thermodynamics
 rights: CC-BY-NC-SA 4.0  
 
 ![Ice shape types as a function of airspeed and ambient temperature for a liquid water content of 0.2 g/m^3.](/images/basics/dot_faa_ct_88_8_1_fig_2-81.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ## Prerequisites  
 
@@ -152,7 +152,7 @@ but the results from Table 2-8b (having higher airspeeds) have an offset.
 The handbook values are "reference", and the values calculated with the python program are "calculated":  
 
 ![dot_faa_ct_88_8_1_cylinder_n](/images/basics/dot_faa_ct_88_8_1_cylinder_n.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 The percentages of the heat sources and sinks are similar, but not identical, to the values listed in the handbook ("reference"). 
 Some cases, like 2-5-b at -2C, have some differences greater than 10%, 
@@ -233,7 +233,7 @@ A Langmuir A drop size distribution was assumed.
 The values are similar, but not identical, to Figure 2-81.  
 
 ![dot_faa_ct_88_8_1_fig_2-81.png](/images/basics/dot_faa_ct_88_8_1_fig_2-81.png)  
-_Public Domain by Donald Cook._  
+_Public domain image by Donald Cook._  
 
 ## Conclusions  
 
