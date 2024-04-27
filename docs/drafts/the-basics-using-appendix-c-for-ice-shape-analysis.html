@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>The Basics: Using Appendix C for Ice Shape Analysis</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="Public domain image by Donald Cook. Summary Search within the Appendix C Continuous Maximum Icing definition for the thickest ice shape. Prerequisites You need to have..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">Intermediate Level</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/the-basics-using-appendix-c-for-ice-shape-analysis.html" rel="bookmark"
+           title="Permalink to The Basics: Using Appendix C for Ice Shape Analysis">The Basics: Using Appendix C for Ice Shape Analysis</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-03-29T11:00:00-07:00">
+                Published: Fri 29 March 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-27T11:14:47.025787-07:00">
+                Updated: Sat 27 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes_with_cls" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes_with_cls.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Summary</h2>
+<p>Search within the Appendix C Continuous Maximum Icing definition for the thickest ice shape.  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/computer-freezing-rate-analysis-tools-examples.html">Run a 2D simulation</a>.  </p>
+<h2>Introduction</h2>
+<p>"Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a> 
+offers guidance on analysis for icing conditions. 
+We will not cover the certification aspects in detail.</p>
+<p>Much of the detail is on ice protection systems. </p>
+<blockquote>
+<p>This advisory circular (AC) tells type certificate and supplemental type certificate
+applicants how to comply with the ice protection requirements of Title 14 of the Code of Federal
+Regulations (14 CFR) parts 23, 25, 27, 29, 33, and 35. </p>
+</blockquote>
+<p>However, it is also useful for analysing ice shapes on unprotected surfaces. </p>
+<p>It is noted that:  </p>
+<blockquote>
+<p>Determination of critical ice shape configurations is not straightforward and may require
+engineering judgment.</p>
+</blockquote>
+<p>SAE AIR5903, "Droplet Impingement and Ice Accretion Computer Codes" <a href="https://www.sae.org/standards/content/arp5903/">sae.org</a> notes:  </p>
+<blockquote>
+<p>A balancing of accurate and conservative results may be necessary to achieve a design that is both cost‑effective and safe.  </p>
+</blockquote>
+<p>We will only cover areas that can guide us in determining ice shapes for unprotected surfaces
+(with 233 pages, there is much more information in AC 20-73A). 
+Ice shapes on unprotected areas may be determined by test or analysis. 
+We will cover analysis here. </p>
+<p>It is suggested that you track your time and computing resources required to perform the 
+simplified analysis outline below. 
+This will give you data to estimate what is required for a more complete analysis. </p>
+<h2>Discussion</h2>
+<h3>Critical ice shapes</h3>
+<p>The task is to determine the Critical Ice Shape ("worst case"):  </p>
+<blockquote>
+<p>R.4.1 Considerations for Critical Ice Shapes.  </p>
+<p>A critical ice shape may be defined as the aircraft surface ice shape (formed within icing
+conditions defined by 14 CFR parts 25, Appendix C or 29, Appendix C) that results in the most
+adverse effects for specific flight safety requirements. The critical ice shape may differ for
+different flight safety requirements. For example, the critical ice shape may differ for stall speed,
+climb, aircraft controllability, control surface movement, control forces, air data system
+performance, “artificial feel” adjustments, ingestion and structural damage from shed-ice.
+Engine thrust, engine control, and aeroelastic stability considerations may result in different
+critical ice shapes.  </p>
+<p>Critical ice shapes may vary with aircraft configuration and flight phase...  </p>
+<p>Determination of critical ice shape configurations is not straightforward and may require
+engineering judgment...</p>
+<p>You may use experience from previous certifications of similar aircraft designs as guidance for
+determining the icing conditions that produce candidate critical ice shapes. Unprotected critical
+surface ice shapes should reflect the icing exposure time associated with the respective phase of
+flight. For the holding configuration, consider the 45-minute holding period...</p>
+</blockquote>
+<p>(There is more, but this is adequate for our simplified illustration here.)</p>
+<p>Addressing all aspects (effect on stall speed,
+climb, aircraft controllability, control surface movement, control forces, air data system
+performance, “artificial feel” adjustments, ingestion and structural damage from shed-ice) 
+is a complex topic that will not be detailed here. </p>
+<h3>Verifying ice shapes</h3>
+<p>Ice shapes from analysis may create an illusion of precision. 
+The values may be reported to many digits, but they do not always match test data well. </p>
+<p>A detailed discussion of verifying ice shapes is an expert level topic. 
+Here, we will summarize the AC 20-73A discussion on the topic. </p>
+<blockquote>
+<p>R.5.4 Drop Impingement and Ice Accretion Computer Codes and Other Analytical Methods.<br>
+Applicants may use verified computer codes and analytical methods to predict ice shapes. The
+predicted ice shape is the result of calculations that define the flowfield, the drop trajectories,
+water loading, and the ice accretion physics. Many icing codes are available. They differ to
+varying degrees in their manner of modeling the ice accretion process. SAE ARP5903
+(Reference R20) provides information that describes several available drop impingement and ice
+accretion codes.  </p>
+<p>Confidence in 2D icing codes to predict ice shapes accurately is mixed when their results are
+compared with icing wind tunnel ice. Figures R-21 through R-24 show reasons for this mixed
+confidence. The figures compare ice shapes predicted by several icing codes with those
+produced in two icing wind tunnels. The data from Reference R21 show that even at colder,
+rime ice conditions, where confidence in predicted ice shapes is highest, there are significant
+differences between predicted and empirical ice shapes.</p>
+<p><img alt="Figure R-21.png" src="/images%2Fac2073a%2FFigure%20R-21.png">  </p>
+</blockquote>
+<p>There is also variation in experimental ice shapes in repeated tests, 
+but the variation is generally less than the variation in results from different codes. </p>
+<blockquote>
+<p>Ice accretion codes with 3D flow field and drop trajectory abilities, coupled to a 2D ice accretion
+calculation, have been developed to predict 3D ice shapes. The experimental ice shape data
+available for verifying these pseudo 3D ice accretion codes is limited. Therefore, confidence in
+these ice accretion codes is limited. Also, none of the codes predict the periodic “scalloped” or
+“lobster tail” ice shapes that develop from ice feathers on swept wings.  </p>
+</blockquote>
+<p>For several recent ice shape comparison examples, including 3D codes, see 
+"AIAA 1st Ice Prediction Workshop Results post-processing for code-to-code comparison" 
+<a href="https://folk.ntnu.no/richahan/IPW/files/IPW1/Presentations/IPW1_Presentations/Day%201/IPW_Code2CodeComparison_final.pdf">folk.ntnu.no</a>. 
+[Frankly, the level of agreement has not changed much in 16 years.]  </p>
+<h3>Simplifications for a tractable analysis</h3>
+<p>We will simplify the task by assuming that the thickest ice shape has the greatest effect. </p>
+<p>For ice protection, some analysis points are suggested. 
+We will use them for determining ice shapes. </p>
+<blockquote>
+<p>Table 6 shows the meteorological conditions you should consider for a typical
+compliance analysis for operating in continuous and intermittent maximum icing conditions.  </p>
+<p><img alt="Table 6.png" src="/images%2Fac2073a%2FTable%206.png">  </p>
+</blockquote>
+<p>Here are the Continuous Maximum Icing Conditions values:  </p>
+<table>
+<thead>
+<tr>
+<th>MVD<br/>micrometer</th>
+<th>T<br/>F</th>
+<th>LWC<br/>g/m^3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td>
+<td>32</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>15</td>
+<td>14</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>15</td>
+<td>-4</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>15</td>
+<td>-22</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>25</td>
+<td>32</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>25</td>
+<td>14</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>25</td>
+<td>-4</td>
+<td>0.15</td>
+</tr>
+<tr>
+<td>25</td>
+<td>-22</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>40</td>
+<td>32</td>
+<td>0.15</td>
+</tr>
+<tr>
+<td>40</td>
+<td>14</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>40</td>
+<td>-4</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>40</td>
+<td>-22</td>
+<td>0.04</td>
+</tr>
+</tbody>
+</table>
+<p>The selected points plotted on Appendix C Figure 1 are:  </p>
+<p><img alt="Selected points on Appendix C, Figure 1" src="/images%2Fac2073a%2FSelected%20points%20figure%201.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<blockquote>
+<p>Select pressure altitudes that cover the range of altitudes associated with each
+temperature from figures E-2 and E-5 in appendix E of this AC.  </p>
+<p><img alt="Figure E-2.png" src="/images%2Fac2073a%2FFigure%20E-2.png">  </p>
+</blockquote>
+<p>We will select the labeled altitude values that are within the range of the figure (0, 4000, 8000, 12000, 16000, and 20000 ft). 
+Note, for example, that values at 32°F extend from 0 to 12000 ft, 
+so values at 16000 and 20000 ft would not be applicable.  </p>
+<blockquote>
+<p>You should perform a [water] drop impingement and water catch analysis to evaluate the
+impingement limits and water collection characteristics of aircraft surfaces and components.
+This analysis also provides the ice collection efficiencies of aircraft surfaces and components.
+The analysis should consider all the airplane’s flight configurations, phases of flight, and
+operating envelopes (including airspeeds, aircraft configurations, and angles of attack).  </p>
+</blockquote>
+<p>We will consider only one flight phase here, nominally holding. 
+We will only analyze one angle of attack (4 degrees). </p>
+<p>For airspeed, we will assume a constant Equivalent Airspeed (EAS) value of 100 m/s (about 194 KEAS), 
+with differing altitude and temperature combinations resulting in different true airspeed values. 
+This maintains a constant dynamic pressure, so a nearly constant lift value is achieved at a constant angle of attack 
+(with small variations for Mach and Reynolds number effects). 
+See "Equivalent airspeed" <a href="https://en.wikipedia.org/wiki/Equivalent_airspeed">wikipedia.org</a> 
+for more information on EAS.  </p>
+<p><img alt="100 m_s_airspeed.png" src="/images%2FIntermediate%2F100%20m_s_airspeed.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>We will use a NACA0012 airfoil, with a chord length of 5 m. 
+This does not represent a particular airplane, 
+and is typical of Part 25 transports 
+(some are larger and some are smaller, with respect to mean aerodynamic chord).  </p>
+<p>We will separately analyze the three MVD values for the combinations of altitude and temperature, 
+and determine the maximum ice thickness at each point.  </p>
+<h3>Analysis with LEWICE</h3>
+<p>This analysis will use the LEWICE code. 
+As this is a 2D code, it does not take into account airplane level flow that can affect the 
+local flow at a particular wing span location. 
+The assumption that local 2D "effective" angle of attack equals the nominal angle of attack can be very approximate. 
+A more thorough practice when the stagnation location is known (by wind tunnel tests or 3D analysis) 
+is to vary the local 2D angle of attack to match the 3D flow stagnation line location.  </p>
+<p>See, for example, the AIAA Ice Prediction Workshop presentation 
+"Boeing LEWICE2D and LEWICE3D summaries" 
+<a href="https://folk.ntnu.no/richahan/IPW/files/IPW1/Presentations/IPW1_Presentations/Day%201/Cook_Boeing_LEWICE.pdf">folk.ntnu.no</a>.  </p>
+<p>We will assume that the wing is not swept. </p>
+<p>LEWICE does not have a direct way to account for sweep, 
+but approximations have been used for swept wing cases.
+LEWICE also does not have a direct way of changing the ice density use (917 kg/m^3). 
+If calibration data is available for a given configuration, a different ice density can give more accurate ice thickness values. 
+An ice density of 917 kg/m^3 was used here. </p>
+<p>A Langmuir D drops size distribution was used. </p>
+<p>Here are example results with an MVD value of 25 micrometers:  </p>
+<p><img alt="LEWICE sweep data 25 MVD 100 chord 5.000 m EAS 45 minute ac2073a_fig_2.png" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2025%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_fig_2.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>Selecting the altitude and temperature that yields the thickest ice (16000 ft, 14°F), 
+we can do a sensitivity check on the effect of MVD:  </p>
+<p><img alt="table 6 mvds max ice thick.png" src="/images%2FIntermediate%2Ftable%206%20mvds%20max%20ice%20thick.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>This may seem counter-intuitive, 
+given that the highest liquid water content values occur at the smallest drop sizes. 
+However, there is a complex interplay of several factors. 
+The collection efficiency varies with drop size, 
+which is one of important the factors. 
+The total water catch (proportional to Em * LWC) can reach a maximum at an intermediate drop size:  </p>
+<p><img alt="Figure 7.png" src="/images%2Fwilder%2FFigure%207.png"><br>
+<em>from "Aircraft Ice Protection Report of Symposium" <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">apps.dtic.mil</a></em>  </p>
+<p><img alt="table 6 mvds wcrs.png" src="/images%2FIntermediate%2Ftable%206%20mvds%20wcrs.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>However, different chord lengths and flight conditions will yield different results
+(do not assume that 25 micrometers will necessarily yield maximum ice thickness for your conditions).  </p>
+<h3>A more detailed analysis</h3>
+<p>The steps between conditions in Table 6 may be considered to be large, 
+so here the analysis is repeated with finer resolution to show the effect. </p>
+<p>If we calculate the effect of MVD with the labeled values from Appendix C Figure 1 
+(with 5 micrometer increments rather than the 10 to 15 micrometer increments from Table 6), 
+a peak ice thickness occurs at 20 micrometers, rather than the 25 micrometers from the Table 6 analysis points. </p>
+<p><img alt="table 6 mvds max ice thick comp.png" src="/images%2FIntermediate%2Ftable%206%20mvds%20max%20ice%20thick%20comp.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>One can use insight from the analysis above to determine where to concentrate a search for thickest ice. 
+In the figure where the Figure 1 envelope was over-laid with calculated ice thickness values, 
+the thickness values generally increase as altitude is increased. 
+So, it is apparent that there will be a maximum along the upper-right boundary of Appendix C Figure 1. 
+We will search that in 2°F increments (resulting in about 440 ft. altitude increments).  </p>
+<p><img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_fig_2_all.png" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_fig_2_all.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The analysis yields a series of ice shapes:  </p>
+<p><img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes.png" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The case ice with the thickest ice was at 16°F. 
+However, the case at 18°F was nearly as thick. </p>
+<p>The thickest ice (0.052 m at 20 MVD) is greater than that from the sparser search (0.044 m at 25 MVD).  </p>
+<p><img alt="Comparison 20 and 25 MVD.png" src="/images%2FIntermediate%2FComparison%2020%20and%2025%20MVD.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>At a full-scale view, the ice shapes are barely discernible, and the differences even less so:  </p>
+<p><img alt="Comparison 20 and 25 MVD zoom_out.png" src="/images%2FIntermediate%2FComparison%2020%20and%2025%20MVD%20zoom_out.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>I view the difference between the two ice shapes to be large enough to merit the finer resolution search. 
+However, quantifying that difference for all aspects such as "stall speed,
+climb, aircraft controllability, control surface movement, control forces, air data system
+performance, “artificial feel” adjustments, ingestion and structural damage from shed-ice" 
+is quite challenging, and is not detailed here.  </p>
+<h3>Effect on Cl_max</h3>
+<p>We will estimate the effects on Cl_max. 
+For this example, the Reynolds number values are close to that of available data
+(RE 3.1e7) for a protuberance that we saw in <a href="/introduction-to-variations.html">Introduction to Variations</a>:  </p>
+<p><img alt="NACA0012 5m Cl_max effect re" src="/images%2FIntermediate%2FNACA0012%205m%20Cl_max%20effect%20re.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>We can add the estimated Cl_max value onto the ice shape figure (20 MVD case shown):  </p>
+<p><img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes_with_cls" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes_with_cls.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>We will concentrate on the range of temperatures with the minimum Cl_max values. 
+For each drop size considered, 
+the effect has a minimum value of Cl_max at some ambient temperature of between 
+16 and 20 F. 
+The overall minimum is at MVD = 20 and 16 F, as we saw above, 
+but there are several combinations that have Cl_max ~= 1.10, 
+that may well be considered "close enough", 
+especially given that much interpolation between widely spaced data was required 
+to estimate the effect. </p>
+<p><img alt="NACA0012 5m Cl_max effect by t" src="/images%2FIntermediate%2FNACA0012%205m%20Cl_max%20effect%20by%20t.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>However, for other conditions and airfoils the maximum effect may well be at some other 
+temperature and drop size.  </p>
+<p>For these cases, the largest effect corresponded to the thickest ice shape. 
+However, that may not hold for all cases, 
+particularly for smaller chord lengths, 
+where the relative position of ice horns can be further back on the airfoil. </p>
+<h2>Exercises</h2>
+<p>Consider an analysis for Intermittent Maximum Icing conditions (Appendix C figures 4, 5, and 6). 
+What time exposure do you select?  </p>
+<p>Repeat the analysis, 
+assuming that the Appendix C Figure 3 Liquid Water Content Factor is applicable 
+(AC 20-73A 8.2.2.6(c) refers to the Liquid Water Content Factor as "a horizontal extent correction"). 
+Did the critical condition change?  </p>
+<h2>Resources</h2>
+<p>"Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>  </p>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
