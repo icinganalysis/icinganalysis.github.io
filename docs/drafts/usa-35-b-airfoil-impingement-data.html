@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>USA 35-B Airfoil Impingement Data</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="Public domain image by Donald Cook. Prerequisites This information relates to Anti-Ice Heat Required Calculations. Introduction ADS-4 uses the USA 35-B airfoil in the..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/usa-35-b-airfoil-impingement-data.html" rel="bookmark"
+           title="Permalink to USA 35-B Airfoil Impingement Data">USA 35-B Airfoil Impingement Data</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-29T14:00:00-07:00">
+                Published: Mon 29 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-04-27T11:09:43.968822-07:00">
+                Updated: Sat 27 April 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="usa35b.png" src="/images%2FIntermediate%2Fusa35b.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>This information relates to <a href="/drafts/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
+<h2>Introduction</h2>
+<p>ADS-4 uses the USA 35-B airfoil in the "Aircraft A" example in section 4.1.4. 
+It does not provide impingement data for that airfoil, 
+but uses an approximation:  </p>
+<blockquote>
+<p>Modified inertia parameter Ko = 0.0238<br>
+The ratio of projected airfoil height to chord h/C= 0.1225 (at alpha = -1.7), based on measured values for USA 35-B airfoil<br>
+Collection efficiency can be obtained from Figure 2-7 for a 12 per cent
+Joukowski airfoil at a zero-deg. angle of attack<br>
+EM = 0.135<br>
+Water catch WM = 2.95 lb/hr-ft.span  </p>
+<p>The limits of impingement can be found from Figures 2-15 and 2-16 using
+a 15 per cent Joukowski airfoil at alpha = 2 deg. to represent the USA 35-B airfoil
+at alpha = -1.6 deg.
+The Joukowski airfoil was used because of the profile similarity to the USA 35-B airfoil
+for which no data was available.
+See Paragraph 2.3.4 for an explanation of airfoil matching procedures.<br>
+SU/C = 0.04 SL/C = 0.02<br>
+SU = 2.7 in. SL = 1.3 in.  </p>
+</blockquote>
+<p>The airfoil coordinates are available at https://m-selig.ae.illinois.edu/ads/coord/usa35b.dat. 
+If you plot the points from usa35b.dat (34 points), 
+you can see that LEWICE has interpolated more points (108 points) using splines, 
+and the individual panels are not readily visible on this scale.  </p>
+<p><img alt="usa35b_with_points.png" src="/images%2FIntermediate%2Fusa35b_with_points.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>When LEWICE is run with the USA 35-B airfoil for the ADS-4 4.1.4.1 conditions, 
+slightly different impingement data results are found:  </p>
+<p><img alt="USA35B Airfoil AOA=-1.6 em" src="/images%2FIntermediate%2FUSA35B%20Airfoil%20AOA%3D-1.6%20em.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p><img alt="USA35B Airfoil AOA=-1.6 beta_max" src="/images%2FIntermediate%2FUSA35B%20Airfoil%20AOA%3D-1.6%20beta_max.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p><img alt="USA35B Airfoil AOA=-1.6 sl_su" src="/images%2FIntermediate%2FUSA35B%20Airfoil%20AOA%3D-1.6%20sl_su.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The LEWICE results are similar to the Joukowski airfoil approximation.
+See <a href="/drafts/anti-ice-heat-required-calculations.html#lewice-imingement">Anti-Ice Heat Required Calculations</a> 
+for examples. </p>
+<p>You may note the non-smooth nature of the LEWICE results for impingement limits. 
+This is a feature of the methods that use surface panels to approximate smooth airfoil surfaces. 
+Figures in ADS-4 that appear to be smooth were likely either smoothed with engineering judgement, 
+or sparsely calculated and the interpolated smoothly.  </p>
+<p>These results here may be used by readers who do not have access to LEWICE to perform some of the analysis in 
+<a href="/drafts/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>. 
+They are listed in the file 
+<a href="/images%2FIntermediate%2FUSA%2035-B%20Airfoil%20AOA%3D-1.6.dat">USA 35-B Airfoil AOA=-1.6.dat</a>.  </p>
+<h2>Resources</h2>
+<ul>
+<li>
+<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
+</li>
+<li>
+<p>User's Manual for LEWICE Version 3.2 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a>  </p>
+</li>
+</ul>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
