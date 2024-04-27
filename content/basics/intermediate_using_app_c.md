@@ -1,5 +1,5 @@
-Title: The Basics: Using Appendix C for Ice Shape Analysis   
-header: Intermediate Level    
+Title: Using Appendix C for Ice Shape Analysis   
+header: The Basics: Intermediate Topics  
 Date: 2024-04-29 11:00  
 tags: intermediate topics, ice shape, effects of ice, LEWICE   
 status: draft  
