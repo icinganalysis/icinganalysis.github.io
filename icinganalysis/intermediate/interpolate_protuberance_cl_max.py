@@ -13,7 +13,6 @@ h_cl_max_data_23012m = {  # h/c, cl
 
 
 # NACA-TR-446
-
 locations_s_NACA0012 = -0.06, 0, 0.06475, 0.16649, 0.31670, 0.66731
 locations_NACA0012 = -0.05, 0, 0.05, 0.15, 0.3, 0.65
 h_cl_max_data_NACA0012 = {  # h/c, cl
