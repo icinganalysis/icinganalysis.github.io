@@ -78,12 +78,16 @@ and estimate the range of effects
 ### Using icing conditions definitions [in work]  
 
 - skill: use the Appendix C icing envelopes  
-    - identify conditions that yield the maximum ice thickness for a given geometry and flight conditions   
-    - identify candidate "worst case" ice shapes  
+    - Identify conditions for "critical" ice shapes:   
+[Using Appendix C for Ice Shape Analysis]({filename}intermediate_using_app_c.md)   
 
 ### Ice protection [in work]  
  
 - skill: calculate heat required for thermal ice protection  
+  <!--
+    - [Anti-Ice Heating Calculations Theory]({filename}intermediate_anti_ice_theory.md)  
+    - [Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md)   
+  -->
     - Anti-ice calculation theory  
     - ADS-4 "Aircraft A" Wing Anti-icing calculation  
     - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
