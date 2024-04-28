@@ -84,12 +84,14 @@ and estimate the range of effects
 ### Ice protection [in work]  
  
 - skill: calculate heat required for thermal ice protection  
-  <!--
-    - [Anti-Ice Heating Calculations Theory]({filename}intermediate_anti_ice_theory.md)  
-    - [Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md)   
+    - Anti-ice calculation theory    
+    <!--
+[Anti-Ice Heating Calculations Theory]({filename}intermediate_anti_ice_theory.md)  
   -->
-    - Anti-ice calculation theory  
-    - ADS-4 "Aircraft A" Wing Anti-icing calculation  
+    - ADS-4 "Aircraft A" Wing Anti-icing example  
+    <!--
+[Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md)   
+-->
     - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
 
 ## Items specifically deferred to the (yet to be written) Expert Level  
