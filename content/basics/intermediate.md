@@ -75,7 +75,7 @@ but not identical, results.
     - [Introduction to Variations]({filename}intermediate_variance.md) calculate the expected difference between calculated ice shapes versus test,
 and estimate the range of effects   
 
-### Using icing conditions definitions [in work]  
+### Using icing conditions definitions  
 
 - skill: use the Appendix C icing envelopes  
     - Identify conditions for "critical" ice shapes:   
