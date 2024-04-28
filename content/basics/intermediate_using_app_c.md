@@ -306,7 +306,7 @@ the effect has a minimum value of Cl_max at some ambient temperature of between
 The overall minimum is at MVD = 20 and 16 F, as we saw above, 
 but there are several combinations that have Cl_max ~= 1.10, 
 that may well be considered "close enough", 
-especially given that much interpolation between widely spaced data was required 
+especially given that much interpolation within widely spaced data was required 
 to estimate the effect. 
 
 ![NACA0012 5m Cl_max effect by t](/images%2FIntermediate%2FNACA0012%205m%20Cl_max%20effect%20by%20t.png)  
