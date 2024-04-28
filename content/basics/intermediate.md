@@ -2,7 +2,7 @@ Title: Aircraft Icing Intermediate Level
 header: The Basics: Intermediate Topics  
 Date: 2024-04-08 12:00  
 published: 2024-04-08 12:00  
-tags: intermediate topics,  
+tags: intermediate topics, handbook analysis 
 rights: CC-BY-NC-SA 4.0  
 
 ![Figure 2-71. Effect of total temperature on the ice shape.](/images/FAA%20Handbook%20volume%201%2FFigure%202-71%20crop.png)  
