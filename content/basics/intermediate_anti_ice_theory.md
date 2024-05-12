@@ -1,12 +1,11 @@
 Title: Anti-Ice Heating Calculations Theory      
 header: The Basics: Intermediate Topics  
-Date: 2024-04-29 12:00  
+Date: 2024-05-13 12:00  
 tags: intermediate topics, analysis tools, anti-ice   
-status: draft  
 rights: CC-BY-NC-SA 4.0
 
 ![ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate.](/images%2Fads4%2FFigure3-19.png)  
-_From ADS-4._  
+_From ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)._  
 
 ## Prerequisites  
 
