@@ -104,7 +104,7 @@ even though
 > impingement limits are greater on the lower surface.)  
 > Figure 4.1-6 shows impingement limits versus span for the wing at both
 > 20 and 40-micron drop sizes.  
-> ![Figure 4.1-6.png](/images%2Fads4%2FFigure%204.1-6.png)  
+> ![Figure 4.1-6](/images%2Fads4%2FFigure%204.1-6.png)  
 > The determination of local water collection rate, Wb is illustrated for
 > the wing of the same airplane by the following calculations:  
 > 
@@ -314,7 +314,7 @@ We will also consider the laminar cylinder approximation from section ADS-4 sect
 ![Aircraft A qr running wet](/images%2FIntermediate%2FAircraft%20A%20qr%20running%20wet.png)  
 _Public domain image by Donald Cook._  
 
-As this case is at the stagnation line the surface is fully wet. 
+As this case is at the stagnation line, the surface is fully wet. 
 
 The heating required is nearly directly proportional to the heat transfer coefficient. 
 The heat transfer coefficient with the cylinder approximation is greater than 
@@ -326,37 +326,53 @@ The analysis above averaged all values over the heated surface.
 As there are several non-linearly varying effects, particularly the vapor pressure of water with temperature, 
 one might question how accurate that is.  
 
-The local pressure, as determined by LEWICE analysis, varies over the heated surface:  
-![SCM with LEWICE BCs ps.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png)  
+The water drops are calculated to impinge over a limited area of the surface.  
+![SCM with LEWICE BCs beta](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png)
+
+The local pressure, as determined by LEWICE analysis, varies over the heated surface. 
+The "ambient static" pressure line indicates the surface extent of the heating in the ADS-4 example
+(x/c=0.1):  
+![SCM with LEWICE BCs ps](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png)  
+_Public domain image by Donald Cook._  
 
 The local temperature also varies:  
-![SCM with LEWICE BCs ts.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png)  
+![SCM with LEWICE BCs ts](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png)  
+_Public domain image by Donald Cook._  
 
 LEWICE also calculates external heat transfer coefficients. 
 These include the effects of roughness from an initially iced surface
-(we will look at the heat transfer coefficients for a non-ice surface in a later section).   
-![SCM with LEWICE BCs htc.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png)  
+(we will look at the heat transfer coefficients for a non-iced surface in a later section).   
+![SCM with LEWICE BCs htc](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png)  
+_Public domain image by Donald Cook._  
 
 LEWICE calculates a heat transfer coefficient value of zero at the stagnation point. 
 This is a feature of some integral boundary layer method formulations (the method used in LEWICE). 
 
-
 The Standard Computational Model can be used to determine the local heated surface temperature 
-required to evaporate all impinging water locally.   
-![SCM with LEWICE BCs t required.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png)  
+required to evaporate all impinging water locally. 
+There is a temperature "spike" at the stagnation line that is caused by 
+the zero heat transfer coefficient value leading to a non-convergence of the calculation.  
+![SCM with LEWICE BCs t required](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png)  
+_Public domain image by Donald Cook._  
 
 The resulting heat required values:  
-![SCM with LEWICE BCs heat required.png](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png)  
+![SCM with LEWICE BCs heat required](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png)  
+_Public domain image by Donald Cook._  
 
 The area under the curve is the total heat required for complete evaporation. 
-This is an ideal, minimal value that assumes that all of the heat is delivered in the prescribed distribution. 
+This is an ideal, minimal value that assumes that the heat is delivered in the prescribed distribution. 
 
 The total heat required values can be compared. 
-![SCM with LEWICE BCs cumulative q.png](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png)  
+The areas under the heating curves are summed up as a function of surface distance.  
 
+![SCM with LEWICE BCs cumulative q](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png)  
+_Public domain image by Donald Cook._  
 
+The spatially varying boundary conditions had a minor effect on the heat required values for this case. 
+However, at higher Mach values, the variations can be larger.
 
-
+The ADS-4 value is higher that the other values largely because a wider area of heating was considered
+(not just within the impingement limits). 
 
 ## Conclusions  
 
@@ -371,6 +387,9 @@ The average heat transfer coefficient may not well represent the leading edge.
 The use of the more conservative leading edge cylinder approximation appears to be warranted. 
 
 The surface wetness fraction should be included in cases where it is applicable.  
+
+Local variations in external pressure and temperature had small effects compared to calculations 
+with constant, averaged values.
 
 ## Resources  
 
