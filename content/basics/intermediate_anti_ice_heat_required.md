@@ -320,6 +320,44 @@ The heating required is nearly directly proportional to the heat transfer coeffi
 The heat transfer coefficient with the cylinder approximation is greater than 
 the nominal value plus 25%, and the heat required is significantly great than the nominal value.  
 
+## The effect of local pressure and temperature variations  
+
+The analysis above averaged all values over the heated surface. 
+As there are several non-linearly varying effects, particularly the vapor pressure of water with temperature, 
+one might question how accurate that is.  
+
+The local pressure, as determined by LEWICE analysis, varies over the heated surface:  
+![SCM with LEWICE BCs ps.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png)  
+
+The local temperature also varies:  
+![SCM with LEWICE BCs ts.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png)  
+
+LEWICE also calculates external heat transfer coefficients. 
+These include the effects of roughness from an initially iced surface
+(we will look at the heat transfer coefficients for a non-ice surface in a later section).   
+![SCM with LEWICE BCs htc.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png)  
+
+LEWICE calculates a heat transfer coefficient value of zero at the stagnation point. 
+This is a feature of some integral boundary layer method formulations (the method used in LEWICE). 
+
+
+The Standard Computational Model can be used to determine the local heated surface temperature 
+required to evaporate all impinging water locally.   
+![SCM with LEWICE BCs t required.png](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png)  
+
+The resulting heat required values:  
+![SCM with LEWICE BCs heat required.png](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png)  
+
+The area under the curve is the total heat required for complete evaporation. 
+This is an ideal, minimal value that assumes that all of the heat is delivered in the prescribed distribution. 
+
+The total heat required values can be compared. 
+![SCM with LEWICE BCs cumulative q.png](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png)  
+
+
+
+
+
 ## Conclusions  
 
 With the nominal heat transfer coefficient, the ADS-4 results agree well with those 

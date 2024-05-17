@@ -31,8 +31,8 @@
                 Published: Mon 29 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-15T17:22:59.300875-07:00">
-                Updated: Wed 15 May 2024
+        <abbr class="modified" title="2024-05-17T07:34:02.227055-07:00">
+                Updated: Fri 17 May 2024
         </abbr>
 <!---->
         <!---->
@@ -322,6 +322,29 @@ We will also consider the laminar cylinder approximation from section ADS-4 sect
 <p>The heating required is nearly directly proportional to the heat transfer coefficient. 
 The heat transfer coefficient with the cylinder approximation is greater than 
 the nominal value plus 25%, and the heat required is significantly great than the nominal value.  </p>
+<h2>The effect of local pressure and temperature variations</h2>
+<p>The analysis above averaged all values over the heated surface. 
+As there are several non-linearly varying effects, particularly the vapor pressure of water with temperature, 
+one might question how accurate that is.  </p>
+<p>The local pressure, as determined by LEWICE analysis, varies over the heated surface:<br>
+<img alt="SCM with LEWICE BCs ps.png" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png">  </p>
+<p>The local temperature also varies:<br>
+<img alt="SCM with LEWICE BCs ts.png" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png">  </p>
+<p>LEWICE also calculates external heat transfer coefficients. 
+These include the effects of roughness from an initially iced surface
+(we will look at the heat transfer coefficients for a non-ice surface in a later section). <br>
+<img alt="SCM with LEWICE BCs htc.png" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png">  </p>
+<p>LEWICE calculates a heat transfer coefficient value of zero at the stagnation point. 
+This is a feature of some integral boundary layer method formulations (the method used in LEWICE). </p>
+<p>The Standard Computational Model can be used to determine the local heated surface temperature 
+required to evaporate all impinging water locally. <br>
+<img alt="SCM with LEWICE BCs t required.png" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png">  </p>
+<p>The resulting heat required values:<br>
+<img alt="SCM with LEWICE BCs heat required.png" src="..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png">  </p>
+<p>The area under the curve is the total heat required for complete evaporation. 
+This is an ideal, minimal value that assumes that all of the heat is delivered in the prescribed distribution. </p>
+<p>The total heat required values can be compared. 
+<img alt="SCM with LEWICE BCs cumulative q.png" src="..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png">  </p>
 <h2>Conclusions</h2>
 <p>With the nominal heat transfer coefficient, the ADS-4 results agree well with those 
 calculated with the Standard Computational Model. </p>
