@@ -24,13 +24,13 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a></h1>
+                    <h1 class="entry-title"><a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2024-05-13T12:00:00-07:00">
-                Published: Mon 13 May 2024
+        <abbr class="published" title="2024-05-20T13:00:00-07:00">
+                Published: Mon 20 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T10:55:59.255557-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -43,7 +43,426 @@
         <!---->
 <!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
 
-</footer><!-- /.post-info --><p><img alt="ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate." src="/images%2Fads4%2FFigure3-19.png"><br>
+</footer><!-- /.post-info --><p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>.  </p>
+<h2>Introduction</h2>
+<p>For this we will use "Engineering Summary of Airframe Icing Technical Data", ADS-4, 
+as the anti-ice examples are more detailed than those in the 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1. </p>
+<p>The ADS-4 analysis method uses NACA-TN-2799, from 1952, for the heat and mass balance calculations. 
+This method implements solutions as nomographs (for more details, see the post <a href="/naca-tn-2799.html">NACA-TN-2799</a>). 
+We will not be using the nomographs. 
+The heat balance equations are similar to the Standard Computational Model, which we will use. </p>
+<p>The calculations are implemented in the file "aircraft_a_ads4.py" (and associated files) 
+available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">github.com/icinganalysis/icinganalysis.github.io</a>. 
+Readers are encouraged to run the analysis to the duplicate results.  </p>
+<h2>Discussion</h2>
+<p>"Aircraft Icing", AC 20-73A, briefly mentions the terms Qa and Qr:</p>
+<blockquote>
+<p>Qa   Heat available<br>
+Qr   Heat required </p>
+</blockquote>
+<p>Heat required is the heat that leaves the surface needed to provide ice protection. 
+Heat available is heat that leaves the heat surface that is available for anti-ice protection. 
+Another term is heat supplied, the heat energy that an ice protection system consumes. 
+Not all of the heat supplied may reach the outer heated surface where it is useful for ice protection. </p>
+<p>System thermal efficiency is defined:  </p>
+<div class="highlight"><pre><span></span><code>efficiency = (heat available) / (heat supplied)  
+</code></pre></div>
+
+<p>The discussion below centers on the heat required. 
+The other terms will not be detailed here. </p>
+<h2>Anti-ice heating</h2>
+<p>The "TYPICAL TWIN-ENGINE LIGHT PLANE A" example is particularly detailed, 
+even though  </p>
+<blockquote>
+<p>hot gas [anti-ice] systems are not generally suitable for
+light aircraft and are not likely to be used because of their high weights and
+costly installation  </p>
+<p>4.1.4<br>
+4.1.4.1<br>
+STUDY OF VARIOUS ICE PROTECTION SYSTEMS FOR A TYPICAL TWIN-ENGINE LIGHT PLANE<br>
+SELECTION OF ICE PROTECTION FOR WING AND EMPENNAGE -<br>
+In selection of ice protection for light airplanes, the wings and empennage will
+be treated together since they would have the same type system.
+The water catch and impingement limits are calculated first to determine the extent protection is necessary.
+This is illustrated by the following sample calculations
+for the wing of twin-engine aircraft "A" shown in Figure 4.1-1:<br>
+<img alt="Figure 4.1-1. Typical Twin-Engine Aircraft &quot;A&quot;." src="/images%2Fads4%2FFigure%204.1-1_rotated.png"><br>
+Calculation of Impingement Limits and Water Catch<br>
+Wing - twin-engine aircraft "A"<br>
+Gross weight, 4,800 lb.<br>
+USA 35-B airfoil (12 per cent thick)<br>
+Wing area, A = 207 sq. ft.<br>
+Chord length, C = 67 in.<br>
+205 mph cruise at 7,000 ft. altitude (75 per cent power)<br>
+Ambient temperature, t = 17° F (most probable icing temperature from Figure 1-16)<br>
+Droplet diameter, Dd = 20 microns<br>
+Liquid water content, LWC = 0.46 gm/m3 (Figure 1-26)<br>
+Air density, pa 0.001996 slugs/cu.ft.<br>
+Air viscosity, p 0.36 x 10-8 slugs/ft.-sec.<br>
+Dynamic pressure, q = 90.2 psf (from page 4.1-9)<br>
+Lift coefficient, CL = 0.257 (from page 4.1-9)<br>
+The angle of attack can then be estimated from a CL versus a curve (Figure 4.1-2) for the given airfoil:<br>
+alpha = -1.7 [note: -1.6 is used below]
+Droplet Reynolds Number Re_d = 109
+lambda/lambda_s = 0.342 (From Figure 2-6)
+Inertia parameter K = 0.0695 (This formula is equivalent to that of Section 2.)<br>
+Modified inertia parameter Ko = 0.0238<br>
+The ratio of projected airfoil height to chord h/C= 0.1225 (at alpha = -1.7), based on measured values for USA 35-B airfoil<br>
+Collection efficiency can be obtained from Figure 2-7 for a 12 per cent
+Joukowski airfoil at a zero-deg. angle of attack<br>
+EM = 0.135<br>
+Water catch WM = 2.95 lb/hr-ft.span  </p>
+<p>The limits of impingement can be found from Figures 2-15 and 2-16 using
+a 15 per cent Joukowski airfoil at alpha = 2 deg. to represent the USA 35-B airfoil
+at alpha = -1.6 deg.
+The Joukowski airfoil was used because of the profile similarity to the USA 35-B airfoil
+for which no data was available.
+See Paragraph 2.3.4 for an explanation of airfoil matching procedures.<br>
+SU/C = 0.04 SL/C = 0.02<br>
+SU = 2.7 in. SL = 1.3 in.<br>
+(These values are not typical of other classes of airfoils; more commonly,
+impingement limits are greater on the lower surface.)<br>
+Figure 4.1-6 shows impingement limits versus span for the wing at both
+20 and 40-micron drop sizes.<br>
+<img alt="Figure 4.1-6" src="/images%2Fads4%2FFigure%204.1-6.png"><br>
+The determination of local water collection rate, Wb is illustrated for
+the wing of the same airplane by the following calculations:  </p>
+<p>Calculation of Local Water Collection Rate<br>
+205 mph cruise at 7,000 ft. altitude
+Droplet diameter, Dd = 20 microns
+Liquid water content, LWC = 0.46 gm/m 3 (from Figure 1-26)
+Modified inertia parameter, Ko = 0.0238 (from above)<br>
+At the stagnation point, the local collection efficiency
+Beta = 0.46 (from NACA TN 3839, Ref. 4.1-4) using the 15 percent Joukowski airfoil at 2-deg. angle of attack to approximate the USA 35-B airfoil at -1.6 dog.<br>
+Local water collection rate, therefore, is:<br>
+Wb = 14.57 1b./hr.-sq.ft.<br>
+Values of local collection rate can also be found for different chordwise
+locations on the airfoil and, therefore, the local water
+found and plotted versus distance from zero chord as shown in Figure 4.1-9
+for the wing.
+Curves for both 20 and 40-micron drop sizes are shown.
+The 40-micron curves shown in those figures are normally used to determine the necessary chordwise
+extent of ice protection.
+Although it in not necessary to protect
+entirely the 40-micron limits of impingement, protection
+is usually extended to between the 20 and 40-micron limits, where only a small
+amount of ice would remain beyond the protected area.
+For example, for this typical, twin-engine aircraft, it appears that ice protection
+should extend about six inches from zero chord on the upper surface
+and four inches on the lower surface of the wings, and about 2.6 [? last digit not clear], inches from
+zero chord on both surfaces of the horizontal stabilizer and vertical fin.
+The final choice of area protected is, of course, the prerogative of the designer
+and may depend on spar location and/or various other factors.</p>
+<p>Requirements for Hot Gas Anti-Icing<br>
+Hot gas anti-icing systems use several sources of hot gas.
+Direct exhaust-gas
+heat exchanger, combustion heater, and vapor cycle systems have been used
+(see Paragraph 3.5).
+However, hot gas systems are not generally suitable for
+light aircraft and are not likely to be used because of their high weights and
+costly installation.
+"Add-on" type systems are more desirable for light aircraft because they are less costly to install.
+Nevertheless, for completeness of this report, calculations of hot gas
+system heat and airflow requiremeents are illustrated below for the wing and
+tail of aircraft "A." Results are shown for both evaporative and running-wet
+systems; however, small aircraft anti-icing systems are seldom designed to
+be completely evaporative.  </p>
+<p>Wing of typical light twin (Aircraft "A")<br>
+205 mph cruise at 7,000 ft. altitude<br>
+Ambient temperature, t = 20° F (conventional design point)<br>
+Ambient pressure, p = 23.1 in. Hg<br>
+Average surface heat transfer coefficient, h = 27.5 BTU/hr.-ft.2-F
+(determined graphically as described in Paragraph 3.5 and Figure 3-10)<br>
+Water catch, WM = 2.95 lb./hr.-ft. span (calculated above)<br>
+Average wrap-around distance = 15 in. (heated area extends to front spar - 10 per cent chord)
+Heated area/ft, span 1.25 sq.ft.<br>
+Water impingement rate, MW= 2.36 lb/hr-ft^2,<br>
+Using the method of NACA TN 2799 (Ref. 4. 1-5) described in Paragraph 3.5,
+for an evaporative system
+WM/ha = 0.0858<br>
+tau_4 = 11.3 F (from Figure 3-18)<br>
+t_s - t_o = 54.5 F<br>
+tau_3 = 102.7 F
+Therefore, t_s = 74.5 F (from Figure 3.18)<br>
+tau_1 = 59.5 F (from Figure 3.18)<br>
+tau_2 = 7 F (from Figure 3.18)<br>
+tau_5 = 0 F (assuming local static pressure equal to freestream pressure - Figure 3-18)<br>
+Surface heat requirements<br>
+Q = 3,960 BTU/hr.-ft.^2 (see Figure 4.1-13)<br>
+or 4,950 BTU/hr.-ft. span<br>
+or 89,000 BU/hr. (for 18 ft. of span)<br>
+The required anti-icing airflow can be estimated using the equation:  </p>
+<p>W = Q / Cp (t_g - t_s) eta_c  </p>
+<p>in which the channel efficiency, eta_c, will normally be from 0.5 to 0.8 depending
+upon the chordwise channel length and on whether the system is a high or low-pressure system. 
+A method for calculating the channel efficiency can be found
+in Appendix E of NACA TN 2866 (Ref. 4. 1-6).<br>
+Assume gas temperature, t_g = 350 F
+Specific heat of air at 350 F, Cp = 0.244 BTU/lb.-F
+The required anti-icing airflow for a low pressure system with a relatively
+short channel length (assuming eta_c = 0.5) would be:<br>
+w = 0.73 lbm/s<br>
+If the system were a high pressure system, the channel efficiency would be more like 0.8
+and the anti-icing airflow required would be:  </p>
+<p>w = 0.46 lb/sec.</p>
+<p>(A channel efficiency of eta_c = 0.5 is probably the better assumption for light aircraft.)  </p>
+</blockquote>
+<p>Note that the surface wetness fraction K value is not mentioned; it is implicitly 1. </p>
+<p>In ADS-4 section 2.3.2 it is noted:    </p>
+<blockquote>
+<p>Impingement limits are determined by the maximum droplet size in the
+cloud. Thus, for design purposes, 40 microns is often used to determine
+impingement limits, whereas 20 microns is often used to calculate water catch.</p>
+</blockquote>
+<p>We calculate a surface wetness fraction K value based on the heated wrap distance of 15 inches and the 
+40 micrometer impingement limits (-3.3, 6.5 inches):  </p>
+<div class="highlight"><pre><span></span><code>K = ((SU + SL) * 1 + 0.3 * (HEATED_WRAP - (SU + SL))) / HEATED_WRAP = 0.76  
+</code></pre></div>
+
+<p>We will consider a heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F, 
+and calculate the heat required to evaporate all of the water using the Standard Computational Model. 
+We will also consider using the turbulent flat plate method used in SAE AIR1168/4.</p>
+<p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>In the heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F, 
+the heating values vary by less than 25%. 
+The heat transfer coefficient for the turbulent flat plate is notably higher than the nominal heat transfer coefficient. </p>
+<p>For K = 1, the ADS-4 heating value and the SCM values agree well at the nominal heat transfer coefficient. 
+With K = 0.76, the values are about 5% higher.  </p>
+<p>The heated surface temperature required to evaporate all of the water 
+also varies some with the heat transfer coefficient and the K values. </p>
+<p><img alt="Aircraft A tr" src="/images%2FIntermediate%2FAircraft%20A%20tr.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p><a name="lewice-imingement"></a></p>
+<p>If we use LEWICE to determine the impingement data, the values are 
+slightly different. 
+If you have access to LEWICE or another impingement calculation program 
+then you are encouraged to perform the analysis. 
+If not, values are provided (see <a href="/drafts/usa-35-b-airfoil-impingement-data.html">USA 35-B Airfoil Impingement Data</a>).  </p>
+<div class="highlight"><pre><span></span><code>                      20 micrometer   40 micrometer
+Method   LWC, g/m^3   Em              Sl, inch  Su, inch
+ADS-4:   0.46         0.135           -3.30     6.50
+LEWICE:  0.45         0.142           -2.09     6.83
+</code></pre></div>
+
+<p>The use of LEWICE impingement data has only a minor effect on the values:  </p>
+<p><img alt="Aircraft A qr lewice impingement" src="/images%2FIntermediate%2FAircraft%20A%20qr%20lewice%20impingement.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Running wet heating</h2>
+<blockquote>
+<p>Requirements for Cyclic Electrical De-Icing<br>
+With cyclic electrical de-icing systems, continuously heated parting strips
+divide the ice buildup into portions which will shed more easily (with the help of
+aerodynamic forces) when power is applied to the cycled areas.
+Parting strips,
+which are normally one inch wide, should be laid out in a spanwise direction
+on the leading edge (at stagnation) when the sweep angle is less than 30 deg.
+Chordwise parting strips are used when the sweep angle is more than 30 deg.
+The protected area is divided into a number of smaller (cycled) areas which
+receive power alternately to minimize the total power required. A normal
+total cycled time is about
+three minutes.
+That is, each cycled area receives power once every three minutes.
+(See Paragraph 3.6.1.1 for more details on cyclic electrical de-icing systems.)  </p>
+<p>Cycled area power requirements:
+Assuming a heat-on time of 20 sec. and t_o = 0° F, the datum temperature, t_ok
+is about 5° F (from Figure 3-8).
+The input power density then is approximately
+12 watts/sq.in. from Figure 3-26, which was taken from NACA RM E51J30
+(Ref. 4.1-7).
+An ambient temperature of 0° F was chosen as representative of
+the probable minimum icing temperature that would be encountered by a light
+aircraft operating at low altitude.
+Power requirements for a cyclic electric
+system are at a maximum at minimum ambient temperature (for a given airspeed).
+Parting strip power requirements for the wing of Aircraft "A":<br>
+205-mph cruise at 7,000 ft. altitude<br>
+Ambient temperature, t = 0 F (normal design point)<br>
+Liquid water content, LWC w 0.25 g/m3 (from Figure 1-26)<br>
+Modified Inertia parameter, Ko = 0.0238 (calculated previously)<br>
+Local collection efficiency at stagnation, Beta_max = 0.46 (calculated previously)<br>
+Local collection rate at stagnation therefore is:<br>
+WB = 0.329 (U) (LWC) Beta_max
+= 0.329 (205 mph)(0.25 g/m^3)(0.46)<br>
+=7.75 lb./,hr.-sq.ft.<br>
+Average surface heat transfer coefficient,<br>
+ha = 28.3 BTU/hr.-ft.^2-F (determined graphically as described in Paragraph 3.5)<br>
+Using the method of NACA TN 2799 (Ref. 4.1-5):<br>
+WM/ha = 7.75/28.3 = 0.274
+Assuming the surface temperature, ts = 35° F, tau_1 through tau_5 can be found from
+Figure 3-18:<br>
+tau_1 45° F
+tau_2 7° F
+tau_3 24.5° F
+tau_4 4.5° F
+tau_5 0° F (assuming local static pressure equal to freestream pressure)
+Surface heat requirements
+Q= ha(tau_1-tau_2+tau_3-tau_4+tau_5)
+=(28.3 BTU/hr.-ft.^2-F)(45-1+24.5-4.5+0)<br>
+= 1,640 BTU/hr.-ft.^2<br>
+or 3.33 watts/sq. in.<br>
+Actual heater input power requirements will be approximately Q/0.6 or 5.5 watts/sq.in. 
+assuming 60 per cent of the input heat would be transferred to the
+outer surface.
+The 60 per cent efficiency appears to be a good number based
+on previous experience (see NACA RM E51J30 - Ref. 4.1-7).</p>
+</blockquote>
+<p>We will consider a heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F. 
+We will also consider the laminar cylinder approximation from section ADS-4 section 3.5.2 for the leading edge
+(see <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>). </p>
+<p><img alt="Aircraft A qr running wet" src="/images%2FIntermediate%2FAircraft%20A%20qr%20running%20wet.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>As this case is at the stagnation line, the surface is fully wet. </p>
+<p>The heating required is nearly directly proportional to the heat transfer coefficient. 
+The heat transfer coefficient with the cylinder approximation is greater than 
+the nominal value plus 25%, and the heat required is significantly great than the nominal value.  </p>
+<h2>The effect of local pressure and temperature variations</h2>
+<p>The analysis above averaged all values over the heated surface. 
+As there are several non-linearly varying effects, particularly the vapor pressure of water with temperature, 
+one might question how accurate that is.  </p>
+<p>The water drops are calculated to impinge over a limited area of the surface.<br>
+<img alt="SCM with LEWICE BCs beta" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png"></p>
+<p>The local pressure, as determined by LEWICE analysis, varies over the heated surface. 
+The "ambient static" pressure line indicates the surface extent of the heating in the ADS-4 example
+(x/c=0.1):<br>
+<img alt="SCM with LEWICE BCs ps" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The local temperature also varies:<br>
+<img alt="SCM with LEWICE BCs ts" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>LEWICE also calculates external heat transfer coefficients. 
+These include the effects of roughness from an initially iced surface
+(we will look at the heat transfer coefficients for a non-iced surface in a later section). <br>
+<img alt="SCM with LEWICE BCs htc" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>LEWICE calculates a heat transfer coefficient value of zero at the stagnation point. 
+This is a feature of some integral boundary layer method formulations (the method used in LEWICE). </p>
+<p>The Standard Computational Model can be used to determine the local heated surface temperature 
+required to evaporate all impinging water locally. 
+There is a temperature "spike" at the stagnation line that is caused by 
+the zero heat transfer coefficient value leading to a non-convergence of the calculation.<br>
+<img alt="SCM with LEWICE BCs t required" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The resulting heat required values:<br>
+<img alt="SCM with LEWICE BCs heat required" src="..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The area under the curve is the total heat required for complete evaporation. 
+This is an ideal, minimal value that assumes that the heat is delivered in the prescribed distribution. </p>
+<p>The total heat required values can be compared. 
+The areas under the heating curves are summed up as a function of surface distance.  </p>
+<p><img alt="SCM with LEWICE BCs cumulative q" src="..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The spatially varying boundary conditions had a minor effect on the heat required values for this case. 
+However, at higher Mach values, the variations can be larger.</p>
+<p>The ADS-4 value is higher that the other values largely because a wider area of heating was considered
+(not just within the impingement limits). </p>
+<h2>Conclusions</h2>
+<p>With the nominal heat transfer coefficient, the ADS-4 results agree well with those 
+calculated with the Standard Computational Model. </p>
+<p>For anti-ice calculations, 
+a 25% change in heat transfer coefficient results in less than a 25% change in heat required.  </p>
+<p>However, for running wet cases, the result is approximately proportional to the heat transfer coefficient. 
+The average heat transfer coefficient may not well represent the leading edge. 
+The use of the more conservative leading edge cylinder approximation appears to be warranted. </p>
+<p>The surface wetness fraction should be included in cases where it is applicable.  </p>
+<p>Local variations in external pressure and temperature had small effects compared to calculations 
+with constant, averaged values.</p>
+<h2>Resources</h2>
+<ul>
+<li>
+<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
+</li>
+<li>
+<p>"Ice, Frost, and Rain Protection", AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>  </p>
+</li>
+<li>
+<p>"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>  </p>
+</li>
+</ul>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heat-required-calculations-with-lewice.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations with LEWICE">Anti-Ice Heat Required Calculations with LEWICE</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T13:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T10:55:32.547719-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
+<h2>Introduction</h2>
+<p>Here, we will see that the values calculated by a multi-node analysis in LEWICE are 
+comparable to the values calculated previously.  </p>
+<p>Running LEWICE for anti-icing calculations involves (necessarily) more complex inputs. 
+The user has to select which set of external heat transfer assumptions to use. 
+The detailed output files require post-processing to extract the total heat required value. </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual describes "deicer" cases that also may be used for 
+anti-ice heat requirement analysis.<br>
+An input is the "IDEICE" value in the case.inp file. 
+By default, this is 0, and an unheated surface ice analysis is performed. 
+However, with IDEICE &gt; 0, ice protection analysis is performed, 
+as detailed in a cased.inp file. 
+A key input in that file is ievap, which for the cases below is set to 
+ievap=1, causing a steady-state anti-ice heat required …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations-with-lewice.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heating-calculations-theory.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heating Calculations Theory">Anti-Ice Heating Calculations Theory</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-13T12:00:00-07:00">
+                Published: Mon 13 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate." src="/images%2Fads4%2FFigure3-19.png"><br>
 <em>From ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>.</em>  </p>
 <h2>Prerequisites</h2>
 <p>You need to have completed <a href="/aircraft-icing-handbook-energy-balance-examples.html">Aircraft Icing Handbook Energy Balance Examples</a>.  </p>
@@ -72,244 +491,10 @@ which we will use here.  </p>
 </code></pre></div>
 
 <blockquote>
-<p>Define Q"Source by:<br>
-<img alt="Equation 2-41. Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-41.png">  </p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool  
-</code></pre></div>
-
-<p>The only change required to the Standard Computational Model is the addition of heating:  </p>
-<div class="highlight"><pre><span></span><code>Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool + Q&quot;Heat   
-</code></pre></div>
-
-<p>For the usual case of anti-ice heating, the Q"Freeze and Q"IceCool terms are zero, 
-but at low levels of heating they can be non-zero.  </p>
-<p>The heat balance is implemented in the file "thermal_anti_ice.py" (and associated files) 
-available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">github.com/icinganalysis/icinganalysis.github.io</a>. 
-Readers are encouraged to run the analysis to the duplicate results.  </p>
-<h2>ADS-4 Method Description</h2>
-<blockquote>
-<p>3.5<br>
-3.5.1 THERMAL ANTI-ICING DESCRIPTION -<br>
-Thermal anti-icing systems use heat to maintain the
-temperature of the surface to be protected above freezing throughout an icing
-encounter. Thermal anti-icing systems are classified as evaporative and running wet.<br>
-Evaporative systems, as the name implies, supply sufficient heat to
-evaporate all water droplets impinging upon the heated surface.<br>
-The running
-wet systems, however, provide only enough heat to prevent freezing upon the
-heated surface.
-Beyond the heated surface of a running wet system, the water
-could freeze (generally called runback ice).
-For this reason, running wet systems must be used carefully so as not to permit 
-runback ice buildup in critical locations.
-For example, the heated surface of a running wet system on a
-turboprop or turbojet inlet should extend into the inlet to the compressor face
-so that the water runoff will combine with the intake air and not strike cold
-surfaces where it could refreeze, break off, and possibly damage the engine.<br>
-Basically, two sources of heat for thermal anti-icing are used in aircraft:
-electrical heaters and hot air. For anti-icing, the heat source must remain on
-throughout the icing encounter. Areas of an aircraft that may be afforded thermal 
-ice protection are included in Figure 3-1.
-Of these areas, the windshield
-is always given anti-ice protection while the remainder of the areas may be
-given anti-icing or de-icing protection, depending on the power available for
-ice protection and the effects of ice accretion on the aircraft.<br>
-<img alt="Figure3-1" src="/images%2Fads4%2FFigure3-1.png">  </p>
-<p>...<br>
-3.5.1.2 Hot Air System Description -<br>
-Several sources of hot air for anti-icing
-are available, depending on the aircraft type.
-engine bleed air may be available.
-In turbojet and turboprop aircraft,
-For piston engine aircraft, combustion heaters
-or exhaust gas heat exchangers may be used.<br>
-Areas usually protected by a hot air system are engine inlets, wing leading
-edges, and occasionally empennage leading edges.
-Basically, the hot air is
-manifolded to the various portions of the aircraft to be protected and finally distributed 
-in any one of several methods, as shown in Figures 3-16 and 3-17.
-The hot air is introduced as close as possible to the stagnation point of the surface
-to be protected and permitted to flow chordwise toward an exit point through gas
-passages.
-The exhaust gas is generally dumped overboard at a non-critical
-location.<br>
-<img alt="Figure 3-16" src="/images%2Fads4%2FFigure%203-16.png"><br>
-<img alt="Figure 3-17" src="/images%2Fads4%2FFigure%203-17.png"><br>
-3.5.2<br>
-REQUIREMENTS -<br>
-Equations expressing heat transfer and evaporation
-from wetted surfaces during icing encounters have been used to develop a graphical 
-solution for the determination of heat required for anti-icing (Ref. 3-4).
-Figures 3-18a and 3-18b are presented for this purpose.<br>
-<img alt="Figure3-18a.png" src="/images%2Fads4%2FFigure3-18a.png"><br>
-<img alt="Figure3-18b.png" src="/images%2Fads4%2FFigure3-18b.png"><br>
-Preparatory to using
-these figures, the local heat transfer coefficient and rate of water catch (MW)
-must be determined.
-To determine the local heat transfer on an airfoil, the following three
-equations may be used:<br>
-a. Heat transfer coefficient for a cylinder (h_cy) of the same radius as the
-leading edge of the airfoil.<br>
-<img alt="hcyl" src="/images%2Fads4%2Fhcyl.png"><br>
-b. Heat transfer coefficient for laminar flow over a flat plate (h_lp) to the
-chordwise extent of the heated surface.<br>
-<img alt="hlp" src="/images%2Fads4%2Fhlp.png"><br>
-c.Heat transfer coefficient for turbulent flow over a flat plate to the
-chordwise extent of the heated surface.
-<img alt="htp" src="/images%2Fads4%2Fhtp.png"><br>
-A typical plot of these beat transfer coefficients is presented in Figure 3-19
-for a specific altitude and airspeed.<br>
-<img alt="Figure3-19" src="/images%2Fads4%2FFigure3-19.png"><br>
-The transitions from flat plate laminar to
-flat plat turbulent are only estimates, as the location of the transition region
-will vary with surface roughness, airfoil shape and angle of attack.
-Transition will usually start at a Reynolds Number of 0.5 to 2 x10^6 and the flow will be fully
-turbulent at a Reynolds Number of 2 to 4 x 10^6.<br>
-These equations may be used to determine the heat required per unit area
-along the chord.
-On tapered and swept-back airfoil, these calculations, performed at several span stations, 
-can become unnecessarily tedious.
-In practice,
-the heat transfer coefficients for a span station are plotted as in Figure 3-19
-and an average value assumed for that station.
-This average value (ha) is then
-used to enter Figures 3-18a and 3-18b to determine the anti-icing heat requirements.
-This assumption of an average value of heat transfer coefficient has a
-percentage of error in the same order of magnitude as the assumptions made
-in the meteorological variables.</p>
-<p>The water catch rate (Mw) is obtained by dividing the water catch (Wm) by
-the heated area per foot of span for each spanwise position (see Section 2 and
-the example in Section 4). For a completely evaporative system, the rate of
-evaporation of water (M_ev) must equal the rate of water catch (Mw).
-With this knowledge, the following equation may be solved for tau_3<br>
-<img alt="tau3" src="/images%2Fads4%2Ftau3.png"><br>
-If designing for a running wet system, the surface temperature (t_s) is
-assumed to be some value above freezing (such as 35 F), and tau_3 
-is found graphically.<br>
-The next steps are the graphical solution for tau_1 through tau_5 using Figures
-3-18a and 3-18b and the solution of Equation 3.5.2 for the heat transfer rate at
-each spanwise position.<br>
-<img alt="q_ha" src="/images%2Fads4%2Fq_ha.png"><br>
-The heat transfer rate (q) may then be plotted versus spanwise position to
-obtain heating distribution requirements.
-Typical values for a wing are from
-2,500 to 5,500 BTU/hr.-ft. span. [note: values corrected from "2,5000" and "5,5000".]  </p>
-</blockquote>
-<h2>Practical simplifications</h2>
-<p>The method described in ADS-4 is not completely detailed, 
-and relies on some engineering judgement. </p>
-<p>Here, we will use some other recommendations to reach an analysis 
-that is detailed enough to implement in a computer program. </p>
-<h3>Water catch rates</h3>
-<p>ADS4 briefly describes "airfoil matching" (using an airfoil that one has data for to approximate another airfoil), 
-which is not used so much anymore.  </p>
-<p>The Aircraft Icing Handbook comments:  </p>
-<blockquote>
-<p>How was one to determine the impingement pattern for an airfoil not tested by the NACA?
-Before droplet trajectory and impingement codes were developed, one approach was to try to "match"
-the untested airfoil to one that had been tested and then "extrapolate" the impingement pattern
-(reference 2-22). [reference 2-22 is ADS-4]<br>
-By the early 1980's, many airfoils very different from those of the 1950's were in use or soon
-to be in use; for such airfoils, the "matching" procedure mentioned above was especially problematical.
-Furthermore, a need was recognized for impingement information on engine inlets and other three-dimensional configurations.<br>
-In conjunction with the need for new information, new technological possibilities also arose.
-...
-There would no longer be any need for the difficult matching procedure.  </p>
-</blockquote>
-<p>SAE AIR1168/4 uses methods similar to the <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
-<p>The water catch analysis methods we have seen previously, <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>
-and <a href="intermediate_lewice_impingement.md">Computer Impingement Analysis Tools Examples</a> will be used here. </p>
-<h3>Surface Wetness Fraction</h3>
-<p>Unfortunately, ADS-4 does not detail the K term, "Surface wetness fraction", in equation 3.5.2 from NACA-TN-2799. 
-Unfortunately, neither does NACA-TN-2799, beyond:  </p>
-<blockquote>
-<p>In the absence of exact data, the wetness fraction K in the basic
-equations is usually taken as 1 in the impingement area. Near the
-downstream limit of impingement, rivulets of run-back water commence
-and K decreases very rapidly. The K factors in regions of rivulet
-flow probably vary with many conditions, but limited data (reference 3)
-indicate that the value of K decreases in this region from a value
-near 0.3 down toward zero at the point of complete evaporation of run
-back.  </p>
-</blockquote>
-<p>"reference 3" of NACA-TN-2799 is NACA-TN-2480, which has more information, including this figure: <br>
-<img alt="NACA-TN-2480Figure7" src="/images%2Fnaca-tn-2480%2FNACA-TN-2480Figure7.png">  </p>
-<p>SAE AIR118/4 recommends simply using a value of 0.6 for K.  </p>
-<p>Here, we will calculate an average K value:  </p>
-<div class="highlight"><pre><span></span><code>K = (1 * S_impingement + 0.3 * (S_heated-S_impingement)) / S_heated
-</code></pre></div>
-
-<h3>Heat transfer coefficients</h3>
-<p>To implement the equations a, b, and c above, 
-engineering judgement is required 
-to approximately reproduce the values in Figure 3-19.<br>
-The recommended transition values do not well reproduce the figure.  </p>
-<blockquote>
-<p>The transitions from flat plate laminar to
-flat plat turbulent are only estimates, as the location of the transition region
-will vary with surface roughness, airfoil shape and angle of attack.
-Transition will usually start at a Reynolds Number of 0.5 to 2 x 10^6 and the flow will be fully
-turbulent at a Reynolds Number of 2 to 4 x 10^6.  </p>
-</blockquote>
-<p>The average value in Figure 3-19 is difficult to discern; 
-I estimate it as 32 BTU/h-ft^2-F. </p>
-<p>SAE AIR1168/4 uses the average flat plate turbulent flow heat transfer coefficient. 
-The calculated average is 38 BTU/h-ft^2-F for Figure 3-19. 
-SAE AIR1168/4 notes:  </p>
-<blockquote>
-<p>In all probability, an iced surface will be fully turbulent from the stagnation point.  </p>
-</blockquote>
-<p>A heat transfer text book <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> recommends: </p>
-<blockquote>
-<p>... it would be unreasonable to expect the correlations to predict results to better than 25 percent accuracy</p>
-</blockquote>
-<p>Here, we will use a +/-25% tolerance around the nominal heat transfer coefficient value. 
-We will also consider the SAE AIR1168/4 turbulent flat plate method, 
-which is often outside of the +/-25% tolerance.  </p>
-<h3>Analysis zones</h3>
-<p>ADS-4 treats the heated surface as one analysis zone or control volume. 
-This would include as one unit the upper and lower surfaces for a wing, for example, 
-or the inner and outer barrels of an engine inlet. 
-The protection requirements may be different for different surfaces, 
-as the upper surface of a wing might be required to be fully evaporative, 
-and different protection might be required for the lower surface. </p>
-<p>SAE AIR1168/4 suggests using two analysis zones, split at the stagnation point:   </p>
-<blockquote>
-<p>the preceding equation accounts for the split of the water catch at the stagnation point; 
-that is; half of the water is assumed for each top and bottom surface.  </p>
-</blockquote>
-<p>However, the water catch is not always split evenly at the stagnation point, 
-so a more detailed analysis may be required, 
-particularly at high angle of attack values.</p>
-<h2>Resources</h2>
-<ul>
-<li>
-<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
-</li>
-<li>
-<p>"Ice, Frost, and Rain Protection", AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>  </p>
-</li>
-<li>
-<p>"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>  </p>
-</li>
-</ul>
-<h2>Related</h2>
-<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
-<h2>Citations</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Incropera and De Witt, Fundamentals of Heat Transfer, 1981.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>Define Q"Source …</p></blockquote>
+                <a class="readmore" href="/anti-ice-heating-calculations-theory.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -323,7 +508,7 @@ particularly at high angle of attack values.</p>
                 Published: Mon 29 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T10:50:34.443653-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -377,7 +562,7 @@ engineering judgment.</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -449,7 +634,7 @@ These lists are from SAE ARP5903 (Reference R20). </p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -501,7 +686,7 @@ Flight …</code></pre></div>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -550,7 +735,7 @@ and is available via
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -595,7 +780,7 @@ impingement efficiency, is estimated to be 0.23 for these conditions. So about 2
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -639,7 +824,7 @@ The cited references are also noted here. Links to online …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -686,7 +871,7 @@ or to start building your own library of such …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -739,7 +924,7 @@ of the commands shown. Windows …</p></blockquote>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -794,7 +979,7 @@ You may have signed an …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T10:53:20.798916-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -846,7 +1031,7 @@ See <a href="/analysis-toolset.html">Analysis Toolset</a> for more details and o
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -888,7 +1073,7 @@ However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was …<
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -931,7 +1116,7 @@ that defines icing conditions used for certification of large transport category
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -983,7 +1168,7 @@ Runback ice on an airfoil with a heated leading edge from a laboratory test:<br>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1030,7 +1215,7 @@ Artificially produced ice shapes (often 3D printed) may be adhered to airplane m
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1080,7 +1265,7 @@ At temperatures in between, <a href="/terminology.html#mixed-ice">"Mixed Ice"</a
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1126,7 +1311,7 @@ of an airplane as it flies …</p>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1178,7 +1363,7 @@ The airfoil rotates with the aircraft when the angle of attack is increased." sr
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T10:50:34.427651-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1224,7 +1409,7 @@ ask questions and shape online searches for what you would like to know …</p>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1277,7 +1462,7 @@ However, that by itself was not enough. </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1328,7 +1513,7 @@ little …</strong></p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1373,7 +1558,7 @@ apparently were caused by …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1423,7 +1608,7 @@ were in the Eastern United States region. </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1471,7 +1656,7 @@ NASA. One of these elements is to develop …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1519,7 +1704,7 @@ parts of the control system.  </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1574,7 +1759,7 @@ of specified icing …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1622,7 +1807,7 @@ afforded by air-heating hollow …</p></blockquote>
                 Published: Thu 11 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1668,7 +1853,7 @@ participate in …</p></blockquote>
                 Published: Tue 02 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1712,7 +1897,7 @@ Oh well, just use <a href="https://www.mozilla.org/en-US/firefox/new/">firefox</
                 Published: Mon 13 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1761,7 +1946,7 @@ droplet and …</p></blockquote>
                 Published: Thu 09 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1814,7 +1999,7 @@ this is the only one where the people appear to be women. </p>
                 Published: Tue 07 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1860,7 +2045,7 @@ water impingement are presented.</p>
                 Published: Thu 02 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1907,7 +2092,7 @@ In general …</p></blockquote>
                 Published: Tue 31 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -1955,7 +2140,7 @@ The elbows produced by the complex potential function selected are suitable …<
                 Published: Wed 25 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2002,7 +2187,7 @@ a supersonic inlet (but at a lower Mach number). We will see a test of "the conf
                 Published: Tue 24 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2049,7 +2234,7 @@ and under some conditions may be …</p></blockquote>
                 Published: Wed 18 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2099,7 +2284,7 @@ about a …</p></blockquote>
                 Published: Mon 16 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2143,7 +2328,7 @@ However, the example given (Table …</p>
                 Published: Wed 11 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2186,7 +2371,7 @@ Mathematical analysis of the paths individual water drops were developed …</p>
                 Published: Sat 30 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2236,7 +2421,7 @@ The text is available here a few weeks after publication. </p>
                 Published: Sat 30 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2280,7 +2465,7 @@ before the public sees them, and access to the secret* newsletter archives. Ther
                 Published: Sat 16 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2321,7 +2506,7 @@ tab at the top of the page for the complete list of …</p>
                 Published: Wed 31 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2369,7 +2554,7 @@ It is observed …</p></blockquote>
                 Published: Tue 30 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2414,7 +2599,7 @@ and if the flow of protection or the icing severity can be …</p></blockquote>
                 Published: Thu 25 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2465,7 +2650,7 @@ the author and presenter Bernard Vonnegut:  </p>
                 Published: Wed 24 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2519,7 +2704,7 @@ Here is a listing of the lecture titles and authors
                 Published: Mon 22 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2569,7 +2754,7 @@ only a limited number of NACA publications went directly into determining the �
                 Published: Wed 17 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2622,7 +2807,7 @@ values of liquid-water content …</p></blockquote>
                 Published: Mon 15 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2666,7 +2851,7 @@ aircraft components, such as …</li></ol>
                 Published: Wed 10 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2719,7 +2904,7 @@ of …</p></blockquote>
                 Published: Wed 03 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2770,7 +2955,7 @@ data …</p></blockquote>
                 Published: Mon 01 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2824,7 +3009,7 @@ Great Lakes …</p></blockquote>
                 Published: Fri 21 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2878,7 +3063,7 @@ free-water …</p></blockquote>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2929,7 +3114,7 @@ This helped put the data on a sound scientific basis. </p>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -2989,7 +3174,7 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Thu 06 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3042,7 +3227,7 @@ so that …</p>
                 Published: Mon 03 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3093,7 +3278,7 @@ all of the design manuals heavily …</p>
                 Published: Sat 01 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3184,7 +3369,7 @@ decreased lift pushing down, and increased weight pulling down." src="images/For
                 Published: Wed 29 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3230,7 +3415,7 @@ practical tests of actual ice deposit …</p></blockquote>
                 Published: Mon 13 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3283,7 +3468,7 @@ of ice on the total aircraft.
                 Published: Mon 06 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.123055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3339,7 +3524,7 @@ conducting a program of …</p></blockquote>
                 Published: Sun 26 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3390,7 +3575,7 @@ Today, for aircraft deicing on the …</p>
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3444,7 +3629,7 @@ as well as data needed for analysis
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3507,7 +3692,7 @@ However …</p>
                 Published: Mon 13 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3564,7 +3749,7 @@ for ice protection, cabin heating, and other functions. </p>
                 Published: Mon 06 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3615,7 +3800,7 @@ study has been made …</p></blockquote>
                 Published: Thu 02 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3663,7 +3848,7 @@ These could be affect by ice …</p>
                 Published: Mon 30 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3711,7 +3896,7 @@ While some "inter-cycle" ice forms, the maximum amount …</p>
                 Published: Mon 30 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3764,7 +3949,7 @@ I requested it through <a href="https://airsciences.org.uk/archive-rae-reports-o
                 Published: Sat 28 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3820,7 +4005,7 @@ If dangerous icing conditions are inadvertently encountered …</p></blockquote>
                 Published: Sun 22 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3865,7 +4050,7 @@ I have no idea what the orange thing (ribbon and bow?) is on the wing.   </p>
                 Published: Fri 13 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3920,7 +4105,7 @@ I wrote 33 reviews. <br>
                 Published: Sun 08 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -3983,7 +4168,7 @@ the current "Appendix C" icing certification standard <sup id="fnref:2"><a class
                 Published: Tue 03 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4031,7 +4216,7 @@ this type is needed to provide pertinent meteorological …</p></blockquote>
                 Published: Thu 15 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4078,7 +4263,7 @@ the droplet size, the size spectrum …</p></blockquote>
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4125,7 +4310,7 @@ Technical papers were presented by government research and test …</p></blockqu
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4169,7 +4354,7 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Sun 11 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4217,7 +4402,7 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Thu 08 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4263,7 +4448,7 @@ faster than other technologies available in the NACA-era.  </li>
                 Published: Sun 04 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4311,7 +4496,7 @@ In NACA-TN-3592, water drops were captured in an oil stream exposed to the ambie
                 Published: Mon 28 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4359,7 +4544,7 @@ values for the desired and acceptable accuracy of measurement for …</p></block
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4407,7 +4592,7 @@ The ice changes the shape of the wing …</p>
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4510,7 +4695,7 @@ and distant descendants of some devices are still used today. </p>
                 Published: Mon 29 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4556,7 +4741,7 @@ AC 25-28 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> desc
                 Published: Sun 21 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4603,7 +4788,7 @@ the previous set of tests conducted in NRCC Altitude Icing Wind Tunnel where …
                 Published: Tue 16 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4652,7 +4837,7 @@ any surplus vapor above this value will condense as liquid water. </p>
                 Published: Wed 10 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4706,7 +4891,7 @@ here and scaling methods considered are applicable …</p></blockquote>
                 Published: Sun 07 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4753,7 +4938,7 @@ Scaling laws governing these …</p></blockquote>
                 Published: Wed 03 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4796,7 +4981,7 @@ content (LWC), median volume diameter (MVD), pressure (P)], could …</p></block
                 Published: Mon 01 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4846,7 +5031,7 @@ and aircraft components for system certification would be to conduct …</p></bl
                 Published: Wed 27 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4894,7 +5079,7 @@ to the …</p></blockquote>
                 Published: Sun 24 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4941,7 +5126,7 @@ and producing a water drop spray that is uniform "enough". </p>
                 Published: Thu 21 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -4994,7 +5179,7 @@ to read the articles in the order below.  </p>
                 Published: Wed 20 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5039,7 +5224,7 @@ The four other tunnels are briefly described in the "Other …</p>
                 Published: Mon 18 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5090,7 +5275,7 @@ effective in preventing the formation …</p></blockquote>
                 Published: Fri 15 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5134,7 +5319,7 @@ Instead …</p>
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5187,7 +5372,7 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5235,7 +5420,7 @@ to the SAE AC-9C Aircraft Icing Technology Committee and it was well received. <
                 Published: Wed 06 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.123055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5284,7 +5469,7 @@ That was the kind of engineer …</p>
                 Published: Wed 29 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5333,7 +5518,7 @@ such as the 65A004 airfoil".  </li>
                 Published: Mon 27 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5382,7 +5567,7 @@ the …</p></blockquote>
                 Published: Wed 22 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5424,7 +5609,7 @@ the …</p></blockquote>
                 Published: Sun 19 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5470,7 +5655,7 @@ over …</p></blockquote>
                 Published: Tue 14 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5520,7 +5705,7 @@ ice formation on the propeller blades was 19 percent. During
                 Published: Mon 13 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5569,7 +5754,7 @@ At the request of the N.A.C.A. a questionnaire seeking …</p></blockquote>
                 Published: Wed 08 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5621,7 +5806,7 @@ span of the airfoil. The results provide …</p></blockquote>
                 Published: Mon 06 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5674,7 +5859,7 @@ It features:<br>
                 Published: Sat 04 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5731,7 +5916,7 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Fri 03 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5779,7 +5964,7 @@ conditions, within the duct. If cloud water …</p></blockquote>
                 Published: Tue 31 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5822,7 +6007,7 @@ of the research …</p></blockquote>
                 Published: Wed 25 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5871,7 +6056,7 @@ especially to be familiar with the …</p>
                 Published: Mon 23 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5921,7 +6106,7 @@ reached from the foregoing parts of this report:</p>
                 Published: Thu 19 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.123055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -5986,7 +6171,7 @@ A more detailed ice detector simulation
                 Published: Wed 18 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6038,7 +6223,7 @@ A more detailed ice detector simulation
                 Published: Sat 14 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6094,7 +6279,7 @@ Key technical …</p></blockquote>
                 Published: Thu 12 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6145,7 +6330,7 @@ bodies …</p></blockquote>
                 Published: Wed 11 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6195,7 +6380,7 @@ mechanical analog constructed for the study …</p></blockquote>
                 Published: Mon 09 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6239,7 +6424,7 @@ the ratio of sublimation …</p></blockquote>
                 Published: Wed 04 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6287,7 +6472,7 @@ Schmidt number of the diffusing fluid in the …</p></blockquote>
                 Published: Mon 02 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6338,7 +6523,7 @@ entrained in …</p></blockquote>
                 Published: Thu 28 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.647059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.126413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6384,7 +6569,7 @@ there are limiting …</p></blockquote>
                 Published: Tue 26 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6435,7 +6620,7 @@ The …</p></blockquote>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6498,7 +6683,7 @@ although there are often exceptions:</p>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6553,7 +6738,7 @@ The calculations that often must be made point by point along …</p></blockquot
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6609,7 +6794,7 @@ The goal is to be applicable for all 3.7+ uses. </p>
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6663,7 +6848,7 @@ In this paper, a complete analysis of the temperature …</p></blockquote>
                 Published: Tue 19 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6711,7 +6896,7 @@ and found to be usually less than the …</p></blockquote>
                 Published: Mon 18 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6761,7 +6946,7 @@ equations for calculating the rate of heat transfer from airfoils …</p></block
                 Published: Thu 14 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6809,7 +6994,7 @@ for a section of the …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6860,7 +7045,7 @@ quantity of alcohol …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6908,7 +7093,7 @@ evaporation from wet surfaces.  </p>
                 Published: Mon 04 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -6958,7 +7143,7 @@ evaporation from wet surfaces.  </p>
                 Published: Fri 25 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7004,7 +7189,7 @@ in order to obtain local collection efficiencies …</p></blockquote>
                 Published: Thu 24 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7054,7 +7239,7 @@ compressible flow fields around a cylinder were performed on a …</p></blockquo
                 Published: Tue 22 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7106,7 +7291,7 @@ are presented.</p>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7153,7 +7338,7 @@ extension is …</p></blockquote>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7208,7 +7393,7 @@ distributions and are a source of large errors in the determination …</p></blo
                 Published: Mon 14 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7256,7 +7441,7 @@ following …</p></blockquote>
                 Published: Tue 08 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7305,7 +7490,7 @@ spurious ice catch …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7355,7 +7540,7 @@ of …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7398,7 +7583,7 @@ The speed at which the airplane may stall at may decrease due to the effects of 
                 Published: Tue 22 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7447,7 +7632,7 @@ each …</p></blockquote>
                 Published: Tue 01 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7491,7 +7676,7 @@ It …</p>
                 Published: Mon 31 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7540,7 +7725,7 @@ previously made, were found to be …</p></blockquote>
                 Published: Sat 29 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7593,7 +7778,7 @@ clouds of various types …</p></blockquote>
                 Published: Thu 27 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7640,7 +7825,7 @@ the section "Example of the Application of the D.A. Data to Experimental Data".<
                 Published: Tue 25 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7689,7 +7874,7 @@ In more modern terms, this …</p>
                 Published: Sun 23 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7737,7 +7922,7 @@ as this includes the third party modules matplotlib, numpy, and scipy …</p>
                 Published: Fri 21 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7784,7 +7969,7 @@ the efficiency of deposition of very large …</p></blockquote>
                 Published: Thu 20 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7838,7 +8023,7 @@ percentage of the swept area cleared …</p></blockquote>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7887,7 +8072,7 @@ such as “NACA-TN-1907”.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7954,7 +8139,7 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -7991,7 +8176,7 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.659059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -8035,7 +8220,7 @@ and categorized into 16 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -8082,7 +8267,7 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -8133,7 +8318,7 @@ MS Engineering University of Wisconsin  </p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.123055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.542383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -8189,7 +8374,7 @@ There is also a mirror site <a href="https://icinganalysis.com/">icinganalysis.c
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->

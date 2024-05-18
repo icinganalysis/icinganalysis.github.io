@@ -81,17 +81,14 @@ and estimate the range of effects
     - Identify conditions for "critical" ice shapes:   
 [Using Appendix C for Ice Shape Analysis]({filename}intermediate_using_app_c.md)   
 
-### Ice protection [in work]  
+### Ice protection  
  
 - skill: calculate heat required for thermal ice protection  
     - [Anti-Ice Heating Calculations Theory]({filename}intermediate_anti_ice_theory.md)  
-    - ADS-4 "Aircraft A" Wing Anti-icing example  
-    <!--
-[Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md)   
--->
-    - Run a 2D simulation, such as LEWICE, and compare to the handbook values.  
+    - ADS-4 "Aircraft A" Wing Anti-icing example [Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md)     
+    - Run a 2D simulation, such as LEWICE, and compare to the handbook values [Anti-Ice Heat Required Calculations with LEWICE]({filename}intermediate_anti_ice_heat_required_with_lewice.md)  
 
-## Items specifically deferred to the (yet to be written) Expert Level  
+## Items specifically deferred to the (yet to be written) Advanced Level  
 
 - 3D analysis (including swept wings)  
 - Icing wind tunnel tests  

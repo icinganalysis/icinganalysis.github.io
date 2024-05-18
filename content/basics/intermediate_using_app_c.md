@@ -85,7 +85,7 @@ is a complex topic that will not be detailed here.
 Ice shapes from analysis may create an illusion of precision. 
 The values may be reported to many digits, but they do not always match test data well. 
 
-A detailed discussion of verifying ice shapes is an expert level topic. 
+A detailed discussion of verifying ice shapes is an advanced level topic. 
 Here, we will summarize the AC 20-73A discussion on the topic. 
 
 >R.5.4 Drop Impingement and Ice Accretion Computer Codes and Other Analytical Methods.  

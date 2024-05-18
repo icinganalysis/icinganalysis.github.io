@@ -1,8 +1,7 @@
 Title: Anti-Ice Heat Required Calculations      
 header: The Basics: Intermediate Topics  
-Date: 2024-04-29 13:00  
+Date: 2024-05-20 13:00  
 tags: intermediate topics, analysis tools, Python   
-status: draft  
 rights: CC-BY-NC-SA 4.0
 
 ![Aircraft A qr](/images%2FIntermediate%2FAircraft%20A%20qr.png)  
@@ -19,11 +18,9 @@ as the anti-ice examples are more detailed than those in the
 "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1. 
 
 The ADS-4 analysis method uses NACA-TN-2799, from 1952, for the heat and mass balance calculations. 
-This method implements solutions as nomographs. 
+This method implements solutions as nomographs (for more details, see the post [NACA-TN-2799]({filename}../NACA-TN-2799.md)). 
 We will not be using the nomographs. 
-The heat balance equations are similar to the Standard Computational Model 
-(for more details, see the post [NACA-TN-2799]({filename}../NACA-TN-2799.md)), 
-which we will use. 
+The heat balance equations are similar to the Standard Computational Model, which we will use. 
 
 The calculations are implemented in the file "aircraft_a_ads4.py" (and associated files) 
 available at [github.com/icinganalysis/icinganalysis.github.io](https://github.com/icinganalysis/icinganalysis.github.io). 

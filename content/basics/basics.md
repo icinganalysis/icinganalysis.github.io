@@ -115,7 +115,7 @@ Each concept has a resources section, with specific further reading on the conce
 - Using computer icing analysis tools to produce ice shapes  
 - Preliminary ice protection system sizing  
 
-Items specifically deferred to the (yet to be written) Expert Level  
+Items specifically deferred to the (yet to be written) Advanced Level  
 
 - 3D analysis (including swept wings)  
 - Icing wind tunnel tests  

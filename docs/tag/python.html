@@ -29,6 +29,101 @@
 
         <li><article class="hentry">
                 <header>
+                    <h1><a href="/anti-ice-heat-required-calculations.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations">Anti-Ice Heat Required Calculations</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T13:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T10:55:59.255557-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>.  </p>
+<h2>Introduction</h2>
+<p>For this we will use "Engineering Summary of Airframe Icing Technical Data", ADS-4, 
+as the anti-ice examples are more detailed than those in the 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1. </p>
+<p>The ADS-4 analysis method uses NACA-TN-2799, from 1952, for the heat and mass balance calculations. 
+This method implements solutions as nomographs (for more details, see the post <a href="/naca-tn-2799.html">NACA-TN-2799</a>). 
+We will not be using the nomographs. 
+The heat balance equations are similar to the Standard Computational Model, which we will use. </p>
+<p>The calculations are implemented in the file "aircraft_a_ads4.py" (and associated files) 
+available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">github.com/icinganalysis/icinganalysis.github.io</a>. 
+Readers are encouraged to run the analysis to the duplicate results.  </p>
+<h2>Discussion</h2>
+<p>"Aircraft Icing", AC 20-73A, briefly mentions the terms Qa and Qr:</p>
+<blockquote>
+<p>Qa   Heat available<br>
+Qr   Heat required </p>
+</blockquote>
+<p>Heat required is …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heat-required-calculations-with-lewice.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations with LEWICE">Anti-Ice Heat Required Calculations with LEWICE</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T13:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T10:55:32.547719-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
+<h2>Introduction</h2>
+<p>Here, we will see that the values calculated by a multi-node analysis in LEWICE are 
+comparable to the values calculated previously.  </p>
+<p>Running LEWICE for anti-icing calculations involves (necessarily) more complex inputs. 
+The user has to select which set of external heat transfer assumptions to use. 
+The detailed output files require post-processing to extract the total heat required value. </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual describes "deicer" cases that also may be used for 
+anti-ice heat requirement analysis.<br>
+An input is the "IDEICE" value in the case.inp file. 
+By default, this is 0, and an unheated surface ice analysis is performed. 
+However, with IDEICE &gt; 0, ice protection analysis is performed, 
+as detailed in a cased.inp file. 
+A key input in that file is ievap, which for the cases below is set to 
+ievap=1, causing a steady-state anti-ice heat required …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations-with-lewice.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
                     <h1><a href="/analysis-toolset.html" rel="bookmark"
                            title="Permalink to Analysis Toolset">Analysis Toolset</a></h1>
                 </header>
@@ -39,7 +134,7 @@
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -93,7 +188,7 @@ You may have signed an …</p>
                 Published: Tue 16 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -141,7 +236,7 @@ any surplus vapor above this value will condense as liquid water. </p>
                 Published: Fri 03 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -188,7 +283,7 @@ conditions, within the duct. If cloud water …</p></blockquote>
                 Published: Tue 31 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.663059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.138413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -230,7 +325,7 @@ of the research …</p></blockquote>
                 Published: Wed 25 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -278,7 +373,7 @@ especially to be familiar with the …</p>
                 Published: Wed 11 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -327,7 +422,7 @@ mechanical analog constructed for the study …</p></blockquote>
                 Published: Tue 26 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -377,7 +472,7 @@ The …</p></blockquote>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.667059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -439,7 +534,7 @@ although there are often exceptions:</p>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -493,7 +588,7 @@ The calculations that often must be made point by point along …</p></blockquot
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.119055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -548,7 +643,7 @@ The goal is to be applicable for all 3.7+ uses. </p>
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -601,7 +696,7 @@ In this paper, a complete analysis of the temperature …</p></blockquote>
                 Published: Tue 19 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:26.115055-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:09.538383-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -648,7 +743,7 @@ and found to be usually less than the …</p></blockquote>
                 Published: Thu 14 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.655059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.134413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -695,7 +790,7 @@ for a section of the …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -745,7 +840,7 @@ quantity of alcohol …</p></blockquote>
                 Published: Mon 14 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -792,7 +887,7 @@ following …</p></blockquote>
                 Published: Thu 27 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -838,7 +933,7 @@ the section "Example of the Application of the D.A. Data to Experimental Data".<
                 Published: Tue 25 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.643059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.122413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -886,7 +981,7 @@ In more modern terms, this …</p>
                 Published: Sun 23 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T08:11:20.651059-07:00">
+        <abbr class="modified" title="2024-05-18T08:30:07.130413-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->

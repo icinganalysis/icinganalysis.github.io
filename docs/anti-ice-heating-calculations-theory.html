@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Anti-Ice Heating Calculations Theory</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="From ADS-4 apps.dtic.mil. Prerequisites You need to have completed Aircraft Icing Handbook Energy Balance Examples. Introduction We will review "Engineering Summary of..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/drafts/the-basics.html">The Basics: Intermediate Topics</a></h1>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/anti-ice-heating-calculations-theory.html" rel="bookmark"
+           title="Permalink to Anti-Ice Heating Calculations Theory">Anti-Ice Heating Calculations Theory</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-13T12:00:00-07:00">
+                Published: Mon 13 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T08:30:07.142413-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p><img alt="ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate." src="/images%2Fads4%2FFigure3-19.png"><br>
+<em>From ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/aircraft-icing-handbook-energy-balance-examples.html">Aircraft Icing Handbook Energy Balance Examples</a>.  </p>
+<h2>Introduction</h2>
+<p>We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>, 
+as the anti-ice examples are more detailed than those in the 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>.  </p>
+<p>We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>, for practical guidance for analysis.  </p>
+<p>The ADS-4 and SAE AIR 1168/4 analysis methods use nomographs to implement graphical solutions. 
+We will not be using the nomographs. 
+While the notation is different, the analysis method from ADS-4 
+is very similar to the Standard Computational Model in the 
+<a href="/aircraft-icing-handbook-merged-sections.html#standard-computational-model">Aircraft Icing Handbook Merged Sections</a> 
+which we will use here.  </p>
+<blockquote>
+<p>The energy balance equation is:  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Q&quot;Source + Q&quot;Sink = 0  
+</code></pre></div>
+
+<blockquote>
+<p>Define Q"Sink by:<br>
+<img alt="Equation 2-50. Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-50.png">  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap  
+</code></pre></div>
+
+<blockquote>
+<p>Define Q"Source by:<br>
+<img alt="Equation 2-41. Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-41.png">  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool  
+</code></pre></div>
+
+<p>The only change required to the Standard Computational Model is the addition of heating:  </p>
+<div class="highlight"><pre><span></span><code>Q&quot;Source = Q&quot;Freeze + Q&quot;AeroHeat + Q&quot;DropletKE + Q&quot;IceCool + Q&quot;Heat   
+</code></pre></div>
+
+<p>For the usual case of anti-ice heating, the Q"Freeze and Q"IceCool terms are zero, 
+but at low levels of heating they can be non-zero.  </p>
+<p>The heat balance is implemented in the file "thermal_anti_ice.py" (and associated files) 
+available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">github.com/icinganalysis/icinganalysis.github.io</a>. 
+Readers are encouraged to run the analysis to the duplicate results.  </p>
+<h2>ADS-4 Method Description</h2>
+<blockquote>
+<p>3.5<br>
+3.5.1 THERMAL ANTI-ICING DESCRIPTION -<br>
+Thermal anti-icing systems use heat to maintain the
+temperature of the surface to be protected above freezing throughout an icing
+encounter. Thermal anti-icing systems are classified as evaporative and running wet.<br>
+Evaporative systems, as the name implies, supply sufficient heat to
+evaporate all water droplets impinging upon the heated surface.<br>
+The running
+wet systems, however, provide only enough heat to prevent freezing upon the
+heated surface.
+Beyond the heated surface of a running wet system, the water
+could freeze (generally called runback ice).
+For this reason, running wet systems must be used carefully so as not to permit 
+runback ice buildup in critical locations.
+For example, the heated surface of a running wet system on a
+turboprop or turbojet inlet should extend into the inlet to the compressor face
+so that the water runoff will combine with the intake air and not strike cold
+surfaces where it could refreeze, break off, and possibly damage the engine.<br>
+Basically, two sources of heat for thermal anti-icing are used in aircraft:
+electrical heaters and hot air. For anti-icing, the heat source must remain on
+throughout the icing encounter. Areas of an aircraft that may be afforded thermal 
+ice protection are included in Figure 3-1.
+Of these areas, the windshield
+is always given anti-ice protection while the remainder of the areas may be
+given anti-icing or de-icing protection, depending on the power available for
+ice protection and the effects of ice accretion on the aircraft.<br>
+<img alt="Figure3-1" src="/images%2Fads4%2FFigure3-1.png">  </p>
+<p>...<br>
+3.5.1.2 Hot Air System Description -<br>
+Several sources of hot air for anti-icing
+are available, depending on the aircraft type.
+engine bleed air may be available.
+In turbojet and turboprop aircraft,
+For piston engine aircraft, combustion heaters
+or exhaust gas heat exchangers may be used.<br>
+Areas usually protected by a hot air system are engine inlets, wing leading
+edges, and occasionally empennage leading edges.
+Basically, the hot air is
+manifolded to the various portions of the aircraft to be protected and finally distributed 
+in any one of several methods, as shown in Figures 3-16 and 3-17.
+The hot air is introduced as close as possible to the stagnation point of the surface
+to be protected and permitted to flow chordwise toward an exit point through gas
+passages.
+The exhaust gas is generally dumped overboard at a non-critical
+location.<br>
+<img alt="Figure 3-16" src="/images%2Fads4%2FFigure%203-16.png"><br>
+<img alt="Figure 3-17" src="/images%2Fads4%2FFigure%203-17.png"><br>
+3.5.2<br>
+REQUIREMENTS -<br>
+Equations expressing heat transfer and evaporation
+from wetted surfaces during icing encounters have been used to develop a graphical 
+solution for the determination of heat required for anti-icing (Ref. 3-4).
+Figures 3-18a and 3-18b are presented for this purpose.<br>
+<img alt="Figure3-18a.png" src="/images%2Fads4%2FFigure3-18a.png"><br>
+<img alt="Figure3-18b.png" src="/images%2Fads4%2FFigure3-18b.png"><br>
+Preparatory to using
+these figures, the local heat transfer coefficient and rate of water catch (MW)
+must be determined.
+To determine the local heat transfer on an airfoil, the following three
+equations may be used:<br>
+a. Heat transfer coefficient for a cylinder (h_cy) of the same radius as the
+leading edge of the airfoil.<br>
+<img alt="hcyl" src="/images%2Fads4%2Fhcyl.png"><br>
+b. Heat transfer coefficient for laminar flow over a flat plate (h_lp) to the
+chordwise extent of the heated surface.<br>
+<img alt="hlp" src="/images%2Fads4%2Fhlp.png"><br>
+c.Heat transfer coefficient for turbulent flow over a flat plate to the
+chordwise extent of the heated surface.
+<img alt="htp" src="/images%2Fads4%2Fhtp.png"><br>
+A typical plot of these beat transfer coefficients is presented in Figure 3-19
+for a specific altitude and airspeed.<br>
+<img alt="Figure3-19" src="/images%2Fads4%2FFigure3-19.png"><br>
+The transitions from flat plate laminar to
+flat plat turbulent are only estimates, as the location of the transition region
+will vary with surface roughness, airfoil shape and angle of attack.
+Transition will usually start at a Reynolds Number of 0.5 to 2 x10^6 and the flow will be fully
+turbulent at a Reynolds Number of 2 to 4 x 10^6.<br>
+These equations may be used to determine the heat required per unit area
+along the chord.
+On tapered and swept-back airfoil, these calculations, performed at several span stations, 
+can become unnecessarily tedious.
+In practice,
+the heat transfer coefficients for a span station are plotted as in Figure 3-19
+and an average value assumed for that station.
+This average value (ha) is then
+used to enter Figures 3-18a and 3-18b to determine the anti-icing heat requirements.
+This assumption of an average value of heat transfer coefficient has a
+percentage of error in the same order of magnitude as the assumptions made
+in the meteorological variables.</p>
+<p>The water catch rate (Mw) is obtained by dividing the water catch (Wm) by
+the heated area per foot of span for each spanwise position (see Section 2 and
+the example in Section 4). For a completely evaporative system, the rate of
+evaporation of water (M_ev) must equal the rate of water catch (Mw).
+With this knowledge, the following equation may be solved for tau_3<br>
+<img alt="tau3" src="/images%2Fads4%2Ftau3.png"><br>
+If designing for a running wet system, the surface temperature (t_s) is
+assumed to be some value above freezing (such as 35 F), and tau_3 
+is found graphically.<br>
+The next steps are the graphical solution for tau_1 through tau_5 using Figures
+3-18a and 3-18b and the solution of Equation 3.5.2 for the heat transfer rate at
+each spanwise position.<br>
+<img alt="q_ha" src="/images%2Fads4%2Fq_ha.png"><br>
+The heat transfer rate (q) may then be plotted versus spanwise position to
+obtain heating distribution requirements.
+Typical values for a wing are from
+2,500 to 5,500 BTU/hr.-ft. span. [note: values corrected from "2,5000" and "5,5000".]  </p>
+</blockquote>
+<h2>Practical simplifications</h2>
+<p>The method described in ADS-4 is not completely detailed, 
+and relies on some engineering judgement. </p>
+<p>Here, we will use some other recommendations to reach an analysis 
+that is detailed enough to implement in a computer program. </p>
+<h3>Water catch rates</h3>
+<p>ADS4 briefly describes "airfoil matching" (using an airfoil that one has data for to approximate another airfoil), 
+which is not used so much anymore.  </p>
+<p>The Aircraft Icing Handbook comments:  </p>
+<blockquote>
+<p>How was one to determine the impingement pattern for an airfoil not tested by the NACA?
+Before droplet trajectory and impingement codes were developed, one approach was to try to "match"
+the untested airfoil to one that had been tested and then "extrapolate" the impingement pattern
+(reference 2-22). [reference 2-22 is ADS-4]<br>
+By the early 1980's, many airfoils very different from those of the 1950's were in use or soon
+to be in use; for such airfoils, the "matching" procedure mentioned above was especially problematical.
+Furthermore, a need was recognized for impingement information on engine inlets and other three-dimensional configurations.<br>
+In conjunction with the need for new information, new technological possibilities also arose.
+...
+There would no longer be any need for the difficult matching procedure.  </p>
+</blockquote>
+<p>SAE AIR1168/4 uses methods similar to the <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>The water catch analysis methods we have seen previously, <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>
+and <a href="intermediate_lewice_impingement.md">Computer Impingement Analysis Tools Examples</a> will be used here. </p>
+<h3>Surface Wetness Fraction</h3>
+<p>Unfortunately, ADS-4 does not detail the K term, "Surface wetness fraction", in equation 3.5.2 from NACA-TN-2799. 
+Unfortunately, neither does NACA-TN-2799, beyond:  </p>
+<blockquote>
+<p>In the absence of exact data, the wetness fraction K in the basic
+equations is usually taken as 1 in the impingement area. Near the
+downstream limit of impingement, rivulets of run-back water commence
+and K decreases very rapidly. The K factors in regions of rivulet
+flow probably vary with many conditions, but limited data (reference 3)
+indicate that the value of K decreases in this region from a value
+near 0.3 down toward zero at the point of complete evaporation of run
+back.  </p>
+</blockquote>
+<p>"reference 3" of NACA-TN-2799 is NACA-TN-2480, which has more information, including this figure: <br>
+<img alt="NACA-TN-2480Figure7" src="/images%2Fnaca-tn-2480%2FNACA-TN-2480Figure7.png">  </p>
+<p>SAE AIR118/4 recommends simply using a value of 0.6 for K.  </p>
+<p>Here, we will calculate an average K value:  </p>
+<div class="highlight"><pre><span></span><code>K = (1 * S_impingement + 0.3 * (S_heated-S_impingement)) / S_heated
+</code></pre></div>
+
+<h3>Heat transfer coefficients</h3>
+<p>To implement the equations a, b, and c above, 
+engineering judgement is required 
+to approximately reproduce the values in Figure 3-19.<br>
+The recommended transition values do not well reproduce the figure.  </p>
+<blockquote>
+<p>The transitions from flat plate laminar to
+flat plat turbulent are only estimates, as the location of the transition region
+will vary with surface roughness, airfoil shape and angle of attack.
+Transition will usually start at a Reynolds Number of 0.5 to 2 x 10^6 and the flow will be fully
+turbulent at a Reynolds Number of 2 to 4 x 10^6.  </p>
+</blockquote>
+<p>The average value in Figure 3-19 is difficult to discern; 
+I estimate it as 32 BTU/h-ft^2-F. </p>
+<p>SAE AIR1168/4 uses the average flat plate turbulent flow heat transfer coefficient. 
+The calculated average is 38 BTU/h-ft^2-F for Figure 3-19. 
+SAE AIR1168/4 notes:  </p>
+<blockquote>
+<p>In all probability, an iced surface will be fully turbulent from the stagnation point.  </p>
+</blockquote>
+<p>A heat transfer text book <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> recommends: </p>
+<blockquote>
+<p>... it would be unreasonable to expect the correlations to predict results to better than 25 percent accuracy</p>
+</blockquote>
+<p>Here, we will use a +/-25% tolerance around the nominal heat transfer coefficient value. 
+We will also consider the SAE AIR1168/4 turbulent flat plate method, 
+which is often outside of the +/-25% tolerance.  </p>
+<h3>Analysis zones</h3>
+<p>ADS-4 treats the heated surface as one analysis zone or control volume. 
+This would include as one unit the upper and lower surfaces for a wing, for example, 
+or the inner and outer barrels of an engine inlet. 
+The protection requirements may be different for different surfaces, 
+as the upper surface of a wing might be required to be fully evaporative, 
+and different protection might be required for the lower surface. </p>
+<p>SAE AIR1168/4 suggests using two analysis zones, split at the stagnation point:   </p>
+<blockquote>
+<p>the preceding equation accounts for the split of the water catch at the stagnation point; 
+that is; half of the water is assumed for each top and bottom surface.  </p>
+</blockquote>
+<p>However, the water catch is not always split evenly at the stagnation point, 
+so a more detailed analysis may be required, 
+particularly at high angle of attack values.</p>
+<h2>Resources</h2>
+<ul>
+<li>
+<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
+</li>
+<li>
+<p>"Ice, Frost, and Rain Protection", AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>  </p>
+</li>
+<li>
+<p>"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>  </p>
+</li>
+</ul>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>
+<h2>Citations</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Incropera and De Witt, Fundamentals of Heat Transfer, 1981.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
