@@ -354,7 +354,7 @@ the zero heat transfer coefficient value leading to a non-convergence of the cal
 _Public domain image by Donald Cook._  
 
 The resulting heat required values:  
-![SCM with LEWICE BCs heat required](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png)  
+![SCM with LEWICE BCs heat required](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png)  
 _Public domain image by Donald Cook._  
 
 The area under the curve is the total heat required for complete evaporation. 
@@ -363,7 +363,7 @@ This is an ideal, minimal value that assumes that the heat is delivered in the p
 The total heat required values can be compared. 
 The areas under the heating curves are summed up as a function of surface distance.  
 
-![SCM with LEWICE BCs cumulative q](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png)  
+![SCM with LEWICE BCs cumulative q](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png)  
 _Public domain image by Donald Cook._  
 
 The spatially varying boundary conditions had a minor effect on the heat required values for this case. 

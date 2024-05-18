@@ -4,6 +4,9 @@ Date: 2024-05-20 13:00
 tags: intermediate topics, analysis tools, Python   
 rights: CC-BY-NC-SA 4.0
 
+![Aircraft A LEWICE ideice comparisons q](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png)  
+_Public domain image by Donald Cook._  
+
 ## Prerequisites  
 
 You need to have completed [Anti-Ice Heat Required Calculations]({filename}intermediate_anti_ice_heat_required.md).  
@@ -121,7 +124,7 @@ rather than the widest points with non-zero impingement.
 This results in slightly different impingement limits than the 40 micrometer impingement limits 
 used in ADS-4.  
 
-![SCM with LEWICE BCs beta](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png)  
+![SCM with LEWICE BCs beta](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png)   
 _Public domain image by Donald Cook._  
 
 The results with the IDEICE values 1 through 4 are shown below, compared to the results of the ADS-4 analysis. 
