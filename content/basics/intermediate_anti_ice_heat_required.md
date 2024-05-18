@@ -237,9 +237,10 @@ then you are encouraged to perform the analysis.
 If not, values are provided (see [USA 35-B Airfoil Impingement Data]({filename}USAB35_airfoil_impingment.md)).  
 
 ```text
-Method   LWC, g/m^3   Em     Sl, inch  Su, inch
-ADS-4:   0.46         0.135  -3.30     6.50
-LEWICE:  0.45         0.142  -2.09     6.83
+                      20 micrometer   40 micrometer
+Method   LWC, g/m^3   Em              Sl, inch  Su, inch
+ADS-4:   0.46         0.135           -3.30     6.50
+LEWICE:  0.45         0.142           -2.09     6.83
 ```
 
 The use of LEWICE impingement data has only a minor effect on the values:  
