@@ -194,7 +194,7 @@ In conjunction with the need for new information, new technological possibilitie
 SAE AIR1168/4 uses methods similar to the [Aircraft Icing Handbook Water Catch Examples]({filename}intermediate_water_catch_examples.md).  
 
 The water catch analysis methods we have seen previously, [Aircraft Icing Handbook Water Catch Examples]({filename}intermediate_water_catch_examples.md)
-and [Computer Impingement Analysis Tools Examples](intermediate_lewice_impingement.md) will be used here. 
+and [Computer Impingement Analysis Tools Examples]({filename}intermediate_lewice_impingement.md) will be used here. 
 
 ### Surface Wetness Fraction  
 

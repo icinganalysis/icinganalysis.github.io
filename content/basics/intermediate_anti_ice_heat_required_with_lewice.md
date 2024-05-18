@@ -121,7 +121,7 @@ rather than the widest points with non-zero impingement.
 This results in slightly different impingement limits than the 40 micrometer impingement limits 
 used in ADS-4.  
 
-![SCM with LEWICE BCs beta](..%2Fimages%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png)  
+![SCM with LEWICE BCs beta](/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png)  
 _Public domain image by Donald Cook._  
 
 The results with the IDEICE values 1 through 4 are shown below, compared to the results of the ADS-4 analysis. 
@@ -134,7 +134,7 @@ and have higher heat transfer coefficients.
 The LEWICE cases all have a heat transfer coefficient value of zero at the stagnation point. 
 This is a feature of some integral boundary layer method formulations (the method used in LEWICE). 
 
-![Aircraft A LEWICE ideice comparisons htc.png](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20htc.png)  
+![Aircraft A LEWICE ideice comparisons htc](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20htc.png)  
 _Public domain image by Donald Cook._  
 
 The heating values are similar for the four LEWICE analyses. 
@@ -146,7 +146,7 @@ but the ADS-4 value assumed that the entire heated area was uniformly heated.
 LEWICE also calculates small areas of slightly negative values of heating requirements. 
 Those were not included in the plot above, and are not included in the summed values below.  
 
-![Aircraft A LEWICE ideice comparisons q.png](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png)  
+![Aircraft A LEWICE ideice comparisons q](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png)  
 _Public domain image by Donald Cook._  
 
 The area under a heat required curve is the total heat required for complete evaporation. 
@@ -169,7 +169,7 @@ The LEWICE values are comparable to the ADS-4 value.
 The ADS-4 values for the Langmuir A distribution agrees well with the LEWICE analysis for the Langmuir A distribution. 
 The LEWICE values vary by about 8% when compared to each other. 
 
-![Aircraft A LEWICE ideice comparisons cq.png](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20cq.png)  
+![Aircraft A LEWICE ideice comparisons cq](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20cq.png)  
 _Public domain image by Donald Cook._  
 
 For surface temperature, the LEWICE values are comparable to one another in the area of laminar flow
@@ -180,7 +180,7 @@ but the ADS-4 value assumed that the entire heated area was uniformly heated.
 Also, comparing surface temperatures for anti-ice cases is challenging, 
 as there are several non-linear effects.  
 
-![Aircraft A LEWICE ideice comparisons t.png](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20t.png)  
+![Aircraft A LEWICE ideice comparisons t](/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20t.png)  
 _Public domain image by Donald Cook._  
 
 ## Conclusions  
