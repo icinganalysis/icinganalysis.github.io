@@ -113,7 +113,7 @@ Each concept has a resources section, with specific further reading on the conce
 
 - Using handbook analysis methods  
 - Using computer icing analysis tools to produce ice shapes  
-- Preliminary ice protection system sizing  
+- Ice protection heat requirements  
 
 Items specifically deferred to the (yet to be written) Advanced Level  
 
