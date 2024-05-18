@@ -1,6 +1,6 @@
 Title: Anti-Ice Heat Required Calculations      
 header: The Basics: Intermediate Topics  
-Date: 2024-05-20 13:00  
+Date: 2024-05-20 12:00  
 tags: intermediate topics, analysis tools, Python   
 rights: CC-BY-NC-SA 4.0
 

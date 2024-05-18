@@ -24,13 +24,13 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a></h1>
+                    <h1 class="entry-title"><a href="/anti-ice-heat-required-calculations-with-lewice.html">Anti-Ice Heat Required Calculations with LEWICE</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2024-05-20T13:00:00-07:00">
                 Published: Mon 20 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2024-05-18T12:18:59.664192-07:00">
+        <abbr class="modified" title="2024-05-18T12:18:59.680193-07:00">
                 Updated: Sat 18 May 2024
         </abbr>
 <!---->
@@ -43,7 +43,213 @@
         <!---->
 <!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
 
-</footer><!-- /.post-info --><p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
+</footer><!-- /.post-info --><p><img alt="Aircraft A LEWICE ideice comparisons q" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
+<h2>Introduction</h2>
+<p>Here, we will see that the values calculated by a multi-node analysis in LEWICE are 
+comparable to the values calculated previously.  </p>
+<p>Running LEWICE for anti-icing calculations involves (necessarily) more complex inputs. 
+The user has to select which set of external heat transfer assumptions to use. 
+The detailed output files require post-processing to extract the total heat required value. </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual describes "deicer" cases that also may be used for 
+anti-ice heat requirement analysis.<br>
+An input is the "IDEICE" value in the case.inp file. 
+By default, this is 0, and an unheated surface ice analysis is performed. 
+However, with IDEICE &gt; 0, ice protection analysis is performed, 
+as detailed in a cased.inp file. 
+A key input in that file is ievap, which for the cases below is set to 
+ievap=1, causing a steady-state anti-ice heat required calculation to be performed. </p>
+<p>The key sections of the manual discussing the inputs are included below.  </p>
+<blockquote>
+<p>6.13. De-icer Input<br>
+The program will only ask for the de-icer input file name for cases where IDEICE is not
+equal to zero.<br>
+The IDEICE = 2, IDEICE = 3 and IDEICE = 4 options will perform a detailed thermal analysis 
+within the airfoil, ice, and water. The IDEICE = 2 option is recommended for failed thermal
+cases with significant ice accretion. The laminar flag, IDEICE = 3, provides consistently better
+temperature predictions for cases with a clean leading edge. However, it is a less conservative
+option and has a tendency to overpredict temperatures for some cases. The boundary layer trip
+flag IDEICE = 4 provides a compromise value between these two options.<br>
+The de-icer routines in LEWICE assume the body geometry is a clean airfoil with surface
+properties as described in Section 10.1. Therefore if the input geometry is an iced airfoil, this
+option may not run properly. The ICEG2D option may not work for de-icer cases as a result.<br>
+The output file “noice.dat” contains output from the simplified 1D thermal analysis. This
+analysis is provided for all cases where IDEICE &gt; 0. When IDEICE = 1, it is the only thermal
+analysis performed. It is also performed for IDEICE = 2 to IDEICE = 4 cases as the 1D option
+does not take significant computation time. Also see Section 10.1.4.4 for additional capabilities
+when IDEICE = 2 to 4.</p>
+<p>8.3.11. IDEICE<br>
+Default Value: IDEICE = 0<br>
+IDEICE is a flag that controls which de-icer model will be invoked. If IDEICE = 0 (default),
+this routine will not be run. If IDEICE = 1, then a 1D steady state anti-icer will be run to generate
+an estimate of the heat required to keep the surface ice free. This solution can then be used as a
+starting point for using the de-icing or anti-icing models. If IDEICE = 2, 3, or 4 the software will
+access a module to analyze 2D transient icing with heater inputs. For IDEICE = 2, the software
+will perform the analysis using the standard heat transfer coefficients predicted assuming an ice
+roughened surface. This option is often preferable for de-icing simulations where ice will form.
+For IDEICE = 3, the software will use the laminar heat transfer coefficient, which assumes a
+clean surface. This option is recommended for anti-icing simulations or cases which generate a
+very small ice shape. For IDEICE = 4, the software will trip the boundary layer at the end of the
+heated section. This boundary layer trip will work for electrothermal as well as bleed air cases. If
+heat is applied to the entire surface, this option should produce the same output as the IDEICE =
+3 option. IDEICE = 4 option may be useful for cases with significant runback ice.</p>
+<p>When IDEICE = 2, 3, or 4, the following warning message will be displayed:</p>
+<blockquote>
+<p>This option accesses a module which will run MUCH more slowly than a standard
+(IDEICE = 0) LEWICE run.  </p>
+</blockquote>
+<p>When IDEICE = 3, the following additional warning message will be displayed:</p>
+<blockquote>
+<p>This option will use laminar heat transfer coefficients. Some users believe this option will
+produce more accurate results for anti-icing cases. However, it is less conservative than the
+IDEICE = 2 option.  </p>
+</blockquote>
+<p>When IDEICE = 4, the following additional warning message will be displayed:</p>
+<blockquote>
+<p>This option will trip the boundary layer at the end of the heated area. Some users believe
+this option will produce more accurate results for running wet cases. However, it is less
+conservative than the IDEICE=2 option.  </p>
+</blockquote>
+<p>Note: The IDEICE = 2, IDEICE = 3, and IDEICE = 4 options will perform a detailed thermal
+analysis within the airfoil, ice, and water. The IDEICE = 2 option is recommended for failed
+thermal cases with significant ice accretion. The laminar flag, IDEICE = 3, provides consistently
+better temperature predictions for cases with a clean leading edge. However, it is a less
+conservative option and has a tendency to overpredict temperatures for some cases. The
+boundary layer trip flag IDEICE = 4 provides a compromise value between these two options.</p>
+<p>12.2. noice.dat<br>
+This file contains output from the anti-icing calculation. Columns are dimensionless wrap
+distance from stagnation (s/c), heat required at that control volume (qheat) in kW/m^2 , maximum
+temperature (T_max) in degrees Kelvin, surface temperature (T_surf) in degrees Kelvin,
+effective heat transfer coefficient (h_eff) in W/m^2 /K, freezing fraction (f_fract), and evaporative
+fraction (f_evap). The effective heat transfer coefficient can be used to transfer information from
+LEWICE to other programs. It is the “effective” value which would need to be input as the convective 
+boundary condition for many commercial or non-commercial CFD programs in order to
+thermally account for icing effects. Freezing fraction is the fraction which does not evaporate
+that freezes. For cases where IEVAP = 2, the program takes the amount of heat specified by the
+user. If this amount of heat is insufficient, ice can form. When IEVAP = 2 and IDEICE = 1, the
+program will override the standard LEWICE ice accretion and use the result from the anti-icing
+routine to provide the user with an estimate of runback ice formation neglecting conduction. This
+result can be compared with the IDEICE = 4 option that includes conduction effects. Evaporative
+fraction may be slightly less than one for IEVAP = 1 cases since the program iterates on the final
+temperature.  </p>
+<p>15.13. Case 13: First benchmark conditions with an evaporative hot air anti-icer.<br>
+Computation Time: Pentium IV 2.4GHz, 2 s.<br>
+Disk Space: 1.8 MB<br>
+This example case illustrates the use of the IDEICE = 1 anti-ice capabilities of LEWICE. As
+the procedure used in LEWICE for IDEICE = 1 anti-icing is less involved than the procedure
+used for the IDEICE = 2 to IDEICE = 4 options and since this feature has not been validated
+with experimental data, a warning will appear when this case is run. The user must confirm the
+warning message to continue the run. Also note that a second warning will be generated because
+the IDEICE = 1 option is being used. The conditions for this case are the same as Example Case
+15, except the de-icer flag has been set to IDEICE = 1. The anti-ice solution provided is a steady-state 
+solution so the choice of time step is irrelevant to that output.  </p>
+</blockquote>
+<p>For this analysis, a Langmuir D drop size distribution was used. 
+Here, the impingement limits are interpreted at the nearst points with zero impingement, 
+rather than the widest points with non-zero impingement. 
+This results in slightly different impingement limits than the 40 micrometer impingement limits 
+used in ADS-4.  </p>
+<p><img alt="SCM with LEWICE BCs beta" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png"> <br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The results with the IDEICE values 1 through 4 are shown below, compared to the results of the ADS-4 analysis. </p>
+<p>The ADS-4 average heat transfer coefficient value, 27.5 BTU/h-ft^2-F, 
+is comparable to an average value of the cases that assume laminar flw over the heated surface (IDEICE 3 and 4). 
+The other cases (IDEICE 1 and 2) transition to turbulent while still on the heated surface, 
+and have higher heat transfer coefficients. </p>
+<p>The LEWICE cases all have a heat transfer coefficient value of zero at the stagnation point. 
+This is a feature of some integral boundary layer method formulations (the method used in LEWICE). </p>
+<p><img alt="Aircraft A LEWICE ideice comparisons htc" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20htc.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The heating values are similar for the four LEWICE analyses. 
+The heating limits do not correspond to the impingement limits.</p>
+<p>The ADS-4 value may appear to be lower than the LEWICE values, 
+but the ADS-4 value assumed that the entire heated area was uniformly heated. </p>
+<p>LEWICE also calculates small areas of slightly negative values of heating requirements. 
+Those were not included in the plot above, and are not included in the summed values below.  </p>
+<p><img alt="Aircraft A LEWICE ideice comparisons q" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>The area under a heat required curve is the total heat required for complete evaporation. 
+The area are summed up as a function of surface distance. 
+For the lower surface (S&lt;0), the values are quite similar, 
+but for the upper surface the values diverge. 
+As some values are still increasing with distance, 
+the upper heated boundary was selected as the point for determining the total heat required. 
+A slightly lower value would result if the impingement limit were used.  </p>
+<p>The LEWICE method for determining surface point spacings is not well documented. 
+It tends to use a small spacing near the leading edge, and a large spacing further aft. 
+The larger spacing tends to occur prior to the impingement limit, as seen in the case above.
+The IDEICE=3 case has symbols at the individual points, and there is no surface point between S=3.8 inch to 
+something greater than 10 inch.
+This is not convenient for determining the values such as the total heat required, 
+and interpretation and interpolation are required as described above. </p>
+<p>The LEWICE values are comparable to the ADS-4 value. 
+The ADS-4 values for the Langmuir A distribution agrees well with the LEWICE analysis for the Langmuir A distribution. 
+The LEWICE values vary by about 8% when compared to each other. </p>
+<p><img alt="Aircraft A LEWICE ideice comparisons cq" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20cq.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<p>For surface temperature, the LEWICE values are comparable to one another in the area of laminar flow
+(about -1 inch to +1 inch). They all have a temperature "spike" near the stagnation point where the heat transfer coefficient value was zero. </p>
+<p>The ADS-4 value may appear to be lower than the LEWICE values, 
+but the ADS-4 value assumed that the entire heated area was uniformly heated. 
+Also, comparing surface temperatures for anti-ice cases is challenging, 
+as there are several non-linear effects.  </p>
+<p><img alt="Aircraft A LEWICE ideice comparisons t" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20t.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Conclusions</h2>
+<p>For evaporative anti-ice heat required calculations, 
+LEWICE yields similar, but not identical, values to the methods that we have seen before.  </p>
+<p>As noted in the LEWICE manual, this capability has not been fully validated, 
+particularly for IDEICE = 2, 3, or 4. 
+However, that can be said of the other methods. </p>
+<p>Few published studies have attempted to validate the minimum heat supplied for complete anti-icing, 
+let alone the heat required value from any analysis method. 
+Nonetheless, they have been successfully used in design for decades. </p>
+<p>LEWICE has an option to calculate performance with heat supplied (ievap=2). 
+However, it is less validated than the anti-ice heat required calculation (ievap=1), 
+and is more complex to use and interpret.
+As such, those cases are deferred to the yet to be written Advanced Level.</p>
+<h2>Resources</h2>
+<p>User's Manual for LEWICE Version 3.2, NASA/CR-2008-214255 <a href="https://ntrs.nasa.gov/citations/20080048307">ntrs.nasa.gov</a><br>
+Note that a "manual.pdf" file comes with the LEWICE software distribution (apparently for version 3.0), 
+and a file "Lew32manual_changes.doc". 
+I find it easier to just use the Version 3.2 manual.  </p>
+<h2>Related</h2>
+<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heat-required-calculations.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations">Anti-Ice Heat Required Calculations</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T12:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-05-18T12:25:08.670633-07:00">
+                Updated: Sat 18 May 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
 <em>Public domain image by Donald Cook.</em>  </p>
 <h2>Prerequisites</h2>
 <p>You need to have completed <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>.  </p>
@@ -64,378 +270,8 @@ Readers are encouraged to run the analysis to the duplicate results.  </p>
 <p>Qa   Heat available<br>
 Qr   Heat required </p>
 </blockquote>
-<p>Heat required is the heat that leaves the surface needed to provide ice protection. 
-Heat available is heat that leaves the heat surface that is available for anti-ice protection. 
-Another term is heat supplied, the heat energy that an ice protection system consumes. 
-Not all of the heat supplied may reach the outer heated surface where it is useful for ice protection. </p>
-<p>System thermal efficiency is defined:  </p>
-<div class="highlight"><pre><span></span><code>efficiency = (heat available) / (heat supplied)  
-</code></pre></div>
-
-<p>The discussion below centers on the heat required. 
-The other terms will not be detailed here. </p>
-<h2>Anti-ice heating</h2>
-<p>The "TYPICAL TWIN-ENGINE LIGHT PLANE A" example is particularly detailed, 
-even though  </p>
-<blockquote>
-<p>hot gas [anti-ice] systems are not generally suitable for
-light aircraft and are not likely to be used because of their high weights and
-costly installation  </p>
-<p>4.1.4<br>
-4.1.4.1<br>
-STUDY OF VARIOUS ICE PROTECTION SYSTEMS FOR A TYPICAL TWIN-ENGINE LIGHT PLANE<br>
-SELECTION OF ICE PROTECTION FOR WING AND EMPENNAGE -<br>
-In selection of ice protection for light airplanes, the wings and empennage will
-be treated together since they would have the same type system.
-The water catch and impingement limits are calculated first to determine the extent protection is necessary.
-This is illustrated by the following sample calculations
-for the wing of twin-engine aircraft "A" shown in Figure 4.1-1:<br>
-<img alt="Figure 4.1-1. Typical Twin-Engine Aircraft &quot;A&quot;." src="/images%2Fads4%2FFigure%204.1-1_rotated.png"><br>
-Calculation of Impingement Limits and Water Catch<br>
-Wing - twin-engine aircraft "A"<br>
-Gross weight, 4,800 lb.<br>
-USA 35-B airfoil (12 per cent thick)<br>
-Wing area, A = 207 sq. ft.<br>
-Chord length, C = 67 in.<br>
-205 mph cruise at 7,000 ft. altitude (75 per cent power)<br>
-Ambient temperature, t = 17° F (most probable icing temperature from Figure 1-16)<br>
-Droplet diameter, Dd = 20 microns<br>
-Liquid water content, LWC = 0.46 gm/m3 (Figure 1-26)<br>
-Air density, pa 0.001996 slugs/cu.ft.<br>
-Air viscosity, p 0.36 x 10-8 slugs/ft.-sec.<br>
-Dynamic pressure, q = 90.2 psf (from page 4.1-9)<br>
-Lift coefficient, CL = 0.257 (from page 4.1-9)<br>
-The angle of attack can then be estimated from a CL versus a curve (Figure 4.1-2) for the given airfoil:<br>
-alpha = -1.7 [note: -1.6 is used below]
-Droplet Reynolds Number Re_d = 109
-lambda/lambda_s = 0.342 (From Figure 2-6)
-Inertia parameter K = 0.0695 (This formula is equivalent to that of Section 2.)<br>
-Modified inertia parameter Ko = 0.0238<br>
-The ratio of projected airfoil height to chord h/C= 0.1225 (at alpha = -1.7), based on measured values for USA 35-B airfoil<br>
-Collection efficiency can be obtained from Figure 2-7 for a 12 per cent
-Joukowski airfoil at a zero-deg. angle of attack<br>
-EM = 0.135<br>
-Water catch WM = 2.95 lb/hr-ft.span  </p>
-<p>The limits of impingement can be found from Figures 2-15 and 2-16 using
-a 15 per cent Joukowski airfoil at alpha = 2 deg. to represent the USA 35-B airfoil
-at alpha = -1.6 deg.
-The Joukowski airfoil was used because of the profile similarity to the USA 35-B airfoil
-for which no data was available.
-See Paragraph 2.3.4 for an explanation of airfoil matching procedures.<br>
-SU/C = 0.04 SL/C = 0.02<br>
-SU = 2.7 in. SL = 1.3 in.<br>
-(These values are not typical of other classes of airfoils; more commonly,
-impingement limits are greater on the lower surface.)<br>
-Figure 4.1-6 shows impingement limits versus span for the wing at both
-20 and 40-micron drop sizes.<br>
-<img alt="Figure 4.1-6" src="/images%2Fads4%2FFigure%204.1-6.png"><br>
-The determination of local water collection rate, Wb is illustrated for
-the wing of the same airplane by the following calculations:  </p>
-<p>Calculation of Local Water Collection Rate<br>
-205 mph cruise at 7,000 ft. altitude
-Droplet diameter, Dd = 20 microns
-Liquid water content, LWC = 0.46 gm/m 3 (from Figure 1-26)
-Modified inertia parameter, Ko = 0.0238 (from above)<br>
-At the stagnation point, the local collection efficiency
-Beta = 0.46 (from NACA TN 3839, Ref. 4.1-4) using the 15 percent Joukowski airfoil at 2-deg. angle of attack to approximate the USA 35-B airfoil at -1.6 dog.<br>
-Local water collection rate, therefore, is:<br>
-Wb = 14.57 1b./hr.-sq.ft.<br>
-Values of local collection rate can also be found for different chordwise
-locations on the airfoil and, therefore, the local water
-found and plotted versus distance from zero chord as shown in Figure 4.1-9
-for the wing.
-Curves for both 20 and 40-micron drop sizes are shown.
-The 40-micron curves shown in those figures are normally used to determine the necessary chordwise
-extent of ice protection.
-Although it in not necessary to protect
-entirely the 40-micron limits of impingement, protection
-is usually extended to between the 20 and 40-micron limits, where only a small
-amount of ice would remain beyond the protected area.
-For example, for this typical, twin-engine aircraft, it appears that ice protection
-should extend about six inches from zero chord on the upper surface
-and four inches on the lower surface of the wings, and about 2.6 [? last digit not clear], inches from
-zero chord on both surfaces of the horizontal stabilizer and vertical fin.
-The final choice of area protected is, of course, the prerogative of the designer
-and may depend on spar location and/or various other factors.</p>
-<p>Requirements for Hot Gas Anti-Icing<br>
-Hot gas anti-icing systems use several sources of hot gas.
-Direct exhaust-gas
-heat exchanger, combustion heater, and vapor cycle systems have been used
-(see Paragraph 3.5).
-However, hot gas systems are not generally suitable for
-light aircraft and are not likely to be used because of their high weights and
-costly installation.
-"Add-on" type systems are more desirable for light aircraft because they are less costly to install.
-Nevertheless, for completeness of this report, calculations of hot gas
-system heat and airflow requiremeents are illustrated below for the wing and
-tail of aircraft "A." Results are shown for both evaporative and running-wet
-systems; however, small aircraft anti-icing systems are seldom designed to
-be completely evaporative.  </p>
-<p>Wing of typical light twin (Aircraft "A")<br>
-205 mph cruise at 7,000 ft. altitude<br>
-Ambient temperature, t = 20° F (conventional design point)<br>
-Ambient pressure, p = 23.1 in. Hg<br>
-Average surface heat transfer coefficient, h = 27.5 BTU/hr.-ft.2-F
-(determined graphically as described in Paragraph 3.5 and Figure 3-10)<br>
-Water catch, WM = 2.95 lb./hr.-ft. span (calculated above)<br>
-Average wrap-around distance = 15 in. (heated area extends to front spar - 10 per cent chord)
-Heated area/ft, span 1.25 sq.ft.<br>
-Water impingement rate, MW= 2.36 lb/hr-ft^2,<br>
-Using the method of NACA TN 2799 (Ref. 4. 1-5) described in Paragraph 3.5,
-for an evaporative system
-WM/ha = 0.0858<br>
-tau_4 = 11.3 F (from Figure 3-18)<br>
-t_s - t_o = 54.5 F<br>
-tau_3 = 102.7 F
-Therefore, t_s = 74.5 F (from Figure 3.18)<br>
-tau_1 = 59.5 F (from Figure 3.18)<br>
-tau_2 = 7 F (from Figure 3.18)<br>
-tau_5 = 0 F (assuming local static pressure equal to freestream pressure - Figure 3-18)<br>
-Surface heat requirements<br>
-Q = 3,960 BTU/hr.-ft.^2 (see Figure 4.1-13)<br>
-or 4,950 BTU/hr.-ft. span<br>
-or 89,000 BU/hr. (for 18 ft. of span)<br>
-The required anti-icing airflow can be estimated using the equation:  </p>
-<p>W = Q / Cp (t_g - t_s) eta_c  </p>
-<p>in which the channel efficiency, eta_c, will normally be from 0.5 to 0.8 depending
-upon the chordwise channel length and on whether the system is a high or low-pressure system. 
-A method for calculating the channel efficiency can be found
-in Appendix E of NACA TN 2866 (Ref. 4. 1-6).<br>
-Assume gas temperature, t_g = 350 F
-Specific heat of air at 350 F, Cp = 0.244 BTU/lb.-F
-The required anti-icing airflow for a low pressure system with a relatively
-short channel length (assuming eta_c = 0.5) would be:<br>
-w = 0.73 lbm/s<br>
-If the system were a high pressure system, the channel efficiency would be more like 0.8
-and the anti-icing airflow required would be:  </p>
-<p>w = 0.46 lb/sec.</p>
-<p>(A channel efficiency of eta_c = 0.5 is probably the better assumption for light aircraft.)  </p>
-</blockquote>
-<p>Note that the surface wetness fraction K value is not mentioned; it is implicitly 1. </p>
-<p>In ADS-4 section 2.3.2 it is noted:    </p>
-<blockquote>
-<p>Impingement limits are determined by the maximum droplet size in the
-cloud. Thus, for design purposes, 40 microns is often used to determine
-impingement limits, whereas 20 microns is often used to calculate water catch.</p>
-</blockquote>
-<p>We calculate a surface wetness fraction K value based on the heated wrap distance of 15 inches and the 
-40 micrometer impingement limits (-3.3, 6.5 inches):  </p>
-<div class="highlight"><pre><span></span><code>K = ((SU + SL) * 1 + 0.3 * (HEATED_WRAP - (SU + SL))) / HEATED_WRAP = 0.76  
-</code></pre></div>
-
-<p>We will consider a heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F, 
-and calculate the heat required to evaporate all of the water using the Standard Computational Model. 
-We will also consider using the turbulent flat plate method used in SAE AIR1168/4.</p>
-<p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>In the heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F, 
-the heating values vary by less than 25%. 
-The heat transfer coefficient for the turbulent flat plate is notably higher than the nominal heat transfer coefficient. </p>
-<p>For K = 1, the ADS-4 heating value and the SCM values agree well at the nominal heat transfer coefficient. 
-With K = 0.76, the values are about 5% higher.  </p>
-<p>The heated surface temperature required to evaporate all of the water 
-also varies some with the heat transfer coefficient and the K values. </p>
-<p><img alt="Aircraft A tr" src="/images%2FIntermediate%2FAircraft%20A%20tr.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p><a name="lewice-imingement"></a></p>
-<p>If we use LEWICE to determine the impingement data, the values are 
-slightly different. 
-If you have access to LEWICE or another impingement calculation program 
-then you are encouraged to perform the analysis. 
-If not, values are provided (see <a href="/drafts/usa-35-b-airfoil-impingement-data.html">USA 35-B Airfoil Impingement Data</a>).  </p>
-<div class="highlight"><pre><span></span><code>                      20 micrometer   40 micrometer
-Method   LWC, g/m^3   Em              Sl, inch  Su, inch
-ADS-4:   0.46         0.135           -3.30     6.50
-LEWICE:  0.45         0.142           -2.09     6.83
-</code></pre></div>
-
-<p>The use of LEWICE impingement data has only a minor effect on the values:  </p>
-<p><img alt="Aircraft A qr lewice impingement" src="/images%2FIntermediate%2FAircraft%20A%20qr%20lewice%20impingement.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<h2>Running wet heating</h2>
-<blockquote>
-<p>Requirements for Cyclic Electrical De-Icing<br>
-With cyclic electrical de-icing systems, continuously heated parting strips
-divide the ice buildup into portions which will shed more easily (with the help of
-aerodynamic forces) when power is applied to the cycled areas.
-Parting strips,
-which are normally one inch wide, should be laid out in a spanwise direction
-on the leading edge (at stagnation) when the sweep angle is less than 30 deg.
-Chordwise parting strips are used when the sweep angle is more than 30 deg.
-The protected area is divided into a number of smaller (cycled) areas which
-receive power alternately to minimize the total power required. A normal
-total cycled time is about
-three minutes.
-That is, each cycled area receives power once every three minutes.
-(See Paragraph 3.6.1.1 for more details on cyclic electrical de-icing systems.)  </p>
-<p>Cycled area power requirements:
-Assuming a heat-on time of 20 sec. and t_o = 0° F, the datum temperature, t_ok
-is about 5° F (from Figure 3-8).
-The input power density then is approximately
-12 watts/sq.in. from Figure 3-26, which was taken from NACA RM E51J30
-(Ref. 4.1-7).
-An ambient temperature of 0° F was chosen as representative of
-the probable minimum icing temperature that would be encountered by a light
-aircraft operating at low altitude.
-Power requirements for a cyclic electric
-system are at a maximum at minimum ambient temperature (for a given airspeed).
-Parting strip power requirements for the wing of Aircraft "A":<br>
-205-mph cruise at 7,000 ft. altitude<br>
-Ambient temperature, t = 0 F (normal design point)<br>
-Liquid water content, LWC w 0.25 g/m3 (from Figure 1-26)<br>
-Modified Inertia parameter, Ko = 0.0238 (calculated previously)<br>
-Local collection efficiency at stagnation, Beta_max = 0.46 (calculated previously)<br>
-Local collection rate at stagnation therefore is:<br>
-WB = 0.329 (U) (LWC) Beta_max
-= 0.329 (205 mph)(0.25 g/m^3)(0.46)<br>
-=7.75 lb./,hr.-sq.ft.<br>
-Average surface heat transfer coefficient,<br>
-ha = 28.3 BTU/hr.-ft.^2-F (determined graphically as described in Paragraph 3.5)<br>
-Using the method of NACA TN 2799 (Ref. 4.1-5):<br>
-WM/ha = 7.75/28.3 = 0.274
-Assuming the surface temperature, ts = 35° F, tau_1 through tau_5 can be found from
-Figure 3-18:<br>
-tau_1 45° F
-tau_2 7° F
-tau_3 24.5° F
-tau_4 4.5° F
-tau_5 0° F (assuming local static pressure equal to freestream pressure)
-Surface heat requirements
-Q= ha(tau_1-tau_2+tau_3-tau_4+tau_5)
-=(28.3 BTU/hr.-ft.^2-F)(45-1+24.5-4.5+0)<br>
-= 1,640 BTU/hr.-ft.^2<br>
-or 3.33 watts/sq. in.<br>
-Actual heater input power requirements will be approximately Q/0.6 or 5.5 watts/sq.in. 
-assuming 60 per cent of the input heat would be transferred to the
-outer surface.
-The 60 per cent efficiency appears to be a good number based
-on previous experience (see NACA RM E51J30 - Ref. 4.1-7).</p>
-</blockquote>
-<p>We will consider a heat transfer coefficient range of +/-25% about the nominal value of 27.5 BTU/h-ft^2-F. 
-We will also consider the laminar cylinder approximation from section ADS-4 section 3.5.2 for the leading edge
-(see <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>). </p>
-<p><img alt="Aircraft A qr running wet" src="/images%2FIntermediate%2FAircraft%20A%20qr%20running%20wet.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>As this case is at the stagnation line, the surface is fully wet. </p>
-<p>The heating required is nearly directly proportional to the heat transfer coefficient. 
-The heat transfer coefficient with the cylinder approximation is greater than 
-the nominal value plus 25%, and the heat required is significantly great than the nominal value.  </p>
-<h2>The effect of local pressure and temperature variations</h2>
-<p>The analysis above averaged all values over the heated surface. 
-As there are several non-linearly varying effects, particularly the vapor pressure of water with temperature, 
-one might question how accurate that is.  </p>
-<p>The water drops are calculated to impinge over a limited area of the surface.<br>
-<img alt="SCM with LEWICE BCs beta" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20beta.png"></p>
-<p>The local pressure, as determined by LEWICE analysis, varies over the heated surface. 
-The "ambient static" pressure line indicates the surface extent of the heating in the ADS-4 example
-(x/c=0.1):<br>
-<img alt="SCM with LEWICE BCs ps" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ps.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>The local temperature also varies:<br>
-<img alt="SCM with LEWICE BCs ts" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20ts.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>LEWICE also calculates external heat transfer coefficients. 
-These include the effects of roughness from an initially iced surface
-(we will look at the heat transfer coefficients for a non-iced surface in a later section). <br>
-<img alt="SCM with LEWICE BCs htc" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20htc.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>LEWICE calculates a heat transfer coefficient value of zero at the stagnation point. 
-This is a feature of some integral boundary layer method formulations (the method used in LEWICE). </p>
-<p>The Standard Computational Model can be used to determine the local heated surface temperature 
-required to evaporate all impinging water locally. 
-There is a temperature "spike" at the stagnation line that is caused by 
-the zero heat transfer coefficient value leading to a non-convergence of the calculation.<br>
-<img alt="SCM with LEWICE BCs t required" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20t%20required.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>The resulting heat required values:<br>
-<img alt="SCM with LEWICE BCs heat required" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20heat%20required.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>The area under the curve is the total heat required for complete evaporation. 
-This is an ideal, minimal value that assumes that the heat is delivered in the prescribed distribution. </p>
-<p>The total heat required values can be compared. 
-The areas under the heating curves are summed up as a function of surface distance.  </p>
-<p><img alt="SCM with LEWICE BCs cumulative q" src="/images%2FIntermediate%2FSCM%20with%20LEWICE%20BCs%20cumulative%20q.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<p>The spatially varying boundary conditions had a minor effect on the heat required values for this case. 
-However, at higher Mach values, the variations can be larger.</p>
-<p>The ADS-4 value is higher that the other values largely because a wider area of heating was considered
-(not just within the impingement limits). </p>
-<h2>Conclusions</h2>
-<p>With the nominal heat transfer coefficient, the ADS-4 results agree well with those 
-calculated with the Standard Computational Model. </p>
-<p>For anti-ice calculations, 
-a 25% change in heat transfer coefficient results in less than a 25% change in heat required.  </p>
-<p>However, for running wet cases, the result is approximately proportional to the heat transfer coefficient. 
-The average heat transfer coefficient may not well represent the leading edge. 
-The use of the more conservative leading edge cylinder approximation appears to be warranted. </p>
-<p>The surface wetness fraction should be included in cases where it is applicable.  </p>
-<p>Local variations in external pressure and temperature had small effects compared to calculations 
-with constant, averaged values.</p>
-<h2>Resources</h2>
-<ul>
-<li>
-<p>"Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>  </p>
-</li>
-<li>
-<p>"Ice, Frost, and Rain Protection", AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>  </p>
-</li>
-<li>
-<p>"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>  </p>
-</li>
-</ul>
-<h2>Related</h2>
-<p>Back to <a href="/aircraft-icing-intermediate-level.html#intermediate-topics">Intermediate Topics</a>  </p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/anti-ice-heat-required-calculations-with-lewice.html" rel="bookmark"
-                           title="Permalink to Anti-Ice Heat Required Calculations with LEWICE">Anti-Ice Heat Required Calculations with LEWICE</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2024-05-20T13:00:00-07:00">
-                Published: Mon 20 May 2024
-        </abbr>
-		<br />
-        <abbr class="modified" title="2024-05-18T12:18:59.680193-07:00">
-                Updated: Sat 18 May 2024
-        </abbr>
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
-
-</footer><!-- /.post-info -->                <p><img alt="Aircraft A LEWICE ideice comparisons q" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png"><br>
-<em>Public domain image by Donald Cook.</em>  </p>
-<h2>Prerequisites</h2>
-<p>You need to have completed <a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
-<h2>Introduction</h2>
-<p>Here, we will see that the values calculated by a multi-node analysis in LEWICE are 
-comparable to the values calculated previously.  </p>
-<p>Running LEWICE for anti-icing calculations involves (necessarily) more complex inputs. 
-The user has to select which set of external heat transfer assumptions to use. 
-The detailed output files require post-processing to extract the total heat required value. </p>
-<h2>Discussion</h2>
-<p>The LEWICE manual describes "deicer" cases that also may be used for 
-anti-ice heat requirement analysis.<br>
-An input is the "IDEICE" value in the case.inp file. 
-By default, this is 0, and an unheated surface ice analysis is performed. 
-However, with IDEICE &gt; 0, ice protection analysis is performed, 
-as detailed in a cased.inp file. 
-A key input in that file is ievap, which for the cases below is set to 
-ievap=1 …</p>
-                <a class="readmore" href="/anti-ice-heat-required-calculations-with-lewice.html">read more</a>
+<p>Heat required is …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
