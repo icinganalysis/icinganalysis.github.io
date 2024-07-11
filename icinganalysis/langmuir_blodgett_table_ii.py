@@ -395,8 +395,8 @@ if __name__ == '__main__':
         inv_ks = table_XI_data[k_phi]['inv_ks']
         ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
         line, = plt.plot(inv_ks, ems, 'o', label=f'Table XI data k*phi={k_phi:.0f}')
-        inv_ks = logspace(-2.5, log10(8), 100)
-        ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
+        inv_ks = logspace(-2.5, log10(8), 100).tolist()
+        ems = [float(calc_em(1 / inv_k, k_phi * inv_k)) for inv_k in inv_ks]
         plt.plot(inv_ks, ems, '-', c=line.get_color())
         ems2 = [calc_em_langmuir_blodgett(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
         plt.plot(inv_ks, ems2, '--', c=line.get_color())
@@ -418,7 +418,7 @@ if __name__ == '__main__':
         ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
         line, = plt.plot(inv_ks, ems, 'o', label=f'Table XI data k*phi={k_phi:.0f}')
         inv_ks = logspace(-2.5, log10(8), 100)
-        ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
+        ems = [float(calc_em(1 / inv_k, k_phi * inv_k)) for inv_k in inv_ks]
         plt.plot(inv_ks, ems, '-', c=line.get_color())
         ems2 = [calc_em_langmuir_blodgett(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
         plt.plot(inv_ks, ems2, '--', c=line.get_color())
