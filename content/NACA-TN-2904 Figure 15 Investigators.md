@@ -56,6 +56,19 @@ Hellen Gallager: [worldcat.org](https://www.worldcat.org/search?q=au=%22Gallaghe
 
 Dorthea Vogt: [worldcat.org](https://www.worldcat.org/search?q=au=%22Vogt%2C%20Dorothea%20E.%22)  
 
+## Update  
+
+A relative of Hellen Gallagher confirmed that the woman on the left is her. 
+
+S. from Ohio emailed:
+
+>The woman on the left is Helen Marie Gallagher (Madden), my Mom. I believe they were doing research for what would become the F-14 fighter.  
+>I found your site while doing a Google search for her - it was a nice surprise to see this photo and your recognition of her and her coworkers. Thank you!  
+>She met my Dad while working at NACA - they got married in 1954. They had eight children together, seven boys and one girl. Helen Marie was an awesome Mom and person.  
+>Thanks again for recognizing her.
+
+An obituary for Helen Marie (nee Gallagher) Madden: [obits.cleveland.com](https://obits.cleveland.com/us/obituaries/cleveland/name/marie-helen-obituary?id=9735217)  
+
 ## Related  
 
 This is part of the [Water Drop Impingement on Surfaces thread]({filename}impingement.md).  
