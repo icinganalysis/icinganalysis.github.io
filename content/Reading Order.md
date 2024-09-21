@@ -45,6 +45,9 @@ to read the articles in the order below.
 - [University of Michigan Airplane Icing Information Course Thread]({filename}U%20of%20Michigan%20Icing.md)  
 - [Water Drop Impingement on Surfaces]({filename}impingement.md)  
 - [Porter Perkins series]({filename}Porter%20Perkins.md)  
+<!--
+- [Properties of Water]({filename}Properties%20of%20water.md)  
+-->
 
 ## Other content  
 

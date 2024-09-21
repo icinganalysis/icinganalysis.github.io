@@ -97,6 +97,8 @@ While most of the NACA publications are available at the NTRS [^6], some are not
     - It is available for purchase from the SAE.  
 - Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876)  
+- Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
+    - This is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
 ## The 132 icing publications  
 
@@ -119,7 +121,7 @@ Links to reviews are included where applicable.
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
         > review: [NACA-TN-1904]({filename}NACA-TN-1904.md)  
     - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
-          - > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
+        > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
     - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952.  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955.  
@@ -130,16 +132,31 @@ Links to reviews are included where applicable.
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957.  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up  
+    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
 
 - Fundamental Properties of Water  
 
     - Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950.  
+      <!--
+        > review: [NACA-TN-2234]({filename}NACA-TN-2234.md)  
+      -->
     - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.  
+      <!--
+        > review: [NACA-TN-2142]({filename}NACA-TN-2142.md)  
+      -->
     - Hacker, Paul T.: Experimental Values of the Surface Tension of Supercooled Water. NACA-TN-2510, 1951.  
+      <!--
+        > review: [NACA-TN-2510]({filename}NACA-TN-2510.md)  
+      -->
     - Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951.  
+      <!--
+        > review: [NACA-TN-2532]({filename}NACA-TN-2532.md)  
+      -->
     - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952.  
+      <!--
+        > review: [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md)  
+      -->
     - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953.  
         > review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 
     - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  
@@ -253,11 +270,11 @@ Links to reviews are included where applicable.
 - Induction System Ice Protection  
 
     - Coles, Willard D.: Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System. NACA-TN-1790, 1949.  
-        > mention: [Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)  
+        > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
-        > review: [Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)  
+        > review: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953.  
-        > mention: [Carburetor and Induction Systems]({filename}Carburetor and Induction Systems.md)  
+        > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
 
 - Turbine-Type Engine and Inlet Icing Studies  
 
@@ -278,7 +295,7 @@ Links to reviews are included where applicable.
     - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
         > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
     - Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952.  
-        > review: [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
@@ -289,15 +306,15 @@ Links to reviews are included where applicable.
     - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953.  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
-        > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
-        > review: [Design Manuals]({filename}Design Manuals.md)  
+        > review: [Design Manuals]({filename}Design%20Manuals.md)  
     - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
-        > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
-        > mention: [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gowan, W. H., Jr., and Mulholland, Donald R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
-        > review: [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)  
+        > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  
 
 - Performance Penalties  
 
@@ -308,9 +325,9 @@ Links to reviews are included where applicable.
     - Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
         > review: [NACA-TN-1598]({filename}NACA-TN-1598.md)  
     - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
-        > review [Compressed Air Heat]({filename}Compressed air heat.md)  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
-        > review: [Deicing boots and ice adhesion]({filename}Deicing boots and ice adhesion.md)  
+        > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  
     - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1957.  
@@ -372,12 +389,12 @@ Links to reviews are included where applicable.
     - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [Reprint included in NASA-TM-81651]  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  
-          - > review: [Airships](NACA-TN-4220.md)  
+        > review: [Airships](NACA-TN-4220.md)  
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  
-        > review: [FAA-ADS-4]({filename}ads4.md), [Design Manuals]({filename}Design Manuals.md)  
+        > review: [FAA-ADS-4]({filename}ads4.md), [Design Manuals]({filename}Design%20Manuals.md)  
 
 ## Notes  
 
