@@ -120,13 +120,12 @@ TM = 9.95-7.21 log D.
 
 ![Figure 2. Straight line fitted to the data from reference 2 for diameter D against freezing temperature.](/images%2FNACA-TN-2234%2FFigure%202.png)  
 
->With the constants r and P 0 now known, it is possible to compute 
+>With the constants r and ρ0 now known, it is possible to compute 
 the probability curves for various droplet sizes. A comparison
 between these curves and the corresponding experimental frequency-
 distribution curves of reference 2 is given in figure 3 where histograms
 of the experimental data are reduced. to the probability scale. 
-Figures 3(b) to 3(d) 
-represent the results obtained for the droplet sizes
+Figures 3(b) to 3(d) represent the results obtained for the droplet sizes
 with the greatest amount of experimental data, and figures 3(a) and 3(e)
 represent the results for the extremes of the size range investigated.
 where the data were limited. In the computation of the probability
