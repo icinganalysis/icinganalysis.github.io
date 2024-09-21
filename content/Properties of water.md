@@ -46,7 +46,7 @@ The Historical Selected Bibliography of NACA-NASA Aircraft Icing Publications - 
 - [NACA-TN-2142]({filename}NACA-TN-2142.md) "Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets"
 >"Although supercooled water has been observed and reported for over two centuries, considerable disagreement exists as to the degree of supercooling possible and the factors that influence supercooling  
 
-- [NACA-TN-2234]({filename}NACA-TN-2234.md) "Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets"  
+- [NACA-TN-2234]({filename}NACA-TN-2234.md) "Statistical Explanation of Spontaneous Freezing of Water Droplets"  
 >"very few supercooled droplets exist at temperatures lower than -35° C and the existence of an icing cloud at such low temperatures is probably an unusual occurrence"  
 
 - [NACA-TN-2510]({filename}NACA-TN-2510.md) "Experimental Values of the Surface Tension of Supercooled Water"  
@@ -59,12 +59,6 @@ The Historical Selected Bibliography of NACA-NASA Aircraft Icing Publications - 
 >"complete knowledge of the physical conditions under which supercooled clouds may exist, and the factors that cause a supercooled cloud to transform to an ice-crystal cloud is necessary"  
  
 - Conclusions of the Properties of Water thread [In Work]  
-
-
-
-
-
-
 
 
 
