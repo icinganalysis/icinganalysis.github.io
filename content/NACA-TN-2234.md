@@ -18,7 +18,8 @@ results showing that on the average small droplets can be supercooled.
 to lower temperatures than large ones. Small nuclei of crystallization 
 are assumed responsible for causing supercooled water to freeze
 spontaneously.  
-The average behavior of supercooled droplets is reproduced on the
+> 
+>The average behavior of supercooled droplets is reproduced on the
 basis of probability theory with an assumed distribution of crystallization 
 nuclei with respect to the temperatures at which the nuclei
 cause freezing. The most probable distribution curves of spontaneous
@@ -34,7 +35,8 @@ freezing temperature of drops based on the mote (small particle) theory of initi
 An approximate correspondence of theory to test data is found, with several caveats noted.  
 
 >INTRODUCTION  
-The prolonged operation of unprotected. aircraft in supercooled
+> 
+>The prolonged operation of unprotected. aircraft in supercooled
 clouds has been found to be a hazard. For the icing hazard to be overcome, 
 the physical conditions under which supercooled clouds exist must
 be understood. The physics of supercooling and freezing is incompletely
@@ -47,7 +49,8 @@ in water sample, and sound waves;
 > (3) length of time water has existed in supercooled state;  
 > (4) impurities; and  
 > (5) droplet size.  
-Investigators seem to agree that an ice crystal introduced into a
+> 
+>Investigators seem to agree that an ice crystal introduced into a
 sample of supercooled. water will cause the water to freeze. Recent
 experiments by Dorsey (reference 1) indicate that mechanical shock,
 however, is of little importance in freezing of supercooled. water; like-
@@ -72,12 +75,14 @@ average spontaneous freezing temperature of each size group decreased
 with decreasing droplet size.
 
 >THEORY  
-An assumption is made that a large number of motes are present in
+> 
+>An assumption is made that a large number of motes are present in
 liquid water. Also, each mote is assumed to be associated, with a definite 
 spontaneous freezing temperature. The freezing temperature of a
 water sample is governed by the mote in the sample that is associated.
 with the highest freezing temperature.  
-In the experiment reported in reference 2, water was condensed
+> 
+>In the experiment reported in reference 2, water was condensed
 from the atmosphere in the form of frost on a polished metal surface
 by lowering its temperature to approximately 35 C. The frost was subsequently 
 melted and droplets formed on the surface. Repeated application 
@@ -101,12 +106,15 @@ the mote of kind. T causes water to freeze.
 and the total number of volumes V obtainable from V is v/Δv = μ.  
 (3) The number of draws In each set of draws from V is so small
 that μ is practically unchanged while a set is being drawn.  
+> 
+> ...
 
 The extensive mathematical model contained in the publication is not detailed herein. 
 We will discuss the results and conclusions.  
 
 >RESULTS AND DISCUSSION  
-For comparison of the theory of this, report with the experimental
+> 
+>For comparison of the theory of this, report with the experimental
 results of reference 2, the data of reference 2 for the average freezing
 temperature-size curve are replotted on semilog paper, and an irregular
 curve that can be fitted reasonably well with a straight line is obtained.
@@ -148,7 +156,8 @@ deviations of the experimental curves are between 2 and 4 times as great
 and are roughly constant in the size range below 100 microns (fig. 4).
 Above 100 microns there is a sharp increase in the standard deviation of
 the experimental data to a higher approximately constant value of 3.8.
-The foregoing difference between the experimental and theoretical
+> 
+>The foregoing difference between the experimental and theoretical
 curves cannot be ascribed to the fact that the experimental data are
 grouped into narrow droplet-size ranges to provide the freezing-
 temperature distribution curves for a given average droplet size. A
