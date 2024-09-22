@@ -138,25 +138,15 @@ Links to reviews are included where applicable.
 - Fundamental Properties of Water  
 
     - Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950.  
-      <!--
         > review: [NACA-TN-2234]({filename}NACA-TN-2234.md)  
-      -->
     - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.  
-      <!--
         > review: [NACA-TN-2142]({filename}NACA-TN-2142.md)  
-      -->
     - Hacker, Paul T.: Experimental Values of the Surface Tension of Supercooled Water. NACA-TN-2510, 1951.  
-      <!--
         > review: [NACA-TN-2510]({filename}NACA-TN-2510.md)  
-      -->
     - Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951.  
-      <!--
         > review: [NACA-TN-2532]({filename}NACA-TN-2532.md)  
-      -->
     - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952.  
-      <!--
         > review: [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md)  
-      -->
     - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953.  
         > review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 
     - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  
