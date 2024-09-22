@@ -2,7 +2,6 @@ Title: Properties of Water
 Date: 2024-09-23 12:00  
 Category: NACA  
 tags: freezing, water drops 
-status: draft  
 
 ### _"Although many important advances have been made in the control of ice formation on aircraft in flight, little progress has been made toward an understanding of the fundamental processes involved in the formation of ice or the prediction of such formation."_  
 

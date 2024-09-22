@@ -2,7 +2,6 @@ Title: NACA-TN-2532
 Date: 2024-10-07 12:00  
 Category: NACA  
 tags: freezing, water drops, x-ray diffraction  
-status: draft
 
 ### _"supercooled water was concluded to become progressively more ice-like as the temperature is lowered"_  
 

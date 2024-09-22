@@ -2,7 +2,6 @@ Title: NACA-TN-2510
 Date: 2024-10-02 12:00  
 Category: NACA  
 tags: water drops  
-status: draft
 
 ### _"a need has arisen for a more complete understanding of the physical properties of supercooled water because few of the physical properties of water have been investigated at temperatures much below 0° C"_  
 

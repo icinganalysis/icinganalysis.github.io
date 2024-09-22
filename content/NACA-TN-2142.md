@@ -2,7 +2,6 @@ Title: NACA-TN-2142
 Date: 2024-09-25 12:00  
 Category: NACA  
 tags: freezing, water drops  
-status: draft  
 
 ### _"Although supercooled water has been observed and reported for over two centuries, considerable disagreement exists as to the degree of supercooling possible and the factors that influence supercooling."_  
 
