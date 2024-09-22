@@ -14,7 +14,7 @@ _From NACA-RM-E51L17._
 There was limited data for properties of liquid water below the temperature of 0° C (supercooled water) at the start of the NACA-era. 
 The five studies reviewed here sought to improve the data available.  
 
-The authors were well-aware of other studies available at the time. 
+The authors were well-informed of other studies available at the time. 
 New instruments were conceived and built for these studies. 
 
 These five studies largely considered water drops, 

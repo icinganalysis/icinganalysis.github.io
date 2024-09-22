@@ -1,0 +1,648 @@
+________________________________________________________________________
+C                 data   for   the   composite   body                    
+________________________________________________________________________
+C
+C     This is the first of five data sections used for thermal routines. 
+C     This section defines the internal geometry being used.
+C
+C     comments:                                                        
+C
+C     You can have an unlimited number of comment lines to provide 
+C     descriptions. Comment lines contain non-numeric text in the first
+C     30 columns. Data lines should not contain text descriptions.
+C
+C     Data is input using free-form read statements. That means that 
+C     it does not matter which column the data is in, so long as it
+C     is there. Blank lines will be read as data lines, so be sure 
+C     to put at least one character (such as the 'C') to add white space.
+C
+C     Layers in the y-direction make up the different materials in the    
+C     deicer - abrasion shield, insulation, heater, etc.                      
+C
+C     Sections in the x-direction allow for different physical properties 
+C     only in the heater layer, i.e., heater-gap-heater. Nodal structure      
+C     (dx) is used in every layer.                                            
+C
+C     Make sure the number of layers (value of l) equals the number of    
+C     lines of data provided. The same goes for the number of heater sections.
+C
+C     If ice is considered, it is the top layer. The length (thickness) of
+C     the top layer given here is used only to determine dy in the ice layer. 
+C     The actual initial thickness of the ice is assumed zero.
+C     Ice thickness during the simulation is given by the accretion algorithm.
+C
+C     Limits on input: 290 nodes in y-direction (actual nodes used =      
+C     number input - number of layers + 2). Limit of 29 layers in y-direction 
+C     Limit of 290 nodes in x-direction (no double counting as above). Limit  
+C     of 29 sections in x-direction (total of heaters + gaps).                
+C
+C     l= total number of layers in the y-direction            
+C     nx= total number of heater sections in the x-direction  
+C
+ l    nx
+ 2    9 
+C
+C     Data for each layer:                                                    
+C
+C     nodes = # of points in that layer or section
+C     length = length (thickness) of layer or section
+C
+C     Conductivity can be temperature dependant. The value in the 
+C     conductivity field is the thermal conductivity at 0 deg. C (32 deg. F)
+C     Slope of temperature dependance is given by the "slope" column
+C     Equation:   k=a+b*[t-tmp]
+C
+C     Diffusivity is the thermal diffusivity = k/(rho*c_p)
+C
+C     Anisotropy factor defines the ratio of conductivity in x-direction
+C     divided by conductivity in y-direction
+C
+C     If you have water hitting the surface, make sure top (last) section
+C     contains ice properties. Physical properties will be changed if water
+C     is formed.
+C
+C     Note that all units are metric.
+C
+C            
+ # of   length    conductivity   diffusivity  anisotropy  slope (b) of
+ nodes   (m)        (W/m/K)        (m**2/s)      factor     temp. eqn.    
+C     substrate(alumuinum)
+ 25    1d-3  176.530d0       4.260d-5       1.d0      0.d0
+C     ice
+ 61    2.540d-3     2.232d0       1.151d-6       1.d0      0.d0
+C
+C     Data for each heater/gap section:  
+C
+C     End section lengths can be estimates. The program will increase
+C     or decrease these lengths to match the wrap distance around
+C     the body. The thermal properties listed here will only be used
+C     in the heater layer and will overwrite the values given above
+C     for that section. By default, the program will choose the center
+C     of the middle section (determined by length, not by section number).
+C     This can be changed using the variable OFFSET in the next section. 
+C
+ # of   length     cond.     diff.   anis.  slope of    add.   layer  
+ nodes   (m)      (W/m/K)  (m**2/s)        temp. eqn.  thick.  number 
+C     gap (no heat input)
+ 10    0.9144d0  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater G
+ 14    3.175d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater E
+ 21    2.540d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater C
+ 21    2.540d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     parting strip - heater A
+ 36    1.905d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater B
+ 21    2.540d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater D
+ 21    2.540d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     heater F
+ 14    3.175d-2  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C     gap (no heat input)
+ 10    0.9144d0  176.56d0  4.260d-5  1.d0    0.d0     0.d0       1
+C
+________________________________________________________________________
+C                    data   for   the    heater                           
+________________________________________________________________________
+C
+C     This is the second of five data sections used for thermal routines. 
+C     This section defines the heater wattages and cycle times.
+C
+C     Comments:                                                        
+C
+C     Make sure the number of lines of heater power densities equals the   
+C     number of heater sections given in body data file. Also be sure that the
+C     wattages are in a heater section, not in a gap.                         
+C
+C     Lag time is the amount of time, starting from the beginning of the   
+C     simulation, before that heater begins its cycle. The heater will then be
+C     on for the duration of the on time, then will turn off for the amount of
+C     time given in the off column, and then will turn on again.  Lag time 
+C     allows for ice accretion before the heater cycles begin. Use this option
+C     when you want the program to start at a point where ice has already 
+C     formed on the body.
+C
+C     The temperature control flag allows that heater to be temperature
+C     controlled instead of cycled on and off. Set the flag > 0 to use
+C     this option. The heater wattage input then becomes the initial
+C     wattage of that heater. Variable TON then becomes the lower temperature
+C     bound and TOFF becomes the upper temperature bound. This means that when
+C     the temperature is less than TON, the wattage will be increased and
+C     when the temperature is greater than TOFF it is decreased. If all
+C     heaters are set like this, the steady-state answer will be the optimal
+C     wattages for that condition. The value of the temp. control flag
+C     sets the layer for the temperature control. For example, if the flag 
+C     is set = 6, then the temperature of layer six (abrasion shield in 
+C     Example 1) will be used to control the heater. If the flag is set = 4, 
+C     then in Example 1, the heater temperature would be used. In each case, 
+C     the temperature will be taken from the middle of the section and the 
+C     bottom of the layer. (diagram)
+C     ______________
+C     |             |   X marks position of temperature controlled heater
+C     -------X-------
+C
+C     The value of ipar is the number of parameter studies you wish to do 
+C     for heater wattages and/or on-off cycles.
+C
+C     Program is currently limited to 29 case studies per run. Make an     
+C     additional run if you wish to do a wider variety or change dimension    
+C     statements on q, ton, toff, and tlag in program.                        
+C
+C     offset= offset for leading edge heater (s/c). 
+C             Use negative value for negative offset
+C     ipar= number of case studies to run                 
+C
+ijde  offset ipar
+001   0.000   1                
+C
+C     note: W/in^2 * 1.55 = kWatt/m^2
+C
+C     Q            TON          TOFF       TLAG     ICFLAG
+ heater density  time on     time off    lag time  temp cntrl.
+ (kWatts/m**2)     (sec)       (sec)       (sec)   flag 
+C     gap (no heat input)
+      0.0d0         0.d0        0.d0        0.d0     0                
+C     heater G
+     00.00d0      600.d0        0.d0        0.d0     0
+C     heater E
+      0.00d0      600.d0        0.d0        0.d0     0
+C     heater C
+     00.00d0      600.d0        0.d0        0.d0     0
+C     parting strip (heater A) does not turn off
+     00.00d0      600.d0        0.d0        0.d0     0
+C     heater B
+     00.00d0      600.d0        0.d0        0.d0     0
+C     heater D
+     00.00d0      600.d0        0.d0        0.d0     0
+C     heater F
+     00.00d0      600.d0        0.d0        0.d0     0
+C     gap (no heat input)
+      0.0d0         0.d0        0.d0        0.d0     0  
+C              
+________________________________________________________________________
+C                   boundary   condition   data                          
+________________________________________________________________________
+C
+C     This is the third of five data sections used for thermal routines. 
+C     This section defines boundary condition info.
+C
+C     Comments:                                                        
+C
+C        for constant temperature boundary conditions at j=1 ibc1=1      
+C         "      "          "         "         "     at j=m ibc2=1      
+C         "      "          "         "         "     at i=1 ibc3=1      
+C         "      "          "         "         "     at i=n ibc4=1      
+C         "  convection boundary conditions           at j=1 ibc1=2      
+C         "       "         "         "               at j=m ibc2=2      
+C         "       "         "         "               at i=1 ibc3=2      
+C         "       "         "         "               at i=n ibc4=2      
+C         "  wall heat flux boundary conditions       at j=1 ibc1=3      
+C         "       "         "         "               at j=m ibc2=3      
+C         "       "         "         "               at i=1 ibc3=3      
+C         "       "         "         "               at i=n ibc4=3      
+C         "  accretion boundary condition             at j=m ibound=3      
+C
+C     Boundary conditions for a deicer are normally insulated on the left 
+C     and right sides, insulated (or low h value) at the bottom, and a        
+C     variable h at the top surface, i.e., all sides have convection boundary.
+C
+C     Boundary conditions for a hot air anti-icer use a larger heat
+C     transfer coefficient on the lower surface or a given heat flux. Other
+C     b.c's are the same as for a deicer.
+C
+C     Other options are provided if the user wishes to investigate other two 
+C     dimensional heat transfer phenomena not involving a deicer.             
+C
+C     Boundary and initial conditions:                                        
+C
+C     Type of boundary condition:
+C             
+ibc1 ibc2 ibc3 ibc4
+2    2    2    2          
+C
+C    temperature data for bottom, left, and side boundaries               
+C        ambient  (constant) temperature  at j=1  tg1 = deg.K
+C        ambient  (constant) temperature  at j=m  tg2 = deg.K 
+C           "         "          "        at i=1  tg3 = deg.K  
+C           "         "          "        at i=n  tg4 = deg.K  
+C
+ tg1     tg2    tg3    tg4
+ 266.5  266.5  266.5  266.5      
+C
+C     heat transfer coeff.  at j=1   h1 = W/m**2/K    
+C     heat transfer coeff.  at j=m   h2 = W/m**2/K
+C      "      "       "     at i=1   h3 = W/m**2/K 
+C      "      "       "     at i=n   h4 = W/m**2/K  
+C
+ h1      h2     h3     h4  
+ 3.d0   3.d2   0.d0   0.d0 
+C       
+C       wall heat flux (ibc1=3)       at j=1  qw1 = kW/m**2    
+C       wall heat flux (ibc2=3)       at j=m  qw2 = kW/m**2    
+C       wall heat flux (ibc3=3)       at i=1  qw3 = kW/m**2    
+C       wall heat flux (ibc4=3)       at j=m  qw4 = kW/m**2    
+C
+ qw1     qw2    qw3    qw4
+ 0.d0    0.d0   0.d0   0.d0 
+C
+________________________________________________________________________
+C                      miscellaneous data                             
+________________________________________________________________________
+C
+C     This is the fourth of five data sections used for thermal routines. 
+C     This section defines miscellaneous input which didn't seem
+C     to fit in other sections.
+C
+C     Comments:                                                        
+C
+C       This next set of inputs sets values for hot air anti-icing.
+C       If you are modelling an electrothermal system, the code
+C       won't use any of these values. AIRUP is the fraction 
+C       (between 0 and 1) of the hot air which flows just under the 
+C       upper surface of the airfoil while (1-AIRUP) is the fraction
+C       which is supplied to the lower surface.
+C       XAIRMD is the wrap distance from the min. x-location on the
+C       clean airfoil where the air is supplied. (diagram)
+C
+C            _----------
+C           /    > AIRMD*AIRUP = mass flow rate at top surface
+C          /
+C XAIRMD ->| <---- air supplied at TAIRH at rate AIRMD
+C          \
+C           \    > AIRMD*(1-AIRUP) = mass flow rate at bottom surface
+C            -___________
+C
+C       tairh = hot air temperature  (deg. K)
+C       xairmd = hot air mass flow rate (kg/(m*s))
+C       airup = fraction going 'up' (right) 
+C       xairmd = hot air supply location (m) from leading edge
+C
+ tairh  airmd       airup   xairmd
+  449.8  0.032    0.5    0
+C  4.498d2  1.8395d-2    0.5d0    0.d0
+C  4.498d2  1.11d-2    0.5d0    0.d0
+C
+C       nhole = # of holes chordwise (do not input > 1 set)
+C       dhole = piccolo hole diameter (m)
+C       dtube = piccolo tube diameter (m)
+C       rdist = spanwise distance between holes (# of hole diameters)
+C       ycase = spanwise section to analyze (m)
+C       xuhnd = end of upper surface heated section (m)
+C       xulnd = end of lower surface heated section (m)
+C
+ nhole  dhole    dtube  rdist  ycase  xuhnd  xlhnd
+  3   0.00132  0.0381   50.    0.0    0.1   0.1
+C
+C     icase = 0 no  correlation 
+C     icase = 1, goldstein correlation 
+C     Nu = hconst * Re^rep * (24 - |z/d - 7.75|)/(533 + 44 * (r/d)^rp)
+C     icase = 2, generic correlation
+C     Nu = hconst * Re^rep * (z/d)^zp * (r/d)^rp * rdist^rrp * (dtube/d)^dp
+C
+ icase  hconst  rep    rp    zp  rrp  dp
+  1      1.0  0.76   1.394  1.   0.   0.
+C
+C     xhole = wrap distance from leading edge to jet impact
+C     yhole = relative span distance from ref. pt. to jet impact
+C     zdist = distance from piccolo hole to leading edge to jet impact
+C
+ xhole(m)    yhole(m)   zdist(m)
+  -0.0176     -0.033     0.0107
+   0.000       0.000     0.0091
+   0.0176     -0.033     0.0076
+C
+C     iliner = 0, no liner; = 1 uses liner for piccolo tube
+C     xuliner = avg. distance from liner to wall on upper surf. (m) 
+C     xlliner = avg. distance from liner to wall on lower surf. (m) 
+C     xulst = chord distance from leading edge to start of liner (m)
+C     xulnd = chord distance from leading edge to end of liner (m)
+C     xllst = chord distance from leading edge to start of liner (m)
+C     xllnd = chord distance from leading edge to end of liner (m)
+C
+ iliner  xuliner xlliner  xulst    xulnd  xllst  xllnd
+   1  0.01  0.01  0.05  0.1 0.05 0.1
+C   1     0.01     0.01   0.02546   0.10   0.02546 0.10
+C
+C     iqain = 0 no input for heat fluxes
+C     iqain = 1 heat flux at lower surface is read in from file
+C
+C     ibleed = 0 no input for lower surface heat transfer coefficients
+C     ibleed = 1 htc at lower surface is read in from file
+C
+C     if hot air flux is read in, iqain =1.   
+C     if bleed air htc is read in, ibleed =1.   
+C     if optimum heat flux is desired, iopt =1.
+C
+i3d   iqain  ibleed iopt itsur
+ 0     0      0      0     0 
+C
+C        if conduction is considered during initial lag icond=1
+C        if conduction is estimated during initial lag icond=0 
+C        if shedding is considered ish=1                                 
+C        if shedding is not considered ish=0                             
+C        if phase change is considered ig=1                              
+C        if phase change is not considered ig=0                         
+C
+C     During initial time lag, while only ice is accreted, you can choose
+C     whether to have the program calculate conduction into the ice and 
+C     airfoil using the deicer module (icond=2 - slow) or have conduction
+C     effects estimated (icond=1 - fast) as is done in LEWICE 2.0.
+C
+C     Variable IBOUND sets the upper convection boundary when IBC2 = 2.
+C
+C        ibound = 1  upper htc = h2 (constant) below
+C        ibound = 2  upper htc is calculated from flow field/boundary layer
+C                    (dry air case; same as setting LWC=0)
+C        ibound = 3  full energy balance at surface
+C
+C     Set value of init = 1 if you want the blade to be initialized to   
+C     the ambient temperature. Set value of init = 2 if you want the blade to
+C     be initialized to the recovery temperature, which is the ambient       
+C     temperature + kinetic heating -boundary layer losses. Set value of     
+C     init = 3 if you want the blade to be initialized to the accretion      
+C     temperature assuming no heat transfer into the body.                  
+C
+C     Ice shedding can be turned off with the ISH flag. Normally, this is
+C     only done to debug the code. The user also has two shedding options.
+C     In the first option, no ice will be shed until the code indicates
+C     that the entire ice mass will shed (conservative estimate).
+C     In the second option, ice will shed in sections (low ice cohesion).
+C     Examples are provided in the user manual for both options.
+C
+C     icond = is conduction used during tlag?  0=no. 1=yes.   
+C     ibound = use ibound=3 to do ice accretion at top surface    
+C     init = initialize blade temps to which values (see above)    
+C     ish = is shedding considered?   0=no 1=yes             
+C     istd = all shed (istd=0), by sections (istd=1), nodal (istd=2)
+C     igde = is phase change considered? if yes, igde=1. if no, igde=0.  
+C
+icond  ibound  init  ish  istd  igde
+ 1      3       2     1    1    1
+C
+C     Program assumes that if ice is present, it is the top layer. 
+C     Some physical properties of ice are taken from the data given   
+C     in body data section for the top layer.                                                 
+C 
+C     The following inputs contain the input data for the 1D analysis 
+C     performed by LEWICE 2.0 which can also be done with this program.
+C     (This option is a lot faster than the full solution.)
+C                               
+C     tsurf = temperature for one-d analysis (deg K)
+C     ievap = evaporative=1, running wet=0 
+C     itherm =  electrothermal=0, hot air=1
+C     
+ tsurf  ievap  itherm 
+ 296.7   2     1
+C 
+C     Also included are a rotor speed, and the spanwise distance 
+C     from the rotor root where the simulation occurs.
+C     For a fixed wing or other non-rotating body, just set rpm=0
+C     Rotor speed will increase the apparent velocity to the model,
+C     increasing the Mach number and the kinetic heating due to
+C     the air. It also increases the aerodynamic forces on the ice
+C     making ice shedding easier.
+C      
+C     sta  = location on rotor to simulate (distance from hub) (m)      
+C     rpm  = rotor velocity  (rpm)      
+C     irot =  prop=0, rotor=1
+C
+sta     rpm   irot
+10.d0   0.d0   1 
+C
+C
+C     Variable time steps can be used to study phenomena which are known  
+C     to occur during a specific period. It has been used to determine exact  
+C     time of initial melting and shedding, but it is not necessary to do this.
+C
+C     dtaui = initial time step  (s)   
+C     nisp =  # of time steps where dtaui will be used 
+C     dtaum = intermidiate time step (s) 
+C     nmsp  = # of time steps where dtaum will be used
+C     dtauf = final time step (s)
+C  
+C     jcount = number of phase change iterations       
+C
+C     Because of the numerical method used, the program needs to assume   
+C     the phase of the ice/water (solid, melt, liquid) at each node and to    
+C     check this against the solution matrix. 10 iterations (or less) have    
+C     been sufficient in the past. Extremely complex problems may require more.
+C
+C     You will be informed by the program if you need more iterations. 
+C
+dtaui  nisp  dtaum  nmsp  dtauf  jcount
+1.d-1  1000  1.d-1  1000  1.d-1    20
+C
+C     TSPRAY is used to turn on the heaters before water hits the body.
+C     This allows for pre-heating of the body.
+C
+C     TAFTER is used to allows heaters to keep going after the 
+C     water stops hitting the body. This allows you to simulate
+C     the plane de-icing after exiting a cloud.
+C
+C     tspray = time before spray on                
+C     tafter = time after spray off   
+C             
+tspray  tafter
+ 0.d0   0.d0
+C
+C     The inputs below allow for additonal data to be read in from files. 
+C     The first row defines the data location for hot air heat transfer 
+C     coefficients. The second row defines the data location for hot air
+C     heat fluxes. The third row defines the data location for 3D
+C     streamline information. The streamline information defines the 
+C     relative distance between two streamlines in the chordwise direction.
+C     A value of 1.0 is used as the reference. If the streamlines at a 
+C     given chord location are closer together, this value is < 1.0
+C     If they are farther apart, this value is > 1.0 This allows a 
+C     pseudo-3D effect for runback purposes.
+C
+C     iscol  =  column containing wrap distance
+C     jscol  =  column containing dependant variable (e.g. q_wall)
+C     kscol  =  total number of columns in the input file
+C     sslope =  scaling factor to be used (useful if input is in 
+C               different units - code expects s/c values)
+C     szero  =  contains distance (in s/c) to offset values.
+C               The program expects the zero wrap distance to be
+C               at the leading edge. If the data is not supplied in
+C               that format, the szero value can be used so that
+C               data will be interpreted properly by the program.
+C
+C     Note: These values are read in even if this option is not
+C           selected in the main LEWICE input file.
+C
+iscol   jscol   kscol   sslope   szero
+input parameters for reading in hot air HTC info
+  1       2       2      1.0    1.016d0
+input parameters for reading in hot air q_wall info
+  1       2       2      1.d0     0.d0
+input parameters for reading in surface temperature info
+  1       2       2      1.d0     0.d0
+input parameters for reading in 3D streamline info
+  1       2       2      1.d0     0.d0
+________________________________________________________________________
+C                      input/output   parameters               
+________________________________________________________________________
+C
+C     This is the last of five data sections used for thermal routines.        
+C     This section defines the time step and I/O options
+C
+C     Comments:                                                        
+C
+C     Limits on input: value of nprt = 50 (hence limit on temp. locations 
+C     and times you can specify); value of nptsd = 50 (limit of number of ice  
+C     profiles printed out).                                                  
+C
+C     Time step for a problem where the unsteady-state solution is wanted 
+C     should not be greater than 0.1 sec. If a steady-state problem is being  
+C     solved using this program, larger time steps may be utilized.           
+C
+C     Number of points to be output is ignored if iotype = 4.           
+C     position data (x or y layer) is ignored if iotype = 5.              
+C     Values are needed for formatting. However, for iotype = 4, you can  
+C     input nptsd=0 if you wish.                                             
+C
+C     nprt = number of PLOT3D files to be output   
+C
+nprt  nprf
+ 0    0
+C
+C     The times below contain the times at which
+C     you want a PLOT3D file to be output.
+C 
+PLOT3D output times (sec)
+C                                                    
+C     For iotype = 1, the left number input is the x-section number you   
+C     want printed out. The second number designates whether you want  
+C     the left (1), middle (2), or right (3) node of this section. The third  
+C     number is the y-layer you want printed out and the last number
+C     is for the bottom (1), middle (2), or top (3) node of this layer. 
+C     This output type will print out T(t) at a specific location which
+C     is the same as a thermocouple output.  
+C
+C     For iotype = 2 or = 3, the left number is the time step at which    
+C     output is given. For iotype = 2, the third value is the y-layer of the  
+C     nodes to be output and for iotype = 3, it is the x-section of the nodes 
+C     output. The second number is ignored, and the last number is described   
+C     above for each type (x or y).                                           
+C
+C     For iotype = 4, everything is printed out, so the program will      
+C     ignore items input. It is recommended that you leave something     
+C     there so that you don't forget the formatting of the data for 
+C     other types of output.      
+C
+C     For iotype = 5, everything but the first number is ignored. This 
+C     value is the time step at which you want the output.                    
+C     The format for the nprt values is the same as that for iotype = 5.  
+C
+C     if iotype = 1, prints t(time) at x1,y1; x2,y2; etc.                     
+C     if iotype = 2, prints t(x) at time1,y1; time2,y2; etc.                  
+C     if iotype = 3, prints t(y) at time1,x1; time2,x2; etc.                  
+C     if iotype = 4, prints all nodes at all timesteps                        
+C     if iotype = 5, prints t(x,y) at time1, time2; etc.
+C
+C     Note: In this input, time is read as an integer!
+C
+C     ntype = number of types of output 
+C            
+ntype
+  3
+C
+C     iotype = type of output requested 
+C     nptsd =  number of points to be output 
+C
+iotype  nptsd
+  1      14
+C       section where    layer  where
+           5     2         1      3
+           5     2         1      1
+           4     2         1      3
+           4     2         1      1
+           6     2         1      3
+           6     2         1      1
+           3     2         1      3
+           3     2         1      1
+           7     2         1      3
+           7     2         1      1
+           2     2         1      3
+           2     2         1      1
+           8     2         1      3
+           8     2         1      1
+C
+C     iotype = type of output requested 
+C     nptsd =  number of points to be output 
+C
+iotype  nptsd
+  2       30
+C
+C        time       layer   where
+C        (sec)
+            5         1       1
+           10         1       1
+           15         1       1
+           20         1       1
+           25         1       1
+           30         1       1
+           35         1       1
+           40         1       1
+           45         1       1
+           50         1       1
+           55         1       1
+           60         1       1
+           65         1       1
+           70         1       1
+           75         1       1
+           80         1       1
+           85         1       1
+           90         1       1
+           95         1       1
+          100         1       1
+          105         1       1
+          110         1       1
+          115         1       1
+          120         1       1
+          125         1       1
+          130         1       1
+          135         1       1
+          140         1       1
+          145         1       1
+          150         1       1
+C
+C     iotype = type of output requested 
+C     nptsd =  number of points to be output 
+C
+iotype  nptsd
+  3      30
+C          time    section  where
+C         (sec)
+             5        5       2
+            10        5       2
+            15        5       2
+            20        5       2
+            25        5       2
+            30        5       2
+            35        5       2
+            40        5       2
+            45        5       2
+            50        5       2
+            55        5       2
+            60        5       2
+            65        5       2
+            70        5       2
+            75        5       2
+            80        5       2
+            85        5       2
+            90        5       2
+            95        5       2
+           100        5       2
+           105        5       2
+           110        5       2
+           115        5       2
+           120        5       2
+           125        5       2
+           130        5       2
+           135        5       2
+           140        5       2
+           145        5       2
+           150        5       2
+    

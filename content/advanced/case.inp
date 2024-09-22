@@ -1,0 +1,47 @@
+# LEWICE ignores input outside of an "&" block
+# Values that affected the inputs can be documented here
+ice_density =  917
+sweep  =  0.0
+case  =   
+&LEW20
+ITIMFL =  1
+TSTART =  0.0
+TSTOP  =  300.0
+IBOD   =  1
+IFLO   =  1
+DSMN   =  0.000400
+NPL    =  24
+RHOP   =  1000.000000
+IGRID  =  0
+IBOE   =  0
+IDEICE =  2
+IHTC   =  0
+&END
+&DIST
+FLWC   =  0.05000, 0.10000, 0.20000, 0.30000, 0.20000, 0.10000, 0.05000
+DPD    =  6.20000, 10.40000, 14.20000, 20.00000, 27.40000, 34.80000, 44.40000
+&END
+&ICE1
+CHORD  =  1.7018
+AOA    =  -1.600
+VINF   =  91.64
+LWC    =  0.450
+TINF   =  266.483
+PINF   =  78185.4
+RH     =  100.0
+SREF   =  1
+&END
+&LPRNT
+FPRT   =  2
+HPRT   =  2
+BPRT   =  2
+EPRT   =  2
+MPRT   =  2
+TPRT   =  0
+IDBF   =  0
+KWARN  =  0
+&END
+&RDATA
+&END
+&BOOT
+&END
