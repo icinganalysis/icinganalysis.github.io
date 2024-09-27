@@ -49,9 +49,10 @@ The two other studies have been reviewed previously, as noted below.
 
 - [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md) "A Photographic Study of Freezing of Water Droplets Falling Freely in Air"  
 >"complete knowledge of the physical conditions under which supercooled clouds may exist, and the factors that cause a supercooled cloud to transform to an ice-crystal cloud is necessary"  
- 
-- Conclusions of the Properties of Water thread [In Work]  
 
+## Related  
+
+See also the [Meteorology of Icing Clouds Thread]({filename}Meteorology.md).  
 
 
 
