@@ -25,9 +25,13 @@ Publications from
 
 - _"The engine was satisfactorily accelerated to take-off power after approximately 45 minutes in the icing condition"_  
 
+[NACA-RM-E50I08]({filename}NACA-RM-E50I08.md) "Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes"  
+
+- _"Ice formations ... may have the following effects, which when combined may become serious enough to necessitate a shutdown of the engine: reduced engine thrust, increased,fuel consumption, and increased tail-pipe temperature"_  
+
 [NACA-RM-E50E03]({filename}NACA-RM-E50E03.md) "Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation inlets for Turbojet Engines"  
 
-- _"Complete icing protection for inlet guide vanes of a turbojet engine could not be achieved"_  
+- _"Complete icing protection for inlet guide vanes of a turbojet engine could not be achieved"_
 
 [NACA-RM-E50H29]({filename}NACA-RM-E50H29.md) "Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters"  
 

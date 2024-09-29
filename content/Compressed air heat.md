@@ -245,7 +245,7 @@ of this report is to analyze and evaluate the icing protection problem
 for a high-performance turbojet transport airplane in terms of these
 three considerations.
 
-![A jet tranport airplane. 
+![A jet transport airplane. 
 There are many windows in the passenger cabin, implying may rows of seats. 
 Notations read: "Shading indicates protected areas", 
 which include the wing and empennage leading edges, the engine inlets, 
