@@ -390,10 +390,25 @@ Links to reviews are included where applicable.
 - Jet Penetration  
 
     - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.  
+<!--
+        > review: [NACA-TN-1615]({filename}NACA-TN-1615.md)  
+-->
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
+<!--
+        > review: ({filename}NACA-TN-2019.md)  
+-->
     - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+<!--
+        > review: [NACA-TN-1947]({filename}NACA-TN-1947.md)  
+-->
     - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+<!--
+        > review: [NACA-TN-2855]({filename}NACA-TN-2855.md)  
+-->
     - Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
+<!--
+        > review: [NACA-TN-2466]({filename}NACA-TN-2466.md)  
+-->
 
 - Heat Transfer  
 
