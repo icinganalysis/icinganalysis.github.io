@@ -34,7 +34,7 @@ So, it is not surprising that a rain-removal publication is in the
 Air jets are also of interest for hot gas ice protection. 
 While not detailed in these publications, 
 the "piccolo" spray tubes commonly used for wing anti-ice is one, specialized application. 
-Also, analyzing the exhaust, and if adjacent structure might get too hot, is another application.  
+Also, analyzing the hot air exhaust, and if adjacent structure might get too hot, is another application.  
  
 ## Reviews  
 
@@ -65,3 +65,4 @@ Also, analyzing the exhaust, and if adjacent structure might get too hot, is ano
 ## Related  
 
 See [Windshield Ice Protection]({filename}windshield%20ice%20protection.md).  
+ 
