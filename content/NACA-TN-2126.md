@@ -535,6 +535,10 @@ increase the heat transfer and temperature at the critical stagnation
 region. Half of the heat flow in the tapered fins is
 directed into the first 3/8 inch of the airfoil surface.  
 
+![Figure 13. Temperature pattern along center cross section of section C. 
+Gas flow, 325 ponds per hours; tunnel-air velocity, 275 miles per hour; 
+gas-temperature differential, 314° F.](images%2FNACA-TN-2126%2FFigure%2013.png)  
+
 "reference 12" is  
 
 - Emmons, Howard W.: The Numerical Solution of Partial Differential Equations. Quart. Appi. Math., vol. II, no. 3, Oct. 1944, pp. 173-195.  
