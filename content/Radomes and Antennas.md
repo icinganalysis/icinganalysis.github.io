@@ -7,8 +7,8 @@ tags: radomes, antennas, icing tunnel, flight test
 ### _"The current use of improved airplane ice-prevention equipment has extended operations in icing conditions and thus accentuated the need for protecting aircraft antennas against structural failures resulting from ice accretions"_  
 
 ![Figure 7 of NACA-RM-E7H26a. Typical ice formation collected during flight on 15°, 34-foot antenna and the
-64°, 40-foot antenna. View underneath antennas, looking forward.](images%2FNACA-RM-E7H26a%2FFigure%207.png)  
- 
+64°, 40-foot antenna. View underneath antennas, looking forward.](/images%2FNACA-RM-E7H26a%2FFigure%207.png)  
+
 These reviews are for studies of the effect of ice on radomes and antennas. 
 
 - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
