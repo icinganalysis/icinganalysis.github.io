@@ -65,4 +65,3 @@ Also, analyzing the exhaust, and if adjacent structure might get too hot, is ano
 ## Related  
 
 See [Windshield Ice Protection]({filename}windshield%20ice%20protection.md).  
- 
