@@ -9,7 +9,7 @@ tags: antenna, flight test
 # "Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions" [^1]  
 
 ![Figure 7. Typical ice formation collected during flight on 15°, 34-foot antenna and the
-64°, 40-foot antenna. View underneath antennas, looking forward.](images%2FNACA-RM-E7H26a%2FFigure%207.png)  
+64°, 40-foot antenna. View underneath antennas, looking forward.](/images%2FNACA-RM-E7H26a%2FFigure%207.png)  
 
 ## Abstract  
 
@@ -58,7 +58,7 @@ the airplane, and distance flown in the icing region.
 The location of the seven experimental antennas on the airplane
 is shown in figure 1...
 
-![Figure 1. Location of experimental antennas on airplane and angle and length of antennas.](images%2FNACA-RM-E7H26a%2FFigure%201.png)  
+![Figure 1. Location of experimental antennas on airplane and angle and length of antennas.](/images%2FNACA-RM-E7H26a%2FFigure%201.png)  
 
 > Inasmuch as it was anticipated that the tension which would be
 imposed on the antennas would exceed the breaking strength of the
@@ -67,7 +67,7 @@ ordinary antenna wire, the experimental antennae used were of
 and spring-tension units were mounted on the rear of the antennas
 (fig. 2) In order to impose a static tension of 30 pounds.  
 
-![Figure 2. Turnbuckle and spring-tension unit mounted on rear of experimental antenna.](images%2FNACA-RM-E7H26a%2FFigure%202.png)  
+![Figure 2. Turnbuckle and spring-tension unit mounted on rear of experimental antenna.](/images%2FNACA-RM-E7H26a%2FFigure%202.png)  
 
 > The tension In the antennas was measured by strain gages
 located at the front of the antennas (fig. 3). The strain gages
@@ -77,7 +77,7 @@ installed, around the body of the strain gages. A recording
 galvanometer indicated, the tension in the antennas. The strain-gage 
 system was accurate to ±2 percent.
 
-![Figure 3. Strain-gage inalled on front of experimental antenna.](images%2FNACA-RM-E7H26a%2FFigure%203.png)  
+![Figure 3. Strain-gage inalled on front of experimental antenna.](/images%2FNACA-RM-E7H26a%2FFigure%203.png)  
 
 >Multirotating cylinders, as shown in figure 4, were used to
 determine the average droplet diameter, the drop-size distribution,
@@ -87,7 +87,7 @@ Pressure altitude and indicated airspeed were measured by service
 instruments and the ambient-air temperature was measured by a
 shielded resistance-bulb thermometer.  
 
-![Figure 4. Multirotating cylinder extended into air stream for collection of meteorological data.](images%2FNACA-RM-E7H26a%2FFigure%204.png)  
+![Figure 4. Multirotating cylinder extended into air stream for collection of meteorological data.](/images%2FNACA-RM-E7H26a%2FFigure%204.png)  
 
 > A series of four flights was conducted. Into areas of predicted icing. 
 Table I presents the meteorological conditions for
@@ -99,7 +99,7 @@ factors that made possible the existence and the suspension of
 supercooled. liquid-water droplets encountered during the flight
 operations are presented in the appendix.  
 
-![Table I. Flight and meteorological variables.](images%2FNACA-RM-E7H26a%2FTable%20I.png)  
+![Table I. Flight and meteorological variables.](/images%2FNACA-RM-E7H26a%2FTable%20I.png)  
 
 > RESULTS AND DISCUSSION
 > 
@@ -108,9 +108,9 @@ and the 15°, 32-foot antenna are presented in figures 5 and 6,
 respectively, and are representative of Ice formations on antennas
 having angles from 0° to 15°. 
 
-![Figure 5. Typical ice formation collected on 8°, 41-foot antenna during flight. Airflow from left to right.](images%2FNACA-RM-E7H26a%2FFigure%205.png)  
+![Figure 5. Typical ice formation collected on 8°, 41-foot antenna during flight. Airflow from left to right.](/images%2FNACA-RM-E7H26a%2FFigure%205.png)  
 
-![Figure 6. Typical ice formation collected on 15°, 32-foot antenna during flight. View looking aft.](images%2FNACA-RM-E7H26a%2FFigure%206.png)  
+![Figure 6. Typical ice formation collected on 15°, 32-foot antenna during flight. View looking aft.](/images%2FNACA-RM-E7H26a%2FFigure%206.png)  
 
 >Figure 7 is a photograph, taken in
 flight, of the ice formation on the 15°, 32-foot antenna and the
@@ -120,7 +120,7 @@ antenna is illustrative of configurations collected on the 64°,
 operations.
 
 ![Figure 7. Typical ice formation collected during flight on 15°, 34-foot antenna and the
-64°, 40-foot antenna. View underneath antennas, looking forward.](images%2FNACA-RM-E7H26a%2FFigure%207.png)  
+64°, 40-foot antenna. View underneath antennas, looking forward.](/images%2FNACA-RM-E7H26a%2FFigure%207.png)  
 
 >The variation of antenna tension with distance flown in the
 icing region for the antennas is presented in figure 8 for the
@@ -137,10 +137,10 @@ indicates that whipping of the antennas broke office formations
 and thereby temporarily reduced the antenna tension.
 
 ![Figure8a. Variation of antenna tension withdistance flown in icing
-region for experImental antennas.](images%2FNACA-RM-E7H26a%2FFigure8a.png)  
+region for experImental antennas.](/images%2FNACA-RM-E7H26a%2FFigure8a.png)  
 
 ![Figure 8b. Variation of antenna tension withdistance flown in icing
-region for experImental antennas.](images%2FNACA-RM-E7H26a%2FFigure%208b.png)  
+region for experImental antennas.](/images%2FNACA-RM-E7H26a%2FFigure%208b.png)  
 
 >The variation of antenna tension with antenna angle for
 antennas of approximately 42 feet in length is presented in figure 9. 
@@ -162,10 +162,10 @@ the four flight operations is given in table II.
 
 ![Figure 9. Variation of antenna tension with antenna angle for antennas 
 of 40. 41, 42, and 43 feet in length. Distance flown in icing
-region, 115 miles.](images%2FNACA-RM-E7H26a%2FFigure%209.png)  
+region, 115 miles.](/images%2FNACA-RM-E7H26a%2FFigure%209.png)  
 
 ![Figure 10. Variation of antenna tension with antenna length at an-
-tenna angle of 15°. Distance flown in icing region, 115 miles.](images%2FNACA-RM-E7H26a%2FFigure%2010.png)  
+tenna angle of 15°. Distance flown in icing region, 115 miles.](/images%2FNACA-RM-E7H26a%2FFigure%2010.png)  
 
 ## Conclusions  
 

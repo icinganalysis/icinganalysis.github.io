@@ -9,8 +9,8 @@ tags: antenna, icing tunnel test
 # "Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna" [^1]  
 
 ![Figure 2. Failure at omnidirectional aircraft antenna resulting from vibration under
-icing conditions.](images%2FNACA-RM-SE9D20%2FFigure%202.png)
-
+icing conditions.](/images%2FNACA-RM-SE9D20%2FFigure%202.png)
+ 
 ## Abstract  
  
 > Vibration and icing determinations on a CAA type V-109 very- 
@@ -91,8 +91,8 @@ determined.
 > The antenna under icing and nonicing conditions is shown in
 figure 1.
 
-![Figure 1. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](images%2FNACA-RM-SE9D20%2FFigure%201.png)  
-![Figure 1c. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](images%2FNACA-RM-SE9D20%2FFigure%201c.png)  
+![Figure 1. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](/images%2FNACA-RM-SE9D20%2FFigure%201.png)  
+![Figure 1c. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](/images%2FNACA-RM-SE9D20%2FFigure%201c.png)  
 
 >During the nonicing vibration experiments at tunnel-air velocities 
 of 100, 200, and 300 miles per hour, the amplitude of vibration 
@@ -119,7 +119,7 @@ of icing, however, one antenna element experienced a vibratory
 failure at the end point of the steel insert (figs. 1(d) and 2).  
 
 ![Figure 2. Failure at omnidirectional aircraft antenna resulting from vibration under
-icing conditions.](images%2FNACA-RM-SE9D20%2FFigure%202.png)
+icing conditions.](/images%2FNACA-RM-SE9D20%2FFigure%202.png)
 
 >A duplicate investigation was made with a second antenna. having
 a transparent plastic head to compare its behavior with that of the
@@ -145,8 +145,8 @@ of 250 miles per hour, icing was much less severe aerodynamically
 (fig. 1(g)) and the element-tip vibration amplitude reached 
 approximately 4 inches after 5 minutes of icing.
 
-![Figure 1e. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](images%2FNACA-RM-SE9D20%2FFigure%201e.png)  
-![Figure 1g. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](images%2FNACA-RM-SE9D20%2FFigure%201g.png)  
+![Figure 1e. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](/images%2FNACA-RM-SE9D20%2FFigure%201e.png)  
+![Figure 1g. Omnidirectional aircraft antenna subjected to conditions of icing in icing research tunnel.](/images%2FNACA-RM-SE9D20%2FFigure%201g.png)  
 
 ## Conclusions  
 
@@ -178,7 +178,7 @@ of 1/4 inch.
 NACA-RM-SE9D20 is unique in that it is one of the few of hundreds of NACA publications 
 that has the author's signature:  
 
-![signature.](images%2FNACA-RM-SE9D20%2Fsignature.png)  
+![signature.](/images%2FNACA-RM-SE9D20%2Fsignature.png)  
 
 ## Citations  
 

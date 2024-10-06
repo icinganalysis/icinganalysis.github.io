@@ -11,7 +11,7 @@ tags: radome, ice protection
 ![Figure 5. Performance of protection system at low-temperature, cumulus-
 cloud conditions. A-Radome; airspeed, 600 miles pr hour; effective
 power density, 2100 Btu per hour per square foot, or
-inch.](images%2FNACA-RM-E53A22%2FFigure%205.png)  
+inch.](/images%2FNACA-RM-E53A22%2FFigure%205.png)  
 
 ## Abstract  
 
@@ -182,7 +182,7 @@ obtain a more realistic basis for appraisal of the protection system,
 the temperature-altitude curves shown in figure 1 were selected. 
 
 ![Figure 1. Assumed temperature-pressure relations for icing
-conditions.](images%2FNACA-RM-E53A22%2FFigure%201.png)  
+conditions.](/images%2FNACA-RM-E53A22%2FFigure%201.png)  
 
 >One
 curve represents the average of the data of reference 4, while the
@@ -204,9 +204,9 @@ droplet size against air temperature are shown in figure 2. The droplet
 size distribution assumed in the analysis is shown in figure 3.  
 
 ![Figure 2. Variation of cloud liquid-water content and droplet size with
-air temperature](images%2FNACA-RM-E53A22%2FFigure%202.png)  
+air temperature](/images%2FNACA-RM-E53A22%2FFigure%202.png)  
 
-![Figure 3. Assumed droplet size distribution.](images%2FNACA-RM-E53A22%2FFigure%203.png)  
+![Figure 3. Assumed droplet size distribution.](/images%2FNACA-RM-E53A22%2FFigure%203.png)  
 
 The basis of the assumptions for Figure 3 are not explained. 
 However, the distribution is vaguely like a Langmuir D or E distribution.  
@@ -221,7 +221,7 @@ assumed to be nose installations, were portions of ellipsoidal bodies
 of revolution. It was assumed that protection was required to the rear
 of the radomes.  
 
-![Figure 4. Assumed radome configurations.](images%2FNACA-RM-E53A22%2FFigure%204.png)
+![Figure 4. Assumed radome configurations.](/images%2FNACA-RM-E53A22%2FFigure%204.png)
 
 >The convective heat-transfer coefficient was calculated from
 unpublished experimental data obtained from tests of similar bodies
@@ -245,7 +245,7 @@ system for the blunt A-radome at the low-temperature cumulus-cloud condition
 ![Figure 5. Performance of protection system at low-temperature, cumulus-
 cloud conditions. A-Radome; airspeed, 600 miles pr hour; effective
 power density, 2100 Btu per hour per square foot, or
-inch.](images%2FNACA-RM-E53A22%2FFigure%205.png)
+inch.](/images%2FNACA-RM-E53A22%2FFigure%205.png)
 
 >The assumed icing conditions
 taken from figure 2 are designated as the icing limit, and it is assumed
@@ -302,11 +302,11 @@ square inch.
 
 ![Figure 6. Variation of heat required for full evaporation with liquid-
 water content. A-Radome; airspeed, 600 miles per hour; pressure altitude,
-15,000 feet; temperature, 11.5 0 F; droplet diameter, 20 microns.](images%2FNACA-RM-E53A22%2FFigure%206.png)  
+15,000 feet; temperature, 11.5 0 F; droplet diameter, 20 microns.](/images%2FNACA-RM-E53A22%2FFigure%206.png)  
 
 ![Figure 7. Variation of heat required for running-wet
 surface with air temperature. A-Radome; airspeed, 600
-per hour; pressure altitude, 20,000 feet.](images%2FNACA-RM-E53A22%2FFigure%207.png)  
+per hour; pressure altitude, 20,000 feet.](/images%2FNACA-RM-E53A22%2FFigure%207.png)  
 
 For brevity, 
 the results for the average-temperature condition is not detailed herein.  
