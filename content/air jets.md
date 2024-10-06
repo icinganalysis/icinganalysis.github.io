@@ -22,7 +22,7 @@ The first five publications determine by test the characteristics of air jets en
 The final publication applies this technology to windshield rain removal.  
 
 Windshield rain removal is often designed in the same group as ice protection. 
-SAE AIR-1168/4 is titled “Ice, Frost, and Rain Protection” [SAE Aerospace Applied Thermodynamics Manual, 1969 (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))]  
+SAE AIR-1168/4 is titled “Ice, Frost, and Rain Protection” [SAE Aerospace Applied Thermodynamics Manual, 1969 (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))]. 
 A design group I worked in was named "Ice and Rain Protection". 
 
 That was historically where the knowledge of water drops, 
