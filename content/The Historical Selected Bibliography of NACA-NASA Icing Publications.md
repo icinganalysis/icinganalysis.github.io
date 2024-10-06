@@ -238,6 +238,7 @@ Links to reviews are included where applicable.
 - Propeller Ice Protection  
 
     - Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
+        > review: [NACA-TN-1178]({filename}NACA-TN-1178.md)  
     - Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
@@ -251,11 +252,15 @@ Links to reviews are included where applicable.
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948.  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
     - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
+        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)    
     - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
+<!--
+        > review: [NACA-TN-2212]({filename}NACA-TN-2212.md)  
+-->
 
 - Induction System Ice Protection  
 
@@ -269,14 +274,41 @@ Links to reviews are included where applicable.
 - Turbine-Type Engine and Inlet Icing Studies  
 
     - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
+<!--
+          - > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
+-->
     - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+<!--
+        > review: [NACA-RM-E8C18.]({filename}NACA-RM-E8C18.md)  
+-->
     - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
+<!--
+        > review: [NACA-RM-E50I08]({filename}NACA-RM-E50I08.md)  
+-->
     - Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
+<!--
+        > review: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
+-->
     - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
+<!--
+        > review: [NACA-TN-4093]({filename}NACA-TN-4093.md)  
+-->
     - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
+<!--
+        > review: [NACA-RM-E50H29.md]({filename}NACA-RM-E50H29.md)  
+-->
     - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
+<!--
+        > review: [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md)  
+-->
     - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
+<!--
+        > review: [NACA-RM-E57G09]({filename}NACA-RM-E57G09.md)  
+-->
     - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
+<!--
+        > review: [NACA-RM-E50E03]({filename}NACA-RM-E50E03.md)  
+-->
 
 - Wing Ice Protection  
 
@@ -335,11 +367,15 @@ Links to reviews are included where applicable.
 
     - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
         > mention: [Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)      
+<!--
+        > review: [NACA-TN-1246]({filename}NACA-TN-1246.md)  
+-->
 
 - Radome Ice Protection  
 
     - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
     - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
+        > review: [Component Icing]({filename}Component%20Ice%20Protection.md)  
 
 - Antenna icing  
 
@@ -349,6 +385,7 @@ Links to reviews are included where applicable.
 - Inlet and Vent Icing Protection  
 
     - Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
+        > review: [Component Icing]({filename}Component%20Ice%20Protection.md)  
 
 - Jet Penetration  
 

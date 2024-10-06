@@ -1,5 +1,5 @@
 Title: NACA-TN-4093     
-Date: 2024-09-30 19:00  
+Date: 2024-10-14 23:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, icing tunnel, ice protection   
@@ -14,7 +14,7 @@ for stationary spinner with uniform heat input. Free-stream
 velocity, 282 feet per second; angle of attack, 0°; average
 free-stream total temperature, -1° F.](/images%2FNACA-TN-4093%2FFigure%205.png)  
 
-## Abstract
+## Abstract  
 
 >The convective heat transfer from the surface of a conical forebody
 having a hemispherical nose, an included angle of approximately 30°, and
@@ -39,14 +39,15 @@ flow region were from 6 to 13 percent greater on the lower surface (wind-ward
 side) than on the upper surface (sheltered side) for corresponding
 surface locations. The spinner-nose geometry appeared to cause early
 boundary-layer transition. Transition was initiated at a fairly constant 
-Reynolds number (based on surface distance from nose) of 8.OX1O^4.
-Transition was completed at Reynolds numbers less than 5.Ox10^5 for all
+Reynolds number (based on surface distance from nose) of 8.0X10^4.
+Transition was completed at Reynolds numbers less than 5.0x10^5 for all
 conditions investigated.
 
 ## Discussion  
 
 >INTRODUCTION  
-Fundamental information on the heat-transfer and boundary-layer
+> 
+> Fundamental information on the heat-transfer and boundary-layer
 characteristics of stationary and rotating simple bodies of revolution
 is needed to design icing protection systems for all-weather aircraft.  
 > 
@@ -66,7 +67,8 @@ of heat-transfer studies reported in references 1 and 2 for two ellipsoidal
 bodies of revolution having fineness ratios of 3.0 and 2.5.  
 
 >APPARATUS AND PROCEDURE  
-The study of heat transfer from the surface of a conical forebody
+> 
+> The study of heat transfer from the surface of a conical forebody
 was conducted in the 6- by 9-foot test section of the Lewis icing research
 tunnel. Figure 1 is a photograph of the model installed in the tunnel.
 The faired afterbody and its related equipment for obtaining temperature
@@ -117,8 +119,10 @@ Qi = 28.8 (th - ti), Btu/(hr)(sq ft)  (2)
 
 
 >RESULTS AND DISCUSSION  
-Velocity Distribution  
-The velocity distribution over the surface of the cone for zero rotation 
+> 
+> Velocity Distribution  
+> 
+> The velocity distribution over the surface of the cone for zero rotation 
 is presented in figure 4(a) in terms of the ratio of local to free-stream 
 velocity Us/U0 for three angles of attack. For the conditions
 investigated, the sharp peak in velocity occurred at a constant value of
@@ -184,7 +188,7 @@ short distance. For higher free-stream velocities, the laminar region
 may be expected to be even less than that noted for the data in figure 6.  
 Because the region of laminar flow was extremely small, the heat-transfer 
 results for this region were limited to data obtained from a
-single measuring station (data for Re 8 = 7.3xl04 , fig. 6). These data
+single measuring station (data for Re 8 = 7.3x104 , fig. 6). These data
 cannot adequately describe the heat transfer in the laminar region and,
 hence, the order of agreement between experimental and. predicted results
 cannot be definitely stated. Although the results appear to agree quite
@@ -203,7 +207,8 @@ attack, 0°; average free-stream total temperature, -1° F](/images%2FNACA-TN-40
 ## Conclusions  
 
 >SUMMARY OF RESULTS  
-An experimental wind-tunnel investigation of heat transfer from the
+> 
+> An experimental wind-tunnel investigation of heat transfer from the
 surface of a conical forebody (18.9-in. maximum diameter) operating under
 stationary, rotating, and angle-of-attack conditions yielded the following
 results:  

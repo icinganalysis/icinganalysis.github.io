@@ -1,5 +1,5 @@
 Title: NACA-RM-E8C18     
-Date: 2024-09-30 13:00  
+Date: 2024-10-14 14:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, flight test   

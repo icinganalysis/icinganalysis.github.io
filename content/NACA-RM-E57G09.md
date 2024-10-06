@@ -1,10 +1,10 @@
 Title: NACA-RM-E57G09     
-Date: 2024-09-30 20:00  
+Date: 2024-10-15 11:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
-### _"the contour plots indicate that cowl-lip disturbances are the more controlling factor"_ 
+### _"the contour plots indicate that cowl-lip disturbances are the more controlling factor"_  
 
 # "Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions" [^1]  
 
@@ -218,19 +218,19 @@ level.
 >
 >The effects on compressor-face total-pressure distortion and recovery
 of ice formations on the unheated supersonic nose inlet studied are
-summarized as follows:  
+summarized as follows:   
 >1. The addition of ice to the inlet components resulted in increased
 distortion levels and reduced pressure recovery compared with clear-air
-values, the losses increasing with time in icing.
+values, the losses increasing with time in icing.  
 >2. The compressor-face flow losses were greatest for the higher
 corrected weight flows and angles of attack and for glaze-ice formations.
 After a few minutes of glaze icing the effects of angle of attack on
-distortion level and recovery are minimized.
+distortion level and recovery are minimized.  
 >3. The general character of compressor-face distortion with an iced
 inlet was the same as that for the clean inlet except for steeper pressure
 gradients (distortion patterns). The pressure gradients with the inlet
 studied were predominantly radial, with circumferential gradients occurring
-at angle of attack.
+at angle of attack.  
 >4. From a constant-corrected-weight-flow (150 lb/sec, compressor-face 
 Mach number of 0.43) interpretation of the tunnel data, total-pressure 
 distortion increased from about 6 percent in clear air to 12
@@ -258,4 +258,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
+[^1]: Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093764), 1957.  

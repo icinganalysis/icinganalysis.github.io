@@ -1,5 +1,5 @@
 Title: NACA-RM-E50E03     
-Date: 2024-09-30 15:00  
+Date: 2024-10-14 19:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, icing tunnel, ice protection   

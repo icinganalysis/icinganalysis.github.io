@@ -1,5 +1,5 @@
 Title: NACA-RM-E8FO1a     
-Date: 2024-09-30 14:00  
+Date: 2024-10-14 15:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, flight test   
@@ -107,7 +107,8 @@ to nearly normal operation. Because of the very low liquid-water
 content at that time (0.077 gram per cubic meter) and high free-air 
 temperature (25° F), the ice accumulation on the engine inlet
 melted and ran back along the cowling (fig. 5(b)).  
-After 35 minutes, the liquid-water content rapidly rose to
+> 
+> After 35 minutes, the liquid-water content rapidly rose to
 0.49 gram per cubic meter (fig. 5(b)). The fuel flow then increased
 to maintain the engine speed, which resulted in a corresponding
 increase in tail-pipe temperature. At this point the thrust

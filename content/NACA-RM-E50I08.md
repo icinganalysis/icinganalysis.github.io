@@ -1,5 +1,5 @@
 Title: NACA-RM-E50I08     
-Date: 2024-09-23 12:00  
+Date: 2024-10-14 18:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, icing tunnel, ice protection   
@@ -8,7 +8,7 @@ tags: engine inlet, icing tunnel, ice protection
 
 # "Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes" [^1]  
 
-![Figure 8. Typical icing with submarginal heating.](images%2FNACA-RM-E50I08%2FFigure%208.png)  
+![Figure 8. Typical icing with submarginal heating.](/images%2FNACA-RM-E50I08%2FFigure%208.png)  
 
 ## Abstract  
 
@@ -86,7 +86,7 @@ and the center-support fairing were anti-iced by hot gas independent
 of the vane heating system. The guide vanes were thus the only surfaces 
 to collect ice during heat-off operation of the vanes.  
 
-![Figure 1. Installation of the inlet guide vane in the icing research tunnel.](images%2FNACA-RM-E50I08%2FFigure%201.png)  
+![Figure 1. Installation of the inlet guide vane in the icing research tunnel.](/images%2FNACA-RM-E50I08%2FFigure%201.png)  
 
 >The heat supply for the five guide vanes consisted of compressed.
 air heated in a heat exchanger by combustion products of a jet burner.
@@ -118,7 +118,7 @@ was used in conjunction with the spray water-flow readings to determine
 the effective water content of the air passing through the guide vanes.
 The mean droplet diameter was in the range of 10 to 15 microns.  
 
-![Figure 3. Variation of indicated liquid-water content with air total temperature for constant spray-water input. Air velocity, 280 miles per hour; mean droplet diameter, 10-15 microns.](images%2FNACA-RM-E50I08%2FFigure%203.png)  
+![Figure 3. Variation of indicated liquid-water content with air total temperature for constant spray-water input. Air velocity, 280 miles per hour; mean droplet diameter, 10-15 microns.](/images%2FNACA-RM-E50I08%2FFigure%203.png)  
 
 >Icing Characteristics and Pressure Losses  
 > 
@@ -146,9 +146,9 @@ air temperature of 0° F; greater and more rapid losses may be anticipated
 for cascades with gap and chord sizes smaller than those reported
 herein.  
 
-![Figure 6. Icing characteristics of unheated. vanes.](images%2FNACA-RM-E50I08%2FFigure%206.png)  
+![Figure 6. Icing characteristics of unheated. vanes.](/images%2FNACA-RM-E50I08%2FFigure%206.png)  
 
-![Figure 7. Pressure loss across cascade of unheated guide vanes as function of icing time.](images%2FNACA-RM-E50I08%2FFigure%207.png)  
+![Figure 7. Pressure loss across cascade of unheated guide vanes as function of icing time.](/images%2FNACA-RM-E50I08%2FFigure%207.png)  
 
 >Heated vanes. - Without ice on the vanes, the pressure losses
 ranged from 4 to 8 percent across the cascade. The losses with marginal 
@@ -165,7 +165,7 @@ vanes and the consequent spanwise temperature drop, the gas temperature
 was lowest at the top of the vane; heating insufficient to prevent ice
 on the top half of the vanes resulted.  
 
-![Figure 8. Typical icing with submarginal heating.](images%2FNACA-RM-E50I08%2FFigure%208.png)  
+![Figure 8. Typical icing with submarginal heating.](/images%2FNACA-RM-E50I08%2FFigure%208.png)  
 
 >...
 > 
@@ -185,7 +185,7 @@ approximately 0.2 percent of the air flow.
 
 ![Figure 21a. Gas flow, expressed in percentage of
 inlet-air flow, required for heating inlet-guide-
-vane stage for complete ice prevention.](images%2FNACA-RM-E50I08%2FFigure%2021a.png)  
+vane stage for complete ice prevention.](/images%2FNACA-RM-E50I08%2FFigure%2021a.png)  
 
 >The gas-to-air flow ratio required for anti-icing a guide-vane
 stage is given in figure 21(b) as a function of the inlet-air velocity.
@@ -200,7 +200,7 @@ may be estimated.
 
 ![Figure 21b. Gas flow, expressed in percentage of
 inlet-air flow, required for heating inlet-guide-
-vane stage for complete ice prevention.](images%2FNACA-RM-E50I08%2FFigure%2021b.png)  
+vane stage for complete ice prevention.](/images%2FNACA-RM-E50I08%2FFigure%2021b.png)  
 
 >Pressure altitudes above 3500 feet were not investigated; however,
 previous investigations have indicated that anti-icing heat requirements 
@@ -247,6 +247,7 @@ insert attached near midchord to the convex surface. The heating
 required to completely prevent icing on a guide-vane station was
 approximately 40 percent more than that required to maintain only an
 ice-free leading edge.    
+
 > 3. For ice prevention over the complete vane span and chord, the
 hollow vane required an internal heat flow at the vane inlet of 11,900
 and 7600 Btu per hour at inlet-gas temperatures of 300° and 600° F,
@@ -258,6 +259,7 @@ vane and the vane with an insert required gas flows only 0.4 and 0.2 percent,
 respectively, of the inlet-air flow for complete ice prevention at
 an air velocity of 280 miles per hour, a water content of 0.9 gram per
 cubic meter, and an inlet-air static temperature of 0° F.  
+
 > 4. The vane with fin and insert required nearly as much heat input
 as the hollow vane because of a high heat-dissipation rate over most of
 the chordal extent of the vane except at the trailing edge where the
@@ -269,6 +271,10 @@ and the greatest efficiency in chordwise heat transfer.
 
 NACA-RM-E50I08 is cited three times, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Icing+Characteristics+and+Anti-Icing+Heat+Requirements+for+Hollow+and+Internally+Modified+Gas-Heated+Inlet+Guide+Vanes&btnG=).  
 
+## Related  
+
+This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing.md).  
+
 ## Notes  
 
-[^1]: Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
+[^1]: Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630), 1950.  

@@ -51,6 +51,11 @@ evaporation from wet surfaces.
 ### [NACA-TN-3104, Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer]({filename}NACA-TN-3104.md)  
 > Sublimation rates at Mach 1.3 are measured. 
 
+<!--
+### [NACA-TN-3143 Experimental Determination of Thermal Conductivity of Low-Density Ice]({filename}NACA-TN-3143.md)  
+> "Very few data are available on the physical properties of ice formations having a density other than that of clear, solid ice"  
+-->
+
 ### [NACA-TR-1215, Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method]({filename}NACA-TR-1215-Thermodynamics.md)  
 > Ludlam limits for rotating cylinders are compared.  
 

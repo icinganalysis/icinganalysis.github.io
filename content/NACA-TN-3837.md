@@ -1,5 +1,5 @@
 Title: NACA-TN-3837     
-Date: 2024-09-30 18:00  
+Date: 2024-10-14 22:00  
 Category: NACA  
 status: draft  
 tags: engine inlet, icing tunnel, ice protection   
@@ -269,6 +269,13 @@ heating and cooling.
 NACA-TN-3837 is cited 11 times, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Investigation+of+Heat+Transfer+from+a+Stationary+and+Rotating+Ellipsoidal+Forebody+of+Fineness+Ratio+3&btnG=).  
 
 ## Related  
+
+There is also   
+
+- von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.
+
+However, this largely a preliminary version of NACA-TN-3837, 
+and so it will not be separately reviewed. 
 
 This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing.md).  
 

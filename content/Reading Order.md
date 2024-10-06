@@ -46,6 +46,9 @@ to read the articles in the order below.
 - [Water Drop Impingement on Surfaces]({filename}impingement.md)  
 - [Porter Perkins series]({filename}Porter%20Perkins.md)  
 - [Properties of Water]({filename}Properties%20of%20water.md)  
+<!--
+- [Engine Inlet Icing.md]({filename}Engine%20Inlet%20Icing.md)
+-->
 
 ## Other content  
 
