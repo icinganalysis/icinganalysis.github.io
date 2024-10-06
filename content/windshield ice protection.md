@@ -396,6 +396,10 @@ This has more details on calculations for air-heated windshields.
 
 - Ruggeri, Robert S.: "Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast", NACA-RM-E55E17a, July 25, 1955.  
 
+<!--
+    > review: [NACA-RM-E55E17a]({filename}NACA-RM-E55E17a.md)  
+-->
+
 Not specifically about icing, but this has some similarities to the external discharge system of NACA-TN-1434. 
 
 - Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
