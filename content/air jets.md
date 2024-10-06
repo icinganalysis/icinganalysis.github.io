@@ -9,7 +9,7 @@ tags: air jets
 ![Figure 6 of NACA-RM-E55E17a. Raindrop breakup and deflection achieved with single air jet operating at 10°
 included angle between jet and windshield. Air-jet diameter, 1/8 inch; air—jet total
 pressure, 52 pounds per square inch; jet discharge angle, 60°; windshield angle, 40°;
-free-stream velocity, 120 miles per hour.](images%2FNACA-RM-E55E17a%2FFigure%206.png)  
+free-stream velocity, 120 miles per hour.](/images%2FNACA-RM-E55E17a%2FFigure%206.png)  
 _From NACA-RM-E55E17a._
 
 ## Introduction  
