@@ -388,11 +388,18 @@ Links to reviews are included where applicable.
     - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
     - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
         > review: [Component Icing]({filename}Component%20Ice%20Protection.md)  
+<!--
+[NACA-RM-E53A22]({filename}NACA-RM-E53A22.md)  
+-->
 
 - Antenna icing  
 
     - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948.  
     - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
+<!--
+        > review: [NACA-RM-E7H26a]({filename}NACA-RM-E7H26a.md)  
+        > review: [NACA-RM-SE9D20]({filename}NACA-RM-SE9D20.md)  
+-->
 
 - Inlet and Vent Icing Protection  
 
@@ -435,7 +442,11 @@ Links to reviews are included where applicable.
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
     - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
+
 <!--
+        > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
+
+
         > mention: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
 -->
 
