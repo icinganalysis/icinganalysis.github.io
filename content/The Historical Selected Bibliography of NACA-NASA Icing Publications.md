@@ -155,27 +155,27 @@ Links to reviews are included where applicable.
 - Meteorological Instruments  
 
     - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
-        > review: [Heated Probes]({filename}Heated Probes.md)  
+        > review: [Heated Probes]({filename}Heated%20Probes.md)  
     - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
         > review: [NACA-RM-E53D23]({filename}NACA-RM-E53D23.md)  
     - McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951.  
-        > review: [Water drop imaging]({filename}water drop imaging.md)  
+        > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
-        > review: [Heated probes]({filename}Heated Probes.md)  
+        > review: [Heated probes]({filename}Heated%20Probes.md)  
     - Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951.  
         > review: [NACA-RM-E51E16]({filename}modified%20pressure%20probe.md)  
     - Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951.  
         > review: [NACA-TN-2458]({filename}NACA-TN-2458.md)  
     - Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951.  
-            > review: [Water drop imaging]({filename}water drop imaging.md)  
+            > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952.  
         > review: [NACA-TN-2708]({filename}NACA-TN-2708.md)  
     - Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.  
         > review: [NACA-RM-A9C09]({filename}NACA-RM-A9C09.md), [NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md)  
     - Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955.  
-        > review: [Heated probes]({filename}Heated Probes.md)  
+        > review: [Heated probes]({filename}Heated%20Probes.md)  
     - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
-        > review: [Water drop imaging]({filename}water drop imaging.md)  
+        > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
         > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
     - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
@@ -435,6 +435,13 @@ Links to reviews are included where applicable.
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
     - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
+<!--
+        > mention: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
+-->
+
+<!--
+        > review: [NACA-TN-2212]({filename}NACA-TN-2212.md)  
+-->
 
 - Miscellaneous  
 
