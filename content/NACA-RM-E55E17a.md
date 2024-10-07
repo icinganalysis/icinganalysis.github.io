@@ -273,6 +273,14 @@ This implies that NACA-RM-E55E17a originates the concept of air-jet rain removal
 Having only one citation definitely marks NACA-RM-E55E17a as an under-appreciated publication, 
 a "lost gem" of the NACA-era.
 
+## Related  
+
+See also [Windshield ice Protection]({filename}windshield%20ice%20protection.md), 
+where in NACA-TN-1434 an air jet ice protection system is discussed:  
+
+![Figure 8 of NACA-TN-1434. Details of external discharge heated-air ice-prevention system for
+flush windshield of C-46 airplane.](images/NACA-TN-1434/Figure 8.png)  
+
 ## Notes  
 
 [^1]: Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068716), July 25, 1955.  
