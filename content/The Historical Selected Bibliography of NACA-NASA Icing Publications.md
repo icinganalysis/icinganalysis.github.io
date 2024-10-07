@@ -274,38 +274,45 @@ Links to reviews are included where applicable.
 - Turbine-Type Engine and Inlet Icing Studies  
 
     - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
-<!--
-          - > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
--->
+
     - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+
+    - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
+
+    - Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
+    - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
+    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
+    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
+    - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
+    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
+
+
+
+<!--
+        > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
+
+-->
 <!--
         > review: [NACA-RM-E8C18.]({filename}NACA-RM-E8C18.md)  
 -->
-    - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
 <!--
         > review: [NACA-RM-E50I08]({filename}NACA-RM-E50I08.md)  
 -->
-    - Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
 <!--
         > review: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
 -->
-    - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
 <!--
         > review: [NACA-TN-4093]({filename}NACA-TN-4093.md)  
 -->
-    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
 <!--
         > review: [NACA-RM-E50H29.md]({filename}NACA-RM-E50H29.md)  
 -->
-    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
 <!--
         > review: [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md)  
 -->
-    - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
 <!--
         > review: [NACA-RM-E57G09]({filename}NACA-RM-E57G09.md)  
 -->
-    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
 <!--
         > review: [NACA-RM-E50E03]({filename}NACA-RM-E50E03.md)  
 -->
@@ -321,6 +328,7 @@ Links to reviews are included where applicable.
     - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
+        > review: [Thermal Analysis and Surface Wettedness]({filename}Thermal%20Analysis.md)  
     - Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
     - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
@@ -362,6 +370,9 @@ Links to reviews are included where applicable.
     - Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
         > review: [windshield ice protection]({filename}windshield%20ice%20protection.md)  
     - Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955.  
+<!--
+        > review: [NACA-RM-E55E17a]({filename}NACA-RM-E55E17a.md)  
+-->
 
 - Cooling Fan Ice Protection  
 
@@ -390,22 +401,22 @@ Links to reviews are included where applicable.
 - Jet Penetration  
 
     - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.  
-<!--
-        > review: [NACA-TN-1615]({filename}NACA-TN-1615.md)  
--->
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
-<!--
-        > review: ({filename}NACA-TN-2019.md)  
--->
     - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+    - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+    - Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
+
+    <!--        > review: [NACA-TN-1615]({filename}NACA-TN-1615.md) -->  
+<!--            > review: ({filename}NACA-TN-2019.md)-->  
+
 <!--
         > review: [NACA-TN-1947]({filename}NACA-TN-1947.md)  
 -->
-    - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+
+
 <!--
         > review: [NACA-TN-2855]({filename}NACA-TN-2855.md)  
 -->
-    - Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
 <!--
         > review: [NACA-TN-2466]({filename}NACA-TN-2466.md)  
 -->

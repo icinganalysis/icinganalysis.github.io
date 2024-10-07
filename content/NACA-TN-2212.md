@@ -8,7 +8,7 @@ tags: flight test, propellers
 
 # "The Effect of Ice Formations on Propeller Performance" [^1]  
 
-![Figure 18. Ice formation of encounter 1. Camber face. Peak efficiency loss, 10 percent.](images%2FNACA-TN-2212%2FFigure%2018.png)  
+![Figure 18. Ice formation of encounter 1. Camber face. Peak efficiency loss, 10 percent.](/images%2FNACA-TN-2212%2FFigure%2018.png)  
 
 ## Abstract  
 
@@ -93,7 +93,7 @@ utilized for the purposes of the research, and standard commercial
 electrically heated blade shoes were installed on the left propeller for ice
 protection.  
 
-![Figure 1. The test airplane used for the flights in natural icing conditions to investigate propeller-efficiency loss.](images%2FNACA-TN-2212%2FFigure%201.png)  
+![Figure 1. The test airplane used for the flights in natural icing conditions to investigate propeller-efficiency loss.](/images%2FNACA-TN-2212%2FFigure%201.png)  
 
 >The test propeller consisted. of four blades composed of double-camber
 Clark Y sections. The diameter was 13.5 feet. Characteristics of the
@@ -111,7 +111,7 @@ Figure 3 shows the test propeller complete with heating shoes and spinner.
 White marking lines were painted on the blades for ease in noting ice
 locations.  
 
-![Figure 3. Test propeller showing the specially constructed blade heating shoes and the spinner.](images%2FNACA-TN-2212%2FFigure%203.png)  
+![Figure 3. Test propeller showing the specially constructed blade heating shoes and the spinner.](/images%2FNACA-TN-2212%2FFigure%203.png)  
 
 >A thrustmeter and a torquemeter were installed in the right engine
 for measuring thrust and torque absorbed by the test propeller. Both the
@@ -135,7 +135,7 @@ CP   power coefficient
 J    advance ratio
 ```
 
-![Figure 9. Effect of ice formations on the variations of thrust and power coefficients with advance ratio.](images%2FNACA-TN-2212%2FFigure%209.png)  
+![Figure 9. Effect of ice formations on the variations of thrust and power coefficients with advance ratio.](/images%2FNACA-TN-2212%2FFigure%209.png)  
 
 >Figure 10 presents the variation of efficiency loss for one type of
 formation at two blade angles, and figure 11 shows the efficiency-loss.
@@ -154,7 +154,7 @@ the heated regions.
 
 ![Figure 10. Comparison of efficiencies for clean and iced propeller 
 at two blade angles for ice formations type II D. 
-Thrust- and power-coefficient data from Figure 9a.](images%2FNACA-TN-2212%2FFigure%2010.png)  
+Thrust- and power-coefficient data from Figure 9a.](/images%2FNACA-TN-2212%2FFigure%2010.png)  
 
 >Photographs of the clean propeller blades with heating shoes
 Installed are shown in figure 17. These show the leading-edge metallic
@@ -167,14 +167,14 @@ formations and, therefore, should not be confused with the actual formations.
 Pictures of the ice accretions for which efficiency data were
 obtained are presented in figures 18 to 31.
 
-![Figure 18. Ice formation of encounter 1. Camber face. Peak efficiency loss, 10 percent.](images%2FNACA-TN-2212%2FFigure%2018.png)  
+![Figure 18. Ice formation of encounter 1. Camber face. Peak efficiency loss, 10 percent.](/images%2FNACA-TN-2212%2FFigure%2018.png)  
 
 ![Figure 20. Ice formatIon of encounter 3. Camber face. Peak efficiency loss, 4 percent at
-βo= 25.8; 6 percent at βo= 31.8](images%2FNACA-TN-2212%2FFigure%2020.png)  
+βo= 25.8; 6 percent at βo= 31.8](/images%2FNACA-TN-2212%2FFigure%2020.png)  
 
-![Figure 23. Ice formation of encounter 5. Peak efficiency loss, 4 percent.](images%2FNACA-TN-2212%2FFigure%2023.png)  
+![Figure 23. Ice formation of encounter 5. Peak efficiency loss, 4 percent.](/images%2FNACA-TN-2212%2FFigure%2023.png)  
 
-![Figure 23b. Ice formation of encounter 5. Peak efficiency loss, 4 percent.](images%2FNACA-TN-2212%2FFigure%2023b.png)  
+![Figure 23b. Ice formation of encounter 5. Peak efficiency loss, 4 percent.](/images%2FNACA-TN-2212%2FFigure%2023b.png)  
 
 >Influence of Operating Conditions on Propeller Efficiency Losses in Icing Conditions  
 > 
