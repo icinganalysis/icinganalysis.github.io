@@ -141,7 +141,7 @@ but poor agreement for the distribution type
 >  2. Detailed procedures for analyzing results from of multicylinders are described, with a flight data case.  
 >  3. Differences in analysis method details can drive MVD and LWC differences in the range of 5% to 10%.  
 
-![A photo of airplane with a mutlicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](images/naca-rm-e53d23/Figure1.png)  
+![A photo of airplane with a multicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](images/naca-rm-e53d23/Figure1.png)  
 
 ### [NACA-TR-1215 "Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method"]({filename}/NACA-TR-1215.md)  
 > 1. NACA-TN-2903, NACA-TN-2904, and NACA-RM-E53D23 are "superseded" (collected together).  

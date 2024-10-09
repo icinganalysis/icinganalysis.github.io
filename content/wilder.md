@@ -84,7 +84,7 @@ to ice.
 predicting the time the ice will shed has been developed using icing tunnel
 test data in conjunction with a heat transfer analysis. The ice shedding
 calculation procedure is demonstrated and shown to be conservative from
-natural icing flight teat data.
+natural icing flight test data.
 Different types of descent profiles are
 considered and operating procedures are discussed to ensure ice shedding
 prior to approach flight conditions.

@@ -199,7 +199,7 @@ than those experienced during the flight in clouds because the lower
 ambient temperature in the former tests would result in increased kinetic 
 heating (lower cp) and a reduction in evaporative cooling.
 > 
-> The teat data indicate that the temperature rise of the leading
+> The test data indicate that the temperature rise of the leading
 edges of the propeller blades could be expected to provide only limited
 ice prevention in flight-natural-icing conditions and therefore it may be
 concluded that little or no protection would be provided to the leading-edge 
