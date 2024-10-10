@@ -358,7 +358,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-1246]({filename}NACA-TN-1246.md)  
 -->
 
-- Radome Ice Protection  
+- Radome Icing Protection  
 
     - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
     - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
