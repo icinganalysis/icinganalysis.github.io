@@ -1,7 +1,6 @@
 Title: NACA-TN-1246  
 Date: 2024-10-12 13:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"The icing of the unprotected installation presents a serious operational problem"_  

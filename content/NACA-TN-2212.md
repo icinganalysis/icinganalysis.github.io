@@ -1,7 +1,6 @@
 Title: NACA-TN-2212       
 Date: 2024-09-30 12:00  
 Category: NACA  
-status: draft  
 tags: flight test, propellers      
 
 ### _"in icing conditions, periodic attempts should be made to throwoff the accretions by increasing propeller speed."_  

@@ -1,7 +1,6 @@
 Title: NACA-RM-E50H29     
 Date: 2024-10-14 20:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"Experience has shown that ... the inlet guide vanes of an axial-flow turbojet engine constitute the most critical component to be protected from icing"_  

@@ -1,7 +1,6 @@
 Title: NACA-TN-4093     
 Date: 2024-10-14 23:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"Rotational speeds up to 1200 rpm had no apparent effect on the heat-transfer characteristics of the spinner"_  

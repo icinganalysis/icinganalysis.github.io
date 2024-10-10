@@ -275,48 +275,23 @@ Links to reviews are included where applicable.
 - Turbine-Type Engine and Inlet Icing Studies  
 
     - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
-
-    - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
-
-    - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
-
-    - Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
-    - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
-    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
-    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
-    - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
-    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
-
-
-
-<!--
         > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
-
--->
-<!--
-        > review: [NACA-RM-E8C18.]({filename}NACA-RM-E8C18.md)  
--->
-<!--
+    - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+        > review: [NACA-RM-E8C18]({filename}NACA-RM-E8C18.md)  
+    - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950.  
         > review: [NACA-RM-E50I08]({filename}NACA-RM-E50I08.md)  
--->
-<!--
+    - Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956.  
         > review: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
--->
-<!--
+    - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
         > review: [NACA-TN-4093]({filename}NACA-TN-4093.md)  
--->
-<!--
+    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
         > review: [NACA-RM-E50H29.md]({filename}NACA-RM-E50H29.md)  
--->
-<!--
+    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
         > review: [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md)  
--->
-<!--
+    - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957.  
         > review: [NACA-RM-E57G09]({filename}NACA-RM-E57G09.md)  
--->
-<!--
+    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
         > review: [NACA-RM-E50E03]({filename}NACA-RM-E50E03.md)  
--->
 
 - Wing Ice Protection  
 
@@ -479,6 +454,6 @@ I could not find this on the NTRS or on the FAA site. It is available at [DTIC](
 [^4]:
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
 [^5]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. 
-[Reprint included in NASA-TM-81651]  
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)   
+[also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]  
 [^6]: National Technical Reports Server, [ntrs.nasa.gov](https://ntrs.nasa.gov/)  

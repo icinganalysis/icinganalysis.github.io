@@ -1,7 +1,6 @@
 Title: NACA-RM-E50I08     
 Date: 2024-10-14 18:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"Ice formations ... may have the following effects, which when combined may become serious enough to necessitate a shutdown of the engine: reduced engine thrust, increased,fuel consumption, and increased tail-pipe temperature."_  

@@ -1,7 +1,6 @@
 Title: NACA-TN-3837     
 Date: 2024-10-14 22:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"Many aircraft components are essentially simple bodies of revolution; examples of these are radomes, body noses, engine accessory housings, and the large spinners of turboprop engines"_  

@@ -1,7 +1,6 @@
 Title: Engine Inlet Icing       
-Date: 2024-10-14 12:00  
+Date: 2024-10-10 12:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection, flight test   
 
 ### _"The desirability for all-weather operation of turbojet aircraft has necessitated extensive research on methods of icing protection for the various engine components"_  

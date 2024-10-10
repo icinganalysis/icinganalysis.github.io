@@ -1,7 +1,6 @@
 Title: NACA-RM-E51B12     
 Date: 2024-10-14 21:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, flight test, ice protection   
 
 ### _"Serious icing of a turbojet-engine installation may render the engine inoperative in a matter of minutes."_  

@@ -1,7 +1,6 @@
 Title: NACA-RM-E8FO1a     
 Date: 2024-10-14 15:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, flight test   
 
 ### _"The engine was satisfactorily accelerated to take-off power after approximately 45 minutes in the icing condition"_  

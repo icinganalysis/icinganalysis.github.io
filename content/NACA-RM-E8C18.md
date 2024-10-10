@@ -1,7 +1,6 @@
 Title: NACA-RM-E8C18     
 Date: 2024-10-14 14:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, flight test   
 
 ### _"Ice formations penetrated to the second-stage rotor blades"_  

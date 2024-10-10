@@ -1,7 +1,6 @@
 Title: NACA-RM-E57G09     
 Date: 2024-10-15 11:00  
 Category: NACA  
-status: draft  
 tags: engine inlet, icing tunnel, ice protection   
 
 ### _"the contour plots indicate that cowl-lip disturbances are the more controlling factor"_  
