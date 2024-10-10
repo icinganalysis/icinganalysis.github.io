@@ -17,7 +17,10 @@ and also summarizes many of the NACA achievements in aircraft icing
 It is also a good introduction, although rather technical (but with no math) 
 to aircraft icing, that has held up well for more than 6 decades.  
 
-For the online copy available [^1], a notation is included:  
+Unfortunately, an online reprint  [^2], was an almost illegible reproduction,
+and might have been how many current readers first encountered it. 
+
+A notation is included:  
 
 ```text
 THIS DOCUMENT HAS BEEN REPRODUCED FROM
@@ -28,21 +31,9 @@ INFORMATION AS POSSIBLE
 ```
 In some areas, the text is barely legible. 
 I believe that this has hampered awareness about and use of this important publication. 
-Also, I have not seen or found online the original reference, 
-and this lack of availability has also hampered awareness about and use of this important publication.  
-
-- von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17, 1955.  
 
 Here, the text is reformatted and presented here in html format, 
 which is both human- and machine-readable.  
-
-Several text extraction techniques were used. 
-All of them had some errors that had to be manually corrected. 
-There still may be errors.  
-
-Several of the figures are barely legible. 
-An effort has been made to find clearer versions. 
-Those are included after the original figures. 
 
 For legibility, the usual convention of block quotes will be reversed below. 
 The original is plain text, and comments or additions are in block quote format. 
@@ -1143,7 +1134,5 @@ in the Lewis icing tunnel.
 
 ## Notes  
 
-[^1]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. 
-Reprint included in NASA-TM-81651 
-"Selected Bibliography of NACA-NASA Aircraft Icing Publications", [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
+[^1]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)      
+[^2]: "The Icing Problem" reprint included in NASA-TM-81651 "Selected Bibliography of NACA-NASA Aircraft Icing Publications", [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
