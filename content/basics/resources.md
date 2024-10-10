@@ -225,7 +225,7 @@ The "APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS" is especially
 [history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  
 
 [The Historical Selected Bibliography of NACA-NASA Icing Publications](https://icinganalysis.com/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html)  
-132 NACA icing publications in 16 categories that are still relevant today. 
+132 NACA icing publications in 17 categories that are still relevant today. 
 
 And, of course, the "Blast from the Past: NACA Icing Publications" [icinganalysis.com](https://icinganalysis.com/) blog. 
 

@@ -6,7 +6,7 @@ status: draft
 
 ##Summary
 
-A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 16 categories.
+A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 17 categories.
 
 ##Discussion  
 

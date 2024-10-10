@@ -9,12 +9,12 @@ _The cover page of NACA-TN-2569. The original covers were often this orange or y
 
 ## Summary  
 
-A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 16 categories.
+A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 17 categories.
   
 ## Discussion  
 
 ### Publications  
- 
+
 This title was published three times. 
 
 The first was in 1969 in the "Aircraft Ice Protection Report of Symposium" [^1] as 

@@ -46,9 +46,9 @@ current aircraft flight in icing certification regulations.
 
 One hundred and thirty-two NACA publications related to aircraft icing were 
 identified in ["The Historical Selected Bibliography of NACA-NASA Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
-and categorized into 16 topics.
+and categorized into 17 topics.
 
-Publications related to icing on a cylinder will include several of the 16 topics, 
+Publications related to icing on a cylinder will include several of the 17 topics, 
 such as “Meteorology of Icing Clouds”, “Meteorological Instruments” 
 and “Impingement of Cloud Droplets” (as cylinders were and still are used as icing measurement instruments), 
 as well as “Heat Transfer”. With a firm foundation in those concepts, 
