@@ -4,7 +4,7 @@ tags: database
 status: hidden
 
 
-The 132 publications in the “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1] 
+The 131 publications in the “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1] 
 include seven citations that were not published by NACA. 
 This also has an effect of making some them difficult to find online:  
 

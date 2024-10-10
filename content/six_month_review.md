@@ -89,7 +89,7 @@ so I could start using that as the main link.
 
 ## Things that sort-of work
 
-### Progress on the 132 Historic NACA Icing Publications 
+### Progress on the 131 Historic NACA Icing Publications 
 
 To date, I have posted 56 reviews, but only 26 of the from the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 That puts me on a three-year trajectory to review them all. 
@@ -187,7 +187,7 @@ I will be trying something a little different,
 grouping several publications into a single topic review, 
 and including more post NACA-era information. 
 This may accelerate getting through the publications, 
-but as I said above, I may not get through all 132 NACA icing publications. 
+but as I said above, I may not get through all 131 NACA icing publications. 
 
 I welcome feedback about what will most useful to you in future posts. 
 

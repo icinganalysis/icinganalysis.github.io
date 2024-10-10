@@ -46,7 +46,7 @@ including the curved sections or elbows in air-intake ducts."_
 
 The importance of this "investigation of the impingement" is shown by noting that of the 16 categories identified in 
 [The Historical Selected Bibliography of NACA-NASA Icing Publications.md]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
-the largest category is "Impingement of Cloud Droplets" with 25 publications (out of 132 total publications). 
+the largest category is "Impingement of Cloud Droplets" with 25 publications (out of 131 total publications). 
 
 There were also important additional publications included below. 
 

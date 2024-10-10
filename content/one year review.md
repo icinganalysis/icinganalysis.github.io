@@ -23,12 +23,12 @@ I made 50+ posts in the past 12 months.
 
 I am thankful for the continuing level of interest shown in the topic.  
 
-##Progress on the 132 NACA Icing Publications  
+##Progress on the 131 NACA Icing Publications  
 
-I set out to review the 132 publications in the 
+I set out to review the 131 publications in the 
 ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
-Out of 132 publications, 
+Out of 131 publications, 
 I wrote 33 reviews.   
 (links to the individual reviews are included in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md))  
 
@@ -72,7 +72,7 @@ Some areas have had more coverage than others:
 ##Other icing publications reviews  
     
 Some of my former managers might have told me I was "off message"
-for not getting more of the 132 publications covered, 
+for not getting more of the 131 publications covered, 
 but I have also reviewed some important, contemporary publications.  
 
 The review of ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
@@ -96,7 +96,7 @@ and traced uses to the current era.
 >- [Conclusions of the Meteorological Instruments Thread]({filename}Conclusions of the Meteorological Instruments Thread.md)  
 
 The [Icing Wind Tunnel Test Thread]({filename}Icing Wind Tunnel Test Thread.md) 
-covered something that the 132 publications did not directly include, 
+covered something that the 131 publications did not directly include, 
 the NACA-era Lewis Icing Research Tunnel (IRT) and other tunnels, and their uses. 
 This included 11 reviews, several from the post-NACA era:
 
@@ -121,7 +121,7 @@ The [Diversions]({filename}diversions.md) had three reviews of post-NACA publica
 >- [The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice Protection Report of Symposium]({filename}1969 Aircraft Ice Protection Report of Symposium.md)   
 >- [The Greatest Thing That You Have (Probably) Never Read: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)    
 
-Three of the 132 NACA icing publications were reviewed twice (in different threads).  
+Three of the 131 NACA icing publications were reviewed twice (in different threads).  
 
 I also took of three months off during the year 
 (a "vacation" from this hobby; 
@@ -161,7 +161,7 @@ _Figure 7 from NACA-TR-403, and a "sneak preview" of the upcoming Ice Protection
 
 ##The Future  
 
-I am not sure that I will ever cover all 132 publications, 
+I am not sure that I will ever cover all 131 publications, 
 but I do plan to continue this year.  
 
 I have a few criteria for what to review:  
