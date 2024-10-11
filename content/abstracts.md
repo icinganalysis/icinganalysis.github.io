@@ -1,8 +1,7 @@
 Title: Abstracts for The Historical Selected Bibliography of NACA-NASA Icing Publications       
 Date: 2024-10-14 14:00  
 Category: NACA  
-status: draft  
-tags: NACA   
+tags: NACA, bibliography    
 
 ## Introduction  
  
@@ -28,11 +27,16 @@ which is both human- and machine-readable.
 The formats vary in the original text. 
 Some match what is in the publications, and 
 others are briefer summaries typically found on library reference cards. 
-No effort was made here to make them more uniform in style. 
+No effort was made here to make them more uniform in style
+(for example, some titles are in ALL CAPS, and others are not). 
 The abstracts may differ from those that you may find in listings at [ntrs.nasa.gov](https://ntrs.nasa.gov/).  
 
+The numbering from the 1981 publication is used here. 
+A later republication (in AC 20-73) used consecutive numbering 
+within a category, but not for the entire publication.  
+
 Several text extractions techniques were used, but all of them had some errors. 
-Errors were corrected manually, but there still may be errors.  
+Errors found were corrected manually, but there still may be errors.  
 
 The 17 categories:  
 
@@ -174,12 +178,13 @@ The average behavior of supercooled droplets is
 reproduced on the basis of probability theory with an
 assumed distribution of crystallization nuclei with
 respect to the temperatures at which the nuclei cause
-freezing. The most probable distribution curves of spontaneous freezing temperatures for water droplets of
+freezing. The most probable distribution curves of spontaneous 
+freezing temperatures for water droplets of
 various sizes within the size range found in clouds are
 obtained.  
 
 16  
-Photamicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets  
+Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets  
 By Robert G. Dorech and Paul T. Backer  
 NACA TN 2142 July 1950  
 Abstract  
@@ -195,7 +200,7 @@ size were obtained.
 
 17  
 NACA TN 3810 
-EXPERMENTAL VALUES OF THE SURFACETENSION OF SUPERCOOLED WATER. 
+EXPERIMENTAL VALUES OF THE SURFACE TENSION OF SUPERCOOLED WATER. 
 Paul T. Hacker. October 1981. 30p. diagrs., photon., tab. (NACA TN 3810)  
 The surface tension of water has been determined
 experimentally for the temperature range, 0° to
@@ -221,7 +226,7 @@ progressively more ice-like in structure as the temperature is lowered.
 19  
 NACA RM E51L17  
 A PHOTOGRAPHIC STUDY OF FREEZING OF WATER DROPLETS FALLING FREELY IN AIR
-Robart G. Dorech and Joseph Levine. February 1952, 25 p., diagrs., photos, tabs. (NACA RM E51L17)
+Robart G. Dorsch and Joseph Levine. February 1952, 25 p., diagrs., photos, tabs. (NACA RM E51L17)
 The freezing of fee-falling water droplets in air was investigated by a photographic technique. 
 Information on the following was obtained:  
 (1) droplet shape after freezing, (2) the occurrence of collisions of
@@ -254,7 +259,7 @@ Kinetic Temperature of Wet Surfaces
 A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and
 the Derivation of the Psychrometric Equation  
 By J. K. Hardy of the Royal Aircraft Establishment
-Reports and Memoranda No. 2830  September, 1945  
+Reports and Memoranda No. 2830  September 1945  
 Summary. - A method is given for calculating the temperature of a surface wetted either by a pure liquid, such
 as water, or by a mixture, such as alcohol and water. The method is applied to the problem of protecting, by
 alcohol, propellers and the induction system of the engine against ice. The minimum quantity of alcohol required
@@ -277,7 +282,7 @@ Provide a direct indication of icing severity. The
 ment of the instrument consists of a wire which was heated by passing electrical through
 it. The wire was mounted in the air stream and the
 gages of cooling resulting from evaporation of
-impinging water droplets ss a measure of the liquid-water content of the cloud. 
+impinging water droplets as a measure of the liquid-water content of the cloud. 
 Comparisons are made
 of the liquid-water content is measured with heated
 wires and absorbent cylinders in an artificially
@@ -592,7 +597,7 @@ NACA TN 2952
 IMPINGEMENT OF WATER DROPLETS ON NACA 651,-308 AND 651-212 AIRFOILS AT 4° ANGLE OF ATTACK.  
 Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E. May 1953. 41p. diagrs. (NACA TN 2952)  
 
-The trajectories of droplets 1n the air flowing past
+The trajectories of droplets in the air flowing past
 NACA 651,-208 AND 651-212, both at an angle of attack of 4°, were
 compared with a mechanical analog. The amount
 of water on droplet form impinging on the airfoils,
@@ -802,10 +807,10 @@ Experimental studies were made with an NACA 651-212 airfoil section truncated at
 ## Propeller Ice Protection {: #Propeller-Ice-Protection }  
 
 61  
-NACA TECHNICAL NOTE 1178
-A FLIGHT INVESTIGATION OF THE THERMAL PERFORMANCE OF AN AIR-HEATED PROPELLER  
-John F. Darsow and James Selna
-SUMMARY
+NACA TECHNICAL NOTE 1178  
+A FLIGHT INVESTIGATION OF THE THERMAL PERFORMANCE OF AN AIR-HEATED PROPELLER   
+John F. Darsow and James Selna  
+SUMMARY  
 Observations were made during flight in natural-icing conditions and
 by the collection of thermal data on the propeller during flight in clear
 air and in clouds at temperatures above freezing. The propeller was
@@ -829,6 +834,7 @@ of providing means to increase the heat flow through the leading-edge region or 
 
 62  
 NACA TN No. 1691 August, 1948  
+Icing and De-Icing of a Propeller with Internal Electric Blade Heaters  
 Abstract  
 De-icing effectiveness of internal electric
 propeller-blade heater was determined at two icing and
@@ -845,7 +851,7 @@ were obtained and minimum cooling period for cylio
 de-icing was approximately 2.55 times the heating period,
 
 63  
-De-Icing Effectiveness of External Electric Heaters for Propeller Blades.
+De-Icing Effectiveness of External Electric Heaters for Propeller Blades.  
 By James P. Lewis  
 NACA TN No. 1520  February 1948  
 Abstract  
@@ -896,7 +902,7 @@ Surface temperatures indicated satisfactory chord-wise distribution.
 The blade heat-exchanger effectiveness was found to be 77 percent.  
 
 66  
-TECHNICAL NOTE NO. 1587
+TECHNICAL NOTE NO. 1587  
 INVESTIGATION OF AIR-HEATING OF A HOLLOW STEEL PROPELLER FOR PROTECTION AGAINST ICING II - 50-PERCENT PARTITIONED BLADES  
 By Porter J. Perkins and Donald R. Mulholland  
 The icing protection afforded an internal air-heated propeller
@@ -922,7 +928,7 @@ This effectiveness was, however, 9 percent greater than that obtained
 from unpartitioned blades.  
 
 67  
-Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing. III - 25-Percent Partitioned Blade
+Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing. III - 25-Percent Partitioned Blade  
 By Donald RB. Mulholland and Porter J. Perkins  
 NACA TN No. 1588  
 May 1948  
@@ -1052,6 +1058,7 @@ serious Icing by proper location of the fuel-discharge nozzle combined
 with suitable application of heat to critical parts.  
 
 73  
+NACA TR 982  
 ICING-PROTECTION REQUIREMENTS FOR RECIPROCATING-ENGINE INDUCTION SYSTEMS  
 by Willard D. Coles, Vern G. Rollin, and Donald R. Mulholland   
 NACA-TR-982, 1950  
@@ -1068,7 +1075,7 @@ carburetor-supercharger combinations, wind-tunnel investigations
 of air scoops, multicylinder-engine studies, and fight
 investigations. Characteristics of the three forms of ice, impact,
 throttling, and fuel evaporation, were studied. The effects of
-servral factors on the icing characteristics were also studied and
+serveral factors on the icing characteristics were also studied and
 included (1) atmospheric conditions, (2) engine and air-scoop
 configurations, including light airplane systems, (3) type of
 fuel usd, and (4) operating variables, such as power condition,
@@ -1244,6 +1251,7 @@ inertia-separation inlets.
 ## Wing Icing Protection {: #Wing-Icing-Protection }  
 
 84  
+NACA TR 831, 1945  
 AN ANALYSIS OF THE DISSIPATION OF HEAT IN CONDITIONS OF ICING FROM A SECTION OF THE WING OF THE C-46 AIRPLANE  
 J. K. Hardy  
 SUMMARY  
@@ -1288,12 +1296,12 @@ certainty.
 86  
 NACA RM E51J29  
 PRELIMINARY RESULTS OF CYCLICAL DE-ICING OF A GAS-HEATED AIRFOIL.  
-V. H. Gray, D. T. Bowden and U. von Glahn. January 1952. 38p. photos. , diagrs., tab. (NACA RM 5129)  
+V. H. Gray, D. T. Bowden and U. von Glahn. January 1952. 38p. photos., diagrs., tab. (NACA RM 5129)  
 
 An NACA 65-212 airfoil of 8-foot chord was provided 
 with a gas-heated leading edge for investigations 
 of cyclical de-icing. De-icing was accomplished 
-with intermittent heating of airioil segments
+with intermittent heating of airfoil segments
 that supplied hot gas to chordwise passages in a
 double-akin construction. Ice removal was facilitated 
 by a spanwise leading-edge parting strip which
@@ -1342,7 +1350,7 @@ indicate the effect of tunnel turbulence by the forward
 movement of transition from laminar to turbulent
 heat transfer. The flight results indicate that the
 convective heat transfer in icing is considerably
-different from that measured in clear a'r and only
+different from that measured in clear air and only
 slightly different from that obtained in the tunnel
 during simulated icing.
 
@@ -1374,7 +1382,7 @@ diamond airfoil at sero angle of attack in terms of
 the stream Mach number, stream temperature, and
 pressure altitude. The icing limit is defined as a
 wetted-surface temperature of 32° F and is related
-to the stream conditions by the m¥thod of Hardy.
+to the stream conditions by the method of Hardy.
 The results show that the point most likely to ice on
 the airfoil lies immediately behind the shoulder and
 is subject to possible icing at Mach numbers as high
@@ -1479,7 +1487,7 @@ airfoil. Marginal power densities for the leading-edge
 electrically heated area were obtained. Drag comparisons 
 were made between the bare airfoil and the various
 operating conditions of the pneumatic section of the
-de-icer during icing end nonicing of the airfoil surface.  
+deicer during icing and nonicing of the airfoil surface.  
 
 ## Performance Penalties {: #Performance-Penalties }  
 
@@ -1532,10 +1540,10 @@ Abstract
 Flight investigation in natural icing conditions 
 was conducted to determine effect of ice
 accretion on airplane performance.  
-Maxiuum loss in propeller efficiency encountered 
+Maximum loss in propeller efficiency encountered 
 was 19 percent. During 87 percent of the
 propeller icing encounters, losses of 10 percent or
-lesswvere observed. Ice formations on all components 
+less were observed. Ice formations on all components 
 of the airplane except the propellers during one 
 icing encounter resulted in an increase in
 parasite drag of the airplane of 81 percent. The
@@ -1604,7 +1612,7 @@ attack and rotated to lower angles, large negative
 pitching moments ware obtained. Ice formations on
 the airfoil had no significant effects on control-surface hinge moments.
 
-104
+104  
 NASA TN D-2166  
 National Aeronautics and Space Administration.  
 PREDICTION OF AERODYNAMIC PENALTIES CAUSED BY ICE FORMATIONS ON VARIOUS AIRFOILS.  
@@ -1774,7 +1782,7 @@ Variation of wet-surface temperature and the conditions that will result in ice-
 124  
 NACA RM E53F02  
 National Advisory Committee for Aeronautics.  
-PRELIMINARY RESULTS OF HEAT TRANSFER FROM A STATIONARY AND ROTATING ELLIPSOIDAL SPINNER. 
+PRELIMINARY RESULTS OF HEAT TRANSFER FROM A STATIONARY AND ROTATING ELLIPSOIDAL SPINNER.   
 U. von Glahn. August 1953. 35p. diagrs., photo., 2 tabs. (NACA RM E53F02)  
 The convective heat-transfer coefficients were determined for an ellipsoidal spinner of 30-inch maximum diameter for both stationary and rotating operation. The range of conditions studied included air-speeds up to 275 miles per hour, rotational speeds up to 1200 rpm, and angles of attack of zero and 4°. The results indicate that a higher heat transfer occurred with rotation of the spinner. Transition from laminar to turbulent flow occurred over a large range of Reynolds numbers primarily because of surface roughness of the spinner.  
 
