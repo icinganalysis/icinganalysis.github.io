@@ -3,6 +3,9 @@ Date: 2024-10-11 14:00
 Category: NACA  
 tags: NACA, bibliography    
 
+![Example.](images%2Fsummaries%20of%20documents%20listed%20in%20bibligraphy%2Fexample.png)  
+_An example of the abstracts listing._  
+
 ## Introduction  
  
 The 1981 reprint of ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) [^1] 
