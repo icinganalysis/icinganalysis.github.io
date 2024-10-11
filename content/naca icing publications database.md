@@ -17,7 +17,7 @@ _NACA Cleveland library, circa 1945._
 
 ## Discussion
 
-I have assembled a database of 210 NACA-NASA[*]({filename}non-naca.md) icing publications. 131 were cited in “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1]. 
+I have assembled a database of 210 NACA-NASA[*]({filename}non-naca.md) icing publications. 132 were cited in “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1]. 
 I also identified 78 additional NACA icing publications in the NTRS [^2] that were not cited in [^1]. 
 
 The format of the citations in the NACA publications varies over the years. 

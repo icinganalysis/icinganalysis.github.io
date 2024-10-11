@@ -9,7 +9,7 @@ _The cover page of NACA-TN-2569. The original covers were often this orange or y
 
 ## Summary  
 
-A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 17 categories.
+A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 17 categories.
   
 ## Discussion  
 
@@ -31,7 +31,7 @@ NASA-TM-81651 includes a reprint of Uwe von Glahn's "The Icing Problem: Current 
 from 1955 [^5]. 
 That is followed by "Selected Bibliography of NACA-NASA Icing Publications", which is again not credited,
 but the "Foreword" attributes it to Uwe von Glahn. 
-The third publication includes the abstracts of all 131 publications.  
+The third publication includes the abstracts of all 132 publications.  
 
 The bibliographic lists are substantially similar in the three publications. 
 Minor differences include different numberings, and some references are updated, such as 
@@ -100,7 +100,7 @@ While most of the NACA publications are available at the NTRS [^6], some are not
 - Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
     - This is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
-## The 131 icing publications  
+## The 132 icing publications  
 
 Links to reviews are included where applicable.  
 

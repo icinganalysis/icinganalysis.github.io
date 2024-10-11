@@ -24,7 +24,7 @@ spontaneously freeze (freeze without outside influence other than temperature).
 
 Several of the studies note similarities of the properties of supercooled water and ice. 
 
-These five publications reviewed here are from the seven publications listed in the "Fundamental Properties of Water" section of 131 publications in 
+These five publications reviewed here are from the seven publications listed in the "Fundamental Properties of Water" section of 132 publications in 
 ["The Historical Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md). 
 The two other studies have been reviewed previously, as noted below. 
 

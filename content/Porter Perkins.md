@@ -44,7 +44,7 @@ Searching is difficult, as his name is in three forms on ntrs.nasa.gov, at least
 and likewise at other sources (such as P. Perkins, P. J. Perkins, Porter J. Perkins, P. J. Jr Perkins, etc.)  
 
 Sixteen of his NACA publications are in [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
-so he contributed to more than 10% of the 131 titles listed. 
+so he contributed to more than 10% of the 132 titles listed. 
 
 Several publications on instruments have been reviewed previously, and Perkins used, developed, and improved them.  
 

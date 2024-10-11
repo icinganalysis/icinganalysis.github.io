@@ -6,7 +6,7 @@ status: draft
 
 ##Summary
 
-A "Selected Bibliography of NACA-NASA Icing Publications" identified 131 publications in 17 categories.
+A "Selected Bibliography of NACA-NASA Icing Publications" identified 132 publications in 17 categories.
 
 ##Discussion  
 
@@ -23,7 +23,7 @@ NASA-TM-81651 includes a reprint of Uwe von Glahn's "The Icing Problem: Current 
 from 1955 [^3].
 That is followed by "Selected Bibliography of NACA-NASA Icing Publications", which is again not credited,
 but the "Foreword" attributes it to Uwe von Glahn. 
-The second publication includes the abstracts of all 131 publications.
+The second publication includes the abstracts of all 132 publications.
 
 The bibliographic lists are substantially similar in the two publications. 
 Minor differences include different numberings, and some references are updated, such as 
@@ -83,7 +83,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - This is available at DTIC, https://apps.dtic.mil/sti/citations/ADA800876
 
-## The 131 icing publications
+## The 132 icing publications
 
 - Meteorology of Icing Clouds
 
