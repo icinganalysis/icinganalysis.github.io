@@ -3,6 +3,8 @@ Date: 2024-10-11 14:00
 Category: NACA  
 tags: NACA, bibliography    
 
+### _"THIS DOCUMENT ... IS BEING RELEASED IN THE INTEREST OF MAKING AVAILABLE AS MUCH INFORMATION AS POSSIBLE"_  
+
 ![Example.](images%2Fsummaries%20of%20documents%20listed%20in%20bibligraphy%2Fexample.png)  
 _An example of the abstracts listing._  
 
@@ -12,7 +14,7 @@ The 1981 reprint of ["Selected Bibliography of NACA-NASA Aircraft Icing Publicat
 included abstracts of the 132 references in 17 categories.  
 
 Unfortunately, the online version available has rather poor image quality. 
-A notation is included:  
+A note is included:  
 
 ```text
 THIS DOCUMENT HAS BEEN REPRODUCED FROM
