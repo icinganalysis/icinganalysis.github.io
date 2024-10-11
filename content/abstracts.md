@@ -9,7 +9,7 @@ tags: NACA, bibliography
 _An example of the abstracts listing._  
 
 ## Introduction  
- 
+
 The 1981 reprint of ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) [^1] 
 included abstracts of the 132 references in 17 categories.  
 
