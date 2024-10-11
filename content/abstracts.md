@@ -36,7 +36,7 @@ The abstracts may differ from those that you may find in listings at [ntrs.nasa.
 
 The numbering from the 1981 publication is used here. 
 A later republication (in AC 20-73) used consecutive numbering 
-within a category, but not for the entire publication.  
+within a category, but not for the entire list.  
 
 Several text extractions techniques were used, but all of them had some errors. 
 Errors found were corrected manually, but there still may be errors.  
