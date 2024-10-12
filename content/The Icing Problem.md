@@ -20,8 +20,6 @@ tags: icing, flight test, tunnel test, ice protection
 > specific test equipment and techniques used in conducting tests in icing wind tunnels, 
 > and several icing instruments.  
 
-## Discussion  
-
 ## Introduction  
 
 This is an excellent summary of the "state of the art" in 1955, 
@@ -35,15 +33,16 @@ Unfortunately, an online reprint [^2], was an almost illegible reproduction,
 and might have been how many current readers first encountered it. 
 Readers can get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487).  
 
+Here, it will be presented in its entirety. 
+A few of the figures are not very clear, and clearer versions are included, where applicable. 
+
 Not included here is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 which was first presented in 1969, and is 
 appended after the reprinted "The Icing Problem" in 
 NASA-TM-81651 [^1].
 
-## The main presentation  
-
-> 
-
+As this is a longer than usual blog post, 
+navigation by sections is provided below.  
 
 Sections available are:  
 
@@ -53,7 +52,12 @@ Sections available are:
 [Appendix C - Icing Instruments](#appendix-c)  
 [References](#references)  
 
-## Reformatted original text {: #original-text }  
+For legibility, the usual convention of block quotes will be reversed below. 
+The original is plain text, and comments or additions are in block quote format. 
+
+> Block quote format example.  
+
+## "The Icing Problem" original text {: #original-text }  
 
 Icing of aircraft components such as airfoil surfaces and engine-inlet
 systems similar to those shown in figure 1 creates a serious operational
@@ -855,7 +859,7 @@ the tunnel at the test section includes static-pressure taps along the top
 and bottom surfaces of the tunnel and pressure taps and thermocouples in the
 plenum chamber.
 
-A schematic diagram of the component parts of a 12- by 12-inch icins
+A schematic diagram of the component parts of a 12- by 12-inch icing
 duct tunnel is shown in figure 29. The tunnel characteristics are in general 
 similar to the 3.84 - by 10-inch tunnel. Subsonic speeds up to Mach
 number of 0.75 can be achieved with small airfoil models. For icing studies

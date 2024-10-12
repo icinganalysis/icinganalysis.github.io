@@ -128,7 +128,7 @@ it contains data from a test conducted in 1945.
 | NACA-TN-2615 [Heated Probes]({filename}Heated%20Probes.md)                                                                                | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California   |
 | [NACA-TN-3104]({filename}NACA-TN-3104.md)  <br/>[NACA-TN-3143]({filename}NACA-TN-3143.md)  <br/>[NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | 3.84-inch by 10-inch Transonic tunnel NACA Lewis, Ohio |
 
-A 10-inch by 10-inch tunnel is mentioned in "The Icing Problem" [^4], but I have not found where it was used.  
+A 12-inch by 12-inch tunnel is mentioned in "The Icing Problem" [^4], but I have not found where it was used.  
 
 ## References  
 
