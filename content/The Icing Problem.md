@@ -607,7 +607,7 @@ of many icing problems.
 ## Appendix A  {: #appendix-a }  
 
 APPENDIX A
-ICING TUNNEL FACILITIES
+ICING TUNNEL FACILITIES 
 
 The amount of time required for both aircraft and equipment maintenance
 to obtain sufficient data in flight toward the solution of icing problems,
