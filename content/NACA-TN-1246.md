@@ -142,15 +142,15 @@ the blade heaters.
 
 ![Figure 5. Electric blade heaters in cooling—fan installation.](/images%2FNACA-TN-1246%2FFigure%205.png)  
 
->Calibration of tunnel-Icing conditions. - The icing conditions
+>Calibration of tunnel-icing conditions. - The icing conditions
 were defined by the ambient-air temperature and liquid-water content
 of the air. Figure 6 presents the variation of liquid-water content
 with air temperature at the face of the cooling fan as determined by
 a survey conducted in the diffuser section of the icing research
 tunnel and a comparison of these conditions with the values recommended 
-by the NACA Subcommittee on De-Icing Problems and. by the
-Mt. Washington Weather Bureau meetIng on June 19, 1945. The subcommittee 
-values are one-half of the recommended maximum values an1.
+by the NACA Subcommittee on De-Icing Problems and by the
+Mt. Washington Weather Bureau meeting on June 19, 1945. The subcommittee 
+values are one-half of the recommended maximum values and
 are for average or typical icing. Vertical cylinders rotating
 about their axes were installed in the diffuser section and, from
 measurements of the local velocity and the ice accumulation per
@@ -161,7 +161,7 @@ by the method of Langmuir of the General Electric Company. Droplet
 size was also measured but no consistent correlation with air temperature 
 was obtained. An average droplet size of 55 microns was
 obtained in the icing research tunnel for the range of air temperature 
-of 00 to 32 0 F as compared with the recommended averages of
+of 0° to 32° F as compared with the recommended averages of
 10 and 30 microns, respectively, at these temperatures. This variation 
 in droplet size was not considered important, however,
 because the collection efficiency of small objects such as th.e thin

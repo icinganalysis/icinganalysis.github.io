@@ -8,6 +8,20 @@ tags: icing, flight test, tunnel test, ice protection
 
 # "THE ICING PROBLEM - CURRENT STATUS NACA TECHNIQUES AND RESEARCH" [^1]  
 
+## Abstract  
+
+> This paper summarizes some of the techniques used in N.A.C.A. research programs, 
+> in flight and in tunnels, to solve aircraft icing problems and it indicates 
+> the scope of the data available for the design of aircraft icing protection systems. 
+> Sufficient data have been obtained, generalized where possible, and techniques have 
+> been established whereby icing-protection requirements for most aircraft components 
+> can be determined sufficiently accurately for engineering purposes. 
+> The Appendices discuss the icing facilities at the N.A.C.A. Lewis laboratory in detail, 
+> specific test equipment and techniques used in conducting tests in icing wind tunnels, 
+> and several icing instruments.  
+
+## Discussion  
+
 ## Introduction  
 
 This is an excellent summary of the "state of the art" in 1955, 
@@ -17,33 +31,19 @@ and also summarizes many of the NACA achievements in aircraft icing
 It is also a good introduction, although rather technical (but with no math) 
 to aircraft icing, that has held up well for more than 6 decades.  
 
-Unfortunately, an online reprint  [^2], was an almost illegible reproduction,
+Unfortunately, an online reprint [^2], was an almost illegible reproduction,
 and might have been how many current readers first encountered it. 
-
-A notation is included:  
-
-```text
-THIS DOCUMENT HAS BEEN REPRODUCED FROM
-MICROFICHE. ALTHOUGH IT IS RECOGNIZED THAT
-CERTAIN PORTIONS ARE ILLEGIBLE, IT IS BEING RELEASED
-IN THE INTEREST OF MAKING AVAILABLE AS MUCH
-INFORMATION AS POSSIBLE
-```
-In some areas, the text is barely legible. 
-I believe that this has hampered awareness about and use of this important publication. 
-
-Here, the text is reformatted and presented here in html format, 
-which is both human- and machine-readable.  
-
-For legibility, the usual convention of block quotes will be reversed below. 
-The original is plain text, and comments or additions are in block quote format. 
-
-> Block quote format example.  
+Readers can get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487).  
 
 Not included here is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 which was first presented in 1969, and is 
 appended after the reprinted "The Icing Problem" in 
 NASA-TM-81651 [^1].
+
+## The main presentation  
+
+> 
+
 
 Sections available are:  
 
@@ -67,11 +67,7 @@ icing facilities in detail, specific test equipment and techniques used in
 conducting tests in icing wind tunnels, and several icing instruments.
 
 ![Figure 1. Severe icing of aircraft components. Leading edge ice formation.
-Compressor inlet icing. Carburetor screen icing.](/images%2FThe%20Icing%20Problem%2FFigure%201.png)  
-
-> A portion of Figure 1 is Figure 23, which reproduced more clearly:  
->
-> ![Figure 23. Typical icing of jet engine inlet.](/images%2FThe%20Icing%20Problem%2FFigure%2023.png)  
+Compressor inlet icing. Carburetor screen icing.](images%2FThe%20Icing%20Problem%2FFigure%201.png)  
 
 Icing of aircraft surfaces occurs when liquid cloud droplets cooled
 below the freezing temperature impinge on a surface that is also below
@@ -83,7 +79,7 @@ and shape of the component (size, shape, and attitude), and operating conditions
 (airspeed and altitude).
  
 ![Figure 2. Aircraft Surfaces requiring ice protection. 
-Includes wing, empennage, and engine inlet leading edges and windshield.](/images%2FThe%20Icing%20Problem%2FFigure%202.png)  
+Includes wing, empennage, and engine inlet leading edges and windshield.](images%2FThe%20Icing%20Problem%2FFigure%202.png)  
 
 > A clearer version of the figure is from [NACA-TN-2866]({filename}Compressed%20air%20heat.md):  
 >
@@ -94,13 +90,13 @@ A jet transport airplane.
 There are many windows in the passenger cabin, implying may rows of seats. 
 Notations read: "Shading indicates protected areas", 
 which include the wing and empennage leading edges, the engine inlets, 
-and forward windshields. ](/images/NACA-TN-2866/Figure 1.png)  
+and forward windshields. ](images/NACA-TN-2866/Figure 1.png)  
 
 A body moving through a cloud of water droplets, in general. will not
 intercept all the droplets originally contained in the volume of air swept
 out by the projected frontal area of the body (fig. 3). 
 
-![Figure 3. Droplet trajectories around airfoil.](/images%2FThe%20Icing%20Problem%2FFigure%203.png)  
+![Figure 3. Droplet trajectories around airfoil.](images%2FThe%20Icing%20Problem%2FFigure%203.png)  
 
 As the droplets
 reach the vicinity of the body, the air streamlines flow around the body.
@@ -125,11 +121,11 @@ systems for airplanes. In this method, several cylinders of different
 diameter rotating on a common axis are exposed from an aircraft in flight or
 in an icing tunnel to supercooled cloud droplets as shown in figure 4. 
 
-![Figure 4. Multi-cylinders installed on aircraft.](/images%2FThe%20Icing%20Problem%2FFigure%204.png)  
+![Figure 4. Multi-cylinders installed on aircraft.](images%2FThe%20Icing%20Problem%2FFigure%204.png)  
 
 > A clearer version of the figure is from [NACA-RM-E53D23]({filename}NACA-RM-E53D23.md):  
 >
-> ![A photo of airplane with a multicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](/images/naca-rm-e53d23/Figure1.png)  
+> ![A photo of airplane with a multicylinder instrument protruding up from the top of the fuseloge, Figure 1 of NACA-RM-E53D23](images/naca-rm-e53d23/Figure1.png)  
 
 During the exposure period, the cylinders collect ice. The cylinders are 
 rotated in order to obtain uniform ice collection around the circumference and
@@ -150,11 +146,11 @@ The pressure-type instrument (ref. 5) operates on the differential
 pressure created when small total pressure holes plug with ice accretions,
 as illustrated in the sketch of figure 5. 
 
-![Figure 5. Pressure-type icing rate instrument.](/images%2FThe%20Icing%20Problem%2FFigure%205.png)  
+![Figure 5. Pressure-type icing rate instrument.](images%2FThe%20Icing%20Problem%2FFigure%205.png)  
 
 > A clearer version of part of the figure is from [NACA-RM-E51E16]({filename}modified%20pressure%20probe.md):  
 >
-> ![Figure 1. Principle of operation of NACA pressure-type icing-rate meter.](/images/naca-rm-e51e16/Figure 1.png)  
+> ![Figure 1. Principle of operation of NACA pressure-type icing-rate meter.](images/naca-rm-e51e16/Figure 1.png)  
 
 The small total-pressure holes in
 the ice-collecting element, which are vented to static pressure through a
@@ -200,7 +196,7 @@ the program has been supplemented by in-flight weather reconnaissance
 reports from the Air Weather Service and Strategic Air Command aircraft 
 over a two-year period. 
 
-![Figure 6. World icing survey sites.](/images%2FThe%20Icing%20Problem%2FFigure%206.png)  
+![Figure 6. World icing survey sites.](images%2FThe%20Icing%20Problem%2FFigure%206.png)  
 
 These data have been put on punch cards and
 are currently being analyzed on IBM equipment. Because most of the data
@@ -221,7 +217,7 @@ analyzer (fig. 7), since experience has shown that even the simplest manual
 calculations are time-consuming and inaccurate. The use of the differential
 analyzer in this work is described in reference 14.  
  
-![Figure 7. Water-droplet-trajectory analog.](/images%2FThe%20Icing%20Problem%2FFigure%207.png)  
+![Figure 7. Water-droplet-trajectory analog.](images%2FThe%20Icing%20Problem%2FFigure%207.png)  
 
 > A clearer version of the figure from [NACA-TN-2904]({filename}NACA-TN-2904.md):  
 >
@@ -232,7 +228,7 @@ The second operator turns another input chart crank.
 Another cylinder is labeled "Droplet Trajectories". 
 There are many shafts and gears visible in the machine. 
 Some machine parts are labeled with the differential equations of motion being solved. 
-](/images/naca-tn-2904/Figure15.png)  
+](images/naca-tn-2904/Figure15.png)  
 
 Typical results obtained from such a trajectory study are shown in figure 8, 
 in which the local impingement rate on an airfoil is plotted as a
@@ -244,7 +240,7 @@ with surface distance from the leading edge. An increase in average droplet
 size from 8 to 15 microns increases the local impingement rates and causes
 the impingement area to extend farther aft than with the smaller droplets.
 
-![Figure 8. Local impingement rates on a 15-percent thick symmetrical airfoil.](/images%2FThe%20Icing%20Problem%2FFigure%208.png)  
+![Figure 8. Local impingement rates on a 15-percent thick symmetrical airfoil.](images%2FThe%20Icing%20Problem%2FFigure%208.png)  
 
 The differential analyzer is difficult to use for droplet trajectories
 about bodies with complex air flows. Therefore, a wind-tunnel method using
@@ -264,7 +260,7 @@ of the droplet-size distribution and water content of the spray
 cloud. Methods of obtaining these parameters have been worked out and are
 included in the report concerning the technique (ref. 15).  
 
-![Figure 9. Model used in obtaining experimental impingement data.](/images%2FThe%20Icing%20Problem%2FFigure%209.png)  
+![Figure 9. Model used in obtaining experimental impingement data.](images%2FThe%20Icing%20Problem%2FFigure%209.png)  
 
 The total water catch and the extent of impingement on an airfoil surface 
 obtained by the differential analyzer are compared in figure 10 with
@@ -273,7 +269,7 @@ an impingement parameter which. in this case, depends primarily on the droplet
 size squared, wing chord, and airspeed (ref. 16). These are typical
 results for a 15 percent-thick symmetrical wing at zero angle of attack.
 
-![Figure 10. Comparison of theoretical and experimental impingement data.](/images%2FThe%20Icing%20Problem%2FFigure%2010.png)  
+![Figure 10. Comparison of theoretical and experimental impingement data.](images%2FThe%20Icing%20Problem%2FFigure%2010.png)  
  
 From a knowledge of the droplet impingement characteristics and meteorological 
 parameters, the local water impingement rate or icing rate on component 
@@ -284,7 +280,7 @@ data, since the ice-formation shape is also a function of airfoil
 sweep angle, air temperature, and aircraft speed. Ice shapes can be generalized 
 into two primary shapes, rime icing and heavy glaze icing (fig. 11).
 
-![Figure 11. Typical airfoil ice formations.](/images%2FThe%20Icing%20Problem%2FFigure%2011.png)  
+![Figure 11. Typical airfoil ice formations.](images%2FThe%20Icing%20Problem%2FFigure%2011.png)  
 
 Rime icing is associated primarily with low air temperatures and results in
 relatively streamlined ice formations that blend into the body shape and
@@ -305,7 +301,7 @@ icing condition and with a large model in the test section is about 260
 knots. Air temperatures a1 low as -40° C can be obtained, although most
 tests are conducted in the range of -3 to -20° C.  
 
-![Figure 12. Plan view of icing tunnel.](/images%2FThe%20Icing%20Problem%2FFigure%2012.png)  
+![Figure 12. Plan view of icing tunnel.](images%2FThe%20Icing%20Problem%2FFigure%2012.png)  
 
 Icing conditions similar to those encountered in the atmosphere are
 created by a battery of air-water atomizing nozzle. A view of the spray
@@ -316,7 +312,7 @@ conforms to natural icing clouds measured in flight. Details of this icing
 tunnel, its equipment and instrumentation, as well as of several high-speed
 icing duct tunnels, are given in appendixes A and B. 
 
-![Figure 13. Icing tunnel spray system.](/images%2FThe%20Icing%20Problem%2FFigure%2013.png)  
+![Figure 13. Icing tunnel spray system.](images%2FThe%20Icing%20Problem%2FFigure%2013.png)  
 
 In order to determine the magnitude of the aerodynamic penalties associated 
 with icing of lifting surfaces, airfoils of different sizes, thicknesses, 
@@ -326,7 +322,7 @@ measurements during icing were obtained by means of an integrating wake survey
 rake (fig. 14) and the tunnel force-measuring balance system. Lift and
 pitching moments were also measured with the balance system.  
 
-![Figure 14. Model used to study aerodynamic penalties caused by icing.](/images%2FThe%20Icing%20Problem%2FFigure%2014.png)   
+![Figure 14. Model used to study aerodynamic penalties caused by icing.](images%2FThe%20Icing%20Problem%2FFigure%2014.png)   
 
 A typical lift and drag curve for an NACA 0011 airfoil at an angle of
 attack of 2.3° is shown in figure 15 as a function of time in glaze icing,
@@ -336,7 +332,7 @@ the loss in lift of 12 percent and the increase in section drag of 270
 percent after 18 minutes of icing could constitute a serious problem for an
 aircraft.
 
-![Figure 15. Changes in lift and drag caused by icing.](/images%2FThe%20Icing%20Problem%2FFigure%2015.png)  
+![Figure 15. Changes in lift and drag caused by icing.](images%2FThe%20Icing%20Problem%2FFigure%2015.png)  
 
 Ice formations on aircraft components can be prevented by flowing or
 spraying temperature-depressant fluids over the component surfaces (ref. 19)
@@ -364,7 +360,7 @@ the heat is lost to adjacent structure by conduction. The external heat-transfer
 processes from a heated, wetted surface were postulated by J. K.
 Hardy (refs. 24 and 25). 
 
-![Figure 16.](/images%2FThe%20Icing%20Problem%2FFigure%2016.png)  
+![Figure 16.](images%2FThe%20Icing%20Problem%2FFigure%2016.png)  
 
 The processes were substantiated by in-flight data
 obtained by the staff of the NACA Ames laboratory (ref. 20). The Ames tests
@@ -376,13 +372,13 @@ chordwise heat conduction was considered negligible. Hence, the external
 local heat transfer was obtained from the total power input and the internal
 heat loss. 
 
-![Figure 17. C-46 aircraft with thermally anti-iced airfoil model.](/images%2FThe%20Icing%20Problem%2FFigure%2017.png)  
+![Figure 17. C-46 aircraft with thermally anti-iced airfoil model.](images%2FThe%20Icing%20Problem%2FFigure%2017.png)  
 
 > A clearer version of the figure is from "NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members" 6505/NACA-1947/8, 1947:    
 >
-> ![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. TEST is emblazened on the tail.](/images%2FC-46_Figure1.png)  
+> ![A C-46, a large two engine, propeller driven low-wing airplane. It is modified for icing flight test, with a large (8 ft. by 5 ft.) test airfoil is mounted on top of the body. TEST is emblazened on the tail.](images%2FC-46_Figure1.png)  
 
-![Figure 18. Typical electric heater construction for C-46 flight studies.](/images%2FThe%20Icing%20Problem%2FFigure%2018.png)  
+![Figure 18. Typical electric heater construction for C-46 flight studies.](images%2FThe%20Icing%20Problem%2FFigure%2018.png)  
 
 Typical results obtained from these studies are shown in figure 16.
 These data show that the heat for evaporating the impinging water and that
@@ -436,7 +432,7 @@ spanwise parting atrip. This ice-free parting strip splits the ice cap
 that usually forms over the nose of the airfoil and facilitates ice removal
 by aerodynamic forces during the heating period.
 
-![Figure 19. NACA air heated cyclically de-icing wing.](/images%2FThe%20Icing%20Problem%2FFigure%2019.png)  
+![Figure 19. NACA air heated cyclically de-icing wing.](images%2FThe%20Icing%20Problem%2FFigure%2019.png)  
 
 The model was extensively instrumented with thermocouples in the akin
 and structural members and in the air passages in chordwise planes at
@@ -464,7 +460,7 @@ show that the drag and lift changes averaged over a cycle do not constitute
 a serious operational hazard if the length of the cy~le can be adjusted to
 the severity of the icing condition.
 
-![Figure 20. ](/images%2FThe%20Icing%20Problem%2FFigure%2020.png)  
+![Figure 20. ](images%2FThe%20Icing%20Problem%2FFigure%2020.png)  
 
 In addition to thermal de-icing systems, ice can be removed from most
 airfoil surfaces by a mechanical de-icing system consisting of a high-pressure 
@@ -482,12 +478,12 @@ removal of these residual ice formations by sublimation is a long process
 over a much longer portion of the entire flight than for juat the dura
 tion of the icing encounter.
 
-![Figure 21. Pneumatic boot de-icing system.](/images%2FThe%20Icing%20Problem%2FFigure%2021.png)  
+![Figure 21. Pneumatic boot de-icing system.](images%2FThe%20Icing%20Problem%2FFigure%2021.png)  
 
 The engine is the most vital component on the airplane requiring icing
 protection. Work on icing protection for engine air inlets and induction
 systems covered piston and jet engines. The work on piston engines, summarized 
-in an NACA technical report (ref. 30), led to the recomnendations incorporated 
+in an NACA technical report (ref. 30), led to the recommendations incorporated 
 in figure 22 for a typical arrangement of an engine induction
 system. Such a design includes (1) an air inlet, which reduces the intake
 of water and snow to a minimum by utilizing the inertia and momentum differences 
@@ -499,7 +495,7 @@ injected downstream of the heated surfaces to prevent fuel-evaporation
 icing. Aircraft that incorporate many of these features, including the
 inlet type shown, are the Convair-240 and some versions of the Lockheed Constellation. 
 
-![Figure 22. Ice protection for piston engine-induction system.](/images%2FThe%20Icing%20Problem%2FFigure%2022.png)  
+![Figure 22. Ice protection for piston engine-induction system.](images%2FThe%20Icing%20Problem%2FFigure%2022.png)  
  
 The high speeds of jet-powered aircraft and the large engine air flows
 necessitated a reappraisal of the icing problem for jet engines compared
@@ -520,7 +516,7 @@ housing, and guide vanes were studied by NACA and NAE. With these systems,
 however, contamination of the compressor air (which is often used for cabin
 pressurization) or large thrust losses resulted.
 
-![Figure 23. Typical icing of jet engine inlet.](/images%2FThe%20Icing%20Problem%2FFigure%2023.png)  
+![Figure 23. Typical icing of jet engine inlet.](images%2FThe%20Icing%20Problem%2FFigure%2023.png)  
 
 The use of thermal icing protection for most engine components appeared
 most feasible. In the case of the screen, however, electro-thermal means
@@ -540,7 +536,7 @@ icing conditions. A study of means for heating the guide vanes internally with h
 was conducted with a cascade of five vanes mounted in a rectangular duct set in the icing 
 tunnel (fig. 24). 
  
-![Figure 24. Model used in guide vane studies.](/images%2FThe%20Icing%20Problem%2FFigure%2024.png)  
+![Figure 24. Model used in guide vane studies.](images%2FThe%20Icing%20Problem%2FFigure%2024.png)  
 
 Ice collected on the Leading and trailing edges of the highly cambered blades used for 
 inlet guide vanes. For this reason, a saving of 50 percent of the heating air flow 
@@ -548,7 +544,7 @@ inlet guide vanes. For this reason, a saving of 50 percent of the heating air fl
 to the areas of the blade on which ice collects. This partitioning of guide vanes has been 
 adopted for some current engines.
 
-![Figure 25. Heat savings obtained by guide vane partitioning.](/images%2FThe%20Icing%20Problem%2FFigure%2025.png)  
+![Figure 25. Heat savings obtained by guide vane partitioning.](images%2FThe%20Icing%20Problem%2FFigure%2025.png)  
 
 Because the engine accessory dome collects ice that may break off after reaching a 
 destructive size and enter the engine, research was conducted on the heating requirements 
@@ -621,7 +617,7 @@ constructed of steel plate and is insulated with a 3-inch thickness of
 Fiberglas. The outer nonstructural shell covering the insulation is made of
 1/8-inch steel sheets.
 
-![Figure 26. Lewis icing tunnel facility.](/images%2FThe%20Icing%20Problem%2FFigure%2026.png)  
+![Figure 26. Lewis icing tunnel facility.](images%2FThe%20Icing%20Problem%2FFigure%2026.png)  
 
 The tunnel is anchored at each end of the test section and at each end
 of the drive motor and supported by columns and sliding expansion joints at
@@ -725,7 +721,7 @@ paths and local water concentration in the tunnel. Consequently, maximum or
 minimum values of water content and droplet size independent of tunnel air-speed 
 cannot be stated explicitly.
 
-![Figure 27. Cross section of NACA air-water atomizing spray nozzle.](/images%2FThe%20Icing%20Problem%2FFigure%2027.png)  
+![Figure 27. Cross section of NACA air-water atomizing spray nozzle.](images%2FThe%20Icing%20Problem%2FFigure%2027.png)  
 
 The water used for the spray system passes through a 500-gallon-per-
 hour-capacity demineralizer. The demineralizer consists of two anion and
@@ -842,7 +838,7 @@ tunnel is designed to provide a range of subsonic Mach numbers from 0.3 to
 0.8 and a supersonic Mach number of 2.0. Altitudes up to 30,000 feet may be
 simulated.
 
-![Figure 28. NACA 3.84 x 10-inch high speed icing duct tunnel.](/images%2FThe%20Icing%20Problem%2FFigure%2028.png)  
+![Figure 28. NACA 3.84 x 10-inch high speed icing duct tunnel.](images%2FThe%20Icing%20Problem%2FFigure%2028.png)  
 
 A supply of refrigerated air initially at approximately -20° F and
 with a specific humidity of 5.0x10-4 pound of water per pound of dry air
@@ -865,7 +861,7 @@ similar to the 3.84 - by 10-inch tunnel. Subsonic speeds up to Mach
 number of 0.75 can be achieved with small airfoil models. For icing studies
 the airspeed is maintained in the subsonic and low supersonic speed ranges.
 
-![Figure 29. NACA 12 x 12-inch high speed icing duct tunnel.](/images%2FThe%20Icing%20Problem%2FFigure%2029.png)  
+![Figure 29. NACA 12 x 12-inch high speed icing duct tunnel.](images%2FThe%20Icing%20Problem%2FFigure%2029.png)  
 
 ## Appendix B {: #appendix-b }  
 
@@ -893,14 +889,14 @@ Shielded thermocouples are recommended for obtaining measurements of hot air
 temperature, although a trailing thermocouple such as that shown in figure
 30(b) is acceptable.
 
-![Figure 30. Thermocouple installation details.](/images%2FThe%20Icing%20Problem%2FFigure%2030.png)  
+![Figure 30. Thermocouple installation details.](images%2FThe%20Icing%20Problem%2FFigure%2030.png)  
 
 Tunnel Air Temperature
 
 The tunnel air temperature is obtained with a probe that separates the
 entrained water from the airstream as shown in figure 31. 
 
-![Figure 31. Inertia-separation temperature probe.](/images%2FThe%20Icing%20Problem%2FFigure%2031.png)  
+![Figure 31. Inertia-separation temperature probe.](images%2FThe%20Icing%20Problem%2FFigure%2031.png)  
 
 The probe consists 
 of a nose and rear cap and a housing containing a temperature-sensing
@@ -937,9 +933,9 @@ temperature at critical junctions in the thermocouple circuit, where
 the wire metal in the thermocouple leads is changed from copper and constantan 
 to all copper and back again.
 
-![Figure 32. Schematic diagram for temerature measuring system on rotating bodies.](/images%2FThe%20Icing%20Problem%2FFigure%2032.png)  
+![Figure 32. Schematic diagram for temerature measuring system on rotating bodies.](images%2FThe%20Icing%20Problem%2FFigure%2032.png)  
 
-Pressure Tubes
+Pressure Tubes  
 
 In icing conditions all pressure tubes subject to water impingement
 (pitot-static tubes, tubes in survey rakes and in the boundary layer, etc.)
@@ -954,7 +950,7 @@ These tubes are made of Inconel. A special tube bender was developed by
 NACA personnel to avoid collapsing of the co-axial tubing during bending of
 the tubes to a desired shape.
 
-![Figure 33. Details of electrically heated pressure tubes.](/images%2FThe%20Icing%20Problem%2FFigure%2033.png)  
+![Figure 33. Details of electrically heated pressure tubes.](images%2FThe%20Icing%20Problem%2FFigure%2033.png)  
 
 Surface Pressure from Rotating Body
 
@@ -969,7 +965,7 @@ high-rotational-speed operation. This pressure system permits simultaneous
 readings of many pressures and is generally limited only by the number of
 bearings used.
 
-![Figure 34. Schematic diagram for pressure measuring system on rotating bodies.](/images%2FThe%20Icing%20Problem%2FFigure%2034.png)  
+![Figure 34. Schematic diagram for pressure measuring system on rotating bodies.](images%2FThe%20Icing%20Problem%2FFigure%2034.png)  
 
 ##  APPENDIX C {: #appendix-c }   
 
@@ -1010,7 +1006,7 @@ are required in order to obtain a size distribution. Since the magnification
 required is high, it is difficult to design a ca1Bera ao that the
 object plane is outside the undisturbed airstream about an airplane or camera mount.
 
-![Figure 35. NACA cloud camera.](/images%2FThe%20Icing%20Problem%2FFigure%2035.png)  
+![Figure 35. NACA cloud camera.](images%2FThe%20Icing%20Problem%2FFigure%2035.png)  
 
 The oiled-slide technique, where a glass slide covered with a suitable
 oil is exposed to a droplet-laden airstream and is then photographed through
@@ -1054,7 +1050,7 @@ from the known geometry of the instrument, the airspeed, and the oil-flow
 rate. Limited data indicate that this instrument shows excellent promise
 for obtaining the desired information.
 
-![Figure 36. Schematic sketch of oil-stream aeroscope.](/images%2FThe%20Icing%20Problem%2FFigure%2036.png)  
+![Figure 36. Schematic sketch of oil-stream aeroscope.](images%2FThe%20Icing%20Problem%2FFigure%2036.png)  
 
 The heated-wire instrument consists basically of a loop of resistance
 wire (refs. 39 and 40) which is mounted in the airstream (fig. 37) and is
@@ -1067,7 +1063,7 @@ Although the heated-wire instrument has several disadvantages as
 pointed out in reference 40, a workable instrument can be obtained that is
 very useful in studying cloud microstructure.
 
-![Figure 37. Hot wire liquid water content meter](/images%2FThe%20Icing%20Problem%2FFigure%2037.png)  
+![Figure 37. Hot wire liquid water content meter](images%2FThe%20Icing%20Problem%2FFigure%2037.png)  
 
 A variation of the heated-wire instrument is currently under development 
 at the NACA Lewis laboratory. This instrument consists of a heated
@@ -1100,7 +1096,6 @@ in the Lewis icing tunnel.
 8. Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA RM 9A05, 1949.  
 9. Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA TN 3155, 1954.  
 10. Brun, Rinaldo J., Serafini, Johns., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NA.CA TN 2903, 1953.  
-11. Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA TN 2903, 1953.  
 11. Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA TN 2931, 1953.  
 12. Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA TN 3147, 1954.
 13. Dorach, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA TN 3099, 1954.
@@ -1112,13 +1107,13 @@ in the Lewis icing tunnel.
 19. Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA TM E52J31, 1953.  
 20. Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA TN 1472, 1947.  
 21. Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA TN 2480, 1951.  
-22. von Glahn, U.: Preminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA KM E53F02, 1953.  
+22. von Glahn, U.: Preminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA RM E53F02, 1953.  
 23. Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA TN 2066, 1953.  
 24. Hardy, J. K.: Kinetic Temperature of Wet Surfaces - A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA WR A-8, 1945. (Supersedes NACA ARR 5G13.)  
 25. Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA Rep. 831, 1945. (Supersedes NACA ARR 4111a.)  
 26. Gray, V. H., Bowden, D. T., and von Glahn, U.: Preliminary Results of Cyclical De-Icing of a Gas-Heated Airfoil. NACA RM E51J29, 1952. 
 27. Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cylical De-Icing of a Gas-Heated Airfoil. NACA RM E53C27, 1953.  
-28. Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA RM ES1J30, 1952.  
+28. Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA RM E51J30, 1952.  
 29. Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and Its Relation to Heat Transfer. NACA TN 3104, 1954.  
 30. Coles, Willard, Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA Rep. 982, 1950. (Supersedes NACA TN 1993.)  
 31. Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA RM E8F01a, 1948.  
@@ -1128,9 +1123,9 @@ in the Lewis icing tunnel.
 35. Callaghan, Edmund F., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond-Shaped Airfoil in Transonic and Supersonic Flow. NACA TN 2861, 1953.  
 36. Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA TN 3396, 1955.  
 37. Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038- ac-9151 with General Electric Co.)  
-38. McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA RM 55UK01a, 1951.  
+38. McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA RM E50K01a, 1951.  
 39. Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid- Water-Content Meter for Measuring Icing Severity. NACA TN 2615, 1952.
-40. Neel, Carr B.: A Heated-Wire Liquid-Water Content Instrument and Results of Initial Flight Test in Icing Conditions. NACA RM A54123, 1955.  
+40. Neel, Carr B.: A Heated-Wire Liquid-Water Content Instrument and Results of Initial Flight Test in Icing Conditions. NACA RM A54I23, 1955.  
 
 ## Notes  
 

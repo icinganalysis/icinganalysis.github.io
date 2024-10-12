@@ -91,7 +91,7 @@ possibly for certain small areas such as windshields, radio
 masts, etc., the use of de-icing or adhesion-preventing
 liquids will provide the best means of protection.
 
-![Figure 1. Metal blocks held togther by ice for tensile strength tests. Figure 2. Failure of specimen in tension. Failure occured in ice and not at the ice-metal surface.](images/NACA-TN-723/Figures 1 and 2.png)  
+![Figure 1. Metal blocks held together by ice for tensile strength tests. Figure 2. Failure of specimen in tension. Failure occured in ice and not at the ice-metal surface.](images/NACA-TN-723/Figures 1 and 2.png)  
 
 >CONCLUSIONS  
 The most important conclusions drawn from the present
@@ -202,7 +202,7 @@ two of which are included below.
 ![Figure 2. A cross-section view of a wing leading edge that has a flexible belt covering part of the upper surface, and returning through the airfoil. Two pulleys guide the belt at the ends.](images/USPatent2399648Figure2.png)  
 
 [US Patent 2324303](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2324303)  
-![Figure II. A cross-section of a wing with a rotating cylnder that forms the leading edge. Similar mechanisms are provided for the leading edge slat, fixed wing, and aft flap.](images/USPatent2324303FigureII.png)  
+![Figure II. A cross-section of a wing with a rotating cylinder that forms the leading edge. Similar mechanisms are provided for the leading edge slat, fixed wing, and aft flap.](images/USPatent2324303FigureII.png)  
 
 ###NACA-TN-3564 "Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil" [^7]  
 
@@ -227,9 +227,9 @@ airfoil may be summarized as follows:
 >1. Boot inflation removes the main part of an ice formation. Ice
 remaining after inflation of a spanwise-tube de-icer increased airfoil
 section drag 7 to 37 percent for the following conditions: angles of
-attack from 0° to 4.6°) airspeeds of 175 and 275 mph) glaze- and rime-icing 
-conditions) air total temperatures from 0 F to 30 F) liquid-water
-contents from 0.3 to 1.0 gram per cubic meter) and cycle times from 1 to
+attack from 0° to 4.6°; airspeeds of 175 and 275 mph; glaze- and rime-icing 
+conditions; air total temperatures from 0 F to 30 F; liquid-water
+contents from 0.3 to 1.0 gram per cubic meter; and cycle times from 1 to
 4 minutes. For these conditions the drag increase depended primarily on
 chordwise extent of residual ice. In heavy glaze-icing conditions (1.0
 g/cu m liquid-water content and 25 F air total temperature) at high

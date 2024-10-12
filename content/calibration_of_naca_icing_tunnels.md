@@ -72,14 +72,14 @@ evolved over time.
 #### Drop size calibration methods:  
 
 1946 NACA-TN-1134 pool of castor oil  
-1947 NACA-TN-1246 rotating multicylinders  
+1947 [NACA-TN-1246]({filename}NACA-TN-1246.md) rotating multicylinders  
 1948 NACA-RM-E8A27 rotating multicylinder "by volume maximum"  
 (new nozzles design circa 1949, per "We Freeze to Please")  
-1950 NACA-RM-E50I08 rotating multicylinder MVD  
-1951 NACA-RM-E51B12 "in the range of natural icing conditions"  
+1950 [NACA-RM-E50I08]({filename}NACA-RM-E50I08.md) rotating multicylinder MVD  
+1951 [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md) "in the range of natural icing conditions"  
 1951 NACA-TN-2480 (apparently multicylinder) "the mean-effective droplet diameter was varied from about 8 to 12 microns by adjusting the nozzle-air pressure" \*  
 1952 NACA-TN-2615 absorbent cylinders (special purpose in transonic tunnel)  
-1953 NACA-TN-2962 "The icing conditions were determined from a previous calibration of the tunnel and periodically checked with a pressure-type icing-rate meter"   
+1953 [NACA-TN-2962]({filename}NACA-TN-2962.md) "The icing conditions were determined from a previous calibration of the tunnel and periodically checked with a pressure-type icing-rate meter"   
 1955 NACA-RM-E54I03 "the results shown were calculated from unpublished wind-tunnel water-droplet impingement data obtained by means of water droplets carrying dye in solution."  
 
 \* I note this because it implies that they had enough confidence in the control systems and prior calibrations so that 
@@ -88,11 +88,11 @@ conditions could be set just by the spray control parameters.
 #### LWC calibration methods: 
 
 1946 NACA-TN-1134 free-water sampling rake  
-1947 NACA-TN-1246 rotating multicylinders  
+1947 [NACA-TN-1246]({filename}NACA-TN-1246.md) rotating multicylinders  
 1948 NACA-TN-1586 rotating cylinder grid  
 1952 NACA-TN-2615 absorbent cylinders (special purpose in transonic tunnel)  
 1953 NACA-TN-2962 "The icing conditions were determined from a previous calibration of the tunnel and periodically checked with a pressure-type icing-rate meter"   
-1955 NACA-TN-3338 cylinders, ribbon, aspirator  
+1955 [NACA-TN-3338]({filename}NACA-TN-3338.md)NACA-TN-3338 cylinders, ribbon, aspirator  
 1955 NACA-TN-3564 "Liquid-water content was measured by means of a pressure-type icing-rate meter"  
 1956 NACA-TN-3839 Joukowski-aspirator  
 1957 NACA-TN-4155 "Liquid-water content was measured by means of a pressure-type icing-rate meter"  

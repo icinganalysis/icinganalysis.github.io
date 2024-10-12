@@ -121,12 +121,14 @@ it contains data from a test conducted in 1945.
 
 ### Other icing wind tunnel tests  
 
-| Publication                                                             | Test Article                                      | Scale Ratio | Portion | Mount                  | Location                                             |
-|-------------------------------------------------------------------------|---------------------------------------------------|-------------|---------|------------------------|------------------------------------------------------|
-| [NACA-TN-339]({filename}NACA-TN-339.md)                                 | ice prevention coatings on a 3-inch chord airfoil | not stated  | section | not stated             | Refrigerated Wind Tunnel, Langley, Virginia          |
-| NACA-TN-712                                                             | anti-icing on a 72-inch chord airfoil             | 1           | section | not stated             | 7-foot by 10-foot tunnel, Langley, Virginia          |
-| NACA-TN-2615 (included in [Heated Probes]({filename}Heated%20Probes.md) | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California |
-| [NACA-TN-3396]({filename}NACA-TN-3396.md)                               | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | Transonic tunnel NACA Lewis, Ohio                    |
+| Publication                                                                                                                               | Test Article                                      | Scale Ratio | Portion | Mount                  | Location                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|-------------|---------|------------------------|--------------------------------------------------------|
+| [NACA-TN-339]({filename}NACA-TN-339.md)                                                                                                   | ice prevention coatings on a 3-inch chord airfoil | not stated  | section | not stated             | Refrigerated Wind Tunnel, Langley, Virginia            |
+| NACA-TN-712 [Calibration of NACA Icing Tunnels]({filename}calibration_of_naca_icing_tunnels.md)                                           | anti-icing on a 72-inch chord airfoil             | 1           | section | not stated             | 7-foot by 10-foot tunnel, Langley, Virginia            |
+| NACA-TN-2615 [Heated Probes]({filename}Heated%20Probes.md)                                                                                | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California   |
+| [NACA-TN-3104]({filename}NACA-TN-3104.md)  <br/>[NACA-TN-3143]({filename}NACA-TN-3143.md)  <br/>[NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | 3.84-inch by 10-inch Transonic tunnel NACA Lewis, Ohio |
+
+A 10-inch by 10-inch tunnel is mentioned in "The Icing Problem" [^4], but I have not found where it was used.  
 
 ## References  
 
@@ -181,3 +183,4 @@ in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.m
 [^2]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
 [^3]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^4]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)      
