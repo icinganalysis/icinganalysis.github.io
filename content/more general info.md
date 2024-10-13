@@ -15,3 +15,7 @@ Here are references that include more general information on the NACA era and ai
 "The Wind and Beyond: Journey into the History of Aerodynamics in America, Volume 2, Reinventing the Airplane.", NASA-SP-4409, 2007. 
 (Especially the "Heat Against Ice" excerpt, p. 506-518.)  
 [history.nasa.gov](http://history.nasa.gov/sp4409-vol2.pdf)  
+
+Dawson, Virginia P. "Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306." Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306, by Virginia P. Dawson, 271 pages, published by NASA, Washington, DC, 1991 4306 (1991) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19910006662),
+especially the chapter "Operations Research".  
+
