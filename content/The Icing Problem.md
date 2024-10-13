@@ -2,7 +2,7 @@ Title: The Icing Problem
 Date: 2024-10-14 14:00  
 Category: NACA  
 status: draft  
-tags: icing, flight test, tunnel test, ice protection   
+tags: icing, flight test, tunnel test, ice protection, icing conference     
 
 ### _"Aircraft are now capable of flying in icing clouds without difficulty, however, because research by the NACA and others has provided the engineering basis for icing protection systems"_  
 
@@ -39,7 +39,9 @@ A few of the figures are not very clear, and clearer versions are included, wher
 Not included here is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 which was first presented in 1969, and is 
 appended after the reprinted "The Icing Problem" in 
-NASA-TM-81651 [^1].
+NASA-TM-81651 [^1].  
+
+I have not been able to find other presentations from the "Ottawa AGARD Conference. AG 19/P9, June 10-17 1955".  
 
 As this is a longer than usual blog post, 
 navigation by sections is provided below.  
