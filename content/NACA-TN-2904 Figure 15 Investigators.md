@@ -33,8 +33,30 @@ this is the only one where the people appear to be women.
 I have not been able to find photos of Gallager or Vogt for comparison
 (and photos of any NACA-era authors are hard to find). 
 In this photo the individuals are not at good angles for identification anyway. 
+<!--
+Women investigators were sometimes named as co-authors of publications. 
+From NASA SP-4306, "Engines and Innovations" [emphasis added]:  
 
-The rationale for the identification is that Gallager or Vogt collaborated on other publications with Rinaldo Brun as lead author.  
+>The rate of icing on a given surface or shape of a component could then be predicted. 
+The Lewis group extended the available data over a range of airfoil shapes and thicknesses 
+through the use of a differential analyzer. Harry Mergler of the Instrument and 
+Computing Division adapted this early computer designed at MIT by Vannevar Bush to
+meet the needs of icing research. Although calculating the trajectory of a droplet was still a
+laborious process, the differential analyzer reduced the time it took for a single calculation from
+weeks to about four days. __Women who had formerly worked the problems on simple mechanical
+calculators made the transition to the gargantuan differential analyzer with comparative ease.
+Often they were given the distinction of having their names appear as co-authors of the reports
+of these studies, no doubt because their contribution went beyond the sheer drudgery of "number
+crunching."__ In addition to reducing the time for arduous calculations, the differential analyzer
+was a potential teacher of higher mathematics. The calculus unfolded mechanically through the
+gearing and shafts; the chart recorders taught the operators "to grasp the innate meaning of the
+differential equation." The machine trained them to think in the same logical steps that the
+machine ground through in making a calculation. __Through the back door, women assigned to toil
+on this giant calculator gained access to the abstruse realm of partial differential equations- a
+realm in which not all engineers hired during World War II were comfortable.__  
+-->
+
+The rationale for the identification is that Gallager or Vogt collaborated on other publications with Rinaldo Brun as lead author. 
 The publications are before and after NACA-TN-2904.  
 
 Selected publications with Brun as lead author:  
@@ -73,3 +95,8 @@ An obituary for Helen Marie (nee Gallagher) Madden: [obits.cleveland.com](https:
 
 This is part of the [Water Drop Impingement on Surfaces thread]({filename}impingement.md).  
 
+<!--
+## Notes  
+
+[^1]: Dawson, Virginia P. "Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306." Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306, by Virginia P. Dawson, 271 pages, published by NASA, Washington, DC, 1991 4306 (1991) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19910006662).  
+-->
