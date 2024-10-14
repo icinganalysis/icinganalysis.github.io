@@ -46,20 +46,7 @@ are for average or typical icing.
 > 
 > ![Figure 6 of NACA-TN-1246. Comparison of liquid-water content in icing research tunnel with recommended values.](/images%2FNACA-TN-1246%2FFigure%206.png)  
 
-At the "NACA Conference on Aircraft Ice Prevention", 1947, William Lewis of NACA presented 
-"FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING" [^1], 
-which provides some "tentative" design conditions:  
-<!--
-[NACA Conference on Aircraft Ice Prevention 1947]({filename}NACA%20Conference%20on%20Aircraft%20Ice%20Prevention.md), 
--->
-
-> The meteorological conditions conducive to aircraft icing
-which are considered to be of most interest to the designer of
-thermal ice-prevention equipment are summarized in table I.
-
-![Conditions Table 1.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FConditions%20Table%201.png)
-
-More data was available by later in 1947 to refine the estimates, 
+More data was available by 1947 to refine the estimates, 
 in NACA-TN-1391, NACA-TN-1392, NACA-TN-1393, and NACA-TN-1424.  
 
 As we saw in the [Conclusions Meteorological Instruments Thread]({filename}Conclusions%20of%20the%20Meteorological%20Instruments%20Thread.md),
