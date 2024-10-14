@@ -37,7 +37,7 @@ In this photo the individuals are not at good angles for identification anyway.
 Women investigators were sometimes named as co-authors of publications. 
 From NASA SP-4306, "Engines and Innovations" [emphasis added]:  
 
-The rate of icing on a given surface or shape of a component could then be predicted. 
+> The rate of icing on a given surface or shape of a component could then be predicted. 
 The Lewis group extended the available data over a range of airfoil shapes and thicknesses 
 through the use of a differential analyzer. Harry Mergler of the Instrument and 
 Computing Division adapted this early computer designed at MIT by Vannevar Bush to

@@ -141,7 +141,7 @@ can be provided by the use of heat without significant penalties
 to the usefulness of the airplane.  
 
 
-![Rodert Figure 7.](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FRodert%20Figure%207.png)  
+![Figure 7. Lockheed 12A used for full-scale application of thermal de-icing.](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FRodert%20Figure%207.png)  
 
 ![Rodert Figure 10.](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FRodert%20Figure%2010.png)  
 

@@ -7,6 +7,7 @@ tags: ice shapes, diversions
 
 ![Figure 25. 747 Horizontal stabilizer ice shapes.](images/wilder/Figure 25.png)  
 
+
 # "Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" [^1]  
 
 ## Summary 
