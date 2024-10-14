@@ -46,7 +46,20 @@ are for average or typical icing.
 > 
 > ![Figure 6 of NACA-TN-1246. Comparison of liquid-water content in icing research tunnel with recommended values.](/images%2FNACA-TN-1246%2FFigure%206.png)  
 
-More data was available by 1947 to refine the estimates, 
+At the  "NACA Conference on Aircraft Ice Prevention", 1947, William Lewis of NACA presented 
+"FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", 
+<!--
+[NACA Conference on Aircraft Ice Prevention 1947]({filename}NACA%20Conference%20on%20Aircraft%20Ice%20Prevention.md), 
+-->
+which provides some "tentative" design conditions:  
+
+> The meteorological conditions conducive to aircraft icing
+which are considered to be of most interest to the designer of
+thermal ice-prevention equipment are summarized in table I.
+
+![Conditions Table 1.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FConditions%20Table%201.png)
+
+More data was available by later in 1947 to refine the estimates, 
 in NACA-TN-1391, NACA-TN-1392, NACA-TN-1393, and NACA-TN-1424.  
 
 As we saw in the [Conclusions Meteorological Instruments Thread]({filename}Conclusions%20of%20the%20Meteorological%20Instruments%20Thread.md),
@@ -427,3 +440,4 @@ Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-
 [stacheair.com](http://www.stacheair.com/data/At%20Work%209B%20Repair%20Station%20CD/Data%20Info/CAR%27s/CAR%20Part%20%204b/PDF/Part%2004b-02.pdf)  
 [^11]: Lewis, William: "Review of Icing Criteria", in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 
+[^1]: Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  
