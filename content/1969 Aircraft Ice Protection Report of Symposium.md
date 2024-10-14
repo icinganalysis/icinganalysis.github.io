@@ -123,7 +123,7 @@ ice protection from industry, the airlines, the military services,
 and various government organizations.
 
 > Mr. Rolls explained that a document will be published containing
-all of the symposium technical papers and the discusions following
+all of the symposium technical papers and the discussions following
 each presentation. These publications will be made available to
 all of the attendees and to all interested parties who did not
 have an opportunity to attend.
@@ -139,7 +139,7 @@ Jeck explains:
 > Apparently, some operators complained that their airplane(s) were already certificated for flight
 in icing but that Amendment 135-12 would not allow them to fly in icing conditions until four
 months later in April after the icing season was practically over. The FAA responded
-immediately with Amendment 135-13 which allowed the new exem ptions to go into effect on
+immediately with Amendment 135-13 which allowed the new exemptions to go into effect on
 December 24, 1969. It also revised the wording again to nearly the form that it has today. 
 
 The symposium does not appear to have gotten everyone on the same page (regulators, airlines, manufacturers, etc.) for the forthcoming regulations. 
@@ -205,9 +205,10 @@ We have already seen the ["Selected Bibilography of NACA-NASA Aircraft Icing Pub
 (not listed in the Table of Contents) that follows "Description, History and Status of NASA-Lewis Icing Research Tunnel".
 
 I select the following as "must-reads":  
+
 - Review of Icing Criteria; William Lewis  
 - Airframe Design for Protection Anti-Icing; B. L. Messinger  
-- Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces; Ramon W. Wilder  
+- ["Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"; Ramon W. Wilder]({filename}wilder.md)  
 
 These are likely candidates for future [Diversions]({filename}/diversions.md)
 
