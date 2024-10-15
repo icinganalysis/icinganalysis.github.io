@@ -123,7 +123,7 @@ The protected air intake is effective if the rate of water ingestion
 can be reduced during precipitation and the air temperature raised high enough 
 to be effective during severe icing conditions.  
 The ideal induction system requires none of these, 
-and work is being done in in hopes of reaching this goal.  
+and work is being done in hopes of reaching this goal.  
 The research program was initiated by the Special Subcommittee on
 Induction Systems De-Icing of the NACA. The project was setup at the 
 Bureau of Standards, as there were well equipped to handle this sort of work. 
@@ -183,7 +183,7 @@ sufficiently restricted to reduce considerably the flow of
 combustion air to the engine;  
 >(2) the fuel-metering process
 may be upset and cause erratic engine operation; or  
->(3) the movable part, such a the throttle or the heat damper, may
+>(3) the movable part, such as the throttle or the heat damper, may
 freeze and become inoperative.  
 
 >The icing problem remains a serious hazard, despite the
