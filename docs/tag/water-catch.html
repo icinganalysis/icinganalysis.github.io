@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Blast from the Past: NACA Icing Publications - water catch</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+    <section id="content" class="body">
+        <h1>Articles with tag: "water catch"</h1>
+        (Note: figures do not appear in the summaries below)
+        <hr />
+        <ol id="posts-list" class="hfeed">
+
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/computer-impingement-analysis-tools-examples.html" rel="bookmark"
+                           title="Permalink to Computer Impingement Analysis Tools Examples">Computer Impingement Analysis Tools Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T17:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="LEWICE 1990 Figure 4.2. Definition of total and local collection efficiency." src="/images%2Fbasics%2FLEWICE%201990%20Figure%204_2.png"><br>
+<em>from Users Manual for the NASA Lewis Ice Accretion Prediction Code (LEWICE) (1990 version) <a href="https://ntrs.nasa.gov/citations/19900011627">ntrs.nasa.gov</a></em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to complete the <a href="/aircraft-icing-handbook-water-catch-examples.html">Aircraft Icing Handbook Water Catch Examples</a>.  </p>
+<p>You need to select a computerized tool to work with. 
+See <a href="/analysis-toolset.html">Analysis Toolset</a> 
+for obtaining LEWICE, and some other options.  </p>
+<h2>Aircraft Icing Handbook Example 2-2</h2>
+<blockquote>
+<p>Example 2-2<br>
+This example illustrates the estimation of the impingement parameters E, β, h, Su and SL
+using graphical data (reference 2-12). The graphical data is all presented with Ko as the independent
+variable. Much data is available in this form.  </p>
+<p>The conditions of Example 2-1 for a NACA 0012 airfoil are assumed: thus Ko = 0.05. It also is
+assumed for simplicity that the angle of attack, α, is 0 degrees. From figure 2-11, E, the total
+impingement efficiency, is estimated to be 0.23 for these conditions. So about 23 percent of the water …</p></blockquote>
+                <a class="readmore" href="/computer-impingement-analysis-tools-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/aircraft-icing-handbook-water-catch-examples.html" rel="bookmark"
+                           title="Permalink to Aircraft Icing Handbook Water Catch Examples">Aircraft Icing Handbook Water Catch Examples</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T15:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Graph of water catch efficiency Em versus Ko for a cylinder." src="/images%2Fbasics%2FExample%202-3%20Em.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Introduction</h2>
+<p>The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1, provides examples of two-dimensional water catch rates for the ice accretion process. </p>
+<p>The Handbook uses something like "US Customary" or "Engineering" units in the calculations. 
+This may limit the direct reuse of the equations. </p>
+<p>These calculations can be reasonably accomplished through hand calculations, or a spreadsheet. 
+However, they can be important "stepping stones" to build more complex capabilities. </p>
+<p>Code written in the python programming language is available via 
+<a href="https://github.com/icinganalysis/icinganalysis.github.io/tree/main/icinganalysis">github.com/icinganalysis</a>, 
+file "intermeadiate/basics_water_catch_calculations.py" (and associated files) for the solutions, 
+under the <a href="https://raw.githubusercontent.com/icinganalysis/icinganalysis.github.io/main/LICENSE">LGPL license</a>. 
+Internally, the code uses (mostly) SI units 
+(see <a href="/a-brief-digression-on-unit-systems.html">A Brief Digression on Unit Systems</a> for details). 
+There are unit conversion functions in the python code. 
+Values here are reported in the handbook units. </p>
+<p>You are encouraged to run the provided code, 
+or to start building your own library of such …</p>
+                <a class="readmore" href="/aircraft-icing-handbook-water-catch-examples.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+    </section><!-- /#content -->
+
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

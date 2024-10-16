@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Blast from the Past: NACA Icing Publications - analysis tools</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+    <section id="content" class="body">
+        <h1>Articles with tag: "analysis tools"</h1>
+        (Note: figures do not appear in the summaries below)
+        <hr />
+        <ol id="posts-list" class="hfeed">
+
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heat-required-calculations-with-lewice.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations with LEWICE">Anti-Ice Heat Required Calculations with LEWICE</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T13:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Aircraft A LEWICE ideice comparisons q" src="/images%2FIntermediate%2FAircraft%20A%20LEWICE%20ideice%20comparisons%20q.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heat-required-calculations.html">Anti-Ice Heat Required Calculations</a>.  </p>
+<h2>Introduction</h2>
+<p>Here, we will see that the values calculated by a multi-node analysis in LEWICE are 
+comparable to the values calculated previously.  </p>
+<p>Running LEWICE for anti-icing calculations involves (necessarily) more complex inputs. 
+The user has to select which set of external heat transfer assumptions to use. 
+The detailed output files require post-processing to extract the total heat required value. </p>
+<h2>Discussion</h2>
+<p>The LEWICE manual describes "deicer" cases that also may be used for 
+anti-ice heat requirement analysis.<br>
+An input is the "IDEICE" value in the case.inp file. 
+By default, this is 0, and an unheated surface ice analysis is performed. 
+However, with IDEICE &gt; 0, ice protection analysis is performed, 
+as detailed in a cased.inp file. 
+A key input in that file is ievap, which for the cases below is set to 
+ievap=1 …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations-with-lewice.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heat-required-calculations.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heat Required Calculations">Anti-Ice Heat Required Calculations</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-20T12:00:00-07:00">
+                Published: Mon 20 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Aircraft A qr" src="/images%2FIntermediate%2FAircraft%20A%20qr.png"><br>
+<em>Public domain image by Donald Cook.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/anti-ice-heating-calculations-theory.html">Anti-Ice Heating Calculations Theory</a>.  </p>
+<h2>Introduction</h2>
+<p>For this we will use "Engineering Summary of Airframe Icing Technical Data", ADS-4, 
+as the anti-ice examples are more detailed than those in the 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1. </p>
+<p>The ADS-4 analysis method uses NACA-TN-2799, from 1952, for the heat and mass balance calculations. 
+This method implements solutions as nomographs (for more details, see the post <a href="/naca-tn-2799.html">NACA-TN-2799</a>). 
+We will not be using the nomographs. 
+The heat balance equations are similar to the Standard Computational Model, which we will use. </p>
+<p>The calculations are implemented in the file "aircraft_a_ads4.py" (and associated files) 
+available at <a href="https://github.com/icinganalysis/icinganalysis.github.io">github.com/icinganalysis/icinganalysis.github.io</a>. 
+Readers are encouraged to run the analysis to the duplicate results.  </p>
+<h2>Discussion</h2>
+<p>"Aircraft Icing", AC 20-73A, briefly mentions the terms Qa and Qr:</p>
+<blockquote>
+<p>Qa   Heat available<br>
+Qr   Heat required </p>
+</blockquote>
+<p>Heat required is …</p>
+                <a class="readmore" href="/anti-ice-heat-required-calculations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/anti-ice-heating-calculations-theory.html" rel="bookmark"
+                           title="Permalink to Anti-Ice Heating Calculations Theory">Anti-Ice Heating Calculations Theory</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-05-13T12:00:00-07:00">
+                Published: Mon 13 May 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate." src="/images%2Fads4%2FFigure3-19.png"><br>
+<em>From ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>.</em>  </p>
+<h2>Prerequisites</h2>
+<p>You need to have completed <a href="/aircraft-icing-handbook-energy-balance-examples.html">Aircraft Icing Handbook Energy Balance Examples</a>.  </p>
+<h2>Introduction</h2>
+<p>We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 <a href="https://apps.dtic.mil/sti/citations/AD0608865">apps.dtic.mil</a>, 
+as the anti-ice examples are more detailed than those in the 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>.  </p>
+<p>We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 <a href="https://www.sae.org/standards/content/air1168/4/">sae.org</a>, for practical guidance for analysis.  </p>
+<p>The ADS-4 and SAE AIR 1168/4 analysis methods use nomographs to implement graphical solutions. 
+We will not be using the nomographs. 
+While the notation is different, the analysis method from ADS-4 
+is very similar to the Standard Computational Model in the 
+<a href="/aircraft-icing-handbook-merged-sections.html#standard-computational-model">Aircraft Icing Handbook Merged Sections</a> 
+which we will use here.  </p>
+<blockquote>
+<p>The energy balance equation is:  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Q&quot;Source + Q&quot;Sink = 0  
+</code></pre></div>
+
+<blockquote>
+<p>Define Q"Sink by:<br>
+<img alt="Equation 2-50. Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap" src="/images%2FFAA%20Handbook%20volume%201%2FEquation%202-50.png">  </p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>Q&quot;Sink = Q&quot;conv + Q&quot;DropWarm + Q&quot;Evap  
+</code></pre></div>
+
+<blockquote>
+<p>Define Q"Source …</p></blockquote>
+                <a class="readmore" href="/anti-ice-heating-calculations-theory.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/analysis-toolset.html" rel="bookmark"
+                           title="Permalink to Analysis Toolset">Analysis Toolset</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-04-08T13:00:00-07:00">
+                Published: Mon 08 April 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-01T08:17:50.662562-07:00">
+                Updated: Tue 01 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/basics.html">basics</a>.</p>-->
+
+</footer><!-- /.post-info -->                <p><img alt="Figure 15 of NACA-TN-2904. Water-drop-trajectory analog.
+Two investigators operate a large mechanical computer. 
+One is seated turning a crank attached to a large cylinder labelled &quot;Input Chart&quot;. 
+The second operator turns another input chart crank. 
+Another cylinder is labelled &quot;Droplet Trajectories&quot;. 
+There are many shafts and gears visible in the machine. 
+Some machine parts are labelled with the differential equations of motion being solved. 
+" src="/images/naca-tn-2904/Figure15.png"><br>
+<em>Figure 15 of NACA-TN-2904 <a href="https://ntrs.nasa.gov/citations/19930083606">ntrs.nasa.gov</a>.</em>  </p>
+<h2>Summary</h2>
+<p>You will have to choose a toolset to perform the example analyses. </p>
+<p>Example calculations are provided in the Python programming language, 
+and using the NASA-provided LEWICE code. </p>
+<h2>Introduction</h2>
+<p>You are highly encouraged to perform the analysis described in the examples (and not just read the examples). 
+Some examples can be accomplished with hand calculations, while other require computational capabilities. </p>
+<p>You need to select your toolset. </p>
+<h3>Consider your current and future uses</h3>
+<p>A toolset is an investment of your time and resources. 
+By performing the calculation of the examples used here, 
+you will build your personal and software capabilities and skills.  </p>
+<p>Your toolset at a particular time may not be entirely your choice. 
+Your company, institution, or customer may have policies on which kinds of software are 
+required, encouraged, discouraged, or prohibited. 
+Some codes have by-country use restrictions. 
+You may have signed an …</p>
+                <a class="readmore" href="/analysis-toolset.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+    </section><!-- /#content -->
+
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
