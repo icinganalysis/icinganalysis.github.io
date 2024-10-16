@@ -5,7 +5,7 @@ status: draft
 
 # "A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades" [^1]  
 
-![Figure 1. Schematic flow diagram for gas-heated hollow propeller blade.](/imagess%2FNACA-TN-1494%2FFigure%201.png)  
+![Figure 1. Schematic flow diagram for gas-heated hollow propeller blade.](/images%2FNACA-TN-1494%2FFigure%201.png)  
  
 ## Abstract  
 
@@ -96,7 +96,7 @@ The hot gas then flows radially outward through the hollow blades,
 which may have internal radial partitions (fig. 1), to discharge 
 nozzles in the blade tips.
 
-![Figure 1. Schematic flow diagram for gas-heated hollow propeller blade.](/imagess%2FNACA-TN-1494%2FFigure%201.png)  
+![Figure 1. Schematic flow diagram for gas-heated hollow propeller blade.](/images%2FNACA-TN-1494%2FFigure%201.png)  
 
 > The required gas flow, which is defined as the rate that will
 maintain the heated portion of a blade surface at temperature at
@@ -143,7 +143,7 @@ station. The radial stations for which the surface-temperature
 calculations were made were therefore at 24, 36, 48, and 60 inches.
 (See fig. 4.) 
 
-![Figure 4.](/imagess%2FNACA-TN-1494%2FFigure%204.png)  
+![Figure 4.](/images%2FNACA-TN-1494%2FFigure%204.png)  
 
 >For more accurate results calculations nearer the
 hub may be necessary. A greater number of shorter radial segments 
@@ -153,12 +153,12 @@ For purposes of comparison, the calculations have been made
 for the two following operating conditions through the same icing
 condition:  
 
-![Conditions.](/imagess%2FNACA-TN-1494%2Fconditions.png)  
+![Conditions.](/images%2FNACA-TN-1494%2Fconditions.png)  
 
 >Results  
 > The general results are summarized as follows:  
 
-![Results.](/imagess%2FNACA-TN-1494%2FResults.png)  
+![Results.](/images%2FNACA-TN-1494%2FResults.png)  
 
 > DISCUSSION  
 > 
@@ -196,7 +196,7 @@ method because of the prodigious amount of time and effort involved.
 The method and a sample of the results to be expected from it are
 given in appendix E.
 
-![Figure 14.](/imagess%2FNACA-TN-1494%2FFigure%2014.png)  
+![Figure 14.](/images%2FNACA-TN-1494%2FFigure%2014.png)  
 
 > Suggested Technique for Reducing Heat Flows  
 > 
@@ -229,7 +229,7 @@ modifications similar to those illustrated, which will efficiently
 provide ice protection with a heat flow of feasible proportions.  
 
 ![Figure 12.Comparison of original with two propeller-blade-section modifications 
-that indicate savings in internal heat flow.](/imagess%2FNACA-TN-1494%2FFigure%2012.png)  
+that indicate savings in internal heat flow.](/images%2FNACA-TN-1494%2FFigure%2012.png)  
 
 ## Conclusions  
 
