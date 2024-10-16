@@ -6,7 +6,7 @@ status: draft
 # "A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades" [^1]  
 
 ![Figure 1. Schematic flow diagram for gas-heated hollow propeller blade.](/imagess%2FNACA-TN-1494%2FFigure%201.png)  
-
+ 
 ## Abstract  
 
 > SUMMARY  
