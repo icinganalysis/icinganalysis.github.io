@@ -1,7 +1,7 @@
 Title: Computer Freezing Rate Analysis Tools Examples    
 header: The Basics: Intermediate Topics  
 Date: 2024-04-08 19:00  
-tags: intermediate topics, ice shape, LEWICE   
+tags: intermediate topics, ice shapes, LEWICE   
 rights: CC-BY-NC-SA 4.0  
 
 ![Figure 4.8: Identification of the control volume used to formulate the thermodynamic equation  

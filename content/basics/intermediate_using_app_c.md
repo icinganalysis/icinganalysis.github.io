@@ -1,7 +1,7 @@
 Title: Using Appendix C for Ice Shape Analysis   
 header: The Basics: Intermediate Topics  
 Date: 2024-04-29 11:00  
-tags: intermediate topics, ice shape, effects of ice, LEWICE   
+tags: intermediate topics, ice shapes, effects of ice, LEWICE   
 rights: CC-BY-NC-SA 4.0  
 
 ![LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes_with_cls](/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes_with_cls.png)  
