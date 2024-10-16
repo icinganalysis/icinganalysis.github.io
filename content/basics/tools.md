@@ -1,7 +1,7 @@
 Title: Tools    
 header: The Basics of Aircraft Icing
 Date: 2024-02-12 16:00  
-tags: basics, flight test, icing tunnels, natural icing  
+tags: basics, flight test, icing tunnel, natural icing  
 rights: CC-BY-NC-SA 4.0
 
 Aircraft designs for flight in icing are improved and proven effective by several tools, 

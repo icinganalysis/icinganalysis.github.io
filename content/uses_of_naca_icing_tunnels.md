@@ -1,7 +1,7 @@
 title: Uses of NACA-Era Icing Wind Tunnels  
 Date: 2022-07-20 12:00  
 category: icing tunnels  
-tags: icing tunnels  
+tags: icing tunnel  
 
 ### _"Icing wind tunnels can simulate natural icing with water-spray and refrigeration systems ... to permit safe, convenient and relatively inexpensive testing."_ [^1]  
 

@@ -1,7 +1,7 @@
 title: Scaling in NACA Icing Wind Tunnel Tests  
 Date: 2022-07-27 12:00  
 category: icing tunnels  
-tags: icing tunnels  
+tags: icing tunnel  
 
 ### _"If the values of the K and φ parameters for the model and full-scale nacelle are maintained the same, the icing characteristics of the model will be similar to the icing characteristics of the full-scale"_
 
