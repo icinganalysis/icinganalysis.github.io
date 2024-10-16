@@ -8,7 +8,7 @@ tags: propellers, ice protection
 
 # "A Flight Investigation of the Thermal Performance of an Air-Heated Propeller"  
 
-![Figure 9. Ice accretion on leading edge of air-heated propeller after flight in light-icing conditions.](images%2FNACA-TN-1178%2FFigure%209.png)  
+![Figure 9. Ice accretion on leading edge of air-heated propeller after flight in light-icing conditions.](/images%2FNACA-TN-1178%2FFigure%209.png)  
 
 ## Abstract  
 
@@ -80,14 +80,14 @@ was installed on the left engine of a test airplane. A similar
 installation, which was provided on the right engine for subsequent tests,
 is shown in figure 1.  
 
-![Figure 1.png](images%2FNACA-TN-1178%2FFigure%201.png)  
+![Figure 1.png](/images%2FNACA-TN-1178%2FFigure%201.png)  
 
 >The operation of the propeller heating system is
 shown in figures 2 and 3. 
 
-![Figure 2.png](images%2FNACA-TN-1178%2FFigure%202.png)  
+![Figure 2.png](/images%2FNACA-TN-1178%2FFigure%202.png)  
 
-![Figure 3.png](images%2FNACA-TN-1178%2FFigure%203.png)  
+![Figure 3.png](/images%2FNACA-TN-1178%2FFigure%203.png)  
 
 >Ram air, heated by an exhaust-gas-air heat exchanger installation 
 (described in reference 2) was ducted to the
@@ -107,9 +107,9 @@ nozzles are given in figures 4 and 5, respectively. As employed herein,
 the term "station" denotes the radial distance from the center of rotation 
 in inches. (See fig. 4.)
 
-![Figure 4.png](images%2FNACA-TN-1178%2FFigure%204.png)  
+![Figure 4.png](/images%2FNACA-TN-1178%2FFigure%204.png)  
 
-![Figure 5.png](images%2FNACA-TN-1178%2FFigure%205.png)  
+![Figure 5.png](/images%2FNACA-TN-1178%2FFigure%205.png)  
 
 >TESTS  
 > 
@@ -146,7 +146,7 @@ from the external and internal air flows.
 >The observations made during flight in natural-icing conditions are
 presented in table I. 
 
-![Table I. OBSERVATIONS OF AIR-HEATED PROPELLER DURING FLIGHT IN LIGHT-ICING CONDITIONS](images%2FNACA-TN-1178%2FTable%20I.png)  
+![Table I. OBSERVATIONS OF AIR-HEATED PROPELLER DURING FLIGHT IN LIGHT-ICING CONDITIONS](/images%2FNACA-TN-1178%2FTable%20I.png)  
 
 >These observations were limited in that only
 light-icing conditions were encountered. Light-icing conditions are defined 
@@ -157,14 +157,14 @@ blades in the region of stations 30 to 40 as shown in figure 9.
 No ice formation on the blades aft of the leading-edge regions was observed 
 during the tests.
 
-![Figure 9. Ice accretion on leading edge of air-heated propeller after flight in light-icing conditions.](images%2FNACA-TN-1178%2FFigure%209.png)  
+![Figure 9. Ice accretion on leading edge of air-heated propeller after flight in light-icing conditions.](/images%2FNACA-TN-1178%2FFigure%209.png)  
 
 > The blade-surface temperatures of table II have been plotted as
 temperature distributions in figure 10. The temperature distribution
 (above ambient-air temperature) obtained during the dry-air tests with
 heated air flow to the propeller is shown in figure 10(a).  
 
-![Figure 10a.png](images%2FNACA-TN-1178%2FFigure%2010a.png)
+![Figure 10a.png](/images%2FNACA-TN-1178%2FFigure%2010a.png)
 
 >In figure 10(c) the mean curve of figure 10(a) is compared with the
 data obtained during flight in clouds. In this plot, the cloud data
@@ -190,7 +190,7 @@ Reference 4 is:
 - Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
         > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
 
-![Figure 10c.png](images%2FNACA-TN-1178%2FFigure%2010c.png)  
+![Figure 10c.png](/images%2FNACA-TN-1178%2FFigure%2010c.png)  
 
 >Application of the analysis of reference 4 to the present tests indicates 
 that the blade-surface temperature rises above ambient-air temperature 
@@ -233,6 +233,9 @@ but found that inserts to guide the internal flow improved performance:
 ## Citations  
 
 This publication is cited three times, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Flight+Investigation+of+the+Thermal+Performance+of+an+Air-Heated+Propeller&btnG=).  
+
+[NACA-TN-1494]({filename}NACA-TN-1494.md) cites NACA-TN-1178.  
+
 
 ## Notes  
 
