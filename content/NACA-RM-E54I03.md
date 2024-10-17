@@ -99,23 +99,23 @@ leading-edge system were investigated briefly.
 
 Selected figures illustrate key parts of the study:  
 
-![Figure 1. Installation of model in 6- by 9-foot icing research tunnel.](images%2FNACA-RM-E54I03%2FFigure%201.png)    
+![Figure 1. Installation of model in 6- by 9-foot icing research tunnel.](/images%2FNACA-RM-E54I03%2FFigure%201.png)    
 
-![Figure 2. Sketch showing instrumentation stations and leading-edge sections (all dimensions in inches.)](images%2FNACA-RM-E54I03%2FFigure%202.png)  
+![Figure 2. Sketch showing instrumentation stations and leading-edge sections (all dimensions in inches.)](/images%2FNACA-RM-E54I03%2FFigure%202.png)  
 
 ![Figure 5. Effect of gas flow through porous area on
 airfoil drag. Gas-flow rate, 135 pounds per hour
-per foot span.](images%2FNACA-RM-E54I03%2FFigure%205.png)  
+per foot span.](/images%2FNACA-RM-E54I03%2FFigure%205.png)  
 
 ![Figure 6. Correlation of experimental convective heat-transfer coefficients obtained in dry
-air at station C.](images%2FNACA-RM-E54I03%2FFigure%206.png)  
+air at station C.](/images%2FNACA-RM-E54I03%2FFigure%206.png)  
 
 ![Figure 7. Forward movement of transition region with increasing
-gas- to air-stream-velocity ratio.](images%2FNACA-RM-E54I03%2FFigure%207.png)  
+gas- to air-stream-velocity ratio.](/images%2FNACA-RM-E54I03%2FFigure%207.png)  
 
-![Figure 8. Chordwise variation of local impingement efficiency for three spanwise stations.](images%2FNACA-RM-E54I03%2FFigure%208.png)  
+![Figure 8. Chordwise variation of local impingement efficiency for three spanwise stations.](/images%2FNACA-RM-E54I03%2FFigure%208.png)  
 
-![Figure 9. Growth of rime-ice formations on airfoil.](images%2FNACA-RM-E54I03%2FFigure%209.png)  
+![Figure 9. Growth of rime-ice formations on airfoil.](/images%2FNACA-RM-E54I03%2FFigure%209.png)  
 
 ## Conclusions  
 
@@ -191,9 +191,9 @@ This appears to be the first test of this ice protection technology.
 ## Related  
 
 NACA-RM-E54I03 is also mentioned in  
-[Uses of NACA-Era Icing Wind Tunnels](uses_of_naca_icing_tunnels.md)
+[Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)
 and  
-[Calibration of the NACA Icing Wind Tunnels](calibration_of_naca_icing_tunnels.md)  
+[Calibration of the NACA Icing Wind Tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
 
 ## Notes:  
 

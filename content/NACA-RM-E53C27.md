@@ -7,7 +7,7 @@ tags: ice protection, icing tunnel
 # "Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil" [^1]  
 
 ![Figure 3. Schematic diagrams of gas-heating systems for
-three methods of cyclic de-icing.](images/naca-rm-e53c27/Figure 3.png)
+three methods of cyclic de-icing.](/images/naca-rm-e53c27/Figure 3.png)
 
 ## Abstract  
 
@@ -84,7 +84,7 @@ research tunnel over a wide range of icing and operating conditions.
 Three variations on the internal heating were considered.  
 
 ![Figure 3. Schematic diagrams of gas-heating systems for
-three methods of cyclic de-icing.](images/naca-rm-e53c27/Figure 3.png)  
+three methods of cyclic de-icing.](/images/naca-rm-e53c27/Figure 3.png)  
 
 >Over-All Performance of Cyclic De-Icing Systems  
 > 
@@ -110,11 +110,11 @@ starting about 9 inches back from the leading edge. These runback streaks
 did not grow materially, because they shed sporadically during subsequent
 heat-on periods.
 
-![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](images/naca-rm-e53c27/Figure 4.png)  
+![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](/images/naca-rm-e53c27/Figure 4.png)  
 
-![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](images/naca-rm-e53c27/Figure 4b.png)  
+![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](/images/naca-rm-e53c27/Figure 4b.png)  
 
-![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](images/naca-rm-e53c27/Figure 4c.png)  
+![Figure 4. Characteristic ice deposits with marginal operation of de-icing system.](/images/naca-rm-e53c27/Figure 4c.png)  
 
 > Parting-strip characteristics. - Data were obtained on the temperatare 
 pattern associated with the spanwise parting strip used in system
@@ -153,10 +153,10 @@ conditions investigated.
 ![Figure 12. Typical temperature pattern pertaining to spanwise parting strip and
 adjacent airfoil surface. Airspeed, 280 miles per hour; datum air temperature,
 0° F; liquid - water content, 0.6 gram per cubic meter; angle of attack, 5°; supply-
-duct gas flow, 800 pounds per hour; icing period, 4 minutes; heating system A.](images/naca-rm-e53c27/Figure 12.png)  
+duct gas flow, 800 pounds per hour; icing period, 4 minutes; heating system A.](/images/naca-rm-e53c27/Figure 12.png)  
 
 ![Figure 13. Parting-strip width as function of
-temperature ratio.](images%2Fnaca-rm-e53c27%2FFigure%2013.png)  
+temperature ratio.](/images%2Fnaca-rm-e53c27%2FFigure%2013.png)  
 
 ## Results  
 

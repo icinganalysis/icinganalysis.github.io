@@ -6,7 +6,7 @@ tags: ice protection, slat
 
 # "Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat" [^1]  
 
-![Figure 2b. Relation of main components of model.](images%2FNACA-RM-E56B23%2FFigure%202b.png)  
+![Figure 2b. Relation of main components of model.](/images%2FNACA-RM-E56B23%2FFigure%202b.png)  
 
 > SUMMARY
 > 
@@ -31,6 +31,8 @@ In addition to icing on a highly swept wing,
 this publication illustrates methods of ice protection for a 
 moving leading-edge slat. 
 Cyclic de-icing versus anti-icing is also covered.  
+
+We also see the challenges of developing performance requirements for cyclic de-icing.  
 
 > INTRODUCTION
 >
@@ -79,10 +81,10 @@ parallel to the airstream and spanwise dimensions parallel to the lead-ing edge.
 The streamwise airfoil chord was 6.9 feet.
 
 ![Figure 1. Installation of swept airfoil with partial-span leading-
-edge slat in icing tunnel.](images%2FNACA-RM-E56B23%2FFigure%201.png)  
+edge slat in icing tunnel.](/images%2FNACA-RM-E56B23%2FFigure%201.png)  
 
 ![Figure 1b. Installation of swept airfoil with partial-span leading-
-edge slat in icing tunnel.](images%2FNACA-RM-E56B23%2FFigure%201b.png)  
+edge slat in icing tunnel.](/images%2FNACA-RM-E56B23%2FFigure%201b.png)  
 
 > The airfoil leading-edge section consists of two main parts: an
 unslatted or "standard-airfoil" section with a spanwise extent of approximately 
@@ -103,17 +105,17 @@ fixed-airfoil section (fig. 2(a)). The radius of curvature of the tracks
 1s approximately 34 inches, and the full movement of the slat is over a
 16° central angle.
 
-![Figure 2. Relation of main components of model.](images%2FNACA-RM-E56B23%2FFigure%202.png)  
+![Figure 2. Relation of main components of model.](/images%2FNACA-RM-E56B23%2FFigure%202.png)  
 
-![Figure 2b. Relation of main components of model.](images%2FNACA-RM-E56B23%2FFigure%202b.png)  
+![Figure 2b. Relation of main components of model.](/images%2FNACA-RM-E56B23%2FFigure%202b.png)  
 
-![Figure 3. Slat heating system.](images%2FNACA-RM-E56B23%2FFigure%203.png)  
+![Figure 3. Slat heating system.](/images%2FNACA-RM-E56B23%2FFigure%203.png)  
 
-![Figure 3b. Slat heating system.](images%2FNACA-RM-E56B23%2FFigure%203b.png)  
+![Figure 3b. Slat heating system.](/images%2FNACA-RM-E56B23%2FFigure%203b.png)  
 
-![Figure 3c. Slat heating system.](images%2FNACA-RM-E56B23%2FFigure%203c.png)  
+![Figure 3c. Slat heating system.](/images%2FNACA-RM-E56B23%2FFigure%203c.png)  
 
-![Figure 3e. Slat heating system.](images%2FNACA-RM-E56B23%2FFigure%203e.png)  
+![Figure 3e. Slat heating system.](/images%2FNACA-RM-E56B23%2FFigure%203e.png)  
 
 > CONDITIONS AND PROCEDURE  
 > 
@@ -159,30 +161,30 @@ There are 23 figures in NACA-RM-E56B23, many of them with multiple parts.
 Selected images are included here.  
 
 ![Figure 6. Glaze-ice deposits on unheated model.
-Datum air temperature, 25° F.](images%2FNACA-RM-E56B23%2FFigure%206.png)  
+Datum air temperature, 25° F.](/images%2FNACA-RM-E56B23%2FFigure%206.png)  
 
 ![Figure 6b. Glaze-ice deposits on unheated model.
-Datum air temperature, 25° F.](images%2FNACA-RM-E56B23%2FFigure%206b.png)  
+Datum air temperature, 25° F.](/images%2FNACA-RM-E56B23%2FFigure%206b.png)  
 
 ![Figure 6c. Glaze-ice deposits on unheated model.
-Datum air temperature, 25° F.](images%2FNACA-RM-E56B23%2FFigure%206c.png)  
+Datum air temperature, 25° F.](/images%2FNACA-RM-E56B23%2FFigure%206c.png)  
 
-![Figure 7. Insufficiently heated areas of model. Airspeed, 175 mph.](images%2FNACA-RM-E56B23%2FFigure%207.png)  
+![Figure 7. Insufficiently heated areas of model. Airspeed, 175 mph.](/images%2FNACA-RM-E56B23%2FFigure%207.png)  
 
 ![Figure 9. Marginal de-icing heating rate as a function of heat-on period.
-Total cycle time, approximately 4 minutes.](images%2FNACA-RM-E56B23%2FFigure%209.png)  
+Total cycle time, approximately 4 minutes.](/images%2FNACA-RM-E56B23%2FFigure%209.png)  
 
 ![Figure 15. Comparison of anti-icing and de-icing heat requirements. Airspeed, 260 mph ; angle of attack, 4°; slat retracted;
-de-icing cycle ratio, 12; liquid-water content, 0.5 to 0.8 gram per cubic meter.](images%2FNACA-RM-E56B23%2FFigure%2015.png)  
+de-icing cycle ratio, 12; liquid-water content, 0.5 to 0.8 gram per cubic meter.](/images%2FNACA-RM-E56B23%2FFigure%2015.png)  
 
 ![Figure 16. Comparison of ice formations resulting from submarginal anti-icing and marginal de-icing.
-260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](images%2FNACA-RM-E56B23%2FFigure%2016.png)  
+260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](/images%2FNACA-RM-E56B23%2FFigure%2016.png)  
 
 ![Figure 16b. Comparison of ice formations resulting from submarginal anti-icing and marginal de-icing.
-260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](images%2FNACA-RM-E56B23%2FFigure%2016b.png)  
+260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](/images%2FNACA-RM-E56B23%2FFigure%2016b.png)  
 
 ![Figure 16c. Comparison of ice formations resulting from submarginal anti-icing and marginal de-icing.
-260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](images%2FNACA-RM-E56B23%2FFigure%2016c.png)  
+260 mph; angle of attack, 4°; slat retracted; for heating rates, see figure 15.](/images%2FNACA-RM-E56B23%2FFigure%2016c.png)  
 
 ## Conclusions  
 
