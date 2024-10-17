@@ -5,6 +5,8 @@ status: draft
 
 # "Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop"  
 
+![Figure 1. Installation of the alternate-inlet air-scoop model in the icing tunnel.](/images%2FNACA-RM-E53E07%2FFigure%201.png)  
+
 ## Abstract  
 
 > An investigation has been made in the NACA Lewis icing research
