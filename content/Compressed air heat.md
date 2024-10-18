@@ -1,6 +1,6 @@
 title: Compressed Air Heat  
 Date: 2023-02-13 12:00  
-tags: ice protection  
+tags: ice protection, propellers  
 
 ### _"the most economical icing protection ... consists of a system utilizing hot gas from a convenient heat source, namely, the turbojet-engine compressor"_ [^1]  
 
