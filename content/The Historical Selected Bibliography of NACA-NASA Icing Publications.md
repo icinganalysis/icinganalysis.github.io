@@ -306,9 +306,9 @@ Links to reviews are included where applicable.
     - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
         > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
     - Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952.  
-        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
+        > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
-        > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
+        > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
         > review: [Thermal Analysis and Surface Wettedness]({filename}Thermal%20Analysis.md)  
     - Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
@@ -337,7 +337,7 @@ Links to reviews are included where applicable.
     - Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
         > review: [NACA-TN-1598]({filename}NACA-TN-1598.md)  
     - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
-        > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
+        > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
         > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  
     - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
@@ -359,10 +359,8 @@ Links to reviews are included where applicable.
 - Cooling Fan Ice Protection  
 
     - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
-        > mention: [Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)      
-<!--
         > review: [NACA-TN-1246]({filename}NACA-TN-1246.md)  
--->
+        > mention: [Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)        
 
 - Radome Icing Protection  
 
@@ -413,6 +411,7 @@ Links to reviews are included where applicable.
 - Heat Transfer  
 
     - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950.  
+        > review: [NACA-TN-2126]({filename}NACA-TN-2126.md)
     - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
         > review: [NACA-TN-2799]({filename}NACA-TN-2799.md)  
     - Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
@@ -423,6 +422,7 @@ Links to reviews are included where applicable.
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
     - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
+        > mention: [Engine Inlet Icing]({filename}Engine%20Inlet%20Icing.md)   
 
 <!--
         > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
