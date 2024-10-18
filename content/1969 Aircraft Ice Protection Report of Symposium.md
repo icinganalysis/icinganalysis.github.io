@@ -2,7 +2,7 @@ Title: The Greatest Thing That You Have (Probably) Never Read: 1969 Aircraft Ice
 Date: 2022-12-13 13:00  
 Category: Diversions
 tags: diversions, icing conference  
-
+ 
 ### _"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people."_ [^1]
 
 ![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](images/1969 Aircraft Ice Protection Report of Symposium/Figure 1 of B L Messinger.png)
