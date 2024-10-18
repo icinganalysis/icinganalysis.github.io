@@ -1,6 +1,6 @@
 Title: NACA-TN-1790  
 status: draft  
-tags: carburetor, icing tunnel  
+tags: carburetors, icing tunnel  
 
 ### _"The formation of heavy ice in the carburetor and manifold resulted in air-flow reduction, which could not be regained by opening the throttle to the wide-open position."_  
 
