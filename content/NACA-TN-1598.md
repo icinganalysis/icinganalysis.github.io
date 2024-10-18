@@ -1,7 +1,7 @@
 title: NACA-TN-1598   
 Date: 2022-06-14 12:00  
 Category: NACA  
-tags: ice shapes, flight test  
+tags: ice shapes, flight test, natural icing  
 
 ### _"It is significant that the control response of the airplane approached the point of being marginal when all of the airplane except the propeller had accreted ice"_  
 

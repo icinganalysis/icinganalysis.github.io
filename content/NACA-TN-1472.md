@@ -1,7 +1,7 @@
 Title: NACA-TN-1472  
 Date: 2022-04-18 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, natural icing, ice protection  
 
 ### _"... equations for calculating the rate of heat transfer from airfoils in icing conditions were verified"_  
 
