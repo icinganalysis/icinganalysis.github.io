@@ -4,9 +4,9 @@ Category: NACA
 tags: about  
 status: draft  
 
-### _"... it shall be the duty of the advisory committee for aeronautics to supervise and direct the scientific study of the problems of flight with a view to their practical solution ... _  
+### _" it shall be the duty of the advisory committee for aeronautics to supervise and direct the scientific study of the problems of flight with a view to their practical solution  _  
 
-![NASA SP 3406 quote.](images%2FNASA%20SP%203406%20quote.png)
+![NASA SP 3406 quote.](/images%2FNASA%20SP%203406%20quote.png)
 _From NASA SP-3406_  
  
 For most of the reviews of the NACA-era aircraft icing publications, 
