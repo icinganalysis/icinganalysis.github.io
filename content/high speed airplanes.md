@@ -1,5 +1,5 @@
 Title: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes     
-Date: 2024-09-30 12:00  
+Date: 2024-12-04 14:00  
 Category: NACA  
 status: draft  
 tags: icing conference

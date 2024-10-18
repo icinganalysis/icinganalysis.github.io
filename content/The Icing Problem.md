@@ -1,5 +1,5 @@
 Title: The Icing Problem  
-Date: 2024-10-14 14:00  
+Date: 2024-12-04 16:00  
 Category: NACA  
 status: draft  
 tags: icing, flight test, tunnel test, ice protection, icing conference     

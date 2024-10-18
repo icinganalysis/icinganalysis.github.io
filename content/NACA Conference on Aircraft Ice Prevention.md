@@ -1,5 +1,6 @@
 Title: NACA Conference on Aircraft Ice Prevention 1947 
 status: draft  
+Date: 2024-13-04 12:00  
 category: NACA  
 tags: icing conference  
 

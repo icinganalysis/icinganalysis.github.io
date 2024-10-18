@@ -1,5 +1,5 @@
 Title: Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes       
-Date: 2024-09-30 12:00  
+Date: 2024-12-04 15:00  
 Category: NACA  
 status: draft  
 tags: icing conference
