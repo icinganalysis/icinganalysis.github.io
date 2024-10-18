@@ -1,5 +1,5 @@
 Title: NACA-RM-E53A22  
-Date: 2024-09-30 12:00  
+Date: 2024-11-20 15:00  
 Category: NACA  
 status: draft  
 tags: radome, ice protection       

@@ -1,5 +1,5 @@
 Title: NACA-RM-E7H26a  
-Date: 2024-09-30 12:00  
+Date: 2024-11-20 14:00  
 Category: NACA  
 status: draft  
 tags: antenna, flight test   
