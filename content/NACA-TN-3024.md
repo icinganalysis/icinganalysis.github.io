@@ -1,7 +1,7 @@
 Title: NACA-TN-3024  
 Date: 2022-05-02 12:00  
 Category: NACA  
-tags: thermodynamics  
+tags: thermodynamics, water drops    
 
 > ###_"evaporation losses are ... very small (less than 1 percent) in the case of smaller obstacles (of icing-rate-measurement-cylinder size)."_  
 

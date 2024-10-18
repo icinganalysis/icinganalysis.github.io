@@ -1,7 +1,7 @@
 title: NACA-TN-4151     
 Date: 2022-06-27 12:00  
 Category: NACA  
-tags: ice shapes  
+tags: ice shapes, effects of ice  
 
 ### _"published aerodynamic data for performance penalties in icing conditions are not readily applicable to a very thin airfoil"_  
 

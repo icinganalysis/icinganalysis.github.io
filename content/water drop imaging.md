@@ -1,7 +1,7 @@
 title: Water Drop Imaging  
 Date: 2022-12-04 12:00  
 Category: NACA  
-tags: instruments  
+tags: instruments, water drops  
 
 ### _"it is necessary to measure the sizes of the droplets within the clouds."_ [^1]  
 
