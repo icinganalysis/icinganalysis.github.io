@@ -1,6 +1,6 @@
 title: Component Icing   
 Date: 2023-03-13 12:00  
-tags: ice protection  
+tags: ice protection, radomes  
 
 ### _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
 

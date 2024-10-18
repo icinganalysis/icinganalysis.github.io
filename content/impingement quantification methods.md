@@ -1,7 +1,7 @@
 title: Methods of Water Drop Impingement Quantification  
 category: impingement  
 Date: 2023-10-16 15:00  
-tags: impingement  
+tags: impingement, water drops  
 
 ### _"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"_  
 _From NACA-TN-1397._  

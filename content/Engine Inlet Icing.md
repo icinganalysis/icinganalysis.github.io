@@ -69,5 +69,8 @@ There is also
 However, this was largely a preliminary version of [NACA-TN-3837]({filename}NACA-TN-3837.md) "Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3", 
 and so it will not be separately reviewed. 
 
-See also the [Ice Protection Thread]({filename}ice%20protection.md).  
+See also: 
 
+[Ice Protection Thread]({filename}ice%20protection.md)  
+[Impingement in Ducts]({filename}Impingement%20in%20Ducts.md)  
+[Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  

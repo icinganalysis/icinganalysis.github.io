@@ -305,6 +305,49 @@ spontaneously freeze (freeze without outside influence other than temperature). 
             </article></li>
         <li><article class="hentry">
                 <header>
+                    <h1><a href="/methods-of-water-drop-impingement-quantification.html" rel="bookmark"
+                           title="Permalink to Methods of Water Drop Impingement Quantification">Methods of Water Drop Impingement Quantification</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-10-16T15:00:00-07:00">
+                Published: Mon 16 October 2023
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-18T09:06:49.120669-07:00">
+                Updated: Fri 18 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/impingement.html">impingement</a>.</p>-->
+<p>tags: <a href="/tag/impingement.html">impingement</a><br> <a href="/tag/water-drops.html">water drops</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"</em></h3>
+<p><em>From NACA-TN-1397.</em>  </p>
+<p><img alt="Figure 7 of NACA-TN-3839. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees." src="/images%2FNACA-TN-3839%2FFigure%207.png"><br>
+<em>From NACA-TN-3839.</em>    </p>
+<h2>Summary</h2>
+<p>Several methods were used to quantify the water-drop impingement on a surface, such as a wing. </p>
+<h2>Discussion</h2>
+<p>We already saw in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a> calculations made for impingement on a cylinder. 
+The technique was expanded in NACA-TN-1397 to include Joukowski type airfoils. 
+This allowed a transformation of the flow solution around a cylinder to be mapped into airfoil coordinates, 
+and then used to solve for water drop trajectory calculations, similar to those used for cylinders. </p>
+<p>NACA-TN-1397 said one could calculate "the trajectory a single drop without the utilization of a differential analyzer". 
+We saw the differential analyzer in the <a href="/icing-on-cylinders.html">Icing on Cylinders thread</a>, 
+in particular detail in <a href="/naca-tn-2904.html">NACA-TN-2904</a>. 
+However, the example given (Table …</p>
+                <a class="readmore" href="/methods-of-water-drop-impingement-quantification.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
                     <h1><a href="/water-drop-imaging.html" rel="bookmark"
                            title="Permalink to Water Drop Imaging">Water Drop Imaging</a></h1>
                 </header>
@@ -348,6 +391,54 @@ In NACA-TN-3592, water drops were captured in an oil stream exposed to the ambie
 <blockquote>
 <p>A camera designed …</p></blockquote>
                 <a class="readmore" href="/water-drop-imaging.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/lets-build-a-1d-water-drop-trajectory-simulation.html" rel="bookmark"
+                           title="Permalink to Let's Build a 1D Water Drop Trajectory Simulation">Let's Build a 1D Water Drop Trajectory Simulation</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-25T12:00:00-07:00">
+                Published: Wed 25 May 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-18T08:59:27.421091-07:00">
+                Updated: Fri 18 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/diversions.html">Diversions</a>.</p>-->
+<p>tags: <a href="/tag/impingement.html">impingement</a><br> <a href="/tag/evaporation.html">evaporation</a><br> <a href="/tag/python.html">python</a><br> <a href="/tag/water-drops.html">water drops</a><br> </p>
+</footer><!-- /.post-info -->                <p><img alt="Figure 1 of NACA-TN-2903, depicting a cylinder in cross flow with air flow lines and water drop trajectories impacting the cylinder" src="images/cylinder with flow lines.png">  </p>
+<h3><em>"The discrepancies are of the magnitude to be expected from ... the step by step integration".</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<h1>Let's build a 1D water drop trajectory simulation</h1>
+<h2>Summary</h2>
+<p>Water impingement values on a cylinder are calculated with step-by-step integration. </p>
+<h2>Key points</h2>
+<ol>
+<li>1D equations of motion were implemented.  </li>
+<li>Results agree well with the minimum drop size required for impingement.  </li>
+<li>Water drops may contact the cylinder at very low K values.  </li>
+<li>The methods appears accurate enough to use for other applications.  </li>
+</ol>
+<h2>Discussion</h2>
+<p>We are going to start with a one dimensional simulation along a single line,
+the stagnation line of flow around a cylinder, y=0 in the figure above. </p>
+<p>We will implement the equations of motions for a drop around a cylinder from 
+<a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
+<p>Readers unfamiliar with <a href="/mathematical-investigation-of-water-droplet-trajectories.html">"Mathematical Investigation of Water Droplet Trajectories"</a> 
+may wish to review it before proceeding further herein, 
+especially to be familiar with the …</p>
+                <a class="readmore" href="/lets-build-a-1d-water-drop-trajectory-simulation.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
         <li><article class="hentry">
@@ -398,6 +489,52 @@ shown that the solution of the steady-state psychrometric equation provides
 evaporation rates which are the maximum possible when droplets are
 entrained in …</p></blockquote>
                 <a class="readmore" href="/naca-tn-3024.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        <li><article class="hentry">
+                <header>
+                    <h1><a href="/mathematical-investigation-of-water-droplet-trajectories.html" rel="bookmark"
+                           title="Permalink to "Mathematical Investigation of Water Droplet Trajectories"">"Mathematical Investigation of Water Droplet Trajectories"</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-21T12:00:00-08:00">
+                Published: Fri 21 January 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-10-18T09:06:49.148668-07:00">
+                Updated: Fri 18 October 2024
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/army-air-force.html">Army Air Force</a>.</p>-->
+<p>tags: <a href="/tag/cylinders.html">cylinders</a><br> <a href="/tag/water-drops.html">water drops</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"IT IS DESIRED to calculate the trajectories of small water droplets (fog) in air moving at high velocities across a cylinder."</em></h3>
+<p><img alt="Figure 6. Trajectories of rim particles deposited on cylinder AC drawn by differential analyzer." src="images/Mathematical Investigation of Water Droplet Trajectories/LangmuirFigure6.png">  </p>
+<h2>Summary</h2>
+<p>Langmuir drop size distributions are defined, and water drop impingement on a collection of cylinders for use as an icing instrument is described.</p>
+<h2>Key points</h2>
+<ol>
+<li>The Langmuir drop size distributions are defined</li>
+<li>The water drop impingement terms E, Beta, K, and Ko are defined</li>
+<li>The use of cylinders of different sizes and detailed calculations to determine water drop sizes</li>
+</ol>
+<h2>Abstract</h2>
+<blockquote>
+<p>Calculations are given of the trajectories of small water droplets 
+moving in air at high velocities across a cylinder. The calculations were 
+made by means of a differential analyzer (D.A.). A few calculations are
+also given for the case of a sphere and a ribbon.</p>
+<p>Each D. A. trajectory represents the motion of a single particle. The theoretical curves for
+the efficiency of deposition of very large …</p></blockquote>
+                <a class="readmore" href="/mathematical-investigation-of-water-droplet-trajectories.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
     </section><!-- /#content -->

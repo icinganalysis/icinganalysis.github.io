@@ -1,7 +1,7 @@
 title: Bodies of Revolution    
 category: impingement  
 Date: 2023-10-18 19:00  
-tags: impingement  
+tags: impingement, radomes  
 
 ### _"The presence of radomes and instruments that are sensitive to water films or ice formations in the nose section of all-weather aircraft and missiles necessitates a knowledge of the droplet impingement characteristics of bodies of revolution."_  
 [^1]
