@@ -1,5 +1,5 @@
 Title: NACA-TN-1615  
-Date: 2024-09-30 12:00  
+Date: 2024-11-06 14:00  
 Category: NACA  
 status: draft  
 tags: air jets, wind tunnel      
