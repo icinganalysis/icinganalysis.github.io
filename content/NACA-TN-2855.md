@@ -1,7 +1,6 @@
 Title: NACA-TN-2855  
-Date: 2024-11-06 17:00  
+Date: 2024-11-05 17:00  
 Category: NACA  
-status: draft  
 tags: air jets, wind tunnel       
 
 ### _"For practical application ... the discharging of heated jets into an air stream requires knowledge of the temperature profiles downstream of the heated jet and of the depth of penetration"_  

@@ -1,7 +1,6 @@
 Title: Air Jets  
-Date: 2024-11-06 12:00  
+Date: 2024-11-04 12:00  
 Category: NACA  
-status: draft  
 tags: air jets  
 
 ### _"rain deflection by jet blast appears feasible for flight speeds"_  

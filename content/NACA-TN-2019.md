@@ -1,7 +1,6 @@
 Title: NACA-TN-2019  
-Date: 2024-11-06 15:00  
+Date: 2024-11-05 15:00  
 Category: NACA  
-status: draft  
 tags: air jets, wind tunnel       
 
 ### _"square orifices ... provided that a jet dimension equal to the diameter of the equivalent area circle was used"_  

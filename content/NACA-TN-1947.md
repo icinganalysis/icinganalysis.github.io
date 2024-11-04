@@ -1,7 +1,6 @@
 Title: NACA-TN-1947  
-Date: 2024-11-06 13:00  
+Date: 2024-11-05 13:00  
 Category: NACA  
-status: draft  
 tags: air jets, wind tunnel         
 
 ### _"Excellent correlation was obtained between the results for a jet discharging into still air and ... into a moving air stream"_  

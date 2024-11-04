@@ -1,7 +1,6 @@
 Title: NACA-TN-1615  
-Date: 2024-11-06 14:00  
+Date: 2024-11-05 14:00  
 Category: NACA  
-status: draft  
 tags: air jets, wind tunnel      
 
 ### _"it was necessary to define the penetration as the point at which the temperature is 1° F above the free-stream total temperature"_  

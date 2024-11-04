@@ -1,7 +1,6 @@
 Title: NACA-RM-E55E17a  
-Date: 2024-11-06 18:00  
+Date: 2024-11-05 18:00  
 Category: NACA  
-status: draft  
 tags: air jets, windshields, wind tunnel, rain       
 
 ### _"rain deflection by jet blast appears feasible for flight speeds"_  
