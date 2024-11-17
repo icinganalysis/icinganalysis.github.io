@@ -1,7 +1,6 @@
 Title: NACA-RM-E53A22  
 Date: 2024-11-20 15:00  
 Category: NACA  
-status: draft  
 tags: radome, ice protection       
 
 ### _"radome icing has serious effects on the radar operation"_  
@@ -376,5 +375,5 @@ This publication is cited five times, per [scholar.google.com](https://scholar.g
 
 ## Notes  
 
-[^1]: Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
+[^1]: Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)  
 

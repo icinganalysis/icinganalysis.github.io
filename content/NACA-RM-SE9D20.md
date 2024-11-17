@@ -1,7 +1,6 @@
 Title: NACA-RM-SE9D20  
 Date: 2024-11-20 13:00  
 Category: NACA  
-status: draft  
 tags: antenna, icing tunnel test     
 
 ### _"After 7 minutes of icing, however, one antenna element experienced a vibratory failure"_  
@@ -186,4 +185,4 @@ NACA-RM-SE9D20 had no citations, per [scholar.google.com](https://scholar.google
 
 ## Notes:  
 
-[^1]: Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
+[^1]: Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068745).  

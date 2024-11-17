@@ -1,7 +1,6 @@
 Title: NACA-RM-E7H26a  
 Date: 2024-11-20 14:00  
 Category: NACA  
-status: draft  
 tags: antenna, flight test   
 
 ### _"The current use of improved airplane ice-prevention equipment has extended operations in icing conditions and thus accentuated the need for protecting aircraft antennas against structural failures resulting from ice accretions"_  
