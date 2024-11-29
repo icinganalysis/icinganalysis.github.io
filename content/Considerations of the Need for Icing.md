@@ -80,7 +80,8 @@ fighter at an air temperature of -21° C and on the transport at -7° C.
 The altitude at which icing occurs increases with a lower air temperature. 
 Consequently, the icing of the fighter occurs at a higher altitude (15,000 ft) 
 than the icing of the transport (5000 ft). 
-Lower air temperatures are also associated with lower water content values. 
+> 
+> Lower air temperatures are also associated with lower water content values. 
 The fighter, therefore, passes through clouds containing an average water content 
 value of 0.5 gram per cubic meter, while the transport passes through clouds 
 containing 1.1 grams per cubic meter. Both aircraft are assumed to climb through 

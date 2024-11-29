@@ -1,5 +1,5 @@
 Title: NACA-TN-2212       
-Date: 2024-09-30 12:00  
+Date: 2024-11-25 13:00  
 Category: NACA  
 tags: flight test, propellers, natural icing      
 
@@ -220,6 +220,10 @@ Some are recent, such as:
 
 - Hann, Richard, and Tor Arne Johansen. "Unsettled topics in unmanned aerial vehicle icing." (2020) [ntnuopen.ntnu.no](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3113980/EPR2020008.pdf?sequence=1).  
 - Müller, Nicolas C., and Richard Hann. "UAV Icing: Validation of an Ice Protection System Design for a Propeller." AIAA Aviation Forum and Ascend 2024. 2024 [ntnuopen.ntnu.no](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/3149508/2024_Aviation_Hann_Ice+impact.pdf?sequence=1).  
+
+## Related  
+
+See also [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md).  
 
 ## Notes  
 

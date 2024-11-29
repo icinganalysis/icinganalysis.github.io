@@ -36,7 +36,7 @@ Readers can get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa.gov
 Here, it will be presented in its entirety. 
 A few of the figures are not very clear, and clearer versions are included, where applicable. 
 
-Not included here is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
+Not included herein is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 which was first presented in 1969, and is 
 appended after the reprinted "The Icing Problem" in 
 NASA-TM-81651 [^1].  
@@ -463,7 +463,7 @@ up during the unheated portion of a cycle (fig. 20). A number of airfoil
 models were tested to obtain the drag characteristics of cyclically de-iced
 airfoils in icing conditions (refs. 17 and 18). The results of these tests
 show that the drag and lift changes averaged over a cycle do not constitute
-a serious operational hazard if the length of the cy~le can be adjusted to
+a serious operational hazard if the length of the cycle can be adjusted to
 the severity of the icing condition.
 
 ![Figure 20. ](/images%2FThe%20Icing%20Problem%2FFigure%2020.png)  
@@ -1090,7 +1090,7 @@ While the control circuit for this probe has proved formidable, a satisfactory
 unit has been designed and operated. The probe is currently being calibrated 
 in the Lewis icing tunnel.
 
-## REFERENCES { #references }  
+## REFERENCES {: #references }  
 
 1. Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA TN 2569, 1951.  
 2. Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA TN 2738, 1952.  

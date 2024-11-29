@@ -265,9 +265,7 @@ Links to reviews are included where applicable.
     - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
-<!--
         > review: [NACA-TN-2212]({filename}NACA-TN-2212.md)  
--->
 
 - Induction System Ice Protection  
 
@@ -388,27 +386,17 @@ Links to reviews are included where applicable.
 - Jet Penetration  
 
     - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.  
+        > review: [NACA-TN-1615]({filename}NACA-TN-1615.md)  
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
-    - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+         review: [NACA-TN-2019]({filename}NACA-TN-2019.md)  
+      - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+         review: [NACA-TN-1947]({filename}NACA-TN-1947.md)  
     - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+         review: [NACA-TN-2855]({filename}NACA-TN-2855.md)  
     - Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
+        review: [NACA-TN-2466]({filename}NACA-TN-2466.md)  
 
-    <!--        > review: [NACA-TN-1615]({filename}NACA-TN-1615.md) -->  
-<!--            > review: ({filename}NACA-TN-2019.md)-->  
-
-<!--
-        > review: [NACA-TN-1947]({filename}NACA-TN-1947.md)  
--->
-
-
-<!--
-        > review: [NACA-TN-2855]({filename}NACA-TN-2855.md)  
--->
-<!--
-        > review: [NACA-TN-2466]({filename}NACA-TN-2466.md)  
--->
-
-- Heat Transfer  
+- Heat Transfer <a name="heat-transfer">   
 
     - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950.  
         > review: [NACA-TN-2126]({filename}NACA-TN-2126.md)
@@ -419,9 +407,11 @@ Links to reviews are included where applicable.
     - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
         > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
     - Coles, Willard D.: Experimental Determination of Thermal Conductivity of Low-Density Ice. NACA-TN-3143, 1954.  
+        > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
-    - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
+    - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  
+        > review: [NACA-RM-E53F02]({filename}NACA-RM-E53F02.md)  
         > mention: [Engine Inlet Icing]({filename}Engine%20Inlet%20Icing.md)   
 
 <!--

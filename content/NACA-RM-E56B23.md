@@ -1,10 +1,11 @@
 Title: NACA-RM-E56B23  
 status: draft  
+Date: 2024-11-27 14:00  
 tags: ice protection, slat  
 
 ### _"This criterion, unavoidably subjective in nature, caused considerable scatter in the data"_  
 
-# "Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat" [^1]  
+# "Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36° Swept Airfoil with Partial-Span Leading-Edge Slat" [^1]  
 
 ![Figure 2b. Relation of main components of model.](/images%2FNACA-RM-E56B23%2FFigure%202b.png)  
 
@@ -254,4 +255,4 @@ NACA-RM-E56B23 is cited two times per [scholar.google.com](https://scholar.googl
 
 ## Notes  
 
-[^1]: Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
+[^1]: Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930089163)  

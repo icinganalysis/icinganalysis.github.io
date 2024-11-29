@@ -1,5 +1,6 @@
 Title: NACA-RM-E53C27  
 status: draft  
+Date: 2024-11-27 12:00  
 tags: ice protection, icing tunnel
 
 ### _"... quick and reliable shedding of dangerous leading-edge ice caps and good heat utilization."_  
@@ -187,8 +188,16 @@ period was caused by flows of water and melting ice over the surface.
 system were advantageous for quick and reliable shedding of dangerous 
 leading-edge ice caps and good heat utilization.  
 
+## Citations  
+
+Eight citations for this publication were found at 
+[scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E53C27&btnG=).  
+
+## Related  
+
+See also the [Ice Protection thread]({filename}ice%20protection.md) for several other methods of ice protection.  
 
 ## Notes  
 
-[^1]: Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.    
+[^1]: Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068601)      
 

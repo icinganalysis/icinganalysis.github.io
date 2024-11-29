@@ -15,7 +15,6 @@ for wing thermal ice-prevention in specified ice conditions, tension in radio an
 from ice formation, analytical study of thermal ice-prevention systems applied to light aircraft,
 effect of ice formations on aircraft performance, etc.
 
-
 ## Discussion  
 
 This documents the state of the art in 1947 for aircraft ice protection.  
@@ -288,6 +287,8 @@ interception over the area of impingement.
 > (Editor's note: A complete discussion of the numerical method for
 calculating trajectories will be found in reference 4.)
 
+Reference 4 was published as NACA-TN-1397, reviewed in [Airfoil impingement drop distribution]({filenmae}airfoil%20impingement%20drop%20distribution.md).  
+
 ![Impingement Figure 2.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FImpingement%20Figure%202.png)  
 
 ![Impingement Figure 5.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FImpingement%20Figure%205.png)  
@@ -464,7 +465,7 @@ This value was based on data obtained for a flat-pane, V-type windshield
 at flight speeds up to 150 miles per hour, and applied to
 internally heated windshields.  
 > 
-> lthough this initial research provided some information on
+> Although this initial research provided some information on
 windshield heat requirements, the results wore empirical in
 nature and could not serve as a fundamental basis for the prediction 
 of the internal heating requirements for windshield configurations 

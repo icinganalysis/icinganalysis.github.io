@@ -1,5 +1,6 @@
 Title: NACA-RM-E54I03  
 status: draft  
+Date: 2024-11-27 13:00  
 tags: ice protection, laminar flow
 
 # "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing" [^1]  
@@ -9,8 +10,8 @@ tags: ice protection, laminar flow
 >SUMMARY
 > 
 > A tip section of a delta wing having an NACA 0004-65 airfoil section 
-and a 600 leading-edge sweepback was equipped with a porous leading-edge 
-section through which hot gas was dbled for anti-icing. Heating
+and a 60° leading-edge sweepback was equipped with a porous leading-edge 
+section through which hot gas was bled for anti-icing. Heating
 rates for anti-icing were determined for a wide range of icing conditions. 
 The effects of gas flow through the porous leading-edge section
 on airfoil pressure distribution and drag in dry air were investigated.
@@ -195,6 +196,8 @@ NACA-RM-E54I03 is also mentioned in
 and  
 [Calibration of the NACA Icing Wind Tunnels]({filename}calibration_of_naca_icing_tunnels.md)  
 
+See also the [Ice Protection thread]({filename}ice%20protection.md) for several other methods of ice protection.  
+
 ## Notes:  
 
-[^1]: Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
+[^1]: Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  

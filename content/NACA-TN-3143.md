@@ -1,7 +1,6 @@
 Title: NACA-TN-3143       
-Date: 2024-09-30 12:00  
+Date: 2024-11-29 18:00  
 Category: NACA  
-status: draft  
 tags: ice density, icing tunnel    
 
 ### _"Very few data are available on the physical properties of ice formations having a density other than that of clear, solid ice"_  
@@ -26,6 +25,11 @@ packed snow as a function of snow density. The agreement of the curves
 for packed snow near the solid ice regime with the values of thermal
 conductivity, of ice indicates that the curves are applicable over the
 entire-ice-density range.
+
+## Discussion  
+
+This publication is included in the Heat Transfer section of the 
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md#heat-transfer)
 
 >INTRODUCTION  
 >
@@ -54,11 +58,12 @@ From these data, the thermal conductivity of low-density ice has been
 determined for several values of ice density. The results obtained
 are presented herein and are combined with information from several
 sources to make possible a more complete evaluation of the thermal
-conductivity of ice over the entire range of ice density. The in-
-vestigation was conducted in a 3.84- by 10-inch tunnel at the NACA
+conductivity of ice over the entire range of ice density. The investigation 
+was conducted in a 3.84- by 10-inch tunnel at the NACA
 Lewis laboratory.
 
 Reference 2 is:  
+
 - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
     > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
 
@@ -110,7 +115,7 @@ plate. The plate was cooled to a temperature below that of the frost
 point of the air stream by the flow of cold alcohol through the copper
 box. The alcohol was cooled In an alcohol-dry ice bath heat exchanger.
 The resultant ice formation thus took the form of a dense frost-like
-formation as shown In figure 2. 
+formation as shown in figure 2. 
 
 ![Figure 2. Ice formation on the flat-plate model by condensation of water vapor from the air stream.](images%2FNACA-TN-3143%2FFigure%202.png)  
  
@@ -205,7 +210,16 @@ thermal conductivity of packed snow as a function of the snow density.
 
 ## Citations  
 
-This study is cite by 31 publications, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Experimental+Determination+of+Thermal+Conductivity+of+Low-Density+Ice&btnG=).   
+This study is cited by 31 publications, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Experimental+Determination+of+Thermal+Conductivity+of+Low-Density+Ice&btnG=).   
+
+## Related  
+
+Also see 
+NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" 
+and 
+NACA-TN-2914 "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", 
+which used the same test article.  
+Reviews (combined): [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 
 ## Notes  
 

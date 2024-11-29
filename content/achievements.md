@@ -73,7 +73,7 @@ Readers may be also interested in
 which has more information on the history of the Icing Research Tunnel. 
 
 The Icing Research Tunnel is still used today, for both research and industry tests. 
-Numerous improvements through the years have enabled an 80+ year life span.  
+Numerous improvements through time have enabled an 80+ year life span.  
 
 - [Icing Wind Tunnel Test Thread]({filename}Icing%20Wind%20Tunnel%20Test%20Thread.md)  
 
@@ -176,9 +176,32 @@ are NACA publications.
 
 - [Design Manuals]({filename}Design%20Manuals.md)  
 
+## Conclusions  
+
+> "... Before attacking what appeared to be a new icing problem we should study the icing work of the 1940's and 50's." [^4]  
+
+When I started blogging on this topic in three years ago, 
+I had worked for 30+ years in aircraft icing, 
+and I had several occasions to study the NACA icing publications in particular. 
+I thought that I knew the publications well. 
+
+I was wrong. There is much more to be learned. As I studied the publications again, 
+I often had thoughts similar to comments that the website "Blast from the Past: NACA Icing Publications" has received:  
+
+- "Stuff I was looking for"  
+- "it enlightened me a lot for my ongoing research"  
+- "an invaluable source of material"  
+- "I've been looking for that data point!"  
+
+Searching through and reading the NACA publications will reward you, 
+at whatever stage of learning you are at. 
+
+The NACA publications are freely available at [ntrs.nasa.gov](ntrs.nasa.gov).  
+
 ## Notes  
 
 [^1]: Collier Trophy Winners [naa.aero](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
 [^2]: Dawson, Virginia P. "Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306." Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306, by Virginia P. Dawson, 271 pages, published by NASA, Washington, DC, 1991 4306 (1991) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19910006662).  
 [^3]: Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
 [www.asme.org](https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf)  
+[^4]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
