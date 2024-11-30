@@ -316,10 +316,12 @@ Links to reviews are included where applicable.
     - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953.  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
+        > review: [NACA-RM-E53C27]({filename}NACA-RM-E53C27.md)  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
         > review: [Design Manuals]({filename}Design%20Manuals.md)  
     - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
+        > review: [NACA-RM-E54I03]({filename}NACA-RM-E54I03.md)  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  

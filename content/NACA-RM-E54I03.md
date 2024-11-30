@@ -1,6 +1,5 @@
 Title: NACA-RM-E54I03  
-status: draft  
-Date: 2024-11-27 13:00  
+Date: 2024-11-30 13:00  
 tags: ice protection, laminar flow
 
 # "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing" [^1]  
