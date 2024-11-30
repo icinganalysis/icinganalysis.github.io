@@ -324,6 +324,7 @@ Links to reviews are included where applicable.
         > review: [NACA-RM-E54I03]({filename}NACA-RM-E54I03.md)  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
+        > review: [NACA-RM-E56B23]({filename}NACA-RM-E56B23.md)  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gowan, W. H., Jr., and Mulholland, Donald R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
         > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  

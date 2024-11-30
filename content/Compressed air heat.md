@@ -367,9 +367,7 @@ Several preliminary studies on propeller ice protection are not detailed herein.
 Largely, the findings were incorporated into the later works reviewed here.  
 
 - Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
-<!--
     > review [NACA-TN-1178]({filename}NACA-TN-1178.md)  
--->
 - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
 - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948.  
 - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948.  
@@ -379,14 +377,20 @@ Largely, the findings were incorporated into the later works reviewed here.
 Three other NACA studies on compressed air heating for airfoils are worth mentioning here. 
 
 - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
+    > review: [NACA-RM-E53C27]({filename}NACA-RM-E53C27.md)  
+
 The same model as in NACA-RM-E51J29 was used, with some 
 variations in the internal heating. 
 
 - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
+    > review: [NACA-RM-E54I03]({filename}NACA-RM-E54I03.md)  
+
 The title is pretty descriptive. 
 
 - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
-This describes some of the considerations for getting a heat supply 
+    > review: [NACA-RM-E56B23]({filename}NACA-RM-E56B23.md)  
+
+This describes some considerations for getting a heat supply 
 to a moving surface, like a leading edge slat. 
 
 ## Conclusions  
