@@ -2,7 +2,11 @@ Title: NACA-RM-E54I03
 Date: 2024-11-30 13:00  
 tags: ice protection, laminar flow
 
+### _"Ice formation on the unheated leading edge, which may occur prior to activation of the heating system, was removed in 1 to 1 1/2 minutes by a hot-gas-flow rate that would be sufficient for normal anti-icing."_  
+
 # "Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing" [^1]  
+
+![Figure 1. Installation of model in 6- by 9-foot icing research tunnel.](/images%2FNACA-RM-E54I03%2FFigure%201.png)    
 
 ## Abstract  
 
