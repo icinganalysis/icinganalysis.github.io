@@ -1,6 +1,5 @@
 Title: NACA-RM-E53C27  
-status: draft  
-Date: 2024-11-27 12:00  
+Date: 2024-11-30 12:00  
 tags: ice protection, icing tunnel
 
 ### _"... quick and reliable shedding of dangerous leading-edge ice caps and good heat utilization."_  
@@ -21,7 +20,7 @@ several methods of cyclic de-icing are compared, and the savings over
 continuous ice prevention are shown. Data are presented to show the
 relation of surface temperature, rate of surface heating, and heating
 time to the removal of ice.  
-
+ 
 ## Discussion  
 
 > INTRODUCTION  
