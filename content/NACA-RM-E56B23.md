@@ -1,6 +1,5 @@
 Title: NACA-RM-E56B23  
-status: draft  
-Date: 2024-11-27 14:00  
+Date: 2024-11-30 14:00  
 tags: ice protection, slat  
 
 ### _"This criterion, unavoidably subjective in nature, caused considerable scatter in the data"_  
@@ -9,7 +8,7 @@ tags: ice protection, slat
 
 ![Figure 2b. Relation of main components of model.](/images%2FNACA-RM-E56B23%2FFigure%202b.png)  
 
-> SUMMARY
+> SUMMARY  
 > 
 > Heating requirements for satisfactory cyclic de-icing over a wide
 range of icing and operating conditions have been determined for a gas-heated, 
