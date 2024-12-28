@@ -293,11 +293,11 @@ was used in some cases to provide water drops.
 >1. A wing with an exhaust-gas tube running spanwise 
 inside of the leading edge provided a system 
 capable of removing 30 to 35 percent of the 
-heat from the exhaust gas entering the wing. 
+heat from the exhaust gas entering the wing.  
 >2. Heat transmission tests in misty cloud formations 
 indicated that the heat required for ice prevention may be 
 calculated from an equation involving the airplane speed 
-and chord, and teh ambient-air temperature.  
+and chord, and the ambient-air temperature.  
 
 ## Detailed design development  
 
@@ -393,7 +393,7 @@ Lockheed 12A airplane was obtained by use of heat from the engine exhaust.
 >2. A consideration of the weight of exhaust wing-heating equipment, 
 the effects of the equipment on the performance of the airplane, 
 and the problem of maintenance of the exhaust-heated wings has 
-immediate practical possibilities. 
+immediate practical possibilities.  
 >3. The use of air heating on the pilot's windshield and exhaust heating on the 
 pitot-static head was found to provide satisfactory protection against ice
 on these parts. 

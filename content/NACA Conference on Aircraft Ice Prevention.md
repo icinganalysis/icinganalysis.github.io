@@ -1,6 +1,6 @@
 Title: NACA Conference on Aircraft Ice Prevention 1947 
 status: draft  
-Date: 2024-12-04 12:00  
+Date: 2025-01-03 13:00  
 category: NACA  
 tags: icing conference  
 
@@ -287,7 +287,7 @@ interception over the area of impingement.
 > (Editor's note: A complete discussion of the numerical method for
 calculating trajectories will be found in reference 4.)
 
-Reference 4 was published as NACA-TN-1397, reviewed in [Airfoil impingement drop distribution]({filenmae}airfoil%20impingement%20drop%20distribution.md).  
+Reference 4 was published as NACA-TN-1397, reviewed in [Airfoil impingement drop distribution]({filenane}airfoil%20impingement%20drop%20distribution.md).  
 
 ![Impingement Figure 2.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FImpingement%20Figure%202.png)  
 

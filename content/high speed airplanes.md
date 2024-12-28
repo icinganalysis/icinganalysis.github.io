@@ -1,5 +1,5 @@
 Title: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes     
-Date: 2024-12-04 14:00  
+Date: 2025-01-03 14:00  
 Category: NACA  
 status: draft  
 tags: icing conference
@@ -44,7 +44,7 @@ The conference in 1954 had 21 presentations,
 two of which were on aircraft icing topics. 
 
 Here, "Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes" 
-is reproduced in its entirety. 
+by Uwe von Glahn is reproduced in its entirety. 
 
 >There are two general aspects of this problem. In the first place, 
 icing conditions occur less frequently at high than at low altitudes; 

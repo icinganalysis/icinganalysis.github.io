@@ -1,5 +1,5 @@
 Title: NACA Aircraft Icing Conferences  
-Date: 2024-12-04 12:00  
+Date: 2025-01-03 12:00  
 Category: NACA  
 status: draft  
 tags: icing conferences  
@@ -65,7 +65,7 @@ expertise in the development, testing, operation, and maintenance
 of aircraft ice protection systems.  
 
 Although this occurred after the NACA era, there was still significant NACA influence. 
-The first two presentations were by NACA authors, and recapped NACA research:    
+The first two presentations were by former NACA authors, and recapped NACA research:    
 
 - Review of Icing Criteria; William Lewis  
 

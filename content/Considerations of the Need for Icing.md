@@ -1,5 +1,5 @@
 Title: Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes       
-Date: 2024-12-04 15:00  
+Date: 2025-01-03 15:00  
 Category: NACA  
 status: draft  
 tags: icing conference
@@ -20,7 +20,18 @@ to show only orders of magnitude rather than absolute values.
 
 ## Discussion  
 
-This paper is brief, so it is reproduced here in its entirety.  
+>INTRODUCTION  
+This volume contains copies of the technical papers presented at
+the NACA Conference On Some Problems of Aircraft Operation on
+November 17 and 18 , 1954 at the Lewis Flight Propulsion Laboratory .
+A list of the conferees, who are members of the aircraft industry
+and the military services, is included.
+
+The conference in 1954 had 21 presentations, 
+two of which were on aircraft icing topics. 
+
+Here, "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes" by Uwe Von Glahn 
+is reproduced in its entirety. 
 
 >The need for icing protection of aircraft operating at relatively low airspeeds 
 and at altitudes less than 20,000 feet has been long recognized. These aircraft 

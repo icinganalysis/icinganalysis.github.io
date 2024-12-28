@@ -1,5 +1,5 @@
 Title: The Icing Problem  
-Date: 2024-12-04 16:00  
+Date: 2025-01-03 16:00  
 Category: NACA  
 status: draft  
 tags: icing, flight test, tunnel test, ice protection, icing conference     
@@ -22,7 +22,7 @@ tags: icing, flight test, tunnel test, ice protection, icing conference
 
 ## Introduction  
 
-This is an excellent summary of the "state of the art" in 1955, 
+This is an excellent summary by Uwe von Glahn of the "state of the art" in 1955, 
 and also summarizes many of the NACA achievements in aircraft icing 
 (there were more after 1955.)
 
@@ -30,8 +30,8 @@ It is also a good introduction, although rather technical (but with no math)
 to aircraft icing, that has held up well for more than 6 decades.  
 
 Unfortunately, an online reprint [^2], was an almost illegible reproduction,
-and might have been how many current readers first encountered it. 
-Readers can get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487).  
+and that might have been how many current readers first encountered it. 
+Readers can now get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487).  
 
 Here, it will be presented in its entirety. 
 A few of the figures are not very clear, and clearer versions are included, where applicable. 
