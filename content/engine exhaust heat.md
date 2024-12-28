@@ -215,7 +215,7 @@ Other significant data are given on the sketches of figures 5 and 6.
 >CONCLUSIONS
 For the spray conditions existing during the tests,
 which produced typical ice formations at about 3 inches
-per hour, the following conclusions are drawn:
+per hour, the following conclusions are drawn:  
 >1. Ice formations over the wing of a 6-foot model
 were removed or prevented by a heating condition that
 would produce a skin temperature over the leading 10-percent 
