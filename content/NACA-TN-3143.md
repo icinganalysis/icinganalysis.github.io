@@ -215,7 +215,8 @@ This study is cited by 31 publications, per [scholar.google.com](https://scholar
 ## Related  
 
 See 
-[NACA-TN-3104]({filename}NACA-TN-3104.md) and [NACA-TN-3396]({filename}NACA-TN-3396.md) which used the same test article. 
+[NACA-TN-3104]({filename}NACA-TN-3104.md) and [NACA-TN-3396]({filename}NACA-TN-3396.md) 
+which used the same test facility. 
 Also see 
 NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" 
 and 

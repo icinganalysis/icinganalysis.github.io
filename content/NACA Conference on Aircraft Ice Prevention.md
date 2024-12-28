@@ -1161,7 +1161,6 @@ wires leading to exposure of these wires.
 take care of their present load and have design faults that must be
 corrected.  
 
-
 ![ET Methods II Figure 6.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FET%20Methods%20II%20Figure%206.png)  
 
 ![ET Methods II Figure 7.png](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FET%20Methods%20II%20Figure%207.png)  
