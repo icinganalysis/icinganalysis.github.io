@@ -214,11 +214,13 @@ This study is cited by 31 publications, per [scholar.google.com](https://scholar
 
 ## Related  
 
+See 
+[NACA-TN-3104]({filename}NACA-TN-3104.md) and [NACA-TN-3396]({filename}NACA-TN-3396.md) which used the same test article. 
 Also see 
 NACA-TN-2861 "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow" 
 and 
 NACA-TN-2914 "A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions", 
-which used the same test article.  
+which analyze transonic flow cases.    
 Reviews (combined): [NACA-TN-2914]({filename}NACA-TN-2914.md)  
 
 ## Notes  
