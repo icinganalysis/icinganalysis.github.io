@@ -1,13 +1,12 @@
 Title: NACA Aircraft Icing Conferences  
 Date: 2025-01-03 12:00  
 Category: NACA  
-status: draft  
 tags: icing conferences  
 
-### _"Aircraft are now capable of flying in icing clouds without difficulty, however, because research by the NACA and others has provided the engineering basis for icing protection systems"_  
+### _"Aircraft are now capable of flying in icing clouds without difficulty, however, because research by the NACA and others has provided the engineering basis for icing protection systems"_ [^1]  
 
 ![Figure 7 of Rodert, NACA Conference on Aircraft Ice Prevention. Lockheed 12A used for full-scale application of thermal de-icing.](/images%2FNACA%20Conference%20on%20Aircraft%20Ice%20Prevention%2FRodert%20Figure%207.png)  
-_From Rodert, NACA Conference on Aircraft Ice Prevention_  
+_From Rodert, NACA Conference on Aircraft Ice Prevention. [^2]_  
 
 NACA hosted several conferences, some of them including the topic of aircraft icing. 
 At the conferences NACA had the opportunity to communicate their achievements to a wider audience. 
@@ -24,7 +23,7 @@ are from a conference in 1954, when emphasis had shifted to jet aircraft.
 "The Icing Problem" (1956) summarizes much of the later work
 (however, there were important publications after 1956). 
 
-I have not found summaries of the "state of the art" for the NACA era  that are comparable to 
+I have not found summaries of the "state of the art" for the NACA era that are comparable to 
 "NACA Conference on Aircraft Ice Prevention" and 
 "The Icing Problem".  
 
@@ -74,3 +73,8 @@ The first two presentations were by former NACA authors, and recapped NACA resea
 One of the other 16 presentations, by a non NACA-author, that nonetheless references NACA works:  
 
 ["Techniques Used to Determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces"]({filename}wilder.md)  
+
+## Notes 
+
+[^1]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)  
+[^2]: Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  
