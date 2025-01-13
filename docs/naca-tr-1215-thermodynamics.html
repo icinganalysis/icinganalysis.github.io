@@ -150,15 +150,15 @@ also be recognized and rejected.</p>
 <p>I did not attempt to implement Equation F10 directly. 
 Instead, the heat terms are collected and an LWC value found 
 iteratively to satisfy the mass and energy balance. </p>
-<div class="highlight"><pre><span></span><code>q_conv = pi <span class="gs">* h *</span> (ts - tk - u ** 2 / 2 / CP_AIR <span class="gs">* (1 - u1 *</span>* 2 / u ** 2 <span class="gs">* (1 - r)))</span>
-<span class="gs">q_evap = (pi *</span> h <span class="gs">* RATIO_MOLECULAR_WEIGHTS / CP_AIR *</span> L_EVAPORATION <span class="gs">* (calc_vapor_p(ts) - calc_vapor_p(tk)) / p)</span>
-<span class="gs">q_sensible = em *</span> lwc / CP_AIR <span class="gs">* u *</span> WATER_SPECIFIC_HEAT <span class="gs">* (ts - tk)</span>
-<span class="gs">q_kinetic = -em *</span> lwc / CP_AIR <span class="gs">* u *</span> u ** 2 / 2
+<div class="highlight"><pre><span></span><code>q_conv = pi * h * (ts - tk - u ** 2 / 2 / CP_AIR * (1 - u1 ** 2 / u ** 2 * (1 - r)))
+q_evap = (pi * h * RATIO_MOLECULAR_WEIGHTS / CP_AIR * L_EVAPORATION * (calc_vapor_p(ts) - calc_vapor_p(tk)) / p)
+q_sensible = em * lwc / CP_AIR * u * WATER_SPECIFIC_HEAT * (ts - tk)
+q_kinetic = -em * lwc / CP_AIR * u * u ** 2 / 2
 q_freezing = q_conv + q_evap + q_sensible + q_kinetic
 
 mf = qf / L_FREEZING
 me = q_evap / L_EVAPORATION
-mc = lwc / G_PER_KG <span class="gs">* em *</span> u
+mc = lwc / G_PER_KG * em * u
 
 find lwc so that
 mc - mf - me = 0

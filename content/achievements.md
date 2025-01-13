@@ -1,13 +1,12 @@
 Title: Achievements of the NACA Era   
-Date: 2023-05-18 12:00  
+Date: 2025-01-14 12:00  
 Category: NACA  
 tags: about, NACA  
-status: draft  
 
 ### _"it shall be the duty of the advisory committee for aeronautics to supervise and direct the scientific study of the problems of flight with a view to their practical solution"_  
 
-![NASA SP 3406 quote.](/images%2FNASA%20SP%203406%20quote.png)  
-_From NASA SP-3406_  
+![NACA credo.](/images%2FNACA_credo.jpg)  
+_From [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:NACA_credo.jpg)._  
  
 For most of the reviews of the NACA-era aircraft icing publications, 
 I have tried to be neutral about whether one is "better" than another
@@ -196,7 +195,7 @@ I often had thoughts similar to comments that the website "Blast from the Past: 
 Searching through and reading the NACA publications will reward you, 
 at whatever stage of learning you are at. 
 
-The NACA publications are freely available at [ntrs.nasa.gov](ntrs.nasa.gov).  
+The NACA publications are available at no cost at [ntrs.nasa.gov](ntrs.nasa.gov).  
 
 ## Notes  
 
