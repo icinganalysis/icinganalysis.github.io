@@ -456,7 +456,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 [^8]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23)  
 [^9]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^10]:  
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Equilibrium+Temperature+of+an+Unheated+Icing+Surface+as+a+Function+of+Airspeed&btnG=)  
 [^11]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)    

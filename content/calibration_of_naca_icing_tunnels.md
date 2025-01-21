@@ -217,7 +217,7 @@ So, by 1951, NACA-RM-E51B12 could declare that the test conditions were "in the 
 - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950.  
 - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
 - Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
-- Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951.  
+- Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729).  
 - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
 - Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952  
 - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
@@ -254,7 +254,7 @@ I edited the post after it was reviewed, and any errors are mine.
 [^1]: NACA Annual Report for 1929 discussing the Langley Refrigerated Wind Tunnel, via NASA-SP-2002-4226, 
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)  
 [^2]: Aerospace, S. A. E. "SAE ARP 5905 Calibration and acceptance of icing wind tunnels." [ARP5905](https://www.sae.org/standards/content/arp5905/)  
-[^3]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930.  
+[^3]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 [^4]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939.  
 [^5]: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  

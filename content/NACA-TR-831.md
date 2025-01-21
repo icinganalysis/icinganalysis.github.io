@@ -449,6 +449,6 @@ Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from
 [^7]: Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943.  
 [^8]: Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
 [^9]:
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^10]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Hardy%2C+J.+K.%3A+An+Analysis+of+the+Dissipation+of+Heat+in+Conditions+of+Icing+from+a+Section+of+the+Wing+of+the+C-46+Airplane&btnG=)  

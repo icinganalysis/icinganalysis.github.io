@@ -235,6 +235,6 @@ Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublima
 [^2]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^3]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^4]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Experimental+Investigation+of+Sublimation+of+Ice+at+Subsonic+and+Supersonic+Speeds+and+its+Relation+to+Heat+Transfer&btnG=)  

@@ -338,7 +338,7 @@ NACA-TN-339 cites 12 publications:
 - Barnes, H. T.: Adhesion of Ice Research. National Research Council, 1929.  
 - Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
 
-NACA-TN-339 is cited once in the [NACA Icing Publications Database]({filename}naca icing publications database.md) [^2]  
+NACA-TN-339 is cited once in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md) [^2]  
 
 - Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by Means of Engine Exhaust Heat and a Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
 
@@ -347,7 +347,7 @@ An online search [^3] found 9 citations of NACA-TN-339.
 ## Notes  
 
 [^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
-[^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
+[^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
 [^3]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Refrigerated+Wind+Tunnel+Tests+on+Surface+Coatings+for+Preventing+Ice+Formation&btnG=)  
 

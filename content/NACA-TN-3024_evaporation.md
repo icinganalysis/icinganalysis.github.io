@@ -251,7 +251,7 @@ Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obsta
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^4]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&btnG=)  
 

@@ -340,7 +340,7 @@ NACA-RM-E53J30 cites 6 publications:
 - Block, Myron J., and Katzoff, S.: Tables and Charts for the Evaluation of Profile Drag from Wake Surveys at High Subsonic Speeds. NACA-WR-L-107, 1945. (Supersedes NACA-RB-L5F15a.)  
 - Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932.  
 
-NACA-RM-E53J30 is cited 4 times in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^2]  
+NACA-RM-E53J30 is cited 4 times in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^2]  
 
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
 - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
@@ -352,7 +352,7 @@ An online search [^3] found 14 citations of NACA-RM-E53J30.
 ## Notes
 
 [^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972).  
-[^2]: [NACA Icing Publications Database]({filename}naca icing publications database.md)   
+[^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
 [^3]: [](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+Formations+on+Section+Drag+of+Swept+NACA+63A-009+Airfoil+with+Partial-Span+Leading-Edge+Slat+for+Various+Modes+of+Thermal+Ice+Protection&btnG=)  
 
 

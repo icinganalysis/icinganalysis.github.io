@@ -268,7 +268,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 [^6]:
 Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
 [^7]:
-Messinger, B.L.: “Equilibrium Temperature of an Un-heated Icing Surface as a Function of Airspeed”, J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42.  
+Messinger, B. L.: “Equilibrium Temperature of an Un-heated Icing Surface as a Function of Airspeed”, J. Aeron. Sci. vol. 20 no. 1, January 1953, pp 29-42.  
 [^8]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^9]:

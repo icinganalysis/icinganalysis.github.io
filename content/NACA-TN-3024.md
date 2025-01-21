@@ -216,7 +216,7 @@ Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obsta
 [^3]: 
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA364922.pdf)  
 [^4]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&btnG=)  
 

@@ -237,12 +237,12 @@ NACA-TN-3592 cites 26 publications:
 - Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951.  
 - Baxter, D. C.: A Review of Radiation Scattering Methods for Measuring Cloud Droplet Size. Rep. No. MD-40, Nat. Res. Council of Canada (Ottawa), Apr. 1954.  
 - Johnson, John C., Eldridge, Ralph G., and Terrell, James R..: An Improved Infrared Transmissometer for Cloud Drop Sizing. Sd. Rep. No. 4, Dept. Meteorology, M.I.T., July 1954. (Contract No. AF19 (122)-245.)  
-- Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951.  
+- Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729).  
 - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949.  
-- Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949.  
-- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947.  
+- Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)
+- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)
 - Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951.  
-- Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947.  
+- Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 - Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
 - Rupe, Jack H.: Critical Impact Velocities of Water Droplets as a Problem in Injector-Spray Sampling. Prog. Rep. No. 4-80, Jet Prop. Lab., C.I.T., Sept. 29, 1950.  
@@ -273,7 +273,7 @@ An online search found NACA-TN-3592 cited 6 times [^8].
 [^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731).  
 [^3]: Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735).  
 [^4]: Langmuir, Irving: [Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I.]({filename}Langmuir Rising Currents.md) Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
-[^5]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^5]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^6]:  [NACA-RM-E50K01a scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E50K01a&btnG=)  
 [^7]:  [NACA-RM-E51G05 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51G05&btnG=)   
 [^8]:  [NACA-RTN-3592 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-3592&btnG= )

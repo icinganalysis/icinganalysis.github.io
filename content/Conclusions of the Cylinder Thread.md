@@ -388,8 +388,7 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 [^4]: 
-Papadakis, M., Elangovan, R., Freund, G. A. Jr., Breer, M., Zumwalt, G. W., Whitier, L.,:
-"An Experimental Method for Measuring" Water Droplet Impingement Efficiency on Two- and Three-Dimensional Bodies", NASA-CR-4257, DOT/FAA/CT-87/22, 1987.  
+Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Whitmer, L.: "An Experimental Method for Measuring Water Droplet Impingement Efficiency on Two- and Three- Dimensional Bodies," NASA-CR-4257, Nov. 1989. [www.wichita.edu](https://www.wichita.edu/academics/engineering/icing/documents/NASA-CR-4257.pdf)  
 [^5]: 
 [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1), [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)    
 [^6]: Anon.: "Aircraft Ice Protection", FAA AC 20-73A, [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  

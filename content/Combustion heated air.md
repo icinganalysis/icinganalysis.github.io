@@ -43,7 +43,7 @@ While none of the Aircraft Heaters publications are in the
 ]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 some pertain directly to ice protection:  
 
-- Martinelli, R. C., Guibert, A. G., Morrin. E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943. [^1]  
+- Martinelli, R. C., Guibert, A. G., Morrin. E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943. [^1]  
 - Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, 1948. [^2]  
 - Boelter, L. M. K., Sanders, V. D., Romie, F. E.: An Investigation of Aircraft Heaters XXXVIII : Determination of Thermal Performance of Rectangular- and Trapezoidal-shaped Inner-skin Passages for Anti-icing Systems. NACA-TN-2524, 1951. [^3]   
 
@@ -302,7 +302,7 @@ as there were many other Boelter publications on heat transfer to cite.
 
 ## Notes  
 
-[^1]: Martinelli, R. C., Guibert, A. G., Morrin. E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
+[^1]: Martinelli, R. C., Guibert, A. G., Morrin. E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
 [^2]: Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, 1948.  
 [^3]: Boelter, L. M. K., Sanders, V. D., Romie, F. E.: An Investigation of Aircraft Heaters XXXVIII : Determination of Thermal Performance of Rectangular- and Trapezoidal-shaped Inner-skin Passages for Anti-icing Systems. NACA-TN-2524, 1951.    
 [^4]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  

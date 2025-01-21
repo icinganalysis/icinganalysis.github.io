@@ -302,7 +302,7 @@ and 64 for ADS-4.
 
 ##Notes  
 
-[^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. [NACA-TN-339]({filename}NACA-TN-339.md), 1930.  
+[^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 [^2]: Rothrick, A. M., Selden, R.: Adhesion of Ice in Its Relation to the De-icing of Airplanes. NACA-TN-723, 1939.  
 [^3]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941.  
 [^4]: Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  

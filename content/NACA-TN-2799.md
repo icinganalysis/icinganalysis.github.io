@@ -281,6 +281,6 @@ Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875.
 [^5]: 
 [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^7]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Simple+Graphical+Solution+of+Heat+Transfer+and+Evaporation+from+Surface+Heated+to+Prevent+Icing&btnG=)  

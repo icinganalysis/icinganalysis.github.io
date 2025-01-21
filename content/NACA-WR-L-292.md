@@ -208,7 +208,7 @@ NACA-WR-L-292 cites one reference.
 
 - DeFrance, Smith J.: The NACA Full-Scale Wind Tunnel. NACA-TR-459, 1933.  
 
-NACA-WR-L-292 is cited by two references in the [NACA Icing Publications Database]({filename}naca icing publications database.md)[^3]
+NACA-WR-L-292 is cited by two references in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^3]
 
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
 - Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
@@ -219,5 +219,5 @@ An online search [^4] found 25 citations of NACA-WR-L-292.
 
 [^1]: May 1938. Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093051).  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
-[^3]: [NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[^3]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^4]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+a+Simulated+Ice+Formation+on+the+Aerodynamic+Characteristics+of+an+Airfoil&btnG=)  

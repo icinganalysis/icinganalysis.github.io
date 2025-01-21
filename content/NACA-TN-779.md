@@ -107,7 +107,7 @@ Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
 [^6]: “Aircraft Icing Handbook, Volume I.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  
 [^7]: 
-[NACA Icing Publications Database]({filename}naca icing publications database.md)  
+[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:
 Eckert, E., and Weise, W.: The Temperature of Unheated Bodies in a High-Speed Gas Stream, NACA-TM-1000, 1941.
 [^9]:
