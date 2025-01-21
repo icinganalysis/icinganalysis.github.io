@@ -4,7 +4,7 @@ tags: ice protection
 
 ### _"an airplane that will be immune from the dangers of ice accumulation ... is only a matter of technical development." [^1]_  
 
-![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images/Figure 24 of NACA-TR-403.png)  
+![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images%2FNACA-TR-403%2FFigure%2024%20of%20NACA-TR-403.png)
 
 ## Summary  
 
@@ -93,8 +93,7 @@ as part of the equipment. The spraying jets were
 mounted about 4 feet in front of the wing. The compressed 
 air and water supply necessary for its operation
 were installed in the cabin.  
-![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images/Figure 24 of NACA-TR-403.png)  
-
+![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images%2FNACA-TR-403%2FFigure%2024%20of%20NACA-TR-403.png)  
 >Unfortunately, owing to the weather conditions 
 prevalent in this section of the country it has in only
 a few cases been possible to conduct full-scale tests

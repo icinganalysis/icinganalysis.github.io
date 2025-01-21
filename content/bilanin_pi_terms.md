@@ -227,7 +227,7 @@ There are relevant photos in Olsen [NASA-TM-87184] [^7],
 that were reproduced in Hansman [^8].
 
 ![Figure 2 from AIAA-88-0015. Grazing angle photograph of a glaze ice surface
-(courtesy of William Olsen, NASA Lewis Reseach Center).](images/AIAA-88-0105/Figure 2.png)  
+(courtesy of William Olsen, NASA Lewis Reseach Center).](images/AIAA-88-0015/Figure 2.png)  
 _Figure 2 from Hansman_
 
 ### Freezing fraction with film dynamics  
@@ -271,7 +271,7 @@ strongly supporing our conjecture that the icing tests must
 scale properly the microphysics of the liquid film 
 dynamics and bead formation. 
 
-![Figure 16 from AIAA-88-0015](images/AIAA-88-0105/Figure 16.png)  
+![Figure 16 from AIAA-88-0015](images/AIAA-88-0015/Figure 16.png)  
 _Figure 16 from Hansman_
 
 ## Conclusions

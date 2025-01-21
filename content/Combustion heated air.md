@@ -4,8 +4,8 @@ tags: ice protection
 
 ### _"an effective system for ... wing surfaces to prevent the formation of ice requires knowledge"_  
 
-![Figure 2 of NACA-ARR-A506](images/NACA-ARR-A506/Figure 2.png)  
-_Figure 2 of NACA-ARR-A506_  
+![Figure 2 of NACA-ARR-5A06](images/NACA-ARR-5A06/Figure 2.png)  
+_Figure 2 of NACA-ARR-5A06_  
 
 ## Summary  
 

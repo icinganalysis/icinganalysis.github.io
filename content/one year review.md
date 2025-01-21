@@ -156,7 +156,7 @@ _from NACA-TN-2904_
 ![Figure 7 from NACA-TN-2458](images/NACA-TN-2458/Figure 7.png)  
 _Figure 7 from NACA-TN-2458_  
 
-![Figure 24 of NACA-TR-403](images/Figure 24 of NACA-TR-403.png)  
+![Figure 24 of NACA-TR-403. A high wing, single engine airplane. A model wing is mounted below the main wing. A water sprays is in from of the model wing.](images%2FNACA-TR-403%2FFigure%2024%20of%20NACA-TR-403.png)  
 _Figure 7 from NACA-TR-403, and a "sneak preview" of the upcoming Ice Protection Thread._  
 
 ##The Future  
