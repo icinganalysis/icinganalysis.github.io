@@ -182,7 +182,7 @@ NACA-ARR-5G13 is cited 8 times in the NACA Icing Publications Database [^3].
 An online search found that NACA-ARR-5G13 is cited 21 times in the literature [^4].  
 
 ## Notes:  
-[^1]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945  
+[^1]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. 
 [^2]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^3]: 
 [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  

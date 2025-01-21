@@ -133,7 +133,7 @@ These are relatively small adjustments to the Langmuir and Blodgett values.
 NACA-TN-2708 cites 17 publications:
 
 - Schaefer, Vincent J.: Demountable Rotating Multicylinders for Measuring Liquid Water Content and Particle Size of Clouds in Above and Below Freezing Temperatures. Tech. Rep. No. 5539, Air Materiel Command, Army Air Forces, Jan. 24, 1947, pp. 59-67.
-- Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949.
+- Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068733).
 - Howell, Wallace E.: Contribution to the Evaluation of the Multicylinder Icing Meter. Tech. Rep. No. 5676, Air Materiel Command, U. S. Air Force, June 22, 1948, pp. 269-296.
 - Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.
 - Howell, Wallace E.: Instructions for Making Icing Observations by the Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 12, Dec. 1946.

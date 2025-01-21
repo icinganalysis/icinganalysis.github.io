@@ -212,9 +212,7 @@ and in the upcoming "Icing Wind Tunnel Test Thread".
 [^1]: Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.
 I could not find a download this on the nrts, it is available at 
 [archive.org](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  
-[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. 
-I could not find a download for this on the nrts, it is available at 
-[archive.org](https://archive.org/details/nasa_techdoc_19810068590).  
+[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. I could not find a download for this on the nrts, it is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068590).  
 [^3]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Prediction+of+Aerodynamic+Penalties+Caused+by+Ice+Formations+on+Various+Airfoils&btnG=)  
 [^4]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984.  

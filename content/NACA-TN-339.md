@@ -332,11 +332,11 @@ NACA-TN-339 cites 12 publications:
 - Gregg, W. R.: Aeronautical Meteorology. Ronald Press Company, 1928  
 - Barnes, H. T.: Ice Engineering. Renouf Publishing Company, 1928.  
 - Kopp, W.: Danger of Ice Formations on Airplane. N. A. C. A. Technical Memorandum No. 499, 1929.  
-- Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
+- Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081134)
 - McAdie, A.: Cloud Formations as Hazards in Aviation. McAdie, 1929.  
 - Hubner, E.: Ice Formation on Airplanes. German Meteorological Service Report No. 25.  
 - Barnes, H. T.: Adhesion of Ice Research. National Research Council, 1929.  
-- Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.  
+- Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081134)
 
 NACA-TN-339 is cited once in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md) [^2]  
 

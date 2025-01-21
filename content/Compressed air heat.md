@@ -376,7 +376,7 @@ Largely, the findings were incorporated into the later works reviewed here.
 
 Three other NACA studies on compressed air heating for airfoils are worth mentioning here. 
 
-- Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953.  
+- Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068601)  
     > review: [NACA-RM-E53C27]({filename}NACA-RM-E53C27.md)  
 
 The same model as in NACA-RM-E51J29 was used, with some 
