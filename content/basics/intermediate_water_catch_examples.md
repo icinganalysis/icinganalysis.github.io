@@ -34,7 +34,7 @@ given the current availability of more complex computing tools,
 but they provide quick and easy checks for those more complex calculations, 
 that I have used for decades. 
 They are also building blocks used to construct more complex calculations, 
-such as those in the "Manual of Scaling Methods" NASA/CR-2004-212875, 2004 [ntrs](https://ntrs.nasa.gov/api/citations/20040042486/downloads/20040042486.pdf).  
+such as those in the "Manual of Scaling Methods" NASA/CR-2004-212875, 2004 [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486).  
 
 ## Prerequisite reading  
 

@@ -500,7 +500,7 @@ but that may have lost some of the broader detail and applicability.
 This publication cites 6 references:  
 
 - Airworthiness Standards Transport Category Federal Regulations Part 25.  
-- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 [ADS-4](https://apps.dtic.mil/sti/citations/AD0608865)  
+- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 - Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
 - Sherman, P., Klein, J. S., and Tribus, Myron: Determination of Drop Trajectories by Means of an Extension of Stokes' Law. Eng. Res. Inst. Air Res. and Dev. Command, USAF, Univ. Mich. Apr. 1952. (Contract AF 18 (600)-1, Proj. M992-D.)  

@@ -277,7 +277,7 @@ Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from
 [^3]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^4]: 
-Anderson, David N.: Manual of Scaling Methods. NASA/CR-2004-212875, March 2004. https://ntrs.nasa.gov/citations/20040042486    
+Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)    
 [^5]: 
 [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 

@@ -184,7 +184,7 @@ Links to reviews are included where applicable.
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951.  
         > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
-    - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947.  
+    - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
         > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
     - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952.  
         > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
