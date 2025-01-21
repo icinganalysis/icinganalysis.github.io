@@ -446,7 +446,7 @@ Also, detailed natural icing flight test accounts are always instructive
 [^2]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939.  
 [^3]: Rodert, Lewis A., and Jones, Alun R.: A Flight Investigation of Exhaust Heating De-icing. NACA-TN-783, 1940.  
 [^4]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941.  
-[^5]: Tribus, Myron, Modern Icing Technology. Air Research and Development Command, USAF, January, 1952.
+[^5]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
 [^6]: Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942.  
 [^7]: Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942.  
 [^8]: Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943.  
