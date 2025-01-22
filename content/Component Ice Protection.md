@@ -374,7 +374,7 @@ adequacy of components for a particular aircraft on icing flight tests.
 Areas include wing leading edges, propellers, windshield, radome,
 essential instruments, auxilliary air inlets, engine air inlets, 
 and empennage leading edges.
-](images%2FFAA%20Handbook%20volume%202%2FFigure%202-1.png)
+](images%2FAircraft%20Icing%20Handbook%20volume%202%2FFigure%202-1.png)
 _From Aircraft Icing Handbook, Volume 2 [^4]_  
 
 ## See also  

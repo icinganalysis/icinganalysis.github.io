@@ -135,7 +135,7 @@ and a publication that I have not been able to find [^6].
 
 The same figure (renumbered) appears in the FAA Aircraft Icing Handbook [^7].
 
-![Figure 2-17. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-17.png)
+![Figure 2-17. Collection efficiency versus Ko for airfoils - Experimental data at 0 angle of attack.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-17.png)
 
 Figure 2-7 shows similar use of Ko in ADS-4 for theoretical Em values, which cover a broader range of Ko values:  
 
@@ -198,15 +198,15 @@ increasing airfoil thickness for larger Ko.
 
 ![Figure 2.4. Ko BASED ON MVD FOR SEVERAL CHORD SIZES.
 For 5.58 foot chord airfoil, 20 micrometer drop size and 220 KTAS airspeed, the Ko value is close to 0.01.
-There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202.4.png)  
+There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202.4.png)  
 
-![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-60.png)  
+![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-60.png)  
 
-![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-61.png)  
+![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-61.png)  
 
-![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-62.png)  
+![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-62.png)  
 
-![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-63.png)  
+![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-63.png)  
 
 I will emphasize: 
 

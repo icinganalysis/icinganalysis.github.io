@@ -43,18 +43,18 @@ the distribution are calculated using table I-1 (discussed in Section 1.2.6). Ta
 sizes δ, the proportion δ_v of total droplet volume associated with each δ, and also the values of Re, 
 K, and Ko for each δ. 
  
-![Table 2-1.png](/images%2FFAA%20Handbook%20volume%201%2FTable%202-1.png)  
+![Table 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%202-1.png)  
 
 >Using these values of Ko and figure 2-11, a value E(δ) is associated with each
 δ, as shown in the third column of table 2-2. Note that equation 2-23 can also be written as  
 
-![Equation 2-25.png](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-25.png)  
+![Equation 2-25.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-25.png)  
 
 >Thus E is calculated as an average value of the E(δ) weighted by volume using the Δv's. Table 2-2
 shows that a value E = 0.24 is obtained, little different from the value E = 0.23 for the MVD. This
 is well within the accuracy of reading numbers from the figure.  
 
-![Table 2-2.png](/images%2FFAA%20Handbook%20volume%201%2FTable%202-2.png)  
+![Table 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%202-2.png)  
  
 >Considering this droplet size distribution and using equation 2-21, β_max can be calculated for a
 surface length location of S = 0 (stagnation point). For the special case of a symmetric airfoil at zero
@@ -158,9 +158,9 @@ LEWICE does not directly report the Em value.
 You can calculate that by using the Aircraft Icing Handbook equations 2-16 and 2-18.  
 
 
-![Equation 2-16](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-16.png)  
+![Equation 2-16](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-16.png)  
 
-![Equation 2-18](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-18.png)
+![Equation 2-18](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-18.png)
 
 The Beta curve was numerically integrated. 
 

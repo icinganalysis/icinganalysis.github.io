@@ -21,7 +21,7 @@ total water content in the cloud.
 
 <a name="figure-langmuir"></a>
 
-![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FFAA%20Handbook%20volume%201%2FTable%201-1.png)  
+![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%201-1.png)  
 _from  "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 ### The impingement of water drops on aircraft surfaces  

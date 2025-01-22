@@ -107,7 +107,7 @@ Here is a figure that summarizes the effects of some variables
 (n is calculated freezing fraction):  
 
 ![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0.2 g/m^3.
-Based on stagnation line of a 2 inch diameter cylinder, 15 micrometer drop size, and 5000 ft. altitude.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
+Based on stagnation line of a 2 inch diameter cylinder, 15 micrometer drop size, and 5000 ft. altitude.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-81.png)  
 _from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) (1991)_  
 
 Note that at a high enough airspeed, there is a wide range of 

@@ -48,20 +48,20 @@ or hot compressed air from jet engines.
 
 Typical electro-thermal ice protection:  
 
-![Figure 2-2. Cross sections of typical electrical heaters.](/images%2FFAA%20Handbook%20volume%202%2FFigure%202-2.png)  
+![Figure 2-2. Cross sections of typical electrical heaters.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FFigure%202-2.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
-![Figure 2-3. Electro-thermal wing anti-ice system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%202-3.png)  
+![Figure 2-3. Electro-thermal wing anti-ice system.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FFigure%202-3.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
 ### Hot air heating  
 
 Typical hot-air ice protection:  
 
-![Figure 5-8. Typical hot-air anti-icing system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-8.png)  
+![Figure 5-8. Typical hot-air anti-icing system.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FFigure%205-8.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
-![Figure 5-26. Wing parallel flow single skin system.](/images%2FFAA%20Handbook%20volume%202%2FFigure%205-26.png)  
+![Figure 5-26. Wing parallel flow single skin system.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FFigure%205-26.png)  
 _from DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)_  
 
 ### Other forms of ice protection  
@@ -83,7 +83,7 @@ Different airplane sizes, power sources, and flight profiles may favor one form
 over another. Complex trade studies are conducted in the design 
 of new aircraft to determine the least costly form of ice protection to use. 
 
-![Table 5-7.](/images%2FFAA%20Handbook%20volume%202%2FTable%205-7.png)  
+![Table 5-7.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FTable%205-7.png)  
 _Ice protection trade study data for one aircraft. From DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)._  
 
 ## Resources  

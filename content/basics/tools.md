@@ -12,7 +12,7 @@ including analysis, icing wind tunnel test, and flight test in icing conditions.
 Design handbooks have charts and tables that can be used to perform analyses for 
 aircraft icing and ice protection. 
 
-![Figure 2-47. Airfoil profiles for impingement parameter plots in Figures 2-48 through 2-59.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-47.png)  
+![Figure 2-47. Airfoil profiles for impingement parameter plots in Figures 2-48 through 2-59.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-47.png)  
 _from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
 
 ### Analysis  

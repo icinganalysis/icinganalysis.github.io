@@ -72,7 +72,7 @@ increasing T. Note that figure 2-75a, with a relatively large LWC of .7 and star
 temperature of -26 C, exhibits a much slower rate of decrease in n than does figure 2-75b, which
 has a LWC of .1 and starts from a much higher temperature of -6 C.  
 
-![Figure 2-75. FREEZING FRACTION VS AMBIENT TEMPERATURE T FOR A CIRCULAR CYLINDER WITH DIAMETER 20 CM.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-75.png)  
+![Figure 2-75. FREEZING FRACTION VS AMBIENT TEMPERATURE T FOR A CIRCULAR CYLINDER WITH DIAMETER 20 CM.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-75.png)  
 
 >Table 2-5a shows the relative contributions to the energy balance of the main heat source and
 heat sink terms for condition (a) as T increases. For the source terms, the relative contribution of
@@ -131,21 +131,21 @@ I assumed a "Langmuir A" distribution (single or mono-dispersed drop size).
 The method of determining the leading edge stagnation line water catch β value is not defined in the handbook text. 
 For the calculations here, the cylinder line from Figure 2-43 is used.  
 
-![Figure 2-43. Impingement efficiency at the stagnation line for several bodies.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-43.png)  
+![Figure 2-43. Impingement efficiency at the stagnation line for several bodies.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-43.png)  
 
 Note that the characteristic length used to calculate Ko is the cylinder radius or diameter / 2.  
 
-![Table 2-3. CHARACTERISTIC LENGTHS FOR SEVERAL BODIES FOR CALCULATION OF Ko.](/images%2FFAA%20Handbook%20volume%201%2FTable%202-3.png)
+![Table 2-3. CHARACTERISTIC LENGTHS FOR SEVERAL BODIES FOR CALCULATION OF Ko.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%202-3.png)
 
 Equations 2-6, and 2-8 are used to calculate Ko.  
 
-![Equation 2-6](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-6.png)  
+![Equation 2-6](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-6.png)  
 
-![Equation 2-8](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-8.png)  
+![Equation 2-8](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-8.png)  
 
 Note that equation 2-10 could also be used.  
  
-![Equation 2-10](/images%2FFAA%20Handbook%20volume%201%2FEquation%202-10.png)  
+![Equation 2-10](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-10.png)  
 
 For the freezing fraction values, the comparison is "good", 
 but the results from Table 2-8b (having higher airspeeds) have an offset.
@@ -221,7 +221,7 @@ The results were very similar.
 Figure 2-81 (and 2-82) show calculated cylinder stagnation line freezing fraction related to ice type:
 glaze 0 < n < 0.66, intermediate 0.66 < n < 1, rime n = 1.
 
-![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3.](/images%2FFAA%20Handbook%20volume%201%2FFigure%202-81.png)  
+![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0. g/m^3.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-81.png)  
 
 The Python implementation of the Standard Computational Model was also used to reproduce Figure 2-81
 (file "intermediate/figure_2_81.py").  
