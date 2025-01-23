@@ -94,7 +94,7 @@ Oleskiw [^5] summarizes the flight tests and instruments used.
 
 As we saw in the 
 [Conclusions of the Meteorological Instruments Thread]({filename}Conclusions%20of%20the%20Meteorological%20Instruments%20Thread.md), 
-the National Research Council (Canada) had arrived at a similar instrumentation suite to that used by NACA by 1952 [^11].    
+the National Research Council (Canada) had arrived at a similar instrumentation suite to that used by NACA by 1952 [^6].    
 
 ![Table 1 of Pettit.](/images/K G Pettit/Table of instruments.png)  
 

@@ -223,21 +223,21 @@ relative effects on water catch.
 We will apply the multicylinder method to a measured natural icing drop size distribution from FAA-RD-80-24 [^7]. 
 (Once again, this reference merits a more thorough review, but we will settle for a brief summary for now). 
 
-![FAA-RD-80-24 Figure 20](images/FAA_RD_80_24/Figure20.png)
+![FAA-RD-80-24 Figure 20](images/FAA-RD-80-24/Figure20.png)
 
 I selected the 6000 ft data.
 Alas, there was not a multicylinder instrument included in this test, 
 so we will again use LEWICE to get the cylinder masses to use for the fitting. 
 I used the cylinder diameters from NACA-RM-AC9C09 "Set A": 0.125, 0.5, 1.25, and 3 inch.
 
-![Langmuir distribution fits to Figure 20 data](images/FAA_RD_80_24/RD80_mc_fits.png)
+![Langmuir distribution fits to Figure 20 data](images/FAA-RD-80-24/RD80_mc_fits.png)
 
 As in the prior examples, Beta curves were calculated with LEWICE. 
 The Langmuir C best fit reproduces the measure test distribution ("ASSP") 
 Beta curves very well, 
 and the Langmuir E fit works well. 
 
-![Calculated beta curve for the cylinders with distibutions](images/FAA_RD_80_24/RD80_betas.png)
+![Calculated beta curve for the cylinders with distibutions](images/FAA-RD-80-24/RD80_betas.png)
 
 So, even if multicylinder distributions may not appear to be similar to a 
 more detailed, measured natural distribution, they can be used to reproduce impingement values 
