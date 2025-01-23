@@ -5,7 +5,7 @@ tags: air jets, wind tunnel
 
 ### _"square orifices ... provided that a jet dimension equal to the diameter of the equivalent area circle was used"_  
 
-# "Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios" [^1]  
+# "Penetration of air jets issuing from circular, square, and elliptical orifices directed perpendicularly to an air stream" [^1]  
 
 ![Figure 4. Variation of penetration coefficient L / C^0.5 Dj with penetration parameter for square orifices.](/images%2FNACA-TN-2019x%2FFigure%204.png)  
 
@@ -141,7 +141,6 @@ and the elliptical orifices having an axis ratio of 4:1 than with the other orif
 The square orifices gave the best penetrations at the higher values of tunnel-air velocity and jet total pressure.
 
 
-
 ## Notes  
 
-[^1]: Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+[^1]: Ruggeri, Robert S., Edmund E. Callaghan, and Dean T. Bowden. Penetration of air jets issuing from circular, square, and elliptical orifices directed perpendicularly to an air stream. NACA-TN-2019. 1950.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068719)  
