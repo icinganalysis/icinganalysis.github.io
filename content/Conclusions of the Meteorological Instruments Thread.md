@@ -247,7 +247,7 @@ The FAA guidance material also still cites Langmuir distributions (AC 20-73A, 20
 An example in the Handbook for natural icing flight tests 
 shows several instruments:  
 
-![Table 4-7 of Aircraft Icing Handbook Vol II. Described in text below.](images/Table 4-7 of Vol II.png)  
+![Table 4-7 of Aircraft Icing Handbook Vol II. Described in text below.](/images%2FAircraft%20Icing%20Handbook%20volume%202%2FTable%204-7.png)  
 
 The Forward scanning spectrometer probe and the 
 Optical array cloud droplet spectrometer probe 
