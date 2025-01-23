@@ -453,7 +453,7 @@ I could not find this on the NTRS or on the FAA site. It is available at [DTIC](
 [^2]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)  
 [^3]: FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
 [^4]:
-Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
+Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)  
 [^5]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)   
 [also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]  

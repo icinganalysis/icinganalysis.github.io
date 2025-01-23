@@ -273,7 +273,7 @@ and if ice forms aft of a protection system it can produce different shapes.
 The "Forward Facing Quarter Round" has been used to represent such ice. 
 
 ![DOT-FAA-AR-00-14 Figure 7. Ice Shape Simulation Geometry.
-](images/DOT-FAA-AR-00-14/Figure 7.png)  
+](/images/DOT-FAA-AR-00-14/Figure 7.png)  
 >Figure 7 from DOT/FAA/AR-00/14 [^12].
 
 You can find a more detailed discussion in "Iced-airfoil aerodynamics" [^13].  

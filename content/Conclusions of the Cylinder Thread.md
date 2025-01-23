@@ -283,7 +283,7 @@ The impingement correlations form Langmuir and Blodgett,
 and NACA-TN-2904 were summarized 
 and are available in plots such as this from the "Aircraft Icing Handbook" [^8]:
 
-![Figure 2-44](images/FAA_CT_fig2_44.png)
+![Figure 2-44.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-44.png)  
 
 Langmuir and Blodgett correlation formulas are also used, as in the from 
 "An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement" [^9]:
