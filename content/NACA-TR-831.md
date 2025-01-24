@@ -45,7 +45,7 @@ The nomenclature may be challenging, so peruse the symbols used:
 
 The ice protection heat exchanger is described in detail in NACA-ARR-5A03b. 
 Hot air from an internal "D" chamber enters a corrugated heat exchanger near the leading edge. 
-![NACA-ARR-5A03b Figure 19](images/NACA-TR-831/NACA-ARR-5A03b_Figure19.png)
+![NACA-ARR-5A03b Figure 19](/images%2FNACA-ARR-5A03b%2FFigure%2019.png)  
 
 The thermal performance calculations are detailed. 
 Large portions are reproduced herein:
