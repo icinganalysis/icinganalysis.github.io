@@ -44,7 +44,7 @@ The Variable-Density Wind Tunnel was used [^2]
 This pressurized wind tunnel allowed achieving a fairly high Reynolds Number, 
 even if the test article was not large. 
 ![NACA-TR-416 Figure 2. Diagrammatic longitudinal section of the 
-variable-density wind tunnel.](images/naca-tr-446/NACA-TR-416Figure2.png)  
+variable-density wind tunnel.](images%2FNACA-TR-416%2FFigure%202.png)  
 
 Sheet-metal "protuberances" were positioned at various locations on the model.  
 ![Figure 1. N. A. C. A. 0012 airfoil showing protuberances.](images/naca-tr-446/Figure1.png)  
