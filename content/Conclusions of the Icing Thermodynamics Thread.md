@@ -136,15 +136,15 @@ There are several sources of ice measurements on non-rotating cylinders.
 
 [AEDC-TR-85-30](https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2) 
 
-![AEDC-TR-85-30 Figure 21. Comparison of rime, mixed, and glaze ice-accretion scaling using Method 1 to establish the experimental similitude conditions.](images/freezing_fractions/AEDC_TR_85_30_Figure21.png)  
+![AEDC-TR-85-30 Figure 21. Comparison of rime, mixed, and glaze ice-accretion scaling using Method 1 to establish the experimental similitude conditions.](images%2Faedc-tr-85-30%2FFigure%2021.png)  
 
 [NASA-TM-107141](https://ntrs.nasa.gov/api/citations/19960012178/downloads/19960012178.pdf) 
 
-![NASA-TM-107141 Figure 10. Constant-We Scaling Applied to Cylinders. Case 2 in Table I.](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
+![NASA-TM-107141 Figure 10. Constant-We Scaling Applied to Cylinders. Case 2 in Table I.](images%2FNASA-TM-107141%2FFigure%2010.png)  
 
 [NASA/CR—2008-215302](https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf)  
 
-![NASA/CR—2008-215302 Figure 3. Effect of Surfactant and Velocity on Appendix C Ice Shapes 2 . Vertical Cylinders Tested in the NASA Glenn IRT.](images/freezing_fractions/NASA_CR_2008_215302_fig3.png)  
+![NASA/CR—2008-215302 Figure 3. Effect of Surfactant and Velocity on Appendix C Ice Shapes 2 . Vertical Cylinders Tested in the NASA Glenn IRT.](images%2Fnasa-cr-2008-215302%2FFigure%203.png)  
 
 The ice thickness at the leading edge was measured from the figures. 
 From that, an ice growth rate can be calculated: 
@@ -226,8 +226,8 @@ This treats the airfoil leading edge as a cylinder with a diameter equal to twic
 The freezing fraction values agree well at higher values, 
 but at lower values the scatter is greater than the +/-10% region shown. 
 
-![NASA/CR-2005-213852 Figure 3. Expiremental and analytical freezing fractions compared. 
-n_a calculated with length d using equation (16) for Nu.](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+![NASA/CR-2005-213852 Figure 3. Experimental and analytical freezing fractions compared. 
+n_a calculated with length d using equation (16) for Nu.](images%2FNASA-CR-2005-213852%2FFigure%203.png)  
 
 I view this as validation of Uwe von Glahn's assertion that 
 **"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955,
