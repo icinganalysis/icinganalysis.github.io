@@ -359,7 +359,7 @@ Links to reviews are included where applicable.
 
 - Cooling Fan Ice Protection  
 
-    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
+    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633), 1947.
         > review: [NACA-TN-1246]({filename}NACA-TN-1246.md)  
         > mention: [Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)        
 

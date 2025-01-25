@@ -250,7 +250,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 
 - Cooling Fan Ice Protection
 
-    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947.  
+    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633), 1947.
 
 - Radome Ice Protection
 
