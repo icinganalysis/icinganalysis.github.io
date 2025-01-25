@@ -252,7 +252,7 @@ Links to reviews are included where applicable.
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Perkins, Porter J., and Millenson, Morton B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949.  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md#NACA-RM-E9C17)  
-    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948.  
+    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
     - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948.  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  

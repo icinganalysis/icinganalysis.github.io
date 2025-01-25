@@ -287,10 +287,10 @@ This gets used in NASA/CR-2004-212875 [^14] and NASA/CR-2005-213852 [^15].
 
 ![NASA/CR-2005-213852 Figure 3. Experimental and Analytical 
 Freezing Fractions Compared. n_o calculated with length d using equation (16) for Nu.
-](images/freezing_fractions/NASA_CR_2005_213852_Figure3.png)  
+](/images%2FNASA-CR-2005-213852%2FFigure%203.png)
 >Figure 3 from NASA/CR-2005-213852.  
 
-### Ice shape parameters
+### Ice shape parameters  
 
 While there is no completely agreed upon "standard" set of parameters to describe an ice shape, 
 the values from NACA-TN-4151 Figure 7 get perpetuated in the LEWICE user's manual [^16]
