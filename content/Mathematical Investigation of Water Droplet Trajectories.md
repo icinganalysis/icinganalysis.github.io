@@ -299,7 +299,7 @@ Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 [^6]:
 Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 [^7]:
-Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73A, 2016.  
+FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
 [^8]:
 Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.  
 [^9]:

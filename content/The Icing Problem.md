@@ -1123,7 +1123,7 @@ in the Lewis icing tunnel.
 30. Coles, Willard, Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA Rep. 982, 1950. (Supersedes NACA TN 1993.)  
 31. Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA RM E8F01a, 1948.  
 32. Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA RM E8C18, 1948.  
-33. Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA RM E50108, 1950.  
+33. Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630)  
 34. Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA TN 2914, 1953.  
 35. Callaghan, Edmund F., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond-Shaped Airfoil in Transonic and Supersonic Flow. NACA TN 2861, 1953.  
 36. Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA TN 3396, 1955.  

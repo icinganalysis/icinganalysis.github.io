@@ -163,7 +163,7 @@ after approximately 45 minutes in the icing condition.
 
 This publication is cited by one publication, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Natural+Icing+of+an+Axial-Flow+Turbojet+Engine+in+Flight+for+a+Single+Icing+Condition&btnG=):  
 
-- von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951.  
+- von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)
 
 ## Related  
 

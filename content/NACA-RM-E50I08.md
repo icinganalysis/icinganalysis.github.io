@@ -276,4 +276,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630), 1950.  
+[^1]: Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630)    

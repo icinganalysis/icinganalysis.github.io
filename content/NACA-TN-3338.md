@@ -300,7 +300,7 @@ Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturat
 Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
 [asme.org](https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf)  
 [^5]: 
-von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631), 1951.  
+von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)  
 [^6]: 
 Ide, Robert F., Oldenberg, John R.: "Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
 [dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA392590.pdf)  

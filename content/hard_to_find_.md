@@ -75,5 +75,5 @@ https://www.governmentattic.org/25docs/NASAtechRpts1980older_2017.pdf
 ## Notes  
 
 [^1]: 
-Selected Bibliography of NACA-NASA Aircraft Icing Publications, [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.    
+Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180), August, 1981.    
 
