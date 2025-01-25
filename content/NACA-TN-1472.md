@@ -550,7 +550,7 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^5]: 
 [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984. 
+Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984.  
 [^7]: 
 [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: 

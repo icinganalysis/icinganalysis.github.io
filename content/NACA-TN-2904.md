@@ -245,7 +245,7 @@ An online search [^5] found 54 citations of NACA-TN-2904.
 
 ### Related 
 
-NACA-TR-1215 [^5] "supersedes" NACA-TN-2904. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
+NACA-TR-1215 [^6] "supersedes" NACA-TN-2904. See the review [NACA-TR-1215]({filename}NACA-TR-1215.md).  
 
 ## Notes  
 
@@ -254,15 +254,12 @@ Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cyli
 [^2]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. General Electric Co. Rep., 1943. (Also available as Army Air Forces Tech. Rep. No. 5418 and as Dept. of Commerce Pub. PB No. 27565.)  
 [^3]: 
-“Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)
+von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
 [^4]: 
 [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^5]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2904&btnG=)  
 [^6]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697)
-
-
-
 
 

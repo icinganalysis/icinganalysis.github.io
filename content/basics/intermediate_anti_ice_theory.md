@@ -277,4 +277,4 @@ Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)
 
 ## Citations 
 
-[^1]: Incropera and De Witt, Fundamentals of Heat Transfer, 1981.  
+[^1]: Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984.  
