@@ -336,5 +336,5 @@ An online search (scholar.google.com) found 38 citations for NACA-TN-2738.
 ## Notes  
 
 [^1]: Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)  
-[^2]: Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  
+[^2]: Jeck, Richard K. "Advances in the characterization of supercooled clouds for aircraft icing applications". No. DOT-FAA-AR 07-4. Office of Aviation Research and Development, Federal Aviation Administration, 2008. [tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  
 [^3]: 14 CFR 25 Appendix C (updated periodically) [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
