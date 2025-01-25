@@ -51,7 +51,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 1. Sparrow, Stanwood: "Airplane Crashes: Engine Troubles" A Possible Explanation. NACA-TN-55, 1921.
 2. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.
 3. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TR-293, 1929.  
-4. Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. [NACA-TN-339]({filename}NACA-TN-339.md), 1930.  
+4. Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 5. Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by Means of Engine Exhaust Heat and a Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
 6. Theodorsen, Theodore, and Clay, William C.: The Prevention of Ice Formation on Gasoline Tank Vents. NACA-TN-394, 1931.  
 7. Brun, Edmond: Distribution of Temperatures over an Airplane Wing with Reference to the Phenomena of Ice Formation. NACA-TM-883, 1938.  
