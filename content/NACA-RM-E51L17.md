@@ -307,5 +307,5 @@ This is part of the [Properties of Water]({filename}Properties%20of%20water.md) 
 
 ## Notes
 
-[^1]: Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068864), 1952.  
+[^1]: Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068864)  
 

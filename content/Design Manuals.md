@@ -320,7 +320,7 @@ ADS-4 has been used for decades, and is a crowning achievement of the NACA-era.
 [^1]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 [^2]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
 [^3]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)  
-[^4]: "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954.  
+[^4]: "The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953)", NACA-TN-3130, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068602)  
 [^5]: "A Design Manual for Thermal Anti-Icing Systems", WADC Techical Report 54-313, December, 1954.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0090156)    
 [^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))    
 [^7]:
