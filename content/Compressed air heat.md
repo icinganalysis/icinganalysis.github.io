@@ -387,7 +387,7 @@ variations in the internal heating.
 
 The title is pretty descriptive. 
 
-- Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  
+- Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930089163)  
     > review: [NACA-RM-E56B23]({filename}NACA-RM-E56B23.md)  
 
 This describes some considerations for getting a heat supply 
