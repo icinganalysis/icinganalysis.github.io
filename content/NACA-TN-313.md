@@ -352,6 +352,6 @@ ice protection technology.
 [^2]:
 [NACA Icing Publications Database]({filename}/naca icing publications database.md)  
 [^3]: [scholar.google.com](https://scholar.google.com/scholar?cites=1115240518241246610&as_sdt=5,48&sciodt=0,48&hl=en)  
-[^4]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929.  
+[^4]: Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081037)  
 [^5]: Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [flightopsresearch.org](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf) .  
 This is a candidate for "The Greatest Thing That You Have (Probably) Never Read" series in [Diversions]({filename}diversions.md).  
