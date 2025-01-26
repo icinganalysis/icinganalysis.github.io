@@ -254,7 +254,7 @@ I edited the post after it was reviewed, and any errors are mine.
 ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162)  
 [^2]: Aerospace, S. A. E. "SAE ARP 5905 Calibration and acceptance of icing wind tunnels." [ARP5905](https://www.sae.org/standards/content/arp5905/)  
 [^3]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
-[^4]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939.  
+[^4]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081464)  
 [^5]: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
 This is also a candidate for "The Greatest Thing That You Have (Probably) Never Read"  

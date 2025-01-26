@@ -7,7 +7,7 @@ tags: meteorology
 
 ![Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
 ](images%2Fwilliam_lewis_1947%2FFigure%203.png)  
-_from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947._  
+_from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
 
 ## Summary  
 
