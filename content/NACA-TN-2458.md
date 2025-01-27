@@ -255,7 +255,7 @@ NACA-TN-2458 cites 13 publications.
 - Lamb, Horace: Hydrodynamics. Dover Pub., 6th ed., 1945.  
 
 NACA-TN-2458 is cited once in the NACA Icing Publications Database [^2]:  
-- Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956.  
+- Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
 
 An online search found NACA-TN-2458 cited three times. [^3]  
 
