@@ -212,4 +212,4 @@ Reference 2 is:
 
 ## Notes  
  
-[^1]: Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085708), 1948.  
+[^1]: Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085708)  

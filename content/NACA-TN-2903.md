@@ -123,7 +123,7 @@ Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cyli
 [^4]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-2903&btnG=)  
 [^5]: 
-Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
+Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092308)  
 
 
 

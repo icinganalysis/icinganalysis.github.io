@@ -84,8 +84,8 @@ so they will come up in some publications here.
 
 >  _"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"_  
 
-- Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
-- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
+- Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092308)  
+- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
 
 ### [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
 
@@ -119,7 +119,7 @@ These have been reviewed elsewhere, as indicated below.
     > previous review: [Airfoils]({filename}airfoils.md)  
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
     > previous review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
-- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958.  
+- Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
     > previous review: [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
 
 ### [Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
