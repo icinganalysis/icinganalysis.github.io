@@ -217,7 +217,7 @@ NACA-RM-E51G05  cites six publications:
 - May, K. R.: The Cascade Impactor: An Instrument for Sampling Coarse Aerosols. Jour. Sd. Instruments, vol. XXII, no. 10, Oct. 1945, pp. 187-195.  
 - May, K. R.: The Measurement of Airborne Droplets by the Magnesium Oxide Method. Jour. Sc Instruments, vol. XXVII, no. 5, May 1950, pp. 128-130.  
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Report on Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. Tech. Rep. 5519, Air Materiel Command, AAF, Aug. 13, 1946. (Contract No. W-33-038-ac-5443.)  
-- McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951.  
+- McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460)  
 
 NACA-TN-3592 cites 26 publications:   
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
@@ -225,7 +225,7 @@ NACA-TN-3592 cites 26 publications:
 - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
 - Pettit, K. G.: Nephelometric Instrumentation for Aircraft Icing Research. Rep. No. MD-33, National Res. Council of Canada (Ottawa), Aug. 1950.  
 - Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951.  
-- McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951.  
+- McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460)  
 - Elliott, H. W.: Cloud Droplet Camera. Rep. No. MI-701, Div. Mech. Eng., 6220 F-24l, Nat. Res. Labs. (Ottawa), Dec. 26, 1947.  
 - Bigg, F. J., and Abel, G. C.: Note on Sampling and Photographing Cloud Droplets in Flight. Tech. Note No. Mech. Eng. 156, British R.A.E., Sept. 1953.  
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Report on Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. Tech. Rep. 5519, Air Materiel Command, AAF, Aug. 13, 1946. (Contract No. W-33-038-ac-5443.)  
@@ -270,7 +270,7 @@ An online search found NACA-TN-3592 cited 6 times [^8].
 ## Notes  
 
 [^1]: McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460).  
-[^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731).  
+[^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731).  
 [^3]: Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735).  
 [^4]: Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^5]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  

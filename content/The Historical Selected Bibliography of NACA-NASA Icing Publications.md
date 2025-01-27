@@ -164,7 +164,7 @@ Links to reviews are included where applicable.
         > review: [Heated Probes]({filename}Heated%20Probes.md)  
     - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
         > review: [NACA-RM-E53D23]({filename}NACA-RM-E53D23.md)  
-    - McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951.  
+    - McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
         > review: [Heated probes]({filename}Heated%20Probes.md)  
