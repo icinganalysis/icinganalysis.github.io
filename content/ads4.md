@@ -510,7 +510,7 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^5]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083505)  
 [^7]: 
 Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083662)  
 [^9]: 
