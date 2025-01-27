@@ -354,4 +354,4 @@ similar to the steam heating discussed here.
 This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing.md).  
 
 ## Notes  
-[^1]: Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633), 1947.  
+[^1]: Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)  

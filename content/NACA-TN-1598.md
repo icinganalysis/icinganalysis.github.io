@@ -200,7 +200,7 @@ NACA-TN-1598 cites 7 publications:
 - Kanter, M.: Flight Performance on XB-25E Airplane No. 42-32281 In Natural Ice During February, March and April 1945. AAF TR No. 5403, Air Materiel Command, Array Air Forces, Dec. 17, 1945. (Available from Office of Technical Services, U. S. Dept. of Commerce, as PB No. 27065.)  
 - Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.  
-- Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945.  
+- Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093555)  
 - Reed, Albert C.: Airplane Performance Testing at Altitude. Jour. Aero. Sc., vol. 8; no. 4. Feb. 1941, pp . 135-150.  
 - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 

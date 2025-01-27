@@ -85,11 +85,11 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 35. Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093071)  
 36. Boelter, L. M. K., Martinelli, R. C., Romie, F. E., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XVIII - A Design Manual for Exhaust Gas and Air Heat Exchangers. NACA-ARR-5A06, 1945.  
 37. Essex, Henry A., Keith, Wayne C., and Mulholland, Donald R.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, II-Determination of the Limiting-Icing Condition. NACA-MR-E518a, 1945.  
-38. Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+38. Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091908)  
 39. Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546) 
 40. Hillendahl, Wesley H.: A Flight Investigation of the Ice-Prevention Requirements of the United States Naval K-Type Airships. NACA-WR-A-4, 1945. (Supersedes NACA-NR-A5J19a.)  
 41. Jackson, Richard: An Investigation of a Thermal Ice-Prevent ion System for a C46 Cargo Airplane II - The Design, Construction, and Preliminary Tests of the Exhaust—Air Heat Exchanger. NACA-ARR-5A03a, 1945.  
-42. Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945.  
+42. Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093555)  
 43. Lyons, Richard E., and Coles, Willard D.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, III- Heated Air as a Mean of De-Icing the Carburetor and Inlet Elbow. NACA-MR-E5L19, 1945.  
 44. Mulholland, Donald R., Rollin, Vern G., and Galvin, Herman B.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, I-Description of Setup and Testing Technique. NACA-MR-E5L13, 1945.  
 45. Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.  
@@ -110,7 +110,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 60. Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
 61. Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
 62. Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068715)  
-63. Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633), 1947.
+63. Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)
 64. Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 65. Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082035)
 66. Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947.  

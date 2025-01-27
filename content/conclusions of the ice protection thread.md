@@ -259,6 +259,6 @@ The next thread in the NACA review series is the [Icing Cloud Meteorology Thread
 ## Notes  
 
 [^1]: Draney, John J.: "Heat Recovery Applied to Heating and Anti-Icing of Aircraft". SAE Transactions, Vol. 54, 1946.  
-[^2]: Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
+[^2]: Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091477)  
 [^3]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  

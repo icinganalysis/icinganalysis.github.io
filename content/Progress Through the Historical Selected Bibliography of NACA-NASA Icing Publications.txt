@@ -208,7 +208,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 
 - Wing Ice Protection
 
-    - Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+    - Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091908)
         > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
     - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947.  
         > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
@@ -249,7 +249,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 
 - Cooling Fan Ice Protection
 
-    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633), 1947.
+    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)
 
 - Radome Ice Protection
 

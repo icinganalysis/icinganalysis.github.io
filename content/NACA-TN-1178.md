@@ -187,7 +187,7 @@ blades during flight in light natural icing conditions.
 
 Reference 4 is:  
 
-- Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
+- Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091908)  
         > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
 
 ![Figure 10c.png](/images%2FNACA-TN-1178%2FFigure%2010c.png)  
