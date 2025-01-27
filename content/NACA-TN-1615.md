@@ -230,4 +230,4 @@ including several recent publications.
 
 ## Notes  
 
-[^1]: Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.
+[^1]: Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068718)  

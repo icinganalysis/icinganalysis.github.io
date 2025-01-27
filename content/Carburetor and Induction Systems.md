@@ -296,5 +296,5 @@ NACA-TN-55, by Sparrow and published in 1921, did not include the quote.
 Vol. 50 (1942), pp. 40-51 (12 pages).  
 [^3]: Sparrow, Stanwood S.: "Airplane Crashes: Engine Troubles. A Possible Explanation". NACA-TN-55, 1921.  
 [^4]: Essex, Henry A.: De-Icing of an Aircraft Engine Induction System. NACA-ARR-3H13, 1943.  
-[^5]: Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
+[^5]: Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068627)  
 

@@ -82,7 +82,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 32. Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944.  
 33. Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.  
 34. Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944.  
-35. Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944.  
+35. Scherrer, Richard, and Rodert, Lewis A.: Tests of Thermal-Electric De-Icing Equipment for Propellers. NACA-ARR-4A20, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093071)  
 36. Boelter, L. M. K., Martinelli, R. C., Romie, F. E., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XVIII - A Design Manual for Exhaust Gas and Air Heat Exchangers. NACA-ARR-5A06, 1945.  
 37. Essex, Henry A., Keith, Wayne C., and Mulholland, Donald R.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, II-Determination of the Limiting-Icing Condition. NACA-MR-E518a, 1945.  
 38. Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.)  
@@ -120,7 +120,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 70. Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
 71. Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
 72. Boelter, L. M. K., Young, George, and Iversen, H. W.: An Investigation of Aircraft Heaters, XXVII - Distribution of Heat- Transfer Rate in the Entrance Section of a Circular Tube. NACA-TN-1451, 1948.  
-73. Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.  
+73. Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068718)  
 74. Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948.  
 75. Fleming, William A., and Saari, Martin J.: Inlet Icing and Effectiveness of Hot-Gas Bleedback for Ice Protection of Turbojet Engine. NACA-RM-E8J25c, 1948.  
 76. Hensley, Reece V.: Mollier Diagram for Air Saturated with Water Vapor at Low Temperature. NACA-TN-1715, 1948.  
@@ -152,7 +152,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 102. Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
 103. Desmond Leland G., and Sams, Eldon W.: Correlation of Forced-Convection Heat Transfer Data for Air Flowing in Smooth Platinum Tube with Long-Approach Entrance at High Surface and Inlet-Air Temperature. NACA-RM-E50H23, 1950.  
 104. Acker, Loren W., and Kleinknecht, Kenneth S.: Effects of Inlet Icing on Performance of Axial-Flow Turbojet Engine in Natural Icing Conditions. NACA-RM-E5OC15, 1950.  
-105. Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
+105. Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068627)  
 106. Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.  
 107. Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
 108. Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950.  
@@ -168,7 +168,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 119. Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
 120. Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951.  
 121. Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
-122. Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
+122. Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068604)  
 123. Hacker, Paul T.: Experimental Values of the Surface Tension of Supercooled Water. NACA-TN-2510, 1951.  
 124. Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
 125. Ingebo, Robert D.: Vaporization Rates and Heat-Transfer Coefficients for Pure Liquid Drops. NACA-TN-2368, 1951.  
@@ -185,9 +185,9 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 136. Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
 137. Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952.  
 138. Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732).  
-139. Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
+139. Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068711)  
 140. Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
-141. Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
+141. Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068623)  
 142. Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952.  
 143. Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)
 144. Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
@@ -200,7 +200,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 151. Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
 152. Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  
 153. Eckert, E. R. G., and Livingood, John N. B.: Comparison of Convection-, Transpiration-, and Film-Cooling Methods with Air as Coolant. NACA-TN-3010, 1953.  
-154. Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+154. Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083662)  
 155. Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068601)  
 156. Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 157. Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
@@ -236,7 +236,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 187. Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955.  
 188. von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
 189. von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487) [also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]  
-190. Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
+190. Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 191. Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956.  
 192. Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 193. Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930089163)  

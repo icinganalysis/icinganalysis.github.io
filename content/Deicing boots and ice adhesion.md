@@ -303,10 +303,10 @@ and 64 for ADS-4.
 ##Notes  
 
 [^1]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
-[^2]: Rothrick, A. M., Selden, R.: Adhesion of Ice in Its Relation to the De-icing of Airplanes. NACA-TN-723, 1939.  
-[^3]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941.  
-[^4]: Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951.  
+[^2]: Rothrick, A. M., Selden, R.: Adhesion of Ice in Its Relation to the De-icing of Airplanes. NACA-TN-723, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081545)  
+[^3]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093052)  
+[^4]: Gowan, W. H., Jr., and Mulholland, D. R.: Effectiveness of Thermal-Pneumatic Airfoil-Ice-Protection System. NACA-RM-E50K10a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068604)  
 [^5]: Loughborough, D. L., Physics of mechanical removal of ice from aircraft, Aeronautical Engineering Review, v11, n2 (Feb 1952) 29-34 [Unfortunately, this does not include the instructive Slide 13 "Most practical de-icers I ever saw" figure in the next Loughborough citation.] [us.archive.org](https://ia903400.us.archive.org/14/items/sim_aerospace-engineering-1942_1952-02_11_2/sim_aerospace-engineering-1942_1952-02_11_2.pdf)    
 [^6]: Loughborough, D. L.: Mechanical De-Icing Systems, (B. F. Goodrich Company), Lecture No. 10, University of Michigan Airplane Icing Information Course, 1953.  (58 pages)    
-[^7]: Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
+[^7]: Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 [^8]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  

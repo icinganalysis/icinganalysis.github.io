@@ -78,7 +78,7 @@ hav (ts-to) + 2.82 L hav K (es/p1 - e0/p0) + cw mav (ts-t)
 
 References 1 and 2 are:  
 
-- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.   
+- Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083662)   
     > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
 - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083505).  
     > review: [NACA-TN-2799]({filename}NACA-TN-2799.md)    

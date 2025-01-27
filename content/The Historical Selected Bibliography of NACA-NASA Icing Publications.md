@@ -260,7 +260,7 @@ Links to reviews are included where applicable.
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
     - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)    
-    - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952.  
+    - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068623)  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
@@ -271,7 +271,7 @@ Links to reviews are included where applicable.
 
     - Coles, Willard D.: Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System. NACA-TN-1790, 1949.  
         > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
-    - Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
+    - Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068627)  
         > review: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930087831)    
         > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
@@ -304,7 +304,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
     - Gray, Vernon H., Bowden, Dean T., and von Glahn, Uwe H.: Preliminary Results of Cyclical De-icing of a Gas-Heated Airfoil. NACA-RM-E51J29, 1952.  
         > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
-    - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952.  
+    - Lewis, James P., and Bowden, Dean T.: Preliminary Investigation of Cyclic De-Icing of an Airfoil Using an External Electric Heater. NACA-RM-E51J30, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068711)  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
         > review: [Thermal Analysis and Surface Wettedness]({filename}Thermal%20Analysis.md)  
@@ -336,9 +336,9 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2962]({filename}NACA-TN-2962.md)  
     - Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948.  
         > review: [NACA-TN-1598]({filename}NACA-TN-1598.md)  
-    - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953.  
+    - Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083662)  
         > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
-    - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956.  
+    - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
         > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  
     - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
@@ -387,7 +387,7 @@ Links to reviews are included where applicable.
 
 - Jet Penetration  
 
-    - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948.  
+    - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068718)  
         > review: [NACA-TN-1615]({filename}NACA-TN-1615.md)  
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
          review: [NACA-TN-2019]({filename}NACA-TN-2019.md)  
