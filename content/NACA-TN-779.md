@@ -77,7 +77,7 @@ NACA-TN-779 cites 6 works, 3 of them are NACA publications.
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.
 - Stack, John, Lindsey, W. F., and Littell, Robert E.: The Compressibility Burble and the Effect of Conmpressibility on Pressures and Forces Acting on an Airfoil. NACA-TR-646, 1938.
 - Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931.
-- Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
+- Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  
 - Glauert, H.: The Elements of Aerofoil and Airscrew Theory. The Univ. Press (Cambridge), 1926.
 
 NACA-TN-779 is cited 7 times in the NACA Icing Publications Database [^7]. All of these are in the context of water drop trajectories (not aerodynamic heating). 
@@ -95,22 +95,22 @@ NACA-TN-779 is cited 7 times in the NACA Icing Publications Database [^7]. All o
 There were several later studies of the aerodynamic heating specifically for a cylinder (without ice) in [^8], [^9], and [^10].  
 
 ## Notes:
-[^1]: Kantrowitz, Arthur: Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535).
+[^1]: Kantrowitz, Arthur: Aerodynamic Heating and Deflection of Drops by an Obstacle in an Airstream in Relation to Aircraft Icing. NACA-TN-779, 1940 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535).  
 [^2]:
-Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
+Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.  
 [^3]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^4]:
-Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.
+Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.  
 [^5]:
-Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927.
+Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  
 [^6]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  
 [^7]: 
 [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:
-Eckert, E., and Weise, W.: The Temperature of Unheated Bodies in a High-Speed Gas Stream, NACA-TM-1000, 1941.
+Eckert, E., and Weise, W.: The Temperature of Unheated Bodies in a High-Speed Gas Stream, NACA-TM-1000, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094417)  
 [^9]:
-Eckert, E., and Livingood, John N. B.: Method for Calculation of Heat Transfer in Laminar Region of Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TN-2733, June 1, 1952.  
+Eckert, E., and Livingood, John N. B.: Method for Calculation of Heat Transfer in Laminar Region of Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TN-2733, June 1, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083439)  
 [^10]:
-Eckert, E., and Livingood, John N. B.: Method for Calculation of Laminar Heat Transfer in Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TR-1118, Jan. 1, 1953.  
+Eckert, E., and Livingood, John N. B.: Method for Calculation of Laminar Heat Transfer in Air Flow Around Cylinders of Arbitrary Cross Section (including Large Temperature Differences and Transpiration Cooling). NACA-TR-1118, Jan. 1, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092154)  
