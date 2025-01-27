@@ -38,7 +38,7 @@ Reviews in this thread:
         >  review : [NACA-TN-1424]({filename}NACA-TN-1424.md)  
     - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)
         >  review : [NACA-TN-1793]({filename}NACA-TN-1793.md)    
-    - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+    - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
         >  review : [NACA-TN-1855]({filename}NACA-TN-1855.md)  
     - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)
         >  review : [NACA-TN-1904]({filename}NACA-TN-1904.md)  

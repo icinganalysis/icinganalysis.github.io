@@ -239,7 +239,7 @@ NACA-TN-1904 cites 9 publications:
 
 - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)
-- Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+- Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
 - Jones, Alun R.: An Investigation of a Thermal Ice-Prevention System for a Twin-Engine Transport Airplane. NACA-TR-862, 1946.  
 - Gumbel, E. J.: On the Frequency of Extreme Values in Meteorological Data. Bulletin of the American Meteorological Society, vol. 23, March 1942, pp. 95-105.  
 - Peppler, Wilhelm: Unterkuhlte Wasserwolken und Eiswolken. (Supercooled water and ice clouds.) Forschungsund Erfahrungsberichte des Reichswetterdienstes, Ser. B, No. 1, Berlin, 1940. (Brief Summary in Bulletin of the American Meteorological Society. Vol. 29, Nov.1948, p.458.)  

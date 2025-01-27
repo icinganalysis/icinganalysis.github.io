@@ -369,7 +369,7 @@ An online search [^11] found Bilanin cited by 53 publications.
 [^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
 [^5]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^6]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)   
-[^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986.  
+[^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19880003091)  
 [^8]: Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
 [ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)  
 [^9]: [Weber number at scholar.google.com](https://scholar.google.com/scholar?start=0&q=icing++%22weber+number%22&hl=en&scisbd=1&as_sdt=0,48)  

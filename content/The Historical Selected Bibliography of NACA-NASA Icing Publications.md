@@ -116,7 +116,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2738]({filename}NACA-TN-2738.md)  
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
         > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
-    - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949.  
+    - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
         > review: [NACA-TN-1855]({filename}NACA-TN-1855.md)  
     - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)
         > review: [NACA-TN-1793]({filename}NACA-TN-1793.md)  
@@ -239,7 +239,7 @@ Links to reviews are included where applicable.
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957.  
         > review: [Airfoils]({filename}airfoils.md)  
-    - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956.  
+    - von Glahn, Uwe H.: Use of Truncated Flapped Airfoils for Impingement and Icing Tests of Full-Scale Leading-Edge Sections. NACA-RM-E56E11, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068704)  
         > review: [Scaling in NACA tests]({filename}scaling_in_naca_tests.md)  
 
 - Propeller Ice Protection  
@@ -293,7 +293,7 @@ Links to reviews are included where applicable.
         > review: [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md)  
     - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093764)  
         > review: [NACA-RM-E57G09]({filename}NACA-RM-E57G09.md)  
-    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950.  
+    - von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Aerodynamic and Icing Characteristics of Water-Inertia-Separation Inlets for Turbojet Engines. NACA-RM-E50E03, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068632)  
         > review: [NACA-RM-E50E03]({filename}NACA-RM-E50E03.md)  
 
 - Wing Ice Protection  
