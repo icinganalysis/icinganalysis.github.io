@@ -282,4 +282,4 @@ flush windshield of C-46 airplane.](images/NACA-TN-1434/Figure 8.png)
 
 ## Notes  
 
-[^1]: Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068716), July 25, 1955.  
+[^1]: Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068716)  

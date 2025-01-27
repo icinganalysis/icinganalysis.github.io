@@ -250,4 +250,4 @@ NACA-TN-2855 is cited 25 times, per [scholar.google.com](https://scholar.google.
 
 ## Notes  
 
-[^1]: Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068721), 1952.  
+[^1]: Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068721)  

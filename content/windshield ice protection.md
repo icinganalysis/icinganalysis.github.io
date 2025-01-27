@@ -429,6 +429,6 @@ NACA-TN-1434 8 times.
 
 [^1]: Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20090014142).   
 [^2]: Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-TN-754, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081547).   
-[^3]: Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.   
+[^3]: Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068715)   
 [^4]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.). See the post ["Mathematical Investigation of Water Droplet Trajectories"]({filename}Mathematical Investigation of Water Droplet Trajectories.md) for other published versions.  
 

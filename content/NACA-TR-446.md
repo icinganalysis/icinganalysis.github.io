@@ -132,7 +132,7 @@ both with and without a protuberance.
 
 NACA-TR-446 cites 5 references.  
 - Ower, E.: Interference. Roy. Aero. Soc. Jour., July, 1932.  
-- Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
+- Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932. [ntrs.nasa.go](https://ntrs.nasa.gov/citations/19930091490)  
 - Jacobs, Eastman N.: Tests of Six Symmetrical Airfoils in the Variable-Density Wind Tunnel. NACA-TR-385, 1931.  
 - Wieselberger, C., and Betz, A.: Ergebnisse der Aerodynamischen Versuchsanstalt zu Gottingen. Oldenburg (Munchen), 1923. II Liferung, pp. 33-34.  
 - Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931.  
@@ -149,7 +149,7 @@ An online search [^5] found 103 citations of NACA-TR-446, many of them in an ici
 ## Notes  
 
 [^1]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091520).  
-[^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932.  
+[^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932. [ntrs.nasa.go](https://ntrs.nasa.gov/citations/19930091490)  
 [^3]: [Variable_Density_Tunnel at en.wikipedia.org](https://en.wikipedia.org/wiki/Variable_Density_Tunnel)  
 [^4]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Airfoil+Section+Characteristics+as+Affected+by+Protuberances&btnG=)  

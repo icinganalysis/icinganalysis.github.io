@@ -422,5 +422,5 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 ## Notes  
 
 [^1]: von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)  
-[^2]: LW Acker, KS Kleinknecht: "Effects of Inlet Icing on Performance of Axial-Flow Turbojet Engine in Natural Icing Conditions", NACA-RM-E50C15, 1950.  
+[^2]: LW Acker, KS Kleinknecht: "Effects of Inlet Icing on Performance of Axial-Flow Turbojet Engine in Natural Icing Conditions", NACA-RM-E50C15, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
 

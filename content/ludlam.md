@@ -247,7 +247,7 @@ I also recommend Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (
 This is a candidate for "The Greatest Thing That You (Probably) Have Never Read"  
 A translation to English is available at [DTIC](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
 [^6]: 
-Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002.  
+Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
 [^7]: 
 [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: 

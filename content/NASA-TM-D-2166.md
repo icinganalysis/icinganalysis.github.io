@@ -215,5 +215,5 @@ I could not find a download this on the nrts, it is available at
 [^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. I could not find a download for this on the nrts, it is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068590).  
 [^3]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Prediction+of+Aerodynamic+Penalties+Caused+by+Ice+Formations+on+Various+Airfoils&btnG=)  
-[^4]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984.  
+[^4]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850019527)  
 

@@ -221,5 +221,5 @@ but not quite a "lost gem".]
 
 ## Notes
 
-[^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983.  
+[^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA198941.pdf)  
 [^2]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Look+at+Tolerances+in+Setting+Icing+Test+Conditions+with+Particular+Application+to+Icing+Similitude&btnG=)  

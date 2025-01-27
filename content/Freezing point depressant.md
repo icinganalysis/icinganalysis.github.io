@@ -291,5 +291,5 @@ NACA-ARR-5G13 18 times.
 
 ## Notes  
 
-[^1]: Neel, Carr B: An Investigation of the Characteristics of a Propeller Alcohol Feed Ring. NACA-RB-4F06, NACA-WR-A-50, June, 1941.  
-[^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  
+[^1]: Neel, Carr B: An Investigation of the Characteristics of a Propeller Alcohol Feed Ring. NACA-RB-4F06, NACA-WR-A-50, June, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093060)  
+[^2]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)  

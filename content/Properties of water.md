@@ -28,7 +28,7 @@ These five publications reviewed here are from the seven publications listed in 
 ["The Historical Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md). 
 The two other studies have been reviewed previously, as noted below. 
 
-- Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  
+- Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)  
     > previous review: [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)  
 - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953.  
     > Previous review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 

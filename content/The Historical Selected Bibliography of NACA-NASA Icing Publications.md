@@ -155,7 +155,7 @@ Links to reviews are included where applicable.
         > review: [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md)  
     - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953.  
         > review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 
-    - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945.  
+    - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)  
         > review: [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)  
 
 - Meteorological Instruments  
@@ -207,9 +207,9 @@ Links to reviews are included where applicable.
         > review: [Airfoils]({filename}airfoils.md)  
     - Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954.  
+    - Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083846)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
-    - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954.  
+    - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068689)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068690)  
         > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
@@ -219,9 +219,9 @@ Links to reviews are included where applicable.
         > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)   
     - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
         > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
-    - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955.  
+    - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068694)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
-    - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956.  
+    - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084877)    
         > review: [Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955.  
         > review: [Airfoils]({filename}airfoils.md)  
@@ -273,7 +273,7 @@ Links to reviews are included where applicable.
         > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
         > review: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
-    - Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953.  
+    - Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930087831)    
         > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
 
 - Turbine-Type Engine and Inlet Icing Studies  
@@ -312,7 +312,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
     - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md) (combined review with NACA-TN-2914)      
-    - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953.  
+    - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068584)  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068601)  
         > review: [NACA-RM-E53C27]({filename}NACA-RM-E53C27.md)  
@@ -349,7 +349,7 @@ Links to reviews are included where applicable.
 
 - Windshield Ice Protection  
 
-    - Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947.  
+    - Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068715)  
         > review: [windshield ice protection]({filename}windshield%20ice%20protection.md)  
     - Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955.  
 <!--
