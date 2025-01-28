@@ -302,10 +302,10 @@ and chord, and the ambient-air temperature.
 
 Several studies were conducted to develop details of the design. 
 
-- Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942.  
-- Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942.  
-- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943.  
-- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943.  
+- Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056)  
+- Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093054)  
+- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093059)  
+- Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093055)  
 
 A Ju 88 airplane with exhaust heating was "obtained" by NACA in 1942 
 (I imagine there is more to the story that was left unsaid).  
@@ -446,11 +446,11 @@ Also, detailed natural icing flight test accounts are always instructive
 [^3]: Rodert, Lewis A., and Jones, Alun R.: A Flight Investigation of Exhaust Heating De-icing. NACA-TN-783, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081573)  
 [^4]: Rodert, Lewis A., and Jackson, Richard: Preliminary Report on Flight Tests of an Airplane having Exhaust-Heated Wings. NACA-ACR-A-53, April 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093052)  
 [^5]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
-[^6]: Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942.  
-[^7]: Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942.  
-[^8]: Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943.  
-[^9]: Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943.  
-[^10]: Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943.  
-[^11]: Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944.  
+[^6]: Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056)  
+[^7]: Rodert, Lewis A. and Jackson, Richard: A Description of the Ju 88 Airplane Anti-Icing Equipment. NACA-WR-A-39 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093054)  
+[^8]: Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093059)  
+[^9]: Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093055)  
+[^10]: Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093545)  
+[^11]: Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093556)  
 
 

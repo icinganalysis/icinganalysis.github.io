@@ -406,7 +406,7 @@ the assumed value of fraction wetted can have a significant effect on calculated
 
 [^1]: Hansen, James R.: "The Wind and Beyond. A Documentary Journey into the History of Aerodynamics in America", [NASA-SP-4409 Vol. 2](https://history.nasa.gov/sp4409-vol2-2.pdf), Chapter 3, p. 529, 
 EXTRACTS FROM LETTER DATED APRIL 12, 1936, FROM HONORABLE EDWARD P. WARNER TO DR. J. S. AMES, NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS, 2003.  
-[^2]: Gelder, Thomas F., Lewis, James P.: "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951.  
+[^2]: Gelder, Thomas F., Lewis, James P.: "Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions", NACA-TN-2480, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068712)  
 [^3]: Dawson, Virginia P. "Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306." Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306, by Virginia P. Dawson, 271 pages, published by NASA, Washington, DC, 1991 4306 (1991) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19910006662).  
 [^4]:
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
