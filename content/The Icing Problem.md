@@ -1135,4 +1135,4 @@ in the Lewis icing tunnel.
 ## Notes  
 
 [^1]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)      
-[^2]: "The Icing Problem" reprint included in NASA-TM-81651 "Selected Bibliography of NACA-NASA Aircraft Icing Publications", [NASA-TM-81651](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
+[^2]: "The Icing Problem" reprint included in NASA-TM-81651 "Selected Bibliography of NACA-NASA Aircraft Icing Publications", August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)  

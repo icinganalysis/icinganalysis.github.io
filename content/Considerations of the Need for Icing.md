@@ -239,4 +239,4 @@ In those cases, more complete ice protection may be required.
 
 ## Notes  
 
-[^1]: von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.    
+[^1]: von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)    

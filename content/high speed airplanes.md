@@ -309,4 +309,4 @@ This publication defined the icing environments that are used in the next presen
 
 ## Notes  
 
-[^1]: von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation&source=bl&ots=lZ_jAfSwml&sig=ACfU3U3y-IGGy39BCf1u3bV8LFV3B2DqZg&hl=en&sa=X&ved=2ahUKEwic8KzL3-_7AhU2GTQIHXebBjcQ6AF6BAgdEAM#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
+[^1]: von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
