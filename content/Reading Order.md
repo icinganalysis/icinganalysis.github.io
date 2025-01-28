@@ -47,11 +47,9 @@ to read the articles in the order below.
 - [Porter Perkins series]({filename}Porter%20Perkins.md)  
 - [Properties of Water]({filename}Properties%20of%20water.md)  
 - [Engine Inlet Icing.md]({filename}Engine%20Inlet%20Icing.md)  
-<!--
 - [Air Jets]({filename}air%20jets.md)  
 - [Radomes and Antennas]({filename}Radomes%20and%20Antennas.md)  
-- [Miscellaneous]  
--->  
+- [NACA icing conferences]({filename}NACA%20icing%20conferences.md)  
  
 ## Other content  
 
