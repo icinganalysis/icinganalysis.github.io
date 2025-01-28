@@ -134,15 +134,15 @@ Even with the factors noted above, many cases compare surprisingly (to me, at le
 
 There are several sources of ice measurements on non-rotating cylinders. 
 
-[AEDC-TR-85-30](https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2) 
+- "Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1" [^4]  
 
 ![AEDC-TR-85-30 Figure 21. Comparison of rime, mixed, and glaze ice-accretion scaling using Method 1 to establish the experimental similitude conditions.](images%2Faedc-tr-85-30%2FFigure%2021.png)  
 
-[NASA-TM-107141](https://ntrs.nasa.gov/api/citations/19960012178/downloads/19960012178.pdf) 
+- "Evaluation of Constant-Weber-Number Scaling for Icing Test. NASA-TM-10714" [^5]  
 
 ![NASA-TM-107141 Figure 10. Constant-We Scaling Applied to Cylinders. Case 2 in Table I.](images%2FNASA-TM-107141%2FFigure%2010.png)  
 
-[NASA/CR—2008-215302](https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf)  
+- "Ice shape scaling for aircraft in SLD conditions. NASA/CR-2008-215302" [^6]
 
 ![NASA/CR—2008-215302 Figure 3. Effect of Surfactant and Velocity on Appendix C Ice Shapes 2 . Vertical Cylinders Tested in the NASA Glenn IRT.](images%2Fnasa-cr-2008-215302%2FFigure%203.png)  
 
@@ -219,9 +219,7 @@ heat transfer coefficients, may be more sensitive.
 
 ### Airfoil leading edge approximated as a cylinder
 
-[NASA/CR-2005-213852](https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf)  
-
-This treats the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature. 
+NASA/CR-2008-215302 [^6] treats the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature. 
 
 The freezing fraction values agree well at higher values, 
 but at lower values the scatter is greater than the +/-10% region shown. 
@@ -230,7 +228,7 @@ but at lower values the scatter is greater than the +/-10% region shown.
 n_a calculated with length d using equation (16) for Nu.](images%2FNASA-CR-2005-213852%2FFigure%203.png)  
 
 I view this as validation of Uwe von Glahn's assertion that 
-**"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^4] from 1955,
+**"The collection of ice by the cylinders is similar to the collection of ice by airplane components"** [^7] from 1955,
 but it took 50 years to get the measured data. 
 
 ### "Ludam Limits"  
@@ -300,7 +298,7 @@ Perhaps we may view Hardy as still having influence,
 but one layer down in the citations. 
 
 One thing that is common to the NACA-era and the post-NACA era 
-is the influence of Langmuir and Blodgett [^5]. 
+is the influence of Langmuir and Blodgett [^8]. 
 Six of the 14 publications in the Thermodynamics thread cite Langmuir and Blodgett. 
 Recent publications frequently cite Langmuir and Blodgett. 
 
@@ -318,7 +316,7 @@ and different implementations may yield different results
 (see the discussion of NASA-TM-107141 above). 
 
 The single control volume anti-ice calculation method from [ADS-4]({filename}ads4.md) is still in use today,
-or at least it has not been deprecated in later design guides such as [^6] and [^7]. 
+or at least it has not been deprecated in later design guides such as [^9] and [^10]. 
 However, the wide availability of LEWICE and other 2D and 3D ice protection 
 design tools has largely displaced its use. 
 
@@ -333,12 +331,15 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^2]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]: 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068709)  
-[^4]: 
+[^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
+[^5]: Anderson, David N.: Evaluation of Constant-Weber-Number Scaling for Icing Test. NASA-TM-107141 and AIAA-96-0636, 1996. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19960012178)  
+[^6]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  
+[^7]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487) [also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]   
-[^5]:
+[^8]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
-[^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))      
-[^7]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf). Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).
+[^9]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))      
+[^10]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf). Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).
 
 
 
