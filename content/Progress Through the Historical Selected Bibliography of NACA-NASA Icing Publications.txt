@@ -302,7 +302,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 
 ##Notes:
 [^1]:
-"Selected Bibiliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+"Selected Bibiliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).
 [^2]:
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981  I could not locate this on the NTRS. It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)  
 [^3]: 

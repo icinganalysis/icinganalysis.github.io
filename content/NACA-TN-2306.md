@@ -282,5 +282,4 @@ so it is difficult to compare to NACA-TN-2306 Figure 2 above.
 
 [^1]: Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068851)   
 [^2]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing", DOT/FAA/CT-83/21, 1983. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
-[^3]: Masters, Charles O.: A new characterization of supercooled clouds below 10,000 feet AGL. US Dept. of Transportation Report DOT. FAA/CT-83/22, 1983. 
-[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-22.pdf)  
+[^3]: Masters, Charles O.: A new characterization of supercooled clouds below 10,000 feet AGL. US Dept. of Transportation Report DOT. FAA/CT-83/22, 1983. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-22.pdf)  

@@ -425,4 +425,4 @@ FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [
 [^10]:
 "AIRPLANE AIRWORTHINESS - TRANSPORT CATEGORIES MISCELLANEOUS AMENDMENTS", Civil Air Regulations Amendment 4b-2, July, 1955. 
 [stacheair.com](http://www.stacheair.com/data/At%20Work%209B%20Repair%20Station%20CD/Data%20Info/CAR%27s/CAR%20Part%20%204b/PDF/Part%2004b-02.pdf)  
-[^11]: Lewis, William: "Review of Icing Criteria", in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^11]: Lewis, William: "Review of Icing Criteria", in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  

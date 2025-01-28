@@ -366,7 +366,7 @@ Hu, Tao, et al. "Study on airworthiness problems of operating in supercooled lar
 [^8]: Timko, Emily N., et al. NASA Glenn Icing Research Tunnel: 2019 Cloud Calibration Procedure and Results. No. E-19889. 2021.  [ntrs](https://ntrs.nasa.gov/citations/20205002688).  
 [^9]: Breitfuß, W., Wannemacher, M., Knöbl, F., and Ferschitz, H., “Aerodynamic Comparison of Freezing Rain and Freezing
 Drizzle Conditions at the RTA Icing Wind Tunnel,” SAE Technical Paper 2019-01-2023, 2019, doi:10.4271/2019-01-2023.  
-[^10]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf)  
+[^10]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  
 [^11]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)   
 [^12]: 
 Potapczuk, Mark G., and Jen-Ching Tsao. "The Influence of SLD Drop Size Distributions on Ice Accretion in the NASA Icing Research Tunnel." International Conference on Icing of Aircraft, Engines, and Structures. No. GRC-E-DAA-TN68067. 2019. [ntrs](https://ntrs.nasa.gov/citations/20190027173)   

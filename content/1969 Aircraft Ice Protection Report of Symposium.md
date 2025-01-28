@@ -214,7 +214,7 @@ These are likely candidates for future [Diversions]({filename}/diversions.md)
 
 ## Notes:
 [^1]:
-Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. I could not find this on the NTRS or on the FAA site. It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
 Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001. [faa.gov](https://www.faa.gov/sites/faa.gov/files/aircraft/air_cert/design_approvals/small_airplanes/aceReportAR-01-91.pdf)  
 [^3]:

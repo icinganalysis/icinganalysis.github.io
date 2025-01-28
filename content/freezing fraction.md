@@ -81,7 +81,7 @@ For the NASA-CR-2008-215302, the values agree fairly well.
 ##Airfoil leading edge approximated as a cylinder
 
 NASA/CR-2005-213852
-https://ntrs.nasa.gov/api/citations/20050215212/downloads/20050215212.pdf  
+https://ntrs.nasa.gov/api/citations/20050215212  
 
 Treats the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature. 
 
