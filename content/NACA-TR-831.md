@@ -92,8 +92,8 @@ The vapor pressure of the heated air (measured via dew point)
 could then be used to calculate the liquid water content of the air. 
 
 To calculate t_o, 
-NACA-ARR-4I11 used a table from [^3]
-which I have not been able to find. 
+NACA-ARR-4I11 used a table from [^3], 
+which I have not been able to find (either the original or the "NACA Reprint"). 
 For the python implementation, I used the t_o calculation method from [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md) [^4].
 
 There is a subtlety here for the ice protection application, 
@@ -442,7 +442,7 @@ An online search found that NACA-TR-831 is cited 13 times in the literature [^10
 [^1]:  
 Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091908) [ntrs.nasa.gov](ntrs.nasa.gov)    
 [^2]: Jones, Alun R., and Spies, Ray J., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, III - Description of Thermal Ice-Prevention Equipment for Wings, Empennage, and Windshield. NACA-ARR-5A03b, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093555)    
-[^3]: Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942) [I have not been able to locate the "NACA Reprint"].    
+[^3]: Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942).    
 [^4]: Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)  
 [^5]: Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943. [I have not been able to locate "NACA-MRR-3E29"].  
 [^6]: Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-5A03, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093076)    

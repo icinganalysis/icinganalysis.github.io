@@ -15,7 +15,7 @@ You need to have completed [Aircraft Icing Handbook Energy Balance Examples]({fi
 
 We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865), 
 as the anti-ice examples are more detailed than those in the 
-"Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
+"Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 
 We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/), for practical guidance for analysis.  
 
@@ -269,7 +269,7 @@ particularly at high angle of attack values.
 
 - "Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-- "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
 
 ## Related  
 
