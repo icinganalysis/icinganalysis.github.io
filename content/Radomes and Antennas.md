@@ -19,7 +19,7 @@ These reviews are for studies of the effect of ice on radomes and antennas.
 - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
   > _"At present very little is known of the effect of radome icing on radar operation."_  
     > review: [Component Icing]({filename}Component%20Ice%20Protection.md#NACA-RM-E52J31)
-- Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
+- Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
   > _"radome icing has serious effects on the radar operation"_  
     > review: [NACA-RM-E53A22]({filename}NACA-RM-E53A22.md)  
 

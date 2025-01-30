@@ -265,7 +265,7 @@ NACA-TN-2799 cites 12 publications:
 
 NACA-TN-2779 is cited once by publications in the NACA Icing Publications Database [^6]:
 
-- Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
+- Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
 
 NACA-TN-2799 is cited 6 times in the literature [^7].
 

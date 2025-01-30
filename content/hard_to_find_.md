@@ -29,8 +29,7 @@ finding them as loanable print copies or digitally.
 ## Recently made available  
 
 - Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR No. 3E29, May 1943.  
-I requested it through [airsciences.org.uk](https://airsciences.org.uk/archive-rae-reports-on-microfilm/) and they sent me a scanned pdf copy 
-(not sharable, so you will have to request your own copy).  
+Available online at [abbottaerospace.com](https://www.abbottaerospace.com/downloads/arc-rm-1986-heat-transfer-calculation-for-aerofoils/)  
 
 ## Could only find at google books    
 

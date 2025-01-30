@@ -296,14 +296,15 @@ NACA-TN-1397 is cited by 13 publications in the NACA Icing Publication Database 
 - Bergrun, Norman R.: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
 - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)
 - Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.  
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068683)   
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).   
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)    
 - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068865)
 - Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
 - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697)
 - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)
-- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
+
 
 An online search found NACA-TN-1397 cited 38 times. [^8]
 
@@ -322,13 +323,14 @@ NACA-TN-2476 cites nine publications.
 NACA-TN-2476 is cited by 10 publications in the NACA Icing Publication Database [^7].  
 
 - Bergrun, Norman R.: An Empirically Derived Basis for Calculating the Area, Rate, and Distribution of Water-Drop Impingement on Airfoils. NACA-TR-1107, 1952.  
-- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
 - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068623)  
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068683)   
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).   
 - Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  
 - Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
-- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
+
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
 
@@ -369,7 +371,7 @@ NACA-RM-E52B12 cites 38 publications
 - Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948.                                   
 - Callaghan, Edmund E., and Ruggeri, Robert S.: Experimental Investigation of Hot-Gas Bleedback for Ice Protection of Turbojet Engines, II - Nacelle with Long Straight Air Inlet. NACA-RM-E9C16, 1949.                                                  
 - Ruggeri, Robert S., and Callaghan, Edmund E.: Experimental Investigation of Hot-Gas Bleedback for Ice Protection of Turbojet Engines, III - Nacelle with Short Straight Air Inlet. NACA-RM-E9E12, 1949.                                                
-- Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.                                                                                 
+- Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068720)                                                                                 
 - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.                                           
 - von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System. NACA-RM-E8A27, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085318)                                                                                                                  
 - von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, III - Annular Submerged Inlets. NACA-RM-E8A29, 1948.                                                                                                             
@@ -377,7 +379,7 @@ NACA-RM-E52B12 cites 38 publications
 
 NACA-RM-E52B12 is cited by 9 publications in the NACA Icing Publication Database [^7]  
 
-- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
+- Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068683)   
 - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).   
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)    
 - Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  

@@ -215,7 +215,8 @@ NACA-RM-E56E11 cites 5 publications:
 
 - Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Rep. No. SM 14993, Douglas Aircraft Co., Inc., May 14, 1954.  
 - Sibley, P. J., and Smith, R. E., Jr.: Model Testing in an Icing Wind Tunnel. Rep. No. LR 10981, Lockheed Aircraft Cor., Oct. 14, 1955.  
-- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+- von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
+
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 - Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.  
 

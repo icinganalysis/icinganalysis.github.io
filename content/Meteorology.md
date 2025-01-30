@@ -46,7 +46,7 @@ Reviews in this thread:
         >  review : [NACA-TN-2306]({filename}NACA-TN-2306.md)  
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
         >  review : [NACA-TN-2569]({filename}NACA-TN-2569.md)  
-    - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+    - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
         >  review : [NACA-TN-2738]({filename}NACA-TN-2738.md)  
     - Conclusions of the Meteorology of Icing Clouds Thread  
         >  review : [Conclusions of the Meteorology of Icing Clouds Thread]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  

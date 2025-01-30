@@ -99,7 +99,7 @@ While most of the NACA publications are available at the NTRS [^6], some are not
 - Gray, Vernon H.: "Heat Requirements for Ice Prevention on Gas-Heated Propellers". SAE preprint No. 424 (paper presented at SAE Annual Meeting), 1950.  
     - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  
     - It is available for purchase from the SAE.  
-- Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
+- Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)
     - This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876)  
 - Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
     - This is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
@@ -112,7 +112,7 @@ Links to reviews are included where applicable.
 
 - Meteorology of Icing Clouds  
 
-    - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+    - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
         > review: [NACA-TN-2738]({filename}NACA-TN-2738.md)  
     - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
         > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
@@ -134,7 +134,7 @@ Links to reviews are included where applicable.
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958.  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951.  
+    - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068858)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957.  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
@@ -162,7 +162,7 @@ Links to reviews are included where applicable.
 
     - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
         > review: [Heated Probes]({filename}Heated%20Probes.md)  
-    - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953.  
+    - Lewis, William, Perkins, Porter J., and Brun, Rinaldo J.: Procedure for Measuring Liquid-Water Content and Droplet Sizes in Super-cooled Clouds by Rotating Multicylinder Method. NACA-RM-E53D23, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068900)  
         > review: [NACA-RM-E53D23]({filename}NACA-RM-E53D23.md)  
     - McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
@@ -195,9 +195,9 @@ Links to reviews are included where applicable.
         > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
     - Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953.  
+    - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068682)  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953.  
+    - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068683)   
         > review: [Airfoils]({filename}airfoils.md)  
     - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).   
         > review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
@@ -215,9 +215,10 @@ Links to reviews are included where applicable.
         > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
     - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068691) 
         > review: [Airfoils]({filename}airfoils.md)  
-    - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955.  
+    - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068692)  
         > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)   
-    - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955.  
+    - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
+
         > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
     - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068694)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
@@ -235,7 +236,8 @@ Links to reviews are included where applicable.
         > review: [Airfoils]({filename}airfoils.md)  
     - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
         > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
-    - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957.  
+    - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068702)  
+
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)  
         > review: [Airfoils]({filename}airfoils.md)  
@@ -319,7 +321,7 @@ Links to reviews are included where applicable.
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
         > review: [Design Manuals]({filename}Design%20Manuals.md)  
-    - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
+    - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
         > review: [NACA-RM-E54I03]({filename}NACA-RM-E54I03.md)  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Heat Requirements for Ice Protection of a Cyclically Gas-Heated, 36 Swept Airfoil with Partial-Span Leading-Edge Slat. NACA-RM-E56B23, 1956.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930089163)  
@@ -364,7 +366,7 @@ Links to reviews are included where applicable.
 
 - Radome Icing Protection  
 
-    - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953.  
+    - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
     - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
         > review: [Component Icing]({filename}Component%20Ice%20Protection.md)  
 <!--
@@ -391,7 +393,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-1615]({filename}NACA-TN-1615.md)  
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
          review: [NACA-TN-2019]({filename}NACA-TN-2019.md)  
-      - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949.  
+      - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068720)  
          review: [NACA-TN-1947]({filename}NACA-TN-1947.md)  
     - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
          review: [NACA-TN-2855]({filename}NACA-TN-2855.md)  

@@ -270,7 +270,7 @@ NACA-RM-A54I23 cites 11 references:
 - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)
 - Weickmann, H. K., and aufm Kampe, H. J.: Physical Properties of Cumulus Clouds. Jour. of Meteorology, vol. 10, no. 3, June 1953, pp. 204-211.  
 - Zaitsev, V. A. (G. Belkov, trans.): Liquid Water Content and Distribution of Drops in Cumulus Clouds. NRC Tech. Translation TT-395, from Trudy Glavnci Geofizicheskoi Observatorfi No. 19(81), 1950, pp. 122-132.  
-- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952.  
+- Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
 - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
 - Fraser, D.: Analysis of Meteorological Design Requirements for Icing Protection Systems. University of Michigan Airplane Icing Information Course, Lecture No. l2a, 1953.  
 

@@ -217,7 +217,7 @@ An online search [^4] found 25 citations of NACA-WR-L-292.
 
 ## Notes
 
-[^1]: Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093051) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093051)  
+[^1]: Gulick, Beverly G.: Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil. NACA-WR-L-292, May 1938. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093051)  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932. [ntrs.nasa.go](https://ntrs.nasa.gov/citations/19930091490)  
 [^3]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^4]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+a+Simulated+Ice+Formation+on+the+Aerodynamic+Characteristics+of+an+Airfoil&btnG=)  

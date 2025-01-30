@@ -240,9 +240,9 @@ NACA-TN-2914 is cited by 8 publications in the literature [^8].
 ## Notes: 
 
 [^1]: 
-Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)  
+Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)  
 [^2]: 
-Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068713)   [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068713)  
+Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068713)  
 [^3]: 
 Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546) 
 [^4]: 

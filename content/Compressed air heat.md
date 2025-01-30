@@ -382,7 +382,7 @@ Three other NACA studies on compressed air heating for airfoils are worth mentio
 The same model as in NACA-RM-E51J29 was used, with some 
 variations in the internal heating. 
 
-- Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  
+- Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
     > review: [NACA-RM-E54I03]({filename}NACA-RM-E54I03.md)  
 
 The title is pretty descriptive. 

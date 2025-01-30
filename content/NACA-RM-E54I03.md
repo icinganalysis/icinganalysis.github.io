@@ -203,4 +203,4 @@ See also the [Ice Protection thread]({filename}ice%20protection.md) for several 
 
 ## Notes:  
 
-[^1]: Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
+[^1]: Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
