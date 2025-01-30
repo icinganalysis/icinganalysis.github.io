@@ -145,7 +145,7 @@ Links to reviews are included where applicable.
 
     - Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950.  
         > review: [NACA-TN-2234]({filename}NACA-TN-2234.md)  
-    - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950.  
+    - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068862)  
         > review: [NACA-TN-2142]({filename}NACA-TN-2142.md)  
     - Hacker, Paul T.: Experimental Values of the Surface Tension of Supercooled Water. NACA-TN-2510, 1951.  
         > review: [NACA-TN-2510]({filename}NACA-TN-2510.md)  
@@ -201,7 +201,7 @@ Links to reviews are included where applicable.
         > review: [Airfoils]({filename}airfoils.md)  
     - Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606).   
         > review: [NACA-TN-2904]({filename}NACA-TN-2904.md)  
-    - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953.  
+    - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)    
         > review: [NACA-TN-2903]({filename}NACA-TN-2903.md)  
     - Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  
         > review: [Airfoils]({filename}airfoils.md)  
@@ -278,9 +278,9 @@ Links to reviews are included where applicable.
 
 - Turbine-Type Engine and Inlet Icing Studies  
 
-    - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948.  
+    - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  
         > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
-    - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+    - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
         > review: [NACA-RM-E8C18]({filename}NACA-RM-E8C18.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630)  
         > review: [NACA-RM-E50I08]({filename}NACA-RM-E50I08.md)  
@@ -308,9 +308,9 @@ Links to reviews are included where applicable.
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.  
         > review: [Thermal Analysis and Surface Wettedness]({filename}Thermal%20Analysis.md)  
-    - Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953.  
+    - Callaghan, Edmund E., and Serafini, John S.: A Method for Rapid Determination of the Icing Limit of a Body in Terms of the Stream Conditions. NACA-TN-2914, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068713)    
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md)  
-    - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
+    - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)  
         > review: [NACA-TN-2914]({filename}NACA-TN-2914.md) (combined review with NACA-TN-2914)      
     - Ruggeri, Robert S.: De-Icing and Runback Characteristics of Three Cyclic Electric, External Deicing Boots Employing Chordwise Shedding. NACA-RM-E53C26, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068584)  
         > review: [Electrothermal Ice Protection]({filename}electrothermal.md)  
@@ -340,7 +340,7 @@ Links to reviews are included where applicable.
         > review: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
         > review: [Deicing boots and ice adhesion]({filename}Deicing%20boots%20and%20ice%20adhesion.md)  
-    - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.  
+    - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589).  
         > review: [NACA-TN-4155]({filename}NACA-TN-4151.md)  
@@ -374,7 +374,7 @@ Links to reviews are included where applicable.
 - Antenna icing  
 
     - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948.  
-    - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
+    - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068745)  
 <!--
         > review: [NACA-RM-E7H26a]({filename}NACA-RM-E7H26a.md)  
         > review: [NACA-RM-SE9D20]({filename}NACA-RM-SE9D20.md)  
@@ -400,15 +400,15 @@ Links to reviews are included where applicable.
 
 - Heat Transfer <a name="heat-transfer">   
 
-    - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950.  
+    - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068608)  
         > review: [NACA-TN-2126]({filename}NACA-TN-2126.md)
     - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
         > review: [NACA-TN-2799]({filename}NACA-TN-2799.md)  
-    - Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953.  
+    - Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724)  
         > review: [NACA-TN-3045]({filename}NACA-TN-3045.md)  
-    - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
+    - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)  
         > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
-    - Coles, Willard D.: Experimental Determination of Thermal Conductivity of Low-Density Ice. NACA-TN-3143, 1954.  
+    - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)  
         > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
@@ -454,6 +454,5 @@ Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 205
 [^4]:
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)  
 [^5]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)   
-[also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]  
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)    
 [^6]: National Technical Reports Server, [ntrs.nasa.gov](https://ntrs.nasa.gov/)  

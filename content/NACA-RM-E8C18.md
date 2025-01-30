@@ -157,4 +157,5 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190), 1948.  
+[^1]: Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
+

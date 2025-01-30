@@ -109,7 +109,7 @@ compared to the NACA publications.
 
 ## Notes  
 
-[^1]: Smith, E. L.: The Design of Fluid Anti-Icing Systems. Engine Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 11, University of Michigan Airplane Icing Information Course, 1953.  (32 pages) (includes errata sheet)  
+[^1]: Smith, E. L.: "The Design of Fluid Anti-Icing Systems". Engine Laboratory, National Aeronautical Research Establishment, Ottawa, Canada, Lecture No. 11, University of Michigan Airplane Icing Information Course, 1953.  (32 pages) (includes errata sheet)  
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages) 
 [^3]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^4]:

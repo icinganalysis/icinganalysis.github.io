@@ -64,7 +64,7 @@ Lewis laboratory.
 
 Reference 2 is:  
 
-- Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.  
+- Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)  
     > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
 
 >METHOD, APPARATUS, AND PROCEDURE
@@ -226,4 +226,4 @@ Reviews (combined): [NACA-TN-2914]({filename}NACA-TN-2914.md)
 
 ## Notes  
 
-[^1]: Coles, Willard D.: Experimental Determination of Thermal Conductivity of Low-Density Ice. NACA-TN-3143 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068644), 1954.  
+[^1]: Coles, Willard D.: Experimental Determination of Thermal Conductivity of Low-Density Ice. NACA-TN-3143, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068644)  

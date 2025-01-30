@@ -10,7 +10,7 @@ tags: radomes, antennas, icing tunnel, flight test
 
 These reviews are for studies of the effect of ice on radomes and antennas. 
 
-- Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949.  
+- Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068745)  
   > _"After 7 minutes of icing, however, one antenna element experienced a vibratory failure"_  
     >   review: [NACA-RM-SE9D20]({filename}NACA-RM-SE9D20.md)  
 - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948.  

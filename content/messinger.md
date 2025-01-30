@@ -426,7 +426,7 @@ Messinger cites 9 publications:
 
 Messinger is cited, surprisingly, only once by publications in the NACA Icing Publications Database [^9]:
 
-- Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.
+- Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)
 
 The single citation is surprising, as this paper is a close second to Langmuir and Blodgett [^5]
 for the most cited aircraft icing publication in the literature with 740 citations [^10]

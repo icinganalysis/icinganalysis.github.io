@@ -37,4 +37,4 @@ This also has an effect of making some them difficult to find online:
 I could not locate this on the NTRS.  
 It is available at (https://core.ac.uk/reader/42858720) (circa November, 2021)
 [^2]:
-Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958.
+Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)

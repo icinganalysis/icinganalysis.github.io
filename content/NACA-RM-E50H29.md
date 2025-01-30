@@ -237,5 +237,5 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068707), Dec. 1950.  
+[^1]: von Glahn, Uwe H., and Blatz, Robert E.: Investigation of Power Requirements for Ice Prevention and Cyclical De-Icing of Inlet Guide Vanes with Internal Electric Heaters. NACA-RM-E50H29, Dec. 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068707)  
 

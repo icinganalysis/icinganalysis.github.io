@@ -64,7 +64,7 @@ This may not be accurate in all cases, but it is difficult to sort out which co-
 
 ## Instruments (previously reviewed) {: #instruments } 
 
-- Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951.  
+- Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068728)  
     > review: [Heated probes]({filename}Heated%20Probes.md)
 - McCullough, Stuart, and Perkins, Porter J.: Flight Camera for Photographing Cloud Droplets in Natural Suspension in the Atmosphere. NACA-RM-E50K01a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086460)  
     > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  

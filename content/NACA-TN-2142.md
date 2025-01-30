@@ -247,4 +247,4 @@ The results from this publication are used in the next publication in this threa
 
 ## Notes  
 
-[^1]: Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142 [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068862), 1950.  
+[^1]: Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068862)  

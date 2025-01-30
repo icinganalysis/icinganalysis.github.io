@@ -209,7 +209,7 @@ NACA-RM-E50E03 cites 6 publications:
 - Naumann: Wlrkungsgrad von Diffusoren bel hohen Unterechallgeschwindigkeiten. PB Nr. 1705, ZWB (Berlin-Adlershof), Dez. 18, 1942.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 - Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949.  
-- Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948.  
+- Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
 
 NACA-RM-E56E11 cites 5 publications: 
 

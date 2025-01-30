@@ -243,7 +243,7 @@ An online search (scholar.google.com) found 15 citations for NACA-TN-1793.
 
 [^1]: Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)  
 [^2]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487) [also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]   
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)    
 [^3]: Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001. [faa.gov](https://www.faa.gov/sites/faa.gov/files/aircraft/air_cert/design_approvals/small_airplanes/aceReportAR-01-91.pdf)  
 [^4]: Anon.: "Aircraft Inflight Icing Terminology.", APPENDIX A - DISCUSSION OF ICING INTENSITY TERMS DEFINITIONS, SAE ARP5624, 2013 [www.sae.org](https://www.sae.org/standards/content/arp5624/)  
 

@@ -335,7 +335,7 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^5]: Anderson, David N.: Evaluation of Constant-Weber-Number Scaling for Icing Test. NASA-TM-107141 and AIAA-96-0636, 1996. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19960012178)  
 [^6]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  
 [^7]: 
-von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487) [also reprinted in NASA-TM-81651, but there the reproduction quality is poor.]   
+von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)    
 [^8]:
 Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
 [^9]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))      

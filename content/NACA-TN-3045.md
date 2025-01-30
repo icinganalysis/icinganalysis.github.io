@@ -118,7 +118,7 @@ Many recent sources just use 1.12 as the value of ke/kh, as we have seen previou
 
 NACA-TN-3045 cites 5 publications:  
 
-- Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953.  
+- Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)  
 - Donaldson, Coleman duP.: On the Form of the Turbulent Skin-Friction Law and Its Extension to Compressible Flows. NACA-TN-2692, 1952.  
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.  
 - Eckert, E. R. G.: Introduction to the Transfer of Heat and Mass. McGraw-Hill Book Co., Inc., 1950.  
@@ -126,14 +126,14 @@ NACA-TN-3045 cites 5 publications:
 
 NACA-TN-3045 is cited 2 times by publications in the NACA Icing Publications Database [^2]:
 
-- Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954.
+- Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)
 - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.
 
 NACA-TN-3045 is cited 4 times in the literature [^3].
 
 ## Notes  
 [^1]: 
-Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724).  
+Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724)  
 [^2]: 
 [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^3]: 

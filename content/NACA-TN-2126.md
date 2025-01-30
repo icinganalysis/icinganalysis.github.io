@@ -605,4 +605,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068608), 1950.  
+[^1]: Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068608)  
