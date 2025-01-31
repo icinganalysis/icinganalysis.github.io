@@ -10,7 +10,7 @@ This also has an effect of making some them difficult to find online:
 
 - Two NASA publications
     - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  
-    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964.  
+    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)
 
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
     - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  

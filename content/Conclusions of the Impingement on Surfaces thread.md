@@ -10,7 +10,9 @@ tags: impingement
 
 >The use of a modified water droplet inertia parameter Ko permits consolidation 
 into only a few graphs of most of the published water drop trajectory
-data. [^1]
+data.  
+_From Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. [^1]  
+(This is a candidate for ["The Greatest Thing That You Have (Probably) Never Read"]({filename}diversions.md))._
  
 To paraphrase [NACA-TN-3839]({filename}airfoils.md) [^2], the studies in this Impingement on Surfaces thread 
 "were a rather ad hoc collection of shapes and sizes". 
@@ -273,7 +275,7 @@ In the NACA literature, I found six citations of "Determination ...":
 - Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)  
 - Lewis, William, and Brun, Rinaldo J.: Impingement of Water Droplets on a Rectangular Half Body in a Two-Dimensional Incompressible Flow Field. NACA-TN-3658, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084877)    
-- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
+- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
 - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068702)  
 
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
@@ -285,7 +287,6 @@ This is the conclusion of the [Water Drop Impingement on Surfaces thread]({filen
 ## Notes  
 
 [^1]: Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0771182.pdf)  
-(This is a candidate for ["The Greatest Thing That You Have (Probably) Never Read"]({filename}diversions.md).)  
 [^2]: Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  

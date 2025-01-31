@@ -209,7 +209,7 @@ and Figure 10b (dry air) yields about 0.6 lbm/ft^2-hr.
 
 NACA-TN-3104 cites 11 publications:  
 
-- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068848)  
 - Colburn, Allan P.: A Method of Correlating Forced Convection Heat Transfer Data and a Comparison with Fluid Friction. Trans. Am. Inst. Chem. Eng., vol. XXIX, 1933, pp. 174-210.  
 - Chilton, T. H., and Colburn, Allan P.: Mass Transfer (Absorption) Coefficients. Ind. and Eng. Chem., vol. 26, no. 11, Nov. 1934, pp. 1183-1187.  
 - Baines, W. D.: A Literature Survey of Boundary-Layer Development on Smooth and Rough Surfaces at Zero Pressure Gradient. Iowa Inst. Hydraulic Res., Univ. Iowa, 1951. (Office Naval Res. Contract N8-onr-500.)  
@@ -224,7 +224,7 @@ NACA-TN-3104 cites 11 publications:
 NACA-TN-3104 is cited 2 times by publications in the NACA Icing Publications Database [^4]:
 
 - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)  
-- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
+- Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084131)  
 
 NACA-TN-3104 is cited 33 times in the literature [^4].
 

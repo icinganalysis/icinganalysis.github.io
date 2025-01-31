@@ -325,7 +325,7 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 [^7]: 
 [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1), [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)  
 [^8]: Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 65<sub>1</sub>-212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586).    
-[^9]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. I could not find a download for this on the nrts, it is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068590).  
+[^9]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)  
 [^10]:
 1st AIAA Ice Prediction Workshop in Conjunction with the AIAA AVIATION 2021 Forum All Virtual/Remote Participation 26-29 July 2021, [icepredictionworkshop.wordpress.com](https://icepredictionworkshop.wordpress.com/)  
 [^11]: Brumby RE. Wing Surface Roughness – Cause & Effect. D.C. Flight Approach, Jan. 1979. pp. 2-7.  

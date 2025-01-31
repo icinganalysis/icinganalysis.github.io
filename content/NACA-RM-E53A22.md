@@ -157,7 +157,7 @@ variables have been reported in references 4 and 5.
 
 References 4 and 5 are  
 
-- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+- Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068848)  
       > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
 - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
       > review: [NACA-TN-2738]({filename}NACA-TN-2738.md)  

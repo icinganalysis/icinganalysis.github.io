@@ -206,7 +206,7 @@ NACA-RM-E51E16 is cited by 10 publications in the NACA Icing Publications Databa
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
 - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589).  
-- Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958.  
+- Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
 
 An online search found NACA-RM-E51E16 cited by 18 publications [^6].  
 

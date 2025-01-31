@@ -186,7 +186,7 @@ SAE Preprint 225 and NASA-TM-D-2166 both cite the same 6 publications:
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 - Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
-- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
+- Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
 
 An online search found NASA-TM-D-2166 cited 47 times [^3]. 
 No citations for SAE Preprint 225 were found. 
@@ -210,7 +210,7 @@ and in the upcoming "Icing Wind Tunnel Test Thread".
 ## Notes:
 
 [^1]: Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957. [archive.org](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  
-[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. I could not find a download for this on the nrts, it is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068590).  
+[^2]: Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)  
 [^3]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Prediction+of+Aerodynamic+Penalties+Caused+by+Ice+Formations+on+Various+Airfoils&btnG=)  
 [^4]: Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850019527)  

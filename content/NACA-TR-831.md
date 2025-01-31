@@ -414,26 +414,26 @@ NACA-TR-831 cites 14 references:
 - Hales, K. C., and Mann, G.: Investigation of Wing De-icing By Means of Hot Air. TN No. S. M. E. 255, R. A. E., July 1944.
 - Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093553)
 - Ditton Laboratory Staff: Hot Air De-icing — Heat Transfer in the Double Skin. TN No. S. M. E. 208, R. A. E., Jan. 1944.
-- Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942)
+- Anon.: Note on Kinetic Heating with Particular Reference to Conditions of Icing. Tech. Note No. 674, R.A.E., June 1942. (NACA Reprint October 1942).
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.
 - Dorsey, N. Ernest: Properties of Ordinary Water-Substance. Reinhold Pub. Corp. (New York), 1940.
 - Hardy, J. K., Hales, K. C., and Mann, G.: Rate of Catch of Supercooled Water on Aerofoils and Cylinders in Flight Under Conditions of Icing. TN No. S. M. E. 207, R. A. E., Jan. 1944.
 - Squire, H. B.: Heat Transfer Calculation for Aerofoils. NACA-MRR-3E29 (R. A. E., Aero 1783), 1943. [abbottaerospace.com](https://www.abbottaerospace.com/downloads/arc-rm-1986-heat-transfer-calculation-for-aerofoils/)
 - Neel, Carr B., Jr.: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, I— Analysis of the Thermal Design for Wings, Empennage, and Windshield. NACA-ARR-A503, 1945.
 - Allen, H. J., and Look, Bonne C.: A Method for Calculating Heat Transfer in the Laminar Flow Region of Bodies. NACA-TR-764, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091843)
-- Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943.  
+- Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092970)  
 - Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.
 
 NACA-TR-831 is cited 8 times in the NACA Icing Publications Database [^9]: 
 
 - Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093553)
-- Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945
+- Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)
 - Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.
 - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.
 - Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068709)
 - Gelder, Thomas F., and Lewis, James P.: Comparison of Heat Transfer from Airfoil in Natural and Simulated Icing Conditions. NACA-TN-2480, 1951.
 - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)
-- Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.
+- Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)
 
 An online search found that NACA-TR-831 is cited 13 times in the literature [^10].  
 

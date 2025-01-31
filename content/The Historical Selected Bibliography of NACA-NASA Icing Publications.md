@@ -114,7 +114,7 @@ Links to reviews are included where applicable.
 
     - Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)
         > review: [NACA-TN-2738]({filename}NACA-TN-2738.md)  
-    - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951.  
+    - Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068848)  
         > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
     - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
         > review: [NACA-TN-1855]({filename}NACA-TN-1855.md)  
@@ -132,7 +132,7 @@ Links to reviews are included where applicable.
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958.  
+    - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J., and Kline, Dwight B.: Analysis of Meteorological Data Obtained During Flight in a Supercooled Stratiform Clouds of High Liquid-Water Content. NACA-RM-E51D18, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068858)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
@@ -153,7 +153,8 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2532]({filename}NACA-TN-2532.md)  
     - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952.  
         > review: [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md)  
-    - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953.  
+    - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068865)
+  
         > review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 
     - Hardy, J. K.: Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation. NACA-ARR-5G13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093546)  
         > review: [NACA-ARR-5G13]({filename}NACA-ARR-5G13.md)  
@@ -191,7 +192,7 @@ Links to reviews are included where applicable.
 
 - Impingement of Cloud Droplets  
 
-    - Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953.  
+    - Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068680)  
         > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
     - Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
         > review: [Airfoils]({filename}airfoils.md)  
@@ -205,7 +206,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2903]({filename}NACA-TN-2903.md)  
     - Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949.  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953.  
+    - Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068687)  
         > review: [Airfoils]({filename}airfoils.md)  
     - Brun, Rinaldo J., and Dorsch, Robert G.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 10 in Axisymmetric Flow. NACA-TN-3147, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083846)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
@@ -232,9 +233,9 @@ Links to reviews are included where applicable.
         > review: [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
     - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
         > review: [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
-    - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956.  
+    - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956.  
+    - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068701)  
         > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
     - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068702)  
 
@@ -256,9 +257,9 @@ Links to reviews are included where applicable.
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md#NACA-RM-E9C17)  
     - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
-    - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948.  
+    - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068620)  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
-    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948.  
+    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, III - 25-Percent Partitioned Blades. NACA-TN-1588, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068621)  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
     - Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947.  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)    
@@ -346,7 +347,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589).  
         > review: [NACA-TN-4155]({filename}NACA-TN-4151.md)  
-    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964.  
+    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)
         > review: [NASA-TM-D-2166]({filename}NASA-TM-D-2166.md)  
 
 - Windshield Ice Protection  
@@ -375,7 +376,7 @@ Links to reviews are included where applicable.
 
 - Antenna icing  
 
-    - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948.  
+    - Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085708)  
     - Gowan, W. H., Jr.: Vibration and Investigation of CAA Type V-I09 Very-High-Frequency Aircraft Antenna. NACA-RM-SE9D20. 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068745)  
 <!--
         > review: [NACA-RM-E7H26a]({filename}NACA-RM-E7H26a.md)  
@@ -384,7 +385,7 @@ Links to reviews are included where applicable.
 
 - Inlet and Vent Icing Protection  
 
-    - Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949.  
+    - Ruggeri, Robert S., von Glahn, Uwe H., and Rollin, Vern G.: Investigation of Aerodynamic and Icing Characteristics of Recessed Fuel-Vent Configurations. NACA-TN-1789, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068591)  
         > review: [Component Icing]({filename}Component%20Ice%20Protection.md)  
 
 - Jet Penetration  
@@ -404,7 +405,7 @@ Links to reviews are included where applicable.
 
     - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068608)  
         > review: [NACA-TN-2126]({filename}NACA-TN-2126.md)
-    - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952.  
+    - Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from Surface Heated to Prevent Icing. NACA-TN-2799, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083505)  
         > review: [NACA-TN-2799]({filename}NACA-TN-2799.md)  
     - Callaghan, Edmund E.: Analogy Between Mass and Heat Transfer with Turbulent Flow. NACA-TN-3045, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068724)  
         > review: [NACA-TN-3045]({filename}NACA-TN-3045.md)  
@@ -412,7 +413,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-3104]({filename}NACA-TN-3104.md)  
     - Coles, Willard D., and Ruggeri, Robert S.: Experimental Investigation of Sublimation of Ice at Subsonic and Supersonic Speeds and its Relation to Heat Transfer. NACA-TN-3104, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068725)  
         > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
-    - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulate High-Speed Flight Conditions. NACA-TN-3396, 1955.  
+    - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084131)  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
     - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  
         > this largely a preliminary version of NACA-TN-3837, and so it will not be separately reviewed)  
@@ -432,11 +433,11 @@ Links to reviews are included where applicable.
 
 - Miscellaneous  
 
-    - Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957.  
+    - Gray, Vernon H.: Correlation of Airfoil Ice Formations and Their Aerodynamic Effects With Impingement and Flight Conditions. SAE preprint No. 225 (paper presented at SAE National Aeronautics Meeting), October 1957. [archive.org](https://archive.org/details/nasa_techdoc_19670083891/page/n19/mode/2up).  
         > review: [SAE preprint No. 225]({filename}NASA-TM-D-2166.md)  
     - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
-    - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958.  
+    - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
         > review: [Airships](NACA-TN-4220.md)  
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
