@@ -208,7 +208,7 @@ This publication is cited four times per [scholar.google.com](https://scholar.go
 
 ## Notes  
 
-[^1]: Coles, Willard D.: Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System. NACA-TN-1790, 1949.  
+[^1]: Coles, Willard D.: Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System. NACA-TN-1790, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068626)  
 
 
 

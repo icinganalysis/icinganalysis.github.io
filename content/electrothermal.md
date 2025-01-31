@@ -627,14 +627,14 @@ There are other relevant publications that were not detailed herein.
 
 ### Propeller blades  
 
-- Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948.  
-- Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948.  
+- Lewis, James P.: De-Icing Effectiveness of External Electric Heaters for Propeller Blades. NACA-TN-1520, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068618)  
+- Lewis, James P., and Stevens, Howard C., Jr.: Icing and De-Icing of a Propeller with Internal Electric Blade Heaters. NACA-TN-1691, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068617)  
 - Dallas, Thomas, and Ellisman, Carl: Analysis and Preliminary Investigation of Eddy-Current Heating for Icing Protection of Axial-Flow-Compressor Blades. NACA-RM-E9EO6, 1949.  
 
 ### Analysis 
 
 - Scherrer, Richard: An Analytical Investigation of Thermal-Electric Means of Preventing Ice Formations on a Propeller Blade. NACA-ACR-4H31, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093557)  
-- Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953.  
+- Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with Internal Electric Heaters. NACA-TN-3025, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068624)  
 
 ## Citations  
 

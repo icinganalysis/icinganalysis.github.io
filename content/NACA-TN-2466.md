@@ -170,5 +170,5 @@ NACA-TN-2466 is cited 35 times, per [scholar.google.com](https://scholar.google.
 
 ## Notes  
 
-[^1]: Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951.  
+[^1]: Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068722)  
 

@@ -206,12 +206,12 @@ NACA-TN-1598 cites 7 publications:
 
 NACA-TN-1598 is cited once in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^2]  
 
-- Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950.  
+- Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625)  
 
 An online search [^3] found 23 citations of NACA-TN-1598. 
 
 ## Notes  
 
-[^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605).  
+[^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)  
 [^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
 [^3]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+Ice+Formations+on+Airplane+Performance+in+Level+Cruising+Flight&btnG=)  

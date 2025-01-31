@@ -271,7 +271,7 @@ NACA-TN-3837 is cited 11 times, per [scholar.google.com](https://scholar.google.
 
 There is also   
 
-- von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.
+- von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726)
 
 However, this largely a preliminary version of NACA-TN-3837, 
 and so it will not be separately reviewed. 

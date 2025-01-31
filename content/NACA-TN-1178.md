@@ -239,5 +239,5 @@ This publication is cited three times, per [scholar.google.com](https://scholar.
 
 ## Notes  
 
-[^1]: Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081946), 1947.  
+[^1]: Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081946)  
 

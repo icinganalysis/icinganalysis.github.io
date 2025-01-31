@@ -242,4 +242,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068706), October 1, 1955.  
+[^1]: Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068706)  

@@ -187,4 +187,4 @@ This is part of the [Properties of Water]({filename}Properties%20of%20water.md) 
 
 ## Notes  
 
-[^1]: Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068643), 1951.  
+[^1]: Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068643)  

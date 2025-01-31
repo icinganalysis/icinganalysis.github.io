@@ -351,7 +351,7 @@ An online search [^3] found 14 citations of NACA-RM-E53J30.
 
 ## Notes
 
-[^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972).  
+[^1]: von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972)  
 [^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
 [^3]: [](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effect+of+Ice+Formations+on+Section+Drag+of+Swept+NACA+63A-009+Airfoil+with+Partial-Span+Leading-Edge+Slat+for+Various+Modes+of+Thermal+Ice+Protection&btnG=)  
 
