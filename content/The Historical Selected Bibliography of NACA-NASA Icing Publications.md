@@ -425,8 +425,8 @@ Links to reviews are included where applicable.
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  
         > review: [NACA Conference on Aircraft Ice Prevention]({filename}NACA%20Conference%20on%20Aircraft%20Ice%20Prevention.md)   
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
-        - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.
-        - It is available for purchase from the SAE.
+        > The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  
+        > It is available for purchase from the SAE.  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
         > review: [FAA-ADS-4]({filename}ads4.md), [Design Manuals]({filename}Design%20Manuals.md)  
