@@ -118,19 +118,19 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2569]({filename}NACA-TN-2569.md)  
     - Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
         > review: [NACA-TN-1855]({filename}NACA-TN-1855.md)  
-    - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)
+    - Kline, Dwight B.: Investigation of Meteorological Conditions Associated with Aircraft Icing in Layer-Type Clouds for 1947-48 Winter. NACA-TN-1793, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082468)  
         > review: [NACA-TN-1793]({filename}NACA-TN-1793.md)  
-    - Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068851)
+    - Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068851)  
         > review: [NACA-TN-2306]({filename}NACA-TN-2306.md)  
-    - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082035)
+    - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082035)  
         > review: [NACA-TN-1391]({filename}NACA-TN-1391.md)  
-    - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)
+    - Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)  
         > review: [NACA-TN-1904]({filename}NACA-TN-1904.md)  
-    - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)
+    - Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)  
         > review: [NACA-TN-1424]({filename}NACA-TN-1424.md)  
-    - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)
+    - Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)
+    - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
@@ -151,7 +151,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2510]({filename}NACA-TN-2510.md)  
     - Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068643)  
         > review: [NACA-TN-2532]({filename}NACA-TN-2532.md)  
-    - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068864) 
+    - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068864)  
         > review: [NACA-RM-E51L17]({filename}NACA-RM-E51L17.md)  
     - Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068865)  
         > review: [NACA-TN-3024]({filename}NACA-TN-3024.md), [NACA-TN-3024 Evaporation]({filename}NACA-TN-3024_evaporation.md) 
@@ -252,7 +252,7 @@ Links to reviews are included where applicable.
         > mention: [Electrothermal Ice Protection]({filename}electrothermal.md)  
     - Perkins, Porter J., and Millenson, Morton B.: An Electric Meter Suitable for Flight Investigation of Propellers. NACA-RM-E9C17, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068736)  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md#NACA-RM-E9C17)  
-    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)
+    - Mulholland, Donald R., and Perkins, Porter J.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, I - Unpartitioned Blades. NACA-TN-1586, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068619)  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
     - Perkins, Porter J., and Mulholland, Donald R.: Investigation of Effectiveness of Air-Heating a Hollow Steel Propeller for Protection against Icing, II- 50-Percent Partitioned Blades. NACA-TN-1587, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068620)  
         > review: [Propeller publications by Porter Perkins]({filename}perkins%20propellers.md)  
@@ -288,7 +288,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-3837]({filename}NACA-TN-3837.md)  
     - Ruggeri, Robert S., and Lewis, James P.: Investigation of Heat Transfer from a Stationary and Rotating Conical Forebody. NACA-TN-4093, October 1, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068706)  
         > review: [NACA-TN-4093]({filename}NACA-TN-4093.md)  
-    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)
+    - von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)  
         > review: [NACA-RM-E51B12]({filename}NACA-RM-E51B12.md)  
     - Gelder, Thomas F.: Total Pressure Distortion and Recovery of Supersonic Nose Inlet with Conical Centerbody in Subsonic Icing Conditions. NACA-RM-E57G09, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093764)  
         > review: [NACA-RM-E57G09]({filename}NACA-RM-E57G09.md)  
@@ -343,7 +343,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-4151]({filename}NACA-TN-4151.md)  
     - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589).  
         > review: [NACA-TN-4155]({filename}NACA-TN-4151.md)  
-    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)
+    - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)  
         > review: [NASA-TM-D-2166]({filename}NASA-TM-D-2166.md)  
 
 - Windshield Ice Protection  
@@ -355,7 +355,7 @@ Links to reviews are included where applicable.
 
 - Cooling Fan Ice Protection  
 
-    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)
+    - Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)  
         > review: [NACA-TN-1246]({filename}NACA-TN-1246.md)  
         > mention: [Uses of NACA-Era Icing Wind Tunnels]({filename}uses_of_naca_icing_tunnels.md)        
 
@@ -425,8 +425,8 @@ Links to reviews are included where applicable.
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  
         > review: [NACA Conference on Aircraft Ice Prevention]({filename}NACA%20Conference%20on%20Aircraft%20Ice%20Prevention.md)   
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
-        - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  
-        - It is available for purchase from the SAE.  
+        - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.
+        - It is available for purchase from the SAE.
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
         > review: [FAA-ADS-4]({filename}ads4.md), [Design Manuals]({filename}Design%20Manuals.md)  
