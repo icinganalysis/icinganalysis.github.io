@@ -183,11 +183,11 @@ Links to reviews are included where applicable.
     - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Bergrun, Norman R.: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
-        > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
-        > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
-        > review: [Airfoil impingement drop distribution.md](airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
 
 - Impingement of Cloud Droplets  
 
@@ -225,7 +225,7 @@ Links to reviews are included where applicable.
         > review: [Impingement on Other Surfaces]({filename}NACA-TN-3658.md)  
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 0° Angle of Attack. NACA-TN-3586, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068696)  
         > review: [Airfoils]({filename}airfoils.md)  
-    - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697)
+    - Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697)  
         > review: [NACA-TR-1215]({filename}NACA-TR-1215.md), [NACA-TR-1215 Thermodynamics]({filename}NACA-TR-1215-Thermodynamics.md)  
     - Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092308) 
         > review: [Impingement in Engine Inlets]({filename}Impingement%20in%20Engine%20Inlets.md)  
