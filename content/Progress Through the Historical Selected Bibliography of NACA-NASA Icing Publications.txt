@@ -257,7 +257,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 - Radome Ice Protection
 
     - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
-    - Lewis, James P., and Blade, Robert J.: Experimental Investigation of Radome Icing and Icing Protection. NACA-RM-E52J31, 1953.  
+    - Lewis,James P., and Blade, Robert J.: "Experimental Investigation of Radome Icing and Icing Protection", NACA-RM-E52J31, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068607)
 
 - Antenna icing
 

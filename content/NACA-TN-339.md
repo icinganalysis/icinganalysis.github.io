@@ -340,7 +340,7 @@ NACA-TN-339 cites 12 publications:
 
 NACA-TN-339 is cited once in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md) [^2]  
 
-- Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by Means of Engine Exhaust Heat and a Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
+- Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by means of Engine Exhaust Heat and Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091477)  
 
 An online search [^3] found 9 citations of NACA-TN-339.
 
