@@ -297,10 +297,10 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 - Hunt, J. D.: "A Comparison of Particle Diagnostic Systems." AEDC-TR-80-33 (AD-AI04027), August 1981.  
 - Willbanks, C. E. and Schulz, R. J.: "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-1444 (AD-770069), November 1973.  
 - Stallabrass, J. R.: "Procedure for Allowing for the Evaporation from Water Droplets in an Engine Icing Test Cell." National Research Council of Canada (NRC) Report LTR-LT-129, January 1982.  
-- Brun, R. J., Serafini, J. S., and Gallagher, H. M.: "Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body." NACA TN 2903, March 1953.  
+- Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)  
 - Hobbs, P. V.: Ice Physics. Oxford University Press, Ely House, London, 1974.  
-- Sogin, H. H.: " A Design Manual for Thermal Anti-Icing Systems." Illinois Institute of Technology, WADC-TR-54-313, December 1954.  
-- Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979.  
+- Sogin, H. H.: "A Design Manual for Thermal Anti-Icing Systems." Illinois Institute of Technology, WADC-TR-54-313, December 1954. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD090156.xhtml#)  
+- Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979. [journals.ametsoc.org](https://journals.ametsoc.org/downloadpdf/view/journals/apme/22/12/1520-0450_1983_022_2053_tioaun_2_0_co_2.pdf)  
 - Cansdale, J. T. and Gent, R. W.: "Ice Accretion on Aerofoils in Two-Dimensional Compressible Flow--A Theoretical Model." Royal Aircraft Establishment Technical Report 82128, January 1983.  
 - Kreith, F.: Principles of Heat Transfer. Intext Educational Publishers, New York, 1973 (Third Edition)  
 

@@ -344,7 +344,7 @@ Bilanin cites 22 publications:
 - Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-9A05, 1949. [digital.library.unt.edu](https://digital.library.unt.edu/ark:/67531/metadc53095/m2/1/high_res_d/19660081498.pdf)  
 - Ruff, G. A.: Development of an Analytical Ice Accretion Prediction Method (LEWICE). Sverdrup Technology, Inc., LeRC Group Progress Report, February, 1986.  
 - MacAurthur, C. D.: Numerical Simulation of Airfoil Ice Accretion. AIAA-83-0112, January, 1983.  
-- Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979.  
+- Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979. [journals.ametsoc.org](https://journals.ametsoc.org/downloadpdf/view/journals/apme/22/12/1520-0450_1983_022_2053_tioaun_2_0_co_2.pdf)  
 - Bilanin, A. J.: Scaling Laws for Testing Airfoils Under Heavy Rainfall. Journal of Aircraft, Vol. 24, No. 1, January, 1987.  
 - Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971.
 - Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
