@@ -541,11 +541,11 @@ NACA-TN-4155 cites 12 publications:
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
 - Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729).  
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
-- Goett, Harry J.: Experimental Investigation of the Momentum Method for Determining Profile Drag. NACA-TR-660, 1939.   
-- Block, Myron J., and Katzoff, S.: Tables and Charts for the Evaluation of Profile Drag from Wake Surveys at High Subsonic Speeds. NACA-WR-L-107, 1945. (Supersedes NACA-RB-L5F15a.)  
-- Allen, H. J., and Vincenti, Walter G.: Wall Interference in a Two-Dimensional-Flow Wind Tunnel with Consideration of the Effect of Compressibility. NACA-TR-782, 1944. (Supersedes NACA-ARR-4K03.)  
-- Spreeman, Kenneth P.: Experimental Investigation at High Subsonic Speeds of the Effects of Leading-Edge Radius on the Aerodynamic Characteristics of a Sweptback-Wing - Fuselage Combination with Leading-Edge Flaps and Chord-Extensions. NACA-RM-L55E25a, 1955.  
-- McCullough, George B., and Gault, Donald E.: Boundary-Layer and Stalling Characteristics of the NACA 64A006 Airfoil Section. NACA-TN-1923, 1949.  
+- Goett, Harry J.: Experimental Investigation of the Momentum Method for Determining Profile Drag. NACA-TR-660, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091734)   
+- Block, Myron J., and Katzoff, S.: Tables and Charts for the Evaluation of Profile Drag from Wake Surveys at High Subsonic Speeds. NACA-WR-L-107, 1945. (Supersedes NACA-RB-L5F15a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092711)  
+- Allen, H. J., and Vincenti, Walter G.: Wall Interference in a Two-Dimensional-Flow Wind Tunnel with Consideration of the Effect of Compressibility. NACA-TR-782, 1944. (Supersedes NACA-ARR-4K03.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091861)  
+- Spreeman, Kenneth P.: Experimental Investigation at High Subsonic Speeds of the Effects of Leading-Edge Radius on the Aerodynamic Characteristics of a Sweptback-Wing - Fuselage Combination with Leading-Edge Flaps and Chord-Extensions. NACA-RM-L55E25a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088723)  
+- McCullough, George B., and Gault, Donald E.: Boundary-Layer and Stalling Characteristics of the NACA 64A006 Airfoil Section. NACA-TN-1923, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082600)  
 
 NACA-TN-4155 is cited 3 times in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^5]  
 

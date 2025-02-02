@@ -196,7 +196,7 @@ the propeller blades was 85 ounce-inches.
 
 NACA-TN-1598 cites 7 publications:  
 
-- Corson, Blake W. Jr., and Maynard, Julian D.: The Effect of Simulated Icing or Propeller Performance. NACA-TN-1084, 1946.  
+- Corson, Blake W. Jr., and Maynard, Julian D.: The Effect of Simulated Icing or Propeller Performance. NACA-TN-1084, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081700)  
 - Kanter, M.: Flight Performance on XB-25E Airplane No. 42-32281 In Natural Ice During February, March and April 1945. AAF TR No. 5403, Air Materiel Command, Array Air Forces, Dec. 17, 1945. (Available from Office of Technical Services, U. S. Dept. of Commerce, as PB No. 27065.)  
 - Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946.  
