@@ -503,7 +503,7 @@ This publication cites 6 references:
 - Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 - Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
-- Sherman, P., Klein, J. S., and Tribus, Myron: Determination of Drop Trajectories by Means of an Extension of Stokes' Law. Eng. Res. Inst. Air Res. and Dev. Command, USAF, Univ. Mich. Apr. 1952. (Contract AF 18 (600)-1, Proj. M992-D.)  
+- Sherman, P., Klein, J. S., and Tribus, Myron: Determination of Drop Trajectories by Means of an Extension of Stokes' Law. Eng. Res. Inst. Air Res. and Dev. Command, USAF, Univ. Mich. Apr. 1952. (Contract AF 18 (600)-1, Proj. M992-D.) [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/handle/2027.42/7569)  
 - Stoffel, G. J., "Determination of the Necessity of Tail Ice Protection on Commercial Jetliners", Procedings of the 5th Annual National Conference on Environmental Effects on Aircraft and Propulsion Systems, 1965.  
 
 I could not find a citation of this publication in the literature,
@@ -524,10 +524,11 @@ See also the review of the conference where this paper was presented,
 which stated:  
 >"The subject of aircraft ice protection has provoked much controversy and discourse among theorists, designers, laboratory and test engineers, and flight operations people".  
 
-See also  
-Laeschka, Boris; Jesse, R. : "Determination of Ice Shapes and Their Effects on the Aerodynamic Performance Characteristics for the Unprotected Tail of the A 300", 1974. [icas.org](http://www.icas.org/ICAS_ARCHIVE/ICAS1974/Page%20409%20Laschka_Jesse.pdf)  
+See also 
+"Determination of Ice Shapes and Their Effects on the Aerodynamic Performance Characteristics for the Unprotected Tail of the A 300" [^2] 
 for another ice shape evaluation of a jet transport. 
 
 ## Notes
 
 [^1]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[^2]: Laeschka, Boris; Jesse, R. : "Determination of Ice Shapes and Their Effects on the Aerodynamic Performance Characteristics for the Unprotected Tail of the A 300", 1974. [icas.org](http://www.icas.org/ICAS_ARCHIVE/ICAS1974/Page%20409%20Laschka_Jesse.pdf)  
