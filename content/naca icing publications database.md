@@ -122,7 +122,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 72. Boelter, L. M. K., Young, George, and Iversen, H. W.: An Investigation of Aircraft Heaters, XXVII - Distribution of Heat- Transfer Rate in the Entrance Section of a Circular Tube. NACA-TN-1451, 1948.  
 73. Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068718)  
 74. Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948.  
-75. Fleming, William A., and Saari, Martin J.: Inlet Icing and Effectiveness of Hot-Gas Bleedback for Ice Protection of Turbojet Engine. NACA-RM-E8J25c, 1948.  
+75. Fleming, William A., and Saari, Martin J.: Inlet Icing and Effectiveness of Hot-Gas Bleedback for Ice Protection of Turbojet Engine. NACA-RM-E8J25c, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085408)  
 76. Hensley, Reece V.: Mollier Diagram for Air Saturated with Water Vapor at Low Temperature. NACA-TN-1715, 1948.  
 77. Humble, Leroy V ., Lowdermilk, Warren H., and Grele, Milton D.: Heat Transfer from High-Temperature Surfaces to Fluids - I—Preliminary Investigation with Air in Inconel Tube with Rounded Entrance, inside Diameter of 0_4 Inch and Length of 24 Inches. NACA-RM-E7L31, 1948.  
 78. Kepple, W. L.: Determination of Aircraft Antenna Loads Produced by Natural Icing Conditions. NACA-RM-E7H26a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085708)  

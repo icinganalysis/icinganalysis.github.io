@@ -198,17 +198,17 @@ This technique has been refined and is still used today [^5].
 NACA-RM-E8A27 cites 4 publications:
 
 - von Glahn, Uwe H., and Renner, Clark E.: Development of a Protected Air Scoop for the Reduction of Induction-System Icing. NACA-TN-1134, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081783)  
-- Baals, Donald D., Smith, Norman F., and Wright, John B.: The Development and Application of High-Critical-Speed Nose Inlets. NACA-ACR-L5F30a, 1945.  
-- Cohen, Herbert N.: Investigation of Intake Ducts for a High-Speed Subsonic Jet-Propelled Airplane. NACA-RM-L7C24a, 1947.  
+- Baals, Donald D., Smith, Norman F., and Wright, John B.: The Development and Application of High-Critical-Speed Nose Inlets. NACA-ACR-L5F30a, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091984)  
+- Cohen, Herbert N.: Investigation of Intake Ducts for a High-Speed Subsonic Jet-Propelled Airplane. NACA-RM-L7C24a, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA800556.pdf)  
 - Stickley, A. R.: Some Remarks on the Physical Aspects of the Aircraft Icing Problem. Jour. Aero. Sci., Vol. 5, no. 11, Sept. 1938, pp. 442-446.  
 
 NACA-RM-E50E03 cites 6 publications: 
 
 - von Glahn, Uwe H.: Ice Protection of Turbojet Engines by Inertia Separation of Water, I - Alternate-Duct System. NACA-RM-E8A27, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085318)   
-- Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948.  
+- Callaghan, Edmund E., Ruggeri, Robert S., and Krebs, Richard P.: Experimental Investigation of the Hot-Gas Bleedback for Ice Protection of Turbojet Engines, I - Nacelle with Offset Air Inlet. NACA-RM-E8D13, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085408)  
 - Naumann: Wlrkungsgrad von Diffusoren bel hohen Unterechallgeschwindigkeiten. PB Nr. 1705, ZWB (Berlin-Adlershof), Dez. 18, 1942.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-- Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949.  
+- Sanders, Newell D., and Behun, Michael: Generalization of Turbojet- Engine Performance in Terms of Pumping Characteristics. NACA-TN-1927, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082605)  
 - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
 
 NACA-RM-E56E11 cites 5 publications: 
@@ -218,7 +218,7 @@ NACA-RM-E56E11 cites 5 publications:
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
 
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-- Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945.  
+- Abbott, Ira H., von Doenhoff, Albert E., and Stivers, Louis S., Jr.: Summary of Airfoil Data. NACA-TR-824, Mar. 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930090976)  
 
 ## Notes
 
