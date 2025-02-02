@@ -60,7 +60,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 10. Findeisen, W.: Meteorological-Physical Limitations of Icing in the Atmosphere. NACA-TM-885, 1939.  
 11. French Committee for the Study of Ice Formation: Report on Ice Formation on Aircraft. NACA-TN-919, 1939.  
 12. Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
-13. Jones, Robert T., and Cohen, Doris: A Graphical Method of Determining Pressure Distribution in Two-Dimensional Flow. NACA-TR-722, 1941.  
+13. Jones, Robert T., and Cohen, Doris: A Graphical Method of Determining Pressure Distribution in Two-Dimensional Flow. NACA-TR-722, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091800)  
 14. Rodert, Lewis A.: The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers. NACA-TN-799, 1941.  
 15. Chandler, H. C., Jr.: Survey of Aircraft Anti-icing Equipment. NACA restricted report, Feb. 27, 1942.  
 16. Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093519)  
@@ -221,7 +221,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 171. Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068689)    
 172. Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. NACA-TN-3130 (Presented at the Airplane Icing Information Course the University of Michigan 1953), 1954.  
 173. Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
-174. Serafini, John S.: Impingement of Water Droplets on Wedges and Double- Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.)  
+174. Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
 175. von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
 176. von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
 177. von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972)  
