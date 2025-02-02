@@ -119,7 +119,7 @@ Many recent sources just use 1.12 as the value of ke/kh, as we have seen previou
 NACA-TN-3045 cites 5 publications:  
 
 - Callaghan, Edmund E., and Serafini, John S.: Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow. NACA-TN-2861, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068583)  
-- Donaldson, Coleman duP.: On the Form of the Turbulent Skin-Friction Law and Its Extension to Compressible Flows. NACA-TN-2692, 1952.  
+- Donaldson, Coleman duP.: On the Form of the Turbulent Skin-Friction Law and Its Extension to Compressible Flows. NACA-TN-2692, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083989)  
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.  
 - Eckert, E. R. G.: Introduction to the Transfer of Heat and Mass. McGraw-Hill Book Co., Inc., 1950.  
 - von Kármán, Th.: Turbulence and Skin Friction. Jour. Aero. Sci., vol. 1, no. 1, Jan. 1934, pp. 1-20.  
