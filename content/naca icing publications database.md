@@ -72,7 +72,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 22. Essex, Henry A.: De-Icing of an Aircraft Engine Induction System. NACA-ARR-3H13, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093058)  
 23. Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093059)  
 24. Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093055)  
-25. Kimball, Leo B.: Icing Tests of Aircraft-Engine Induction Systems. NACA-WR-W-97, Jan. 1943.  
+25. Kimball, Leo B.: Icing Tests of Aircraft-Engine Induction Systems. NACA-WR-W-97, Jan. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093057)  
 26. Kushnick, Jerome L.: Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention. NACA-RB-3F24, 1943.  
 27. Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092970)  
 28. Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093545)  
@@ -107,7 +107,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 57. Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
 58. Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters, Part XIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, University of California, 1947.  
 59. Coles, Willard D.: Laboratory Investigation of Ice Formation and Elimination in the Induction System of a Large Twin-Engine Cargo Aircraft. NACA-TN-1427, 1947.  
-60. Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947.  
+60. Darsow, John F., and Selna, James: A Flight Investigation of the Thermal Performance of an Air-Heated Propeller. NACA-TN-1178, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081946)  
 61. Gray, Vernon H., and Campbell, B. G.: A Method for Estimating Heat Requirements for Ice Prevention on Gas-Heated Hollow Propeller Blades. NACA-TN-1494, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068622)  
 62. Jones, Alun R., Holdaway, George H., and Steinmetz, Charles P.: A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions. NACA-TN-1434, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068715)  
 63. Lewis, James P.: Wind-Tunnel Investigation of Icing of an Engine Cooling-Fan Installation. NACA-TN-1246, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068633)
