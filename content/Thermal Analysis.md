@@ -49,7 +49,7 @@ and other reviews:
     > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
 - "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions", NACA-TN-1472, 1947.  
     > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
-- "An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils", NACA-TN-1453, 1947.   
+- Boelter, L. M. K., Grossman, L. M., Martinelli, R. C., and Morrin, E. H.: An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils. NACA-TN-1453, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082086)   
     > review:  [Combustion heated air]({filename}Combustion%20heated%20air.md)  
 - "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow", NACA-TN-2861, 1953.  
     > review: [NACA-TN-2861]({filename}NACA-TN-2914.md)  

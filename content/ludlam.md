@@ -242,7 +242,7 @@ Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorolo
 [^4]:
 Brun, Rinaldo J., Lewis, William, Perkins, Porter J., and Serafini, John S.: Impingement of Cloud Droplets and Procedure for Measuring Liquid-Water Content and Droplet Sizes in Supercooled Clouds by Rotating Multicylinder Method. NACA-TR-1215, 1955. (Supersedes NACA TN’s 2903, 2904, and NACA-RM-E53D23) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068697)
 [^5]: 
-Mazin, I. P., A. V. Korolev, A. Heymsfield, G. A. Isaac, and S. G. Cober, 2001: Thermodynamics of Icing Cylinder for Measurements of Liquid Water Content in Supercooled Clouds. J. Atmospheric Ocean. Technol., 18, 543-558  
+Mazin, I. P., A. V. Korolev, A. Heymsfield, G. A. Isaac, and S. G. Cober, 2001: Thermodynamics of Icing Cylinder for Measurements of Liquid Water Content in Supercooled Clouds. J. Atmospheric Ocean. Technol., 18, 543-558 [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/atot/18/4/1520-0426_2001_018_0543_toicfm_2_0_co_2.xml)  
 [^6]: 
 Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
 [^7]: 

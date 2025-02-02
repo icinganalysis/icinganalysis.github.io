@@ -257,7 +257,7 @@ NACA-TN-1393 cites 14 references.
 - Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942.  
 - Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093545)  
 - Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093556)  
-- Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945.  
+- Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093554)  
 - Hardy, J. K.: Measurement of Free Water in Cloud Under Conditions of Icing. NACA-ARR-4I11, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093553)  
 - Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082035)
 - Lewis, William: Icing Zones in a Warm Front System with General Precipitation. NACA-TN-1392, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082036)  
