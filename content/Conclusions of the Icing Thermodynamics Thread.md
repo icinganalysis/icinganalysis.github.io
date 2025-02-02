@@ -331,6 +331,7 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^2]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)   
 [^3]: 
 Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions. NACA-TN-1472, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068709)  
+
 [^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
 [^5]: Anderson, David N.: Evaluation of Constant-Weber-Number Scaling for Icing Test. NASA-TM-107141 and AIAA-96-0636, 1996. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19960012178)  
 [^6]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  

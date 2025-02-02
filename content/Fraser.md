@@ -228,7 +228,7 @@ Fraser is cited 31 times in the literature [^6].
 ## Notes: 
 
 [^1]: 
-Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
+Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952. [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/bams/34/4/1520-0477-34_4_146.pdf)  
 [^2]: 
 Ludlam, F. H.: The Heat Economy of a Rimed Cylinder. Quart. Jour. Roy. Meteorological Soc., vol. 77, no.334., Oct. 1951.  
 [^3]: 

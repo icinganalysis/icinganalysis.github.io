@@ -245,7 +245,7 @@ NACA-TN-3592 cites 26 publications:
 - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
 
-- Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952.  
+- Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952. [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/bams/34/4/1520-0477-34_4_146.pdf)  
 - Rupe, Jack H.: Critical Impact Velocities of Water Droplets as a Problem in Injector-Spray Sampling. Prog. Rep. No. 4-80, Jet Prop. Lab., C.I.T., Sept. 29, 1950.  
 
 NACA-RM-E50K01a is cited by two publications in the NACA Icing Publications Database [^5]:   
@@ -260,9 +260,8 @@ NACA-RM-E51G05  is cited by one publication in the NACA Icing Publications Datab
 
 An online search found NACA-RM-E51G05 cited 5 times [^7].
 
-NACA-TN-3592 is cited by three publications in the NACA Icing Publications Database [^5]:   
+NACA-TN-3592 is cited by two publications in the NACA Icing Publications Database [^5]:   
   
-- Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)  
 - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)
 - Perkins, Porter J., Summary of Statistical Icing Cloud Data Measured over United States and North Atlantic, Pacific, and Artict Oceans during Routine Aircraft Operations. NASA-Memo-1-19-59E, January, 1959. https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up   
   
