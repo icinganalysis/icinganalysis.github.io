@@ -240,6 +240,7 @@ I do not know of further development or uses of this instrument.
 ## Citations  
 
 NACA-TN-2458 cites 13 publications.  
+
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 - Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Fornation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)  
 - Thomson, J. J., and Thomson, G. P.: Conduction of Electricity through Gases. Vols. I and II. Cambridge Univ. Press, 3d ed., 1928.  
@@ -255,6 +256,7 @@ NACA-TN-2458 cites 13 publications.
 - Lamb, Horace: Hydrodynamics. Dover Pub., 6th ed., 1945.  
 
 NACA-TN-2458 is cited once in the NACA Icing Publications Database [^2]:  
+
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
 
 An online search found NACA-TN-2458 cited three times. [^3]  

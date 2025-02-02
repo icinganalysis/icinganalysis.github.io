@@ -183,8 +183,8 @@ In the audience was Ramon Wilder, who two presentations
 later would discuss data on the ice shapes for the 747 jumbo jet, 
 which was about to receive certification and enter service.
 
-I have not been able to find Messinger's 1952 presentation, but I speculate that it was similar to [^3].
-[^3] is the second most cited of all papers on aircraft icing (cited 733 times [^4]), 
+I have not been able to find Messinger's 1952 presentation, but I speculate that it was similar to [^3], 
+which is the second most cited of all papers on aircraft icing (cited 733 times [^4]), 
 second only to Langmuir and Blodgett [^5] (cited 740 times [^6]).  
  
 Messinger could not resist at least expressing an aspiration, if not a prediction:
@@ -214,7 +214,7 @@ These are likely candidates for future [Diversions]({filename}/diversions.md)
 
 ## Notes:
 [^1]:
-Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]:
 Jeck, Richard K.: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001. [faa.gov](https://www.faa.gov/sites/faa.gov/files/aircraft/air_cert/design_approvals/small_airplanes/aceReportAR-01-91.pdf)  
 [^3]:

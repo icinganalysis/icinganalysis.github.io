@@ -258,7 +258,7 @@ Langmuir cites 8 references:
 - Langmuir, Irving: OSRD report on Screening Smokes No. 490, Dated October 5, 1942 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADB811463.pdf)  
 - Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
 - Humphreys, W. J.: Physics of the Air. J. B. Lippincott Co., 1920.  
-- Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940.  
+- Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
 - Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics, NACA-TR-253, 1927.  
 
 An online search [^3] found "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air" cited by 24 publications.

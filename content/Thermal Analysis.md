@@ -49,7 +49,7 @@ and other reviews:
     > review: [NACA-TR-831]({filename}NACA-TR-831.md)  
 - "The Calculation of the Heat Required for Wing Thermal Ice Prevention in Specified Icing Conditions", NACA-TN-1472, 1947.  
     > review: [NACA-TN-1472]({filename}NACA-TN-1472.md)  
-- "An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils", NACA-TN-1453, 1948.   
+- "An Investigation of Aircraft Heaters XXIX - Comparison of Several Methods of Calculating Heat Losses from Airfoils", NACA-TN-1453, 1947.   
     > review:  [Combustion heated air]({filename}Combustion%20heated%20air.md)  
 - "Analytical Investigation of Icing Limit for Diamond Shaped Airfoil in Transonic and Supersonic Flow", NACA-TN-2861, 1953.  
     > review: [NACA-TN-2861]({filename}NACA-TN-2914.md)  
@@ -397,7 +397,7 @@ For running wet conditions,
 the assumed value of fraction wetted can have a significant effect on calculated values. 
 
 ## See also  
-- Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942.  
+- Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093519)  
 - Gray, Vernon H.: Improvements in Heat Transfer for Anti-Icing of Gas-Heated Airfoils with Internal Fins and Partitions. NACA-TN-2126, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068608)  
 - Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
 - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
