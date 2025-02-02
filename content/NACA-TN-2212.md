@@ -227,7 +227,8 @@ See also [Propeller publications by Porter Perkins]({filename}perkins%20propelle
 
 ## Notes  
 
-[^1]: Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625), 1950.  
 Note that the download from ntrs.nasa.gov has the correct 80 pages from NACA-TN-2212, 
 but 54 pages of NACA-TN-2185 are appended.  
+
+[^1]: Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625)  
 
