@@ -206,12 +206,12 @@ Regardless of the details, the Cl_max reductions are large for these airfoil sec
 
 NACA-WR-L-292 cites one reference.
 
-- DeFrance, Smith J.: The NACA Full-Scale Wind Tunnel. NACA-TR-459, 1933.  
+- DeFrance, Smith J.: The NACA Full-Scale Wind Tunnel. NACA-TR-459, 1933. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091534)  
 
 NACA-WR-L-292 is cited by two references in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^3]
 
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625)  
-- Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
+- Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586)  
 
 An online search [^4] found 25 citations of NACA-WR-L-292.
 

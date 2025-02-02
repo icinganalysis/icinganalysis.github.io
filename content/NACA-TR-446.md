@@ -131,15 +131,17 @@ both with and without a protuberance.
 ## Citations
 
 NACA-TR-446 cites 5 references.  
+
 - Ower, E.: Interference. Roy. Aero. Soc. Jour., July, 1932.  
 - Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932. [ntrs.nasa.go](https://ntrs.nasa.gov/citations/19930091490)  
-- Jacobs, Eastman N.: Tests of Six Symmetrical Airfoils in the Variable-Density Wind Tunnel. NACA-TR-385, 1931.  
+- Jacobs, Eastman N.: Tests of Six Symmetrical Airfoils in the Variable-Density Wind Tunnel. NACA-TN-385, 1931. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081229)  
 - Wieselberger, C., and Betz, A.: Ergebnisse der Aerodynamischen Versuchsanstalt zu Gottingen. Oldenburg (Munchen), 1923. II Liferung, pp. 33-34.  
-- Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931.  
+- Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091485)  
 
 NACA-TR-446 is cited 5 times in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^4]  
+
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625)  
-- Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
+- Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586)  
 - von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972)  
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  

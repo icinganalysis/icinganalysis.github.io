@@ -203,7 +203,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 153. Eckert, E. R. G., and Livingood, John N. B.: Comparison of Convection-, Transpiration-, and Film-Cooling Methods with Air as Coolant. NACA-TN-3010, 1953.  
 154. Gelder, Thomas F., Lewis, James P., and Koutz, Stanley L.: Icing Protection for a Turbojet Transport Airplane: Heating Requirements, Methods of Protection, and Performance Penalties. NACA-TN-2866, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083662)  
 155. Gray, Vernon H., and Bowden, Dean T.: Comparison of Several Methods of Cyclic De-Icing of a Gas-Heated Airfoil. NACA-RM-E53C27, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068601)  
-156. Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953.  
+156. Gray, Vernon H., and von Glahn, Uwe H.: Effect of Ice and Frost Formations on Drag of NACA 651_212 Airfoil for Various Modes of Thermal Ice Protection. NACA-TN-2962, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068586)  
 157. Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068680)  
 158. Lewis, James P.: An Analytical Study of Heat Requirements for Icing Protection of Radomes. NACA-RM-E53A22, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930094385)
 159. Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930087831)    
