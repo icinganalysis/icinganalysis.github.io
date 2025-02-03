@@ -103,15 +103,15 @@ Many are not included in [The Historical Selected Bibliography of NACA-NASA Icin
 
 - "The Icing Problem in Aircraft Induction Systems", SAE Transactions, Vol 50, 1942.  
 - "Icing Tests of Aircraft-Engine Induction Systems", NACA-WR-W-97, Jan. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093057)  
-- "De-Icing of an Aircraft Engine Induction System", NACA-ARR-3H13, 1943.  
-- "A Laboratory Investigation of Icing and Heated-Air De-Icing of a Chandler-Evans 1900 CPB-3 Carburetor Mounted on a Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J03, 1944.  
-- "A Laboratory Investigation of the Icing Characteristic of the Bendix-Stromberg Carburetor Model PD-12F5 with the Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J18 , 1944.  
-- "Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, I- Description of Setup and Testing Technique", NACA-MR-E5L19, 1945.  
-- "Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, III- Heated Air as a Mean of De-Icing the Carburetor and Inlet Elbow", NACA-MR-E5L19, 1945.  
-- "Laboratory Investigation of Ice Formation and Elimination in the Induction Systems of a Large Twin-Engine Cargo Aircraft", NACA-TN-1427, 1947.
-- "Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System", NACA-TN-1790, 1949.  
-- "Icing-Protection Requirements for Reciprocating-Engine Induction Systems", NACA-TR-982, 1950. (Supersedes NACA-TN-1993.)  
-- "Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop", NACA-RM-E53E07, 1953.  
+- "Essex, Henry A.: De-Icing of an Aircraft Engine Induction System. NACA-ARR-3H13, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093058)  
+- "A Laboratory Investigation of Icing and Heated-Air De-Icing of a Chandler-Evans 1900 CPB-3 Carburetor Mounted on a Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J03, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093575)  
+- "A Laboratory Investigation of the Icing Characteristic of the Bendix-Stromberg Carburetor Model PD-12F5 with the Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J18, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093065)  
+- "Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, I- Description of Setup and Testing Technique", NACA-MR-E5L13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093100)  
+- "Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, III- Heated Air as a Mean of De-Icing the Carburetor and Inlet Elbow", NACA-MR-E5L19, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093069)  
+- "Laboratory Investigation of Ice Formation and Elimination in the Induction Systems of a Large Twin-Engine Cargo Aircraft", NACA-TN-1427, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082173)
+- "Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System", NACA-TN-1790, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068626)  
+- "Icing-Protection Requirements for Reciprocating-Engine Induction Systems". NACA-TR-982, 1950. (Supersedes NACA-TN-1993.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068627)  
+- "Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop", NACA-RM-E53E07, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930087831)  
 
 I will briefly review selected publications.  
 
@@ -291,7 +291,7 @@ NACA-TN-55 as under-appreciated, "almost lost gems" of the NACA-era.
 [^1]: Attributed to S. W. Sparrow in 
 "Icing Problems in Aircraft Induction Systems" [^2]. 
 However, a citation was not included, and I have not been able to find the 1920 publication. 
-NACA-TN-55, by Sparrow and published in 1921, did not include the quote.  
+NACA-TN-55 [^3], by Sparrow and published in 1921, did not include the quote.  
 [^2]: Kimball, Leo B.: "Icing Problems in Aircraft Induction Systems". SAE Transactions
 Vol. 50 (1942), pp. 40-51 (12 pages).  
 [^3]: Sparrow, Stanwood S.: "Airplane Crashes: Engine Troubles. A Possible Explanation". NACA-TN-55, 1921. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930080847)    
