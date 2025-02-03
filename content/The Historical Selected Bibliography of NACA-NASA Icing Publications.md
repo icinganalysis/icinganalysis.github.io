@@ -405,7 +405,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-3143]({filename}NACA-TN-3143.md)  
     - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084131)  
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
-    - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726)  
+    - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726)  
         > this largely a preliminary version of NACA-TN-3837, and so it will not be separately reviewed)  
         > mention: [NACA-TN-3837.md]({filename}NACA-TN-3837.md)   
         > mention: [Engine Inlet Icing]({filename}Engine%20Inlet%20Icing.md)   

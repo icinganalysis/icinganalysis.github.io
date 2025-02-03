@@ -394,7 +394,7 @@ including windshield heating.
 
 This has more details on calculations for air-heated windshields.
 
-- Ruggeri, Robert S.: "Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast", NACA-RM-E55E17a, July 25, 1955.  
+- Ruggeri, Robert S.: Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast. NACA-RM-E55E17a, July 25, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068716)  
 
     > review: [NACA-RM-E55E17a]({filename}NACA-RM-E55E17a.md)  
 

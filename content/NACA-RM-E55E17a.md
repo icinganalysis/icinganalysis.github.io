@@ -263,7 +263,7 @@ One citation for NACA-RM-E55E17a was found at [scholar.google.com](https://schol
 
 The citation was  
 
-- Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
+- Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)  
 
 NACA-RM-E55E17a does not cite any publications. 
 Author Ruggeri (and frequent coauthor Callaghan) on prior publications had carefully noted citations and precedents. 

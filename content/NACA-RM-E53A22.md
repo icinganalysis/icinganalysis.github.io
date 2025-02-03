@@ -226,9 +226,9 @@ of the radomes.
 unpublished experimental data obtained from tests of similar bodies
 in the icing research tunnel.  
 
-The heat transfer data is perhaps in NACA-EM-E53F02, which cites NACA-RM-E53A22 and was published later in the year 1953.  
+The heat transfer data is perhaps in NACA-RM-E53F02, which cites NACA-RM-E53A22 and was published later in the year 1953.  
 
-- von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-EM-E53F02, 1953.  
+- von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726)  
 
 >RESULTS AND DISCUSSION  
 > 

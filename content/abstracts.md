@@ -1873,5 +1873,5 @@ and flight in simulated icing.
 
 ## Notes  
 
-[^1]: Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180), August, 1981.  
+[^1]: Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)  
 
