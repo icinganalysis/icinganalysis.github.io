@@ -198,17 +198,17 @@ airfoil thickness because h increases faster than ΔY0, but since mass of ice ac
 proportional to ΔY0, it is essentially independent of airfoil thickness for Ko
 increasing airfoil thickness for larger Ko.
 
-![Figure 2.4. Ko BASED ON MVD FOR SEVERAL CHORD SIZES.
+![Figure 2-4. Ko BASED ON MVD FOR SEVERAL CHORD SIZES.
 For 5.58 foot chord airfoil, 20 micrometer drop size and 220 KTAS airspeed, the Ko value is close to 0.01.
-There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202.4.png)  
+There are circles on the right side of the figure that are holes for storing the page in a 3-ring binder.](images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-4.png)  
 
-![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-60.png)  
+![Figure 2-60. AIRFOIL PROFILES FOR IMPINGEMENT PARAMETER PLOTS IN FIGURES 2-61 THROUGH 2-63.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-60.png)  
 
-![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-61.png)  
+![Figure 2-61. MAXIMUM IMPINGEMENT EFFICIENCY FOR AIRFOILS OF VARIOUS LEADING EDGE RADIUS.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-61.png)  
 
-![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-62.png)  
+![Figure 2-62. COLLECTION EFFICIENCY FOR AIRFOILS AS A FUNCTION OF MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-62.png)  
 
-![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-63.png)  
+![Figure 2-63. AMOUNT OF DROPLET IMPINGEMENT AS A FUNCTION OF AIRFOIL MAXIMUM THICKNESS.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-63.png)  
 
 I will emphasize: 
 
