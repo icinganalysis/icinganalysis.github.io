@@ -1,7 +1,7 @@
 Title: NACA-TN-1793   
 Date: 2023-05-01 12:00  
 Category: NACA  
-tags: meteorology  
+tags: meteorology, icing intensity  
 
 ### _"Complete information concerning the fundamental physical processes that determine the structure of clouds and cloud systems has necessitated a statistical approach to the problem."_  
 
