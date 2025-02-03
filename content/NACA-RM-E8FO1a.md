@@ -171,4 +171,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  
+[^1]: Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8F01a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  

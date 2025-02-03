@@ -168,7 +168,7 @@ Links to reviews are included where applicable.
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Perkins, Porter J.: Flight Instrument for Measurement of Liquid-Water Content in Clouds at Temperatures Above and Below Freezing. NACA-RM-E50J12a, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068728)  
         > review: [Heated probes]({filename}Heated%20Probes.md)  
-    - Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729).  
+    - Perkins, Porter J., McCullough, Stuart, and Lewis, Ralph D.: A Simplified Instrument for Recording and Indicating Frequency and Intensity of Icing Conditions Encountered in Flight. NACA-RM-E51E16, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068729)  
         > review: [NACA-RM-E51E16]({filename}modified%20pressure%20probe.md)  
     - Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068730)  
         > review: [NACA-TN-2458]({filename}NACA-TN-2458.md)  
@@ -278,7 +278,7 @@ Links to reviews are included where applicable.
 
 - Turbine-Type Engine and Inlet Icing Studies  
 
-    - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8FO1a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  
+    - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8F01a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  
         > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
     - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
         > review: [NACA-RM-E8C18]({filename}NACA-RM-E8C18.md)  
