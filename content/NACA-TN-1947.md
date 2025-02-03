@@ -162,21 +162,21 @@ discharging into both a still and a moving air stream.
 various shapes in terms of pressure ratio and Jet Reynolds number.  
 >2. Agreement was obtained between the experimental results for
 three-dimensional flow with circular orifices and the theoretical
-results for two-dimensional flow.
+results for two-dimensional flow.  
 >3. The flow coefficient increased linearly with increasing
 pressure ratio for pressure ratios up to choking. A transition
 region was obtained at pressure ratios slightly higher than
 choking and the flow-coefficient variation again became linear with
-pressure ratio for the high values of pressure ratio.
+pressure ratio for the high values of pressure ratio.  
 >4. The flow coefficient Increased more rapidly at the low
-pressure ratios than at high pressure ratios.
+pressure ratios than at high pressure ratios.  
 >5. The flow coefficient decreased with Increasing jet Reynolds
-number at constant pressure ratios.
+number at constant pressure ratios.  
 >6. For a particular value of pressure ratio and jet total
-temperature, the ellipses yielded the highest flow coefficients.
+temperature, the ellipses yielded the highest flow coefficients.  
 >7. No effect of stream velocity on flow coefficient was
 obtained, provided that the proper outlet static pressure was
-utilized.
+utilized.  
 
 ## Citations  
 

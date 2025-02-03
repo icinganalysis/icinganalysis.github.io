@@ -401,7 +401,8 @@ weight penalties.
 NACA-RM-E51B12 is cited once, per [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA+Investigations+of+Icing-Protection+Systems+for+Turbojet-Engine+Installations&btnG=).  
 
 The single citations is:  
-Potapczuk, Mark G.: “Aircraft Icing Research at NASA Glenn Research Center.” Journal of Aerospace Engineering 26 (2013): 260-276.  
+
+- Potapczuk, Mark G.: “Aircraft Icing Research at NASA Glenn Research Center.” Journal of Aerospace Engineering 26 (2013): 260-276.  
 
 I find it hard to believe that a publication of this length and quality could languish virtually unnoticed for decades.  
 

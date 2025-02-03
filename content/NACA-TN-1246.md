@@ -325,21 +325,21 @@ stator vanes was completely ineffective.
 
 > The results of an icing investigation of a conventional radial-engine 
 cooling-fan installation in the icing research tunnel indicate
-that:
+that:  
 >1. The icing of the unprotected installation presents a serious
 operational problem. Reduction in air flow below the minimum value
 required for adequate engine cooling occurred within 2 minutes and
 complete stoppage of the cooling-air flow through the fan assembly
-occurred within 5 minutes under normal icing conditions.
+occurred within 5 minutes under normal icing conditions.  
 >2. Steam de-icing of the cowling lip and inlet duct showed the
-feasibility of hot gas de-icing for this portion of the assembly.
+feasibility of hot gas de-icing for this portion of the assembly.  
 >3. Alcohol de-icing of the fan proved to be ineffective and,
 in some cases, increased the icing problem by causing large 
-formations on the stator vanes.
+formations on the stator vanes.  
 >4. Electrical heat do-icing was the most promising method of
 de-icing the blades. The fan blades required a minimum power density
 of 6 watts per square inch but for the stator vanes this power
-density proved insufficient.
+density proved insufficient.  
 
 ## Citations  
 
