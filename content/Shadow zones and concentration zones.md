@@ -229,9 +229,11 @@ The ice shapes in Figure 1 show what a continuous, natural distribution produces
 ## Related  
 
 For a study on the effect of shadow zones on instrument locations, see:   
+
 - Cook, Donald: Unusual natural icing encounters during Boeing 777 flight tests. 35th Aerospace Sciences Meeting and Exhibit. AIAA-97-0304. 1997. [arc.aiaa.org](https://arc.aiaa.org/doi/abs/10.2514/6.1997-304)  
 
 For a more recent 3D study on shadow zones, see:  
+
 - Jackson, Darren, et al.: Certification and integration aspects of a primary ice detection system. 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0398. 2001. [arc.aiaa.org](https://arc.aiaa.org/doi/10.2514/6.2001-398)   
 
 ## Citations  
