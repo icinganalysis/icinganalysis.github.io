@@ -61,7 +61,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 11. French Committee for the Study of Ice Formation: Report on Ice Formation on Aircraft. NACA-TN-919, 1939.  
 12. Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
 13. Jones, Robert T., and Cohen, Doris: A Graphical Method of Determining Pressure Distribution in Two-Dimensional Flow. NACA-TR-722, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091800)  
-14. Rodert, Lewis A.: The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers. NACA-TN-799, 1941.  
+14. Rodert, Lewis A.: The Effects of Aerodynamic Heating on Ice Formations on Airplane Propellers. NACA-TN-799, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081671)  
 15. Chandler, H. C., Jr.: Survey of Aircraft Anti-icing Equipment. NACA restricted report, Feb. 27, 1942.  
 16. Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093519)  
 17. Martinelli, R. C., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, V-Theory and Use of Heat Meters for the Measurement of Rates of Heat Transfer which are Independent of Time. NACA-WR-W-11, Dec. 1942.  
@@ -73,7 +73,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 23. Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-17F Airplane. NACA-ARR-3H24, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093059)  
 24. Jones, Alun R., and Rodert, Lewis A.: Development of Thermal Ice-Prevention Equipment for the B-24D Airplane. NACA-WR-A-35, Feb. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093055)  
 25. Kimball, Leo B.: Icing Tests of Aircraft-Engine Induction Systems. NACA-WR-W-97, Jan. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093057)  
-26. Kushnick, Jerome L.: Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention. NACA-RB-3F24, 1943.  
+26. Kushnick, Jerome L.: Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention, NACA-RB-3F24, 1943 (also published as NACA-WR-A-56). [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093565)  
 27. Martinelli, R. C., Guibert, A. G., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, VIII - A Simplified Method for the Calculation of the Unit Thermal Conductance over Wings. NACA-WR-W-14, Mar. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092970)  
 28. Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093545)  
 29. Schmidt, Ernst, and Wenner, Karl: Heat Transfer over the Circumference of a Heated Cylinder in Transverse Flow. NACA-TM-1050, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20000043165)  

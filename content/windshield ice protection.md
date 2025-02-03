@@ -390,15 +390,13 @@ including windshield heating.
 
 ## See also  
 
-- Kushnick, Jerome L.: "Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention", NACA-RB-3F24, 1943 (also published as NACA-WR-A-56).  
+- Kushnick, Jerome L.: Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention, NACA-RB-3F24, 1943 (also published as NACA-WR-A-56). [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093565)  
 
 This has more details on calculations for air-heated windshields.
 
 - Ruggeri, Robert S.: "Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast", NACA-RM-E55E17a, July 25, 1955.  
 
-<!--
     > review: [NACA-RM-E55E17a]({filename}NACA-RM-E55E17a.md)  
--->
 
 Not specifically about icing, but this has some similarities to the external discharge system of NACA-TN-1434. 
 

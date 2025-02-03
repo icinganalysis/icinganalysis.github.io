@@ -108,13 +108,6 @@ _"Alcohol as a means of protection against ice formation on propeller blades is 
 
 _"ice on the airplane windshield ... is known to be a problem in urgent need of solution."_  
 
-<!--
-- Rodert, Lewis A.: "An Investigation of the Prevention of Ice on the Airplane Windshield", NACA-SR-130, 1938. Also NACA-TN-754, 1940.  
-- "Thermodynamic Design of Double-Panel, Air-Heated Windshields for Ice Prevention", NACA-RB-3F24, 1943.  
-- "Preliminary Data on Rain Deflection from Aircraft Windshields by Means of High Velocity Jet-Air Blast", NACA-RM-E55E17a, July 25, 1955.  
-- "A Method for Calculating the Heat Required for Windshield Thermal Ice Prevention Based on Extensive Flight Tests in Natural—Icing Conditions", NACA-TN-1434, 1947.  
--->
-
 ## [Component Tests]({filename}Component Ice Protection.md)  
 
 _"I am surprised to find that there are so many details which have not been anticipated before the de-icing tests were started." (1942)_  
