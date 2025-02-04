@@ -103,7 +103,7 @@ Many are not included in [The Historical Selected Bibliography of NACA-NASA Icin
 
 - "The Icing Problem in Aircraft Induction Systems", SAE Transactions, Vol 50, 1942.  
 - "Icing Tests of Aircraft-Engine Induction Systems", NACA-WR-W-97, Jan. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093057)  
-- "Essex, Henry A.: De-Icing of an Aircraft Engine Induction System. NACA-ARR-3H13, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093058)  
+- "De-Icing of an Aircraft Engine Induction System." NACA-ARR-3H13, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093058)  
 - "A Laboratory Investigation of Icing and Heated-Air De-Icing of a Chandler-Evans 1900 CPB-3 Carburetor Mounted on a Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J03, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093575)  
 - "A Laboratory Investigation of the Icing Characteristic of the Bendix-Stromberg Carburetor Model PD-12F5 with the Pratt & Whitney R-1830-C4 Intermediate Rear Engine Section", NACA-ARR-E4J18, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093065)  
 - "Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, I- Description of Setup and Testing Technique", NACA-MR-E5L13, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093100)  
