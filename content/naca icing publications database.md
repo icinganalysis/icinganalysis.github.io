@@ -48,9 +48,9 @@ Many of the citations had to be transcribed manually, so there may be still be t
 
 The 211 citations are numbered in approximate order of publication (the numbers do not correspond to the numbering in [^1]):  
 
-1. Sparrow, Stanwood: "Airplane Crashes: Engine Troubles" A Possible Explanation. NACA-TN-55, 1921.
-2. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929.
-3. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TR-293, 1929.  
+1. Sparrow, Stanwood S.: "Airplane Crashes: Engine Troubles. A Possible Explanation". NACA-TN-55, 1921. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930080847)    
+2. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Airplanes in Flight. NACA-TN-313, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081134)
+3. Carroll, Thomas, and McAvoy, William H.: The Formation of Ice upon Exposed Parts of an Airplane in Flight. NACA-TN-293, 1929. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081037)  
 4. Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 5. Theodorsen, Theodore, and Clay, William C.: Ice Prevention on Aircraft by Means of Engine Exhaust Heat and a Technical Study of Heat Transmission from a Clark Y Airfoil. NACA-TR-403, 1931.  
 6. Theodorsen, Theodore, and Clay, William C.: The Prevention of Ice Formation on Gasoline Tank Vents. NACA-TN-394, 1931.  
@@ -191,7 +191,8 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 141. Neel, Carr B., Jr.: An Investigation Utilizing an Electrical Analogue of Cyclic De-Icing of a Hollow Steel Propeller with an External Blade Shoe. NACA-TN-2852, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068623)  
 142. Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
 143. Perkins, Porter J.: Preliminary Survey of Icing Conditions Measured During Routine Transcontinental Airline Operation. NACA-RM-E52J06, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068855)
-144. Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+144. Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068721)
+  
 145. Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 651-208 and 651-212 Airfoils at 4° Angle of Attack. NACA-TN-2952, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068683)   
 146. Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068682)  
 147. Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content in Clouds. NACA-TN-2904, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083606)   
@@ -222,7 +223,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 172. Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. NACA-TN-3130 (Presented at the Airplane Icing Information Course the University of Michigan 1953), 1954.  
 173. Neel, Carr B., Jr.: The Design of Air-Heated Ice-Prevention Systems. (Presented at the Airplane Icing Information Course the University of Michigan, April 1953). NACA-TN-3130, 1954.  
 174. Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
-175. von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
+175. von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
 176. von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
 177. von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972)  
 178. Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
@@ -264,7 +265,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 The four publications that I could not find copies of are:
 
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
-    - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
+    - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)    
         - The NTRS link does not have a file download available.  
     - Gray, Vernon H.: "Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes". NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82266, 1954.  
         - The NTRS link does not have a file download available.  

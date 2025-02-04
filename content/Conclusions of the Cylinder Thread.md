@@ -397,7 +397,7 @@ Papadakis, M., Elangonan, R., Freund, Jr., G.A., Breer, M., Zumwalt, G.W. and Wh
 [^8]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  
 [^9]: 
-Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978.  
+Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA955916)  
 [^10]: 
 Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)    
 [^11]:

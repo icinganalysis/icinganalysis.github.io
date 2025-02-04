@@ -69,7 +69,7 @@ The quality of the online version found is not good, so the text was not accurat
 While most of the NACA publications are available at the NTRS [^4], some are not. The publications that I could not find copies of on the NTRS are:
 
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
-    - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
+    - von Glahn, Uwe H.: "Some Considerations for the Need of Icing Protection of High-Speed, High-Altitude Airplanes", NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)
         - The NTRS link does not have a file download available.  
     - Gray, Vernon H.: "Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes". NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82266, 1954.  
         - The NTRS link does not have a file download available.  
@@ -273,7 +273,8 @@ While most of the NACA publications are available at the NTRS [^4], some are not
     - Callaghan, Edmund E., and Ruggeri, Robert S.: Investigation of the Penetration of an Air Jet Directed Perpendicularly to an Air Stream. NACA-TN-1615, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068718)
     - Ruggeri, Robert S., Callaghan, Edmund E., and Bowden, Dean T.: Penetration of Air Jets Issuing from Circular, Square, and Elliptical Orifices Directed Perpendicularly to an Air Stream. NACA-TN-2019, 1950.  
     - Callaghan, Edmund E., and Bowden, Dean T.: Investigation of Flow Coefficient of Circular, Square, and Elliptical Orifices at High Pressure Ratios. NACA-TN-1947, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068720)
-    - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952.  
+    - Ruggeri, Robert S.: General Correlation of Temperature Profiles Downstream of Heated Air Jet Directed at Various Angles to Airstream. NACA-TN-2855, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068721)
+
     - Callaghan, Edmund E., and Ruggeri, Robert S.: A General Correlation of Temperature Profiles Downstream of a Heated-Air Jet Directed Perpendicularly to an Airstream. NACA-TN-2466, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068722)
 
 - Heat Transfer
@@ -298,7 +299,7 @@ While most of the NACA publications are available at the NTRS [^4], some are not
     - von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955.  
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)
-    - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954.  
+    - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
     - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  
