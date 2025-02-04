@@ -263,7 +263,7 @@ An online search found NACA-TN-2458 cited three times. [^3]
 
 ## Notes  
 
-[^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068730).  
+[^1]: Brun, Rinaldo J., Levine, Joseph, and Kleinknecht, Kenneth S.: An Instrument Employing a Coronal Discharge for the Determination of Droplet-Size Distribution in Clouds. NACA-TN-2458, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068730)  
 [^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^3]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2458&btnG=)  
 

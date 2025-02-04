@@ -280,4 +280,4 @@ This is part of the [Engine Inlet Icing Thread]({filename}Engine%20Inlet%20Icing
 
 ## Notes  
 
-[^1]: Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068705), 1956.  
+[^1]: Lewis, James P., and Ruggeri, Robert S.: Investigation of Heat Transfer from a Stationary and Rotating Ellipsoidal Forebody of Fineness Ratio 3. NACA-TN-3837, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068705)  
