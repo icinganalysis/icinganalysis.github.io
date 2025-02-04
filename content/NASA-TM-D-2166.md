@@ -48,7 +48,7 @@ for which complex trends preclude a general relation scope of this report.
 ## Discussion
 
 NASA-TM-D-2166 was published (in 1964) after the end of the NACA-era. 
-However, it is listed in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
+However, it is listed in the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
 A footnote in NASA-TM-D-2166 explains the republication of the data from SAE Preprint 225: 
 

@@ -39,7 +39,7 @@ I think that the large number of publications reflects
 the importance of the technology at the time.  
 
 While none of the Aircraft Heaters publications are in the 
-["Selected Bibilography of NACA-NASA Aircraft Icing Publications"
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"
 ]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 some pertain directly to ice protection:  
 

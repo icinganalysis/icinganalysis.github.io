@@ -50,7 +50,7 @@ protection.
 
 ## Key points
 
-1. The ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance  
+1. The ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) makes its first appearance  
 2. "[Safe operatons of aircraft in icing] should be accomplished through the inherent capability of the aircraft design rather than to rely upon operational restrictions ..."  
 3. This was the first major meeting on aircraft icing since the NACA era.  
 
@@ -201,7 +201,7 @@ Active development of ice shape prediction programs is still ongoing [^7].
 
 There is much to see here (388 pages).
 
-We have already seen the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
+We have already seen the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
 (not listed in the Table of Contents) that follows "Description, History and Status of NASA-Lewis Icing Research Tunnel".
 
 I select the following as "must-reads":  

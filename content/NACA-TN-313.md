@@ -341,7 +341,7 @@ In AIAA 2003-21, I particularly like the premise that [paraphrased]:
 
 which is something I endeavor to address here.
 
-The low number of citations may be due to NACA-TN-313 not being in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md). 
+The low number of citations may be due to NACA-TN-313 not being in the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md). 
 The few references that cite it were also not on the list. 
 As we saw above, this was not due to a lack of merit; 
 it has a surprising amount of technically innovative material early in the historical development of 

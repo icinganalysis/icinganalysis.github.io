@@ -100,7 +100,7 @@ that readers are encouraged to study in the full publication.
 However, this will still be a lengthy review.
 
 This was published after the NACA-era, at the [same conference]({filename}1969 Aircraft Ice Protection Report of Symposium.md) 
-where the original ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
+where the original ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
 was published. 
 It is clear that this publication was influenced by the NACA-era, as ADS-4 is referenced 
 and [NACA-TN-4151]({filename}NACA-TN-4151.md) was used as a starting point for this investigation 

@@ -55,7 +55,7 @@ Airplane flight tests in natural icing conditions proved out complete designs.
 
 Several of the publication, while from NACA, 
 are not listed in the 132 publications of the 
-["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
 A few selected publications are from the NACA-era, but not from NACA.  
 

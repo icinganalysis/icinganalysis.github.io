@@ -26,11 +26,11 @@ I am thankful for the continuing level of interest shown in the topic.
 ##Progress on the 132 NACA Icing Publications  
 
 I set out to review the 132 publications in the 
-["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
 Out of 132 publications, 
 I wrote 33 reviews.   
-(links to the individual reviews are included in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md))  
+(links to the individual reviews are included in the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md))  
 
 There is still a long way to go!    
 
@@ -184,4 +184,4 @@ And I am open to suggestions.
     
 ##Notes  
 
-[^1]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
+[^1]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  

@@ -35,7 +35,7 @@ Readers can now get the best available copy at [ntrs.nasa.gov](https://ntrs.nasa
 Here, it will be presented in its entirety. 
 A few of the figures are not very clear, and clearer versions are included, where applicable. 
 
-Not included herein is the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
+Not included herein is the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 which was first presented in 1969, and is 
 appended after the reprinted "The Icing Problem" in 
 NASA-TM-81651 [^1].  

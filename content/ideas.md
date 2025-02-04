@@ -18,17 +18,17 @@ _From NACA-TN-2904_
 
 I have made this blog up as I went along. 
 I have a general plan to cover all 132 icing publications in the 
-["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md), 
 but I also find other interesting, related items along the way.  
 
 Future topic possibilities include:  
 
-- Water drop impingement (there are 20 publications in the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
+- Water drop impingement (there are 20 publications in the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
 that I have not yet gotten to).  
 - The University of Michigan 1953 Airplane Icing Information Course. 
 A "Greatest Thing That You (Probably) Have Never Read" candidate.  
 
-  - Accomplished! [Thread: The University of Michigan Airplane Icing Information Course, 1953](U%20of%20Michigan%20Icing.md)  
+  - Accomplished! [Thread: The University of Michigan Airplane Icing Information Course, 1953]({filename}U%20of%20Michigan%20Icing.md)  
  
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
@@ -42,4 +42,4 @@ please contact me (contact options shown below under "social").
 
 ## Notes
 
-[^1]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
+[^1]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  

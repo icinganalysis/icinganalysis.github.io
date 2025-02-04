@@ -427,7 +427,7 @@ NACA-WR-A-35 5 times,
 and NACA-WR-A-7 5 times.  
 
 Curiously, none of these are listed in the 132 publications of the 
-["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
+["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 
 I view this as an under-appreciated area, 
 as there is much to glean even if 

@@ -91,7 +91,7 @@ so I could start using that as the main link.
 
 ### Progress on the 132 Historic NACA Icing Publications 
 
-To date, I have posted 56 reviews, but only 26 of the from the ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
+To date, I have posted 56 reviews, but only 26 of the from the ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md).  
 That puts me on a three-year trajectory to review them all. 
 (I am not sure that I will get there.) 
 
@@ -108,7 +108,7 @@ Searchability is part of accessibility.
 If someone cannot find the information, it is not very useful. 
 
 When I search "Selected bibliography of NACA-NASA aircraft icing publications" on two search engines
-(duckduckgo.com and google.com), my web page ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
+(duckduckgo.com and google.com), my web page ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) 
 shows up on the first page 
 (your experience may be different, as search engines may tailor results to users). 
 This was one of my goals, to make this readily available in a legible form, 

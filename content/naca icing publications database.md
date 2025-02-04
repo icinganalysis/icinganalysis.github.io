@@ -283,7 +283,7 @@ Back to the [Introduction](/index.html)
 See also [Hard to Find Publications]({filename}hard_to_find_.md)  
 
 ## Notes:
-[^1]: ["Selected Bibilography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)
+[^1]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)
 [^2]: [https://ntrs.nasa.gov/](https://ntrs.nasa.gov/)
 [^3]:
 Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)
