@@ -400,7 +400,7 @@ This has more details on calculations for air-heated windshields.
 
 Not specifically about icing, but this has some similarities to the external discharge system of NACA-TN-1434. 
 
-- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 
 In the thermodynamics thread we previously reviewed [ADS-4]({filename}ads4.md).  
 

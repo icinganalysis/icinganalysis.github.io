@@ -239,9 +239,9 @@ The "maximum icing conditions proposed previously" are from [NACA-TN-1393]({file
 
 NACA-TN-1424 cites 4 publications:
 
-- Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA TN No. 1393, 1947.
+- Lewis, William, Kline, Dwight B., and Steinmetz, Charles P.: A Further Investigation of the Meteorological Conditions Conducive to Aircraft Icing. NACA-TN-1424, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068854)
 - Tribus, Myron, and Tessman, J. R.: Report on the Development and Application of Heated Wings. AAF TR 4972, Add. I, Jan. 1946. (Available from Office of Technical Services, U. S. Department of Commerce as PB No. 18122.)
-- Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA TN No. 1391, 1947.
+- Lewis, William: Icing Properties of Noncyclonic Winter Stratus Clouds. NACA-TN-1391, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082035)
 - Worthing, Archie G. and Geffner, Joseph: Treatment of Experimental Data. John Wiley and Sons, Inc. 1943.
 
 NACA-TN-1424 is cited 19 times in an online search [^6].

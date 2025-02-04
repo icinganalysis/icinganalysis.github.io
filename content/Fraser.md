@@ -213,7 +213,7 @@ Fraser cites 6 publications:
 
 - Ludlam, F. H . : "The heat economy of a rimed cylinder." Quarterly Journal Royal Met. Soc., V. 77, No. 334, pp. 663-666, Oct. 1951.  
 - Fraser, D., Pettit, K. G., and Bowler, E. H . : "Criteria for the design, assessment and control of icing protection systems." Inst, of Aero. Sciences Preprint No. 369 (1952)  
-- Pettit, K. G.: "Nephelometric instrumentation for aircraft icing research." N.R.C. Report MD-33 (1950).  
+- Pettit, K. G.: Nephelometric Instrumentation for Aircraft Icing Research. Rep. No. MD-33, National Res. Council of Canada (Ottawa), Aug. 1950.  
 - Internal communication from the N.A.E. Engine Testing Laboratory, Feb., 1952.  
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068727)  
 - Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).  

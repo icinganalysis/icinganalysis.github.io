@@ -52,7 +52,7 @@ I have found one-line references to these, but no on-line sources
 
 - Chandler, H. C., Jr.: Survey of Aircraft Anti-icing Equipment. NACA restricted report, Feb. 27, 1942.  
 - Howlett, D. P.: Ice Detectors. (paper presented at 1961 Aircraft Ice Protection Conference, D. Napier & Son, Ltd.)  
-- Torgeson, W. L., and Abramson, A. E.: A Study of Heat Requirements for Anti-Icing Radome Shapes with Dry and Wet Surfaces. WADC Tech.  Rep. 53-284, Wright Air Dev. Center, Wright-Patterson Air Force Base, Sept. 1953. (Contract AF 33(6l6)-85, RDO No. 664-802.)  
+- Torgeson, W. L., and Abramson, A. E.: A Study of Heat Requirements for Anti-Icing Radome Shapes with Dry and Wet Surfaces. WADC Tech. Rep. 53-284, Wright Air Dev. Center, Wright-Patterson Air Force Base, Sept. 1953. (Contract AF 33(6l6)-85, RDO No. 664-802.)  
 - NA-63-303, "Use of the Ko Correlation in Preliminary Design and Scale Model Icing," Frederick R. Weiner, North American Aviation, Inc. (Presented at Spring Meeting of Aircraft Air-Conditioning Forum, Los Angeles, California, March 21, 1963).  
 - In-Flight Icing Paperback – January 1, 2001, by Porter J. Perkins, Sporty's Pilot Shop    
 - Dickey, T.A., "An Analysis of the Effects of Certain Variables in Determining the Form of an Ice Accretion," , (presented at Mt. Washington Spring Planning Conference, April 1952, Aeronautical Engineering Laboratory, Naval Air Experimental Station. May 29, 1952.)  

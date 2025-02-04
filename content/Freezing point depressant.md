@@ -263,7 +263,7 @@ and an interesting Figure 15,
 "Proposed Meteorological Design Requirements for Aircraft Anti-Icing Equipment", 
 which we may detail later in a Meteorology thread or the University of Michigan Airplane Icing Information Course thread.  
 
-- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 
 In the thermodynamics thread we previously reviewed [ADS-4]({filename}ads4.md).  
 
