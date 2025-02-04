@@ -138,7 +138,7 @@ Links to reviews are included where applicable.
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068859)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
+    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
 
 - Fundamental Properties of Water  
@@ -184,7 +184,7 @@ Links to reviews are included where applicable.
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Bergrun, Norman R.: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
         > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
-    - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
+    - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678)  
         > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
         > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  

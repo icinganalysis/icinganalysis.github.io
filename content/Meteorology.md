@@ -68,7 +68,7 @@ Perkins was quite productive during his career at NACA and NASA.
     - Perkins, Porter J.: Statistical Survey of Icing Data Measured on Scheduled Airline Flights over the United States and Canada from November 1951 to June 1952. NACA-RM-E55F28a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088875)
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068859)  
     - Perkins, Porter J.: Icing Frequencies Experienced During Climb and Descent by Fighter-Interceptor Aircraft. NACA-TN-4314, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068857)  
-    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
+    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
     - Aircraft icing problems - After 50 years  
 
 

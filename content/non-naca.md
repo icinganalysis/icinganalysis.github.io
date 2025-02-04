@@ -9,7 +9,7 @@ include seven citations that were not published by NACA.
 This also has an effect of making some them difficult to find online:  
 
 - Two NASA publications
-    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959.  [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
+    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
     - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)
 
 - Two references to NASA-TM-X-54700, which purportedly documents the “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation".  However, the citation NASA-TM-X-54700 appears to be an error, as on the ntrs it is listed as “Space radiation- a compilation and discussion”. The “Compilation of the Paper Presented at NACA Conference on Some Problems of Aircraft Operation" is available as a print book.  
