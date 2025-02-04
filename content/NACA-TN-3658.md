@@ -70,7 +70,7 @@ in the tunnel test section as shown in figure 10.
 
 Similar grids are still used today in the calibration of icing wind tunnels.  
 
-We saw the rotating disk icing rate meter in [NACA-RM-A9C09 Instruments](NACA-RM-A9C09_instruments.md). 
+We saw the rotating disk icing rate meter in [NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md). 
 This may be approximated as a ribbon with height equal to the disk thickness. 
 
 ![Figure 5. Rotating disk for the measurement of liquid-water content in icing clouds. Note ice-thickness feeler and ice removal scraper behind disk.](/images%2Fnaca-rm-a9c09%2FFigure%205.png)

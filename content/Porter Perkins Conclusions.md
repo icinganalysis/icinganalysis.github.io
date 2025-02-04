@@ -229,7 +229,7 @@ More than 1/3 of the total miles were NACA measurements made in the years 1952 t
 a period covered by the [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md). 
 
 The measurements made in 1952 to 1955 largely used the Pressure-type Icing Rate and Accretion Meter (PIRAM), 
-described in [NACA-RM-E51E16](modified%20pressure%20probe.md).
+described in [NACA-RM-E51E16]({filename}modified%20pressure%20probe.md).
 
 The Supercooled Cloud Database also includes more recent ("modern") measurements. 
 Jeck [^13] notes that:  

@@ -183,16 +183,16 @@ Links to reviews are included where applicable.
     - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
     - Bergrun, Norman R.: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
-        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678).  
-        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
-        > review: [Airfoil impingement drop distribution.md]({filename}airfoil%20impingement%20drop%20distribution.md)  
+        > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
 
 - Impingement of Cloud Droplets  
 
     - Hacker, Paul T., Brun, Rinaldo J., and Boyd, Bemrose: Impingement of Droplets in 90° Elbows with Potential Flow. NACA-TN-2999, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068680)  
-        > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
+        > review: [Impingement in Elbows and Ducts]({filename}Impingement%20in%20Ducts.md)  
     - Serafini, John S.: Impingement of Water Droplets on Wedges and Double-Wedge Airfoils at Supersonic Speeds. NACA-TR-1159, 1954. (Supersedes NACA-TN-2971.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091104)  
         > review: [Airfoils]({filename}airfoils.md)  
     - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil and Effect of Change in Airfoil Thickness from 12 to 4 Percent at 4° Angle of Attack. NACA-TN-3047, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068682)  
@@ -212,11 +212,11 @@ Links to reviews are included where applicable.
     - Dorsch, Robert G., Brun, Rinaldo J., and Gregg, John L.: Impingement of Water Droplets on an Ellipsoid with Fineness Ratio 5 in Axisymmetric Flow. NACA-TN-3099, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068689)    
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Dorsch, Robert G., and Brun, Rinaldo J.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field. NACA-TN-3153, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068690)  
-        > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
+        > review: [Shadow Zones and Concentration Zones]({filename}Shadow%20zones%20and%20concentration%20zones.md)  
     - Brun, Rinaldo J., Gallagher, Helen M., and Vogt, Dorothea E.: Impingement of Water Droplets on NACA 65A004 Airfoil at 8° Angle of Attack. NACA-TN-3155, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068691) 
         > review: [Airfoils]({filename}airfoils.md)  
     - Brun, Rinaldo J., and Dorsch, Robert G.: Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field. NACA-TN-3410, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068692)  
-        > review: [Shadow Zones and Concentration Zones.md]({filename}Shadow%20zones%20and%20concentration%20zones.md)   
+        > review: [Shadow Zones and Concentration Zones]({filename}Shadow%20zones%20and%20concentration%20zones.md)   
     - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
         > review: [NACA-TN-3338]({filename}NACA-TN-3338.md)  
     - Dorsch, Robert G., Saper, Paul G., and Kadow, Charles F.: Impingement of Water Droplets on a Sphere. NACA-TN-3587, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068694)    
@@ -234,7 +234,7 @@ Links to reviews are included where applicable.
     - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
         > review: [Airfoils]({filename}airfoils.md)  
     - Hacker, Paul T., Saper, Paul G., and Kadow, Charles F.: Impingement of Droplets in 60° Elbows with Potential Flow. NACA-TN-3770, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068701)  
-        > review: [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
+        > review: [Impingement in Elbows and Ducts]({filename}Impingement%20in%20Ducts.md)  
     - Lewis, James P., and Ruggeri, Robert S.: Experimental Droplet Impingement on Four Bodies of Revolution. NACA-TN-4092, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068702)  
         > review: [Bodies of Revolution]({filename}bodies%20of%20revolution.md)    
     - Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)  
@@ -270,11 +270,11 @@ Links to reviews are included where applicable.
 - Induction System Ice Protection  
 
     - Coles, Willard D.: Investigation of Icing Characteristics of Typical Light-Airplane Engine Induction System. NACA-TN-1790, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068626)  
-        > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
+        > mention: [Carburetor and Induction Systems]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Coles, Willard D., Rollin, Vern G., and Mulholland, Donald R.: Icing-Protection Requirements for Reciprocating-Engine Induction Systems. NACA-TR-982, 1950. (Supersedes NACA-TN-1993.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068627)  
-        > review: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
+        > review: [Carburetor and Induction Systems]({filename}Carburetor%20and%20Induction%20Systems.md)  
     - Lewis, James P.: Investigation of Aerodynamic and Icing Characteristics of Flush Alternate-Inlet Induction-Systems Air Scoop. NACA-RM-E53E07, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930087831)    
-        > mention: [Carburetor and Induction Systems.md]({filename}Carburetor%20and%20Induction%20Systems.md)  
+        > mention: [Carburetor and Induction Systems]({filename}Carburetor%20and%20Induction%20Systems.md)  
 
 - Turbine-Type Engine and Inlet Icing Studies  
 
@@ -407,7 +407,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-3396]({filename}NACA-TN-3396.md)  
     - von Glahn, Uwe H.: Preliminary Results of Heat Transfer from a Stationary and Rotating Ellipsoidal Spinner. NACA-RM-E53F02, 1953.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068726)  
         > this largely a preliminary version of NACA-TN-3837, and so it will not be separately reviewed)  
-        > mention: [NACA-TN-3837.md]({filename}NACA-TN-3837.md)   
+        > mention: [NACA-TN-3837]({filename}NACA-TN-3837.md)   
         > mention: [Engine Inlet Icing]({filename}Engine%20Inlet%20Icing.md)   
 
 - Miscellaneous  
@@ -419,7 +419,7 @@ Links to reviews are included where applicable.
     - von Glahn, Uwe H.: Some Considerations of the Need for Icing Protection of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
         > review: [Considerations of the Need for Icing]({filename}Considerations%20of%20the%20Need%20for%20Icing.md)   
     - Lewis, William, and Perkins, Porter J.: A Flight Evaluation and Analysis of the Effect of Icing Conditions on the PG-2 Airship. NACA-TN-4220, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068595)  
-        > review: [Airships](NACA-TN-4220.md)  
+        > review: [Airships]({filename}NACA-TN-4220.md)  
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
         > review: [High-Speed, High-Altitude Airplanes]({filename}high%20speed%20airplanes.md)   
     - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  

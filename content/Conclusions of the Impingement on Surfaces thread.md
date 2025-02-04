@@ -250,7 +250,7 @@ percent.)
 __This is accurate enough for most preliminary calculations involving the heat requirements for anti-icing an airfoil.__  
 
 As we saw previously in the [Icing Wind Tunnel Test Thread]({filename}Icing%20Wind%20Tunnel%20Test%20Thread.md), 
-the ["Manual of Scaling Methods"](NASA-CR-2004-212875.md) [^10] uses 
+the ["Manual of Scaling Methods"]({filename}NASA-CR-2004-212875.md) [^10] uses 
 Ko correlations for a cylinder to approximately the impingement on an airfoil, particularly for βmax. 
 This provides "an economical method for solving the basic water droplet trajectory" 
 for a use where a lot of detail is not required. 

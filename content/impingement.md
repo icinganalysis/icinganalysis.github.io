@@ -45,7 +45,7 @@ including the curved sections or elbows in air-intake ducts."_
 [^1]  
 
 The importance of this "investigation of the impingement" is shown by noting that of the 17 categories identified in 
-[The Historical Selected Bibliography of NACA-NASA Icing Publications.md]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
+[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md), 
 the largest category is "Impingement of Cloud Droplets" with 25 publications (out of 132 total publications). 
 
 There were also important additional publications included below. 
@@ -88,7 +88,7 @@ so they will come up in some publications here.
 - Brun, Rinaldo J.: Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1_0 and 0_7. NACA-TR-1317 (supersedes NACA-TN-3593), 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930092308)  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
 
-### [Impingement in Elbows and Ducts.md]({filename}Impingement%20in%20Ducts.md)  
+### [Impingement in Elbows and Ducts]({filename}Impingement%20in%20Ducts.md)  
 
 >  _"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."_  
 
