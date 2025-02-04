@@ -1,4 +1,4 @@
-Title: NACA-RM-E8FO1a     
+Title: NACA-RM-E8F01a     
 Date: 2024-10-14 15:00  
 Category: NACA  
 tags: engine inlet, flight test   
@@ -7,7 +7,7 @@ tags: engine inlet, flight test
 
 # "Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition" [^1]   
 
-![Figure 4a. Ice formation on engine cowling after icing flight. Side view, the ice is about 4 inch thick in the inlet leading edge.](/images%2FNACA-RM-E8FO1a%2FFigure%204a.png)  
+![Figure 4a. Ice formation on engine cowling after icing flight. Side view, the ice is about 4 inch thick in the inlet leading edge.](/images%2FNACA-RM-E8F01a%2FFigure%204a.png)  
 
 ## Abstract  
 
@@ -56,9 +56,9 @@ Static-thrust rating, pounds .........2800
 Maximum tail-pipe temperature, °F ....1220
 ```
 
-![Figure 1. Axial-flow turbojet engine mounted on test airplane.](/images%2FNACA-RM-E8FO1a%2FFigure%201.png)  
+![Figure 1. Axial-flow turbojet engine mounted on test airplane.](/images%2FNACA-RM-E8F01a%2FFigure%201.png)  
 
-![Figure 2. Close-up of axial-flow turbojet engine mounted on test airplane.](/images%2FNACA-RM-E8FO1a%2FFigure%202.png)  
+![Figure 2. Close-up of axial-flow turbojet engine mounted on test airplane.](/images%2FNACA-RM-E8F01a%2FFigure%202.png)  
 
 >Instrumentation was provided at the compressor outlet for calculation 
 of compressor efficiency and at the tail-pipe outlet for
@@ -70,7 +70,7 @@ was used to measure the fuel flow to the engine.
 >The ice formation obtained on the jet-engine cowling inlet is
 shown in figure 3. 
  
-![Figure 3. Front view of ice formation on engine and cowling in flight.](/images%2FNACA-RM-E8FO1a%2FFigure%203.png)  
+![Figure 3. Front view of ice formation on engine and cowling in flight.](/images%2FNACA-RM-E8F01a%2FFigure%203.png)  
 
 >The degree of ice accumulation on the engine
 inlet is indicated by figures 4(a) and 4(b), which are side and
@@ -80,9 +80,9 @@ guide vanes. The ice shown at the bottom of the inlet guide vanes
 is believed to consist of pieces broken from the ice formation on
 the starter housing or the support struts. 
 
-![Figure 4a. Ice formation on engine cowling after icing flight. Side view, the ice is about 4 inch thick in the inlet leading edge.](/images%2FNACA-RM-E8FO1a%2FFigure%204a.png)  
+![Figure 4a. Ice formation on engine cowling after icing flight. Side view, the ice is about 4 inch thick in the inlet leading edge.](/images%2FNACA-RM-E8F01a%2FFigure%204a.png)  
 
-![Figure 4b. Ice formation on engine cowling after icing flight. Front view.](/images%2FNACA-RM-E8FO1a%2FFigure%204b.png)  
+![Figure 4b. Ice formation on engine cowling after icing flight. Front view.](/images%2FNACA-RM-E8F01a%2FFigure%204b.png)  
 
 >A time history of the
 data taken in the icing condition is shown in figure 5. Engine
@@ -97,9 +97,9 @@ believed to be a result of ice collection on the cowl lip, which
 disrupted the air flow and destroyed the pressure recovery at the
 compressor inlet.  
 
-![Figure 5a. Time history of data taken in icing condition. Engine performance data.](/images%2FNACA-RM-E8FO1a%2FFigure%205a.png)  
+![Figure 5a. Time history of data taken in icing condition. Engine performance data.](/images%2FNACA-RM-E8F01a%2FFigure%205a.png)  
 
-![Figure 5b. Time history of data taken in icing condition. Meteorological data.](/images%2FNACA-RM-E8FO1a%2FFigure%205b.png)  
+![Figure 5b. Time history of data taken in icing condition. Meteorological data.](/images%2FNACA-RM-E8F01a%2FFigure%205b.png)  
 
 >After 18 minutes in the icing condition, the engine returned
 to nearly normal operation. Because of the very low liquid-water

@@ -279,7 +279,7 @@ Links to reviews are included where applicable.
 - Turbine-Type Engine and Inlet Icing Studies  
 
     - Acker, Loren W.: Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition. NACA-RM-E8F01a, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930085395)  
-        > review: [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md)  
+        > review: [NACA-RM-E8F01a]({filename}NACA-RM-E8F01a.md)  
     - Acker, Loren W.: Preliminary Results of Natural Icing of an Axial-Flow Turbojet Engine. NACA-RM-E8C18, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086190)  
         > review: [NACA-RM-E8C18]({filename}NACA-RM-E8C18.md)  
     - Gray, Vernon H., and Bowden, Dean T.: Icing Characteristics and Anti-Icing Heat Requirements for Hollow and Internally Modified Gas-Heated Inlet Guide Vanes. NACA-RM-E50I08, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068630)  

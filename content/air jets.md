@@ -15,7 +15,7 @@ _From NACA-RM-E55E17a._
 
 Five of these publications are from the "Jet Penetration" section, 
 and one is from the "Windshield Ice Protection" section 
-of [The Historical Selected Bibliography of NACA-NASA Icing Publications](The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md).  
+of [The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md).  
 
 The first five publications determine by test the characteristics of air jets entering a moving airstream. 
 The final publication applies this technology to windshield rain removal.  

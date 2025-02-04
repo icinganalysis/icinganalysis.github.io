@@ -73,7 +73,7 @@ Droplet Size:         d = 20 microns
 >First find the air density and viscosity.
 From the pressure altitude, P = 1455.6 psf (10.109 psi). Solve for the air density using
 
-![Example 2-1 rho](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20rho.png)  
+![Example 2-1 rho](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20rho.png)  
 
 For information on the archaic unit "slug", 
 see [A Brief Digression on Unit Systems]({filename}..%2Fbrief-digression-on-units.md#slug).  
@@ -83,7 +83,7 @@ A minor point is that DOT/FAA/CT-88/8-1 uses an approximation for the viscosity 
 
 >For viscosity, one can use the approximate relation:  
 
-![Example 2-1 mu. Viscosity equation μ = 7.136e-10*T_absolute_R](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20mu.png)  
+![Example 2-1 mu. Viscosity equation μ = 7.136e-10*T_absolute_R](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20mu.png)  
 
 This gives a result that is about 3.5% different from the viscosity equation used by 
 [Langmuir]({filename}..%2FMathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md), 
@@ -94,20 +94,20 @@ which is a better approximation (using η for viscosity):
 >Now calculate Re and K.  
 In these units Re is given by  
 > 
-![Example 2-1 re](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20re.png)
+![Example 2-1 re](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20re.png)
 
 >In these units K is given by:  
  
-![Example 2-1 k](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20k.png)
+![Example 2-1 k](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20k.png)
 
 >If Langmuir and Blodgett's graphical method is used, the problem is completed by using figure 2-2.
 which shows that for Re = 126.8 the range parameter is approximately equal to .32. Then  
 
-![Example 2-1 ko.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20ko.png)  
+![Example 2-1 ko.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20ko.png)  
 
 >Alternately, if Bragg's result is used, calculate Ko using Equation 2-10:  
 
-![Example 2-1 ko2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-1%20ko2.png)
+![Example 2-1 ko2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-1%20ko2.png)
 
 The difference in viscosity results in small differences in calculated values.  
 
@@ -139,19 +139,19 @@ altitude, droplet size, and temperature are known:
 >1) From a standard atmospheric table obtain P from the pressure altitude, h.
 >2) Calculate the density (T in F):  
  
-![Equation 2-12.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-12.png)  
+![Equation 2-12.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-12.png)  
 
 >3) Calculate the viscosity (T in F):   
 
-![Equation 2-13.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-13.png)  
+![Equation 2-13.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-13.png)  
 
 >4) Solve for the droplet freestream Reynolds number.  
 
-![Equation 2-14.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-14.png)  
+![Equation 2-14.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-14.png)  
 
 >5) Solve for the droplet inertia parameter
 
-![Equation 2-15.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-15.png)  
+![Equation 2-15.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-15.png)  
 
 >6) Use Re and K to calculate the modified inertia parameter using either equation 2-8 and
 figure 2-2 or else using equation 2-10.  
@@ -201,18 +201,18 @@ the distribution are calculated using table I-1 (discussed in Section 1.2.6). Ta
 sizes δ, the proportion δ_v of total droplet volume associated with each δ, and also the values of Re, 
 K, and Ko for each δ. 
  
-![Table 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%202-1.png)  
+![Table 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FTable%202-1.png)  
 
 >Using these values of Ko and figure 2-11, a value E(δ) is associated with each
 δ, as shown in the third column of table 2-2. Note that equation 2-23 can also be written as  
 
-![Equation 2-25.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-25.png)  
+![Equation 2-25.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-25.png)  
 
 >Thus E is calculated as an average value of the E(δ) weighted by volume using the Δv's. Table 2-2
 shows that a value E = 0.24 is obtained, little different from the value E = 0.23 for the MVD. This
 is well within the accuracy of reading numbers from the figure.  
 
-![Table 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FTable%202-2.png)  
+![Table 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FTable%202-2.png)  
  
 >Considering this droplet size distribution and using equation 2-21, β_max can be calculated for a
 surface length location of S = 0 (stagnation point). For the special case of a symmetric airfoil at zero
@@ -286,20 +286,20 @@ Icing time:                     tau = 5 minutes
 
 >Using equation 2-26 the mass of impinging water per unit span per unit time is given by:
 
-![Example 2-4 m_dot.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-4%20m_dot.png)  
+![Example 2-4 m_dot.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-4%20m_dot.png)  
 
 >Then for a five minute icing encounter (equation 2-27)  
 
-![Example 2-4 m.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-4%20m.png)  
+![Example 2-4 m.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-4%20m.png)  
 
 >Calculating the accumulation parameter from equation 2-29 gives:  
 > 
-![Example 2-4 ac.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-4%20ac.png)
+![Example 2-4 ac.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-4%20ac.png)
 
 >Note that the density of the ice is assumed to be 0.8 g/cm3. implying a rime accretion.
 The maximum ice thickness is approximated from equation 2-31 as   
 
-![Example 2-4 l.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FExample%202-4%20l.png)  
+![Example 2-4 l.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FExample%202-4%20l.png)  
 
 >Thus the maximum ice growth is approximately 1.1 percent of the airfoil chord length, or about
 (.0106)(37.2) = 0.39 inches.  

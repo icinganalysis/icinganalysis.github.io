@@ -4,7 +4,7 @@ Date: 2024-04-08 16:00
 tags: intermediate topics, aircraft icing handbook   
 rights: CC-BY-NC-SA 4.0  
 
-![FIRST UPDATE OF AIRCRAFT ICING HANDBOOK.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FUpdate.png)  
+![FIRST UPDATE OF AIRCRAFT ICING HANDBOOK.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FUpdate.png)  
 
 ## Introduction  
 
@@ -55,7 +55,7 @@ Consider the trajectory of a single droplet approaching a body. The droplet traj
 is obtained by applying Newton's Second Law, F = ma, to the droplet. This equation can be expressed
 as
 
-![Equation 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-1.png)
+![Equation 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-1.png)
 
 where x is the position vector of the droplet, t is time (the acceleration a is of course equal to the
 second derivative of x with respect to time), P is the pressure gradient term, M. is the apparent mass
@@ -84,7 +84,7 @@ of this discussion.
 
 The drag term, D, can be expressed as  
 
-![Equation 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-2.png)  
+![Equation 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-2.png)  
 
 u is the local flowfield velocity vector, S is the cross sectional area of the sphere (or the projected
 frontal area of the sphere), and CD is the drag coefficient. Note that the drag is evaluated using the
@@ -92,7 +92,7 @@ velocity of the droplet with respect to the local airstream; this is sometimes c
 All the terms on the right hand side of equation 2-1 other than D are now dropped and equation
 2-2 is used to substitute for D; this yields
 
-![Equation 2-3.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-3.png)  
+![Equation 2-3.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-3.png)  
 
 where the equation has been divided by the mass m of the droplet, δ is the droplet diameter, and  
 ρw is droplet density and ρa is the air density. 
@@ -102,7 +102,7 @@ experimental results from many sources (reference 2-9). Only a limited range of 
 fit for supercooled water droplets, since the relevant droplet Reynolds numbers rarely exceed 500.
 A number of different fits are available, some of which are discussed in reference 2-1.  
 
-![Figure 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-1.png)  
+![Figure 2-1.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-1.png)  
 
 2.2.1.2 Modified Droplet Inertia Parameter  {: #modified-drop-inertia-parameter }  
 
@@ -112,46 +112,46 @@ the components of the vector x, define the nondimensional variables x* = x/c, y*
 where c is a characteristic length, t is time, and Vinf is the freestream airspeed. If the
 asterisks are suppressed after the equation is suitably rearranged, the nondimensional equation is  
 
-![Equation 2-4.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-4.png)  
+![Equation 2-4.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-4.png)  
 
 Now x_bar is the dimensionless droplet position vector, V_bar is the dimensionless local flowfield velocity
 vector, t is nondimensional time, Rel is the local relative droplet Reynolds number given by
 
-![Equation 2-5.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-5.png)  
+![Equation 2-5.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-5.png)  
 
 (μs is the viscosity of air) and K is the droplet inertia parameter given by  
 
-![Equation 2-6.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-6.png)  
+![Equation 2-6.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-6.png)  
 
 It can be seen from equation (2-4) that the trajectory depends upon K and CDRel/24. But CDRel/24
 can be shown (reference 2-2) to depend approximately upon Re, the free stream droplet Reynolds
 number which is given by
 
-![Equation 2-7.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-7.png)  
+![Equation 2-7.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-7.png)  
 
 Therefore the droplet trajectory depends approximately upon Re and K only.  
 
 Langmuir and Blodgett (reference 2-2) combined Re and K into a single parameter Ko, referred
 to as the modified inertia parameter, as follows:  
 
-![Equation 2-8.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-8.png)
+![Equation 2-8.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-8.png)
 
 The quantity in brackets, referred to as the range parameter, is the ratio of the trajectory distance of
 a droplet in still air, with an initial Reynolds number of Re and gravity neglected, divided by the
 trajectory distance if the drag is assumed to obey Stokes Jaw. Using numerical methods, they obtained
 a graph giving the range parameter as a function of Re (figure 2-2).  
 
-![Figure 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-2.png)  
+![Figure 2-2.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-2.png)  
 
 Bragg (reference 2-10) has interpreted Ko by rewriting Equation 2-4 as  
 
-![Equation 2-9.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-9.png)  
+![Equation 2-9.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-9.png)  
 
 If some suitable average of the term in brackets on the left can be found over the entire trajectory,
 the droplet path becomes a function of just this single variable. Under typical icing conditions K.
 can be interpreted as such an average. Bragg also derived the following expression:  
 
-![Equation 2-10.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-10.png)  
+![Equation 2-10.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-10.png)  
 
 Equation 2-10 is shown in reference 2-1 to be within 1 percent of Langmuir's calculated values until
 Re approaches 1000 (much larger than the values for supercooled cloud droplets), where Langmuir's
@@ -174,14 +174,14 @@ code LEWICE, which is discussed in Chapter IV, Section 2. Four chord lengths in 
 the two trajectories are coincident (not shown in figure); however, they diverge dramatically in the
 vicinity of the airfoil due to the large difference in Ko between the two drops.  
 
-![Figure 2-3.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-3.png)  
+![Figure 2-3.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-3.png)  
 
 Bragg (reference 2-10) has derived another trajectory similarity parameter, K_bar, for which he has
 given a theoretical justification but which, nonetheless, has not as yet been widely adopted by other
 workers. Ko and K_bar are closely related and, differing by a constant factor if a simpe drag law is used
 in deriving Ko. Bragg shows that K_bar is given approximately by  
 
-![Equation 2-11.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-11.png)  
+![Equation 2-11.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-11.png)  
 
 It follows that since Ko approximates K_bar, Ko is approximately proportional to δ^5/3, to V^1/3, and to
 1/c.  
@@ -194,7 +194,7 @@ scale horizontal stabilizer, both for a general aviation aircraft, while the top
 approximately this size, although larger models are generally preferred in tunnels which can
 accommodate them.)  
 
-![Figure 2-4.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-4.png)  
+![Figure 2-4.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-4.png)  
 
 Comparison among the three panels shows that Ko is a strong function of chord size. In fact,
 the largest value of Ko for a full scale wing is approximately equal to the smallest value of Ko for
@@ -208,7 +208,7 @@ Figure 2-5 is constructed in the same manner, but using typical maximum droplet 
 rather than MVDs. It is interesting to note that the contrast among the three panels is now more
 pronounced due to the strong sensitivity of Ko to droplet diameter. Now the largest values of Ko even
 
-![Figure 2-5.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-5.png)
+![Figure 2-5.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-5.png)
 
 for a full scale horizontal stabilizer are substantially smaller than the smallest values of Ko for the
 model. This figure may be useful in interpreting the later graphs in which the impingement
@@ -222,7 +222,7 @@ an airfoil or cylinder with respect to the cloud it encounters.
 Figure 2-6 illustrates the definition of the impingement parameters Su, SL, ΔYo, h, and E for
 an airfoil in a supercooled cloud. 
 
-![figure 2-6 redrawn.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2Ffigure%202-6%20redrawn.png)  
+![figure 2-6 redrawn.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2Ffigure%202-6%20redrawn.png)  
 _Figure 2-6 redrawn. Public domain image by Donald Cook._  
  
 Let S denote arc length measured along the airfoil surface.
@@ -241,7 +241,7 @@ Let h be the projected frontal height of the airfoil; note that this is a functi
 total impingement (or collection) efficiency E is defined as the ratio of the freestream impingement
 width ΔYo to the projected frontal height h, i.e.,
 
-![Equation 2-16.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-16.png)  
+![Equation 2-16.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-16.png)  
 
 E is the proportion of liquid mass crossing the Y-axis within the frontal projection of the airfoil and
 ultimately striking the airfoil.  
@@ -259,7 +259,7 @@ segment which ultimately strikes the airfoil.
 Figure 2-7 illustrates the definition of the local impingement (or collection) efficiency β at an
 arbitrary point P on the airfoil.  
 
-![Figure 2-7.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-7.png)  
+![Figure 2-7.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-7.png)  
   
 Let P lie between the points of impact on the airfoil surface of two
 droplet trajectories. The mass of water droplets between the two trajectories a distance SYo apart in
@@ -267,16 +267,16 @@ the free stream (at the Y-axis) is distributed over a length δS on the airfoil 
 δS approach 0 in such a way that P always falls between the impact points of the two trajectories, the
 local impingement efficiency 0 at P is defined in the limit by the derivative
 
-![Equation 2-17.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-17.png)  
+![Equation 2-17.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-17.png)  
 
 The maximum value assumed by β anywhere on the airfoil surface is denoted by βmax. Note also that  
 
-![Equation 2-18.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-18.png)
+![Equation 2-18.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-18.png)
 
 The impingement efficiency curve or β-curve is a plot of β on the vertical axis versus S on the
 horizontal axis. This is illustrated in figure 2-8. 
 
-![Figure 2-8.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-8.png)  
+![Figure 2-8.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-8.png)  
 
 The β-curve can be calculated numerically as
 follows: First, find the upper and lower tangent trajectories. These are ordinarily approximated
@@ -284,12 +284,12 @@ numerically by finding upper and lower trajectories which pass within a small pr
 of the airfoil without actually striking it. Second, calculate a set of trajectories between the upper and
 lower trajectories (figure 2-9). 
 
-![Figure 2-9.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-9.png)  
+![Figure 2-9.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-9.png)  
 
 There is a Y value and associated S value for each trajectory. Third,
 fit a Y vs. S curve to the points (S, Y), as shown in figure 2-10. 
 
-![Figure 2-10.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-10.png)  
+![Figure 2-10.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-10.png)  
 
 Fourth, approximate the derivatives
 to the Y vs. S curve at a set of points; these derivatives are the as. Fifth, fit a β-curve to the points
@@ -302,7 +302,7 @@ three-dimensional tube of water droplets starting at infinity with some area, A,
 freestream, and impinging on a body over some surface area, As. Then, the local impingement
 efficiency, β, is the limit, as As approaches zero, of A divided by As  
 
-![Equation 2-19.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-19.png)  
+![Equation 2-19.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-19.png)  
 
 Discussions of three-dimensional impingement calculations can be found in references 2-11 and 2-5.  
 
@@ -315,7 +315,7 @@ the droplet spectrum. In calculations with experimental data, this leads to taki
 by volume, with the droplet spectrum represented by a histogram. Terms computed over the droplet
 spectrum are sometimes indicated by writing a bar above them.  
 
-![Equation 2-20.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-20.png)  
+![Equation 2-20.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-20.png)  
 
 Here β_bar is called the droplet spectrum local impingement (or collection) efficiency at the surface
 position specified by S. The ph[r]ase "droplet spectrum" is ordinarily suppressed, since this is the
@@ -326,24 +326,24 @@ droplet diameter, δ. In equation 2-20, the derivative of this curve, dv/dδ, ap
 of the droplet size, δ, and, of course, the assumed cloud droplet distribution. Usually β and dv/dS are
 not known as continuous functions of δ and equation 2-20 is then represented as a summation
 
-![Equation 2-21.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-21.png)  
+![Equation 2-21.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-21.png)  
 
 Equation 2-21 is summed over N discrete droplet sizes representing the midpoints of N droplet size
 bins. (For example, δi = 6.5 μm for a bin for droplets with diameters from 5 to 8 μm.)
 The droplet spectrum (or overall) impingement (or collection) efficiency E for an airfoil or body
 is defined in a similar way for a droplet size distribution:  
 
-![Equation 2-22.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-22.png)  
+![Equation 2-22.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-22.png)  
 
 Here ΔYo(δ) is the initial Y difference for the tangent trajectories for a droplet of diameter δ. As in
 the case of β, one usually knows ΔYo (δ) for a discrete number of droplet sizes. Equation 2-22 can
 therefore be written as the sum  
 
-![Equation 2-23.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-23.png)  
+![Equation 2-23.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-23.png)  
 
 Note that a droplet spectrum (or overall) ΔYo may also be defined as  
 
-![Equation 2-24.png](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-24.png)  
+![Equation 2-24.png](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-24.png)  
 
 The limits of impingement depend not on the entire droplet spectrum but only on the largest
 droplets present in the spectrum. Let δmax denote the largest drop diameter present in the spectrum
@@ -396,7 +396,7 @@ here is based on reference 2-43.
 
 The mass balance for a control volume on the surface can be formulated as follows (figure 2-73).  
 
-![Figure 2-73. Control volume mass balance for an ice surface.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-73.png)  
+![Figure 2-73. Control volume mass balance for an ice surface.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-73.png)  
 
 Let M"Imp denote the mass flux per unit time due to impinging water droplets,
 M"Run in and M"Run out denote mass flow per unit area per unit time into and out of the control
@@ -404,12 +404,12 @@ volume due to liquid run back, and M"ice denote the mass of ice formed per unit 
 Then the mass balance for the control volume is:  
 >M"Ice = M"Imp + M"Runin - M"Runout - M"Evap  
 
-![Equation 2-33 corrected. M"Ice = M"Ice + M"Runin - M"Runout - M"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-33%20corrected.png)   
+![Equation 2-33 corrected. M"Ice = M"Ice + M"Runin - M"Runout - M"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-33%20corrected.png)   
 
 The term M"Imp is given by:  
 >M"Imp = V∞ LWC β
 
-![Equation 2-34. M"Imp = V∞ LWC β](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-34.png)  
+![Equation 2-34. M"Imp = V∞ LWC β](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-34.png)  
 V∞ is the freestream velocity. However, if the local velocity at the edge of the boundary layer is
 available, that velocity should be used rather than the freestream velocity. This procedure is followed,
 for example, in the ice accretion code LEWICE. β is the local collection efficiency for the control
@@ -418,53 +418,53 @@ volume.
 It is convenient to define a term M"Incoming by:  
 >M"Incoming = M"Imp + M"Runin  
 
-![Equation 2-35. M"Incoming = M"Imp + M"Runin](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-35.png)  
+![Equation 2-35. M"Incoming = M"Imp + M"Runin](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-35.png)  
 Then the freezing fraction n for the control volume is defined by:  
 > n = M"Ice / M"Incoming
 
-![Equation 2-36. n = M"Ice / M"Incoming](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-36.png)  
+![Equation 2-36. n = M"Ice / M"Incoming](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-36.png)  
 where M"ice is the incoming mass which freezes.  
 
 The energy balance for a control volume on the surface can be formulated as follows (figure 2-74).  
- ![Figure 2-74. Modes of energy transfer for an accreting ice surface.](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FFigure%202-74.png)  
+ ![Figure 2-74. Modes of energy transfer for an accreting ice surface.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-74.png)  
 
 First, the main heat source terms (those that release heat into the control volume) are given.  
 
 Let Q"Freeze denote the freezing of the incoming water. Then  
 >Q"Freeze = n M"Incoming Lf  
 
-![Equation 2-37. Q"Freeze = n M"Incoming Lf](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-37.png)  
+![Equation 2-37. Q"Freeze = n M"Incoming Lf](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-37.png)  
 where Lf is the heat of fusion.
 
 Let Q"AeroHeat denote the aerodynamic heating. Then  
 >Q"AeroHeat = hc rc V∞^2 / (2 CpAir)
 
-![Equation 2-38. Q"AeroHeat = hc rc V∞^2 / (2 CpAir)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-38.png)  
+![Equation 2-38. Q"AeroHeat = hc rc V∞^2 / (2 CpAir)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-38.png)  
 where hc is the local heat transfer coefficient, rc is a recovery factor, and CpAir
 is the specific heat of air.  
 
 Let Q"DropletK.E. denote the kinetic energy of the incoming droplets. Then:
 >Q"DropletKE = M"Imp V∞^2 / 2
 
-![Equation 2-39. Q"DropletKE = M"Imp V∞^2 / 2](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-39.png)  
+![Equation 2-39. Q"DropletKE = M"Imp V∞^2 / 2](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-39.png)  
 
 Let Q"IceCool denote the cooling of the ice to the surface temperature TSurf. Then  
 >Q"IceCool = n M"ice (Tf - Tsurf)  
 
-![Equation 2-40. Q"IceCool = n M"ice (Tf - Tsurf)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-40.png)  
+![Equation 2-40. Q"IceCool = n M"ice (Tf - Tsurf)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-40.png)  
 where Tf is the ice/water equilibrium temperature (32 F). Note that if n < 1, TSurf = Tf and so this term equals 0.
 
 Define Q"Source by:  
 >Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool
 
-![Equation 2-41. Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-41.png)  
+![Equation 2-41. Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-41.png)  
 
 Next, the main heat sink terms (those that remove heat from the control volume) are given.
 
 Let Q"conv denote the convective cooling term. Then  
 >Q"Conv = hc (Tsurf - T∞)  
 
-![Equation 2-42. Q"Conv = hc (Tsurf - T∞)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-42.png)  
+![Equation 2-42. Q"Conv = hc (Tsurf - T∞)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-42.png)  
 where T∞ is the freestream temperature. If the local temperature at the edge of the boundary layer
 is available, that temperature should be used in this term rather than the freestream temperature. This
 is also done in LEWICE.  
@@ -472,18 +472,18 @@ is also done in LEWICE.
 Note: The term Q"Conv is often defined by  
 >Q"Conv = hc (Tsurf - Tr)  
 
-![Equation 42b. Q"Conv = hc (Tsurf - Tr)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%2042b.png)  
+![Equation 42b. Q"Conv = hc (Tsurf - Tr)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%2042b.png)  
 where the "recovery temperature" Tr is given by  
 > Tr = T∞ + hc rc V∞^2 / (2 CpAir)  
 
-![Equation 42c. Tr = T∞ + hc rc V∞^2 / (2 CpAir)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%2042c.png)  
+![Equation 42c. Tr = T∞ + hc rc V∞^2 / (2 CpAir)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%2042c.png)  
 In this formulation the term Q"AeroHeat is omitted from equation (2-41). In subsequent calculations
 in this section, Q"AeroHeat is retained and equation (2-42) is used to calculate Q"Conv.  
 
 Let Q"DropWarm denote the droplet warming term. Then  
 >Q"DropWarm = M"Imp Cw (TSurf - T∞)  
 
-![Equation 2-43. Q"DropWarm = M"Imp Cw (TSurf - T∞)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-43.png)  
+![Equation 2-43. Q"DropWarm = M"Imp Cw (TSurf - T∞)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-43.png)  
 where Cw is the specific heat of water.  
 
 Let Q"Evap denote the heat loss due to evaporation. There are a variety of formulations of this
@@ -492,22 +492,22 @@ term. The approach used here is based on reference 2-44 and 2-U1 and employs the
 M"Evap is given by  
 >M"Evap = g ΔB  
 
-![Equation 2-44. M"Evap = g ΔB](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-44.png)  
+![Equation 2-44. M"Evap = g ΔB](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-44.png)  
 where g is the mass transfer coefficient and ΔB is the evaporative driving potential dependent on the
 vapor concentration difference between the surface and the edge of the boundary layer.
 These quantities are given by:  
 > g = hc / CpAir (Pr/Sc)^0.667  
 
-![Equation 2-45. g = hc / CpAir (Pr/Sc)^0.667](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-45.png)  
+![Equation 2-45. g = hc / CpAir (Pr/Sc)^0.667](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-45.png)  
 >ΔB = B1 / B2  
 
-![Equation 2-46. ΔB = B1 / B2](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-46.png)  
+![Equation 2-46. ΔB = B1 / B2](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-46.png)  
 > B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)  
 
-![Equation 2-47a. B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-47a.png)  
+![Equation 2-47a. B1 = PV,Surf / TSurf - (Po / P∞) (Pv,∞ / Ts)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-47a.png)  
 >B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)  
 
-![Equation 2-47b. B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-47b.png)  
+![Equation 2-47b. B2 = 1/ 0.0622 (Po / To) - (PV,Surf / TSurf)](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-47b.png)  
 
 The Prandtl number Pr, Schmidt number Sc, and specific heat of air Cp air should be evaluated at the
 film temperature (To + Tsurf)/2. PV,surf is the vapor pressure at the surface and Pv,∞ is the free
@@ -517,26 +517,26 @@ are used. 0.622 is the ratio of the molecular weight of water to that of dry air
 evaporation is now given by:  
 > Q"evap = M"Evap Lv  
 
-![Equation 2-48. Q"evap = M"Evap Lv](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-48.png)  
+![Equation 2-48. Q"evap = M"Evap Lv](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-48.png)  
 Lv is the heat of vaporization.  
 
 If the freezing fraction is equal to 1 and the surface temperature Tsurf is to be computed, then
 Q"Evap should be replaced by the heat loss due to sublimation, denoted by Q"Subl. This is given by  
 >Q"Subl = M"Subl Ls  
 
-![Equation 2-49. Q"Subl = M"Subl Ls](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-49.png)  
+![Equation 2-49. Q"Subl = M"Subl Ls](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-49.png)  
 where M"Subl denotes the mass flux due to sublimation per unit time and Ls denotes the heat of
 sublimation. In some programs, M"Subl is computed using the same formulas as M"Evap. 
 
 Define Q"Sink by:  
 >Q"Sink = Q"conv + Q"DropWarm + Q"Evap  
 
-![Equation 2-50. Q"Sink = Q"conv + Q"DropWarm + Q"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-50.png)  
+![Equation 2-50. Q"Sink = Q"conv + Q"DropWarm + Q"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-50.png)  
 
 The energy balance equation is:  
 >Q"Source + Q"Sink = 0  
 
-![Equation 2-51. Q"Source + Q"Sink = 0](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-51.png)  
+![Equation 2-51. Q"Source + Q"Sink = 0](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-51.png)  
 
 The control volume freezing fraction is calculated as follows: Assume that the equilibrium
 temperature, Tsurf, is Tf. With this assumption, all quantities in the energy balance except n can be

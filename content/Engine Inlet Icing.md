@@ -11,7 +11,7 @@ _From NACA-RM-E8C18._
 ## Discussion  
 
 Publications taken largely from 
-[The Historical Selected Bibliography of NACA-NASA Icing Publications](The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md),
+[The Historical Selected Bibliography of NACA-NASA Icing Publications]({filename}The%20Historical%20Selected%20Bibliography%20of%20NACA-NASA%20Icing%20Publications.md),
 "Turbine-Type Engine and Inlet Icing Studies" section are reviewed here.  
 
 ## Reviews  
@@ -24,7 +24,7 @@ Publications taken largely from
 
 - _"Ice formations penetrated to the second-stage rotor blades"_  
 
-[NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md) "Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition"  
+[NACA-RM-E8F01a]({filename}NACA-RM-E8F01a.md) "Natural Icing of an Axial-Flow Turbojet Engine in Flight for a Single Icing Condition"  
 
 - _"The engine was satisfactorily accelerated to take-off power after approximately 45 minutes in the icing condition"_  
 

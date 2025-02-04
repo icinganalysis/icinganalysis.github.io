@@ -152,7 +152,7 @@ to evaluate the meteorological conditions prevailing throughout the
 flights.  
 
 Reference 2 is [NACA-RM-E8C18]({filename}NACA-RM-E8C18.md), 
-reference 3 is [NACA-RM-E8FO1a]({filename}NACA-RM-E8FO1a.md), 
+reference 3 is [NACA-RM-E8F01a]({filename}NACA-RM-E8F01a.md), 
 and reference 4 is NACA-RM-E51C15 [^2].
 
 ![Figure 5. Installation of axial-flow-type turbojet engine below wing of large four-engine bomber-type aircraft.](/images%2FNACA-RM-E51B12%2FFigure%205.png)

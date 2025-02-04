@@ -32,13 +32,13 @@ Q"Source + Q"Sink = 0
 ```
 
 >Define Q"Sink by:  
->![Equation 2-50. Q"Sink = Q"conv + Q"DropWarm + Q"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-50.png)  
+>![Equation 2-50. Q"Sink = Q"conv + Q"DropWarm + Q"Evap](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-50.png)  
 ```text
 Q"Sink = Q"conv + Q"DropWarm + Q"Evap  
 ```
 
 >Define Q"Source by:  
->![Equation 2-41. Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool](/images%2FAircraft%20Icing%20Handbook%20volume%201 %2FEquation%202-41.png)  
+>![Equation 2-41. Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-41.png)  
 ```text
 Q"Source = Q"Freeze + Q"AeroHeat + Q"DropletKE + Q"IceCool  
 ```
