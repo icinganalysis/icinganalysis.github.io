@@ -25,7 +25,7 @@ Instead, I will use the collective themes below about icing wind tunnels.
 
 There are significant icing wind tunnel test method improvements in the post-NACA era that will also be covered. 
 
-Readers are also encouraged to see ["We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
+Readers are also encouraged to see [NASA/SP-2002-4226 "We Freeze to Please": A History of NASA's Icing Research Tunnel and the Quest for Flight Safety](https://ntrs.nasa.gov/citations/20020066162), 
 which includes information from NACA-era internal memos and interviews that I have not seen published elsewhere. 
 
 The NACA Cleveland (now NASA Glenn) Icing Research Tunnel has an enduring legacy. 

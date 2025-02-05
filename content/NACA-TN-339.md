@@ -257,11 +257,13 @@ calibration to your target environment is time well spent.
 
 #### Spray uniformity  
 
-    "A spray which consisted of large drops was found to use excessive
-    quantities of water which could not be properly regulated without 
-    giving very poor dispersion in the jet, and which gave formations 
-    of ice on the model of a very different shape from any
-    obtained in flight."
+```text
+"A spray which consisted of large drops was found to use excessive
+quantities of water which could not be properly regulated without 
+giving very poor dispersion in the jet, and which gave formations 
+of ice on the model of a very different shape from any
+obtained in flight."
+```
     
 Current icing wind tunnel calibration reports usually include a spray uniformity map,
 usually determined by placing a metal grid in the test section and 
