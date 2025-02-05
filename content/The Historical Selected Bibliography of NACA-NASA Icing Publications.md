@@ -182,7 +182,7 @@ Links to reviews are included where applicable.
         > review: [Heated probes]({filename}Heated%20Probes.md)  
     - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
-    - Bergrun, Norman R.: Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
+    - Bergrun, Norman R.: An Empirical Method Permitting Rapid Determination of the Area, Rate, and Distribution of Water-Drop Impingement on an Airfoil of Arbitrary Section at Subsonic Speeds. NACA-TN-2476, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068677)  
         > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
     - Bergrun, Norman R.: A Method for Numerically Calculating the Area and Distribution of Water Impingement on the Leading Edge of an Airfoil in a Cloud. NACA-TN-1397, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068678)  
         > review: [Airfoil impingement drop distribution]({filename}airfoil%20impingement%20drop%20distribution.md)  
