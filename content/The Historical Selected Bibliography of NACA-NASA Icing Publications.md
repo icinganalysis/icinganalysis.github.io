@@ -39,7 +39,7 @@ the abstracts are reformatted in text at [Abstracts for The Historical Selected 
 
 The bibliographic lists are substantially similar in the three publications. 
 Minor differences include different numberings, and some references are updated, such as 
-"Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations" 
+"Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations" 
 was updated from "NASA Memo CCE-169" to "NASA Memo 1-19-59E".  
 
 ### Requests for data  
@@ -101,7 +101,7 @@ While most of the NACA publications are available at the NTRS [^6], some are not
     - It is available for purchase from the SAE.  
 - Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)
     - This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876)  
-- Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
+- Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
     - This is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 - Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 
     - this is available at [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
@@ -138,7 +138,7 @@ Links to reviews are included where applicable.
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
     - Perkins, Porter J., Lewis, William, and Mulholland, Donald R.: Statistical Study of Aircraft Icing Probabilities at the 700- and 500- Millibar Levels over Ocean Areas in the Northern Hemisphere. NACA-TN-3984, 1957.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068859)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
-    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Ocean During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
+    - Perkins, Porter J.: Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
         > review: [Meteorology publications by Porter Perkins]({filename}perkins%20meteorology.md)  
 
 - Fundamental Properties of Water  

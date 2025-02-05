@@ -75,7 +75,7 @@ NACA-TN-779 cites 6 works, 3 of them are NACA publications.
 
 - von Kármán, Th., and Tsien, H. S.: Boundary Layer in Compressible Fluids. Jour. Aero. Sci., vol. 5, no. 6, April 1938, pp. 227-232.
 - Goldstein, S.: Modern Developments in Fluid Dynamics. The Clarendon Press, Oxford, 1938.
-- Stack, John, Lindsey, W. F., and Littell, Robert E.: The Compressibility Burble and the Effect of Conmpressibility on Pressures and Forces Acting on an Airfoil. NACA-TR-646, 1938.
+- Stack, John, Lindsey, W. F., and Littell, Robert E.: The Compressibility Burble and the Effect of Conmpressibility on Pressures and Forces Acting on an Airfoil. NACA-TR-646, 1938. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091721)
 - Theodorsen, Theodore: Theory of Wing Sections of Arbitrary Shape. NACA-TR-411, 1931. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091485)
 - Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  
 - Glauert, H.: The Elements of Aerofoil and Airscrew Theory. The Univ. Press (Cambridge), 1926.
