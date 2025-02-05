@@ -202,5 +202,5 @@ The NACA publications are available at no cost at [ntrs.nasa.gov](ntrs.nasa.gov)
 [^1]: Collier Trophy Winners [naa.aero](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
 [^2]: Dawson, Virginia P. "Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306." Engines and Innovation: Lewis Laboratory and American Propulsion Technology. NASA SP-4306, by Virginia P. Dawson, 271 pages, published by NASA, Washington, DC, 1991 4306 (1991) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19910006662).  
 [^3]: Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH TUNNEL", ASME, May, 1987. 
-[www.asme.org](https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf)  
+[asme.org](https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/engineering%20history/landmarks/117-icing-research-tunnel-nasa-lewis-research-ce.pdf)  
 [^4]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
