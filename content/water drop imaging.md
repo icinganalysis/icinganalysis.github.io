@@ -215,7 +215,7 @@ NACA-RM-E50K01a cites two publications:
 NACA-RM-E51G05  cites six publications:   
 
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-- Clark, Victor F.: The Multicylinder Method. The Mount Washington Monthly Res. Bull., vol. II, no. 6, June 1946.  
+- Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 - May, K. R.: The Cascade Impactor: An Instrument for Sampling Coarse Aerosols. Jour. Sd. Instruments, vol. XXII, no. 10, Oct. 1945, pp. 187-195.  
 - May, K. R.: The Measurement of Airborne Droplets by the Magnesium Oxide Method. Jour. Sc Instruments, vol. XXVII, no. 5, May 1950, pp. 128-130.  
 - Vonnegut, B., Cunningham, R. M., and Katz, R. E.: Report on Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes. Tech. Rep. 5519, Air Materiel Command, AAF, Aug. 13, 1946. (Contract No. W-33-038-ac-5443.)  

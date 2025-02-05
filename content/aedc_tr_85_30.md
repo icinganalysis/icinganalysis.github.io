@@ -280,7 +280,7 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 
 - Pope, A.: Wind Tunnel Testing. John Wiley and Sons, Inc., New York, 1947.  
 - Bragg, M. B., Gregorek, G. M., and Shaw, R. J.: "An Analytical Approach to Airfoil Icing." AIAA Paper No. 81-0403, Presented at the 19th Aerospace Sciences Meeting, January 12-15, 1981.  
-- Langmuir, E. and Blodgett, K. B.: "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25-223, February 1946.  
+- Langmuir, I. and Blodgett, K. B.: "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25-223, February 1946.  
 - Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
 - Frost, W., Chang, H. P., and Kimble, K. R.: "Particle Trajectory Computer Program for Icing Analysis." Final report for NASA/Lewis Research Center Under Contract NASA-22442 by FWG Associates, Inc., April 1982.  
 - Chang, H. P., Frost, W., and Shaw, R. J." "Influence of Multidroplet Size Distribution on Icing Collection Efficiency." Presented at the AIAA 21 st Aerospace Sciences Meeting, AIAA Paper No. 83-0110, January 10-13, 1983.  

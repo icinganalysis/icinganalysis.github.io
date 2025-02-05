@@ -42,7 +42,7 @@ Available online at [abbottaerospace.com](https://www.abbottaerospace.com/downlo
 
 ## No Loanable Copies Available  
 
-- Katz, R.E., and Cunningham, R.M.: Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes- II, Aircraft Icing Instruments M.I.T. Icing Research Laboratory Report. Contract No. W-33-038-ac-14165. Mar. 1948  
+- Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)  
 - Vonnegut, B.: "Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes". De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946  
 
 ## Could not find except by reference    

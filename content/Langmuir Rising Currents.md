@@ -256,7 +256,7 @@ Langmuir cites 8 references:
 - "On the measurement of drop size in liquid water content in fogs and clouds", Papers in Physical Oceanographic Institute and Meteorology, published by Mass. Inst. of Tech. and Woods Hole Oceanographic Institute, Volume 4 , November 1938.  
 - Albrecht, F.: Theoretical investigation of accretion of aerosol particles in an air, stream and an application of the theory of the aerosol filter. Phys. Z 32 (1931): 48-56.  
 - Langmuir, Irving: OSRD report on Screening Smokes No. 490, Dated October 5, 1942 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADB811463.pdf)  
-- Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorol., M.I.T. and Woods Hole Oceanographic Inst., vol. VI, no. 4, Nov. 1938.  
+- Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.  
 - Humphreys, W. J.: Physics of the Air. J. B. Lippincott Co., 1920.  
 - Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
 - Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics, NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  

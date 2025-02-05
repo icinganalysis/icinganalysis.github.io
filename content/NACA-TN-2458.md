@@ -242,13 +242,13 @@ I do not know of further development or uses of this instrument.
 NACA-TN-2458 cites 13 publications.  
 
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
-- Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Fornation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)  
+- Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)  
 - Thomson, J. J., and Thomson, G. P.: Conduction of Electricity through Gases. Vols. I and II. Cambridge Univ. Press, 3d ed., 1928.  
 - Loeb, Leonard B.: Fundamental Processes of Electrical Discharge in Gases. John Wiley & Sons, Inc., 1939.  
 - Cobine, James Dillon: Gaseous Conductors. McGraw-Hill Book Co., Inc., 1941.  
 - Townsend, J. S.: Electricity in Gases. Clarendon Press (Oxford), 1915, p. 378.  
 - Pauthenier, et Mallard: Contribution l etude du champ cylindrique dans l'air ionis & la pression ordinaire. Contr1e expe'rimentai. Coinptes Rendus, T. 189, Nr. 21, Nov. 18, 1929, P. 843-845.  
-- Clark, Victor F.: The Multicylinder Method. The Mount Washington Monthly Res. Bull., vol. II, no. 6, June 1946.  
+- Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 - Anon.: Handbook of Meteorology, F. A. Berry, E. Bollay, and Norman R. Beers, eds. McGraw-Hill Book Co., Inc., 1945.  
 - Ladenburg, Rudolf: Untersuchungen iber die physikalischenVorgange bei der sogenannten elektrischen Gasreinigung. Teil I. Uber die maximale Aufladung von Schwebeteilchen. Ann. d. Phys., Bd. 4, Heft 7, Folge 5, 1930, S. 863-897.  
 - Deutsch, Walther: Bewegung und Ladung der E1ektrizitatstrager im Zylinderkondensator. Ann. d. Phys., Bd. 68, No. 12, Folge 4, 1922, 5. 335-344.  

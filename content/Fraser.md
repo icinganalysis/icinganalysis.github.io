@@ -216,7 +216,7 @@ Fraser cites 6 publications:
 - Pettit, K. G.: Nephelometric Instrumentation for Aircraft Icing Research. Rep. No. MD-33, National Res. Council of Canada (Ottawa), Aug. 1950.  
 - Internal communication from the N.A.E. Engine Testing Laboratory, Feb., 1952.  
 - Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068727)  
-- Langmuir, I., and Blodgett, K. B.: " A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).  
+- Langmuir, I., and Blodgett, K. B.: "A mathematicalinvestigation of water droplet trajectories." A.A.F. Tech. Report 5418 (1946).  
 
 Fraser is cited by 2 publications in the NACA Icing Publications Database [^5]: 
 
