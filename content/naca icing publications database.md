@@ -97,10 +97,10 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 47. Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093554)  
 48. Chapman, Gilbert E.: A Preliminary Investigation of the Icing Characteristic of a Large Rectangular-Throat Pressure-Type Carburetor. NACA-MR-E6G11, 1946.  
 49. Chapman, Gilbert E., and Zlotowski, Edward D.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, IV- Effect of Throttle Design and Method of Throttle Operation on Induction-System Icing Characteristic. NACA-MR-E5L27, 1946.  
-50. Corson, Blake W., Jr., and Maynard, Julian D.: The Effect of Simulated Icing on Propeller Performance. NACA-TN-1084, 1946.  
+50. Corson, Blake W., Jr., and Maynard, Julian D.: The Effect of Simulated Icing on Propeller Performance. NACA-TN-1084, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081700)  
 51. Essex, Henry A., Zlotowski, Edward D., and Ellisman, Carl: Investigation of Ice Formation in the Induction System of an Aircraft Engine, I- Ground Test. NACA-MR-E6B2, 1946.  
 52. Essex, Henry A., Zlotowski, Edward D., and Ellisman, Carl: Investigation of Ice Formation in the Induction System of an Aircraft Engine, II- Flight Test. NACA-MR-E6E16, 1946.  
-53. Jones, Alun R.: An Investigation of a Thermal Ice-Prevention System for a Twin-Engine Transport Airplane. NACA-TR-862, 1946.  
+53. Jones, Alun R.: An Investigation of a Thermal Ice-Prevention System for a Twin-Engine Transport Airplane. NACA-TR-862, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091934)  
 54. Mulholland, Donald R., Rollin, Vern G., and Galvin, Herman B.: Laboratory Investigation of Icing in the Carburetor and Supercharger Inlet Elbow of an Aircraft Engine, IV-Effect of Modification to Fuel-Spray Nozzle on Icing Characteristic . NACA-MR-E6A23, 1946.  
 55. von Glahn, Uwe H., and Renner, Clark E.: Development of a Protected Air Scoop for the Reduction of Induction-System Icing. NACA-TN-1134, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081783)  
 56. Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)

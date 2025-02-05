@@ -254,7 +254,7 @@ The airspeed in noted as 150 miles per hour.
 
 NACA-TN-1393 cites 14 references.
 
-- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS)
+- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056))  
 - Neel, Carr B., Jr., and Jones, Alun R.: Flight Tests of Thermal Ice-Prevention Equipment in the XB-24F Airplane. NACA-WR-A-7, Oct. 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093545)  
 - Look, Bonne C.: Flight Tests of the Thermal Ice-Prevention Equipment on the B-17F Airplane. NACA-ARR-4B02, 1944. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093556)  
 - Selna, James, Neel, Carr B., Jr., and Zeiller, E. Lewis: An Investigation of a Thermal Ice-Prevention System for a C-46 Cargo Airplane, IV - Results of Flight Tests in Dry-Air and Natural-Icing Conditions. NACA-ARR-5A03c, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093554)  
@@ -266,7 +266,7 @@ NACA-TN-1393 cites 14 references.
 - Simpson, G. C.: On the Formation of Cloud and Rain. Quarterly Jour. of the Royal Meteorological Soc. Vol. 67, no. 290, Apr. 1941, pp.99-133.  
 - Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
 - Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
-- Harrison, L. A.: Lightning Discharges to Aircraft and Associated Meteorological Conditions. NACA-TN-1001, 1946.  
+- Harrison, L. A.: Lightning Discharges to Aircraft and Associated Meteorological Conditions. NACA-TN-1001, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930080793)  
 - Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.  
 
 NACA-TN-1393 is cited 13 times in the NACA Icing Publications Database [^8].
@@ -306,7 +306,7 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
 [^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.  
 [^7]:
-[Implementation of cylinder impingement correlations in Python]({filename}Implementation%20of%20cylinder%20impingement%20correlations%20in%20Python.md)  
+Review at: [Implementation of cylinder impingement correlations in Python]({filename}Implementation%20of%20cylinder%20impingement%20correlations%20in%20Python.md)  
 [^8]: 
 [naca icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^9]:
