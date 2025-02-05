@@ -174,7 +174,7 @@ Links to reviews are included where applicable.
         > review: [NACA-TN-2458]({filename}NACA-TN-2458.md)  
     - Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731)  
         > review: [Water drop imaging]({filename}water%20drop%20imaging.md)  
-    - Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732)a.gov/citations/19810068732)  
+    - Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732)  
         > review: [NACA-TN-2708]({filename}NACA-TN-2708.md)  
     - Jones, Alun R., and Lewis, William: A Review of Instruments Developed for the Measurement of the Meteorological Factors Conducive to Aircraft Icing. NACA-RM-A9C09, 1949 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068733).  
         > review: [NACA-RM-A9C09]({filename}NACA-RM-A9C09.md), [NACA-RM-A9C09 Instruments]({filename}NACA-RM-A9C09_instruments.md)  

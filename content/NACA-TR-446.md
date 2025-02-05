@@ -152,6 +152,6 @@ An online search [^5] found 103 citations of NACA-TR-446, many of them in an ici
 
 [^1]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091520).  
 [^2]: Jacobs, Eastman N., and Abbott, Ira H.: The N.A.C.A. Variable-Density Wind Tunnel. NACA-TR-416, 1932. [ntrs.nasa.go](https://ntrs.nasa.gov/citations/19930091490)  
-[^3]: [Variable_Density_Tunnel at en.wikipedia.org](https://en.wikipedia.org/wiki/Variable_Density_Tunnel)  
+[^3]: Variable Density Tunnel at [en.wikipedia.org](https://en.wikipedia.org/wiki/Variable_Density_Tunnel)  
 [^4]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Airfoil+Section+Characteristics+as+Affected+by+Protuberances&btnG=)  
