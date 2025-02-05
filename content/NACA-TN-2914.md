@@ -218,7 +218,7 @@ NACA-TN-2914 cites 10 publications:
 - Theodorsen, Theodore, and Garrick, I. E.: General Potential Theory of Arbitrary Wing Sections. NACA-TR-452, 1933. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006787)  
 - Allen, H. J.: A Simplified Method for the Calculation of Airfoil Pressure Distribution. NACA-TN-708, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081453)  
 - Jones, Robert T., and Cohen, Doris: A Graphical Method of Determining Pressure Distribution in Two-Dimensional Flow. NACA-TR-722, 1941. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091800)  
-- Kaplan, Carl: Potential Flow about Elongated Bodies of Revolution. NACA-TR-516, 1935.  
+- Kaplan, Carl: Potential Flow about Elongated Bodies of Revolution. NACA-TR-516, 1935. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091589)  
 - Bryson, Arthur Earl, Jr.: An Experimental Investigation of Transonic Flow Past Two-Dimensional Wedge and Circular-Arc Sections Using a Mach-Zehnder Interferometer. NACA-TN-2560, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083267)  
 
 NACA-TN-2861 is cited by 5 publications in the NACA Icing Publications Database [^6]: 

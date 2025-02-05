@@ -420,7 +420,7 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^5]: Jeck, Richard K. "Advances in the characterization of supercooled clouds for aircraft icing applications". No. DOT-FAA-AR 07-4. Office of Aviation Research and Development, Federal Aviation Administration, 2008. [tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  
 [^6]: [Appendix O to Part 25](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
 [^7]:
-FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031) [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
 [^8]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.
 [^9]: Cober, Stewart, and Isaac, George: "Estimating Maximum Aircraft Icing Environments Using a Large Database of In-Situ Observations." 44th AIAA Aerospace Sciences Meeting and Exhibit. 2006. [Research Gate](https://www.researchgate.net/profile/George-Isaac-2/publication/242299441_Estimating_Maximum_Aircraft_Icing_Environments_Using_a_Large_Data_Base_of_In_-Situ_Observations/links/5708fac408aea660813582e0/Estimating-Maximum-Aircraft-Icing-Environments-Using-a-Large-Data-Base-of-In-Situ-Observations.pdf)  
 [^10]:

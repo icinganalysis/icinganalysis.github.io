@@ -88,7 +88,7 @@ NACA-TN-2903 cites 8 publications:
 - Guibert, A. G., Janssen, E., and Robbins, W. M.: Determination of Rate, Area, and Distribution of Impingement of Waterdrops on Various Airfoils from Trajectories Obtained on the Differential Analyzer. NACA-RM-A905, 1949. [digital.library.unt.edu](https://digital.library.unt.edu/ark:/67531/metadc53095/)  
 - Brun, Rinaldo J., Serafini, John S., and Moshos, George J.: Impingement of Water Droplets on an NACA 651-212 Airfoil at an Angle of Attack of 4°. NACA-RM-E52B12, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068679)  
 - Eser, F. (N. Flint, Trans.): On the Flow of Compressible Fluids Past Solid Bodies at Subsonic Velocity. Luftfabrtforschung, vol. 20, no. 7, July 20, 1943, pp. 220-230. R.T.P. Translation No. 2056, Ministry Aircraft Prod. (British).  
-- Kaplan, Carl: Compressible Flow about Symmetrical Joukowski Profiles. NACA-TR-621, 1938.  
+- Kaplan, Carl: Compressible Flow about Symmetrical Joukowski Profiles. NACA-TR-621, 1938. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091696)  
 
 NACA-TN-2903 is cited 13 times in the NACA Icing Publications Database [^3]:  
 
