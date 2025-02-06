@@ -238,8 +238,7 @@ decades later (Lecture No. 6 by Messinger most frequently).
 
 ## Notes  
 
-[^1]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381) 
-[search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)   
+[^1]: University of Michigan. College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [search.lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)   
 [^2]: Tribus, Myron: "Modern Icing Technology" 1952. [lib.umich.edu](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/7990/bad2682.0001.001.pdf?sequence=5)  
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)  
