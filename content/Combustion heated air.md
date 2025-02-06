@@ -258,7 +258,7 @@ the entrances of the double-skin passages even for large values of
 Reynolds modulus.  
 >4. Measurements of the temperature of the inner-skin surfaces
 indicate that the inner skin is effective in transferring heat to the
-outer skin and that perfect bonding of the two surfaces is not necessary.
+outer skin and that perfect bonding of the two surfaces is not necessary.  
 >5. Isothermal pressure drops are predictable within about 20 percent.  
 >6. Additional data should be obtained to establish the effect of
 various types of entrance (such as are used in actual systems) on the

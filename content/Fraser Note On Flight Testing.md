@@ -249,5 +249,3 @@ I plan to eventually review Jeck [^4] in more detail.
 [^2]: Fraser, Don: Meteorological Design Requirements for Icing Protection Systems. Low Temperature Laboratory, NAE, Ottawa, Canada, Lecture No. 12a, University of Michigan Airplane Icing Information Course, 1953.  (36 pages)  
 [^3]: Fraser, Don: Note on the flight testing and assessment of icing protection systems. LR-50, 1953.  (11 pages)[nrc-publications.canada.ca](https://nrc-publications.canada.ca/eng/view/object/?id=2523bd38-26e6-4d8e-a7a1-529bd1b03b36)  
 [^4]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
-
-<!-- [science-catalogue.canada.ca](https://science-catalogue.canada.ca/record=1134925~S6) Hmm, does not show up here... -->
