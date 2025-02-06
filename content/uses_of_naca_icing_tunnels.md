@@ -24,7 +24,7 @@ There were five icing wind tunnels used by NACA.
 The majority of the tests were performed in the Icing Research Tunnel (IRT) as NACA Lewis. 
 The four other tunnels are briefly described in the "Other icing wind tunnel tests" section below. 
 
-I found 37 NACA publications [^2] that discuss use of the NACA Icing Research Tunnel. 
+I found 37 NACA publications that discuss use of the NACA Icing Research Tunnel. 
 Four more publications discuss the use of other icing wind tunnels. 
 
 A wide variety of test articles were used.
@@ -63,7 +63,7 @@ However, some test articles were mounted in the upstream converging section or d
 ### Selected images  
 
 ![Figure 1 from Gray, 1969 Aircraft Ice Protection Report of Symposium. Plan view of NASA-Lewis Icing Research Tunnel.](images/1969 Aircraft Ice Protection Report of Symposium/Gray Figure 1.png)  
-_from 1969 Aircraft Ice Protection Report of Symposium [^3]_  
+_from 1969 Aircraft Ice Protection Report of Symposium [^2]_  
 
 ![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.](images/naca-tn-1246/Figure 1.png)  
 
@@ -128,7 +128,7 @@ it contains data from a test conducted in 1945.
 | NACA-TN-2615 [Heated Probes]({filename}Heated%20Probes.md)                                                                                | hot wire instrument                               | 1           | full    | not stated             | Constructed test facility, Moffett Field, California   |
 | [NACA-TN-3104]({filename}NACA-TN-3104.md)  <br/>[NACA-TN-3143]({filename}NACA-TN-3143.md)  <br/>[NACA-TN-3396]({filename}NACA-TN-3396.md) | 6-inch chord airfoil                              | not stated  | section | full span wall-to-wall | 3.84-inch by 10-inch Transonic tunnel NACA Lewis, Ohio |
 
-A 12-inch by 12-inch tunnel is mentioned in "The Icing Problem" [^4], but I have not found where it was used.  
+A 12-inch by 12-inch tunnel is mentioned in "The Icing Problem" [^3], but I have not found where it was used.  
 
 ## References  
 
@@ -163,7 +163,6 @@ A 12-inch by 12-inch tunnel is mentioned in "The Icing Problem" [^4], but I have
 - von Glahn, Uwe H., and Gray, Vernon H.: Effect of Ice Formations on Section Drag of Swept NACA 63A-009 Airfoil with Partial-Span Leading-Edge Slat for Various Modes of Thermal Ice Protection. NACA-RM-E53J30, 1954. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086972)  
 - Bowden, Dean T.: Investigation of Porous Gas-Heated Leading-Edge Section for Icing Protection of a Delta Wing. NACA-RM-E54I03, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068603)  
 - von Glahn, Uwe H., Gelder, Thomas F., and Smyers, William H., Jr.: A Dye-Tracer Technique for Experimentally Obtaining Impingement Characteristics of Arbitrary Bodies and a Method for Determining Droplet Size Distribution. NACA-TN-3338, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068693)  
-
 - Coles, Willard D.: Icing Limit and Wet-Surface Temperature Variation for Two Airfoil Shapes under Simulated High-Speed Flight Conditions. NACA-TN-3396, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084131)  
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 - Gelder, Thomas F., Smyers, William H., Jr., and von Glahn, Uwe H.: Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent. NACA-TN-3839, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068700)  
@@ -181,7 +180,6 @@ in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.m
 ## Notes  
 
 [^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)   
-[^2]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
-[^3]:
+[^2]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf)    
-[^4]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)       
+[^3]: von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)       
