@@ -84,7 +84,7 @@ From Messinger (equations re-arranged), we also see a water catch rate and a tem
 
 In the [Conclusions of the Icing Thermodynamics Thread]({filename}Conclusions of the Icing Thermodynamics Thread.md) 
 it was noted that 
-[NASA/CR-2005-213852](https://ntrs.nasa.gov/api/citations/20050215212)  
+[NASA/CR-2005-213852](https://ntrs.nasa.gov/citations/20050215212)  
 treated the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature 
 for calculating leading edge freezing fraction. 
 We will use that here. 
@@ -331,9 +331,9 @@ von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 1
 [^11]: Brumby RE. Wing Surface Roughness – Cause & Effect. D.C. Flight Approach, Jan. 1979. pp. 2-7.  
 [^12]: Bragg, Michael B., and Eric Loth. Effects of large-droplet ice accretion on airfoil and wing aerodynamics and control. ILLINOIS UNIV AT URBANA DEPT OF AERONAUTICAL AND ASTRONAUTICAL ENGINEERING, 2000. DOT/FAA/AR-00/14. [tc.faa](http://www.tc.faa.gov/its/worldpac/techrpt/ar00-14.pdf)  
 [^13]: Bragg, Michael B., Andy P. Broeren, and Leia A. Blumenthal. "Iced-airfoil aerodynamics." Progress in Aerospace Sciences 41.5 (2005): 323-362.  [icing.ae](http://icing.ae.illinois.edu/papers/05/Iced%20Airfoil%20Aerodynamics.pdf)  
-[^14]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)   
+[^14]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)   
 [^15]: 
-Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  [ntrs](https://ntrs.nasa.gov/api/citations/20050215212)  
+Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  [ntrs](https://ntrs.nasa.gov/citations/20050215212)  
 [^16]: 
 Wright, William. User's manual for LEWICE version 3.2. No. E-15537. 2008. NASA/CR—2008-214255 [ntrs](https://ntrs.nasa.gov/api/citations/20080048307/downloads/20080048307.pdf)  
 [^17]: 

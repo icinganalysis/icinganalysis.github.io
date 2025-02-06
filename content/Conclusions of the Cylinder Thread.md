@@ -399,7 +399,7 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^9]: 
 Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA955916)  
 [^10]: 
-Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)    
+Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)    
 [^11]:
 Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 

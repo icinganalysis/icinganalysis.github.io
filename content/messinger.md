@@ -444,7 +444,7 @@ It is only available in print (I was able to read a copy through inter-library l
 [^1]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^2]: 
-Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)    
+Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)    
 [^3]: 
 Hardy, J. K.: An Analysis of the Dissipation of Heat in Conditions of Icing from a Section of the Wing of the C-46 Airplane. NACA-TR-831, 1945. (Formerly NACA-ARR-4I11a.) [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091908)  
 [^4]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)   

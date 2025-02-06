@@ -346,19 +346,19 @@ Bilanin cites 22 publications:
 - MacAurthur, C. D.: Numerical Simulation of Airfoil Ice Accretion. AIAA-83-0112, January, 1983.  
 - Lozowski, E. P., Stallabrass, J. R., and Hearty, P. F.: "The Icing of an Unheated Nonrotating Cylinder in Liquid-Water Droplet-Ice Crystal Clouds." National Research Council of Canada (NCR) Report LTR-LT-88, February 1979. [journals.ametsoc.org](https://journals.ametsoc.org/downloadpdf/view/journals/apme/22/12/1520-0450_1983_022_2053_tioaun_2_0_co_2.pdf)  
 - Bilanin, A. J.: Scaling Laws for Testing Airfoils Under Heavy Rainfall. Journal of Aircraft, Vol. 24, No. 1, January, 1987.  
-- Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971.
+- Department of Transportation Federal Aviation Administration "Aircraft Ice Protection," Advisory Circular 20-73, April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)
 - Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 - Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations. AEDC-TR-85-30 Vol. II, March, 1986.   
 - Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Rep. No. SM 14993, Douglas Aircraft Co., Inc., May 14, 1954.   
 - Sibley, P. J., and Smith, R. E., Jr.: Model Testing in an Icing Wind Tunnel. Rep. No. LR 10981, Lockheed Aircraft Cor., Oct. 14, 1955.  
 - Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
 - Jackson, E. T.: Development Study: The Use of Scale Models in an Icing Wind Tunnel to Determine Ice Catch on a Prototype Aircraft with Particular Reference to Concorde. British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75/RMMcK/242, July, 1967.  
-- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
+- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19790011931)  
 - Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
 - Schlichting, D.: Boundary-Layer Theory. McGraw-Hill Book Company, New York, NY, 1968.  
 - Olsen, W., Shaw, J., and Newton, J. "Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil." NASA-TM-83556, January 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850019527)   
 - Achenbach, E.: The Effect of Surface Roughness on the Heat Transfer from a Circular Cylinder to the Cross Flow of Air. International Journal of Heat Mass Transfer, Vol. 20, 1977.  
-- Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988.  
+- Hansman, J. R., Jr., and Turnock, S. R.: Investigation of Surface Water Behavior During Glaze Ice Accretion. AIAA-88-0015, January, 1988. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011611)  
 
 An online search [^11] found Bilanin cited by 53 publications.
 
@@ -368,7 +368,7 @@ An online search [^11] found Bilanin cited by 53 publications.
 [^3]: Anderson, David. "Rime-, mixed-and glaze-ice evaluations of three scaling laws." 32nd Aerospace Sciences Meeting and Exhibit. NASA-TM-106461, AIAA-94-0718, 1994. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19940019574)  
 [^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
 [^5]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
-[^6]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)   
+[^6]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)   
 [^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19880003091)  
 [^8]: Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
 [ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)  

@@ -106,8 +106,8 @@ While most of the NACA publications are available at the NTRS [^4], some are not
 
 - Fundamental Properties of Water  
 
-    - Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068861)
-    - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068862)
+    - Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068861)
+    - Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068862)
     - Hacker, Paul T.: Experimental Values of the Surface Tension of Supercooled Water. NACA-TN-2510, 1951.  
     - Dorsch, Robert G., and Boyd, Bemrose: X-Ray Diffraction Study of the Internal Structure of Supercooled Water. NACA-TN-2532, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068643)
     - Dorsch, Robert G., and Levine, Joseph: A Photographic Study of Freezing of Water Droplets Falling Freely in Air. NACA-RM-E51L17, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068864)

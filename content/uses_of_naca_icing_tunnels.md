@@ -180,7 +180,7 @@ in the [Icing Wind Tunnel Test thread]({filename}Icing Wind Tunnel Test Thread.m
 
 ## Notes  
 
-[^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20040042486)   
+[^1]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)   
 [^2]: All the NACA publications mentioned may be found at [ntrs.nasa.gov](https://ntrs.nasa.gov)  
 [^3]:
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf)    

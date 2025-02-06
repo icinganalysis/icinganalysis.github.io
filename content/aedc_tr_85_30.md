@@ -290,12 +290,12 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 - Fergus, J. L., Jr.: "A Steady-State Thermal Model for Analysis of Incipient Icing on an Airfoil Leading Edge." AEDC-TR-83-2 (AD-AI31207), July 1983.  
 - Sibley, P. J., and Smith, R. E., Jr.: Model Testing in an Icing Wind Tunnel. Rep. No. LR 10981, Lockheed Aircraft Cor., Oct. 14, 1955.  
 - Jackson, E. T.: "Development Study: The Use of Scale Models in an Icing Tunnel to Determine the Ice Catch on a Prototype Aircraft with Particular Reference to Concorde." British Aircraft Corporation (Operating) Ltd., Filton Division, SST/B75T/RMMcK/242, July 1967.  
-- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978.  
+- Armand, C. et. al.: "Techniques and Facilities Used at the Onera Modane Centre for Icing Tests." North Atlantic Treaty Organization Advisory Group for Aerospace Research and Development, AGARD-AF-127, November 1978. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19790011931)  
 - Hauger, H. H., and Englar, K. G.: Analysis of Model Testing in an Icing Wind Tunnel. Rep. No. SM 14993, Douglas Aircraft Co., Inc., May 14, 1954.  
 - Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
 - Bentley, H. T.: "Fiber Optics Particle-Sizing System." AEDC-TR-73-111 (AD-766647), September 1973.  
 - Hunt, J. D.: "A Comparison of Particle Diagnostic Systems." AEDC-TR-80-33 (AD-AI04027), August 1981.  
-- Willbanks, C. E. and Schulz, R. J.: "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-1444 (AD-770069), November 1973.  
+- Willbanks, C. E. and Schulz, R. J.: "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-1444 (AD-770069), November 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/AD0770069.pdf)  
 - Stallabrass, J. R.: "Procedure for Allowing for the Evaporation from Water Droplets in an Engine Icing Test Cell." National Research Council of Canada (NRC) Report LTR-LT-129, January 1982.  
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)  
 - Hobbs, P. V.: Ice Physics. Oxford University Press, Ely House, London, 1974.  

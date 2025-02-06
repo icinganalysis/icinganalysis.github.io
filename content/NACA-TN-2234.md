@@ -301,4 +301,4 @@ This is part of the [Properties of Water]({filename}Properties%20of%20water.md) 
 
 ## Notes  
 
-[^1]: Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068861)  
+[^1]: Levine, Joseph: Statistical Explanation of Spontaneous Freezing of Water Droplets. NACA-TN-2234, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068861)  

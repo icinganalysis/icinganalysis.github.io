@@ -318,7 +318,7 @@ beyond the attendees of the Airplane Icing Information Course.
 
 Vonnegut cites 19 references, reference 8 is a NACA publication:  
 
-- Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19810068862)  
+- Dorsch, Robert G., and Hacker, Paul T.: Photomicrographic Investigation of Spontaneous Freezing Temperatures of Supercooled Water Droplets. NACA-TN-2142, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068862)  
 
 There is reference 16 by William Lewis, who wrote several of the NACA publications:  
 

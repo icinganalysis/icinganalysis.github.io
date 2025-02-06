@@ -78,8 +78,8 @@ and NACA-TN-4151 as an analysis report of the test results to develop correlatio
 
 These are relatively long (46 and 48 pages), so highly condensed summaries will follow. 
 Readers are encouraged the read the full papers, available at 
-[NACA-TN-4151](https://ntrs.nasa.gov/api/citations/19810068588) and 
-[NACA-TN-4155](https://ntrs.nasa.gov/api/citations/19810068589). 
+[NACA-TN-4151](https://ntrs.nasa.gov/citations/19810068588) and 
+[NACA-TN-4155](https://ntrs.nasa.gov/citations/19810068589). 
 
 ### NACA-TN-4155
 
