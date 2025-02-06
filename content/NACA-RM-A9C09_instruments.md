@@ -92,7 +92,7 @@ This discrepancy is again present in the 1947-48
 meteorological data obtained during the C-46 airplane icing operation 
 by the Ames Aeronautical Laboratory and has not been resolved
 at the present writing. The most probable source of error in the
-deteration of the maximum drop diameter by the fixed-cylinder
+determination of the maximum drop diameter by the fixed-cylinder
 method is the measurement of the extent of the ice accretion on the
 cylinder. This extent is commonly expressed as the included angle
 between the two radii of the cylinder which define the extremities of the ice accretion. 

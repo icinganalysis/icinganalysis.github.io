@@ -210,7 +210,7 @@ I do not know of further development of the cascade impactor or oil stream metho
 NACA-RM-E50K01a cites two publications:   
 
 - Elliott, H. W.: Cloud Droplet Camera. Rep. No. MI-701, Div. Mech. Eng., 6220 F-24l, Nat. Res. Labs. (Ottawa), Dec. 26, 1947.  
-- Young, Allen E., McCullough, Stuart, and Smith, Richard L.: Power Unit for High-Intensity Light Source. NACA-RM-E50K27, July, 1951.  
+- Young, Allen E., McCullough, Stuart, and Smith, Richard L.: Power Unit for High-Intensity Light Source. NACA-RM-E50K27, July, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930086459)  
 
 NACA-RM-E51G05  cites six publications:   
 
