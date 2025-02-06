@@ -276,7 +276,7 @@ An online search found NACA-TN-3592 cited 6 times [^8].
 [^2]: Levine, Joseph, and Kleinknecht, Kenneth S.: Adaptation of a Cascade Impactor to Flight Measurement of Droplet Size in Clouds. NACA-RM-E51G05, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068731)  
 [^3]: Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735).  
 [^4]: Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
-[^5]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[^5]: [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^6]:  [NACA-RM-E50K01a scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E50K01a&btnG=)  
 [^7]:  [NACA-RM-E51G05 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-RM-E51G05&btnG=)   
 [^8]:  [NACA-RTN-3592 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-3592&btnG= )

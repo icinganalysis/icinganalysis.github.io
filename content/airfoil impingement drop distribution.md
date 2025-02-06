@@ -401,7 +401,7 @@ An online search found NACA-RM-E52B12 cited 3 times. [^10]
 [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1), [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19990021235)    
 [^6]: Brun, Rinaldo J., and Vogt, Dorothea E.: Impingement of Cloud Droplets on 36_5-Percent-Thick Joukowski Airfoil at Zero Angle of Attack and Discussion of Use as Cloud Measuring Instrument in Dye-Tracer Technique. NACA-TN-4035, 1957. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068703)  
 [^7]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: [NACA-TN-1397 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Method+for+Numerically+Calculating+the+Area+and+Distribution+of+Water+Impingement+on+the+Leading+Edge+of+an+Airfoil+in+a+Cloud&btnG=)  
 [^9]: [NACA-TN-2476 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Method+Permitting+Rapid+Determination+of+the+Area%2C+Rate%2C+and+Distribution+of+Water-Drop+Impingement+on+an+Airfoil+of+Arbitrary+Section+at+Subsonic+Speeds&btnG=)  
 [^10]: [NACA-RM-E52B12 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Water+Droplets+on+an+NACA+651-212+Airfoil+at+an+Angle+of+Attack+of+4&btnG=)  

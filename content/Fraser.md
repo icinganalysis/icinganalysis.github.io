@@ -236,6 +236,6 @@ Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Func
 [^4]: 
 [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^5]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^6]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Thermodynamic+Limitations+of+Ice+Accretion+Instruments&btnG=)  

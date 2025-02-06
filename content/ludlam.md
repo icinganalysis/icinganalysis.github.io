@@ -246,7 +246,7 @@ Mazin, I. P., A. V. Korolev, A. Heymsfield, G. A. Isaac, and S. G. Cober, 2001: 
 [^6]: 
 Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ar00-30.pdf)  
 [^7]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Heat+Economy+of+a+Rimed+Cylinder&btnG=)  
 

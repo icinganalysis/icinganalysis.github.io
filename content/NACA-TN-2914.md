@@ -250,7 +250,7 @@ Gray, Vernon H.: Simple Graphical Solution of Heat Transfer and Evaporation from
 [^5]: 
 [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^6]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)   
 [^7]: 
 [NACA-TN-2861 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Analytical+Investigation+of+Icing+Limit+for+Diamond+Shaped+Airfoil+in+Transonic+and+Supersonic+Flow&btnG=)  
 [^8]: 

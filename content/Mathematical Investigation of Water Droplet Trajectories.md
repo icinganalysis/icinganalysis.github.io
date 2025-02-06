@@ -304,6 +304,6 @@ Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstac
 [^9]:
 “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 [^10]:
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^11]: 
 Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique of Multicylinder Method. NACA-TN-2708, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068732)  

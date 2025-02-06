@@ -551,6 +551,6 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 [^6]: 
 Incropera, F. P., De Witt, D. P.: "Fundamentals of Heat Transfer", John Wiley and Sons, 1984.  
 [^7]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=The+Calculation+of+the+Heat+Required+for+Wing+Thermal+Ice+Prevention+in+Specified+Icing+Conditions&btnG=)  

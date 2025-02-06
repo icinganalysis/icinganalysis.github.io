@@ -300,7 +300,7 @@ Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Acc
 [^6]: 
 Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA955916)  
 [^7]:
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Impingement+of+Cloud+Droplets+and+Procedure+for+Measuring+Liquid-Water+Content+and+Droplet+Sizes+in+Supercooled+Clouds+by+Rotating+Multicylinder+Method.+NACA-TR-1215%2C+1955.+%28Supersedes+NACA+TN%E2%80%99s+2903%2C+2904%2C+and+NACA-RM-E53D23%29++&btnG=)  
 

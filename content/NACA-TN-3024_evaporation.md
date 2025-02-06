@@ -251,7 +251,7 @@ Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obsta
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.) [books.google.com](https://books.google.com/books?hl=en&lr=&id=mJySYM32cHUC&oi=fnd&pg=PA11&dq=Katherine+Blodgett+icing&ots=QYP5gFyEiz&sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&q=Katherine%20Blodgett%20icing&f=false)  
 [^4]: 
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^5]: 
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Maximum+Evaporation+Rates+of+Water+Droplets+Approaching+Obstacles+the+Atmosphere+under+Icing+Conditions&btnG=)  
 

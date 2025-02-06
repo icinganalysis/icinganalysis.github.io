@@ -524,7 +524,7 @@ NACA-TN-4151 cites 11 publications:
 - Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091520).                                                                                                                                                          
 - Bowden, Dean T.: Effect of Pneumatic De-Icers and Ice Formations on Aerodynamic Characteristics of an Airfoil. NACA-TN-3564, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930084294)  
 
-NACA-TN-4151 is cited 3 times in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^5]  
+NACA-TN-4151 is cited 3 times in the [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)[^5]  
 
 - Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589)  
 - Gelder, Thomas F.: Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions. NACA-TN-4268, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068699)  
@@ -547,7 +547,7 @@ NACA-TN-4155 cites 12 publications:
 - Spreeman, Kenneth P.: Experimental Investigation at High Subsonic Speeds of the Effects of Leading-Edge Radius on the Aerodynamic Characteristics of a Sweptback-Wing - Fuselage Combination with Leading-Edge Flaps and Chord-Extensions. NACA-RM-L55E25a, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930088723)  
 - McCullough, George B., and Gault, Donald E.: Boundary-Layer and Stalling Characteristics of the NACA 64A006 Airfoil Section. NACA-TN-1923, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082600)  
 
-NACA-TN-4155 is cited 3 times in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^5]  
+NACA-TN-4155 is cited 3 times in the [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)[^5]  
 
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
 - Gray, Vernon H.: Prediction of Aerodynamic Penalties Caused by Ice Formations on Various Airfoils. NASA-TM-D-2166, 1964. [archive.org](https://archive.org/details/nasa_techdoc_19810068590)
@@ -560,6 +560,6 @@ An online search [^7] found 38 citations of NACA-TN-4155.
 [^2]: Gray, Vernon H., and von Glahn, Uwe H.: Aerodynamic Effects Caused by Icing of an Unswept NACA 65A004 Airfoil. NACA-TN-4155, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068589)  
 [^3]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091520).  
 [^4]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
-[^5]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
+[^5]: [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)   
 [^6]: [NACA-TN-4151 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Correlations+Among+Ice+Measurements%2C+Impingement+Rates%2C+Icing+Conditions+and+Drag+Coefficients+for+an+Unswept+NACA+65A004+Airfoil.&btnG=)  
 [^7]: [NACA-TN-4155 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Aerodynamic+Effects+Caused+by+Icing+of+an+Unswept+NACA+65A004+Airfoil&btnG=)   

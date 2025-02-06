@@ -286,5 +286,5 @@ Lewis, William: A Flight Investigation of the Meteorological Conditions Conduciv
 [^6]:
 Search in December, 2021 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=naca-tn-1424&btnG=).  
 [^7]:
-[NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]: 14 CFR 25 Appendix C (updated periodically) [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  

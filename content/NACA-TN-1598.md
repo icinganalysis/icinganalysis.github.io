@@ -204,7 +204,7 @@ NACA-TN-1598 cites 7 publications:
 - Reed, Albert C.: Airplane Performance Testing at Altitude. Jour. Aero. Sc., vol. 8; no. 4. Feb. 1941, pp . 135-150.  
 - Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 
-NACA-TN-1598 is cited once in the [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)[^2]  
+NACA-TN-1598 is cited once in the [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)[^2]  
 
 - Neel, Carr B., Jr., and Bright, Loren G.: The Effect of Ice Formations on Propeller Performance. NACA-TN-2212, 1950. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068625)  
 
@@ -213,5 +213,5 @@ An online search [^3] found 23 citations of NACA-TN-1598.
 ## Notes  
 
 [^1]: Preston, G. Merritt, and Blackman, Calvin C.: Effects of Ice Formations on Airplane Performance in Level Cruising Flight. NACA-TN-1598, 1948. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068605)  
-[^2]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)   
+[^2]: [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)   
 [^3]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Effects+of+Ice+Formations+on+Airplane+Performance+in+Level+Cruising+Flight&btnG=)  

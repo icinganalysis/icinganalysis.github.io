@@ -292,7 +292,7 @@ An online search [^8] found NACA-RM-A54I23 cited 22 times.
 [^2]: Neel, Carr B., Jr., and Steinmetz, Charles P.: The Calculated and Measured Performance Characteristics of a Heated-Wire Liquid-Water-Content Meter for Measuring Icing Severity. NACA-TN-2615, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068727)  
 [^3]: Neel, Carr B., Jr.: A Heated-Wire Liquid-Water-Content Instrument and Results of Initial Flight Tests in Icing Conditions. NACA-RM-A54I23, 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068734)  
 [^4]: Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)
-[^5]: [NACA icing publications database]({filename}naca%20icing%20publications%20database.md)  
+[^5]: [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^6]: [NACA-RM-E50J12a scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Flight+Instrument+for+Measurement+of+Liquid-Water+Content+in+Clouds+at+Temperatures+Above+and+Below+Freezing&btnG=)  
 [^7]: [NACA-TN-2615 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=NACA-TN-2615&btnG=)  
 [^8]: [NACA-RM-A54I23 scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Heated-Wire+Liquid-Water-Content+Instrument+and+Results+of+Initial+Flight+Tests+in+Icing+Conditions&btnG=)  
