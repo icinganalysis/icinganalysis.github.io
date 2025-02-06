@@ -69,7 +69,7 @@ so things may have changed, and they might someday be available.
 https://www.governmentattic.org/25docs/NASAtechRpts1980older_2017.pdf  
 
 - Rodert: Design Outline of Anti-icing Equipment Employing Heated Air, NACA ARR, 1942.  
-- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS)  
+- Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056))  
 
 ## Notes  
 

@@ -109,7 +109,7 @@ deposition over the projected area of the cylinder. For this case
 
      Ε = Y,  (28)  
 
-For more current definitions, see [^9].
+For more current definitions, see “Aircraft Icing Handbook Volume 1” [^9].
 
 > The Stokes' Law equation is
 
@@ -167,8 +167,8 @@ dimensionless parameter which we shall call φ, defined as follows:
 > A full table of values of λ/λs was given in Table I.
 
 
-The definitions of K and Ko above are specific to the cylinder, and the definitions in [^9] 
-are different.
+The definitions of K and Ko above are specific to the cylinder, and the definitions in 
+“Aircraft Icing Handbook Volume 1” [^9] are different.
 
 ### Multi-cylinder icing instruments
  

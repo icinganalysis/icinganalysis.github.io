@@ -259,7 +259,7 @@ Langmuir cites 8 references:
 - Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.  
 - Humphreys, W. J.: Physics of the Air. J. B. Lippincott Co., 1920.  
 - Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
-- Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics, NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  
+- Zahm, A. F.: Flow and Drag Formulas for Simple Quadrics. NACA-TR-253, 1927. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800006784)  
 
 An online search [^3] found "Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air" cited by 24 publications.
 
@@ -267,6 +267,6 @@ An online search [^3] found "Super-Cooled Water Droplets in Rising Currents of C
 [^1]: 
 Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
 [^2]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961.  
+Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.) [books.google.com](https://books.google.com/books?hl=en&lr=&id=mJySYM32cHUC&oi=fnd&pg=PA11&dq=Katherine+Blodgett+icing&ots=QYP5gFyEiz&sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&q=Katherine%20Blodgett%20icing&f=false)  
 [^3]: 
 [scholar.google.com](https://scholar.google.com/scholar?cites=16453079719584137883&as_sdt=5,48&sciodt=0,48&hl=en)  

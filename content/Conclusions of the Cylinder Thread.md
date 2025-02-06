@@ -401,7 +401,7 @@ Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liqui
 [^10]: 
 Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)    
 [^11]:
-Messinger, B. L.:"Airframe Design for Protection Against Icing" in 
+Messinger, B. L.: "Airframe Design for Protection Against Icing" in 
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 

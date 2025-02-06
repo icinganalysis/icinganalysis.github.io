@@ -17,7 +17,7 @@ _NACA Cleveland library, circa 1945._
 
 ## Discussion
 
-I have assembled a database of 210 NACA-NASA[*]({filename}non-naca.md) icing publications. 132 were cited in “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1]. 
+I have assembled a database of 210 NACA-NASA icing publications. 132 were cited in “Selected Bibliography of NACA-NASA Aircraft Icing Publications” [^1]. 
 I also identified 78 additional NACA icing publications in the NTRS [^2] that were not cited in [^1]. 
 
 The format of the citations in the NACA publications varies over the years. 
@@ -66,7 +66,7 @@ The 211 citations are numbered in approximate order of publication (the numbers 
 16. Frick, Charles W., Jr., and McCullough, George B.: A Method for Determining the Rate of Heat Transfer from a Wing or Streamline Body. NACA-WR-A-40, Dec. 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093519)  
 17. Martinelli, R. C., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, V-Theory and Use of Heat Meters for the Measurement of Rates of Heat Transfer which are Independent of Time. NACA-WR-W-11, Dec. 1942.  
 18. Martinelli, R. C., Weinberg, E. B., Morrin, E. H., and Boelter, L. M. K.: An Investigation of Aircraft Heaters, IV - Measured and Predicted Performance of Longitudinally Finned Tubes. NACA-WR-W-12, Oct. 1942.  
-19. Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS)
+19. Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056))
 20. Rodert, Lewis A., and Jackson, Richard: Preliminary Investigation and Design of an Air-Heated Wing for Lockheed 12A Airplane. NACA-WR-A-34, April 1942. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056)  
 21. Tribus, Myron, and Boelter, L. M. K.: An Investigation of Aircraft Heaters, II - Properties of Gases. NACA-WR-W-9, Oct. 1942.  
 22. Essex, Henry A.: De-Icing of an Aircraft Engine Induction System. NACA-ARR-3H13, 1943. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093058)  
