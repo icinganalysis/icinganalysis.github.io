@@ -134,7 +134,7 @@ and mixing distance-diameter ratio.
 the circles, provided that a jet dimension equal to the diameter of the equivalent area circle was used.  
 >3. It was possible to correlate the ellipse data in terms of the product of the density ratio and the velocity ratio 
 raised to a power. The power to which the velocity ratio must be raised for correlation increased with increasing axis 
-ratio.
+ratio.  
 >4. Greater penetrations were obtained with square orifices than with circular orifices of equal area.  
 >5. At low tunnel airspeeds and low jet pressures greater penetration was obtained with the square orifices 
 and the elliptical orifices having an axis ratio of 4:1 than with the other orifices investigated.
