@@ -232,7 +232,7 @@ uniform surface temperature agreed well with the theoretical predictions
 of Drake, Squire, and Martinelli for the stagnation, laminar, and turbulent 
 heat-transfer regions. Complete agreement in the laminar-flow region
 for the case of uniform input heat density was not obtained because of
-conduction effects.
+conduction effects.  
 >2. Good correlation of the experimental results for all operating
 conditions was obtained by the use of the Nusselt-Prandtl-Reynolds number
 relation. No significant effects of rotation on the heat-transfer coefficients 
@@ -242,9 +242,9 @@ attack up to 6° had only minor effects on the heat transfer, primarily
 causing a movement of transition in accordance with changes in the local
 velocity distributions. The time-averaged heat-transfer coefficients
 obtained at angle of attack with rotation of the spinner were essentially
-the same as obtained at 0° angle for the stationary spinner.
+the same as obtained at 0° angle for the stationary spinner.  
 >3. The heat-transfer results for the stationary spinner agreed well
-with those obtained with a 30-inch-diameter fineness ratio 2.5 spinner.
+with those obtained with a 30-inch-diameter fineness ratio 2.5 spinner.  
 >4. Transition from laminar to turbulent heat transfer occurred over
 a wide Reynolds number range, including both the movement of beginning
 of transition and also the extent of the transition region. The beginning 
@@ -255,13 +255,13 @@ and temperature gradients. Beginning of transition did not occur
 forward of 3 to 4 inches from the nose. The end of transition varied
 over a local surface Reynolds number range of approximately 3 X 10^6 to
 5 X 10^6 . The effects of rotation and angle of attack on transition Reynolds
-number were negligible.
+number were negligible.  
 >5. Transient heating data were obtained which indicated that the
 variation of surface temperature with time was essentially an exponential
 relation. The relatively large thermal capacity of the heater-spinner
 configuration caused a large temperature-time lag, as indicated by external 
 surface time constants of approximately 50 to 80 seconds for both
-heating and cooling.  
+heating and cooling.    
 
 ## Citations  
 
