@@ -351,7 +351,7 @@ same heating and flow conditions in which the increased surface
 heating due to internal fins and partitions is clearly evident;  
 > (b) section C with air velocities of 275 and 102 miles per hour
 but with the same gas-flow rate and temperature, illustrating the
-magnitude of air-velocity effect; 
+magnitude of air-velocity effect;  
 > (c) section B with gas flows of
 325 and 100 pounds per hour and the same air velocity and gas
 temperature; and  
@@ -364,7 +364,7 @@ at approximately 3.5 inches from stagnation and the two surface-temperature
 curves very nearly coincided beyond that point.
 > 
 > The surface-temperature rise at the stagnation point of the
-three airfoil sections as a function of the gas-temperature differential  
+three airfoil sections as a function of the gas-temperature differential 
 tg,m - ta is shown in figure 6. Data are presented for section C in 
 both dry- and wet-air conditions. This figure confirms
 the expected linear relation between gas temperature and surface
@@ -392,17 +392,17 @@ heat-transfer rate for a fixed condition of air and gas flows can
 be determined from the surface-temperature rise above the datum
 air temperature tsta because in dry air the heat-transfer coéf-
 ficient is nearly constant over the normal range of temperatures.
-Thus,
+Thus,  
 qa = ha(ts - ta) ~= C1(ts - ta)  (1)  
 Similarly, with fins, the decrease in the required heat content
 of the internal gas flow for a fixed condition of blade-surface
 heat transfer can be determined from the gas-flow rate if the
-mean gas temperature is held constant, or
+mean gas temperature is held constant, or  
 Qi = w cp(tg,m-ta) = C2 w   (2)  
 > 
 > Modification effectiveness. - If equation (1) is considered,
 a comparison of surface heat transfer between finned and unfinned
-airfoil sections can be expressed by the ratio
+airfoil sections can be expressed by the ratio  
 (qa,f / qa,u) = e ~= (ts-ta)f / (ts-ta)u  (3)  
 > 
 > that may be termed modification effectiveness. The chordwise variation 
@@ -445,10 +445,12 @@ determined by its external effects. For simplicity, a
 negligible temperature gradient is assumed in the heat-flow path
 across the airfoil skin material in the following equations; in
 some cases, however, the gradient has an appreciable effect as
-will be subsequently shown:
+will be subsequently shown:  
+> 
 > Qg = hg Ag (tg,m -ts)av    (4)  
 > 
 > Also,
+> 
 > Qa = ha,av Aa (ta -ts)av   (5)
 > 
 > Assuming no spanwise conduction and no chordwise conduction except
@@ -457,9 +459,11 @@ within the heated area gives
 > Qg = Qa    (6)  
 > 
 > and  
+> 
 > hg Ag = ha,av Aa (ts- ta)av / (tg,m -ts)av   (7)  
 > 
 > or  
+> 
 > (hg Ag)f / (hg Ag)u = (ha,av Aa)f (ts- ta)av,f (tg,m -ts)av,u / [ (ha,av Aa)u (ts- ta)av,u (tg,m -ts)av,f ]  (8)  
 > 
 > Furthermore, the following equation is given in reference 6 for
@@ -475,8 +479,9 @@ fully developed turbulent flow in long tubes:
 > 
 > ha = 0.194 (Ts + Ta)/2)^0.49 (g ρ0 v0 / Dc)^0.5 (1 - abs(Φ/90)^3)  (11)  
 > 
-> and for turbulent flow over plates,
-ha = 0.524 (Ts + Ta)/2)^0.49 (g ρ0 vav / s^0.25)^0.5  (12)  
+> and for turbulent flow over plates,  
+> 
+>ha = 0.524 (Ts + Ta)/2)^0.49 (g ρ0 vav / s^0.25)^0.5  (12)  
 > 
 > From equations (8) and (10) to (12), the external effective
 conductance ha,av Aa is seen to be essentially constant between
