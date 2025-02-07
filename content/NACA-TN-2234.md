@@ -41,10 +41,10 @@ the physical conditions under which supercooled clouds exist must
 be understood. The physics of supercooling and freezing is incompletely
 understood, as shown by conflicting opinions expressed in the literature. 
 The following factors have been described as causes of freezing
-in supercooled. water samples: 
+in supercooled. water samples:  
 > (1) introduction of ice crystal;  
 > (2) mechanical shock, such as vibration, scratching of solid surfaces together
-in water sample, and sound waves;
+in water sample, and sound waves;  
 > (3) length of time water has existed in supercooled state;  
 > (4) impurities; and  
 > (5) droplet size.  
@@ -94,16 +94,18 @@ a large reservoir of liquid water of volume V. Because motes of all
 kinds are assumed to be present everywhere, it is reasonable to consider 
 them to be present in the same relative proportions in the hypothetical 
 volume of liquid water V.  
-The problem to be solved is the determination of the most probable
+> 
+>The problem to be solved is the determination of the most probable
 frequency-distribution curve of spontaneous freezing temperatures subject 
 to the following conditions:  
+> 
 >(1) There are N 0 , N1 , N2 , N3 , . . . N, . . . motes of kinds
 0, 1, 2, 3, . . . T, . . ., respectively, present In the volume V,
 where T Is the absolute value of the temperature In 0C at which
 the mote of kind. T causes water to freeze.  
-(2) The small volumes that are drawn from V are of volume V,
+>(2) The small volumes that are drawn from V are of volume V,
 and the total number of volumes V obtainable from V is v/Δv = μ.  
-(3) The number of draws In each set of draws from V is so small
+>(3) The number of draws In each set of draws from V is so small
 that μ is practically unchanged while a set is being drawn.  
 > 
 > ...
@@ -178,7 +180,8 @@ times could easily broaden the experimental distribution curves as compared
 to the theoretical curves. Changes in r and ρ0 could modify
 the slope and. the intercept, respectively, of the TM - log D curve
 (fig. 2).  
-The modes of the theoretical distribution curves may be shifted
+> 
+>The modes of the theoretical distribution curves may be shifted
 without changing the slope of the TM -log D curve by varying the
 constant ρ0. The weighted combination of several curves corresponding
 to values of ρ0 between 10-5 and 10-3 (cm-3) (see table II) results

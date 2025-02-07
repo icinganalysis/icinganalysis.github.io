@@ -218,7 +218,7 @@ freezing temperature with decrease in droplet size was particularly
 marked.  
 >2. The frequency of occurrence as a function of the freezing
 temperature of droplets of a given size provided a distribution
-curve with a well-defined peak frequency. 
+curve with a well-defined peak frequency.  
 >3. The spontaneous freezing temperature of a given droplet
 tended to be the same on successive freezings.  
 >4. No droplet froze spontaneously at a temperature above 22° F,
