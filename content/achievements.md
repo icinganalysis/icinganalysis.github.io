@@ -87,7 +87,7 @@ The rotating multicylinder instrument was assessed over and over again
 It was at times criticised, but there was no better instrument in the NACA-era 
 (see the [Conclusions of the Meteorological Instruments Thread]({filename}Conclusions%20of%20the%20Meteorological%20Instruments%20Thread.md)).  
 
-Nobel Prize awardee Iring Langmuir (1932 for surface chemistry), together with Katherine Blodgett, 
+Nobel Prize awardee Irving Langmuir (1932 for surface chemistry), together with Katherine Blodgett, 
 put the analysis of the instrument on a sound theoretical footing. 
 Even that was criticised, 
 but more recent assessments show that the Langmuir and Blodgett analysis was accurate. 
