@@ -105,7 +105,7 @@ conditions could be set just by the spray control parameters.
 _from NACA-TN-1134_  
 
 ![Figure 7 of NACA-TN-1520. Icing-survey equipement for liquid-water concentrations 
-and droplet-size measurements.](images/naca-tn-1520/Figure 7.png)  
+and droplet-size measurements.](images/NACA-TN-1520/Figure 7.png)  
 _from NACA-TN-1520_  
 
 ![Figure 1 of NACA-RM-E51E16. Principle of operation of NACA pressure-type 
