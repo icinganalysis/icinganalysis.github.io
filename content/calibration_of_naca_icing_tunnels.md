@@ -101,7 +101,7 @@ conditions could be set just by the spray control parameters.
 ### Selected images  
 
 ![Figure 3 of NACA-TN-1134. Free-water sampling rake and water trap.
-](images/naca-tn-1134/Figure 3.png)  
+](images/NACA-TN-1134/Figure 3.png)  
 _from NACA-TN-1134_  
 
 ![Figure 7 of NACA-TN-1520. Icing-survey equipement for liquid-water concentrations 

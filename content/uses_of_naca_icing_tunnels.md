@@ -67,7 +67,7 @@ _from 1969 Aircraft Ice Protection Report of Symposium [^2]_
 
 ![Figure 1 of NACA-TN-1246. Engine cooling-fan installation.](images/naca-tn-1246/Figure 1.png)  
 
-![Figure 2 of NACA-TN-1134. Installation of induction-system test setup in icing research tunnel.](images/naca-tn-1134/Figure 2.png)  
+![Figure 2 of NACA-TN-1134. Installation of induction-system test setup in icing research tunnel.](images/NACA-TN-1134/Figure 2.png)  
 
 ![Figure 1 of NACA-RM-E9E12. Photograph of model installation in tunnel test section.](images/naca-rm-e9e12/Figure 1.png)  
 _from NACA-RM-E9E12_  
