@@ -334,7 +334,7 @@ Neel, Carr B., Jr., Bergrun, Norman R., Jukoff, David, and Schlaff, Bernard A.: 
 
 [^4]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
 [^5]: Anderson, David N.: Evaluation of Constant-Weber-Number Scaling for Icing Test. NASA-TM-107141 and AIAA-96-0636, 1996. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19960012178)  
-[^6]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  
+[^6]: Anderson, David N., and Tsao, Jen-Ching. Ice shape scaling for aircraft in SLD conditions. No. NASA/CR-2008-215302, DOT/FAA/AR-07/55. 2008. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080043617)  
 [^7]: 
 von Glahn, Uwe H.: The Icing Problem, presented at Ottawa AGARD Conference. AG 19/P9, June 10-17 1955. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19700070487)    
 [^8]:
