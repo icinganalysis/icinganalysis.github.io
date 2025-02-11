@@ -3,7 +3,7 @@ Date: 2024-01-02 12:00
 tags: ntrs, diversions    
 
 ![The NACA Technical Report Server.](/images%2FThe%20NACA%20Technical%20Report%20Server.png)  
-_The NACA Technical Reports Server, circa 1999. From [NASA/TM-1999-209127](https://ntrs.nasa.gov/api/citations/19990035925/downloads/19990035925.pdf). 
+_The NACA Technical Reports Server, circa 1999. From [NASA/TM-1999-209127](https://ntrs.nasa.gov/citations/19990035925). 
 This has been superseded by the NASA Technical Reports Server [ntrs.nasa.gov](https://ntrs.nasa.gov/)._  
 
 Dust off your Netscape Navigator browser [^1] and research like it's 1999!  

@@ -371,10 +371,10 @@ An online search [^11] found Bilanin cited by 53 publications.
 [^6]: Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20040042486)   
 [^7]: Olsen, W., and E. Walker. "Experimental Evidence for Modifying the Current Physical Model for Ice Accretion on Aircraft Surfaces. NASA-TM-87184." 3rd International Workshop on Atmospheric Icing of Structures. 1986. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19880003091)  
 [^8]: Hansman Jr, R. John, and Stephen R. Turnock. "Investigation of surface water behavior during glaze ice accretion." Journal of Aircraft 26.2 (1989): 140-147. 
-[ntrs](https://ntrs.nasa.gov/api/citations/19900011611/downloads/19900011611.pdf)  
+[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19900011611)  
 [^9]: [Weber number at scholar.google.com](https://scholar.google.com/scholar?start=0&q=icing++%22weber+number%22&hl=en&scisbd=1&as_sdt=0,48)  
 [^10]: 
 Anderson, David. "Acceptable tolerances for matching icing similarity parameters in scaling applications." 39th Aerospace Sciences Meeting and Exhibit. AIAA-2001-0832, NASA/CR-2003-211822. 2001.
-[ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/20030064040/downloads/20030064040.pdf)  
+[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20030064040)  
 [^11]: 
 [Bilanin at scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=Proposed+Modifications+to+Ice+Accretion%2FIcing+Scaling+Theory&btnG=)  

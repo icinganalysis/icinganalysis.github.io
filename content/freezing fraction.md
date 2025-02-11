@@ -24,7 +24,7 @@ https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2
 ![AEDC_TR_85_30_Figure21](/images%2Faedc-tr-85-30%2FFigure%2021.png)  
 
 NASA-TM-107141
-https://ntrs.nasa.gov/api/citations/19960012178/downloads/19960012178.pdf 
+https://ntrs.nasa.gov/citations/19960012178 
 
 ![NASA_TM_107141_Figure10](images/freezing_fractions/NASA_TM_107141_Figure10.png)  
 
