@@ -436,7 +436,7 @@ Links to reviews are included where applicable.
 [^1]: "Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", 
 the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. 
-[DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)  
 [^3]: FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
 [^4]:

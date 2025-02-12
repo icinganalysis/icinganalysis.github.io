@@ -240,7 +240,7 @@ required to depress the freezing point to 23 F, from the
 data of the International Critical Tables, is 124 grams per 
 liter of water.
 >
->![Table II. Temperature and concentration of alcohol for alcohol-water mixtures on propeller blade.](images/naca-arr-5g13/Table II.png)  
+>![Table II. Temperature and concentration of alcohol for alcohol-water mixtures on propeller blade.](images/NACA-ARR-5G13/Table II.png)  
 
 >The effect of evaporation is found by calculating the 
 temperature that the blade would assume in air temperature of 15.2 F 

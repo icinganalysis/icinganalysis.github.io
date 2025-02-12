@@ -7,7 +7,7 @@ tags: thermodynamics, python
 
 # "Kinetic Temperature of Wet Surfaces A Method of Calculating the Amount of Alcohol Required to Prevent Ice, and the Derivation of the Psychrometric Equation" [^1]
 
-![Cover sheet "WARTIME REPORT"](images/naca-arr-5g13/Cover.png)  
+![Cover sheet "WARTIME REPORT"](images/NACA-ARR-5G13/Cover.png)  
 
 ## Summary 
 Psychrometric equations are presented to calculate the thermal effects of 
@@ -54,9 +54,9 @@ technically edited. All have been reproduced without change in order to expedite
 While "Some of these reports were not technically edited", this report has excellent technical content. 
 
 The nomenclature may be challenging, so peruse the symbols used: 
-![Symbols part 1](images/naca-arr-5g13/symbols0.png)  
-![Symbols part 2](images/naca-arr-5g13/symbols2.png)  
-![Symbols part 3](images/naca-arr-5g13/symbols1.png)  
+![Symbols part 1](images/NACA-ARR-5G13/symbols0.png)  
+![Symbols part 2](images/NACA-ARR-5G13/symbols2.png)  
+![Symbols part 3](images/NACA-ARR-5G13/symbols1.png)  
 
 This will be complicated enough with just water considered
 if one has not seen psychrometrics before, 
@@ -81,41 +81,41 @@ given in this report.
 
 The mass rate of evaporation from a wet surface can be calculated. 
 
-![Introduction to Equation 1](images/naca-arr-5g13/Equation1.png)  
-![Equation 3](images/naca-arr-5g13/Equation3.png)  
+![Introduction to Equation 1](images/NACA-ARR-5G13/Equation1.png)  
+![Equation 3](images/NACA-ARR-5G13/Equation3.png)  
 
 The heat gain by convection and kinetic heating can be calculated: 
 
-![Equation 5](images/naca-arr-5g13/Equation5.png)  
+![Equation 5](images/NACA-ARR-5G13/Equation5.png)  
 
 The heat required to evaporate water water at the given surface temperature is calculated: 
-![Equation 8](images/naca-arr-5g13/Equation8.png)  
+![Equation 8](images/NACA-ARR-5G13/Equation8.png)  
 
 The heat values may be equated to yield:
-![Equation 10](images/naca-arr-5g13/Equation10.png)  
+![Equation 10](images/NACA-ARR-5G13/Equation10.png)  
 
 There is an extensive discussion about the ratio of k_e/k_h, 
 and it was determined that the ratio is close to unity, so 1 was used.
 
 Dry air values of kinetic heating are defined
 
-![Equation 14](images/naca-arr-5g13/Equation14.png)  
+![Equation 14](images/NACA-ARR-5G13/Equation14.png)  
 
-![Discussion after equation 14](images/naca-arr-5g13/after_equ14.png)  
+![Discussion after equation 14](images/NACA-ARR-5G13/after_equ14.png)  
 
 Now conditions with a wet surface are considered. 
 
-![Equation 15](images/naca-arr-5g13/Equation15.png)  
+![Equation 15](images/NACA-ARR-5G13/Equation15.png)  
 
 Hardy outlined a condition where the water drops 
 are not in equilibrium with the local air temperature, 
 (the equation e1= eo*p1/po, after (15)), but then adopts the 
 temperature equilibrium, which is used in the example calculations he presented. 
 
-![Kinetic wet temperature](images/naca-arr-5g13/kinetic_wet_t.png)  
-![vapor analogy](images/naca-arr-5g13/vapor_analogy.png)  
-![Equation 17](images/naca-arr-5g13/equation17.png)  
-![Equation 10 revised](images/naca-arr-5g13/Equation10_revised.png)  
+![Kinetic wet temperature](images/NACA-ARR-5G13/kinetic_wet_t.png)  
+![vapor analogy](images/NACA-ARR-5G13/vapor_analogy.png)  
+![Equation 17](images/NACA-ARR-5G13/equation17.png)  
+![Equation 10 revised](images/NACA-ARR-5G13/Equation10_revised.png)  
 
 We finally have a definition of the "datum temperature" 
 t_s, equilibrium wet surface temperature, with a set of assumptions. 
@@ -135,14 +135,14 @@ The heat effect of cold water impinging is not included.
 
 ## Results of Calculations 
 
-![Kinetic Temperature of Propeller Blade in Wet Air](images/naca-arr-5g13/Kinetic Temperature of Propeller Blade in Wet Air.png) 
-![discussion of kinetic temperature](images/naca-arr-5g13/Results_Table_I.png)
+![Kinetic Temperature of Propeller Blade in Wet Air](images/NACA-ARR-5G13/Kinetic Temperature of Propeller Blade in Wet Air.png) 
+![discussion of kinetic temperature](images/NACA-ARR-5G13/Results_Table_I.png)
   
 <br>
 
 Table I summarizes the calculations for several cases:
   
-![Table I](images/naca-arr-5g13/TableI.png)  
+![Table I](images/NACA-ARR-5G13/TableI.png)  
 
 An implementation in the Python programming language yielded similar results 
 (file naca_arr_5g13.py at [^2]).  

@@ -405,6 +405,6 @@ Messinger, B. L.: "Airframe Design for Protection Against Icing" in
 Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; 
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590.  
 I could not find this on the NTRS or on the FAA site. 
-It is available at [DTIC](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+It is available at [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^12]: More information at [sae.org](https://www.sae.org/works/committeeHome.do?comtID=TEAAC9C)  
 

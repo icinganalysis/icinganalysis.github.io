@@ -34,7 +34,7 @@ A "Greatest Thing That You (Probably) Have Never Read" candidate.
 This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf). Weather control, anyone?  
 - Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp.  
-A translation to English is available at [DTIC](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
+A translation to English is available at [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
 - Let's build YA2DISCuP (Yet Another 2D Ice Shape Calculation Program)  
 
 If you particularly like one of those, or have a suggestion of your own, 
