@@ -142,6 +142,6 @@ Review at: [Mathematical Investigation of Water Droplet Trajectories]({filename}
 [^5]:
 Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.  
 [^6]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.) [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/n229/mode/2up)  
 [^7]: Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)
 [^8]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  

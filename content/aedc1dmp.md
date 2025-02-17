@@ -145,7 +145,7 @@ which you may want to review if you came here via a direct link.
 [^1]: 
 Schulz, R. J.: Second Report for Research and Modeling of Water Particles in Adverse Weather Simulation Facilities. TASK REPORT 97-03, AEDC, July, 1998, [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA364922.pdf)  
 [^2]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.) [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/n229/mode/2up)  
 [^3]: 
 Lowell, Herman H.: Maximum Evaporation Rates of Water Droplets Approaching Obstacles the Atmosphere under Icing Conditions. NACA-TN-3024, 1953 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068865)
 [^4]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  

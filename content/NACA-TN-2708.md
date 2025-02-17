@@ -138,7 +138,7 @@ NACA-TN-2708 cites 17 publications:
 - Clark, Victor F.: The Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 6, June 1946.
 - Howell, Wallace E.: Instructions for Making Icing Observations by the Multicylinder Method. Mt. Wash. Observatory Monthly Res. Bull., vol. II, no. 12, Dec. 1946.
 - Howell, Wallace E.: The Growth of Cloud Drops in Uniformly Cooled Air. Jour. Meteorol., vol. 6, no. 2, April 1949, pp. 134-149.
-- Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+- Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.) [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/n229/mode/2up)
 - Clark, Victor F.: Conditions for Run-Off and Blow-Off of Catch on Multicylinder Icing Meter. Tech. Rep. No. 5676, Air Materiel Command, U. S. Air Force, June 22, 1948, pp. 190-218.
 - Howell, Wallace E.: Effect of the Vertical Gradients of Wind Speed and Water Content on Measurements with the Multicylinder Icing Meter. Tech. Rep. No. 5676, Air Materiel Command, U. S. Air Force, June 22, 1948, pp. 297-303.
 - Cunningham, R. M.: Instructions for Calculating the Liquid Water Content, Effective Drop Size and Effective Drop Distributions from Rotating Cylinder Data Obtained from Average Speed Aircraft. Informal rep., De-Icing Res. Lab., Dept. of Meteorol., M.I.T., 1945.

@@ -62,7 +62,10 @@ The first was a preliminary version, and the second was the final version, which
 The third appears to be substantially similar to [^2], with a slight change in title. 
 Many citations are specifically for [^3].
 
-The images in an online version of [^3] are of poor quality, so selected text and tables were transcribed herein. 
+The images in an online version of [^3] are of poor quality, 
+so readers may wish to view the clearer images in [^2].  
+
+Selected text and tables were transcribed herein. 
 
 ### Drop size distribution
 
@@ -227,7 +230,7 @@ Note that some data from Cunningham and Glauert may be found in [^5].
 - Green, S. L.: Hydro- and Aerodynamics. Pitman and Sons, 1937, p. 26.
 - Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
 - Glauert, Muriel: A Method of Constructing the Paths of Raindrops of Different Diameters Moving in the Neighbourhood of (1) a Circular Cylinder, (2) an Aerofoil, Placed in a Uniform Stream of Air; and a Determination of the Rate of Deposit of the Drops on the Surface and the Percentage of Drops Caught. R. & M. No. 2025, British A.R.C., 1940.
-- Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)
+- Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.) [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/n229/mode/2up)
 - Cunningham, R. M.: Instructions for Calculating the Liquid Water Content, Effective Drop Size and Effective Drop Distributions from Rotating Cylinder Data Obtained from Average Speed Aircraft. Informal rep., De-Icing Res. Lab., Dept. of Meteorol., M.I.T., 1945.
 
 This publication is cited over 700 times in the literature [^4]. I will not attempt to list them all here.
@@ -286,15 +289,15 @@ NACA-TN-2708 [^11] has comments on the origins of the Langmuir drop size distrib
 ## Notes  
 
 [^1]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication.  
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, January 1945, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/334/mode/2up)  
 [^2]:
-Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, December 1945 - July 1946, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. Note: some references cite this as "RL-225", but it is RL-224 in this publication.  
+Langmuir, Irving, and Blodgett, Katherine B.: "Mathematical Investigation of Water Droplet Trajectories". Report. No. RL-224, December 1945 - July 1946, in "The Collected Works of Irving Langmuir", Vol. 10, 1961. Note: Neither Langmuir nor Bodgett are specifically credited in this publication. Note: some references cite this as "RL-225", but it is RL-224 in this publication. [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/348/mode/2up)  
 [^3]:
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.) [books.google.com](https://books.google.com/books?hl=en&lr=&id=mJySYM32cHUC&oi=fnd&pg=PA11&dq=Katherine+Blodgett+icing&ots=QYP5gFyEiz&sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&q=Katherine%20Blodgett%20icing&f=false)  
 [^4]:
 [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=A+Mathematical+Investigation+of+Water+Droplet+Trajectories&btnG=).  
 [^5]:
-Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.)  
+Langmuir, Irving: Super-Cooled Water Droplets in Rising Currents of Cold Saturated Air, Pt. I. Res. Lab., General Electric Co., Oct. 1943-Aug. 1944. (Army Contract W-33-106-sc-65.) [archive.org](https://archive.org/details/the-collected-works-of-irving-langmuir-vol.-10/page/n229/mode/2up)  
 [^6]:
 Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.  
 [^7]:
