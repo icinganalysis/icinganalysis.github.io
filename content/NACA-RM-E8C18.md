@@ -11,7 +11,7 @@ tags: engine inlet, flight test
 
 ## Abstract  
 
->A flight investigation is being conducted. in natural icing conditions 
+>A flight investigation is being conducted in natural icing conditions 
 to determine the effect of ice formations on the performance
 of an axial-flow turbojet engine. One flight was made in icing conditions 
 in which the icing rate varied from 5.1 to 2.1 inches per hour.
