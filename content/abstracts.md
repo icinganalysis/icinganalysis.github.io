@@ -5,7 +5,7 @@ tags: NACA, bibliography
 
 ### _"THIS DOCUMENT ... IS BEING RELEASED IN THE INTEREST OF MAKING AVAILABLE AS MUCH INFORMATION AS POSSIBLE"_  
 
-![Example.](images%2Fsummaries%20of%20documents%20listed%20in%20bibligraphy%2Fexample.png)  
+![Example.](images%2Fsummaries%20of%20documents%20listed%20in%20bibliography%2Fexample.png)  
 _An example of the abstracts listing._  
 
 ## Introduction  
