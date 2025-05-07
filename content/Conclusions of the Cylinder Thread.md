@@ -1,7 +1,7 @@
 Title: Conclusions of the Cylinder Thread   
 Date: 2022-04-04 12:00  
 Category: NACA  
-tags: cylinders, conclusions  
+tags: cylinders, conclusions, presentations  
 
 # _"The collection of ice by the cylinders is similar to the collection of ice by airplane components." [^1]_  
 
