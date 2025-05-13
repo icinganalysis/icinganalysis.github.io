@@ -9,7 +9,7 @@ rights: CC-BY-NC-SA 4.0
 
 I had the honor of doing the first presentation for the 
 [FAA Aircraft Icing Forum](https://www.faa.gov/aircraft/air_cert/step/disciplines/flight_meteorological_effects)  
-
+  
 >The Aircraft Icing Forum, hosted jointly by Cris Bosetti (FAA) and Dr. Peter Struk (NASA), provides a recurring monthly space to discuss aircraft icing research, technology, regulation, and related questions and challenges. The purpose of this forum is to provide an opportunity to share information, improve visibility, make connections, and advance the overall approach to aircraft icing knowledge and safety.  
 
 The presentation "Aircraft Ice Protection in the NACA Era" is available 
