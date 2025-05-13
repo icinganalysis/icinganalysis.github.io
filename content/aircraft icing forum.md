@@ -4,7 +4,7 @@ tags: presentations
 rights: CC-BY-NC-SA 4.0
  
 ![airplane_banner_colorized.png](images%2Fairplane_banner_colorized.png)  
-
+  
 ## Discussion  
 
 I had the honor of doing the first presentation for the 
