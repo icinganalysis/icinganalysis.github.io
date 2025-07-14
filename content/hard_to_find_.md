@@ -84,7 +84,7 @@ If so, email me at the contact information further below.
 Helicopters are mentioned (CH-45, CH-53, Chinook). 
 
 To me, it appears to be from a document discussing ice impact test article sizes, 
-the "Equivalent Ice Ball Size". 
+the "Equival    ent Ice Ball Size". 
 I have seen several approaches to determining ice impact test article size. 
 The arithmetic of this one escapes me. 
 It does not appear to be an equivalent volume, 
