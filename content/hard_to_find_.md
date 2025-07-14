@@ -71,7 +71,29 @@ https://www.governmentattic.org/25docs/NASAtechRpts1980older_2017.pdf
 - Rodert: Design Outline of Anti-icing Equipment Employing Heated Air, NACA ARR, 1942.  
 - Rodert, Lewis A., Clousing, Lawrence A., and McAvoy, William H.: Recent Flight Research on Ice Prevention. NACA-ARR, Jan. 1942. (Might be similar to NACA-WR-A-34, April 1942, which is available at the NTRS [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930093056))  
 
-## Notes  
+## A Mystery  
+
+A reader sent in this image. 
+No context information is available, and the reader does not know what document this came from:  
+
+![Typical ice shapes from flight test.](images%2FTypical%20ice%20shapes%20from%20flight%20test.png)
+
+Do you know where it came from? 
+If so, email me at the contact information further below.
+
+Helicopters are mentioned (CH-45, CH-53, Chinook). 
+
+To me, it appears to be from a document discussing ice impact test article sizes, 
+the "Equivalent Ice Ball Size". 
+I have seen several approaches to determining ice impact test article size. 
+The arithmetic of this one escapes me. 
+It does not appear to be an equivalent volume, 
+and the "5.02 in" equivalent diameter case may be a typo (or a different value, the figure is hard to read).  
+
+I speculate it is from the 1970s to 1980s, 
+when a great amount of helicopter icing tests were conducted.  
+
+## Notes
 
 [^1]: 
 Selected Bibliography of NACA-NASA Aircraft Icing Publications, NASA-TM-81651, August, 1981. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19820003180)    
