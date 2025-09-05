@@ -235,8 +235,8 @@ if __name__ == "__main__":
     print(lwc_percent_errors)
     print(mvd_percent_errors)
 
-    lwc_rss = sum([_ ** 2 for _ in lwc_percent_errors]) ** 0.5
-    mvd_rss = sum([_ ** 2 for _ in mvd_percent_errors]) ** 0.5
+    lwc_rss = sum([_**2 for _ in lwc_percent_errors]) ** 0.5
+    mvd_rss = sum([_**2 for _ in mvd_percent_errors]) ** 0.5
     lwc_total_error = sum([abs(_) for _ in lwc_percent_errors])
     mvd_total_error = sum([abs(_) for _ in mvd_percent_errors])
     print(lwc_rss, mvd_rss)
@@ -277,6 +277,8 @@ if __name__ == "__main__":
             calc_percent_difference(mvd, mvd1),
         )
         vs.append((mvd1, lwc1, dist))
+    plt.ylabel("rss")
+
     plt.figure()
     plt.suptitle("Langmuir C compared to distribution noted")
     for mvd1, lwc1, dist in vs:
@@ -324,9 +326,9 @@ if __name__ == "__main__":
         em = multicylinder.langmuir_cylinder_values.calc_em(
             tk, p, u, d_drop, d_cylinder
         )
-        lwcs_trace.append(rate_upper_trace_icing * 100 ** 2 / 3600 / (em * u))
-        lwcs_light.append(rate_upper_light_icing * 100 ** 2 / 3600 / (em * u))
-        lwcs_moderate.append(rate_upper_moderate_icing * 100 ** 2 / 3600 / (em * u))
+        lwcs_trace.append(rate_upper_trace_icing * 100**2 / 3600 / (em * u))
+        lwcs_light.append(rate_upper_light_icing * 100**2 / 3600 / (em * u))
+        lwcs_moderate.append(rate_upper_moderate_icing * 100**2 / 3600 / (em * u))
 
     plt.plot(d_drops, lwcs_trace, label="Trace (1 g/cm^2-hr")
     plt.plot(d_drops, lwcs_light, label="Light (6 g/cm^2-hr")

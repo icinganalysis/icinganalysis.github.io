@@ -2,9 +2,15 @@
 Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories.
 Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.)
 """
+
 from math import log10, pi
-from scipy.interpolate import interp1d, interp2d
-from icinganalysis.langmuir_blodgett_table_i import calc_ratio_langmuir_blodgett, calc_cd_r_24_langmuir_blodgett
+from scipy.interpolate import interp1d, RectBivariateSpline
+from icinganalysis.langmuir_blodgett_table_i import (
+    calc_ratio_langmuir_blodgett,
+    calc_cd_r_24_langmuir_blodgett,
+)
+import numpy as np
+
 
 # fmt: off
 table_II_original_data = {  # phi values as keys
@@ -189,23 +195,56 @@ table_II_data = {  # phi values as keys, table II made non-jagged and added init
 }
 # fmt: on
 
-log10_ks = [log10(_) for _ in table_II_data[0]['ks']]
+log10_ks = [log10(_) for _ in table_II_data[0]["ks"]]
 log10_phis = [log10(_) if _ > 0 else -1 for _ in table_II_data]
-zs = [table_II_data[_]['ems'] for _ in table_II_data]
-_em_interpolator = interp2d(log10_ks, log10_phis, zs,
-                            kind='cubic'
-                            )
-zs = [table_II_data[_]['betas'] for _ in table_II_data]
-_beta_interpolator = interp2d(log10_ks, log10_phis, zs, kind='cubic')
-zs = [table_II_data[_]['theta_degree'] for _ in table_II_data]
-_theta_degree_interpolator = interp2d(log10_ks, log10_phis, zs, kind='cubic')
+
+
+def _em_interpolator(k, phi):
+    """
+    Implementation to replace interp2d
+
+    NotImplementedError: `interp2d` has been removed in SciPy 1.14.0.
+
+    For legacy code, nearly bug-for-bug compatible replacements are
+    `RectBivariateSpline` on regular grids, and `bisplrep`/`bisplev` for
+    scattered 2D data.
+
+    For more details see
+    https://scipy.github.io/devdocs/tutorial/interpolate/interp_transition_guide.html
+    """
+    if phi <= 0:
+        phi = 0.1
+    zs = [table_II_data[_]["ems"] for _ in table_II_data]
+    em = RectBivariateSpline(log10_ks, log10_phis, np.array(zs).T, kx=3, ky=3)(
+        log10(k), log10(phi)
+    ).T[0, 0]
+
+    return em
+
+
+zs = [table_II_data[_]["betas"] for _ in table_II_data]
+_beta_interpolator = lambda x_, y_: RectBivariateSpline(
+    log10_ks, log10_phis, np.array(zs).T, kx=3, ky=3
+)(x_, y_).T
+zs = [table_II_data[_]["theta_degree"] for _ in table_II_data]
+_theta_degree_interpolator = lambda x_, y_: RectBivariateSpline(
+    log10_ks, log10_phis, np.array(zs).T, kx=3, ky=3
+)(x_, y_).T
 
 
 def calc_em(k, phi):
-    return max(0, _em_interpolator(log10(k), log10(phi) if phi > 0 else -1))
+    return max(
+        0,
+        _em_interpolator(
+            k,
+            phi,
+        ),
+    )
 
 
 def calc_beta_o(k, phi):
+    if phi <= 0:
+        phi = 0.1
     return max(0, _beta_interpolator(log10(k), log10(phi) if phi > 0 else -1))
 
 
@@ -215,15 +254,15 @@ def calc_theta_degree(k, phi):
 
 def lt_ltr_92_em(k, phi):
     re = (k * phi) ** 0.5
-    ratio = 1 / (1 + 0.1206 * re ** 0.59)
+    ratio = 1 / (1 + 0.1206 * re**0.59)
     ko = 0.125 + (k - 0.125) * ratio
     em = 0.457 * (log10(8 * ko)) ** 1.634
     if ko < 0.125:
         return 0
     # if k > 3:  # what Appendix A says, but it does not work well
     if em > 0.5:  # what Langmuir-Blodgett uses
-        cd_r_24_ltr_lt_92 = 1 + 0.212 * re ** .6 + 2.6e-4 * re ** 1.38
-        he = pi / 2 + 0.121 * re ** 0.6 + 0.754e-4 * re ** 1.38
+        cd_r_24_ltr_lt_92 = 1 + 0.212 * re**0.6 + 2.6e-4 * re**1.38
+        he = pi / 2 + 0.121 * re**0.6 + 0.754e-4 * re**1.38
         em = k / (k + he)
     return em
 
@@ -249,12 +288,13 @@ def calc_em_langmuir_blodgett(k, phi):
         em = ko / (ko + pi / 2)  # equ. (34)
     if em > 0.5:
         cd_r_24 = calc_cd_r_24_langmuir_blodgett(re)
-        he = 1 + 0.5708 * cd_r_24 - 0.73e-4 * re ** 1.38  # equ. (43)
+        he = 1 + 0.5708 * cd_r_24 - 0.73e-4 * re**1.38  # equ. (43)
         em = k / (k + he)  # equ. (42)
     else:
         delta_em = delta_em_interpolator(em)  # Table V corrections
         em += delta_em
     return em
+
 
 # fmt: off
 table_XI_data = {  # K*phi values as keys
@@ -341,7 +381,7 @@ phi_theta_ints = {
 }
 
 
-def value_interpolator(k, phi, v='ems'):
+def value_interpolator(k, phi, v="ems"):
     phis = list(table_II_original_data.keys())
     if phi <= phis[2]:
         phis = phis[:4]
@@ -351,7 +391,11 @@ def value_interpolator(k, phi, v='ems'):
         phis = phis[2:6]
     else:
         phis = phis[3:7]
-    interpolator_selected = {'ems': phi_em_ints, 'betas': phi_beta_ints, 'theta_degree': phi_theta_ints}[v]
+    interpolator_selected = {
+        "ems": phi_em_ints,
+        "betas": phi_beta_ints,
+        "theta_degree": phi_theta_ints,
+    }[v]
     eks = [interpolator_selected[_](log10(k)) for _ in phis]
     xs = [log10(_) if _ > 0 else -1 for _ in phis]
     value = interp1d(xs, eks, kind="quadratic", fill_value="extrapolate")(
@@ -360,78 +404,93 @@ def value_interpolator(k, phi, v='ems'):
     return value
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     import matplotlib.pyplot as plt
     from numpy import logspace
 
     for phi in table_II_data:
         print(phi)
-        ks = table_II_data[0]['ks']
-        ems = [value_interpolator(k, phi, 'ems') for k in ks]
-        betas = [value_interpolator(k, phi, 'betas') for k in ks]
-        theta_degree = [value_interpolator(k, phi, 'theta_degree') for k in ks]
-        print('"ems":', '(' + ', '.join([f"{max(0, float(_)):.4f}" for _ in ems]) + '),')
-        print('"betas":', '(' + ', '.join([f"{max(0, float(_)):.4f}" for _ in betas]) + '),')
-        print('"theta_degree":', '(' + ', '.join([f"{max(0, float(_)):.1f}" for _ in theta_degree]) + '),')
+        ks = table_II_data[0]["ks"]
+        ems = [value_interpolator(k, phi, "ems") for k in ks]
+        betas = [value_interpolator(k, phi, "betas") for k in ks]
+        theta_degree = [value_interpolator(k, phi, "theta_degree") for k in ks]
+        print(
+            '"ems":', "(" + ", ".join([f"{max(0, float(_)):.4f}" for _ in ems]) + "),"
+        )
+        print(
+            '"betas":',
+            "(" + ", ".join([f"{max(0, float(_)):.4f}" for _ in betas]) + "),",
+        )
+        print(
+            '"theta_degree":',
+            "(" + ", ".join([f"{max(0, float(_)):.1f}" for _ in theta_degree]) + "),",
+        )
 
     plt.figure()
-    plt.suptitle('Verify interpolation in Table II data')
+    plt.suptitle("Verify interpolation in Table II data")
     for phi in table_II_original_data:
-        ks = table_II_original_data[phi]['ks']
-        line, = plt.plot(ks, table_II_original_data[phi]['ems'], 'o', label=f"Table II data phi={phi:.0f}")
+        ks = table_II_original_data[phi]["ks"]
+        (line,) = plt.plot(
+            ks,
+            table_II_original_data[phi]["ems"],
+            "o",
+            label=f"Table II data phi={phi:.0f}",
+        )
         em_calcs = [calc_em(k, phi) for k in ks]
-        plt.plot(ks, em_calcs, '--', c=line.get_color())
+        print(len(ks))
+        print(len(em_calcs))
+        plt.plot(ks, em_calcs, "--", c=line.get_color())
 
-    plt.plot([], [], '--', c='k', label='interpolated')
-    plt.xscale('log')
-    plt.xlabel('K')
-    plt.ylabel('Em')
+    plt.plot([], [], "--", c="k", label="interpolated")
+    plt.xscale("log")
+    plt.xlabel("K")
+    plt.ylabel("Em")
     plt.legend()
 
     plt.figure()
-    plt.suptitle('Comparison to Table XI data')
+    plt.suptitle("Comparison to Table XI data")
     for k_phi in table_XI_data:
-        inv_ks = table_XI_data[k_phi]['inv_ks']
+        inv_ks = table_XI_data[k_phi]["inv_ks"]
         ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        line, = plt.plot(inv_ks, ems, 'o', label=f'Table XI data k*phi={k_phi:.0f}')
+        (line,) = plt.plot(inv_ks, ems, "o", label=f"Table XI data k*phi={k_phi:.0f}")
         inv_ks = logspace(-2.5, log10(8), 100).tolist()
         ems = [float(calc_em(1 / inv_k, k_phi * inv_k)) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems, '-', c=line.get_color())
+        plt.plot(inv_ks, ems, "-", c=line.get_color())
         ems2 = [calc_em_langmuir_blodgett(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems2, '--', c=line.get_color())
+        plt.plot(inv_ks, ems2, "--", c=line.get_color())
         ems3 = [lt_ltr_92_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems3, ':', c=line.get_color())
+        plt.plot(inv_ks, ems3, ":", c=line.get_color())
 
-    plt.plot([], [], '-', c='k', label='Calculated from Table II interpolation')
-    plt.plot([], [], '--', c='k', label='Calculated from Langmuir-Blodgett')
-    plt.plot([], [], ':', c='k', label='Calculated from LTR-LT-92 equations')
-    plt.xscale('log')
-    plt.xlabel('1/K')
-    plt.ylabel('Em')
+    plt.plot([], [], "-", c="k", label="Calculated from Table II interpolation")
+    plt.plot([], [], "--", c="k", label="Calculated from Langmuir-Blodgett")
+    plt.plot([], [], ":", c="k", label="Calculated from LTR-LT-92 equations")
+    plt.xscale("log")
+    plt.xlabel("1/K")
+    plt.ylabel("Em")
     plt.legend()
 
     plt.figure()
-    plt.suptitle('Comparison to Table XI data')
+    plt.suptitle("Comparison to Table XI data")
     for k_phi in table_XI_data:
-        inv_ks = table_XI_data[k_phi]['inv_ks']
+        inv_ks = table_XI_data[k_phi]["inv_ks"]
         ems = [calc_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        line, = plt.plot(inv_ks, ems, 'o', label=f'Table XI data k*phi={k_phi:.0f}')
+        (line,) = plt.plot(inv_ks, ems, "o", label=f"Table XI data k*phi={k_phi:.0f}")
         inv_ks = logspace(-2.5, log10(8), 100)
         ems = [float(calc_em(1 / inv_k, k_phi * inv_k)) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems, '-', c=line.get_color())
+        plt.plot(inv_ks, ems, "-", c=line.get_color())
         ems2 = [calc_em_langmuir_blodgett(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems2, '--', c=line.get_color())
+        plt.plot(inv_ks, ems2, "--", c=line.get_color())
         ems3 = [lt_ltr_92_em(1 / inv_k, k_phi * inv_k) for inv_k in inv_ks]
-        plt.plot(inv_ks, ems3, ':', c=line.get_color())
+        plt.plot(inv_ks, ems3, ":", c=line.get_color())
 
-    plt.plot([], [], '-', c='k', label='Calculated from Table II interpolation')
-    plt.plot([], [], '--', c='k', label='Calculated from Langmuir-Blodgett')
-    plt.plot([], [], ':', c='k', label='Calculated from LTR-LT-92 equations')
-    plt.xscale('log')
-    plt.xlabel('1/K')
-    plt.yscale('log')
-    plt.ylabel('Em')
+    plt.plot([], [], "-", c="k", label="Calculated from Table II interpolation")
+    plt.plot([], [], "--", c="k", label="Calculated from Langmuir-Blodgett")
+    plt.plot([], [], ":", c="k", label="Calculated from LTR-LT-92 equations")
+    plt.xscale("log")
+    plt.xlabel("1/K")
+    plt.yscale("log")
+    plt.ylabel("Em")
     plt.ylim(0.001, 1)
     plt.legend()
 

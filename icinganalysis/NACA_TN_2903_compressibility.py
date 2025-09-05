@@ -1,5 +1,6 @@
 from math import log10
-from scipy.interpolate import interp2d
+from scipy.interpolate import interp2d, RectBivariateSpline
+import numpy as np
 
 data_fig_4 = {  # phi
     0: {
@@ -26,11 +27,17 @@ data_fig_4 = {  # phi
 
 l10phi_for_phi_0 = 0
 
-_delta_em_interp = interp2d(
-    [log10(k) for k in data_fig_4[0]['ks']],
+# _delta_em_interp = interp2d(
+#     [log10(k) for k in data_fig_4[0]['ks']],
+#     [log10(phi) if phi > 10 ** l10phi_for_phi_0 else l10phi_for_phi_0 for phi in data_fig_4],
+#     [data_fig_4[phi]['delta_em'] for phi in data_fig_4]
+# )
+
+_delta_em_interp = lambda lk, lphi: RectBivariateSpline([log10(k) for k in data_fig_4[0]['ks']],
     [log10(phi) if phi > 10 ** l10phi_for_phi_0 else l10phi_for_phi_0 for phi in data_fig_4],
-    [data_fig_4[phi]['delta_em'] for phi in data_fig_4]
-)
+    np.array([data_fig_4[phi]['delta_em'] for phi in data_fig_4]).T, kx=3, ky=3)(
+        lk, lphi
+    ).T[0, 0]
 
 
 def calc_delta_em(k, phi):

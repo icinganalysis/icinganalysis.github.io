@@ -1,5 +1,6 @@
 from math import cos, log10, pi
-from scipy.interpolate import interp1d, interp2d
+import numpy as np
+from scipy.interpolate import interp1d, RectBivariateSpline
 from icinganalysis import langmuir_blodgett_table_ii
 from icinganalysis.langmuir_cylinder_values import calc_k, calc_phi
 from icinganalysis.langmuir_cylinder_values import (
@@ -49,11 +50,13 @@ log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_figure_9]
 phis = [_ for _ in data_figure_9]
 zs = [data_figure_9[_]["theta"] for _ in data_figure_9]
 
-_theta_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
-                                              kind='linear',
-                                              # kind='cubic',
-                                              )
-
+# _theta_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
+#                                               kind='linear',
+#                                               # kind='cubic',
+#                                               )
+_theta_interpolator_figure_9_log10 = lambda x_, y_: RectBivariateSpline(
+    log10_ks, log10_phis, np.array(zs).T, kx=3, ky=3
+)(x_, y_).T
 
 def calc_theta_from_figure_9_data(k, phi):
     theta = float(
@@ -68,10 +71,10 @@ def calc_theta_from_figure_9_data(k, phi):
 
 
 zs = [data_figure_9[_]["em"] for _ in data_figure_9]
-_em_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
-                                               kind = 'linear',
-                                               )
-
+_em_interpolator_figure_9_log10 = lambda x_, y_: RectBivariateSpline(log10_ks, log10_phis, np.array(zs).T, kx=1, ky=1)(x_, y_).T
+# _em_interpolator_figure_9_log10 = interp2d(log10_ks, log10_phis, zs,
+#                                                kind = 'linear',
+#                                                )
 
 def calc_em_from_figure_9_data(k, phi):
     em = float(
@@ -160,7 +163,10 @@ log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_i_augm
 phis = [_ for _ in data_table_i_augmented]
 zs = [data_table_i_augmented[_]["theta"] for _ in data_table_i_augmented]
 
-_theta_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind="cubic")
+_theta_interpolator_log10 = lambda x_, y_: RectBivariateSpline(
+    log10_ks, log10_phis, np.array(zs).T, kx=3, ky=3
+)(x_, y_).T
+# _theta_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind="cubic")
 
 
 def calc_theta_naca_tn_2904_from_table_i_data(k, phi):
@@ -168,7 +174,8 @@ def calc_theta_naca_tn_2904_from_table_i_data(k, phi):
         max(
             0,
             _theta_interpolator_log10(
-                log10(k), log10(phi) if phi > 0 else l10phi_for_phi_0,
+                log10(k),
+                log10(phi) if phi > 0 else l10phi_for_phi_0,
             ),
         )
     )
@@ -336,15 +343,46 @@ log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_fig_6]
 phis = [_ for _ in data_fig_6]
 zs = [data_fig_6[_]["ems"] for _ in data_fig_6]
 
-_em_interpolator_log10 = interp2d(log10_ks, log10_phis, zs, kind="cubic")
+
+def _em_interpolator_log10(lk, l_phi):
+    """
+    had an odd error with RectBivariateSpline
+    "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/scipy/interpolate/_fitpack2.py  line 1619"
+
+    so this implementation is used
+    """
+
+    ems = []
+    phis = []
+    for phi, v in data_fig_6.items():
+        phis.append(phi)
+        em = interp1d(
+            [log10(_) if _ > 0 else -1 for _ in v["ks"]],
+            v["ems"],
+            kind="cubic",
+            bounds_error=None,
+            fill_value="extrapolate",
+        )(lk)
+        ems.append(em)
+    em = interp1d(
+        [log10(_) if _ > 0 else -2 for _ in phis],
+        ems,
+        kind="cubic",
+        bounds_error=None,
+        fill_value="extrapolate",
+    )(l_phi)
+    return em
 
 
 def calc_em_naca_tn_2904_from_figure6_data(k, phi, include_compressibility=False):
+    # print('k, phi', k, phi)
+    # print(log10(k), log10(phi) if phi > 0 else -2)
     partial_em = float(
         max(
             0,
             _em_interpolator_log10(
-                log10(k), log10(phi) if phi > 0 else l10phi_for_phi_0,
+                log10(k),
+                log10(phi) if phi > 0 else -2,
             ),
         )
     )
@@ -361,7 +399,7 @@ def calc_em_naca_tn_2904_from_with_distribution_fig6_data(
     em = 0
     for d_drop_ratio, w in zip(mids, langmuir_lwc_fractions):
         em_partial = calc_em_naca_tn_2904_from_figure6_data(
-            k * d_drop_ratio ** 2, phi, include_compressibility
+            k * d_drop_ratio**2, phi, include_compressibility
         )
         em += w * em_partial
     return min(1, max(em, 0))
@@ -395,22 +433,22 @@ log10_ks = [log10(inv_k) for inv_k in data_table_iv_augmented[0]["inv_ks"]]
 log10_phis = [log10(_) if _ > 0 else l10phi_for_phi_0 for _ in data_table_iv_augmented]
 k_phis = [_ for _ in data_table_iv_augmented]
 zsa = [data_table_iv_augmented[_]["ems_a"] for _ in data_table_iv_augmented]
-_em_interpolator_k_phi_a_log10 = interp2d(log10_ks, log10_phis, zsa, kind="cubic")
-zsb = [data_table_iv_augmented[_]["ems_b"] for _ in data_table_iv_augmented]
-_em_interpolator_k_phi_b_log10 = interp2d(log10_ks, log10_phis, zsb, kind="cubic")
-zsc = [data_table_iv_augmented[_]["ems_c"] for _ in data_table_iv_augmented]
-_em_interpolator_k_phi_c_log10 = interp2d(log10_ks, log10_phis, zsc, kind="cubic")
-zsd = [data_table_iv_augmented[_]["ems_d"] for _ in data_table_iv_augmented]
-_em_interpolator_k_phi_d_log10 = interp2d(log10_ks, log10_phis, zsd, kind="cubic")
-zse = [data_table_iv_augmented[_]["ems_e"] for _ in data_table_iv_augmented]
-_em_interpolator_k_phi_e_log10 = interp2d(log10_ks, log10_phis, zse, kind="cubic")
-_k_phi_interpolators = {
-    "Langmuir A": _em_interpolator_k_phi_a_log10,
-    "Langmuir B": _em_interpolator_k_phi_b_log10,
-    "Langmuir C": _em_interpolator_k_phi_c_log10,
-    "Langmuir D": _em_interpolator_k_phi_d_log10,
-    "Langmuir E": _em_interpolator_k_phi_e_log10,
-}
+# _em_interpolator_k_phi_a_log10 = interp2d(log10_ks, log10_phis, zsa, kind="cubic")
+# zsb = [data_table_iv_augmented[_]["ems_b"] for _ in data_table_iv_augmented]
+# _em_interpolator_k_phi_b_log10 = interp2d(log10_ks, log10_phis, zsb, kind="cubic")
+# zsc = [data_table_iv_augmented[_]["ems_c"] for _ in data_table_iv_augmented]
+# _em_interpolator_k_phi_c_log10 = interp2d(log10_ks, log10_phis, zsc, kind="cubic")
+# zsd = [data_table_iv_augmented[_]["ems_d"] for _ in data_table_iv_augmented]
+# _em_interpolator_k_phi_d_log10 = interp2d(log10_ks, log10_phis, zsd, kind="cubic")
+# zse = [data_table_iv_augmented[_]["ems_e"] for _ in data_table_iv_augmented]
+# _em_interpolator_k_phi_e_log10 = interp2d(log10_ks, log10_phis, zse, kind="cubic")
+# _k_phi_interpolators = {
+#     "Langmuir A": _em_interpolator_k_phi_a_log10,
+#     "Langmuir B": _em_interpolator_k_phi_b_log10,
+#     "Langmuir C": _em_interpolator_k_phi_c_log10,
+#     "Langmuir D": _em_interpolator_k_phi_d_log10,
+#     "Langmuir E": _em_interpolator_k_phi_e_log10,
+# }
 
 kind = "linear"
 kind = "quadratic"
@@ -639,7 +677,7 @@ _k_interps = {
 }
 
 lkphis = [
-    log10(_) for _ in (10 ** l10phi_for_k_phi_0, 200, 1000, 3000, 10000, 50000, 200000)
+    log10(_) for _ in (10**l10phi_for_k_phi_0, 200, 1000, 3000, 10000, 50000, 200000)
 ]
 
 
@@ -686,7 +724,7 @@ def make_table_iii():
         ems = 0
         emz = 0
         for dr, w in zip(get_mids(distribution), langmuir_lwc_fractions):
-            k = k0 * dr ** 2
+            k = k0 * dr**2
             ems += w * calc_em_naca_tn_2904_from_figure6_data(k, k_phi / k0)
             # emz +=
         print(
@@ -707,7 +745,7 @@ def make_table_iii():
             k0 = k
             em = 0
             for dr, w in zip(get_mids(distribution), langmuir_lwc_fractions):
-                k = k0 * dr ** 2
+                k = k0 * dr**2
                 em += w * calc_em_naca_tn_2904_from_figure6_data(k, k_phi / k0)
             ems.append(em)
         print(f"{distribution} ems 50000 ", ", ".join([f"{_:.3f}" for _ in ems]))
@@ -720,7 +758,7 @@ def make_table_iii():
             k0 = k
             em = 0
             for dr, w in zip(get_mids(distribution), langmuir_lwc_fractions):
-                k = k0 * dr ** 2
+                k = k0 * dr**2
                 em += w * calc_em_naca_tn_2904_from_figure6_data(k, k_phi / k0)
             ems.append(em)
         print(f"{distribution} ems 200000 ", ", ".join([f"{_:.3f}" for _ in ems]))
@@ -1018,7 +1056,9 @@ if __name__ == "__main__":
         inv_ks = plt.np.logspace(-3, log10(8))
         ems = [calc_em_naca_tn_2904_from_figure6_data(1 / _, k_phi * _) for _ in inv_ks]
         plt.plot(inv_ks, ems, "-", c=line.get_color())
-        ems = [float(langmuir_blodgett_table_ii.calc_em(1 / _, k_phi * _)) for _ in inv_ks]
+        ems = [
+            float(langmuir_blodgett_table_ii.calc_em(1 / _, k_phi * _)) for _ in inv_ks
+        ]
         plt.plot(inv_ks, ems, ":", c=line.get_color())
     plt.plot(
         [], [], "-", c="k", label="Calculated with\nNACA-TR-1215 Figure 4 correlations"
