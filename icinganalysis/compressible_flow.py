@@ -5,7 +5,6 @@ https://www.grc.nasa.gov/WWW/k-12/airplane/shortc.html
 
 from icinganalysis import air_properties
 
-# from icinganalysis.NACA_TN_2904.NACA_TN_2904_error_estimate import alt_ft
 from icinganalysis.iteration_helpers import solve_minimize_f
 
 gamma = air_properties.GAMMA_AIR
