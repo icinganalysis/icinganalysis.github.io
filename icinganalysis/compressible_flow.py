@@ -4,6 +4,8 @@ https://www.grc.nasa.gov/WWW/k-12/airplane/shortc.html
 """
 
 from icinganalysis import air_properties
+
+# from icinganalysis.NACA_TN_2904.NACA_TN_2904_error_estimate import alt_ft
 from icinganalysis.iteration_helpers import solve_minimize_f
 
 gamma = air_properties.GAMMA_AIR
@@ -30,7 +32,7 @@ def calc_u(mach, tk):
 
 
 def calc_mach_from_t_total(u, t_total):
-    t = t_total - u ** 2 / (2 * air_properties.CP_AIR)
+    t = t_total - u**2 / (2 * air_properties.CP_AIR)
     mach = calc_mach(u, t)
 
     return mach
@@ -62,13 +64,13 @@ def calc_mach_local(mach, pl_p, limit_pl_p_ratio=True):
     """
     if limit_pl_p_ratio:
         pl_p = calc_limited_pl_p_ratio(mach, pl_p)
-    mach_l = (((pl_p) ** (-1 / gdgm1) * (1 + gm1d2 * mach ** 2) - 1) * 1 / gm1d2) ** 0.5
+    mach_l = (((pl_p) ** (-1 / gdgm1) * (1 + gm1d2 * mach**2) - 1) * 1 / gm1d2) ** 0.5
     return mach_l
 
 
 def calc_t_recovery(tk_static, u, r=1):
     mach = calc_mach(u, tk_static)
-    tr = tk_static * (1 + r * gm1d2 * mach ** 2)
+    tr = tk_static * (1 + r * gm1d2 * mach**2)
     return tr
 
 
@@ -87,7 +89,7 @@ def calc_mtap(mach):
     return (
         (gamma / air_properties.R_AIR) ** 0.5
         * mach
-        * (1 + gm1d2 * mach ** 2) ** -gp1d2gm1
+        * (1 + gm1d2 * mach**2) ** -gp1d2gm1
     )
 
 
@@ -120,7 +122,7 @@ def calc_a_a_star(mach):
     :param mach: initial Mach
     :return: area change ratio for Mach 1
     """
-    return 1 / mach * ((1 + gm1d2 * mach ** 2) ** gp1d2gm1) * gp1d2 ** -gp1d2gm1
+    return 1 / mach * ((1 + gm1d2 * mach**2) ** gp1d2gm1) * gp1d2**-gp1d2gm1
 
 
 def calc_mach2_subsonic(a1, mach1, a2):
@@ -164,7 +166,7 @@ def calc_pl_p(mach, pressure_coefficient, limit_pressure_coefficient=True):
         pressure_coefficient = calc_limited_pressure_coefficient(
             pressure_coefficient, mach
         )
-    pl_p = 1 + gd2 * mach ** 2 * pressure_coefficient
+    pl_p = 1 + gd2 * mach**2 * pressure_coefficient
     return pl_p
 
 
@@ -173,13 +175,13 @@ def calc_cp_max(mach):
     ((pl_p) ** (-1 / gdgm1) * (1 + gm1d2 * mach ** 2) - 1) > 0
 
     """
-    cp = ((1 / (1 + gm1d2 * mach ** 2)) ** -gdgm1 - 1) / (gd2 * mach ** 2)
+    cp = ((1 / (1 + gm1d2 * mach**2)) ** -gdgm1 - 1) / (gd2 * mach**2)
     return cp
 
 
 def calc_cp_min(mach):
     """Calculate the minimum Cp value for pl > 0"""
-    return -1 / (gd2 * mach ** 2) + 1e-10  # keep minimum pl slightly above zero
+    return -1 / (gd2 * mach**2) + 1e-10  # keep minimum pl slightly above zero
 
 
 def calc_pl_p_max(mach):
@@ -190,16 +192,16 @@ def calc_pl_p_max(mach):
     :param mach: Mach number
     :return: limited pressure ratio
     """
-    return (1 / (1 + gm1d2 * mach ** 2)) ** -gdgm1
+    return (1 / (1 + gm1d2 * mach**2)) ** -gdgm1
 
 
 def get_t_p_u_mach_local(t, p, u, cp):
     mach = calc_mach(u, t)
-    p_total = p*(1+0.2*mach**2)
-    p_local = (1+cp*0.7*mach**2)*p
-    t_local = t*(p_local/p)**(1/3.5)
-    mach_local = (5*(((p_local/p)**(-1/3.5))*(1+0.2*mach**2)-1))**0.5
-    u_local = calc_sonic_airspeed(t_local)*mach_local
+    p_total = p * (1 + 0.2 * mach**2)
+    p_local = (1 + cp * 0.7 * mach**2) * p
+    t_local = t * (p_local / p) ** (1 / 3.5)
+    mach_local = (5 * (((p_local / p) ** (-1 / 3.5)) * (1 + 0.2 * mach**2) - 1)) ** 0.5
+    u_local = calc_sonic_airspeed(t_local) * mach_local
     return t_local, p_local, u_local, mach_local
 
 
@@ -207,37 +209,71 @@ def get_t_p_u_mach_local_from(p_local, t, p, u):
     mach = calc_mach(u, t)
     # p_total = p*(1+0.2*mach**2)
     # mach_local = ((p_total / p_local - 1) / 0.2) ** 0.5
-    mach_local = (5*(((p_local/p)**(-1/3.5))*(1+0.2*mach**2)-1))**0.5
+    mach_local = (5 * (((p_local / p) ** (-1 / 3.5)) * (1 + 0.2 * mach**2) - 1)) ** 0.5
     # p_local = p*((1+0.2*mach**2)/(1+0.2*mach_local**2))**3.5
-    t_local = t*(p_local/p)**(1/3.5)
-    u_local = calc_sonic_airspeed(t_local)*mach_local
+    t_local = t * (p_local / p) ** (1 / 3.5)
+    u_local = calc_sonic_airspeed(t_local) * mach_local
     return t_local, p_local, u_local, mach_local
 
 
 def calc_eas(u, p, t, po=air_properties.P_std, to=air_properties.TK_std):
     tas = u
-    eas = tas * (p*to/(po*t))**0.5
+    eas = tas * (p * to / (po * t)) ** 0.5
     return eas
 
 
-def calc_eas_from(tas, p, t, po=air_properties.P_std, to=air_properties.TK_std):
-    eas = tas * (p*to/(po*t))**0.5
+def calc_eas_from(mach, p):
+    qc = calc_qc(mach, p)
+    ao = calc_sonic_airspeed(273.15 + 15)
+    po = air_properties.P_std
+    eas = ao * (5 * p / po * ((qc / p + 1) ** (2 / 7) - 1)) ** 0.5
+    return eas
+
+
+def calc_eas_from2(tas, p, t, po=air_properties.P_std, to=air_properties.TK_std):
+    eas = tas * (p * to / (po * t)) ** 0.5
     return eas
 
 
 def calc_tas_from(eas, p, t, po=air_properties.P_std, to=air_properties.TK_std):
-    tas = eas / (p*to/(po*t))**0.5
+    tas = eas / (p * to / (po * t)) ** 0.5
     return tas
 
 
 def calc_qc(mach, p):
-    qc = p*((1+0.2*mach**2)**3.5-1)
+    qc = p * ((1 + 0.2 * mach**2) ** 3.5 - 1)
     return qc
 
 
 def calc_mach_from(qc, p):
-    mach = (5*(qc/p+1)**(2/7)-1)**0.5
+    mach = (((qc / p + 1) ** (2 / 7) - 1) * 5) ** 0.5
     return mach
+
+
+def calc_cas(mach, p):
+    qc = calc_qc(mach, p)
+    ao = calc_sonic_airspeed(273.15 + 15)
+    po = air_properties.P_std
+    cas = ao * (5 * ((qc / po + 1) ** (2 / 7) - 1)) ** 0.5
+    return cas
+
+
+def calc_mach_from_cas(cas, p):
+    ao = calc_sonic_airspeed(air_properties.TK_std)
+    po = air_properties.P_std
+    qc = (((0.2 * (cas / ao) ** 2) + 1) ** (7 / 2) - 1) * po
+    mach = calc_mach_from(qc, p)
+    return mach
+
+
+def calc_tas_from_cas(cas, p, tk):
+    ao = calc_sonic_airspeed(air_properties.TK_std)
+    po = air_properties.P_std
+    qc = (((0.2 * (cas / ao) ** 2) + 1) ** (7 / 2) - 1) * po
+    mach = calc_mach_from(qc, p)
+    a = calc_sonic_airspeed(tk)
+    tas = a * mach
+    return tas
 
 
 if __name__ == "__main__":
@@ -274,7 +310,7 @@ if __name__ == "__main__":
     m = 1
     p = 101325
     a = 1
-    mtap = m * tk ** 0.5 / a / p
+    mtap = m * tk**0.5 / a / p
     mach = calc_mach_subsonic_from_mtap(mtap)
     mtap2 = calc_mtap(mach)
     print(mtap, mach, mtap2)
@@ -283,6 +319,28 @@ if __name__ == "__main__":
     for mach in np.logspace(-2, 0):
         mtap = calc_mtap(mach)
         mach2 = calc_mach_subsonic_from_mtap(mtap)
-        print(mach, mtap, mach2, mtap*a*p/tk**0.5)
+        print(mach, mtap, mach2, mtap * a * p / tk**0.5)
     mtap = 0.05
     print(mtap, calc_mach_subsonic_from_mtap(mtap))
+
+    print()
+    mach = 0.5
+    print("for Mach=", mach)
+    from units_helpers import FT_PER_M, tf_to_k
+
+    alt_ft = 20000
+    p = air_properties.calc_pressure(alt_ft / FT_PER_M)
+
+    tk = tf_to_k(-12.26)
+    print("Alt= ", alt_ft, "T=-12.26 F")
+    tas = calc_sonic_airspeed(tk) * mach
+    print("tas", tas, "m/s")
+    cas = calc_cas(mach, p)
+    print("cas", cas, "m/s")
+
+    eas = calc_eas(tas, p, tk)
+    print("eas", eas, "m/s")
+    print("Mach calc from eas", calc_eas_from(mach, p))
+
+    print("Mach calc from cas", calc_mach_from_cas(cas, p))
+    print("tas calc from kcas", calc_tas_from_cas(cas, p, tk))
