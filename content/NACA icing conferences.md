@@ -1,7 +1,7 @@
 Title: NACA Aircraft Icing Conferences  
 Date: 2025-01-03 12:00  
 Category: NACA  
-tags: icing conferences  
+tags: icing conference  
 
 ### _"Aircraft are now capable of flying in icing clouds without difficulty, however, because research by the NACA and others has provided the engineering basis for icing protection systems"_ [^1]  
 
