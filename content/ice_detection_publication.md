@@ -1,5 +1,5 @@
 Title: "A review of ice detection technologies"      
-Date: 2026-01-14 9:00  
+Date: 2026-01-13 13:30  
 tags: publications, ice detection   
 rights: CC-BY-NC-SA 4.0
 
