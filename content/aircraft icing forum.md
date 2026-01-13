@@ -13,7 +13,7 @@ I had the honor of doing the first presentation for the
 
 The presentation "Aircraft Ice Protection in the NACA Era" is available 
 in either LibreOffice or pdf format:   
-
+  
 [AIF 2025 presentation.odp](images%2FAIF%202025%20presentation.odp)  
 
 [AIF 2025 presentation.pdf](images%2FAIF%202025%20presentation.pdf)  
