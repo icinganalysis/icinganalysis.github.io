@@ -2,7 +2,6 @@ Title: "A review of ice detection technologies"
 Date: 2026-01-14 9:00  
 tags: publications, ice detection   
 rights: CC-BY-NC-SA 4.0
-status: DRAFT 
 
 ### _"These incidents underscore the urgent need for reliable, real-time ice detection systems to prevent dangerous icing conditions and enhance operational safety."_ [^1]  
 

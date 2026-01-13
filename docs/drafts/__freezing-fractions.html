@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>__Freezing Fractions</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="Freezing fraction is difficult to measure experimentally. A procedure that has been used is to measure the leading edge ice thickness, and compare that to a calculated..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/__freezing-fractions.html" rel="bookmark"
+           title="Permalink to __Freezing Fractions">__Freezing Fractions</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-01-12T16:11:51.447931-08:00">
+                Published: Mon 12 January 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-01-12T16:11:51.447931-08:00">
+                Updated: Mon 12 January 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+
+</footer><!-- /.post-info -->      <p>Freezing fraction is difficult to measure experimentally. 
+A procedure that has been used is to measure the leading edge ice thickness, 
+and compare that to a calculated value. 
+However, that values depends on an assumed ice density value. 
+So, measurements have an unquantified uncertainty. </p>
+<p>Thus the validation of freezing fraction calculations is subject to that uncertainty. </p>
+<p>Example comparisons are given below. </p>
+<h2>Non-rotating cylinders</h2>
+<p>There are several sources of ice measurements on non-rotating cylinders. </p>
+<p>AEDC-TR-85-30</p>
+<p>https://dspace.mit.edu/bitstream/handle/1721.1/49937/32257719-MIT.pdf?sequence=2 </p>
+<p><img alt="AEDC_TR_85_30_Figure21" src="/images%2Faedc-tr-85-30%2FFigure%2021.png">  </p>
+<p>NASA-TM-107141
+https://ntrs.nasa.gov/citations/19960012178 </p>
+<p><img alt="NASA_TM_107141_Figure10" src="images/freezing_fractions/NASA_TM_107141_Figure10.png">  </p>
+<p>NASA/CR—2008-215302<br>
+Ice Shape Scaling for Aircraft in SLD Conditions
+https://www.tc.faa.gov/its/worldpac/techrpt/ar0755.pdf </p>
+<p><img alt="NASA_CR_2008_215302_fig3" src="images/freezing_fractions/NASA_CR_2008_215302_fig3.png">  </p>
+<p>The ice thickness at the leading edge was measured from the figure. 
+From that, an ice growth rate can be calculated: </p>
+<div class="highlight"><pre><span></span><code>measured_ice_growth_rate = ice_thick / time
+</code></pre></div>
+
+<p>A rime ice grow rate can be calculated: </p>
+<div class="highlight"><pre><span></span><code>calculated_rime_ice_growth_rate = lwc/G_PER_KG <span class="gs">* beta *</span> u / ice_density
+</code></pre></div>
+
+<p>The ice density is assumed to be the bulk ice density, 917 kg/m^3. 
+A Langmuir "D" drop size distribution was assumed to calculate the beta value. </p>
+<p>And an apparent freezing fraction value can be calculated: </p>
+<div class="highlight"><pre><span></span><code>n_apparent = measured_ice_growth_rate / calculated_rime_ice_growth_rate
+</code></pre></div>
+
+<p>The heat transfer relationship from NASA-TM-107141 was used:</p>
+<div class="highlight"><pre><span></span><code>nu = 1.244 * re^0.4774
+</code></pre></div>
+
+<p>The file "messinger.py" was used to calculate the freezing fraction. 
+The freezing fraction is evaluated at the initial cylinder diameter (only). 
+The is no attempt to calculate changes during the ice growth, 
+when the surface shape becomes non-cylindrical and the heat transfer 
+and water catch rate may change.</p>
+<p>For the AEDC Table 1, the reported and calculated freezing fraction values agree well, 
+but the apparent freezing fraction values have scatter compared to the calculated values.  </p>
+<p><img alt="cylinder_freezing_fractions_AEDC_TR_85_30_fig21" src="images/freezing_fractions/cylinder_freezing_fractions_AEDC_TR_85_30_fig21.png">  </p>
+<p>For NASA-TM-107141, apparent freezing fraction values agree well with the calculated values, 
+but the reported values do not. 
+As the heat transfer relationship used came from NASA-TM-107141, 
+it is not clear what the implementation differences of the calculation would be. </p>
+<p><img alt="cylinder_freezing_fractions_nasa_tm_107141_table1" src="images/freezing_fractions/cylinder_freezing_fractions_nasa_tm_107141_table1.png">  </p>
+<p>For the NASA-CR-2008-215302, the values agree fairly well. </p>
+<p><img alt="cylinder_freezing_fractions_NASA_CR_2008_215302_fig3" src="images/freezing_fractions/cylinder_freezing_fractions_NASA_CR_2008_215302_fig3.png">  </p>
+<h2>Airfoil leading edge approximated as a cylinder</h2>
+<p>NASA/CR-2005-213852
+https://ntrs.nasa.gov/citations/20050215212  </p>
+<p>Treats the airfoil leading edge as a cylinder with a diameter equal to twice the leading edge radius of curvature. </p>
+<p>The freezing fraction values agree fairly well at higher values, 
+but at lower values the scatter is greater than the +/-10% region shown. </p>
+<p><img alt="NASA_CR_2005_213852_Figure3" src="images/freezing_fractions/NASA_CR_2005_213852_Figure3.png">  </p>
+<div class="highlight"><pre><span></span><code>Nu = 1.14 <span class="gs">* Pr*</span>*0.4 <span class="gs">* Re*</span>*0.5
+Nu = 0.994 <span class="gs">* Re*</span>*0.5
+</code></pre></div>
+
+<p>NASA/CR—2004-212875</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
