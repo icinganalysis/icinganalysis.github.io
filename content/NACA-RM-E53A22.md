@@ -1,7 +1,7 @@
 Title: NACA-RM-E53A22  
 Date: 2024-11-20 15:00  
 Category: NACA  
-tags: radome, ice protection       
+tags: radomes, ice protection       
 
 ### _"radome icing has serious effects on the radar operation"_  
 
