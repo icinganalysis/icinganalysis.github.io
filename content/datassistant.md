@@ -39,7 +39,7 @@ The primary values that define a unique run condition are (with database units)
 - Temperature (°F total)  
 - Spray time (minutes)  
 
-Some test article also had provisions for thermal ice protection.  
+Some test articles also had provisions for thermal ice protection.  
 
 For some cases, results were measured at several locations along the span.  
 
@@ -248,8 +248,7 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 ## Notes  
 
 [^1]: 
-Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008.  
-[NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
+Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
 software available at https://software.nasa.gov/software/LEW-18343-1   
 
 [^2]: 
