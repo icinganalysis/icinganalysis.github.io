@@ -40,7 +40,6 @@ I installed it on a Windows 10 machine.
 The basic functions of the Graphical User Interface worked, 
 but the export data to excel function did not. 
 Perhaps there was a setting on my machine that interfered with the function, 
-Perhaps there was a setting on my machine that interfered with the function, 
 but I do not use Windows much anymore, so I moved on.  
 
 Fortunately, the central Microsoft Access 2003 database file is accessible to other programs. 
