@@ -38,7 +38,7 @@ It was also noted that LEWICE compiled and run on difference platforms can have 
 The differences were not quantified. 
 The differences were not noted as unacceptable.  
 
-![1999_figure 142.](../docs/drafts/images/6000_ice_shapes/1999_fig142.png)  
+![1999_figure 142.](images/6000_ice_shapes/1999_fig142.png)  
 
 ## The 2008 Assessment  
 
