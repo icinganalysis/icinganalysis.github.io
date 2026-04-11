@@ -11,9 +11,30 @@ rights: CC-BY-NC-SA 4.0
 
 The overall comparison of experimental data to LEWICE [^1] analysis has been published twice. 
 
-The first was in 1998 [^2], and included 800 experiment cases. 
+The first was in 1999 [^2], and included 800 experiment cases. 
 The second was in 2007 [^3], and had more than 3000 experimental cases. 
 These are the data that are included in the IceVal database [^4].  
+
+## The 1999 Assessment  
+
+The assessment published in 1999 looked at the differences in ice shape produced 
+in experiments vs. LEWICE analysis.
+It also considered differences caused by 
+ice tracing techniques between individuals, 
+variations alon the span of the test article, 
+test repeatability, 
+and experimental error. 
+These latter factor were relatively small.  
+
+![1999_fig18.png](images/6000_ice_shapes/1999_fig18.png)  
+
+Curiously, the relative difference ["%Difference based on Accretion Rate"] 
+for upper horn height for experiment vs LEWICE 
+is plotted as about 10%, which is about half that found in the 2008 report (20%, discussed below). 
+The 1999 report had about 800 experimental cases, while the 2008 report has over 3000, 
+and this may be a factor.  
+
+## The 2008 Assessment  
 
 For brevity, we will look at only two of the assessment comparison values: 
 the upper surface maximum ice height, and its location, as defined in Figure 18 ("h_upper").  
