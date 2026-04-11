@@ -6,6 +6,7 @@ tags: LEWICE, ice shapes, NASA
 _NASA Report E-16236 [^1]._
 
 ![The IceVal DatAssistant "splach page" figure with an airfoil and ice shape with identified horns.](images/6000_ice_shapes/iceval_splash.png)  
+_Public Domain NASA Report E-16236._
 
 ## A quick tour of the IceVal DatAssistant  
 
