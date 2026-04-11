@@ -12,7 +12,7 @@ rights: CC-BY-NC-SA 4.0
 The overall comparison of experimental data to LEWICE [^1] analysis has been published twice. 
 
 The first was in 1999 [^2], and included 800 experiment cases. 
-The second was in 2007 [^3], and had more than 3000 experimental cases. 
+The second was in 2008 [^3], and had more than 3000 experimental cases. 
 These are the data that are included in the IceVal database [^4].  
 
 ## The 1999 Assessment  
