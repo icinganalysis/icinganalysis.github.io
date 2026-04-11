@@ -1,0 +1,197 @@
+Title: A Geometric Analysis Method   
+status: draft  
+tags: LEWICE, ice shapes, NASA
+rights: CC-BY-NC-SA 4.0
+
+### _"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."_  
+_From the LEWICE manual. [^1]_  
+
+![comp_geom_db_ED071136LEW_ED071136.png](images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png)  
+_A case where two methods detected similar upper surface ice horns._  
+
+## Summary  
+
+Reviewing 6000+ ice shape assessments to verify that they agree with engineering judgement is a daunting task. 
+Even with professionalism and due-diligence, debatable results may be missed. 
+So, there is motivation to automate the process as much as possible.  
+
+Here, I describe a step toward that goal. 
+It is a work in progress, not a completed product.  
+
+## Using the IceVal database to validate an assessment method  
+ 
+The IceVal database will be used here to validate a different comparison assessment method. 
+This is one of the uses envisioned when compiling the database [^2]:  
+ 
+>... by compiling a comprehensive database consisting of
+a standardized, reliable data set, and combining that with an easy-to-use graphical user interface (GUI), providing
+quick and easy access to the data, a number of present and future enhancements to both products and processes
+become possible:  
+...
+>5) New and/or improved analytical methods  
+The foundation of all scientific inquiry is data; and, certainly, a key factor in the increased pace of
+scientific progress in recent times is the improved access and data processing capabilities provided by
+computers. In a similar manner, the consolidation of the experimental icing data, combined with the ease
+of access and data processing capabilities provided by the IceVal GUI, will facilitate the process of
+performing statistical analyses or other scientific investigations that might ultimately lead to new and/or
+improved methods in the icing research field.
+
+## Description of the geometric analysis method  
+
+As we saw in "Overall comparison assessments between experiment and LEWICE", the ice shape measurements from THICK 
+differed from those in the database, 
+which had several values adjusted manually from THICK results by using engineering judgement. 
+Some individual cases had debatable results with values from either database or THICK.  
+
+To address this, an independent geometric evaluation was performed. 
+The Python library Scipy was used to represent the airfoil as a spline surface. 
+The height of each ice point was calculated by finding by iteration the distance to the closest point on the 
+airfoil surface.  
+
+Values are, on average, very similar for maximum ice thickness between 
+values from the database and the geometric analysis.  
+
+![Filtered max thicks database_geometric_analysis.png](images/6000_ice_shapes/Filtered%20max%20thicks%20database_geometric_analysis.png)  
+
+## Horn selection   
+
+Prominent maximum local thickness locations are found by the Python library scipy.signal.find_peaks function 
+as potential horn locations. 
+Candidate horns that are very close to another horn are filtered out. 
+The selection method will always have a horn at the maximum ice thickness location. 
+A second horn will be found if there is a horn that is at least 25% as thick as the maximum ice thickness. 
+Preference is give to a horn that is on the opposite side of the airfoil leading edge Y values, 
+but the next thickest horn is selected if none such is available. 
+Horns are designated as "upper" and "lower" by the Y value, 
+even if both are on one side of the airfoil leading edge Y value.
+
+## Overall assessments with the geometric analysis method   
+
+Preliminary results are promising with the geometric analysis.  
+
+![Filtered Database_Geometric.png](images/6000_ice_shapes/Filtered%20Database_Geometric.png)
+
+Both the average values and the variance are smaller for the geometric analysis vs
+the database values. 
+The larger differences for the database values are dominated by cases where an upper horn was not detected.  
+
+The results are similar when all matching cases are considered:  
+
+![All casesDatabase_Geometric.png](images/6000_ice_shapes/All%20casesDatabase_Geometric.png)   
+
+The value of +/-15% variation is better than the +/-20% value in Figure 7 of the LEWICE validation report [^3].  
+
+If we filter out the cases from the database, 
+the comparison values appear to be better, but more than 600 cases are unexplained.  
+
+![All casesDatabase_Geometric_filtered_nans.png](images/6000_ice_shapes/All%20casesDatabase_Geometric_filtered_nans.png)  
+
+The differences in horn location as measured by horn angle is also improved 
+using the geometric analysis.  
+
+![Filtered cases thetas Database_Geometric.png](images/6000_ice_shapes/Filtered%20cases%20thetas%20Database_Geometric.png)  
+ 
+## Examples of individual cases compared  
+
+We will examine several of the individual cases where there were small and large differences between the 
+geometric analysis and the database values.  
+
+Here an the example seen previously in ["A Tour of the IceVal DatAssistant"]({filename}datassistant.md)" 
+with the geometric analysis added, 
+where there is a good comparison of horn height.  
+
+![comp_geom_db_ED071136LEW_ED071136.png](images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png)  
+
+Here is a case from the right side of the overall thickness comparison chart above, 
+where neither method had a close comparison value between experiment and analysis. 
+The reason is that there is indeed a large difference between experiment and analysis, 
+and either method accurately reflects this.  
+![comp_geom_db_JF1559LEW_JF1559.png](images/6000_ice_shapes/comp_geom_db_JF1559LEW_JF1559.png)  
+
+Here is a case from the left side of the overall thickness comparison chart above, 
+where neither method had a close comparison between experiment and analysis
+(noted as r in the legend line for the LEWICE result). 
+The database did not indicate an upper horn for the LEWICE case, 
+and the geometric analysis selected a debatable upper horn point. 
+Neither method had a good relative difference value. 
+By engineering judgement, if we "mix and match" values from the two methods, 
+the relative difference should be about 0.5. 
+There are several more similar examples (not shown).  
+![comp_geom_db_AE1114836LEW_AE1114936.png](images/6000_ice_shapes/comp_geom_db_AE1114836LEW_AE1114936.png)  
+
+Here is a case where the database relative difference absolute value is slightly 
+better than the geometric analysis value, 
+but the geometric analysis more accurately reflects the actual comparison. 
+There are several other similar examples (not shown, except for the case further below).  
+![comp_geom_db_AE1193836LEW_AE1193836.png](images/6000_ice_shapes/comp_geom_db_AE1193836LEW_AE1193836.png)  
+
+Here is another case where the database relative difference absolute value is slightly 
+better than the geometric analysis value, 
+but the geometric analysis more accurately reflects the actual comparison.   
+![comp_geom_db_NG1609LEW_NG1609.png](images/6000_ice_shapes/comp_geom_db_NG1609LEW_NG1609.png)  
+
+In this case, the database did not indicate an upper horn for either the 
+experiment or LEWICE case, when there were obvious horns.
+The relative difference is taken as zero due to the defaults I selected in the analysis. 
+Perhaps I should revise that (but there are few of those cases). 
+However, the geometric analysis method always has an upper horn, 
+so this case does not arise when using that.  
+
+![comp_geom_db_HD1076436LEW_HD1076436.png](images/6000_ice_shapes/comp_geom_db_HD1076436LEW_HD1076436.png)  
+
+While there are several individual cases where either or both methods have debatable results, 
+the overall comparisons are quantitively better with the geometric analysis method. 
+From the overall comparisons noted above, 
+it is evident that horn detection and selection have a major role in this.  
+
+## Further development of the geometric analysis methods  
+
+While the preliminary results are encouraging, 
+the examples above show where there are debatable results. 
+I hope to reduce that number, without greatly complicating the calculation. 
+
+The scipy.signals.find_peaks function has many settings that I have not explored 
+(I have only used the default settings). These may better screen candidate horn peaks for 
+prominence (which is the name of one of the settings).
+
+There are parts of the horn selection logic that I would like to generalize further. 
+For example, number of ice points is used as part of the horn candidate spacing selection, 
+and I would like to make that purely geometric. 
+I feel that that would be more widely applicable to other cases that are not in the database. 
+
+I have tried adding other information, such as stagnation point location or angle of attack, to the logic. 
+So far, it has not uniformly improved the results. Also, it adds complexity. 
+The database does not contain stagnation point information, so I used LEWICE to calculate it. 
+I do not want to add complexity unless it is truly merited. 
+One of the advantages of THICK is the simplicity of the inputs. 
+
+Many ice shapes are not similar to the assumed template of a glaze ice shape with just two 
+prominent horns, or a rime ice shape with one horn. 
+So, it is possible that horn identification will always be to some extent a matter of 
+opinion and engineering judgement.  
+
+So far, I have not found a case of a false-negative with the geometric analysis, 
+where the relative difference value indicates a good match, 
+but detailed review shows that not to be the case. 
+However, I have not yet reviewed all 6000+ ice shapes analyzed with the method. 
+
+## Related  
+
+This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename}iceval.md) thread.  
+
+## Notes  
+
+[^1]: 
+User's Manual for LEWICE Version 3.2
+[NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
+The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)  
+
+[^2]: 
+Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
+The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1)  
+
+[^3]: 
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+
+
+

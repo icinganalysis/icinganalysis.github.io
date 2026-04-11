@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Challenges Using the IceVal Database</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content=""No data is clean, but most is useful." attributed to Dean Abbott. Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil. Introduction The IceVal..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/challenges-using-the-iceval-database.html" rel="bookmark"
+           title="Permalink to Challenges Using the IceVal Database">Challenges Using the IceVal Database</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-04-10T15:52:34.596313-07:00">
+                Published: Fri 10 April 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-04-10T15:52:34.596313-07:00">
+                Updated: Fri 10 April 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
+</footer><!-- /.post-info -->      <h3><em>"No data is clean, but most is useful."</em></h3>
+<p><em>attributed to Dean Abbott.</em>  </p>
+<p><img alt="PG1023742_misaligned.png" src="images/6000_ice_shapes/PG1023742_misaligned.png"><br>
+<em>Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil.</em>  </p>
+<h2>Introduction</h2>
+<p>The IceVal database is a significant achievement that is still yielding dividends, decades later. </p>
+<p>The IceVal description <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> discusses some of the challenges of assembling the database:</p>
+<blockquote>
+<p>While all of this data is available, in theory, for every test run, as a practical matter, this is often not the case.
+Because the data is managed by the individual researcher, and much of it is stored in hardcopy form, locating a
+specific data set may require a significant effort. Furthermore, because of differences in experimental technique
+from one researcher to the next, the extent to which the relevant conditions have been explicitly documented can
+vary widely. Moreover, since plans made prior to a test may change during the test based on interim results, it is not
+uncommon to find conflicting information as to the actual conditions run, complicating interpretation of the data.</p>
+</blockquote>
+<p>With every large data set I have worked with, it is necessary to clean and filter the data.<br>
+The IceVal database is large (roughly 800 Megabytes). 
+So, it is not surprising that some quirks and minor errors are found in the database. 
+Fortunately, they can largely be addressed. 
+Do not interpret the items listed below as negating the utility of the database. </p>
+<p>However, the challenge of mis-aligned ice tracings, described further below and noted since at least 2008, remains.  </p>
+<p>The steps I used to clean and filter the data are discussed below.  </p>
+<h2>Accessing the database</h2>
+<p>The IceVal DatAssistant only runs on the Windows operating system.  </p>
+<p>I installed it on a Windows 10 machine. 
+The basic functions of the Graphical User Interface worked, 
+but the export data to excel function did not. 
+Perhaps there was a setting on my machine that interfered with the function, 
+Perhaps there was a setting on my machine that interfered with the function, 
+but I do not use Windows much anymore, so I moved on.  </p>
+<p>Fortunately, the central Microsoft Access 2003 database file is accessible to other programs. 
+I used the Python programming language with the Pandas library to read it on a MacBook machine.  </p>
+<p>The use of Python at least partially addresses two areas mentioned in the "Known Issues" section of the IceVal DatAssistant description:  </p>
+<blockquote>
+<p>Known Issues / Future Work
+While the currently existing system has met all the existing system requirements, there are nevertheless areas of
+future work which would ultimately result in an improved product. These include:  </p>
+<blockquote>
+<p>Migration to a higher capacity, more robust and/or public domain database, due to the limitations imposed
+by the use of Microsoft Access;<br>
+...<br>
+Incorporation of user-requested enhancements, such as the ability to overlay two user-selected images, or
+the addition of selected fields to the database</p>
+</blockquote>
+</blockquote>
+<p>Accessing the data with Python and Pandas is open source (kind-of like public domain, but with a permissive license). 
+I believe that most potential users are more familiar with Python than database commands.  </p>
+<p>Using Python also allows one to readily do things like overlay two user-selected images, 
+of which we will see many in this series.  </p>
+<h2>Empty cells</h2>
+<p>Many of the values in the IceVal database tables are empty. 
+Depending on the context, an empty cell could mean several things. 
+For example, in the LEWICE cases, the AOA value is usually a numerical value, sometimes zero. 
+But in several cases it is an empty cell, which was interpreted as 0 
+(this was verified by looking at the corresponding test case). 
+Similarly, the IPSOn (ice protection) field is often empty, and is interpreted as 0 (not operating).  </p>
+<h2>Differing airfoil definition points</h2>
+<p>The database has a table "AirfoilCoordinates" which list points for most of the airfoils. 
+When available for a given airfoil, this is the source that was used herein.  </p>
+<p>Some airfoils were not included, such as the NACA0012. 
+The NACA0012 coordinates were taken from a LEWICE input file.  </p>
+<p>There are also airfoil coordinates in the database table IceShapeData. 
+The points from Airfoil Coordinates generally have more points and are of higher quality than those from the IceShapeData table. </p>
+<p>A comparison of airfoil points for one case is shown below. 
+The points from IceShapeData have wider spacing and show a variation 
+where they are sometimes inside and sometimes outside the AirfoilCoordinates data.  </p>
+<p><img alt="Detail of LTHS airfoil points.png" src="images/6000_ice_shapes/Detail%20of%20LTHS%20airfoil%20points.png">   </p>
+<p>However, it appears that the IceShapeData airfoil points were used to determine ice height values in the database, 
+as shown below. 
+The upper horn point found in the database is 0.179 inch from the airfoil surface defined from IceShapeData, 
+but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.  </p>
+<p><img alt="Detail of JF1026236LEW.png" src="images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png">  </p>
+<h2>Point order of ice shapes</h2>
+<p>In some cases the order of the ice shape points from the database had to be reordered.  </p>
+<p>An example case NG1627, which has the most ice tracing points (9382) of any in the database. 
+If one plots the ice points from the database as a point cloud (points not connected) 
+the result looks reasonable (there are so many points that the individual points are difficult to discern on this scale). 
+Some in-situ ice scanning systems produce a point cloud (not a connected, ordered sequence of ice surface points).  </p>
+<p>These points would be adequate for determining values such as 
+maximum ice height and extent.  </p>
+<p><img alt="NG1627_point_cloud.png" src="images/6000_ice_shapes/NG1627_point_cloud.png">  </p>
+<p>The THICK utility requires a continuous ice surface as an input to have an accurate and consistent result. 
+However, if one looks at the connected points as defining a surface, 
+then it is evident that the points are not ordered, 
+with many incongruous lines that indicate a break in the ordered sequence. 
+If this surface is used to determine ice area then errors will result.  </p>
+<p><img alt="NG1627_point_db_order.png" src="images/6000_ice_shapes/NG1627_point_db_order.png">  </p>
+<p>By means of algorithms (and, in a few cases, adjustments by hand) a 
+minimum distance path that connects all points can be determined. 
+The difficulty of obtaining a solution is reduced by observing that the data are largely in ordered 
+segments, with some gaps between the segments.  </p>
+<p>The ordered ice points will provide an accurate ice area.  </p>
+<p><img alt="NG1627_point_reordered.png" src="images/6000_ice_shapes/NG1627_point_reordered.png"></p>
+<p>In 3194 cases (of the total 6630 cases) the points had to be reordered.  </p>
+<h2>Orientation of the horizontal stabilizer LTHS</h2>
+<p>The ice shape tracings for the LTHS are often in the usual airplane orientation (suction side "down", or Y values below 0). 
+However, some cases list the points in the other orientation (suction side "up"). 
+This can make plots confusing, but also affects results from the THICK utility, 
+which interprets the "upper" surface as having the greater Y value, 
+and results between "upper" and "lower" surface can be confused.  </p>
+<p>Here, the LTHS results are presented as suction side "up" 
+(like the other airfoils, and the orientation used in <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>), 
+but one should be aware that it is a horizontal stabilizer.  </p>
+<h2>Repeated use of identical ice shape tracings</h2>
+<p>44 of the experimental ice tracings were mistakenly mapped to different test conditions or cut locations, 
+some many times. This totals to 86 suspect uses.</p>
+<p>For the LTHS airfoil, the same ice shape is mapped to 24 cases:  </p>
+<p><img alt="lths_same_tracing_reused.png" src="images/6000_ice_shapes/lths_same_tracing_reused.png">  </p>
+<p>These include different test conditions, varying mainly in the icing exposure time. 
+While some of the repeated uses were for tracings at different cuts at the same test condition, 
+it is not reasonable for them to all be identical. 
+Two other ice shapes map to 14 and 11 LTHS conditions. </p>
+<p>Fortunately, there is an alternative source of data available for these cases. 
+The LEWICE software distribution <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> includes experimental tracings for many (but not all) of the 
+test cases in the database. 
+These can be mapped to the database cases through the "AltRunID" parameter. 
+When corrected, the cases from above show a more believable level of variation.  </p>
+<p><img alt="lths_same_tracing_reused_resolved.png" src="images/6000_ice_shapes/lths_same_tracing_reused_resolved.png">  </p>
+<p>There area 41 more occurrences where an identical tracing was used twice. 
+Some are for different cut locations for one test conditions, 
+but several are for different test conditions. 
+Unfortunately, these are not available in the LEWICE software distribution. 
+The example below is a NACA0012 airfoil with differing test conditions, but the same ice shape:  </p>
+<p><img alt="AC1130736 repeated tracing.png" src="images/6000_ice_shapes/AC1130736%20repeated%20tracing.png">  </p>
+<p>For the cases where no alternative information was available, 
+they were left unchanged.  </p>
+<h2>Value format consistency</h2>
+<p>In many cases, the SpanLocation value is numerical (such as 36), 
+but in some cases an inch symbol is included (36"). 
+These were filtered to be all numerical values. 
+Having a consistent basis is important to tasks such as finding all ice tracing at the 36-inch location.  </p>
+<h2>Data entry errors</h2>
+<p>In 68 cases, the LWC and MVD values were entered in the wrong position.  </p>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code>Case                    LWC     MVD
+AE125036 (original)     20.0    0.55
+AE125036 (corrected)    0.55    20.0
+</code></pre></div>
+
+<p>The original LWC and MVD values are outside the capabilities of the IRT. 
+The corrected values are within the capabilities.  </p>
+<p>Similarly, two cases were found where MVD and SprayTime values were swapped.  </p>
+<p>It is possible that there are additional cases with swapped values, 
+but if they are swapped, the values are in the IRT capability range and harder to detect.  </p>
+<h2>Ice shapes misaligned with the airfoil</h2>
+<p>The LEWICE manual notes that ice shape tracings can be misaligned with the airfoil. 
+This can result in some of the ice shape being inside the airfoil.  </p>
+<blockquote>
+<p>This error can possibly be fixed manually by shifting the experimental ice shape to match the airfoil... </p>
+<p>The problem with this procedure is that the translation chosen has no scientific basis - it just
+makes the ice shape “fit” better. This problem arises since the reference locations used for 
+digitizing the ice shapes may not be the same reference point used for defining the airfoil coordinates.  </p>
+</blockquote>
+<p>For example, case PG1023742 has the ice shape nearly entirely inside the airfoil.  </p>
+<p><img alt="PG1023742_ice_inside.png" src="images/6000_ice_shapes/PG1023742_ice_inside.png">  </p>
+<p>Any ice measurement characterization of a misaligned ice shape is inaccurate, 
+but to an unknown degree.  </p>
+<p>There are 2096 cases with at least one ice point inside the airfoil. 
+However, many of those cases have a small fraction of the total ice points inside 
+the airfoil. Having two points insides of the airfoil, if they are the endpoints, 
+might be a good thing, as a definitive end of the ice shape can be defined as the intersection 
+with the airfoil surface.  </p>
+<p><img alt="Fraction_inside_airfoil.png" src="images/6000_ice_shapes/Fraction_inside_airfoil.png">  </p>
+<p>The cases with ice inside the airfoil are readily detected, 
+and can be filtered out if desired. </p>
+<p>There are other potential mis-alignments that are harder to detect. 
+There are several cases of "floating" ice shapes that do not have end points 
+that touch the airfoil. 
+These may be correct (except for missing a point or two near the airfoil surface to indicate the icing extent limits) 
+or they may be misaligned.  </p>
+<p>It does not appear that the published validation analysis filtered out the misaligned cases.  </p>
+<h2>Related</h2>
+<p>This post is part of the <a href="/drafts/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008.<br>
+<a href="https://ntrs.nasa.gov/citations/20070031804">NASA Report Number: E-16236</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. <a href="https://ntrs.nasa.gov/citations/20070032808">NASA/CR-2007-215020</a>, 2007.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>User's Manual for LEWICE Version 3.2
+<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998.<br>
+<a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

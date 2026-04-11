@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Overall comparison assessments between experiment and LEWICE</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content=""It is possible for any (or all!) ... parameters to be incorrectly output." Published assessments The overall comparison of experimental data to LEWICE 1 analysis has been..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/overall-comparison-assessments-between-experiment-and-lewice.html" rel="bookmark"
+           title="Permalink to Overall comparison assessments between experiment and LEWICE">Overall comparison assessments between experiment and LEWICE</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-04-10T14:09:45.620491-07:00">
+                Published: Fri 10 April 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-04-10T14:09:45.620491-07:00">
+                Updated: Fri 10 April 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
+</footer><!-- /.post-info -->      <h3><em>"It is possible for any (or all!) ... parameters to be incorrectly output."</em></h3>
+<p><img alt="database_compared_to_thick missed horn2.png" src="images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png">  </p>
+<h2>Published assessments</h2>
+<p>The overall comparison of experimental data to LEWICE <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> analysis has been published twice. </p>
+<p>The first was in 1998 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, and included 800 experiment cases. 
+The second was in 2007 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, and had more than 3000 experimental cases. 
+These are the data that are included in the IceVal database <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>.  </p>
+<p>For brevity, we will look at only two of the assessment comparison values: 
+the upper surface maximum ice height, and its location, as defined in Figure 18 ("h_upper").  </p>
+<p><img alt="Figure 18.png" src="images/6000_ice_shapes/Figure%2018.png">  </p>
+<p>The validation report <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup> notes that a non-dimensional height ratio was used.  </p>
+<blockquote>
+<p>Where the ice shape
+does have a glaze ice horn, the max. thickness does
+give the horn thickness. In order to compare different
+conditions with different chord lengths and accretion
+conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.</p>
+</blockquote>
+<p><img alt="equation 3.png" src="images/6000_ice_shapes/equation%203.png">  </p>
+<div class="highlight"><pre><span></span><code>maximum accumulation thickness = t_max = LWC Airspeed Time / ice_density  (with unit conversions)
+
+relative height difference = (thick_experiment - thick_lewice) / t_max
+</code></pre></div>
+
+<p>Here, we will use the overall +/- 0.20 relative difference values from Figure 7 as 
+a point of comparison. 
+(Despite the label difference "Chord difference from experiment", 
+one of the authors assured me that it is indeed the relative difference based on the accumulation parameter).  </p>
+<p><img alt="Fig7.png" src="images/6000_ice_shapes/Fig7.png">  </p>
+<p>This is may not be an applicable threshold for all use-cases. 
+However, I have not found another documented threshold candidate value.  </p>
+<h2>Overall assessment values from the database</h2>
+<p>We will attempt to reproduce the "LEWICE upper horn difference" and "LEWICE upper horn angle difference" 
+values from Figures 7 and 8.  </p>
+<p>The database does not list the overall comparison values, nor the values for individual cases. 
+However, the horn thickness and accumulation parameter values are reported, 
+so the assessment parameters were calculated herein from those values.  </p>
+<p>All cases where an experimental case had LEWICE case with matching conditions were used.
+The reported upper horn thickness values were used. 
+The documentation does not describe how some ambiguous data were handled, 
+such as not identifying any upper horn. 
+In cases where no upper horn was reported, zero was used for the horn thickness. </p>
+<p>The sorted values show large variations at the extremes, 
+particularly at the high end. 
+The average value is greater than zero, 
+indicating that the test values are larger on average than the LEWICE values by this measurement. 
+The variance, taken as the average of the absolute values of the relative differences, 
+is larger than that reported in Figure 7 (0.25 vs. 0.20, or 25% vs 20%).  </p>
+<p><img alt="All casesDatabase.png" src="images/6000_ice_shapes/All%20casesDatabase.png"></p>
+<p>Below is an alternative view of the data. 
+Here, data is sorted into unique test conditions. 
+Many of the unique conditions have only one test case, 
+but several conditions have several cases. 
+These may be either repeated runs, or measurements at different span locations
+(noted succinctly as "repeats").   </p>
+<p><img alt="db hu conditions comparisons.png" src="images/6000_ice_shapes/db%20hu%20conditions%20comparisons.png">  </p>
+<p>This type of chart is informative, but it is a little busy, 
+so the first form above will be used from here on.  </p>
+<p>If when the no upper horn reported, 
+instead of assign zero for the ice height, 
+the case is filtered out, the comparison values are smaller, 
+but several hundred cases are filtered out. 
+The average of the absolute value of the differences (about 0.18) is similar 
+to the point of comparison value from Figure 8.  </p>
+<p><img alt="All casesDatabase_filtered_nans.png" src="images/6000_ice_shapes/All%20casesDatabase_filtered_nans.png">  </p>
+<p>The average of the absolute value of the differences (about 0.18) is similar 
+to the point of comparison value from Figure 8, but the offset (average of signed values, 0.083)
+was apparently not considered for Figure 8. 
+So, it is not clear that these are comparable values.  </p>
+<p>Omitting the cases with undetected horns leaves several hundred cases unevaluated and unexplained. 
+I consider missing a horn to be a significant deficiency, 
+so subsequent analyses will use assigning zero for missing upper horn heights, 
+so that the effect of missing horns is evident.  </p>
+<p>The analysis was repeated with filtered cases, 
+removing some of the suspect cases as noted in "Cleaning The Data". 
+While a few extreme points were removed, the overall assessment did not change by much.  </p>
+<p><img alt="Filtered Database.png" src="images/6000_ice_shapes/Filtered%20Database.png">  </p>
+<p>The cases with large differences were examined, 
+and it was noted that many of them were caused by either no upper horn detected, 
+or by an anomalous selection of the horn, when by engineering judgment, 
+there were obviously better choices available. 
+Detailed examples will be shown in an upcoming post.  </p>
+<h3>Horn position comparison</h3>
+<p>Below, we compare the upper surface horn position as measured by the angles defined in Figure 18.  </p>
+<p>Horn angles were compared between experiment and analysis in Figure 8. 
+An average difference for the upper horn angle was about +/- 26 degrees. 
+This will be used as a point of comparison for upper horn angle differences.  </p>
+<p><img alt="Figure 8.png" src="images/6000_ice_shapes/Figure%208.png">  </p>
+<p>This is may not be an applicable threshold for all use-cases. 
+However, I have not found another documented threshold candidate value.  </p>
+<p><img alt="Figure 18.png" src="images/6000_ice_shapes/Figure%2018.png">  </p>
+<p>The calculated differences are shown below.  </p>
+<p><img alt="All cases thetas Database.png" src="images/6000_ice_shapes/All%20cases%20thetas%20Database.png">  </p>
+<p>The variance about the average values (33.8) 
+is larger than the point of comparison (26) from Figure 8.  </p>
+<h2>Overall assessment values using THICK</h2>
+<p>The LEWICE utility program THICK was run to obtain a second set of ice measurements 
+to those contained in the database. 
+The inputs to THICK are the airfoil geometry, 
+and ice shape points (taken from the IceVal database).</p>
+<p>Data comparable to the IceVal database table ThickUtilityData can be found in the output of THICK. 
+The THICK values below are from the echo.dat files results of me running THICK on my machine. 
+The values are often similar to the database, but there are some notable differences.</p>
+<p>As explained in the LEWICE manual, THICK uses a simple, geometric evaluation, 
+and the values may not match those that are selected by engineering judgment:  </p>
+<blockquote>
+<p>The astute user will notice that 
+several of the quantitative values generated using this process [running THICK] do not agree with the values given
+in the LEWICE validation report spreadsheet “matrix.xls”. This demonstrates that the automated process cannot (yet) 
+be substituted for good engineering judgment. The following section will describe some of the problems 
+and potential solutions.  </p>
+</blockquote>
+<p>I take the above to mean that the values in the IceVal database are the same those in the 
+no-longer available "matrix.xls" file, and that some of those values have been modified by human review 
+and judgment from those directly output by THICK.  </p>
+<blockquote>
+<p>The utility program THICK performs a simplistic geometric comparison between two data
+files and outputs the results. As such, it is prone to errors based upon a lack of icing knowledge. 
+It is possible for any (or all!) of the eight parameters to be incorrectly output. 
+Even so, THICK has
+proven to be a useful tool for reducing the amount of time needed to quantify ice shape parameters. 
+There are two basic problems which occur repeatedly when analyzing output from THICK:
+misalignment of the geometries and misidentification of the horns.  </p>
+</blockquote>
+<p>As discussed in "Challenges using the IceVal Database", there is no fix for the misaligned tracings 
+(other than filtering out the cases with ice inside the airfoil, as was done with the filtered set herein).  </p>
+<p>The values from the THICK output summary file "echo.dat" were used herein. 
+When THICK was run with the ice shapes from the database, 
+the measurement values differed from the database values. 
+More than half of the values differed from the database, 
+but often by trivial amounts. 
+However, several cases were notably different. </p>
+<p>The overall comparisons are similar, 
+with the THICK characterization having a slightly larger variance. </p>
+<p><img alt="Filtered Database_THICK.png" src="images/6000_ice_shapes/Filtered%20Database_THICK.png">  </p>
+<h2>Comparisons of maximum ice height</h2>
+<p>As the "misidentification of the horns" is noted above as a challenge, 
+the identification part was removed for an analysis were only the maximum reported thickness 
+was considered, without regard to the location.  </p>
+<p><img alt="Filtered max thicks database_THICK echo.dat.png" src="images/6000_ice_shapes/Filtered%20max%20thicks%20database_THICK%20echo.dat.png">  </p>
+<p>For both the database and the THICK values, 
+the average and variance values are reduced compared those in the prior graph. 
+To me, this indicates that improving the identification of horn locations 
+for the ice measurements characterizations 
+could result in more accurate comparison results.  </p>
+<h2>Related</h2>
+<p>This post is part of the <a href="/drafts/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>William B. Wright, User's Manual for LEWICE Version 3.2 
+<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. <a href="https://ntrs.nasa.gov/citations/20080041518">NACA/CR-2008-215174</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. <a href="https://ntrs.nasa.gov/citations/20070031804">NASA Report Number: E-16236</a> <br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>A Geometric Analysis Method</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content=""This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment." From the LEWICE manual. 1 A case where two methods detected..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/a-geometric-analysis-method.html" rel="bookmark"
+           title="Permalink to A Geometric Analysis Method">A Geometric Analysis Method</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-04-10T18:02:07.491458-07:00">
+                Published: Fri 10 April 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-04-10T18:02:07.491458-07:00">
+                Updated: Fri 10 April 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
+</footer><!-- /.post-info -->      <h3><em>"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."</em></h3>
+<p><em>From the LEWICE manual. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em>  </p>
+<p><img alt="comp_geom_db_ED071136LEW_ED071136.png" src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png"><br>
+<em>A case where two methods detected similar upper surface ice horns.</em>  </p>
+<h2>Summary</h2>
+<p>Reviewing 6000+ ice shape assessments to verify that they agree with engineering judgement is a daunting task. 
+Even with professionalism and due-diligence, debatable results may be missed. 
+So, there is motivation to automate the process as much as possible.  </p>
+<p>Here, I describe a step toward that goal. 
+It is a work in progress, not a completed product.  </p>
+<h2>Using the IceVal database to validate an assessment method</h2>
+<p>The IceVal database will be used here to validate a different comparison assessment method. 
+This is one of the uses envisioned when compiling the database <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>:  </p>
+<blockquote>
+<p>... by compiling a comprehensive database consisting of
+a standardized, reliable data set, and combining that with an easy-to-use graphical user interface (GUI), providing
+quick and easy access to the data, a number of present and future enhancements to both products and processes
+become possible:<br>
+...
+5) New and/or improved analytical methods<br>
+The foundation of all scientific inquiry is data; and, certainly, a key factor in the increased pace of
+scientific progress in recent times is the improved access and data processing capabilities provided by
+computers. In a similar manner, the consolidation of the experimental icing data, combined with the ease
+of access and data processing capabilities provided by the IceVal GUI, will facilitate the process of
+performing statistical analyses or other scientific investigations that might ultimately lead to new and/or
+improved methods in the icing research field.</p>
+</blockquote>
+<h2>Description of the geometric analysis method</h2>
+<p>As we saw in "Overall comparison assessments between experiment and LEWICE", the ice shape measurements from THICK 
+differed from those in the database, 
+which had several values adjusted manually from THICK results by using engineering judgement. 
+Some individual cases had debatable results with values from either database or THICK.  </p>
+<p>To address this, an independent geometric evaluation was performed. 
+The Python library Scipy was used to represent the airfoil as a spline surface. 
+The height of each ice point was calculated by finding by iteration the distance to the closest point on the 
+airfoil surface.  </p>
+<p>Values are, on average, very similar for maximum ice thickness between 
+values from the database and the geometric analysis.  </p>
+<p><img alt="Filtered max thicks database_geometric_analysis.png" src="images/6000_ice_shapes/Filtered%20max%20thicks%20database_geometric_analysis.png">  </p>
+<h2>Horn selection</h2>
+<p>Prominent maximum local thickness locations are found by the Python library scipy.signal.find_peaks function 
+as potential horn locations. 
+Candidate horns that are very close to another horn are filtered out. 
+The selection method will always have a horn at the maximum ice thickness location. 
+A second horn will be found if there is a horn that is at least 25% as thick as the maximum ice thickness. 
+Preference is give to a horn that is on the opposite side of the airfoil leading edge Y values, 
+but the next thickest horn is selected if none such is available. 
+Horns are designated as "upper" and "lower" by the Y value, 
+even if both are on one side of the airfoil leading edge Y value.</p>
+<h2>Overall assessments with the geometric analysis method</h2>
+<p>Preliminary results are promising with the geometric analysis.  </p>
+<p><img alt="Filtered Database_Geometric.png" src="images/6000_ice_shapes/Filtered%20Database_Geometric.png"></p>
+<p>Both the average values and the variance are smaller for the geometric analysis vs
+the database values. 
+The larger differences for the database values are dominated by cases where an upper horn was not detected.  </p>
+<p>The results are similar when all matching cases are considered:  </p>
+<p><img alt="All casesDatabase_Geometric.png" src="images/6000_ice_shapes/All%20casesDatabase_Geometric.png">   </p>
+<p>The value of +/-15% variation is better than the +/-20% value in Figure 7 of the LEWICE validation report <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.  </p>
+<p>If we filter out the cases from the database, 
+the comparison values appear to be better, but more than 600 cases are unexplained.  </p>
+<p><img alt="All casesDatabase_Geometric_filtered_nans.png" src="images/6000_ice_shapes/All%20casesDatabase_Geometric_filtered_nans.png">  </p>
+<p>The differences in horn location as measured by horn angle is also improved 
+using the geometric analysis.  </p>
+<p><img alt="Filtered cases thetas Database_Geometric.png" src="images/6000_ice_shapes/Filtered%20cases%20thetas%20Database_Geometric.png">  </p>
+<h2>Examples of individual cases compared</h2>
+<p>We will examine several of the individual cases where there were small and large differences between the 
+geometric analysis and the database values.  </p>
+<p>Here an the example seen previously in <a href="/drafts/a-tour-of-the-iceval-datassistant.html">"A Tour of the IceVal DatAssistant"</a>" 
+with the geometric analysis added, 
+where there is a good comparison of horn height.  </p>
+<p><img alt="comp_geom_db_ED071136LEW_ED071136.png" src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png">  </p>
+<p>Here is a case from the right side of the overall thickness comparison chart above, 
+where neither method had a close comparison value between experiment and analysis. 
+The reason is that there is indeed a large difference between experiment and analysis, 
+and either method accurately reflects this.<br>
+<img alt="comp_geom_db_JF1559LEW_JF1559.png" src="images/6000_ice_shapes/comp_geom_db_JF1559LEW_JF1559.png">  </p>
+<p>Here is a case from the left side of the overall thickness comparison chart above, 
+where neither method had a close comparison between experiment and analysis
+(noted as r in the legend line for the LEWICE result). 
+The database did not indicate an upper horn for the LEWICE case, 
+and the geometric analysis selected a debatable upper horn point. 
+Neither method had a good relative difference value. 
+By engineering judgement, if we "mix and match" values from the two methods, 
+the relative difference should be about 0.5. 
+There are several more similar examples (not shown).<br>
+<img alt="comp_geom_db_AE1114836LEW_AE1114936.png" src="images/6000_ice_shapes/comp_geom_db_AE1114836LEW_AE1114936.png">  </p>
+<p>Here is a case where the database relative difference absolute value is slightly 
+better than the geometric analysis value, 
+but the geometric analysis more accurately reflects the actual comparison. 
+There are several other similar examples (not shown, except for the case further below).<br>
+<img alt="comp_geom_db_AE1193836LEW_AE1193836.png" src="images/6000_ice_shapes/comp_geom_db_AE1193836LEW_AE1193836.png">  </p>
+<p>Here is another case where the database relative difference absolute value is slightly 
+better than the geometric analysis value, 
+but the geometric analysis more accurately reflects the actual comparison. <br>
+<img alt="comp_geom_db_NG1609LEW_NG1609.png" src="images/6000_ice_shapes/comp_geom_db_NG1609LEW_NG1609.png">  </p>
+<p>In this case, the database did not indicate an upper horn for either the 
+experiment or LEWICE case, when there were obvious horns.
+The relative difference is taken as zero due to the defaults I selected in the analysis. 
+Perhaps I should revise that (but there are few of those cases). 
+However, the geometric analysis method always has an upper horn, 
+so this case does not arise when using that.  </p>
+<p><img alt="comp_geom_db_HD1076436LEW_HD1076436.png" src="images/6000_ice_shapes/comp_geom_db_HD1076436LEW_HD1076436.png">  </p>
+<p>While there are several individual cases where either or both methods have debatable results, 
+the overall comparisons are quantitively better with the geometric analysis method. 
+From the overall comparisons noted above, 
+it is evident that horn detection and selection have a major role in this.  </p>
+<h2>Further development of the geometric analysis methods</h2>
+<p>While the preliminary results are encouraging, 
+the examples above show where there are debatable results. 
+I hope to reduce that number, without greatly complicating the calculation. </p>
+<p>The scipy.signals.find_peaks function has many settings that I have not explored 
+(I have only used the default settings). These may better screen candidate horn peaks for 
+prominence (which is the name of one of the settings).</p>
+<p>There are parts of the horn selection logic that I would like to generalize further. 
+For example, number of ice points is used as part of the horn candidate spacing selection, 
+and I would like to make that purely geometric. 
+I feel that that would be more widely applicable to other cases that are not in the database. </p>
+<p>I have tried adding other information, such as stagnation point location or angle of attack, to the logic. 
+So far, it has not uniformly improved the results. Also, it adds complexity. 
+The database does not contain stagnation point information, so I used LEWICE to calculate it. 
+I do not want to add complexity unless it is truly merited. 
+One of the advantages of THICK is the simplicity of the inputs. </p>
+<p>Many ice shapes are not similar to the assumed template of a glaze ice shape with just two 
+prominent horns, or a rime ice shape with one horn. 
+So, it is possible that horn identification will always be to some extent a matter of 
+opinion and engineering judgement.  </p>
+<p>So far, I have not found a case of a false-negative with the geometric analysis, 
+where the relative difference value indicates a good match, 
+but detailed review shows that not to be the case. 
+However, I have not yet reviewed all 6000+ ice shapes analyzed with the method. </p>
+<h2>Related</h2>
+<p>This post is part of the <a href="/drafts/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>User's Manual for LEWICE Version 3.2
+<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. <a href="https://ntrs.nasa.gov/citations/20070031804">NASA Report Number: E-16236</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/Bluesky_App_Icon.png'); background-size: 16px 16px;" href="https://bsky.app/profile/icinganalysis.bsky.social">bluesky</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                        The Basics are a work in progress, and may have changes and additions. <br/>
+                        Companion site: <a href="/">"Blast From The Past: NACA Icing Publications"</a>
+                        <br />
+                Opinions are those of the author, and not any current or former employers.  <br />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+                         <img src='/theme/images/icons/mail.png' alt="envelope">
+
+                        <a href="mailto:icinganalysis@proton.me">email</a>
+                        <br />
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
