@@ -1,7 +1,6 @@
 Title: A Geometric Analysis Method   
 status: draft  
 tags: LEWICE, ice shapes, NASA
-rights: CC-BY-NC-SA 4.0
 
 ### _"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."_  
 _From the LEWICE manual. [^1]_  

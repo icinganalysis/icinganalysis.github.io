@@ -1,7 +1,6 @@
 Title: Overall comparison assessments between experiment and LEWICE   
 status: draft  
 tags: LEWICE, ice shapes, NASA
-rights: CC-BY-NC-SA 4.0
 
 ### _"It is possible for any (or all!) ... parameters to be incorrectly output."_  
 

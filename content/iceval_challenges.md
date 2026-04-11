@@ -1,7 +1,6 @@
 Title: Challenges Using the IceVal Database    
 status: draft  
 tags: LEWICE, ice shapes, NASA
-rights: CC-BY-NC-SA 4.0
 
 ### _"No data is clean, but most is useful."_  
 _attributed to Dean Abbott._  

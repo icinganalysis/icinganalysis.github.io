@@ -1,7 +1,6 @@
 Title: 6000 Ice Shapes - the IceVal DatAssistant   
 status: draft  
 tags: LEWICE, ice shapes, NASA
-rights: CC-BY-NC-SA 4.0  
 
 ### _"As with any scientific endeavor, the foundation of icing research ... is the data acquired during experimental testing."_  
 _NASA Report E-16236 [^1]._  

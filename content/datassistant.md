@@ -1,7 +1,6 @@
 Title: A Tour of the IceVal DatAssistant     
 status: draft  
 tags: LEWICE, ice shapes, NASA
-rights: CC-BY-NC-SA 4.0
 
 ### _"... all publicly available IRT-generated experimental ice shapes with complete and verifiable conditions have now been compiled into one electronically-searchable database"_  
 _NASA Report E-16236 [^1]._
