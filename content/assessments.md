@@ -28,7 +28,7 @@ These latter factor were relatively small.
 
 ![1999 figure 18.](images/6000_ice_shapes/1999_fig18.png)  
 
-Curiously, the relative difference ["%Difference based on Accretion Rate"] 
+Curiously, the relative difference ("%Difference based on Accretion Rate") 
 for upper horn height for experiment vs LEWICE 
 is plotted as about 10%, which is about half that found in the 2008 report [^3] (20%, discussed below). 
 The 1999 report had about 800 experimental cases, while the 2008 report has over 3000, 
