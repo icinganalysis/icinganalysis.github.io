@@ -21,7 +21,7 @@ The assessment published in 1999 [^2] looked at the differences in ice shape pro
 in experiments vs LEWICE analysis.
 It also considered differences caused by 
 ice tracing techniques between individuals, 
-variations alon the span of the test article, 
+variations along the span of the test article, 
 test repeatability, 
 and experimental error. 
 These latter factor were relatively small.  
