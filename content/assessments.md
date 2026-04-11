@@ -17,8 +17,8 @@ These are the data that are included in the IceVal database [^4].
 
 ## The 1999 Assessment  
 
-The assessment published in 1999 looked at the differences in ice shape produced 
-in experiments vs. LEWICE analysis.
+The assessment published in 1999 [^2] looked at the differences in ice shape produced 
+in experiments vs LEWICE analysis.
 It also considered differences caused by 
 ice tracing techniques between individuals, 
 variations alon the span of the test article, 
@@ -30,7 +30,7 @@ These latter factor were relatively small.
 
 Curiously, the relative difference ["%Difference based on Accretion Rate"] 
 for upper horn height for experiment vs LEWICE 
-is plotted as about 10%, which is about half that found in the 2008 report (20%, discussed below). 
+is plotted as about 10%, which is about half that found in the 2008 report [^3] (20%, discussed below). 
 The 1999 report had about 800 experimental cases, while the 2008 report has over 3000, 
 and this may be a factor.  
 
