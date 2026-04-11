@@ -34,6 +34,12 @@ is plotted as about 10%, which is about half that found in the 2008 report [^3] 
 The 1999 report had about 800 experimental cases, while the 2008 report has over 3000, 
 and this may be a factor.  
 
+It was also noted that LEWICE compiled and run on difference platforms can have different results. 
+The differences were not quantified. 
+The differences were not noted as unacceptable.  
+
+![1999_figure 142.](../docs/drafts/images/6000_ice_shapes/1999_fig142.png)  
+
 ## The 2008 Assessment  
 
 For brevity, we will look at only two of the assessment comparison values: 
