@@ -32,12 +32,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-04-10T18:02:07.491458-07:00">
-                Published: Fri 10 April 2026
+        <abbr class="published" title="2026-04-11T06:04:13.284410-07:00">
+                Published: Sat 11 April 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-04-10T18:02:07.491458-07:00">
-                Updated: Fri 10 April 2026
+        <abbr class="modified" title="2026-04-11T06:04:13.284410-07:00">
+                Updated: Sat 11 April 2026
         </abbr>
 <!---->
         <!---->
@@ -51,7 +51,7 @@
 <p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
 </footer><!-- /.post-info -->      <h3><em>"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."</em></h3>
 <p><em>From the LEWICE manual. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em>  </p>
-<p><img alt="comp_geom_db_ED071136LEW_ED071136.png" src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png"><br>
+<p><img alt="A case where two methods detected similar upper surface ice horns." src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png"><br>
 <em>A case where two methods detected similar upper surface ice horns.</em>  </p>
 <h2>Summary</h2>
 <p>Reviewing 6000+ ice shape assessments to verify that they agree with engineering judgement is a daunting task. 
@@ -87,7 +87,7 @@ The height of each ice point was calculated by finding by iteration the distance
 airfoil surface.  </p>
 <p>Values are, on average, very similar for maximum ice thickness between 
 values from the database and the geometric analysis.  </p>
-<p><img alt="Filtered max thicks database_geometric_analysis.png" src="images/6000_ice_shapes/Filtered%20max%20thicks%20database_geometric_analysis.png">  </p>
+<p><img alt="Filtered max thicks database_geometric_analysis." src="images/6000_ice_shapes/Filtered%20max%20thicks%20database_geometric_analysis.png">  </p>
 <h2>Horn selection</h2>
 <p>Prominent maximum local thickness locations are found by the Python library scipy.signal.find_peaks function 
 as potential horn locations. 
@@ -100,57 +100,57 @@ Horns are designated as "upper" and "lower" by the Y value,
 even if both are on one side of the airfoil leading edge Y value.</p>
 <h2>Overall assessments with the geometric analysis method</h2>
 <p>Preliminary results are promising with the geometric analysis.  </p>
-<p><img alt="Filtered Database_Geometric.png" src="images/6000_ice_shapes/Filtered%20Database_Geometric.png"></p>
+<p><img alt="Filtered Database_Geometric." src="images/6000_ice_shapes/Filtered%20Database_Geometric.png"></p>
 <p>Both the average values and the variance are smaller for the geometric analysis vs
 the database values. 
 The larger differences for the database values are dominated by cases where an upper horn was not detected.  </p>
 <p>The results are similar when all matching cases are considered:  </p>
-<p><img alt="All casesDatabase_Geometric.png" src="images/6000_ice_shapes/All%20casesDatabase_Geometric.png">   </p>
+<p><img alt="All cases Database_Geometric." src="images/6000_ice_shapes/All%20casesDatabase_Geometric.png">   </p>
 <p>The value of +/-15% variation is better than the +/-20% value in Figure 7 of the LEWICE validation report <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.  </p>
 <p>If we filter out the cases from the database, 
 the comparison values appear to be better, but more than 600 cases are unexplained.  </p>
-<p><img alt="All casesDatabase_Geometric_filtered_nans.png" src="images/6000_ice_shapes/All%20casesDatabase_Geometric_filtered_nans.png">  </p>
+<p><img alt="All cases Database_Geometric filtered nans." src="images/6000_ice_shapes/All%20casesDatabase_Geometric_filtered_nans.png">  </p>
 <p>The differences in horn location as measured by horn angle is also improved 
 using the geometric analysis.  </p>
-<p><img alt="Filtered cases thetas Database_Geometric.png" src="images/6000_ice_shapes/Filtered%20cases%20thetas%20Database_Geometric.png">  </p>
+<p><img alt="Filtered cases thetas Database Geometric" src="images/6000_ice_shapes/Filtered%20cases%20thetas%20Database_Geometric.png">  </p>
 <h2>Examples of individual cases compared</h2>
 <p>We will examine several of the individual cases where there were small and large differences between the 
 geometric analysis and the database values.  </p>
 <p>Here an the example seen previously in <a href="/drafts/a-tour-of-the-iceval-datassistant.html">"A Tour of the IceVal DatAssistant"</a>" 
 with the geometric analysis added, 
 where there is a good comparison of horn height.  </p>
-<p><img alt="comp_geom_db_ED071136LEW_ED071136.png" src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png">  </p>
+<p><img alt="A good comparison for hron height." src="images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png">  </p>
 <p>Here is a case from the right side of the overall thickness comparison chart above, 
 where neither method had a close comparison value between experiment and analysis. 
 The reason is that there is indeed a large difference between experiment and analysis, 
 and either method accurately reflects this.<br>
-<img alt="comp_geom_db_JF1559LEW_JF1559.png" src="images/6000_ice_shapes/comp_geom_db_JF1559LEW_JF1559.png">  </p>
+<img alt="A large difference between experiment and analysis." src="images/6000_ice_shapes/comp_geom_db_JF1559LEW_JF1559.png">  </p>
 <p>Here is a case from the left side of the overall thickness comparison chart above, 
 where neither method had a close comparison between experiment and analysis
-(noted as r in the legend line for the LEWICE result). 
+(noted as "r" in the legend line for the LEWICE result). 
 The database did not indicate an upper horn for the LEWICE case, 
 and the geometric analysis selected a debatable upper horn point. 
 Neither method had a good relative difference value. 
 By engineering judgement, if we "mix and match" values from the two methods, 
 the relative difference should be about 0.5. 
 There are several more similar examples (not shown).<br>
-<img alt="comp_geom_db_AE1114836LEW_AE1114936.png" src="images/6000_ice_shapes/comp_geom_db_AE1114836LEW_AE1114936.png">  </p>
+<img alt="A case neither method method indicated a close match." src="images/6000_ice_shapes/comp_geom_db_AE1114836LEW_AE1114936.png">  </p>
 <p>Here is a case where the database relative difference absolute value is slightly 
 better than the geometric analysis value, 
 but the geometric analysis more accurately reflects the actual comparison. 
 There are several other similar examples (not shown, except for the case further below).<br>
-<img alt="comp_geom_db_AE1193836LEW_AE1193836.png" src="images/6000_ice_shapes/comp_geom_db_AE1193836LEW_AE1193836.png">  </p>
+<img alt="A case where the relative difference values did not reflect the actual match." src="images/6000_ice_shapes/comp_geom_db_AE1193836LEW_AE1193836.png">  </p>
 <p>Here is another case where the database relative difference absolute value is slightly 
 better than the geometric analysis value, 
 but the geometric analysis more accurately reflects the actual comparison. <br>
-<img alt="comp_geom_db_NG1609LEW_NG1609.png" src="images/6000_ice_shapes/comp_geom_db_NG1609LEW_NG1609.png">  </p>
+<img alt="A case where the relative difference values did not reflect the actual match." src="images/6000_ice_shapes/comp_geom_db_NG1609LEW_NG1609.png">  </p>
 <p>In this case, the database did not indicate an upper horn for either the 
 experiment or LEWICE case, when there were obvious horns.
 The relative difference is taken as zero due to the defaults I selected in the analysis. 
 Perhaps I should revise that (but there are few of those cases). 
 However, the geometric analysis method always has an upper horn, 
 so this case does not arise when using that.  </p>
-<p><img alt="comp_geom_db_HD1076436LEW_HD1076436.png" src="images/6000_ice_shapes/comp_geom_db_HD1076436LEW_HD1076436.png">  </p>
+<p><img alt="A case where a zero relative difference does not reflect a good match." src="images/6000_ice_shapes/comp_geom_db_HD1076436LEW_HD1076436.png">  </p>
 <p>While there are several individual cases where either or both methods have debatable results, 
 the overall comparisons are quantitively better with the geometric analysis method. 
 From the overall comparisons noted above, 

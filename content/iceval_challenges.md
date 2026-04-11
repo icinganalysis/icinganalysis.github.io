@@ -6,7 +6,7 @@ rights: CC-BY-NC-SA 4.0
 ### _"No data is clean, but most is useful."_  
 _attributed to Dean Abbott._  
 
-![PG1023742_misaligned.png](images/6000_ice_shapes/PG1023742_misaligned.png)  
+![PG1023742_misaligned.](images/6000_ice_shapes/PG1023742_misaligned.png)  
 _Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._  
 
 ## Introduction  
@@ -88,14 +88,14 @@ A comparison of airfoil points for one case is shown below.
 The points from IceShapeData have wider spacing and show a variation 
 where they are sometimes inside and sometimes outside the AirfoilCoordinates data.  
 
-![Detail of LTHS airfoil points.png](images/6000_ice_shapes/Detail%20of%20LTHS%20airfoil%20points.png)   
+![Detail of LTHS airfoil points.](images/6000_ice_shapes/Detail%20of%20LTHS%20airfoil%20points.png)   
 
 However, it appears that the IceShapeData airfoil points were used to determine ice height values in the database, 
 as shown below. 
 The upper horn point found in the database is 0.179 inch from the airfoil surface defined from IceShapeData, 
 but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.  
 
-![Detail of JF1026236LEW.png](images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png)  
+![Detail of JF1026236LEW.](images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png)  
 
 ## Point order of ice shapes  
 
@@ -109,7 +109,7 @@ Some in-situ ice scanning systems produce a point cloud (not a connected, ordere
 These points would be adequate for determining values such as 
 maximum ice height and extent.  
 
-![NG1627_point_cloud.png](images/6000_ice_shapes/NG1627_point_cloud.png)  
+![NG1627_point_cloud.](images/6000_ice_shapes/NG1627_point_cloud.png)  
 
 The THICK utility requires a continuous ice surface as an input to have an accurate and consistent result. 
 However, if one looks at the connected points as defining a surface, 
@@ -117,7 +117,7 @@ then it is evident that the points are not ordered,
 with many incongruous lines that indicate a break in the ordered sequence. 
 If this surface is used to determine ice area then errors will result.  
 
-![NG1627_point_db_order.png](images/6000_ice_shapes/NG1627_point_db_order.png)  
+![NG1627_points in database order.](images/6000_ice_shapes/NG1627_point_db_order.png)  
 
 By means of algorithms (and, in a few cases, adjustments by hand) a 
 minimum distance path that connects all points can be determined. 
@@ -126,7 +126,7 @@ segments, with some gaps between the segments.
 
 The ordered ice points will provide an accurate ice area.  
 
-![NG1627_point_reordered.png](images/6000_ice_shapes/NG1627_point_reordered.png)
+![NG1627_point_reordered.](images/6000_ice_shapes/NG1627_point_reordered.png)
 
 In 3194 cases (of the total 6630 cases) the points had to be reordered.  
 
@@ -149,7 +149,7 @@ some many times. This totals to 86 suspect uses.
 
 For the LTHS airfoil, the same ice shape is mapped to 24 cases:  
  
-![lths_same_tracing_reused.png](images/6000_ice_shapes/lths_same_tracing_reused.png)  
+![LTHS same tracing reused.](images/6000_ice_shapes/lths_same_tracing_reused.png)  
 
 These include different test conditions, varying mainly in the icing exposure time. 
 While some of the repeated uses were for tracings at different cuts at the same test condition, 
@@ -162,7 +162,7 @@ test cases in the database.
 These can be mapped to the database cases through the "AltRunID" parameter. 
 When corrected, the cases from above show a more believable level of variation.  
 
-![lths_same_tracing_reused_resolved.png](images/6000_ice_shapes/lths_same_tracing_reused_resolved.png)  
+![LTHS same tracing reused resolved.](images/6000_ice_shapes/lths_same_tracing_reused_resolved.png)  
 
 There area 41 more occurrences where an identical tracing was used twice. 
 Some are for different cut locations for one test conditions, 
@@ -170,7 +170,7 @@ but several are for different test conditions.
 Unfortunately, these are not available in the LEWICE software distribution. 
 The example below is a NACA0012 airfoil with differing test conditions, but the same ice shape:  
 
-![AC1130736 repeated tracing.png](images/6000_ice_shapes/AC1130736%20repeated%20tracing.png)  
+![AC1130736 repeated tracing.](images/6000_ice_shapes/AC1130736%20repeated%20tracing.png)  
 
 For the cases where no alternative information was available, 
 they were left unchanged.  
@@ -215,7 +215,7 @@ digitizing the ice shapes may not be the same reference point used for defining 
 
 For example, case PG1023742 has the ice shape nearly entirely inside the airfoil.  
 
-![PG1023742_ice_inside.png](images/6000_ice_shapes/PG1023742_ice_inside.png)  
+![PG1023742_ice_inside of airfoil.](images/6000_ice_shapes/PG1023742_ice_inside.png)  
 
 Any ice measurement characterization of a misaligned ice shape is inaccurate, 
 but to an unknown degree.  
@@ -226,7 +226,7 @@ the airfoil. Having two points insides of the airfoil, if they are the endpoints
 might be a good thing, as a definitive end of the ice shape can be defined as the intersection 
 with the airfoil surface.  
 
-![Fraction_inside_airfoil.png](images/6000_ice_shapes/Fraction_inside_airfoil.png)  
+![Fraction of ice inside airfoil.](images/6000_ice_shapes/Fraction_inside_airfoil.png)  
 
 The cases with ice inside the airfoil are readily detected, 
 and can be filtered out if desired. 

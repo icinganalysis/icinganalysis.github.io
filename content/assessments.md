@@ -5,7 +5,7 @@ rights: CC-BY-NC-SA 4.0
 
 ### _"It is possible for any (or all!) ... parameters to be incorrectly output."_  
 
-![database_compared_to_thick missed horn2.png](images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png)  
+![Database compared to THICK with missed horn.](images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png)  
 
 ## Published assessments  
 
@@ -26,7 +26,7 @@ test repeatability,
 and experimental error. 
 These latter factor were relatively small.  
 
-![1999_fig18.png](images/6000_ice_shapes/1999_fig18.png)  
+![1999 figure 18.](images/6000_ice_shapes/1999_fig18.png)  
 
 Curiously, the relative difference ["%Difference based on Accretion Rate"] 
 for upper horn height for experiment vs LEWICE 
@@ -39,7 +39,7 @@ and this may be a factor.
 For brevity, we will look at only two of the assessment comparison values: 
 the upper surface maximum ice height, and its location, as defined in Figure 18 ("h_upper").  
 
-![Figure 18.png](images/6000_ice_shapes/Figure%2018.png)  
+![Figure 18.](images/6000_ice_shapes/Figure%2018.png)  
 
 The validation report [^3] notes that a non-dimensional height ratio was used.  
 
@@ -49,7 +49,7 @@ give the horn thickness. In order to compare different
 conditions with different chord lengths and accretion
 conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.
 
-![equation 3.png](images/6000_ice_shapes/equation%203.png)  
+![Equation 3.](images/6000_ice_shapes/equation%203.png)  
 
 ```text
 maximum accumulation thickness = t_max = LWC Airspeed Time / ice_density  (with unit conversions)
@@ -63,7 +63,7 @@ a point of comparison.
 (Despite the label difference "Chord difference from experiment", 
 one of the authors assured me that it is indeed the relative difference based on the accumulation parameter).  
 
-![Fig7.png](images/6000_ice_shapes/Fig7.png)  
+![Figure 7.](images/6000_ice_shapes/Fig7.png)  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
@@ -90,7 +90,7 @@ indicating that the test values are larger on average than the LEWICE values by 
 The variance, taken as the average of the absolute values of the relative differences, 
 is larger than that reported in Figure 7 (0.25 vs. 0.20, or 25% vs 20%).  
 
-![All casesDatabase.png](images/6000_ice_shapes/All%20casesDatabase.png)
+![All database cases.](images/6000_ice_shapes/All%20casesDatabase.png)
 
 Below is an alternative view of the data. 
 Here, data is sorted into unique test conditions. 
@@ -99,7 +99,7 @@ but several conditions have several cases.
 These may be either repeated runs, or measurements at different span locations
 (noted succinctly as "repeats").   
 
-![db hu conditions comparisons.png](images/6000_ice_shapes/db%20hu%20conditions%20comparisons.png)  
+![Replotted all database cases.](images/6000_ice_shapes/db%20hu%20conditions%20comparisons.png)  
 
 This type of chart is informative, but it is a little busy, 
 so the first form above will be used from here on.  
@@ -111,7 +111,7 @@ but several hundred cases are filtered out.
 The average of the absolute value of the differences (about 0.18) is similar 
 to the point of comparison value from Figure 8.  
 
-![All casesDatabase_filtered_nans.png](images/6000_ice_shapes/All%20casesDatabase_filtered_nans.png)  
+![Filtered database cases with nan values removed.](images/6000_ice_shapes/All%20casesDatabase_filtered_nans.png)  
 
 The average of the absolute value of the differences (about 0.18) is similar 
 to the point of comparison value from Figure 8, but the offset (average of signed values, 0.083)
@@ -127,7 +127,7 @@ The analysis was repeated with filtered cases,
 removing some of the suspect cases as noted in "Cleaning The Data". 
 While a few extreme points were removed, the overall assessment did not change by much.  
 
-![Filtered Database.png](images/6000_ice_shapes/Filtered%20Database.png)  
+![Filtered Database cases.](images/6000_ice_shapes/Filtered%20Database.png)  
  
 The cases with large differences were examined, 
 and it was noted that many of them were caused by either no upper horn detected, 
@@ -143,16 +143,14 @@ Horn angles were compared between experiment and analysis in Figure 8.
 An average difference for the upper horn angle was about +/- 26 degrees. 
 This will be used as a point of comparison for upper horn angle differences.  
 
-![Figure 8.png](images/6000_ice_shapes/Figure%208.png)  
+![Figure 8.](images/6000_ice_shapes/Figure%208.png)  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
-
-![Figure 18.png](images/6000_ice_shapes/Figure%2018.png)  
   
 The calculated differences are shown below.  
 
-![All cases thetas Database.png](images/6000_ice_shapes/All%20cases%20thetas%20Database.png)  
+![All cases thetas Database.](images/6000_ice_shapes/All%20cases%20thetas%20Database.png)  
 
 The variance about the average values (33.8) 
 is larger than the point of comparison (26) from Figure 8.  
@@ -202,7 +200,7 @@ However, several cases were notably different.
 The overall comparisons are similar, 
 with the THICK characterization having a slightly larger variance. 
 
-![Filtered Database_THICK.png](images/6000_ice_shapes/Filtered%20Database_THICK.png)  
+![Filtered Database and THICK.](images/6000_ice_shapes/Filtered%20Database_THICK.png)  
 
 ## Comparisons of maximum ice height   
 
@@ -210,7 +208,7 @@ As the "misidentification of the horns" is noted above as a challenge,
 the identification part was removed for an analysis were only the maximum reported thickness 
 was considered, without regard to the location.  
 
-![Filtered max thicks database_THICK echo.dat.png](images/6000_ice_shapes/Filtered%20max%20thicks%20database_THICK%20echo.dat.png)  
+![Filtered max thicks database and THICK.](images/6000_ice_shapes/Filtered%20max%20thicks%20database_THICK%20echo.dat.png)  
  
 For both the database and the THICK values, 
 the average and variance values are reduced compared those in the prior graph. 

@@ -7,7 +7,7 @@ rights: CC-BY-NC-SA 4.0
 _NASA Report E-16236 [^1]._  
 <br>  
  
-![4132_ice_shapes.png](images/6000_ice_shapes/4132_ice_shapes.png)  
+![4132_ice_shapes on a NACA0012 airfoil.](images/6000_ice_shapes/4132_ice_shapes.png)  
 _<div style="text-align: center;">4132 ice shapes for the NACA0012 airfoil. </div>_  
 
 _[Yes, that is how it is spelled.]_

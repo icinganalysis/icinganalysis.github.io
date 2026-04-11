@@ -6,7 +6,7 @@ rights: CC-BY-NC-SA 4.0
 ### _"... all publicly available IRT-generated experimental ice shapes with complete and verifiable conditions have now been compiled into one electronically-searchable database"_  
 _NASA Report E-16236 [^1]._
 
-![iceval_splash.png](images/6000_ice_shapes/iceval_splash.png)  
+![The IceVal DatAssistant "splach page" figure with an airfoil and ice shape with identified horns.](images/6000_ice_shapes/iceval_splash.png)  
 
 ## A quick tour of the IceVal DatAssistant  
 
@@ -18,7 +18,7 @@ The main interest here is the database of experimental run conditions and result
 
 The tables of primary interest are IceShapeData, RunSpecs, and SprayConditions.  
 
-![datassistant_table1.png](images/6000_ice_shapes/datassistant_table1.png)  
+![IceVal database tables descriptions.](images/6000_ice_shapes/datassistant_table1.png)  
 
 In the time span 1988 to 2008 that the database covers, 
 experimental test results were measured by cutting a thin slot into the ice, 
@@ -26,7 +26,7 @@ inserting a pre-made cardboard template,
 and manually tracing the ice shape. 
 These were later digitized, and included in the database.  
 
-![datassistant_fig3.png](images/6000_ice_shapes/datassistant_fig3.png)  
+![A photo of an ice tracing on a cardboard template with handwritten notes.](images/6000_ice_shapes/datassistant_fig3.png)  
 
 ## Range of conditions tested  
 
@@ -46,27 +46,27 @@ For some cases, results were measured at several locations along the span.
 The physical test article is defined by the airfoil and chord length. 
 Ten airfoils sections were tested, with the NACA0012 being used the most often:  
 
-![airfoil.png](images/6000_ice_shapes/airfoil.png)  
+![The ten airfoils tested.](images/6000_ice_shapes/airfoil.png)  
 
 Chord length varied from 1.5 inch (for the cylinder) to 78 inch. 
 The NACA0012 airfoil was tested with 10 chord lengths, 
 varying from 10.5 to 36 inch.  
 
-![Chord inch.png](images/6000_ice_shapes/Chord%20inch.png)  
+![Chord lengths.](images/6000_ice_shapes/Chord%20inch.png)  
 
 A range of angle of attack values were used:  
 
-![AOA.png](images/6000_ice_shapes/AOA.png)  
+![Angle of attack values.](images/6000_ice_shapes/AOA.png)  
 
 The span angle or sweep of airfoil was varied in 36 cases with the NACA0012 airfoil.
 
-![span_angle.png](images/6000_ice_shapes/span_angle.png)
+![Span angle values.](images/6000_ice_shapes/span_angle.png)
 
 A wide range of test section flow conditions were used. 
 
-![Airspeed KTAS.png](images/6000_ice_shapes/Airspeed%20KTAS.png)  
+![Range of airspeeds.](images/6000_ice_shapes/Airspeed%20KTAS.png)  
 
-![Total T F.png](images/6000_ice_shapes/Total%20T%20F.png)  
+![Range of total temperature.](images/6000_ice_shapes/Total%20T%20F.png)  
 
 The icing spray conditions are defined by LWC (in g/m^3), MVD (in micrometers), and spray time (in minutes). 
 In some cases, these values were varied within a case.  
@@ -74,22 +74,22 @@ In some cases, these values were varied within a case.
 For example, case CG078736 had within the run, spray times of 2.4 and 9.6 minutes, with corresponding LWC values of 1.45 and 0.81, and MVD values of 30 and 181, 
 and the final result is from the conditions applied sequentially.  
 
-![Total spray time.png](images/6000_ice_shapes/Total%20spray%20time.png)   
+![Total spray time.](images/6000_ice_shapes/Total%20spray%20time.png)   
 
-![Time averaged LWC.png](images/6000_ice_shapes/Time%20averaged%20LWC.png)  
+![Time averaged LWC](images/6000_ice_shapes/Time%20averaged%20LWC.png)  
 
-![Time averaged MVD.png](images/6000_ice_shapes/Time%20averaged%20MVD.png)  
+![Time averaged MVD.](images/6000_ice_shapes/Time%20averaged%20MVD.png)  
 
 
 Ice protection was used in 441 of the runs.   
 
-![ice_protection.png](images/6000_ice_shapes/ice_protection.png)  
+![Cases with ice_protection.](images/6000_ice_shapes/ice_protection.png)  
 
 Ice was measured at several locations along the span for some runs. 
 Many of the runs measured ice only at the 36 inch location, 
 which is the test centerline in the IRT. 
 
-![span_location.png](images/6000_ice_shapes/span_location.png)
+![Span_locations of tracings.](images/6000_ice_shapes/span_location.png)
 
 There are 2796 unique combinations of the test parameters. 
 Several runs were repeated several times, in order to assess test repeatability. 
@@ -149,25 +149,25 @@ I am not sure how meaningful these are for anything other than illustrating the 
 given the wide variety of chord lengths and other condition details, 
 but here they are:  
 
-![NACA0012_4138_ice_shapes.png](images/6000_ice_shapes/NACA0012_4138_ice_shapes.png)  
+![NACA0012 4138 ice shapes](images/6000_ice_shapes/NACA0012_4138_ice_shapes.png)  
 
-![GLC305_628_ice_shapes.png](images/6000_ice_shapes/GLC305_628_ice_shapes.png)  
+![GLC305 628 ice shapes.](images/6000_ice_shapes/GLC305_628_ice_shapes.png)  
 
-![NACA4415MOD_575_ice_shapes.png](images/6000_ice_shapes/NACA4415MOD_575_ice_shapes.png)  
+![NACA4415MOD 575 ice shapes.](images/6000_ice_shapes/NACA4415MOD_575_ice_shapes.png)  
 
-![NACA23012_530_ice_shapes.png](images/6000_ice_shapes/NACA23012_530_ice_shapes.png)  
+![NACA23012 530 ice shapes](images/6000_ice_shapes/NACA23012_530_ice_shapes.png)  
 
-![NLF0414_291_ice_shapes.png](images/6000_ice_shapes/NLF0414_291_ice_shapes.png)  
+![NLF0414 291 ice shapes](images/6000_ice_shapes/NLF0414_291_ice_shapes.png)  
 
-![LTHS_202_ice_shapes.png](images/6000_ice_shapes/LTHS_202_ice_shapes.png)  
+![LTHS 202 ice shapes](images/6000_ice_shapes/LTHS_202_ice_shapes.png)  
 
-![NACA23014MOD_135_ice_shapes.png](images/6000_ice_shapes/NACA23014MOD_135_ice_shapes.png)  
+![NACA23014MOD 135 ice shapes](images/6000_ice_shapes/NACA23014MOD_135_ice_shapes.png)  
 
-![Business Jet Wing_94_ice_shapes.png](images/6000_ice_shapes/Business%20Jet%20Wing_94_ice_shapes.png)  
+![Business Jet Wing 94 ice shapes](images/6000_ice_shapes/Business%20Jet%20Wing_94_ice_shapes.png)  
 
-![Cylinder_26_ice_shapes.png](images/6000_ice_shapes/Cylinder_26_ice_shapes.png)  
+![Cylinder 26 ice shapes](images/6000_ice_shapes/Cylinder_26_ice_shapes.png)  
 
-![NACA0015_11_ice_shapes.png](images/6000_ice_shapes/NACA0015_11_ice_shapes.png)  
+![NACA0015 11 ice shapes](images/6000_ice_shapes/NACA0015_11_ice_shapes.png)  
  
 Selected individual cases will be examined in upcoming posts.  
 
@@ -180,7 +180,7 @@ We will examine results from THICK in a later post.
 
 An example of ice horns identified in the database of the tracing noted above:  
 
-![ED07111_overlay.png](images/6000_ice_shapes/ED07111_overlay.png)  
+![Ice tracing ED07111 with horns identified bytTHICK overlayed.](images/6000_ice_shapes/ED07111_overlay.png)  
 
 The GridlineDataCoordinates table is interesting. 
 An output from it is depicted on the figure at the top of this post. 
@@ -234,12 +234,12 @@ Also, photographs are often taken of the ice on a test article.
 These are highly instructive about the 3D nature of the ice shape. 
 The validation report [^3] shows a digitized tracing:  
 
-![validation_figure_3.png](images/6000_ice_shapes/validation_figure_3.png)  
+![An ice shape tracing with an apparent ice ridge.](images/6000_ice_shapes/validation_figure_3.png)  
 while a photo clarifies:  
 
 >These figures show that the ice feathers are separated and do not form a solid ridge, which is the effect imagined when looking at the two-dimensional tracing.  
 
-![validation_figure_5.png](images/6000_ice_shapes/validation_figure_5.png)
+![Photo of the ice shape showing that the ridge is not continuous.](images/6000_ice_shapes/validation_figure_5.png)
 
 ## Related  
 
