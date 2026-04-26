@@ -2,6 +2,8 @@ Title: 6000 Ice Shapes - the IceVal DatAssistant
 status: draft  
 tags: LEWICE, ice shapes, NASA
 
+<p style="font-size:50px;color:red">DRAFT</p>
+
 ### _"As with any scientific endeavor, the foundation of icing research ... is the data acquired during experimental testing."_  
 _NASA Report E-16236 [^1]._  
 <br>  
@@ -16,7 +18,7 @@ experiments in the NASA Icing Research Tunnel [^3] (3665 shape tracings)
 and from analysis with LEWICE [^4] (2965 ice shapes).  
 
 Significant uses of the data were the LEWICE validation reports published in 
-1999 [^5] and 2008 [^6], which established measures for the comparison of LEWICE analysis results 
+1998 [^5] [^6] and 2008 [^7], which established measures for the comparison of LEWICE analysis results 
 to experimental data.  
 
 These data are tremendous aids to researchers and developers of icing analysis codes 
@@ -82,10 +84,14 @@ William B. Wright, User's Manual for LEWICE Version 3.2
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)  
 
 [^5]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998.  
-[NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+William B. Wright, "A Summary of Validation Results for LEWICE 2.0", 37th Aerospace Sciences Meeting and Exhibit AIAA-99-0249, December 1998. 
+[NASA/CR-1998-208687](https://ntrs.nasa.gov/citations/19990017993)  
 
-[^6]: 
+[^6]:  
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." January 1999. 
+[NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235)  
+
+[^7]: 
 Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
 [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
 

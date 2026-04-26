@@ -2,11 +2,13 @@ Title: A Tour of the IceVal DatAssistant
 status: draft  
 tags: LEWICE, ice shapes, NASA
 
+<p style="font-size:50px;color:red">DRAFT</p>
+
 ### _"... all publicly available IRT-generated experimental ice shapes with complete and verifiable conditions have now been compiled into one electronically-searchable database"_  
 _NASA Report E-16236 [^1]._
 
 ![The IceVal DatAssistant "splach page" figure with an airfoil and ice shape with identified horns.](images/6000_ice_shapes/iceval_splash.png)  
-_Public Domain NASA Report E-16236._
+_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 ## A quick tour of the IceVal DatAssistant  
 
@@ -19,6 +21,7 @@ The main interest here is the database of experimental run conditions and result
 The tables of primary interest are IceShapeData, RunSpecs, and SprayConditions.  
 
 ![IceVal database tables descriptions.](images/6000_ice_shapes/datassistant_table1.png)  
+_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 In the time span 1988 to 2008 that the database covers, 
 experimental test results were measured by cutting a thin slot into the ice, 
@@ -27,6 +30,7 @@ and manually tracing the ice shape.
 These were later digitized, and included in the database.  
 
 ![A photo of an ice tracing on a cardboard template with handwritten notes.](images/6000_ice_shapes/datassistant_fig3.png)  
+_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 ## Range of conditions tested  
 
@@ -81,7 +85,7 @@ and the final result is from the conditions applied sequentially.
 ![Time averaged MVD.](images/6000_ice_shapes/Time%20averaged%20MVD.png)  
 
 
-Ice protection was used in 441 of the runs.   
+Ice protection was used in 442 of the runs.   
 
 ![Cases with ice_protection.](images/6000_ice_shapes/ice_protection.png)  
 
@@ -224,22 +228,60 @@ the addition of selected fields to the database; and
 Point 1 will be discussed in the next post.  
 
 For point 5, it would be much better if the handwritten notes from the ice tracings 
-(seen in Figure 3 further above), which include "small rime feathers" and "frost" 
-that are not included in the digitized tracing. 
+(seen in Figure 3 further above), which include "small rime feathers" and "frost", 
+could be included in the database. 
 While these are often explained as tunnel effects
 (see ["The Effects of Humidity in Icing Wind Tunnel Tests"]({filename}effects_of_humidity.md)). 
 I feel they should be included at least as a text field.  
 
 Also, photographs are often taken of the ice on a test article. 
 These are highly instructive about the 3D nature of the ice shape. 
-The validation report [^3] shows a digitized tracing:  
+The 2008 validation report [^3] shows a digitized tracing:  
 
 ![An ice shape tracing with an apparent ice ridge.](images/6000_ice_shapes/validation_figure_3.png)  
-while a photo clarifies:  
+_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+
+A photo clarifies:  
 
 >These figures show that the ice feathers are separated and do not form a solid ridge, which is the effect imagined when looking at the two-dimensional tracing.  
 
-![Photo of the ice shape showing that the ridge is not continuous.](images/6000_ice_shapes/validation_figure_5.png)
+![Photo of the ice shape showing that the ridge is not continuous.](images/6000_ice_shapes/validation_figure_5.png)  
+_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+
+### The effects of ice shapes  
+
+The 1999 validation report [^4] notes:
+
+>it would be useful to quantify
+the difference in aeroperformance based on the
+quantitative difference in [ice] geometry 
+
+The quantification of aero-performance is not included in the IceVal database, 
+nor the 1999 validation report, 
+nor the 2008 validation report. 
+It is still an area of ongoing research, 27 years later.  
+
+The ice shape validation is limited to selected geometric features of the ice shape. 
+Having two ice shapes within the expected, validated variance does not guarantee 
+that they will have acceptably small differences in aero-performance effects. 
+Conversely, two ice shapes outside the expected variance does not guarantee 
+that they will have unacceptably large differences in aero-performance effects.  
+
+Several individual cases have been studied in detail (perhaps a few dozen cases, with [^5] as an example), 
+but nothing approaching the 6000+ plus ice shapes in the IceVal database. 
+Progress is hampered by the necessity of wind tunnel tests with high-fidelity ice shapes. 
+If higher Reynolds number values are required, 
+a pressurized wind tunnel may be needed, 
+which limits facility availability and increases costs.  
+
+Aero-performance analysis with CFD (Computational Fluid Dynamics) is progressing, 
+but is still challenged for cases such as complex ice shapes 
+and performance near and past stall.  
+
+For more general application, one is left with correlations such as the 
+"Brumby" chart and NACA-TR-446 as described in 
+[Introduction to Variations]({filename}basics/intermediate_variance.md) 
+and [NACA-TR-446]({filename}NACA-TR-446.md), which are rather approximate.  
 
 ## Related  
 
@@ -249,7 +291,7 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 
 [^1]: 
 Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
-software available at https://software.nasa.gov/software/LEW-18343-1   
+The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1) .   
 
 [^2]: 
 William B. Wright, User's Manual for LEWICE Version 3.2 
@@ -257,5 +299,12 @@ William B. Wright, User's Manual for LEWICE Version 3.2
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)  
 
 [^3]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998.  
+Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
+[NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+
+[^4]: 
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999.  
 [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+
+[^5] Camello, Stephanie C., et al.: "Effect of Ice Shape Fidelity on Swept-Wing Aerodynamic Performance", 2018. 
+[GRC-E-DAA-TN42638](https://ntrs.nasa.gov/citations/20180001272)  

@@ -2,11 +2,13 @@ Title: Challenges Using the IceVal Database
 status: draft  
 tags: LEWICE, ice shapes, NASA
 
+<p style="font-size:50px;color:red">DRAFT</p>
+
 ### _"No data is clean, but most is useful."_  
 _attributed to Dean Abbott._  
 
 ![PG1023742_misaligned.](images/6000_ice_shapes/PG1023742_misaligned.png)  
-_Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._  
+<div style="text-align: center;">_Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._</div>  
 
 ## Introduction  
 
@@ -94,6 +96,32 @@ The upper horn point found in the database is 0.179 inch from the airfoil surfac
 but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.  
 
 ![Detail of JF1026236LEW.](images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png)  
+
+In the LEWICE validation description [^4], 
+the NACA23014MOD test article is described as tapered:  
+
+>The first airfoil is a modified NACA230XX
+series airfoil with a slight spanwise taper and sweep.
+At the mid-span of the test section, the thickness is
+14.5% chord and increases in thickness from the
+floor to the ceiling of the test section. In this report, it
+is listed as a modified NACA23014 airfoil, as the
+thickness is closer to 14% at the lower end of the
+model. This data was originally presented in references 17-20. 
+The cross-section at the mid-span of
+the test section is given in Figure 1. The database for
+this airfoil is comprised of 62 IRT runs, of which 22
+are repeats of previous conditions. Due to the spanwise variation of the model, 
+only 8 tracings have
+been digitized at off-centerline locations for a total of
+70 ice shapes.
+
+However, the airfoil sections for the NACA23014MOD in the IceVal "IceShapesData" table 
+are all the same, despite different span locations. 
+The airfoil given is presumably for the centerline, 36-inch span location. 
+Not having a slightly different airfoil at other span location may account for a few of the 
+ice tracings that appear to be inside the airfoil, 
+as in case PG1023742 shown in the figure at the top of this post, and discussed further below.  
 
 ## Point order of ice shapes  
 
@@ -257,5 +285,5 @@ User's Manual for LEWICE Version 3.2
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1) 
 
 [^4]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998.  
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
 [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  

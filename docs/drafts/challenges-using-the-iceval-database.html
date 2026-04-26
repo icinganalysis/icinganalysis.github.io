@@ -10,7 +10,7 @@
 <!--
 -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="description" content=""No data is clean, but most is useful." attributed to Dean Abbott. Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil. Introduction The IceVal..." />
+        <meta name="description" content="DRAFT "No data is clean, but most is useful." attributed to Dean Abbott. _Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._ Introduction The..." />
 </head>
 
 <body id="index" class="home">
@@ -34,12 +34,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-04-11T07:07:48.096586-07:00">
-                Published: Sat 11 April 2026
+        <abbr class="published" title="2026-04-25T18:20:03.083642-07:00">
+                Published: Sat 25 April 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-04-11T07:07:48.096586-07:00">
-                Updated: Sat 11 April 2026
+        <abbr class="modified" title="2026-04-25T18:20:03.083642-07:00">
+                Updated: Sat 25 April 2026
         </abbr>
 <!---->
         <!---->
@@ -51,10 +51,13 @@
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
 <p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
-</footer><!-- /.post-info -->      <h3><em>"No data is clean, but most is useful."</em></h3>
+</footer><!-- /.post-info -->      <p style="font-size:50px;color:red">DRAFT</p>
+
+<h3><em>"No data is clean, but most is useful."</em></h3>
 <p><em>attributed to Dean Abbott.</em>  </p>
-<p><img alt="PG1023742_misaligned." src="images/6000_ice_shapes/PG1023742_misaligned.png"><br>
-<em>Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil.</em>  </p>
+<p><img alt="PG1023742_misaligned." src="images/6000_ice_shapes/PG1023742_misaligned.png">  </p>
+<div style="text-align: center;">_Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._</div>
+
 <h2>Introduction</h2>
 <p>The IceVal database is a significant achievement that is still yielding dividends, decades later. </p>
 <p>The IceVal description <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> discusses some of the challenges of assembling the database:</p>
@@ -122,6 +125,31 @@ as shown below.
 The upper horn point found in the database is 0.179 inch from the airfoil surface defined from IceShapeData, 
 but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.  </p>
 <p><img alt="Detail of JF1026236LEW." src="images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png">  </p>
+<p>In the LEWICE validation description <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, 
+the NACA23014MOD test article is described as tapered:  </p>
+<blockquote>
+<p>The first airfoil is a modified NACA230XX
+series airfoil with a slight spanwise taper and sweep.
+At the mid-span of the test section, the thickness is
+14.5% chord and increases in thickness from the
+floor to the ceiling of the test section. In this report, it
+is listed as a modified NACA23014 airfoil, as the
+thickness is closer to 14% at the lower end of the
+model. This data was originally presented in references 17-20. 
+The cross-section at the mid-span of
+the test section is given in Figure 1. The database for
+this airfoil is comprised of 62 IRT runs, of which 22
+are repeats of previous conditions. Due to the spanwise variation of the model, 
+only 8 tracings have
+been digitized at off-centerline locations for a total of
+70 ice shapes.</p>
+</blockquote>
+<p>However, the airfoil sections for the NACA23014MOD in the IceVal "IceShapesData" table 
+are all the same, despite different span locations. 
+The airfoil given is presumably for the centerline, 36-inch span location. 
+Not having a slightly different airfoil at other span location may account for a few of the 
+ice tracings that appear to be inside the airfoil, 
+as in case PG1023742 shown in the figure at the top of this post, and discussed further below.  </p>
 <h2>Point order of ice shapes</h2>
 <p>In some cases the order of the ice shape points from the database had to be reordered.  </p>
 <p>An example case NG1627, which has the most ice tracing points (9382) of any in the database. 
@@ -241,7 +269,7 @@ The software is available at <a href="https://software.nasa.gov/software/LEW-183
 The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998.<br>
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
 <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>

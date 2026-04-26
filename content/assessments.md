@@ -2,13 +2,16 @@ Title: Overall comparison assessments between experiment and LEWICE
 status: draft  
 tags: LEWICE, ice shapes, NASA
 
+<p style="font-size:50px;color:red">DRAFT</p>
+
 ### _"It is possible for any (or all!) ... parameters to be incorrectly output."_  
 
 ![Database compared to THICK with missed horn.](images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png)  
+_<div style="text-align: center;">A case with identified horn locations that are debatable.</div>_
 
 ## Published assessments  
 
-The overall comparison of experimental data to LEWICE [^1] analysis has been published twice. 
+The overall comparison of LEWICE [^1] analysis to experimental data to has been published twice.  
 
 The first was in 1999 [^2], and included 800 experiment cases. 
 The second was in 2008 [^3], and had more than 3000 experimental cases. 
@@ -26,6 +29,7 @@ and experimental error.
 These latter factor were relatively small.  
 
 ![1999 figure 18.](images/6000_ice_shapes/1999_fig18.png)  
+_Public Domain [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235)._  
 
 Curiously, the relative difference ("%Difference based on Accretion Rate") 
 for upper horn height for experiment vs LEWICE 
@@ -38,6 +42,7 @@ The differences were not quantified.
 The differences were not noted as unacceptable.  
 
 ![1999_figure 142.](images/6000_ice_shapes/1999_fig142.png)  
+_Public Domain [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235)._  
 
 ## The 2008 Assessment  
 
@@ -45,6 +50,7 @@ For brevity, we will look at only two of the assessment comparison values:
 the upper surface maximum ice height, and its location, as defined in Figure 18 ("h_upper").  
 
 ![Figure 18.](images/6000_ice_shapes/Figure%2018.png)  
+_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 The validation report [^3] notes that a non-dimensional height ratio was used.  
 
@@ -66,9 +72,11 @@ relative height difference = (thick_experiment - thick_lewice) / t_max
 Here, we will use the overall +/- 0.20 relative difference values from Figure 7 as 
 a point of comparison. 
 (Despite the label difference "Chord difference from experiment", 
-one of the authors assured me that it is indeed the relative difference based on the accumulation parameter).  
+one of the authors assured me that it is indeed the relative difference based on the accumulation parameter. 
+Also, the companion report NASA CR-1998-208687 has a similar figure with the "%Difference based on Accretion Rate" label.).  
 
 ![Figure 7.](images/6000_ice_shapes/Fig7.png)  
+_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
@@ -109,7 +117,9 @@ These may be either repeated runs, or measurements at different span locations
 This type of chart is informative, but it is a little busy, 
 so the first form above will be used from here on.  
 
-If when the no upper horn reported, 
+## The effect of undetected ice horns  
+
+If when no upper horn reported, 
 instead of assign zero for the ice height, 
 the case is filtered out, the comparison values are smaller, 
 but several hundred cases are filtered out. 
@@ -129,7 +139,7 @@ so subsequent analyses will use assigning zero for missing upper horn heights,
 so that the effect of missing horns is evident.  
 
 The analysis was repeated with filtered cases, 
-removing some of the suspect cases as noted in "Cleaning The Data". 
+removing some of the suspect cases as noted in [Challenges Using the IceVal Database]({filename}iceval_challenges.md). 
 While a few extreme points were removed, the overall assessment did not change by much.  
 
 ![Filtered Database cases.](images/6000_ice_shapes/Filtered%20Database.png)  
@@ -149,6 +159,7 @@ An average difference for the upper horn angle was about +/- 26 degrees.
 This will be used as a point of comparison for upper horn angle differences.  
 
 ![Figure 8.](images/6000_ice_shapes/Figure%208.png)  
+_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
@@ -233,7 +244,8 @@ William B. Wright, User's Manual for LEWICE Version 3.2
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)  
 
 [^2]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 1999. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+See also the companion [NASA/CR-1998-208687](https://ntrs.nasa.gov/citations/19990017993).  
 
 [^3]: 
 Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
@@ -241,6 +253,3 @@ Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and 
 [^4]: 
 Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)   
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1)  
-
-[^5]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 37th Aerospace Sciences Meeting and Exhibit. 1998. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
