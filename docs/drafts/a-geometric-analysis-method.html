@@ -34,11 +34,11 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-04-25T18:20:03.090969-07:00">
+        <abbr class="published" title="2026-04-25T18:41:02.396049-07:00">
                 Published: Sat 25 April 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-04-25T18:20:03.090969-07:00">
+        <abbr class="modified" title="2026-04-25T18:41:02.396049-07:00">
                 Updated: Sat 25 April 2026
         </abbr>
 <!---->
@@ -96,7 +96,9 @@ values from the database and the geometric analysis.  </p>
 <p>Prominent maximum local thickness locations are found by the Python library scipy.signal.find_peaks function 
 as potential horn locations. 
 Candidate horns that are very close to another horn are filtered out. 
-The selection method will always have a horn at the maximum ice thickness location. 
+Candidate horns that are not close to the convex hull of the ice shape are filtered out. 
+This prevents local maximums in cavities from being selected.  </p>
+<p>The selection method will always have a horn at the maximum ice thickness location. 
 A second horn will be found if there is a horn that is at least 25% as thick as the maximum ice thickness. 
 Preference is give to a horn that is on the opposite side of the airfoil leading edge Y values, 
 but the next thickest horn is selected if none such is available. 

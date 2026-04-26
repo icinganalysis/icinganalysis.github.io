@@ -59,6 +59,9 @@ values from the database and the geometric analysis.
 Prominent maximum local thickness locations are found by the Python library scipy.signal.find_peaks function 
 as potential horn locations. 
 Candidate horns that are very close to another horn are filtered out. 
+Candidate horns that are not close to the convex hull of the ice shape are filtered out. 
+This prevents local maximums in cavities from being selected.  
+
 The selection method will always have a horn at the maximum ice thickness location. 
 A second horn will be found if there is a horn that is at least 25% as thick as the maximum ice thickness. 
 Preference is give to a horn that is on the opposite side of the airfoil leading edge Y values, 

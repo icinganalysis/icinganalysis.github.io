@@ -8,7 +8,7 @@ tags: LEWICE, ice shapes, NASA
 _NASA Report E-16236 [^1]._
 
 ![The IceVal DatAssistant "splach page" figure with an airfoil and ice shape with identified horns.](images/6000_ice_shapes/iceval_splash.png)  
-_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
+_Public Domain image from [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 ## A quick tour of the IceVal DatAssistant  
 
@@ -21,7 +21,7 @@ The main interest here is the database of experimental run conditions and result
 The tables of primary interest are IceShapeData, RunSpecs, and SprayConditions.  
 
 ![IceVal database tables descriptions.](images/6000_ice_shapes/datassistant_table1.png)  
-_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
+_Public Domain image from [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 In the time span 1988 to 2008 that the database covers, 
 experimental test results were measured by cutting a thin slot into the ice, 
@@ -30,7 +30,7 @@ and manually tracing the ice shape.
 These were later digitized, and included in the database.  
 
 ![A photo of an ice tracing on a cardboard template with handwritten notes.](images/6000_ice_shapes/datassistant_fig3.png)  
-_Public Domain [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
+_Public Domain image from [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)._  
 
 ## Range of conditions tested  
 
@@ -239,14 +239,14 @@ These are highly instructive about the 3D nature of the ice shape.
 The 2008 validation report [^3] shows a digitized tracing:  
 
 ![An ice shape tracing with an apparent ice ridge.](images/6000_ice_shapes/validation_figure_3.png)  
-_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 A photo clarifies:  
 
 >These figures show that the ice feathers are separated and do not form a solid ridge, which is the effect imagined when looking at the two-dimensional tracing.  
 
 ![Photo of the ice shape showing that the ridge is not continuous.](images/6000_ice_shapes/validation_figure_5.png)  
-_Public Domain [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 ### The effects of ice shapes  
 
