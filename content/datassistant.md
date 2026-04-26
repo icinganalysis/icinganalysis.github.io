@@ -306,5 +306,6 @@ Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and 
 William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999.  
 [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
 
-[^5] Camello, Stephanie C., et al.: "Effect of Ice Shape Fidelity on Swept-Wing Aerodynamic Performance", 2018. 
+[^5]: Camello, Stephanie C., et al.: "Effect of Ice Shape Fidelity on Swept-Wing Aerodynamic Performance", 2018. 
 [GRC-E-DAA-TN42638](https://ntrs.nasa.gov/citations/20180001272)  
+ 
