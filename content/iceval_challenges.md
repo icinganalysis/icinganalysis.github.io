@@ -97,7 +97,7 @@ but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.
 
 ![Detail of JF1026236LEW.](images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png)  
 
-In the LEWICE validation description [^4], 
+In the LEWICE validation description [^2], 
 the NACA23014MOD test article is described as tapered:  
 
 >The first airfoil is a modified NACA230XX
@@ -165,7 +165,7 @@ which interprets the "upper" surface as having the greater Y value,
 and results between "upper" and "lower" surface can be confused.  
 
 Here, the LTHS results are presented as suction side "up" 
-(like the other airfoils, and the orientation used in [^2]), 
+(like the other airfoils, and the orientation used in [^3]), 
 but one should be aware that it is a horizontal stabilizer.  
 
 ## Repeated use of identical ice shape tracings  
@@ -183,7 +183,7 @@ it is not reasonable for them to all be identical.
 Two other ice shapes map to 14 and 11 LTHS conditions. 
  
 Fortunately, there is an alternative source of data available for these cases. 
-The LEWICE software distribution [^3] includes experimental tracings for many (but not all) of the 
+The LEWICE software distribution [^4] includes experimental tracings for many (but not all) of the 
 test cases in the database. 
 These can be mapped to the database cases through the "AltRunID" parameter. 
 When corrected, the cases from above show a more believable level of variation.  
@@ -227,6 +227,23 @@ Similarly, two cases were found where MVD and SprayTime values were swapped.
 
 It is possible that there are additional cases with swapped values, 
 but if they are swapped, the values are in the IRT capability range and harder to detect.  
+
+## Differing RunIDs between sources  
+
+The IceVal database uses the RunID as a primary key to identify unique ice shapes. 
+However, the nomenclature is different in different sources, 
+complicating mapping between them.  
+
+For example, the 2008 validation report [^5] has a figure for case 
+"EG1285", which maps to case IF1285 in the database. 
+Other cases mapped directly, such as case EG1351.  
+
+The mapping to other sources, 
+such as the 1999 validation report [^2]
+The SLD icing test report [^3], or the LEWICE validation cases included in the LEWICE software distribution [^4], 
+can be aided by the AltRunID column of the database. 
+However, these are not always direct mappings, as additional characters may be interspersed. 
+One has to verify prospective name matches by checking that the detailed run conditions match.  
 
 ## Ice shapes misaligned with the airfoil   
 
@@ -277,13 +294,17 @@ Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Autom
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1)  
 
 [^2]: 
-Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. [NASA/CR-2007-215020](https://ntrs.nasa.gov/citations/20070032808), 2007.   
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
+[NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
 
 [^3]: 
+Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. [NASA/CR-2007-215020](https://ntrs.nasa.gov/citations/20070032808), 2007.   
+
+[^4]: 
 User's Manual for LEWICE Version 3.2
 [NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1) 
 
-[^4]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
-[NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+[^5]: 
+Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
+[NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  

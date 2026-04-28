@@ -34,12 +34,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-04-25T18:20:03.083642-07:00">
-                Published: Sat 25 April 2026
+        <abbr class="published" title="2026-04-28T08:57:55.730175-07:00">
+                Published: Tue 28 April 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-04-25T18:20:03.083642-07:00">
-                Updated: Sat 25 April 2026
+        <abbr class="modified" title="2026-04-28T08:57:55.730175-07:00">
+                Updated: Tue 28 April 2026
         </abbr>
 <!---->
         <!---->
@@ -125,7 +125,7 @@ as shown below.
 The upper horn point found in the database is 0.179 inch from the airfoil surface defined from IceShapeData, 
 but is 0.173 inch from the airfoil surface determined from AirfoilCoordinates.  </p>
 <p><img alt="Detail of JF1026236LEW." src="images/6000_ice_shapes/Detail%20of%20JF1026236LEW.png">  </p>
-<p>In the LEWICE validation description <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, 
+<p>In the LEWICE validation description <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
 the NACA23014MOD test article is described as tapered:  </p>
 <blockquote>
 <p>The first airfoil is a modified NACA230XX
@@ -179,7 +179,7 @@ This can make plots confusing, but also affects results from the THICK utility,
 which interprets the "upper" surface as having the greater Y value, 
 and results between "upper" and "lower" surface can be confused.  </p>
 <p>Here, the LTHS results are presented as suction side "up" 
-(like the other airfoils, and the orientation used in <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>), 
+(like the other airfoils, and the orientation used in <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>), 
 but one should be aware that it is a horizontal stabilizer.  </p>
 <h2>Repeated use of identical ice shape tracings</h2>
 <p>44 of the experimental ice tracings were mistakenly mapped to different test conditions or cut locations, 
@@ -191,7 +191,7 @@ While some of the repeated uses were for tracings at different cuts at the same 
 it is not reasonable for them to all be identical. 
 Two other ice shapes map to 14 and 11 LTHS conditions. </p>
 <p>Fortunately, there is an alternative source of data available for these cases. 
-The LEWICE software distribution <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> includes experimental tracings for many (but not all) of the 
+The LEWICE software distribution <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> includes experimental tracings for many (but not all) of the 
 test cases in the database. 
 These can be mapped to the database cases through the "AltRunID" parameter. 
 When corrected, the cases from above show a more believable level of variation.  </p>
@@ -222,6 +222,19 @@ The corrected values are within the capabilities.  </p>
 <p>Similarly, two cases were found where MVD and SprayTime values were swapped.  </p>
 <p>It is possible that there are additional cases with swapped values, 
 but if they are swapped, the values are in the IRT capability range and harder to detect.  </p>
+<h2>Differing RunIDs between sources</h2>
+<p>The IceVal database uses the RunID as a primary key to identify unique ice shapes. 
+However, the nomenclature is different in different sources, 
+complicating mapping between them.  </p>
+<p>For example, the 2008 validation report <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> has a figure for case 
+"EG1285", which maps to case IF1285 in the database. 
+Other cases mapped directly, such as case EG1351.  </p>
+<p>The mapping to other sources, 
+such as the 1999 validation report <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup>
+The SLD icing test report <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, or the LEWICE validation cases included in the LEWICE software distribution <sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, 
+can be aided by the AltRunID column of the database. 
+However, these are not always direct mappings, as additional characters may be interspersed. 
+One has to verify prospective name matches by checking that the detailed run conditions match.  </p>
 <h2>Ice shapes misaligned with the airfoil</h2>
 <p>The LEWICE manual notes that ice shape tracings can be misaligned with the airfoil. 
 This can result in some of the ice shape being inside the airfoil.  </p>
@@ -261,16 +274,20 @@ or they may be misaligned.  </p>
 The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. <a href="https://ntrs.nasa.gov/citations/20070032808">NASA/CR-2007-215020</a>, 2007.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
+<a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>User's Manual for LEWICE Version 3.2
-<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
-The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. <a href="https://ntrs.nasa.gov/citations/20070032808">NASA/CR-2007-215020</a>, 2007.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
-<a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>User's Manual for LEWICE Version 3.2
+<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.<br>
+<a href="https://ntrs.nasa.gov/citations/20080041518">NACA/CR-2008-215174</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
