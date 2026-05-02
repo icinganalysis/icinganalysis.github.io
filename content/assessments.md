@@ -29,7 +29,7 @@ and experimental error.
 These latter factor were relatively small.  
 
 ![1999 figure 18.](images/6000_ice_shapes/1999_fig18.png)  
-_Public Domain image from [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235)._  
+_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 Curiously, the relative difference ("%Difference based on Accretion Rate") 
 for upper horn height for experiment vs LEWICE 

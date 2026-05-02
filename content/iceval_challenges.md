@@ -8,7 +8,7 @@ tags: LEWICE, ice shapes, NASA
 _attributed to Dean Abbott._  
 
 ![PG1023742_misaligned.](images/6000_ice_shapes/PG1023742_misaligned.png)  
-<div style="text-align: center;">_Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil._</div>  
+_<div style="text-align: center;">Ice shape tracing points that are mis-ordered and mis-aligned with the airfoil.</div>_  
 
 ## Introduction  
 
@@ -48,7 +48,7 @@ I used the Python programming language with the Pandas library to read it on a M
 
 The use of Python at least partially addresses two areas mentioned in the "Known Issues" section of the IceVal DatAssistant description:  
 
-> Known Issues / Future Work
+> Known Issues / Future Work  
 While the currently existing system has met all the existing system requirements, there are nevertheless areas of
 future work which would ultimately result in an improved product. These include:  
 > 
@@ -62,7 +62,7 @@ Accessing the data with Python and Pandas is open source (kind-of like public do
 I believe that most potential users are more familiar with Python than database commands.  
 
 Using Python also allows one to readily do things like overlay two user-selected images, 
-of which we will see many in this series.  
+which we will see examples of in this series.  
 
 ## Empty cells  
 

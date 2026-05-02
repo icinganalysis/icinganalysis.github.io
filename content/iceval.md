@@ -50,11 +50,14 @@ and provide additional analysis of the data.
 - ## [A Geometric Analysis Method]({filename}thicker.md)  
     ### _"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."_  
 
+- ## [Running LEWICE version 3.2.3 for the IceVal cases]({filename}comparisons_l32.md)  
+    ### _"The resulting analysis showed that LEWICE compared well to the available experimental data."_  
+
+
 Possible future additions:  
 
  - A proposed alternative ice shape horn location measure  
  - Validating a recompiled version of LEWICE  
- - The LEWICE cases in IceVal  
  - Conclusions of the IceVal DatAssistant thread  
 
 ## Related   
@@ -68,9 +71,9 @@ Laurie Levinson and William Wright. "IceVal DatAssistant-An Interactive, Automat
 [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)
 
 [^2]: IceVal DatAssistant (LEW-18343-1)
-Overview
+"Overview: 
 This NASA-developed technology provides an improved mechanism for managing the 
-large volume of data generated and utilized in performing icing research.  
+large volume of data generated and utilized in performing icing research."  
 [Note: the software is available only to US persons.]  
 [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1) 
 
