@@ -53,7 +53,7 @@ and provide additional analysis of the data.
 - ## [Running LEWICE version 3.2.3 for the IceVal cases]({filename}comparisons_l32.md)  
     ### _"The resulting analysis showed that LEWICE compared well to the available experimental data."_  
 
-
+ 
 Possible future additions:  
 
  - A proposed alternative ice shape horn location measure  
