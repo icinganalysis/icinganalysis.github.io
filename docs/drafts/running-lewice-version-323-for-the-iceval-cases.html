@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Running LEWICE version 3.2.3 for the IceVal cases</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content="DRAFT "The resulting analysis showed that LEWICE compared well to the available experimental data." 1 Introduction The IceVal database 2, and its predecessors, were..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/running-lewice-version-323-for-the-iceval-cases.html" rel="bookmark"
+           title="Permalink to Running LEWICE version 3.2.3 for the IceVal cases">Running LEWICE version 3.2.3 for the IceVal cases</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-05-02T16:43:07.073150-07:00">
+                Published: Sat 02 May 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-05-02T16:43:07.073150-07:00">
+                Updated: Sat 02 May 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> </p>
+</footer><!-- /.post-info -->      <p style="font-size:50px;color:red">DRAFT</p>
+
+<h3><em>"The resulting analysis showed that LEWICE compared well to the available experimental data." <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em></h3>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_AE1168636" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_AE1168636.png">  </p>
+<h2>Introduction</h2>
+<p>The IceVal database <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, and its predecessors, were originally assembled to validate the 
+LEWICE <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> ice shape prediction code. </p>
+<p>Here, we will repeat that analysis with a more recent version of LEWICE, 
+and look at the effects of using "corrected" angle of attack values in the analysis.  </p>
+<p>The LEWICE ice shapes results in the IceVal database were apparently run with LEWICE version 3.2.2
+(We will abbreviate that Database LEWICE shape). 
+The IceVal users guide is not explicit, other than "the latest version of the LEWICE ice shape prediction code". 
+The 2008 LEWICE validation report was written at about the same time. It does not mention IceVal, 
+but the validation report was for LEWICE version 3.2.2.  </p>
+<h2>Comparisons with all IceVal cases</h2>
+<p>The currently available version is LEWICE 3.2.3 (which will be abbreviated as LEWICE3.2.3). 
+To compare ice shapes, the <a href="/drafts/a-geometric-analysis-method.html">Geometric Analysis Method</a> is used here. 
+When LEWICE3.2.3 is run for the IceVal LEWICE case conditions, 
+the results are, on average, quite similar between the Database LEWICE values and LEWICE3.2.3.</p>
+<p><img alt="LEWICE32_LEWICE_geometric_hur" src="images/6000_ice_shapes/LEWICE32_LEWICE_geometric_hur.png">  </p>
+<p>Here is an example of a case with where the ice shape determined by analysis 
+matches the shape from experiment well.  </p>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_AE1168636" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_AE1168636.png">  </p>
+<p>However, several cases near either end of the plot have notable differences.<br>
+40 of these cases were examined in detail. 
+For 22 cases, the database LEWICE shape has a notably thinner or thicker maximum upper ice height. 
+I suspect these cases as having the wrong ice shape in the database associated with the RunID. 
+Two examples are shown below:  </p>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_CG080436" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_CG080436.png">  </p>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_AF109036" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_AF109036.png"></p>
+<p>There are also 18 cases where both the experimental tracing and the database LEWICE shape 
+appear to be mis-associated with the RunIDs, with two examples shown below.    </p>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_HF1508" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_HF1508.png">  </p>
+<p><img alt="LEWICE32_LEWICE_hu_diff_detail_NG1623" src="images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_NG1623.png"></p>
+<p>When LEWICE3.2.3 results are compared to experimental results, 
+the overall comparison assessment results for ice height are similar to the results 
+we saw previously using the database LEWICE shapes:  </p>
+<p><img alt="LEWICE32_geometric_hur" src="images/6000_ice_shapes/LEWICE32_geometric_hur.png">  </p>
+<p><img alt="LEWICE32_geometric_thetar" src="images/6000_ice_shapes/LEWICE32_geometric_thetar.png">  </p>
+<p>While the 40 suspect cases note above have some significant differences in ice shapes, 
+they are roughly balanced between too thick and too thin, and 
+there are not enough of them to affect the overall assessments much if 40 of 3165 shapes are removed from the analysis.  </p>
+<h2>The effect of corrected angle of attack</h2>
+<p>The LEWICE cases in the IceVal database were all run at the nominal angle of attack.  </p>
+<p>In some cases, a "corrected" angle of attack was determined and included in the database. 
+This is an angle of attack for which the test article installed in the tunnel 
+will achieve similar flow characteristics to flight without the tunnel walls 
+and other installation flow effects.  </p>
+<p>The corrected angle of attack is often determined by first conducting analysis to establish 
+a stagnation line target location to be matched. 
+The test article is instrumented with pressure taps, 
+then for tests in the tunnel the angle of attack is varied 
+until the measured stagnation location is close to the target. 
+An example is contained in 2nd Ice Prediction Workshop material at <a href="https://folk.ntnu.no/richahan/IPW/files/IPW2/Documents/IPW-2-case-descriptions-v12.pdf">folk.ntnu.no</a>.  </p>
+<p>As the process for determining corrected angle of attack can be onerous, 
+it has not always been determined for every test. 
+However, I view determining the corrected angle angle of attack as a current best practice, 
+and should be used for all current and future tests. 
+As we shall see below, the effect of using corrected angle of attack is often not large,
+and does not always improve the ice shape match between LEWICE analysis and experiment. 
+So, analyzing historical data is often done using just the nominal angle of attack. </p>
+<p>In the IceVal database, there are 441 test cases with a 
+CorrectedAOA value that differs from the AOA value.</p>
+<p><img alt="CorrectedAOA" src="images/6000_ice_shapes/CorrectedAOA.png">  </p>
+<p>For this subset of 441 cases, when LEWICE3.2.3 is run using the nominal AOA values, 
+the horn angle variance (26.7) is similar to that with the large data set (3133 points, 25.4 variance).  </p>
+<p><img alt="LEWICE32_geometric_hur" src="images/6000_ice_shapes/LEWICE32_geometric_hur.png">  </p>
+<p>When LEWICE runs with the nominal and corrected AOA values are compared, 
+there is very little difference in maximum horn height:  </p>
+<p><img alt="LEWICE32_LEWICE_geometric_hur" src="images/6000_ice_shapes/LEWICE32_LEWICE_geometric_hur.png"><br>
+However, the horn angles change by several degrees, on average:  </p>
+<p><img alt="LEWICE32_geometric_thetar_caoa" src="images/6000_ice_shapes/LEWICE32_geometric_thetar_caoa.png">  </p>
+<p>The mean value is negative, indicating that the horn angle when run with the corrected values 
+are lesser, so they are higher up and/or aft than the horns run with the nominal angle of attack.  </p>
+<p><img alt="Figure 18" src="images/6000_ice_shapes/Figure%2018.png"><br>
+<em>Public Domain image from <a href="https://ntrs.nasa.gov/citations/20080041518">NACA/CR-2008-215174</a>.</em>  </p>
+<p><img alt="LEWICE32_geometric_thetar_caoa" src="images/6000_ice_shapes/LEWICE32_geometric_thetar_caoa.png">  </p>
+<p>Here is a case where using the correct angle of attack improved the ice shape match,
+by both engineering judgement and the horn angle difference (d_theta).  </p>
+<p><img alt="corr_aoa_HF1026936" src="images/6000_ice_shapes/corr_aoa_HF1026936.png">  </p>
+<p>In other cases, there is not an obvious difference in ice shapes or improvement in the shape match.<br>
+Here are two examples where LEWICE results are close to each other, 
+but differ visibly from the experimental ice shape.  </p>
+<p><img alt="corr_aoa_AE1000836" src="images/6000_ice_shapes/corr_aoa_AE1000836.png">  </p>
+<p><img alt="corr_aoa_PG1086336" src="images/6000_ice_shapes/corr_aoa_PG1086336.png">  </p>
+<p>Here are two examples where the angle difference from the experimental shape was 
+near the average variance of 25 degrees. 
+In first case, the ice shape match was improved by using the corrected angle of attack. 
+In the second case, it was not improved.  </p>
+<p><img alt="corr_aoa_HF1027630" src="images/6000_ice_shapes/corr_aoa_HF1027630.png">  </p>
+<p><img alt="corr_aoa_AE1005636" src="images/6000_ice_shapes/corr_aoa_AE1005636.png">  </p>
+<p>For thin ice shapes, horn angle difference does not always appear to represent the 
+shape difference. 
+In the case below, the horn angle difference (d_theta) is near the average variance, 
+for either the cases using AOA or corrected AOA. 
+To me, there appears to be a "large" difference in either case. </p>
+<p><img alt="corr_aoa_PG1087636" src="images/6000_ice_shapes/corr_aoa_PG1087636.png">  </p>
+<p>For geometrically scaled tests in a wind tunnel, 
+the shape details of thin ice are sometimes not attempted to be simulated, 
+and distributed roughness is used instead to represent ice. 
+A 0.2-inch thick ice shape at 5% scale would be 0.01 inch thick, 
+and challenging to model in detail.  </p>
+<h2>Related</h2>
+<p>This post is part of the <a href="/drafts/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.<br>
+<a href="https://ntrs.nasa.gov/citations/20080041518">NACA/CR-2008-215174</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008.<br>
+<a href="https://ntrs.nasa.gov/citations/20070031804">NASA Report Number: E-16236</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>User's Manual for LEWICE Version 3.2
+<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a><br>
+The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>
