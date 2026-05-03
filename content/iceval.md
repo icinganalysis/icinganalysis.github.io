@@ -56,7 +56,6 @@ and provide additional analysis of the data.
  
 Possible future additions:  
 
- - A proposed alternative ice shape horn location measure  
  - Validating a recompiled version of LEWICE  
  - Conclusions of the IceVal DatAssistant thread  
 

@@ -84,7 +84,6 @@ and the final result is from the conditions applied sequentially.
 
 ![Time averaged MVD.](images/6000_ice_shapes/Time%20averaged%20MVD.png)  
 
-
 Ice protection was used in 442 of the runs.   
 
 ![Cases with ice_protection.](images/6000_ice_shapes/ice_protection.png)  
@@ -209,6 +208,13 @@ I tend to use the directory tree,
 and have utility functions written in Python that can readily 
 locate a specific case or group of cases.  
 
+Another tool is version control software such as Git [^6]. 
+While it is commonly used for software code management, 
+it can track changes to any type of file (for example, this blog uses Git). 
+If your database and/or data directories are under version control, 
+you can track when and why changes were made, 
+and have the option to roll back to an earlier version.  
+
 ## What is missing  
 
 The IceVal description notes some areas of future work:  
@@ -220,7 +226,7 @@ future work which would ultimately result in an improved product. These include:
 by the use of Microsoft Access;  
 >2) Enhanced error handling;  
 >3) Enhanced database security;  
->4) Implementation of an improved help system , including an electronically-accessible User’s Guide;  
+>4) Implementation of an improved help system, including an electronically-accessible User’s Guide;  
 >5) Incorporation of user-requested enhancements, such as the ability to overlay two user-selected images, or
 the addition of selected fields to the database; and  
 >6) Integration of the IceVal system into the GlennICE framework.  
@@ -276,7 +282,7 @@ which limits facility availability and increases costs.
 
 Aero-performance analysis with CFD (Computational Fluid Dynamics) is progressing, 
 but is still challenged for cases such as complex ice shapes 
-and performance near and past stall.  
+and performance near and past aerodynamic stall.  
 
 For more general application, one is left with correlations such as the 
 "Brumby" chart and NACA-TR-446 as described in 
@@ -308,4 +314,5 @@ William B. Wright and Adam Rutkowski, "A summary of validation results for LEWIC
 
 [^5]: Camello, Stephanie C., et al.: "Effect of Ice Shape Fidelity on Swept-Wing Aerodynamic Performance", 2018. 
 [GRC-E-DAA-TN42638](https://ntrs.nasa.gov/citations/20180001272)  
- 
+
+[^6]: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency." [git-scm.com](https://git-scm.com)  
