@@ -7,6 +7,7 @@ tags: LEWICE, ice shapes, NASA
 ### _"The resulting analysis showed that LEWICE compared well to the available experimental data." [^1]_  
  
 ![LEWICE32_LEWICE_hu_diff_detail_AE1168636](images/6000_ice_shapes/LEWICE32_LEWICE_hu_diff_detail_AE1168636.png)  
+_<div style="text-align: center;">An example of a good comparison between analysis and experiment.</div>_  
 
 ## Introduction  
 
