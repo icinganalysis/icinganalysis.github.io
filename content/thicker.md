@@ -1,4 +1,5 @@
 Title: A Geometric Analysis Method   
+Date: 2026-05-18 13:00  
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 

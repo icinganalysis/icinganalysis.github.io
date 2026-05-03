@@ -1,4 +1,5 @@
 Title: 6000 Ice Shapes - the IceVal DatAssistant   
+Date: 2026-05-18 9:00  
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 

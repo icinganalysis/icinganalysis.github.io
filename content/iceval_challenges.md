@@ -1,4 +1,5 @@
 Title: Challenges Using the IceVal Database    
+Date: 2026-05-18 11:00  
 status: draft  
 tags: LEWICE, ice shapes, NASA
 

@@ -1,4 +1,5 @@
 Title: Overall comparison assessments between experiment and LEWICE   
+Date: 2026-05-18 12:00  
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
