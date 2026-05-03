@@ -98,9 +98,3 @@ William B. Wright and Adam Rutkowski, "A summary of validation results for LEWIC
 [^7]: 
 Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
 [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
-
-
-
-
-
-
