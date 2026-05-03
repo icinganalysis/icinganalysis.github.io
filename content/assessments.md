@@ -1,6 +1,6 @@
 Title: Overall comparison assessments between experiment and LEWICE   
 status: draft  
-tags: LEWICE, ice shapes, NASA
+tags: LEWICE, ice shapes, NASA, IceVal
 
 <p style="font-size:50px;color:red">DRAFT</p>
 

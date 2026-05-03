@@ -1,6 +1,6 @@
 status: draft  
 title: Running LEWICE version 3.2.3 for the IceVal cases  
-tags: LEWICE, ice shapes, NASA
+tags: LEWICE, ice shapes, NASA, IceVal
 
 <p style="font-size:50px;color:red">DRAFT</p>
 
@@ -18,7 +18,7 @@ Here, we will repeat that analysis with a more recent version of LEWICE,
 and look at the effects of using "corrected" angle of attack values in the analysis.  
 
 The LEWICE ice shapes results in the IceVal database were apparently run with LEWICE version 3.2.2
-(We will abbreviate that Database LEWICE shape). 
+(We will abbreviate that as the Database LEWICE shape). 
 The IceVal users guide is not explicit, other than "the latest version of the LEWICE ice shape prediction code". 
 The 2008 LEWICE validation report was written at about the same time. It does not mention IceVal, 
 but the validation report was for LEWICE version 3.2.2.  
@@ -29,7 +29,7 @@ The currently available version is LEWICE 3.2.3 (which will be abbreviated as LE
 To compare ice shapes, the [Geometric Analysis Method]({filename}thicker.md) is used here. 
 When LEWICE3.2.3 is run for the IceVal LEWICE case conditions, 
 the results are, on average, quite similar between the Database LEWICE values and LEWICE3.2.3.
-
+ 
 ![LEWICE32_LEWICE_geometric_hur](images/6000_ice_shapes/LEWICE32_LEWICE_geometric_hur.png)  
 
 Here is an example of a case with where the ice shape determined by analysis 
