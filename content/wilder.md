@@ -135,10 +135,10 @@ Note the "Procedures developed for determining the ice cap size __by various man
 Several of my mentors had worked as more than one aircraft company, 
 and there was a fair amount of "cross pollination" of ideas. 
 
->Thus, a theoretical ice shipe for rine ice can be estimated by calculatine
-the local water catch for various positions in the impingenent area by:
+>Thus, a theoretical ice shape for rime ice can be estimated by calculating
+the local water catch for various positions in the impingement area by:
 ```text
-w_beta = 0.38 * beta * V * cos(sweep*w)           (2)
+w_beta = 0.38 * beta * V * cos(sweep) * w           (2)
 
 where 
       beta = local water catch efficiency
@@ -213,7 +213,7 @@ accretion data on two airfoils representative of the inboard wing and
 horizontal stabilizer configuration of typical current jet transport aircraft.
 This program a conducted in the NASA 6 foot by 9 foot icing tunnel at
 Cleveland, Ohio. Frm ice accretion data obtained in the test program, an
-emperical relationship was obtained which correlated ice accretion thickness
+empirical relationship was obtained which correlated ice accretion thickness
 and ice angles with theoretical impingement parameters. Use of these
 relationships allows the direct determination of ice shapes adjusted for any
 given icing and flight condition as well as for size and sweep of the airfoil.
@@ -504,7 +504,7 @@ This publication cites 6 references:
 - Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 - Gray, Vernon H.: Correlations Among Ice Measurements, Impingement Rates, Icing Conditions and Drag Coefficients for an Unswept NACA 65A004 Airfoil. NACA-TN-4151, 1958. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068588)  
 - Sherman, P., Klein, J. S., and Tribus, Myron: Determination of Drop Trajectories by Means of an Extension of Stokes' Law. Eng. Res. Inst. Air Res. and Dev. Command, USAF, Univ. Mich. Apr. 1952. (Contract AF 18 (600)-1, Proj. M992-D.) [deepblue.lib.umich.edu](https://deepblue.lib.umich.edu/handle/2027.42/7569)  
-- Stoffel, G. J., "Determination of the Necessity of Tail Ice Protection on Commercial Jetliners", Procedings of the 5th Annual National Conference on Environmental Effects on Aircraft and Propulsion Systems, 1965.  
+- Stoffel, G. J., "Determination of the Necessity of Tail Ice Protection on Commercial Jetliners", Proceedings of the 5th Annual National Conference on Environmental Effects on Aircraft and Propulsion Systems, 1965.  
 
 I could not find a citation of this publication in the literature,
 and so this truly qualifies as a candidate for __"The Greatest Thing That You Have (Probably) Never Read"__,

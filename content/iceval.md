@@ -54,6 +54,8 @@ and provide additional analysis of the data.
 - ## [Running LEWICE version 3.2.3 for the IceVal cases]({filename}comparisons_l32.md)  
     ### _"The resulting analysis showed that LEWICE compared well to the available experimental data."_  
 
+- ## [Swept Airfoil Cases in IceVal]({filename}sweep.md)
+    ### _"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"_  
  
 Possible future additions:  
 
