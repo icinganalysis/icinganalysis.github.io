@@ -161,7 +161,7 @@ For unswept cases in the IceVal database,
 LEWICE did a good job of matching ice area, with an 18% average difference from experiment [^6]:  
 
 ![Figure 6](images/6000_ice_shapes/NASA-TM-2008-215174/Figure%206.png)  
-_Public Domain image from ._  
+_Public Domain image from [^6]._  
 
 However, as seen above, for the swept cases the LEWICE area is visibly less than the experimental area. 
 
