@@ -252,12 +252,12 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 [^2]: Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)   
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1)   
 [^3]: William B. Wright, User's Manual for LEWICE Version 3.2 
-[NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
+[NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)   
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)  
 [^4]: Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068687)  
 [^5]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  
-[^6]: Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+[^6]: Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
 [^7]: 
 [Ice Prediction Workshop](https://icepredictionworkshop.wordpress.com) "The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data. We aim to provide an impartial forum to evaluating the effectiveness of icing methods and to identify the areas needing additional research and development."  
  

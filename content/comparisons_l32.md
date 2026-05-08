@@ -113,7 +113,7 @@ The mean value is negative, indicating that the horn angle when run with the cor
 are lesser, so they are higher up and/or aft than the horns run with the nominal angle of attack.  
 
 ![Figure 18](images/6000_ice_shapes/Figure%2018.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 ![LEWICE32_geometric_thetar_caoa](images/6000_ice_shapes/LEWICE32_geometric_thetar_caoa.png)  
  
@@ -161,7 +161,7 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 
 [^1]: 
 Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
-[NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+[NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
 
 [^2]: 
 Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008.  

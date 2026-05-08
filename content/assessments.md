@@ -30,7 +30,7 @@ and experimental error.
 These latter factor were relatively small.  
 
 ![1999 figure 18.](images/6000_ice_shapes/1999_fig18.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 Curiously, the relative difference ("%Difference based on Accretion Rate") 
 for upper horn height for experiment vs LEWICE 
@@ -51,7 +51,7 @@ For brevity, we will look at only two of the assessment comparison values:
 the upper surface maximum ice height, and its location, as defined in Figure 18 ("h_upper").  
 
 ![Figure 18.](images/6000_ice_shapes/Figure%2018.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 The validation report [^3] notes that a non-dimensional height ratio was used.  
 
@@ -77,7 +77,7 @@ one of the authors assured me that it is indeed the relative difference based on
 Also, the companion report NASA CR-1998-208687 has a similar figure with the "%Difference based on Accretion Rate" label.).  
 
 ![Figure 7.](images/6000_ice_shapes/Fig7.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
@@ -160,7 +160,7 @@ An average difference for the upper horn angle was about +/- 26 degrees.
 This will be used as a point of comparison for upper horn angle differences.  
 
 ![Figure 8.](images/6000_ice_shapes/Figure%208.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 This is may not be an applicable threshold for all use-cases. 
 However, I have not found another documented threshold candidate value.  
@@ -249,7 +249,7 @@ William B. Wright and Adam Rutkowski, "A summary of validation results for LEWIC
 See also the companion [NASA/CR-1998-208687](https://ntrs.nasa.gov/citations/19990017993).  
 
 [^3]: 
-Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
 
 [^4]: 
 Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)   

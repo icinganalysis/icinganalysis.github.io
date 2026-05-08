@@ -246,14 +246,14 @@ These are highly instructive about the 3D nature of the ice shape.
 The 2008 validation report [^3] shows a digitized tracing:  
 
 ![An ice shape tracing with an apparent ice ridge.](images/6000_ice_shapes/validation_figure_3.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 A photo clarifies:  
 
 >These figures show that the ice feathers are separated and do not form a solid ridge, which is the effect imagined when looking at the two-dimensional tracing.  
 
 ![Photo of the ice shape showing that the ridge is not continuous.](images/6000_ice_shapes/validation_figure_5.png)  
-_Public Domain image from [NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
+_Public Domain image from [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)._  
 
 ### The effects of ice shapes  
 
@@ -307,7 +307,7 @@ The software is available at [software.nasa.gov](https://software.nasa.gov/softw
 
 [^3]: 
 Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
-[NACA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+[NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
 
 [^4]: 
 William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999.  
