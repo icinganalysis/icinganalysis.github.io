@@ -1,5 +1,5 @@
 title: Swept Airfoil Cases in IceVal  
-Date: 2026-05-18 12:00  
+Date: 2026-05-18 15:00  
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
@@ -81,6 +81,9 @@ where
       sweep = airfoil sweep angle
       w = cloud liquid water content, g/m^3
 ```
+
+[If terms like beta in the context of water drop impingement are not familiar to you, 
+see [Intermediate:_Aircraft Icing Handbook Water Catch Examples]({filename}basics/intermediate_water_catch_examples.md)]
 
 Note that mathematically it does not matter if we consider the terms to be either 
 "(V * cos(sweep)) * LWC" or "V * (cos(sweep) * LWC)", the product is the same. 
