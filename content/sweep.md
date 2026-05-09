@@ -110,10 +110,12 @@ were assessed using LEWICE3.2.3:
 That the difference is that small is expected, as may be seen from a Beta curve in the Aircraft Icing Handbook [^5] for the NACA0012 airfoil:  
 
 ![Figure 2-13](images/Aircraft%20Icing%20Handbook%20volume%201/Figure%202-13.png)  
+_Public Domain image from [^5]._  
  
 Ko is the droplet acceleration parameter, and is roughly proportional to V^1/3.  
 
 ![Equation 2-11](images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-11.png)  
+_Public Domain image from [^5]._  
 
 A 29% reduction in airspeed for using a normal velocity translates to ~10% reduction in Ko, 
 and a resulting ~5% difference in Beta. 
@@ -141,7 +143,6 @@ When the LWC scaling is implemented, the results do not appear to be improved.
 However, there is another effect, apparent ice density, 
 that we will look at next.  
 
-
 ## Apparent Ice Density  
 
 A second important factor is apparent ice density. 
@@ -155,7 +156,7 @@ with many internal voids.
 
 ![Figure 14](images/wilder/Figure%2014.png)  
 
-_Public Domain image from AD690469 [^1]._  
+_Public Domain image from [^1]._  
 
 For unswept cases in the IceVal database, 
 LEWICE did a good job of matching ice area, with an 18% average difference from experiment [^6]:  
@@ -261,5 +262,4 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^7]: 
 [Ice Prediction Workshop](https://icepredictionworkshop.wordpress.com) "The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data. We aim to provide an impartial forum to evaluating the effectiveness of icing methods and to identify the areas needing additional research and development."  
  
-
 
