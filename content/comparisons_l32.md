@@ -63,7 +63,7 @@ we saw previously using the database LEWICE shapes:
 
 ![LEWICE32_geometric_thetar](images/6000_ice_shapes/LEWICE32_geometric_thetar.png)  
 
-While the 40 suspect cases note above have some significant differences in ice shapes, 
+While the 40 suspect cases noted above have some significant differences in ice shapes, 
 they are roughly balanced between too thick and too thin, and 
 there are not enough of them to affect the overall assessments much if 40 of 3165 shapes are removed from the analysis.  
 
