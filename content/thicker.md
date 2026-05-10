@@ -3,8 +3,6 @@ Date: 2026-05-18 13:00
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ### _"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."_  
 _From the LEWICE manual. [^1]_  
 

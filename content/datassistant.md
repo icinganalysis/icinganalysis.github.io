@@ -3,8 +3,6 @@ Date: 2026-05-18 10:00
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ### _"... all publicly available IRT-generated experimental ice shapes with complete and verifiable conditions have now been compiled into one electronically-searchable database"_  
 _NASA Report E-16236 [^1]._
 

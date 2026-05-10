@@ -5,8 +5,6 @@ tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"_ [^1]  
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ![swept_db_set_5](images/6000_ice_shapes/swept_db_set_5.png)   
 _<div style="text-align: center;">Experimental ice shapes compared to a LEWICE analysis.</div>_  
 

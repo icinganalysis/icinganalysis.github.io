@@ -3,8 +3,6 @@ Date: 2026-05-18 11:00
 status: draft  
 tags: LEWICE, ice shapes, NASA
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ### _"No data is clean, but most is useful."_  
 _attributed to Dean Abbott._  
 

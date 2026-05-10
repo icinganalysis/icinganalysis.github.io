@@ -3,8 +3,6 @@ Date: 2026-05-18 9:00
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ### _"As with any scientific endeavor, the foundation of icing research ... is the data acquired during experimental testing."_  
 _NASA Report E-16236 [^1]._  
 <br>  
@@ -59,7 +57,6 @@ and provide additional analysis of the data.
  
 Possible future additions:  
 
- - Validating a recompiled version of LEWICE  
  - Conclusions of the IceVal DatAssistant thread  
 
 ## Related   

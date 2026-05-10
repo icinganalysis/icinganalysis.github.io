@@ -3,8 +3,6 @@ Date: 2026-05-18 12:00
 status: draft  
 tags: LEWICE, ice shapes, NASA, IceVal
 
-<p style="font-size:50px;color:red">DRAFT</p>
-
 ### _"It is possible for any (or all!) ... parameters to be incorrectly output."_  
 
 ![Database compared to THICK with missed horn.](images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png)  
