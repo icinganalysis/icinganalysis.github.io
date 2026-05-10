@@ -12,15 +12,6 @@ _<div style="text-align: center;">Experimental ice shapes compared to a LEWICE a
 
 There are 41 swept airfoil cases in the IceVal database [^2].  
 
-LEWICE analysis for these cases tends to produce ice shapes that are consistently too small
-compared to experiment.  
-
-Empirically derived adjustments to the inputs to LEWICE are discussed that improve the ice shape match by some measures.  
-
-The analysis of ice shapes on swept wing is an area of ongoing research.  
-
-## Introduction  
-
 The quote at the top from Wilder briefly describes the
 the empirically based analytical method he described in [^1]. 
 However, it is not directly applicable to airfoils other than the ones he considered, 
@@ -30,10 +21,19 @@ For more details on Wilder's method, see [Wilder]({filename}wilder.md).
 LEWICE [^3], and other codes, 
 offer potentially more widely applicable methods of ice shape prediction in swept airfoils.  
 
-In the IceVal database, there are 41 cases with wing leading edge sweep values other than zero, 
+LEWICE analysis for these cases tends to produce ice shapes that are consistently too small
+compared to experiment.  
+
+Empirically derived adjustments to the inputs to LEWICE are discussed that improve the ice shape match by some measures.  
+
+The analysis of ice shapes on swept wing is an area of ongoing research.  
+
+## IceVal Database swept airfoil conditions  
+
+In the IceVal database, there are cases with wing leading edge sweep values other than zero, 
 ranging from 5 to 45 degrees. They were all for the NACA0012 airfoil with a 15-inch chord. 
 All used LWC=0.75 g/m^3, MVD=20, and Ttotal=25F, and all but one case used a icing spray time of 5 minutes. 
-Four airspeeds were included in the range of conditions.  
+Four airspeed values were included in the range of conditions.  
 
 Here are the conditions at the highest airspeed (173.7 KTAS):  
 
@@ -138,8 +138,7 @@ The use in IceVal of the nominal V and LWC values results in a higher (too high,
 water catch rate than the two methods discussed above.  
 
 When the LWC scaling is implemented, the results do not appear to be improved.  
-
-![swept_lewice_scaled_45_shapes](images/6000_ice_shapes/swept_lewice_scaled_45_shapes.png)  
+![swept_lewice_lwc_scaled_45s](images/6000_ice_shapes/swept_lewice_lwc_scaled_45s.png)  
 
 However, there is another effect, apparent ice density, 
 that we will look at next.  

@@ -288,22 +288,18 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 ## Notes  
 
 [^1]: 
-Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008.  
-[NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
+Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. [NASA Report Number: E-16236](https://ntrs.nasa.gov/citations/20070031804)  
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18343-1)  
 
 [^2]: 
-William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. 
-[NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0", 1999. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
 
 [^3]: 
 Van Zante, Judith Foss. A Database of Supercooled Large Droplet Ice Accretions. [NASA/CR-2007-215020](https://ntrs.nasa.gov/citations/20070032808), 2007.   
 
 [^4]: 
-User's Manual for LEWICE Version 3.2
-[NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
+User's Manual for LEWICE Version 3.2 [NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1) 
 
 [^5]: 
-Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
-[NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. [NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  

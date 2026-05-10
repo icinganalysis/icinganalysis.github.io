@@ -8,6 +8,17 @@ tags: LEWICE, ice shapes, NASA, IceVal
 ![Database compared to THICK with missed horn.](images/6000_ice_shapes/database_compared_to_thick%20missed%20horn2.png)  
 _<div style="text-align: center;">A case with identified horn locations that are debatable.</div>_
 
+## Introduction  
+
+Assessments of LEWICE ice shapes compared to experiment have been published twice. 
+
+The LEWICE THICK utility program was uses to identify ice horn locations and maximum heights. 
+However, engineering judgement was used to adjust some values in the IceVal database. 
+Cases with questionable ice horn identifications can be found in the database. 
+
+The difficulty of consistently identifying ice horns affects the comparison assessment between 
+LEWICE and experiment.  
+
 ## Published assessments  
 
 The overall comparison of LEWICE [^1] analysis to experimental data to has been published twice.  

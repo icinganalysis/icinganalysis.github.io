@@ -9,7 +9,7 @@ _From the LEWICE manual. [^1]_
 ![A case where two methods detected similar upper surface ice horns.](images/6000_ice_shapes/comp_geom_db_ED071136LEW_ED071136.png)  
 _<div style="text-align: center;">A case where two methods detected similar upper surface ice horns.</div>_  
 
-## Summary  
+## Introduction  
 
 Reviewing 6000+ ice shape assessments to verify that they agree with engineering judgement is a daunting task. 
 Even with professionalism and due-diligence, debatable results may be missed. 
@@ -167,8 +167,7 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 ## Notes  
 
 [^1]: 
-User's Manual for LEWICE Version 3.2
-[NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
+User's Manual for LEWICE Version 3.2 [NASA/CR—2008-214255](https://ntrs.nasa.gov/citations/20080048307)  
 The software is available at [software.nasa.gov](https://software.nasa.gov/software/LEW-18573-1)   
 
 [^2]: 
