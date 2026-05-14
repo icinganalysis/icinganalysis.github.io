@@ -1,6 +1,5 @@
 Title: Challenges Using the IceVal Database    
-Date: 2026-05-18 11:00  
-status: draft  
+Date: 2026-05-14 11:00  
 tags: LEWICE, ice shapes, NASA
 
 ### _"No data is clean, but most is useful."_  

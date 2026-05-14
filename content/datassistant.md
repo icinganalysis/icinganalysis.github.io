@@ -1,6 +1,5 @@
 Title: A Tour of the IceVal DatAssistant     
-Date: 2026-05-18 10:00  
-status: draft  
+Date: 2026-05-14 10:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"... all publicly available IRT-generated experimental ice shapes with complete and verifiable conditions have now been compiled into one electronically-searchable database"_  

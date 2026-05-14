@@ -1,6 +1,5 @@
 title: Swept Airfoil Cases in IceVal  
-Date: 2026-05-18 15:00  
-status: draft  
+Date: 2026-05-14 15:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"_ [^1]  

@@ -1,6 +1,5 @@
 Title: A Geometric Analysis Method   
-Date: 2026-05-18 13:00  
-status: draft  
+Date: 2026-05-14 13:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"This demonstrates that the automated process cannot (yet) be substituted for good engineering judgment."_  

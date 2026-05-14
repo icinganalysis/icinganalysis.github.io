@@ -1,16 +1,15 @@
 Title: 6000 Ice Shapes - the IceVal DatAssistant   
-Date: 2026-05-18 9:00  
-status: draft  
+Date: 2026-05-14 9:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"As with any scientific endeavor, the foundation of icing research ... is the data acquired during experimental testing."_  
 _NASA Report E-16236 [^1]._  
 <br>  
- 
+
 ![4132_ice_shapes on a NACA0012 airfoil.](images/6000_ice_shapes/4132_ice_shapes.png)  
 _<div style="text-align: center;">4132 ice shapes for the NACA0012 airfoil. </div>_  
 
-_[Yes, that is how it is spelled.]_
+_[Yes, that is how it is spelled.]_  
 
 The IceVal DatAssistant [^1], [^2] from NASA contains 6330 ice shapes from 
 experiments in the NASA Icing Research Tunnel [^3] (3665 shape tracings) 

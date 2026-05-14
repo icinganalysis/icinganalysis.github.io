@@ -1,6 +1,5 @@
-status: draft  
 title: Running LEWICE version 3.2.3 for the IceVal cases  
-Date: 2026-05-18 14:00  
+Date: 2026-05-14 14:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"The resulting analysis showed that LEWICE compared well to the available experimental data." [^1]_  
