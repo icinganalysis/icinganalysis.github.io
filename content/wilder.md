@@ -212,7 +212,7 @@ airfoils. Therefore Boeing initiated a research program to obtain basic ice
 accretion data on two airfoils representative of the inboard wing and
 horizontal stabilizer configuration of typical current jet transport aircraft.
 This program a conducted in the NASA 6 foot by 9 foot icing tunnel at
-Cleveland, Ohio. Frm ice accretion data obtained in the test program, an
+Cleveland, Ohio. From ice accretion data obtained in the test program, an
 empirical relationship was obtained which correlated ice accretion thickness
 and ice angles with theoretical impingement parameters. Use of these
 relationships allows the direct determination of ice shapes adjusted for any
