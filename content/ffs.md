@@ -151,7 +151,7 @@ The [Geometric Analysis method]({filename}thicker.md) was used to determine the 
 
 The Messinger freezing fraction correlation is re-validated herein over 3332 experimental cases, 
 in more detail than in [^3]. 
-
+ 
 The use of the correlations is much simpler than using LEWICE or other Computational Fluid Dynamics model 
 to determine horn height and 
 location, and the correlation is as accurate!  
