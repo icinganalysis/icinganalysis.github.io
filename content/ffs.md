@@ -18,19 +18,23 @@ things can get messy.
 
 However, we will see that the final results are surprisingly good.  
 
-## NASA/CR-2005-231852 [^3]  
+## NASA/CR-2005-213852 [^3]  
 
-"Evaluation and Validation of the Messinger Freezing Fraction" 
-looked at correlating ice shape parameters to calculated leading edge freezing fraction.  
+["Evaluation and Validation of the Messinger Freezing Fraction"]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md) 
+has been reviewed previously.  
+
+It looked at correlating ice shape parameters to calculated leading edge freezing fraction.  
+
 The test cases within it are now a subset of the IceVal database.  
 
-40 condition were tested to verify an implementation of [Messinger](link) [^4] freezing fraction calculations 
+40 condition were tested to verify an implementation of [Messinger]({filename}messinger.md) [^4] freezing fraction calculations 
 for the leading edge of an airfoil.  
 
 ![cr231852_table1.png](images/iceval_mff/cr231852_table1.png)  
 
 A key assumption is that the leading edge water collection efficiency can be accurately estimated from 
-the Langmuir-Blodgett correlation (See reference [^3] or [Langmuir](link) for more details).  
+the Langmuir-Blodgett correlation (See reference [^3] or 
+[Langmuir]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md) for more details).  
 
 ![cr231852_equ3.png](images/iceval_mff/cr231852_equ3.png)  
 
@@ -44,12 +48,12 @@ and several large drop icing cases.
 ![iceval_no_ne_bo_beta.png](images/iceval_mff/iceval_no_ne_bo_beta.png)
 
 The analytic leading edge freezing fraction can then be calculated.
-(See reference [^3] or [MoSM](link) for more details). 
+(See reference [^3] or [Manual of Scaling Methods]({filename}NASA-CR-2004-212875.md) for more details).  
 
 ![cr213852_equ10.png](images/iceval_mff/cr213852_equ10.png)  
 
 An experimental freezing fraction "ne" can be calculated from equation (1). 
-
+ 
 ![cr213853_equ1.png](images/iceval_mff/cr213853_equ1.png)  
 
 For a series of cases where the accumulation parameter (total water exposure) dimensionless parameter Ac was held constant, 
@@ -92,13 +96,13 @@ It is perhaps doubtful that this could be a useful correlation.
 
 However, we can back-calculate a predicted hu value for each case from the correlation and the 
 definition of nx. 
-we can then calculate a non-dimensional height ratio relative heigh difference as in the validation report [^3].  
+we can then calculate a non-dimensional height ratio relative heigh difference as in the LEWICE validation report [^3].  
 
->Where the ice shape
-does have a glaze ice horn, the max. thickness does
-give the horn thickness. In order to compare different
-conditions with different chord lengths and accretion
-conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.
+> Where the ice shape
+> does have a glaze ice horn, the max. thickness does
+> give the horn thickness. In order to compare different
+> conditions with different chord lengths and accretion
+> conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.
 
 ![Equation 3.](images/6000_ice_shapes/equation%203.png)  
 
@@ -130,7 +134,6 @@ while LEWICE had a +/-25 degree difference.
 
 ![LEWICE32_geometric_thetar](images/6000_ice_shapes/LEWICE32_geometric_thetar.png)  
 
-
 ## Notes about LEWICE and THICK  
 
 LEWICE can calculate an initial leading edge freezing fraction. 
@@ -142,12 +145,12 @@ and would require a unique post (if not several) to detail.
 The 'IceThicknessLEMin' values output by the LEWICE THICK utility were found to not be always reliable. 
 This is also true for the values in the IceVal ThickUtility Data table.
 The leading edge ice thickness is required to determine ne with equations (1) and (2). 
-The [Geometric Analysis method](link) was used to determine the values herein.  
+The [Geometric Analysis method]({filename}thicker.md) was used to determine the values herein.  
 
 ## Conclusions  
 
 The Messinger freezing fraction correlation is re-validated herein over 3332 experimental cases, 
-in more detail than in [^2]. 
+in more detail than in [^3]. 
 
 The use of the correlations is much simpler than using LEWICE or other Computational Fluid Dynamics model 
 to determine horn height and 
@@ -155,11 +158,10 @@ location, and the correlation is as accurate!
 
 One "only" had to run 3332 experimental cases on several airfoils at a wide variety of conditions 
 to obtain the correlations.  
+I view this as largely fulfilling [Wilder's vision]({filename}wilder.md) of [editing out the "and sweep" part]:    
 
-I view this as largely fulfilling Wilder's vision of [editing out the "and sweep" part]:    
-
->Use of these relationships allows the direct determination of ice shapes adjusted for 
-any given icing and flight condition as well as for size ... of the airfoil  
+> Use of these relationships allows the direct determination of ice shapes adjusted for
+> any given icing and flight condition as well as for size ... of the airfoil  
 
 # Notes  
 
@@ -175,3 +177,6 @@ large volume of data generated and utilized in performing icing research.
 Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  [ntrs](https://ntrs.nasa.gov/citations/20050215212)  
 [^4]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
+[^5]: 
+Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
+[NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
