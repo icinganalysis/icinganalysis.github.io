@@ -1,6 +1,6 @@
 status: draft  
-title: Testing Messinger Freezing Fraction Calculations with the IceVal Database  
-Date: 2026-06-06 14:00  
+title: Testing Messinger Freezing Fraction Correlations with the IceVal Database  
+Date: 2026-06-07 14:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."_  [^1]  
@@ -10,15 +10,17 @@ tags: LEWICE, ice shapes, NASA, IceVal
 ## Introduction  
 
 Studies have correlated icing conditions to ice shapes and their effects. 
-Here, we will test some of them using the 3665 experimental ice shapes in the IceVal database [^1]. 
+Here, we will test one using the 3332 experimental ice shapes cases in the IceVal database [^1] 
+without ice protection. 
 
-The studies had well-planned series of test conditions. 
-So, when we use all 3332 IceVal experimental shapes from tests woth diverse objectives, 
+The studies had well-planned series of test conditions for their objectives. 
+However, when we use all 3332 IceVal experimental shapes from tests with diverse objectives, 
 things can get messy. 
 
-However, we will see that the final results are surprisingly good.  
+We will see that the final results are surprisingly good.  
 
 ## NASA/CR-2005-213852 [^3]  
+
 NASA/CR-2005-213852 "Evaluation and Validation of the Messinger Freezing Fraction" 
 has been reviewed previously in 
 [Conclusions of the Ice Shapes and Their Effects thread]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md).  
@@ -41,7 +43,7 @@ the Langmuir-Blodgett correlation (See reference [^3] or
 For an airfoil, the leading diameter of curvature is used when calculating Ko, 
 not the leading edge radius as for a cylinder.  
 
-The values correlate quite well to values calculated by LEWICE,  
+The values correlate quite well to values calculated by LEWICE, 
 with 3332 cases considered, including cases for several airfoils at several AOA values, 
 and several large drop icing cases.  
 
@@ -68,12 +70,12 @@ The na and ne values were found to correlate well.
 If we look at 672 cases in IceVal for the NACA0012 airfoil at A0A=0, 
 the correlation for na is not as close as for the 40 cases in NASA/CR-2005-231852 Figure 3.  
 
-![ice_val_na_ne2_na_neNo Ice Protection AOA_0 Airfoil_NACA0012 No SLD.png](images/iceval_mff/ice_val_na_ne2_na_neNo%20Ice%20Protection%20AOA_0%20Airfoil_NACA0012%20No%20SLD.png)  
+![ice_val_na_ne2_na_neAOA_0 Airfoil_NACA0012 No SLD.png](images/iceval_mff/ice_val_na_ne2_na_neAOA_0%20Airfoil_NACA0012%20No%20SLD.png)
 
 From the figure above, several cases "stack" vertically at selected values of na. 
 Many of the test sequences were planned to make this happen.  
 
-For all cases in the IceVal database, the correlation is comparable.  
+For the cases without ice protection in the IceVal database, the correlation is comparable.  
 ![ice_val_na_ne2_na_ne.png](images/iceval_mff/ice_val_na_ne2_na_ne.png)  
 
 ## Upper surface ice horn thickness  
@@ -88,7 +90,7 @@ We can extend this to define a "nx" value for the upper horn height hu:
 ```text
 hu / d = nx Ac Beta_o
 ```
-For the 3332 IceVal cases, the correlation is surprisingly (to me) flat. 
+For the 3332 IceVal cases, the correlation is surprisingly flat. 
 ![ice_val_na_ne2_na_nx.png](images/iceval_mff/ice_val_na_ne2_na_nx.png)  
 
 There are numerous outliers. 
@@ -115,7 +117,7 @@ relative height difference = (thick_experiment - thick_lewice) / t_max
 When this values is compared to experiment, the variance (average difference) is 0.15:  
 ![ice_val_na_ne2_dhux_var.png](images/iceval_mff/ice_val_na_ne2_dhux_var.png)  
 
-This is surprisingly [to me] quite comparable to the comparison between LEWICE values and experiment 
+This is quite comparable to the comparison between LEWICE values and experiment 
 of 0.159:  
 
 ![LEWICE32_geometric_hur](images/6000_ice_shapes/LEWICE32_geometric_hur.png)  
@@ -136,32 +138,50 @@ while LEWICE had a +/-25 degree difference.
 
 ## Notes about LEWICE and THICK  
 
-LEWICE can calculate an initial leading edge freezing fraction. 
+LEWICE can calculate a leading edge initial freezing fraction. 
 However, you will find that the LEWICE value do not always correspond well to values calculated using 
 equation (10). 
 The reasons for this are many and complex, 
-and would require a unique post (if not several) to detail.  
+and would require a dedicated post (if not several) to detail. 
+A few reasons include a different leading edge heat transfer coefficient, 
+and a transient component in the freezing calculation in LEWICE.  
 
-The 'IceThicknessLEMin' values output by the LEWICE THICK utility were found to not be always reliable. 
-This is also true for the values in the IceVal ThickUtility Data table.
+The 'IceThicknessLEMin' values output by the LEWICE THICK utility were found to not be always accurate. 
+This is also true for the values in the IceVal ThickUtilityData table.
 The leading edge ice thickness is required to determine ne with equations (1) and (2). 
 The [Geometric Analysis method]({filename}thicker.md) was used to determine the values herein.  
 
+For nine of the 40 cases in NASA/CR-2005-213852 the minimum leading edge ice thickness 
+determined by the geometric method differed by more than 10% for Iceval or THICK values, 
+while the geometric method value agreed well with the Table 1 value. 
+An example is shown below, where the Table 1 value was 2.16 cm (0.85 inch). 
+THICK reports a leading edge minimum thickness value, but not a location, 
+so the THICK value is illustrated as a displacement from the airfoil surface. 
+
+![min_le_AE1122136.png](images/iceval_mff/min_le_AE1122136.png)  
+
 ## Conclusions  
 
-The Messinger freezing fraction correlation is re-validated herein over 3332 experimental cases, 
-in more detail than in [^3]. 
+The Messinger freezing leading edge fraction correlation from NASA/CR-2005-213852 is re-validated herein over 3332 experimental cases, 
+in more detail than in NASA/CR-2005-213852 [^3]. 
  
-The use of the correlations is much simpler than using LEWICE or other Computational Fluid Dynamics model 
-to determine horn height and 
-location, and the correlation is as accurate!  
+The correlations developed herein are much simpler than using LEWICE or other Computational Fluid Dynamics model 
+to determine horn height and location, and the correlations are as accurate!  
+
+The ice horn angle and thickness from the correlations can be used to estimate aerodynamic effects
+(see [Conclusions of the Ice Shapes and Their Effects thread]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md)).  
 
 One "only" had to run 3332 experimental cases on several airfoils at a wide variety of conditions 
 to obtain the correlations.  
-I view this as largely fulfilling [Wilder's vision]({filename}wilder.md) of [editing out the "and sweep" part]:    
+
+I view the correlations as largely fulfilling [Wilder's vision]({filename}wilder.md) of [leaving out the "and sweep" part]:    
 
 > Use of these relationships allows the direct determination of ice shapes adjusted for
 > any given icing and flight condition as well as for size ... of the airfoil  
+
+## Related  
+
+This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename}iceval.md) thread.  
 
 # Notes  
 
