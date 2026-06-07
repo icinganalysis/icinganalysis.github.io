@@ -19,9 +19,9 @@ things can get messy.
 However, we will see that the final results are surprisingly good.  
 
 ## NASA/CR-2005-213852 [^3]  
-
-["Evaluation and Validation of the Messinger Freezing Fraction"]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md) 
-has been reviewed previously.  
+NASA/CR-2005-213852 "Evaluation and Validation of the Messinger Freezing Fraction" 
+has been reviewed previously in 
+[Conclusions of the Ice Shapes and Their Effects thread]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md).  
 
 It looked at correlating ice shape parameters to calculated leading edge freezing fraction.  
 
@@ -96,7 +96,7 @@ It is perhaps doubtful that this could be a useful correlation.
 
 However, we can back-calculate a predicted hu value for each case from the correlation and the 
 definition of nx. 
-we can then calculate a non-dimensional height ratio relative heigh difference as in the LEWICE validation report [^3].  
+we can then calculate a non-dimensional height ratio relative heigh difference as in the LEWICE validation report [^5].  
 
 > Where the ice shape
 > does have a glaze ice horn, the max. thickness does
@@ -167,7 +167,7 @@ I view this as largely fulfilling [Wilder's vision]({filename}wilder.md) of [edi
 
 [^1]: 
 Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
-[^2:] IceVal DatAssistant (LEW-18343-1)
+[^2]: IceVal DatAssistant (LEW-18343-1)
 Overview
 This NASA-developed technology provides an improved mechanism for managing the 
 large volume of data generated and utilized in performing icing research.  
