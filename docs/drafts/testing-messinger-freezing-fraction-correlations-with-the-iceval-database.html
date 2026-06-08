@@ -34,12 +34,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-06-07T14:00:00-07:00">
-                Published: Sun 07 June 2026
+        <abbr class="published" title="2026-06-08T15:00:00-07:00">
+                Published: Mon 08 June 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-06-07T13:44:24.916721-07:00">
-                Updated: Sun 07 June 2026
+        <abbr class="modified" title="2026-06-08T15:09:05.743673-07:00">
+                Updated: Mon 08 June 2026
         </abbr>
 <!---->
         <!---->
@@ -137,7 +137,369 @@ and using a na to theta_u correlation:  </p>
 <p><img alt="ice_val_na_ne2_theta_var2.png" src="images/iceval_mff/ice_val_na_ne2_theta_var2.png">  </p>
 <p>The correlations resulted in a +/-24 degree average horn angle difference, 
 while LEWICE had a +/-25 degree difference.</p>
-<p><img alt="LEWICE32_geometric_thetar" src="images/6000_ice_shapes/LEWICE32_geometric_thetar.png">  </p>
+<p><img alt="LEWICE32_geometric_thetar" src="images/6000_ice_shapes/LEWICE32_geometric_thetar.png"></p>
+<h2>Illustrations of use of the nx correlations</h2>
+<p>27 cases were selected to illustrate how well (or not) the correlations can identify an upper horn location. 
+The cases cover a wide range of na and aoa values. 
+They also cover cases either the correlation or LEWICE was accurate, 
+or one appeared to be better than the other. </p>
+<p>The identified horn location is plotted, as well as the test ice shape and LEWICE analysis 
+with identified upper and lower horns. 
+In some cases, the correlation match the upper horn better than the identified by the geometric method.<br>
+Both THICK and the geometric method have challenges for identifying horns, 
+as discussed in <a href="link">Geometric Method</a>.  </p>
+<p>In a few cases, it is evident that the ice shapes tracing does not match the test conditions 
+listed in IceVal. 
+For a few cases it is debatable if either the correlations or LEWICE are accurate.  </p>
+<p><img alt="nx_plot_row0" src="images/iceval_mff/nx_plot_row0.png">
+<img alt="nx_plot_row1" src="images/iceval_mff/nx_plot_row1.png">
+<img alt="nx_plot_row2" src="images/iceval_mff/nx_plot_row2.png">
+<img alt="nx_plot_row3" src="images/iceval_mff/nx_plot_row3.png">
+<img alt="nx_plot_row4" src="images/iceval_mff/nx_plot_row4.png">
+<img alt="nx_plot_row5" src="images/iceval_mff/nx_plot_row5.png">
+<img alt="nx_plot_row6" src="images/iceval_mff/nx_plot_row6.png"></p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>aoa</th>
+<th>na</th>
+<th>hu</th>
+<th>theta</th>
+<th>hx</th>
+<th>theta</th>
+<th>hu_lew</th>
+<th>theta</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF1014336</td>
+<td>6.0</td>
+<td>0.108</td>
+<td>1.419</td>
+<td>126.7</td>
+<td>2.964</td>
+<td>104.4</td>
+<td>1.815</td>
+<td>138.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1088536</td>
+<td>5.0</td>
+<td>0.142</td>
+<td>0.263</td>
+<td>81.8</td>
+<td>0.335</td>
+<td>106.9</td>
+<td>0.201</td>
+<td>90.9</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026942</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>1.648</td>
+<td>141.9</td>
+<td>1.500</td>
+<td>109.8</td>
+<td>1.894</td>
+<td>160.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026842</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>0.403</td>
+<td>121.2</td>
+<td>0.400</td>
+<td>109.8</td>
+<td>0.533</td>
+<td>137.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>EG113842</td>
+<td>5.0</td>
+<td>0.188</td>
+<td>3.043</td>
+<td>150.4</td>
+<td>1.677</td>
+<td>110.3</td>
+<td>1.850</td>
+<td>143.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1086136</td>
+<td>5.0</td>
+<td>0.222</td>
+<td>0.398</td>
+<td>100.7</td>
+<td>0.392</td>
+<td>112.9</td>
+<td>0.362</td>
+<td>86.3</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AD1102736</td>
+<td>0.0</td>
+<td>0.276</td>
+<td>0.475</td>
+<td>86.4</td>
+<td>0.573</td>
+<td>116.9</td>
+<td>0.255</td>
+<td>88.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>JF1559</td>
+<td>2.0</td>
+<td>0.296</td>
+<td>1.376</td>
+<td>105.7</td>
+<td>0.291</td>
+<td>118.4</td>
+<td>0.165</td>
+<td>70.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>AE170536</td>
+<td>4.0</td>
+<td>0.306</td>
+<td>0.954</td>
+<td>146.1</td>
+<td>0.615</td>
+<td>119.2</td>
+<td>0.736</td>
+<td>137.0</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AC1136136</td>
+<td>0.0</td>
+<td>0.392</td>
+<td>0.459</td>
+<td>112.1</td>
+<td>0.493</td>
+<td>125.7</td>
+<td>0.321</td>
+<td>98.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1062836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>1.087</td>
+<td>130.8</td>
+<td>0.705</td>
+<td>128.9</td>
+<td>0.606</td>
+<td>228.5</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1060236</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.678</td>
+<td>156.9</td>
+<td>1.409</td>
+<td>128.9</td>
+<td>1.493</td>
+<td>212.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>IG1058836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.057</td>
+<td>40.9</td>
+<td>0.313</td>
+<td>128.9</td>
+<td>0.230</td>
+<td>253.0</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>ED071136</td>
+<td>2.0</td>
+<td>0.544</td>
+<td>1.479</td>
+<td>179.3</td>
+<td>1.318</td>
+<td>137.1</td>
+<td>1.437</td>
+<td>163.1</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1010536</td>
+<td>6.0</td>
+<td>0.548</td>
+<td>2.285</td>
+<td>201.4</td>
+<td>2.943</td>
+<td>137.4</td>
+<td>2.845</td>
+<td>202.7</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027836</td>
+<td>6.0</td>
+<td>0.562</td>
+<td>0.330</td>
+<td>211.8</td>
+<td>0.393</td>
+<td>138.4</td>
+<td>0.455</td>
+<td>228.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1011536</td>
+<td>6.0</td>
+<td>0.829</td>
+<td>3.402</td>
+<td>189.3</td>
+<td>3.166</td>
+<td>158.4</td>
+<td>2.930</td>
+<td>205.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AF1161936</td>
+<td>0.0</td>
+<td>0.995</td>
+<td>0.592</td>
+<td>71.7</td>
+<td>1.818</td>
+<td>170.9</td>
+<td>1.771</td>
+<td>163.0</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE036936</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.298</td>
+<td>103.3</td>
+<td>0.868</td>
+<td>171.3</td>
+<td>0.822</td>
+<td>197.5</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027630</td>
+<td>6.0</td>
+<td>1.000</td>
+<td>1.008</td>
+<td>186.2</td>
+<td>0.893</td>
+<td>171.3</td>
+<td>0.948</td>
+<td>225.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AD1120036</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.659</td>
+<td>175.9</td>
+<td>0.615</td>
+<td>171.3</td>
+<td>0.578</td>
+<td>180.3</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE1150636</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.467</td>
+<td>73.8</td>
+<td>1.155</td>
+<td>171.3</td>
+<td>1.132</td>
+<td>176.4</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF047736</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.309</td>
+<td>107.8</td>
+<td>1.335</td>
+<td>171.3</td>
+<td>1.470</td>
+<td>203.4</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AE1001918</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.087</td>
+<td>115.1</td>
+<td>0.620</td>
+<td>171.3</td>
+<td>0.618</td>
+<td>208.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>JF1024542</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.406</td>
+<td>85.4</td>
+<td>1.436</td>
+<td>171.3</td>
+<td>1.408</td>
+<td>171.8</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF018036</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.429</td>
+<td>93.3</td>
+<td>1.251</td>
+<td>171.3</td>
+<td>1.365</td>
+<td>203.6</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>EG112436</td>
+<td>5.0</td>
+<td>1.000</td>
+<td>0.175</td>
+<td>109.2</td>
+<td>0.530</td>
+<td>171.3</td>
+<td>0.600</td>
+<td>249.8</td>
+<td>corrects hu</td>
+</tr>
+</tbody>
+</table>
 <h2>Notes about LEWICE and THICK</h2>
 <p>LEWICE can calculate a leading edge initial freezing fraction. 
 However, you will find that the LEWICE value do not always correspond well to values calculated using 

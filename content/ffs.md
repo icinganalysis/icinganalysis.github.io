@@ -1,6 +1,6 @@
 status: draft  
 title: Testing Messinger Freezing Fraction Correlations with the IceVal Database  
-Date: 2026-06-07 14:00  
+Date: 2026-06-08 15:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."_  [^1]  
@@ -77,8 +77,8 @@ Many of the test sequences were planned to make this happen.
 
 For the cases without ice protection in the IceVal database, the correlation is comparable.  
 ![ice_val_na_ne2_na_ne.png](images/iceval_mff/ice_val_na_ne2_na_ne.png)  
-
-## Upper surface ice horn thickness  
+ 
+## Upper surface ice horn thickness   
 
 As the effects of ice have been correlated to upper surface ice horn height hu, 
 it is desirable to be able to predict the value of hu.
@@ -134,7 +134,66 @@ and using a na to theta_u correlation:
 The correlations resulted in a +/-24 degree average horn angle difference, 
 while LEWICE had a +/-25 degree difference.
 
-![LEWICE32_geometric_thetar](images/6000_ice_shapes/LEWICE32_geometric_thetar.png)  
+![LEWICE32_geometric_thetar](images/6000_ice_shapes/LEWICE32_geometric_thetar.png)
+
+## Illustrations of use of the nx correlations  
+
+27 cases were selected to illustrate how well (or not) the correlations can identify an upper horn location. 
+The cases cover a wide range of na and aoa values. 
+They also cover cases either the correlation or LEWICE was accurate, 
+or one appeared to be better than the other. 
+
+The identified horn location is plotted, as well as the test ice shape and LEWICE analysis 
+with identified upper and lower horns. 
+In some cases, the correlation match the upper horn better than the identified by the geometric method.  
+Both THICK and the geometric method have challenges for identifying horns, 
+as discussed in [Geometric Method](link).  
+
+In a few cases, it is evident that the ice shapes tracing does not match the test conditions 
+listed in IceVal. 
+For a few cases it is debatable if either the correlations or LEWICE are accurate.  
+
+![nx_plot_row0](images/iceval_mff/nx_plot_row0.png)
+![nx_plot_row1](images/iceval_mff/nx_plot_row1.png)
+![nx_plot_row2](images/iceval_mff/nx_plot_row2.png)
+![nx_plot_row3](images/iceval_mff/nx_plot_row3.png)
+![nx_plot_row4](images/iceval_mff/nx_plot_row4.png)
+![nx_plot_row5](images/iceval_mff/nx_plot_row5.png)
+![nx_plot_row6](images/iceval_mff/nx_plot_row6.png)
+
+
+| Case     |aoa | na  |  hu  |theta | hx   |theta |hu_lew|theta| Comment|
+|----------|----|-----|------|------|------|------|------|------|-------|
+|HF1014336 | 6.0|0.108| 1.419| 126.7| 2.964| 104.4| 1.815| 138.8| LEWICE better|
+|PG1088536 | 5.0|0.142| 0.263|  81.8| 0.335| 106.9| 0.201|  90.9| LEWICE better| 
+|HF1026942 | 6.0|0.181| 1.648| 141.9| 1.500| 109.8| 1.894| 160.3| LEWICE better|
+|HF1026842 | 6.0|0.181| 0.403| 121.2| 0.400| 109.8| 0.533| 137.9| better than LEWICE|
+|EG113842  | 5.0|0.188| 3.043| 150.4| 1.677| 110.3| 1.850| 143.8| LEWICE better|
+|PG1086136 | 5.0|0.222| 0.398| 100.7| 0.392| 112.9| 0.362|  86.3| debatable|
+|AD1102736 | 0.0|0.276| 0.475|  86.4| 0.573| 116.9| 0.255|  88.9| better than LEWICE|
+|JF1559    | 2.0|0.296| 1.376| 105.7| 0.291| 118.4| 0.165|  70.8| wrong tracing|
+|AE170536  | 4.0|0.306| 0.954| 146.1| 0.615| 119.2| 0.736| 137.0| LEWICE better|
+|AC1136136 | 0.0|0.392| 0.459| 112.1| 0.493| 125.7| 0.321|  98.8| better than LEWICE|
+|IG1062836 | 5.0|0.435| 1.087| 130.8| 0.705| 128.9| 0.606| 228.5| better than LEWICE|
+|IG1060236 | 5.0|0.435| 0.678| 156.9| 1.409| 128.9| 1.493| 212.8| LEWICE better|
+|IG1058836 | 5.0|0.435| 0.057|  40.9| 0.313| 128.9| 0.230| 253.0| debatable|
+|ED071136  | 2.0|0.544| 1.479| 179.3| 1.318| 137.1| 1.437| 163.1| LEWICE better|
+|HF1010536 | 6.0|0.548| 2.285| 201.4| 2.943| 137.4| 2.845| 202.7| LEWICE better|
+|HF1027836 | 6.0|0.562| 0.330| 211.8| 0.393| 138.4| 0.455| 228.8| LEWICE better|
+|HF1011536 | 6.0|0.829| 3.402| 189.3| 3.166| 158.4| 2.930| 205.3| LEWICE better |
+|AF1161936 | 0.0|0.995| 0.592|  71.7| 1.818| 170.9| 1.771| 163.0| better than LEWICE  |
+|AE036936  | 4.0|1.000| 0.298| 103.3| 0.868| 171.3| 0.822| 197.5| LEWICE better|
+|HF1027630 | 6.0|1.000| 1.008| 186.2| 0.893| 171.3| 0.948| 225.8| better than LEWICE|
+|AD1120036 | 0.0|1.000| 0.659| 175.9| 0.615| 171.3| 0.578| 180.3| better than LEWICE |
+|AE1150636 | 0.0|1.000| 0.467|  73.8| 1.155| 171.3| 1.132| 176.4| corrects hu|
+|AF047736  | 3.0|1.000| 0.309| 107.8| 1.335| 171.3| 1.470| 203.4| debatable |
+|AE1001918 | 4.0|1.000| 0.087| 115.1| 0.620| 171.3| 0.618| 208.8| wrong tracing|
+|JF1024542 | 0.0|1.000| 0.406|  85.4| 1.436| 171.3| 1.408| 171.8| corrects hu|
+|AF018036  | 3.0|1.000| 0.429|  93.3| 1.251| 171.3| 1.365| 203.6| corrects hu|
+|EG112436  | 5.0|1.000| 0.175| 109.2| 0.530| 171.3| 0.600| 249.8| corrects hu |  
+
+
+
 
 ## Notes about LEWICE and THICK  
 
