@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content=""an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters." 1 Introduction Studies have..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html" rel="bookmark"
+           title="Permalink to Testing Messinger Freezing Fraction Correlations with the IceVal Database">Testing Messinger Freezing Fraction Correlations with the IceVal Database</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-06-09T16:00:00-07:00">
+                Published: Tue 09 June 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-06-09T15:39:37.876086-07:00">
+                Updated: Tue 09 June 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> <a href="/tag/iceval.html">IceVal</a><br> </p>
+</footer><!-- /.post-info -->      <h3><em>"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<p><img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png">  </p>
+<h2>Introduction</h2>
+<p>Studies have correlated icing conditions to ice shapes and their effects. 
+Here, we will test one using the 3332 experimental ice shapes cases in the IceVal database <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
+without ice protection. </p>
+<p>The studies had well-planned series of test conditions for their objectives. 
+However, when we use all 3332 IceVal experimental shapes from tests with diverse objectives, 
+things can get messy. </p>
+<p>We will see that the final results are surprisingly good.  </p>
+<h2>NASA/CR-2005-213852 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></h2>
+<p>NASA/CR-2005-213852 "Evaluation and Validation of the Messinger Freezing Fraction" 
+has been reviewed previously in 
+<a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects thread</a>.  </p>
+<p>It looked at correlating ice shape parameters to calculated leading edge freezing fraction.  </p>
+<p>The test cases within it are now a subset of the IceVal database.  </p>
+<p>40 condition were tested to verify an implementation of <a href="/messinger.html">Messinger</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> freezing fraction calculations 
+for the leading edge of an airfoil.  </p>
+<p><img alt="cr231852_table1.png" src="images/iceval_mff/cr231852_table1.png"><br>
+<em>Public Domain image from <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>A key assumption is that the leading edge water collection efficiency can be accurately estimated from 
+the Langmuir-Blodgett correlation (See reference <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or 
+<a href="/mathematical-investigation-of-water-droplet-trajectories.html">Langmuir</a> for more details).  </p>
+<p><img alt="cr231852_equ3.png" src="images/iceval_mff/cr231852_equ3.png"><br>
+<em>Public Domain image from <sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>For an airfoil, the leading diameter of curvature is used when calculating Ko, 
+not the leading edge radius as for a cylinder.  </p>
+<p>The values correlate quite well to values calculated by LEWICE, 
+with 3332 cases considered, including cases for several airfoils at several AOA values, 
+and several large drop icing cases.  </p>
+<p><img alt="iceval_no_ne_bo_beta.png" src="images/iceval_mff/iceval_no_ne_bo_beta.png"></p>
+<p>The analytic leading edge freezing fraction can then be calculated.
+(See reference <sup id="fnref5:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or <a href="/manual-of-scaling-methods.html">Manual of Scaling Methods</a> for more details).  </p>
+<p><img alt="cr213852_equ10.png" src="images/iceval_mff/cr213852_equ10.png"><br>
+<em>Public Domain image from <sup id="fnref6:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>An experimental freezing fraction "ne" can be calculated from equation (1). </p>
+<p><img alt="cr213853_equ1.png" src="images/iceval_mff/cr213853_equ1.png"><br>
+<em>Public Domain image from <sup id="fnref7:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>For a series of cases where the accumulation parameter (total water exposure) dimensionless parameter Ac was held constant, 
+the ice shapes change with as temperature was varied, with a resulting change in freezing fraction.  </p>
+<p>The na and ne values were found to correlate well.  </p>
+<p><img alt="cr213852_fig3.png" src="images/iceval_mff/cr213852_fig3.png"><br>
+<em>Public Domain image from <sup id="fnref8:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<h2>Comparisons with IceVal data</h2>
+<p>If we look at 672 cases in IceVal for the NACA0012 airfoil at A0A=0, 
+the correlation for na is not as close as for the 40 cases in NASA/CR-2005-231852 Figure 3.  </p>
+<p><img alt="ice_val_na_ne2_na_neAOA_0 Airfoil_NACA0012 No SLD.png" src="images/iceval_mff/ice_val_na_ne2_na_neAOA_0%20Airfoil_NACA0012%20No%20SLD.png"></p>
+<p>From the figure above, several cases "stack" vertically at selected values of na. 
+Many of the test sequences were planned to make this happen.  </p>
+<p>For the cases without ice protection in the IceVal database, the correlation is comparable.<br>
+<img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png">  </p>
+<h2>Upper surface ice horn thickness</h2>
+<p>As the effects of ice have been correlated to upper surface ice horn height hu, 
+it is desirable to be able to predict the value of hu.</p>
+<p>The calculation of ne in equations (1) and (2) are for the airfoil leading edge. </p>
+<p>We can extend this to define a "nx" value for the upper horn height hu:</p>
+<div class="highlight"><pre><span></span><code>hu / d = nx Ac Beta_o
+</code></pre></div>
+
+<p>For the 3332 IceVal cases, the correlation is surprisingly flat. 
+<img alt="ice_val_na_ne2_na_nx.png" src="images/iceval_mff/ice_val_na_ne2_na_nx.png">  </p>
+<p>There are numerous outliers. 
+It is perhaps doubtful that this could be a useful correlation. </p>
+<p>However, we can back-calculate a predicted hu value for each case from the correlation and the 
+definition of nx. 
+we can then calculate a non-dimensional height ratio relative heigh difference as in the LEWICE validation report <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.  </p>
+<blockquote>
+<p>Where the ice shape
+does have a glaze ice horn, the max. thickness does
+give the horn thickness. In order to compare different
+conditions with different chord lengths and accretion
+conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.</p>
+</blockquote>
+<p><img alt="Equation 3." src="images/6000_ice_shapes/equation%203.png">  </p>
+<div class="highlight"><pre><span></span><code>maximum accumulation thickness = t_max = LWC Airspeed Time / ice_density  (with unit conversions)
+
+relative height difference = (thick_experiment - thick_lewice) / t_max
+</code></pre></div>
+
+<p>When this values is compared to experiment, the variance (average difference) is 0.15:<br>
+<img alt="ice_val_na_ne2_dhux_var.png" src="images/iceval_mff/ice_val_na_ne2_dhux_var.png">  </p>
+<p>This is quite comparable to the comparison between LEWICE values and experiment 
+of 0.159:  </p>
+<p><img alt="LEWICE32_geometric_hur" src="images/6000_ice_shapes/LEWICE32_geometric_hur.png">  </p>
+<h2>Upper surface horn angle</h2>
+<p>Also surprisingly, a similar comparison for upper horn angle is comparable between the LEWICE results 
+and using a na to theta_u correlation:  </p>
+<p><img alt="ice_val_na_ne2_na_theta_corr.png" src="images/iceval_mff/ice_val_na_ne2_na_theta_corr.png">  </p>
+<p><img alt="ice_val_na_ne2_theta_var2.png" src="images/iceval_mff/ice_val_na_ne2_theta_var2.png">  </p>
+<p>The correlations resulted in a +/-24 degree average horn angle difference, 
+while LEWICE had a +/-25 degree difference.</p>
+<p><img alt="LEWICE32_geometric_thetar" src="images/6000_ice_shapes/LEWICE32_geometric_thetar.png"></p>
+<h2>Illustrations of use of the nx correlations</h2>
+<p>27 cases were selected to illustrate how well (or not) the correlations can identify an upper horn location. 
+The cases cover a wide range of na and aoa values. 
+They also cover cases either the correlation or LEWICE was accurate, 
+or one appeared to be better than the other. </p>
+<p>The identified horn location is plotted, as well as the test ice shape and LEWICE analysis 
+with identified upper and lower horns. 
+In some cases, the correlation match the upper horn better than the identified by the geometric method.<br>
+Both THICK and the geometric method have challenges for identifying horns, 
+as discussed in <a href="/a-geometric-analysis-method.html">A Geometric Method</a>.  </p>
+<p>In a few cases, it is evident that the ice shapes tracing does not match the test conditions 
+listed in IceVal. 
+For a few cases it is debatable if either the correlations or LEWICE are accurate.  </p>
+<p><img alt="nx_plot_row0" src="images/iceval_mff/nx_plot_row0.png">
+<img alt="nx_plot_row1" src="images/iceval_mff/nx_plot_row1.png">
+<img alt="nx_plot_row2" src="images/iceval_mff/nx_plot_row2.png">
+<img alt="nx_plot_row3" src="images/iceval_mff/nx_plot_row3.png">
+<img alt="nx_plot_row4" src="images/iceval_mff/nx_plot_row4.png">
+<img alt="nx_plot_row5" src="images/iceval_mff/nx_plot_row5.png">
+<img alt="nx_plot_row6" src="images/iceval_mff/nx_plot_row6.png"></p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>aoa</th>
+<th>na</th>
+<th>hu</th>
+<th>theta</th>
+<th>hx</th>
+<th>theta</th>
+<th>hu_lew</th>
+<th>theta</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF1014336</td>
+<td>6.0</td>
+<td>0.108</td>
+<td>1.419</td>
+<td>126.7</td>
+<td>2.964</td>
+<td>104.4</td>
+<td>1.815</td>
+<td>138.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1088536</td>
+<td>5.0</td>
+<td>0.142</td>
+<td>0.263</td>
+<td>81.8</td>
+<td>0.335</td>
+<td>106.9</td>
+<td>0.201</td>
+<td>90.9</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026942</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>1.648</td>
+<td>141.9</td>
+<td>1.500</td>
+<td>109.8</td>
+<td>1.894</td>
+<td>160.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026842</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>0.403</td>
+<td>121.2</td>
+<td>0.400</td>
+<td>109.8</td>
+<td>0.533</td>
+<td>137.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>EG113842</td>
+<td>5.0</td>
+<td>0.188</td>
+<td>3.043</td>
+<td>150.4</td>
+<td>1.677</td>
+<td>110.3</td>
+<td>1.850</td>
+<td>143.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1086136</td>
+<td>5.0</td>
+<td>0.222</td>
+<td>0.398</td>
+<td>100.7</td>
+<td>0.392</td>
+<td>112.9</td>
+<td>0.362</td>
+<td>86.3</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AD1102736</td>
+<td>0.0</td>
+<td>0.276</td>
+<td>0.475</td>
+<td>86.4</td>
+<td>0.573</td>
+<td>116.9</td>
+<td>0.255</td>
+<td>88.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>JF1559</td>
+<td>2.0</td>
+<td>0.296</td>
+<td>1.376</td>
+<td>105.7</td>
+<td>0.291</td>
+<td>118.4</td>
+<td>0.165</td>
+<td>70.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>AE170536</td>
+<td>4.0</td>
+<td>0.306</td>
+<td>0.954</td>
+<td>146.1</td>
+<td>0.615</td>
+<td>119.2</td>
+<td>0.736</td>
+<td>137.0</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AC1136136</td>
+<td>0.0</td>
+<td>0.392</td>
+<td>0.459</td>
+<td>112.1</td>
+<td>0.493</td>
+<td>125.7</td>
+<td>0.321</td>
+<td>98.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1062836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>1.087</td>
+<td>130.8</td>
+<td>0.705</td>
+<td>128.9</td>
+<td>0.606</td>
+<td>228.5</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1060236</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.678</td>
+<td>156.9</td>
+<td>1.409</td>
+<td>128.9</td>
+<td>1.493</td>
+<td>212.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>IG1058836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.057</td>
+<td>40.9</td>
+<td>0.313</td>
+<td>128.9</td>
+<td>0.230</td>
+<td>253.0</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>ED071136</td>
+<td>2.0</td>
+<td>0.544</td>
+<td>1.479</td>
+<td>179.3</td>
+<td>1.318</td>
+<td>137.1</td>
+<td>1.437</td>
+<td>163.1</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1010536</td>
+<td>6.0</td>
+<td>0.548</td>
+<td>2.285</td>
+<td>201.4</td>
+<td>2.943</td>
+<td>137.4</td>
+<td>2.845</td>
+<td>202.7</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027836</td>
+<td>6.0</td>
+<td>0.562</td>
+<td>0.330</td>
+<td>211.8</td>
+<td>0.393</td>
+<td>138.4</td>
+<td>0.455</td>
+<td>228.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1011536</td>
+<td>6.0</td>
+<td>0.829</td>
+<td>3.402</td>
+<td>189.3</td>
+<td>3.166</td>
+<td>158.4</td>
+<td>2.930</td>
+<td>205.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AF1161936</td>
+<td>0.0</td>
+<td>0.995</td>
+<td>0.592</td>
+<td>71.7</td>
+<td>1.818</td>
+<td>170.9</td>
+<td>1.771</td>
+<td>163.0</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE036936</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.298</td>
+<td>103.3</td>
+<td>0.868</td>
+<td>171.3</td>
+<td>0.822</td>
+<td>197.5</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027630</td>
+<td>6.0</td>
+<td>1.000</td>
+<td>1.008</td>
+<td>186.2</td>
+<td>0.893</td>
+<td>171.3</td>
+<td>0.948</td>
+<td>225.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AD1120036</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.659</td>
+<td>175.9</td>
+<td>0.615</td>
+<td>171.3</td>
+<td>0.578</td>
+<td>180.3</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE1150636</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.467</td>
+<td>73.8</td>
+<td>1.155</td>
+<td>171.3</td>
+<td>1.132</td>
+<td>176.4</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF047736</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.309</td>
+<td>107.8</td>
+<td>1.335</td>
+<td>171.3</td>
+<td>1.470</td>
+<td>203.4</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AE1001918</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.087</td>
+<td>115.1</td>
+<td>0.620</td>
+<td>171.3</td>
+<td>0.618</td>
+<td>208.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>JF1024542</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.406</td>
+<td>85.4</td>
+<td>1.436</td>
+<td>171.3</td>
+<td>1.408</td>
+<td>171.8</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF018036</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.429</td>
+<td>93.3</td>
+<td>1.251</td>
+<td>171.3</td>
+<td>1.365</td>
+<td>203.6</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>EG112436</td>
+<td>5.0</td>
+<td>1.000</td>
+<td>0.175</td>
+<td>109.2</td>
+<td>0.530</td>
+<td>171.3</td>
+<td>0.600</td>
+<td>249.8</td>
+<td>corrects hu</td>
+</tr>
+</tbody>
+</table>
+<p>Except for case JF1599, where the wrong test ice tracing is likely to have been associated with the conditions, 
+I judge the nx correlation results to be accurate or "conservative" 
+(likely to yield too large of a performance penalty).  </p>
+<h2>Notes about LEWICE and THICK</h2>
+<p>LEWICE can calculate a leading edge initial freezing fraction. 
+However, you will find that the LEWICE value do not always correspond well to values calculated using 
+equation (10). 
+The reasons for this are many and complex, 
+and would require a dedicated post (if not several) to detail. 
+A few reasons include a different leading edge heat transfer coefficient, 
+and a transient component in the freezing calculation in LEWICE.  </p>
+<p>The 'IceThicknessLEMin' values output by the LEWICE THICK utility were found to not be always accurate. 
+This is also true for the values in the IceVal ThickUtilityData table.
+The leading edge ice thickness is required to determine ne with equations (1) and (2). 
+The <a href="/a-geometric-analysis-method.html">Geometric Analysis method</a> was used to determine the values herein.  </p>
+<p>For nine of the 40 cases in NASA/CR-2005-213852 the minimum leading edge ice thickness 
+determined by the geometric method differed by more than 10% for Iceval or THICK values, 
+while the geometric method value agreed well with the Table 1 value. 
+An example is shown below, where the Table 1 value was 2.16 cm (0.85 inch). 
+THICK reports a leading edge minimum thickness value, but not a location, 
+so the THICK value is illustrated as a displacement from the airfoil surface. </p>
+<p><img alt="min_le_AE1122136.png" src="images/iceval_mff/min_le_AE1122136.png">  </p>
+<h2>Conclusions</h2>
+<p>The Messinger freezing leading edge fraction correlation from NASA/CR-2005-213852 is re-validated herein over 3332 experimental cases, 
+in more detail than in NASA/CR-2005-213852 <sup id="fnref9:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
+<p>The correlations developed herein are much simpler than using LEWICE or other Computational Fluid Dynamics model 
+to determine horn height and location, and the correlations are as accurate!  </p>
+<p>The ice horn angle and thickness from the correlations can be used to estimate aerodynamic effects
+(see <a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects thread</a>).  </p>
+<p>One "only" had to run 3332 experimental cases on several airfoils at a wide variety of conditions 
+to obtain the correlations.  </p>
+<p>I view the correlations as largely fulfilling <a href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium-ramon-wilder.html">Wilder's vision</a> of [leaving out the "and sweep" part]:    </p>
+<blockquote>
+<p>Use of these relationships allows the direct determination of ice shapes adjusted for
+any given icing and flight condition as well as for size ... of the airfoil  </p>
+</blockquote>
+<h2>Related</h2>
+<p>This post is part of the <a href="/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h1>Notes</h1>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">apps.dtic.mil</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>IceVal DatAssistant (LEW-18343-1)
+Overview: 
+This NASA-developed technology provides an improved mechanism for managing the 
+large volume of data generated and utilized in performing icing research.<br>
+[Note: the software is available only to US persons.]<br>
+<a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  <a href="https://ntrs.nasa.gov/citations/20050215212">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref9:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 1999. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.<br>
+See also the companion <a href="https://ntrs.nasa.gov/citations/19990017993">NASA/CR-1998-208687</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

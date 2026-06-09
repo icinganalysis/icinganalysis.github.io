@@ -24,14 +24,14 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/swept-airfoil-cases-in-iceval.html">Swept Airfoil Cases in IceVal</a></h1>
+                    <h1 class="entry-title"><a href="/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html">Testing Messinger Freezing Fraction Correlations with the IceVal Database</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2026-05-14T15:00:00-07:00">
-                Published: Thu 14 May 2026
+        <abbr class="published" title="2026-06-09T16:00:00-07:00">
+                Published: Tue 09 June 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.107278-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T15:39:37.876086-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -43,7 +43,557 @@
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
 <p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> <a href="/tag/iceval.html">IceVal</a><br> </p>
-</footer><!-- /.post-info --><h3><em>"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"</em> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+</footer><!-- /.post-info --><h3><em>"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."</em>  <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<p><img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png">  </p>
+<h2>Introduction</h2>
+<p>Studies have correlated icing conditions to ice shapes and their effects. 
+Here, we will test one using the 3332 experimental ice shapes cases in the IceVal database <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 
+without ice protection. </p>
+<p>The studies had well-planned series of test conditions for their objectives. 
+However, when we use all 3332 IceVal experimental shapes from tests with diverse objectives, 
+things can get messy. </p>
+<p>We will see that the final results are surprisingly good.  </p>
+<h2>NASA/CR-2005-213852 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></h2>
+<p>NASA/CR-2005-213852 "Evaluation and Validation of the Messinger Freezing Fraction" 
+has been reviewed previously in 
+<a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects thread</a>.  </p>
+<p>It looked at correlating ice shape parameters to calculated leading edge freezing fraction.  </p>
+<p>The test cases within it are now a subset of the IceVal database.  </p>
+<p>40 condition were tested to verify an implementation of <a href="/messinger.html">Messinger</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> freezing fraction calculations 
+for the leading edge of an airfoil.  </p>
+<p><img alt="cr231852_table1.png" src="images/iceval_mff/cr231852_table1.png"><br>
+<em>Public Domain image from <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>A key assumption is that the leading edge water collection efficiency can be accurately estimated from 
+the Langmuir-Blodgett correlation (See reference <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or 
+<a href="/mathematical-investigation-of-water-droplet-trajectories.html">Langmuir</a> for more details).  </p>
+<p><img alt="cr231852_equ3.png" src="images/iceval_mff/cr231852_equ3.png"><br>
+<em>Public Domain image from <sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>For an airfoil, the leading diameter of curvature is used when calculating Ko, 
+not the leading edge radius as for a cylinder.  </p>
+<p>The values correlate quite well to values calculated by LEWICE, 
+with 3332 cases considered, including cases for several airfoils at several AOA values, 
+and several large drop icing cases.  </p>
+<p><img alt="iceval_no_ne_bo_beta.png" src="images/iceval_mff/iceval_no_ne_bo_beta.png"></p>
+<p>The analytic leading edge freezing fraction can then be calculated.
+(See reference <sup id="fnref5:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or <a href="/manual-of-scaling-methods.html">Manual of Scaling Methods</a> for more details).  </p>
+<p><img alt="cr213852_equ10.png" src="images/iceval_mff/cr213852_equ10.png"><br>
+<em>Public Domain image from <sup id="fnref6:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>An experimental freezing fraction "ne" can be calculated from equation (1). </p>
+<p><img alt="cr213853_equ1.png" src="images/iceval_mff/cr213853_equ1.png"><br>
+<em>Public Domain image from <sup id="fnref7:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<p>For a series of cases where the accumulation parameter (total water exposure) dimensionless parameter Ac was held constant, 
+the ice shapes change with as temperature was varied, with a resulting change in freezing fraction.  </p>
+<p>The na and ne values were found to correlate well.  </p>
+<p><img alt="cr213852_fig3.png" src="images/iceval_mff/cr213852_fig3.png"><br>
+<em>Public Domain image from <sup id="fnref8:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
+<h2>Comparisons with IceVal data</h2>
+<p>If we look at 672 cases in IceVal for the NACA0012 airfoil at A0A=0, 
+the correlation for na is not as close as for the 40 cases in NASA/CR-2005-231852 Figure 3.  </p>
+<p><img alt="ice_val_na_ne2_na_neAOA_0 Airfoil_NACA0012 No SLD.png" src="images/iceval_mff/ice_val_na_ne2_na_neAOA_0%20Airfoil_NACA0012%20No%20SLD.png"></p>
+<p>From the figure above, several cases "stack" vertically at selected values of na. 
+Many of the test sequences were planned to make this happen.  </p>
+<p>For the cases without ice protection in the IceVal database, the correlation is comparable.<br>
+<img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png">  </p>
+<h2>Upper surface ice horn thickness</h2>
+<p>As the effects of ice have been correlated to upper surface ice horn height hu, 
+it is desirable to be able to predict the value of hu.</p>
+<p>The calculation of ne in equations (1) and (2) are for the airfoil leading edge. </p>
+<p>We can extend this to define a "nx" value for the upper horn height hu:</p>
+<div class="highlight"><pre><span></span><code>hu / d = nx Ac Beta_o
+</code></pre></div>
+
+<p>For the 3332 IceVal cases, the correlation is surprisingly flat. 
+<img alt="ice_val_na_ne2_na_nx.png" src="images/iceval_mff/ice_val_na_ne2_na_nx.png">  </p>
+<p>There are numerous outliers. 
+It is perhaps doubtful that this could be a useful correlation. </p>
+<p>However, we can back-calculate a predicted hu value for each case from the correlation and the 
+definition of nx. 
+we can then calculate a non-dimensional height ratio relative heigh difference as in the LEWICE validation report <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.  </p>
+<blockquote>
+<p>Where the ice shape
+does have a glaze ice horn, the max. thickness does
+give the horn thickness. In order to compare different
+conditions with different chord lengths and accretion
+conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.</p>
+</blockquote>
+<p><img alt="Equation 3." src="images/6000_ice_shapes/equation%203.png">  </p>
+<div class="highlight"><pre><span></span><code>maximum accumulation thickness = t_max = LWC Airspeed Time / ice_density  (with unit conversions)
+
+relative height difference = (thick_experiment - thick_lewice) / t_max
+</code></pre></div>
+
+<p>When this values is compared to experiment, the variance (average difference) is 0.15:<br>
+<img alt="ice_val_na_ne2_dhux_var.png" src="images/iceval_mff/ice_val_na_ne2_dhux_var.png">  </p>
+<p>This is quite comparable to the comparison between LEWICE values and experiment 
+of 0.159:  </p>
+<p><img alt="LEWICE32_geometric_hur" src="images/6000_ice_shapes/LEWICE32_geometric_hur.png">  </p>
+<h2>Upper surface horn angle</h2>
+<p>Also surprisingly, a similar comparison for upper horn angle is comparable between the LEWICE results 
+and using a na to theta_u correlation:  </p>
+<p><img alt="ice_val_na_ne2_na_theta_corr.png" src="images/iceval_mff/ice_val_na_ne2_na_theta_corr.png">  </p>
+<p><img alt="ice_val_na_ne2_theta_var2.png" src="images/iceval_mff/ice_val_na_ne2_theta_var2.png">  </p>
+<p>The correlations resulted in a +/-24 degree average horn angle difference, 
+while LEWICE had a +/-25 degree difference.</p>
+<p><img alt="LEWICE32_geometric_thetar" src="images/6000_ice_shapes/LEWICE32_geometric_thetar.png"></p>
+<h2>Illustrations of use of the nx correlations</h2>
+<p>27 cases were selected to illustrate how well (or not) the correlations can identify an upper horn location. 
+The cases cover a wide range of na and aoa values. 
+They also cover cases either the correlation or LEWICE was accurate, 
+or one appeared to be better than the other. </p>
+<p>The identified horn location is plotted, as well as the test ice shape and LEWICE analysis 
+with identified upper and lower horns. 
+In some cases, the correlation match the upper horn better than the identified by the geometric method.<br>
+Both THICK and the geometric method have challenges for identifying horns, 
+as discussed in <a href="/a-geometric-analysis-method.html">A Geometric Method</a>.  </p>
+<p>In a few cases, it is evident that the ice shapes tracing does not match the test conditions 
+listed in IceVal. 
+For a few cases it is debatable if either the correlations or LEWICE are accurate.  </p>
+<p><img alt="nx_plot_row0" src="images/iceval_mff/nx_plot_row0.png">
+<img alt="nx_plot_row1" src="images/iceval_mff/nx_plot_row1.png">
+<img alt="nx_plot_row2" src="images/iceval_mff/nx_plot_row2.png">
+<img alt="nx_plot_row3" src="images/iceval_mff/nx_plot_row3.png">
+<img alt="nx_plot_row4" src="images/iceval_mff/nx_plot_row4.png">
+<img alt="nx_plot_row5" src="images/iceval_mff/nx_plot_row5.png">
+<img alt="nx_plot_row6" src="images/iceval_mff/nx_plot_row6.png"></p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>aoa</th>
+<th>na</th>
+<th>hu</th>
+<th>theta</th>
+<th>hx</th>
+<th>theta</th>
+<th>hu_lew</th>
+<th>theta</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF1014336</td>
+<td>6.0</td>
+<td>0.108</td>
+<td>1.419</td>
+<td>126.7</td>
+<td>2.964</td>
+<td>104.4</td>
+<td>1.815</td>
+<td>138.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1088536</td>
+<td>5.0</td>
+<td>0.142</td>
+<td>0.263</td>
+<td>81.8</td>
+<td>0.335</td>
+<td>106.9</td>
+<td>0.201</td>
+<td>90.9</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026942</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>1.648</td>
+<td>141.9</td>
+<td>1.500</td>
+<td>109.8</td>
+<td>1.894</td>
+<td>160.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1026842</td>
+<td>6.0</td>
+<td>0.181</td>
+<td>0.403</td>
+<td>121.2</td>
+<td>0.400</td>
+<td>109.8</td>
+<td>0.533</td>
+<td>137.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>EG113842</td>
+<td>5.0</td>
+<td>0.188</td>
+<td>3.043</td>
+<td>150.4</td>
+<td>1.677</td>
+<td>110.3</td>
+<td>1.850</td>
+<td>143.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>PG1086136</td>
+<td>5.0</td>
+<td>0.222</td>
+<td>0.398</td>
+<td>100.7</td>
+<td>0.392</td>
+<td>112.9</td>
+<td>0.362</td>
+<td>86.3</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AD1102736</td>
+<td>0.0</td>
+<td>0.276</td>
+<td>0.475</td>
+<td>86.4</td>
+<td>0.573</td>
+<td>116.9</td>
+<td>0.255</td>
+<td>88.9</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>JF1559</td>
+<td>2.0</td>
+<td>0.296</td>
+<td>1.376</td>
+<td>105.7</td>
+<td>0.291</td>
+<td>118.4</td>
+<td>0.165</td>
+<td>70.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>AE170536</td>
+<td>4.0</td>
+<td>0.306</td>
+<td>0.954</td>
+<td>146.1</td>
+<td>0.615</td>
+<td>119.2</td>
+<td>0.736</td>
+<td>137.0</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AC1136136</td>
+<td>0.0</td>
+<td>0.392</td>
+<td>0.459</td>
+<td>112.1</td>
+<td>0.493</td>
+<td>125.7</td>
+<td>0.321</td>
+<td>98.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1062836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>1.087</td>
+<td>130.8</td>
+<td>0.705</td>
+<td>128.9</td>
+<td>0.606</td>
+<td>228.5</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>IG1060236</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.678</td>
+<td>156.9</td>
+<td>1.409</td>
+<td>128.9</td>
+<td>1.493</td>
+<td>212.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>IG1058836</td>
+<td>5.0</td>
+<td>0.435</td>
+<td>0.057</td>
+<td>40.9</td>
+<td>0.313</td>
+<td>128.9</td>
+<td>0.230</td>
+<td>253.0</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>ED071136</td>
+<td>2.0</td>
+<td>0.544</td>
+<td>1.479</td>
+<td>179.3</td>
+<td>1.318</td>
+<td>137.1</td>
+<td>1.437</td>
+<td>163.1</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1010536</td>
+<td>6.0</td>
+<td>0.548</td>
+<td>2.285</td>
+<td>201.4</td>
+<td>2.943</td>
+<td>137.4</td>
+<td>2.845</td>
+<td>202.7</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027836</td>
+<td>6.0</td>
+<td>0.562</td>
+<td>0.330</td>
+<td>211.8</td>
+<td>0.393</td>
+<td>138.4</td>
+<td>0.455</td>
+<td>228.8</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1011536</td>
+<td>6.0</td>
+<td>0.829</td>
+<td>3.402</td>
+<td>189.3</td>
+<td>3.166</td>
+<td>158.4</td>
+<td>2.930</td>
+<td>205.3</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>AF1161936</td>
+<td>0.0</td>
+<td>0.995</td>
+<td>0.592</td>
+<td>71.7</td>
+<td>1.818</td>
+<td>170.9</td>
+<td>1.771</td>
+<td>163.0</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE036936</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.298</td>
+<td>103.3</td>
+<td>0.868</td>
+<td>171.3</td>
+<td>0.822</td>
+<td>197.5</td>
+<td>LEWICE better</td>
+</tr>
+<tr>
+<td>HF1027630</td>
+<td>6.0</td>
+<td>1.000</td>
+<td>1.008</td>
+<td>186.2</td>
+<td>0.893</td>
+<td>171.3</td>
+<td>0.948</td>
+<td>225.8</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AD1120036</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.659</td>
+<td>175.9</td>
+<td>0.615</td>
+<td>171.3</td>
+<td>0.578</td>
+<td>180.3</td>
+<td>better than LEWICE</td>
+</tr>
+<tr>
+<td>AE1150636</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.467</td>
+<td>73.8</td>
+<td>1.155</td>
+<td>171.3</td>
+<td>1.132</td>
+<td>176.4</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF047736</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.309</td>
+<td>107.8</td>
+<td>1.335</td>
+<td>171.3</td>
+<td>1.470</td>
+<td>203.4</td>
+<td>debatable</td>
+</tr>
+<tr>
+<td>AE1001918</td>
+<td>4.0</td>
+<td>1.000</td>
+<td>0.087</td>
+<td>115.1</td>
+<td>0.620</td>
+<td>171.3</td>
+<td>0.618</td>
+<td>208.8</td>
+<td>wrong tracing</td>
+</tr>
+<tr>
+<td>JF1024542</td>
+<td>0.0</td>
+<td>1.000</td>
+<td>0.406</td>
+<td>85.4</td>
+<td>1.436</td>
+<td>171.3</td>
+<td>1.408</td>
+<td>171.8</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>AF018036</td>
+<td>3.0</td>
+<td>1.000</td>
+<td>0.429</td>
+<td>93.3</td>
+<td>1.251</td>
+<td>171.3</td>
+<td>1.365</td>
+<td>203.6</td>
+<td>corrects hu</td>
+</tr>
+<tr>
+<td>EG112436</td>
+<td>5.0</td>
+<td>1.000</td>
+<td>0.175</td>
+<td>109.2</td>
+<td>0.530</td>
+<td>171.3</td>
+<td>0.600</td>
+<td>249.8</td>
+<td>corrects hu</td>
+</tr>
+</tbody>
+</table>
+<p>Except for case JF1599, where the wrong test ice tracing is likely to have been associated with the conditions, 
+I judge the nx correlation results to be accurate or "conservative" 
+(likely to yield too large of a performance penalty).  </p>
+<h2>Notes about LEWICE and THICK</h2>
+<p>LEWICE can calculate a leading edge initial freezing fraction. 
+However, you will find that the LEWICE value do not always correspond well to values calculated using 
+equation (10). 
+The reasons for this are many and complex, 
+and would require a dedicated post (if not several) to detail. 
+A few reasons include a different leading edge heat transfer coefficient, 
+and a transient component in the freezing calculation in LEWICE.  </p>
+<p>The 'IceThicknessLEMin' values output by the LEWICE THICK utility were found to not be always accurate. 
+This is also true for the values in the IceVal ThickUtilityData table.
+The leading edge ice thickness is required to determine ne with equations (1) and (2). 
+The <a href="/a-geometric-analysis-method.html">Geometric Analysis method</a> was used to determine the values herein.  </p>
+<p>For nine of the 40 cases in NASA/CR-2005-213852 the minimum leading edge ice thickness 
+determined by the geometric method differed by more than 10% for Iceval or THICK values, 
+while the geometric method value agreed well with the Table 1 value. 
+An example is shown below, where the Table 1 value was 2.16 cm (0.85 inch). 
+THICK reports a leading edge minimum thickness value, but not a location, 
+so the THICK value is illustrated as a displacement from the airfoil surface. </p>
+<p><img alt="min_le_AE1122136.png" src="images/iceval_mff/min_le_AE1122136.png">  </p>
+<h2>Conclusions</h2>
+<p>The Messinger freezing leading edge fraction correlation from NASA/CR-2005-213852 is re-validated herein over 3332 experimental cases, 
+in more detail than in NASA/CR-2005-213852 <sup id="fnref9:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
+<p>The correlations developed herein are much simpler than using LEWICE or other Computational Fluid Dynamics model 
+to determine horn height and location, and the correlations are as accurate!  </p>
+<p>The ice horn angle and thickness from the correlations can be used to estimate aerodynamic effects
+(see <a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects thread</a>).  </p>
+<p>One "only" had to run 3332 experimental cases on several airfoils at a wide variety of conditions 
+to obtain the correlations.  </p>
+<p>I view the correlations as largely fulfilling <a href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium-ramon-wilder.html">Wilder's vision</a> of [leaving out the "and sweep" part]:    </p>
+<blockquote>
+<p>Use of these relationships allows the direct determination of ice shapes adjusted for
+any given icing and flight condition as well as for size ... of the airfoil  </p>
+</blockquote>
+<h2>Related</h2>
+<p>This post is part of the <a href="/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
+<h1>Notes</h1>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">apps.dtic.mil</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>IceVal DatAssistant (LEW-18343-1)
+Overview: 
+This NASA-developed technology provides an improved mechanism for managing the 
+large volume of data generated and utilized in performing icing research.<br>
+[Note: the software is available only to US persons.]<br>
+<a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  <a href="https://ntrs.nasa.gov/citations/20050215212">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref9:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 1999. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.<br>
+See also the companion <a href="https://ntrs.nasa.gov/citations/19990017993">NASA/CR-1998-208687</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/swept-airfoil-cases-in-iceval.html" rel="bookmark"
+                           title="Permalink to Swept Airfoil Cases in IceVal">Swept Airfoil Cases in IceVal</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-05-14T15:00:00-07:00">
+                Published: Thu 14 May 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-06-09T14:20:38.289930-07:00">
+                Updated: Tue 09 June 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/lewice.html">LEWICE</a><br> <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/nasa.html">NASA</a><br> <a href="/tag/iceval.html">IceVal</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"</em> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
 <p><img alt="swept_db_set_5" src="images/6000_ice_shapes/swept_db_set_5.png"> <br>
 <em><div style="text-align: center;">Experimental ice shapes compared to a LEWICE analysis.</div></em>  </p>
 <h2>Summary</h2>
@@ -57,203 +607,10 @@ For more details on Wilder's method, see <a href="/the-greatest-thing-that-you-h
 offer potentially more widely applicable methods of ice shape prediction in swept airfoils.  </p>
 <p>LEWICE analysis for these cases tends to produce ice shapes that are consistently too small
 compared to experiment.  </p>
-<p>Empirically derived adjustments to the inputs to LEWICE are discussed that improve the ice shape match by some measures.  </p>
-<p>The analysis of ice shapes on swept wing is an area of ongoing research.  </p>
-<h2>IceVal Database swept airfoil conditions</h2>
-<p>In the IceVal database, there are cases with wing leading edge sweep values other than zero, 
-ranging from 5 to 45 degrees. They were all for the NACA0012 airfoil with a 15-inch chord. 
-All used LWC=0.75 g/m^3, MVD=20, and Ttotal=25F, and all but one case used a icing spray time of 5 minutes. 
-Four airspeed values were included in the range of conditions.  </p>
-<p>Here are the conditions at the highest airspeed (173.7 KTAS):  </p>
-<p><img alt="swept_db_set_5" src="images/6000_ice_shapes/swept_db_set_5.png">  </p>
-<p>The same LEWICE shape corresponds to each experimental shape, 
-as all conditions are the same except for sweep, 
-and LEWICE has no input for leading edge sweep that could result in a different ice shape.   </p>
-<p>For the 45-degree sweep cases, the four different airspeed values result in different ice shapes. 
-The LEWICE results do not appear to be particularly close to the experimental results. 
-The ice cross-section area is noticeably smaller for LEWICE than for the experimental results.  </p>
-<p><img alt="swept_lewice_45_shapes" src="images/6000_ice_shapes/swept_lewice_45_shapes.png">  </p>
-<h2>2D water catch approximations for swept wings</h2>
-<p>There have been methods to account for sweep in 2D analysis. 
-One of the earliest was NACA-TN-2931 <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. 
-A cylinder that was swept relative to the airstream was analyzed 
-by decomposing the velocity vector into normal and tangential components, 
-and the normal velocity was used for impingement analysis.  </p>
-<p><img alt="Figure 1. Coordinate system for circular cylinder at yaw angle γ." src="/images%2FNACA-TN-2931%2FFigure%201.png"><br>
-<em>Public Domain image from NACA-TN-2931.</em>  </p>
-<p>It was realized that streamlines might not follow the idealized, normal path.  </p>
-<p><img alt="Figure 2. Streamlines around a 30°-yawed cylinder." src="/images%2FNACA-TN-2931%2FFigure%202.png"><br>
-<em>Public Domain image from NACA-TN-2931.</em>  </p>
-<p>Wilder described a method for accounting for sweep in calculating water catch rates 
-in a form of the continuity equation:  </p>
-<blockquote>
-<p>Thus, a theoretical ice shape for rime ice can be estimated by calculating
-the local water catch for various positions in the impingement area by:</p>
-</blockquote>
-<div class="highlight"><pre><span></span><code>w_beta = 0.38 * beta * V * cos(sweep) * w           (2)
-
-where 
-      beta = local water catch efficiency
-      V = airspeed, knots
-      sweep = airfoil sweep angle
-      w = cloud liquid water content, g/m^3
-</code></pre></div>
-
-<p>[If terms like beta in the context of water drop impingement are not familiar to you, 
-see <a href="/aircraft-icing-handbook-water-catch-examples.html">Intermediate:_Aircraft Icing Handbook Water Catch Examples</a>]</p>
-<p>Note that mathematically it does not matter if we consider the terms to be either 
-"(V * cos(sweep)) * LWC" or "V * (cos(sweep) * LWC)", the product is the same. 
-Conceptually, the first alternative uses the normal velocity, 
-while the second one uses an adjusted LWC value.  </p>
-<p>The LEWICE runs in the IceVal database used the nominal airspeed and LWC values, 
-so the water catch rates.</p>
-<p>Conveniently, LEWICE has airspeed and LWC as inputs, 
-so we can select one or the other to adjust.</p>
-<p>It is desirable to not adjust the input velocity, 
-as this changes the aero-thermodynamic state 
-(total temperature relative to static temperature, and other factors). </p>
-<p>The LWC value can be adjusted, as it is the impingement rate (w_beta in (2) above) 
-that matters for the aero-thermodynamic state and similarity, 
-not the individual components of the equation. </p>
-<p>The effect on the water catch efficiency is small between results using the nominal
-airspeed and the normal airspeed for the 45 degree sweep case at the highest airspeed 
-were assessed using LEWICE3.2.3:  </p>
-<p><img alt="swept_catch_efficiency" src="images/6000_ice_shapes/swept_catch_efficiency.png">  </p>
-<p>That the difference is that small is expected, as may be seen from a Beta curve in the Aircraft Icing Handbook <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> for the NACA0012 airfoil:  </p>
-<p><img alt="Figure 2-13" src="images/Aircraft%20Icing%20Handbook%20volume%201/Figure%202-13.png"><br>
-<em>Public Domain image from <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.</em>  </p>
-<p>Ko is the droplet acceleration parameter, and is roughly proportional to V^1/3.  </p>
-<p><img alt="Equation 2-11" src="images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-11.png"><br>
-<em>Public Domain image from <sup id="fnref3:5"><a class="footnote-ref" href="#fn:5">5</a></sup>.</em>  </p>
-<p>A 29% reduction in airspeed for using a normal velocity translates to ~10% reduction in Ko, 
-and a resulting ~5% difference in Beta. 
-Thus, the difference in Beta values was tacitly treated as a trivial effect in Wilder.  </p>
-<p>The two beta values for the nominal V and normal V are essentially bounding values of 
-the reasonable, expected range. 
-So, little to no error results from either assumption for determining water catch efficiency. </p>
-<p>The water catch rate is the product of Beta, airspeed, and LWC that we saw above in Wilder's equation (2). 
-If the nominal airspeed and LWC values are used, like in the IceVal LEWICE values, 
-the rate is higher than either of the values considered above 
-(Nominal V with Scaled LWC, Normal V with nominal LWC). 
-As noted above, it is preferred to adjust LWC, so that is the approach used here.
-(There are similar results if we look at Em and total water catch rates, 
-but for brevity those are not detailed here.)  </p>
-<p>The use in IceVal of the nominal V and LWC values results in a higher (too high, by about 29%) 
-water catch rate than the two methods discussed above.  </p>
-<p>When the LWC scaling is implemented, the results do not appear to be improved.<br>
-<img alt="swept_lewice_lwc_scaled_45s" src="images/6000_ice_shapes/swept_lewice_lwc_scaled_45s.png">  </p>
-<p>However, there is another effect, apparent ice density, 
-that we will look at next.  </p>
-<h2>Apparent Ice Density</h2>
-<p>A second important factor is apparent ice density. 
-For unswept airfoil cases, the LEWICE results averaged to 
-reasonable ice height variations from experiment using the nominal ice density value of 917 g/m^3. 
-However, this is not the case for swept airfoils. 
-As we saw above, the maximum ice heights were consistently too small.  </p>
-<p>Ice formed on a swept wing leading edge commonly has a "scalloped" or "lobster tail" appearance, 
-with many internal voids.  </p>
-<p><img alt="Figure 14" src="images/wilder/Figure%2014.png">  </p>
-<p><em>Public Domain image from <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</em>  </p>
-<p>For unswept cases in the IceVal database, 
-LEWICE did a good job of matching ice area, with an 18% average difference from experiment <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>:  </p>
-<p><img alt="Figure 6" src="images/6000_ice_shapes/NASA-TM-2008-215174/Figure%206.png"><br>
-<em>Public Domain image from <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.</em>  </p>
-<p>However, as seen above, for the swept cases the LEWICE area is visibly less than the experimental area. </p>
-<p>The apparent ice density can be used to account for this.  </p>
-<p>If an outermost 2D profile is traced around the ice shape, 
-the apparent area will be greater than that actually occupied by ice. 
-If the ice mass is measured, the apparent ice density can be calculated: </p>
-<div class="highlight"><pre><span></span><code>apparent ice density = mass of ice / (profile area * span length)
-</code></pre></div>
-
-<p>To match the ice area between experiment and analysis for swept cases, 
-it is often necessary to adjust the ice density used in the analysis. 
-This is an approach used by some of the Ice Prediction Workshop presentations <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, 
-for either 2D or 3D codes.  </p>
-<p>The ice accretion analysis is a thermodynamic balance that calculates the mass rate of formation of ice. 
-That is turned into an ice thickness with an assumed ice density equal to the bulk ice density of 917 kg/m^3. 
-If a lower ice density is used, the ice thickness and area is increased. </p>
-<p>LEWICE does not have an input for ice density, the default 917 value is hard-coded in. 
-To implement an apparent ice density, the icing simulation time is increased 
-proportionally to the density ratio.  </p>
-<div class="highlight"><pre><span></span><code>simulation time = spray time * 917 kg/m^3 / (apparent ice density)
-</code></pre></div>
-
-<p>The "scaled" method here implements the LWC adjustment noted above and the 
-time scaling by apparent ice density.  </p>
-<p>Adjusting simulation time does not alter the instantaneous thermodynamic state. 
-However, there are side effects in LEWICE of using adjusted time. 
-The calculated number of time steps (LEWICE manual equation 2) 
-are increased relative to nominal conditions. 
-This has an effect on the final ice shape. 
-The reported total mass is larger than nominal by the density ratio, 
-as LEWICE uses the 917 kg/m^3 ice density internally.  </p>
-<p>The IceVal database does not list a measured ice mass for these cases. 
-For the cases with a 45 degree sweep, apparent ice densities were assumed.
-LEWICE was run in the multi-time step ice shape mode (ITIMFL=1).
-By iteration it was found that an apparent ice density of 476.8 kg/m^3 
-averaged out to an ice area match for the four cases.  </p>
-<p><img alt="swept_lewice_nominal_45_area_ratios" src="images/6000_ice_shapes/swept_lewice_nominal_45_area_ratios.png">  </p>
-<p>For the ice shape appearance, the thinner, lower airspeed cases are a good match; 
-the other two cases less so.<br>
-<img alt="swept_lewice_scaled_45s.png" src="images/6000_ice_shapes/swept_lewice_scaled_45s.png">  </p>
-<p>The apparent mixed results are also reflected in the ice height comparisons and 
-horn angle comparisons.  </p>
-<p><img alt="swept_45s_scaled_hus_comparisons" src="images/6000_ice_shapes/swept_45s_scaled_hus_comparisons.png">  </p>
-<p><img alt="swept_45s_scaled_thetas_comparisons" src="images/6000_ice_shapes/swept_45s_scaled_thetas_comparisons.png">  </p>
-<h2>Conclusions</h2>
-<p>While the sample size is small (four cases at 45 degree sweep), 
-it is perhaps expected that two of the four points are outside the expected variance of all 
-IceVal cases (3000+) 
-for these two measures as any other four randomly selected cases might have a similar result. </p>
-<p>I view the scaled method as useful, 
-as it is at worst conservative for horn heights, 
-and does not result in ice shapes that are noticeably too thin as with the analysis using nominal conditions.  </p>
-<p>An obvious draw-back is that you need empirical data to base the adjustments on. 
-In the IPW presentations and my own experience several values have been used, 
-and the best fit values vary by airfoil and sweep values, often not in an intuitive way. 
-That said, the 476.8 kg/m^3 value used here is in the range of values I have seen used, 
-and not a notable outlier.   </p>
-<p>Ice shapes in swept airfoils continues to be actively investigated as part of the 
-Ice Prediction Workshop <sup id="fnref2:7"><a class="footnote-ref" href="#fn:7">7</a></sup>.  </p>
-<h2>Related</h2>
-<p>This post is part of the <a href="/6000-ice-shapes-the-iceval-datassistant.html">"6000 Ice Shapes - the IceVal DatAssistant"</a> thread.  </p>
-<h2>Notes</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">apps.dtic.mil</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Levinson, Laurie, and William Wright. "IceVal DatAssistant-An Interactive, Automated Icing Data Management System." 46th AIAA Aerospace Sciences Meeting and Exhibit. 2008. <a href="https://ntrs.nasa.gov/citations/20070031804">NASA Report Number: E-16236</a> <br>
-The software is available at <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>William B. Wright, User's Manual for LEWICE Version 3.2 
-<a href="https://ntrs.nasa.gov/citations/20080048307">NASA/CR—2008-214255</a> <br>
-The software is available at <a href="https://software.nasa.gov/software/LEW-18573-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>Dorsch, Robert G., and Brun, Rinaldo J.: A Method for Determining Cloud-Droplet Impingement on Swept Wings. NACA-TN-2931, 1953. <a href="https://ntrs.nasa.gov/citations/19810068687">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>“Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) <a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf">apps.dtic.mil</a>.<br>
-Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): <a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf">apps.dtic.mil</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p>Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008. <a href="https://ntrs.nasa.gov/citations/20080041518">NASA/CR-2008-215174</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p><a href="https://icepredictionworkshop.wordpress.com">Ice Prediction Workshop</a> "The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data. We aim to provide an impartial forum to evaluating the effectiveness of icing methods and to identify the areas needing additional research and development."&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>Empirically derived adjustments to the inputs to LEWICE are discussed that improve the …</p>
+                <a class="readmore" href="/swept-airfoil-cases-in-iceval.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -267,8 +624,8 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241576-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059412-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -310,8 +667,8 @@ but the validation report was for LEWICE version 3.2.2.  </p>
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.111109-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293436-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -356,8 +713,8 @@ quick and easy access …</p></blockquote>
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237788-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.055212-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -402,8 +759,8 @@ These are the data that are included in the IceVal database <sup id="fnref:4"><a
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.243811-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.062119-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -444,8 +801,8 @@ vary widely. Moreover, since plans made prior to a test may change during the te
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241803-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059841-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -494,8 +851,8 @@ These were later digitized, and included in the database.  </p>
                 Published: Thu 14 May 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-06-07T13:42:53.699823-07:00">
-                Updated: Sun 07 June 2026
+        <abbr class="modified" title="2026-06-09T15:37:14.699474-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -540,8 +897,8 @@ given that an entire generation of workers in the …</p>
                 Published: Tue 13 January 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.243104-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.061626-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -592,8 +949,8 @@ ISSN 0376-0421,
                 Published: Mon 14 July 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242569-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060980-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -646,8 +1003,8 @@ Available online at <a href="https://www.abbottaerospace.com/downloads/arc-rm-19
                 Published: Tue 13 May 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237160-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054818-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -686,8 +1043,8 @@ in either LibreOffice or pdf format:   </p>
                 Published: Tue 14 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236165-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.053600-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -731,8 +1088,8 @@ the scientific study of the problems of flight with a view to …</p></blockquot
                 Published: Fri 03 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.232624-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051497-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -776,8 +1133,8 @@ and several icing instruments.  </p>
                 Published: Fri 03 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220092-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037247-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -827,8 +1184,8 @@ two of which were on aircraft icing topics. </p>
                 Published: Fri 03 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242760-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.061197-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -877,8 +1234,8 @@ icing clouds …</p></blockquote>
                 Published: Fri 03 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221645-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.040204-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -927,8 +1284,8 @@ selected figures, and where to find more information.  </p>
                 Published: Fri 03 January 2025
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222157-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.040473-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -970,8 +1327,8 @@ are from a conference in 1954, when emphasis had shifted to jet aircraft.  </p>
                 Published: Mon 02 December 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230180-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050641-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1004,8 +1361,8 @@ by the third anniversary of icinganalysis.com on January 15, 2025.  </p>
                 Published: Sat 30 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224321-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042779-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1050,8 +1407,8 @@ to be one-fourth or less of the heat requirements for …</p></blockquote>
                 Published: Sat 30 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224146-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042608-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1094,8 +1451,8 @@ free-stream convective heat-transfer coefficients were obtained in dry …</p></
                 Published: Sat 30 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.223825-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041983-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1146,8 +1503,8 @@ over-all aircraft performance. Anti-icing systems that evaporate …</p></blockq
                 Published: Fri 29 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228371-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047396-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1195,8 +1552,8 @@ entire-ice-density range.</p>
                 Published: Mon 25 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226414-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045193-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1241,8 +1598,8 @@ Reported. losses larger than 15 or 20 percent, based …</p></blockquote>
                 Published: Wed 20 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.223743-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041881-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1295,8 +1652,8 @@ by environmental factors including …</p></blockquote>
                 Published: Wed 20 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224467-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042924-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1341,8 +1698,8 @@ antenna tension increased with the angle of the …</p></blockquote>
                 Published: Wed 20 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224766-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043304-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1389,8 +1746,8 @@ heavier and more severe ice accretion, the …</p></blockquote>
                 Published: Tue 19 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230643-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051001-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1435,8 +1792,8 @@ heavier and more severe ice accretion, the …</p></blockquote>
                 Published: Tue 05 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224239-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042701-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1485,8 +1842,8 @@ large-diameter …</p></blockquote>
                 Published: Tue 05 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227379-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046377-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1533,8 +1890,8 @@ an air stream is employed in many …</p></blockquote>
                 Published: Tue 05 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226151-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044898-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1575,8 +1932,8 @@ dimensionless parameters and the penetrations of the various shapes were compare
                 Published: Tue 05 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225638-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044312-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1624,8 +1981,8 @@ The introduction of a gas or vapor into …</p></blockquote>
                 Published: Tue 05 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226085-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044831-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1676,8 +2033,8 @@ The introduction of a gas or …</p></blockquote>
                 Published: Mon 04 November 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236839-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054591-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1725,8 +2082,8 @@ air flow control, and mechanical systems resided. </p>
                 Published: Tue 15 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224405-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042850-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1771,8 +2128,8 @@ glaze ice, high corrected weight flow, and high angle of …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228878-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.048652-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1820,8 +2177,8 @@ rotation. Rotational speeds up to …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228751-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.048059-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1866,8 +2223,8 @@ uniform surface temperature distribution. Complete agreement was not obtained �
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222912-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041415-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1914,8 +2271,8 @@ once the …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222730-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041225-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -1960,8 +2317,8 @@ cycle ratio of about 1:7 …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222819-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041303-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2004,8 +2361,8 @@ modifications of the hollow …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226260-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045021-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2051,8 +2408,8 @@ marked (up to 3.5 times …</p></blockquote>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224696-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043230-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2098,8 +2455,8 @@ satisfactorily accelerated to take-off power.  </p>
                 Published: Mon 14 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224629-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043121-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2146,8 +2503,8 @@ it is reproduced nearly in its entirety herein.  </p>
                 Published: Sat 12 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225045-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043561-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2197,8 +2554,8 @@ of the fan blades was …</p></blockquote>
                 Published: Fri 11 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.235229-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.052682-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2248,8 +2605,8 @@ others are briefer summaries typically found on …</p>
                 Published: Thu 10 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220298-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037795-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2300,8 +2657,8 @@ others are briefer summaries typically found on …</p>
                 Published: Wed 09 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.223003-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.041523-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2348,8 +2705,8 @@ with the …</p></blockquote>
                 Published: Mon 07 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226958-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045744-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2399,8 +2756,8 @@ is lowered.</p>
                 Published: Wed 02 October 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226892-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045683-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2443,8 +2800,8 @@ by the measurements in the temperature range, 0° to -22.2° C …</p></blockquo
                 Published: Mon 30 September 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226494-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045274-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2493,8 +2850,8 @@ data from the …</p>
                 Published: Wed 25 September 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226343-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045099-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2540,8 +2897,8 @@ obtained. Although no droplet froze at a …</p></blockquote>
                 Published: Mon 23 September 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230338-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050813-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2582,8 +2939,8 @@ spontaneously freeze (freeze without outside influence other than temperature). 
                 Published: Mon 20 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239828-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057870-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2630,8 +2987,8 @@ ievap=1 …</p>
                 Published: Mon 20 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239745-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057780-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2681,8 +3038,8 @@ Qr   Heat required </p>
                 Published: Mon 13 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239893-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057937-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2740,8 +3097,8 @@ which we will use here.  </p>
                 Published: Mon 29 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240319-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058336-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2794,8 +3151,8 @@ engineering judgment.</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240402-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058422-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2866,8 +3223,8 @@ These lists are from SAE ARP5903 (Reference R20). </p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240029-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058060-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2918,8 +3275,8 @@ Flight …</code></pre></div>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239966-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058004-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -2967,8 +3324,8 @@ and is available via
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240100-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058129-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3012,8 +3369,8 @@ impingement efficiency, is estimated to be 0.23 for these conditions. So about 2
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240174-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058189-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3056,8 +3413,8 @@ The cited references are also noted here. Links to online …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240477-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058497-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3103,8 +3460,8 @@ or to start building your own library of such …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237892-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.055438-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3156,8 +3513,8 @@ of the commands shown. Windows …</p></blockquote>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240249-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058263-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3211,8 +3568,8 @@ You may have signed an …</p>
                 Published: Mon 08 April 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239655-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057696-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3261,8 +3618,8 @@ See <a href="/analysis-toolset.html">Analysis Toolset</a> for more details and o
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240616-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058644-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3303,8 +3660,8 @@ However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was …<
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237959-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.055501-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3346,8 +3703,8 @@ that defines icing conditions used for certification of large transport category
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239382-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057158-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3398,8 +3755,8 @@ Runback ice on an airfoil with a heated leading edge from a laboratory test:<br>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240677-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058703-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3445,8 +3802,8 @@ Artificially produced ice shapes (often 3D printed) may be adhered to airplane m
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239598-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057642-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3495,8 +3852,8 @@ At temperatures in between, <a href="/terminology.html#mixed-ice">"Mixed Ice"</a
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240736-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058783-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3541,8 +3898,8 @@ of an airplane as …</p>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239538-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.057353-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3593,8 +3950,8 @@ The airfoil rotates with the aircraft when the angle of attack is increased." sr
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.239320-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.056999-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3639,8 +3996,8 @@ ask questions and shape online searches for what you would like to know …</p>
                 Published: Mon 12 February 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240544-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058576-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3692,8 +4049,8 @@ However, that by itself was not enough. </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229976-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050287-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3743,8 +4100,8 @@ little …</strong></p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.104923-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.288034-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3788,8 +4145,8 @@ apparently were caused by …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230766-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051136-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3838,8 +4195,8 @@ were in the Eastern United States region. </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230057-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050507-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3886,8 +4243,8 @@ NASA. One of these elements is to develop …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229055-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.048884-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3934,8 +4291,8 @@ parts of the control system.  </p>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.104663-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.287719-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -3989,8 +4346,8 @@ of specified icing …</p></blockquote>
                 Published: Mon 15 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.104738-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.287776-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4037,8 +4394,8 @@ afforded by air-heating hollow …</p></blockquote>
                 Published: Thu 11 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230129-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050586-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4083,8 +4440,8 @@ participate in …</p></blockquote>
                 Published: Tue 02 January 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.102034-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.286757-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4127,8 +4484,8 @@ Oh well, just use <a href="https://www.mozilla.org/en-US/firefox/new/">firefox</
                 Published: Mon 13 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.219625-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.036625-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4175,8 +4532,8 @@ defined a term Ko (see the link for definitions of other terms):  </p>
                 Published: Thu 09 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227498-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046620-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4228,8 +4585,8 @@ this is the only one where the people appear to be women. </p>
                 Published: Tue 07 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228680-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047982-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4274,8 +4631,8 @@ water impingement are presented.</p>
                 Published: Thu 02 November 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237383-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.055004-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4321,8 +4678,8 @@ In general …</p></blockquote>
                 Published: Tue 31 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220905-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038747-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4369,8 +4726,8 @@ The elbows produced by the complex potential function selected are suitable …<
                 Published: Wed 25 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220979-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038823-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4416,8 +4773,8 @@ a supersonic inlet (but at a lower Mach number). We will see a test of "the conf
                 Published: Tue 24 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230834-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051211-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4463,8 +4820,8 @@ and under some conditions may be …</p></blockquote>
                 Published: Wed 18 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240997-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058958-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4513,8 +4870,8 @@ about a …</p></blockquote>
                 Published: Mon 16 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.098955-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.283723-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4557,8 +4914,8 @@ However, the example given (Table …</p>
                 Published: Wed 11 October 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099042-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.283781-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4600,8 +4957,8 @@ Mathematical analysis of the paths individual water drops were developed …</p>
                 Published: Sat 30 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.101202-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.286027-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4650,8 +5007,8 @@ The text is available here a few weeks after publication. </p>
                 Published: Sat 30 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.101147-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.285969-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4694,8 +5051,8 @@ before the public sees them, and access to the secret* newsletter archives. Ther
                 Published: Sat 16 September 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.106896-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.289636-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4735,8 +5092,8 @@ tab at the top of the page for the complete list of …</p>
                 Published: Wed 31 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229681-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049953-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4783,8 +5140,8 @@ It is observed …</p></blockquote>
                 Published: Tue 30 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220357-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037868-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4828,8 +5185,8 @@ and if the flow of protection or the icing severity can be …</p></blockquote>
                 Published: Thu 25 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.234530-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051856-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4879,8 +5236,8 @@ the author and presenter Bernard Vonnegut:  </p>
                 Published: Wed 24 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.232867-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051784-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4933,8 +5290,8 @@ Here is a listing of the lecture titles and authors
                 Published: Mon 22 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220020-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037075-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -4983,8 +5340,8 @@ direct influence on the current icing regulations. </p>
                 Published: Wed 17 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227232-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046208-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5036,8 +5393,8 @@ values of liquid-water content …</p></blockquote>
                 Published: Mon 15 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227028-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045811-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5080,8 +5437,8 @@ aircraft components, such as …</li></ol>
                 Published: Wed 10 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226564-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045484-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5133,8 +5490,8 @@ of …</p></blockquote>
                 Published: Wed 03 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225940-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044650-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5184,8 +5541,8 @@ data …</p></blockquote>
                 Published: Mon 01 May 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225868-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044439-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5238,8 +5595,8 @@ Great Lakes …</p></blockquote>
                 Published: Fri 21 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225115-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043668-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5292,8 +5649,8 @@ free-water …</p></blockquote>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221501-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.039793-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5340,8 +5697,8 @@ This helped put the data on a sound scientific basis. </p>
                 Published: Thu 20 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.243870-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.062185-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5400,8 +5757,8 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Thu 06 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241648-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059610-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5453,8 +5810,8 @@ so that …</p>
                 Published: Mon 03 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220244-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037720-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5504,8 +5861,8 @@ all of the design manuals heavily …</p>
                 Published: Sat 01 April 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099337-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.283849-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5595,8 +5952,8 @@ decreased lift pushing down, and increased weight pulling down." src="images/For
                 Published: Wed 29 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.232749-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051587-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5641,8 +5998,8 @@ practical tests of actual ice deposit …</p></blockquote>
                 Published: Mon 13 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.218150-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035490-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5694,8 +6051,8 @@ of ice on the total aircraft.
                 Published: Mon 06 March 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.114770-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.294344-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5750,8 +6107,8 @@ conducting a program of …</p></blockquote>
                 Published: Sun 26 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220507-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038025-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5801,8 +6158,8 @@ Today, for aircraft deicing on the …</p>
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.218073-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035251-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5855,8 +6212,8 @@ as well as data needed for analysis
                 Published: Mon 20 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242178-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060400-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5918,8 +6275,8 @@ However …</p>
                 Published: Mon 13 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.218231-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035594-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -5975,8 +6332,8 @@ for ice protection, cabin heating, and other functions. </p>
                 Published: Mon 06 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242254-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060495-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6026,8 +6383,8 @@ study has been made …</p></blockquote>
                 Published: Thu 02 February 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.217984-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035158-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6074,8 +6431,8 @@ These could be affect by ice …</p>
                 Published: Mon 30 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220162-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037489-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6122,8 +6479,8 @@ While some "inter-cycle" ice forms, the maximum amount …</p>
                 Published: Sat 28 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242817-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.061451-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6178,8 +6535,8 @@ If dangerous icing conditions are inadvertently encountered …</p></blockquote>
                 Published: Sun 22 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.102686-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.287390-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6223,8 +6580,8 @@ I have no idea what the orange thing (ribbon and bow?) is on the wing.   </p>
                 Published: Fri 13 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.102107-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.286920-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6278,8 +6635,8 @@ I wrote 33 reviews. <br>
                 Published: Sun 08 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.219723-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.036738-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6341,8 +6698,8 @@ the current "Appendix C" icing certification standard <sup id="fnref:2"><a class
                 Published: Tue 03 January 2023
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.100145-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284277-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6389,8 +6746,8 @@ this type is needed to provide pertinent meteorological …</p></blockquote>
                 Published: Thu 15 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226764-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.045548-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6436,8 +6793,8 @@ the droplet size, the size spectrum …</p></blockquote>
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.217704-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.034869-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6483,8 +6840,8 @@ Technical papers were presented by government research and test …</p></blockqu
                 Published: Tue 13 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099948-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284139-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6527,8 +6884,8 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Sun 11 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.237295-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054923-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6575,8 +6932,8 @@ Switching instances is a normal thing in the fediverse. </p>
                 Published: Thu 08 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220720-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038230-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6621,8 +6978,8 @@ faster than other technologies available in the NACA-era.  </li>
                 Published: Sun 04 December 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.111461-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293796-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6669,8 +7026,8 @@ In NACA-TN-3592, water drops were captured in an oil stream exposed to the ambie
                 Published: Mon 28 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222402-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.040772-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6717,8 +7074,8 @@ values for the desired and acceptable accuracy of measurement for …</p></block
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.234851-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.052252-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6765,8 +7122,8 @@ The ice changes the shape of the wing …</p>
                 Published: Fri 25 November 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099422-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.283903-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6868,8 +7225,8 @@ and distant descendants of some devices are still used today. </p>
                 Published: Mon 29 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099614-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284023-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6914,8 +7271,8 @@ AC 25-28 <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> desc
                 Published: Sun 21 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236783-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054523-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -6961,8 +7318,8 @@ the previous set of tests conducted in NRCC Altitude Icing Wind Tunnel where …
                 Published: Tue 16 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242059-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060292-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7010,8 +7367,8 @@ any surplus vapor above this value will condense as liquid water. </p>
                 Published: Wed 10 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229759-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050039-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7064,8 +7421,8 @@ here and scaling methods considered are applicable …</p></blockquote>
                 Published: Sun 07 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.240825-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.058879-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7111,8 +7468,8 @@ Scaling laws governing these …</p></blockquote>
                 Published: Wed 03 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236717-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054451-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7154,8 +7511,8 @@ content (LWC), median volume diameter (MVD), pressure (P)], could …</p></block
                 Published: Mon 01 August 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236650-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054260-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7204,8 +7561,8 @@ and aircraft components for system certification would be to conduct …</p></bl
                 Published: Wed 27 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.105994-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.288818-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7252,8 +7609,8 @@ to the …</p></blockquote>
                 Published: Sun 24 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241205-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059188-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7299,8 +7656,8 @@ and producing a water drop spray that is uniform "enough". </p>
                 Published: Thu 21 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230693-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051062-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7352,8 +7709,8 @@ to read the articles in the order below.  </p>
                 Published: Wed 20 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.111171-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293515-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7397,8 +7754,8 @@ The four other tunnels are briefly described in the "Other …</p>
                 Published: Mon 18 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228535-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047562-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7448,8 +7805,8 @@ effective in preventing the formation …</p></blockquote>
                 Published: Fri 15 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220780-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038304-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7492,8 +7849,8 @@ Instead …</p>
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.219212-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.036129-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7545,8 +7902,8 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Wed 13 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.106961-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.289685-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7593,8 +7950,8 @@ to the SAE AC-9C Aircraft Icing Technology Committee and it was well received. <
                 Published: Wed 06 July 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-30T08:40:25.035410-07:00">
-                Updated: Sat 30 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.294151-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7642,8 +7999,8 @@ That was the kind of engineer …</p>
                 Published: Wed 29 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229900-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.050202-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7691,8 +8048,8 @@ such as the 65A004 airfoil".  </li>
                 Published: Mon 27 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228984-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.048782-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7740,8 +8097,8 @@ the …</p></blockquote>
                 Published: Wed 22 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.224048-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042376-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7782,8 +8139,8 @@ the …</p></blockquote>
                 Published: Sun 19 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227782-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046944-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7828,8 +8185,8 @@ over …</p></blockquote>
                 Published: Tue 14 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225564-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044225-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7878,8 +8235,8 @@ ice formation on the propeller blades was 19 percent. During
                 Published: Mon 13 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229612-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049863-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7927,8 +8284,8 @@ At the request of the N.A.C.A. a questionnaire seeking …</p></blockquote>
                 Published: Wed 08 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229359-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049357-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -7979,8 +8336,8 @@ span of the airfoil. The results provide …</p></blockquote>
                 Published: Mon 06 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228179-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047306-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8032,8 +8389,8 @@ It features:<br>
                 Published: Sat 04 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.243202-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.061715-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8089,8 +8446,8 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
                 Published: Fri 03 June 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227940-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047090-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8137,8 +8494,8 @@ conditions, within the duct. If cloud water …</p></blockquote>
                 Published: Tue 31 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236562-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.054182-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8180,8 +8537,8 @@ of the research …</p></blockquote>
                 Published: Wed 25 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241111-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059096-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8229,8 +8586,8 @@ especially to be familiar with the …</p>
                 Published: Mon 23 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221226-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.039226-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8279,8 +8636,8 @@ reached from the foregoing parts of this report:</p>
                 Published: Thu 19 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.111521-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293864-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8344,8 +8701,8 @@ A more detailed ice detector simulation
                 Published: Wed 18 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.219409-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.036389-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8396,8 +8753,8 @@ A more detailed ice detector simulation
                 Published: Sat 14 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.236265-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.053846-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8452,8 +8809,8 @@ Key technical …</p></blockquote>
                 Published: Thu 12 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228607-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047641-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8503,8 +8860,8 @@ bodies …</p></blockquote>
                 Published: Wed 11 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229206-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049082-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8553,8 +8910,8 @@ mechanical analog constructed for the study …</p></blockquote>
                 Published: Mon 09 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228072-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047215-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8597,8 +8954,8 @@ the ratio of sublimation …</p></blockquote>
                 Published: Wed 04 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228007-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047157-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8645,8 +9002,8 @@ Schmidt number of the diffusing fluid in the …</p></blockquote>
                 Published: Mon 02 May 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227859-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047017-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8696,8 +9053,8 @@ entrained in …</p></blockquote>
                 Published: Thu 28 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220430-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.037941-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8742,8 +9099,8 @@ there are limiting …</p></blockquote>
                 Published: Tue 26 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227688-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046840-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8793,8 +9150,8 @@ The …</p></blockquote>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241046-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.059023-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8856,8 +9213,8 @@ although there are often exceptions:</p>
                 Published: Sun 24 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227309-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046302-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8911,8 +9268,8 @@ The calculations that often must be made point by point along …</p></blockquot
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.105861-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.288701-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -8967,8 +9324,8 @@ The goal is to be applicable for all 3.7+ uses. </p>
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.100062-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284211-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9021,8 +9378,8 @@ In this paper, a complete analysis of the temperature …</p></blockquote>
                 Published: Tue 19 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099708-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284084-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9069,8 +9426,8 @@ and found to be usually less than the …</p></blockquote>
                 Published: Mon 18 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225422-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044086-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9119,8 +9476,8 @@ equations for calculating the rate of heat transfer from airfoils …</p></block
                 Published: Thu 14 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229512-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049755-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9167,8 +9524,8 @@ for a section of the …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222246-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.040570-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9218,8 +9575,8 @@ quantity of alcohol …</p></blockquote>
                 Published: Mon 11 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.110896-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293197-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9266,8 +9623,8 @@ evaporation from wet surfaces.  </p>
                 Published: Mon 04 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.218714-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035859-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9316,8 +9673,8 @@ evaporation from wet surfaces.  </p>
                 Published: Fri 25 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.228460-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.047489-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9362,8 +9719,8 @@ in order to obtain local collection efficiencies …</p></blockquote>
                 Published: Thu 24 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229290-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.049229-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9412,8 +9769,8 @@ compressible flow fields around a cylinder were performed on a …</p></blockquo
                 Published: Tue 22 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.223899-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.042054-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9464,8 +9821,8 @@ are presented.</p>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227443-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046561-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9511,8 +9868,8 @@ extension is …</p></blockquote>
                 Published: Sun 20 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227608-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046759-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9566,8 +9923,8 @@ distributions and are a source of large errors in the determination …</p></blo
                 Published: Mon 14 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.217899-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.035064-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9614,8 +9971,8 @@ following …</p></blockquote>
                 Published: Tue 08 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.227142-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.046025-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9663,8 +10020,8 @@ spurious ice catch …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.226024-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.044757-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9713,8 +10070,8 @@ of …</p></blockquote>
                 Published: Tue 01 March 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.235322-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.052755-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9756,8 +10113,8 @@ The speed at which the airplane may stall at may decrease due to the effects of 
                 Published: Tue 22 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.222317-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.040672-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9805,8 +10162,8 @@ each …</p></blockquote>
                 Published: Tue 01 February 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.230939-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.051331-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9849,8 +10206,8 @@ It …</p>
                 Published: Mon 31 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225318-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043968-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9898,8 +10255,8 @@ previously made, were found to be …</p></blockquote>
                 Published: Sat 29 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.225194-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.043757-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9951,8 +10308,8 @@ clouds of various types …</p></blockquote>
                 Published: Thu 27 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221106-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038943-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -9998,8 +10355,8 @@ the section "Example of the Application of the D.A. Data to Experimental Data".<
                 Published: Tue 25 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.217780-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.034934-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10047,8 +10404,8 @@ In more modern terms, this …</p>
                 Published: Sun 23 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221040-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038882-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10095,8 +10452,8 @@ as this includes the third party modules matplotlib, numpy, and scipy …</p>
                 Published: Fri 21 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.221422-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.039424-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10142,8 +10499,8 @@ the efficiency of deposition of very large …</p></blockquote>
                 Published: Thu 20 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.229125-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.048975-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10196,8 +10553,8 @@ percentage of the swept area cleared …</p></blockquote>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.100491-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284733-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10245,8 +10602,8 @@ such as “NACA-TN-1907”.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.220842-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.038488-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10312,8 +10669,8 @@ and categorized into 17 topics.</p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.100223-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.284349-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10351,8 +10708,8 @@ especially the chapter "Operations Research".  </p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.234900-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.052310-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10395,8 +10752,8 @@ especially the chapter "Operations Research".  </p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.241965-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060165-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10442,8 +10799,8 @@ This is available at <a href="https://apps.dtic.mil/sti/citations/ADA800876">DTI
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:08.242007-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:36.060228-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10493,8 +10850,8 @@ MS Engineering University of Wisconsin  </p>
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.111571-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.293920-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->
@@ -10549,8 +10906,8 @@ There is also a mirror site <a href="https://icinganalysis.com/">icinganalysis.c
                 Published: Sat 15 January 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-05-26T13:14:11.099515-07:00">
-                Updated: Tue 26 May 2026
+        <abbr class="modified" title="2026-06-09T14:20:38.283954-07:00">
+                Updated: Tue 09 June 2026
         </abbr>
 <!---->
         <!---->

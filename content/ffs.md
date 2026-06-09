@@ -1,6 +1,5 @@
-status: draft  
 title: Testing Messinger Freezing Fraction Correlations with the IceVal Database  
-Date: 2026-06-09 09:00  
+Date: 2026-06-09 16:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."_  [^1]  
@@ -8,7 +7,7 @@ tags: LEWICE, ice shapes, NASA, IceVal
 ![ice_val_na_ne2_na_ne.png](images/iceval_mff/ice_val_na_ne2_na_ne.png)  
 
 ## Introduction  
-
+ 
 Studies have correlated icing conditions to ice shapes and their effects. 
 Here, we will test one using the 3332 experimental ice shapes cases in the IceVal database [^1] 
 without ice protection. 
@@ -31,7 +30,7 @@ The test cases within it are now a subset of the IceVal database.
 
 40 condition were tested to verify an implementation of [Messinger]({filename}messinger.md) [^4] freezing fraction calculations 
 for the leading edge of an airfoil.  
-
+ 
 ![cr231852_table1.png](images/iceval_mff/cr231852_table1.png)  
 _Public Domain image from [^3]._  
 

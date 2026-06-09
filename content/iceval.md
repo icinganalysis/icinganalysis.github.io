@@ -54,11 +54,8 @@ and provide additional analysis of the data.
 - ## [Swept Airfoil Cases in IceVal]({filename}sweep.md)
     ### _"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"_  
 
-<!--
- 
-- ## [Testing Messinger Freezing Fraction Correlations with the IceVal Database]({filename}ff.md)  
+- ## [Testing Messinger Freezing Fraction Correlations with the IceVal Database]({filename}ffs.md)  
     ### _"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."_    
--->
 
 Possible future additions:  
 

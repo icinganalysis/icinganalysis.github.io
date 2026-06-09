@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Sun, 07 Jun 2026 13:42:53 -0700</lastBuildDate><item><title>Swept Airfoil Cases in IceVal</title><link>/swept-airfoil-cases-in-iceval.html</link><description>&lt;h3&gt;&lt;em&gt;"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"&lt;/em&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Tue, 09 Jun 2026 16:00:00 -0700</lastBuildDate><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Studies have correlated icing conditions to ice shapes and their effects. 
+Here, we will test one using the 3332 experimental ice shapes cases in the IceVal database &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; 
+without ice protection. &lt;/p&gt;
+&lt;p&gt;The studies had well-planned series of test conditions for their objectives. 
+However, when we use all 3332 IceVal experimental shapes from tests with diverse objectives, 
+things can get messy. &lt;/p&gt;
+&lt;p&gt;We will see that the final results are surprisingly good.  &lt;/p&gt;
+&lt;h2&gt;NASA/CR-2005-213852 &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;NASA/CR-2005-213852 "Evaluation and Validation of the Messinger Freezing Fraction" 
+has been reviewed previously in 
+&lt;a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html"&gt;Conclusions of the Ice Shapes and Their Effects thread&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;It looked at correlating ice shape parameters to calculated leading edge freezing fraction.  &lt;/p&gt;
+&lt;p&gt;The test cases within it are now a subset of the IceVal database.  &lt;/p&gt;
+&lt;p&gt;40 condition were tested to verify an implementation …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 09 Jun 2026 16:00:00 -0700</pubDate><guid>tag:None,2026-06-09:/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</guid><category>misc</category><category>LEWICE</category><category>ice shapes</category><category>NASA</category><category>IceVal</category></item><item><title>Swept Airfoil Cases in IceVal</title><link>/swept-airfoil-cases-in-iceval.html</link><description>&lt;h3&gt;&lt;em&gt;"Use of these relationships allows the direct determination of ice shapes adjusted for any given icing and flight condition as well as for size and sweep of the airfoil"&lt;/em&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="swept_db_set_5" src="images/6000_ice_shapes/swept_db_set_5.png"&gt; &lt;br&gt;
 &lt;em&gt;&lt;div style="text-align: center;"&gt;Experimental ice shapes compared to a LEWICE analysis.&lt;/div&gt;&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
@@ -1789,27 +1805,4 @@ direct influence on the current icing regulations. &lt;/p&gt;
 direct influence on the current icing regulations. &lt;/p&gt;
 &lt;h3&gt;Icing Regulations and NACA publications&lt;/h3&gt;
 &lt;p&gt;A limited understanding of atmospheric icing conditions was achieved by 1945. 
-&lt;a href="/naca-tn-1246.html"&gt;NACA-TN-1246&lt;/a&gt; (1947) notes a "Mt. Washington Weather Bureau meeting on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 22 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-22:/conclusions-of-the-meteorology-of-icing-clouds-thread.html</guid><category>NACA</category><category>meteorology</category><category>conclusions</category></item><item><title>NACA-TN-2738</title><link>/naca-tn-2738.html</link><description>&lt;h1&gt;"A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States"&lt;/h1&gt;
-&lt;h3&gt;&lt;em&gt;"the probability analysis presented does provide an indication, heretofore unavailable, of the combinations of icing conditions having equal probability"&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 2. Graphical presentation of the equiprobabilty surface which 
-presents the locus of all combinations of liquid-water content, drop 
-diameter and temperature depression below freezing having the 
-some probability, Pe, of being exceeded in any single icing 
-encounter." src="/images%2FNACA-TN-2738%2FFigure%202.png"&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The icing design values in NACA-TN-1855 were found to have an exceedance probability Pe=0.001.  &lt;/p&gt;
-&lt;h2&gt;Key Points&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;A rigorous probability analysis of the considerable icing flight test data was conducted.  &lt;/li&gt;
-&lt;li&gt;The icing design values in NACA-TN-1855 were found to have an exceedance probability Pe=0.001.  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Meteorological icing data obtained in flight in the United States
-are analyzed statistically and methods are developed for the determination of:  &lt;/p&gt;
-&lt;p&gt;(1) the various simultaneous combinations of the three basic
-icing parameters (liquid-water content, drop diameter, and temperature)
-which would have equal probability of being exceeded in flight in any
-random icing encounter; and  &lt;/p&gt;
-&lt;p&gt;(2) the probability of exceeding any specified group of 
-values of liquid-water content …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 17 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-17:/naca-tn-2738.html</guid><category>NACA</category><category>meteorology</category></item></channel></rss>
+&lt;a href="/naca-tn-1246.html"&gt;NACA-TN-1246&lt;/a&gt; (1947) notes a "Mt. Washington Weather Bureau meeting on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 22 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-22:/conclusions-of-the-meteorology-of-icing-clouds-thread.html</guid><category>NACA</category><category>meteorology</category><category>conclusions</category></item></channel></rss>
