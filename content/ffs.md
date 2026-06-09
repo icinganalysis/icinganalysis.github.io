@@ -192,10 +192,9 @@ For a few cases it is debatable if either the correlations or LEWICE are accurat
 |AF018036  | 3.0|1.000| 0.429|  93.3| 1.251| 171.3| 1.365| 203.6| corrects hu|
 |EG112436  | 5.0|1.000| 0.175| 109.2| 0.530| 171.3| 0.600| 249.8| corrects hu |  
 
-Except for case JF1599, where the test ice tracing associated with the conditions, 
-I judge the nx correlation result to be accurate or "conservative" 
-(likely to yield too large of a performance penalty).
-
+Except for case JF1599, where the wrong test ice tracing is likely to have been associated with the conditions, 
+I judge the nx correlation results to be accurate or "conservative" 
+(likely to yield too large of a performance penalty).  
 
 ## Notes about LEWICE and THICK  
 
