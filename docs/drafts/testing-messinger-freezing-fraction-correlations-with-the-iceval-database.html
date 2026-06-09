@@ -34,11 +34,11 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-06-08T15:00:00-07:00">
-                Published: Mon 08 June 2026
+        <abbr class="published" title="2026-06-09T09:00:00-07:00">
+                Published: Tue 09 June 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-06-09T08:00:42.434404-07:00">
+        <abbr class="modified" title="2026-06-09T08:41:04.568695-07:00">
                 Updated: Tue 09 June 2026
         </abbr>
 <!---->
@@ -69,11 +69,13 @@ has been reviewed previously in
 <p>The test cases within it are now a subset of the IceVal database.  </p>
 <p>40 condition were tested to verify an implementation of <a href="/messinger.html">Messinger</a> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> freezing fraction calculations 
 for the leading edge of an airfoil.  </p>
-<p><img alt="cr231852_table1.png" src="images/iceval_mff/cr231852_table1.png">  </p>
+<p><img alt="cr231852_table1.png" src="images/iceval_mff/cr231852_table1.png"><br>
+<em>Public Domain image from <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
 <p>A key assumption is that the leading edge water collection efficiency can be accurately estimated from 
-the Langmuir-Blodgett correlation (See reference <sup id="fnref2:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or 
+the Langmuir-Blodgett correlation (See reference <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or 
 <a href="/mathematical-investigation-of-water-droplet-trajectories.html">Langmuir</a> for more details).  </p>
-<p><img alt="cr231852_equ3.png" src="images/iceval_mff/cr231852_equ3.png">  </p>
+<p><img alt="cr231852_equ3.png" src="images/iceval_mff/cr231852_equ3.png"><br>
+<em>Public Domain image from <sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
 <p>For an airfoil, the leading diameter of curvature is used when calculating Ko, 
 not the leading edge radius as for a cylinder.  </p>
 <p>The values correlate quite well to values calculated by LEWICE, 
@@ -81,14 +83,17 @@ with 3332 cases considered, including cases for several airfoils at several AOA 
 and several large drop icing cases.  </p>
 <p><img alt="iceval_no_ne_bo_beta.png" src="images/iceval_mff/iceval_no_ne_bo_beta.png"></p>
 <p>The analytic leading edge freezing fraction can then be calculated.
-(See reference <sup id="fnref3:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or <a href="/manual-of-scaling-methods.html">Manual of Scaling Methods</a> for more details).  </p>
-<p><img alt="cr213852_equ10.png" src="images/iceval_mff/cr213852_equ10.png">  </p>
+(See reference <sup id="fnref5:3"><a class="footnote-ref" href="#fn:3">3</a></sup> or <a href="/manual-of-scaling-methods.html">Manual of Scaling Methods</a> for more details).  </p>
+<p><img alt="cr213852_equ10.png" src="images/iceval_mff/cr213852_equ10.png"><br>
+<em>Public Domain image from <sup id="fnref6:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
 <p>An experimental freezing fraction "ne" can be calculated from equation (1). </p>
-<p><img alt="cr213853_equ1.png" src="images/iceval_mff/cr213853_equ1.png">  </p>
+<p><img alt="cr213853_equ1.png" src="images/iceval_mff/cr213853_equ1.png"><br>
+<em>Public Domain image from <sup id="fnref7:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
 <p>For a series of cases where the accumulation parameter (total water exposure) dimensionless parameter Ac was held constant, 
 the ice shapes change with as temperature was varied, with a resulting change in freezing fraction.  </p>
 <p>The na and ne values were found to correlate well.  </p>
-<p><img alt="cr213852_fig3.png" src="images/iceval_mff/cr213852_fig3.png">  </p>
+<p><img alt="cr213852_fig3.png" src="images/iceval_mff/cr213852_fig3.png"><br>
+<em>Public Domain image from <sup id="fnref8:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</em>  </p>
 <h2>Comparisons with IceVal data</h2>
 <p>If we look at 672 cases in IceVal for the NACA0012 airfoil at A0A=0, 
 the correlation for na is not as close as for the 40 cases in NASA/CR-2005-231852 Figure 3.  </p>
@@ -524,7 +529,7 @@ so the THICK value is illustrated as a displacement from the airfoil surface. </
 <p><img alt="min_le_AE1122136.png" src="images/iceval_mff/min_le_AE1122136.png">  </p>
 <h2>Conclusions</h2>
 <p>The Messinger freezing leading edge fraction correlation from NASA/CR-2005-213852 is re-validated herein over 3332 experimental cases, 
-in more detail than in NASA/CR-2005-213852 <sup id="fnref4:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
+in more detail than in NASA/CR-2005-213852 <sup id="fnref9:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
 <p>The correlations developed herein are much simpler than using LEWICE or other Computational Fluid Dynamics model 
 to determine horn height and location, and the correlations are as accurate!  </p>
 <p>The ice horn angle and thickness from the correlations can be used to estimate aerodynamic effects
@@ -547,21 +552,21 @@ any given icing and flight condition as well as for size ... of the airfoil  </p
 </li>
 <li id="fn:2">
 <p>IceVal DatAssistant (LEW-18343-1)
-Overview
+Overview: 
 This NASA-developed technology provides an improved mechanism for managing the 
 large volume of data generated and utilized in performing icing research.<br>
 [Note: the software is available only to US persons.]<br>
 <a href="https://software.nasa.gov/software/LEW-18343-1">software.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  <a href="https://ntrs.nasa.gov/citations/20050215212">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messinger Freezing Fraction." 41st Aerospace Sciences Meeting and Exhibit. No. NASA/CR-2005-213852. 2005.  <a href="https://ntrs.nasa.gov/citations/20050215212">ntrs</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:3" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref9:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
 <p>Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
-<p>Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.<br>
-<a href="https://ntrs.nasa.gov/citations/20080041518">NASA/CR-2008-215174</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 1999. <a href="https://ntrs.nasa.gov/citations/19990021235">NASA/CR-208690</a>.<br>
+See also the companion <a href="https://ntrs.nasa.gov/citations/19990017993">NASA/CR-1998-208687</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

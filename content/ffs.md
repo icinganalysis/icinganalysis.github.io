@@ -1,6 +1,6 @@
 status: draft  
 title: Testing Messinger Freezing Fraction Correlations with the IceVal Database  
-Date: 2026-06-08 15:00  
+Date: 2026-06-09 09:00  
 tags: LEWICE, ice shapes, NASA, IceVal
 
 ### _"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."_  [^1]  
@@ -33,12 +33,14 @@ The test cases within it are now a subset of the IceVal database.
 for the leading edge of an airfoil.  
 
 ![cr231852_table1.png](images/iceval_mff/cr231852_table1.png)  
+_Public Domain image from [^3]._  
 
 A key assumption is that the leading edge water collection efficiency can be accurately estimated from 
 the Langmuir-Blodgett correlation (See reference [^3] or 
 [Langmuir]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md) for more details).  
 
 ![cr231852_equ3.png](images/iceval_mff/cr231852_equ3.png)  
+_Public Domain image from [^3]._  
 
 For an airfoil, the leading diameter of curvature is used when calculating Ko, 
 not the leading edge radius as for a cylinder.  
@@ -53,10 +55,12 @@ The analytic leading edge freezing fraction can then be calculated.
 (See reference [^3] or [Manual of Scaling Methods]({filename}NASA-CR-2004-212875.md) for more details).  
 
 ![cr213852_equ10.png](images/iceval_mff/cr213852_equ10.png)  
+_Public Domain image from [^3]._  
 
 An experimental freezing fraction "ne" can be calculated from equation (1). 
  
 ![cr213853_equ1.png](images/iceval_mff/cr213853_equ1.png)  
+_Public Domain image from [^3]._  
 
 For a series of cases where the accumulation parameter (total water exposure) dimensionless parameter Ac was held constant, 
 the ice shapes change with as temperature was varied, with a resulting change in freezing fraction.  
@@ -64,6 +68,7 @@ the ice shapes change with as temperature was varied, with a resulting change in
 The na and ne values were found to correlate well.  
 
 ![cr213852_fig3.png](images/iceval_mff/cr213852_fig3.png)  
+_Public Domain image from [^3]._  
 
 ## Comparisons with IceVal data  
 
@@ -107,6 +112,7 @@ we can then calculate a non-dimensional height ratio relative heigh difference a
 > conditions, the individual ice thicknesses were non-dimensionalized by the maximum accumulation thickness as given in Equation 3.
 
 ![Equation 3.](images/6000_ice_shapes/equation%203.png)  
+
 
 ```text
 maximum accumulation thickness = t_max = LWC Airspeed Time / ice_density  (with unit conversions)
@@ -248,7 +254,7 @@ This post is part of the ["6000 Ice Shapes - the IceVal DatAssistant"]({filename
 [^1]: 
 Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^2]: IceVal DatAssistant (LEW-18343-1)
-Overview
+Overview: 
 This NASA-developed technology provides an improved mechanism for managing the 
 large volume of data generated and utilized in performing icing research.  
 [Note: the software is available only to US persons.]  
@@ -258,5 +264,5 @@ Anderson, David N., and Jen-Ching Tsao. "Evaluation and Validation of the Messin
 [^4]: 
 Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^5]: 
-Wright, William, Mark Potapczuk, and Laurie Levinson. "Comparison of LEWICE and GlennICE in the SLD Regime." 46th AIAA aerospace sciences meeting and exhibit. 2008.  
-[NASA/CR-2008-215174](https://ntrs.nasa.gov/citations/20080041518)  
+William B. Wright and Adam Rutkowski, "A summary of validation results for LEWICE 2.0." 1999. [NASA/CR-208690](https://ntrs.nasa.gov/citations/19990021235).  
+See also the companion [NASA/CR-1998-208687](https://ntrs.nasa.gov/citations/19990017993).  
