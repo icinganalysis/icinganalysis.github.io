@@ -196,7 +196,7 @@ Except for case JF1599, where the wrong test ice tracing is likely to have been 
 I judge the nx correlation results to be accurate or "conservative" 
 (likely to yield too large of a performance penalty).  
 
-## Notes about LEWICE and THICK  
+## Notes about LEWICE and THICK   
 
 LEWICE can calculate a leading edge initial freezing fraction. 
 However, you will find that the LEWICE value do not always correspond well to values calculated using 
