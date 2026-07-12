@@ -57,9 +57,9 @@ accumulation parameter, and water drop modified inertia parameter.
 
 ## Experimental dataset  
 
-Both NASA-TM-83556 and AEDC-TR-87-23 used the same dataset, from 
+NASA-TM-83556 and AEDC-TR-87-23 used the same dataset, from 
 NASA-TM-83556. Table 1 from NASA-TM-83556 is shown below.  
-
+ 
 >The test matrix is listed in table 1. The ice shape and resulting drag
 coefficient depend upon at least the following: the airfoil shape and angle
 of attack, the air temperature and velocity, and the LWC and DVM [MVD] of the cloud.
