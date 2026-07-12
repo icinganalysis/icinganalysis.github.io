@@ -65,7 +65,7 @@ coefficient depend upon at least the following: the airfoil shape and angle
 of attack, the air temperature and velocity, and the LWC and DVM [MVD] of the cloud.
 With that number of parameters, only a sparse matrix of conditions and repeat
 conditions could be accomplished.  
-> 
+ 
 ![NASA-TM-83556table1](images/nasa-tm-83556/NASA-TM-83556table1.png)  
 _Public Domain image from NASA-TM-83556._  
 
