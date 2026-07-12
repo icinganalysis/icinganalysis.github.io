@@ -73,7 +73,7 @@ AEDC-TR-87-23 lists only 35 of the 49 conditions in Table 1.
 The data table in AEDC rounds the temperature values to degrees Fahrenheit, and omits run names.   
 
 There are minor discrepancies and errors in the data lists of each, 
-and those were corrected for this analysis [^3].  
+and those were corrected for this analysis (included further below).  
 
 ## Evaluating correlations  
 
