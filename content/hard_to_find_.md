@@ -1,5 +1,5 @@
 Title: Hard to find publications  
-Date: 2025-07-14 12:00  
+Date: 2026-07-12 12:00  
 tags: database  
 
 ### _"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print." [^1]_  
@@ -56,6 +56,7 @@ I have found one-line references to these, but no on-line sources
 - NA-63-303, "Use of the Ko Correlation in Preliminary Design and Scale Model Icing," Frederick R. Weiner, North American Aviation, Inc. (Presented at Spring Meeting of Aircraft Air-Conditioning Forum, Los Angeles, California, March 21, 1963).  
 - In-Flight Icing Paperback – January 1, 2001, by Porter J. Perkins, Sporty's Pilot Shop    
 - Dickey, T.A., "An Analysis of the Effects of Certain Variables in Determining the Form of an Ice Accretion," , (presented at Mt. Washington Spring Planning Conference, April 1952, Aeronautical Engineering Laboratory, Naval Air Experimental Station. May 29, 1952.)  
+- Flemming, R. J. and Lednicer, D. A. "High Speed Ice Accretion on Rotorcraft Airfoils." United Technologies Corporation, NASA-CR-3910, August 1985.  
 
 ## On a list of restricted/classified NASA reports  
 
