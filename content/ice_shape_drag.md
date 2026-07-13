@@ -1,13 +1,12 @@
 title: Ice Shape Drag Correlations  
-status: draft  
-date: 2026-07-12 12:00
+date: 2026-07-13 12:30
 tags: ice shapes, drag
 
 ### _"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."_  
 _NASA-TM-83556._  
 
 ![AEDC-TR-87-23fig10](images/nasa-tm-83556/AEDC-TR-87-23fig3.png)
-_Public Domain image from AEDC-TR-87-23._  
+_Public Domain image from AEDC-TR-87-23._   
 
 ## Summary  
 
@@ -19,7 +18,7 @@ better, more widely applicable correlation.
 
 One significant correlation is from NASA-TM-83556 [^1], 
 that used test control parameters such as total temperature, LWC, and airspeed:  
-
+ 
 ![NASA-TM-83556fig10](images/nasa-tm-83556/NASA-TM-83556fig10.png)  
 _Public Domain image from NASA-TM-83556._  
 

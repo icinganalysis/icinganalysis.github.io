@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Sun, 12 Jul 2026 12:00:00 -0700</lastBuildDate><item><title>Hard to find publications</title><link>/hard-to-find-publications.html</link><description>&lt;h3&gt;&lt;em&gt;"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print." &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Mon, 13 Jul 2026 13:43:52 -0700</lastBuildDate><item><title>Ice Shape Drag Correlations</title><link>/ice-shape-drag-correlations.html</link><description>&lt;h3&gt;&lt;em&gt;"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="AEDC-TR-87-23fig10" src="images/nasa-tm-83556/AEDC-TR-87-23fig3.png"&gt;
+&lt;em&gt;Public Domain image from AEDC-TR-87-23.&lt;/em&gt;   &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;We have seen several attempts to correlate drag for an airfoil with icing conditions.&lt;br&gt;
+Here, we will review prior correlations, and refine the methods to achieve a 
+better, more widely applicable correlation.  &lt;/p&gt;
+&lt;h2&gt;Prior Correlations&lt;/h2&gt;
+&lt;p&gt;One significant correlation is from NASA-TM-83556 &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, 
+that used test control parameters such as total temperature, LWC, and airspeed:  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="NASA-TM-83556fig10" src="images/nasa-tm-83556/NASA-TM-83556fig10.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image from NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;Another is from AEDC-TR-87-23 &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
+which used the calculated leading edge freezing fraction (N):  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="AEDC-TR-87-23fig10" src="images/nasa-tm-83556/AEDC-TR-87-23fig3.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image from AEDC-TR-87-23.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;About the lines on Figure 3, AEDC-TR-87-23 states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The curves for these figures were drawn as the author
+interpreted the data.&lt;/p&gt;
+&lt;p&gt;The curves are similar in shape because of the functional dependency
+of N on test conditions that affect the change in ice shape and, thus, Cd. Again, it depends …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 13 Jul 2026 12:30:00 -0700</pubDate><guid>tag:None,2026-07-13:/ice-shape-drag-correlations.html</guid><category>misc</category><category>ice shapes</category><category>drag</category></item><item><title>Hard to find publications</title><link>/hard-to-find-publications.html</link><description>&lt;h3&gt;&lt;em&gt;"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print." &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Several people using a library. 
 Many are seated at tables reading books. 
 There are book shelves, file cabinets for index cards, 
@@ -1785,24 +1807,4 @@ Here is a listing of the lecture titles and authors
 &lt;li&gt;"Heat Transfer from Streamlined Bodies", Eckert, E. R. G.  &lt;/li&gt;
 &lt;li&gt;"Mass Transfer at High Velocities", Mickley, Harold S.  &lt;/li&gt;
 &lt;li&gt;"Energy Exchanges During Icing", Messinger, Bernard L.  &lt;/li&gt;
-&lt;li&gt;"The Design of Air-Heated Thermal Ice-Prevention Systems …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 24 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-24:/university-of-michigan-airplane-icing-information-course-1953.html</guid><category>misc</category><category>Airplane Icing Information Course</category></item><item><title>Conclusions of the Meteorology of Icing Clouds Thread</title><link>/conclusions-of-the-meteorology-of-icing-clouds-thread.html</link><description>&lt;h3&gt;&lt;em&gt;There was remarkable progress in the three-year span 1946 through 1949.&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 3. Liquid-water content, W, and average drop diameter in icing clouds.
-" src="/images%2Fwilliam_lewis_1947%2FFigure%203.png"&gt;&lt;br&gt;
-&lt;em&gt;from "FLIGHT INVESTIGATION OF METEOROLOGICAL FACTORS CONDUCIVE TO AIRCRAFT ICING", William Lewis, 1947. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The most enduring legacy of the NACA publications on icing meteorology is their 
-direct influence on the current icing regulations. &lt;/p&gt;
-&lt;h2&gt;Key Points&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;NACA publications contributed heavily to the creation of the Appendix C icing regulation.  &lt;/li&gt;
-&lt;li&gt;The key flight tests and publications were complete by 1952.  &lt;/li&gt;
-&lt;li&gt;Some engineering judgement went into creating the icing regulation.  &lt;/li&gt;
-&lt;li&gt;There was remarkable progress in the three-year span 1946 through 1949.  &lt;/li&gt;
-&lt;li&gt;The data from 1949 compares well to more recent flight test measurements.  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;The most enduring legacy of the NACA publications on icing meteorology is their 
-direct influence on the current icing regulations. &lt;/p&gt;
-&lt;h3&gt;Icing Regulations and NACA publications&lt;/h3&gt;
-&lt;p&gt;A limited understanding of atmospheric icing conditions was achieved by 1945. 
-&lt;a href="/naca-tn-1246.html"&gt;NACA-TN-1246&lt;/a&gt; (1947) notes a "Mt. Washington Weather Bureau meeting on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 22 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-22:/conclusions-of-the-meteorology-of-icing-clouds-thread.html</guid><category>NACA</category><category>meteorology</category><category>conclusions</category></item></channel></rss>
+&lt;li&gt;"The Design of Air-Heated Thermal Ice-Prevention Systems …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 24 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-24:/university-of-michigan-airplane-icing-information-course-1953.html</guid><category>misc</category><category>Airplane Icing Information Course</category></item></channel></rss>

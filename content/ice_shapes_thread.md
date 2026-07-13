@@ -1,5 +1,5 @@
 Title: Ice Shapes and Their Effects  
-Date: 2022-06-04 12:00  
+Date: 2022-07-13 12:00  
 Category: NACA  
 tags: ice shapes
 
@@ -56,11 +56,9 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
 
-<!--
 Added:  
 
 ### [Ice Shape Drag Correlations]({filename}ice_shape_drag.md)  
--->
 
 ## Related  
 
