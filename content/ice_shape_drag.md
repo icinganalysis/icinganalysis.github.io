@@ -129,7 +129,7 @@ values on ice drag.
 
 Figure 15 shows that the drag increase due to ice is approximately proportional
 to the liquid water content.  
-
+ 
 ![nasatm83556f15ovl](images/nasa-tm-83556/nasatm83556f15ovl.png)  
 _Composite image by Donald Cook._  
 
@@ -140,7 +140,7 @@ icing time, and collection efficiency terms to a rate of water catch for a parti
 collection surface. It is not an ice collection term as no accounting has been made for
 changes in the collection surface attributable to ice formation.  
 > 
-![aedcAcparam](images/nasa-tm-83556/aedcAcparam.png)  
+![aedcAcparam](images/nasa-tm-83556/aedcAcparam.png)   
 _Public Domain image from AEDC-TR-87-23._  
 
 [ρ_i is ice density, and c is chord length.]  
