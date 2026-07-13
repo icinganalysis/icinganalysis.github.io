@@ -38,8 +38,8 @@
                 Published: Sun 12 July 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-07-12T16:28:41.819880-07:00">
-                Updated: Sun 12 July 2026
+        <abbr class="modified" title="2026-07-13T12:12:10.048529-07:00">
+                Updated: Mon 13 July 2026
         </abbr>
 <!---->
         <!---->
@@ -110,9 +110,9 @@ and those were corrected for this analysis (included further below).  </p>
 <h2>Evaluating correlations</h2>
 <p>To evaluate the level of correspondence between 
 the test points and correlation fit line, average relative difference (abbreviated below as rel.diff.) will be used:   </p>
-<blockquote>
-<p>rel.diff. = average(abs(fit-test)/test)</p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>rel.diff. = average(abs(fit-test)/test)
+</code></pre></div>
+
 <p>The Figure 10 correlation has fair correspondence to the selected datapoints shown in Figure 10. 
 However, the correspondence to all 49 data points is not as good.   </p>
 <p><img alt="nasatm83556fig10_ttc_cd" src="images/nasa-tm-83556/nasatm83556fig10_ttc_cd.png">  </p>
@@ -126,9 +126,9 @@ Ko is based on chord length in AEDC-TR-87-23, while it is based on leading edge 
 of 1, 1.7, and 2.6 respectively, based on leading edge diameter of curvature 
 (there is a minor variation within each set due to temperature dependent properties of air). 
 The drag difference due to ice can be separated out from total drag:  </p>
-<blockquote>
-<p>dCd_ice = Cd_total - Cd_clean</p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>dCd_ice = Cd_total - Cd_clean
+</code></pre></div>
+
 <p>Cd_clean is available from NASA-TM-83556 Figure 3:<br>
 <img alt="nasatm83556fig3" src="images/nasa-tm-83556/nasatm83556fig3.png"><br>
 <em>Public Domain image from NASA-TM-83556.</em>  </p>
@@ -153,7 +153,7 @@ to the liquid water content.  </p>
 icing time, and collection efficiency terms to a rate of water catch for a particular
 collection surface. It is not an ice collection term as no accounting has been made for
 changes in the collection surface attributable to ice formation.  </p>
-<p>![aedcAcparam(images/nasa-tm-83556/aedcAcparam.png)<br>
+<p><img alt="aedcAcparam" src="images/nasa-tm-83556/aedcAcparam.png"><br>
 <em>Public Domain image from AEDC-TR-87-23.</em>  </p>
 </blockquote>
 <p>[ρ_i is ice density, and c is chord length.]  </p>
@@ -164,9 +164,9 @@ such as leading edge freezing fraction,
 also change as the Ac value changes, so it appears to deviate from the 
 expected linear trend.  </p>
 <p>We can fit data to a non-dimensionalized cd value:</p>
-<blockquote>
-<p>n_dcd_ice = delta_cd_ice / ac</p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>n_dcd_ice = delta_cd_ice / ac
+</code></pre></div>
+
 <p>A correlation is developed for n_dcd_ice from the data.  </p>
 <p>More than half of the data (28 points out of 49 total) is at the value ko_le = 1.7 . 
 I view this as the most accurate line, as it has the most points used to determine it. 
@@ -179,9 +179,9 @@ retaining a peak Cd value,
 and minimizing the relative difference value.  </p>
 <p>The n_dcd_ice fit may not be impressive by itself, 
 but the Cd value may be recovered by:</p>
-<blockquote>
-<p>Cd = n_dcd_ice * ac + cd_clean  </p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>Cd = n_dcd_ice * ac + cd_clean  
+</code></pre></div>
+
 <p>The variation of the Cd value evaluated with these improvements is relatively small:  </p>
 <p><img alt="nasatm83556fig10_na_ndcd_17_fit" src="images/nasa-tm-83556/nasatm83556fig10_na_ndcd_17_fit.png">  </p>
 <p>The spline fit has a different shape than the line from Figure 3. 
@@ -189,18 +189,12 @@ The spline fit achieves a better overall fit,
 while the line from Figure 3 appear to have been intended to capture the largest Cd values.  </p>
 <p>This was then used for conditions at other ko values by assuming 
 a linear relationship: </p>
-<blockquote>
-<p>n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)  </p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)  
+</code></pre></div>
+
 <p>Together, the above establish Cd = f(na, ko_le, ac, aoa).  </p>
 <p>The results show good correspondence to the 49 test values:  </p>
 <p><img alt="nasatm83556fig10_fko_exp1_fit" src="images/nasa-tm-83556/nasatm83556fig10_fko_exp1_fit.png">  </p>
-<p>A slightly better fit, that also nearly captures the largest Cd value, 
-was also found:  </p>
-<blockquote>
-<p>n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)**1.3  </p>
-<p><img alt="nasatm83556fig10_fko_exp1_3_fit" src="images/nasa-tm-83556/nasatm83556fig10_fko_exp1_3_fit.png">  </p>
-</blockquote>
 <h2>Conclusions</h2>
 <p>The relative difference of 22% for the correlation is approaching the 16% experimental 
 repeatability found in AEDC-TR-87-23. This indicates to me that there is a limited amount to be gained 

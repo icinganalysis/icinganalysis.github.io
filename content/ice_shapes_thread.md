@@ -56,6 +56,12 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
 
+<!--
+Added:  
+
+### [Ice Shape Drag Correlations]({filename}ice_shape_drag.md)  
+-->
+
 ## Related  
 
 The next thread in the series is the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  

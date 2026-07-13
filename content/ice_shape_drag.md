@@ -60,7 +60,7 @@ accumulation parameter, and water drop modified inertia parameter.
 NASA-TM-83556 and AEDC-TR-87-23 used the same dataset, from 
 NASA-TM-83556. Table 1 from NASA-TM-83556 is shown below.  
  
->The test matrix is listed in table 1. The ice shape and resulting drag
+> The test matrix is listed in table 1. The ice shape and resulting drag
 coefficient depend upon at least the following: the airfoil shape and angle
 of attack, the air temperature and velocity, and the LWC and DVM [MVD] of the cloud.
 With that number of parameters, only a sparse matrix of conditions and repeat
@@ -80,7 +80,9 @@ and those were corrected for this analysis (included further below).
 To evaluate the level of correspondence between 
 the test points and correlation fit line, average relative difference (abbreviated below as rel.diff.) will be used:   
 
-> rel.diff. = average(abs(fit-test)/test)
+```text
+rel.diff. = average(abs(fit-test)/test)
+```
 
 The Figure 10 correlation has fair correspondence to the selected datapoints shown in Figure 10. 
 However, the correspondence to all 49 data points is not as good.   
@@ -100,7 +102,9 @@ of 1, 1.7, and 2.6 respectively, based on leading edge diameter of curvature
 (there is a minor variation within each set due to temperature dependent properties of air). 
 The drag difference due to ice can be separated out from total drag:  
 
-> dCd_ice = Cd_total - Cd_clean
+```text
+dCd_ice = Cd_total - Cd_clean
+```
 
 Cd_clean is available from NASA-TM-83556 Figure 3:  
 ![nasatm83556fig3](images/nasa-tm-83556/nasatm83556fig3.png)  
@@ -136,7 +140,7 @@ icing time, and collection efficiency terms to a rate of water catch for a parti
 collection surface. It is not an ice collection term as no accounting has been made for
 changes in the collection surface attributable to ice formation.  
 > 
-![aedcAcparam(images/nasa-tm-83556/aedcAcparam.png)  
+![aedcAcparam](images/nasa-tm-83556/aedcAcparam.png)  
 _Public Domain image from AEDC-TR-87-23._  
 
 [ρ_i is ice density, and c is chord length.]  
@@ -151,7 +155,9 @@ expected linear trend.
 
 We can fit data to a non-dimensionalized cd value:
 
-> n_dcd_ice = delta_cd_ice / ac
+```text
+n_dcd_ice = delta_cd_ice / ac
+```
 
 A correlation is developed for n_dcd_ice from the data.  
 
@@ -170,7 +176,9 @@ and minimizing the relative difference value.
 The n_dcd_ice fit may not be impressive by itself, 
 but the Cd value may be recovered by:
 
-> Cd = n_dcd_ice * ac + cd_clean  
+```text
+Cd = n_dcd_ice * ac + cd_clean  
+```
  
 The variation of the Cd value evaluated with these improvements is relatively small:  
 
@@ -183,7 +191,9 @@ while the line from Figure 3 appear to have been intended to capture the largest
 This was then used for conditions at other ko values by assuming 
 a linear relationship: 
 
-> n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)  
+```text
+n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)  
+```
 
 Together, the above establish Cd = f(na, ko_le, ac, aoa).  
 
@@ -191,12 +201,6 @@ The results show good correspondence to the 49 test values:
 
 ![nasatm83556fig10_fko_exp1_fit](images/nasa-tm-83556/nasatm83556fig10_fko_exp1_fit.png)  
 
-A slightly better fit, that also nearly captures the largest Cd value, 
-was also found:  
- 
-> n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)**1.3  
-> 
-![nasatm83556fig10_fko_exp1_3_fit](images/nasa-tm-83556/nasatm83556fig10_fko_exp1_3_fit.png)  
 ## Conclusions  
 
 The relative difference of 22% for the correlation is approaching the 16% experimental 
