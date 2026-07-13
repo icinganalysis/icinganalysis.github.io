@@ -227,7 +227,8 @@ Like every topic in icing, "Additional data needs to be collected":
 
 > Additional data needs to be collected to further substantiate these observations
 and add resolution to the curve.  
-
+_AEDC-TR-87-23._  
+ 
 Nearly half (22 of 49) of the cases were at T_total=-8C, leading to a cluster of points near na=0.3 . 
 Perhaps the authors had prior experience and selected those conditions to be of particular interest. 
 However, additional points at different conditions would help clarify where peak drag conditions occur and 
