@@ -114,16 +114,16 @@ AEDC-TR-87-23 Figure 5 indicates that ice drag is roughly proportional to the ko
 with apparent linear fits converging at the Cd_clean value of 0.008. 
 Note that this figure uses ko based on chord length.  
 
-![nasatm83556f15ovl](images/nasa-tm-83556/nasatm83556f15ovl.png)  
+![aedcfig5ovl.png](images/nasa-tm-83556/aedcfig5ovl.png)  
 _Composite image by Donald Cook._  
 
 By linear interpolation, the 49 measured Cd values can be calculated with a relative difference 
 of 37.2%, which is perhaps good enough to be useful for some applications.  
 
 ![aedc_fig3kocd_fit](images/nasa-tm-83556/aedc_fig3kocd_fit.png)  
-
+ 
 ## Improving the correlation  
-
+ 
 However, we can do better by considering the effect of differing accumulation parameter 
 values on ice drag.  
 
