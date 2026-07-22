@@ -40,7 +40,8 @@ Initially, we will consider an altitude of 0 ft. and a chord length of 0.533 m (
 to match NASA-TM-83556 cases.  
 
 For the drop sizes, there are different peak Cd values and conditions. 
-The highest Cd values occur near 28F and MVD values of 30 or 35.  
+The highest Cd values occur near 28F and MVD values of 30 or 35. 
+For reference, the clean airfoil Cd value is 0.008 at AOA=4.  
 
 ![app_c_conditions_alt0_cd_c0.533](images/conditions-cd/app_c_conditions_alt0_cd_c0.533.png)
 
@@ -54,7 +55,7 @@ The Cd value varies by less than 1%, and the temperature by less than 1F.
 This illustrates that analysis at the labeled MVD values (increments of 5) is entirely adequate, 
 particularly given that the calculated Cd correlation has a +/-20% variance compared to experiment.  
 
-## Flight cases  
+## Flight cases   
 
 For cases in flight, Appendix C Figure 2 defines temperature and altitude boundaries. 
 At higher altitudes, there is a smaller range of applicable temperatures. 
@@ -218,5 +219,3 @@ to incorporate this information.
 [^2]: Appendix C of the United States Chapter 14 Code of Federal Regulations Part 25 [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^3]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^4]: Appendix O of the United States Chapter 14 Code of Federal Regulations Part 25 [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
-
-
