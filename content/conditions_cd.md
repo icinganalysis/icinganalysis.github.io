@@ -174,10 +174,12 @@ but the drops sizes are different.
 Distributions of drop sizes are defined.    
 
 ![appOfig3](images/conditions-cd/appOfig3.png)  
+_Public Domain image._   
 
 ![appOfig6](images/conditions-cd/appOfig6.png)  
+_Public Domain image._   
 
-The correlation used above uses MVD as the only drop size indicator. 
+The correlation used above has MVD as the only drop size indicator. 
 MVD may not be representative of the wide (orders of magnitude) drop size distributions of SLD conditions.  
 
 If one were to just use MVD anyway, 
@@ -198,7 +200,7 @@ Large drops can break up before impact, or splatter on impact, effectively actin
 
 As with many topics in aircraft icing:  
 
-> Additional data needs to be collected to further substantiate these observations...  
+> "Additional data needs to be collected to further substantiate these observations..."  
 >_From NASA-TM-83556._  
 
 ## Related  
