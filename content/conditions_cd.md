@@ -31,7 +31,7 @@ _Public Domain image._
 There is a standard horizontal extent of 17.4 nmi. defined that will be used here.  
 
 A true airspeed of 100 KTAS (51.4 m/s, 185.2 KPH) was selected. 
-This is in range of the experimental cases of NASA-TM-83556.  
+This is in range of the experimental cases of NASA-TM-83556. 
 At the selected airspeed, 626 seconds is required to traverse the 17.4 nmi standard distance.  
 
 To simplify the analysis, all cases will use the NACA0012 airfoil at AOA=4.  
@@ -45,7 +45,6 @@ The highest Cd values occur near 28F and MVD values of 30 or 35.
 ![app_c_conditions_alt0_cd_c0.533](images/conditions-cd/app_c_conditions_alt0_cd_c0.533.png)
 
 A closer view allows us to see the intermediate drop sizes considered (not labeled). 
-The analysis was done with 200 ft. altitude increments. 
 A slightly higher peak Cd is at 33 MVD.  
 
 ![app_c_conditions_alt0_cd_c0.533zoom](images/conditions-cd/app_c_conditions_alt0_cd_c0.533zoom.png)  
@@ -121,7 +120,8 @@ A more detailed view:
 
 Drag, represented as Cd, was selected as a metric, as it has a measurable effect on airplane performance. 
 There are 49 experimental data points from NASA-TM-83556 that establish usable trends to 
-form a correlation. 
+form a correlation.  
+
 The range of chord lengths are useful for estimating the effects on different sized aircraft, 
 but also for estimating the effects of different components on one aircraft. 
 The wing may have a large chord, the horizontal stabilizer a smaller one, 
@@ -138,7 +138,7 @@ but may be of limited use to pilots in flight.
 Airspeed, altitude, and temperature are indicated on the flight deck, 
 but LWC and MVD are only indicated in specially equipped research flights.  
 
-Previous studies to identify design icing conditions, such as [Wilder](filename}wilder.md) [^3], 
+Previous studies to identify design icing conditions, such as [Wilder]({filename}wilder.md) [^3], 
 have looked at maximum water catch as a criteria. 
 That study yielded 25 MVD as the maximum water catch drop size for a large airfoil.  
 
@@ -158,17 +158,17 @@ and only more data can determine the merits.
 There is not a study as large as NASA-TM-832556 for the effects of specific icing conditions on lift, 
 so it was not attempted to determine a general correlation for lift. 
 
-Drag has sometimes been termed a "leading indicator" for effects on lift, 
+Drag has been termed a "leading indicator" for effects on lift, 
 for clean airfoils as well as iced cases. 
 Drag due to ice is a useful indicator as it can have measurable effects at a nominal angle of attack, 
 while the lift may remain relatively close to the clean airfoil value until Cl_max is approached (which typical flight would not approach). 
 Ice may be accreted at a nominal angle of attack, 
 but then maneuvers may require a higher angle of attack, 
-and non-normal conditions can approach Cl_max.  
+and non-normal maneuvers can approach Cl_max.  
 
 ### What about Appendix O conditions?  
 
-Appendix O defines large supercooled drop (SLD) icing conditions. 
+Appendix O [^4] defines large supercooled drop (SLD) icing conditions. 
 The LWC values are roughly comparable to Appendix C, 
 but the drops sizes are different. 
 Distributions of drop sizes are defined.    
@@ -177,8 +177,8 @@ Distributions of drop sizes are defined.
 
 ![appOfig6](images/conditions-cd/appOfig6.png)  
 
-The correlation used above uses only MVD as a drop size indicator. 
-MVD may not be representative of the wide (orders of magnitude) distributions of SLD conditions. 
+The correlation used above uses MVD as the only drop size indicator. 
+MVD may not be representative of the wide (orders of magnitude) drop size distributions of SLD conditions.  
 
 If one were to just use MVD anyway, 
 the "freezing drizzle MVD < 40" and "freezing rain MVD < 40" distributions would 
@@ -199,7 +199,7 @@ Large drops can break up before impact, or splatter on impact, effectively actin
 As with many topics in aircraft icing:  
 
 > Additional data needs to be collected to further substantiate these observations...  
->_From NASA-TM-83556._ 
+>_From NASA-TM-83556._  
 
 ## Related  
 
