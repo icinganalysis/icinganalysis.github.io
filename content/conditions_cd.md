@@ -85,7 +85,7 @@ for the 0 ft. altitude case.
 The peak Cd values tend to increase with altitude, up to a point, 
 due to several factors, including increasing true airspeed, 
 higher Ko value ("modified water drop inertia parameter)", 
-and the resulting greater water drop collection efficiency.  x
+and the resulting greater water drop collection efficiency.  
 
 ## Effect of chord length and airspeed  
 
