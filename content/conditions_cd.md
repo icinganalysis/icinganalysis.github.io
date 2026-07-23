@@ -100,8 +100,6 @@ Peak drag conditions are a function of airspeed and chord length.
 Small airfoils have a higher Cd value due to ice partly because Ac, the 
 ratio of potential ice accumulation thickness to chord length, 
 is higher for the same icing conditions. 
-Also, the Ko value is larger for small airfoils, and Ko is an important component 
-in the drag correlation. 
 This approximates the ice shape being a larger portion of the chord length. 
 Also, the Ko value is higher for a shorter chord length, 
 and ko is a component in the correlation of iced Cd.  
@@ -159,7 +157,7 @@ with is a factor in the correlation of the Cd value with ice.
 I am not advocating for the abandonment of prior, successful methods. 
 The drag correlation method described may or may not be an incremental improvement, 
 and only more data can determine the merits.  
-
+ 
 ### What about the effect of ice on lift?  
 
 There is not a study as large as NASA-TM-832556 for the effects of specific icing conditions on lift, 
