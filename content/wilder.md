@@ -186,7 +186,7 @@ area.
 
 ![Figure 6. Typical ice shapes for unprotected tail surface from ref. 2.](images/wilder/Figure 6.png)  
 
->The above calculation procedues only approximate the actual ice shape
+>The above calculation procedures only approximate the actual ice shape
 since accurate ice accretion data for most airfoils is not available. 
 Also,
 water drop sizes and resultant collection efficiencies must be checked for the
@@ -221,7 +221,7 @@ given icing and flight condition as well as for size and sweep of the airfoil.
 ![Figure 8. Correlation of ice height with theoretical impingement unswept 4 percent thick airfoil.](images/wilder/Figure 8.png)  
 
 >The revised 737 inboard wing and 747 tail surface ice shapes have been
-determined from these data. These shapee show good agreement with the
+determined from these data. These shapes show good agreement with the
 707/727
 ice thicknesses at the horizontal stabilizer tip. However, the
 ice accretion test data indicated a more blunt ice shape due to the effects

@@ -148,7 +148,10 @@ _Public Domain image._
 
 The 747 aircraft discussed in Wilder has had a long and successful service record in icing conditions, 
 so the selected design point could not have been very far off from a representative condition. 
-Also, for large airfoils, the predicted increase in drag at even the worst case conditions is small.  
+For large airfoils, the predicted increase in drag at even the worst case conditions is small.  
+
+Also, the 747 airfoil may have a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
+with is a factor in the correlation of the Cd value with ice.  
 
 I am not advocating for the abandonment of prior, successful methods. 
 The drag correlation method described may or may not be an incremental improvement, 
