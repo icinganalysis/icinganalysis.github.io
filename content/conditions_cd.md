@@ -1,6 +1,6 @@
 status: draft  
 title: Estimating Icing Conditions with Highest Drag  
-date: 2026-07-22 12:30
+date: 2026-07-26 12:30
 tags: ice shapes, drag, Appendix C
 
 ### _"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."_  
@@ -156,9 +156,10 @@ For large airfoils, the predicted increase in drag at even the worst case condit
 
 The 747 airfoil has a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
 with is a factor in the correlation of the Cd value with ice. 
-The BAC 470 airfoil in Figure 7 appears to have a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  
+The BAC 470 airfoil in Figure 9 appears to have a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  
 
 ![Figure 9.png](images/wilder/Figure%209.png)  
+_Public Domain image._  
 
 So, we will stretch the Cd correlation once again for an airfoil that was not in the 
 NASA-TM-83556 data. 
