@@ -148,12 +148,21 @@ That study yielded 25 MVD as the maximum water catch drop size for a large airfo
 _Public Domain image._   
 
 The 747 aircraft discussed in Wilder has had a long and successful service record in icing conditions, 
-so the selected design point could not have been very far off from a representative condition. 
+so the selected design point could not have been very far off from a representative condition, 
+or being a little off has little effect. 
 For large airfoils, the predicted increase in drag at even the worst case conditions is small.  
 
-Also, the 747 airfoil may have a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
-with is a factor in the correlation of the Cd value with ice.  
+The 747 airfoil has a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
+with is a factor in the correlation of the Cd value with ice. 
+The BAC 470 airfoil has a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  
 
+![Figure 9.png](images/wilder/Figure%209.png)  
+
+Using the flight conditions listed in Wilder for a horizontal stabilizer analysis, 
+the iced Cd correlation yields maximum value at MVD=31.  
+
+![bac470_cd](images/conditions-cd/bac470_cd.png)  
+ 
 I am not advocating for the abandonment of prior, successful methods. 
 The drag correlation method described may or may not be an incremental improvement, 
 and only more data can determine the merits.  
