@@ -140,6 +140,8 @@ but may be of limited use to pilots in flight.
 Airspeed, altitude, and temperature are indicated on the flight deck, 
 but LWC and MVD are only indicated in specially equipped research flights.  
 
+### Comparisons to a prior analysis  
+
 Previous studies to identify design icing conditions, such as [Wilder]({filename}wilder.md) [^3], 
 have looked at maximum water catch as a criteria. 
 That study yielded 25 MVD as the maximum water catch drop size for a large airfoil.  
