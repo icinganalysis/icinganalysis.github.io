@@ -84,7 +84,8 @@ for the 0 ft. altitude case.
 
 The peak Cd values tend to increase with altitude, up to a point, 
 due to several factors, including increasing true airspeed, 
-higher Ko value, and greater water drop collection efficiency.  
+higher Ko value ("modified water drop inertia parameter)", 
+and the resulting greater water drop collection efficiency.  x
 
 ## Effect of chord length and airspeed  
 
@@ -96,9 +97,11 @@ Peak drag conditions are a function of airspeed and chord length.
 
 ![conditions-cdmax](images/conditions-cd/conditions-cdmax.png)  
 
-Small airfoils have a higher Cd value due to ice largely because Ac, the 
+Small airfoils have a higher Cd value due to ice partly because Ac, the 
 ratio of potential ice accumulation thickness to chord length, 
 is higher for the same icing conditions. 
+Also, the Ko value is larger for small airfoils, and Ko is an important component 
+in the drag correlation. 
 This approximates the ice shape being a larger portion of the chord length. 
 Also, the Ko value is higher for a shorter chord length, 
 and ko is a component in the correlation of iced Cd.  
