@@ -134,7 +134,7 @@ The observation that peak drag conditions do not vary markedly with chord length
 one or a few "critical" icing conditions to be selected as representative. 
 We also saw that the peak Cd value does not change much between 30 and 35 MVD (<1%), 
 so determining the "exact" condition is not critical.   
-
+ 
 These observations are useful for analyzing conditions, 
 but may be of limited use to pilots in flight. 
 Airspeed, altitude, and temperature are indicated on the flight deck, 
@@ -158,6 +158,9 @@ The BAC 470 airfoil has a leading edge curvature to chord ratio of 0.016, about 
 
 ![Figure 9.png](images/wilder/Figure%209.png)  
 
+So, we will stretch the Cd correlation once again for an airfoil that was not in the 
+NASA-TM-83556 data. 
+This is putting a lot of faith in the dimensionless parameter being applicable over a wide range. 
 Using the flight conditions listed in Wilder for a horizontal stabilizer analysis, 
 the iced Cd correlation yields maximum value at MVD=31.  
 
