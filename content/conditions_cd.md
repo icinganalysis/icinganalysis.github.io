@@ -156,7 +156,7 @@ For large airfoils, the predicted increase in drag at even the worst case condit
 
 The 747 airfoil has a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
 with is a factor in the correlation of the Cd value with ice. 
-The BAC 470 airfoil has a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  
+The BAC 470 airfoil in Figure 7 appears to have a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  
 
 ![Figure 9.png](images/wilder/Figure%209.png)  
 
