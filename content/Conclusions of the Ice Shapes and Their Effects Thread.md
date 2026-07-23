@@ -310,6 +310,13 @@ However, the validation report [^17] used a modified definition for theta:
 
 Most of the ice shapes from this thread were produced in icing wind tunnels. 
 We will review these test facilities in the upcoming [Icing Wind Tunnels Test Thread]({filename}Icing Wind Tunnel Test Thread.md). 
+<!--
+Two more posts were added after these conclusions were written. 
+They may eventually be incorporated into these conclusions.  
+
+- [Ice Shape Drag Correlations]({filename}ice_shape_drag.md)  
+- [Estimating Icing Conditions with Highest Drag]({filename}ice_shape_drag.md)
+-->
 
 The next thread in the NACA review series is the [Water Drop Evaporation Thread]({filename}water_drop_evaporation_thread.md).  
 
