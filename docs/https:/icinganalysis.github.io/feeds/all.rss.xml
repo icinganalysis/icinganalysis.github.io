@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Wed, 22 Jul 2026 14:27:31 -0700</lastBuildDate><item><title>Ice Shape Drag Correlations</title><link>/ice-shape-drag-correlations.html</link><description>&lt;h3&gt;&lt;em&gt;"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."&lt;/em&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Mon, 27 Jul 2026 18:30:00 -0700</lastBuildDate><item><title>Estimating Icing Conditions with Highest Drag</title><link>/estimating-icing-conditions-with-highest-drag.html</link><description>&lt;h3&gt;&lt;em&gt;"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;from NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="conditions_cd-chord0533_100" src="images/conditions-cd/conditions_cd-chord0533_100.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In &lt;a href="/ice-shape-drag-correlations.html"&gt;"Ice Shape Drag Correlations"&lt;/a&gt; 
+a correlation of drag due to icing was detailed using data from NASA-TM-83556 &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;. 
+Here, we use the correlation to predict or estimate which icing conditions can result in the highest drag.  &lt;/p&gt;
+&lt;p&gt;The icing conditions predicted to have the highest Cd values cluster in 
+a limited range of Figures 1 and 2 of Appendix C &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
+even when wide ranges of airspeed and altitude are considered.  &lt;/p&gt;
+&lt;h2&gt;The Appendix C, Figure 1 Icing Environment&lt;/h2&gt;
+&lt;p&gt;We will use the Appendix C Continuous Maximum Icing Conditions.  &lt;/p&gt;
+&lt;p&gt;Appendix C Figure 1 defines LWC as a function of water drop size MVD
+(noted as "Median Effective Drop Diameter").  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Appendix C Figure 1" src="images/conditions-cd/Appendix%20C%20Figure%201.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image.&lt;/em&gt;   &lt;/p&gt;
+&lt;p&gt;There is a standard horizontal extent of 17.4 nmi. defined that will be used here.  &lt;/p&gt;
+&lt;p&gt;A true airspeed …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 27 Jul 2026 18:30:00 -0700</pubDate><guid>tag:None,2026-07-27:/estimating-icing-conditions-with-highest-drag.html</guid><category>misc</category><category>ice shapes</category><category>drag</category><category>Appendix C</category></item><item><title>Ice Shape Drag Correlations</title><link>/ice-shape-drag-correlations.html</link><description>&lt;h3&gt;&lt;em&gt;"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
 &lt;p&gt;&lt;img alt="AEDC-TR-87-23fig10" src="images/nasa-tm-83556/AEDC-TR-87-23fig3.png"&gt;
 &lt;em&gt;Public Domain image from AEDC-TR-87-23.&lt;/em&gt;   &lt;/p&gt;
@@ -1783,28 +1800,4 @@ although I will briefly discuss that here. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bernard_Vonnegut"&gt;Wikipedia&lt;/a&gt; summarizes about 
 the author and presenter Bernard Vonnegut:  &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Bernard Vonnegut (August 29, 1914 – April 25, 1997) was an American atmospheric …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Thu, 25 May 2023 13:00:00 -0700</pubDate><guid>tag:None,2023-05-25:/supercooled-clouds.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>clouds</category><category>meteorology</category></item><item><title>University of Michigan Airplane Icing Information Course, 1953</title><link>/university-of-michigan-airplane-icing-information-course-1953.html</link><description>&lt;h3&gt;&lt;em&gt;Thirteen lectures show the "state of the art" in 1953.&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 1. Modes of energy transfer for an unheated airfoil in icing conditions. 
-Image from Anon., &amp;quot;Aircraft Ice Protection&amp;quot;, the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590." src="/images/messinger/Figure1.png"&gt;&lt;br&gt;
-&lt;em&gt;See Lecture No. 6, "Energy Exchanges During Icing", Messinger, Bernard L.&lt;/em&gt;   &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Thirteen lectures show the "state of the art" in 1953.  &lt;/p&gt;
-&lt;h2&gt;Key Points&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;This was the best aircraft icing training and design guide available at the time.  &lt;/li&gt;
-&lt;li&gt;Several lectures are extracts of earlier works, or were republished later.  &lt;/li&gt;
-&lt;li&gt;Selected lectures are reviewed.  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Since there was no introduction in the bound book copy &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; I read 
-(it simply starts with Lecture 1). 
-Here is a listing of the lecture titles and authors
-(I could not find this seemingly basic information online).  &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;"Supercooled Clouds" Vonnegut, Bernard    &lt;/li&gt;
-&lt;li&gt;"The Mechanics of Suspensions", Brun, Edmond  &lt;/li&gt;
-&lt;li&gt;"The Trajectories of Water Drops", Tribus, Myron  &lt;/li&gt;
-&lt;li&gt;"Heat Transfer from Streamlined Bodies", Eckert, E. R. G.  &lt;/li&gt;
-&lt;li&gt;"Mass Transfer at High Velocities", Mickley, Harold S.  &lt;/li&gt;
-&lt;li&gt;"Energy Exchanges During Icing", Messinger, Bernard L.  &lt;/li&gt;
-&lt;li&gt;"The Design of Air-Heated Thermal Ice-Prevention Systems …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 24 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-24:/university-of-michigan-airplane-icing-information-course-1953.html</guid><category>misc</category><category>Airplane Icing Information Course</category></item></channel></rss>
+&lt;p&gt;Bernard Vonnegut (August 29, 1914 – April 25, 1997) was an American atmospheric …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Thu, 25 May 2023 13:00:00 -0700</pubDate><guid>tag:None,2023-05-25:/supercooled-clouds.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>clouds</category><category>meteorology</category></item></channel></rss>

@@ -1,5 +1,5 @@
 Title: Ice Shapes and Their Effects  
-Date: 2022-07-13 12:00  
+Date: 2022-07-27 18:00  
 Category: NACA  
 tags: ice shapes
 
@@ -56,15 +56,13 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ### [Conclusions of the "Ice Shapes and Their Effects" thread]({filename}Conclusions of the Ice Shapes and Their Effects Thread.md)  
 
-Added:  
+### Added:  
 
 ### [Ice Shape Drag Correlations]({filename}ice_shape_drag.md)  
 >A refined correlation of drag for an airfoil with icing conditions.
 
-<!--
-### [Estimating Icing Conditions with Highest Drag]({filename}ice_shape_drag.md)  
+### [Estimating Icing Conditions with Highest Drag]({filename}conditions_cd.md)  
 >Estimating which icing conditions in Appendix C can result in the highest drag.  
--->
 
 ## Related  
 

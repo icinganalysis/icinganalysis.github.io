@@ -24,7 +24,222 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/ice-shape-drag-correlations.html">Ice Shape Drag Correlations</a></h1>
+                    <h1 class="entry-title"><a href="/estimating-icing-conditions-with-highest-drag.html">Estimating Icing Conditions with Highest Drag</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2026-07-27T18:30:00-07:00">
+                Published: Mon 27 July 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-07-27T17:39:24.349786-07:00">
+                Updated: Mon 27 July 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/drag.html">drag</a><br> <a href="/tag/appendix-c.html">Appendix C</a><br> </p>
+</footer><!-- /.post-info --><h3><em>"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."</em></h3>
+<p><em>from NASA-TM-83556.</em>  </p>
+<p><img alt="conditions_cd-chord0533_100" src="images/conditions-cd/conditions_cd-chord0533_100.png">  </p>
+<h2>Summary</h2>
+<p>In <a href="/ice-shape-drag-correlations.html">"Ice Shape Drag Correlations"</a> 
+a correlation of drag due to icing was detailed using data from NASA-TM-83556 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. 
+Here, we use the correlation to predict or estimate which icing conditions can result in the highest drag.  </p>
+<p>The icing conditions predicted to have the highest Cd values cluster in 
+a limited range of Figures 1 and 2 of Appendix C <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, 
+even when wide ranges of airspeed and altitude are considered.  </p>
+<h2>The Appendix C, Figure 1 Icing Environment</h2>
+<p>We will use the Appendix C Continuous Maximum Icing Conditions.  </p>
+<p>Appendix C Figure 1 defines LWC as a function of water drop size MVD
+(noted as "Median Effective Drop Diameter").  </p>
+<p><img alt="Appendix C Figure 1" src="images/conditions-cd/Appendix%20C%20Figure%201.png"><br>
+<em>Public Domain image.</em>   </p>
+<p>There is a standard horizontal extent of 17.4 nmi. defined that will be used here.  </p>
+<p>A true airspeed of 100 KTAS (51.4 m/s, 185.2 KPH) was selected. 
+This is in range of the experimental cases of NASA-TM-83556. 
+At the selected airspeed, 626 seconds is required to traverse the 17.4 nmi standard distance.  </p>
+<p>To simplify the analysis, all cases will use the NACA0012 airfoil at AOA=4.  </p>
+<p>Initially, we will consider an altitude of 0 ft. and a chord length of 0.533 m (21 inch) 
+to match NASA-TM-83556 cases.  </p>
+<p>For the drop sizes, there are different peak Cd values and conditions. 
+The highest Cd values occur near 28F and MVD values of 30 or 35. 
+For reference, the clean airfoil Cd value is 0.008 at AOA=4.  </p>
+<p><img alt="app_c_conditions_alt0_cd_c0.533" src="images/conditions-cd/app_c_conditions_alt0_cd_c0.533.png"></p>
+<p>A closer view allows us to see the intermediate drop sizes considered (not labeled). 
+A slightly higher peak Cd is at 33 MVD.  </p>
+<p><img alt="app_c_conditions_alt0_cd_c0.533zoom" src="images/conditions-cd/app_c_conditions_alt0_cd_c0.533zoom.png">  </p>
+<p>However, the differences are very small between the candidate peaks. 
+The Cd value varies by less than 1%, and the temperature by less than 1F.
+This illustrates that analysis at the labeled MVD values (increments of 5) is entirely adequate, 
+particularly given that the calculated Cd correlation has a +/-20% variance compared to experiment.  </p>
+<h2>Flight cases</h2>
+<p>For cases in flight, Appendix C Figure 2 defines temperature and altitude boundaries. 
+At higher altitudes, there is a smaller range of applicable temperatures. 
+This, combined with Figure 1, leads to less available water at higher altitudes.  </p>
+<p><img alt="Appendix C Figure 2" src="images/conditions-cd/Appendix%20C%20Figure%202.png"><br>
+<em>Public Domain image.</em>  </p>
+<p>Another consideration for flight is airspeed. 
+The "calibrated" airspeed <a href="https://en.wikipedia.org/wiki/Calibrated_airspeed">CAS</a> (m/s) or KCAS (nmi/hr) is used here. 
+As the AOA in these examples is fixed (AOA=4), 
+CAS represents a condition where level flight is achieved at constant weight 
+for differing airspeed. 
+Every altitude and temperature will have a unique true airspeed value. 
+This results in varying time required to traverse 17.4 nmi.  </p>
+<p><img alt="conditions_cd_ktas" src="images/conditions-cd/conditions_cd_ktas.png">  </p>
+<p>With a chord length of 21 inch to match that in NASA-TM-83556, 
+the peak Cd values is predicted to be at about 13,400 ft. 
+The drop size for the peak is 33 MVD. The temperature was 27F. 
+Except for the altitude, these conditions values are similar to those 
+for the 0 ft. altitude case.  </p>
+<p><img alt="conditions_cd-chord0533_100" src="images/conditions-cd/conditions_cd-chord0533_100.png">  </p>
+<p>The peak Cd values tend to increase with altitude, up to a point, 
+due to several factors, including increasing true airspeed, 
+higher Ko value ("modified water drop inertia parameter)", 
+and the resulting greater water drop collection efficiency.  </p>
+<h2>Effect of chord length and airspeed</h2>
+<p>A range of airspeed was considered, and a range of chord lengths. 
+These values extend beyond the range of the experimental data in NASA-TM-83556, 
+so the results are speculative.  </p>
+<p>Peak drag conditions are a function of airspeed and chord length.  </p>
+<p><img alt="conditions-cdmax" src="images/conditions-cd/conditions-cdmax.png">  </p>
+<p>Small airfoils have a higher Cd value due to ice partly because Ac, the 
+ratio of potential ice accumulation thickness to chord length, 
+is higher for the same icing conditions. 
+This approximates the ice shape being a larger portion of the chord length. 
+Also, the Ko value is higher for a shorter chord length, 
+and ko is a component in the correlation of iced Cd.  </p>
+<p>The conditions for peak Cd are found along the upper-right boundary of Appendix C, Figure 2. 
+At higher airspeed, the temperature values are lower.  </p>
+<p><img alt="conditions-fig2" src="images/conditions-cd/conditions-fig2.png">  </p>
+<p>The conditions cluster in a limited range of LWC and drop size values, 
+despite the large range of airspeed and chord values.  </p>
+<p><img alt="conditions-fig1" src="images/conditions-cd/conditions-fig1.png">  </p>
+<p>A more detailed view:  </p>
+<p><img alt="conditions-fig1zoom" src="images/conditions-cd/conditions-fig1zoom.png">  </p>
+<h2>Conclusions</h2>
+<p>Drag, represented as Cd, was selected as a metric, as it has a measurable effect on airplane performance. 
+There are 49 experimental data points from NASA-TM-83556 that establish usable trends to 
+form a correlation.  </p>
+<p>The range of chord lengths are useful for estimating the effects on different sized aircraft, 
+but also for estimating the effects of different components on one aircraft. 
+The wing may have a large chord, the horizontal stabilizer a smaller one, 
+and components such as aerodynamic fences, wing tip treatments, and air data probes 
+have smaller yet effective chord lengths.  </p>
+<p>The observation that peak drag conditions do not vary markedly with chord length allows 
+one or a few "critical" icing conditions to be selected as representative. 
+We also saw that the peak Cd value does not change much between 30 and 35 MVD (&lt;1%), 
+so determining the "exact" condition is not critical.   </p>
+<p>These observations are useful for analyzing conditions, 
+but may be of limited use to pilots in flight. 
+Airspeed, altitude, and temperature are indicated on the flight deck, 
+but LWC and MVD are only indicated in specially equipped research flights.  </p>
+<h3>Comparisons to a prior analysis</h3>
+<p>Previous studies to identify design icing conditions, such as <a href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium-ramon-wilder.html">Wilder</a> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, 
+have looked at maximum water catch as a criteria. 
+That study yielded 25 MVD as the maximum water catch drop size for a large airfoil.  </p>
+<p><img alt="Wilder Figure 7" src="images/conditions-cd/Wilder%20Figure%207.png"><br>
+<em>Public Domain image.</em>   </p>
+<p>The 747 aircraft discussed in Wilder has had a long and successful service record in icing conditions, 
+so the selected design point could not have been far off from a representative condition, 
+or being a little off has little effect. 
+For large airfoils, the predicted increase in drag at even the worst case conditions is small. 
+Perhaps the drag from ice was a minor (or even insignificant) decrement to performance.  </p>
+<p>The 747 airfoil has a different ratio of leading edge diameter of curvature to chord length than the NACA0012 airfoil, 
+with is a factor in the correlation of the Cd value with ice. 
+The BAC 470 airfoil in Figure 9 appears to have a leading edge curvature to chord ratio of 0.016, about half that of the NACA0012.  </p>
+<p><img alt="Figure 9.png" src="images/wilder/Figure%209.png"><br>
+<em>Public Domain image.</em>  </p>
+<p>So, we will stretch the Cd correlation once again for an airfoil that was not in the 
+NASA-TM-83556 data. 
+This is putting a lot of faith in the dimensionless parameter being applicable over a wide range. 
+Using the flight conditions listed in Wilder for a horizontal stabilizer analysis, 
+the iced Cd correlation yields maximum value at MVD=31.  </p>
+<p><img alt="bac470_cd" src="images/conditions-cd/bac470_cd.png">  </p>
+<p>I am not advocating for the abandonment of prior, successful methods. 
+The drag correlation method described may or may not be an incremental improvement, 
+and only more data can determine the merits.  </p>
+<h3>What about the effect of ice on lift?</h3>
+<p>There is not a study as large as NASA-TM-832556 for the effects of specific icing conditions on lift, 
+so it was not attempted to determine a general correlation for lift. </p>
+<p>Drag has been termed a "leading indicator" for effects on lift, 
+for clean airfoils as well as iced cases. 
+Drag due to ice is a useful indicator as it can have measurable effects at a nominal angle of attack, 
+while the lift may remain relatively close to the clean airfoil value until Cl_max is approached (which typical flight would not approach). 
+Ice may be accreted at a nominal angle of attack, 
+but then maneuvers may require a higher angle of attack, 
+and non-normal maneuvers can approach Cl_max.  </p>
+<h3>What about Appendix O conditions?</h3>
+<p>Appendix O <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> defines large supercooled drop (SLD) icing conditions. 
+The LWC values are roughly comparable to Appendix C, 
+but the drops sizes are different. 
+Distributions of drop sizes are defined.    </p>
+<p><img alt="appOfig3" src="images/conditions-cd/appOfig3.png"><br>
+<em>Public Domain image.</em>   </p>
+<p><img alt="appOfig6" src="images/conditions-cd/appOfig6.png"><br>
+<em>Public Domain image.</em>   </p>
+<p>The correlation used above has MVD as the only drop size indicator. 
+MVD may not be representative of the wide (orders of magnitude) drop size distributions of SLD conditions.  </p>
+<p>If one were to just use MVD anyway, 
+the "freezing drizzle MVD &lt; 40" and "freezing rain MVD &lt; 40" distributions would 
+yield results roughly comparable to those for Appendix C conditions with MVD=20.  </p>
+<p>However, the "freezing drizzle MVD &gt; 40" and "freezing rain MVD &gt; 40" have MVD 
+values of 100 and 500. These are well outside the range considered in NASA-TM-83556. 
+The calculated values of Cd with ice would be very high, largely because the Ko values are high, 
+and Ko is an important component in the drag correlation. 
+This would require extrapolation well beyond the range of experimental values, 
+so I am skeptical that the correlated linear relationship holds over such a large range.  </p>
+<p>The physics of large drops may mitigate the apparently high values of Cd. 
+Distortion of large drop before impact may result in higher drag for the drop, 
+effectively acting as a smaller drop. 
+Large drops can break up before impact, or splatter on impact, effectively acting as smaller drops.  </p>
+<p>As with many topics in aircraft icing:  </p>
+<blockquote>
+<p>"Additional data needs to be collected to further substantiate these observations..."<br>
+<em>From NASA-TM-83556.</em>  </p>
+</blockquote>
+<h2>Related</h2>
+<p>This post is an addendum to the <a href="/ice-shapes-and-their-effects.html">Ice_Shapes and Their Effects_thread</a>, 
+and was written after 
+<a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects Thread</a>. 
+It refines and expands information from the thread. 
+I may eventually edit "Conclusions of the Ice Shapes and Their Effect Thread" 
+to incorporate this information.  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Olsen, W., Shaw, J., and Newton, J. "Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil." NASA-TM-83556, January 1984. <a href="https://ntrs.nasa.gov/citations/19850019527">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Appendix C of the United States Chapter 14 Code of Federal Regulations Part 25 <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">ecfr.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. <a href="https://apps.dtic.mil/sti/pdfs/AD0690469.pdf">apps.dtic.mil</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Appendix O of the United States Chapter 14 Code of Federal Regulations Part 25 <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025">ecfr.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/ice-shape-drag-correlations.html" rel="bookmark"
+                           title="Permalink to Ice Shape Drag Correlations">Ice Shape Drag Correlations</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2026-07-13T12:30:00-07:00">
                 Published: Mon 13 July 2026
@@ -43,7 +258,7 @@
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
 <p>tags: <a href="/tag/ice-shapes.html">ice shapes</a><br> <a href="/tag/drag.html">drag</a><br> </p>
-</footer><!-- /.post-info --><h3><em>"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."</em></h3>
+</footer><!-- /.post-info -->                <h3><em>"No certain explanation for the poor repeatability of glaze ice shapes is available at this time."</em></h3>
 <p><em>NASA-TM-83556.</em>  </p>
 <p><img alt="AEDC-TR-87-23fig10" src="images/nasa-tm-83556/AEDC-TR-87-23fig3.png">
 <em>Public Domain image from AEDC-TR-87-23.</em>   </p>
@@ -65,246 +280,10 @@ which used the calculated leading edge freezing fraction (N):  </p>
 <p>The curves for these figures were drawn as the author
 interpreted the data.</p>
 <p>The curves are similar in shape because of the functional dependency
-of N on test conditions that affect the change in ice shape and, thus, Cd. Again, it depends
-on which test conditions cause the value of N to change, thereby determining the influence
-that N has on the value of Cd. </p>
-<p>The freezing fraction lines seem to indicate
-that Cd is reasonably insensitive to changes in static temperature when the freezing fraction,
-N &gt;= 0.7. They also indicate that a critical peak in Cd seems to occur when N ~= 0.3. These
-observations may aid in the determination of critical design conditions for icing tests. These
-are limited data. Additional data need to be collected to further substantiate these observations
-and add resolution to the curve.</p>
-</blockquote>
-<p>The primary purpose of AEDC-TR-87-23 was not necessarily to develop a universal drag correlation:  </p>
-<blockquote>
-<p>An investigation was conducted of the requirements for setting icing test conditions for
-aircraft engine certification tests.  </p>
-</blockquote>
-<p>However, within AEDC-TR-87-23 we will find that many of the necessary parts exist, 
-particularly the use of dimensionless parameters such as freezing fraction, 
-accumulation parameter, and water drop modified inertia parameter.  </p>
-<h2>Experimental dataset</h2>
-<p>NASA-TM-83556 and AEDC-TR-87-23 used the same dataset, from 
-NASA-TM-83556. Table 1 from NASA-TM-83556 is shown below.  </p>
-<blockquote>
-<p>The test matrix is listed in table 1. The ice shape and resulting drag
-coefficient depend upon at least the following: the airfoil shape and angle
-of attack, the air temperature and velocity, and the LWC and DVM [MVD] of the cloud.
-With that number of parameters, only a sparse matrix of conditions and repeat
-conditions could be accomplished.  </p>
-</blockquote>
-<p><img alt="NASA-TM-83556table1" src="images/nasa-tm-83556/NASA-TM-83556table1.png"><br>
-<em>Public Domain image from NASA-TM-83556.</em>  </p>
-<p>AEDC-TR-87-23 lists only 35 of the 49 conditions in Table 1.<br>
-The data table in AEDC rounds the temperature values to degrees Fahrenheit, and omits run names.   </p>
-<p>There are minor discrepancies and errors in the data lists of each, 
-and those were corrected for this analysis (included further below).  </p>
-<h2>Evaluating correlations</h2>
-<p>To evaluate the level of correspondence between 
-the test points and correlation fit line, average relative difference (abbreviated below as rel.diff.) will be used:   </p>
-<div class="highlight"><pre><span></span><code>rel.diff. = average(abs(fit-test)/test)
-</code></pre></div>
-
-<p>The Figure 10 correlation has fair correspondence to the selected datapoints shown in Figure 10. 
-However, the correspondence to all 49 data points is not as good.   </p>
-<p><img alt="nasatm83556fig10_ttc_cd" src="images/nasa-tm-83556/nasatm83556fig10_ttc_cd.png">  </p>
-<p>To evaluate the AEDC-TR-87-23 Figure 3 correlation, the lines of constant drop size MVD are used. 
-These correspond to constant lines of the dimensionless parameter water drop modified inertia parameter ko. </p>
-<p>To evaluate ko and other dimensionless parameters, the methods from 
-<a href="https://icinganalysis.com/manual-of-scaling-methods.html">NASA/CR-2004-212875</a><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> were used. 
-The terminology differs slightly from AEDC, such as na versus N being used for leading edge freezing fraction. 
-Ko is based on chord length in AEDC-TR-87-23, while it is based on leading edge diameter of curvature in NASA/CR-2004-212875.  </p>
-<p>The lines for drop sizes 14, 20, and 26 correspond to ko values 
-of 1, 1.7, and 2.6 respectively, based on leading edge diameter of curvature 
-(there is a minor variation within each set due to temperature dependent properties of air). 
-The drag difference due to ice can be separated out from total drag:  </p>
-<div class="highlight"><pre><span></span><code>dCd_ice = Cd_total - Cd_clean
-</code></pre></div>
-
-<p>Cd_clean is available from NASA-TM-83556 Figure 3:<br>
-<img alt="nasatm83556fig3" src="images/nasa-tm-83556/nasatm83556fig3.png"><br>
-<em>Public Domain image from NASA-TM-83556.</em>  </p>
-<p>AEDC-TR-87-23 Figure 5 indicates that ice drag is roughly proportional to the ko value, 
-with apparent linear fits converging at the Cd_clean value of 0.008. 
-Note that this figure uses ko based on chord length.  </p>
-<p><img alt="aedcfig5ovl.png" src="images/nasa-tm-83556/aedcfig5ovl.png"><br>
-<em>Composite image by Donald Cook.</em>  </p>
-<p>By linear interpolation, the 49 measured Cd values can be calculated with a relative difference 
-of 37.2%, which is perhaps good enough to be useful for some applications.  </p>
-<p><img alt="aedc_fig3kocd_fit" src="images/nasa-tm-83556/aedc_fig3kocd_fit.png">  </p>
-<h2>Improving the correlation</h2>
-<p>However, we can do better by considering the effect of differing accumulation parameter 
-values on ice drag.  </p>
-<p>Figure 15 shows that the drag increase due to ice is approximately proportional
-to the liquid water content.  </p>
-<p><img alt="nasatm83556f15ovl" src="images/nasa-tm-83556/nasatm83556f15ovl.png"><br>
-<em>Composite image by Donald Cook.</em>  </p>
-<p>This is generalized to the dimensionless accumulation parameter Ac in AEDC-TR-87-23.  </p>
-<blockquote>
-<p>Ac, The Accumulation Parameter - Ac is a water-catch term relating the LWC, V,
-icing time, and collection efficiency terms to a rate of water catch for a particular
-collection surface. It is not an ice collection term as no accounting has been made for
-changes in the collection surface attributable to ice formation.  </p>
-<p><img alt="aedcAcparam" src="images/nasa-tm-83556/aedcAcparam.png"> <br>
-<em>Public Domain image from AEDC-TR-87-23.</em>  </p>
-</blockquote>
-<p>[ρ_i is ice density, and c is chord length.]  </p>
-<p><img alt="aedcfig4" src="images/nasa-tm-83556/aedcfig4.png"><br>
-<em>Public Domain image from AEDC-TR-87-23.</em>  </p>
-<p>For the "Velocity Change" line, other parameters, 
-such as leading edge freezing fraction, 
-also change as the Ac value changes, so it appears to deviate from the 
-expected linear trend.  </p>
-<p>We can fit data to a non-dimensionalized cd value:</p>
-<div class="highlight"><pre><span></span><code>n_dcd_ice = delta_cd_ice / ac
-</code></pre></div>
-
-<p>A correlation is developed for n_dcd_ice from the data.  </p>
-<p>More than half of the data (28 points out of 49 total) is at the value ko_le = 1.7 . 
-I view this as the most accurate line, as it has the most points used to determine it. 
-A correlation is developed for n_dcd_ice from the data. 
-A smoothed spline fit was used to fit n_dcd_ice for ko_le=1.7: </p>
-<p><img alt="spline_fit_na_ndcd_ko_1_7" src="images/nasa-tm-83556/spline_fit_na_ndcd_ko_1_7.png">  </p>
-<p>The smoothing value lambda=0.001 was selected 
-as a balance between not "too many" unexpected oscillations, 
-retaining a peak Cd value, 
-and minimizing the relative difference value.  </p>
-<p>The n_dcd_ice fit may not be impressive by itself, 
-but the Cd value may be recovered by:</p>
-<div class="highlight"><pre><span></span><code>Cd = n_dcd_ice * ac + cd_clean  
-</code></pre></div>
-
-<p>The variation of the Cd value evaluated with these improvements is relatively small:  </p>
-<p><img alt="nasatm83556fig10_na_ndcd_17_fit" src="images/nasa-tm-83556/nasatm83556fig10_na_ndcd_17_fit.png">  </p>
-<p>The spline fit has a different shape than the line from Figure 3. 
-The spline fit achieves a better overall fit, 
-while the line from Figure 3 appear to have been intended to capture the largest Cd values.  </p>
-<p>This was then used for conditions at other ko values by assuming 
-a linear relationship: </p>
-<div class="highlight"><pre><span></span><code>n_dcd_ice = n_dcd_ice(ko=1.7) * (ko / 1.7)  
-</code></pre></div>
-
-<p>Together, the above establish Cd = f(na, ko_le, ac, aoa).  </p>
-<p>The results show good correspondence to the 49 test values:  </p>
-<p><img alt="nasatm83556fig10_fko_exp1_fit" src="images/nasa-tm-83556/nasatm83556fig10_fko_exp1_fit.png">  </p>
-<h2>Conclusions</h2>
-<p>The relative difference of 22% for the correlation is approaching the 16% experimental 
-repeatability found in AEDC-TR-87-23. This indicates to me that there is a limited amount to be gained 
-by higher-order or more complex correlations beyond those used above.  </p>
-<p>The parameters na, ko, and ac are not completely independent of each other. 
-Ko influences water catch efficiency beta, which influences Ac and na. </p>
-<p>I was surprised that a good correlation of drag could be achieved without 
-reference to ice shape parameters. 
-The selected dimensionless parameters appear to reflect whatever ice shape parameters 
-are important to drag. 
-The dimensionless parameters enable the sorting out of the confusing array of possible trends.  </p>
-<p>AEDC-TR-87-23 considered other dimensionless parameters the Air Energy Diving Potential theta and 
-the Water Droplet Energy Driving Potential phi. 
-However, it was not necessary to include those in order to achieve a good correlation. 
-Theta and phi are components in calculating na, 
-and it appears that whatever information they could impart are already included 
-in the set na, ko, ac, and aoa. </p>
-<p>Like every topic in icing, "Additional data needs to be collected":  </p>
-<blockquote>
-<p>Additional data needs to be collected to further substantiate these observations
-and add resolution to the curve.<br>
-<em>AEDC-TR-87-23.</em>  </p>
-</blockquote>
-<p>Nearly half (22 of 49) of the cases were at T_total=-8C, leading to a cluster of points near na=0.3 . 
-Perhaps the authors had prior experience and selected those conditions to be of particular interest. 
-However, additional points at different conditions would help clarify where peak drag conditions occur and 
-how high the peak drag is.  </p>
-<p>Reynolds Number was not included in the correlation directly (it is a component of calculating na). 
-Over the range of airspeed in this test there does not appear to be additional effects. 
-However, over a broader range, Reynolds Number effects might be expected. 
-Tests with larger and smaller airfoils and different air pressures could provide a wider range. </p>
-<h2>Related</h2>
-<p>This post is an addendum to the <a href="/ice-shapes-and-their-effects.html">Ice_Shapes and Their Effects_thread</a>, 
-and was written after 
-<a href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">Conclusions of the Ice Shapes and Their Effects Thread</a>. 
-It refines and expands information from the thread. 
-I may eventually edit "Conclusions of the Ice Shapes and Their Effect Thread" 
-to incorporate this information.  </p>
-<p>A prior review: <a href="/aedc-tr-87-23.html">AEDC-TR-87-23</a>  </p>
-<h2>Corrected Table 1</h2>
-<p>In NASA-TN-83556 the sequence S-53, S-57, S-58 is repeated. 
-The Figure 13 plot of the effect of drop size makes it clear that 
-there was intended to be unique data for the second occurrence. 
-Here, the values from Figure 13 F are used, denoted F26, F20, and F14 for the droplet sizes. </p>
-<p>Case O-26 was included twice. 
-This is apparently not an error, but was done to make sequences of changes easier to read. 
-Here, O-26 is included only once.  </p>
-<p>Table1 (edited):  </p>
-<p>'RN', 'KPH', 'TTC', 'LWC', 'MVD', 'Minutes', 'AOA', 'Cd',<br>
-'O-10', 209, -8, 2.1, 20, 5, 4, 0.02767,                <br>
-'O-26', 209, -26, 1.0, 20, 5, 4, 0.01077,               <br>
-'O-4', 209, -8, 2.1, 20, 5, 4, 0.03382,                 <br>
-'O-8', 209, -8, 2.1, 20, 5, 0, 0.01294,                 <br>
-'O-9', 209, -8, 2.1, 20, 5, 0, 0.05260,                 <br>
-'O-31', 209, -26, 1.0, 20, 5, 0, 0.00857,               <br>
-'O-32', 209, -26, 1.0, 20, 5, 8, 0.01280,               <br>
-'S-29', 209, -2, 1.3, 20, 8, 4, 0.02807,                <br>
-'S-30', 209, -1, 1.3, 20, 8, 4, 0.02647,                <br>
-'S-31', 209, -5, 1.3, 20, 8, 4, 0.06036,                <br>
-'S-32', 209, -8, 1.3, 20, 8, 4, 0.02949,                <br>
-'S-44', 209, -18, 1.3, 20, 8, 4, 0.02161,               <br>
-'S-45', 209, -26, 1.3, 20, 8, 4, 0.0194,                <br>
-'S-69', 209, -15, 1.3, 20, 8, 4, 0.02105,               <br>
-'S-36', 209, -12, 1.3, 20, 8, 4, 0.02072,               <br>
-'S-72', 209, -20, 1.3, 20, 8, 4, 0.01773,               <br>
-'S-113', 338, -2, 1.05, 20, 6.2, 4, 0.0756,             <br>
-'S-114', 338, -8, 1.05, 20, 6.2, 4, 0.0606,             <br>
-'S-115', 338, -12, 1.05, 20, 6.2, 4, 0.0370,            <br>
-'S-116', 338, -17, 1.05, 20, 6.2, 4, 0.0284,            <br>
-'S-117', 338, -26, 1.05, 20, 6.2, 4, 0.0238,            <br>
-'S-33', 149, -8, 1.3, 20, 8, 4, 0.01622,                <br>
-'S-34', 209, -8, 1.3, 20, 8, 4, 0.0296,                 <br>
-'S-35', 338, -8, 1.3, 20, 8, 4, 0.1182,                 <br>
-'S-22', 209, -8, 1.3, 26, 8, 4, 0.07493,                <br>
-'S-23', 209, -8, 1.3, 20, 8, 4, 0.03884,                <br>
-'S-24', 209, -8, 1.3, 14, 8, 4, 0.01465,                <br>
-'S-88', 209, -8, 1.3, 36, 8, 4, 0.10455,                <br>
-'S-25', 338, -8, 1.05, 26, 6.2, 4, 0.1266,              <br>
-'S-26', 338, -8, 1.05, 20, 6.2, 4, 0.0951,              <br>
-'S-27', 338, -8, 1.05, 14, 6.2, 4, 0.0309,              <br>
-'S-53', 209, -26, 1.3, 26, 8, 4, 0.0196,                <br>
-'S-57', 209, -26, 1.3, 20, 8, 4, 0.01930,               <br>
-'S-58', 209, -26, 1.3, 14, 8, 4, 0.01206,               <br>
-'S-50', 209, -8, 1.3, 20, 3, 4, 0.01941,                <br>
-'S-51', 209, -8, 1.3, 26, 3, 4, 0.0280,                 <br>
-'S-52', 209, -8, 1.3, 14, 3, 4, 0.01154,                <br>
-'F26', 209, -18, 1.3, 26, 8, 4, 0.028,                  <br>
-'F20', 209, -18, 1.3, 20, 8, 4, 0.0193,                 <br>
-'F14', 209, -18, 1.3, 14, 8, 4, 0.0121,                 <br>
-'S-59', 209, -2, 1.3, 26, 8, 4, 0.0344,                 <br>
-'S-60', 209, -2, 1.3, 20, 8, 4, 0.0295,                 <br>
-'S-61', 209, -2, 1.3, 14, 8, 4, 0.0314,                 <br>
-'S-54', 209, -2, 1., 20, 8, 4, 0.0262,                  <br>
-'S-55', 209, -2, 1.3, 20, 8, 4, 0.0301,                 <br>
-'S-56', 209, -2, 1.6, 20, 8, 4, 0.0456,                 <br>
-'S-109', 209, -8, 1.0, 20, 8, 4, 0.0212,                <br>
-'S-110', 209, -8, 1.3, 20, 8, 4, 0.0246,                <br>
-'S-111', 209, -8, 2, 20, 8, 4, 0.0312,                    </p>
-<h2>Notes</h2>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Olsen, W., Shaw, J., and Newton, J. "Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil." NASA-TM-83556, January 1984. <a href="https://ntrs.nasa.gov/citations/19850019527">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983. <a href="https://apps.dtic.mil/sti/tr/pdf/ADA198941.pdf">apps.dtic.mil</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>Anderson, David N.: Manual of scaling methods. No. E-14272, NASA/CR-2004-212875. 2004.  <a href="https://ntrs.nasa.gov/citations/20040042486">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+of N on test conditions that affect the change in ice shape and, thus, Cd. Again, it depends …</p></blockquote>
+                <a class="readmore" href="/ice-shape-drag-correlations.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -2822,8 +2801,8 @@ Qr   Heat required </p>
                 Published: Mon 13 May 2024
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-07-22T14:27:29.354881-07:00">
-                Updated: Wed 22 July 2026
+        <abbr class="modified" title="2026-07-26T13:05:25.075741-07:00">
+                Updated: Sun 26 July 2026
         </abbr>
 <!---->
         <!---->
@@ -7335,6 +7314,63 @@ and aircraft components for system certification would be to conduct …</p></bl
 
             <li><article class="hentry">
                 <header>
+                    <h1><a href="/ice-shapes-and-their-effects.html" rel="bookmark"
+                           title="Permalink to Ice Shapes and Their Effects">Ice Shapes and Their Effects</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-07-27T18:00:00-07:00">
+                Published: Wed 27 July 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-07-27T17:42:13.608926-07:00">
+                Updated: Mon 27 July 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
+<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a><br> </p>
+</footer><!-- /.post-info -->                <h3><em>"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"</em> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
+<p><img alt="Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
+various components of airplane. Total airspeed loss, 41 miles per hour, 
+from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598.png">  </p>
+<blockquote>
+<p>from NACA-TN-1598 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+</blockquote>
+<h1>Ice Shapes and Their Effects Thread</h1>
+<h2>Summary</h2>
+<p>This thread will cover ice shapes and the aerodynamic effects of the ice.</p>
+<p>This will primarily cover ice shapes on unprotected surfaces.</p>
+<p>There are additional publications on ice shapes for deicing systems and propellers that will not be reviewed here. </p>
+<h2>Publications</h2>
+<h3><a href="/naca-tn-313.html">NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"</a></h3>
+<blockquote>
+<p>Ice shapes are recorded in flight tests in natural icing conditions.  </p>
+</blockquote>
+<h3><a href="/naca-tr-446.html">NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"</a></h3>
+<blockquote>
+<p>"Protuberances" on an airfoil can have significant effects on section lift and drag. </p>
+</blockquote>
+<h3><a href="/naca-wr-l-292.html">NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil"</a></h3>
+<blockquote>
+<p>Airfoil characteristics with simulated residual ice are measured.</p>
+</blockquote>
+<h3><a href="/naca-tn-1598.html">NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight"</a></h3>
+<blockquote>
+<p>Airplane levels effects …</p></blockquote>
+                <a class="readmore" href="/ice-shapes-and-their-effects.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
                     <h1><a href="/scaling-in-naca-icing-wind-tunnel-tests.html" rel="bookmark"
                            title="Permalink to Scaling in NACA Icing Wind Tunnel Tests">Scaling in NACA Icing Wind Tunnel Tests</a></h1>
                 </header>
@@ -7671,63 +7707,6 @@ from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598
 - Identification of different types of icing  </p>
 <p>The effect of "protuberances" on an airfoil section lift and drag in <a href="/naca-tr-446.html">NACA-TR-446, "Airfoil Section Characteristics as Affected by …</a></p>
                 <a class="readmore" href="/conclusions-of-the-ice-shapes-and-their-effects-thread.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/ice-shapes-and-their-effects.html" rel="bookmark"
-                           title="Permalink to Ice Shapes and Their Effects">Ice Shapes and Their Effects</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2022-07-13T12:00:00-07:00">
-                Published: Wed 13 July 2022
-        </abbr>
-		<br />
-        <abbr class="modified" title="2026-07-22T19:06:53.464361-07:00">
-                Updated: Wed 22 July 2026
-        </abbr>
-<!---->
-        <!---->
-        <!--<address class="vcard author">-->
-                <!--By -->
-                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
-                <!---->
-        <!--</address>-->
-        <!---->
-<!--<p>In <a href="/category/naca.html">NACA</a>.</p>-->
-<p>tags: <a href="/tag/ice-shapes.html">ice shapes</a><br> </p>
-</footer><!-- /.post-info -->                <h3><em>"an irregular shape is developed due to the ice formation, which is ruinous to the aerodynamic efficiency of the airfoils"</em> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></h3>
-<p><img alt="Figure_14 of NACA-TN-1598. Airspeed loss caused by ice accumulation on 
-various components of airplane. Total airspeed loss, 41 miles per hour, 
-from 204 to 163 miles per hour." src="images/naca-tn-1598/Figure_14_naca_tn_1598.png">  </p>
-<blockquote>
-<p>from NACA-TN-1598 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
-</blockquote>
-<h1>Ice Shapes and Their Effects Thread</h1>
-<h2>Summary</h2>
-<p>This thread will cover ice shapes and the aerodynamic effects of the ice.</p>
-<p>This will primarily cover ice shapes on unprotected surfaces.</p>
-<p>There are additional publications on ice shapes for deicing systems and propellers that will not be reviewed here. </p>
-<h2>Publications</h2>
-<h3><a href="/naca-tn-313.html">NACA-TN-313, "The Formation of Ice upon Airplanes in Flight"</a></h3>
-<blockquote>
-<p>Ice shapes are recorded in flight tests in natural icing conditions.  </p>
-</blockquote>
-<h3><a href="/naca-tr-446.html">NACA-TR-446, "Airfoil Section Characteristics as Affected by Protuberances"</a></h3>
-<blockquote>
-<p>"Protuberances" on an airfoil can have significant effects on section lift and drag. </p>
-</blockquote>
-<h3><a href="/naca-wr-l-292.html">NACA-WR-L-292, "Effects of a Simulated Ice Formation on the Aerodynamic Characteristics of an Airfoil"</a></h3>
-<blockquote>
-<p>Airfoil characteristics with simulated residual ice are measured.</p>
-</blockquote>
-<h3><a href="/naca-tn-1598.html">NACA-TN-1598, "Effects of Ice Formations on Airplane Performance in Level Cruising Flight"</a></h3>
-<blockquote>
-<p>Airplane levels effects …</p></blockquote>
-                <a class="readmore" href="/ice-shapes-and-their-effects.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 

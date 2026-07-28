@@ -1,6 +1,5 @@
-status: draft  
 title: Estimating Icing Conditions with Highest Drag  
-date: 2026-07-26 12:30
+date: 2026-07-27 18:30
 tags: ice shapes, drag, Appendix C
 
 ### _"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."_  
@@ -239,3 +238,4 @@ to incorporate this information.
 [^2]: Appendix C of the United States Chapter 14 Code of Federal Regulations Part 25 [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^3]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
 [^4]: Appendix O of the United States Chapter 14 Code of Federal Regulations Part 25 [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20O%20to%20Part%2025)  
+ 
