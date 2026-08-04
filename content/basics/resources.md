@@ -25,19 +25,19 @@ However, they are now a little dated (the most recent, DOT/FAA/CT-88/8, was upda
 
 If I had to pick only one, it would be DOT/FAA/CT-88/8.  
 
-- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
 
 - "Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
-Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf)  
+- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)  
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml)  
 The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
 Also note that there are 3 volumes:  
-"Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
-"Aircraft Icing Handbook Volume 3", DOT/FAA/C-88/8-3. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA2380410)  
+"Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238040.xhtml)  
+"Aircraft Icing Handbook Volume 3", DOT/FAA/C-88/8-3. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238041.xhtml)  
 Some pages in Volume 3 are affected by the update noted above.  
 Also see the ["Electronic Aircraft Icing Handbook"](#EAIHBK) below for format updates for parts of DOT/FAA/CT-88/8-2.  
 

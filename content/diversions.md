@@ -21,8 +21,8 @@ Candidates (not yet reviewed):
 
 - Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf).  
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
-This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
+This is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml).  
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf)  
 - Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp.  
-A translation to English is available at [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
-- Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0771182.pdf)  
+A translation to English is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA083374.xhtml)  
+- Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD0771182.xhtml)  

@@ -1,6 +1,6 @@
 Title: Hard to find publications  
 Date: 2026-07-12 12:00  
-tags: database  
+tags: database, search  
 
 ### _"The documents were so old, however, that they were not listed in the modern computerized library search systems, and some of these documents were out of print." [^1]_  
 
@@ -48,7 +48,7 @@ Available online at [abbottaerospace.com](https://www.abbottaerospace.com/downlo
 ## Could not find except by reference    
 
 I have found one-line references to these, but no on-line sources 
-(ntrs.nasa.gov, google, worldcat, dtic, semanticscholar, archive.org, etc.), nor loanable library copies.  
+(ntrs.nasa.gov, google, worldcat, NTRL, semanticscholar, archive.org, etc.), nor loanable library copies.  
 
 - Chandler, H. C., Jr.: Survey of Aircraft Anti-icing Equipment. NACA restricted report, Feb. 27, 1942.  
 - Howlett, D. P.: Ice Detectors. (paper presented at 1961 Aircraft Ice Protection Conference, D. Napier & Son, Ltd.)  

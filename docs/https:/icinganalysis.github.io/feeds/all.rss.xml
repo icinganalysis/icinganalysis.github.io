@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Mon, 27 Jul 2026 18:30:00 -0700</lastBuildDate><item><title>Estimating Icing Conditions with Highest Drag</title><link>/estimating-icing-conditions-with-highest-drag.html</link><description>&lt;h3&gt;&lt;em&gt;"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."&lt;/em&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Tue, 04 Aug 2026 16:28:12 -0700</lastBuildDate><item><title>The National Technical Reports Library</title><link>/the-national-technical-reports-library.html</link><description>&lt;h3&gt;&lt;em&gt;"The National Technical Information Service acquires, indexes, abstracts, and archives the largest collection of U.S. government-sponsored technical reports in existence. "&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="NTRL" src="images/NTRL.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;The Defense Technical Information Center&lt;/h2&gt;
+&lt;p&gt;The Defense Technical Information Center https://discover.dtic.mil/public-access-search/ site was a "go-to" resource for me. 
+It had a better search engine than some alternatives.  &lt;/p&gt;
+&lt;p&gt;I write "was", as it is now down, with a note:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"DoW S&amp;amp;T Reports Search is offline while we fine-tune the user experience. It will be back online soon."  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This has persisted since at least August 1, 2026 (I had not checked it recently before that).  &lt;/p&gt;
+&lt;h2&gt;The National Technical Reports Library&lt;/h2&gt;
+&lt;p&gt;I am in the process of updating links to use the 
+National Technical Reports Library &lt;a href="https://ntrl.ntis.gov/NTRL"&gt;ntrl.ntis.gov&lt;/a&gt;. 
+The search engine is not intuitive to me, but it can get the job done
+(well enough that I hope they do not decide to "fine-tune the user …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 04 Aug 2026 16:00:00 -0700</pubDate><guid>tag:None,2026-08-04:/the-national-technical-reports-library.html</guid><category>misc</category><category>DTIC</category><category>NTRL</category><category>search</category></item><item><title>Estimating Icing Conditions with Highest Drag</title><link>/estimating-icing-conditions-with-highest-drag.html</link><description>&lt;h3&gt;&lt;em&gt;"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;from NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
 &lt;p&gt;&lt;img alt="conditions_cd-chord0533_100" src="images/conditions-cd/conditions_cd-chord0533_100.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
@@ -62,7 +76,7 @@ Available online at &lt;a href="https://www.abbottaerospace.com/downloads/arc-rm
 &lt;/ul&gt;
 &lt;h2&gt;Could only find at google books&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;li&gt;NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category><category>search</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Studies have correlated icing conditions to ice shapes and their effects. 
@@ -1779,25 +1793,4 @@ It is observed …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:d
 tests to determine the internal efficiencies, and tests of the performance in icing. 
 The performance in icing can be determined 
 only if the appropriate measurements are made, 
-and if the flow of protection or the icing severity can be …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 30 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-30:/notes-on-flight-testing.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>flight test</category></item><item><title>Supercooled Clouds</title><link>/supercooled-clouds.html</link><description>&lt;h3&gt;&lt;em&gt;"If the [ice] crystal is exceedingly small, rather than growing, it may melt."&lt;/em&gt;&lt;/h3&gt;
-&lt;h1&gt;SUPERCOOLED CLOUDS &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Several aspect of icing clouds physics are discussed. &lt;/p&gt;
-&lt;h2&gt;Key Points&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Supercooling and nucleation rates are key to the formation of icing clouds.   &lt;/li&gt;
-&lt;li&gt;Vapor pressure differences of liquid water and ice play a role.   &lt;/li&gt;
-&lt;li&gt;Tips are given for recognizing supercooled clouds.  &lt;/li&gt;
-&lt;li&gt;Types of icing clouds are discussed.    &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;This includes a theoretical understanding of the physics of icing clouds, 
-but also practical tips, such as how to identify supercooled icing clouds in flight.  &lt;/p&gt;
-&lt;p&gt;While this is not a long lecture (11 pages), 
-I left out of this review for brevity items such as the artificial seeding of clouds, 
-which is only tangentially related to aircraft icing, 
-although I will briefly discuss that here. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Bernard_Vonnegut"&gt;Wikipedia&lt;/a&gt; summarizes about 
-the author and presenter Bernard Vonnegut:  &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Bernard Vonnegut (August 29, 1914 – April 25, 1997) was an American atmospheric …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Thu, 25 May 2023 13:00:00 -0700</pubDate><guid>tag:None,2023-05-25:/supercooled-clouds.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>clouds</category><category>meteorology</category></item></channel></rss>
+and if the flow of protection or the icing severity can be …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 30 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-30:/notes-on-flight-testing.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>flight test</category></item></channel></rss>
