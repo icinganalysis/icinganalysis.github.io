@@ -258,7 +258,7 @@ I edited the post after it was reviewed, and any errors are mine.
 [^3]: Knight, Montgomery, and Clay, William C.: Refrigerated Wind Tunnel Tests on Surface Coatings for Preventing Ice Formation. NACA-TN-339, 1930 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081168).  
 [^4]: Rodert, Lewis A.: A Preliminary Study of the Prevention of Ice on Aircraft by use of Engine Exhaust Heat. NACA-TN-712, 1939. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081464)  
 [^5]: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
-This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
+This is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml).  
 This is also a candidate for "The Greatest Thing That You Have (Probably) Never Read"  
 [^6]: 
 Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  

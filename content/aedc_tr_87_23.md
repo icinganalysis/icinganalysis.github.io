@@ -206,13 +206,13 @@ It is also not clear if, for example, a +/-10% tolerance on the LWC values is "g
 
 AEDC-TR-87-23 cites seven publications:  
 
-- Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
-- Bartlett, C. S. "An Analytical Study of Icing Simifitude for Aircraft Engine Testing." AEDC-TR-86-26, DOT/FAA/CT-86/35, October 1986. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA180863.pdf)  
+- Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA167976.xhtml)  
+- Bartlett, C. S. "An Analytical Study of Icing Similitude for Aircraft Engine Testing." AEDC-TR-86-26, DOT/FAA/CT-86/35, October 1986. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA173713.xhtml)  
 - Olsen, William, Shaw, Robert, and Newton, James: Ice Shapes and the Resulting Drag Increase for a NACA 0012 Airfoil. NASA-TM-83556, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850019527)  
 - Flemming, R. J. and Lednicer, D. A. "High Speed Ice Accretion on Rotorcraft Airfoils." United Technologies Corporation, NASA-CR-3910, August 1985.  
 - Langmuir, E. and Blodgett, K. B. "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25 223, February 1946.  
-- Willbanks, C. E. and Schulz, R. J. "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-144 (AD-770069), November 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/AD0770069.pdf)  
-- Pheifer, G. D. and Maier, G. P. "Engineering Summary of Powerplant Technical Data." FFA-RD-77-76, July 1977. [archive.org](https://archive.org/details/DTIC_ADA045087)  
+- Willbanks, C. E. and Schulz, R. J. "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-144 (AD-770069), November 1973. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD770069.xhtml)  
+- Pheifer, G. D. and Maier, G. P. "Engineering Summary of Powerplant Technical Data." FFA-RD-77-76, July 1977. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA045087.xhtml)  
 
 An online search [^2] found 7 citations of 
 "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". 
@@ -221,5 +221,5 @@ but not quite a "lost gem".]
 
 ## Notes
 
-[^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA198941.pdf)  
+[^1]: Bartlet, C. S.: "An Empirical Look at Tolerances in Setting Icing Test Conditions with Particular Application to Icing Similitude". AEDC-TR-87-23, DOT/FAA/CT-87-31, August, 1983. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA198941.xhtml)  
 [^2]: [scholar.google.com](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=An+Empirical+Look+at+Tolerances+in+Setting+Icing+Test+Conditions+with+Particular+Application+to+Icing+Similitude&btnG=)  

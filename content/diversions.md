@@ -25,4 +25,4 @@ This is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/search
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf)  
 - Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp.  
 A translation to English is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA083374.xhtml)  
-- Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [apps.dtic.mil](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD0771182.xhtml)  
+- Werner, J. B., Ice Protection Investigation for Advanced Rotary-Wing Aircraft. US Army Air Mobility Research and Development Laboratory, 1973. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD771182.xhtml)  

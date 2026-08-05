@@ -281,7 +281,7 @@ NACA-RM-A54I23 cites 11 references:
 
 NACA-RM-A54I23 is cited twice in the NACA Icing Publications Database [^5]:  
 
-- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [FAA-ADS-4]({filename}ads4.md), [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)
+- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [FAA-ADS-4]({filename}ads4.md), [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)
 - Hacker, Paul T.: An Oil-Stream Photomicrographic Aeroscope for Obtaining Cloud Liquid-Water Content and Droplet Size Distribution in Flight. NACA-TN-3592, 1956. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068735)  
 
 An online search [^8] found NACA-RM-A54I23 cited 22 times.   

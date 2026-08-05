@@ -99,12 +99,12 @@ While most of the NACA publications are available at the NTRS [^6], some are not
 - Gray, Vernon H.: "Heat Requirements for Ice Prevention on Gas-Heated Propellers". SAE preprint No. 424 (paper presented at SAE Annual Meeting), 1950.  
     - The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  
     - It is available for purchase from the SAE.  
-- Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)
-    - This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876)  
+- Anon: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml)  
+    - This is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml)  
 - Perkins, Porter J.: "Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations". NASA Memo 1-19-59E, 1959.  
     - This is available at [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 - Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1963 
-    - this is available at [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+    - this is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
 
 ## The 132 icing publications  
 
@@ -422,13 +422,13 @@ Links to reviews are included where applicable.
         > review: [Airships]({filename}NACA-TN-4220.md)  
     - von Glahn, Uwe H.: Icing Conditions to be Expected in Operation of High-Speed, High-Altitude Airplanes NACA Conference on Some Problems of Aircraft Operation. NASA-TM-82265, 1954. [books.google.com](https://books.google.com/books?id=TIMjAQAAMAAJ&pg=PP9&lpg=PP9&dq=NACA+Conference+on+Some+Problems+of+Aircraft+Operation#v=onepage&q=NACA%20Conference%20on%20Some%20Problems%20of%20Aircraft%20Operation&f=false)  
         > review: [High-Speed, High-Altitude Airplanes]({filename}high%20speed%20airplanes.md)   
-    - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)  
+    - Anon.: NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml)  
         > review: [NACA Conference on Aircraft Ice Prevention]({filename}NACA%20Conference%20on%20Aircraft%20Ice%20Prevention.md)   
     - Gray, Vernon H.: Heat Requirements for Ice Prevention on Gas-Heated Propellers. SAE preprint No. 424 (paper presented at SAE Annual Meeting, 1950), 1950.  
         > The [NTRS link](https://ntrs.nasa.gov/citations/19810068634) does not have a download available.  
         > It is available for purchase from the SAE.  
         > mention: [Compressed air heat]({filename}Compressed%20air%20heat.md)  
-    - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+    - Bowden, D. T., Gensemer, A. E., and Speen, C. A.: Engineering Summary of Airframe Icing Technical Data. Federal Aviation Agency, FAA-ADS-4, 1964.  [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
         > review: [FAA-ADS-4]({filename}ads4.md), [Design Manuals]({filename}Design%20Manuals.md)  
 
 ## Notes  
@@ -436,7 +436,7 @@ Links to reviews are included where applicable.
 [^1]: "Selected Bibliography of Unclassified NACA-NASA Aircraft Icing Reports" in "Aircraft Ice Protection", 
 the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  
 Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. 
-[apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf).  
+[ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD690469.xhtml).  
 [^2]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)  
 [^3]: FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
 [^4]:

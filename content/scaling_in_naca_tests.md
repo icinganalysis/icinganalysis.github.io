@@ -199,7 +199,7 @@ NACA-RM-E8A27 cites 4 publications:
 
 - von Glahn, Uwe H., and Renner, Clark E.: Development of a Protected Air Scoop for the Reduction of Induction-System Icing. NACA-TN-1134, 1946. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081783)  
 - Baals, Donald D., Smith, Norman F., and Wright, John B.: The Development and Application of High-Critical-Speed Nose Inlets. NACA-ACR-L5F30a, 1945. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091984)  
-- Cohen, Herbert N.: Investigation of Intake Ducts for a High-Speed Subsonic Jet-Propelled Airplane. NACA-RM-L7C24a, 1947. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA800556.pdf)  
+- Cohen, Herbert N.: Investigation of Intake Ducts for a High-Speed Subsonic Jet-Propelled Airplane. NACA-RM-L7C24a, 1947. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800556.xhtml)  
 - Stickley, A. R.: Some Remarks on the Physical Aspects of the Aircraft Icing Problem. Jour. Aero. Sci., Vol. 5, no. 11, Sept. 1938, pp. 442-446.  
 
 NACA-RM-E50E03 cites 6 publications: 

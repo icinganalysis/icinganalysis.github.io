@@ -8,8 +8,8 @@ rights: CC-BY-NC-SA 4.0
 
 ## Introduction  
 
-The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1, 1991 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) 
-had a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf).  
+The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1, 1991 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml).  
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml).  
 
 Several errors and omissions were corrected in the update, so it is essential to consult the update. 
 
@@ -574,7 +574,7 @@ appears that all existing algorithms introduce substantial uncertainty into the 
 
 2-3 Norment, unpublished.  
 
-2-4 Rudinger, G., "Flow of Solid Particles in Gases," ADARDograph No. 222, 1967, pp. 55-86. [archive.org](https://archive.org/details/DTIC_ADA034264)  
+2-4 Rudinger, G., "Flow of Solid Particles in Gases," ADARDograph No. 222, 1967, pp. 55-86. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA034264.xhtml)  
 
 2-5 Norment, H.G., "Calculation of Water Drop Trajectories to and About Arbitrary Three-Dimensional Bodies in Potential Airflow," NASA CR 3291, 1980. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19800019801)  
 
@@ -582,9 +582,9 @@ appears that all existing algorithms introduce substantial uncertainty into the 
 
 2-7 Crowe, C. T.; Nicholls, J. A.; and Morrison, R. B., "Drag Coefficients of Inert and Burning Particles Accelerating in Gas Streams," Ninth Symposium (int'l) on Combustion, Academic Press, 1963, pp. 395-405. [sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S008207846380048X)  
 
-2-8 Lozowski, E. P. and Oleskiw, M. M., "Computer Modeling of Time--Dependent Rime Icing in the Atmosphere," CRREL 83-2, Jan. 1983. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA126404.pdf)  
+2-8 Lozowski, E. P. and Oleskiw, M. M., "Computer Modeling of Time--Dependent Rime Icing in the Atmosphere," CRREL 83-2, Jan. 1983. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA126404.xhtml)  
 
-2-9 Schlichting, H., Boundary Layer Theory, McGraw Hill, New York, 4th Edition, 1960.    
+2-9 Schlichting, H., Boundary Layer Theory, McGraw Hill, New York, 4th Edition, 1960.   
 
 2-10 Bragg, M. B., "A Similarity Analysis of the Droplet Trajectory Equation," AIAA Journal, Vol. 20, No. 12, December 1982, pp. 1681-1686. [arc.aiaa.org](https://arc.aiaa.org/doi/10.2514/3.8004)  
 
@@ -606,7 +606,7 @@ appears that all existing algorithms introduce substantial uncertainty into the 
 
 2-43 "An experimental and theoretical study of the ice accretion process during artificial and natural icing conditions" DOT/FAA/CT-87/17 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19880011759)  
 
-2-44 Analysis and Verification of the Icing Scaling Equations [AEDC-TR-85-30 Vol. 1 (Revised)](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
+2-44 Analysis and Verification of the Icing Scaling Equations [AEDC-TR-85-30 Vol. 1 (Revised)](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA167976.xhtml)  
 
 2-45 Kreith, F., Principles of Heat Transfer, Intext Educational Publishers, New York, 1973, third edition [archive.org](https://archive.org/details/principlesofheat0000krei_n7j4) [online borrowing with registration]  
 

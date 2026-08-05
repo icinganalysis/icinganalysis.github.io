@@ -13,7 +13,7 @@ Design handbooks have charts and tables that can be used to perform analyses for
 aircraft icing and ice protection. 
 
 ![Figure 2-47. Airfoil profiles for impingement parameter plots in Figures 2-48 through 2-59.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-47.png)  
-_from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+_from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)_  
 
 ### Analysis  
 
@@ -43,7 +43,7 @@ _from "Glenn Research Center Icing Research Tunnel Facility Overview" [www1.grc.
 Flight tests are used to determine that ice protection systems operate as intended.  
 
 ![NACA 1947 conference Neel Figure 1. C-46 test airplane showing the manner in which the test airfoils were mounted (protruding from the upper fuselage).](/images/naca-tn-1472/NACA_1947_conference_Neel_figure1.png)  
-_A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA800876)_  
+_A research test flight from "NACA Conference on Aircraft Ice Prevention - A Compilation of the Paper Presented by NACA Staff Members on 26-27 June 1947" [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml)_  
 
 Flight tests may be conducted using artificial ice shapes.  
 ![The above picture is of artificial ice shapes (shown in red) on the unprotected areas of the wing
@@ -68,7 +68,7 @@ _from "Effects of Ice Formations on Airplane Performance in Level Cruising Fligh
 
 ## Resources  
 
-Chapter IV of "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238040.pdf)  
+Chapter IV of "Aircraft Icing Handbook Volume 2", DOT/FAA/CT-88/8-2. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238040.xhtml)  
 
 [Design Guides]({filename}resources.md#design-guides) resources.
 

@@ -298,7 +298,7 @@ Messinger, B. L.: "Equilibrium Temperature of an Unheated Icing Surface as a Fun
 [^5]:
 Fraser, D., Rush, C. K., and Baxter, D. C.: Thermodynamic Limitations of Ice Accretion Instruments. Nat. Aero. Establishment, Ottawa (Canada), LR-32, Aug. 22, 1952. [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/bams/34/4/1520-0477-34_4_146.pdf)  
 [^6]: 
-Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/ADA955916)  
+Stallabrass, J. R.: An Appraisal of the Single Rotating Cylinder Method of Liquid Water Content Measurement, National Research Council Canada, LTR-LT-92, November, 1978. https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA955916.xhtml  
 [^7]:
 [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:

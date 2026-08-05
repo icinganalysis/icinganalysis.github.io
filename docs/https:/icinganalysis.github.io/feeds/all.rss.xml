@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Tue, 04 Aug 2026 16:28:12 -0700</lastBuildDate><item><title>The National Technical Reports Library</title><link>/the-national-technical-reports-library.html</link><description>&lt;h3&gt;&lt;em&gt;"The National Technical Information Service acquires, indexes, abstracts, and archives the largest collection of U.S. government-sponsored technical reports in existence. "&lt;/em&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Wed, 05 Aug 2026 13:17:21 -0700</lastBuildDate><item><title>The National Technical Reports Library</title><link>/the-national-technical-reports-library.html</link><description>&lt;h3&gt;&lt;em&gt;"The National Technical Information Service acquires, indexes, abstracts, and archives the largest collection of U.S. government-sponsored technical reports in existence. "&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="NTRL" src="images/NTRL.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;The Defense Technical Information Center&lt;/h2&gt;
 &lt;p&gt;The Defense Technical Information Center https://discover.dtic.mil/public-access-search/ site was a "go-to" resource for me. 
@@ -783,7 +783,7 @@ normal icing conditions.&lt;/p&gt;
 and inlet duct. Alcohol de-icing of the fan blades and stator
 vanes was found to be unsatisfactory. Electrical heat de-icing
 of the fan blades was …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 12 Oct 2024 13:00:00 -0700</pubDate><guid>tag:None,2024-10-12:/naca-tn-1246.html</guid><category>NACA</category><category>engine inlet</category><category>icing tunnel</category><category>ice protection</category></item><item><title>Abstracts for The Historical Selected Bibliography of NACA-NASA Icing Publications</title><link>/abstracts-for-the-historical-selected-bibliography-of-naca-nasa-icing-publications.html</link><description>&lt;h3&gt;&lt;em&gt;"THIS DOCUMENT ... IS BEING RELEASED IN THE INTEREST OF MAKING AVAILABLE AS MUCH INFORMATION AS POSSIBLE"&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Example." src="images%2Fsummaries%20of%20documents%20listed%20in%20bibliography%2Fexample.png"&gt;&lt;br&gt;
+&lt;p&gt;&lt;img alt="Example." src="images/sample_abstract.png"&gt;&lt;br&gt;
 &lt;em&gt;An example of the abstracts listing.&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The 1981 reprint of &lt;a href="/the-historical-selected-bibliography-of-naca-nasa-icing-publications.html"&gt;"Selected Bibliography of NACA-NASA Aircraft Icing Publications"&lt;/a&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; 
@@ -967,14 +967,14 @@ Readers are encouraged to run the analysis to the duplicate results.  &lt;/p&gt;
 Qr   Heat required &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Heat required is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 20 May 2024 12:00:00 -0700</pubDate><guid>tag:None,2024-05-20:/anti-ice-heat-required-calculations.html</guid><category>basics</category><category>intermediate topics</category><category>analysis tools</category><category>Python</category></item><item><title>Anti-Ice Heating Calculations Theory</title><link>/anti-ice-heating-calculations-theory.html</link><description>&lt;p&gt;&lt;img alt="ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate." src="/images%2Fads4%2FFigure3-19.png"&gt;&lt;br&gt;
-&lt;em&gt;From ADS-4 &lt;a href="https://apps.dtic.mil/sti/citations/AD0608865"&gt;apps.dtic.mil&lt;/a&gt;.&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;From ADS-4 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;.&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;You need to have completed &lt;a href="/aircraft-icing-handbook-energy-balance-examples.html"&gt;Aircraft Icing Handbook Energy Balance Examples&lt;/a&gt;.  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 &lt;a href="https://apps.dtic.mil/sti/citations/AD0608865"&gt;apps.dtic.mil&lt;/a&gt;, 
+&lt;p&gt;We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml, 
 as the anti-ice examples are more detailed than those in the 
-"Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf"&gt;apps.dtic.mil&lt;/a&gt;.  &lt;/p&gt;
-&lt;p&gt;We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 &lt;a href="https://www.sae.org/standards/content/air1168/4/"&gt;sae.org&lt;/a&gt;, for practical guidance for analysis.  &lt;/p&gt;
+"Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;.&lt;br&gt;
+We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 &lt;a href="https://www.sae.org/standards/content/air1168/4/"&gt;sae.org&lt;/a&gt;, for practical guidance for analysis.  &lt;/p&gt;
 &lt;p&gt;The ADS-4 and SAE AIR 1168/4 analysis methods use nomographs to implement graphical solutions. 
 We will not be using the nomographs. 
 While the notation is different, the analysis method from ADS-4 
@@ -991,11 +991,7 @@ which we will use here.  &lt;/p&gt;
 &lt;p&gt;Define Q"Sink by:&lt;br&gt;
 &lt;img alt="Equation 2-50. Q&amp;quot;Sink = Q&amp;quot;conv + Q&amp;quot;DropWarm + Q&amp;quot;Evap" src="/images%2FAircraft%20Icing%20Handbook%20volume%201%2FEquation%202-50.png"&gt;  &lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Q&amp;quot;Sink = Q&amp;quot;conv + Q&amp;quot;DropWarm + Q&amp;quot;Evap  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Define …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 13 May 2024 12:00:00 -0700</pubDate><guid>tag:None,2024-05-13:/anti-ice-heating-calculations-theory.html</guid><category>basics</category><category>intermediate topics</category><category>analysis tools</category><category>anti-ice</category></item><item><title>Using Appendix C for Ice Shape Analysis</title><link>/using-appendix-c-for-ice-shape-analysis.html</link><description>&lt;p&gt;&lt;img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes_with_cls" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes_with_cls.png"&gt;&lt;br&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Q&amp;quot;Sink …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 13 May 2024 12:00:00 -0700</pubDate><guid>tag:None,2024-05-13:/anti-ice-heating-calculations-theory.html</guid><category>basics</category><category>intermediate topics</category><category>analysis tools</category><category>anti-ice</category></item><item><title>Using Appendix C for Ice Shape Analysis</title><link>/using-appendix-c-for-ice-shape-analysis.html</link><description>&lt;p&gt;&lt;img alt="LEWICE sweep data 20 MVD 100 chord 5.000 m EAS 45 minute ac2073a_ice shapes_with_cls" src="/images%2FIntermediate%2FLEWICE%20sweep%20data%2020%20MVD%20100%20chord%205.000%20m%20EAS%2045%20minute%20ac2073a_ice%20shapes_with_cls.png"&gt;&lt;br&gt;
 &lt;em&gt;Public domain image by Donald Cook.&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Search within the Appendix C Continuous Maximum Icing definition for the thickest ice shape.  &lt;/p&gt;
@@ -1119,8 +1115,8 @@ variable. Much data is available in this form.  &lt;/p&gt;
 assumed for simplicity that the angle of attack, α, is 0 degrees. From figure 2-11, E, the total
 impingement efficiency, is estimated to be 0.23 for these conditions. So about 23 percent of the water …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 08 Apr 2024 17:00:00 -0700</pubDate><guid>tag:None,2024-04-08:/computer-impingement-analysis-tools-examples.html</guid><category>basics</category><category>intermediate topics</category><category>water catch</category><category>LEWICE</category></item><item><title>Aircraft Icing Handbook Merged Sections</title><link>/aircraft-icing-handbook-merged-sections.html</link><description>&lt;p&gt;&lt;img alt="FIRST UPDATE OF AIRCRAFT ICING HANDBOOK." src="/images%2FAircraft%20Icing%20Handbook%20volume%201%2FUpdate.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1, 1991 &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf"&gt;apps.dtic.mil&lt;/a&gt; 
-had a perhaps little known update in 1993: &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA276499.pdf"&gt;apps.dtic.mil&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;The "Aircraft Icing Handbook" DOT/FAA/CT-88/8-1, 1991 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;.&lt;br&gt;
+Also note that there was a perhaps little known update in 1993: &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;.  &lt;/p&gt;
 &lt;p&gt;Several errors and omissions were corrected in the update, so it is essential to consult the update. &lt;/p&gt;
 &lt;p&gt;As the update only include certain affected pages, it makes it difficult to read 
 as there is much interruption paging back and forth between sources. 
@@ -1131,7 +1127,7 @@ Here, the text is used (not just scanned images of text).
 In some cases, I have included text of the equations. &lt;/p&gt;
 &lt;p&gt;Some readers may prefer the online web formatting over the pdf formatting. 
 The figures are included inline, again to reduce paging back and forth. 
-The cited references are also noted here. Links to online …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 08 Apr 2024 16:00:00 -0700</pubDate><guid>tag:None,2024-04-08:/aircraft-icing-handbook-merged-sections.html</guid><category>basics</category><category>intermediate topics</category><category>aircraft icing handbook</category></item><item><title>Aircraft Icing Handbook Water Catch Examples</title><link>/aircraft-icing-handbook-water-catch-examples.html</link><description>&lt;p&gt;&lt;img alt="Graph of water catch efficiency Em versus Ko for a cylinder." src="/images%2Fbasics%2FExample%202-3%20Em.png"&gt;&lt;br&gt;
+The cited references are also noted …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 08 Apr 2024 16:00:00 -0700</pubDate><guid>tag:None,2024-04-08:/aircraft-icing-handbook-merged-sections.html</guid><category>basics</category><category>intermediate topics</category><category>aircraft icing handbook</category></item><item><title>Aircraft Icing Handbook Water Catch Examples</title><link>/aircraft-icing-handbook-water-catch-examples.html</link><description>&lt;p&gt;&lt;img alt="Graph of water catch efficiency Em versus Ko for a cylinder." src="/images%2Fbasics%2FExample%202-3%20Em.png"&gt;&lt;br&gt;
 &lt;em&gt;Public domain image by Donald Cook.&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The "Aircraft Icing Handbook", DOT/FAA/CT-88/8-1, provides examples of two-dimensional water catch rates for the ice accretion process. &lt;/p&gt;
@@ -1197,7 +1193,7 @@ Your company, institution, or customer may have policies on which kinds of softw
 required, encouraged, discouraged, or prohibited. 
 Some codes have by-country use restrictions. 
 You may have signed an …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 08 Apr 2024 13:00:00 -0700</pubDate><guid>tag:None,2024-04-08:/analysis-toolset.html</guid><category>basics</category><category>intermediate topics</category><category>analysis tools</category><category>Python</category><category>LEWICE</category></item><item><title>Aircraft Icing Intermediate Level</title><link>/aircraft-icing-intermediate-level.html</link><description>&lt;p&gt;&lt;img alt="Figure 2-71. Effect of total temperature on the ice shape." src="/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-71%20crop.png"&gt;&lt;br&gt;
-&lt;em&gt;From "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf"&gt;apps.dtic.mil&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;From "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;After &lt;a href="/the-basics.html"&gt;The Basics&lt;/a&gt;, 
 you are ready for Intermediate level aircraft icing topics:  &lt;/p&gt;
@@ -1246,7 +1242,7 @@ that defines icing conditions used for certification of large transport category
 Areas include wing leading edges, propellers, windshield, radome,
 essential instruments, auxiliary air inlets, engine air inlets, 
 and empennage leading edges." src="/images/ads4/Figure3-1.png"&gt;&lt;br&gt;
-&lt;em&gt;from &lt;a href="https://apps.dtic.mil/sti/citations/AD0608865"&gt;ADS-4&lt;/a&gt; (1963)&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;from &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml"&gt;ADS-4&lt;/a&gt; (1963)&lt;/em&gt;  &lt;/p&gt;
 &lt;h3&gt;Forms of ice protection&lt;/h3&gt;
 &lt;p&gt;There are several forms of ice protection used on airplanes. 
 The most commonly used for is thermal ice protection, 
@@ -1269,7 +1265,7 @@ including analysis, icing wind tunnel test, and flight test in icing conditions.
 &lt;p&gt;Design handbooks have charts and tables that can be used to perform analyses for 
 aircraft icing and ice protection. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Figure 2-47. Airfoil profiles for impingement parameter plots in Figures 2-48 through 2-59." src="/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-47.png"&gt;&lt;br&gt;
-&lt;em&gt;from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf"&gt;apps.dtic.mil&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
 &lt;h3&gt;Analysis&lt;/h3&gt;
 &lt;p&gt;There are computerized icing analysis tools available from NASA, and from commercial vendors. 
 There is also "bespoke" software created for special purposes. &lt;/p&gt;
@@ -1313,7 +1309,7 @@ It has seven bins, each with a representative drop size and fraction of the
 total water content in the cloud.  &lt;/p&gt;
 &lt;p&gt;&lt;a name="figure-langmuir"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS." src="/images%2FAircraft%20Icing%20Handbook%20volume%201%2FTable%201-1.png"&gt;&lt;br&gt;
-&lt;em&gt;from  "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://apps.dtic.mil/sti/pdfs/ADA238039.pdf"&gt;apps.dtic.mil&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
+&lt;em&gt;from  "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt;&lt;/em&gt;  &lt;/p&gt;
 &lt;h3&gt;The impingement of water drops on aircraft surfaces&lt;/h3&gt;
 &lt;p&gt;Calculating the amount of water that hits or impinges on the surface 
 of an airplane as …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 12 Feb 2024 14:00:00 -0800</pubDate><guid>tag:None,2024-02-12:/water-drops.html</guid><category>basics</category><category>basics</category><category>clouds</category><category>impingement</category></item><item><title>Flight</title><link>/flight.html</link><description>&lt;h3&gt;Effects of icing in flight&lt;/h3&gt;

@@ -305,7 +305,8 @@ FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [
 [^8]:
 Kantrowitz, Arthur: Aerodynamic Heating and the Deflection of Drops by an Obstacle in an Air Stream in Relation to Aircraft Icing. NACA-TN-779, 1940. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930081535)  
 [^9]:
-“Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
+“Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)  
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml)
 [^10]:
 [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^11]: 

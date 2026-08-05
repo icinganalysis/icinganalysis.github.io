@@ -22,7 +22,7 @@ total water content in the cloud.
 <a name="figure-langmuir"></a>
 
 ![Table 1-1. LANGMUIR AND BLODGETT DROPLET SIZE DISTRIBUTIONS.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FTable%201-1.png)  
-_from  "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)_  
+_from  "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)_  
 
 ### The impingement of water drops on aircraft surfaces  
 
@@ -111,14 +111,14 @@ Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter
 
 Appendix O [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/subpart-F/subject-group-ECFR3f07132c2c2d01e/section-25.1420)  
 
-"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml), 
 Chapter 1, Sections 1 and 2.2.1 in particular.  
-Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf) The update contains only the updated pages. 
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml).  
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.  
 
-“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+“Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, 1963 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml).  
 Chapter 2 in particular. This has more figures of impingement correlation than DOT/FAA/CT-88/8.
 
 ## Related  

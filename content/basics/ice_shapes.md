@@ -100,7 +100,7 @@ temperatures, higher liquid water contents, and larger droplets.
 Terms of the Messinger heat balance:  
 
 ![Figure 1. Icing energy heat balance from a presentation by Bernard Messinger.](/images%2Fmessinger%2FFigure1.png)  
-_from "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf)_  
+_from "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD690469.xhtml)_  
 
 Calculations to relate ice shape to freezing fraction have many variables. 
 Here is a figure that summarizes the effects of some variables
@@ -108,17 +108,16 @@ Here is a figure that summarizes the effects of some variables
 
 ![Figure 2-81. Ice shape types as a function of speed and ambient temperature for a liquid water content of 0.2 g/m^3.
 Based on stagnation line of a 2 inch diameter cylinder, 15 micrometer drop size, and 5000 ft. altitude.](/images%2FAircraft%20Icing%20Handbook%20volume%201%2FFigure%202-81.png)  
-_from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) (1991)_  
-
+_from "Aircraft Icing Handbook", DOT/FAA/CT-88/8 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml) (1991)_  
 Note that at a high enough airspeed, there is a wide range of 
 temperatures that are predicted to not result in ice 
 (n = freezing fraction = 0).  
 
 ## Resources  
 
-"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf), 
+"Aircraft Icing Handbook", DOT/FAA/CT-88/8 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml), 
 Chapter 1, Section 2 in particular.  
-Also note that there was a perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf) The update contains only the updated pages. 
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml). The update contains only the updated pages. 
 This worked fine when one printed the pages, punched holes, and manually substituted them into a three ring binder, 
 but not so well in the digital age. 
 I do not know of a pdf file that integrates the two into one.

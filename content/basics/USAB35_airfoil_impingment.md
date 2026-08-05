@@ -70,7 +70,7 @@ They are listed in the file
 
 ## Resources  
 
-- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
 
 - User's Manual for LEWICE Version 3.2 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20080048307)  
 

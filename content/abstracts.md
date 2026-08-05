@@ -3,11 +3,11 @@ Date: 2024-10-11 14:00
 Category: NACA  
 tags: NACA, bibliography    
 
-### _"THIS DOCUMENT ... IS BEING RELEASED IN THE INTEREST OF MAKING AVAILABLE AS MUCH INFORMATION AS POSSIBLE"_  
+### _"THIS DOCUMENT ... IS BEING RELEASED IN THE INTEREST OF MAKING AVAILABLE AS MUCH INFORMATION AS POSSIBLE"_   
 
-![Example.](images%2Fsummaries%20of%20documents%20listed%20in%20bibliography%2Fexample.png)  
+![Example.](images/sample_abstract.png)  
 _An example of the abstracts listing._  
-
+ 
 ## Introduction  
 
 The 1981 reprint of ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md) [^1] 

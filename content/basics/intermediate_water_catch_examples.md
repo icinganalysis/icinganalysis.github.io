@@ -45,8 +45,8 @@ You should read, at minimum, these sections in the "Aircraft Icing Handbook", DO
 2.2.1.3 Droplet Impingement Parameters  
 2.2.1.4 Droplet Size Distribution Effects  
 
-Note that the relevant sections in DOT/FAA/CT-88/8-1, 1991 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf) 
-were affected by the perhaps little known update in 1993: [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA276499.pdf). 
+Note that the relevant sections in DOT/FAA/CT-88/8-1, 1991 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml).  
+Also note that there was a perhaps little known update in 1993: [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA278448.xhtml)  . 
 The text here is from the updated version. 
 
 "Merged" text from the 1991 and 1993 update is available at 

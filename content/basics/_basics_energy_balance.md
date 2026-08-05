@@ -260,7 +260,7 @@ appears that all existing algorithms introduce substantial uncertainty into the 
 
 2-43 "An experimental and theoretical study of the ice accretion process during artificial and natural icing conditions" DOT/FAA/CT-87/17 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19880011759)  
 
-2-44 Analysis and Verification of the Icing Scaling Equations [AEDC-TR-85-30 Vol. 1 (Revised)](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
+2-44 Analysis and Verification of the Icing Scaling Equations [AEDC-TR-85-30 Vol. 1 (Revised)](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA167976.xhtml)  
 
 2-45 Kreith, F., Principles of Heat Transfer, Intext Educational Publishers, New York, 1973, third edition [archive.org](https://archive.org/details/principlesofheat0000krei_n7j4) [online borrowing with registration]  
 

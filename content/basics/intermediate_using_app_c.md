@@ -231,7 +231,7 @@ which is one of important the factors.
 The total water catch (proportional to Em * LWC) can reach a maximum at an intermediate drop size:  
 
 ![Figure 7.png](/images%2Fwilder%2FFigure%207.png)  
-_from "Aircraft Ice Protection Report of Symposium" [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/AD0690469.pdf)_  
+_from "Aircraft Ice Protection Report of Symposium" [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD690469.xhtml)_  
 
 ![table 6 mvds wcrs.png](/images%2FIntermediate%2Ftable%206%20mvds%20wcrs.png)  
 _Public domain image by Donald Cook._  

@@ -5,7 +5,7 @@ tags: intermediate topics, analysis tools, anti-ice
 rights: CC-BY-NC-SA 4.0
 
 ![ADS-4 Figure 3-19. Typical external heat transfer coefficients for cylinder an flat plate.](/images%2Fads4%2FFigure3-19.png)  
-_From ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)._  
+_From ADS-4 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)._  
 
 ## Prerequisites  
 
@@ -13,10 +13,9 @@ You need to have completed [Aircraft Icing Handbook Energy Balance Examples]({fi
 
 ## Introduction  
 
-We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865), 
+We will review "Engineering Summary of Airframe Icing Technical Data", ADS-4 https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml, 
 as the anti-ice examples are more detailed than those in the 
-"Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf).  
-
+"Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml).  
 We will also look at "Ice, Frost, and Rain Protection", SAE AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/), for practical guidance for analysis.  
 
 The ADS-4 and SAE AIR 1168/4 analysis methods use nomographs to implement graphical solutions. 
@@ -265,11 +264,11 @@ particularly at high angle of attack values.
 
 ## Resources  
 
-- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- "Engineering Summary of Airframe Icing Technical Data", ADS-4 https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml  
 
 - "Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)  
 
 ## Related  
 

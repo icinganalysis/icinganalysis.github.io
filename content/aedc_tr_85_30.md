@@ -281,7 +281,7 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 - Pope, A.: Wind Tunnel Testing. John Wiley and Sons, Inc., New York, 1947.  
 - Bragg, M. B., Gregorek, G. M., and Shaw, R. J.: "An Analytical Approach to Airfoil Icing." AIAA Paper No. 81-0403, Presented at the 19th Aerospace Sciences Meeting, January 12-15, 1981.  
 - Langmuir, I. and Blodgett, K. B.: "A Mathematical Investigation of Water Droplet Trajectories." General Electric Co., ATI 25-223, February 1946.  
-- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
 - Frost, W., Chang, H. P., and Kimble, K. R.: "Particle Trajectory Computer Program for Icing Analysis." Final report for NASA/Lewis Research Center Under Contract NASA-22442 by FWG Associates, Inc., April 1982.  
 - Chang, H. P., Frost, W., and Shaw, R. J." "Influence of Multidroplet Size Distribution on Icing Collection Efficiency." Presented at the AIAA 21 st Aerospace Sciences Meeting, AIAA Paper No. 83-0110, January 10-13, 1983.  
 - Olsen, W.: "Close-up Movies of the Icing Process on the Leading Edge of an Airfoil." NASA/Lewis Research Center Movie C-313, 1985.  
@@ -295,7 +295,7 @@ AEDC-TR-85-30 cites 25 publications (20 in the main text, 5 more in the appendic
 - Dodson, E. O.: "Scale Model Analogy for Icing Tunnel Testing." Boeing Airplane Company, Transport Division, Document No. D66-7976, March 1962.  
 - Bentley, H. T.: "Fiber Optics Particle-Sizing System." AEDC-TR-73-111 (AD-766647), September 1973.  
 - Hunt, J. D.: "A Comparison of Particle Diagnostic Systems." AEDC-TR-80-33 (AD-AI04027), August 1981.  
-- Willbanks, C. E. and Schulz, R. J.: "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-1444 (AD-770069), November 1973. [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/AD0770069.pdf)  
+- Willbanks, C. E. and Schulz, R. J.: "Analytical Study of Icing Simulation for Turbine Engines in Altitude Test Cells." AEDC-TR-73-1444 (AD-770069), November 1973. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD770069.xhtml)  
 - Stallabrass, J. R.: "Procedure for Allowing for the Evaporation from Water Droplets in an Engine Icing Test Cell." National Research Council of Canada (NRC) Report LTR-LT-129, January 1982.  
 - Brun, Rinaldo J., Serafini, John S., and Gallagher, Helen M.: Impingement of Cloud Droplets on Aerodynamic Bodies as Affected by Compressibility of Air Flow Around the Body. NACA-TN-2903, 1953. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930083601)  
 - Hobbs, P. V.: Ice Physics. Oxford University Press, Ely House, London, 1974.  
@@ -309,7 +309,7 @@ An online search [^4] found 93 citations of "Analysis and Verification of the Ic
 
 ## Notes
 
-[^1]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [apps.dtic.mil](https://apps.dtic.mil/sti/tr/pdf/ADA167976.pdf)  
+[^1]: Ruff, Gary A.: Analysis and Verification of the Icing Scaling Equations AEDC-TR-85-30 Vol. 1 (Revised) [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA167976.xhtml)  
 [^2]: Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951.  
 [^3]: Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Water Droplet Trajectories. Tech. Rep. No. 5418, Air Materiel Command, AAF, Feb. 19, 1946. (Contract No. W-33-038-ac-9151 with General Electric Co.) [books.google.com](https://books.google.com/books?hl=en&lr=&id=mJySYM32cHUC&oi=fnd&pg=PA11&dq=Katherine+Blodgett+icing&ots=QYP5gFyEiz&sig=djzAHtpIZuT_OlbopRsNYyUhUdc#v=onepage&q=Katherine%20Blodgett%20icing&f=false)  
 [^4]: 

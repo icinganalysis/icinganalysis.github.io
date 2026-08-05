@@ -31,10 +31,10 @@ A "Greatest Thing That You (Probably) Have Never Read" candidate.
   - Accomplished! [Thread: The University of Michigan Airplane Icing Information Course, 1953]({filename}U%20of%20Michigan%20Icing.md)  
  
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
-This is available at [DTIC](https://apps.dtic.mil/sti/citations/ADA800876).  
+This is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA800876.xhtml).  
 - [Project Cirrus, Final Report, 1948](https://documents.theblackvault.com/documents/weather/CirrusFinal.pdf). Weather control, anyone?  
 - Mazin, I. P., 1957: The Physical Principles of Aircraft Icing (in Russian). Gidrometeoizdat, 120 pp.  
-A translation to English is available at [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA083374.pdf)  
+A translation to English is available at [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA083374.xhtml)  
 - Let's build YA2DISCuP (Yet Another 2D Ice Shape Calculation Program)  
 
 If you particularly like one of those, or have a suggestion of your own, 

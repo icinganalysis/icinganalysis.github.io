@@ -391,11 +391,11 @@ with constant, averaged values.
 
 ## Resources  
 
-- "Engineering Summary of Airframe Icing Technical Data", ADS-4 [apps.dtic.mil](https://apps.dtic.mil/sti/citations/AD0608865)  
+- "Engineering Summary of Airframe Icing Technical Data", ADS-4 https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml  
 
 - "Ice, Frost, and Rain Protection", AIR1168/4 [sae.org](https://www.sae.org/standards/content/air1168/4/)  
 
-- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [apps.dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA238039.pdf)  
+- "Aircraft Icing Handbook Volume 1", DOT/FAA/CT-88/8-1 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)  
 
 ## Related  
 

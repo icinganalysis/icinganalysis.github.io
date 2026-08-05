@@ -150,7 +150,7 @@ The Basics are a work in progress, and may have changes and additions.
 However, links to online resources will inevitably suffer "link rot". 
 I have kept similar lists of resources for years.
 I have tried to select sources that are likely to be stable. 
-Some links from ntrs.nasa.gov have worked for years, and dtic.mil for even longer. 
+Some links from ntrs.nasa.gov have worked for years. 
 
 The fate of the "Electronic Aircraft Icing Handbook" is cautionary. 
 An apparently endorsed online resource (mentioned in AC 20-73A 

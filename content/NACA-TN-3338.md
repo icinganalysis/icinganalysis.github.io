@@ -303,7 +303,7 @@ Anon.: "An International Historic Mechanical Engineering Landmark ICING RESEARCH
 von Glahn, Uwe H., Callaghan, Edmund E., and Gray, Vernon H.: NACA Investigations of Icing-Protection Systems for Turbojet-Engine Installations. NACA-RM-E51B12, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068631)  
 [^6]: 
 Ide, Robert F., Oldenberg, John R.: "Icing Cloud Calibration of the NASA Glenn Icing Research Tunnel", NASA/TM—2001-210689. 
-[dtic.mil](https://apps.dtic.mil/sti/pdfs/ADA392590.pdf)  
+[ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20010047828)    
 [^7]: 
 [NACA Icing Publications Database]({filename}naca%20icing%20publications%20database.md)  
 [^8]:
