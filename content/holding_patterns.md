@@ -76,7 +76,7 @@ of 14 CFR part 25, Appendix C [^3].
 
 The phrase "the LWC is changed from that shown in Figure 1" is confusing to me, 
 as it appears to contradict the prior statement of "use the LWC from Figure 1 ... at full value". 
-I take it that "the LWC is **un**changed from that shown in Figure 1" is what was intended.  
+I take it that "the LWC is ***un***changed from that shown in Figure 1" is what was intended.  
 
 ![AppCfig1](images/AppCfig1.png)   
  
