@@ -7,7 +7,7 @@ date: 2026-08-13 12:00
 
 ![holding_pattern_physics_large](images/holding_patterns/holding_pattern_physics_large.png)  
 
-## Summary  
+## Summary   
 
 "AIRCRAFT ICE PROTECTION" AC 20-73A [^1] discusses an aircraft "racetrack" holding pattern with a 45-minutes duration hold to be used for 
 determining simulated ice shapes to be used in dry air flight test.  
