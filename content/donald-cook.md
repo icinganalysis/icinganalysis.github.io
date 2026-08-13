@@ -1,12 +1,12 @@
-Title: Donald Cook
+Title: Donald Cook  
 Date: 2022-01-15 12:00  
 category: About
 
 ![A bearded, rather handsome young man, wearing a cold-weather coat, gloves, and ear protection. He is holding a hammer, ready to strike a test airfoil.](images%2Fdelicate%20adjustments.png)  
 _Making delicate adjustments in an icing wind tunnel._  
 
-Donald Cook has over 30 years experience at a major airplane manufacturer in
-several areas of aircraft icing, including:
+Donald Cook has over 30 years experience at large aircraft manufacturers in
+several areas of aircraft icing, including:  
 
 * Ice shape analysis (including computational fluid dynamics tool development)
 * Ice protection system design, test, analysis, and certification
