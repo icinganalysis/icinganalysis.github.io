@@ -1,5 +1,5 @@
 status: draft  
-title: Analysis of Icing in Holding Patterns  
+title: Analysis of Icing in Holding Patterns    
 tags: AC20-73A, Appendix C  
 date: 2026-08-13 12:00  
 

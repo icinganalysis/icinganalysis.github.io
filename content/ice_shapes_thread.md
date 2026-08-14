@@ -63,6 +63,10 @@ There are additional publications on ice shapes for deicing systems and propelle
 
 ### [Estimating Icing Conditions with Highest Drag]({filename}conditions_cd.md)  
 >Estimating which icing conditions in Appendix C can result in the highest drag.  
+<!--
+### [Analysis of Icing in Holding Patterns]({filename}holding_patterns.md)  
+>Using AC 20-73A for the analysis of icing in holding patterns  
+-->
 
 ## Related  
 
