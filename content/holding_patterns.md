@@ -193,7 +193,7 @@ Maximum drag conditions for 3 airspeed values and 5 chord lengths are shown belo
 ## Notes  
 
 [^1]: Anon.: "Aircraft Ice Protection", FAA AC 20-73A, [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
-[^2]: SKYbrary Aviation Safety. (December 20, 2022). Holding Pattern. Retrieved August 7, 2026, from https://skybrary.aero/articles/holding-pattern  
+[^2]: SKYbrary Aviation Safety. (December 20, 2022). Holding Pattern. Retrieved August 7, 2026, from [https://skybrary.aero/articles/holding-pattern](https://skybrary.aero/articles/holding-pattern)  
 [^3]: Appendix C of the United States Chapter 14 Code of Federal Regulations Part 25 [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)   
 [^4]: Wilder, Ramon W.: "Techniques used to determine Artificial Ice Shapes and Ice Shedding, Characteristics of Unprotected Airfoil Surfaces" in Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service; Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD690469.xhtml).  
 [^5]: Jacobs, Eastman N.: Airfoil Section Characteristics as Affected by Protuberances. NACA-TR-446, 1932 [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930091520).   
