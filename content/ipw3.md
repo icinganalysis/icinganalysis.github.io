@@ -21,7 +21,7 @@ Predictions of Cd and Cl values are made for the cases in IPW-3.
 
 Recommendations for "the areas needing additional research and development" are made.  
 
-## IPW-3   
+## IPW-3    
 
 IPW-3 has two major tasks. 
 We will focus here on the second task, TFG-2.  
