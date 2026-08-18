@@ -81,7 +81,7 @@ The IceVal ice shape tracings tend to fall between the Max CCS and the Min CCS.
 The tracings are color coded by year of test. 
 There is a small tendency, though not unimodal, for ice height to increase with time. 
 The tracings from the later years have maximum heights comparable to the Max CCS. 
-This might be due to improvements in the calibration of icing tunnel.  
+This might be due to improvements in the calibration of the icing tunnel.  
 
 There may also be difference in the airfoil test article construction (IceVal does not list that detail).  
 
