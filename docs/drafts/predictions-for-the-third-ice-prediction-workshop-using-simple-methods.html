@@ -34,12 +34,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-08-17T14:30:00-07:00">
-                Published: Mon 17 August 2026
+        <abbr class="published" title="2026-08-18T11:30:00-07:00">
+                Published: Tue 18 August 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-08-17T14:56:02.497247-07:00">
-                Updated: Mon 17 August 2026
+        <abbr class="modified" title="2026-08-18T11:18:29.249422-07:00">
+                Updated: Tue 18 August 2026
         </abbr>
 <!---->
         <!---->
@@ -50,18 +50,18 @@
         <!--</address>-->
         <!---->
 <!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
-<p>tags: <a href="/tag/ice-prediction-workshop.html">Ice Prediction Workshop</a><br> <a href="/tag/ipw.html">IPW</a><br> <a href="/tag/ice-shapes.html">Ice Shapes</a><br> </p>
+<p>tags: <a href="/tag/ice-prediction-workshop.html">Ice Prediction Workshop</a><br> <a href="/tag/ipw.html">IPW</a><br> <a href="/tag/ice-shapes.html">Ice Shapes</a><br> <a href="/tag/icing-tunnel.html">Icing Tunnel</a><br> </p>
 </footer><!-- /.post-info -->      <h3><em>"The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data"</em></h3>
-<p><img alt="matches_for_AE3932." src="images/ipw3/matches_for_AE3932.png">  </p>
+<p><img alt="matches_for_AE3932_years" src="images/ipw3/matches_for_AE3932_years.png">  </p>
 <h2>Summary</h2>
 <p>The series of Ice Prediction Workshops <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> have the purposes:  </p>
 <blockquote>
 <p>The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data. We aim to provide an impartial forum to evaluating the effectiveness of icing methods and to identify the areas needing additional research and development.  </p>
 </blockquote>
 <p>Several organizations have sponsored and contributed to the workshops, including AIAA, NASA, SAE, academia, and industry.  </p>
-<p>Two workshops have been completed. The third one "IPW-3" is scheduled for September 21-26, 2026.  </p>
+<p>Two workshops have been completed. The third one "IPW-3" is scheduled for September 21-24, 2026.  </p>
 <p>Predictions of Cd and Cl values are made for the cases in IPW-3.  </p>
-<p>Recommendations for "the areas needing additional research and development" are made.  </p>
+<p>Recommendations for "the areas needing additional research and development" are made.   </p>
 <h2>IPW-3</h2>
 <p>IPW-3 has two major tasks. 
 We will focus here on the second task, TFG-2.  </p>
@@ -98,24 +98,32 @@ The selected cases AE3932 and AE3933 are not in the IceVal database,
 having apparently been run after 2008. 
 Unfortunately, measurements of Cd and Cl were not included in the IceVal Database. 
 Ice shape tracings are available, and illustrated the variability over test runs at nominally identical conditions.  </p>
-<p>The ice shape tracings from IceVal for the tunnel centerline are similar, but not identical, to the selected cases.  </p>
-<p><img alt="matches_for_AE3932." src="images/ipw3/matches_for_AE3932.png">  </p>
-<p><img alt="matches_for_AE3933." src="images/ipw3/matches_for_AE3933.png">  </p>
-<p>These are the demonstrated range of experimental results.  </p>
-<p>Hopefully, results from 2D and 3D methods will be within these ranges.</p>
+<p>The ice shape tracings from IceVal for the tunnel centerline are similar, but not identical, 
+to those from AE39332 and AE3933. 
+A scanning method, rather than literal ice shape tracings, was used for AE39332 and AE3933. 
+This produces a maximum cross section (Max CCS), a mean (Mean CCS), and a minimum (Min CCS). 
+The IceVal ice shape tracings tend to fall between the Max CCS and the Min CCS.  </p>
+<p><img alt="matches_for_AE3932_years" src="images/ipw3/matches_for_AE3932_years.png">  </p>
+<p><img alt="matches_for_AE3933_years" src="images/ipw3/matches_for_AE3933_years.png">  </p>
+<p>The tracings are color coded by year of test. 
+There is a small tendency, though not unimodal, for ice height to increase with time. 
+The tracings from the later years have maximum heights comparable to the Max CCS
+This might be due to improvements in the calibration of icing tunnel.  </p>
+<p>There may also be difference in the airfoil test article construction (IceVal does not list that detail).  </p>
+<p>Hopefully, ice shape results from 2D and 3D methods will be within the Max CCS to Min CCS.  </p>
 <h3>Ice Mass</h3>
 <p>The mass of ice can be estimated from the correlations of water catch efficiency in the Aircraft Icing Handbook <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.  </p>
 <p><img alt="Figure 2-11" src="images/Aircraft%20Icing%20Handbook%20volume%201/Figure%202-11.png"><br>
 <em>Public Domain image.</em>  </p>
 <p>See <a href="/aircraft-icing-handbook-water-catch-examples.html">"Aircraft Icing Handbook Water Catch Examples"</a>
 for a similar, detailed example.  </p>
-<p>With the assumption that all impinging water becomes ice, the mass can be calculated.  </p>
+<p>With the assumption that all impinging water becomes ice, the mass can be calculated.   </p>
 <table>
 <thead>
 <tr>
 <th>case</th>
-<th>Mass of ice (test)<br/>g</th>
-<th>Mass of ice (calculated)<br/>g</th>
+<th>Mass of ice (test), g</th>
+<th>Mass of ice (calculated), g</th>
 </tr>
 </thead>
 <tbody>
@@ -230,6 +238,8 @@ If we are using Cd and Cl as comparison metrics,
 we should accurately know the experimental values.  </p>
 <p>The IceVal database should be updated with more recent (after 2008) icing wind tunnel test data. 
 Ideally, that would include measured Cd anc Cl values.  </p>
+<p>I thank Thomas Ozoroski for commenting on a draft of this post. 
+I subsequently edited the post, and any errors are mine.  </p>
 <h2>Notes</h2>
 <div class="footnote">
 <hr>

@@ -1,11 +1,11 @@
 status: draft  
 title: Predictions for the Third Ice Prediction Workshop Using Simple Methods  
-tags: Ice Prediction Workshop, IPW, Ice Shapes
-date: 2026-08-17 14:30  
+tags: Ice Prediction Workshop, IPW, Ice Shapes, Icing Tunnel  
+date: 2026-08-18 11:30  
 
 ### _"The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data"_  
 
-![matches_for_AE3932.](images/ipw3/matches_for_AE3932.png)  
+![matches_for_AE3932_years](images/ipw3/matches_for_AE3932_years.png)  
 
 ## Summary  
 
@@ -15,11 +15,11 @@ The series of Ice Prediction Workshops [^1] have the purposes:
 
 Several organizations have sponsored and contributed to the workshops, including AIAA, NASA, SAE, academia, and industry.  
 
-Two workshops have been completed. The third one "IPW-3" is scheduled for September 21-26, 2026.  
+Two workshops have been completed. The third one "IPW-3" is scheduled for September 21-24, 2026.  
 
 Predictions of Cd and Cl values are made for the cases in IPW-3.  
 
-Recommendations for "the areas needing additional research and development" are made.  
+Recommendations for "the areas needing additional research and development" are made.   
 
 ## IPW-3    
 
@@ -68,15 +68,24 @@ having apparently been run after 2008.
 Unfortunately, measurements of Cd and Cl were not included in the IceVal Database. 
 Ice shape tracings are available, and illustrated the variability over test runs at nominally identical conditions.  
 
-The ice shape tracings from IceVal for the tunnel centerline are similar, but not identical, to the selected cases.  
+The ice shape tracings from IceVal for the tunnel centerline are similar, but not identical, 
+to those from AE39332 and AE3933. 
+A scanning method, rather than literal ice shape tracings, was used for AE39332 and AE3933. 
+This produces a maximum cross section (Max CCS), a mean (Mean CCS), and a minimum (Min CCS). 
+The IceVal ice shape tracings tend to fall between the Max CCS and the Min CCS.  
 
-![matches_for_AE3932.](images/ipw3/matches_for_AE3932.png)  
+![matches_for_AE3932_years](images/ipw3/matches_for_AE3932_years.png)  
 
-![matches_for_AE3933.](images/ipw3/matches_for_AE3933.png)  
+![matches_for_AE3933_years](images/ipw3/matches_for_AE3933_years.png)  
 
-These are the demonstrated range of experimental results.  
+The tracings are color coded by year of test. 
+There is a small tendency, though not unimodal, for ice height to increase with time. 
+The tracings from the later years have maximum heights comparable to the Max CCS
+This might be due to improvements in the calibration of icing tunnel.  
 
-Hopefully, results from 2D and 3D methods will be within these ranges.
+There may also be difference in the airfoil test article construction (IceVal does not list that detail).  
+
+Hopefully, ice shape results from 2D and 3D methods will be within the Max CCS to Min CCS.  
 
 ### Ice Mass  
 
@@ -88,12 +97,12 @@ _Public Domain image._
 See ["Aircraft Icing Handbook Water Catch Examples"]({filename}basics/intermediate_water_catch_examples.md)
 for a similar, detailed example.  
 
-With the assumption that all impinging water becomes ice, the mass can be calculated.  
+With the assumption that all impinging water becomes ice, the mass can be calculated.   
 
-| case   | Mass of ice (test)<br/>g | Mass of ice (calculated)<br/>g |
-|--------|--------------------------|--------------------------------|
-| AE3932 | 101                      | 123                            |
-| AE3933 | 85.9                     | 123                            |
+| case   | Mass of ice (test), g | Mass of ice (calculated), g |
+|--------|-----------------------|-----------------------------|
+| AE3932 | 101                   | 123                         |
+| AE3933 | 85.9                  | 123                         |
 
 
 ### Estimate of Cd with ice  
@@ -179,6 +188,9 @@ we should accurately know the experimental values.
 
 The IceVal database should be updated with more recent (after 2008) icing wind tunnel test data. 
 Ideally, that would include measured Cd anc Cl values.  
+
+I thank Thomas Ozoroski for commenting on a draft of this post. 
+I subsequently edited the post, and any errors are mine.  
 
 ## Notes  
 
