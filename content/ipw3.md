@@ -95,7 +95,7 @@ The mass of ice can be estimated from the correlations of water catch efficiency
 _Public Domain image._  
 
 See ["Aircraft Icing Handbook Water Catch Examples"]({filename}basics/intermediate_water_catch_examples.md)
-for a similar, detailed example.  
+for a similar, detailed example.   
 
 With the assumption that all impinging water becomes ice, the mass can be calculated.   
 
