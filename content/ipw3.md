@@ -51,9 +51,9 @@ Some of the requested values can be estimated with the 1D and manual tools that 
 "Blast from the Past: NACA Icing Publications".  
 
 As the discussion here does not address several of the workshop objectives 
-(such as solution convergence, the effects of different grids, the selection of turbulence models, and ice roughness), 
+(such as quantifying the effects of solution convergence, the effects of different grids, the selection of turbulence models, and ice roughness), 
 I do not plan to make a workshop presentation submission.  
-
+ 
 ### Ice Shapes  
 
 The simple methods do not predict detailed ice shapes. 
