@@ -42,7 +42,7 @@ Two icing conditions were selected for detailed analysis.
 
 The data requested from participants is largely built around 3D CFD computations.  
 
-![data_to_be_calculated](images/ipw3/data_to_be_calculated.png)
+![data_to_be_calculated](images/ipw3/data_to_be_calculated.png)  
 
 The Cd, Cl, and Cm values were not measured in the icing tunnel tests that produce ice tracings for 
 cases AE3932 and AE3933.  
@@ -128,8 +128,8 @@ This measured the effect of small, flat plate protuberances perpendicular to the
 This can approximate the effect of ice, although with an unquantified accuracy.  
 
 For the selected cases, the maximum ice height is on the order of 1 inch near the leading edge. 
-This yields an ice to chord ratio of about 0.050 .  
-Figure 2 shows effects for ratios up to 0.0125, but not 0.050 . 
+This yields an ice to chord ratio of about 0.050. 
+Figure 2 shows effects for ratios up to 0.0125, but not 0.050. 
 We will use the 0.0125 ratio as representative, but again at an unknown accuracy. 
 Note that the 0.0125 and 0.005 lines have similar Cl_max values, 
 perhaps indicating that the additional effects of larger protuberances is limited.  
