@@ -85,7 +85,7 @@ This might be due to improvements in the calibration of the icing tunnel.
 
 There may also be difference in the airfoil test article construction (IceVal does not list that detail).  
 
-Hopefully, ice shape results from 2D and 3D methods will be within the Max CCS to Min CCS.  
+Hopefully, ice shape results from 2D and 3D methods will be within the Max CCS to Min CCS range.  
 
 ### Ice Mass  
 
