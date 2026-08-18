@@ -71,7 +71,7 @@ Ice shape tracings are available, and illustrated the variability over test runs
 The ice shape tracings from IceVal for the tunnel centerline are similar, but not identical, 
 to those from AE39332 and AE3933. 
 A scanning method, rather than literal ice shape tracings, was used for AE39332 and AE3933. 
-This produces a maximum cross section (Max CCS), a mean (Mean CCS), and a minimum (Min CCS). 
+This produces a maximum ice cross-section (Max CCS), a mean (Mean CCS), and a minimum (Min CCS). 
 The IceVal ice shape tracings tend to fall between the Max CCS and the Min CCS.  
 
 ![matches_for_AE3932_years](images/ipw3/matches_for_AE3932_years.png)  
@@ -80,7 +80,7 @@ The IceVal ice shape tracings tend to fall between the Max CCS and the Min CCS.
 
 The tracings are color coded by year of test. 
 There is a small tendency, though not unimodal, for ice height to increase with time. 
-The tracings from the later years have maximum heights comparable to the Max CCS
+The tracings from the later years have maximum heights comparable to the Max CCS. 
 This might be due to improvements in the calibration of icing tunnel.  
 
 There may also be difference in the airfoil test article construction (IceVal does not list that detail).  
@@ -172,7 +172,7 @@ The simple methods used herein can achieve answers in much less time than the 2D
 As the key values were not measured in test (except for ice mass) 
 the relative accuracy of these methods cannot be immediately assessed. 
 Once participants report results for the workshop using 2D and 3D methods we can see how these simple methods compare with those values.  
-
+ 
 For the workshop objective:  
 
 > identify the areas needing additional research and development  
