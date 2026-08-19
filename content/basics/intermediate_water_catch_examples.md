@@ -341,4 +341,4 @@ This will require programming data from the appropriate figures.
 
 ## Related  
 
-Back to [Intermediate Topics]({filename}intermediate.md#intermediate-topics)  
+Back to [Intermediate Topics]({filename}intermediate.md)  
