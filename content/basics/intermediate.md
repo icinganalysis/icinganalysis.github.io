@@ -95,6 +95,12 @@ and estimate the range of effects
 - Runback ice  
 - Heat transfer coefficients  
 
+## Additional Material  
+
+- [Terminology]({filename}Nomenclature.md)
+
+- [Resources]({filename}resources.md)  
+
 ## Related  
 
 Back to [The Basics]({filename}basics.md).  
