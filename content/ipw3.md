@@ -1,7 +1,6 @@
-status: draft  
 title: Predictions for the Third Ice Prediction Workshop Using Simple Methods  
 tags: Ice Prediction Workshop, IPW, Ice Shapes, Icing Tunnel  
-date: 2026-08-18 11:30  
+date: 2026-08-19 08:00  
 
 ### _"The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data"_  
 
@@ -21,7 +20,7 @@ Predictions of Cd and Cl values are made for the cases in IPW-3.
 
 Recommendations for "the areas needing additional research and development" are made.   
 
-## IPW-3    
+## IPW-3   
 
 IPW-3 has two major tasks. 
 We will focus here on the second task, TFG-2.  
@@ -191,6 +190,15 @@ Ideally, that would include measured Cd anc Cl values.
 
 I thank Thomas Ozoroski for commenting on a draft of this post. 
 I subsequently edited the post, and any errors are mine.  
+
+## Related  
+ 
+This post is an addendum to the [Ice_Shapes and Their Effects_thread]({filename}ice_shapes_thread.md), 
+and was written after 
+[Conclusions of the Ice Shapes and Their Effects Thread]({filename}Conclusions%20of%20the%20Ice%20Shapes%20and%20Their%20Effects%20Thread.md). 
+It refines and expands information from the thread. 
+I may eventually edit "Conclusions of the Ice Shapes and Their Effect Thread" 
+to incorporate this information.  
 
 ## Notes  
 

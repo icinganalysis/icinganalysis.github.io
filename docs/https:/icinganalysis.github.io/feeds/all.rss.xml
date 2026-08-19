@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Wed, 05 Aug 2026 13:17:21 -0700</lastBuildDate><item><title>The National Technical Reports Library</title><link>/the-national-technical-reports-library.html</link><description>&lt;h3&gt;&lt;em&gt;"The National Technical Information Service acquires, indexes, abstracts, and archives the largest collection of U.S. government-sponsored technical reports in existence. "&lt;/em&gt;&lt;/h3&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Wed, 19 Aug 2026 08:00:00 -0700</lastBuildDate><item><title>Predictions for the Third Ice Prediction Workshop Using Simple Methods</title><link>/predictions-for-the-third-ice-prediction-workshop-using-simple-methods.html</link><description>&lt;h3&gt;&lt;em&gt;"The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="matches_for_AE3932_years" src="images/ipw3/matches_for_AE3932_years.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The series of Ice Prediction Workshops &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; have the purposes:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The main goal of these workshops is to assess state-of-the-art of icing prediction tools with 2D and 3D experimental data. We aim to provide an impartial forum to evaluating the effectiveness of icing methods and to identify the areas needing additional research and development.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Several organizations have sponsored and contributed to the workshops, including AIAA, NASA, SAE, academia, and industry.  &lt;/p&gt;
+&lt;p&gt;Two workshops have been completed. The third one "IPW-3" is scheduled for September 21-24, 2026.  &lt;/p&gt;
+&lt;p&gt;Predictions of Cd and Cl values are made for the cases in IPW-3.  &lt;/p&gt;
+&lt;p&gt;Recommendations for "the areas needing additional research and development" are made.   &lt;/p&gt;
+&lt;h2&gt;IPW-3&lt;/h2&gt;
+&lt;p&gt;IPW-3 has two major tasks. 
+We will focus here on the second task, TFG-2.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Ice Prediction Workshop is …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 19 Aug 2026 08:00:00 -0700</pubDate><guid>tag:None,2026-08-19:/predictions-for-the-third-ice-prediction-workshop-using-simple-methods.html</guid><category>misc</category><category>Ice Prediction Workshop</category><category>IPW</category><category>Ice Shapes</category><category>Icing Tunnel</category></item><item><title>The National Technical Reports Library</title><link>/the-national-technical-reports-library.html</link><description>&lt;h3&gt;&lt;em&gt;"The National Technical Information Service acquires, indexes, abstracts, and archives the largest collection of U.S. government-sponsored technical reports in existence. "&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="NTRL" src="images/NTRL.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;The Defense Technical Information Center&lt;/h2&gt;
 &lt;p&gt;The Defense Technical Information Center https://discover.dtic.mil/public-access-search/ site was a "go-to" resource for me. 
@@ -1774,19 +1789,4 @@ to NACA data and the later Appendix C.&lt;/p&gt;
 &lt;p&gt;3.3 Meteorological Conditions  &lt;/p&gt;
 &lt;p&gt;Figure 15 presents the meteorological design requirements proposed by the Low 
 Temperature Laboratory of the N.A.E. 
-It is observed …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 31 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-31:/the-nae-proposed-meteorological-design-requirements.html</guid><category>misc</category><category>Airplane Icing Information Course</category></item><item><title>Notes on Flight Testing</title><link>/notes-on-flight-testing.html</link><description>&lt;h3&gt;&lt;em&gt;"Tests to determine the performance of an icing protection system ... are of little value ... unless they can be subjected to an analytical treatment, and reduced to a generalised form which is applicable to conditions other than those under which the tests were actually made."&lt;/em&gt;&lt;/h3&gt;
-&lt;h1&gt;Lecture No. 12b, "NOTE ON THE FLIGHT TESTING AND ASSESSMENT OF ICING PROTECTION SYSTEMS" &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;An alternative view of how to correlate icing conditions to ice protection performance.  &lt;/p&gt;
-&lt;h2&gt;Key Points&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The concepts of protection system "failure" vs. "deficiency" are discussed.  &lt;/li&gt;
-&lt;li&gt;Test conditions specifically planned to find the point of failure or deficiency are recommended.  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Flight tests of an icing protection system consist of functioning tests, 
-tests to determine the internal efficiencies, and tests of the performance in icing. 
-The performance in icing can be determined 
-only if the appropriate measurements are made, 
-and if the flow of protection or the icing severity can be …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 30 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-30:/notes-on-flight-testing.html</guid><category>misc</category><category>Airplane Icing Information Course</category><category>flight test</category></item></channel></rss>
+It is observed …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 31 May 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-05-31:/the-nae-proposed-meteorological-design-requirements.html</guid><category>misc</category><category>Airplane Icing Information Course</category></item></channel></rss>

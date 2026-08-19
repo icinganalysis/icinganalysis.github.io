@@ -59,7 +59,10 @@ There are additional publications on ice shapes for deicing systems and propelle
 ### Added:  
 
 ### [Ice Shape Drag Correlations]({filename}ice_shape_drag.md)  
->A refined correlation of drag for an airfoil with icing conditions.
+>A refined correlation of drag for an airfoil with icing conditions.  
+
+### [Predictions for the Third Ice Prediction Workshop Using Simple Methods]({filename}ipw3.md)  
+> Predictions of Cd and Cl area made for the upcoming IPW-3.  
 
 ### [Estimating Icing Conditions with Highest Drag]({filename}conditions_cd.md)  
 >Estimating which icing conditions in Appendix C can result in the highest drag.  
