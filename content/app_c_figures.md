@@ -1,5 +1,6 @@
 status: draft  
 title: Digitized Figures for Appendix C  
+Date: 2026-09-18 12:00
 tags: Jeck, Appendix C
 
 ### _"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_  
@@ -136,12 +137,12 @@ here is an implementation using 6 points, and quadratic interpolation:
 
 ```text
     nmi, F
-    5, 1.34     # end point
-    10, 1.16    # intermediate point read from figure 3
-    17.4, 0.985 # intermediate point read from figure 3
-    50, 0.66    # intermediate point read from figure 3
-    170, 0.32   # intermediate point read from figure 3
-    310, 0.2    # end point
+    5,    1.34   # end point
+    10,   1.16   # intermediate point read from figure 3
+    17.4, 0.985  # intermediate point read from figure 3
+    50,   0.66   # intermediate point read from figure 3
+    170,  0.32   # intermediate point read from figure 3
+    310,  0.2    # end point
 ```
 
 The redrawn figure:  
