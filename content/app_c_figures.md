@@ -16,7 +16,7 @@ He noted an advantage of "cleaner, sharper" appearance, compared to the publishe
 That statement was true at the time (2005). 
 As of this writing, the current figures [^2] are the same ones as from 60+ years ago. 
 Here is the current Figure 1, which appears a little clearer than the ones I remember from circa 2005:  
-
+ 
 ![Appendix C figure 1 transparent](images/Jeck/Appendix%20C%20figure%201%20transparent.png)  
 _Public Domain image._    
 
@@ -26,7 +26,7 @@ The European Union Aviation Safety Agency (EASA) [^3] has "digitized" figures.
 That version of Appendix C Figure 1 is shown below:  
 
 ![easa_appc_fig1](images/Jeck/easa_appc_fig1.png)  
-_Public Domain image._    
+_From [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)_    
 
 The EASA version incorporates one of Jeck's recommendations to use dual units ("English" and SI).  
 
