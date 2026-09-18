@@ -164,7 +164,7 @@ If we select MVD=18, the LWC value can be found from Figure 1:
 If one selects a horizontal distance of 120 nmi, the Liquid Water Content Factor F 
 can be found from Figure 3:  
 
-![appc_fig2_redrawn_interp](images/Jeck/appc_fig2_redrawn_interp.png)  
+![appc_fig3_redrawn_interpolate](images/Jeck/appc_fig3_redrawn_interpolate.png)  
 
 ## Intermittent Maximum Icing  
 
