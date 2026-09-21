@@ -171,46 +171,28 @@ and finding conditions along the altitude-temperature boundary.
 
 ### Figure 3   
 
-There are two points defined on Figure 3, and it is also implied (from Figure 1) that at 17.4 nmi, F=1.0:  
+![Appendix C Figure 3.png](images/Appendix%20C%20Figure%203.png)
 
-```text
-    nmi,  F
-    5,    1.34  # end point
-    17.4, 1     # implied point
-    310,  0.2   # end point
-```
+Jeck's "computerized" version is very similar, although there is a difference. 
+Jeck's F-3 stops a 300 nmi, while Figure 3 extends to 310 nmi
 
-These three points are co-linear on a log-linear plot.
+![ar07-4F-3.png](images/FAA-AR-07-4/ar07-4F-3.png)  
 
-If we plot the three points, we see that the Figure 3 line is almost log-linear. 
-One can also see that the F value at 17.4 nmi is not quite 1. 
-My closest reading is 0.985, but the width of the pixelated line when zoomed in makes it difficult to discern. 
-The EASA version of the figure (not shown) is quite similar.  
+I have no explanation, except perhaps he somehow compensated for:  
+>The graphical grid spacing is also awkward because it is not evenly matched to the numerical
+scales marked along the axes.
 
-![appcfig3linear](images/Jeck/appcfig3linear.png)  
-
-I am not the first to notice this discrepancy, but I do not recall seeing it in print. 
-Those who have noticed may have just elided over a 1.5% difference. 
-It also might not very often be applied at distances near 17.4 nmi, so few have noticed. 
-However, slightly non-conservative (low) F values will result when using it near 17.4 nmi. 
-As it is in the United States Code of Federal Regulations, it would take an Act of Congress to change it, 
-even if everyone technically agrees that the value should be 1.00 at 17.4 nmi.  
-
-One possible "fix" is to just use the log-linear line between the end points, 
-the only explicitly defined points (as in the figure above). 
-This yields 1.00 at 17.4 nmi. 
-I have known people to do that, and it is probably "good enough" for many cases.   
-
-However, if you want to replot Figure 3 as close as I can discern it, 
+If you want to replot Figure 3 as close as I can discern it
+(without compensation for 'not evenly" spaced grid lines), 
 here is an implementation using 6 points, and quadratic interpolation:  
 
 ```text
     nmi, F
     5,    1.34   # end point
-    10,   1.16   # intermediate point read from figure 3
-    17.4, 0.985  # intermediate point read from figure 3
-    50,   0.66   # intermediate point read from figure 3
-    170,  0.32   # intermediate point read from figure 3
+    10,   1.165  # intermediate point read from Figure 3
+    17.4, 1.00   # intermediate point read from Figure 3
+    50,   0.665  # intermediate point read from Figure 3
+    170,  0.325  # intermediate point read from Figure 3
     310,  0.2    # end point
 ```
 
@@ -221,8 +203,7 @@ The redrawn figure:
 See also Jeck's "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT
 SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
 APPENDIX C" in DOT/FAA/30-7 for more information. 
-It does not address specifically why the value is not 1 at 17.4 nmi, 
-nor how to interpolate within it, but it has much useful, detailed information.  
+It does not address specifically how to interpolate within it, but it has much useful, detailed information.  
 
 The final paragraph is included here:  
 
@@ -236,7 +217,7 @@ employing the LWC adjustment factor curves. These mostly involve attempts to jus
 substituting longer exposures to compensate for smaller than desired LWCs during test flights.
 This practice is not a correct use of the LWC factor, however. The factor actually represents
 only the maximum probable LWC to be expected as an average versus the averaging distance in
-
+ 
 ### Intermittent Maximum Icing  
 
 The reader may implement functions for Appendix C, Figure 4, 5, and 6 using similar methods to those described above.  
