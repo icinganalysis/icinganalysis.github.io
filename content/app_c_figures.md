@@ -1,5 +1,5 @@
 status: draft  
-title: Digitized Figures for Appendix C  
+title: "New Replacement Figures for 14 CFR-25, 29, Appendix C"  
 Date: 2026-09-18 12:00
 tags: Jeck, Appendix C
 
@@ -8,19 +8,83 @@ _Quote from an unpublished outline of topics by Richard Jeck._
 
 ![appc_fig1_redrawn_stripes](images/Jeck/appc_fig1_redrawn_stripes.png)  
 
-## Introduction  
+## Summary  
 
 The late Dr. Richard Jeck of the FAA [^1] in his [unpublished] "Icing Information Notes" advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". 
-He noted an advantage of "cleaner, sharper" appearance, compared to the published figures.    
 
-That statement was true at the time (2005). 
+The "Icing Information Note" was essentially a 
+draft of what became Appendix F of DOT/FAA/AR-07/4 [^1].  
+
+Here, I will note a missed opportunity to make them available, 
+and offer other "modernized" means of producing figures as an alternative.  
+
+
+## Appendix F  
+
+As it is brief, Appendix F is reproduced in large part below:  
+
+>APPENDIX F—COMPUTERIZED VERSIONS OF 14 CFR PARTS 25 AND 29 APPENDIX C
+>
+>Title 14 Code of Federal Regulations (CFR) Parts 25 and 29 Appendix C (herein referred to as
+Appendix C) contains six graphs of design variables that are used by designers of in-flight ice
+protection systems and by data analysts for icing test flights, icing wind tunnel tests, and by
+computer modelers of ice shapes on aircraft surfaces. The six figures have been published in the
+CFR since the early 1960s. Unfortunately, the published versions of some figures are a poor,
+muddy quality shown in figures 1-6. This makes for an undesirable appearance when these
+graphs are copied into technical reports or projected onto a screen during briefings, for example.
+The graphical grid spacing is also awkward because it is not evenly matched to the numerical
+scales marked along the axes. Finally, these fixed (paper) versions of the graphs are not
+convertible to other useful versions that have been previously demonstrated [F-1].  
+>
+>These graphs would be useful beyond the original vision of the suppliers if the graphs were in
+electronic form so they could be customized and/or imported directly into computer programs.  
+>
+>This can be easily done by tabulating the coordinates of the curves in figures 1-6 in a
+computerized spreadsheet as in tables F-1 and F-2. Then, the charting capabilities of the
+spreadsheet software can be used to produce clean, properly scaled reproductions of the original
+graphs at will. Figures F-1 through F-6 show the results.   
+> 
+>The advantages of spreadsheet-based graphs in this example are that they:  
+> 
+>• Modernize Appendix C  
+• Have a cleaner, sharper appearance than the often muddy look of the printed versions
+currently in the CFR  
+• Have a more convenient grid spacing on the vertical and horizontal axes than the printed
+versions in the CFR  
+• Are easier to size and insert electronically into word processor or other computerized
+documents  
+• Can be adjusted or customized to suit the needs of various applications  
+• Can be converted to other useful variables or scales [F-1]  
+> 
+>In summary, common computer technology can modernize supplementary material that is
+currently available only in fixed, old-fashioned printed form in the CFR. When the CFR is made
+available on compact disc or other computer-compatible media, then working files, such as these
+spreadsheet versions of graphs, can be included and supplied directly to the user.  
+>
+>![ar07-4F-1.png](images/FAA-AR-07-4/ar07-4F-1.png)  
+
+## A Missed Opportunity  
+
+Unfortunately, the part of:  
+
+> working files, such as these
+spreadsheet versions of graphs, can be included and supplied directly to the user
+
+did not to my knowledge come to pass.  
+
+At the time (circa 2007), the "Electronic Aircraft Icing Handbook" EAIH [^2] existed, 
+and would seem to be a natural place for the spreadsheet files. 
+However, the EAIH is no longer on a FAA web-site, and the archived version, while it contains other spreadsheets, 
+does not have the files described by Jeck.  
+
 As of this writing, the current figures [^2] are the same ones as from 60+ years ago. 
 Here is the current Figure 1, which appears a little clearer than the ones I remember from circa 2005:  
  
 ![Appendix C figure 1 transparent](images/Jeck/Appendix%20C%20figure%201%20transparent.png)  
 _Public Domain image._    
 
-The image is a transparent PNG, which is convenient for layering on other data for direct comparison (although it still has the old-school grid). 
+The image is a transparent PNG, which is convenient for layering on other data for direct comparison 
+(although it still has the "old-fashioned" grid).  
 
 The European Union Aviation Safety Agency (EASA) [^3] has "digitized" figures. 
 That version of Appendix C Figure 1 is shown below:  
@@ -28,10 +92,13 @@ That version of Appendix C Figure 1 is shown below:
 ![easa_appc_fig1](images/Jeck/easa_appc_fig1.png)  
 _From [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)_    
 
-The EASA version incorporates one of Jeck's recommendations to use dual units ("English" and SI).  
+AC 20-73A (published in 2016) uses a "modernized" version:  
+![Figure E-1](images/ac2073a/Figure%20E-1.png)  
+
+## Another advantage of digitization: interpolation    
 
 Besides a sharper image, another advantage of digitized figures is that the 
-numerical data is stored, and functions can be written to interpret within the figures. 
+numerical data is stored, and functions can be written to interpolate within the figures. 
 The advisory material is silent on how one should interpolate, so that is a matter of implementation. 
 I have seen several implementations, some better than others.  
 
@@ -39,7 +106,7 @@ As computers require precise input to produce reliable output,
 this gives us a chance to note minor quirks and small errors in the figures, 
 and how to deal with them.  
 
-## Figure 1  
+### Figure 1  
 
 For continuous maximum icing conditions, 
 FAA AC 20-73A [^4] defines temperature and LWC values at three MVD values:  
@@ -93,15 +160,16 @@ Beauty is in the eye of the beholder.
 If one does not like this appearance, the Matplotlib [^6] software used to produce this plot offers many 
 options to reformat it. 
 
-## Figure 2  
+### Figure 2  
 
 Figure 2 is straight-forward to implement, as the corners are well-defined.  
 
 ![appc_fig2_redrawn.png](images/Jeck/appc_fig2_redrawn.png)  
 
-Uses include determining if a condition is within Appendix C.  
+Uses include determining if a condition is within Appendix C, 
+and finding conditions along the altitude-temperature boundary.  
 
-## Figure 3   
+### Figure 3   
 
 There are two points defined on Figure 3, and it is also implied (from Figure 1) that at 17.4 nmi, F=1.0:  
 
@@ -115,7 +183,7 @@ There are two points defined on Figure 3, and it is also implied (from Figure 1)
 These three points are co-linear on a log-linear plot.
 
 If we plot the three points, we see that the Figure 3 line is almost log-linear. 
-One can also see that the F value at 17.4 nmi is not quite 1.  
+One can also see that the F value at 17.4 nmi is not quite 1. 
 My closest reading is 0.985, but the width of the pixelated line when zoomed in makes it difficult to discern. 
 The EASA version of the figure (not shown) is quite similar.  
 
@@ -123,12 +191,13 @@ The EASA version of the figure (not shown) is quite similar.
 
 I am not the first to notice this discrepancy, but I do not recall seeing it in print. 
 Those who have noticed may have just elided over a 1.5% difference. 
-It also may not be applied very often at distances near 17.4 nmi. 
+It also might not very often be applied at distances near 17.4 nmi, so few have noticed. 
 However, slightly non-conservative (low) F values will result when using it near 17.4 nmi. 
 As it is in the United States Code of Federal Regulations, it would take an Act of Congress to change it, 
 even if everyone technically agrees that the value should be 1.00 at 17.4 nmi.  
 
-One possible "fix" is to just use the log-linear line between the end points, the only explicitly defined points (as in the figure above). 
+One possible "fix" is to just use the log-linear line between the end points, 
+the only explicitly defined points (as in the figure above). 
 This yields 1.00 at 17.4 nmi. 
 I have known people to do that, and it is probably "good enough" for many cases.   
 
@@ -149,6 +218,38 @@ The redrawn figure:
 
 ![appc_fig3_redrawn](images/Jeck/appc_fig3_redrawn.png)  
 
+See also Jeck's "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT
+SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
+APPENDIX C" in DOT/FAA/30-7 for more information. 
+It does not address specifically why the value is not 1 at 17.4 nmi, 
+nor how to interpolate within it, but it has much useful, detailed information.  
+
+The final paragraph is included here:  
+
+>C.5 APPLICATION OF THE LWC FACTOR CURVES.  
+The original purpose of these curves, as explained by Lewis, et al. [C-4, C-6, and C-3], was to
+estimate the maximum probable LWC to be expected as an average during flight for various
+distances through continuous icing conditions. The brief instructions accompanying the set of
+graphs in Appendix C are noncommittal in describing how these curves are to be applied. As a
+result, users have interpreted the instructions variously and have proposed other ways of
+employing the LWC adjustment factor curves. These mostly involve attempts to justify
+substituting longer exposures to compensate for smaller than desired LWCs during test flights.
+This practice is not a correct use of the LWC factor, however. The factor actually represents
+only the maximum probable LWC to be expected as an average versus the averaging distance in
+
+### Intermittent Maximum Icing  
+
+The reader may implement functions for Appendix C, Figure 4, 5, and 6 using similar methods to those described above.  
+
+Note that the X-axis of Figure 5 appears to be mislabeled. 
+The highest altitude label on the axis should be 32000 ft, not 30000 ft. (Jeck corrected it as so in some of his works). 
+If it truly were 30000 ft, some anomalous kink in the right-hand line would be required when plotted with a regular axis.  
+
+![appendix_c_figure_5](images/Jeck/appendix_c_figure_5.png)  
+_Public Domain image._    
+
+The EASA version of Figure 5 (not shown) has a different axis scale, and avoids the labeling problem.  
+
 ## Illustrations of interpolation   
 
 We now have functions to interpolate within the Appendix C figures 1, 2, and 3.
@@ -167,39 +268,29 @@ can be found from Figure 3:
 
 ![appc_fig3_redrawn_interpolate](images/Jeck/appc_fig3_redrawn_interpolate.png)  
 
-## Intermittent Maximum Icing  
-
-The reader may implement functions for Appendix C, Figure 4, 5, and 6 using similar methods to those described above.  
-
-Note that the X-axis of Figure 5 appears to be mislabeled. 
-The highest altitude label on the axis should be 32000 ft, not 30000 ft. (Jeck corrected it as so in some of his works). 
-If it truly were 30000 ft, some anomalous kink in the right-hand line would be required when plotted with a regular axis.  
-
-![appendix_c_figure_5](images/Jeck/appendix_c_figure_5.png)  
-_Public Domain image._    
-
-The EASA version of Figure 5 (not shown) has a different axis scale, and avoids the labeling problem.  
-
 ## A mystery about Figure 1 values  
 
-Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVW, temperature, and distance in DOT/FAA/AR-00/30 [^6].
+Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^6].  
 
 ![jeck00Table2](images/Jeck/jeck00Table2.png)  
 _Public Domain image._    
 
-The corresponding values for 17.4 nmi match the AC 20-73A Table 6 values, except for 14F, 15 MVD. 
-Table 2 lists 0.59, while AC 20-73A Table 6 list 0.60 . 
-Perhaps this is just a typo. 
-However, the ratio 0.59/0.6=0.983, 
-which is close the F value I read from Figure 3 for 17.4 nmi (0.985), 
+The corresponding LWC values for 17.4 nmi match the AC 20-73A Table 6 values, except for 14F, 15 MVD. 
+Table 2 lists 0.59, while AC 20-73A Table 6 list 0.60. 
+I thought it might just a typo, but Jeck's Figure F-1 also shows the value as 0.59. 
+This indicates that it was not a single typo in a single publication. 
+Note that the ratio 0.59/0.6=0.983 is close the F value I read from Figure 3 for 17.4 nmi (0.985), 
 perhaps indicating the LWC value was "corrected".
 However, none of the other LWC values at 17.4 nmi had the adjustment.  
+
+The 0.59 value appears to have not propagated to further publications, 
+as the later AC 20-73A Figure E-1 shows the value as 0.60 .
  
 Jeck was very familiar with AC 20-73A and NACA-TN-1855 and cites them many times in his works. 
 I am surprised that this small error exists as either a typo, or an unexplained adjustment.  
 
 ## What about spreadsheets?  
-
+ 
 I find spreadsheets useful for displaying column data, 
 and occasional simple arithmetic such as summing a column.  
 
@@ -233,7 +324,7 @@ As Dr. Jeck wrote:
 
 > The purpose is solely to improve the appearance and utility of the Appendix C figure.  
 
-This is the kind of thing that I would like to see in the Electronic Icing Handbook [^8] eventually.  
+This is the kind of thing that I would like to see in something like the Electronic Icing Handbook [^8] eventually.  
 
 ## Notes:  
 
