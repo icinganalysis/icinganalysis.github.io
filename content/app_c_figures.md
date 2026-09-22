@@ -161,6 +161,24 @@ Beauty is in the eye of the beholder.
 If one does not like this appearance, the Matplotlib [^6] software used to produce this plot offers many 
 options to reformat it. 
 
+## A mystery about Figure 1 values  
+
+Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^6].  
+
+![jeck00Table2](images/Jeck/jeck00Table2.png)  
+_Public Domain image._    
+
+The corresponding LWC values for 17.4 nmi match the AC 20-73A Table 6 values, except for 14F, 15 MVD. 
+Table 2 lists 0.59, while AC 20-73A Table 6 list 0.60. 
+I thought it might just a typo, but Jeck's Figure F-1 also shows the value as 0.59. 
+This indicates that it was not a single typo in a single publication. 
+
+The 0.59 value appears to have not propagated to further publications, 
+as the later AC 20-73A Figure E-1 shows the value as 0.60.
+ 
+Jeck was very familiar with AC 20-73A (and the prior AC 20-73) and NACA-TN-1855 and cites them many times in his works. 
+I am surprised that this small error exists as either a typo, or an unexplained adjustment.  
+
 ### Figure 2  
 
 Figure 2 is straight-forward to implement, as the corners are well-defined.  
@@ -249,27 +267,6 @@ If one selects a horizontal distance of 120 nmi, the Liquid Water Content Factor
 can be found from Figure 3:  
 
 ![appc_fig3_redrawn_interpolate](images/Jeck/appc_fig3_redrawn_interpolate.png)  
-
-## A mystery about Figure 1 values  
-
-Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^6].  
-
-![jeck00Table2](images/Jeck/jeck00Table2.png)  
-_Public Domain image._    
-
-The corresponding LWC values for 17.4 nmi match the AC 20-73A Table 6 values, except for 14F, 15 MVD. 
-Table 2 lists 0.59, while AC 20-73A Table 6 list 0.60. 
-I thought it might just a typo, but Jeck's Figure F-1 also shows the value as 0.59. 
-This indicates that it was not a single typo in a single publication. 
-Note that the ratio 0.59/0.6=0.983 is close the F value I read from Figure 3 for 17.4 nmi (0.985), 
-perhaps indicating the LWC value was "corrected".
-However, none of the other LWC values at 17.4 nmi had the adjustment.  
-
-The 0.59 value appears to have not propagated to further publications, 
-as the later AC 20-73A Figure E-1 shows the value as 0.60.
- 
-Jeck was very familiar with AC 20-73A (and the prior AC 20-73) and NACA-TN-1855 and cites them many times in his works. 
-I am surprised that this small error exists as either a typo, or an unexplained adjustment.  
 
 ## What about spreadsheets?  
  
