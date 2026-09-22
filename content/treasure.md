@@ -251,6 +251,10 @@ These have been reviewed previously:
 - [Messinger]({filename}messinger.md), Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. [semanticscholar.org](https://www.semanticscholar.org/paper/Equilibrium-Temperature-of-an-Unheated-Icing-as-a-Messinger/250270d1126b8462a81cdca144b0dbcf044f7c53)    
 - [Meteorology publications by Porter Perkins]({filename}perkins meteorology.md),  Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
+## Related  
+
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+
 ## References  
 
 [^1]: Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  

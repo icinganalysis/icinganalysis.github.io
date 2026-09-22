@@ -4,7 +4,7 @@ Date: 2026-09-20 12:00
 tags: Jeck, Appendix C
 
 ### _"a number of advantages and uses of this new, distance-based format"_  
-
+ 
 ![figure12.png](images/DOT-FAA-AR-00-30/figure12.png)  
 _Public Domain figure from DOT/FAA/AR-00/30._  
 

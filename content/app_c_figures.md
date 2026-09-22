@@ -308,7 +308,11 @@ As Dr. Jeck wrote in his icing information note:
 
 > The purpose is solely to improve the appearance and utility of the Appendix C figure.  
 
-This is the kind of thing that I would like to see in something like the Electronic Icing Handbook [^8] eventually.  
+This is the kind of thing that I would like to see in something like the Electronic Aircraft Icing Handbook [^8] eventually.  
+
+## Related  
+
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
 
 ## Notes:  
 
