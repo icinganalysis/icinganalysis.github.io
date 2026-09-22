@@ -96,9 +96,9 @@ _From [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-acces
 AC 20-73A [^6] (published in 2016) uses a "modernized" version:  
 ![Figure E-1](images/ac2073a/Figure%20E-1.png)  
 
-## Another advantage of digitization: interpolation    
+## Another benefit of digitization: interpolation    
 
-Besides a sharper image, another advantage of digitized figures is that the 
+Besides a sharper image, another benefit of digitized figures is that the 
 numerical data is stored, and functions can be written to interpolate within the figures. 
 The advisory material is silent on how one should interpolate, so that is a matter of implementation. 
 I have seen several implementations, some better than others.  
