@@ -5,7 +5,7 @@ tags: Jeck, Appendix C
 
 ### _"a number of advantages and uses of this new, distance-based format"_  
 
-![figure12.png](images/Jeck%20AR%2000-03/figure12.png)  
+![figure12.png](images/DOT-FAA-AR-00-30/figure12.png)  
 _Public Domain figure from DOT/FAA/AR-00/30._  
 
 Dr. Richard Jeck [^1], retired from the FAA, passed away in January 2026 [^2].  
@@ -77,11 +77,11 @@ Readers will be rewarded by the depth of information and variety of topics addre
 
 ### "Icing Information Notes"  
 
-> - _"A Treasure Trove"_ [in work] 
-> - _"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_ [in work]  
+> - [_"A Treasure Trove"_]({filename}treasure.md) 
+> - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
 
 ### Icing Intensity Definitions  
-
+ 
 > - _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_ [in work]  
 
 ### 28,000 Miles of Icing Data  

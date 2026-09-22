@@ -62,6 +62,8 @@ spreadsheet versions of graphs, can be included and supplied directly to the use
 >
 >![ar07-4F-1.png](images/FAA-AR-07-4/ar07-4F-1.png)  
 
+_Public Domain figure._  
+
 ## A Missed Opportunity  
 
 Unfortunately, the part of:  
@@ -160,7 +162,11 @@ Beauty is in the eye of the beholder.
 If one does not like this appearance, the Matplotlib [^9] software used to produce this plot offers many 
 options to reformat it. 
 
-## A mystery about Figure 1 values  
+## A mystery about Figure F-1 values  
+
+Jeck's Figure F-1 (shown further above) shows the LWC value = 0.59 at 14F and 15 MVD.  
+
+This differs from Appendix C, Figure 1 (all other values appear to be the same).
 
 Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^10].  
 
@@ -279,7 +285,7 @@ If you wish to implement them, then by all means go ahead.
 I have found that detailed analysis is best done in Python, 
 driven by input data such as CSV and jason tables, 
 or occasionally an SQL-type database where warranted. 
-The most transportable output has proven to be CSV and jason tables, 
+The most transportable output has proven to be CSV and JASON tables, 
 with PNG figures that can be conveniently included in text documents.  
 
 If you want to just plot the line data for the figures in a spreadsheet, 
