@@ -109,7 +109,8 @@ and how to deal with them.
 ### Figure 1  
 
 For continuous maximum icing conditions, 
-FAA AC 20-73A [^4] defines temperature and LWC values at three MVD values:  
+FAA AC 20-73A [^4] defines temperature and LWC values at three MVD values 
+(the prior AC 20-73 also had the table):  
 
 ![ac2073atable6](images/Jeck/ac2073atable6.png)  
 _Public Domain image._    
@@ -265,9 +266,9 @@ perhaps indicating the LWC value was "corrected".
 However, none of the other LWC values at 17.4 nmi had the adjustment.  
 
 The 0.59 value appears to have not propagated to further publications, 
-as the later AC 20-73A Figure E-1 shows the value as 0.60 .
+as the later AC 20-73A Figure E-1 shows the value as 0.60.
  
-Jeck was very familiar with AC 20-73A and NACA-TN-1855 and cites them many times in his works. 
+Jeck was very familiar with AC 20-73A (and the prior AC 20-73) and NACA-TN-1855 and cites them many times in his works. 
 I am surprised that this small error exists as either a typo, or an unexplained adjustment.  
 
 ## What about spreadsheets?  
