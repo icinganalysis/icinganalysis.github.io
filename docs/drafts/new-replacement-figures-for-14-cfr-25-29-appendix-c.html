@@ -38,7 +38,7 @@
                 Published: Fri 18 September 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-09-22T07:15:16.401626-07:00">
+        <abbr class="modified" title="2026-09-22T07:42:44.984815-07:00">
                 Updated: Tue 22 September 2026
         </abbr>
 <!---->
@@ -57,7 +57,7 @@
 <h2>Summary</h2>
 <p>The late Dr. Richard Jeck of the FAA <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> in his [unpublished] "Icing Information Notes" advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". </p>
 <p>The "Icing Information Note" was essentially a 
-draft of what became Appendix F of DOT/FAA/AR-07/4 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.  </p>
+draft of what became Appendix F of DOT/FAA/AR-07/4 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>.  </p>
 <p>Here, I will note a missed opportunity to make them available, 
 and offer other "modernized" means of producing figures as an alternative.  </p>
 <h2>Appendix F</h2>
@@ -103,21 +103,21 @@ spreadsheet versions of graphs, can be included and supplied directly to the use
 spreadsheet versions of graphs, can be included and supplied directly to the user</p>
 </blockquote>
 <p>did not to my knowledge come to pass.  </p>
-<p>At the time (circa 2007), the "Electronic Aircraft Icing Handbook" EAIH <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> existed, 
+<p>At the time (circa 2007), the "Electronic Aircraft Icing Handbook" EAIH <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> existed, 
 and would seem to be a natural place for the spreadsheet files. 
 However, the EAIH is no longer on a FAA web-site, and the archived version, while it contains other spreadsheets, 
 does not have the files described by Jeck.  </p>
-<p>As of this writing, the current figures <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup> are the same ones as from 60+ years ago. 
+<p>As of this writing, the current figures <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> are the same ones as from 60+ years ago. 
 Here is the current Figure 1, which appears a little clearer than the ones I remember from circa 2005:  </p>
 <p><img alt="Appendix C figure 1 transparent" src="images/Jeck/Appendix%20C%20figure%201%20transparent.png"><br>
 <em>Public Domain image.</em>    </p>
 <p>The image is a transparent PNG, which is convenient for layering on other data for direct comparison 
 (although it still has the "old-fashioned" grid).  </p>
-<p>The European Union Aviation Safety Agency (EASA) <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> has "digitized" figures. 
+<p>The European Union Aviation Safety Agency (EASA) <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> has "digitized" figures. 
 That version of Appendix C Figure 1 is shown below:  </p>
 <p><img alt="easa_appc_fig1" src="images/Jeck/easa_appc_fig1.png"><br>
 <em>From <a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#">easa.europa.eu</a></em>    </p>
-<p>AC 20-73A (published in 2016) uses a "modernized" version:<br>
+<p>AC 20-73A <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> (published in 2016) uses a "modernized" version:<br>
 <img alt="Figure E-1" src="images/ac2073a/Figure%20E-1.png">  </p>
 <h2>Another advantage of digitization: interpolation</h2>
 <p>Besides a sharper image, another advantage of digitized figures is that the 
@@ -129,11 +129,11 @@ this gives us a chance to note minor quirks and small errors in the figures,
 and how to deal with them.  </p>
 <h3>Figure 1</h3>
 <p>For continuous maximum icing conditions, 
-FAA AC 20-73A <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> defines temperature and LWC values at three MVD values 
-(the prior AC 20-73 also had the table):  </p>
+FAA AC 20-73A <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup> defines temperature and LWC values at three MVD values 
+(the prior AC 20-73 <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> also had the table):  </p>
 <p><img alt="ac2073atable6" src="images/Jeck/ac2073atable6.png"><br>
 <em>Public Domain image.</em>    </p>
-<p>The source data NACA-TN-1855 <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> is frankly short on details of how the values were selected. 
+<p>The source data NACA-TN-1855 <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> is frankly short on details of how the values were selected. 
 We can see an implied interpolation when it is compared to a "French" curve 
 (a 1960s era Stewart 82-14 in this case, although I am sure that other models could provide a better match).  </p>
 <p><img alt="manual curve fit" src="images/Jeck/manual%20curve%20fit.png">  </p>
@@ -160,10 +160,10 @@ Quadratic interpolation yields the most believable interpolation in my opinion. 
 <p>We can now also add lines at 1F temperature and 1 μm MVD increments to Figure 1:  </p>
 <p><img alt="appc_fig1_redrawn_stripes" src="images/Jeck/appc_fig1_redrawn_stripes.png">  </p>
 <p>Beauty is in the eye of the beholder. 
-If one does not like this appearance, the Matplotlib <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> software used to produce this plot offers many 
+If one does not like this appearance, the Matplotlib <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> software used to produce this plot offers many 
 options to reformat it. </p>
 <h2>A mystery about Figure 1 values</h2>
-<p>Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.  </p>
+<p>Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>.  </p>
 <p><img alt="jeck00Table2" src="images/Jeck/jeck00Table2.png"><br>
 <em>Public Domain image.</em>    </p>
 <p>The corresponding LWC values for 17.4 nmi match the AC 20-73A Table 6 values, except for 14F, 15 MVD. 
@@ -256,7 +256,7 @@ csv files are provided here.  </p>
 <p>For Figure 1, the MVD data is in 1 μm increments: <a href="images/Jeck/appendix_c_figure_1.csv">appendix_c_figure_1.csv</a>  </p>
 </li>
 <li>
-<p>An example spreadsheet plot made in LibreOffice in the OpenDocument Format <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> for Figure 1: <a href="images/Jeck/appendix_c_figure_1.ods">appendix_c_figure_1.ods</a>  </p>
+<p>An example spreadsheet plot made in LibreOffice in the OpenDocument Format <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> for Figure 1: <a href="images/Jeck/appendix_c_figure_1.ods">appendix_c_figure_1.ods</a>  </p>
 </li>
 <li>
 <p>For Figure 2, the corner points are provided: <a href="images/Jeck/appendix_c_figure_2.csv">appendix_c_figure_2.csv</a>  </p>
@@ -268,40 +268,22 @@ csv files are provided here.  </p>
 <h2>Conclusions</h2>
 <p>I hope that readers find the digitized figures useful, though few may find beauty in them. 
 You can find the Python code that includes the interpolation functions at <a href="">github</a>. </p>
-<p>As Dr. Jeck wrote:  </p>
+<p>As Dr. Jeck wrote in his icing information note:  </p>
 <blockquote>
 <p>The purpose is solely to improve the appearance and utility of the Appendix C figure.  </p>
 </blockquote>
-<p>This is the kind of thing that I would like to see in something like the Electronic Icing Handbook <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> eventually.  </p>
+<p>This is the kind of thing that I would like to see in something like the Electronic Icing Handbook <sup id="fnref2:8"><a class="footnote-ref" href="#fn:8">8</a></sup> eventually.  </p>
 <h2>Notes:</h2>
 <div class="footnote">
 <hr>
 <ol>
 <li id="fn:1">
-<p>Dr. Jeck's obituary: <a href="https://www.loudounfuneralchapel.com/obituaries/richard-jeck/obituary">loudounfuneralchapel.com</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Dr. Jeck's obituary: <a href="https://www.loudounfuneralchapel.com/obituaries/richard-jeck/obituary">loudounfuneralchapel.com</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>CFR 14 Part 25 Appendix C <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">ecfr.gov</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. <a href="https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf">web.archive.org</a>  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Appendix C to CS-25 <a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#">easa.europa.eu</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p><a href="https://matplotlib.org">matplotlib.org</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. <a href="https://ntrs.nasa.gov/citations/19930082528">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p>Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. <a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml">ntrl.ntis.gov</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:8">
-<p>OpenDocument <a href="https://en.wikipedia.org/wiki/OpenDocument">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:9">
 <p>"Electronic Aircraft Icing Handbook"<br>
 "This web page contains basic information on aircraft icing. Information placed on this page can be used to update or supplement information in the existing Aircraft Icing Handbook (AIHB). Update material can be printed out and inserted in the AIHB. The files on this page are referenced to those sections of the AIHB which they update or supplement, but are self-contained, not requiring consultation of the AIHB for their use. When appropriate the text information on this site is accompanied by spreadsheet or other files intended to enhance the value of the information to users."<br>
 This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods", 
@@ -309,7 +291,31 @@ as well as files for analyzing water drop spectrum data, and a database of icing
 This is mentioned in "Aircraft Ice Protection" AC 20-73A <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>, 
 but I could not find it on a current FAA website. 
 You can view the version from 2007 at 
-<a href="https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm">web.archive.org</a>&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+<a href="https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm">web.archive.org</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>CFR 14 Part 25 Appendix C <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025">ecfr.gov</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Appendix C to CS-25 <a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#">easa.europa.eu</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Anon.: "Aircraft Ice Protection", FAA AC 20-73A, 2016, <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. <a href="https://ntrs.nasa.gov/citations/19930082528">ntrs.nasa.gov</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="https://matplotlib.org">matplotlib.org</a>&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. <a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml">ntrl.ntis.gov</a>&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>OpenDocument <a href="https://en.wikipedia.org/wiki/OpenDocument">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

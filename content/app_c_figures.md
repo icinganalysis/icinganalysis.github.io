@@ -13,11 +13,10 @@ _Quote from an unpublished outline of topics by Richard Jeck._
 The late Dr. Richard Jeck of the FAA [^1] in his [unpublished] "Icing Information Notes" advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". 
 
 The "Icing Information Note" was essentially a 
-draft of what became Appendix F of DOT/FAA/AR-07/4 [^1].  
+draft of what became Appendix F of DOT/FAA/AR-07/4 [^2].  
 
 Here, I will note a missed opportunity to make them available, 
 and offer other "modernized" means of producing figures as an alternative.  
-
 
 ## Appendix F  
 
@@ -72,12 +71,12 @@ spreadsheet versions of graphs, can be included and supplied directly to the use
 
 did not to my knowledge come to pass.  
 
-At the time (circa 2007), the "Electronic Aircraft Icing Handbook" EAIH [^2] existed, 
+At the time (circa 2007), the "Electronic Aircraft Icing Handbook" EAIH [^3] existed, 
 and would seem to be a natural place for the spreadsheet files. 
 However, the EAIH is no longer on a FAA web-site, and the archived version, while it contains other spreadsheets, 
 does not have the files described by Jeck.  
 
-As of this writing, the current figures [^2] are the same ones as from 60+ years ago. 
+As of this writing, the current figures [^4] are the same ones as from 60+ years ago. 
 Here is the current Figure 1, which appears a little clearer than the ones I remember from circa 2005:  
  
 ![Appendix C figure 1 transparent](images/Jeck/Appendix%20C%20figure%201%20transparent.png)  
@@ -86,13 +85,13 @@ _Public Domain image._
 The image is a transparent PNG, which is convenient for layering on other data for direct comparison 
 (although it still has the "old-fashioned" grid).  
 
-The European Union Aviation Safety Agency (EASA) [^3] has "digitized" figures. 
+The European Union Aviation Safety Agency (EASA) [^5] has "digitized" figures. 
 That version of Appendix C Figure 1 is shown below:  
 
 ![easa_appc_fig1](images/Jeck/easa_appc_fig1.png)  
 _From [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)_    
 
-AC 20-73A (published in 2016) uses a "modernized" version:  
+AC 20-73A [^6] (published in 2016) uses a "modernized" version:  
 ![Figure E-1](images/ac2073a/Figure%20E-1.png)  
 
 ## Another advantage of digitization: interpolation    
@@ -109,13 +108,13 @@ and how to deal with them.
 ### Figure 1  
 
 For continuous maximum icing conditions, 
-FAA AC 20-73A [^4] defines temperature and LWC values at three MVD values 
-(the prior AC 20-73 also had the table):  
+FAA AC 20-73A [^6] defines temperature and LWC values at three MVD values 
+(the prior AC 20-73 [^7] also had the table):  
 
 ![ac2073atable6](images/Jeck/ac2073atable6.png)  
 _Public Domain image._    
 
-The source data NACA-TN-1855 [^5] is frankly short on details of how the values were selected. 
+The source data NACA-TN-1855 [^8] is frankly short on details of how the values were selected. 
 We can see an implied interpolation when it is compared to a "French" curve 
 (a 1960s era Stewart 82-14 in this case, although I am sure that other models could provide a better match).  
 
@@ -158,12 +157,12 @@ We can now also add lines at 1F temperature and 1 μm MVD increments to Figure 1
 ![appc_fig1_redrawn_stripes](images/Jeck/appc_fig1_redrawn_stripes.png)  
 
 Beauty is in the eye of the beholder. 
-If one does not like this appearance, the Matplotlib [^6] software used to produce this plot offers many 
+If one does not like this appearance, the Matplotlib [^9] software used to produce this plot offers many 
 options to reformat it. 
 
 ## A mystery about Figure 1 values  
 
-Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^6].  
+Jeck provided a table combining Figure 1 and Figure 3 LWC values as a function of MVD, temperature, and distance in DOT/FAA/AR-00/30 [^10].  
 
 ![jeck00Table2](images/Jeck/jeck00Table2.png)  
 _Public Domain image._    
@@ -288,7 +287,7 @@ csv files are provided here.
 
 - For Figure 1, the MVD data is in 1 μm increments: [appendix_c_figure_1.csv](images/Jeck/appendix_c_figure_1.csv)  
 
-- An example spreadsheet plot made in LibreOffice in the OpenDocument Format [^7] for Figure 1: [appendix_c_figure_1.ods](images/Jeck/appendix_c_figure_1.ods)  
+- An example spreadsheet plot made in LibreOffice in the OpenDocument Format [^11] for Figure 1: [appendix_c_figure_1.ods](images/Jeck/appendix_c_figure_1.ods)  
 
 - For Figure 2, the corner points are provided: [appendix_c_figure_2.csv](images/Jeck/appendix_c_figure_2.csv)  
  
@@ -299,7 +298,7 @@ csv files are provided here.
 I hope that readers find the digitized figures useful, though few may find beauty in them. 
 You can find the Python code that includes the interpolation functions at [github](). 
 
-As Dr. Jeck wrote:  
+As Dr. Jeck wrote in his icing information note:  
 
 > The purpose is solely to improve the appearance and utility of the Appendix C figure.  
 
@@ -308,14 +307,8 @@ This is the kind of thing that I would like to see in something like the Electro
 ## Notes:  
 
 [^1]: Dr. Jeck's obituary: [loudounfuneralchapel.com](https://www.loudounfuneralchapel.com/obituaries/richard-jeck/obituary)  
-[^2]: CFR 14 Part 25 Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
-[^3]: Appendix C to CS-25 [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)  
-[^4]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)  
-[^5]: [matplotlib.org](https://matplotlib.org)  
-[^6]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)   
-[^7]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
-[^8]: OpenDocument [en.wikipedia.org](https://en.wikipedia.org/wiki/OpenDocument)   
-[^9]: "Electronic Aircraft Icing Handbook"  
+[^2]: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
+[^3]: "Electronic Aircraft Icing Handbook"  
 "This web page contains basic information on aircraft icing. Information placed on this page can be used to update or supplement information in the existing Aircraft Icing Handbook (AIHB). Update material can be printed out and inserted in the AIHB. The files on this page are referenced to those sections of the AIHB which they update or supplement, but are self-contained, not requiring consultation of the AIHB for their use. When appropriate the text information on this site is accompanied by spreadsheet or other files intended to enhance the value of the information to users."  
 This includes format updates for DOT/FAA/CT-88/8-2 "Chapter III Ice Protection Methods", 
 as well as files for analyzing water drop spectrum data, and a database of icing references circa 2007.  
@@ -323,3 +316,11 @@ This is mentioned in "Aircraft Ice Protection" AC 20-73A [faa.gov](https://www.f
 but I could not find it on a current FAA website. 
 You can view the version from 2007 at 
 [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
+[^4]: CFR 14 Part 25 Appendix C [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
+[^5]: Appendix C to CS-25 [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)  
+[^6]: Anon.: "Aircraft Ice Protection", FAA AC 20-73A, 2016, [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf)  
+[^7]: FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf)  
+[^8]: Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)   
+[^9]: [matplotlib.org](https://matplotlib.org)  
+[^10]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
+[^11]: OpenDocument [en.wikipedia.org](https://en.wikipedia.org/wiki/OpenDocument)  
