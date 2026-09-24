@@ -8,6 +8,9 @@ The individual images are described in the link below.
 ](images%2Finstructive_illustrations.png)  
 _Four [Instructive Illustrations]({filename}instructive illustrations.md)_.   
 
+![aviation weather coloring page](images/aviation%20weather%20coloring%20page.png)
+_From [aviationweather.gov](https://aviationweather.gov/outreach/Aviation%20Weather%20Center%20Activity%20Book.pdf)_  
+
 Diversions can take us into the post-NACA era of aircraft icing, with perhaps more freewheeling reviews.  
 
 ### [The Greatest Thing That You Have (Probably) Never Read: AC 00-6A]({filename}ac00-6a.md)  
@@ -17,7 +20,7 @@ Diversions can take us into the post-NACA era of aircraft icing, with perhaps mo
 ### [Instructive Illustrations]({filename}instructive illustrations.md)  
 ### [Out-Sourcing My Work to ChatGPT and DALL-E ;)]({filename}outsourcing.md)  
 
-Candidates (not yet reviewed):
+Candidates (not yet reviewed):  
 
 - Green, Steven D.: Inflight Icing Education Objectives for Air Carrier Pilots, AIAA 2003-21, 2003. [http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf](http://www.flightopsresearch.org/data/files/aiaa2003-21.pdf).  
 - NACA Conference on Aircraft Ice Prevention A Compilation of Papers Presented by NACA Staff Members. 6505/NACA-1947/8, 1947.  
