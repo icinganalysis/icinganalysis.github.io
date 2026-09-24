@@ -66,7 +66,7 @@ decreased lift pushing down, and increased weight pulling down.](images/Force_Ic
 ### AviationWeather.gov [^6]  
 
 ![aviation weather coloring page](images/aviation%20weather%20coloring%20page.png)
-
+ 
 ## Notes  
 
 [^1]:
