@@ -63,6 +63,10 @@ decreased lift pushing down, and increased weight pulling down.](images/Force_Ic
 
 ![Impact on Aerodynamic Performance. A cartoon of an airplane and a pilot in an open cockpit, with at arrow on their helmet indicating up. There are repair patches on the aiprlane wings and body. Arrows show decreases thrust, decreases lift, increases weight, increases drag.](images%2FNASA%20Hardenberg%20ice%20effects.png)  
 
+### AviationWeather.gov [^6]  
+
+![aviation weather coloring page](images/aviation%20weather%20coloring%20page.png)
+
 ## Notes  
 
 [^1]:
@@ -71,3 +75,4 @@ Anon.: Aviation Weather For Pilots and Flight Operations Personnel. AC 00-6A (Ca
 [^3]: Anon., Air Command Weather Manual (Canada), CFACM 2-70, May 22, 2001.  
 [^4]: "Icing" [weather.gov](https://www.weather.gov/source/zhu/ZHU_Training_Page/icing_stuff/icing/icing.htm)  
 [^5]: Von Hardenberg, Paul: Introduction to Aircraft Icing and NASA’s Approach to Understanding It. March 29, 2022. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20220005049)  
+[^6]: [aviationweather.gov](https://aviationweather.gov/outreach/Aviation%20Weather%20Center%20Activity%20Book.pdf)_  
