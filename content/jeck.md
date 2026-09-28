@@ -74,7 +74,7 @@ Several works by Richard Jeck have already been noted:
 ## Reviews of Dr. Jeck's works  
 
 Readers will be rewarded by the depth of information and variety of topics addressed by Dr. Jeck.  
-
+ 
 ### "Icing Information Notes"  
 
 > - [_"A Treasure Trove"_]({filename}treasure.md) 
