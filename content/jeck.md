@@ -1,7 +1,7 @@
 status: draft  
 title: 28,000 Miles of Data: The Publications of Dr. Richard Jeck    
 Date: 2026-09-20 12:00
-tags: Jeck, Appendix C
+tags: Dr. Jeck, Appendix C
 
 ### _"a number of advantages and uses of this new, distance-based format"_  
  
@@ -73,25 +73,25 @@ Several works by Richard Jeck have already been noted:
 
 ## Reviews of Dr. Jeck's works  
 
-Readers will be rewarded by the depth of information and variety of topics addressed by Dr. Jeck.  
+Readers will be rewarded by the depth of information and variety of topics addressed by Dr. Jeck:    
  
 ### "Icing Information Notes"  
 
 > - [_"A Treasure Trove"_]({filename}treasure.md) 
 > - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
 
+### Supercooled Large Drop (SLD) Icing  
+
+> - _"Very limited amounts of data are presently available for variables associated with ZR and ZL conditions aloft."_ [Dr. Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md)  
+
 ### Icing Intensity Definitions  
  
-> - _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_ [in work]  
+> - _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_ [Aircraft Icing Intensities]({filename}jeck_icing_intensity.md)  
 
 ### 28,000 Miles of Icing Data  
 
-> - _"a number of advantages and uses of this new, distance-based format"_ [in work]  
+> - _"a number of advantages and uses of this new, distance-based format"_ [The Supercooled Cloud Database]({filename}scdb.md)  
 > - Using the Supercooled Cloud Database [in work]  
-
-### Supercooled Large Drop (SLD) Icing  
-
-> - _"a new convention is proposed here for reporting and specifying water concentrations and dropsizes for freezing rain and drizzle"_ [in work]  
 
 ## Conclusions of the series on Dr. Richard Jeck [in work]  
 

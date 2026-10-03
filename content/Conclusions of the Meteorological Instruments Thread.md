@@ -309,7 +309,7 @@ cylinder instruments are still used today (although not so much the rotating mul
 
 The next thread in the NACA review series is the [Ice Protection Thread]({filename}ice%20protection.md).  
 
-##Notes:  
+## Notes:  
 
 [^1]: Lewis, William: "Review of Icing Criteria", in "Aircraft Ice Protection", the report of a symposium held April 28-30, 1969, by the FAA Flight Standards Service;  Federal Aviation Administration, 800 Independence Ave., S.W., Washington, DC 20590. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD690469.xhtml).  
 [^2]: 14 CFR 25 Appendix C (updated periodically) [ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
@@ -329,13 +329,13 @@ Also note that there was a perhaps little known update in 1993 (that did not aff
 [^15]: “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991) [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml).  
 Also note that there was a perhaps little known update in 1993 (that did not affect the pages of interest herein): https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA276499.xhtml.  
 [^16]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (1) Icing Rate Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/29, 2006. 
-[tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/artn06-29.pdf)  
+[rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89947)  
 [^17]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (2) Cloud Water Concentration Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/30, 2006. 
-[tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/artn06-30.pdf)  
+[rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89948)  
 [^18]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (3) Cloud Droplet Sizers. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/31, 2006. 
-[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/artn06-31.pdf)
+[rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89949)  
 [^19]: Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (4) Large Drop Sizers.  US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/32, 2006. 
-[tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/artn06-32.pdf)  
+[rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89950)  
 [^20]: Stith, Jeffrey L., et al. "100 years of progress in atmospheric observing systems." Meteorological Monographs 59 (2018): 2-1.  
 [ametsoc.org](https://journals.ametsoc.org/view/journals/amsm/59/1/amsmonographs-d-18-0006.1.xml)    
 [^21]: Jeck, Richard K. "Advances in the characterization of supercooled clouds for aircraft icing applications". No. DOT-FAA-AR 07-4. Office of Aviation Research and Development, Federal Aviation Administration, 2008. [tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  

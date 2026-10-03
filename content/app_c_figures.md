@@ -1,7 +1,7 @@
 status: draft  
 title: "New Replacement Figures for 14 CFR-25, 29, Appendix C"  
 Date: 2026-09-18 12:00
-tags: Jeck, Appendix C
+tags: Dr. Jeck, Appendix C
 
 ### _"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_  
 _Quote from an unpublished outline of topics by Richard Jeck._  

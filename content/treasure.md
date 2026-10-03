@@ -1,7 +1,7 @@
 status: draft  
 title: "Icing Information Notes"  
 Date: 2026-09-26 12:00
-tags: Jeck, Appendix C
+tags: Dr. Jeck, Appendix C
 
 ### _"A Treasure Trove"_  
 
@@ -9,7 +9,7 @@ tags: Jeck, Appendix C
 > _Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
 Therefore, it is defined here in a way that is compatible with conventional usage._  
 
-_Public Domain figure and text from DOT/FAA/AR-07/4. [^1]_
+_Public Domain figure and text from DOT/FAA/AR-07/4 [^1], also contained in a prior Icing Information Note._  
 
 ## Summary  
  
@@ -33,8 +33,9 @@ A biography [^2] explains:
 >
 > In response, Dr. Jeck wrote more Icing Information Notes on other icing-related topics until there are now dozens of them designed to provide icing practitioners with ready references on the fundamentals. They were prepared in response to requests from the field, or to clarify known areas of confusion in the interpretation and application of icing data and the technical literature. There is even one Icing Information Note that explains the difference between the Russian and Western versions of Appendix C.  
 
-It appears that circa 1997 the notes were available upon request. 
-An FAA document [^2] summarizes some of the Notes:  
+Since circa 1997 the notes were available upon request. 
+Readers have confirmed that they received Notes from Dr. Jeck. 
+An FAA document [^4] summarizes some of the Notes:  
 
 > Icing Information Notes  
 Several informal technical notes have been
@@ -119,21 +120,11 @@ Special Considerations.
 However, I have not found them on any current FAA site, 
 nor at archive.org.  
 
-## A proposed SAE Aerospace Information Report (AIR)  
-
-Dr. Jeck proposed that the SAE AC9C Aircraft Icing Technology Committee would be interested in publishing the Notes. 
-I reviewed the Notes as part of the committee work. 
-It gave me an excellent opportunity to become more familiar with Dr. Jeck's work. 
-
-The committee elected not to pursue publishing them at the time, due to committee work load, 
-and that some of the material was covered in Jeck's published works.  
-
 ## Titles of the Notes  
 
 The Notes themselves are generally concise (less than 10 pages) summaries of topics, often in a question and answer format.  
 
-The figure H-1 and text at the top of this post (while not from a Note) give the flavor of many of them: 
-state a problem (that few may have realized or addressed before), and then give a concise technical solution. 
+The figure H-1 and text at the top of this post were originally from a Note. 
 
 Later in this series, we will see an appendix to DOT/FAA/AR-07/4 that is an expansion of the note "New Replacement Figures for 14 CFR-25,29, Appendix C".  
 
@@ -145,7 +136,7 @@ TABLE OF CONTENTS
 Origins of the FAR-25, Appendix C, Design Envelopes    
 Relationships of FAA Advisory Circulars to 14 CFR-25/29, Appendix C in the Selection of Variables for the Design of Ice Protection Equipment for Aircraft (1995)  
 Summary of Some Current Practices in Selecting Design Values from the Icing Envelopes in 14 CFR-25,29, Appendix C (2007)  
-Legitimate (and Illegitimate!) Uses of the LWC Adjustment Curves in 14 CFR-25,29, Appendix C (2004)  
+(Better) Legitimate (and Illegitimate!) Uses of the LWC Adjustment Curves in 14 CFR-25,29, Appendix C (2004)  
 Some Answers to ALPA's Position Paper and Airline Pilot Magazine articles on Inflight Icing (1995)  
 New Replacement Figures for 14 CFR-25,29, Appendix C (2005)  
 Other Ways to Characterize the Icing Atmosphere (a complete copy of AIAA-94-0482)  
@@ -167,11 +158,61 @@ Rating Icing Exposures in Terms of Intensity (2017)
 Answers to Questions Regarding Low Level Icing Conditions (1996)  
 ```
 
-## Jeck's draft of a summary of his works?  
+The exact number of Notes is ambiguous. I am not sure that I have seen them all. 
+Dr. Jeck included slightly different titles in versions he sent to readers.  
+
+For the Note titled "Terminology for Droplet Size Measurements" mentioned in [^3], 
+I have not found a match. 
+Drop sizes are addressed in several Notes, and in a later published series on instrumentation. 
+Perhaps Dr. Jeck considered the 1997 version to be obsolete.  
+
+A series of instrumentation publications:  
+
+- Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (1) Icing Rate Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/29, 2006. [rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89947)  
+- Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (2) Cloud Water Concentration Indicators. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/30, 2006. [rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/89948)  
+- Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (3) Cloud Droplet Sizers. US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/31, 2006. [rosap.ntl.bts.gov](ps://rosap.ntl.bts.gov/view/dot/89949)  
+- Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (4) Large Drop Sizers.  US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/32, 2006.  [rosap.ntl.bts.gov](ps://rosap.ntl.bts.gov/view/dot/89950)  
+
+Also, the Electronic Aircraft Icing Handbook [^4] has a spreadsheet file "cldpar.xls":  
+>"This file contains examples illustrating the computation of MVD and LWC from droplet spectra, and the plotting of these spectra. It was used to generate results presented in cldpar.doc, and contains a macro for computation of MVD."
+
+A printed copy of "Rating Icing Exposures in Terms of Intensity" is dated 2017, 
+This is the last technical writing by Dr. Jeck that I know of.  
+
+As the Notes were not formally published by the FAA, they may not represent official policy. 
+However, we will see below that several Notes were drafts of works that were formally published. 
+
+I have found the Notes to be technically sound. 
+I have to get "picky" to find a small error in ["New Replacement Figures for 14 CFR-25,29, Appendix C"]({filename}app_c_figures.md) 
+(and the formal publication AR-07/4 Appendix F did not catch the small error).  
+
+### Notes as drafts of later works  
+
+| Note Title                                                                                                                                                | Later Publication                                                                                                              |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ABBREVIATIONS AND ACRONYMS / GLOSSARY                                                                                                                     | AR-07/4 Appendix H                                                                                                             |
+| Origins of the FAR-25, Appendix C, Design Envelopes                                                                                                       | AR-00/30                                                                                                                       |
+| Relationships of FAA Advisory Circulars to 14 CFR-25/29, Appendix C in the Selection of Variables for the Design of Ice Protection Equipment for Aircraft | AC 20-73A                                                                                                                      |
+| Why the Russian Appendix C Differs from the U.S./European (Western) Appendix C                                                                            | Some statistics of freezing precipitation and rime for the territory of the former USSR from ground-based weather observations |
+| New Replacement Figures for 14 CFR-25,29, Appendix C                                                                                                      | AR-07/4 Appendix F                                                                                                             |
+| Other Ways to Characterize the Icing Atmosphere                                                                                                           | AIAA-94-0482                                                                                                                   |
+| Answers to Questions Regarding Low Level Icing Conditions (1996)                                                                                          | AR-07/4 Figure 44                                                                                                              |  
+| PROPOSAL FOR CHANGING the ICING INTENSITY DEFINITIONS   | AIAA-98-0094  |  
+
+## A proposed SAE Aerospace Information Report (AIR)  
+
+Dr. Jeck proposed that the SAE AC9C Aircraft Icing Technology Committee would be interested in publishing the Notes. 
+I reviewed the Notes as part of the committee work. 
+It gave me an excellent opportunity to become more familiar with Dr. Jeck's work. 
+
+The committee elected not to pursue publishing them at the time, due to committee work load, 
+and that some of the material was covered in Dr. Jeck's published works.  
+
+## Dr. Jeck's draft of a summary of his works?  
 
 The "TABLE OF CONTENTS" is an outline that the subsequent Notes only approximately follow. 
 These appear to be a combination of topics he had been asked about, 
-and a course of study that Jeck thought those in aircraft icing should know. 
+and a course of study that Dr. Jeck thought those in aircraft icing should know. 
 It may be a draft of how he would organize a summary of his works.  
 
 ```text
@@ -199,16 +240,17 @@ Symbols
         1.7.2 Cloud Dropsizes
         1.7.3 When Dropsize Matters
         1.7.4 Looking for Large MVDs?
-    1.7.5 Langmuir Dropsize Distributions
-    1.7.6 What to do When Dropsize Measurements are Unavailable
-    1.7.7 Why the Russian Appendix C Differs from the U.S./European (Western) Appendix C
-    1.7.8 Outside Air Temperature (OAT)
-    1.7.9 Upper and Lower Temperature Limits to Aircraft Icing
-1.8 Altitude Limited Envelopes for Rotorcraft
-    1.8.1 Icing Conditions below 3 km (10,000 Ft)
-    1.8.2 Vertical Distribution (Extent) of Icing Cloud Layers
-    1.8.3 Modernized Appendix C-The Beauty & Benefits of Digitized Figures
-1.9 Controversy-Complaints about Appendix C.
+        1.7.5 Langmuir Dropsize Distributions
+        1.7.6 What to do When Dropsize Measurements are Unavailable
+        1.7.7 Why the Russian Appendix C Differs from the U.S./European (Western) Appendix C
+        1.7.8 Outside Air Temperature (OAT)
+        1.7.9 Upper and Lower Temperature Limits to Aircraft Icing
+    1.8 Altitude Limited Envelopes for Rotorcraft
+        1.8.1 Icing Conditions below 3 km (10,000 Ft)
+        1.8.2 Vertical Distribution (Extent) of Icing Cloud Layers
+        1.8.3 Modernized Appendix C-The Beauty & Benefits of Digitized Figures
+    1.9 Controversy-Complaints about Appendix C.  
+
 Newly-Proposed Solutions
 2. ALTERNATE, MORE VERSATILE FORMATS FOR APPENDIX C
     2.1 Appendix C Envelopes in terms of LWC vs HE
@@ -221,7 +263,7 @@ Newly-Proposed Solutions
 
 ## Often cited publications in the Notes  
 
-In the Notes, Jeck cited some of his publications several times each:  
+In the Notes, Dr. Jeck cited some of his publications several times each:  
 
 - A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep." Transportation Rep. DOT/FAA/CT-83/21 137 (1983). [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19860002276/downloads/19860002276.pdf)  
 - A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions. DOT/FAA/AR-01/91, November 2001. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA398952.xhtml)  
@@ -229,13 +271,15 @@ In the Notes, Jeck cited some of his publications several times each:
 - Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
 - Origins and Evolution of the Icing Intensity Definitions for Aircraft, AMS, Federal Aviation Administration Technical Center, Paper A 7, March 2006 [ams.confex.com](https://ams.confex.com/ams/pdfpapers/105941.pdf)  
 - Calibration and Use of Goodrich Model 0871FA Ice Detectors in Icing Wind Tunnels. J. Aircr., 44, 300–309, January 2007, [arc.aiaa.org](https://arc.aiaa.org/doi/10.2514/1.23543)  
-- Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
+- Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)   
 
 I take this as indicating that he thought these were particularly important and useful.  
 
 I am surprised that Dr. Jeck's works on supercooled large drop (SLD) icing got little mention. 
 Perhaps he felt that his contributions to the Inflight Icing Plan Task 9 report DOT/FAA/AR-09/10 [^8], 
 of which he was a co-author, adequately summarized his work and results.  
+
+We will look at Dr. Jeck's work on SLD in [Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md).  
 
 ## NACA-era publications cited in Notes  
 
@@ -247,7 +291,7 @@ These have been reviewed previously:
 - [TN-1855]({filename}NACA-TN-1855.md),  Jones, Alun R., and Lewis, William: Recommended Values of Meteorological Factors to be Considered in the Design of Aircraft Ice-Prevention Equipment. NACA-TN-1855, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082528)  
 - [TN-1904]({filename}NACA-TN-1904.md),  Lewis, William, and Hoecker, Walter H., Jr.: Observations of Icing Conditions Encountered in Flight During 1948. NACA-TN-1904, 1949. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068853)  
 - [TN-2569]({filename}NACA-TN-2569.md),  Hacker, Paul T., and Dorsch, Robert G.: A Summary of Meteorological Conditions Associated with Aircraft Icing and a Proposed Method of Selecting Design Criterions for Ice-Protection Equipment. NACA-TN-2569, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068848)  
-- [TN-2738]({filename}NACA-TN-2738.md),  HLewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)  
+- [TN-2738]({filename}NACA-TN-2738.md),  Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)  
 - [Messinger]({filename}messinger.md), Messinger, B. L.: Equilibrium Temperature of an Unheated Icing Surface as a Function of Airspeed. Preprint No. 342, Presented at I.A.S. Meeting, June 27-28, 1951. [semanticscholar.org](https://www.semanticscholar.org/paper/Equilibrium-Temperature-of-an-Unheated-Icing-as-a-Messinger/250270d1126b8462a81cdca144b0dbcf044f7c53)    
 - [Meteorology publications by Porter Perkins]({filename}perkins meteorology.md),  Summary of Statistical Icing Cloud Data Measured Over United States and North Atlantic, Pacific, and Arctic Oceans During Routine Aircraft Operations. NASA Memo 1-19-59E, 1959. [archive.org](https://archive.org/details/nasa_techdoc_19810068860/page/n9/mode/2up)  
 
@@ -260,3 +304,8 @@ This is part of the series [28,000 Miles of Data: The Publications of Dr. Richar
 [^1]: Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
 [^2]: A Recognition and Biography [24-7pressrelease.com](https://www.24-7pressrelease.com/press-release/457378/richard-jeck-presented-with-the-albert-nelson-marquis-lifetime-achievement-award-by-marquis-whos-who)  
 [^3]: Anon., Research and Development Highlights 1997, FAA Airports and Safety R&D Division, ARR-400, William J. Hughes Technical Center [rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/33753/dot_33753_DS2.pdf)  
+
+[^4]: Electronic Aircraft Icing Handbook, circa 2006, [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
+
+
+https://flightsafety.org/fsd/fsd_jun-sep97.pdf  
