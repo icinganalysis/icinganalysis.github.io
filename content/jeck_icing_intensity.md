@@ -273,6 +273,10 @@ to the icing intensity levels, I do not know if this has been accomplished:
 apparent over time as PIREPS accumulate for each
 type of aircraft.
 
+## Related  
+
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+
 ## Notes  
 
 [^1]: Richard K. Jeck: A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions, DOT/FAA/AR-01/91, November 2001, [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA398952.xhtml)  
