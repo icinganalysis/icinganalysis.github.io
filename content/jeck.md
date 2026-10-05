@@ -51,6 +51,9 @@ Readers will be rewarded by the depth of information and variety of topics addre
 
 ## Conclusions of the series on Dr. Richard Jeck [in work]  
 
+<br>
+<br>
+
 ## Previous mentions  
 
 It was essential to note Dr. Jeck's works when reviewing NACA-era works, 
