@@ -174,7 +174,9 @@ A series of instrumentation publications:
 - Jeck, Richard: Cloud Sampling Instruments for Icing Flight Tests: (4) Large Drop Sizers.  US Department of Transportation, Federal Aviation Administration, DOT/FAA/AR-TN06/32, 2006.  [rosap.ntl.bts.gov](ps://rosap.ntl.bts.gov/view/dot/89950)  
 
 Also, the Electronic Aircraft Icing Handbook [^4] has a spreadsheet file "cldpar.xls":  
->"This file contains examples illustrating the computation of MVD and LWC from droplet spectra, and the plotting of these spectra. It was used to generate results presented in cldpar.doc, and contains a macro for computation of MVD."
+>"This file contains examples illustrating the computation of MVD and LWC from droplet spectra, and the plotting of these spectra. It was used to generate results presented in cldpar.doc, and contains a macro for computation of MVD."  
+
+[Dr. Jim Riley is listed on the EAIHB site, so he may have been the author of the spreadsheet.]    
 
 A printed copy of "Rating Icing Exposures in Terms of Intensity" is dated 2017, 
 This is the last technical writing by Dr. Jeck that I know of.  
