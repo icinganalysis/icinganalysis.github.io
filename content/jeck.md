@@ -27,6 +27,30 @@ Here we will review and celebrate some of his numerous technical publications.
 His obituary notes him as "A gifted physicist and innovator" and "he pursued truth with unwavering devotion ... in the precision of science". 
 We will see examples of that in this series.  
 
+## Reviews of Dr. Jeck's works  
+
+Readers will be rewarded by the depth of information and variety of topics addressed by Dr. Jeck:    
+ 
+### "Icing Information Notes"  
+
+> - [_"A Treasure Trove"_]({filename}treasure.md) 
+> - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
+
+### Supercooled Large Drop (SLD) Icing  
+
+> - _"Very limited amounts of data are presently available for variables associated with ZR and ZL conditions aloft."_ [Dr. Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md)  
+
+### Icing Intensity Definitions  
+ 
+> - _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_ [Aircraft Icing Intensities]({filename}jeck_icing_intensity.md)  
+
+### 28,000 Miles of Icing Data  
+
+> - _"a number of advantages and uses of this new, distance-based format"_ [The Supercooled Cloud Database]({filename}scdb.md)  
+> - Using the Supercooled Cloud Database [in work]  
+
+## Conclusions of the series on Dr. Richard Jeck [in work]  
+
 ## Previous mentions  
 
 It was essential to note Dr. Jeck's works when reviewing NACA-era works, 
@@ -70,30 +94,6 @@ Several works by Richard Jeck have already been noted:
   
     * [NACA-TN-1904]({filename}NACA-TN-1904.md)  
     * [Conclusions of the Meteorology of Icing Clouds Thread]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
-
-## Reviews of Dr. Jeck's works  
-
-Readers will be rewarded by the depth of information and variety of topics addressed by Dr. Jeck:    
- 
-### "Icing Information Notes"  
-
-> - [_"A Treasure Trove"_]({filename}treasure.md) 
-> - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
-
-### Supercooled Large Drop (SLD) Icing  
-
-> - _"Very limited amounts of data are presently available for variables associated with ZR and ZL conditions aloft."_ [Dr. Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md)  
-
-### Icing Intensity Definitions  
- 
-> - _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_ [Aircraft Icing Intensities]({filename}jeck_icing_intensity.md)  
-
-### 28,000 Miles of Icing Data  
-
-> - _"a number of advantages and uses of this new, distance-based format"_ [The Supercooled Cloud Database]({filename}scdb.md)  
-> - Using the Supercooled Cloud Database [in work]  
-
-## Conclusions of the series on Dr. Richard Jeck [in work]  
 
 ## Notes  
 
