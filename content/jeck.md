@@ -49,7 +49,7 @@ Readers will be rewarded by the depth of information and variety of topics addre
 > - _"a number of advantages and uses of this new, distance-based format"_ [The Supercooled Cloud Database]({filename}scdb.md)  
 > - Using the Supercooled Cloud Database [in work]  
 
-## Conclusions of the series on Dr. Richard Jeck [in work]  
+## Conclusions of the series on Dr. Richard Jeck _[in work]_  
 
 <br>
 <br>

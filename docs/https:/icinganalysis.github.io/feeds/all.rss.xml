@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Sun, 04 Oct 2026 14:25:21 -0700</lastBuildDate><item><title>leftover</title><link>/leftover.html</link><description>&lt;!--
-How to Properly Use an Icing Forecast
-https://aviationweather.gov/outreach/How%20to%20properly%20use%20an%20Icing%20Forecast.pdf   
-
-SAE International Recommended Practice, Aircraft Inflight Icing Terminology, SAE Standard ARP5624, Reaffirmed April 2013, https://doi.org/10.4271/ARP5624.
-
-2012 note The Revised Icing Intensity Definitions
-
-
-
-An appendix notes some consensus items that were not part of the plan due to various reasons. 
-"PD_R7" to develop an icing environment severity index was one of those:  
-
-&gt; Appendix III  
-Significant Recommendations and Consensus Items
-Not Incorporated into the FAA Inflight Aircraft Icing
-Plan  
-• PD_R7. It is essential that an icing environment severity index be developed as a
-generic scale.  
-The icing ADs that were issued in April 1996 essentially acknowledge two levels of icing
-certification. One level consists of the icing conditions that are defined by the envelopes
-contained in Appendix C. The second level consists of icing conditions that exceed the
-capabilities of the airplane ice protection system. However, the FAA believes that this
-recommendation is for several additional levels of icing severity. Ice detection tools,
-icing simulation tools, and forecasting capabilities do not exist to support the fine
-differentiation of icing conditions that would be required to institute and certificate an
-aircraft for operation under such a system. Therefore, the FAA Inflight Aircraft Icing
-Plan does not incorporate a task to develop such an index. If technological advances
-make such an index possible, the issue should be revisited.  
-
-Some of Dr. Jeck's later proposals attempted to address the severity question.  
-
-DOT/FAA/AR-01/91
-
-An appendix notes some consensus items that were not part of the plan due to various reasons. 
-"PD_R7" to develop an icing environment severity index was one of those:  
-
-&gt; Appendix III  
-Significant Recommendations and Consensus Items
-Not Incorporated into the FAA Inflight Aircraft Icing Plan  
-&gt; 
-&gt;• PD_R7. It is essential that an icing environment severity index be developed as a
-generic scale.  
-&gt; 
-&gt;&gt;The icing ADs that were issued in April 1996 essentially acknowledge two levels of icing
-certification. One level consists of the icing conditions that are defined by the envelopes
-contained in Appendix C. The second level consists of icing conditions that exceed the
-capabilities of the airplane ice protection system. However, the FAA believes that this
-recommendation is for several additional levels of icing severity. Ice detection tools,
-icing simulation tools, and forecasting capabilities do not exist to support the fine
-differentiation of icing conditions that would be required to institute and certificate an
-aircraft for operation under such a system. Therefore, the FAA Inflight Aircraft Icing
-Plan does not incorporate a task to develop such an index. If technological advances
-make such an index possible, the issue should be revisited.  
---&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 04 Oct 2026 14:25:21 -0700</pubDate><guid>tag:None,2026-10-04:/leftover.html</guid><category>misc</category></item><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Mon, 28 Sep 2026 12:17:36 -0700</lastBuildDate><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
 Therefore, it is defined here in a way that is compatible with conventional usage.&lt;/em&gt;  &lt;/p&gt;
@@ -1830,4 +1776,15 @@ before the public sees them, and access to the secret* newsletter archives. Ther
 &lt;p&gt;&lt;em&gt;[* Well, not so secret if one is acquainted with github.]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Typical publishing sequence:  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;email newsletter, subscribers may …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 30 Sep 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-09-30:/the-blast-from-the-past-newsletter.html</guid><category>misc</category><category>about</category><category>newsletter</category></item></channel></rss>
+&lt;li&gt;email newsletter, subscribers may …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 30 Sep 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-09-30:/the-blast-from-the-past-newsletter.html</guid><category>misc</category><category>about</category><category>newsletter</category></item><item><title>Site Improvements</title><link>/site-improvements.html</link><description>&lt;h3&gt;&lt;em&gt;"I am surprised to find that there are so many details which have not been anticipated before ..."&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames".&lt;/em&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mastodon logo, a stylized pachyderm with a letter M." src="images%2Fmastodon_square.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Since I started &lt;a href="/"&gt;"Blast from the Past: NACA Icing Publications"&lt;/a&gt; 
+20 months ago, I have made over 100 posts. 
+I have extensively revised some, and made improvements to all of them, so it is time to repost them. &lt;/p&gt;
+&lt;p&gt;I will be posting links and short summaries to them in the original sequence on mastodon &lt;a href="https://historians.social/@icinganalysis"&gt;historians.social/@icinganalysis&lt;/a&gt; 
+at a rate of three per week (about the pace that I originally posted them), so it will take almost a year to cycle through them. 
+And I do plan on also creating new posts.  &lt;/p&gt;
+&lt;p&gt;If you want to read at you own pace, you can go to the &lt;a href="/archives.html"&gt;Latest Posts&lt;/a&gt; 
+tab at the top of the page for the complete list of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 16 Sep 2023 07:00:00 -0700</pubDate><guid>tag:None,2023-09-16:/site-improvements.html</guid><category>NACA</category><category>about</category></item></channel></rss>
