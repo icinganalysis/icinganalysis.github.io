@@ -34,12 +34,12 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2026-10-04T08:10:42.288656-07:00">
-                Published: Sun 04 October 2026
+        <abbr class="published" title="2026-10-10T10:16:02.385070-07:00">
+                Published: Sat 10 October 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-10-04T08:10:42.288656-07:00">
-                Updated: Sun 04 October 2026
+        <abbr class="modified" title="2026-10-10T10:16:02.385070-07:00">
+                Updated: Sat 10 October 2026
         </abbr>
 <!---->
         <!---->
@@ -60,38 +60,153 @@ were collected into the database. </p>
 <p>Dr. Richard Jeck of the FAA was a major contributor to the database. 
 The data were analyzed in several of Jeck's publications.
 Reviewing the database and Jeck's publications gives us a opportunity to appreciate his decades of work in this field.  </p>
-<p>Jeck used the term "Supercooled Cloud Database", so here we will abbreviate that to SCDB.<br>
-It was also called the "Normal Icing Clouds" database, 
-to distinguish it from the Supercooled Large Drop (SLD) database. 
-For brevity, the SLD database will not be detailed here.  </p>
-<p>I requested a copy of the SCDB from the FAA, 
-and was provided with a copy.  </p>
-<p>An aspect of the database that is not clear is if there have been different versions through the years. 
-When I plotted the points from the database that I received on top of Figure 12 from AR-00/30, 
-some of the points correspond exactly, but many do not. 
-The total calculated miles of database (28,029 nmi), however, match the "28,000 nmi" within rounding. 
-The database has 6742 rows in it, but not every row has "coordinated" values
-(both the DISTANCE and AVGLWC values greater than zero). 
-There are 6519 events with coordinated values in the database.  </p>
-<p><img alt="Figure 12 overlayed.png" src="images/DOT-FAA-AR-00-30/Figure%2012%20overlayed.png"></p>
-<p>For AR-07/4 Figure 20, it notes 3500 layer cloud data points, 
-but the layer-cloud portion of the database that I received had 3285 points. 
-Some of the points do not correspond.  </p>
-<p><img alt="fig20_overlay.png" src="images/FAA-AR-07-4/fig20_overlay.png">  </p>
-<p><img alt="fig22_overlayed.png" src="images/FAA-AR-07-4/fig22_overlayed.png">  </p>
-<p><img alt="figure3a_overlayed.png" src="images/FAA-AR-07-4/figure3a_overlayed.png">  </p>
-<p>ATSC introduces and interesting data analysis. 
-Many of the individual measurements were not terminated because 
-the cloud was exited. 
-Many use prescribed distance or time targets for the measurement. 
-Jeck collected and averaged such sequential measurements and 
-treated them as one measurement.   </p>
+<p>Jeck used the term "Supercooled Cloud Database", so here we will abbreviate that to SCDB.  </p>
+<p>There are a series of important publications:  </p>
+<ul>
+<li>AR0030</li>
+<li>AR0374</li>
+<li>DSWC  </li>
+</ul>
+<p>Concepts:  </p>
+<ul>
+<li>Data miles  </li>
+<li>Natural LWC Probabilities  </li>
+<li>Comparisons to Appendix C  </li>
+</ul>
+<h2>Introduction</h2>
+<blockquote>
+<p>This report shows how to convert the conventional liquid water content (LWC) vs mean effective
+diameter (MED) design envelopes in Appendix C of 14 CFR Part 25 and 14 CFR Part 29 to
+equivalent, but more useful envelopes based on a LWC vs horizontal extent (HE) format.
+A number of potential uses are illustrated for the new format, particularly for comparing icing test
+exposures to the Appendix C envelopes and to natural probabilities of occurrence.</p>
+<p>The LWC vs HE envelopes can also be recast into envelopes for any other LWC-related variable,
+such as icing rate or water catch rate, total water catch, and icing intensity, for example. In addition
+to the Appendix C design envelopes and their derivatives, envelopes are also presented which depict
+naturally occurring probabilities (99.9%, 99%, 95%, 90%, and 50%) of LWC and the dependence
+of these probabilities on median volume diameter (MVD), temperature, altitude, and even on the
+season of the year.  </p>
+<p>These can all serve for comparing icing test exposures from natural icing flights, icing wind tunnels,
+airborne spray tankers, and computer simulations to the design envelopes of Appendix C and to real
+world statistics for naturally occurring icing conditions.  </p>
+<p>The methods illustrated here provide the icing practitioner with straightforward, understandable, and
+meaningful ways to document, compare, and evaluate data on icing conditions. They offer a set of
+working standards for achieving consistency and uniformity among users. Some methods may be
+more useful than others, depending on the application, but a variety are offered, with examples, to
+illustrate the possibilities.  </p>
+<p>The examples also illustrate the use of computerized spreadsheet software for graphing icing
+variables and for conveniently adjusting or converting the Appendix C envelopes to fit particular
+applications. This adds new, modern versatility to the envelopes that is not possible with the
+conventional printed (fixed) version.  </p>
+</blockquote>
+<p>Predecessors
+"Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980<br>
+"A New Data Base of Supercooled Cloud Variables for Altitudes up to 10, 000 Feet AGL (Above Ground Level) and the Implications for Low Altitude Aircraft Icing" 1983
+"A New Characterization of Supercooled Clouds Below 10,000 Feet AGL" 1988</p>
+<p>"Selecting representative test points for icing conditions using the new faa/nrl database" 1989  </p>
+<p>AR07/04</p>
+<blockquote>
+<p>ACKNOWLEDGEMENTS<br>
+The author is greatly indebted to colleague Dr. James T. Riley who helped process much of the
+modern data. Thanks are also due to Ernest Schlatter, former Program Manager for aircraft
+icing, and to Charles Masters, former Branch Manager for flight safety research, for their
+patience and support on this long project.</p>
+</blockquote>
+<p>Some of the same data is replotted in the publications, 
+although with the different plotting software and scales this may not be readily apparent. 
+These are the same data, to my ability to digitize the curves: </p>
+<p><img alt="Figure 23.png" src="images/DOT-FAA-AR-00-30/Figure%2023.png">  </p>
+<p><img alt="Figure D-3.png" src="images/FAA-AR-07-4/Figure%20D-3.png">  </p>
+<p>DSWC Figure 11a also matches (not shown).</p>
+<p>AR07/04 Figure 22 is replotted in DSWC Figure 6 (separated into convective and layer cloud subplots.)</p>
+<p><img alt="Figure 6.png" src="images/Distance%20scaled%20water%20content/Figure%206.png"></p>
 <blockquote>
 <p>The curves depict the cumulative LWC probability for generally longer cloud transects consisting of
 one or more uniform intervals strung together until the
 research airplane leaves the cloud or reverses direction.</p>
 </blockquote>
 <p>[Fig 16 of AR-07/4]</p>
+<h2>Natural LWC Probabilities</h2>
+<p>Dr. Jeck introduces the term "Natural LWC Probabilities" in the context of discussing 
+analysis of flight test data:  </p>
+<blockquote>
+<p>3.2 COMPARING WITH NATURAL LWC PROBABILITIES.  </p>
+<p>One comparison that is not possible with Appendix C is the question of how common, or
+uncommon, was a particular test flight icing encounter? Or, how representative of nature is a
+particular icing wind tunnel exposure or computer simulation? In other words, what is the
+probability of finding such a test exposure in nature?  </p>
+<p>Figure 23 shows a set of LWC probability curves derived from about 23,000 nmi of flight data in
+stratiform icing conditions. Any given curve indicates the probability that randomly encountered,
+stratiform icing conditions will have an average LWC somewhere below the curve. For example,
+the 50% curve means that half of the LWC averages will lie below the curve and half will lie above
+it. The 90% curve means that 90% of all LWC averages can be expected to lie below it, for any
+given averaging distance, or horizontal extent.  </p>
+<p>The sample LWC trace has been plotted on this graph to determine where it lies in the realm of
+probabilities. It is already known from earlier comparisons to the Appendix C envelopes that the
+sample encounter contained LWCs considerably below the maximum that could be expected.
+Figure 23 shows exactly how far below the maximum that is. The encounter seems quite acceptable
+since the cumulative average LWC is greater than the 50% value the entire time. It starts out at
+perhaps the 70% level and gradually drifts down toward an average (50%) encounter as the flight
+proceeds.  </p>
+</blockquote>
+<p><img alt="Figure 23." src="images/DOT-FAA-AR-00-30/Figure%2023.png"></p>
+<p>This data is replotted in later publications, 
+although the different plotting software and scales might not make it readily apparent. 
+These are the same data, to my ability to digitize the curves: </p>
+<p>AR0704 Figure D-3:<br>
+<img alt="Figure D-3." src="images/FAA-AR-07-4/Figure%20D-3.png">  </p>
+<p>DSWC Figure 11a also matches (not shown).  </p>
+<p>A plot of the data is also included in AC 20-73A (2016), Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  </p>
+<p><img alt="Figure M-1." src="images/ac2073a/Figure%20M1.png">  </p>
+<p>A series of figures in DOT/FAA/AR-00/30 filter the data to a limited range of altitudes. 
+Here is the figure for near 15,000 ft.:  </p>
+<p><img alt="Figure 25d." src="images/DOT-FAA-AR-00-30/Figure%2025d.png">  </p>
+<h2>Natural probabilities for all data</h2>
+<p>AR0704 includes a plot made with all 28,000 miles of data.  </p>
+<p><img alt="Figure 22." src="images/FAA-AR-07-4/Figure%2022.png">  </p>
+<p>This is also plotted in DSWC Figure 6, separated into convective and layer cloud subplots, 
+which makes digitizing the curves easier.  </p>
+<p>DSWC also notes about the probability lines:  </p>
+<blockquote>
+<p>These are actually hybrid graphs—the plotted points
+are individual averages over uniform cloud intervals to
+show the basic elements of the database (see the appendix). 
+The curves depict the cumulative LWC probability for generally longer cloud transects consisting of
+one or more uniform intervals strung together until the
+research airplane leaves the cloud or reverses direction.
+This has the effect of reducing the number of data
+points and shifting the overall averages toward the
+lower right in the graph.<br>
+The scatterplots in Figs. 6a and 6b are recommended
+for use by experimentalists who wish to compare their
+LWC measurements to the background of those made
+by many others. (Figures 8, 10, 11, and 12, in terms of
+LWC percentiles, are also good for this purpose.) They
+may be useful for selecting realistic LWCs for atmospheric 
+models in which information on scale effects for
+LWC has been wanting.  </p>
+</blockquote>
+<p>AR-07/04</p>
+<blockquote>
+<p>A.3 DATA MILES AS A MEASURE OF FREQUENCY OF OCCURRENCE.<br>
+During the early phases of this project, it became clear that usage of number of cases or number
+of events, as is conventionally done to represent the frequency of occurrence of any of the
+variables, was unsatisfactory. The deficiency was twofold. First, momentary icing events would
+incorrectly carry just as much statistical weight as long-lasting events. Thus, there was no way
+to emphasize the statistical importance of an extended encounter with an extreme value of LWC,
+for example, compared to a relatively insignificant, brief encounter. Second, the reader would
+have no information as to whether a given number of events represented 5 miles or 500 miles of
+in-flight measurements.<br>
+Data miles were, therefore, chosen as the most informative measure of frequency of occurrence.
+The term is defined as the distance flown (in nautical miles) during an individual icing event.
+This convention automatically weights each icing event (or measurement of LWC, for example)
+by its duration or extent. The other principal advantage is that the reader can easily judge the
+statistical significance of a data set by the number of data miles it represents.</p>
+</blockquote>
+<p>We can compare the characterizations mentioned at probability P=99% 
+(where all three have results lines shown):  </p>
+<p><img alt="comparison_lws_p99" src="images/FAA-AR-07-4/comparison_lws_p99.png">  </p>
+<h2>Strings of data points</h2>
 <h2>Related</h2>
 <p>This is part of the series <a href="/drafts/28000-miles-of-data-the-publications-of-dr-richard-jeck.html">28,000 Miles of Data: The Publications of Dr. Richard Jeck</a>  </p>
 <ul>
@@ -106,6 +221,27 @@ https://ntrs.nasa.gov/citations/19860002276</p>
 <p>Guttman, Nathaniel B., and Richard K. Jeck. "Aircraft icing environment in low ceiling conditions near Washington, DC." Weather and Forecasting 2.2 (1987): 114-126.  <a href="https://doi.org/10.1175/1520-0434(1987)002&lt;0114:AIEILC&gt;2.0.CO;2"></a>  </p>
 </li>
 </ul>
+<p>NB Guttman, RK Jeck, MR Henderson, MD Mueller: The Aircraft Icing Environment in Wintertime, Low Ceiling Conditions. No. NRLMR5650. 1985.
+(a similar title at https://journals.ametsoc.org/view/journals/wefo/2/2/1520-0434_1987_002_0114_aieilc_2_0_co_2.xml)</p>
+<p>"Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA088892.xhtml</p>
+<p>"Selecting representative test points for icing conditions using the new faa/nrl database" 1989 https://doi.org/10.2514/6.1989-719  </p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:7">
+<p>FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. <a href="https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>C. Masters: "A New Characterization of Supercooled Clouds Below 10,000 Feet AGL" DOT/FAA/CT-83/22 1988<br>
+The Preface notes: 
+"The preponderance of this work has been
+performed by Or. Richard K. Jeck of the U.S. Naval Research Laboratory (NRL). The
+author, in the creation of the new criteria, has used these data extensively, and
+has received invaluable assistance from Dr. Jeck in the process."
+https://rosap.ntl.bts.gov/view/dot/92457/dot_92457_DS1.pdf&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
     </div><!-- /.entry-content -->
 
   </article>

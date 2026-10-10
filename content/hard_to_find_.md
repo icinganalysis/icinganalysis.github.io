@@ -42,6 +42,7 @@ Available online at [abbottaerospace.com](https://www.abbottaerospace.com/downlo
 
 ## No Loanable Copies Available  
 
+- Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA088892.xhtml) (link has no pdf file)  
 - Katz, R. E., and Cunningham, R. M.: Aircraft Icing Instruments. Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes - II. Dept. Meteorology, M.I.T., March 1948. (Final Rep. under Air Force Contract No. W-33-038-ac-14165, July 1,. 1945-Dec. 31, 1947.)  
 - Vonnegut, B.: "Instruments for Measuring Atmospheric Factors Related to Ice Formation on Airplanes". De-Icing Res. Lab., Dept. Meteorology, M.I.T., April 1946  
 
