@@ -46,7 +46,7 @@ Readers will be rewarded by the depth of information and variety of topics addre
 
 ### 28,000 Miles of Icing Data  
 
-> - _"a number of advantages and uses of this new, distance-based format"_ [The Supercooled Cloud Database]({filename}scdb.md)  
+> - _"Thanks are also due to ... for their patience and support on this long project."_ [Origins of The Supercooled Cloud Database]({filename}jeck%20building%20the%20database.md)
 > - Using the Supercooled Cloud Database [in work]  
 
 ## Conclusions of the series on Dr. Richard Jeck _[in work]_  
