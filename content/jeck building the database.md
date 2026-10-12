@@ -1,9 +1,10 @@
 status: draft  
 title: Origins of The Supercooled Cloud Database  
 
-![figure12](images/DOT-FAA-AR-00-30/figure12.png)  
+### _"Thanks are also due ... for their patience and support on this long project." [^1]_  
 
-### _"Thanks are also due to ... for their patience and support on this long project." [^1]_  
+![Figure 22.](images/FAA-AR-07-4/Figure%2022.png)  
+_Public Domain image from DOT/FAA/AR-07/4._  
 
 ## Introduction  
 
@@ -20,10 +21,9 @@ The database took at least 14 years to assemble.
 
 ## Early Motivations for the Database  
 
-A portion of the Database already existed before Dr. Jeck started: 
+A significant portion of the database (4,700 nmi out of 28,000) of the Database already existed before Dr. Jeck started: 
 The inflight icing data from the NACA-era. 
-These constitute a significant portion of the database (4,700 nmi out of 28,000), 
-and include the flights with the longest continuous icing exposures. 
+These include the flights with the longest continuous icing exposures. 
 That data was the basis of the current Appendix C icing environment definitions. 
 See [Conclusions of the Meteorology of Icing Clouds Thread.]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
 
@@ -93,9 +93,10 @@ Later publications that utilized the database were:
 >This document does not constitute FAA certification policy. 
 >Consult your local FAA aircraft certification office as to its use.
 
-However, the FAA Advisory Circular AC 20-73A (2006) [^12] referenced the Dr. Jecks publications in three sections:  
+However, the FAA Advisory Circular AC 20-73A (2006) [^12] referenced the Dr. Jecks publications in three sections, 
+and include some of his figures:  
 
-> APPENIDX M. FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES  
+> APPENDIX M. FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES  
 M1. “Icing Design Envelopes (14 CFR-25, 29, Appendix C) Converted to a Distance-Based Format,” Richard K. Jeck, FAA Technical Report DOT/FAA/AR-00/30 (2000),
 FAA William J. Hughes Technical Center, Atlantic City International Airport, NJ 08405.  
 M2. “A New Database of Supercooled Cloud Variables for Altitudes up to 10,000 Feet AGL
@@ -103,12 +104,12 @@ and the Implications for Low Altitude Aircraft Icing,” Richard K. Jeck, FAA Te
 Report DOT/FAA/CT-83/21 (1983), FAA William J. Hughes Technical Center, Atlantic
 City International Airport, NJ 08405.  
 >
->APPENIDX O. WAYS TO EVALUATE ICING EXPOSURES RELATIVE TO APPENDIX C
+>APPENDIX O. WAYS TO EVALUATE ICING EXPOSURES RELATIVE TO APPENDIX C
 >
 >O1. “Icing Design Envelopes (14 CFR-25, 29, Appendix C) Converted to a Distance-Based Format,” Richard K. Jeck, FAA Technical Report DOT/FAA/AR-00/30 (2000),
 FAA William J. Hughes Technical Center, Atlantic City International Airport, NJ 08405.   
 >
->APPENIDX P. USING ICING RATE TO DOCUMENT ICING EXPOSURES  
+>APPENDIX P. USING ICING RATE TO DOCUMENT ICING EXPOSURES  
 P1. “A Workable, Aircraft-Specific Icing Severity Scheme,” R. Jeck, reprint No.
 AIAA-98-0094, 36th Aerospace Sciences Meeting (1998), American Institute of
 Aeronautics and Astronautics, Reston, Va. 20191-4344.
@@ -153,13 +154,15 @@ variables and for conveniently adjusting or converting the Appendix C envelopes 
 applications. This adds new, modern versatility to the envelopes that is not possible with the
 conventional printed (fixed) version.  
 
+An example of the calculated natural probabilities are the lines on Figure 22, shown at the top of this post.  
+
 He acknowledged support for "this long project" (27+ years at that time):  
 
 > ACKNOWLEDGEMENTS  
 The author is greatly indebted to colleague Dr. James T. Riley who helped process much of the
 modern data. Thanks are also due to Ernest Schlatter, former Program Manager for aircraft
 icing, and to Charles Masters, former Branch Manager for flight safety research, for their
-patience and support on this long project.
+patience and support on this long project.  
 
 ## Related  
 
