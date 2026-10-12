@@ -7,6 +7,15 @@ tags: Dr. Jeck, Appendix C
 ![Figure 23.](images/DOT-FAA-AR-00-30/Figure%2023.png)  
 _Public Domain figure from DOT/FAA/AR-00/30._  
 
+## Introduction  
+
+A 28,000 nmi database is large enough to calculate 
+meaningful probabilities, which Dr. Jeck termed Natural Probabilities.  
+
+He also used the data to make the remarkable proposal of replacing the figures in Appendix C 
+with distance and probability based ones. 
+While this has not yet been adopted, some of his proposals have been adopted as supplements.  
+
 ## Natural LWC Probabilities  
 
 Dr. Jeck introduces the term "Natural LWC Probabilities" in the context of discussing 
@@ -43,7 +52,7 @@ These are the same data, to my ability to digitize the curves:
 DOT/FAA/AR-07/04 Figure D-3:  
 ![Figure D-3.](images/FAA-AR-07-4/Figure%20D-3.png)  
 
-DSWC Figure 11a also matches (not shown).  
+"Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds" [^3] Figure 11a also matches (not shown).  
 
 A plot of the data is also included in AC 20-73A (2016), Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  
 
@@ -60,8 +69,8 @@ DOT/FAA/AR-07/04 includes a plot made with all 28,000 miles of data.
 
 ![Figure 22.](images/FAA-AR-07-4/Figure%2022.png)  
 
-This is also plotted in "Distance-Scaled Water Concentrations versus Mass-Median Drop Size" [^3] Figure 6, separated into convective and layer cloud subplots, 
-which makes digitizing the curves easier.  
+This is also plotted in "Distance-Scaled Water Concentrations versus Mass-Median Drop Size" [^3] Figure 6, 
+separated into convective and layer cloud subplots, which makes digitizing the curves easier.  
 
 We can compare the characterizations mentioned at probability P=99% 
 (where all three have results lines shown):  
@@ -135,8 +144,19 @@ test flights in natural icing conditions.
 and maximum expected icing conditions as a function of altitude and temperature aloft,
 by season of the year.  
 
+>3.1.2 Recommendation for Consideration.  
+As a result of these differences, refinements to the [Appendix C] figure 1 (or figure 24) LWC envelopes are
+proposed in figure 25. These new curves are more realistic and their adoption would update the
+current design criteria in Appendix C. The old figures may not be seriously flawed, but they are
+overconservative in some details and underconservative in others.  
+> 
+> ![Figure 25.](images/FAA-AR-07-4/Figure%2025.png)  
+> 
+> 
+> ![Figure 28.](images/FAA-AR-07-4/Figure%2028.png)  
+
 While the proposal to replace the Appendix C figures has not yet been adopted, 
-several of Jeck's points have been adopted into AC 20-73A as supplements, as we saw in 
+several others have been adopted into AC 20-73A as supplements, as we saw in 
 [Origins of The Supercooled Cloud Database](jeck%20building%20the%20database.md):  
 
 >APPENDIX M. FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES  
@@ -174,6 +194,38 @@ stratiform clouds, and are where LWCs can be the largest and last the longest.
 > 
 > ![Figure 15.](images/FAA-AR-07-4/Figure%2015.png)  
 
+## Potential bias in the Database  
+
+The Natural Probabilities tacitly assume ramdom observations of the data points. 
+Dr. Jeck addressed some sources of bias.  
+
+>2.4 AIR TEMPERATURE.  
+The frequency of occurrence of various icing event temperatures4 is given in figures 18 and 19.
+The air temperatures recorded in the database are most frequently in the range of about -5° to
+-15°C. The lowest temperature for any event in the database is about -39°C for both convective
+clouds and layer clouds.  
+> 
+> ![Figure 18.](images/FAA-AR-07-4/Figure%2018.png)  
+> 
+> To some extent, the frequencies of occurrence seen among the various variables in the database do
+not represent the natural frequencies of occurrence that would result from truly random samples in
+the atmosphere. There are some sampling biases such as described here for the temperature data.
+Figures 18 and 19 show that a majority of the samples occurred at temperatures in the vicinity of
+-10°C. This result is partly due to the popularity of the -10°C flight level among researchers in
+cloud seeding (weather modification) experiments. About 35% or more of the modern data came
+from cloud seeding projects.  
+Figures 18 and 19 also show that only about 10% of the samples occurred at ambient air
+temperatures above -3°C and 10% below -20°C. The shortage of data at temperatures between -3°
+and 0°C is due to the intentional avoidance of this temperature regime by both the modern and the
+NACA flights. The NACA researchers required lower temperatures to avoid runoff or shedding of
+ice from their rotating cylinder devices. The low frequency of measurements at temperatures
+below -20°C is due to the difficulty in finding clouds that have not already glaciated at those
+temperatures. Clouds that are composed entirely of snow or ice crystals (i.e., no supercooled
+droplets) are not considered here. Reference 10 describes 7000 nmi of measurements obtained
+separately for characterizing these snow and ice crystal clouds.  
+ 
+I have not found attempts to further address potential bias in his other works.  
+
 ## Related  
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
@@ -182,5 +234,5 @@ This is part of the series [28,000 Miles of Data: The Publications of Dr. Richar
 
 [^1]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
 [^2]: Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
-[^3]: Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml  
+[^3]: Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml)  
 

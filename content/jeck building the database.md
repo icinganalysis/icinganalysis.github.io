@@ -10,7 +10,7 @@ _Public Domain image from DOT/FAA/AR-07/4._
 
 There are 28000 nmi of measured natural icing flight test data in the database, 
 with over 6000 individual measurements. 
-Data from more than two dozen organizations for flights between 1952 and 1988 
+Data from more than two dozen organizations for flights between 1946 and 1988 (42 years) 
 were collected into the database. 
 
 Dr. Richard Jeck of the FAA was the lead in assembling the database. 
@@ -164,12 +164,18 @@ modern data. Thanks are also due to Ernest Schlatter, former Program Manager for
 icing, and to Charles Masters, former Branch Manager for flight safety research, for their
 patience and support on this long project.  
 
+## Conclusions  
+
+I think that spending decades assembling the Database and then the ground-breaking, detailed analysis (27+ years) 
+qualify as the "unwavering devotion" noted in Dr. Jeck's obituary [^13].  
+
 ## Related  
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
 
-## Notes  
+Natural Probabilities are discussed further in the post [Natural Probabilities]({filename}jeck%20natural%20probabilities.md).  
 
+## Notes  
 
 [^1]: Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
 [^2]: Richard Jeck: "A new characterization of the icing environment below 10,000 feet AGL from 7,000 miles of measurements in supercooled clouds". 1985 
@@ -190,7 +196,8 @@ This is why I included it in Dr. Jeck's works.
 [^8]: Richard Jeck: "Selecting representative test points for icing conditions using the new faa/nrl database" AIAA-89-719 1989 [doi.org](https://doi.org/10.2514/6.1989-719)  
 [^9]: Richard Jeck: "Other ways to characterize the icing atmosphere"  January 1994 AIAA-94-482 [doi.org](https://doi.org/10.2514/6.1994-482)  
 [^10]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
-[^11]: Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml  
+[^11]: Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml)  
 [^12]:
 FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
+[^13]: Obituary [loudounfuneralchapel.com](https://www.loudounfuneralchapel.com/obituaries/richard-jeck/obituary)  
 
