@@ -167,7 +167,7 @@ patience and support on this long project.
 ## Conclusions  
 
 I think that spending decades assembling the Database and then the ground-breaking, detailed analysis (27+ years) 
-qualify as the "unwavering devotion" noted in Dr. Jeck's obituary [^13].  
+qualify as "unwavering devotion ... in the precision of science" noted in Dr. Jeck's obituary [^13].  
 
 ## Related  
 

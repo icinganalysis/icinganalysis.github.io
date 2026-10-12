@@ -54,7 +54,7 @@ DOT/FAA/AR-07/04 Figure D-3:
 
 "Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds" [^3] Figure 11a also matches (not shown).  
 
-A plot of the data is also included in AC 20-73A (2016), Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  
+A plot of the data is also included in AC 20-73A (2016) [^4], Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  
 
 ![Figure M-1.](images/ac2073a/Figure%20M1.png)  
 
@@ -155,6 +155,14 @@ overconservative in some details and underconservative in others.
 > 
 > ![Figure 28.](images/FAA-AR-07-4/Figure%2028.png)  
 
+I found 15 citations for DOT/FAA/AR-07/04, 
+but I did not find one that mentioned the proposed new Appendix C figures. 
+Some were in languages that I cannot read, 
+but none of the figures implied the use of Dr. Jeck's proposed figures to me. 
+The closest that I found was this:  
+![Figure 8.](images/ATCA/Figure%208.png)  
+_From [^5]._  
+
 While the proposal to replace the Appendix C figures has not yet been adopted, 
 several others have been adopted into AC 20-73A as supplements, as we saw in 
 [Origins of The Supercooled Cloud Database](jeck%20building%20the%20database.md):  
@@ -226,13 +234,22 @@ separately for characterizing these snow and ice crystal clouds.
  
 I have not found attempts to further address potential bias in his other works.  
 
+However, the ACTA report [^5] has a figure similar to Figure 18, 
+that may support that encounters in the range -10C to -5C are naturally more common.
+Perhaps the test plan sought out those temperatures, I cannot read the text to assess this. 
+Nonetheless, the influence of Dr. Jeck is quite evident.  
+![Figure 7.png](images/ATCA/Figure%207.png)  
+_From [^5]._  
+
 ## Related  
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
-
+ 
 ## Notes  
 
 [^1]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
 [^2]: Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
 [^3]: Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml)  
-
+[^4]:
+FAA Advisory Circular AC No. 20-73A: Aircraft Ice Protection. August 16, 2006. [faa.gov](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22031)  
+[^5]: 闫文辉, et al. "基于飞机探测的陕西及周边地区结冰云层微物理特征分析." ACTA AERODYNAMICA SINICA (2024). [sciengine.com](https://www.sciengine.com/parse/pdf/0258-1825/16C2B4454B3B48A8AA99873520E4C7C6.pdf)  
