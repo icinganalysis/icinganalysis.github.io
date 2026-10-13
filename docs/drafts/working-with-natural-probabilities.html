@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Working with Natural Probabilities</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/https://icinganalysis.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Blast from the Past: NACA Icing Publications RSS Feed" />
+<!--
+-->
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="description" content=""A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence." Public Domain..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                        <h1><a href="/">Blast from the Past: NACA Icing Publications</a></h1>
+                        <nav><ul>
+                            <li><a href="/index.html">Welcome</a></li>
+                            <li><a href="/site-navigation-and-suggested-reading-order.html">Suggested Reading Order</a></li>
+                            <li><a href="/archives.html">Latest Posts</a></li>
+                            <li><a href="/the-basics.html">The Basics</a></li>
+                            <li><a href="/about.html">About</a></li>
+                        </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/drafts/working-with-natural-probabilities.html" rel="bookmark"
+           title="Permalink to Working with Natural Probabilities">Working with Natural Probabilities</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-10-13T14:21:04.131000-07:00">
+                Published: Tue 13 October 2026
+        </abbr>
+		<br />
+        <abbr class="modified" title="2026-10-13T14:21:04.131000-07:00">
+                Updated: Tue 13 October 2026
+        </abbr>
+<!---->
+        <!---->
+        <!--<address class="vcard author">-->
+                <!--By -->
+                        <!--<a class="url fn" href="/author/donald-cook.html">Donald Cook</a>-->
+                <!---->
+        <!--</address>-->
+        <!---->
+<!--<p>In <a href="/category/misc.html">misc</a>.</p>-->
+
+</footer><!-- /.post-info -->      <h3><em>"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."</em></h3>
+<p><img alt="Figure 23." src="images/DOT-FAA-AR-00-30/Figure%2023.png"><br>
+<em>Public Domain image from DOT/FAA/AR-00/30. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></em>  </p>
+<h2>Introduction</h2>
+<p>In DOT/FAA/AR-00/30 <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup> Dr. Jeck wrote of Figure 23:   </p>
+<blockquote>
+<p>3.2 COMPARING WITH NATURAL LWC PROBABILITIES.<br>
+...<br>
+Figure 23 shows a set of LWC probability curves derived from about 23,000 nmi of flight data in
+stratiform icing conditions. Any given curve indicates the probability that randomly encountered,
+stratiform icing conditions will have an average LWC somewhere below the curve. For example,
+the 50% curve means that half of the LWC averages will lie below the curve and half will lie above
+it. The 90% curve means that 90% of all LWC averages can be expected to lie below it, for any
+given averaging distance, or horizontal extent.  </p>
+<p>The sample LWC trace has been plotted on this graph to determine where it lies in the realm of
+probabilities. It is already known from earlier comparisons to the Appendix C envelopes that the
+sample encounter contained LWCs considerably below the maximum that could be expected.
+Figure 23 shows exactly how far below the maximum that is. The encounter seems quite acceptable
+since the cumulative average LWC is greater than the 50% value the entire time. It starts out at
+perhaps the 70% level and gradually drifts down toward an average (50%) encounter as the flight
+proceeds.  </p>
+</blockquote>
+<p>Here, will develop means to calculate probabilities for conditions in layer clouds.  </p>
+<h2>The Weibull distribution</h2>
+<p>Dr. Jeck in DOT/FAA/AR-07/04 <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> and 
+"Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds" <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> 
+describes how the Weibull distribution <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> was used to fit the distance-averaged LWC data to averaging distance. 
+This determined the probability lines on figures such as Figure 23 above.  </p>
+<p>The Weibull distribution can also be used to interpolate within the figure. 
+The values at the distance lines of Figure 23 were digitized. 
+This allows determining the LWC values at the probability values at a given distance. 
+The Weibull distribution is fit with those local values. 
+Thus, the probability of an arbitrary LWC at that distance can be found, 
+or an LWC values at an arbitrary probability. 
+Extrapolation to higher probabilities is a common use of the Weibull distribution, 
+to estimate values for higher probabilities than the range of data.  </p>
+<p>The Python programming language with the scypi.stats.weibull_min function was used for the Weibull fits.<br>
+This allows automating the Weibull fit process at a given distance.  </p>
+<h2>An illustration of the method</h2>
+<p>I selected a test point from the layer cloud portion of the Database, 
+Original row 1611, Project NorthSea: 1984. This has a distance of 9.6 nmi, and an LWC value of 1.12. 
+We will calculate the probability.  </p>
+<p>LWC values for the 9.6 nmi distance are interpolated from the probability curves, and a Weibull fit calculated. 
+The probability of the selected point is then readily calculated.  </p>
+<p><img alt="Weibull Fit Details and Analysis of an Example Point." src="images/jeck%20weibull%20fits/Weibull%20Fit%20Details%20and%20Analysis%20of%20an%20Example%20Point.png">  </p>
+<p>The selected point can be illustrated with the probability lines: <br>
+<img alt="Natural Probabilities from Figure 23 with example." src="images/jeck%20weibull%20fits/Natural%20Probabilities%20from%20Figure%2023%20with%20example.png">  </p>
+<p>LWC values for a given probability are also readily calculated. 
+Here, we will add a 99.99% calculated line:<br>
+<img alt="Figure 23 add 99.99%." src="images/jeck%20weibull%20fits/Figure%2023%20add%209999.png">  </p>
+<h2>Related</h2>
+<p>This is part of the series <a href="/drafts/28000-miles-of-data-the-publications-of-dr-richard-jeck.html">28,000 Miles of Data: The Publications of Dr. Richard Jeck</a>  </p>
+<h2>Notes</h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. <a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml">ntrl.ntis.gov</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. <a href="https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf">web.archive.org</a>  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Jeck, R. K., 2008: Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds. J. Atmos. Sci., 65, 2087–2106, <a href="https://journals.ametsoc.org/view/journals/atsc/65/7/2007jas2522.1.xml">journals.ametsoc.org</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>The Weibull Distribution <a href="https://en.wikipedia.org/wiki/Weibull_distribution">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://github.com/icinganalysis/icinganalysis.github.io">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/donald-cook-96204316a/">linkedin</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mail.png'); background-size: 16px 16px;"href="mailto:icinganalysis@proton.me">email</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/mastodon_square.png'); background-size: 16px 16px;" href="https://historians.social/@icinganalysis">mastodon</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/rss.png'); background-size: 16px 16px;" href="https://icinganalysis.com/feeds/all.rss.xml">rss</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/news.png'); background-size: 16px 16px;" href="https://stats.sender.net/forms/dygqRa/view">Subscribe to the Newsletter</a></li>
+                            <li><a style="background-image: url('/theme/images/icons/search_icon.png'); background-size: 16px 16px;" href="https://duckduckgo.com/?t=ffab&q=icinganalysis.com%3A&ia=web">Search (via DDG)</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Opinions are those of the author, and not any current or former employers.  <br />
+                        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0
+  <img src='/theme/images/icons/by-nc-sa.png'; width="81";  height="30"; alt="CC-BY-NC-SA 4.0" />
+</a> by <a  href=/donald-cook.html>Donald Cook</a>
+
+                </address><!-- /#about -->
+                <a rel="me" href="https://mstdn.social/@icinganalysis"> </a>
+                <a rel="me" href="https://historians.social/@icinganalysis"></a>
+
+        </footer><!-- /#contentinfo -->
+<link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+</body>
+</html>

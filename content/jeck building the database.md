@@ -15,7 +15,7 @@ were collected into the database.
 
 Dr. Richard Jeck of the FAA was the lead in assembling the database. 
  
-Jeck used the term "Supercooled Cloud Database", so here we will abbreviate that to Database or SCDB.  
+Dr. Jeck used the term "Supercooled Cloud Database", so here we will abbreviate that to Database or SCDB.  
 
 The database took at least 14 years to assemble. 
 
@@ -23,7 +23,6 @@ The database took at least 14 years to assemble.
 
 A significant portion of the database (4,700 nmi out of 28,000) of the Database already existed before Dr. Jeck started: 
 The inflight icing data from the NACA-era. 
-These include the flights with the longest continuous icing exposures. 
 That data was the basis of the current Appendix C icing environment definitions. 
 See [Conclusions of the Meteorology of Icing Clouds Thread.]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
 
@@ -77,6 +76,14 @@ It is in the spirit of exploring alternate ways of describing icing conditions,
 and attempting to overcome some of these limiting features, that this paper is presented.
 This paper is therefore for the purpose of information exchange only,
 and to relate some of the insight that has been gained by exploring alternate approaches.  
+
+Few noticed, or at least few cited this work (although Dr. Jeck would cite it in his later publications). 
+I found only one citation at [scholar.google.com](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UteF4jQAAAAJ&cstart=20&pagesize=80&citation_for_view=UteF4jQAAAAJ:M3ejUd6NZC8C). 
+It was ["Contributions to Image Transmission in Icing Conditions on Unmanned Aerial Vehicles"](https://www.mdpi.com/2504-446X/7/9/571/pdf) 
+in 2023, 29 years [!] after the publication of "Other Ways ...", and only briefly mentions it. 
+I view this as under-appreciated for the announcement of a great technical achievement.  
+
+Fortunately, Dr. Jeck's later works on this topic have gotten (and still get) noticed.  
 
 ## Detailed analysis using the Database  
 

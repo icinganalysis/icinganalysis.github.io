@@ -72,10 +72,13 @@ DOT/FAA/AR-07/04 includes a plot made with all 28,000 miles of data.
 This is also plotted in "Distance-Scaled Water Concentrations versus Mass-Median Drop Size" [^3] Figure 6, 
 separated into convective and layer cloud subplots, which makes digitizing the curves easier.  
 
+<!--
 We can compare the characterizations mentioned at probability P=99% 
 (where all three have results lines shown):  
 
 ![comparison_lws_p99](images/FAA-AR-07-4/comparison_lws_p99.png)  
+
+-->
 
 ## Data miles and Natural Probabilities  
 
@@ -237,7 +240,6 @@ I have not found attempts to further address potential bias in his other works.
 However, the ACTA report [^5] has a figure similar to Figure 18, 
 that may support that encounters in the range -10C to -5C are naturally more common.
 Perhaps the test plan sought out those temperatures, I cannot read the text to assess this. 
-Nonetheless, the influence of Dr. Jeck is quite evident.  
 ![Figure 7.png](images/ATCA/Figure%207.png)  
 _From [^5]._  
 
