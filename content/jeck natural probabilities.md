@@ -1,6 +1,7 @@
 status: draft  
 title: Natural Probabilities    
-tags: Dr. Jeck, Appendix C  
+Date: 2026-09-20 12:00
+tags: Dr. Jeck, Appendix C, Probability
 
 ### _"what is the probability of finding such a test exposure in nature?"_  
 

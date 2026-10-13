@@ -13,14 +13,14 @@ Dr. Richard Jeck [^1], retired from the FAA, passed away in January 2026 [^2].
 Dr. Jeck had over 60 publications in the area of aircraft icing [^3]. 
 Many of them have been cited numerous times, and are currently cited in 2026.  
 
-I knew Dr. Richard Jeck professionally through industry organizations (AIAA, SAE) and meetings with the FAA.  
+I knew Dr. Jeck professionally through industry organizations (AIAA, SAE) and meetings with the FAA.  
 
 I had the opportunity to have a drink with him one evening circa 1993 at an AIAA meeting. 
 He was generous with his time to a junior engineer.  
 
 He was uniquely gifted in translating meteorological data into terms that could be understood and used 
 by the diverse communities within aircraft icing
-(meteorologists, researchers, regulators, industry, pilot, academia, and others).  
+(meteorologists, researchers, regulators, industry, pilots, academia, and others).  
 
 Here we will review and celebrate some of his numerous technical publications.  
 
@@ -33,7 +33,7 @@ Readers will be rewarded by the depth of information and variety of topics addre
  
 ### "Icing Information Notes"  
 
-> - [_"A Treasure Trove"_]({filename}treasure.md) 
+> - [_"A Treasure Trove"_]({filename}treasure.md)  
 > - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
 
 ### Supercooled Large Drop (SLD) Icing  
@@ -46,9 +46,10 @@ Readers will be rewarded by the depth of information and variety of topics addre
 
 ### 28,000 Miles of Icing Data  
 
-> - _"Thanks are also due ... for their patience and support on this long project."_ [Origins of The Supercooled Cloud Database]({filename}jeck%20building%20the%20database.md)
+> - _"Thanks are also due ... for their patience and support on this long project."_ [Origins of The Supercooled Cloud Database]({filename}jeck%20building%20the%20database.md)  
 > - _"what is the probability of finding such a test exposure in nature?"_ [Natural Probabilities]({filename}jeck%20natural%20probabilities.md)  
-> - Using the Supercooled Cloud Database [in work]  
+> - _"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."_  [Working with Natural Probabilities]({filename}Jeck%20working%20with%20natural%20probabilities.md)  
+> - Using the Supercooled Cloud Database _[in work]_  
 
 ## Conclusions of the series on Dr. Richard Jeck _[in work]_  
 

@@ -1,5 +1,7 @@
 status: draft  
 title: Origins of The Supercooled Cloud Database  
+Date: 2026-09-20 12:00
+tags: Dr. Jeck, Appendix C, Probability
 
 ### _"Thanks are also due ... for their patience and support on this long project." [^1]_  
 

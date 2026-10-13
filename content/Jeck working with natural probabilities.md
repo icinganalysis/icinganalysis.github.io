@@ -1,5 +1,7 @@
 status: draft  
 title: Working with Natural Probabilities  
+Date: 2026-09-20 12:00
+tags: Dr. Jeck, Appendix C, Probability
 
 ### _"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."_  
 
@@ -27,7 +29,7 @@ since the cumulative average LWC is greater than the 50% value the entire time. 
 perhaps the 70% level and gradually drifts down toward an average (50%) encounter as the flight
 proceeds.  
 
-Here, will develop means to calculate probabilities for conditions in layer clouds.  
+Here, we will develop means to calculate probabilities for conditions in layer clouds.  
 
 ## The Weibull distribution  
 
@@ -63,7 +65,7 @@ The selected point can be illustrated with the probability lines:
 ![Natural Probabilities from Figure 23 with example.](images/jeck%20weibull%20fits/Natural%20Probabilities%20from%20Figure%2023%20with%20example.png)  
 
 LWC values for a given probability are also readily calculated. 
-Here, we will add a 99.99% calculated line:  
+Here, we will add a P=99.99% calculated line:  
 ![Figure 23 add 99.99%.](images/jeck%20weibull%20fits/Figure%2023%20add%209999.png)  
 
 ## Related  
