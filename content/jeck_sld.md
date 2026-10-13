@@ -40,15 +40,11 @@ _Public Domain._
 
 ## Assembling a SLD Database  
 
-Jeck would assemble a Supercooled Large Drop Database in several steps.
-
+Jeck would assemble a Supercooled Large Drop Database in several steps. 
 Dr. Jeck had already gathered much measured inflight icing data. 
-See ["28,000 Miles of Data: The Supercooled Cloud Database"] for a chronology. 
+See [Origins of The Supercooled Cloud Database]({filename}jeck%20building%20the%20database.md) for a chronology. 
 This gave him valuable contacts, experience in negotiating with diverse organizations, 
 and a format for the database.  
-
-The flight tests that would contribute to the later SCDB were already complete
-(the latest test was in 1988), but the database apparently was not yet completely assembled.  
 
 By 1996, Jeck had assembled data from several research organizations [^6], 
 and had preliminary findings:  
@@ -135,7 +131,7 @@ illustrates the numerous logistic challenges to conducting research icing flight
 by multiple organizations, 
 in then little-known, potentially hazardous flight conditions, and then assembling them 
 into a unified database from which meaningful conclusions could be drawn.  
-
+ 
 ## Related  
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md).  
