@@ -72,6 +72,8 @@ Here, we will add a P=99.99% calculated line:
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
 
+The program to calculate the Weibull fits is at [calc_dist_lwc_probability.py](images/jeck%20weibull%20fits/calc_dist_lwc_probability.py)
+
 ## Notes  
 
 [^1]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
