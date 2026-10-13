@@ -246,6 +246,8 @@ _From [^5]._
 ## Related  
 
 This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+
+Methods for working with Natural Probabilities are discussed in [Working with Natural Probabilities]({filename}Jeck%20working%20with%20natural%20probabilities.md).  
  
 ## Notes  
 
