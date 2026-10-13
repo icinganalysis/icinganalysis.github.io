@@ -1,7 +1,7 @@
 status: draft  
 title: 28,000 Miles of Data: The Publications of Dr. Richard Jeck    
 Date: 2026-09-20 12:00
-tags: Dr. Jeck, Appendix C
+tags: Dr. Jeck, Appendix C, SLD, Probability
 
 ### _"a number of advantages and uses of this new, distance-based format"_  
  
