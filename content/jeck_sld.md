@@ -138,7 +138,7 @@ into a unified database from which meaningful conclusions could be drawn.
 
 ## Related  
 
-This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md).  
 
 ## Notes  
 

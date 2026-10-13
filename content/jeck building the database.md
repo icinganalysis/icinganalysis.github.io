@@ -180,7 +180,7 @@ qualify as "unwavering devotion ... in the precision of science" noted in Dr. Je
 
 ## Related  
 
-This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md).  
 
 Natural Probabilities are discussed further in the post [Natural Probabilities]({filename}jeck%20natural%20probabilities.md).  
 

@@ -70,7 +70,7 @@ Here, we will add a P=99.99% calculated line:
 
 ## Related  
 
-This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md)  
+This is part of the series [28,000 Miles of Data: The Publications of Dr. Richard Jeck]({filename}jeck.md).  
 
 The program to calculate the Weibull fits is at [calc_dist_lwc_probability.py](images/jeck%20weibull%20fits/calc_dist_lwc_probability.py)
 
