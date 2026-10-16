@@ -33,7 +33,7 @@ A biography [^2] explains:
 >
 > In response, Dr. Jeck wrote more Icing Information Notes on other icing-related topics until there are now dozens of them designed to provide icing practitioners with ready references on the fundamentals. They were prepared in response to requests from the field, or to clarify known areas of confusion in the interpretation and application of icing data and the technical literature. There is even one Icing Information Note that explains the difference between the Russian and Western versions of Appendix C.  
 
-Since circa 1997 the notes were available upon request. 
+Starting circa 1997 the notes were available upon request. 
 Readers have confirmed that they received Notes from Dr. Jeck. 
 An FAA document [^4] summarizes some of the Notes:  
 
@@ -51,40 +51,25 @@ notes available at this time are described
 below.  
 > 
 > “Looking for Large MVD’s?”  
-Tells
-what to look for and what to expect when
-searching for icing clouds with droplet
-MVD’s in the range of 30 to 50 microns
-during test flights.  
+Tells what to look for and what to expect when searching for icing clouds with droplet
+MVD’s in the range of 30 to 50 microns during test flights.  
 > 
 > “Terminology for Droplet Size Measurements”  
-> here are often
-questions, errors, or confusion about
-droplet size measurements, computations,
-and terminology. Topics include: Cloud
-Droplet Basics, Water Content of Clouds,
-Engineering Significance of Droplet Sizes,
-Substitutes for Dropsize Distributions
-(Mean or Average Diameter, Median-
-Volume Diameter (MVD), Mean-Volume
-Diameter, and Mean Effective Diameter),
-and Cautions in Reading Icing Literature
-and Interpreting Dropsize Tables.  
+here are often questions, errors, or confusion about droplet size measurements, computations,
+and terminology. Topics include:  
+Cloud Droplet Basics,  
+Water Content of Clouds,  
+Engineering Significance of Droplet Sizes,  
+Substitutes for Dropsize Distributions (Mean or Average Diameter, Median-Volume Diameter (MVD), Mean-Volume Diameter, and Mean Effective Diameter),  
+and Cautions in Reading Icing Literature and Interpreting Dropsize Tables.  
 > 
 >“Answers to Questions about Low-Level Icing Conditions”  
-> Answers the questions
-“Are low-level icing conditions above a
-high-elevation airport any different from
-low-level icing conditions near sea level?”
-and “Is the Continuous Maximum
-Envelope (Fig. 1 of FAR 25, Appendix C)
-really valid all the way down to ground
+Answers the questions “Are low-level icing conditions above a high-elevation airport any different from low-level icing conditions near sea level?”
+and “Is the Continuous Maximum Envelope (Fig. 1 of FAR 25, Appendix C) really valid all the way down to ground
 level or sea level?”  
 > 
 >“Legitimate (and Illegitimate!) Uses of the LWC Adjustment Curves in Appendix C of FARs 25 and 29” 
-> There are often questions, errors, or confusion
-about the legitimate use of the LWC
-adjustment (F-factor) curves in Appendix
+There are often questions, errors, or confusion about the legitimate use of the LWC adjustment (F-factor) curves in Appendix
 C. Topics include:  
 > Proper Use of the F-factor Curves;  
 > Converting Available LWC Averages to Equivalent Values Over 17.4 nmi or 2.6 nmi;  
@@ -92,27 +77,19 @@ C. Topics include:
 > and Acceptable Methods for Documenting, Comparing, and Extrapolating Test Exposures.  
 > 
 > “Method for Computing Condensable Water due to Expansion (Suction) Cooling in Turbine Engine Air Inlets”  
-When air is drawn into turbine engine
-inlets during low-speed (ground)
-operations, the air can be cooled by as
-much as 15oF (8oC) due to the air pressure
-drop inside the inlet. If the outside air is
-moist and the temperature drops below its
-dew point during ingestion, then moisture
-(and possibly ice) will condense in the
-inlet. This note describes a method for
-computing the mass (grams) of
-condensable water per unit mass
+When air is drawn into turbine engine inlets during low-speed (ground)
+operations, the air can be cooled by as much as 15oF (8oC) due to the air pressure drop inside the inlet. 
+If the outside air is moist and the temperature drops below its dew point during ingestion, then moisture
+(and possibly ice) will condense in the inlet. 
+This note describes a method for computing the mass (grams) of condensable water per unit mass
 (kilograms) of ingested outside air.  
 > 
 >“Summary of Some Current Practices in Selecting Design Values from the Icing Envelopes in Appendix C of FARs 25 and 29”  
-> Questions arise periodically
-on the significance, proper usage, and
-interpretation of horizontal extent of icing
-conditions represented by the design
-envelopes in Appendix C of FARs 25 and 29.  
-> Topics include: Selecting Exposure Distances,  
-> Selecting Values of MVD, and
+Questions arise periodically on the significance, proper usage, and interpretation of horizontal extent of icing
+conditions represented by the design envelopes in Appendix C of FARs 25 and 29.  
+Topics include:  
+Selecting Exposure Distances,  
+Selecting Values of MVD, and  
 Special Considerations.  
 > 
 >Dr. Richard Jeck, AAR-421, (609)
@@ -188,6 +165,15 @@ I have found the Notes to be technically sound.
 I have to get "picky" to find a small error in ["New Replacement Figures for 14 CFR-25,29, Appendix C"]({filename}app_c_figures.md) 
 (and the formal publication AR-07/4 Appendix F did not catch the small error).  
 
+## A proposed SAE Aerospace Information Report (AIR)  
+
+Dr. Jeck proposed, circa 2018, that the SAE AC9C Aircraft Icing Technology Committee would be interested in publishing the Notes. 
+I reviewed the Notes as part of the committee work. 
+It gave me an excellent opportunity to become more familiar with Dr. Jeck's work. 
+
+The committee elected not to pursue publishing them at the time, due to committee work load, 
+and that some of the material was covered in Dr. Jeck's published works.  
+
 ### Notes as drafts of later works  
 
 | Note Title                                                                                                                                                | Later Publication                                                                                                              |
@@ -201,18 +187,10 @@ I have to get "picky" to find a small error in ["New Replacement Figures for 14 
 | Answers to Questions Regarding Low Level Icing Conditions (1996)                                                                                          | AR-07/4 Figure 44                                                                                                              |  
 | PROPOSAL FOR CHANGING the ICING INTENSITY DEFINITIONS   | AIAA-98-0094  |  
 
-## A proposed SAE Aerospace Information Report (AIR)  
-
-Dr. Jeck proposed that the SAE AC9C Aircraft Icing Technology Committee would be interested in publishing the Notes. 
-I reviewed the Notes as part of the committee work. 
-It gave me an excellent opportunity to become more familiar with Dr. Jeck's work. 
-
-The committee elected not to pursue publishing them at the time, due to committee work load, 
-and that some of the material was covered in Dr. Jeck's published works.  
-
 ## Dr. Jeck's draft of a summary of his works?  
 
-The "TABLE OF CONTENTS" is an outline that the subsequent Notes only approximately follow. 
+The "TABLE OF CONTENTS" is an outline included in the package that Dr. Jeck provided 
+that the subsequent Notes only approximately follow. 
 These appear to be a combination of topics he had been asked about, 
 and a course of study that Dr. Jeck thought those in aircraft icing should know. 
 It may be a draft of how he would organize a summary of his works.  
@@ -284,7 +262,7 @@ of which he was a co-author, adequately summarized his work and results.
 We will look at Dr. Jeck's work on SLD in [Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md).  
 
 ## NACA-era publications cited in Notes  
-
+  
 These have been reviewed previously:  
 
 - [TN-1393]({filename}NACA-TN-1393.md),  Lewis, William: A Flight Investigation of the Meteorological Conditions Conducive to the Formation of Ice on Airplanes. NACA-TN-1393, 1947. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19930082038)  
@@ -309,5 +287,3 @@ This is part of the series [28,000 Miles of Data: The Publications of Dr. Richar
 
 [^4]: Electronic Aircraft Icing Handbook, circa 2006, [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
 
-
-https://flightsafety.org/fsd/fsd_jun-sep97.pdf  
