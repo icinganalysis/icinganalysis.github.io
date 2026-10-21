@@ -147,15 +147,15 @@ Even with the definition Dr. Jeck provided, I am not clear on how to really appl
 DSWC (2008) uses the term "in-cloud averaging distance", which is probably what the term always should have been, 
 including in Appendix C.  
 
-In AR-07/04, a figure from NACA-TN-1939 was included in a discussion of "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT
-SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
+In AR-07/04, a figure from NACA-TN-1939 was included in a discussion of "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT 
+SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29 
 APPENDIX C". The term "Duration, Minutes" is used.  
 
 ![Figure C-1.png](images/FAA-AR-07-4/Figure%20C-1.png)  
 _Public Domain._  
 
 NACA-TN-1904 used the term "Distance along flight path".  
-![Figure C-3.png](images/FAA-AR-07-4/Figure%20C-3.png)
+![Figure C-3.png](images/FAA-AR-07-4/Figure%20C-3.png)  
 _Public Domain._  
 
 The later NACA-TN-2569, cited in Appendix C Figure 3, 
