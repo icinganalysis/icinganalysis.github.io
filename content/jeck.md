@@ -49,7 +49,7 @@ Readers will be rewarded by the depth of information and variety of topics addre
 > - _"Thanks are also due ... for their patience and support on this long project."_ [Origins of The Supercooled Cloud Database]({filename}jeck%20building%20the%20database.md)  
 > - _"what is the probability of finding such a test exposure in nature?"_ [Natural Probabilities]({filename}jeck%20natural%20probabilities.md)  
 > - _"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."_  [Working with Natural Probabilities]({filename}Jeck%20working%20with%20natural%20probabilities.md)  
-> - Using the Supercooled Cloud Database _[in work]_  
+> - _"The confidence in the curves is strongest where the data points are plentiful."_ [Using the Supercooled Cloud Database]({filename}using%20the%20scdb.md)  
 
 ## Conclusions of the series on Dr. Richard Jeck _[in work]_  
 

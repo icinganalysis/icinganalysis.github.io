@@ -163,7 +163,9 @@ I found 15 citations for DOT/FAA/AR-07/04,
 but I did not find one that mentioned the proposed new Appendix C figures. 
 Some were in languages that I cannot read, 
 but none of the figures implied the use of Dr. Jeck's proposed figures to me. 
-The closest that I found was this:  
+The closest that I found was this, 
+which evaluates points in relation to the current Appendix C, 
+not the proposed new one:  
 ![Figure 8.](images/ATCA/Figure%208.png)  
 _From [^5]._  
 
