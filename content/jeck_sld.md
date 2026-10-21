@@ -111,8 +111,14 @@ which contained 4700 nmi of data. Ten international agencies had contributed dat
 ![Table B-6](images/FAA-AR-09-45/Table%20B-6.png)  
 _Public Domain._  
 
-## Conclusions  
+Figure 22 shows how the freezing drizzle drop size distribution < 40 MVD was determined.  
+![Figure 22.](images/FAA-AR-09-10/Figure%2022.png)  
 
+While I have not seen a similarly detailed plot for Appendix C conditions, 
+I imagine it would show similar variability around a 15 MVD Langmuir D distribution.  
+
+## Conclusions  
+ 
 Dr. Jeck's new convention for drop size bin definitions was perpetuated in some form. 
 AC 25-28 [^10] defines dropsize bins (that are different from those in DOT/FAA/AR-TN95/119).  
 
