@@ -157,10 +157,10 @@ From there the curves have simply been judiciously extrapolated into the data-sp
 
 Figure D-3 of AR-07/04 plots probability lines out to 310 nmi. 
 As there are few data points beyond 100 nmi, 
-no points beyond 160 nmi (even for the collected cloud pass data), 
+no points beyond 160 nmi (even for the data with measurements collected within a cloud pass), 
 the lines must have been "judiciously extrapolated". 
 It appears that the Appendix C Figure 3 slope was used.  
-
+ 
 ![Figure D-3.](images/FAA-AR-07-4/Figure%20D-3.png)  
 _Public Domain image._  
 
