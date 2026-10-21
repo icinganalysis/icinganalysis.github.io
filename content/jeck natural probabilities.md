@@ -148,6 +148,8 @@ test flights in natural icing conditions.
 and maximum expected icing conditions as a function of altitude and temperature aloft,
 by season of the year.  
 
+## A recommendation to replace Appendix C figures  
+
 >3.1.2 Recommendation for Consideration.  
 As a result of these differences, refinements to the [Appendix C] figure 1 (or figure 24) LWC envelopes are
 proposed in figure 25. These new curves are more realistic and their adoption would update the
@@ -156,6 +158,7 @@ overconservative in some details and underconservative in others.
 > 
 > ![Figure 25.](images/FAA-AR-07-4/Figure%2025.png)  
 > 
+> 3.2.2 Suggested Extensions to the Envelope.  
 > 
 > ![Figure 28.](images/FAA-AR-07-4/Figure%2028.png)  
 
@@ -168,6 +171,8 @@ which evaluates points in relation to the current Appendix C,
 not the proposed new one:  
 ![Figure 8.](images/ATCA/Figure%208.png)  
 _From [^5]._  
+
+## Proposals adopted into AC 20-73A  
 
 While the proposal to replace the Appendix C figures has not yet been adopted, 
 several others have been adopted into AC 20-73A as supplements, as we saw in 

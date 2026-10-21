@@ -38,8 +38,8 @@
                 Published: Wed 21 October 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-10-20T17:24:14.244807-07:00">
-                Updated: Tue 20 October 2026
+        <abbr class="modified" title="2026-10-21T07:07:54.313591-07:00">
+                Updated: Wed 21 October 2026
         </abbr>
 <!---->
         <!---->
@@ -58,7 +58,7 @@
 there are many analyses that can be performed.  </p>
 <p>Here, I will attempt to reproduce some of the Natural Probability curves.  </p>
 <h2>Files provided for the SCDB</h2>
-<p>I will refer to Dr. Jeck's published values as the Supercooled Could Database or SCDB.  </p>
+<p>I will refer to Dr. Jeck's published values as the Supercooled Cloud Database or SCDB.  </p>
 <p>The database files I received I will refer to at the spreadsheet or spreadsheets.  </p>
 <p>There are area where they are not exactly the same, as will be shown below.  </p>
 <p>I requested a copy of the SCDB from the FAA, and was provided with a copy. 
@@ -123,9 +123,36 @@ treated them as one measurement.   </p>
 <p>The curves depict the cumulative LWC probability for generally longer cloud transects consisting of
 one or more uniform intervals strung together until the research airplane leaves the cloud or reverses direction.  </p>
 </blockquote>
+<p>Some key Database columns:  </p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLDGRP</td>
+<td>A letter, A, B, C, etc., denoting a group of similar type clouds being sampled.</td>
+</tr>
+<tr>
+<td>COUDNUM</td>
+<td>A number, 1, 2, 3, etc., denoting which cloud in CLOUDGRP contributed to the data for the present observation.</td>
+</tr>
+<tr>
+<td>CLD_PASS</td>
+<td>A number 1, 2, 3, etc., indicating which pass the current observation represents through the cloud identified by CLOUDGRP and CLOUDNUM.</td>
+</tr>
+<tr>
+<td>EVENTDEF</td>
+<td>A letter code, A, B, C, etc., to indicate why the sample was terminated. The code is given in table A-1. [A is "Aircraft exits main cloud"]</td>
+</tr>
+</tbody>
+</table>
 <p>The spreadsheet data was interrogated to find such cases. 
 Candidate cloud pass data measurements were required to have occurred on the same project, 
-day, cloud group, cloud number, and cloud pass, with the final measurement noted as leaving the cloud.
+day, cloud group, cloud number, and cloud pass, with the final measurement noted as exiting the cloud.
 (There is no database column noting change in direction). 
 I am not sure that this is how Dr. Jeck implemented it.  </p>
 <p>The measurements for these cloud passes were "strung together" or collected into one measurement 

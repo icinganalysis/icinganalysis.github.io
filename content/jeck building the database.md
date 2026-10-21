@@ -23,7 +23,7 @@ The database took at least 14 years to assemble.
 
 ## Early Motivations for the Database  
 
-A significant portion of the database (4,700 nmi out of 28,000) of the Database already existed before Dr. Jeck started: 
+Nearly of the database (14,372 nmi out of 28,000) of the Database already existed before Dr. Jeck started: 
 The inflight icing data from the NACA-era. 
 That data was the basis of the current Appendix C icing environment definitions. 
 See [Conclusions of the Meteorology of Icing Clouds Thread.]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  

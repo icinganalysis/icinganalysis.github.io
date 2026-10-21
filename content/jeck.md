@@ -54,7 +54,6 @@ Readers will be rewarded by the depth of information and variety of topics addre
 ## Conclusions of the series on Dr. Richard Jeck _[in work]_  
 
 <br>
-<br>
 
 ## Previous mentions  
 

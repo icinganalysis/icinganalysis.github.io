@@ -16,7 +16,7 @@ Here, I will attempt to reproduce some of the Natural Probability curves.
 
 ## Files provided for the SCDB  
 
-I will refer to Dr. Jeck's published values as the Supercooled Could Database or SCDB.  
+I will refer to Dr. Jeck's published values as the Supercooled Cloud Database or SCDB.  
 
 The database files I received I will refer to at the spreadsheet or spreadsheets.  
 
@@ -105,9 +105,18 @@ In "Distance-Scaled Water Concentrations...", it is stated:
 > The curves depict the cumulative LWC probability for generally longer cloud transects consisting of
 one or more uniform intervals strung together until the research airplane leaves the cloud or reverses direction.  
 
+Some key Database columns:  
+
+|Term | Explanation                                                                                                                             |
+|---|-----------------------------------------------------------------------------------------------------------------------------------------|
+|CLDGRP | A letter, A, B, C, etc., denoting a group of similar type clouds being sampled.                                                         |
+|COUDNUM| A number, 1, 2, 3, etc., denoting which cloud in CLOUDGRP contributed to the data for the present observation.                          |
+|CLD_PASS| A number 1, 2, 3, etc., indicating which pass the current observation represents through the cloud identified by CLOUDGRP and CLOUDNUM. |
+|EVENTDEF| A letter code, A, B, C, etc., to indicate why the sample was terminated. The code is given in table A-1. [A is "Aircraft exits main cloud"]                    |
+
 The spreadsheet data was interrogated to find such cases. 
 Candidate cloud pass data measurements were required to have occurred on the same project, 
-day, cloud group, cloud number, and cloud pass, with the final measurement noted as leaving the cloud.
+day, cloud group, cloud number, and cloud pass, with the final measurement noted as exiting the cloud.
 (There is no database column noting change in direction). 
 I am not sure that this is how Dr. Jeck implemented it.  
 
