@@ -1,6 +1,6 @@
 status: draft  
 title: "Icing Information Notes"  
-Date: 2026-09-26 12:00
+Date: 2026-10-21 13:00  
 tags: Dr. Jeck, Appendix C
 
 ### _"A Treasure Trove"_  
@@ -156,7 +156,8 @@ Also, the Electronic Aircraft Icing Handbook [^4] has a spreadsheet file "cldpar
 [Dr. Jim Riley is listed on the EAIHB site, so he may have been the author of the spreadsheet.]    
 
 A printed copy of "Rating Icing Exposures in Terms of Intensity" is dated 2017, 
-This is the last technical writing by Dr. Jeck that I know of.  
+This is the last technical writing by Dr. Jeck that I know of 
+(although 2017 may be the date it was printed, not the date it was written).  
 
 As the Notes were not formally published by the FAA, they may not represent official policy. 
 However, we will see below that several Notes were drafts of works that were formally published. 
@@ -284,6 +285,5 @@ This is part of the series [28,000 Miles of Data: The Publications of Dr. Richar
 [^1]: Jeck, Richard K.: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November, 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  
 [^2]: A Recognition and Biography [24-7pressrelease.com](https://www.24-7pressrelease.com/press-release/457378/richard-jeck-presented-with-the-albert-nelson-marquis-lifetime-achievement-award-by-marquis-whos-who)  
 [^3]: Anon., Research and Development Highlights 1997, FAA Airports and Safety R&D Division, ARR-400, William J. Hughes Technical Center [rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/33753/dot_33753_DS2.pdf)  
-
 [^4]: Electronic Aircraft Icing Handbook, circa 2006, [web.archive.org](https://web.archive.org/web/20070813181929/http://aar400.tc.faa.gov/Programs/FlightSafety/icing/eaihbk.htm)  
 

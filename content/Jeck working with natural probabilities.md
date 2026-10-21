@@ -1,6 +1,6 @@
 status: draft  
 title: Working with Natural Probabilities  
-Date: 2026-09-20 12:00
+Date: 2026-10-21 19:00  
 tags: Dr. Jeck, Appendix C, Probability
 
 ### _"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."_  

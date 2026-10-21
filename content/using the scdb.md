@@ -1,6 +1,7 @@
 status: draft  
 title: Using the Supercooled Cloud Database  
-tags: Dr. Jeck, Appendix C, Probability
+Date: 2026-10-21 20:00  
+tags: Dr. Jeck, Appendix C, Probability  
 
 ### _"The confidence in the curves is strongest where the data points are plentiful."[^1]_   
 

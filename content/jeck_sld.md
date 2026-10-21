@@ -1,6 +1,6 @@
 status: draft  
 title: Dr. Jeck's Works on Supercooled Large Drops        
-Date: 2026-10-03 12:00
+Date: 2026-10-21 15:00  
 tags: Dr. Jeck, SLD  
 
 _"Very limited amounts of data are presently available for variables associated with ZR and ZL [SLD] conditions aloft."_  
