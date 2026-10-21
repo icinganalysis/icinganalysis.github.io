@@ -113,6 +113,7 @@ _Public Domain._
 
 Figure 22 shows how the freezing drizzle drop size distribution < 40 MVD was determined.  
 ![Figure 22.](images/FAA-AR-09-10/Figure%2022.png)  
+_Public Domain._  
 
 While I have not seen a similarly detailed plot for Appendix C conditions, 
 I imagine it would show similar variability around a 15 MVD Langmuir D distribution.  

@@ -99,10 +99,11 @@ AR-07/04 (2007) used horizontal extent, as well as "exposure distance".
 It noted that "horizontal extent" has never been well-defined.
  
 ![figure H-1](images/FAA-AR-07-4/figH-1.png)  
+_Public Domain._  
 > _Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
 Therefore, it is defined here in a way that is compatible with conventional usage._  
 
->Horizontal extent1 (HE) Any approximately unidirectional horizontal distance in icing
+>Horizontal extent (HE): Any approximately unidirectional horizontal distance in icing
 conditions over which an average or maximum value of LWC or
 some other variable is of interest.
 The HE can be anything from a fraction to the full width of a cloud,
@@ -151,9 +152,11 @@ SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
 APPENDIX C". The term "Duration, Minutes" is used.  
 
 ![Figure C-1.png](images/FAA-AR-07-4/Figure%20C-1.png)  
+_Public Domain._  
 
 NACA-TN-1904 used the term "Distance along flight path".  
 ![Figure C-3.png](images/FAA-AR-07-4/Figure%20C-3.png)
+_Public Domain._  
 
 The later NACA-TN-2569, cited in Appendix C Figure 3, 
 essentially replotted the data (there are a few more intermediate steps, 
@@ -174,7 +177,8 @@ provides an even more "modernized" version (so you won't have to digitize them y
 that also include interpolation within figures.  
 
 Jeck's proposal for "refinements" to the Appendix C figures to a distance-based format 
-has not yet been adopted. He noted  
+has not yet been adopted (See [Natural Probabilities]({fjilename}jeck%20natural%20probabilities.md)). 
+He noted:  
 
 >The old figures may not be seriously flawed, but they are
 overconservative in some details and underconservative in others.    
