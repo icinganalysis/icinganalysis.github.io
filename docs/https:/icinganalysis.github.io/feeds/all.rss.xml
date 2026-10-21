@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Sat, 10 Oct 2026 12:37:17 -0700</lastBuildDate><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Wed, 21 Oct 2026 14:14:12 -0700</lastBuildDate><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
 Therefore, it is defined here in a way that is compatible with conventional usage.&lt;/em&gt;  &lt;/p&gt;
@@ -102,12 +102,12 @@ and now I am at the "request help" stage.&lt;/p&gt;
 finding them as loanable print copies or digitally.  &lt;/p&gt;
 &lt;h2&gt;Recently made available&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR No. 3E29, May 1943.&lt;br&gt;
-Available online at &lt;a href="https://www.abbottaerospace.com/downloads/arc-rm-1986-heat-transfer-calculation-for-aerofoils/"&gt;abbottaerospace.com&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Could only find at google books&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;NACA conference on some problems of aircraft operation [at] Lewis Flight Propulsion Laboratory, Cleveland, Ohio, November 17 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category><category>search</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;li&gt;
+&lt;p&gt;Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA088892.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt; (link has no pdf file)&lt;br&gt;
+Thanks to the FAA Tech Center for providing a copy.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category><category>search</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Studies have correlated icing conditions to ice shapes and their effects. 
