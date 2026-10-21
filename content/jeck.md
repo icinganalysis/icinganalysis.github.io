@@ -37,7 +37,7 @@ Readers will be rewarded by the depth of information and variety of topics addre
 > - [_"Modernized Appendix C - The Beauty & Benefits of Digitized Figures"_]({filename}app_c_figures.md)   
 
 ### Supercooled Large Drop (SLD) Icing  
-
+ 
 > - _"Very limited amounts of data are presently available for variables associated with ZR and ZL conditions aloft."_ [Dr. Jeck's Works on Supercooled Large Drops]({filename}jeck_sld.md)  
 
 ### Icing Intensity Definitions  
@@ -51,7 +51,9 @@ Readers will be rewarded by the depth of information and variety of topics addre
 > - _"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."_  [Working with Natural Probabilities]({filename}Jeck%20working%20with%20natural%20probabilities.md)  
 > - _"The confidence in the curves is strongest where the data points are plentiful."_ [Using the Supercooled Cloud Database]({filename}using%20the%20scdb.md)  
 
-## Conclusions of the series on Dr. Richard Jeck _[in work]_  
+## Conclusions of the series on Dr. Richard Jeck    
+
+> -  _"... to illustrate the possibilities"_ [Conclusions of the series on Dr. Richard Jeck]({filename}jeck%20conclusions.md)  
 
 <br>
 

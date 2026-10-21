@@ -157,8 +157,18 @@ current design criteria in Appendix C. The old figures may not be seriously flaw
 overconservative in some details and underconservative in others.  
 > 
 > ![Figure 25.](images/FAA-AR-07-4/Figure%2025.png)  
-> 
+
+For the altitude-temperature envelope, several adjustments wee proposed. 
+One suggestion is probably from the ["Icing Information Note"]({filename}treasure.md) 
+“Method for Computing Condensable Water due to Expansion (Suction) Cooling in Turbine Engine Air Inlets”, 
+which I have not been able to find a copy of.  
+
 > 3.2.2 Suggested Extensions to the Envelope.  
+> ...  
+> Thirdly, there
+have been suggestions that the envelope be extended up to +3°C (+37°F) or so, considering the
+possibility of icing in engine inlets due to cooling of the intake air by 3°C or more by expansion
+during suction.
 > 
 > ![Figure 28.](images/FAA-AR-07-4/Figure%2028.png)  
 
