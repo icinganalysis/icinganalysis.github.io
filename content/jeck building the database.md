@@ -28,6 +28,9 @@ The inflight icing data from the NACA-era.
 That data was the basis of the current Appendix C icing environment definitions. 
 See [Conclusions of the Meteorology of Icing Clouds Thread.]({filename}Conclusions%20of%20the%20Meteorology%20of%20Icing%20Clouds%20Thread.md)  
 
+However, there would be much work collecting and putting the NACA data into a format compatible with the database 
+of more recent measurements. This was apparently not completed until circa 1994.  
+
 Early motivations for the database were driven by the helicopter community [^2]: 
 
 > This is a report of accomplishment in response to a growing requirement over the past decade for

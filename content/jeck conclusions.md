@@ -176,7 +176,7 @@ with some implementations better than others.
 provides an even more "modernized" version (so you won't have to digitize them yet again), 
 that also include interpolation within figures.  
 
-Jeck's proposal for "refinements" to the Appendix C figures to a distance-based format 
+Dr. Jeck's proposal for "refinements" to the Appendix C figures to a distance-based format 
 has not yet been adopted (See [Natural Probabilities]({filename}jeck%20natural%20probabilities.md)). 
 He noted:  
 
@@ -223,7 +223,7 @@ such as helicopters, which generally operate at altitudes below 10,000 feet.
 ## Final Words  
 
 I have studied Dr. Jeck's works in depth for years. 
-However, I find that I learn something new each time I re-read one, 
+I find that I learn something new each time I re-read one, 
 such as when writing this series.  
 
 I encourage you to read Dr. Jeck's works. 

@@ -14,42 +14,42 @@ Some comments "Blast from the Past" have received:
 
 [I generally anonymize names, unless the commenter specifically requests otherwise.]
 
-- Soroush  
+Soroush  
 
 > I just want to thank you for the effort you are putting into the icinganalysis website. 
 I ... appreciated all of the cool work you are doing. 
 I was going through some of the NACA papers and had a lot of trouble understanding the math and physics. 
 When I saw you website tears came to my eyes.
 
-- Joylene
+Joylene
 
 > Would've made my life way easier if this stuff came out same time last year :p. But as they say, it's never too late! So thanks for making this kind of information available in open source. This saves hours of Google searches :)
 
-- Cris
+Cris
 
 > Don is social medias "Icing Influencer".  
 
-- Bryan  
+Bryan  
 
 > I've been looking for that data point! Thanks for sharing.  
 
 > Don, this is great. Thanks for providing the thread on where the App C came from. Done and dusted in 1955, now we can have a conversation on the distance correction factor and why our cloud distances are 2.7 nm and 17.4 nm.  
 
-- Chris
+Chris
 
 > Don. Love the page and all you do for the icing community!  
 
 > Don thanks for the very detailed post. This is very helpful!
 
-- Ian
+Ian
 
 > Donald Cook I'm glad I could help. I find your website an invaluable source of material when I introduce icing to those new to the field. Keep up the good work!  
 
-- Jeff  
+Jeff  
 
 > Thank you for posting this. My grandfather, Vernon Gray, worked in the icing wind tunnel at Glenn. Unfortunately, he passed away before I was born. Seeing his name appear in the publications on your site was very moving.  
 
-- F.
+F.
 
 > Thank you. Stuff I was looking for.  
 
@@ -57,50 +57,52 @@ When I saw you website tears came to my eyes.
 
 > Don, thanks for the presentation. I truly hope the community can have continued discussion connecting past with present.  
 
-- G.
+> Good morning, just wanted to say I enjoyed your 97-0304 paper.  
+
+G.
 
 > Love this.
 
-- Roger A.  
+Roger A.  
 
-> Love all your post - keep them coming
+> Love all your post keep them coming
 
-- J.  
+J.  
 
 > Ice, Ice, Baby. Yo. Word to your mother :)
 
-- L.H.  
+L.H.  
 
 > I accessed your webpage by chance and it enlightened me a lot for my ongoing research. Thank you so much for your effort. Wish you all the best!
 
-- S. from Ohio
+S. from Ohio
 
-> I found your site while doing a Google search for her [Helen Gallager] - it was a nice surprise to see this photo and your recognition of her and her coworkers. Thank you! 
+> I found your site while doing a Google search for her [Helen Gallager] it was a nice surprise to see this photo and your recognition of her and her coworkers. Thank you! 
 
-- R.
+R.
 
 > Thanks so much to you both. That was great! Thank you Don for taking the time to present this and thank you to you Cris for the initiative. It's a great idea and is going to be very valuable I think!  
 
-- G.  
+G.  
 
 > Love this, Don.  
 
-- D.  
+D.  
 
 > Hi Don, very nice presentation! The historical perspective of icing research was great!  
 
-- W.  
+W.  
 
 > Thank you. It was an Excellent Presentation. I did not know all of that history.  
 
-- F.  
-
-> Good morning, just wanted to say I enjoyed your 97-0304 paper.  
-
-- E.
+E.
 
 > It amazes me how the work done in the past had been so much better than what we do with the resources we have today"  
 
-- E.  
+E.  
 
-> "finding your very in-depth website- what a treasure!"  
+> "finding your very in-depth website - what a treasure!"  
+
+P.  
+
+> this a truly remarkable piece of work!  
