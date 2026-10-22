@@ -55,7 +55,7 @@ DOT/FAA/AR-07/04 Figure D-3:
 
 "Distance-Scaled Water Concentrations versus Mass-Median Drop Size, Temperature, and Altitude in Supercooled Clouds" [^3] Figure 11a also matches (not shown).  
 
-A plot of the data is also included in AC 20-73A (2016) [^4], Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  
+A plot of the data is also included in AC 20-73A (2006) [^4], Appendix M, "FINDING NATURAL ICING CONDITIONS FOR TEST PURPOSES":  
 
 ![Figure M-1.](images/ac2073a/Figure%20M1.png)  
 
@@ -72,14 +72,6 @@ DOT/FAA/AR-07/04 includes a plot made with all 28,000 miles of data.
 
 This is also plotted in "Distance-Scaled Water Concentrations versus Mass-Median Drop Size" [^3] Figure 6, 
 separated into convective and layer cloud subplots, which makes digitizing the curves easier.  
-
-<!--
-We can compare the characterizations mentioned at probability P=99% 
-(where all three have results lines shown):  
-
-![comparison_lws_p99](images/FAA-AR-07-4/comparison_lws_p99.png)  
-
--->
 
 ## Data miles and Natural Probabilities  
 

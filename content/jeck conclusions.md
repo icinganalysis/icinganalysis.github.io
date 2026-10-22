@@ -85,7 +85,7 @@ a series of publications.
 As we saw in [Aircraft Icing Intensities]({filename}jeck_icing_intensity.md), 
 Dr. Jeck's proposals were eventually largely adopted in the current regulations.  
 
-As we saw in [Natural Probabilities]({fielname}jeck%20natural%20probabilities.md), 
+As we saw in [Natural Probabilities]({filename}jeck%20natural%20probabilities.md), 
 several distance (HE) format characterizations were adopted as supplements to Appendix C.  
 
 ## The evolution of distance terms  
@@ -177,7 +177,7 @@ provides an even more "modernized" version (so you won't have to digitize them y
 that also include interpolation within figures.  
 
 Jeck's proposal for "refinements" to the Appendix C figures to a distance-based format 
-has not yet been adopted (See [Natural Probabilities]({fjilename}jeck%20natural%20probabilities.md)). 
+has not yet been adopted (See [Natural Probabilities]({filename}jeck%20natural%20probabilities.md)). 
 He noted:  
 
 >The old figures may not be seriously flawed, but they are
