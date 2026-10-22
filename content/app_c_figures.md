@@ -302,7 +302,7 @@ csv files are provided here.
 ## Conclusions  
 
 I hope that readers find the digitized figures useful, though few may find beauty in them. 
-You can find the Python code that includes the interpolation functions at [github](). 
+You can find the Python code that includes the interpolation functions at [appendix_c_icing.py](images/Jeck/appendix_c_icing.py) .
 
 As Dr. Jeck wrote in his icing information note:  
 
