@@ -10,7 +10,7 @@ _Quote from an unpublished outline of topics by Richard Jeck._
 
 ## Summary  
 
-The late Dr. Richard Jeck of the FAA [^1] in his [unpublished] "Icing Information Notes" advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". 
+The late Dr. Richard Jeck of the FAA [^1] in his [Icing Information Notes]({filename}treasure.md) advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". 
 
 The "Icing Information Note" was essentially a 
 draft of what became Appendix F of DOT/FAA/AR-07/4 [^2].  
