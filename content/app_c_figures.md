@@ -93,7 +93,7 @@ That version of Appendix C Figure 1 is shown below:
 ![easa_appc_fig1](images/Jeck/easa_appc_fig1.png)  
 _From [easa.europa.eu](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#)_    
 
-AC 20-73A [^6] (published in 2016) uses a "modernized" version:  
+AC 20-73A [^6] (published in 2006) uses a "modernized" version:  
 ![Figure E-1](images/ac2073a/Figure%20E-1.png)  
 
 ## Another benefit of digitization: interpolation    
