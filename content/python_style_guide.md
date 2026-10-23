@@ -9,17 +9,26 @@ tags: python
 
 ## Summary
 
-For the [Thermodynamics tread]({filename}thermodynamics.md) and on, I will be using this style guide. 
+For new code, I will be using this style guide. 
 Previous code may eventually be upgraded to this.
 
 ## Python target version:  
 
-Target python version 3.7, and the corresponding [Anaconda stack](https://www.anaconda.com/) (version 2021-11). 
-Avoid modules with deprecation warnings (there are not many of them).
-This is a balance between current installations and future-proofing. 
-The goal is to be applicable for all 3.7+ uses. 
+I am currently using version 3.13.7. 
+The current stable version is 3.15 (as of October 2026). 
+I am always a couple of versions behind.
 
-(Note: 3.10 is the latest available version, as of April 2022).
+The libraries that I use the most are numpy 2.3.2, 
+scipy 1.16.1, 
+and matplotlib 3.10.6. 
+
+These are also not the latest versions. 
+This is a balance between current installations and future-proofing. 
+This helps with user compatibility for downloads. 
+Some users are not adept at creating local virtual environment for 
+versions that are different for what they have currently installed.  
+
+I avoid modules with deprecation warnings (there are not many of them).
 
 Code should be portable, and not use operating system specific functions. 
 
@@ -84,7 +93,7 @@ and coincidences where one error offsets another error.
 
 ## Validation  
 
-Code will have a comparison to test and NACA analysis data, 
+Code will have a comparison to test and analysis data, 
 which illustrate the degree of agreement. 
  
 Users may determine if the degree of agreement is adequate for their use case. 

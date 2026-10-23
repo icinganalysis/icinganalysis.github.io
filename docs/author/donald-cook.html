@@ -9101,8 +9101,8 @@ The calculations that often must be made point by point along …</p></blockquot
                 Published: Thu 21 April 2022
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-07-22T14:27:31.579601-07:00">
-                Updated: Wed 22 July 2026
+        <abbr class="modified" title="2026-10-23T10:04:16.744877-07:00">
+                Updated: Fri 23 October 2026
         </abbr>
 <!---->
         <!---->
@@ -9117,30 +9117,28 @@ The calculations that often must be made point by point along …</p></blockquot
 </footer><!-- /.post-info -->                <h3><em>"Beautiful is better than ugly."</em></h3>
 <p><img alt="Python programming logo. Two stylized, interlocking snakes with the word python." src="images/python-logo-master-v3-TM.png"></p>
 <h2>Summary</h2>
-<p>For the <a href="/icing-thermodynamics.html">Thermodynamics tread</a> and on, I will be using this style guide. 
+<p>For new code, I will be using this style guide. 
 Previous code may eventually be upgraded to this.</p>
 <h2>Python target version:</h2>
-<p>Target python version 3.7, and the corresponding <a href="https://www.anaconda.com/">Anaconda stack</a> (version 2021-11). 
-Avoid modules with deprecation warnings (there are not many of them).
+<p>I am currently using version 3.13.7. 
+The current stable version is 3.15 (as of October 2026). 
+I am always a couple of versions behind.</p>
+<p>The libraries that I use the most are numpy 2.3.2, 
+scipy 1.16.1, 
+and matplotlib 3.10.6. </p>
+<p>These are also not the latest versions. 
 This is a balance between current installations and future-proofing. 
-The goal is to be applicable for all 3.7+ uses. </p>
-<p>(Note: 3.10 is the latest available version, as of April 2022).</p>
+This helps with user compatibility for downloads. 
+Some users are not adept at creating local virtual environment for 
+versions that are different for what they have currently installed.  </p>
+<p>I avoid modules with deprecation warnings (there are not many of them).</p>
 <p>Code should be portable, and not use operating system specific functions. </p>
 <h2>General guidelines</h2>
 <ul>
 <li>
 <p>simple</p>
 <ul>
-<li>use simple functions over classes</li>
-<li>out-source complexity where possible<ul>
-<li>use built-in data structures (list, dict) </li>
-<li>use numpy and scipy, anything in the anaconda stack</li>
-</ul>
-</li>
-<li>promote reuse<ul>
-<li>anything used more than once should be put in an importable <a href="https://docs.python.org/3.7/tutorial/modules.html">module</a></li>
-<li>use the "if __name__ == '__main__:" block <a href="https://docs.python.org/3.7/library/__main__.html">idiom</a> <ul>
-<li>to have clean (no side effect …</li></ul></li></ul></li></ul></li></ul>
+<li>use simple functions over classes …</li></ul></li></ul>
                 <a class="readmore" href="/python-coding-style-guide.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>

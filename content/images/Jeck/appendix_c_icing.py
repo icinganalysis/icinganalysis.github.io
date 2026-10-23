@@ -38,34 +38,50 @@ continuous_maximum_figure_2_points = (  # alt_ft, tf
 
 continuous_maximum_figure_3_points = (  # nmi, factor
     (5, 10, 17.4, 50, 170, 310),
-    (1.34, 1.16, 1., 0.665, 0.325, 0.2),
+    (1.34, 1.16, 1.0, 0.665, 0.325, 0.2),
 )
 
 intermittent_maximum_figure_4_points = {
-    32: ((15, 17.5, 20, 22.5, 25, 30, 35, 40, 50), (2.9, 2.81, 2.5, 2.1, 1.75, 1.325, 1, 0.75, 0.413)),
-    14: ((15, 17.5, 20, 22.5, 25, 30, 35, 40, 50), (2.5, 2.44, 2.2, 1.78, 1.45, 1.025, 0.713, 0.513, 0.3),),
-    -4: ((15, 20, 25, 30, 35, 40, 50), (1.925, 1.7, 1.15, 0.8, 0.575, 0.4, 0.188),),
-    -22: ((15, 20, 25, 30, 35, 40, 50), (1.1, 0.988, 0.713, 0.5, 0.35, 0.25, 0.1),),
-    -40: ((15, 20, 25, 30, 35, 40, 50), (0.25, 0.21, 0.15, 0.1, 0.075, 0.06, 0.05),),
+    32: (
+        (15, 17.5, 20, 22.5, 25, 30, 35, 40, 50),
+        (2.9, 2.81, 2.5, 2.1, 1.75, 1.325, 1, 0.75, 0.413),
+    ),
+    14: (
+        (15, 17.5, 20, 22.5, 25, 30, 35, 40, 50),
+        (2.5, 2.44, 2.2, 1.78, 1.45, 1.025, 0.713, 0.513, 0.3),
+    ),
+    -4: (
+        (15, 20, 25, 30, 35, 40, 50),
+        (1.925, 1.7, 1.15, 0.8, 0.575, 0.4, 0.188),
+    ),
+    -22: (
+        (15, 20, 25, 30, 35, 40, 50),
+        (1.1, 0.988, 0.713, 0.5, 0.35, 0.25, 0.1),
+    ),
+    -40: (
+        (15, 20, 25, 30, 35, 40, 50),
+        (0.25, 0.21, 0.15, 0.1, 0.075, 0.06, 0.05),
+    ),
 }
 
 intermittent_maximum_figure_5_points = (  # alt_ft, tf
     (4000, 12000, 30500, 19000, 4000, 4000),
-    (26, 26, -40, -40, 14, 26)
+    (26, 26, -40, -40, 14, 26),
 )
 
 intermittent_maximum_figure_6_points = (  # nmi, factor
-    (0.26,0.5, 1, 2.61, 5.21),
-    (1.35, 1.297, 1.19, 1, 0.85)
+    (0.26, 0.5, 1, 2.61, 5.21),
+    (1.35, 1.297, 1.19, 1, 0.85),
 )
 
+
 def get_continuous_maximum_lwc(tf, mvd):
-    '''
+    """
     Interpolate the standard distance LWC from Figure 1.
     :param tf: ambient temperature, F
     :param mvd: drop size, μm
     :return: LWC, g/m^3 (returns float('nan') if input was out of range)
-    '''
+    """
     ts = sorted(continuous_maximum_figure_1_points.keys())
     lwcs = []
     for ts_ in ts:
@@ -86,12 +102,12 @@ def get_continuous_maximum_lwc(tf, mvd):
 
 
 def get_intermittent_maximum_lwc(tf, mvd):
-    '''
+    """
     Interpolate the standard distance LWC from Figure 4.
     :param tf: ambient temperature, F
     :param mvd: drop size, μm
     :return: LWC, g/m^3 (returns float('nan') if input was out of range)
-    '''
+    """
     ts = sorted(intermittent_maximum_figure_4_points.keys())
     lwcs = []
     for ts_ in ts:
@@ -114,11 +130,11 @@ def get_intermittent_maximum_lwc(tf, mvd):
 
 
 def get_continuous_maximum_lwc_factor(nmi):
-    '''
+    """
     Interpolate the Liquid Water Content Factor-F from Figure 3.
     :param nmi: distance in nmi
     :return: F (dimensionless)
-    '''
+    """
     nmis, fs = continuous_maximum_figure_3_points
     fx = make_interp_spline(np.log(nmis), fs, k=2)
     try:
@@ -129,11 +145,11 @@ def get_continuous_maximum_lwc_factor(nmi):
 
 
 def get_intermittent_maximum_lwc_factor(nmi):
-    '''
+    """
     Interpolate the Liquid Water Content Factor-F from Figure 3.
     :param nmi: distance in nmi
     :return: F (dimensionless)
-    '''
+    """
     nmis, fs = intermittent_maximum_figure_6_points
     fx = make_interp_spline(np.log(nmis), fs, k=2)
     try:
@@ -160,13 +176,13 @@ def get_intermittent_maximum_t_min_t_max(altitude_ft):
 
 
 def make_figure_1(figure=None):
-    '''
+    """
     Make a matplotlib.figure.Figure object
     You may need a subsequent call to plt.show() to display it,
     or plt.savefig('fig1.png') to save it as a png file.
     :param figure: matplotlib.figure.Figure, if None then a new figure is made
     :return: matplotlib.figure.Figure
-    '''
+    """
     if figure is None:
         figure = plt.figure(figsize=(7.4, 6.4))
     plt.suptitle(
@@ -213,13 +229,13 @@ def make_figure_1(figure=None):
 
 
 def make_figure_4(figure=None):
-    '''
+    """
     Make a matplotlib.figure.Figure object
     You may need a subsequent call to plt.show() to display it,
     or plt.savefig('fig1.png') to save it as a png file.
     :param figure: matplotlib.figure.Figure, if None then a new figure is made
     :return: matplotlib.figure.Figure
-    '''
+    """
     if figure is None:
         figure = plt.figure(figsize=(7.4, 6.4))
     plt.suptitle(
@@ -230,10 +246,10 @@ def make_figure_4(figure=None):
     ds = plt.np.linspace(15, 50, 36)
     for t in intermittent_maximum_figure_4_points:
         lwcs = [get_intermittent_maximum_lwc(t, _) for _ in ds]
-        if t==-40:
-            (line,) = plt.plot(ds, lwcs, '--')
+        if t == -40:
+            (line,) = plt.plot(ds, lwcs, "--")
         else:
-            (line,) = plt.plot(ds, lwcs, '-')
+            (line,) = plt.plot(ds, lwcs, "-")
         plt.text(ds[0], lwcs[0], f"{t:.0f}F", ha="right", c=line.get_color())
     plt.text(
         0.95,
@@ -341,7 +357,7 @@ def make_jeck_continuous_maximum_distance_based_figure(mvd=15):
     nms = np.geomspace(5, 310, 306)
     fs = get_continuous_maximum_lwc_factor(nms)
     for t in continuous_maximum_figure_1_points:
-        lwcs = get_continuous_maximum_lwc(t, mvd)*fs
+        lwcs = get_continuous_maximum_lwc(t, mvd) * fs
         plt.plot(nms, lwcs, label=f"T={t}F")
     plt.legend()
     plt.xscale("log")
@@ -359,30 +375,31 @@ def make_jeck_appendix_c_distance_based_figure(mvd=15):
         f"\nAtmospheric Icing Conditions for MVD={mvd}"
         "\nLiquid Water Content Factor vs. Cloud Horizontal Distance"
     )
-    nms = np.geomspace(5., 310, 306)
+    nms = np.geomspace(5.0, 310, 306)
     fs = get_continuous_maximum_lwc_factor(nms)
     cs = []
     for t in continuous_maximum_figure_1_points:
-        lwcs = get_continuous_maximum_lwc(t, mvd)*fs
-        line, = plt.plot(nms, lwcs, label=f"T={t}F")
+        lwcs = get_continuous_maximum_lwc(t, mvd) * fs
+        (line,) = plt.plot(nms, lwcs, label=f"T={t}F")
         cs.append(line.get_color())
-    nms = np.geomspace(.61, 5.21)
+    nms = np.geomspace(0.61, 5.21)
     fs = get_intermittent_maximum_lwc_factor(nms)
     for t, c in zip(continuous_maximum_figure_1_points, cs):
-        lwcs = get_intermittent_maximum_lwc(t, mvd)*fs
+        lwcs = get_intermittent_maximum_lwc(t, mvd) * fs
         plt.plot(nms, lwcs, c=c)
-    lwcs = get_intermittent_maximum_lwc(-40, mvd)*fs
-    plt.plot(nms, lwcs, '--', label="T=-40F")
-    plt.text(0.6, 0.02, 'Intermittent Maximum', va="bottom", ha="left")
-    plt.text(5.21, 0.02, 'Continuous Maximum', va="bottom", ha="left")
+    lwcs = get_intermittent_maximum_lwc(-40, mvd) * fs
+    plt.plot(nms, lwcs, "--", label="T=-40F")
+    plt.text(0.6, 0.02, "Intermittent Maximum", va="bottom", ha="left")
+    plt.text(5.21, 0.02, "Continuous Maximum", va="bottom", ha="left")
 
     plt.legend()
     plt.xscale("log")
-    plt.xlim(.5, 350)
+    plt.xlim(0.5, 350)
     plt.ylim(0)
     plt.xlabel("Cloud Horizontal Extent, nmi")
     plt.ylabel("Liquid Water Content Factor, g/m^3")
     plt.tight_layout()
+
 
 def make_figure_5(figure=None):
     if figure is None:
@@ -419,7 +436,7 @@ def make_figure_6(figure=None):
         "\nAtmospheric Icing Conditions"
         "\nLiquid Water Content Factor vs. Cloud Horizontal Distance"
     )
-    nms = np.geomspace(.26, 5.21)  # 1 nmi intervals
+    nms = np.geomspace(0.26, 5.21)  # 1 nmi intervals
     fs = get_intermittent_maximum_lwc_factor(
         nms
     )  # this function can accept a numpy array as input
@@ -447,8 +464,6 @@ def make_figure_6(figure=None):
     plt.grid()
     plt.tight_layout()
     return figure
-
-
 
 
 def make_figure_1_csv(filename=None):
@@ -570,7 +585,6 @@ if __name__ == "__main__":
     print(get_continuous_maximum_lwc(32, 15))
     print(get_continuous_maximum_lwc(32, 14))
     print(get_continuous_maximum_lwc(33, 15))
-
 
     print(get_intermittent_maximum_lwc(-14, 20))
 
