@@ -38,8 +38,8 @@
                 Published: Wed 21 October 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-10-22T07:54:36.334701-07:00">
-                Updated: Thu 22 October 2026
+        <abbr class="modified" title="2026-10-23T08:11:50.864960-07:00">
+                Updated: Fri 23 October 2026
         </abbr>
 <!---->
         <!---->
@@ -208,7 +208,7 @@ here is an implementation using 6 points, and quadratic interpolation:  </p>
 <p><img alt="appc_fig3_redrawn" src="images/Jeck/appc_fig3_redrawn.png">  </p>
 <p>See also Jeck's "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT
 SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
-APPENDIX C" in DOT/FAA/30-7 for more information. 
+APPENDIX C" in DOT/FAA/AR-07/04 for more information. 
 It does not address specifically how to interpolate within it, but it has much useful, detailed information.  </p>
 <p>The final paragraph is included here:  </p>
 <blockquote>
@@ -221,16 +221,38 @@ result, users have interpreted the instructions variously and have proposed othe
 employing the LWC adjustment factor curves. These mostly involve attempts to justify
 substituting longer exposures to compensate for smaller than desired LWCs during test flights.
 This practice is not a correct use of the LWC factor, however. The factor actually represents
-only the maximum probable LWC to be expected as an average versus the averaging distance in</p>
+only the maximum probable LWC to be expected as an average versus the averaging distance in 
+the cloud. </p>
 </blockquote>
 <h3>Intermittent Maximum Icing</h3>
-<p>The reader may implement functions for Appendix C, Figure 4, 5, and 6 using similar methods to those described above.  </p>
+<p>Functions for Appendix C, Figure 4, 5, and 6 were implemented using similar methods to those described above.  </p>
 <p>Note that the X-axis of Figure 5 appears to be mislabeled. 
 The highest altitude label on the axis should be 32000 ft, not 30000 ft. (Jeck corrected it as so in some of his works). 
 If it truly were 30000 ft, some anomalous kink in the right-hand line would be required when plotted with a regular axis.  </p>
 <p><img alt="appendix_c_figure_5" src="images/Jeck/appendix_c_figure_5.png"><br>
 <em>Public Domain image.</em>    </p>
 <p>The EASA version of Figure 5 (not shown) has a different axis scale, and avoids the labeling problem.  </p>
+<h3>Distance-based format Appendix C</h3>
+<p>The above may be combined to make distance-based format versions of Appendix C, 
+as described in AC 20-73A <sup id="fnref3:6"><a class="footnote-ref" href="#fn:6">6</a></sup>.  </p>
+<blockquote>
+<p>O.2 ENVELOPES.
+APPENDIX C CONVERTED TO DISTANCE- OR TIME-BASED
+Applicants can use the F-factor curves to convert figures D-1 and D-4 of appendix D of this
+AC to an equivalent LWC versus Horizontal Extent (HE) format (Reference O1 [DOT/FAA/AR-00/30]).
+Figure O-1 shows conversion of figures D-1 and D-4, 14 CFR parts 25, Appendix C and 29,
+Appendix C icing envelopes in a distance-based format for temperatures of 0qC, -10qC,
+-20qC, and -30qC and for an MVD of 15 Pm. As explained in Reference O1, after you enter
+the basic coordinates into a computerized spreadsheet, you can create variations or
+customized versions of the envelopes easily using the spreadsheet charting capabilities. For
+example, in figure O-1 a logarithmic HE scale has been chosen to accommodate both the
+short HEs of the Intermittent Maximum envelopes and the long HEs of the Continuous
+Maximum envelopes.
+You can plot natural icing atmospheric measurements on Figure O-1 for MVDs near 15 ȝm,
+or on similar graphs for other MVDs.  </p>
+</blockquote>
+<p><img alt="Figure O1.png" src="images/ac2073a/Figure%20O1.png"></p>
+<p><img alt="appc_distance_based.png" src="images/Jeck/appc_distance_based.png"></p>
 <h2>Illustrations of interpolation</h2>
 <p>We now have functions to interpolate within the Appendix C figures 1, 2, and 3.</p>
 <p>Selecting an altitude of 16000 ft, 
@@ -305,7 +327,7 @@ You can view the version from 2007 at
 <p>Appendix C to CS-25 <a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=67#">easa.europa.eu</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:6">
-<p>Anon.: "Aircraft Ice Protection", FAA AC 20-73A, 2016, <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Anon.: "Aircraft Ice Protection", FAA AC 20-73A, 2016, <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-73A.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:6" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
 <p>FAA Advisory Circular AC No. 20-73: Aircraft Ice Protection. April 21, 1971. <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_2--73.pdf">faa.gov</a>&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>

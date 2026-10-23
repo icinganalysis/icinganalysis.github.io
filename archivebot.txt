@@ -1,0 +1,14 @@
+https://wiki.archiveteam.org/index.php?title=ArchiveBot
+
+as of February 2025
+
+https://chat.hackint.org/#/connect?join=%23archivebot
+
+request on chat should include:
+- site name
+- reason (optional?)
+
+
+please archive the website icinganalysis.com. I am the owner of the website.
+
+

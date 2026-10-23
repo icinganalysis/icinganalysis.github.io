@@ -226,7 +226,7 @@ The redrawn figure:
 
 See also Jeck's "APPENDIX C—THE ORIGIN AND INTERPRETATION OF HORIZONTAL EXTENT
 SPECIFICATIONS AND THE LWC FACTOR CURVES IN 14 CFR PARTS 25 AND 29
-APPENDIX C" in DOT/FAA/30-7 for more information. 
+APPENDIX C" in DOT/FAA/AR-07/04 for more information. 
 It does not address specifically how to interpolate within it, but it has much useful, detailed information.  
 
 The final paragraph is included here:  
@@ -240,11 +240,12 @@ result, users have interpreted the instructions variously and have proposed othe
 employing the LWC adjustment factor curves. These mostly involve attempts to justify
 substituting longer exposures to compensate for smaller than desired LWCs during test flights.
 This practice is not a correct use of the LWC factor, however. The factor actually represents
-only the maximum probable LWC to be expected as an average versus the averaging distance in
+only the maximum probable LWC to be expected as an average versus the averaging distance in 
+the cloud. 
  
 ### Intermittent Maximum Icing  
 
-The reader may implement functions for Appendix C, Figure 4, 5, and 6 using similar methods to those described above.  
+Functions for Appendix C, Figure 4, 5, and 6 were implemented using similar methods to those described above.  
 
 Note that the X-axis of Figure 5 appears to be mislabeled. 
 The highest altitude label on the axis should be 32000 ft, not 30000 ft. (Jeck corrected it as so in some of his works). 
@@ -254,6 +255,30 @@ If it truly were 30000 ft, some anomalous kink in the right-hand line would be r
 _Public Domain image._    
 
 The EASA version of Figure 5 (not shown) has a different axis scale, and avoids the labeling problem.  
+
+### Distance-based format Appendix C  
+
+The above may be combined to make distance-based format versions of Appendix C, 
+as described in AC 20-73A [^6].  
+
+>O.2 ENVELOPES.
+APPENDIX C CONVERTED TO DISTANCE- OR TIME-BASED
+Applicants can use the F-factor curves to convert figures D-1 and D-4 of appendix D of this
+AC to an equivalent LWC versus Horizontal Extent (HE) format (Reference O1 [DOT/FAA/AR-00/30]).
+Figure O-1 shows conversion of figures D-1 and D-4, 14 CFR parts 25, Appendix C and 29,
+Appendix C icing envelopes in a distance-based format for temperatures of 0qC, -10qC,
+-20qC, and -30qC and for an MVD of 15 Pm. As explained in Reference O1, after you enter
+the basic coordinates into a computerized spreadsheet, you can create variations or
+customized versions of the envelopes easily using the spreadsheet charting capabilities. For
+example, in figure O-1 a logarithmic HE scale has been chosen to accommodate both the
+short HEs of the Intermittent Maximum envelopes and the long HEs of the Continuous
+Maximum envelopes.
+You can plot natural icing atmospheric measurements on Figure O-1 for MVDs near 15 ȝm,
+or on similar graphs for other MVDs.  
+
+![Figure O1.png](images/ac2073a/Figure%20O1.png)
+
+![appc_distance_based.png](images/Jeck/appc_distance_based.png)
 
 ## Illustrations of interpolation   
 
@@ -334,3 +359,4 @@ You can view the version from 2007 at
 [^9]: [matplotlib.org](https://matplotlib.org)  
 [^10]: Jeck, Richard K., Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format, DOT/FAA/AR-00/30, April, 2002. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2002107034.xhtml)  
 [^11]: OpenDocument [en.wikipedia.org](https://en.wikipedia.org/wiki/OpenDocument)  
+  
