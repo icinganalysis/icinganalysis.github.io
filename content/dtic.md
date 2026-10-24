@@ -53,3 +53,4 @@ Richard K. Jeck:
 “Representative Values of Icing-Related Variables Aloft in Freezing Rain and Freezing Drizzle,” 
 FAA Technical Note DOT/FAA/AR-TN95/119 (March 1996), 
 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA307822.xhtml)  
+ 
