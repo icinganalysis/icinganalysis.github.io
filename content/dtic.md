@@ -45,6 +45,7 @@ Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 19
 ## Retro NTIS  
 
 ![cover sheet.png](images/FAA-AR-TN95-119/cover%20sheet.png)  
+_Public Domain image._  
 
 Document storage formats circa 1996: microfiche card, printed report, compact disc, and a 3.5" floppy disc.  
 
