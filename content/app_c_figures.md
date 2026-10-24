@@ -117,7 +117,7 @@ FAA AC 20-73A [^6] defines temperature and LWC values at three MVD values
 _Public Domain image._    
 
 The source data NACA-TN-1855 [^8] is frankly short on details of how the values were selected. 
-We can see an implied interpolation when it is compared to a "French" curve 
+We can see an implied interpolation when it is compared to a "French" drafting curve 
 (a 1960s era Stewart 82-14 in this case, although I am sure that other models could provide a better match).  
 
 ![manual curve fit](images/Jeck/manual%20curve%20fit.png)  
@@ -125,7 +125,7 @@ We can see an implied interpolation when it is compared to a "French" curve
 The method of interpolating within values is not defined. 
 I have seen many people "re-invent the wheel" many times, with slightly different results.  
 
-If we use quadratic interpolation between defined MVD values, 
+If we use quadratic interpolation between defined MVD values (15, 25, 40), 
 the shape of MVD curves for a given temperature differ from Figure 1.  
 
 ![appcfig1_3point](images/Jeck/appcfig1_3point.png)  
@@ -326,7 +326,7 @@ csv files are provided here.
 
 ## Conclusions  
 
-I hope that readers find the digitized figures useful, though few may find beauty in them. 
+I hope that readers find the digitized figures useful, though not everyone may find beauty in them. 
 You can find the Python code that includes the interpolation functions at [appendix_c_icing.py](images/Jeck/appendix_c_icing.py) .
 
 As Dr. Jeck wrote in his icing information note:  

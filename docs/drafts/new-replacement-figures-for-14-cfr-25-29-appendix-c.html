@@ -38,8 +38,8 @@
                 Published: Wed 21 October 2026
         </abbr>
 		<br />
-        <abbr class="modified" title="2026-10-23T11:09:29.765203-07:00">
-                Updated: Fri 23 October 2026
+        <abbr class="modified" title="2026-10-24T08:33:48.120036-07:00">
+                Updated: Sat 24 October 2026
         </abbr>
 <!---->
         <!---->
@@ -135,12 +135,12 @@ FAA AC 20-73A <sup id="fnref2:6"><a class="footnote-ref" href="#fn:6">6</a></sup
 <p><img alt="ac2073atable6" src="images/Jeck/ac2073atable6.png"><br>
 <em>Public Domain image.</em>    </p>
 <p>The source data NACA-TN-1855 <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> is frankly short on details of how the values were selected. 
-We can see an implied interpolation when it is compared to a "French" curve 
+We can see an implied interpolation when it is compared to a "French" drafting curve 
 (a 1960s era Stewart 82-14 in this case, although I am sure that other models could provide a better match).  </p>
 <p><img alt="manual curve fit" src="images/Jeck/manual%20curve%20fit.png">  </p>
 <p>The method of interpolating within values is not defined. 
 I have seen many people "re-invent the wheel" many times, with slightly different results.  </p>
-<p>If we use quadratic interpolation between defined MVD values, 
+<p>If we use quadratic interpolation between defined MVD values (15, 25, 40), 
 the shape of MVD curves for a given temperature differ from Figure 1.  </p>
 <p><img alt="appcfig1_3point" src="images/Jeck/appcfig1_3point.png">  </p>
 <p>if we add points read from Figure 1 at intermediate MVD values (20, 30, 35), 
@@ -291,7 +291,7 @@ csv files are provided here.  </p>
 </li>
 </ul>
 <h2>Conclusions</h2>
-<p>I hope that readers find the digitized figures useful, though few may find beauty in them. 
+<p>I hope that readers find the digitized figures useful, though not everyone may find beauty in them. 
 You can find the Python code that includes the interpolation functions at <a href="images/Jeck/appendix_c_icing.py">appendix_c_icing.py</a> .</p>
 <p>As Dr. Jeck wrote in his icing information note:  </p>
 <blockquote>

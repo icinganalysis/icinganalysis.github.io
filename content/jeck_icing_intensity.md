@@ -28,7 +28,7 @@ Dr. Jeck proposed a "universal curve" and made recommendations for changes as pa
 Task 1B included examining ice intensity terminology (trace, light, moderate, severe):  
 
 ![Task1B_](images/Jeck/Task1B_.png)  
-![Task1B](images/Jeck/Task1B.png)
+![Task1B](images/Jeck/Task1B.png)  
 _Public Domain images._
 
 The definitions at the time were:  

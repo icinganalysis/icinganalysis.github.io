@@ -135,7 +135,7 @@ Richard K. Jeck, FAA Technical Report DOT/FAA/AR-00/30
 N.J. 08405.
 
 In the later AR-07/04 [^1], Dr. Jeck describes two key concepts of his analysis:  
-the HE (horizontal extent) (later noted as "in-cloud averaging distance" [^3]),  
+the HE (horizontal extent) format (later noted as "in-cloud averaging distance" [^3]),  
 and "natural occurring probabilities":  
 
 > This report shows how to convert the conventional liquid water content (LWC) vs mean effective
