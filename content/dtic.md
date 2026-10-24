@@ -42,3 +42,14 @@ Anon., "Aircraft Ice Protection", the report of a symposium held April 28-30, 19
 “Aircraft Icing Handbook Volume 1.” DOT/FAA/CT-88/8-1 (1991)  
 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA238039.xhtml)
 
+## Retro NTIS  
+
+![cover sheet.png](images/FAA-AR-TN95-119/cover%20sheet.png)  
+
+Document storage formats circa 1996: microfiche card, printed report, compact disc, and a 3.5" floppy disc.  
+
+From the cover sheet of  
+Richard K. Jeck: 
+“Representative Values of Icing-Related Variables Aloft in Freezing Rain and Freezing Drizzle,” 
+FAA Technical Note DOT/FAA/AR-TN95/119 (March 1996), 
+[ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA307822.xhtml)  
