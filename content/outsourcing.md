@@ -43,7 +43,7 @@ There is a NACA-TR-919, but the correct title is ["Accuracy of airspeed measurem
 and for NACA-TR-944 the title should be ["Analysis of spanwise temperature distribution in three types of air-cooled turbine blade"](https://ntrs.nasa.gov/search?q=NACA-TR-994), 
 neither of which are about ice protection.   
 
-NACA (Langley) did have a [C-54 test airplane during this time](https://www.history.nasa.gov/SP-4305/app-e.htm), 
+NACA (Langley) did have a [C-54 test airplane during this time](https://ntrs.nasa.gov/citations/19870014957), 
 but I could not find anything about it being used for icing research. 
 
 At least it got the dates for NACA correct.  

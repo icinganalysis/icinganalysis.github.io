@@ -222,14 +222,13 @@ It is difficult to publish much about the system without all three involved,
 and I have seen few details published. 
 
 An article describes some of the rationale for the "no bleed" architecture.  
-[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)   
-
+[NO BLEED, MORE ELECTRIC SYSTEMS ARCHITECTURE](https://web.archive.org/web/20070509132727/https://www.boeing.com/commercial/aeromagazine/articles/qtr_4_06/article_04_3.html)  
 It would be very challenging to provide enough power for electrothermal wing anti-ice, 
 unless the power supply system is specifically designed considering 
 all the airplane power requirements, including wing anti-ice.  
 
 A video produced by Ultra Electronics gives an overview of the wing ice protection system.  
-[787 Wing Ice Protection System Video](https://www.youtube.com/watch?v=7zNDDtg7dH0)  
+[787 Wing Ice Protection System Video](https://www.youtube.com/watch?v=7zNDDtg7dH0)[Unfortunately, this appears to have been removed]  
 
 An article describes some of the details of the electronic controls.  
 [MDE Semiconductor, Inc. TVS Diode Clamp Devices Provide Protection to Boeing 787 Dreamliner’s Unique Electro-thermal Wing De-icing System](https://mdesemiconductor.com/mde-semiconductor-inc-tvs-diode-clamp-devices-provide-protection-to-boeing-787-dreamliners-unique-electro-thermal-wing-de-icing-system/)  

@@ -108,7 +108,7 @@ To see all topics and the 100+ articles, see [Site Navigation]({filename}Reading
 ## Notes:
 [^1]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
 [^2]: ["Selected Bibliography of NACA-NASA Aircraft Icing Publications"]({filename}/The Historical Selected Bibliography of NACA-NASA Icing Publications.md)  
-[^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-and-trophies/collier-trophy/collier-1940-1949-winners/)  
+[^3]: [Collier Trophy Winners](https://naa.aero/awards/awards-trophies/collier-trophy/)   
 [^4]: “Airworthiness Standards: Transport Category Airplanes”, CFR 14, Part 25, Appendix C, Washington, DC, 2021 [Appendix C ecfr.gov](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-25/appendix-Appendix%20C%20to%20Part%2025)  
 [^5]: Bowden, D.T, et.al., “Engineering Summary of Airframe Icing Technical Data”, FAA Technical Report ADS-4, General Dynamics/Convair, San Diego, California, 1964. [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD608865.xhtml)  
 [^6]: “Ice, Frost, and Rain Protection”, SAE Aerospace Applied Thermodynamics Manual, 1969  (regularly updated, currently document [sae.org](https://www.sae.org/standards/content/air1168/4/))    

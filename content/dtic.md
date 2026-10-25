@@ -19,7 +19,7 @@ This has persisted since at least August 1, 2026 (I had not checked it recently 
 ## The National Technical Reports Library   
  
 I am in the process of updating links to use the 
-National Technical Reports Library [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL). 
+National Technical Reports Library [ntrl.ntis.gov](https://ntrl.ntis.gov). 
 The search engine is not intuitive to me, but it can get the job done
 (well enough that I hope they do not decide to "fine-tune the user experience"). 
 As far as I know, every document that was on the DTIC public site is also on the NTRL. 

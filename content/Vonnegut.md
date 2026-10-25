@@ -333,5 +333,5 @@ And reference 17 by Irving Langmuir:
 [^1]: Vonnegut, Bernard: "Supercooled Clouds" Lecture No. 1 in University of Michigan, College of Engineering: Airplane icing information course. Lectures presented in a special program at the University of Michigan, Ann Arbor, March 30-April 3, 1953. [lib.umich.edu](https://search.lib.umich.edu/catalog/record/990015261100106381)    
 [^2]: [scholar.google.com](https://scholar.google.com/scholar?q=b+vonnegut&hl=en&as_sdt=0%2C5&as_ylo=1919&as_yhi=1952)  
 [^3]: Vonnegut, Kurt: "Cat's Cradle", Holt, Rinehart and Winston, 1963.  
-[^4]: Langmuir Laboratory for Atmospheric Research, Storms Above the Desert, [langmuir.nmt.edu](http://langmuir.nmt.edu/Storms_Above/StormsAboveCh3.html)  
+[^4]: Langmuir Laboratory for Atmospheric Research, Storms Above the Desert, [langmuir.nmt.edu](http://langmuir.nmt.edu/Storms_Above/StormsAboveCh3.html) [currently 404, "On September 4, 2024 the NM Tech IT department informed us that the bespoke Langmuir webserver was a clear and present security risk and to upgrade immediately or be disconnected. We upgraded ... and it killed the server once and for all. We will bring it back"]  
 [^5]: Course detail: Aircraft Icing: Meteorology, Protective Systems, Instrumentation and Certification, [www.enrole.com](https://www.enrole.com/kupce/jsp/course.jsp?categoryId=&courseId=AERO0060)  

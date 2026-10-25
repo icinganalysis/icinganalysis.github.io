@@ -77,6 +77,6 @@ The next thread in the NACA review series is the [Ice Shapes Thread]({filename}i
 ![NACA-TN-3104 Figure 2. Schematic diagram of apparatus for sublimation, heat-transfer, and skin-friction studies of ice on a flat plate.](images/NACA-TN-3104/Figure2.png) 
 
 ## Notes  
-[^1]: Hansen, James R.: "The Wind and Beyond. A Documentary Journey into the History of Aerodynamics in America", [NASA-SP-4409 Vol. 2](https://history.nasa.gov/sp4409-vol2-2.pdf), Chapter 3, p. 529, 
+[^1]: Hansen, James R.: "The Wind and Beyond. A Documentary Journey into the History of Aerodynamics in America", [NASA-SP-4409 Vol. 2](https://www.nasa.gov/wp-content/uploads/2023/04/sp-4409-vol2.pdf), Chapter 3, p. 529, 
 EXTRACTS FROM LETTER DATED APRIL 12, 1936, FROM HONORABLE EDWARD P. WARNER TO DR. J. S. AMES, NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS, 2003.  
 
