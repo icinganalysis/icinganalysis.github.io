@@ -309,5 +309,4 @@ Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. C
 Review at: [Implementation of cylinder impingement correlations in Python]({filename}Implementation%20of%20cylinder%20impingement%20correlations%20in%20Python.md)  
 [^8]: 
 [naca icing publications database]({filename}naca%20icing%20publications%20database.md)  
-[^9]:
-Jeck, Richard K. "Advances in the characterization of supercooled clouds for aircraft icing applications". No. DOT-FAA-AR 07-4. Office of Aviation Research and Development, Federal Aviation Administration, 2008. [tc.faa.gov](http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  
+[^9]:Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  

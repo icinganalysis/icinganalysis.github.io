@@ -281,5 +281,12 @@ so it is difficult to compare to NACA-TN-2306 Figure 2 above.
 ## Notes  
 
 [^1]: Kline, Dwight B., and Walker, Joseph A.: Meteorological Analysis of Icing Conditions Encountered in Low-Altitude Stratiform Clouds. NACA-TN-2306, 1951. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068851)   
-[^2]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing", DOT/FAA/CT-83/21, 1983. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-21.pdf)  
-[^3]: Masters, Charles O.: A new characterization of supercooled clouds below 10,000 feet AGL. US Dept. of Transportation Report DOT. FAA/CT-83/22, 1983. [tc.faa.gov](https://www.tc.faa.gov/its/worldpac/techrpt/ct83-22.pdf)  
+[^2]: Jeck, Richard K: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep." Transportation Rep. DOT/FAA/CT-83/21 137 (1983). [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19860002276/downloads/19860002276.pdf)  
+[^3]: C. Masters: "A New Characterization of Supercooled Clouds Below 10,000 Feet AGL" DOT/FAA/CT-83/22 1988  
+[rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/92457/dot_92457_DS1.pdf)    
+The Preface notes: 
+"The preponderance of this work has been
+performed by Or. Richard K. Jeck of the U.S. Naval Research Laboratory (NRL). The
+author, in the creation of the new criteria, has used these data extensively, and
+has received invaluable assistance from Dr. Jeck in the process."  
+This is why I included it in Dr. Jeck's works.
