@@ -41,7 +41,7 @@ given by Lamb (ref. 3).
 Water-drop trajectories could then be calculated. 
 Results were presented in several forms. 
 Dimensionless parameters similar to the in 
-[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md) 
+[Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md) 
 were used to concisely summarize a wide range of results. 
 
 ![Figure 4.png](/images%2FNACA-TN-3099%2FFigure%204.png)  

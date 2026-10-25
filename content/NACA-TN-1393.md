@@ -306,7 +306,7 @@ Langmuir, Irving, and Blodgett, Katherine B.: A Mathematical Investigation of Wa
 Anon: Amendment to Code for Transmission of Icing Data from Mountain Stations. Circular Letter No. 78-45. U.S. Weather Bureadu, Oct. 1945.  
 [^6]: Rodert, Lewis A.: Some Suggested Specifications for Thermal Ice-Prevention System for Aircraft. Trans. ASME vol. 68 no. 7, October, 1946, pp. 781-789.  
 [^7]:
-Review at: [Implementation of cylinder impingement correlations in Python]({filename}Implementation%20of%20cylinder%20impingement%20correlations%20in%20Python.md)  
+Review at: [Implementation of cylinder impingement correlations in Python]({filename}/Implementation of cylinder impingement correlations in Python.md)  
 [^8]: 
 [naca icing publications database]({filename}naca%20icing%20publications%20database.md)  
 [^9]:Richard K. Jeck: Advances in the Characterization of Supercooled Clouds for Aircraft Icing Applications. DOT/FAA/AR-07/4, Appendix C, November 2008. [web.archive.org](https://web.archive.org/web/20161221102659/http://www.tc.faa.gov/its/worldpac/techrpt/ar074.pdf)  Note that there is a different pdf file at ntrl.nist, but that copy has blanks for some figures.  

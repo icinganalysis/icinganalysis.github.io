@@ -136,7 +136,7 @@ Howell, Wallace E.: Comparison of Three Multicylinder Icing Meters and Critique 
 [^2]: 
 Houghton, H. G., and Radford, W. H.: On the Measurement of Drop Size and Liquid Water Content in Fogs and Clouds. Papers in Phys. Oceanography and Meteorology, publ. by M.I.T. and Woods Hole Oceanographic Inst., Cambridge and Woods Hole (Mass.), vol. VI, no. 4, Nov. 1938.  
 [^3]: 
-Review at: [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
+Review at: [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
 [^4]:
 [Normal distribution at en.wikipedia.org](https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution)  
 [^5]:

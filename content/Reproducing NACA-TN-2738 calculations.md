@@ -262,6 +262,6 @@ NACA-TN-2738 was previously [reviewed]({filename}NACA-TN-2738.md).
 
 ## Notes  
 
-[^1]: Ranaudo, R. ,J.; Mikkelsen, K. L.; McKnight, R. C. and Perkins, P. J. Jr., "Performance Degradation of a Typical Twin Engine Commuter Type Aircraft in Measured Natural Icing Conditions," NASA TM 83564 and AIAA-84-0179, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19840005105)  
+[^1]: Ranaudo, R., J.; Mikkelsen, K. L.; McKnight, R. C. and Perkins, P. J. Jr., "Performance Degradation of a Typical Twin Engine Commuter Type Aircraft in Measured Natural Icing Conditions," NASA TM 83564 and AIAA-84-0179, 1984. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19840005105)  
 [^2]: Mikkelsen, K. L., McKnight, R. C., Ranaudo, R. J. and Perkins, P. J. Jr., "Icing Flight Research: Aerodynamic Effects of Ice and Ice Shape Documentation with Stereo Photography," NASA TM 86906 or AIAA-85-0468, 1985. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19850009740)  
 [^3]: Lewis, William, and Bergrun, Norman R.: A Probability Analysis of the Meteorological Factors Conducive to Aircraft Icing in the United States. NACA-TN-2738, 1952. [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/19810068847)  

@@ -68,7 +68,7 @@ The original version of the impingement calculation with a drop size distributio
 ## Notes  
 
 [^1]: 
-Review at: [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical%20Investigation%20of%20Water%20Droplet%20Trajectories.md)  
+Review at: [Mathematical Investigation of Water Droplet Trajectories]({filename}Mathematical Investigation of Water Droplet Trajectories.md)  
 [^2]:  
 Anon: Anaconda Software Distribution. version 2021-11 (Python 3.7), Anaconda Inc. Available at: [anaconda.com](https://www.anaconda.com/)  
 [^3]: [github.com](https://github.com/icinganalysis/icinganalysis.github.io)  
