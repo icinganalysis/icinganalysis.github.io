@@ -167,7 +167,6 @@ Models and Characteristics of Freezing Rain and Freezing Drizzle for Aircraft Ic
 January 2010, 
 DOT/FAA/AR-09/45. 
 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2010107339.xhtml)  
-[this is the "Jeck (2006) [FAA Master SLD Database: Description and Analyses] to be published in 2009" report referenced in AR-09/10]  
-[The database is available by request from the FAA Technical Center, email me if you would like a more specific contact.]  
+(this is the "Jeck (2006) [FAA Master SLD Database: Description and Analyses] to be published in 2009" report referenced in AR-09/10)  
 [^10]: Compliance of Transport Category Airplanes with Certification Requirements for Flight in Icing Conditions, October 10, 2014, AC 25-28. [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_25-28.pdf)  
 

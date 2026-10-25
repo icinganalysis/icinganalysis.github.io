@@ -195,7 +195,7 @@ Natural Probabilities are discussed further in the post [Natural Probabilities](
 [^3]: Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 [archive.org](https://archive.org/details/rd80-24) [ntrl.ntis.gov has a listing, but does not have a pdf file].  
 [^4]: Jeck, R.: "A new database of supercooled cloud variables for altitudes up to 10,000 feet AGL and the implications for low altitude aircraft icing. US Department of Transportation Rep." Transportation Rep. DOT/FAA/CT-83/21 137 (1983). [ntrs.nasa.gov](https://ntrs.nasa.gov/api/citations/19860002276/downloads/19860002276.pdf)  
 [^5]: NB Guttman, RK Jeck, MR Henderson, MD Mueller: The Aircraft Icing Environment in Wintertime, Low Ceiling Conditions. No. NRLMR5650. 1985.
-(a similar title is at [journals.ametsoc.org]https://journals.ametsoc.org/view/journals/wefo/2/2/1520-0434_1987_002_0114_aieilc_2_0_co_2.xml))
+(a similar title is at [journals.ametsoc.org](https://journals.ametsoc.org/view/journals/wefo/2/2/1520-0434_1987_002_0114_aieilc_2_0_co_2.xml))
 [^6]: Guttman, Nathaniel B., and Richard K. Jeck. "Aircraft icing environment in low ceiling conditions near Washington, DC." Weather and Forecasting 2.2 (1987): 114-126.  [doi.org](https://doi.org/10.1175/1520-0434(1987)002<0114:AIEILC>2.0.CO;2)  
 [^7]: C. Masters: "A New Characterization of Supercooled Clouds Below 10,000 Feet AGL" DOT/FAA/CT-83/22 1988  
 [rosap.ntl.bts.gov](https://rosap.ntl.bts.gov/view/dot/92457/dot_92457_DS1.pdf)    
