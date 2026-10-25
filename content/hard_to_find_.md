@@ -28,7 +28,7 @@ finding them as loanable print copies or digitally.
 
 ## Recently made available  
 
-- Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 [ntrl.ntis.gov](https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA088892.xhtml) (link has no pdf file)  
+- Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 [archive.org](https://archive.org/details/rd80-24) [ntrl.ntis.gov has a listing, but does not have a pdf file].  
 Thanks to the FAA Tech Center for providing a copy.  
 
 - Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR No. 3E29, May 1943.  
