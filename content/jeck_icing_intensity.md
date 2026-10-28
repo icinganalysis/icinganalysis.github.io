@@ -1,6 +1,6 @@
 status: draft  
 title: Aircraft Icing Intensities      
-Date: 2026-10-21 16:00  
+Date: 2026-10-30 16:00  
 tags: Dr. Jeck, Appendix C
 
 ### _"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"_  
