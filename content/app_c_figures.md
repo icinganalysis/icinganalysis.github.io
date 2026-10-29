@@ -1,4 +1,3 @@
-status: draft  
 title: "New Replacement Figures for 14 CFR-25, 29, Appendix C"  
 Date: 2026-10-30 14:00  
 tags: Dr. Jeck, Appendix C

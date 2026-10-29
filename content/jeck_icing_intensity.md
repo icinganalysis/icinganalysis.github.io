@@ -1,4 +1,3 @@
-status: draft  
 title: Aircraft Icing Intensities      
 Date: 2026-10-30 16:00  
 tags: Dr. Jeck, Appendix C

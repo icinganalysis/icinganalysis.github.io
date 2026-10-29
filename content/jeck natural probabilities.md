@@ -1,4 +1,3 @@
-status: draft  
 title: Natural Probabilities    
 Date: 2026-10-30 18:00  
 tags: Dr. Jeck, Appendix C, Probability

@@ -1,4 +1,3 @@
-status: draft  
 title: Dr. Jeck's Works on Supercooled Large Drops        
 Date: 2026-10-30 15:00  
 tags: Dr. Jeck, SLD  

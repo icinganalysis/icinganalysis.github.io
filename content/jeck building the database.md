@@ -1,4 +1,3 @@
-status: draft  
 title: Origins of The Supercooled Cloud Database  
 Date: 2026-10-30 17:00  
 tags: Dr. Jeck, Appendix C, Probability

@@ -1,4 +1,3 @@
-status: draft  
 title: Conclusions of the Series on Dr. Jeck    
 Date: 2026-10-30 21:00  
 tags: Dr. Jeck, Appendix C, SLD, Probability  

@@ -1,4 +1,3 @@
-status: draft  
 title: Using the Supercooled Cloud Database  
 Date: 2026-10-30 20:00  
 tags: Dr. Jeck, Appendix C, Probability  
