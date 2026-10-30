@@ -1,5 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Sun, 25 Oct 2026 06:44:55 -0700</lastBuildDate><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blast from the Past: NACA Icing Publications</title><link>/</link><description/><atom:link href="https://icinganalysis.github.io/feeds/all.rss.xml" rel="self"/><lastBuildDate>Fri, 30 Oct 2026 21:00:00 -0700</lastBuildDate><item><title>Conclusions of the Series on Dr. Jeck</title><link>/conclusions-of-the-series-on-dr-jeck.html</link><description>&lt;h3&gt;&lt;em&gt;"... to illustrate the possibilities" &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Figure 25d." src="images/DOT-FAA-AR-00-30/Figure%2025d.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image from DOT/FAA/AR-00/30.&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Dr. Jeck was described as "A gifted physicist and innovator" &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;. 
+We have seen several examples in this series. 
+Several of his proposals have been adopted, while others are still open possibilities.  &lt;/p&gt;
+&lt;h2&gt;Dr. Jeck's own summaries&lt;/h2&gt;
+&lt;p&gt;Here are selected conclusions from three of Dr. Jeck's later works:  &lt;/p&gt;
+&lt;p&gt;"Icing Design Envelopes (14 CFR Parts 25 and 29, Appendix C) Converted to a Distance-Based Format &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The methods illustrated here provide the icing practitioner with straightforward, understandable, and
+meaningful ways to document, compare, and evaluate data on icing conditions. 
+They offer a set of working standards for achieving consistency and uniformity among users. 
+Some methods may be more useful than others, depending on the application, but a variety are offered, 
+with examples, to illustrate the possibilities.&lt;br&gt;
+The example graphs also illustrate the use of computerized spreadsheet software for …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 21:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/conclusions-of-the-series-on-dr-jeck.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>SLD</category><category>Probability</category></item><item><title>Using the Supercooled Cloud Database</title><link>/using-the-supercooled-cloud-database.html</link><description>&lt;h3&gt;&lt;em&gt;"The confidence in the curves is strongest where the data points are plentiful."&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="jeck reproduce fig 22." src="images/Jeck/jeck%20reproduce%20fig%2022.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With over 6,000 measurements and 28,000 nmi of natural icing flight test data, 
+there are many analyses that can be performed.  &lt;/p&gt;
+&lt;p&gt;Here, I will attempt to reproduce some of the Natural Probability curves.  &lt;/p&gt;
+&lt;h2&gt;Files provided for the SCDB&lt;/h2&gt;
+&lt;p&gt;I will refer to Dr. Jeck's published values as the Supercooled Cloud Database or SCDB.  &lt;/p&gt;
+&lt;p&gt;The database files I received I will refer to at the spreadsheet or spreadsheets.  &lt;/p&gt;
+&lt;p&gt;There are area where they are not exactly the same, as will be shown below.  &lt;/p&gt;
+&lt;p&gt;I requested a copy of the SCDB from the FAA, and was provided with a copy. 
+It came as two spreadsheet files, 
+"Convective Cloud Icing Events_original.xls" and "Layer Cloud Icing Events_original.xls". 
+There is only one sheet per file, and no macros, so these are essentially rows and columns of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 20:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/using-the-supercooled-cloud-database.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>Probability</category></item><item><title>Working with Natural Probabilities</title><link>/working-with-natural-probabilities.html</link><description>&lt;h3&gt;&lt;em&gt;"A number of potential uses are illustrated for the new format, particularly for comparing icing test exposures to ... natural probabilities of occurrence."&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Figure 23." src="images/DOT-FAA-AR-00-30/Figure%2023.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image from DOT/FAA/AR-00/30. &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In DOT/FAA/AR-00/30 &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; Dr. Jeck wrote of Figure 23:   &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;3.2 COMPARING WITH NATURAL LWC PROBABILITIES.&lt;br&gt;
+...&lt;br&gt;
+Figure 23 shows a set of LWC probability curves derived from about 23,000 nmi of flight data in
+stratiform icing conditions. Any given curve indicates the probability that randomly encountered,
+stratiform icing conditions will have an average LWC somewhere below the curve. For example,
+the 50% curve means that half of the LWC averages will lie below the curve and half will lie above
+it. The 90% curve means that 90% of all LWC averages can be expected to lie below it, for any
+given averaging distance, or horizontal extent.  &lt;/p&gt;
+&lt;p&gt;The sample LWC trace has been plotted on …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 19:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/working-with-natural-probabilities.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>Probability</category></item><item><title>Natural Probabilities</title><link>/natural-probabilities.html</link><description>&lt;h3&gt;&lt;em&gt;"what is the probability of finding such a test exposure in nature?"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Figure 23." src="images/DOT-FAA-AR-00-30/Figure%2023.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain figure from DOT/FAA/AR-00/30.&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;A 28,000 nmi database is large enough to calculate 
+meaningful probabilities, which Dr. Jeck termed Natural Probabilities.  &lt;/p&gt;
+&lt;p&gt;He also used the data to make the remarkable proposal of replacing the figures in Appendix C 
+with distance and probability based ones. 
+While this has not yet been adopted, some of his proposals have been adopted as supplements.  &lt;/p&gt;
+&lt;h2&gt;Natural LWC Probabilities&lt;/h2&gt;
+&lt;p&gt;Dr. Jeck introduces the term "Natural LWC Probabilities" in the context of discussing 
+analysis of flight test data in DOT/FAA/AR-00/30 &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;3.2 COMPARING WITH NATURAL LWC PROBABILITIES.  &lt;/p&gt;
+&lt;p&gt;One comparison that is not possible with Appendix C is the question of how common, or
+uncommon, was a particular test flight icing encounter? Or, how representative of nature is a
+particular icing wind tunnel exposure or computer …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 18:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/natural-probabilities.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>Probability</category></item><item><title>Origins of The Supercooled Cloud Database</title><link>/origins-of-the-supercooled-cloud-database.html</link><description>&lt;h3&gt;&lt;em&gt;"Thanks are also due ... for their patience and support on this long project." &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Figure 22." src="images/FAA-AR-07-4/Figure%2022.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain image from DOT/FAA/AR-07/4.&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;There are 28000 nmi of measured natural icing flight test data in the database, 
+with over 6000 individual measurements. 
+Data from more than two dozen organizations for flights between 1946 and 1988 (42 years) 
+were collected into the database. &lt;/p&gt;
+&lt;p&gt;Dr. Richard Jeck of the FAA was the lead in assembling the database. &lt;/p&gt;
+&lt;p&gt;Dr. Jeck used the term "Supercooled Cloud Database", so here we will abbreviate that to Database or SCDB.  &lt;/p&gt;
+&lt;p&gt;The database took at least 14 years to assemble. &lt;/p&gt;
+&lt;h2&gt;Early Motivations for the Database&lt;/h2&gt;
+&lt;p&gt;Nearly of the database (14,372 nmi out of 28,000) of the Database already existed before Dr. Jeck started: 
+The inflight icing data from the NACA-era. 
+That data was the basis of the current Appendix C icing environment definitions. 
+See &lt;a href="/conclusions-of-the-meteorology-of-icing-clouds-thread.html"&gt;Conclusions of …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 17:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/origins-of-the-supercooled-cloud-database.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>Probability</category></item><item><title>Aircraft Icing Intensities</title><link>/aircraft-icing-intensities.html</link><description>&lt;h3&gt;&lt;em&gt;"AN ENGINEERING-ENABLED (MEASURABLE! AND CALCULABLE!) ICING SEVERITY SCALE"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Title from an outline of topics by Dr. Jeck.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Relating Note Figure 1" src="images/Jeck/Relating%20Note%20Figure%201.png"&gt;&lt;br&gt;
+&lt;em&gt;Image from an Icing Information Note.&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Dr. Jeck's "A History and Interpretation of Aircraft Icing Intensity Definitions and FAA Rules for Operating in Icing Conditions"
+&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; outlines the history in the US Code of Federal Regulations. 
+Changes require a public comment period, so there was often debate (and on some occasions controversy). 
+The definitions can affect which aircraft are certified perform Flight In Known Icing (FIKI), 
+so there is great economic and practical interest to any changes.  &lt;/p&gt;
+&lt;p&gt;See &lt;a href="/the-greatest-thing-that-you-have-probably-never-read-1969-aircraft-ice-protection-report-of-symposium.html"&gt;1969 Aircraft Ice Protection Report of Symposium&lt;/a&gt; 
+for Dr. Jeck's summary of one controversial occasion in 1969.  &lt;/p&gt;
+&lt;p&gt;Dr. Jeck proposed a "universal curve" and made recommendations for changes as part of the The FAA Inflight Aircraft Icing Plan 
+(discussed in &lt;a href="/dr-jecks-works-on-supercooled-large-drops.html"&gt;"Dr. Jeck's Works on Supercooled Large Drops"&lt;/a&gt;).  &lt;/p&gt;
+&lt;h2&gt;FAA Inflight Aircraft Icing Plan &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; Task …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 16:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/aircraft-icing-intensities.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category></item><item><title>Dr. Jeck's Works on Supercooled Large Drops</title><link>/dr-jecks-works-on-supercooled-large-drops.html</link><description>&lt;p&gt;&lt;em&gt;"Very limited amounts of data are presently available for variables associated with ZR and ZL [SLD] conditions aloft."&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Figure H-8" src="images/FAA-AR-09-45/Figure%20H-8.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain figure from DOT/FAA/AR-09/45 ("FZDZ" or "ZL" is freezing drizzle, a form of supercooled large drops, SLD).&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;A tragic accident leads to icing research&lt;/h2&gt;
+&lt;p&gt;In 1994 an accident occurred near Roselawn &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, Indiana, USA, 
+that was later attributed in part to Supercooled Large Drop icing (SLD, drop sizes large than those in 14 CFR Part 25 Appendix C) &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;. 
+This led to a multinational effort to better understand such 
+icing conditions and their effects on aircraft. 
+New regulations ("Appendix O") were published in 2014 &lt;sup id="fnref2:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.  &lt;/p&gt;
+&lt;p&gt;The wikipedia article &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; is an excellent summary of the event. 
+One also will be well rewarded for studying the detailed National Transportation Safety Board reports &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt;.  &lt;/p&gt;
+&lt;h2&gt;FAA Inflight Aircraft Icing Plan&lt;/h2&gt;
+&lt;p&gt;Airworthiness Directives and other interim measures were imposed soon after …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 15:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/dr-jecks-works-on-supercooled-large-drops.html</guid><category>misc</category><category>Dr. Jeck</category><category>SLD</category></item><item><title>"New Replacement Figures for 14 CFR-25, 29, Appendix C"</title><link>/new-replacement-figures-for-14-cfr-25-29-appendix-c.html</link><description>&lt;h3&gt;&lt;em&gt;"Modernized Appendix C - The Beauty &amp;amp; Benefits of Digitized Figures"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Quote from an unpublished outline of topics by Richard Jeck.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="appc_fig1_redrawn_stripes" src="images/Jeck/appc_fig1_redrawn_stripes.png"&gt;  &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The late Dr. Richard Jeck of the FAA &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; in his &lt;a href="/icing-information-notes.html"&gt;Icing Information Notes&lt;/a&gt; advocated "New Replacement Figures for 14 CFR-25,29, Appendix C". &lt;/p&gt;
+&lt;p&gt;The "Icing Information Note" was essentially a 
+draft of what became Appendix F of DOT/FAA/AR-07/4 &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.  &lt;/p&gt;
+&lt;p&gt;Here, I will note a missed opportunity to make them available, 
+and offer other "modernized" means of producing figures as an alternative.  &lt;/p&gt;
+&lt;h2&gt;Appendix F&lt;/h2&gt;
+&lt;p&gt;As it is brief, Appendix F is reproduced in large part below:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;APPENDIX F—COMPUTERIZED VERSIONS OF 14 CFR PARTS 25 AND 29 APPENDIX C&lt;/p&gt;
+&lt;p&gt;Title 14 Code of Federal Regulations (CFR) Parts 25 and 29 Appendix C (herein referred to as
+Appendix C) contains six graphs of design variables that are used by designers of in-flight ice
+protection systems and by data …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 14:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/new-replacement-figures-for-14-cfr-25-29-appendix-c.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category></item><item><title>"Icing Information Notes"</title><link>/icing-information-notes.html</link><description>&lt;h3&gt;&lt;em&gt;"A Treasure Trove"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="figure H-1" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
+Therefore, it is defined here in a way that is compatible with conventional usage.&lt;/em&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Public Domain figure and text from DOT/FAA/AR-07/4 &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, also contained in a prior Icing Information Note.&lt;/em&gt;  &lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Perhaps the best summary of Dr. Jeck's works is a summary that he wrote himself.  &lt;/p&gt;
+&lt;p&gt;In 2018 Dr. Richard Jeck, retired from the FAA, sent via private email a collection of his "Icing Information Notes" ["Notes"], 
+which one reader dubbed "A Treasure Trove".  &lt;/p&gt;
+&lt;p&gt;I believe that this is one of the last communications on the technical topic that Dr. Jeck had, 
+and the Notes may summarize what he viewed as some of the most important and useful of his decades of works.  &lt;/p&gt;
+&lt;h2&gt;History of the Notes&lt;/h2&gt;
+&lt;p&gt;A biography &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; explains:  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After Dr. Jeck transferred from NRL …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 13:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/icing-information-notes.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category></item><item><title>28,000 Miles of Data: The Publications of Dr. Richard Jeck</title><link>/28000-miles-of-data-the-publications-of-dr-richard-jeck.html</link><description>&lt;h3&gt;&lt;em&gt;"a number of advantages and uses of this new, distance-based format"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="figure12.png" src="images/DOT-FAA-AR-00-30/figure12.png"&gt;&lt;br&gt;
+&lt;em&gt;Public Domain figure from DOT/FAA/AR-00/30.&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;Dr. Richard Jeck &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, retired from the FAA, passed away in January 2026 &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.  &lt;/p&gt;
+&lt;p&gt;Dr. Jeck had over 60 publications in the area of aircraft icing &lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;. 
+Many of them have been cited numerous times, and are currently cited in 2026.  &lt;/p&gt;
+&lt;p&gt;I knew Dr. Jeck professionally through industry organizations (AIAA, SAE) and meetings with the FAA.  &lt;/p&gt;
+&lt;p&gt;I had the opportunity to have a drink with him one evening circa 1993 at an AIAA meeting. 
+He was generous with his time to a junior engineer.  &lt;/p&gt;
+&lt;p&gt;He was uniquely gifted in translating meteorological data into terms that could be understood and used 
+by the diverse communities within aircraft icing
+(meteorologists, researchers, regulators, industry, pilots, academia, and others).  &lt;/p&gt;
+&lt;p&gt;Here we will review and celebrate some of his numerous technical publications.  &lt;/p&gt;
+&lt;p&gt;His obituary notes him …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Fri, 30 Oct 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-10-30:/28000-miles-of-data-the-publications-of-dr-richard-jeck.html</guid><category>misc</category><category>Dr. Jeck</category><category>Appendix C</category><category>SLD</category><category>Probability</category></item><item><title>Seeking "Icing Information Notes"</title><link>/seeking-icing-information-notes.html</link><description>&lt;p&gt;&lt;img alt="figH-1.png" src="images/FAA-AR-07-4/figH-1.png"&gt;  &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Although horizontal extent is a common term in the icing literature, it has not been defined anywhere.
 Therefore, it is defined here in a way that is compatible with conventional usage.&lt;/em&gt;  &lt;/p&gt;
@@ -42,7 +186,7 @@ It had a better search engine than some alternatives.  &lt;/p&gt;
 &lt;p&gt;This has persisted since at least August 1, 2026 (I had not checked it recently before that).  &lt;/p&gt;
 &lt;h2&gt;The National Technical Reports Library&lt;/h2&gt;
 &lt;p&gt;I am in the process of updating links to use the 
-National Technical Reports Library &lt;a href="https://ntrl.ntis.gov/NTRL"&gt;ntrl.ntis.gov&lt;/a&gt;. 
+National Technical Reports Library &lt;a href="https://ntrl.ntis.gov"&gt;ntrl.ntis.gov&lt;/a&gt;. 
 The search engine is not intuitive to me, but it can get the job done
 (well enough that I hope they do not decide to "fine-tune the user …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 04 Aug 2026 16:00:00 -0700</pubDate><guid>tag:None,2026-08-04:/the-national-technical-reports-library.html</guid><category>misc</category><category>DTIC</category><category>NTRL</category><category>search</category></item><item><title>Estimating Icing Conditions with Highest Drag</title><link>/estimating-icing-conditions-with-highest-drag.html</link><description>&lt;h3&gt;&lt;em&gt;"These data will be useful in evaluating and formulating ice accretion analyses and also performance penalty predictions."&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;from NASA-TM-83556.&lt;/em&gt;  &lt;/p&gt;
@@ -103,11 +247,11 @@ finding them as loanable print copies or digitally.  &lt;/p&gt;
 &lt;h2&gt;Recently made available&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 &lt;a href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA088892.xhtml"&gt;ntrl.ntis.gov&lt;/a&gt; (link has no pdf file)&lt;br&gt;
+&lt;p&gt;Richard Jeck: "Icing Characteristics of Low Altitude, Supercooled Layer Clouds." 1980 FAA/RD-80/24 &lt;a href="https://archive.org/details/rd80-24"&gt;archive.org&lt;/a&gt; [ntrl.ntis.gov has a listing, but does not have a pdf file].&lt;br&gt;
 Thanks to the FAA Tech Center for providing a copy.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero. 1783, Nov. 1942. Reprinted as NACA MRR …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category><category>search</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;p&gt;Heat Transfer Calculation for Aerofoils RAE Rep. No. Aero …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sun, 12 Jul 2026 12:00:00 -0700</pubDate><guid>tag:None,2026-07-12:/hard-to-find-publications.html</guid><category>misc</category><category>database</category><category>search</category></item><item><title>Testing Messinger Freezing Fraction Correlations with the IceVal Database</title><link>/testing-messinger-freezing-fraction-correlations-with-the-iceval-database.html</link><description>&lt;h3&gt;&lt;em&gt;"an empirical relationship was obtained which correlated ice accretion thickness and ice angles with theoretical impingement parameters."&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="ice_val_na_ne2_na_ne.png" src="images/iceval_mff/ice_val_na_ne2_na_ne.png"&gt;  &lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Studies have correlated icing conditions to ice shapes and their effects. 
@@ -1626,165 +1770,4 @@ water impingement are presented.&lt;/p&gt;
 &lt;h2&gt;Discussion&lt;/h2&gt;
 &lt;p&gt;We have already seen most of the titles on the "Impingement on Other Surfaces" topic:  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 07 Nov 2023 12:00:00 -0800</pubDate><guid>tag:None,2023-11-07:/impingement-on-other-surfaces.html</guid><category>impingement</category><category>impingement</category></item><item><title>Impingement on Airfoils</title><link>/impingement-on-airfoils.html</link><description>&lt;h3&gt;&lt;em&gt;"Although the airfoils used in these studies were a rather ad hoc collection of shapes and sizes, this report makes these data generally available and correlates the data as much as possible."&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 2. Airfoil sections studied with dye-tracer technique. Sections laid out in free-stream direction." src="/images%2Fnaca-tn-3839%2FFigure%202.png"&gt;&lt;br&gt;
-&lt;em&gt;From NACA-TN-3839.&lt;/em&gt;  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-2931, "A Method for Determining Cloud-Droplet Impingement on Swept Wings"&lt;/h1&gt;
-&lt;p&gt;and  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-3839, "Experimental Droplet Impingement on Several Two-Dimensional Airfoils with Thickness Ratios of 6 to 16 Percent"&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Several airfoils were analyzed and tested for water-drop impingement in the NACA-era. &lt;/p&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The rate and area of cloud droplet impingement on several two-dimensional 
-swept and unswept airfoils were obtained experimentally in
-the NACA Lewis icing tunnel with a dye-tracer technique. Airfoil thickness 
-ratios of 6 to 16 percent; angles of attack from 0° to 12°, and
-chord sizes from 13 to 96 inches were included in the study. The data
-were obtained at 152 knots and are extended to other conditions by dimensionless 
-impingement parameters.&lt;br&gt;
-In general …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Thu, 02 Nov 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-11-02:/impingement-on-airfoils.html</guid><category>impingement</category><category>impingement</category></item><item><title>Impingement in Elbow Ducts</title><link>/impingement-in-elbow-ducts.html</link><description>&lt;h3&gt;&lt;em&gt;"Icing of air-intake ducts and scoops with subsequent reduction in pressure recovery and in air flow may adversely affect the operation of the aircraft."&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From NACA-TN-2999.&lt;/em&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure 2 of NACA-TN-3770. Elbow with some typical streamlines and droplet trajectories." src="/images%2FNACA-TN-3770%2FFigure%202.png"&gt;  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-2999, "Impingement of Droplets in 90° Elbows with Potential Flow" &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;p&gt;and  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-3770, "Impingement of Droplets in 60° Elbows with Potential Flow" &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The impingement of water-drops in idealized elbow ducts is calculated with potential flow.  &lt;/p&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;NACA-TN-2999&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Trajectories were determined for droplets in air flowing through
-90° elbows especially designed for two-dimensional potential motion with
-low pressure losses. The elbows were established by selecting as walls
-of each elbow two streamlines of the flow field produced by a complex
-potential function that establishes a two-dimensional flow around a 90°
-bend. An unlimited number of elbows with slightly different shapes can
-be established by selecting different pairs of streamlines as walls.
-The elbows produced by the complex potential function selected are suitable …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 31 Oct 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-10-31:/impingement-in-elbow-ducts.html</guid><category>impingement</category><category>impingement</category></item><item><title>Impingement in Engine Inlets</title><link>/impingement-in-engine-inlets.html</link><description>&lt;h3&gt;&lt;em&gt;"In spite of the simplicity, the configurations are reasonable approximation of those found on aircraft"&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;NACA-TR-1317.&lt;/em&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure 1. Inlet configurations. (a) Configuration 1. Inlet velocity ratio 1.0. (b) Configuration 2. Inlet velocity ratio 0.7." src="/images%2FNACA-TR-1317%2FFigure%201.png"&gt;&lt;br&gt;
-&lt;em&gt;From NACA-TR-1317.&lt;/em&gt;  &lt;/p&gt;
-&lt;h1&gt;NACA-TR-1317, "Cloud-Droplet Ingestion in Engine Inlets with Inlet Velocity Ratios of 1.0 and 0.7."&lt;/h1&gt;
-&lt;p&gt;and  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-4268, "Droplet Impingement and Ingestion by Supersonic Nose Inlet in Subsonic Tunnel Conditions."&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;"Important general concepts" of impingement on engine inlets are illustrated. &lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;In the first title here, the use of potential flow to determine water-drop trajectories gets pushed to the limit. 
-In a demonstration of the pragmatism that ran through much of the ice protection development at NACA, 
-investigators produced results on configurations that could be analyzed that were close enough to 
-real aircraft geometries. &lt;/p&gt;
-&lt;p&gt;In NACA-TN-3770, we enter the supersonic jet age, with a dye-tracer method test of 
-a supersonic inlet (but at a lower Mach number). We will see a test of "the configurations are reasonable approximation".  &lt;/p&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;h3&gt;Inlet impingement …&lt;/h3&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 25 Oct 2023 13:00:00 -0700</pubDate><guid>tag:None,2023-10-25:/impingement-in-engine-inlets.html</guid><category>impingement</category><category>impingement</category></item><item><title>Shadow Zones and Concentration Zones</title><link>/shadow-zones-and-concentration-zones.html</link><description>&lt;h3&gt;&lt;em&gt;"... local concentration factors should be considered when choosing the location of devices that protrude into the stream from aircraft fuselages or missiles, or when determining anti-icing heat requirements for the protection of these devices."&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 2. Sketch of regions of varying droplet concentration around fore part of fuselage. 
-An oval cross section of an airplane nose with at thin &amp;quot;region of reduces or zero concentration (shadow zone)&amp;quot; and then a thin &amp;quot;region of high concentration&amp;quot; displaced slightly off of the surface. 
-A mast further aft has no ice near the base, thick ice in the concentration zone, and thinner ice further out." src="/images%2FNACA-TN-3410%2FFigure%202.png"&gt;&lt;br&gt;
-&lt;em&gt;From NACA-TN-3410.&lt;/em&gt;  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-3153, "Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 5 Moving in a Droplet Field" &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;p&gt;and  &lt;/p&gt;
-&lt;h1&gt;NACA-TN-3410, "Variation of Local Liquid-Water Concentration about an Ellipsoid of Fineness Ratio 10 Moving in a Droplet Field" &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The concentration of water-drops varies with distance from a surface in flight.  &lt;/p&gt;
-&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Trajectories of water droplets about an ellipsoid of revolution
-with a fineness ratio of 5 (which often approximates the shape of an aircraft
-fuselage or missile) were computed with the aid of a differential analyzer. 
-Analyses of these trajectories indicate that the local concentration of
-liquid water at various points about an ellipsoid varies considerably
-and under some conditions may be …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 24 Oct 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-10-24:/shadow-zones-and-concentration-zones.html</guid><category>impingement</category><category>impingement</category></item><item><title>Bodies of Revolution</title><link>/bodies-of-revolution.html</link><description>&lt;h3&gt;&lt;em&gt;"The presence of radomes and instruments that are sensitive to water films or ice formations in the nose section of all-weather aircraft and missiles necessitates a knowledge of the droplet impingement characteristics of bodies of revolution."&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure 1. Coordinate system for droplet trajectory calculations about an ellipsoid of revolution of fineness ration 5." src="/images%2FNACA-TN-3099%2FFigure%201.png"&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Water-drop impingement on several bodies of revolution is quantified.  &lt;/p&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;NACA-TN-4092 &lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4"&gt;4&lt;/a&gt;&lt;/sup&gt; notes:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The impingement characteristics of bodies of revolution are of interest because such
-bodies are representative of many aircraft components subject to icing
-such as radomes, body noses, engine accessory housings, and the large
-spinners of turboprop engines.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;NACA-TN-3099 &lt;sup id="fnref2:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; is the first in a series and has a rather complete description of the analysis methods, 
-so the discussion below refers to that, unless noted otherwise. &lt;/p&gt;
-&lt;h3&gt;Flow field&lt;/h3&gt;
-&lt;p&gt;Potential flow can be determined in 2D radial coordinates as well as 2D Cartesian coordinates. 
-This was used to assess several geometries. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The air velocity components for incompressible nonviscous flow
-about a …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 18 Oct 2023 19:00:00 -0700</pubDate><guid>tag:None,2023-10-18:/bodies-of-revolution.html</guid><category>impingement</category><category>impingement</category><category>radomes</category></item><item><title>Methods of Water Drop Impingement Quantification</title><link>/methods-of-water-drop-impingement-quantification.html</link><description>&lt;h3&gt;&lt;em&gt;"One of the first essentials ... is a method for estimating or calculating the area over which water will strike the wing, and the distribution of water impingement over that area"&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From NACA-TN-1397.&lt;/em&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure 7 of NACA-TN-3839. Typical droplet water impingement rates on NACA 651-212 airfoil. Airspeed, 152 knots; volumetric-median droplet diameter, 16.7 microns; angle of attack, 4 degrees." src="images%2Fnaca-tn-3839%2FFigure%207.png"&gt;&lt;br&gt;
-&lt;em&gt;From NACA-TN-3839.&lt;/em&gt;    &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Several methods were used to quantify the water-drop impingement on a surface, such as a wing. &lt;/p&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;We already saw in the &lt;a href="/icing-on-cylinders.html"&gt;Icing on Cylinders thread&lt;/a&gt; calculations made for impingement on a cylinder. 
-The technique was expanded in NACA-TN-1397 to include Joukowski type airfoils. 
-This allowed a transformation of the flow solution around a cylinder to be mapped into airfoil coordinates, 
-and then used to solve for water drop trajectory calculations, similar to those used for cylinders. &lt;/p&gt;
-&lt;p&gt;NACA-TN-1397 said one could calculate "the trajectory a single drop without the utilization of a differential analyzer". 
-We saw the differential analyzer in the &lt;a href="/icing-on-cylinders.html"&gt;Icing on Cylinders thread&lt;/a&gt;, 
-in particular detail in &lt;a href="/naca-tn-2904.html"&gt;NACA-TN-2904&lt;/a&gt;. 
-However, the example given (Table …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Mon, 16 Oct 2023 15:00:00 -0700</pubDate><guid>tag:None,2023-10-16:/methods-of-water-drop-impingement-quantification.html</guid><category>impingement</category><category>impingement</category><category>water drops</category></item><item><title>Water Drop Impingement on Surfaces</title><link>/water-drop-impingement-on-surfaces.html</link><description>&lt;h3&gt;&lt;em&gt;"For a complete appraisal of the problem of ice prevention on aircraft, further water-droplet impingement data are needed"&lt;/em&gt;  &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Figure 5. Relationship of water-drop trajectories to streamline field about a symmetrical Joukowski airfoil 12 percent thick." src="/images%2Fnaca-tn-1397%2FFigure%205.png"&gt;&lt;br&gt;
-&lt;em&gt;Figure 5 of NACA-TN-1397&lt;/em&gt;  &lt;/p&gt;
-&lt;h1&gt;Water Drop Impingement on Surfaces Thread&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Water-drop impingement quantification is key to aircraft ice protection design.  &lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Part of designing for aircraft icing is determining how much ice the airplane can accumulate. 
-For ice protection systems, determining how much water that might freeze hits a surface is a key detail. &lt;/p&gt;
-&lt;p&gt;An important effect is that the airflow around a surface such as a wing airfoil deflects water-drops, 
-so that all of the water-drops in the frontal area view will not hit the surface.&lt;/p&gt;
-&lt;p&gt;Water-drop impingement quantification methods were developed to assess how many drops can hit where on a surface. 
-Direct test methods involved the use of blotter paper to absorb water drops on a surface. 
-Mathematical analysis of the paths individual water drops were developed …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Wed, 11 Oct 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-10-11:/water-drop-impingement-on-surfaces.html</guid><category>impingement</category><category>impingement</category></item><item><title>Newsletter Archive</title><link>/newsletter-archive.html</link><description>&lt;p&gt;&lt;img alt="Several people using a library. 
-Many are seated at tables reading books. 
-There are book shelves, file cabinets for index cards, 
-and a microfische reader.
-" src="/images/GRClibrary1945.png"&gt;&lt;br&gt;
-&lt;em&gt;NACA Cleveland library, circa 1945.&lt;/em&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Newsletters are sent to subscribers. 
-The text is available here a few weeks after publication. &lt;/p&gt;
-&lt;p&gt;&lt;a href="/the-blast-from-the-past-newsletter.html"&gt;Info about the Blast from the Past Newsletter&lt;/a&gt;  &lt;/p&gt;
-&lt;h2&gt;Newsletters&lt;/h2&gt;
-&lt;p&gt;Links contained are not updated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="/newsletter_archive%2F9-30-2023.txt"&gt;9-30-2023&lt;/a&gt;&lt;br&gt;
-&lt;a href="/newsletter_archive%2F10-9-2023.txt"&gt;10-9-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F10-16-2023.txt"&gt;10-16-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F10-23-2023.txt"&gt;10-23-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F10-30-2023.txt"&gt;10-30-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F11-06-2023.txt"&gt;11-06-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F11-13-2023.txt"&gt;11-13-2023&lt;/a&gt; &lt;br&gt;
-&lt;a href="/newsletter_archive%2F01-08-2024.txt"&gt;01-08-2024&lt;/a&gt;&lt;br&gt;
-&lt;a href="/newsletter_archive%2F01-15-2024.txt"&gt;01-15-2024&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 30 Sep 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-09-30:/newsletter-archive.html</guid><category>misc</category><category>about</category><category>newsletter</category></item><item><title>The Blast from the Past Newsletter</title><link>/the-blast-from-the-past-newsletter.html</link><description>&lt;h3&gt;&lt;em&gt;“The greatest of all our problems is ice.”&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;"The situation changed in the mid-1920s when the intrepid aviators of the U.S. Air Mail Service attempted to maintain scheduled day-and-night operations between New York and Chicago... As one of their pilots noted at the time about the hazards of the New York-Chicago route, “the greatest of all our problems is ice.”" &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Figure 2 from NACA-TN-313. Sketches of ice formation on wings and wires. (From notes and sketches on numerous flights.)" src="/images/naca-tn-313/Figure2.png"&gt;&lt;br&gt;
-&lt;em&gt;From &lt;a href="/naca-tn-313.html"&gt;NACA-TN-313&lt;/a&gt;, 1929. &lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/em&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;To subscribe to the newsletter: &lt;a href="https://stats.sender.net/forms/dygqRa/view"&gt;Subscribe!&lt;/a&gt; (via sender.net)&lt;/p&gt;
-&lt;h2&gt;Discussion&lt;/h2&gt;
-&lt;p&gt;I have an email newsletter with the latest posts and other site-related news, 
-which you can receive regardless of the weather. 
-Another advantage of subscribing to the newsletter is access to the secret* blog drafts that are in-work, 
-before the public sees them, and access to the secret* newsletter archives. There is no cost to subscribe. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;[* Well, not so secret if one is acquainted with github.]&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Typical publishing sequence:  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;email newsletter, subscribers may …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 30 Sep 2023 12:00:00 -0700</pubDate><guid>tag:None,2023-09-30:/the-blast-from-the-past-newsletter.html</guid><category>misc</category><category>about</category><category>newsletter</category></item><item><title>Site Improvements</title><link>/site-improvements.html</link><description>&lt;h3&gt;&lt;em&gt;"I am surprised to find that there are so many details which have not been anticipated before ..."&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Reported in "Lew Rodert, Epistemological Liaison, and Thermal De-Icing at Ames".&lt;/em&gt; &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mastodon logo, a stylized pachyderm with a letter M." src="images%2Fmastodon_square.png"&gt;  &lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Since I started &lt;a href="/"&gt;"Blast from the Past: NACA Icing Publications"&lt;/a&gt; 
-20 months ago, I have made over 100 posts. 
-I have extensively revised some, and made improvements to all of them, so it is time to repost them. &lt;/p&gt;
-&lt;p&gt;I will be posting links and short summaries to them in the original sequence on mastodon &lt;a href="https://historians.social/@icinganalysis"&gt;historians.social/@icinganalysis&lt;/a&gt; 
-at a rate of three per week (about the pace that I originally posted them), so it will take almost a year to cycle through them. 
-And I do plan on also creating new posts.  &lt;/p&gt;
-&lt;p&gt;If you want to read at you own pace, you can go to the &lt;a href="/archives.html"&gt;Latest Posts&lt;/a&gt; 
-tab at the top of the page for the complete list of …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Sat, 16 Sep 2023 07:00:00 -0700</pubDate><guid>tag:None,2023-09-16:/site-improvements.html</guid><category>NACA</category><category>about</category></item></channel></rss>
+&lt;li&gt;Brun, Rinaldo J., and Mergler, Harry W.: Impingement of Water Droplets on a Cylinder in an Incompressible Flow Field and Evaluation of Rotating Multicylinder Method for Measurement of Droplet-Size Distribution, Volume-Median Droplet Size, and Liquid-Water Content …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Donald Cook</dc:creator><pubDate>Tue, 07 Nov 2023 12:00:00 -0800</pubDate><guid>tag:None,2023-11-07:/impingement-on-other-surfaces.html</guid><category>impingement</category><category>impingement</category></item></channel></rss>
